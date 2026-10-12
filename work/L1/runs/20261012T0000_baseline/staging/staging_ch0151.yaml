@@ -1,0 +1,294 @@
+episode: ch0151
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0151_オルヴァ_thinks_キシャル_p5114
+        quote: 青年は恋をした。 未来は最初から知っている。 しかし、記憶に残っていた経験は言いようもなく鮮烈だった。 回想し、遡り、その感触を確かめる。恋は激しく熱いのだとあらためて知る。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_オルヴァ_confesses_信仰_p5115
+        quote: ブレイスヴァの前では、幸福に添い遂げることも、不貞と裏切りと暴虐で全てを台無しにすることも、ひとつの信仰の形である。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_オルヴァ_loves_滅び_p5115
+        quote: 青年期のオルヴァ王は、絵画の中のキシャルに魅せられた。 キシャルの『時』を――滅びと死の美しさを愛したのだ。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_オルヴァ_has_property_役_p5118
+        quote: オルヴァはむしろ積極的に意思無き『役』となろうとしているようにも見えるが――それは逆に『役』や『地位』として形が固定されているという証拠だ。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_オルヴァ_fears_敗北_p5119
+        quote: 『寝取られ王』という性質から敗北を受け入れてしまう――どころか敗北を望んでしまう傾向がある。
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キシャル]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0151_キシャル_appears_as_王妃_p5114
+        quote: キシャルという妻は美しく、波打つ黒髪といい扁桃のような眼といい申し分のない王妃と言えた。
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_似顔絵]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0151_似顔絵_functions_as_四次元画法_p5114
+        quote: 写実的な絵画は、当世風の四次元画法で描かれていた。 幼いころのキシャル。少女として華やぎ始めたキシャル。成熟した女性にあと一歩で手が届くキシャル。女らしい姿に成長したキシャル。
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_画家]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0151_画家_dies_ブレイスヴァ_p5114
+        quote: 画家もまたこの傑作を書き終えたのち、自ら命を絶つことでブレイスヴァの下へ旅立ったのだ。おお、彼の魂にブレイスヴァの貪りあれ！
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルレッキーノ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0151_アルレッキーノ_says_シナモリアキラ_p5116
+        quote: 「シナモリアキラにトリシューラ。貴様ら馬鹿だろう」
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0151_グレンデルヒ_other_呪的侵入_p5116
+        quote: 並行して多方面から仕掛けられている呪的侵入の数々を防ぎきっているので文句も言えない。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_グレンデルヒ_uses_汎用型機械人形_p5116
+        quote: グレンデルヒは宿っている汎用型機械人形に道化の立体幻像を張り付けながら、ネット上でプレイ可能なカードゲームをやっている。それも五面同時打ちだ。
+        locator: {}
+        spoiler_after: ch0151
+    speech:
+      observations:
+      - event_ref: E_ch0151_グレンデルヒ_suspects_トリシューラ_p5118
+        quote: 貴様、制御しているドローンはもちろんのこと『マレブランケ』やシナモリアキラにも緊急用の制御手段を隠しているであろう。『名』はそのひとつだ。
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0151_コルセスカ_other_メッセージ_p5117
+        quote: 『無事だから心配するな。自分のことに集中しろ』というメッセージに、トリシューラは深い安心を覚えた。
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0151_トリシューラ_gives_氷球_p5117
+        quote: トリシューラの机の上に氷の球体が転がっている。 コルセスカが操る九つの紀元槍の制御盤――『氷球』だった。
+        locator: {}
+        spoiler_after: ch0151
+    speech:
+      observations:
+      - event_ref: E_ch0151_トリシューラ_thinks_安定_p5119
+        quote: グレンデルヒとオルヴァ。そしてセスカとルウテト。それぞれの存在維持のメソッド――その辺にアキラくん安定の鍵があると思わない？
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_トリシューラ_other_ファッションリーダー_p5120
+        quote: 私はいずれファッションリーダーになっていく『きぐるみの魔女』なの。ストリートから出てくるミームも勿論いいと思うけど、シーンを牽引していくのは私のブランドだから
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_トリシューラ_other_回収_p5131
+        quote: 「終わった？ 敵の死体分析したいからそのままにしといてね。回収斑向かわせる。え？ 本体逃がした？ 別にいいよ」
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_自動織機]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0151_自動織機_functions_as_計算機の雛形_p5119
+        quote: それはとても古めかしい、パンチカード式の自動織機。プログラムされた通りに複雑な模様を織ることが可能な、計算機の雛形とも言える機械。
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0151_レオ_other_亜竜人_p5120
+        quote: レオとカーインが呪術医院の中央棟一階のエントランスホールを歩いている。 つい先ほどまで二階の病室で名前を失った隻眼の亜竜人と面会していたが、あとを牙猪に任せることにして二人は先に退出したのだ。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_レオ_flees_チェーンソー男_p5134
+        quote: レオは柔らかい微笑みを作っていつものように対話を試みようとしたが――その時、少年の三角耳が動いた。くるりと振り返って全力で駆け出す。
+        locator: {}
+        spoiler_after: ch0151
+    speech:
+      observations:
+      - event_ref: E_ch0151_レオ_other_カーイン_p5132
+        quote: 「カーイン、行ってもいいよ」
+        locator: {}
+        spoiler_after: ch0151
+    visual:
+      observations:
+      - event_ref: E_ch0151_レオ_other_チェーンソー男_p5133
+        quote: その人影には両腕が無かった。 細い吐息がフェイスマスクから漏れて、頑丈な靴がリノリウムの床面を規則的に叩く。その後ろから浮遊しながらついてくる奇妙な影はドローンだろうか？
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_亜竜人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0151_亜竜人_other_凶暴_p5121
+        quote: 横柄、粗暴、我侭、自分本位、他人を利用できる道具程度にしか思っていない、上手くいかないとすぐに怒鳴り散らし腕力に訴える――その他さまざまなトラブルを引き起こす問題児。
+        locator: {}
+        spoiler_after: ch0151
+    visual:
+      observations:
+      - event_ref: E_ch0151_亜竜人_loses_記憶_p5121
+        quote: 男からはかつての巨大な呪力と威厳、そして身の内に溢れる自らの正義と信念といったものをすべて失っているように見えた。
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_牙猪]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0151_牙猪_helps_亜竜人_p5121
+        quote: とくに猪の男はどれだけ悪態を吐かれ、暴力を振るわれても辛抱強く相手に付き合っていた。 それが自分の役目なのだと、苦痛の色も見せずに牙猪は言う。
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0151_カーイン_observes_老人_p5123
+        quote: カーインは周囲を見渡し、耳を澄ませ、鼻で匂いを探り、足裏が捉える振動に細心の注意を払い、そして天井の照明を見た。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_カーイン_other_レオ_p5124
+        quote: カーインは鋭く影を踏みつけて『何か』を叩き潰すと同時に「疾っ」と鋭い呼気を発した。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_カーイン_defeats_老人_p5125
+        quote: カーインは迷うことなく貫手を主に向けた。 「信じられない」という表情。どろりと融けていくレオの全身。 基点を潰されて、悪意ある攻撃呪文の檻が崩壊していった。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_カーイン_other_誘惑_p5129
+        quote: カーインは喉から絞り出すような絶叫を迸らせた。 記録にある限り、カーインをここまで追い詰めたのはこの老人が初めてであり、その事実が周囲の人間を恐怖させていた。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_カーイン_deceives_老人_p5130
+        quote: カーインは錯乱した演技をしつつ密かに瘴気を飛ばしていた。そしてレゴンたちの経絡秘孔を突き、その制御を奪っていたのだった。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_カーイン_wounds_老人_p5130
+        quote: 鋭い貫手が迫り、老人の掌ごと心臓を穿つ。 続けて膝蹴り、掌底、肩への打ち下ろし、止めの貫手。
+        locator: {}
+        spoiler_after: ch0151
+    speech:
+      observations:
+      - event_ref: E_ch0151_カーイン_promises_勝利_p5132
+        quote: 「しばらくこの場を離れることをお許し下さい。シナモリアキラを倒し、安定した彼をレオ様の前に連れて来ることをお約束いたします」
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_老人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0151_老人_attacks_カーイン_p5124
+        quote: 風が唸る音と共に、鋭い攻防が立て続けに空間を引き裂いた。 丹田狙いの貫手を弾く拳、腕をとろうとする動きごと巻き込んで引きつけようとする罠、それらを囮として放った本命打としての膝蹴り、そして頭突き――いや違う、噛み付き。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_老人_attacks_カーイン_p5127
+        quote: 軍配が上がったのは老人の拳。 六淫を押し込まれ、打撃を受けてしまうカーイン。頭部を押さえて膝をついた。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_老人_deceives_カーイン_p5129
+        quote: 『七色表情筋トレーニング』によるカーインへの挑発行為だった。 カーインは容易く引っかかった。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_老人_escapes_本体_p5131
+        quote: いつの間にか頭部から抜け出していた小人は影の中に飛び込むとそのまま逃走していった。
+        locator: {}
+        spoiler_after: ch0151
+    speech:
+      observations:
+      - event_ref: E_ch0151_老人_reveals_吸血鬼_p5126
+        quote: 「はっ、抜かせガキ。てめえ吸血鬼じゃねえだろう」
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_老人_names_E-E_p5127
+        quote: 俺はこれを『Ｅ－Ｅ』と呼んでいる。最近になって拝借した名前だがな
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_老人_other_カーイン_p5128
+        quote: もう耐えなくてもいいんだ。欲望を解放しろよカーイン。好きに力を振るえ、気ままに生きろ。我慢は身体に毒だぜぇ？
+        locator: {}
+        spoiler_after: ch0151
+    visual:
+      observations:
+      - event_ref: E_ch0151_老人_transforms_ザッハーク_p5127
+        quote: その額には円形の穴が開いており、そこから脳細胞で構成されたような異形の小人が上半身をさらけ出していた。
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チェーンソー男]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0151_チェーンソー男_carries_生首_p5133
+        quote: その手からぶらりと垂れ下がるものは、二つの生首。 長めの髪の毛を掴まれている、蠍尾と銃士の、無惨な末路だった。
+        locator: {}
+        spoiler_after: ch0151
+    action:
+      observations:
+      - event_ref: E_ch0151_チェーンソー男_other_チェーンソー_p5134
+        quote: ゆっくりと、存在しない両腕が『創造』されていく。 それはチェーンソー。樹木を伐採するための機械。
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_チェーンソー男_other_レオ_p5135
+        quote: その彼をして対話不可能と判断するしかない怪人は、警備ドローンを破壊しながら少年を執拗に追いかける。
+        locator: {}
+        spoiler_after: ch0151
+    speech:
+      observations:
+      - event_ref: E_ch0151_チェーンソー男_says_除伐_p5134
+        quote: 男がゆっくりと口を開いて、言った。「除伐しよう」
+        locator: {}
+        spoiler_after: ch0151
+      - event_ref: E_ch0151_チェーンソー男_other_シナモリアキラ_p5135
+        quote: 男がそう名乗ったことは無いが、彼を『シナモリアキラ』と規定するのなら、その『異物』としての性質が当てはまるのかもしれなかった。
+        locator: {}
+        spoiler_after: ch0151
+  first_appearance_candidate: true

@@ -1,0 +1,250 @@
+episode: ch0221
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アサブ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0221_アサブ_escapes_捕縛_p7328
+        quote: ロードデンドロンの取り成しでアサブは監視付きという条件で捕縛を解除された。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_ティリビナ人]]'
+  entity_type: relationship
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0221_ティリビナ人_bonds_黒檀の民_p7328
+        quote: いがみ合っていたはずのティリビナ人と黒檀の民が、深い断絶を乗り越えようとする祝祭の光景。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0221_ユディーア_observes_祝祭_p7328
+        quote: 活気に満ちた第五階層の主街区を天眼による俯瞰知覚で眺めながら、ユディーアはぼんやりとオープンテラスの席に座ってストローでジュースを啜っていた。
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_ユディーア_uses_使い魔_p7329
+        quote: やれることと言えば、『使い魔』からの報告に目を通し、指示を下すことくらい。
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_ユディーア_fights_クレナリーザ_p7340
+        quote: なぜかユディーアはその時むきになって反論した。理由はわからない。そうしなければ、自分の中にある何かが弾けてしまう気がした。
+        locator: {}
+        spoiler_after: ch0221
+    speech:
+      observations:
+      - event_ref: E_ch0221_ユディーア_thinks_ロードデンドロン_p7329
+        quote: ロードデンドロンの方針転換はあまりに急だ。背後にいるであろうスーリウムの存在と、機械女王トリシューラの暗殺計画を踏まえると、無条件で信用するのは危険過ぎる。
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_ユディーア_thinks_支配_p7330
+        quote: ちょっとした女王様気分。自分の価値が他者を支配している、そのことに対する全能感が心を満たしていくようだった。
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_ユディーア_suspects_アヴロノ_p7332
+        quote: 関わっているのは十中八九、ネビロン氏族のアヴロノたちだろう。
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_ユディーア_thinks_王殺し_p7332
+        quote: そして、そのような後ろ暗い連中が出入りする勢力であれば、『王殺し』が潜り込むための隙間も大きくなるはずだというのがユディーアの推測だった。
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_ユディーア_fears_衝動_p7333
+        quote: 腹いせに使い魔どもの妻子でも贄に捧げさせようか。不穏な思考が脳裏を過ぎる。
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_ユディーア_remembers_エルフェンバイン_p7338
+        quote: エルフェンバインの塔。それはあるはずのない記憶。
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_ユディーア_says_結論_p7352
+        quote: 「やっぱり、今のあたしにはまだわかんないよ」それが結論。いつまでも答えを留保して、正解が訪れるのを待ち続ける。
+        locator: {}
+        spoiler_after: ch0221
+    visual:
+      observations:
+      - event_ref: E_ch0221_ユディーア_transforms_鉤爪_p7344
+        quote: 右手を見て愕然とする。自分でも気づかぬうちに鉤爪が長く伸びていた。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロードデンドロン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0221_ロードデンドロン_makes_裁定_p7328
+        quote: 法秩序よりも政治的判断を優先させた機械女王を合理的と見るべきか危ういと見るべきかはともかく、結果的に生まれた光景は確実に新しい流れを生み始めていた。
+        locator: {}
+        spoiler_after: ch0221
+    visual:
+      observations:
+      - event_ref: E_ch0221_ロードデンドロン_appears_マンモス_p7334
+        quote: 今はちょうど、動物たちの群れと合流したところだ。悠々と歩く毛長曲牙象に乗せてくれないかとサーカスの一座に頼み込んでいるマンモスらしい。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ・オリジン十二人衆]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0221_シナモリアキラ・オリジン十二人衆_appears_報告_p7331
+        quote: 往来で全裸排泄行為をしようとして拘束された迷惑系動画配信者『シナモリアキラ・オリジン十二人衆』に対して本選に参加する予定のプロレーサー兄弟が不快感を表明。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ネオジェネシス]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0221_ネオジェネシス_dies_事故死_p7331
+        quote: 魂と運気をチップにする違法儀式『妖精博打』で本選出場予定の黒衣戦略レーサーが圧勝し、紀神アエルガ＝ミクニーを降臨させよしょうたいふめいうとしていた『ネオジェネシス』を名乗るカード賭博集団が事故死。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0221_リーナ_confesses_激怒_p7331
+        quote: 当主リーナがこれに激怒して犯人を全て逮捕せよと命じたとのこと。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_十戒]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0221_十戒_captures_占い師_p7331
+        quote: 『十戒』による占い師拉致現場を発見した軍用無人機が犯人たちを追跡、抵抗した全員を呪殺して被害者を救出。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_クロウサー分家]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0221_クロウサー分家_other_リーナ_p7332
+        quote: 分家たちは若く未熟なリーナを当主にさせないため、自派閥が抱き込んだ選手に勝たせることで発言力を得ようとするはず。その上で分家当主とリーナを結婚させればクロウサー家を掌握できる。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_祝祭]]'
+  entity_type: motif
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0221_祝祭_appears_as_動物園_p7333
+        quote: そこに多才な動物たちを従えるトレーナーたちが加わると、何かの博覧会か移動式の動物園のような様相を呈してくる。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0221_トリシューラ_makes_祝祭_p7334
+        quote: トリシューラは実際うまくやっている。万の獣が集う祝祭。これこそがガロアンディアンの善き伝統というものだ。
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレナリーザ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0221_クレナリーザ_appears_ユディーア_p7335
+        quote: いつのまにか対面の席に何者かが座っていることに気が付いた。パラソルの影の下、時代がかかったドレスに膨らんだスカートが目を惹く。闇に重く沈んでいく死の不吉。髑髏の貴婦人がそこにいた。
+        locator: {}
+        spoiler_after: ch0221
+    speech:
+      observations:
+      - event_ref: E_ch0221_クレナリーザ_says_愚かしさ_p7335
+        quote: 「可愛らしさとは愚かしさに似ている。この平和な光景がそうであるように」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_asks_踏みつけ処刑_p7336
+        quote: 「『踏みつけ処刑』をご存じ？」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_杖_p7337
+        quote: 「残酷さなど陳腐なものよ。後衛的な俗悪さを愛するのでなければ知らなくてもかまわない。あなたは杖の座ではないのだから」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_teaches_象_p7337
+        quote: 「それが象と呼ばれる生き物たち。彼らはかつてパンゲオンを絵画や彫刻に落とし込む際にモチーフに使われたこともあったのよ」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_沼_p7338
+        quote: 「そしてそこから命が生まれていった。多くの神話が起源を語るようにね。奇異なる鼻は想像力の源泉となったのでしょう。象の生息域は大食漢を養える豊かな地とされ、底無し沼はその恐ろしさと水源としての価値から地母神キュトスのいる世界に繋がっているとも、キュトスそのものであるともされた」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_歴史_p7339
+        quote: 「過去など変わる。歴史など変えられる。何も呪術など用いずとも、風と火が全てを時空から消していく。美しい呪文を重ねればその形さえ変えられてしまう」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_罪_p7339
+        quote: 「罪を遡り続ければ、やがて先住権の問題に行き着く。歴史を経た若き種族ほど身に覚えのない罪を背負わされて戸惑うものよ。緑の聖地を奪われたティリビナ人や黒檀の民も例外ではない。万民の平等を謳うガロアンディアンの民も同じ」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_ティシムガンド_p7340
+        quote: 「金髪黒肌の英雄たちがもたらしたティシムガンドの繁栄は、大きく穏やかなカシュタクル人を根絶やしにすることで完成を見た。アルラウネがレルプレアとスーリウム、ウェズロウに託した輝かしく美しい世界に暗く醜いものは存在を許されなかった。ねえ、樹皮の肌ではない『人らしい美貌』とはいったいどういう皮肉だと思う？」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_言語_p7341
+        quote: 「言語支配者ダーカンシェルとその子アルトは獣に言葉を与えることができたし、逆に奪うこともできた。神話が残っているということは、それに類する過去があったということ」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_感情_p7342
+        quote: 「心を押し殺して、本当のことを見ないふり。全てはそらごと、ああなんて空しい。善き社会のために制御された感情は、果たして無かったことになるのかしら」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_鼻_p7347
+        quote: 「あなたが、トライデントの『鼻』なんですか？」「至高天主の作った下らないおまじないだけどね。水増しなのか呪縛対象を増やしたいからなのか、やたらと数が増えていたけれど、要するに参照元はセフィロトでしょう？
+          王冠から流出して王国までを形成する、神秘主義の例のあれ」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_道具_p7348
+        quote: 「道具とは使われるためにあるのよ、愚かで愛らしいユディーア。そこで縮こまっているセリアック＝ニアが情報端末に化けているように、鮮血呪から派生した杖の神秘は気軽に扱えるくらいがちょうどいい」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_ハグレス_p7350
+        quote: 「愚かなハグレスの遊び相手には私がなってあげる。運命は静かに巡ることでしょう」
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_says_選択_p7351
+        quote: 「お前が自身を知らぬままでいることを選ぶのであれば、その鮮血が染め上げるのは血の畑となるでしょう。お前は呪いをまだ知らない。その心が望んでいる救済の地はどこにあるのか、想像してみたことはある？
+          漠然とした夢想、白馬の王子様を待ち望む怠惰さはお前に赦しを与えない」
+        locator: {}
+        spoiler_after: ch0221
+    action:
+      observations:
+      - event_ref: E_ch0221_クレナリーザ_helps_ユディーア_p7344
+        quote: 「戻ってきなさい。まだ裏返るには早い」世界に光が満ちる。闇色の世界は既にどこにもなかった。
+        locator: {}
+        spoiler_after: ch0221
+      - event_ref: E_ch0221_クレナリーザ_takes_銀貨_p7345
+        quote: 銀貨だ。ユディーアはいつの間にか自分の中から『何か』が抜き取られていることに気が付いた。あり得ない。この禁呪は『塔』の秘奥。『銀貨』をユディーアから奪うなんてことは鮮血呪の正統な後継者であるトリシューラでさえ不可能な芸当のはず。
+        locator: {}
+        spoiler_after: ch0221
+    name:
+      observations:
+      - event_ref: E_ch0221_クレナリーザ_names_クレナリーザ_p7345
+        quote: 「私の名はクレナリーザ。死と再生の神ハザーリャの巫女、そしてヒュールサスの女王が代々受け継ぐ『沼の祭司』を示す記号」
+        locator: {}
+        spoiler_after: ch0221
+  first_appearance_candidate: true

@@ -1,0 +1,247 @@
+episode: ch0161
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アルト・イヴニル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0161_アルト・イヴニル_says_神曲の引用_p5459
+        quote: 「『君たちの名声は、 草や葉の色のように、 外へ出たとみるまにまた消える。 葉が大地からのびるのは太陽のおかげだが、 その太陽に照らされて色もあせる』」
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_アルト・イヴニル_threatens_トリシューラ_p5460
+        quote: 「来るならば来るがいいトリシューラ。相手をしてやろう――もっとも、お前がミヒトネッセの張り巡らせた罠を突破できればの話だが」
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ベルグ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0161_ベルグ_asks_アルト・イヴニル_p5459
+        quote: 「適当に衒学ムーブしてマウントとる相手もいないのに唐突だよ？ 大丈夫？」
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_従僕たち]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0161_従僕たち_reveals_通信障害_p5460
+        quote: 「瘴気が濃くなりすぎて通信障害が発生してるんだ。もうこっちの情報が届いてないよアルト。どうしよう、せっかく格好良く決めようとしたのにこのままじゃ恥ずかしいよ！
+          上に戻ってやりなおす？」
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_アキラ]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0161_アキラ_observes_自身の身体_p5461
+        quote: ウィッチオーダーも氷の腕も無い。ただ生身の真っ白い肌だけが左右についている。
+        locator: {}
+        spoiler_after: ch0161
+    action:
+      observations:
+      - event_ref: E_ch0161_アキラ_remembers_シナモリ・アキラ_p5461
+        quote: あまたの可能性の中から最も『俺』に適合する名前を手繰り寄せる。そうだ、俺の名は――。「シナモリ、アキラ――？」
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_アキラ_helps_リールエルバ_p5462
+        quote: 奇妙な事に光の差さない暗闇の中でも周囲の状況は手に取るようにわかった。この身体には暗視機能でも付いているのだろうか。
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_アキラ_observes_コキュートス_p5475
+        quote: かすかに、氷の右腕が共鳴しているのを感じた。彼女の浄界、『コキュートス』が活性化している気配も。
+        locator: {}
+        spoiler_after: ch0161
+    speech:
+      observations:
+      - event_ref: E_ch0161_アキラ_observes_オルヴァの異名_p5474
+        quote: 「悲しい逸話を揶揄されたんじゃなくて、特殊な性癖だったから付けられたの？」
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0161_リールエルバ_asks_アキラ_p5463
+        quote: 「こっち、見ないでちょうだい――恥ずかしいから」
+        locator: {}
+        spoiler_after: ch0161
+    action:
+      observations:
+      - event_ref: E_ch0161_リールエルバ_attacks_アキラ_p5463
+        quote: 「いいからあっちを向きなさい、この変態――！」悲鳴と共に使い魔らしきコウモリが飛んできた。
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イツノ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0161_イツノ_names_自身_p5464
+        quote: 『大蛇』といういまひとつ経緯の分からないままにトリシューラ陣営に加わった女は、自らをイツノと名乗った。
+        locator: {}
+        spoiler_after: ch0161
+    speech:
+      observations:
+      - event_ref: E_ch0161_イツノ_says_アキラへの呼び方_p5464
+        quote: 「わたしにーさま、冷たい」「その呼び方もややこしいんだよお前は――イツノ、でいいんだったか？」
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_イツノ_reveals_星見の塔の動向_p5466
+        quote: 「まず悪い知らせ。『星見の塔』で大きな動きがあった。ラクルラール派の主要な構成員が第五階層で大規模な儀式を遂行しようとしていて、『塔』を離れた。
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_イツノ_reveals_クレアノーズの救出_p5467
+        quote: 「良い知らせは、ラクルラールの支配の糸が弱まったおかげで囚われていたクレアノーズお姉さまの救出に成功した事。
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ道場]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0161_サイバーカラテ道場_functions_as_危険人物判定_p5464
+        quote: トリシューラが用意してくれたばかりの義体が自動的に拒否反応を起こして仰け反った。『サイバーカラテ道場』に危険人物判定されている。
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0161_オルヴァ_other_カシュラムの滅亡_p5465
+        quote: 何せおとなしくなるまでに三度ダモクレスの剣が落ちて四度カシュラムが滅んだくらいだ。
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_オルヴァ_appears_ワームホール_p5472
+        quote: 断裂した空間に開いたワームホールから豊かな白髭をたくわえた老人がぬっと顔を出す。
+        locator: {}
+        spoiler_after: ch0161
+    speech:
+      observations:
+      - event_ref: E_ch0161_オルヴァ_has_property_破壊衝動_p5465
+        quote: 相変わらずブレイスヴァブレイスヴァ叫んで隙あらば破滅を招こうとする狂人を取り押さえるのに一晩を要した。
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_オルヴァ_confesses_女神への執着_p5473
+        quote: 「そう――女神を救い出したあかつきには、私の前でお前がその手に掻き抱き口づけるのだ――私に見せつけるように、激しく、いやらしく、情熱的に、私を苦しめるように！」
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_オルヴァ_reveals_トラウマ_p5473
+        quote: 「うっうっうっ――何も知らぬ父上が遠方へ会議に赴いている間、母上は別の男の上で腰を振って――ううう」
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0161_トリシューラ_wears_動物着ぐるみ_p5465
+        quote: 何故か今日の装いはもこっとした動物着ぐるみ。どういうファッションなのかわからない。もしかして寝間着か？
+        locator: {}
+        spoiler_after: ch0161
+    speech:
+      observations:
+      - event_ref: E_ch0161_トリシューラ_other_第三位のラクルラール_p5466
+        quote: 「あのね、第一位のラクルラールって誰も見たことが無いんだ。実質的にトップに立っているのは第三位――推測だけど、第一位は『総体としてのラクルラール』なんだと思う。
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_トリシューラ_other_パンデミック_p5469
+        quote: 「パンデミックが発生しそうなので一緒に阻止しよう」
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_トリシューラ_observes_音ゲー要素_p5475
+        quote: 「大変！ ここで地下アイドルランクを上げないとこれより先のフロアには進めないみたい！ それとなんかこの迷宮、音ゲーが混じってる！」
+        locator: {}
+        spoiler_after: ch0161
+    action:
+      observations:
+      - event_ref: E_ch0161_トリシューラ_other_技術解禁_p5467
+        quote: 「いよーし、これで色んな技術が解禁だー！ 『杖の座』の勢力も拡大できるし支援も本格的に受けられる！ やったよアキラくん！」
+        locator: {}
+        spoiler_after: ch0161
+      - event_ref: E_ch0161_トリシューラ_other_レオ_p5469
+        quote: 「防疫・公衆衛生ドローンの指揮権をレオに預けて第五階層の対処は一任してある。
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ウィルス]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0161_ウィルス_functions_as_呪的ミアズマ_p5469
+        quote: 最悪なのはこれが呪的なミアズマでもあること。影や暗闇を伝播するこの『呪い』は夜間に急激に広がり、スキリシア経由で全世界に拡散する恐れがある
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_白骨迷宮]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0161_白骨迷宮_is_located_東地区生産プラント地下_p5470
+        quote: 東地区に位置する階層周辺部の生産プラント。その真下に広がる下水道の更に下。「白骨迷宮――現在、リールエルバを誘拐した邪教集団が根城していると推測されている地下遺跡の最下層。
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0161_カーイン_other_呪的ミアズマ対処_p5471
+        quote: 「呪的なミアズマであれば私の得意分野だ。対処は任せてもらって構わない」
+        locator: {}
+        spoiler_after: ch0161
+    action:
+      observations:
+      - event_ref: E_ch0161_カーイン_helps_オルヴァ_p5473
+        quote: さめざめと泣く老人を哀れに思ったか、カーインがハンカチを貸してやる。
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0161_レオ_other_カーイン_p5471
+        quote: 「というより、レオ様の指示だ。この拠点における防備はルバーブやグレンデルヒに任せて、私には原因を断ち切るようにと」
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラリスキャニア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0161_ラリスキャニア_appears_地下アイドル_p5474
+        quote: 「いい子ね子豚ちゃんたち！ それじゃあ奇跡の復活を果たしたこのラリスキャニアちゃんが、惨めな子豚ちゃんたちと触手で握手してあげる！」
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_一行]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0161_一行_arrives_変貌した白骨迷宮_p5474
+        quote: 「ぶひっ、ぶひぃぃぃぃ！！」「ほうら、豚は豚らしく可愛くぶひっと鳴いてご覧なさい？」
+        locator: {}
+        spoiler_after: ch0161
+  first_appearance_candidate: true

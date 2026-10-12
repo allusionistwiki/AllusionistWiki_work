@@ -1,0 +1,257 @@
+episode: ch0146
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0146_ハルベルト_breaks_ティーカップ_p4969
+        quote: ハルベルトは勢い良く立ち上がろうとして、熱いロクゼン茶を膝の上に落っことした。火傷こそ免れたがびっくりあたふたしてしまい、ティーカップを割ってしまう。
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_ハルベルト_thinks_言語魔術師試験_p4969
+        quote: 手元の端末で二月後に迫った言語魔術師試験の予想問題の作成を行っていた。
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_ハルベルト_uses_使い魔_p4970
+        quote: メイファーラに差し出されたハンカチで膝を拭き、使い魔を呼び出して床の掃除と後片付けを命じると、目の端を袖で拭って言った。
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_ハルベルト_travels_チョコレートリリーの拠点_p4971
+        quote: メイファーラに手を引かれ、ハルベルトは遅れがちになりながらも必死に走った。ばたばたした走りはお世辞にも綺麗なフォームとは言えず、典型的な運動音痴であることを全力で主張している。
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_ハルベルト_other_チョコ化現象_p4978
+        quote: 「別の肉体を用意してもチョコ化する。つまりばかアズの意思と霊体、そして魂が存在レベルでチョコ化を求めているということ」
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_ハルベルト_stops_ミルーニャ_p4979
+        quote: ハルベルトは仮想使い魔を召喚、ミルーニャの動きを妨害する。「断固阻止。アズをぺろぺろすることは許さない」
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_ハルベルト_conceals_メッセージカード_p4994
+        quote: どうにか守りきったメッセージカードを服の中に仕舞い込んで、後で誰にも見られないように処分しようと決意する。
+        locator: {}
+        spoiler_after: ch0146
+    relationship:
+      observations:
+      - event_ref: E_ch0146_ハルベルト_thinks_弟子_p4969
+        quote: 何より、いつも傍に手のかかる姉妹のような弟子がいてくれる。 そのことを思うとハルベルトの心はうきうきと弾んで、故郷の低重力区画で遊んでいた頃のように飛び跳ねたくなってしまうのだった。
+        locator: {}
+        spoiler_after: ch0146
+    visual:
+      observations:
+      - event_ref: E_ch0146_ハルベルト_appears_as_ウサギ_p4970
+        quote: 今日はいつものフードは後ろに倒しているので、外に露出しているウサギのふわふわ垂れ耳が思い切り持ち上がってしまう。
+        locator: {}
+        spoiler_after: ch0146
+    speech:
+      observations:
+      - event_ref: E_ch0146_ハルベルト_promises_アズーリア_p4985
+        quote: 「待ってて。今、ハルが最高のチョコレートを作ってあげるから」
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_ハルベルト_other_展開_p4991
+        quote: 「違うそうじゃない！ みんながそれぞれの方法でアズチョコに挑むけどそれでも成果は上がらず、最後にハルが渡したチョコと必死の呼びかけでアズチョコに亀裂が、そして飛び出してくるアズ、受け止めるハル、そういう流れのはず！」
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メイファーラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0146_メイファーラ_arrives_ハルベルト_p4969
+        quote: 「ハルベルト！ 大変、アズーリアが大変なことに――！」 息せき切ってメイファーラがハルベルトの部屋に駆け込んできたのは、とある昼下がりのことだった。
+        locator: {}
+        spoiler_after: ch0146
+    visual:
+      observations:
+      - event_ref: E_ch0146_メイファーラ_wears_サロペットスカート_p4970
+        quote: 今日はオフなのか胸当てのある吊りスカート――いわゆるサロペットスカートにボーダー柄のシャツ、レギンスにブーツという服装だった。
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_チョコレートリリー]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0146_チョコレートリリー_is_located_星見の塔_p4971
+        quote: ハルベルトもメイファーラも智神の盾――『星見の塔』が『松明の騎士団』の内部に作った研究機関――が有する宿舎で寝泊まりしているが、それとは別に『チョコレートリリー』名義で借りている大きな部屋も彼女たちの拠点である。
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0146_アズーリア_transforms_等身大チョコレート_p4972
+        quote: キッチンとひと繋がりになった食堂には、等身大チョコレートと化したアズーリアが『どん』とばかりに鎮座していた。
+        locator: {}
+        spoiler_after: ch0146
+    action:
+      observations:
+      - event_ref: E_ch0146_アズーリア_uses_おこた_p4972
+        quote: 中でも『おこたぬくぬく目おこたから出たくない科のいきもの』へと変身を遂げたアズーリアは文字通り四六時中おこたの中から出ようとせず、『鈍足の異名を持ち赤外線を自在に操る怠惰なる修道騎士』と呼ばれるまでになっていた。
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_アズーリア_transforms_人間_p4990
+        quote: そして一瞬でチョコの殻を破って飛び出してくるアズーリア。 全員がすっころんだ。
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_アズーリア_other_パウンドケーキ_p4994
+        quote: 「おいしー♪ ほんのりビターでオレンジ風味、それでいてすっきりー！ ありがとうハルベルト、私やっぱりチョコじゃなくて良かった！ チョコの美味しさを味わえないもんね！」
+        locator: {}
+        spoiler_after: ch0146
+    speech:
+      observations:
+      - event_ref: E_ch0146_アズーリア_confesses_チョコへの執着_p4975
+        quote: 「世界が私へのチョコを否定するというのなら――私がチョコになる」 こうして、残酷な世界の摂理に抗うことを決めた英雄はチョコレートを化身、チョ虚無である現世を救済せんとその身を捧げたのであった――。
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0146_トリシューラ_other_おこた_p4973
+        quote: 例によって新しいもの好きなトリシューラの仕業であった。 おこたの開発と広報にも関わったトリシューラの『ル・コルシをコルシにかけてブラセロとサンダリ』などといった意味不明な発言が話題を呼び、地上でもそこそこのヒット商品となったのは記憶に新しい。
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0146_セリアック＝ニア_hates_オレンジ_p4974
+        quote: ともあれセリアック＝ニアは激烈な反応を示した。「にあーっ！」 とばかりに拒絶され、おまけに勢いよく払いのけられたものだからチョコレートの包みは放物線を描いてあさっての方向へ。
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0146_プリエステラ_breaks_チョコレート_p4974
+        quote: 運の悪いことに落ちた場所は入口近くで、それと知らずにやってきたプリエステラがばきりと踏みつけてしまう。
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0146_ミルーニャ_other_疑似細菌_p4977
+        quote: 「こんなこともあろうかと、昔解析して培養させていた私の万能細胞にアズーリア様の疑似細菌と摸倣子パターンを組み込んで、肉体のクローンを用意しておいたんですよ。これなら『再召喚』した時に強靱な物理実体を得られるでしょう？」
+        locator: {}
+        spoiler_after: ch0146
+    action:
+      observations:
+      - event_ref: E_ch0146_ミルーニャ_makes_クローン肉体_p4977
+        quote: 「万能細胞クローンで代わりの肉体を起動してみましたけど駄目でしたー！ どうしましょう、アズーリア様ー！」 わりと本気で涙目のミルーニャ。彼女の前には等身大アズーリアチョコが鎮座していた。
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_ミルーニャ_attacks_アズーリアチョコ_p4979
+        quote: そしてミルーニャがサリアの発言に天啓を受けたかの如く背筋を伸ばし、素早くチョコに身を寄せて舌を出した。
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_ミルーニャ_makes_ハート型チョコレート_p4988
+        quote: 「ふ、ふふ。やり遂げましたよ――リーナ、これを。どうか、アズーリア様に、渡して――がくっ」 自分で「がくっ」と口にして気絶するミルーニャ。
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0146_リーナ_says_子供を作る_p4977
+        quote: 「あーそっか、先輩のあれ、勝手に子供でも作ろうとしてんのかと思った」
+        locator: {}
+        spoiler_after: ch0146
+    action:
+      observations:
+      - event_ref: E_ch0146_リーナ_other_SNS_p4978
+        quote: 「『友達がチョコ化したから復活試したらそっちもチョコ化したよ～どうしよ～』っと送信」
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_リーナ_gives_高級チョコ_p4990
+        quote: 「財力と権力にモノを言わせて有名店のチョコをかき集めてきたよ！ あとクロウサー家と繋がりがある有名店のパティシエに片っ端から声かけて超特急でオーダーメイドチョコ菓子作らせた！
+          どうだ食べたいだろう！」
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0146_リールエルバ_suspects_フィリス_p4978
+        quote: 「『まさか、左手の『フィリス』でアカシックレコードにアクセスして自らの存在をチョコに改竄し続けているとでもいうの？』と姉様は驚愕しています。
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_リールエルバ_other_親睦会_p4992
+        quote: 「『こんな風にチョコレート作りを通して下僕たちとティリビナの民の親睦を深めるのはどうかしら。軋轢や衝突はあるでしょうけれど、こうした催し事には流れを変える力があると思うわ』と姉様はおっしゃっています。
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サリア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0146_サリア_other_鹿鍋_p4979
+        quote: 「鹿鍋にでもすればびっくりして元に戻るんじゃないの。アズーリアはここで死ぬようなコじゃないし、ものは試しで。本当においしくないのか確かめてやる」
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラーゼフ・ピュクシス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0146_ラーゼフ・ピュクシス_arrives_食堂_p4980
+        quote: いつの間にか姿を消していたメイファーラが連れてきたのは明らかに手入れ不足でぼさぼさなのにきめ細やかなショートヘアと鋭利な美貌を眼鏡で飾った白衣の女性。徹夜明けなのか隈のできた目でじろりとその場にいる一同を睨む。
+        locator: {}
+        spoiler_after: ch0146
+    relationship:
+      observations:
+      - event_ref: E_ch0146_ラーゼフ・ピュクシス_functions_as_主治医_p4980
+        quote: 『智神の盾』が誇る頭脳、ラーゼフ・ピュクシス。アズーリアの装備だけでなく本人のメディカルチェックなどもこなす彼女は、いわばアズーリアのことを知り尽くした主治医のようなものだ。
+        locator: {}
+        spoiler_after: ch0146
+    speech:
+      observations:
+      - event_ref: E_ch0146_ラーゼフ・ピュクシス_names_ウルチオ_p4982
+        quote: 「号は無色、性は災厄、紀源は希望、名は『ウルチオ』――フレーム制限。最適な未来を測定する」
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ピュクシス]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0146_ピュクシス_has_property_名の変更_p4983
+        quote: 普通、人の本質をあらわす『まことの名』を変えることはできない。
+        locator: {}
+        spoiler_after: ch0146
+    speech:
+      observations:
+      - event_ref: E_ch0146_ピュクシス_promises_解決策_p4984
+        quote: 「最適な未来は一つだ。アズーリアの心が求める素晴らしいチョコを作って与えること。それのみがこのチョコバカ、いやバカチョコを飢餓の牢獄から解き放つ」
+        locator: {}
+        spoiler_after: ch0146
+      - event_ref: E_ch0146_ピュクシス_reveals_チョコ化の原因_p4984
+        quote: 「アズーリアがチョコ化しているのは、チョコ生命が飢えにさらされたからに他ならないチョコ。魂の危機が生存欲求を高めた結果、チョコ生存本能がチョコ化を選択したというわけだチョコ」
+        locator: {}
+        spoiler_after: ch0146
+  first_appearance_candidate: true

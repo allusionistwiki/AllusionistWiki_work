@@ -1,0 +1,290 @@
+chapter: ch0073
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 5
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0073_世界槍_has_property_自己相似形_p2720]]'
+  object: '[[ME_sierpinski_carpet]]'
+  claim: 世界槍の構造は、正方形を9分割し中央を取り除く処理を繰り返すフラクタル幾何学（シェルピンスキーのギャスケット）の三次元版として記述されている。
+  quote: 正方形をより小さい合同な正方形に九分割し、中央の正方形を取り除く。同じ処理をそれぞれ残りの八つの正方形に適用していくことで、自己相似な形を作り上げ続けているのである。
+  paragraph: p2720
+  confidence: explicit
+  quotes:
+  - quote: 正方形をより小さい合同な正方形に九分割し、中央の正方形を取り除く。同じ処理をそれぞれ残りの八つの正方形に適用していくことで、自己相似な形を作り上げ続けているのである。
+    paragraph: p2720
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0073_ミルーニャ_uses_サイバーカラテアプリ_p2754]]'
+  object: '[[ME_augmented_reality]]'
+  claim: サイバーカラテアプリによる眼鏡の映像書き換えは、AR技術を用いて物理世界に仮想情報を重ね合わせ、知覚を改変する仕組みに相当する。
+  quote: 眼鏡に表示される映像を書き換えて人々に新しい現実を見せる。眼鏡をかけていない人には幻覚ウィルスが作用していく。
+  paragraph: p2754
+  confidence: strong
+  quotes:
+  - quote: 眼鏡に表示される映像を書き換えて人々に新しい現実を見せる。眼鏡をかけていない人には幻覚ウィルスが作用していく。
+    paragraph: p2754
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0073_アズーリア_says_二重スリット実験_p2755]]'
+  object: '[[ME_quantum_superposition]]'
+  claim: 矛盾する二つの認識（杖的・邪視的）を同時に成立させる手法は、量子力学における二重スリット実験の重ね合わせ状態のアナロジーとして提示されている。
+  quote: それは二重スリット実験で杖使いが観測する極微レベルでの粒子の振る舞いのように。量子力学と導波理論のように。重ね合わせ。どちらとも言える。
+  paragraph: p2755
+  confidence: explicit
+  quotes:
+  - quote: それは二重スリット実験で杖使いが観測する極微レベルでの粒子の振る舞いのように。量子力学と導波理論のように。重ね合わせ。どちらとも言える。
+    paragraph: p2755
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0073_サイバーカラテ使い_other_呪文_p2767]]'
+  object: '[[ME_open_source_development]]'
+  claim: 呪文の構築をサイバーカラテ使いが情報を共有し最適化していく様子は、オープンソースソフトウェア開発におけるコミュニティによるコード共有と改善のプロセスに似ている。
+  quote: あらゆる呪術はオープンソースであるべきです！ 今こそ、秘匿された言理の妖精の本質を開示するんですよ！
+  paragraph: p2763
+  confidence: strong
+  quotes:
+  - quote: あらゆる呪術はオープンソースであるべきです！ 今こそ、秘匿された言理の妖精の本質を開示するんですよ！
+    paragraph: p2763
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0073_ヲルヲーラ_threatens_人類_p2735]]'
+  object: '[[ME_colonialism]]'
+  claim: 多世界連合が人類を「未成熟な子供」「土着民族」と定義し、管理・教育を宣言する言説は、植民地支配における文明化の使命（civilizing mission）のレトリックを模倣している。
+  quote: 原始的な土人の皆さんには我々の導きに従っていただきます。序列化というあなた方のルール、槍神教の正しさを、更なる正義で修正して最適化して差し上げましょう。
+  paragraph: p2735
+  confidence: strong
+  quotes:
+  - quote: 原始的な土人の皆さんには我々の導きに従っていただきます。序列化というあなた方のルール、槍神教の正しさを、更なる正義で修正して最適化して差し上げましょう。
+    paragraph: p2735
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0073_カイン_says_沼女現象_p2732]]'
+  object: '[[ME_philosophical_zombie]]'
+  claim: 「哲学的ゾンビ」という概念は、心（クオリア）を持たないが物理的には人間と区別がつかない存在という哲学思想を、本作の「アストラル体を持たない者」という設定に適用したものである。
+  quote: 一定の確率で、稲妻で死んだ奴が哲学的ゾンビになって復活するっていう
+  paragraph: p2732
+  confidence: explicit
+  quotes:
+  - quote: 一定の確率で、稲妻で死んだ奴が哲学的ゾンビになって復活するっていう
+    paragraph: p2732
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0073_マリー_uses_思考の根茎_p2747]]'
+  object: '[[ME_neural_network]]'
+  claim: 脳内の電気信号を増幅して呪文とする「思考の根茎」は、神経ネットワークのシグナル伝達を物理的なエネルギー放出（雷撃）として可視化するメタファーである。
+  quote: 頭部から放たれる呪文の雷撃は、沼女として再構成された脳内で発生している電気信号を増幅して呪文として放つ呪術、【思考の根茎】だ。
+  paragraph: p2747
+  confidence: moderate
+  quotes:
+  - quote: 頭部から放たれる呪文の雷撃は、沼女として再構成された脳内で発生している電気信号を増幅して呪文として放つ呪術、【思考の根茎】だ。
+    paragraph: p2747
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0073_アズーリア_uses_連関合成_p2740]]'
+  object: '[[ME_color_mixing]]'
+  claim: 異なる属性（吸血鬼、猫、etc）を持つ存在を融合させる「連関合成」は、光の三原色（藍、緑、黄）を混ぜて新しい色（赤）を生み出す加色混合の原理に準拠している。
+  quote: 藍、緑、黄の明るい三色が一つに凝縮され、その中には含まれない色が燃えるような輝きを爆発させる。
+  paragraph: p2740
+  confidence: strong
+  quotes:
+  - quote: 藍、緑、黄の明るい三色が一つに凝縮され、その中には含まれない色が燃えるような輝きを爆発させる。
+    paragraph: p2740
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0073_アズーリア_says_アストラル体_p2748]]'
+  object: '[[ME_ui_metaphor]]'
+  claim: アストラル界（GUI）とグラマー界（TUI）の関係は、コンピュータのユーザーインターフェースにおける視覚的表現とテキスト表現の対比として描かれている。
+  quote: グラフィカルユーザーインターフェースであるアストラル界は、テキストユーザーインターフェースであるグラマー界の言い換えに過ぎない。
+  paragraph: p2748
+  confidence: explicit
+  quotes:
+  - quote: グラフィカルユーザーインターフェースであるアストラル界は、テキストユーザーインターフェースであるグラマー界の言い換えに過ぎない。
+    paragraph: p2748
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0073_アズーリア_uses_言理の妖精語りて曰く_p2765]]'
+  object: '[[ME_meme_viral_spread]]'
+  claim: 「言理の妖精語りて曰く」という定型句が世界中に拡散し、集合知として機能する様子は、インターネットミームのバイラル拡散と模倣子（ミーム）の性質を反映している。
+  quote: 誰かが歌い、唱え、吟じ、叫び、吼え、念じ、祈り、願った。「言理の妖精語りて曰く」
+  paragraph: p2765
+  confidence: moderate
+  quotes:
+  - quote: 誰かが歌い、唱え、吟じ、叫び、吼え、念じ、祈り、願った。「言理の妖精語りて曰く」
+    paragraph: p2765
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの腕の正体
+  note: 天の御殿内部から出現した「断端部から機械的な部品を覗かせたちっぽけな腕」がアキラのものである可能性。アキラは既に死んでいるはずだが、その腕がなぜここに存在するのか、また「幻想」なのか「実体」なのかの回収。
+  quotes:
+  - quote: 天の御殿の内部から出現したそれは、私を襲うこと無く反転し、自身に数倍する巨竜に挑む。金属質なその腕を、私はかつて見たことがある。
+    paragraph: p2770
+    quote_verified: true
+  expected_payoff: アキラの死後の存在形態、あるいはアズーリアの幻想が現実を改変する能力の証明として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ベアトリーチェの二重転生
+  note: エスフェイルが明かした「ベアトリーチェ＝セレクティ」と「アズーリアの妹」の融合状態。アズーリアが妹を取り戻すために「ビーチェの願いを踏みにじる」ことが、最終的な対決でどう結実するか。
+  quotes:
+  - quote: 二重転生者たるあの方は、外世界人にして内世界人。今や古代のグロソラリア魂と完全なる共存と融合を果たし、号通りに『相補』の体現者となっておられるのだ。
+    paragraph: p2775
+    quote_verified: false
+  expected_payoff: 最終決戦でのアズーリアvsベアトリーチェの対峙、および妹の魂の帰属を巡るドラマの核心。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アリスの介入
+  note: マリーの転生（ズタークスターク化）に「アリス」の呪力波形が混じっているという指摘。アリスがマリーを最初から使い魔として利用していた可能性。
+  quotes:
+  - quote: あの呪力の波形は、ナンバーサーティーンのライム――？ それって、【賢天主】アリスが介入してきたって事？
+    paragraph: p2732
+    quote_verified: false
+  expected_payoff: マリーの行動原理の裏にあるアリスの意図、およびマリーとアズーリアの最終的な関係性への影響。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_マリーの内部からの稲妻
+  note: マリーがアズーリアの中に組み込まれた際、「道を誤るようなら、その時は道を切り開く為の稲妻が内側から貴方を焼き尽くす」という警告。
+  quotes:
+  - quote: 私は、いつでも貴方の内側で見ています。もし道を誤るようなら、その時は道を切り開く為の稲妻が内側から貴方を焼き尽くすことでしょう
+    paragraph: p2762
+    quote_verified: true
+  expected_payoff: アズーリアが暴走した際、マリー（ズタークスターク）が内部からアズーリアを殺害・リセットする展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リーナのクロウサー家当主宣言
+  note: リーナがガルズを幽閉し、クロウサー家当主として地上の秩序を内側から変える決意。これが後の政治的展開やガルズの扱いにどう影響するか。
+  quotes:
+  - quote: 私、【空使い】リーナ・ゾラ・クロウサーは、亡きサイリウスお爺様の後を継いで、クロウサー家当主になることを宣言する！
+    paragraph: p2729
+    quote_verified: true
+  expected_payoff: エルネトモランの政治体制の変化、ガルズの長期拘束、リーナとアズーリアの協力関係の深化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 認識の相対性と言語による現実の再構築
+  weight: 0.9
+  quotes:
+  - quote: アストラル界はテキストユーザーインターフェースであるグラマー界の言い換えに過ぎない。そして同時に、物理現象であるマテリアル界の反映に過ぎず、それら全ては実のところ情報によって記述されるものでしかない。
+    paragraph: p2748
+    quote_verified: false
+  - quote: 嘘を嘘のまま、本当よりも本当らしく語ってみせる。それだけは、保証できる
+    paragraph: p2758
+    quote_verified: true
+  note: 杖（物理）と邪視（精神）の二項対立を、言語（呪文）による再解釈で統合しようとする試み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力による秩序維持と英雄の自己欺瞞
+  weight: 0.8
+  quotes:
+  - quote: 心を安堵させる為に武力としてのサイバーカラテがあり、同じように未来への希望として英雄がいる。英雄として望まれた以上、私はこの戦いを終わらせないといけない。
+    paragraph: p2757
+    quote_verified: true
+  - quote: 『大切なビーチェ』の為に『異獣』を殺し続ける私が、本当は同じ価値を持った『人』の命で『人』の命を贖っているのだという事実を突きつけられるようだった。
+    paragraph: p2751
+    quote_verified: true
+  note: アズーリアが「妹のため」という大義名分で人を殺し続けることの倫理的葛藤と、その構造の不可避性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 植民地主義的介入への抵抗と主体性の回復
+  weight: 0.7
+  quotes:
+  - quote: 原始的な土人の皆さんには我々の導きに従っていただきます。序列化というあなた方のルール、槍神教の正しさを、更なる正義で修正して最適化して差し上げましょう。
+    paragraph: p2735
+    quote_verified: true
+  - quote: 地上の世界観に守る価値なんてないっ
+    paragraph: p2750
+    quote_verified: true
+  note: 多世界連合（外なる神）による管理支配に対し、地上の人間が自分たちの言葉（幻想）で対抗する構図。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死の受容と記憶の継承
+  weight: 0.6
+  quotes:
+  - quote: 貴方はただ杖使いとして死をありのままの死として受け止めた。そして、ガルズの世界を守ったんだ
+    paragraph: p2752
+    quote_verified: true
+  - quote: 我々の事は心配するな。お前の記憶にキール隊が刻まれている限り、我々はお前の一部としていつでも力を貸すだろう
+    paragraph: p2768
+    quote_verified: true
+  note: マリーの仲間殺しを「受容」として再解釈し、キール隊の死をアズーリアの記憶（仮想使い魔）として継承する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

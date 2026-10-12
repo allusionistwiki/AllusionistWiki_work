@@ -1,0 +1,262 @@
+episode: ch0123
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_アキラ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0123_アキラ_thinks_殺人鬼_p4309
+        quote: 俺は、ただの殺人鬼でいい。
+        locator: {}
+        spoiler_after: ch0123
+    visual:
+      observations:
+      - event_ref: E_ch0123_アキラ_uses_アキラくん人形_p4309
+        quote: 現在の俺はトリシューラが作り上げた『アキラくん人形』を全身義体として活動している『テセウスの船型サイボーグ』だが
+        locator: {}
+        spoiler_after: ch0123
+    action:
+      observations:
+      - event_ref: E_ch0123_アキラ_uses_幻肢アプリ_p4313
+        quote: 各部に内蔵された『幻肢アプリ搭載演算素子』があれば機械的に全身の幻肢、更には幻脳を生み出せる。
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_アキラ_attacks_呪力の線_p4314
+        quote: 幻肢アプリを起動して一瞬だけ幽体離脱。火花を散らし合っている二人の間に幻の手刀を落として、架空の視線を切断した。
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_トリシューラ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0123_トリシューラ_makes_PV_p4309
+        quote: トリシューラが会議室の卓上に立体投射された映像を示しながら半笑いでそんなことを言っている。
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_トリシューラ_conceals_ミヒトネッセ_p4323
+        quote: うー。やっぱり言わない。言いたくない
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_トリシューラ_other_祝賀会_p4333
+        quote: これから戦勝祝賀会と星見の塔トーナメント表彰式とガロアンディアンと死人の森同盟の親睦会を開催しまーす！
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_トリシューラ_gives_呪石_p4335
+        quote: 中身を引っ繰り返すと、色とりどりの雨が降った。全て呪石――呪術的な力を宿した高価な品である。
+        locator: {}
+        spoiler_after: ch0123
+    speech:
+      observations:
+      - event_ref: E_ch0123_トリシューラ_names_ババロン_p4311
+        quote: 忌まわしき者どもの母、ババロンって言おうとしたの。わーつよそう
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_トリシューラ_reveals_転生ループ_p4312
+        quote: なにしろ間にもう一度未来転生を挟んでいるので――
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_トリシューラ_other_人形師_p4318
+        quote: 人形師は大まかにはラフディの技術を基にした流派と、旧世界の技術を基にした流派があるんだ。
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_トリシューラ_other_アキラの外見_p4325
+        quote: もっとこう、マラード系のキラキラ美形じゃなくて、アルト系の無骨軍人タイプとか、格闘家っぽい雰囲気が欲しいかも
+        locator: {}
+        spoiler_after: ch0123
+    visual:
+      observations:
+      - event_ref: E_ch0123_トリシューラ_makes_転生図_p4312
+        quote: 未来のコルセスカ（負け犬）→ディスペータお姉様（噛ませ犬）→冥道のロリ姫（オルクスに大人気）→死人の森のババア（劣化）→今のセスカ（かわいい）
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルウテト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0123_ルウテト_reveals_未来転生者_p4310
+        quote: そのルウテトが、実は未来から過去に転生してきた未来転生者であり、未来における前世はコルセスカであったと語っている。
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_ルウテト_says_アキラ様_p4310
+        quote: アキラ様、素敵です！
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_ルウテト_other_名誉毀損_p4311
+        quote: 偽証と名誉毀損です！　どうしてそんなに口の悪いコに育ってしまったんですか！　というか酷くないですか、前世とはいえ姉ですよ私！
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_ルウテト_other_軍勢_p4321
+        quote: 軍事力なら【死人の森の軍勢】に任せて下さいアキラ様！
+        locator: {}
+        spoiler_after: ch0123
+    symbolic:
+      observations:
+      - event_ref: E_ch0123_ルウテト_other_敗北_p4311
+        quote: ルウテトの存在が示唆するのは、俺たちの未来に待ち受ける決定的な敗北だ。
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0123_ゼド_other_呪符_p4315
+        quote: 盗賊王ゼドが姿を眩ませているよ。そして呪具保管庫から高額の呪符がごっそり消えてるけどこれは因果関係あるよねー？
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラクルラール]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0123_ラクルラール_threatens_アキラたち_p4316
+        quote: 俺たちにとって最大の敵はラクルラールという星見の塔の魔女だ。目的がよく分からないが、どうも俺たち全員をいいように操ろうとしているのは間違い無い。
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_ラクルラール_other_ディルトーワ流_p4318
+        quote: ラクルラールお姉様は前者。ディルトーワ流とかって言うのがそれだね。
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッテ・イヴニル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0123_アレッテ・イヴニル_other_一万の人形_p4320
+        quote: そして、そのヨミル・バーンステインと同じく最大で一万の軍勢を同時に使役できるのがアレッテ・イヴニル。
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0123_ガロアンディアン_bonds_死人の森_p4324
+        quote: そんなわけで、ガロアンディアンと死人の森は一時的な同盟を結ぶことになった。
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_マラード]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0123_マラード_appears_ルウテトの髪_p4326
+        quote: 出し抜けに涼しげな男の声がした。ルウテトの髪の中から小さな半透明の影が現れる。
+        locator: {}
+        spoiler_after: ch0123
+      - event_ref: E_ch0123_マラード_other_アキラの髪_p4327
+        quote: ラフディの民が髪を扱わせたら世界一だということを教えて差し上げよう
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルバーブ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0123_ルバーブ_other_マラード_p4329
+        quote: 陛下は素晴らしいお方だ。愛情深く、美しいものを尊ぶその気質はラフディの華やかな文化をより一層精錬させた。
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0123_オルヴァ_attacks_マラード_p4330
+        quote: ラフディの自己陶酔男が、また何かを勘違いして騒いでいるな。おお、鏡を持たぬ者はブレイスヴァの鼻先でも脳天気とはまさにこのこと！
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0123_ヴァージル_appears_ルウテトの耳_p4331
+        quote: あーっ、みんな抜け駆けしてずるいですよっ。僕だって姫にいいところ見せて誉めてもらいたいのに！
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0123_パーン_other_カーイン_p4332
+        quote: 貴様がカーインの裔だな？　喜べ、俺に仕えることを許す
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0123_レオ_other_パーン_p4333
+        quote: カーインを足蹴にするのやめてください。誇り高い武人である彼に屈辱を味わわせる事は僕が許しません
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0123_クレイ_hates_六王_p4334
+        quote: 彼のあまりにも鋭い視線。気のせいでなければ、あれは殺意や敵意に類するものだ。そして、それは六王たちに向けられてはいなかったか。
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラズリ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0123_ラズリ_other_メール_p4336
+        quote: このたびはお役に立てなくてすみませんでした。トリシューラさんに合わせる顔が無いのでしばらく旅に出ます。探さないで下さい
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_マラコーダ]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0123_マラコーダ_reveals_トライデントの構造_p4338
+        quote: かつてトライデント第十三の細胞、【尻尾】であった私がトリシューラ陛下にお仕えしてるのはその証明ってわけ。
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルマ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0123_アルマ_other_動画_p4341
+        quote: それ見て、サリアちゃんがスキリシアに飛び込んで行っちゃった。かなり暴走気味で、正直やばいかも。
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_聖マローズ教団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0123_聖マローズ教団_appears_新たな勢力_p4342
+        quote: 聖マローズ教団という新たな勢力が現れた事で、穏やかだった空気が一変していくのだった。
+        locator: {}
+        spoiler_after: ch0123
+  first_appearance_candidate: true

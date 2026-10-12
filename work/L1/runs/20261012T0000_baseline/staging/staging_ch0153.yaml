@@ -1,0 +1,267 @@
+episode: ch0153
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_紫]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0153_紫_appears_as_賢者_p5172
+        quote: 紫は賢者として招かれた。不在の席を埋めるため、必要とされたのは紫という色彩。彼は純粋な機能としてその力を振るった。
+        locator: {}
+        spoiler_after: ch0153
+    speech:
+      observations:
+      - event_ref: E_ch0153_紫_other_終端の破滅_p5175
+        quote: 紫は主の為にも、終端がブレイスヴァに貪り尽くされる未来を願った。少年の尊い願いも友との大切な時間も、全て無為に喰い尽くされればいいと。
+        locator: {}
+        spoiler_after: ch0153
+    action:
+      observations:
+      - event_ref: E_ch0153_紫_attacks_少年王_p5176
+        quote: 牙の五指で腹腔を食い破り、しつこく抉った。指先で臓腑を掻き分け、最大の苦痛を与えることで悲鳴の音楽を奏でる。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_老人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0153_老人_transforms_少年期_p5172
+        quote: 遡る、遡る。老人は少年期を過ぎ去り、母親の胎内へと回帰する。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_賢者]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0153_賢者_other_異物の呼び声_p5172
+        quote: 世界を愛する歌が聞こえる。輝く黄金のような美しい魂の歌が。世界を憎む怨嗟が聞こえる。割れた鏡のような醜い心の呪いが。それはこの世界には在らざる異物の呼び声だ。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_大公]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0153_大公_bonds_紫_p5173
+        quote: しかし紫とは共通する感性を有しており、「ああ、全てはむなしい」「おお、ブレイスヴァよ」 と二人して草の煙を燻らせながら、厭世的な気分に浸ることもあった。
+        locator: {}
+        spoiler_after: ch0153
+    speech:
+      observations:
+      - event_ref: E_ch0153_大公_other_生贄_p5173
+        quote: はぐれ者の王子は老人を見ると非難がましい口調で、「残酷なことをする」 と言った。
+        locator: {}
+        spoiler_after: ch0153
+    action:
+      observations:
+      - event_ref: E_ch0153_大公_kills_獅子王_p5177
+        quote: 長い躊躇いを断ち切るように、空から巨大な鏡が落ちてくる。断頭の刃。自由落下の死。王は機械的に命を落とした。
+        locator: {}
+        spoiler_after: ch0153
+    name:
+      observations:
+      - event_ref: E_ch0153_大公_names_オルヴァ_p5179
+        quote: 「名前をあげる。父の呪縛ではなく、獅子王の贈り物でもない。俺があの墓標船から拾ってきた虚構の名だ。きっときみにはぴったりだよ」
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_獅子王]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0153_獅子王_other_覇気_p5173
+        quote: 獅子の王は真理を見通す知性とあらゆる存在を受け入れる度量を併せ持つ、偉大なる存在だった。予言王をして『器が違う』と確信させてしまうほどの圧倒的な覇気。
+        locator: {}
+        spoiler_after: ch0153
+    action:
+      observations:
+      - event_ref: E_ch0153_獅子王_makes_なでしこ_p5174
+        quote: 獅子王は未知を求めて賢者たちと共に研究を重ねた。創造の果て、完成品は出来上がった。しかしそれは出来損ない。『なでしこ』のストラタイは蛙たちの住む異界を手繰り寄せて次元の彼方へと消えた。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_王国]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0153_王国_defines_完全な物質世界_p5174
+        quote: 『王国』は完全だった。のちのあらゆる『王国』の雛形、完全なる物質世界の光。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少年王]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0153_少年王_other_紫_p5177
+        quote: そこに絶望は無い。恨みは無い。嘆きは無い。彼は裏切り者の紫を憎んでいないのだ。ただ悲しんでいるだけだった。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0153_オルヴァ_other_油としての役割_p5180
+        quote: 「お前が欲するというのなら、私という油で凍てついた燭台に火を灯そう。太陽が九度生まれて死んでいく間だけ燃え続け、お前のための時を作ろう。終末の日々を、望むままに過ごすがいい」
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_伐採者]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0153_伐採者_other_レオ_p5181
+        quote: 伐採者がチェーンソーを振るう。すると血に呪われたその機械から人々の断末魔が聴こえてくる。レオは犠牲になったティリビナ人たちの痛みと苦しみを、そのアストラルの音を聴く異形の耳で受け取ってしまっていた。
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_伐採者_other_死_p5184
+        quote: 即死したかに思われたチェーンソー男が起き上がっていた。いや、跳ね起きたと形容する方が正確かもしれない。手裏剣がひとりでに抜けて床に落ちる。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_人々]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0153_人々_other_レオ_p5188
+        quote: 次々とレオの目の前を頼もしく通り過ぎて、背後で苦痛と恐怖に彩られた絶叫を上げて消えていく人々。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_病院]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0153_病院_other_空間_p5188
+        quote: しかし、敷地の外に出てしばらくすると深い霧が立ちこめ、気付くとエントランスホールに立っているという不思議な現象に見舞われる。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0153_レオ_other_セリア_p5191
+        quote: 厳密には音声だけでなく、身振りや手振り、耳の動かしかたや目線、表情、アストラル尻尾の振り方などを組み合わせた『動物語』である。
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_レオ_other_絡新婦_p5220
+        quote: そして『絡新婦』にこう語りかけた。「怖がったりしてごめんなさい。つらかったですよね」
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_レオ_other_絡新婦の行動_p5221
+        quote: 「お仕事、きっといっぱい頑張ったんでしょうね。最初は斧、それからもっと人の役に立つために愛用の道具をチェーンソーに持ち替えて。でも、あの機械は振動が凄いから――そんなふうに手が真っ白になってしまって、きっと大変な思いをしたんでしょう？」
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_レオ_defines_第五階層_p5222
+        quote: 「聞いて下さい！ この第五階層は、『上』からも『下』からも『共存できない』って言われた人たちが集まってくる所なんです。ここで拒絶して、諦めて、そんなひどいことを続けたら、ここは本当の地獄になる！
+          僕はそんなのは悲しいと思います」
+        locator: {}
+        spoiler_after: ch0153
+    action:
+      observations:
+      - event_ref: E_ch0153_レオ_other_優しさの呪文_p5223
+        quote: レオの視座が『絡新婦』を絡め捕り、『扉』から溢れる憎悪を圧倒する。レオの感情が、思考が、その場に浸透していった。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0153_グレンデルヒ_other_レオ_p5195
+        quote: 「時間を稼いでやるからさっさと行け。言っておくが長くは保たん。このまま奴を放置すれば、恐らくあと数千秒で――」
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_グレンデルヒ_other_絡新婦_p5197
+        quote: 全力でふざけることで、『誰もいない廃病院の中をどこまでも追跡してくる怪人』という文脈を断ち切ろうとしているのだ。今のところそれには成功している。
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_グレンデルヒ_other_シナモリアキラ_p5214
+        quote: 「これが『使い魔』的なアプローチだ、シナモリアキラよ。……『シナモリアキラ』とは何だ。答えは既に『シナモリアキラ』どもの中に――」
+        locator: {}
+        spoiler_after: ch0153
+    action:
+      observations:
+      - event_ref: E_ch0153_グレンデルヒ_observes_絡新婦の異常_p5215
+        quote: 両腕のチェーンソーが砕かれ、予備の『創造』素材も無くなり、外側は猛攻撃によって死に体、内側からは内臓を食い荒らされて生命維持不可能という状態の『絡新婦』。ラズリが叩き落したレゴンどものエサになっている腕が、活きのいい魚のごとくびちびちと跳ねて、そのまま空高く飛び上がった。
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_グレンデルヒ_captures_アルマ_p5225
+        quote: 事態が終息するのを見届けたグレンデルヒは大量のドローンと『杖』のオルガンローデによる物量攻撃でアルマを捕獲しながら皮肉を込めて呟く。「可愛らしさの暴力、か。なるほど、確かにあれにシナモリアキラは抗えまい」
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_小鬼]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0153_小鬼_other_世界_p5203
+        quote: 「世界の変貌は奴の『繁殖』が原因だ。奴らは異常な速さでぽこぽこ増えて自分の世界を広げる。個体として次を繋ぐのではない。自己を複製し、世界そのものが繁殖するのだ」
+        locator: {}
+        spoiler_after: ch0153
+    speech:
+      observations:
+      - event_ref: E_ch0153_小鬼_other_宇宙300秒前仮説_p5204
+        quote: 「『宇宙３００秒前仮説』という世界観を内面化した異形どもだよ。種族的平均値としてはおよそ３００秒まで時間を遡って事象を改竄できる。たとえ完全に死んでいてもな」
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_絡新婦]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0153_絡新婦_other_自身_p5215
+        quote: 小鬼の肉体が急速に縮んでいる。自己認識に応じて巨大化し、世界を高みから見下ろすようになる巨人の逆。矮小化した世界に応じて小さく小さく縮んでいく。極小の小鬼ほど手がつけられない。
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_絡新婦_transforms_小鬼の再生者_p5215
+        quote: 小鬼の再生者、という悪夢のような存在もまた成立しうるということだ。『絡新婦』に遡行限界まで死を与え続けても意味は無い。死が死で無くなれば、既に彼は永遠不変の『不死なる異世界』である。
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_絡新婦_other_扉_p5216
+        quote: 紫色の燐光を纏う斧。その中から、途方もなく巨大な力が溢れ出そうとしている。『絡新婦』の目の前に幾何学的な紋様が描かれていく。形成されたのは人ひとりが通れるくらいの大きさの『扉』だ。
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_絡新婦_other_氷燭_p5218
+        quote: 朱金の装甲に触れると、見えない何かをするりと掴み取っていった。『絡新婦』の両手が持つ透明な品が淡く光って青と白銀に染まる。それは中心となる幹と八つの枝に分かれた氷の燭台。
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0153_トリシューラ_other_グレンデルヒ_2_p5226
+        quote: 「そういう後出し無敵発言ばっかりしてると、小鬼になっちゃうよ？」 トリシューラは典型的な邪視者への戒めを口にした。大成して巨人に至るか、全能感を制御しきれずに小鬼に堕ちるか。
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_トリシューラ_reveals_敵の動向_p5227
+        quote: 「Ｎ・Ｇ・Ｈ・Ｓ・スレイマン――イェレイドだけじゃなくて、彼まで動き出したわけだね。めんどくさーい。分かっていたことだけど」
+        locator: {}
+        spoiler_after: ch0153
+      - event_ref: E_ch0153_トリシューラ_other_氷球の意図_p5230
+        quote: 「いい。あれは重しにする。あの宝珠がある限り、ミヒトネッセはセスカに呪縛されるんだ。紀人が生み出すうねりはそんなに簡単に抗えるものじゃないからね」
+        locator: {}
+        spoiler_after: ch0153
+  first_appearance_candidate: true

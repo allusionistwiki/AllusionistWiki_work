@@ -1,0 +1,240 @@
+episode: ch0114
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_王さま]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0114_王さま_captures_女の子_p3979
+        quote: 王さまは、自分に相応しい相手を占いで探し出して、攫ってきました。
+        locator: {}
+        spoiler_after: ch0114
+      - event_ref: E_ch0114_王さま_other_女の子_p3980
+        quote: 王さまはたった一人で王さまたちに立ち向かい、女の子に逃げるように言います。
+        locator: {}
+        spoiler_after: ch0114
+    speech:
+      observations:
+      - event_ref: E_ch0114_王さま_fears_孤独_p3979
+        quote: 王さまはいつもひとりぼっち。
+        locator: {}
+        spoiler_after: ch0114
+      - event_ref: E_ch0114_王さま_promises_忠誠_p3980
+        quote: これからはあなたが私の女王さまですと言ってひざまずき、女の子の足下から伸びる影に口づけをしました。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_王さまたち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0114_王さまたち_attacks_女の子_p3979
+        quote: 王さまたちは女の子に噛み付いて、一つになろうとしました。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女の子]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0114_女の子_other_王さまたち_p3980
+        quote: 女の子は微笑んで、途方もない人数の王さまたちを丸ごと抱きしめたのです。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_しびとたち]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0114_しびとたち_other_女の子_p3981
+        quote: その他のしびとたちもお腹からパンやチーズを零しながらやってきて、女の子を励ましてくれます。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_世界]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0114_世界_defines_閉じた環_p3982
+        quote: この本の世界はまあるく閉じた環っかになっていて、はじまりと終わりはくっついてしまっているのだというお話は、ちょうど三冊目で確認したばかりでした。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_兎の男の子]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0114_兎の男の子_other_らせん_p3982
+        quote: 閉じた環っかではなくて、ぐるぐると昇っていくらせんがいいと、兎の男の子が言いました。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_約束]]'
+  entity_type: terminology
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0114_約束_defines_女王の地位_p3983
+        quote: 女王さまは、そう呼んでくれる人々の尊敬無しには上に立ち続けることはできません。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0114_アルト_other_暴力_p3985
+        quote: 「安心しろ。俺はたとえお前たちがどんな姿かたちをしていても、差別しない」
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガドカレク]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0114_ガドカレク_other_俺_p3985
+        quote: 対面に座る【竜帝】――ガドカレク＝クエスドレムは、俺の無駄な足掻きを鼻で嗤った。
+        locator: {}
+        spoiler_after: ch0114
+    speech:
+      observations:
+      - event_ref: E_ch0114_ガドカレク_reveals_シミュレーション仮説_p3988
+        quote: 'シミュレーテッドリアリティ。上位世界が存在し、この世界はそ
+
+          の世界によってシミュレートされた現実と区別のつかない下位世界であるという仮説。'
+        locator: {}
+        spoiler_after: ch0114
+      - event_ref: E_ch0114_ガドカレク_other_他者の不在_p3991
+        quote: 『他者などいない』
+        locator: {}
+        spoiler_after: ch0114
+      - event_ref: E_ch0114_ガドカレク_defines_幻想再帰システム_p3991
+        quote: 【幻想再帰システム】――未知という幻想を、来るべき終端を食らいつくし続ける自己消失オートマトン。
+        locator: {}
+        spoiler_after: ch0114
+      - event_ref: E_ch0114_ガドカレク_other_ゾーイ_p3997
+        quote: ――勝負をしたまえ。対戦相手は用意しよう、外側を盛り上げて、試合内容も整えてやる。シナリオの出来映えは上々だ。コンセプトは黒衣の外世界人同士によるデスマッチ。どちらが偽物のアキラかを決定するのだよ。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0114_マラード_kills_自身_p3985
+        quote: 後悔したマラード王は自暴自棄となり命を絶つ。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0114_オルヴァ_dies_絶望_p3986
+        quote: オルヴァは叛逆されて十三階段の上で死ぬか、絶望して自殺するか、妻を寝取られたショックで病に倒れて死ぬか、部下に命じて妻を強姦させてほら見たことか裏切り者めと鬼の首を獲ったように相手を責めて自害に追い込んだ後自分も後を追うかしていずれにせよ死んだ。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ケイト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0114_ケイト_other_ガドカレク_p3989
+        quote: 「そんなもの、言ったもの勝ちだ！　同様に、君たちだって創造されたものに過ぎないかもしれないだろう！　僕らの世界ではそういう問答は前世紀に通過して克服済みなんだ！　このどうでもいい妄言は、精神攻撃にもなっていないんだよ！」
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゾーイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0114_ゾーイ_other_差別_p3994
+        quote: '――女力士だと？　血のケガレがある女人を神聖な場に立ち入らせるとは不届きな。所詮は相撲のなんたるかもわからぬ日本人だろ
+
+          うが。'
+        locator: {}
+        spoiler_after: ch0114
+    action:
+      observations:
+      - event_ref: E_ch0114_ゾーイ_fights_因縁の相手_p3995
+        quote: 機巧廻しの噴射口から爆発的な推進力が放出され、巨体と巨体ががっぷりと四つに組み合う。
+        locator: {}
+        spoiler_after: ch0114
+      - event_ref: E_ch0114_ゾーイ_other_再戦_p3996
+        quote: それはどこまでも当たり前の、上手投げだった。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0114_ちびシューラ_other_ガドカレク_p3998
+        quote: 口調や発言の抑揚、細かい癖、重心の位置、その他諸々の情報から、高い蓋然性でガドカレクはグレンデルヒでありゾーイである。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_俺]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0114_俺_reveals_真実_p3998
+        quote: 「今度こそ、お前を突き崩す道が見えたぞ、【竜帝】。いいや、こう言うべきだな。ガドカレク＝クエスドレム＝グレンデルヒ」
+        locator: {}
+        spoiler_after: ch0114
+      - event_ref: E_ch0114_俺_other_グレンデルヒ_p4013
+        quote: 対戦相手は地上きっての超人ゲーマー、グレンデルヒ・ライニンサル。
+        locator: {}
+        spoiler_after: ch0114
+    action:
+      observations:
+      - event_ref: E_ch0114_俺_other_少女_p3999
+        quote: たった一人だけの異端のカーティスを演じる俺は、大量のマロゾロンド＝カーティスに向かって走り出す。
+        locator: {}
+        spoiler_after: ch0114
+      - event_ref: E_ch0114_俺_other_少女_2_p3999
+        quote: '指先が微かに触れ合った瞬間。「アツィルト」
+
+          世界が、そして右腕が凍結した。'
+        locator: {}
+        spoiler_after: ch0114
+      - event_ref: E_ch0114_俺_other_コルセスカ_p4008
+        quote: 俺がコルセスカを受け入れ、私は前世の記憶を受け止める。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_私]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0114_私_other_浄界_p4005
+        quote: 「第二浄界――【コキュートス】」
+        locator: {}
+        spoiler_after: ch0114
+    speech:
+      observations:
+      - event_ref: E_ch0114_私_defines_神_p4007
+        quote: 私に言わせれば、神とはゲームのプレイヤーで、人とはゲームの主人公だ。
+        locator: {}
+        spoiler_after: ch0114
+      - event_ref: E_ch0114_私_other_舞台_p4013
+        quote: ――さあ、それでは私の舞台を始めよう。
+        locator: {}
+        spoiler_after: ch0114
+  first_appearance_candidate: true

@@ -1,0 +1,596 @@
+episode: ch0065
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ズタークスターク]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_ズタークスターク_defeats_修道騎士_p2413
+        quote: ほっそりとした右手が閃いて舞台の上から攻撃を仕掛けていた修道騎士たちが薙ぎ払われていく。三重展開された【霧の防壁】という理論上最高であるはずの防御は容易く貫通されてしまう。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ズタークスターク_kills_修道騎士_p2413
+        quote: 稲妻が甲冑を溶解させながら内部の人体を灼き尽くし、速やかな死と共に一条の魂魄が天の御殿へ飛んだ。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ズタークスターク_kills_警備部隊_p2414
+        quote: 中隊規模の警備部隊、それも会場の民間人を守る為に選抜された優れた防御能力を有する百五十人が、一瞬にして全滅していた。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ズタークスターク_kills_上位修道騎士_p2415
+        quote: とても当時の守護の九槍の第三位、第六位、第九位を含む上位修道騎士たちを死に追いやり、アルセミア本国から送り込まれた三個師団を壊滅させ、九英雄を四英雄にした最強最悪の大魔将とは思えない。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ズタークスターク_attacks_ネドラド_p2445
+        quote: 超人的な反射速度で稲妻を殴りつけるが、圧倒的な呪力と極めて緻密な呪文が瞬時にネドラドの性質を解析。『呪術を否定する呪術』を解体する【静謐】を瞬時に十通りも構築し、ダミーの即死級雷撃と織り交ぜて連射。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ズタークスターク_kills_ソルダ_p2446
+        quote: ズタークスタークの雷撃でソルダは即死。クイックセーブしたその場所で即座に蘇生した彼は骨の槍を構えるが、一撃で蒸発してまた蘇生。光の粒子が集まってソルダの肉体を形作った瞬間にまた雷撃。
+        locator: {}
+        spoiler_after: ch0065
+    speech:
+      observations:
+      - event_ref: E_ch0065_ズタークスターク_says_誕生日の歌_p2413
+        quote: 「誕生日は生まれた日♪　お祝いするのは３１，５３６，０００秒のうちたったの８６，４００秒だけ♪　大事な大事な命の日♪　あとの３１，４４９，６００秒はー？」
+        locator: {}
+        spoiler_after: ch0065
+    visual:
+      observations:
+      - event_ref: E_ch0065_ズタークスターク_appears_as_少女_p2415
+        quote: その前に浮遊するのは可愛らしい少女。流れるような豊かな髪、ふわりとした膝丈のエプロンドレス、そして眩い黄緑の稲妻を迸らせる険呑な全身。
+        locator: {}
+        spoiler_after: ch0065
+    name:
+      observations:
+      - event_ref: E_ch0065_ズタークスターク_defines_哲学的ゾンビ_p2415
+        quote: 第十二魔将ズタークスターク。冥王が創り出した沼女型哲学的ゾンビ。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_修道騎士]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_修道騎士_attacks_ズタークスターク_p2413
+        quote: 仲間の死に怯むことなく呪術障壁を張りながら次々と呪術を放ち、槍を投擲し、超人的な跳躍力で上空で雷光を放ち続ける標的へと挑んでいく修道騎士たち。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_松明の騎士団]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0065_松明の騎士団_defines_戦術単位_p2414
+        quote: 松明の騎士団は、迷宮攻略の際には六人から構成される分隊が戦術行動の基本的な単位となる。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_浄界]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0065_浄界_appears_as_泡の闇夜_p2414
+        quote: ガルズの復活によって再形成された浄界は無数の泡が浮かぶ闇夜であった。四つの月は全て色の付いた泡となり、無数の星々もまた全てが空に浮かぶ泡。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_死者]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_死者_attacks_観客_p2415
+        quote: 大地から這いだしてきた夥しい数の死者は観客たちに襲いかかったが、即座に発動した呪術防壁によってその動きは妨げられる。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_死者_other_人々_p2452
+        quote: 浸食し、拡大し続ける浄界によって会場の外に這いだした死人たちは第一区を、そしてエルネトモランを覆い尽くしていく。大量の死人が蠢きながら人々を襲い、それに噛み付かれた者たちは汚染された呪力を注ぎ込まれて『感染者』となってしまう。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_観客]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_観客_flees_会場_p2415
+        quote: 多くの観客たちは精神を落ち着かせる【安らぎ】のお陰で誘導に従って避難を開始することが出来た。だが、一部では混乱した人々が我先に逃げだそうと押し合いへし合い、お互いに重なり合って倒れて人が潰されていくという悲惨な光景が繰り広げられている。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_アキラ_observes_ハルハハール_p2416
+        quote: 私でさえ一瞬だけ心が震えるような感動を覚えてしまった。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アキラ_other_金鎖_p2420
+        quote: それに、と私は左手の金鎖の数を数える。死の淵から甦った私は、またしても呪術適性が上昇し、フィリスの浸食率も高くなっていた。その結果として、現在私がフィリスを使用できる回数は七から九に増えている。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アキラ_observes_魔将_p2420
+        quote: 私はちらりとその上に集結した影を数える。十二体。ガルズとマリーを加えれば十四だ。とても私一人でどうにかなるような数じゃない。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アキラ_uses_密偵_p2421
+        quote: 私は影の弾幕に紛れて密かに敵陣に送り込んでいた『密偵』に望みを託す。危険な役目だが、『彼女』ならそうそう窮地に陥ることはないだろう。空中を疾走しながら、私は積層鏡でのやりとりの盗撮映像を目の前に表示した。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アキラ_saves_ネドラド_p2445
+        quote: 死を覚悟した彼の全身に、金鎖が巻き付く。避雷針として切り離された金鎖が囮となって空中に雷撃を逃がし、引き寄せられたネドラドは満身創痍のまま地上のフラベウファに回収される。
+        locator: {}
+        spoiler_after: ch0065
+    speech:
+      observations:
+      - event_ref: E_ch0065_アキラ_asks_リーナ_p2419
+        quote: 「アズーリア、【静謐】は？！」
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルハハール]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0065_ハルハハール_appears_as_巨大な蝶_p2416
+        quote: 複合鏡面に映し出された巨大な蝶。
+        locator: {}
+        spoiler_after: ch0065
+    name:
+      observations:
+      - event_ref: E_ch0065_ハルハハール_defines_シェイプシフター_p2416
+        quote: 第八魔将、優美に泳ぐ蝶ハルハハール。完全な変身能力を持つ闇ックアールヴ妖精種の変身者は、かつて幾度となく地上に侵攻し、蝶そのものの姿で立ち向かう者に『圧倒的に美しいハルハハールに傅きたい』という欲望を植え付けてきた。
+        locator: {}
+        spoiler_after: ch0065
+    speech:
+      observations:
+      - event_ref: E_ch0065_ハルハハール_says_人心掌握_p2416
+        quote: 「美しい僕は完璧に人心を掌握する――これで無用な混乱は最小限で済む。哀れな地上の民が潰れていくのは見るに堪えないからね――醜すぎて」
+        locator: {}
+        spoiler_after: ch0065
+    action:
+      observations:
+      - event_ref: E_ch0065_ハルハハール_uses_魅了呪術_p2416
+        quote: ただ『美しい』という認識のみを強制的に押しつけ、他者の精神に干渉する恐るべき魅了呪術。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アケルグリュス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0065_アケルグリュス_appears_as_有翼人魚_p2417
+        quote: 巨大な蝶のすぐ傍で、すうと息を吸い込んだのは美貌の女性である。ただし、その両腕は翼であり、下半身は魚。
+        locator: {}
+        spoiler_after: ch0065
+    name:
+      observations:
+      - event_ref: E_ch0065_アケルグリュス_defines_緑蜥蜴人の立役者_p2417
+        quote: 当時は天眼の民の一氏族であった緑蜥蜴人と地獄側蜥蜴人との和睦を実現させ、大神院による異獣認定とは関係無く自主的に緑蜥蜴人を地獄側に引き込んだ立役者こそが彼女である。
+        locator: {}
+        spoiler_after: ch0065
+    action:
+      observations:
+      - event_ref: E_ch0065_アケルグリュス_uses_歌声_p2417
+        quote: 第一声の呪文によって音響設備をクラッキングして、有翼人魚の歌姫は高らかに声を響かせた。美貌による視覚的魅了に加えて、聴覚に訴えかける旋律の魅了。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_歌姫Spear]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_歌姫Spear_appears_ステージ_p2417
+        quote: 魔将に戦いを挑もうとしていた松明の騎士団さえ膝を屈しようとしたその時、音響設備が外部からもう一度乗っ取られ、より強力な歌声がアケルグリュスの歌を押しのける。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_歌姫Spear_defeats_魅了_p2418
+        quote: 颯爽と姿を現した彼女の優美な姿に、ハルハハールに心奪われた中でもいくらか呪術抵抗が高めだった者たちが我に帰る。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エスフェイル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_エスフェイル_attacks_アキラ_p2418
+        quote: 正確には、雨あられと射出される闇色の棘による弾幕を回避するのに精一杯だったのだ。第十五魔将エスフェイルの足下に広がる影から次々と射出される棘は、私が使う感応の触手と同じ性質のものだ。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_エスフェイル_uses_擬球神_p2419
+        quote: 「まあるい月は、かつての大地の記憶なり！　第二衛星たる幽月の土から創り出した我が使い魔、【擬球神】の力を思い知るがいい！」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_エスフェイル_other_アキラ_p2433
+        quote: 「――あれです」エスフェイルはそこで私たちを示した。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_エスフェイル_uses_非実体触手_p2434
+        quote: 私はそこでようやく気付いた。箒の頭に、不可視化された感応の触手が絡みついていたのだ。即座に振り払う。本人の言葉通り、エスフェイルのものよりもずっと脆弱だ。しかし、実体化させた触手に注意を引き付けておいて、弱く不安定な非実体の触手を高速戦闘の最中に本命として織り交ぜる技量は熟練の域にあった。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_エスフェイル_defeats_ナーグストール_p2437
+        quote: ナーグストールの打撃によって無数の球体と化し、更には宝石になりつつあった肉体を強引に切り離して肉体を再形成、そのまま漆黒の棘そのものとなった両腕でナーグストールを姉妹姫ごと弾き飛ばすエスフェイル。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_エスフェイル_uses_心話_p2438
+        quote: 調子付いたエスフェイルが【心話】を発動させてこちらに精神攻撃をしかける。『我が名はエスフェイル。四つ脚の同胞と二つ脚の同胞を束ねる長にして、死と闇を掌握せし王である。愚神を崇める狂信者よ、汝が名はなんぞや？』
+        locator: {}
+        spoiler_after: ch0065
+    name:
+      observations:
+      - event_ref: E_ch0065_エスフェイル_defines_影棘_p2419
+        quote: 【影棘】と呼ばれるこの呪術は、人狼種がかつて第九位の眷族種であった【ラフディの棘の民】との混血を繰り返した【スキリシア＝エフェクの夜の民】であり、影の天使マロゾロンドの加護よりも大地の天使ドルネスタンルフの加護を強く受けていることの証明だ。
+        locator: {}
+        spoiler_after: ch0065
+    speech:
+      observations:
+      - event_ref: E_ch0065_エスフェイル_other_リールエルバ_p2439
+        quote: 「その名、掌握したぞ、トリシル＝リールエルバ――おや？　聞き覚えがあると思えば。以前、我ら人狼に死人操りや脳髄洗い、呪動装甲の技術を持ち込んできた魔女めと同一の意味を有する名ではないか。縁者だとすれば感謝せねばなあ。特にあの呪動装甲のお陰で四つ脚族の力は飛躍的に跳ね上がったものよ」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_エスフェイル_attacks_リールエルバ_p2440
+        quote: 「ほう。これはこれは。存在の弱所がこれほど明確な者も珍しい。貴様、出来損ないの紛い物であったか――トリシルよ、貴様、リールエルバの振りをしながら生きるのはどんな気分だね？」
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0065_リーナ_says_対策_p2420
+        quote: 「対策されてる。一定周期ごとに棘の組成を変化させて、参照抵抗を付けてるみたい。もっと正確に解析しないと無駄撃ちになる可能性が高い」
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アインノーラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0065_アインノーラ_appears_as_牛頭_p2421
+        quote: 巨大な亀の甲羅にすっぽりと包まれた巨漢で、丸太のような手足は雄々しく、手に持った丸盾と簡素な鉄の棍棒が小さく見える。そしてその頭部は湾曲した角が禍々しい、茶色の肌の牛そのものであった。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アインノーラ_has_property_甲羅_p2454
+        quote: ちなみに攻撃を受けると甲羅の中に引きこもっちゃうそうです。可愛いですね♪
+        locator: {}
+        spoiler_after: ch0065
+    speech:
+      observations:
+      - event_ref: E_ch0065_アインノーラ_says_民間人保護_p2421
+        quote: 「いかに敵とはいえ、民間人を巻き添えにするわけにはいかぬ。このままアケルグリュスとハルハハールに人心を操作させ、避難させるのがよかろう」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アインノーラ_other_聖女抹殺_p2429
+        quote: 「我らレストロオセ派としてはそのような悪逆非道な行いには到底賛成はできんが――まあいい。いずれにせよ聖女の抹殺までは協力しようではないか。それさえ為し遂げれば、その後はジャッフハリム本国の我らが主が必ずより良い救世を為し遂げて下さるのだからな」
+        locator: {}
+        spoiler_after: ch0065
+    name:
+      observations:
+      - event_ref: E_ch0065_アインノーラ_defines_第一階層の守護者_p2422
+        quote: 第四魔将、万殺鬼アインノーラ。長く第一階層の守護者として君臨していた恐怖の象徴。時の尖塔の前に存在していた大迷宮は数多くの修道騎士や探索者を飲み込み、最深部に辿り着くことができた者も、この牛頭の番人によって斬殺される。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アインノーラ_defines_万殺鬼_p2453
+        quote: 万殺鬼、という異名は誇張とかではなくそのままの意味で、同時に一万人まで相手にできる、という意味ですね。自分と相手だけが一対一で決闘できる無数の浄界を創り出して、そこで同時に一対一で戦う――ちょっと想像しにくいかもしれませんが、閉じた世界に同時に存在しているアインノーラは全て同一人物であり、一度でも決闘に敗北すれば彼は死にます。
+        locator: {}
+        spoiler_after: ch0065
+    action:
+      observations:
+      - event_ref: E_ch0065_アインノーラ_kills_神官_p2424
+        quote: 直後、鉄の棍が振り下ろされ、潰れた肉塊が一つ出来上がった。牛頭の魔将は怒り狂いながら残った神官たちをも叩きつぶし、高らかに吠える。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アインノーラ_suspects_神官_p2424
+        quote: 「貴様ら、貴様ら一体何を、何を食べて――」アインノーラが震えながら問いかける。神官の一人が気がついたように、唯一皿に載ったまま無事だったそれを差し出し、歪んだ引きつり笑いを浮かべながら許しを請う。四角いバターが乗った、焦げ目の付いた薄いパンケーキガメを。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アインノーラ_defeats_ヨミル_p2425
+        quote: その全身が宝石のような輝く結界に包まれたかと思うと、同時に一万の自動鎧たちもそれぞれが輝く多面体に閉じ込められてしまう。次の瞬間には宝石のような結界は解除され、ばらばらに破壊された金属の破片が落下していった。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アインノーラ_other_パンケーキガメ_p2426
+        quote: 圧勝したアインノーラはしかし悔しさと悲しみに震えながら涙を流していた。そのつぶらな瞳が食い散らかされたパンケーキガメの残骸を映す。「このような侮辱は絶対に許されぬ！　血讐だ！　血讐しかない！」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アインノーラ_uses_強制決闘権_p2426
+        quote: 【強制決闘権】により強引に一対一の状況を創り出すアインノーラにとって、数の利は意味を成さない。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クエスドレム]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0065_クエスドレム_says_首切り_p2422
+        quote: 「下らんなアインノーラ。地上の者どもなど首を刎ねてしまえばそれでよい。義叔母上の事など知らぬわ。打ち首が良いぞ打ち首が。この場にいる全員の首を並べて晒せば良い。さぞ壮観であろう」
+        locator: {}
+        spoiler_after: ch0065
+    visual:
+      observations:
+      - event_ref: E_ch0065_クエスドレム_appears_as_影の怪物_p2423
+        quote: 血を啜る影から無数の肉塊が盛り上がる。影の内部に潜んだ何かがゲタゲタと笑い出した。それは目と鼻と耳と口を備えた内臓である。複数の赤い心臓が集合した怪物が、影と同化しておぞましい笑い声で死を嘲笑した。
+        locator: {}
+        spoiler_after: ch0065
+    action:
+      observations:
+      - event_ref: E_ch0065_クエスドレム_kills_修道騎士_p2423
+        quote: 「斬首刑に処す」十人の首から下が、霞の如く消滅した。ぼとりと落下した兜の下から染み出す赤い血液が、ずるずると男性の影の中に吸い込まれていく。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヨミル・バーンステイン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0065_ヨミル・バーンステイン_names_自分_p2425
+        quote: 「私が来たからには貴様らの好きにはさせんぞ死に損ないどもめ。宣名しよう。我が名はヨミル・バーンステイン！　松明の騎士団序列十三位にして天使ペレケテンヌルの加護を受けた私は同時に一万の自動鎧を操る事が可能！」
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユネクティア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0065_ユネクティア_says_アインノーラ_p2426
+        quote: 「アインノーラ君はまーた原始的な事を。悪鬼じゃないんだからさ。ま、俗情に寄りそうのも個人の価値観だからとやかくは言わないが」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ユネクティア_other_捕獲_p2429
+        quote: 「今のまま聖女を生贄に捧げればコキュートスの封印は恐らく第一円か第二円あたりでぎりぎり持ち堪えてしまう可能性が高い。聖女をすぐに殺さず、一度捕獲するのはどうかな。その上で我らが総大将に冬の魔女を追い詰め、氷血呪を使わせて封印を弱める――それを繰り返せば確実な炎帝陛下の復活が見込める」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ユネクティア_other_多数決_p2431
+        quote: 「とりあえずここで争うのはよそう。まずは時の尖塔に向かう。その後聖女をどうするかは、時の尖塔の通信設備を奪ってジャッフハリム本国と連絡してからにしないかい？」「では多数決。僕の意見に賛同してくれる者は挙手を」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ユネクティア_other_多数決_p2432
+        quote: 「というわけで、僕とエスフェイル、そしてピッチャールーのぶんを合わせて十一票、魔将としての意思統一はできた。後は君の差配にかかっているよ、ガルズ殿」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ユネクティア_asks_エスフェイル_p2433
+        quote: 「けれどまあ、確かに君ほどの使い手がやられてしまったのは意外だね。一体誰にやられたんだい？　やっぱり冬の魔女？　それともソルダ？　あるいはカーズガンあたりかな？」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ユネクティア_says_模倣_p2437
+        quote: 「見よう見まねであの子の左手を摸倣してみたんだ。即席にして万能の対抗呪文といったところかな。あちらに通用するかどうかはわからないが、既存の【静謐】による解体ならこれで切断できる――いやしかし、思いの外消耗が激しいな」
+        locator: {}
+        spoiler_after: ch0065
+    action:
+      observations:
+      - event_ref: E_ch0065_ユネクティア_observes_アキラ_p2433
+        quote: 「へえ。これは驚いた。僕らの同族――あの小さい子、青い鳥、それも僕らと同じ霊媒だね。それにあの左手、もしや――うーん、これは最優先事項だな。ちょっと失礼、レストロオセ派の皆さんは先に時の尖塔に向かっていて欲しい。僕らは野暮用だ」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ユネクティア_uses_心話_p2433
+        quote: 黒衣をばさりと広げると、そのままエスフェイルを包み込む。そして【心話】を発動させる。『神なる意思、そのまことの名は瞋恚なり』
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ユネクティア_attacks_アキラ_p2434
+        quote: ユネクティアはいいながら、漆黒の触手を伸ばして追撃を仕掛ける。私は障壁を張りつつ同数の触手でそれを迎撃するが、
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ユネクティア_observes_姉妹姫_p2436
+        quote: 「へえ。猫の取り替え子か。それに、あそこのアストラル体は少し違和感があるけれど吸血鬼かな。それも恐らく僕らと同じ霊媒個体――これは珍しい。四氏族の霊媒が揃うことなんて、天地が引き裂かれて以来初めてのことじゃないかな？」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ユネクティア_uses_言理の真葉_p2437
+        quote: 「乱雑を両断せよ、【言理の真葉】」左側の袖口から触手を伸ばすと、たちまち暗い緑色に変化させて細長い葉のような刃を形成、一刀のもとに全ての仮想使い魔を両断してみせたユネクティア。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガルズ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0065_ガルズ_says_目的_p2428
+        quote: 「僕が君たちに望むのはたった一つだ。聖女の血を地底に捧げてくれ。そして君たちの悲願である火竜を復活させ、行き詰まったこの世界を完璧に粉砕して欲しい。僕は全人類、いや、全ての生命を死に絶えさせたいんだ」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ガルズ_says_死の世界_p2429
+        quote: 「例えば、あらゆる生命が滅んだ死の世界、そこで動き回る死人たち、なんていうのはどうかな。全生命が死に絶えた後、再生者として死の世界で死に続けるんだよ」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_ガルズ_asks_マリー_p2432
+        quote: 「ね、ねえマリー。僕は本当に彼らに任せていいんだろうか。なんだか不安になってきたんだけど」
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サジェリミーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_サジェリミーナ_other_ガルズ_p2428
+        quote: 「世界の更新！　なんと、このわたくしめと志を共にする方でありましたか！　このサジェリミーナ、いたく感激しましたぞ！　ハハハ！」
+        locator: {}
+        spoiler_after: ch0065
+    speech:
+      observations:
+      - event_ref: E_ch0065_サジェリミーナ_asks_ガルズ_p2428
+        quote: 「さて。広大無辺なこの世界、様々な者がおりましょうが――酔狂にも我々を天頂から甦らせた死霊使い殿、あなたの目的をお聞かせ願いたい。我々はあなたに喚起、維持されている身。逆らおうなどとは思いませぬし、地上に反旗を翻したあなたには敬意を払っております。ですが！」
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ベフォニス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_ベフォニス_other_呪石弾_p2430
+        quote: 出現してからずっと、遠距離から繰り返し呪石弾で狙撃されているのだが、全く堪えた様子がない。それどころか、高速で飛来する弾丸を手で掴んだ上に口に放り込み、ばりぼりと咀嚼している。
+        locator: {}
+        spoiler_after: ch0065
+    speech:
+      observations:
+      - event_ref: E_ch0065_ベフォニス_other_セレクティ派_p2430
+        quote: 「だからよぉー、それは何度やりゃあいいんだよ。え？　そうやってあの腐れ氷女を消耗させる為に俺らが逐次投入されて、その度に死にまくった挙げ句がこの惨状じゃねえの？　もう残ってんの四人とかじゃねえか。冥王さんとこから借りてるズタークまでやられてるとか終わってるだろ。つーか火竜が完全復活したらどいつもこいつも死ぬだろうが、頭イってんのかてめーらセレクティの犬どもはよ」
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ピッチャールー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_ピッチャールー_other_ユネクティア_p2432
+        quote: よく見れば、高々と挙手しているものが夜の民たち以外にも存在した。九本の長大な腕を、円筒形の胴体から生やしている奇怪な生物。腕の真横に付いた目をぱちぱちと瞬きさせながら、第九魔将である賛同のピッチャールーは全ての手を持ち上げていた。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0065_セリアック＝ニア_says_加勢_p2435
+        quote: 「ハルベルトのお陰で観客の半数くらいは避難誘導に成功したけど――あとはあれをどうにかしないと駄目みたい。というわけで加勢するわ。と姉様は仰っています。セリアもそう思います」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_セリアック＝ニア_other_リールエルバ_p2440
+        quote: 「その名前を二回目に口にした奴は決して許さないと決めているの。不用意に口にして五体満足なのはリーナだけよ。だからお前はこの私が最悪に残酷に苦しめて殺し直してあげる。姉様はそう仰るでしょう。セリアもそう思います」
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_リールエルバ_uses_仮想使い魔_p2436
+        quote: 『【小玉鼠】、【きらきら蝙蝠】、【墓の下の穢れ】よ、在れ』【心話】で命じながら、半透明の少女が無数の文字列を視覚的な存在に置き換えていく。
+        locator: {}
+        spoiler_after: ch0065
+    speech:
+      observations:
+      - event_ref: E_ch0065_リールエルバ_confesses_本名_p2439
+        quote: 『く――トリシル＝リールエルバ・ヴォーン・アム＝オルトクォーレンよ』悔しそうに、普段なら絶対に口にしないはずの最初の名前を伝えてしまった。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_プリエステラ_arrives_戦場_p2442
+        quote: 駆けつけてくれたのはプリエステラだった。背後では、スリングショットを構えたミルーニャが呪石弾を次々と発射し、黒檀の民の医療修道士イルスが制御の難しい遠距離での【修復】を発動させてセリアック＝ニアの負傷を癒している。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メイファーラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_メイファーラ_fights_ピッチャールー_p2442
+        quote: 風のように舞台上を駆け抜けていったメイファーラが、短槍を旋回させながらピッチャールーに挑みかかった。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ソルダ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_ソルダ_attacks_多面鏡_p2444
+        quote: 第一位ソルダ・アーニスタが巨大な背骨のような槍を多節鞭に変形させる。それは蛇の如く宙を走ると、多面鏡に勢いよく突き立った。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ネドラド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_ネドラド_uses_静謐_p2445
+        quote: 強力な『呪術を否定する呪術』――それも実体の確かな呪具や機械すら問答無用で破壊してしまうという『杖をも殺す静謐使い』であるネドラドは全ての攻撃を無効化して、そのまま骨の足場を駆け上がって多面鏡に腕を突っ込む。途端、呪具としてのあらゆる機能を失ってばらばらに分解されていく多面鏡。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_聖火楽団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_聖火楽団_uses_空圧_p2446
+        quote: 単純極まりない【空圧】。増幅された音波は衝撃波となって魔将たちを吹き飛ばす。巨大に複雑に、ただ行動を制限するという目的に特化した大音響が響き渡って呪力そのものを弾き飛ばしていくのだ。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルマ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_アルマ_attacks_クエスドレム_p2447
+        quote: 指を鳴らそうとしていた第十三魔将クエスドレムに向かって口を開いて大音声を発する。物理的な衝撃波となった声はクエスドレムの鼓膜を破壊して朱色の眼球を破砕、高い鼻を押し潰すとそのまま吹き飛ばしていく。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アルマ_fights_アインノーラ_p2447
+        quote: 振り下ろされた斧の神滅具の一撃を、同じように両側に形成した炎と雷の刃で迎え撃ち、自分に勝る巨体から繰り出された振り下ろしの一撃と拮抗する。それは、全く同一の武装だった。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アルマ_defeats_アインノーラ_p2448
+        quote: 斧が弾き飛ばされ、目にも留まらぬ速度で放たれた拳がアインノーラの腹部を打ち据える。空高く舞い上がった巨体が頭から舞台に叩き落とされる。
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アルマ_other_ソルダ_p2450
+        quote: 駆け寄ったソルダの顔面を掴むと、稲光を放つ大魔将に向かって投擲するアルマ。
+        locator: {}
+        spoiler_after: ch0065
+    visual:
+      observations:
+      - event_ref: E_ch0065_アルマ_has_property_燐血_p2448
+        quote: 身体から溢れた血液は外気に触れた途端自然発火して炎に変化する。淡く輝く炎の血――それは時に稲妻となって放電を繰り返し、呪術的な防御障壁を形成してその肉体を防御するのである。
+        locator: {}
+        spoiler_after: ch0065
+    speech:
+      observations:
+      - event_ref: E_ch0065_アルマ_names_自分_p2448
+        quote: 「アルマ・リト＝アーニスタ！　貴様はまたしても我らの前に立ち塞がるか！」　「今は輝血のアルマって名乗ってるんだ。あとさ、お前じゃもう相手にならないからさっさと消えてくれる？　私を正面から倒したければイェレイドかヌウォンでも連れてこい」
+        locator: {}
+        spoiler_after: ch0065
+      - event_ref: E_ch0065_アルマ_other_テッシ_p2449
+        quote: 「テッシは圧縮浄界を大魔将に放て！」「ええ、キツ――」「泣き言禁止！　他の魔将は取り込まなくていいから絶対に外すなっ！　ズタークスタークを隔離して私たちで足止めする！　バルは一番隊、グラ爺は二番隊を率いてその間にどうにか死霊使いを倒せっ！」
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_サリア_attacks_魔将_p2447
+        quote: 「あああああああっ」血走った目、正気を失った絶叫、異形の影を蠢かせながら氷の刃を両手に持って疾走するのは誰であろう、【小鬼殺し】サリアだった。狂犬そのものとなって、荒れ狂う【空圧】の中を自由自在に疾走していく。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_テッシ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0065_テッシ_uses_浄界_p2450
+        quote: 広がった異空間がまずズタークスタークを飲み込み、そこにソルダとフラベウファ、アルマとサリア、そして浄界を維持している松明の騎士団の楽団がまとめて取り込まれていく。発生した異空間はそのまま縮小していく。
+        locator: {}
+        spoiler_after: ch0065
+  first_appearance_candidate: true

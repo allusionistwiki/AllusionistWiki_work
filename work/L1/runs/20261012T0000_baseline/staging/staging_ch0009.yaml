@@ -1,0 +1,180 @@
+episode: ch0009
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_カッサリオ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0009_カッサリオ_appears_イッカク_p399
+        quote: 巨大なイッカクだ、とまず最初に思った。 牙が螺旋状に変形、発達して角のように見えることが最大の特徴の、小型のクジラだ。
+        locator: {}
+        spoiler_after: ch0009
+    action:
+      observations:
+      - event_ref: E_ch0009_カッサリオ_attacks_コルセスカ_p400
+        quote: まず真っ先にコルセスカにその特徴的な角（牙？）を向けた。 長大な独角が一瞬、ぶるりと震える。次の瞬間、角が向けられた直線上の空間を、不可視の衝撃が走り抜けていく。
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_カッサリオ_kills_コルセスカ_p400
+        quote: 直撃を受けた肉体が胸の辺りを中心に螺旋状に歪み、ねじ切られていく。 大量の血を撒き散らしながら、コルセスカは無数の肉片になって飛散していった。
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_カッサリオ_attacks_アキラ_p403
+        quote: 背後から押し寄せた衝撃波が迷宮の壁を根こそぎ破壊しながら頭上を通過していく。 直撃こそ免れたものの、衝撃の余波に耐えきれなかったのか、自動二輪の前面装甲が剥がれ、思い切り横転する。
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_カッサリオ_kills_コルセスカ_p420
+        quote: 横薙ぎの衝撃波が至近距離からコルセスカをバラバラに引き裂いていく。
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_カッサリオ_defeats_アキラ_p421
+        quote: 衝撃波を放った反動をあえて脚から床に逃さず、自ら大きく体勢を崩す。 それによって俺の狙いが外れ、カッサリオは致命的な一撃を回避してのけたのだ。
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_カッサリオ_activates_アラームトラップ_p426
+        quote: カッサリオの長大な一角、その震え方が、いつのまにか今までと異なっている。 破壊を伴う衝撃波ではなく、不快な耳鳴りを伴うか細い音に変化していたのだ。
+        locator: {}
+        spoiler_after: ch0009
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0009_トリシューラ_says_カッサリオ_p399
+        quote: 「やばいよーよりにもよってカッサリオだよー死んじゃうよー」
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_トリシューラ_other_エスフェイル_p401
+        quote: 「で、カッサリオとの比較だけど、厄介さとしぶとさと面倒くささではエスフェイルが勝ち、単純な破壊力ではカッサリオが勝ち、って感じかな」
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_トリシューラ_other_カッサリオ_p401
+        quote: 『王獣カッサリオは、破壊力だけなら上位の魔将に匹敵するの。『散らばった大地の時代』にいにしえの言語魔術師が作り出した生物兵器で、召喚者以外は皆殺しにするっていうのが謳い文句の殺戮マシーンだよ！』
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_トリシューラ_defines_人造人間_p405
+        quote: 『その通り。『星見の塔』の技術力の結晶。魔女によって作り出された人造の魔女。創発的人工意識によって出力される形象、それがシューラ。
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_トリシューラ_names_ヴァレリアンヌ_p413
+        quote: 『第十四の杖『ヴァレリアンヌ』は空間の断層を作り出して相手を攻撃するよ。基本的に防御不可能だけど、燃費がものすごく悪くてエネルギーが切れるとただの手斧になっちゃうのが欠点かな』
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_トリシューラ_suspects_セスカ_p432
+        quote: 「やっぱり変だ、今回の競争相手はセスカだとばっかり思ってた。だけど違う、このやり口、やっぱりあいつの仕業――」
+        locator: {}
+        spoiler_after: ch0009
+    visual:
+      observations:
+      - event_ref: E_ch0009_トリシューラ_reveals_全身義体_p404
+        quote: その色は筋肉や内臓の色ではなく、艶めいた黒と銀――金属のものだった。 それはまるで、俺の右腕のような材質であり、つまり彼女は。 「全身義体なのか」
+        locator: {}
+        spoiler_after: ch0009
+    action:
+      observations:
+      - event_ref: E_ch0009_トリシューラ_gives_義腕_p409
+        quote: 自動二輪に取り付けてあったのか、細長いケースは車体の下敷きになっていくらかへこんでいた。
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_トリシューラ_saves_アキラ_p416
+        quote: 槍が胸を貫通し、鮮血が流れ出る。 「トリシューラ！」 「今だよ、アキラくん！」 胸を貫く槍をその手でしっかりと掴んで、トリシューラが叫ぶ。
+        locator: {}
+        spoiler_after: ch0009
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0009_アキラ_flees_カッサリオ_p402
+        quote: 「というわけでもっと速度出せないのかこれ！」 「あ、やばいトリシューラ、角がこっち向いてる。射線から離れて離れて！ カーブ！ 蛇行して！」
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_アキラ_kills_聖騎士_p412
+        quote: 盾、鎧、肉体、それら全てを一刀のもとに両断して、斧は騎士の胴体半ば深くに埋まって停止する。 異常なまでの切れ味、圧倒的な破壊力だった。
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_アキラ_saves_カーイン_p424
+        quote: カーインの死は確実であるかのように思われた。 鋭利な先端がカーインを貫く直前に、俺の左腕が割って入らなければ。
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_アキラ_other_斧_p428
+        quote: ユーザー評価平均星五つ（満点）を獲得した優良アプリの導きに従って、左腕から排出された手斧を右手で握ると、大きく振りかぶって投げる。 渾身の一投は狙い違わずカッサリオの巨体に飲み込まれていった。
+        locator: {}
+        spoiler_after: ch0009
+    speech:
+      observations:
+      - event_ref: E_ch0009_アキラ_bonds_カーイン_p424
+        quote: 「それはこっちの台詞だろう、ロウ・カーイン。借りを作ったまま殺し合いができるか」
+        locator: {}
+        spoiler_after: ch0009
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少年]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0009_少年_other_無傷_p403
+        quote: 腕の中の少年はというと、幸せなことに意識を失ってすやすやと寝息を立てている。 見た限り少年に傷一つ無いことは、俺に今この瞬間がかつて設定した目的と繋がっていると実感させてくれた。
+        locator: {}
+        spoiler_after: ch0009
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0009_コルセスカ_appears_復活_p406
+        quote: かろうじて原形をとどめている片方の頬だけを膨らませて、いかにもな『私、憤慨してます』アピールをするトリシューラの視線が向かう先、そこには以前と変わらない超然とした姿の魔女が立っていた。
+        locator: {}
+        spoiler_after: ch0009
+      - event_ref: E_ch0009_コルセスカ_helps_アキラ_p434
+        quote: 「ならひとまずそこに逃げ込みましょう――『凍れ』」 不意に割って入った言葉と共に、トリシューラが示した先にある肉塊が部分的に氷漬けになる。
+        locator: {}
+        spoiler_after: ch0009
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_聖騎士]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0009_聖騎士_appears_上_p408
+        quote: 案の定、まだ破壊されていない通路の先から、ぞろぞろと吐き出されてくる聖騎士が六人。
+        locator: {}
+        spoiler_after: ch0009
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0009_カーイン_wounds_カッサリオ_p422
+        quote: カッサリオの胴にその貫手を埋めていた。 カーインは巨獣の肉体の構造、弱所を見抜いてでもいるのか、分厚いはずの皮膚にその親指がずぶりとめり込んでいる。
+        locator: {}
+        spoiler_after: ch0009
+    speech:
+      observations:
+      - event_ref: E_ch0009_カーイン_names_六淫操手_p423
+        quote: 六淫操手、その異名を思い出す。
+        locator: {}
+        spoiler_after: ch0009
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_複合種]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0009_複合種_appears_包囲_p430
+        quote: 集結する異獣の群れが、何故か俺たちと一定の距離を保ったまま円形の包囲を崩そうとしない。
+        locator: {}
+        spoiler_after: ch0009
+    action:
+      observations:
+      - event_ref: E_ch0009_複合種_transforms_融血呪_p431
+        quote: 全身から、血という血、水分という水分を絞り尽くそうとするかのように青い血が放出され、迷宮の床を染め上げていく。
+        locator: {}
+        spoiler_after: ch0009
+  first_appearance_candidate: true

@@ -1,0 +1,236 @@
+episode: ch0204
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0204_ユディーア_uses_銀貨_p6834
+        quote: 銀貨を指先で弄び、弾く。夜の闇を裂く銀の軌跡。その先にいる腰の曲がった老婆が、外見からは想像もつかないほど俊敏に硬貨を掴み取った。
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_ユディーア_finds_ウルムゾリム_p6839
+        quote: 迷宮刑罰者にして名のある探索者でもある『刺青彫り』のウルムゾリム。その名前と居場所はあっさり判明した。
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_ユディーア_gives_ニアホン_p6841
+        quote: 少し考えてから、ユディーアはニアホンを取り出して見せる。二頭身の猫姫が「にあ」と鳴く。
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_ユディーア_attacks_ライラ・ラプス_p6849
+        quote: ライラの膝の上にいた犬の胴が突如として伸び上がり、大蛇のように鎌首をもたげたかと思うとユディーアの鉤爪と激突、同規模の呪力を撒き散らしながら弾き飛ばした。
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_ユディーア_attacks_ライラ・ラプス_p6858
+        quote: 一撃、二撃、そしてとどめ。心臓を抉り出した後で臓物と骨を真横にぶちまけ、追撃で首をはね飛ばした上で頭蓋に鉤爪を突き入れた。
+        locator: {}
+        spoiler_after: ch0204
+    speech:
+      observations:
+      - event_ref: E_ch0204_ユディーア_learns_天主_p6835
+        quote: 『下』で最も尊敬を集める大呪術師にして彩域の支配者が『天主』だ。生半可な覚悟で口にすれば称号の呪力に潰される重みのある異称である。
+        locator: {}
+        spoiler_after: ch0204
+    visual:
+      observations:
+      - event_ref: E_ch0204_ユディーア_arrives_牢獄街_p6837
+        quote: 最初に目指すのは壁に包囲された罪人の棲家。名を、牢獄街という。
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_ユディーア_wears_踊り子衣装_p6844
+        quote: 水着のような踊り子衣装のトップスと胸部の間に無視できない空隙が存在している。
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_老婆]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0204_老婆_gives_通行証_p6834
+        quote: 老婆は即座に小さな木片を投げ返した。ユディーアは手の中に収まった木片を確認する。力ある呪文が刻まれた通行証。
+        locator: {}
+        spoiler_after: ch0204
+    speech:
+      observations:
+      - event_ref: E_ch0204_老婆_says_ハデス_p6835
+        quote: 入れ替わりでやってきた世界的な犯罪組織『十戒』の幹部がハデスだ。アダルトスナッフフィルムの俳優兼監督で『女王の祭司』を自称してる。
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_老婆_says_四大ギャング_p6835
+        quote: 「辺境区を支配する新興勢力のボス猿ども。『にっこりゴーリー』、『豚好きハデス』、『拳骨アサブ』、『緑天主ロードデンドロン』。この名前が出たら関わらない方がいい」
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_老婆_says_アサブ_p6836
+        quote: 『ハルムシオンの風』は亜大陸から渡ってきた探索者集団だが、こっちで言うところのギルドや兄弟団みたいな集団って聞いたよ。
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_老婆_says_ロードデンドロン_p6836
+        quote: 『ティリビナ同胞団』の『自称緑天主』は放浪者気質の多いティリビナ難民たちを纏め上げた『原住民』の若き指導者だ。
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_牢獄街]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0204_牢獄街_has_property_朱の彩域_p6837
+        quote: むせかえるような『朱』の色彩。ユディーアは灰神の痕跡を精査することを諦めた。この一帯は朱の彩域が強い。
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_迷宮刑]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0204_迷宮刑_defines_探索者_p6838
+        quote: 迷宮刑というのは要するに地上の犯罪者を探索者に仕立て上げる仕組みのことだ。罪人たちは一定数の異獣を討伐するまで帰還を許されない。
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_ウルムゾリム]]'
+  entity_type: relationship
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0204_ウルムゾリム_has_property_古代文字の刺青_p6839
+        quote: むき出しの二の腕と顔面をびっしりと古代文字が埋め尽くしており、さながら生ける魔導書といった風情の人物だ。
+        locator: {}
+        spoiler_after: ch0204
+    relationship:
+      observations:
+      - event_ref: E_ch0204_ウルムゾリム_bonds_ユディーア_p6841
+        quote: 利害が一致した両者は頷き合い、しばしの話し合いを経てその場を後にした。
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ライラ・ラプス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0204_ライラ・ラプス_captures_ゴーリー邸_p6842
+        quote: その名は『傘の魔女』ライラ・ラプス。彼女の目的は『ゴーリーズ』勢力の掌握。怪物ライラの圧倒的な力を前にギャングは抵抗虚しく屈従を強いられた。
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_ライラ・ラプス_kills_失敗作の犬_p6847
+        quote: 手を握る。肉が潰れ、断末魔の鳴き声と共に鮮血が滴り落ちた。何食わぬ顔で生まれたばかりの命を握り潰し、膝の上の犬を愛おしげに撫でる。「失敗作でしたね。殺処分が妥当でしょう」
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_ライラ・ラプス_makes_異形の犬_p6847
+        quote: 空間の歪みから湧き出したのは二頭の犬だ。魔女の指先がくるりくるくると踊るたび、犬が粘土のように混ぜ合わされて一つの作品へと変質していく。
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_ライラ・ラプス_other_バナナの皮_p6857
+        quote: ライラ・ラプスは足下に転がっていたバナナの皮で足を滑らせた。すってんころりん、という間抜けな擬音が可視化され、受け身すら取れない派手な転倒。
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_ライラ・ラプス_flees_影_p6861
+        quote: 言うが速いか、ライラは黒馬が床に広げた黒い影の中に入って行く。四人の長寿者たちが続けて去って行くと、影は縮小してその場から消滅した。
+        locator: {}
+        spoiler_after: ch0204
+    speech:
+      observations:
+      - event_ref: E_ch0204_ライラ・ラプス_says_犬の地位向上_p6846
+        quote: 「動物愛護？　いいえ、私は犬の地位を向上させたいだけ。『ことば』を与えてね」
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_ライラ・ラプス_has_property_命数十九万八千_p6852
+        quote: そしてライラ・ラプス。推定命数およそ十九万八千。「じゅうきゅうまんっ？！」
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_銀髪の少女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0204_銀髪の少女_helps_ユディーア_p6845
+        quote: 「そういう時はね、小規模な『創造』で誤魔化せばいいの。簡単でクラフトしょ？」
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_銀髪の少女_other_イシルドゥムア_p6857
+        quote: あらゆる過去を見通す八つの眼と輝く両腕、七本の尻尾を持つ外なる神。
+        locator: {}
+        spoiler_after: ch0204
+    speech:
+      observations:
+      - event_ref: E_ch0204_銀髪の少女_other_停戦_p6859
+        quote: 「提案があるんだけど、ここで矛を収める気は無い？　このまま続けるとこのあたりの彩域が使い物にならなくなっちゃう。せっかくの良質な土地なのに、勿体ないと思わない？」
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_銀髪の少女_reveals_寄り代_p6860
+        quote: 「言っておくけど、私はこの身体と後ろのコたちを含めて寄り代を三十人、第五階層に待機させている。たとえ相手が名高い傘の魔女であろうとも、命数の五割は削って見せるわ」
+        locator: {}
+        spoiler_after: ch0204
+      - event_ref: E_ch0204_銀髪の少女_asks_過去視_p6863
+        quote: 「調べて欲しいのはとあるティリビナ人の遺体。今日の夕刻、じゃなくてもう昨日か。酒場のど真ん中で殺害された、『ティリビナ同胞団』の幹部と目される重要人物」
+        locator: {}
+        spoiler_after: ch0204
+    name:
+      observations:
+      - event_ref: E_ch0204_銀髪の少女_names_レナリア・V・オルガナ_p6864
+        quote: 「私はレナリア・Ｖ・オルガナ。暗殺者で、いちおう紀人。よろしくね」
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_踊り子たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0204_踊り子たち_attacks_酔漢たち_p6848
+        quote: 流れるように振り下ろされた繊手が肉体言語魔術によって付与された『斬撃』の呪文を歌い上げる。最前列で食い入るようにして踊り子の身体を眺めていた男の首を鮮やかに切断。
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_罪人たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0204_罪人たち_other_致命傷_p6850
+        quote: 頸動脈を切断され、首をへし折られ、心臓ごと主要な臓器を破壊された男たちが平然と言葉を交わし合う。苦痛を訴えながらも肉体を急速に再生させ、何事も無かったかのように服すら元通りに復元する驚くべき呪術の技量。
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ニアホン]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0204_ニアホン_other_命数_p6851
+        quote: ユディーアはニアホンを操作し、敵の命数を測定するアプリを起動した。
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ケアヴ三世]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0204_ケアヴ三世_attacks_ユディーア_p6855
+        quote: アストラル界の更に底、人類の無意識を反映した夢界と物質界が接続され、不条理な現象がこちら側に流出する。悪夢が具現する。
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_ゴーリー]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0204_ゴーリー_attacks_ケアヴ三世_p6856
+        quote: 背後から黒馬の心臓を貫いたゴーリーが裂帛の気合いを込めて叫んだ。右腕の刺青が禍々しい紫色に発光し、敵の体内で呪いを炸裂させる。
+        locator: {}
+        spoiler_after: ch0204
+    relationship:
+      observations:
+      - event_ref: E_ch0204_ゴーリー_bonds_銀髪の少女_p6862
+        quote: 「姐さぁん、うっうっ、来てくれるって信じてたよぉ～」「あーもう泣くな情けない」
+        locator: {}
+        spoiler_after: ch0204
+  first_appearance_candidate: true

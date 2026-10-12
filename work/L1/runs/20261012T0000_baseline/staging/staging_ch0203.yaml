@@ -1,0 +1,393 @@
+episode: ch0203
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_偽りの太陽と星空]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0203_偽りの太陽と星空_transforms_昼夜の入れ替わり_p6811
+        quote: 偽りの太陽と星空が入れ替わり、昼が眠り夜が目覚める。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_占い師たち]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0203_占い師たち_makes_第五階層だけの星読み_p6811
+        quote: 占い師たちは逆さまの森が灯す不可思議な光を使った『第五階層だけの星読み』で顧客を獲得しようとそれぞれ裏路地や四つ辻に陣取って競い合うように商売を始めた。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_天蓋の大樹]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0203_天蓋の大樹_stops_灯火_p6811
+        quote: 天蓋の大樹から灯火が消えると、今度は逆さまの森が一斉に淡い光を纏い始めた。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_未来]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0203_未来_breaks_紫水晶_p6811
+        quote: 紫の軌跡を描きながら落下した未来は、あまりにもあっけなく砕け散った。無数の欠片となって飛散した紫水晶。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_男たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0203_男たち_attacks_クレープ屋台_p6811
+        quote: 暴漢、と一括りにしてしまうには屋台を取り囲む男たちには『色』が付きすぎていた。数は五人、いずれも黒い肌に尖り耳の半妖精、手の甲には共通した黒豚の刺青、同じ共同体に属するもの特有の同質性の高い気配。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_男たち_attacks_店員_p6814
+        quote: 立ちこめる霧を盾にしながら四人の男が空中に無数の鏃をばらまく。半妖精の集団が戦意を込めて小片を睨むと、瞳に宿った輝きに呼応するように鏃の後ろに光の矢が出現。マジックミサイルと呼ばれる呪力矢が横殴りの雨となって店員とその背後の屋台に襲いかかる。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_男たち_captures_店員と少女_p6814
+        quote: 動かない状況に焦れてきた男たちは強引に二人を拉致しようと懐から武器を取り出そうとする。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少女]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0203_少女_appears_屋台の下_p6812
+        quote: 「ほぎゃあ！」 素っ頓狂な声に空気が凍る。誰かが屋台の下に隠れているのは明らかだった。
+        locator: {}
+        spoiler_after: ch0203
+    speech:
+      observations:
+      - event_ref: E_ch0203_少女_fears_権威の無効_p6813
+        quote: 「あれっ逆効果っ？！ どうしましょうこの人たち巫女の権威にひれ伏してくれません！」 偉そうに胸を張っていた少女は一瞬にして涙目になってすがるように下に手を伸ばす。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_少女_says_創世竜の巫女_p6813
+        quote: 「控えなさい！ 私たちを誰と心得ますか！ 今は流れのバイト占い師に身をやつしてはいますが、その正体は栄えある創世竜の巫女！ 世界を統べる竜神の天罰を恐れるのであれば速やかに立ち去りなさい！」
+        locator: {}
+        spoiler_after: ch0203
+    action:
+      observations:
+      - event_ref: E_ch0203_少女_makes_屋根登り_p6813
+        quote: 屋根によじ登ろうとするが体を持ち上げるための腕力が足りない。じたばたと足を振りながら少女がわめく。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_店員]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0203_店員_says_アダルト映像出演拒否_p6812
+        quote: 「『豚好きハデス』様のお噂は耳にしておりますが、私、アダルトなケモノ映像に出演するのはちょっと。豚ではなく鹿ですし。それに闇っぽい方々のシノギは宗教的に遠慮したいです」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_店員_says_勤務時間中の離脱拒否_p6812
+        quote: 「一度でわかりましたわ。あなた方は私が欲しい。けれど私は勤務時間中に持ち場を離れるわけにはいかない。待つのも無理なのですよね？ 困りました」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_店員_says_辺境区の権威の無力さ_p6814
+        quote: 「ここはガロアンディアン中央政府の目が届かない辺境区ですからねえ。エメちゃんの権威はわりと無力です。紀竜を信仰しているかたも『下』ほど多くないですし」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_店員_asks_ユディーア_p6816
+        quote: 店員が驚いたように女の名を口にした。呼びかけというより、本当にその人物なのかどうか確信が持てないというニュアンスの問いかけに近い言葉。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_店員_says_ユディーアの取り乱し_p6818
+        quote: 「でも先読みの聖女が攫われたくらいで『あのユディーア』がこんなに取り乱すだなんて、けっこう激アツ情報ですよね♪ 私個人としては燃料供給感謝でーす♪」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_店員_says_ユディーアへの失望_p6818
+        quote: 「この子の前で血を流すことを迷いませんでしたね。私、少しあなたを見損ないました」
+        locator: {}
+        spoiler_after: ch0203
+    action:
+      observations:
+      - event_ref: E_ch0203_店員_helps_少女_p6813
+        quote: 「はいはい、お手伝いしますねー」 店員が足を掴んでぐっと押し上げたことで小柄な少女はやっとのことで屋台の上に到達。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_店員_makes_巨大な杖_p6814
+        quote: 店員が足下の影から巨大な杖を取り出すのと、男たちが一斉に飛び退いて距離をとったのは同時。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_店員_makes_影の障壁_p6815
+        quote: 矢の群を防ぐために自らの影を引っ張り上げて障壁に仕立てた店員は衝撃の重さに呻いた。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_店員_uses_使い魔の悪霊_p6819
+        quote: 無言で足下の影を蠢かせ、使い魔の悪霊たちを使役して崩壊した屋台をどこかへ運搬したり辺り一帯を闇の帳で包み込んで情報を遮断したりと必要な作業を実行していく。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_男]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0203_男_breaks_屋台_p6812
+        quote: 男は口から唾を散らしながら威嚇するように移動式の屋台を蹴り飛ばした。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_男_dies_自害と証拠隠滅_p6817
+        quote: 灰色の『窓』が開こうとしたその瞬間、死にかけの男が奥歯で何かを噛み潰す。灰色の彩域が歪む。時空が早回しで進み、男が急速に老けていったかと思うと朽ち果てる。骨と皮ばかりの老人から風化した白骨死体、最後は風に舞う塵に。
+        locator: {}
+        spoiler_after: ch0203
+    speech:
+      observations:
+      - event_ref: E_ch0203_男_says_霊媒増加への歓迎_p6813
+        quote: 「なんだこいつも竜の巫女か。質のいい霊媒が増えて助かるぜ。ボスも喜ぶ」
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーダー格の男]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0203_リーダー格の男_makes_霧の防壁_p6814
+        quote: リーダー格らしき男が呪符を用いて『霧の防壁』を展開する。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0203_女_breaks_羽虫_p6815
+        quote: 女は頬の近くを飛んでいた羽虫を見つけて無造作に指でつまんで潰した。その仕草を見た男たちの表情から血の気が引いていく。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_女_kills_リーダー格の男_p6815
+        quote: 障壁を構築していたリーダー格の男、その胸を素手で背後から貫きながら女が首を傾げた。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_流れ矢]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0203_流れ矢_breaks_屋台_p6815
+        quote: 流れ矢が背後の屋台に直撃し、腐敗の呪詛をまき散らして崩壊させていく。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0203_ユディーア_kills_男たち_p6816
+        quote: 背後から迫るそれを『霧の防壁』で、前から迫るそれを最初にしとめた男の死体を盾にして凌ぎつつ、次の首を一撃で斬り飛ばす。もう一人が吐いた呪詛を『妖精』で解呪しつつ踏み込んで腹腔に打撃。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_uses_剥落の鉤爪_p6816
+        quote: ユディーアの『剥落の鉤爪』は本来この程度には無体な暴力だった。個々人が咄嗟に発動させた『報復』の防御術など容易く貫き、瀕死の状態で使った『修復』の治癒術は傷痕に残留した高濃度の呪詛により阻害されて迫り来る死を遠ざけることは叶わない。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_gives_灰神_p6823
+        quote: ユディーアは目の前に広げた『窓』から少量の灰神を掬い取り、ラズリの前に散りばめた。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_makes_反撃の一歩_p6833
+        quote: 己を鼓舞しつつ、ユディーアは反撃のための一歩を踏み出した。
+        locator: {}
+        spoiler_after: ch0203
+    speech:
+      observations:
+      - event_ref: E_ch0203_ユディーア_asks_人探し_p6817
+        quote: 「ラズ、頼みがあるんだけど。急ぎで。人探しできる？ 押しつけがましくて悪いけど今のお礼ってことで手を打ってくれると助かるかなあ」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_confesses_エスメラルダへの謝罪_p6819
+        quote: 「ごめん、エスメラルダ」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_suspects_使い魔内部の勢力争い_p6820
+        quote: 故に、ユディーアは敗北後に意識を取り戻してからリーナたちに連絡を取っていなかった。 敵がクロウサーである可能性が存在するためだ。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_suspects_真なる邪視の座_p6820
+        quote: すなわち『真なる邪視の座』が介入してきたケースだ。 『アルティウス』という名乗りを思い出す。彼が『本物』なら、『槍の民』が動き出したということも有り得た。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_asks_襲撃者の正体と背後関係_p6821
+        quote: 「問題は、襲撃してきた四人がそれを平然と突破してきたことだよ。『聖女』の居場所もだけど、ラズには襲撃者の正体と背後関係を占って欲しいんだ。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_asks_囚われのお姫様救出_p6822
+        quote: 「というわけで、囚われのお姫様救出作戦ですね！ 燃えるシチュエーションです！」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_says_はじまりの子供_p6829
+        quote: 「『はじまりの子供』。神が『人類』の呪文で創造した眷族種の祖だね。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_says_アルティウスの名前の由来_p6830
+        quote: 「アルティウスという名は亜竜王アルトのあやかりだと思う。アルトの意味は『神の息子』、神話ではダーカンシェルという言語を司る神の子供とされている」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_says_クナータの血の役割_p6831
+        quote: 「あの子は救世主を生む『子宮』であると同時に、始まりの獣を呼び起こす生贄でもあるんだから」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_says_ゴーリー邸宅での合流_p6832
+        quote: 「わかった。一番近くにいるのは、『ゴーリー』ってギャングの邸宅？ じゃあそこで合流しよう。あたしが向かうまで待機してて」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ユディーア_fears_仲間への悪運の波及_p6833
+        quote: 同時に『竜の巫女』なら多少は巻き込んでも平気だろうという自分の思考にうんざりする。ラズリの言葉は正しい。彼女たちなら、自分の悪運を受け入れて貰えるという甘えがあった。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エスメラルダ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0203_エスメラルダ_makes_即席の舞台_p6819
+        quote: 戦闘に怯えて震えていた少女が手をわたわたさせながら二人の間に飛び出した。やけくそ気味の口上と共に歌と踊りによる即席の舞台を上演、険悪な空気を無理矢理に作り替えようとしているのだ。
+        locator: {}
+        spoiler_after: ch0203
+    name:
+      observations:
+      - event_ref: E_ch0203_エスメラルダ_names_第五の巫女_p6819
+        quote: 彼女こそ、竜神信教における第五の巫女エスメラルダ。 間もなく始まる『祝祭』に備えて呼び出された竜神信教派の切り札である。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_エスメラルダ_names_アルティウス_p6827
+        quote: そして守護の九槍『元』第六位、『竜牙槍』アルティウス。ただアルティウスは故人で、騙りか再生者かわからないです」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_エスメラルダ_names_スーリウム_p6827
+        quote: ティリビナ人の大脱出を成功に導いた英雄、『花のアヴロノ』スーリウム。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_エスメラルダ_names_ノゴルオゴルオ_p6827
+        quote: ベフォニス王ヴァルニア家の千年摂政、『双頭』ノゴルオゴルオ。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_エスメラルダ_names_ライラ・ラプス_p6827
+        quote: 「虹国の言語支配者、『傘の魔女』ライラ・ラプス。
+        locator: {}
+        spoiler_after: ch0203
+    speech:
+      observations:
+      - event_ref: E_ch0203_エスメラルダ_fears_剣呑な雰囲気_p6822
+        quote: 真面目な会話をぼへーっと聞いていたエスメラルダはまたしても剣呑になっていく雰囲気に泣きそうになりながら叫んだ。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_エスメラルダ_says_帝城の宣名碑_p6826
+        quote: 「しゅぴんと託宣来ました！ 竜帝様がその四人の名前なら帝城の宣名碑に刻印されてるって教えてくれましたよ！」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_エスメラルダ_says_傘の魔女の伝承_p6828
+        quote: 「えと、『犬と猫の結婚』ていう五百年前に書かれた戯曲があるんですよ。主人公の助言者の魔女がライラ・ラプスの伝説を元にしまして。恐ろしい冥府から手招きするハザーリャやデーデェイア、ティーアードゥといった闇の神々の誘いを遮り、此岸から彼岸へと虹の橋を架け、異界の彼方にある『猫の国』に導いてくれるいい魔女さんなんですけど」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_エスメラルダ_says_レメス神の長女_p6829
+        quote: 「『傘の魔女』、『虹犬五傑』、『犬精の至宝』。通り名は幾つもありますが、有名なのは系譜と出自を示す二つ名。神話では『レメス神の長女』とされています」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_エスメラルダ_says_竜帝の命令_p6830
+        quote: 「その、竜帝は聖女の血が悪用されることを憂いています。正しい秩序を取り戻すため、囚われの聖女を取り戻して『帝城』の封印を緩めよと仰せです。えっと、なんかごめんなさい」
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラズリ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0203_ラズリ_says_レオくんへの襲撃_p6820
+        quote: 「『公社』襲撃の報せなら噂になっています。『レオくん』は中央でトリシューラの庇護下に置かれていますが、彼は忠実な側近を失ったとか。ただ襲撃の目的は不明とされています。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ラズリ_says_弱小勢力の全滅_p6821
+        quote: 「幾つかの弱小勢力が『今なら公社を攻め落としてレオきゅんを独占できる！』と勘違いして突撃、直後に全滅。呪的侵入を試みた低級の言語魔術師も同様の末路を辿りました。『デーデェイアの鏖視』に引き摺り込まれて今ごろアストラル海の藻屑でしょう」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ラズリ_says_ユディーアへの甘え_p6822
+        quote: 「いいんですよエメちゃん。ユディーアったらこういう態度と物言いが許される相手が他にいないからって甘えてるだけなんですから。いいでちゅよー、他ならぬ親友の頼みでちゅからー、優しくて友達甲斐のある私がー、なんでもやってあげまちゅからねー、ばぶばぶー♪」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ラズリ_says_古代テテリビナの秘術_p6824
+        quote: 「これ、敵の呪術師は想像以上の怪物ですね。複数の時間軸、確定していない可能性の道を同時に構築して『未来回想』に重ねている。『塔』だとノエレッテお姉様やカネッサお姉様が得意な『時間樹』を渡り歩く古代テテリビナの秘術です」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ラズリ_says_四大ギャングの拠点_p6825
+        quote: 「可能性の枝は四つ。ああ、話が繋がりました。聖女様の居場所は『占い師狩り』を意欲的に行っている方々の拠点。『公社』に抵抗を続ける辺境区の四大ギャングたちですね」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ラズリ_says_ティリビナ同胞団への対応_p6826
+        quote: 「『同胞団』に関しては私に任せてください。竜神信教はティリビナ人コミュニティへの布教も行っていますので、こっそり内情を探るくらいのお手伝いはできそうです」
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ラズリ_says_テテリビナの起源_p6829
+        quote: 「そして当然、テテリビナも最古の妖精ですね。アヴロノという言葉が生まれるより前に分岐した混沌派の物質化妖精。天秤の紀人エルティアスの庇護下に無い、移り気の紀神ミクニーと豊穣の紀神ガリヨンテの気まぐれな愛の証。
+        locator: {}
+        spoiler_after: ch0203
+    action:
+      observations:
+      - event_ref: E_ch0203_ラズリ_makes_星空の投影_p6821
+        quote: 店員の仮面を外したラズリ・ジャッフハリムは巨大な錫杖にカードを差し込んでいった。円盤状の杖先から光の粒子が舞い上がり、中空に星空が投影される。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ラズリ_makes_古代ワリバーヤ王朝の占術_p6823
+        quote: ラズリの杖が発光し、輝く瞳が星空を映し出す。 中空に投影された星図とその下に配された札による占術は古代ワリバーヤ王朝で盛んに行われていた形式である。
+        locator: {}
+        spoiler_after: ch0203
+      - event_ref: E_ch0203_ラズリ_observes_分岐する未来_p6824
+        quote: ラズリの目の前に現れた未来。それは不安定に揺らぐ複数の幻像だった。 「確定しない、というより分岐してる？」
+        locator: {}
+        spoiler_after: ch0203
+    name:
+      observations:
+      - event_ref: E_ch0203_ラズリ_names_四大ギャング_p6825
+        quote: 迷宮刑罰者が結成した探索者集団、『ゴーリーズ』。 ネビロン氏族の半妖精が結成した組織犯罪集団、『十戒』。 黒檀の民による互助組織、『ハルムシオンの風』。
+          ティリビナ人たちによる自治独立を訴える組織、『ティリビナ同胞団』。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_公社]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0203_公社_is_located_第五階層_p6820
+        quote: 『公社』はセリアック＝ニアが籍を置いている関係で、リーナとミルーニャの二人も含めた『空組』たちの第五階層における活動拠点として用いられていた。
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびニア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0203_ちびニア_appears_ニアホン_p6831
+        quote: 腰に提げた収納袋、その蓋がぱかりと開いて中から小さなデフォルメ二頭身が飛び出す。「にあ！」 携帯しているもう一つの小型端末、ニアホンからの着信だった。
+        locator: {}
+        spoiler_after: ch0203
+    speech:
+      observations:
+      - event_ref: E_ch0203_ちびニア_says_虹犬追跡の報告_p6832
+        quote: 「行き先ばらばら、セリアもぶれぶれ、可能性増え増え！ 本体まだ。たくさん疲れた！ あの虹犬きらい！ 戻るのはしばらく無理そう。にあー」
+        locator: {}
+        spoiler_after: ch0203
+  first_appearance_candidate: true

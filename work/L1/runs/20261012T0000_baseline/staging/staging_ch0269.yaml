@@ -1,0 +1,173 @@
+episode: ch0269
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0269_リーナ_observes_エクリーオベレッカ_p8385
+        quote: その答えを、リーナは直に目の当たりにした瞬間、即座に理解した。 白い光を突破して辿り着いた天空で、彼女が目にしたのは。
+        locator: {}
+        spoiler_after: ch0269
+      - event_ref: E_ch0269_リーナ_other_言語化_p8386
+        quote: 『それ』の中身を脳内で言語化し、テキストベース・サーキットに呪文として記述しようとする。言理飛翔によって速度を追求し続けてきたリーナにとって、それは得意技のはずだった。なのに、全く言葉が思い浮かばない。
+        locator: {}
+        spoiler_after: ch0269
+      - event_ref: E_ch0269_リーナ_thinks_状況変化_p8387
+        quote: リーナはいま、奈落の底でダウザールの操り人形となっている。 この致命的状況は、先ほどから一切動いていなかった。 にもかかわらず、リーナは己の自由意志をはっきり自覚している。
+        locator: {}
+        spoiler_after: ch0269
+      - event_ref: E_ch0269_リーナ_makes_箒_p8395
+        quote: 書物を箒に見立てる。 ここではそれが可能で、箒さえあれば魔女は飛べるはずだ。 全てを綺麗に。この空を掃いて清めることができるだろう。
+        locator: {}
+        spoiler_after: ch0269
+      - event_ref: E_ch0269_リーナ_uses_死人の森の断章_p8395
+        quote: 死人の森の断章をしっかりと胸に抱いて、記された言葉を強く心に刻みながら。 悲しみよりも強く、前に向かえと己に命じる。
+        locator: {}
+        spoiler_after: ch0269
+    speech:
+      observations:
+      - event_ref: E_ch0269_リーナ_says_困惑_p8386
+        quote: 「なになに、わけわかんない！ なんなの『あれ』は？ ってか、ノリと勢いで来ちゃったけど、どこなのここー？」
+        locator: {}
+        spoiler_after: ch0269
+      - event_ref: E_ch0269_リーナ_says_決意_p8391
+        quote: 「絶対にイヤ」 「良くぞ言った、それでこそ私が見込んだ空使いだ！」
+        locator: {}
+        spoiler_after: ch0269
+      - event_ref: E_ch0269_リーナ_says_虚勢_p8395
+        quote: 「いいよ、やってやんよ！ 『超空使い』リーナちゃんの力、見せてやる！」 実力も自信も伴わないまま、それでもリーナは虚勢を張った。 空っぽの自分を少しでも強く見せるために、精一杯に偉ぶって空威張り。
+        locator: {}
+        spoiler_after: ch0269
+      - event_ref: E_ch0269_リーナ_says_約束_p8396
+        quote: 「だから、私のことをちゃんと見てて。このまま言いなりにはならないからさ。約束は守るよ。私は私の意思をきっちり押し通す。だからっ」 その先の言葉は、リーナ自身にもわからない。
+          ただ、わからない言葉をそのまま速度に変えた。
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_紀神エクリーオベレッカ]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0269_紀神エクリーオベレッカ_is_located_空_p8385
+        quote: 空に浮かぶ霊城、その名は紀神エクリーオベレッカ。 死後に魂が行き着く先であるという天の国は、ゼオーティアの紀元神話において逆さに屹立する巨大建造物として表現される。
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダウザール]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0269_ダウザール_appears_リーナ_p8387
+        quote: 「ダウザール、おじいさま」 古典的な神話に登場する髭を蓄えた巨大な天神。 そうとしか形容できない単純明快なビジュアルイメージが雷鳴の轟きとセットで記述され、
+        locator: {}
+        spoiler_after: ch0269
+    speech:
+      observations:
+      - event_ref: E_ch0269_ダウザール_says_上位者の地平_p8388
+        quote: 「お前は『上位者の地平』に足を踏み入れたのだ。巨人位階の中でも更に全能者に近い次元。時間と空間を超越し、紀人や紀神は現実世界を盤上遊戯のように知覚し、俯瞰することができる。
+        locator: {}
+        spoiler_after: ch0269
+      - event_ref: E_ch0269_ダウザール_says_力の必要性_p8390
+        quote: お前が意思を押し通したいのであれば、力を示さねば話にならんな」
+        locator: {}
+        spoiler_after: ch0269
+    action:
+      observations:
+      - event_ref: E_ch0269_ダウザール_reveals_天獄の試練_p8392
+        quote: 「そして、ここから先はただ飛翔するだけでは乗り越えられぬ神々の道。見よ、荒れ狂う空はまさに天獄！
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_遊戯盤]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0269_遊戯盤_appears_リーナとダウザールの中間_p8388
+        quote: 気付けば、リーナとダウザールの中間地点に遊戯盤が出現している。 それはちっぽけなようで、とてつもなく広大な世界だった。
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_黒い魔導書]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0269_黒い魔導書_functions_as_情報処理補助_p8388
+        quote: すると手の中に収まっていた黒い魔導書が輝き、するべきことを教えてくれた。意識を盤上の一か所に集中させる。するとより詳細な下界の様子を知覚することができ、他の大量の情報が意識から消えていく。
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レメス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0269_レメス_fights_シナモリアキラ_p8389
+        quote: 動物仲良しの紀人レメスがキャッキャウフフとか言いつつ動物たちと戯れていると、そこに義手の紀人シナモリアキラがやってきてそれを止めようとしたのだ。
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0269_シナモリアキラ_loses_レメス_p8390
+        quote: 新参者のシナモリアキラは果敢に抗戦しているが、かなり一方的にボカスカやられてしまっている。
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メートリアン]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0269_メートリアン_is_located_冥界_p8391
+        quote: メートリアンはここにはいない。彼女は今も冥界を下り、現実世界で囚われているリーナを取り戻すための地に足の着いた戦いをしている。
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_レコードゴースト]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0269_レコードゴースト_appears_コース_p8392
+        quote: その遥か先を進むのは、半透明の背中たち。「レコードゴースト？ ここに来た、歴代の当主たちなの？」
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ライラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0269_ライラ_names_七つ風_p8393
+        quote: 「葬送競技の褒美は三つ。勝者には魔女の大釜を。美しき女奴隷を。 身籠った雌馬を。ああ、遂に本選が始まる！」 傘をさしたパピヨン犬氏族の虹犬貴婦人が歌うような節回しで台詞を紡ぐ。
+        locator: {}
+        spoiler_after: ch0269
+      - event_ref: E_ch0269_ライラ_asks_リーナ_p8394
+        quote: 「序列一位、『一風』のライラ・プラパーシュ・クロウサー。私の風を乗り越えねば、真の空使いとは言えません。あなたにそれができますか？」
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_七つ風]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0269_七つ風_defines_空使い直属の特務親衛隊_p8393
+        quote: ライラと名乗った虹犬の貴婦人と、彼女に続く超越者たちは空使い直属の特務親衛隊、またの名を『七つ風』。現代の基準で言えば全員が第七階梯、すなわち巨人位階に到達している高位呪術師集団だ。
+        locator: {}
+        spoiler_after: ch0269
+      - event_ref: E_ch0269_七つ風_names_各メンバー_p8394
+        quote: 「序列七位、『扇風』のテセト・アルゾラ・クロウサー。俗界の諸相を映すエーラマーン神の統べる風聞こそは確かな力。当主としてのご采配に期待します、リーナ様」
+        locator: {}
+        spoiler_after: ch0269
+  first_appearance_candidate: true

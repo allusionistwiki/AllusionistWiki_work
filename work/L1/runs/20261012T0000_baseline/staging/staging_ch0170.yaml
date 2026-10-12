@@ -1,0 +1,254 @@
+episode: ch0170
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_地下室の姫君]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0170_地下室の姫君_says_歌_p5651
+        quote: 闇に閉ざされた地下室で淀みなく上下する怨嗟の旋律。反響する耳障りな歌声はどこまでも寂しくて、ただ希望が削ぎ落とされていく。
+        locator: {}
+        spoiler_after: ch0170
+      - event_ref: E_ch0170_地下室の姫君_other_不完全さ_p5655
+        quote: 対として切り分けられていた私たちは不完全になった。互いに触れ合い、融け合い、ひとつの混沌として完成してしまったから。
+        locator: {}
+        spoiler_after: ch0170
+    action:
+      observations:
+      - event_ref: E_ch0170_地下室の姫君_activates_呪いの檻_p5652
+        quote: 幾重もの堅牢な守り、呪いの檻を眠らせて、衛兵のコウモリたちを下がらせることまでした。
+        locator: {}
+        spoiler_after: ch0170
+    relationship:
+      observations:
+      - event_ref: E_ch0170_地下室の姫君_observes_臣下_p5652
+        quote: 彼女のことを恐れ、敬い、『狂っている』と心を震わせている遠くの臣下たち。おかしなことだ。――私はただ、歌っているだけなのに。
+        locator: {}
+        spoiler_after: ch0170
+      - event_ref: E_ch0170_地下室の姫君_other_獣_p5654
+        quote: 椅子に拘束された彼女は両手を広げることすらできなかったけれど、弛緩した体と柔らかく微笑んだ頬は確かに獣を求め、受け止めようとするものだった。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_王国]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0170_王国_defines_光と闇の神権_p5651
+        quote: 陽光に照らされた地上の王国と、暗い影に包まれた地下の王国。王国の調和は完成された神権とそこから滴り落ちた王権によって保たれる。光の中には宝石が。闇の中には血統が。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_獣の耳を持つ少女]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0170_獣の耳を持つ少女_appears_地下室_p5653
+        quote: 驚くべきことに、まだ小さな――幼かった当時の私よりも一つ二つは年下と思えるような少女がそこにいた。いや、真に驚くべきは彼女の頭頂部にふたつ、三角形の耳が乗っていたことなのだが
+        locator: {}
+        spoiler_after: ch0170
+    action:
+      observations:
+      - event_ref: E_ch0170_獣の耳を持つ少女_attacks_地下室の姫君_p5654
+        quote: 獣は剥き出しの荒々しさでもって檻に爪を立てようとしていた。血が記憶する狩猟の性が命ずるままに、牙を光らせて飛び掛かる。
+        locator: {}
+        spoiler_after: ch0170
+      - event_ref: E_ch0170_獣の耳を持つ少女_other_地下室の姫君_p5655
+        quote: 私を襲ったのは、鋭い爪の一撃ではなく、柔らかな手の感触で。おっかなびっくり頬をなぞる感触がどこまでもやさしかったのを覚えている。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0170_ミルーニャ_says_情報共有_p5655
+        quote: 「まずは情報共有をしましょう」『リーナとミルーニャを仲直りさせて欲しい』――セリアック＝ニアの要請でミルーニャ・アルタネイフの拠点を訪れることになった俺とトリシューラは、こちらの機先を制するかのような言葉で出迎えられた。
+        locator: {}
+        spoiler_after: ch0170
+      - event_ref: E_ch0170_ミルーニャ_suspects_リールエルバの浄界_p5662
+        quote: 「迷宮探索ゲームはコルセスカの浄界だとして、『地下アイドル迷宮』はリールエルバの浄界ってことがあり得るのか？」「私はそれを疑っています。というより、セリアック＝ニアは最初からその確信を持っているようでした」
+        locator: {}
+        spoiler_after: ch0170
+    action:
+      observations:
+      - event_ref: E_ch0170_ミルーニャ_other_呪術障壁_p5670
+        quote: 「奔れ金錐、断絶の壁に爪を立てろ！」「おねがい、ナーグストール！」虚空を切り裂く爪。二人の呪術が光となって空を埋め尽くしていく。リーナと群衆との間を遮るようにして広がった光は薄い膜となり、あらゆる力を遮断する呪術障壁として完成する。
+        locator: {}
+        spoiler_after: ch0170
+      - event_ref: E_ch0170_ミルーニャ_stops_リーナ_p5674
+        quote: ミルーニャ・アルタネイフは臆することなくリーナの真下へと近付いていき、そのままおもちゃのスリングショットを取り出してぱちんとゴムの弾丸を投射した。ぺし、とリーナの額に命中する柔らかい球体。それに乗って運ばれたセリアック＝ニアが跳躍してリーナの三角帽子にしがみついた。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アマランサス]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0170_アマランサス_other_ミルーニャ_p5656
+        quote: 聞けば、アマランサスはミルーニャだけに接触してきたのだという。ラクルラールへの叛逆を目論むアマランサス――彼女はアルト・イヴニルの半身でありトリシューラと同型の人工姉妹でもある。
+        locator: {}
+        spoiler_after: ch0170
+    speech:
+      observations:
+      - event_ref: E_ch0170_アマランサス_says_創造行為_p5656
+        quote: 「『創造行為を愛しなさい、歪な被造物たち。つくられたものがつくるものになる、その転倒が不完全なお前たちをヒトに、そしてヒト以上のものに変容させるでしょう』」
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_魔導書]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0170_魔導書_functions_as_記録媒体_p5656
+        quote: 応接室の卓上に浮かぶ黒い魔導書から奇怪な文字列が飛び出していく。こちらの端末に送られてきた情報の群れ。それはとある対談の記録だ。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0170_リールエルバ_defines_地下アイドル迷宮_p5657
+        quote: この地下アイドル迷宮は照明のあたる場所で輝くハルベルトになれなかった、リールエルバの欲望よ。私たちの中でもっとも不自由だった彼女は、それゆえにネットの海での自由を求めた。
+        locator: {}
+        spoiler_after: ch0170
+      - event_ref: E_ch0170_リールエルバ_other_最初の失敗作_p5658
+        quote: リールエルバはトリシルシリーズ最初の完成形であり、最初の失敗作だった。あまりにも優れた人形で、あまりにも完璧な偽物。それは本物と何一つ変わらない完全者。
+        locator: {}
+        spoiler_after: ch0170
+      - event_ref: E_ch0170_リールエルバ_fears_血と肉_p5681
+        quote: 「本当はね、怖いの。私は血と肉が怖い。暖かみのある生身のいのちがおぞましい。死と退廃に彩られた麗しき闘争なんて、映像の中だけで十分じゃなくて？本物の暴力が目の前に迫ってくるなんて、恐ろしくて仕方無いわ」
+        locator: {}
+        spoiler_after: ch0170
+    action:
+      observations:
+      - event_ref: E_ch0170_リールエルバ_uses_生命吸収_p5679
+        quote: 白い手が無造作にコウモリを掴み、握り潰す。力を込めたわけではない。彼女が生まれつき持つの力――『生命吸収』の呪いがその血肉を奪い取ったのだ。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_トリシル一号]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0170_トリシル一号_is_made_of_原初の土_p5658
+        quote: 曰く、『原初の土』から捏ね上げられた最も純粋な泥人形。神話の根源獣パンゲオンの血肉が『原初の土』とされているが、真偽は不明。しかし『塔』の至宝のひとつであり、実際に万能細胞のように用いることが可能。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ディスペータ派]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0170_ディスペータ派_other_完全者の創造_p5659
+        quote: 「厳密には中原全域で、それこそ獅子王の時代から賢者たちが取り組んできた永遠のテーマが『完全者の創造』よ。長い時間をかけてディスペータ派はそれを完成させた。厳密には、その下地を整えた」
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト・イヴニル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0170_アルト・イヴニル_other_マラード_p5660
+        quote: 「いずれにせよ――アルト・イヴニルは彼を選んだ。どこまでも美しい、完結しきった粘土の人形。塔の上で待ち続けるお姫様の聖婚相手として相応しいから、なんて自虐混じりに笑いながら、あの邪眼姫は自分の可能性を閉ざし続けているというわけですか。
+        locator: {}
+        spoiler_after: ch0170
+      - event_ref: E_ch0170_アルト・イヴニル_other_根源_p5661
+        quote: 「マラードと共に完成したアルト・イヴニルは六王と原初の土の力を取り込み、より古い神秘を身に宿そうとしている。過去へ過去へ、根源へと遡って――並ぶものの無い至高のアンティークへとその身を高めようとしているの」
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_金錐神]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0170_金錐神_other_ミルーニャ_p5660
+        quote: 「幾つかの成功例があると――ええ、金錐神が手ずから泥を捏ね上げて創った私を含めてね」
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0170_トリシューラ_asks_ネイル呪術_p5664
+        quote: 「そのネイルかわいーよね。『ドリミネール』のだっけ？そういうの、私たちに教えてくれない？ネイル呪術は専門外なんだ。あと、セリアック＝ニアのアクセサリも試して見たいんだよね」
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0170_カーイン_other_リーナの危機_p5665
+        quote: 「そのリーナ嬢だが、少々まずいことになっている」「何？」「どうやらストーカー、あるいは厄介なファンに悩まされているようだ」
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0170_ファン_attacks_リーナ_p5667
+        quote: 虫のように群がる悪質なファンたちは枷から解き放たれたように、一斉にナイフを、呪符を、小弓を、折り畳みの槍を手に唾液を吐き散らしながらリーナに襲いかかろうとしている。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0170_リーナ_appears_空_p5672
+        quote: 彼女は空から俺たち全てを睥睨していた。閉じられた空間であるはずなのに――彼女が君臨しているというだけでそこは限りのある天井ではなく限りなく広がる天上となり、その瞳が見下ろしているというだけで上下の位置関係が規定されていく。
+        locator: {}
+        spoiler_after: ch0170
+    action:
+      observations:
+      - event_ref: E_ch0170_リーナ_other_空圧_p5673
+        quote: 手をかざす。恐怖に引き攣る男の目の前で展開されたのは一挙動で発動する簡単な呪術だった。『空圧』と呼ばれる、相手の動きを阻害するための基礎の呪い。ただそれだけの呪いに、空が悲鳴を上げていた。空間が軋み、風が泣き喚き、世界が傷をさらけ出す。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0170_アキラ_carries_リールエルバ_p5677
+        quote: こう言ってはなんだが、リールエルバという歩けない荷物を抱えているのもかなり負担となっていた。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女王]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0170_女王_appears_広間_p5683
+        quote: 地に突き立つ長い槍。その穂先に腐り果てた生首が突き刺さっていた。虚ろな瞳が壁の蝋燭を映す。そこに、愛おしく愛らしい闇色の豚が骸を晒していた。「やっと会えた。お姉様」
+        locator: {}
+        spoiler_after: ch0170
+    speech:
+      observations:
+      - event_ref: E_ch0170_女王_defines_楽園_p5684
+        quote: 「安心して下さい。ここは安全です。この場所には理性しかないのですから」豚の生首は口を動かさずに語り続ける。ここは満たされた場所、宴の場であると。地下深くで輝く星々の煌めきをいつまでも楽しんでいられる楽園なのだと。
+        locator: {}
+        spoiler_after: ch0170
+  first_appearance_candidate: true

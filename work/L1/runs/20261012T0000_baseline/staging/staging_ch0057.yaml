@@ -1,0 +1,432 @@
+episode: ch0057
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0057_アズーリア_appears_as_不在_p2171
+        quote: 澄み渡る青空の談話室を作り出した当の本人は不在のまま。 けして口数の多い方ではなかったけれど、小さな黒衣は紛れもなくその空間の中心だったのだと、誰もが痛感していた。
+        locator: {}
+        spoiler_after: ch0057
+    action:
+      observations:
+      - event_ref: E_ch0057_アズーリア_is_located_智神の盾の病院_p2177
+        quote: ハルベルトたちはアズーリアを智神の盾が管理する病院に運び込んだ。 ――が、医療修道士らの話ではアズーリアの心身――アストラル体にもマテリアル体にも異常は一切認められないとのことだった。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_斧槍]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0057_斧槍_appears_as_黒ウサギ_p2171
+        quote: 対面に座るのは斧槍を持ちフードを被った黒ウサギ。この談話室では見ない姿である。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_斧槍_appears_as_垂れ耳_p2176
+        quote: 垂れ耳をぺたりと頬に貼り付けて、斧槍はうつむいてしまう。 いつもなら自信に満ちた黒玉の瞳が「何か文句でもあるの」と周囲に問いかける所だが、今日は元気が無いようだった。
+        locator: {}
+        spoiler_after: ch0057
+    speech:
+      observations:
+      - event_ref: E_ch0057_斧槍_says_グロソラリアの昏睡_p2171
+        quote: 「まだ。もう一人の方――邪視のグロソラリアも昏睡状態のまま。おそらくアズの中に入り込んだまま、出てこられなくなってる」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_斧槍_says_ハルベルトの不参加理由_p2175
+        quote: 「談話室って入っても何話していいのかわからない。ログはどんどん流れていっちゃうし、入室してるのに何も言えないと変だし。それに、あの子と話すきっかけが、その――」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_斧槍_confesses_引き金を引いた責任_p2184
+        quote: 「メートリアン、それは違う。やったのはハル」「同じ事よ」 互いが自分こそが悪いのだと言い合うカラスとウサギを冷ややかな瞳で見据えて、リールエルバは言い放つ。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_狂姫]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0057_狂姫_asks_使徒様の様子_p2171
+        quote: 「――それで？ 使徒様の様子はどうなの？」 椅子に拘束された少女の人形――緑色の頭髪と真紅の瞳を持つ【狂姫】が問いかけた。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_hates_聖姫と道具屋_p2172
+        quote: 「姉様姉様ってウルサイですよセリアック＝ニア。他人に依存しっぱなし空っぽ女。貴方のそういう所、昔っから吐き気がしてました。姉の方もどこぞのぽんこつきぐるみ女を連想してうんざり。つまり貴方たちがまとめて嫌いです」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_says_トリシューラとの対比_p2172
+        quote: 「一緒にするなんてひどいわね。私はトリシューラとは逆の構想で培養されてるのだけれど。それに、依存しっぱなし、ねえ」 緑の髪を揺らしながら、少女の赤い瞳が嗜虐的に揺らめく。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_says_身体明け渡しの提案_p2172
+        quote: 「それは残念。さっさと諦めて身体を明け渡してしまえばよろしいのにね？ それこそが使徒様の役割なのだから」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_says_心理療法_p2182
+        quote: 「なーるほど。自己像ではなく他者から見た自己像で使徒様の自我を補強しようというわけ。承認欲求に働きかける心理療法みたいね」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_asks_協力する理由_p2183
+        quote: 「協力する理由がどこにあるのかしらね。今現在もなお私たちの国に災厄をもたらし続けている言震――その切っ掛けとなった相手を助ける理由、できれば教えていただきたいわねえ」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_other_協力_p2183
+        quote: 「嫌よ」「と姉様は仰っていますので、セリアもお断りします」 今まで口を挟むことなく、夜ごとの思い出話に付き合っていたリールエルバとセリアック＝ニア――グリーンとイエローは、ここにきて協力を断った。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_hates_ハルベルトたち_p2185
+        quote: 「原因とか責任とかそういう問題じゃあないのよ。ただお前たちが憎くてたまらないわ。よくもやってくれたわね。私の愛する祖国、私の愛する国民、私の愛する秩序――その全てを、粉々に破壊したお前たちを一人残らず許さない。可能ならば皆殺しにしてやりたい」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_other_ドラトリアの掌握_p2186
+        quote: 「この機に乗じて勢力を拡大し、いずれ私たちはあの国を完全に掌握するの」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_reveals_禁呪の代償の指定_p2186
+        quote: 「なーんて、うっそよー。冗談に決まってるじゃなぁい。そもそもあの時の取引で禁呪の代償としてあの場所を指定したのはこのわ、た、し、だものねぇ。むしろ諸悪の根源というのに相応しいのは私の方じゃないかしらぁ」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_says_幽閉からの解放_p2186
+        quote: 「ああ清々した！ この私を地下千メフィーテに幽閉し続けるあのクソ虫どもが今まさに絶望の中に叩き落とされているかと思うと愉快でたまらないわ！
+          連中、今更になってこの超天才の頭脳を借りに毎日やってくるのよ。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_other_王族としての協力_p2187
+        quote: 「だとしても私的な感情と王族としての立場は別だわ。私は民の怒りと嘆きを代弁しなくてはならない。今まで言った事は全て本心よ。リールエルバという個人の感情は置くとして、ドラトリアの王族として貴方たちへの協力はできない」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_says_友情への執着_p2187
+        quote: 「でも同じ黒百合宮で学んだ魔女として、幼馴染みとしての情は捨てきれるものじゃないわ！ やっぱり私、使徒様を見捨てるなんて無理！ それに貴方たちの友情を裏切りたくないの！」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_says_本気_p2188
+        quote: 全員がその二つ名を思い出す。本国で付けられた異名。 【狂姫】という、地下に幽閉される原因ともなったその性質。 彼女は、いつだって本気だ。
+          真剣に仲間たちと向き合っている。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_says_憎しみと友愛の混在_p2189
+        quote: 憎いゴミ虫どもにマロゾロンド神の加護を与え給え！ そうしたら私が圧政を敷いてマロゾロンド神もぶち殺して民を絶望させてやるの！ そうしたらアズーリアも取り戻せてみんな幸せじゃない、ねえ私ってやっぱり超天才、素敵素敵最高の閃きよキャッハハハハハハハハハハハハハハハハハ」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_makes_取引_p2190
+        quote: 「私たちは末妹候補になることを諦める。その代わり、貴方はいずれ必ず末妹になって私たちの支援者となる。もちろん、こちらから可能な助力は惜しまない。太陰の王族である貴方とドラトリアの王族である私たちの個人的な繋がりはいずれ必ず武器になる」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_other_ニアの来訪の理由_p2191
+        quote: 「葬送式典には各国の来賓も招かれるわ。その中にニアの名前をねじ込めたのは、そっちのマロゾロンド神関係の祭儀を執り行う総責任者、夜の民の群青司教が殺害されてしまったことで、高位の神官に欠員が出たから。東方の聖姫と謳われ、第二位の神働術に深い造詣のあるニアなら充分に役割をこなせる。これは関係の悪化した槍神教とドラトリアの繋がりを再び作り出す為の儀式でもあるわ」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_names_葬送式典_p2191
+        quote: 一週間後。 その日には、大掛かりな式典が行われる。 エルネトモランの第一区で開催される葬送式典。 死者の魂を慰め、天の御殿に送るという儀式だ。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_names_ハルベルト_p2194
+        quote: 「ハルベルト。その名を背負ったからには、必ず世に真なる秩序をもたらしてもらうわよ。貴方に果たすべき責任があるというのなら、ただそれだけ。けして贖いきれぬ罪に潰されるよりも、世界救済の英雄になってみせなさい」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_says_地上は地獄_p2194
+        quote: 「そう。ここはひっくり返して蓋をしただけの地獄。綺麗に整えられた秩序の内側には混沌が押し込められている――ねえハルベルト。私は責任を感じるな、と言っているのではないの。気に病むな、と言っているのよ。
+        locator: {}
+        spoiler_after: ch0057
+    visual:
+      observations:
+      - event_ref: E_ch0057_狂姫_has_property_人間味_p2171
+        quote: アバターの顔は人形めいており非常に整った造作だが、驚くほど人間味がある。人間味なる漠然とした質感を作り出しているのは、美しい顔を過剰なほど醜悪に歪めてみせる感情表現の豊かさゆえだろうか。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_has_property_焦点の定まらない瞳_p2188
+        quote: ミルーニャの瞳が血の赤なら、リールエルバの瞳は狂騒の赤。 具体的な質感ではなく、漠然とした感覚を想起させる曖昧な瞳。 つまるところ――焦点が定まっていない。
+        locator: {}
+        spoiler_after: ch0057
+    action:
+      observations:
+      - event_ref: E_ch0057_狂姫_gives_両親からの手紙_p2182
+        quote: 「既にアズーリアの故郷にいる両親と家庭教師でもあったという村の長老に連絡をとって、本人宛の手紙を預かっている。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_gives_マロゾロンドの資料_p2192
+        quote: 「ここ数日でアストラルネットからかき集めた、夜の民とマロゾロンド神に関しての詳細なデータ。それも、杖的な生物としての資料ではなく、神話や伝承といった物語――呪文としての資料よ。儀式の補強材料にはなるんじゃなくて？」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_狂姫_gives_思い出話のデータ_p2192
+        quote: リールエルバは色よい返事に口の端を笑みの形にして、目の前に長方形の札を出現させる。カード型の情報構造体の表面に、無数の文字列が走っている。「いいお返事ね。これ、私たちの分の思い出話よ。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_談話室]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0057_談話室_is_located_仮想アストラル空間_p2171
+        quote: 透き通るような仮想アストラル光が満ちる広漠な空間。 青空の下、白塗りの卓には茶器一式、緩く湾曲したデザインの椅子の上にはぬいぐるみにも見える小さなシルエット。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_陶磁器容器]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0057_陶磁器容器_is_made_of_陶磁器_p2171
+        quote: 細長い注ぎ口と取っ手、蓋を備えた陶磁器らしき容器には、無数の枝角や翼を戯画化した意匠が描かれている。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_聖姫]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0057_聖姫_helps_狂姫_p2172
+        quote: 敵意を込めたメッセージを二重三重に送信するが、それを【狂姫】の隣にいる【聖姫】がにこやかに弾き返す。 三角の獣耳が生えた少女人形が、デフォルメされた手から鋭い爪を生やす。
+        locator: {}
+        spoiler_after: ch0057
+    speech:
+      observations:
+      - event_ref: E_ch0057_聖姫_says_姉様への依存_p2172
+        quote: 「姉様にひどいことはしないで下さい」
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_道具屋]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0057_道具屋_threatens_狂姫_p2172
+        quote: 「リールエルバ、次にふざけた事を言ったらその不愉快な顔にスパム呪石弾一括でブチ込んでやりますよ」 凄んだのは【道具屋】――大きな鞄を肩からかけた白いカラスである。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_道具屋_says_アズーリアの意思尊重_p2173
+        quote: 「そしてアズーリア様は容れ物じゃない。貴方たちの奉じる神がたとえアズーリア様の創造主であったとしても、その意思を圧殺する権利なんてありはしません。いいえ、たとえあったとしても私は認めない」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_道具屋_says_リーナを煙幕として利用_p2174
+        quote: 「ああ、貴方は怪しまれない為の煙幕です。お馬鹿さんと一緒に参加してれば、私が監視だとか利用しようとしているだとか想像もつかないでしょうからね」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_道具屋_says_監視任務_p2174
+        quote: 「別に、仲間はずれにしてたとかじゃないですよ？ アズーリア様に呪力が『戻る』までは接触しようと思ってもできませんでしたし――それに昔の面々が集まったのも偶然です。私はフィリス目当てで監視してただけですし、そこのお気楽お目々も智神の盾としての監視任務でしょう。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_道具屋_names_パレルノ山の出来事_p2176
+        quote: そう前置きして、ミルーニャは現在までの経緯――パレルノ山で起こったあの出来事を振り返る。 この場にいない黒衣の英雄に思いを馳せながら。
+          アズーリア・ヘレゼクシュはハルベルトが禁呪を使用した事で一命を取り留めた――しかし、意識は戻らなかった。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_道具屋_reveals_エクリーオベレッカの性質_p2180
+        quote: 不勉強なリーナは知らなかったが、第一位の守護天使【睥睨するエクリーオベレッカ】は人格神ではない。天の御殿と呼ばれる建物であり、死した人々の魂の行き先と言われる空間だ。
+          直接その力を引き出すことはできず、またそのような具体的な力を持たない。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_道具屋_confesses_引き金を引いた責任_p2184
+        quote: 「そんなのっ、アズーリア様が悪いわけじゃない！ やったのは私、全て私の責任で引き金を――」
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_目玉]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0057_目玉_appears_as_浮遊する眼球_p2173
+        quote: 暢気にお茶を楽しんでいるのは【目玉】だが、そのデフォルメされた眼球アバターはこの場から浮いている。比喩としても実際の意味でも。
+        locator: {}
+        spoiler_after: ch0057
+    speech:
+      observations:
+      - event_ref: E_ch0057_目玉_asks_本名使用の可否_p2173
+        quote: 「う、うん。ありがと。えっと質問いい？」「ほえ？」「ここって基本的に本名を口にしたら駄目って聞いてたんだけど、違うの？」
+        locator: {}
+        spoiler_after: ch0057
+    action:
+      observations:
+      - event_ref: E_ch0057_目玉_observes_アズーリアの精神_p2177
+        quote: そこでメイファーラが接触感応でアズーリアの精神の奥深くを探ることになった。そこで、最悪の事態が明らかになる。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_植木鉢]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0057_植木鉢_appears_as_鉢植えと花_p2174
+        quote: 小さな鉢植えとデフォルメされた大輪の花、それが【植木鉢】のアバターだったが、目玉に押しつけられた焼き菓子を葉っぱの両手で抱えながら困惑している。
+        locator: {}
+        spoiler_after: ch0057
+    action:
+      observations:
+      - event_ref: E_ch0057_植木鉢_uses_矯正呪具_p2174
+        quote: 彼女もこの場所に来るのは初めてだったが、【道具屋】ことミルーニャに借りた邪視能力の矯正呪具である眼鏡によってこの談話室を訪れる事ができていた。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_箒]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0057_箒_says_事情を知らず参加_p2174
+        quote: 「私！ 私は知らなかった！ 先輩に誘われて来たけどこれっぽっちも事情とか知らずにテキトーに参加してたよ、なんか楽しくお喋りする所なのかなって！」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_箒_other_マロゾロンド撃退_p2179
+        quote: 一つは、サリアに加勢してマロゾロンドを撃退すること。 この案はリーナから出されたが、余りにも無謀だった。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_箒_other_守護天使の力_p2180
+        quote: リーナは霊媒というわけではないが、序列第一位の空の民として、守護天使の力を引き出してアズーリアを救ってみせると豪語した。
+        locator: {}
+        spoiler_after: ch0057
+    visual:
+      observations:
+      - event_ref: E_ch0057_箒_has_property_沈んだ心_p2195
+        quote: リーナの心は、傍目から見てわかるほどに沈んでいた。 表面上は常のように騒がしく振る舞っているが、ふとした拍子に沈み込む。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_マロゾロンド]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0057_マロゾロンド_names_スキリシア＝エフェクの夜の民の創造主_p2177
+        quote: それが黒衣の矮躯、静謐なる多弁者――大神院が定める天使の序列では第二位とされ、古い時代には神とされた存在。 眷族種【スキリシア＝エフェクの夜の民】の創造主、マロゾロンドである。
+        locator: {}
+        spoiler_after: ch0057
+    speech:
+      observations:
+      - event_ref: E_ch0057_マロゾロンド_has_property_格_p2178
+        quote: 地上に深く根を下ろしたマロゾロンドという強大な高次元存在――その『格』はかつてアズーリアたちが対峙した第五位のペレケテンヌルよりも上だ。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_マロゾロンド_other_アズーリアの身体_p2179
+        quote: マロゾロンドはアズーリアの身体を奪い、そして第二位の天使という座から更なる高みへと上り詰め、己の存在強度をより確かなものにしようとしているのだろう。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_マロゾロンド_has_property_天の御殿の管理者_p2180
+        quote: 更に言えばマロゾロンドというのは地上で彷徨える魂を天の御殿に送り出すという権能を有しており、一説には天の御殿の管理者とも呼ばれる存在だ。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_神々]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0057_神々_has_property_目的追求_p2177
+        quote: 神々はただ高次元において己の目的を追求しているだけであり、その達成の為に必要だから眷族種や信奉者たちに加護を与えているに過ぎない。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_マロゾロンド信仰]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0057_マロゾロンド信仰_functions_as_共生関係_p2178
+        quote: 世界に満ちたマロゾロンド信仰の摸倣子はマロゾロンドの存在強度を高め、そうして生み出された呪力が加護となって信者らに恩恵を与える。 両者は一種の共生関係にあるのだ。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_霊媒]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0057_霊媒_has_property_神の降臨_p2178
+        quote: 霊媒は自らの身に超越的存在――神や霊といった不確かな『何か』を降ろし、その言葉を『代弁』する。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0057_サリア_helps_アズーリア_p2179
+        quote: 今はコルセスカの使い魔であるサリアが瀬戸際で食い止めているが、それもいつまで保つか。 そもそもサリアに命がけでアズーリアを守る義理は無い。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0057_ハルベルト_fears_マロゾロンドの顕現_p2179
+        quote: だが、その為にはアズーリアが器になり犠牲にならなくてはならない。 ハルベルトはそんなことを断じて容認できなかった。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_ハルベルト_names_紀元槍_p2180
+        quote: 必要なのは、世界に刻まれた記憶。 アズーリアは度重なるフィリスの使用によって浸食を受けていた。 世界そのものを浸食する寄生異獣――その存在は紀元槍に刻み込まれている。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_ハルベルト_asks_思い出話の協力_p2181
+        quote: ハルベルトはアズーリアの置かれている状況を説明した上で、全員に懇願した。「思い出話をしたい。みんなに手伝って欲しい」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_ハルベルト_other_羞恥_p2183
+        quote: メイファーラが話している途中、自分の番では秘密にしていたマリーとの会話について暴露されてハルベルトが羞恥にのたうち回るという事があったが、誰も大して気にしなかった。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_ハルベルト_asks_禁呪の代償の秘密_p2190
+        quote: 「協力についてはもういい。ただ、みんなにお願いがある。禁呪の代償について、アズーリアには秘密にして欲しい。その為だったら、ハルは何でもする。だから、どうか」
+        locator: {}
+        spoiler_after: ch0057
+    action:
+      observations:
+      - event_ref: E_ch0057_ハルベルト_activates_記憶の封印解除_p2181
+        quote: アバターの姿のまま、ハルベルトは呪文を詠唱した。 そして、消去されたと思われていた記憶が復活していく。「失われた私たちの記憶――その封印を解除した」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_ハルベルト_makes_思い出話の録音_p2183
+        quote: 毎夜順番に一人ずつ過去の物語を語り、それを録音する。 そして最後にその呪術的な記録を手にした一人がアズーリアの精神に潜り、本人に聞かせることでその存在強度を高めるという計画。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_ハルベルト_other_狂姫_p2193
+        quote: 二つの情報を受け取ったハルベルトは、リールエルバを見て、それから深く頭を下げた。「ありがとう」
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0057_リーナ_fears_ガルズの殺害_p2195
+        quote: 目の前で、ガルズ・マウザ・クロウサーがアズーリアを殺害した事。 そして、その直後にサリアによって無惨に引き裂かれた事。 その二つの余りに衝撃的な光景に加え――事態がまるで終息する気配を見せないことがリーナの心を苛んでいるのだ。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_リーナ_fears_歌姫の殺害_p2196
+        quote: このまま行けば、葬送式典の前日には歌姫Ｓｐｅａｒ――すなわちハルベルトが殺害され、最終日にはリーナの祖父であるサイリウス・ゾラ・クロウサーもまた餌食となる。
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_リーナ_confesses_アズーリアへの謝罪_p2197
+        quote: 「でも、やっぱ私、頭悪いからさ。どうすればいいかなんて自分では考えつかなくて。だから、私はアズーリアにまた会いたいよ。会って話して、謝って、それで――それで、まず目の前の事を片付ける！
+          マリーをどうするかとかは後で考える！ っていうかアズーリアとみんなに相談する！」
+        locator: {}
+        spoiler_after: ch0057
+      - event_ref: E_ch0057_リーナ_says_青空について_p2197
+        quote: 共有できた話題は、お互いが関心のある事柄」 ――私たちは、青空について話したんだ。 そして、リーナの話が始まった。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガルズ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0057_ガルズ_kills_名簿の十三人_p2196
+        quote: ガルズが宣告した名簿の十三人。 一日につき一人を殺害すると宣言したその凶行は、ガルズの死によって終わりを迎えるとハルベルトたちは考えていた。
+          だが止まらなかった。
+        locator: {}
+        spoiler_after: ch0057
+  first_appearance_candidate: true

@@ -1,0 +1,174 @@
+episode: ch0116
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_女の子]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0116_女の子_thinks_さみしさ_p4054
+        quote: たくさんの人に囲まれている時の方が、ひとりきりの時よりさみしく感じられるものだというのです。
+        locator: {}
+        spoiler_after: ch0116
+    action:
+      observations:
+      - event_ref: E_ch0116_女の子_remembers_前世の冒険_p4055
+        quote: ずっと、ずうっと前、もう思い出せないほど昔。女の子は、冒険をする人でした。
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_女の子_makes_柘榴の木_p4057
+        quote: 女の子は自分で自分の右半身をパンのように千切って地面に埋めます。すると、そこから立派な柘榴の木が生えてきました。
+        locator: {}
+        spoiler_after: ch0116
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴィヴィ＝イヴロス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0116_ヴィヴィ＝イヴロス_other_死_p4058
+        quote: 演劇の魔女は、自ら望んで死を受け入れている。殺されることを、喜んでいるのだ。
+        locator: {}
+        spoiler_after: ch0116
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0116_少女_attacks_ヴィヴィ＝イヴロス_p4058
+        quote: 小さな少女が、美しい蜂蜜色の髪を赤く染めて、自分よりも大きい女性の首に齧り付いている。
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_少女_kills_ヴィヴィ＝イヴロス_p4062
+        quote: 夥しい量の血液、呪力の象徴たる命の水が、余さず全て少女の中に取り込まれていく。
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_少女_other_狼_p4063
+        quote: 命無き骸が、骨の四肢を動かした。
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_少女_other_アキラ_p4076
+        quote: 少女はある時気がついた。彼の顔が思い出せない。
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_少女_other_グレンデルヒ_p4077
+        quote: 「私の名はグレンデルヒ＝ライニンサル。貴様を征服する男だ」利用できる。自ら、一歩を踏み出すことに決めた。
+        locator: {}
+        spoiler_after: ch0116
+    speech:
+      observations:
+      - event_ref: E_ch0116_少女_says_絶対遵守_p4062
+        quote: 今の私が貴方を喰らってしまったから、私は絶対遵守の権能を手にすることになったのね
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_少女_says_冥府からの叛逆_p4064
+        quote: 生者は死者へと一方的に意思を押しつけることができてしまう。だからこれは冥府からの叛逆です。
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_少女_says_自己愛_p4067
+        quote: 赦されたくない――それが、あなたの自己愛
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_少女_other_アキラ_p4070
+        quote: 裁定神の名において、この私が赦します
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_少女_promises_再会_p4075
+        quote: 必ず貴方を迎えにいくから
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_少女_makes_約束_p4079
+        quote: 「いくらでも待つ。大きくなったら一緒になると、約束してくれないか？」「それなら、ええ、喜んで。約束しましょう？」
+        locator: {}
+        spoiler_after: ch0116
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0116_アキラ_transforms_牙猪_p4059
+        quote: 気付けば、曖昧だった俺の姿はいつしか牙猪となっていた。
+        locator: {}
+        spoiler_after: ch0116
+    speech:
+      observations:
+      - event_ref: E_ch0116_アキラ_thinks_カインへの罪_p4065
+        quote: 俺は、自分の手で殺したカインの事を、あろうことかどうだっていいと考えているのだ。
+        locator: {}
+        spoiler_after: ch0116
+    action:
+      observations:
+      - event_ref: E_ch0116_アキラ_bonds_少女_p4072
+        quote: 「いいんですよ。これからはずっと一緒。ママのお腹の中に帰りましょうね」
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_アキラ_other_アズーリア_p4083
+        quote: 「待って、駄目、行かないで！　私を、こっちを見て！」少しだけ、足を止めそうになったが、振り向かずに前に進む。
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_アキラ_bonds_白骨狼_p4091
+        quote: 狼は一声、カタカタと頭蓋骨を鳴らすと、俺のすぐ傍にやってくる。
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_アキラ_other_最終決戦_p4092
+        quote: 「今度こそ最後の戦いだ。英雄と力士を殴り飛ばして、盛大に凱旋するぞ！」
+        locator: {}
+        spoiler_after: ch0116
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_狼]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0116_狼_says_死にたくない_p4068
+        quote: 「痛い」そして、「苦しい」それから、「死にたくない」
+        locator: {}
+        spoiler_after: ch0116
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0116_トリシューラ_attacks_少女_p4080
+        quote: 「強化外骨格――モデル【群狼】起動。全門斉射。どっかーん」
+        locator: {}
+        spoiler_after: ch0116
+    speech:
+      observations:
+      - event_ref: E_ch0116_トリシューラ_says_リーナの伝言_p4083
+        quote: 『アズーリア・ヘレゼクシュが、ライブの時に貴方に会いたがっています。……迎えに行くという約束を、今度こそ果たしてみせます。』
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_トリシューラ_other_法廷_p4086
+        quote: 「それはアンドロイド差別ですね」
+        locator: {}
+        spoiler_after: ch0116
+      - event_ref: E_ch0116_トリシューラ_other_アキラ_p4087
+        quote: 「知りません。私は貴方の母親ではないのですから、自分で考えるか、正式なパートナーである現代の私と話し合って下さい」
+        locator: {}
+        spoiler_after: ch0116
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0116_コルセスカ_appears_少女_p4088
+        quote: その存在は取り込まれて――いや、上書きされて飲み込まれたのだ。目の前にいる、氷の義眼と白銀の髪を持つ冬の魔女に。
+        locator: {}
+        spoiler_after: ch0116
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_過去シューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0116_過去シューラ_appears_援軍_p4089
+        quote: 「私は十四才シューラ。端的に申し上げれば、援軍です」
+        locator: {}
+        spoiler_after: ch0116
+  first_appearance_candidate: true

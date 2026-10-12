@@ -1,0 +1,296 @@
+chapter: ch0011
+created: '2026-09-30'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 5
+  themes: 1
+  quotes_verified: 24
+  quotes_total: 26
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0011_転生保険_defines_転生保証_p478]]'
+  object: '[[ME_転生保険]]'
+  claim: 異世界転生というファンタジー要素を、現実の保険商品（特に生命保険や年金）の構造、加入格差、および「選択肢の不在」を批判する社会制度としてパロディ化している。
+  quote: 異世界転生保険。その加入額にすら手が伸ばせない、ただその日の糧を得ることすら難しい、極寒の世界を生きる人々。選択肢などあるようで実は無い。
+  paragraph: p478
+  confidence: explicit
+  quotes:
+  - quote: 異世界転生保険。その加入額にすら手が伸ばせない、ただその日の糧を得ることすら難しい、極寒の世界を生きる人々。選択肢などあるようで実は無い。
+    paragraph: p478
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0011_アキラ_remembers_前世の社会_p476]]'
+  object: '[[ME_割れた窓理論]]'
+  claim: 前世の社会の美辞麗句の中に「割れた窓を放置してはならない」という犯罪予防理論（割れた窓理論）を引用し、社会の正常化が構造的暴力を隠蔽する装置であることを示唆している。
+  quote: 『割れた窓を放置してはならない』『フリーライダーを許すな』『子供たちが安心して成長できる国を作ろう』無数のノイズ。
+  paragraph: p476
+  confidence: strong
+  quotes:
+  - quote: 『割れた窓を放置してはならない』『フリーライダーを許すな』『子供たちが安心して成長できる国を作ろう』無数のノイズ。
+    paragraph: p476
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0011_トリシューラ_activates_パワードエクゾスケルトン_p490]]'
+  object: '[[ME_強化外骨格]]'
+  claim: 魔法世界における「きぐるみ」や「甲冑」を、現代の軍事技術であるパワードエクゾスケルトン（強化外骨格）として描写し、SF的ガジェットをファンタジーに移植するメタフィクション的演出を行っている。
+  quote: 「パワードエクゾスケルトン、モデル『狼の皮を被る者』、起動」
+  paragraph: p490
+  confidence: explicit
+  quotes:
+  - quote: 「パワードエクゾスケルトン、モデル『狼の皮を被る者』、起動」
+    paragraph: p490
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0011_コルセスカ_names_氷血のコルセスカ_p487]]'
+  object: '[[ME_キュトス]]'
+  claim: 魔女たちの所属組織名「キュトス」は、ギリシャ神話の冥界の神キュトス（Kytos）や、三叉槍を持つ神々の系譜を暗示しており、彼女たちが「死」と「槍」の権能を持つ存在であることを象徴している。
+  quote: 「我が銘はキュトスの姉妹が七十一番、氷血のコルセスカ」
+  paragraph: p487
+  confidence: moderate
+  quotes:
+  - quote: 「我が銘はキュトスの姉妹が七十一番、氷血のコルセスカ」
+    paragraph: p487
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0011_コルセスカ_says_炎は黄金を証明する_p501]]'
+  object: '[[ME_ラテン語の格言]]'
+  claim: コルセスカの詠唱「Ignis aurum probat; miseria fortes viros」は、セネカの書簡に由来する「火は金を証明し、苦難は強い男を証明する」というラテン語の格言を引用し、試練を通じた存在の証明を主題化している。
+  quote: 『Ｉｇｎｉｓ ａｕｒｕｍ ｐｒｏｂａｔ；ｍｉｓｅｒｉａ ｆｏｒｔｅｓ ｖｉｒｏｓ』
+  paragraph: p501
+  confidence: explicit
+  quotes:
+  - quote: 『Ｉｇｎｉｓ ａｕｒｕｍ ｐｒｏｂａｔ；ｍｉｓｅｒｉａ ｆｏｒｔｅｓ ｖｉｒｏｓ』
+    paragraph: p501
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0011_アキラ_remembers_片腕の男_p477]]'
+  object: '[[ME_義肢の経済格差]]'
+  claim: 裕福な主人公が受けたオーダーメイドの高性能義肢と、路上生活者が買えない安価な義肢の対比は、医療技術のアクセス格差と、転生保険における経済的格差（富裕層のみが救われる構造）を批判的に描いている。
+  quote: 路上で生きる片腕の男が最も安い義肢を購入しても、アキラに費やされた金額のうち十分の一にも満たなかった。
+  paragraph: p477
+  confidence: strong
+  quotes:
+  - quote: 路上で生きる片腕の男が最も安い義肢を購入しても、アキラに費やされた金額のうち十分の一にも満たなかった。
+    paragraph: p477
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0011_トリシューラ_takes_王獣カッサリオの角_p503]]'
+  object: '[[ME_ゲームのレアドロップ]]'
+  claim: 戦闘後の戦利品回収を「レアドロップ」というゲーム用語で表現し、異世界転生がゲーム的メカニクス（ドロップアイテム、パーティ構成）に支配されていることをメタ的に指摘している。
+  quote: 「ほらほら、王獣カッサリオの角っ！　レアドロップだよっ！」
+  paragraph: p503
+  confidence: explicit
+  quotes:
+  - quote: 「ほらほら、王獣カッサリオの角っ！　レアドロップだよっ！」
+    paragraph: p503
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0011_コルセスカ_says_世界よ凍れ_p488]]'
+  object: '[[ME_時間の凍結]]'
+  claim: 「世界よ凍れ――私以外の全てが遅い」という台詞は、物理的な氷結ではなく、相対論的な時間の遅れや、ゲームにおける「ヘイト管理」や「行動順の操作」を連想させる、時間操作能力の比喩的表現である。
+  quote: 「世界よ凍れ――私以外の全てが遅い」
+  paragraph: p488
+  confidence: moderate
+  quotes:
+  - quote: 「世界よ凍れ――私以外の全てが遅い」
+    paragraph: p488
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0011_ちびシューラ_says_負担の分散_p494]]'
+  object: '[[ME_パーティ構成]]'
+  claim: コルセスカが仲間を増やす理由を「氷血呪の反動を分散させるため」と説明するのは、MMORPGにおけるタンクやヒーラーの役割分担、およびパーティ人数によるダメージ分散メカニクスを社会関係に適用したアナロジーである。
+  quote: 最終的には迷宮攻略パーティの基本構成人数である六人か、九人くらいまでには増やしたいんじゃないかな。そのくらいの人数なら氷血呪の反動も致命傷にならない程度には分散するはず
+  paragraph: p494
+  confidence: strong
+  quotes:
+  - quote: 最終的には迷宮攻略パーティの基本構成人数である六人か、九人くらいまでには増やしたいんじゃないかな。そのくらいの人数なら氷血呪の反動も致命傷にならない程度には分散するはず
+    paragraph: p494
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0011_トリシューラ_names_鮮血のトリシューラ_p487]]'
+  object: '[[ME_トリシューラ]]'
+  claim: トリシューラの名前はヒンドゥー教の三柱神の一人トリシューラ（Trishula、三叉槍を持つシヴァの別名）に由来しており、彼女の武器や能力が神話的権能の模倣であることを示している。
+  quote: 「キュトスの姉妹Ｎｏ．７１――鮮血のトリシューラだよ。よろしく死んでね！」
+  paragraph: p487
+  confidence: strong
+  quotes:
+  - quote: 「キュトスの姉妹Ｎｏ．７１――鮮血のトリシューラだよ。よろしく死んでね！」
+    paragraph: p487
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_猫耳少年の正体と左手
+  note: 少年の左手が「影のような黒」、右手が「淡い輝き」であり、アキラの壊れた左義肢と触れ合った。少年の正体（アズーリアの関連者？）と、左手の闇の性質が今後の展開で重要になる。
+  quotes:
+  - quote: その左手が影のような黒であることに、今更気がつく。 反対の右手は淡い輝きを纏っている。
+    paragraph: p475
+    quote_verified: true
+  - quote: 壊れた左の義肢を、そっと持ち上げる。 どうしてかは分からなくても、身体は反射のように動いた。 砕け、融解した機械の義肢と、闇色の左手が触れあった。
+    paragraph: p479
+    quote_verified: false
+  expected_payoff: 少年の左手がアキラの義肢（技術/過去）と結合し、新たな力や存在の定義を与える。少年がアズーリアの分身、あるいはアズーリアを救う鍵となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_言語の翻訳能力
+  note: カーインのメモや魔女たちの文字が日本語として読め、逆に日本語も相手に伝わる現象が発生した。これは単なる翻訳魔法ではなく、世界構造そのものへの干渉（言語の収斂進化の否定）を示唆する。
+  quotes:
+  - quote: この時カーインはうっかりしていたのか、メモに書く文字を日本語にするのを忘れた。つまり自分の母語の文字を書き連ねたのだが。 俺はそれを読むことができた。
+    paragraph: p504
+    quote_verified: true
+  - quote: 音素が有限であることを根拠とした偶然の一致、言語の収斂進化、そういう言い訳は一切通用しない。
+    paragraph: p486
+    quote_verified: true
+  expected_payoff: アキラが「外世界人」としての特殊性（言語の壁を越える能力）を自覚し、それが世界改変や脱出の鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トリシューラの目的
+  note: トリシューラの目的が「シューラが、私であること」という哲学的・存在論的な宣言として語られた。これは単なる金銭欲や戦闘欲ではなく、自己存在の証明や定義に関わる深い動機を示唆する。
+  quotes:
+  - quote: 『シューラの目的？ 大した事じゃないよ。シューラが――『シューラが、私であること』。ただそれだけ』
+    paragraph: p497
+    quote_verified: true
+  expected_payoff: トリシューラが「きぐるみ」や「偽名」を脱ぎ捨て、真の自己（あるいは神話的権能）を顕現させる展開、またはアキラとの関係性を通じて自己を定義し直す展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの仲間集め
+  note: コルセスカが仲間を増やす目的が「氷血呪の反動分散」であり、そのためにアキラ（命が軽い者）を必要としている。最終的に6〜9人のパーティ構成を目指すという具体的な数値が提示された。
+  quotes:
+  - quote: 最終的には迷宮攻略パーティの基本構成人数である六人か、九人くらいまでには増やしたいんじゃないかな。
+    paragraph: p494
+    quote_verified: true
+  expected_payoff: 今後の章で新たな仲間（特に「命が軽い」特性を持つ者）がパーティに加入し、コルセスカの呪術の代償を分散させる仕組みが完成する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アズーリアへの手がかり喪失
+  note: 猫耳の少年が記憶を失ったことで、アズーリアへの直接的な手がかりが途絶えた。しかし、アキラが「アズーリアと引き合う」と予言されているため、再会は必然的である。
+  quotes:
+  - quote: 少年は記憶を失っていた。
+    paragraph: p504
+    quote_verified: true
+  - quote: 『いずれ貴方はアズーリアとも引き合うんだろうね、儚く危ういゼノグラシア』
+    paragraph: p475
+    quote_verified: true
+  expected_payoff: 記憶喪失の少年が、アキラとの接触を通じて記憶を回復する、あるいはアキラの行動がアズーリアの居場所を間接的に特定するトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生保険という制度が、富裕層と貧困層の「死の価値」を格差化し、命の軽さを強要する構造暴力である。
+  weight: 0.9
+  quotes:
+  - quote: 転生保険に加入できる富裕層の命は、加入できない貧困層の命より相対的に軽い筈だ。 だというのに、俺のいた国では一回しかない命のほうがずっと軽かった。
+    paragraph: p492
+    quote_verified: true
+  - quote: 異世界転生保険。その加入額にすら手が伸ばせない、ただその日の糧を得ることすら難しい、極寒の世界を生きる人々。
+    paragraph: p478
+    quote_verified: true
+  note: アキラが「命が軽い」ことを自覚し、コルセスカの仲間として機能する根拠。社会批判としての転生制度の描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 感情制御アプリ（E-E）による人格の模倣と、真の自己の消失。
+  weight: 0.8
+  quotes:
+  - quote: 人格に深く根ざした感覚・感情制御アプリ『Ｅ－Ｅ』＝『Ｅｍｏｔｉｏｎａｌ－Ｅｍｕｌａｔｏｒ』はそれ自体がシナモリ・アキラをエミュレートして、あらゆる決定を代行している。
+    paragraph: p478
+    quote_verified: true
+  - quote: その代用、模倣と言いつつ、もはやそれが真実になってしまった存在。
+    paragraph: p478
+    quote_verified: true
+  note: アキラの「感情制御」が、彼を「殺人鬼」として機能させるための技術的・心理的装置であり、彼のアイデンティティの虚構性を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 名乗り（宣名）による存在の強化と、言語の権力。
+  weight: 0.7
+  quotes:
+  - quote: 名前は呪術的な力を持つ。 ゆえに、力ある呪術師の名乗りはその存在を周囲に知らしめ、自らの力を高めるための儀式でもある。
+    paragraph: p487
+    quote_verified: true
+  - quote: 自己紹介、宣名こそが最大の自己強化呪術。
+    paragraph: p487
+    quote_verified: true
+  note: 魔女たちの戦闘描写が、単なる物理攻撃ではなく、名前や言語（ラテン語、サンスクリット語）による概念的な力行使として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 復讐と贖罪の永劫回帰、および他者による救済。
+  weight: 0.6
+  quotes:
+  - quote: 永劫の苦痛、終わりのない死。貴様が殺してきた分だけの死を体験するがいい。
+    paragraph: p474
+    quote_verified: true
+  - quote: 『であれば、貴方はここで失われるべきではない。貴方が僕を救い出してくれたように、今度は僕が貴方を救い出そう』
+    paragraph: p475
+    quote_verified: true
+  note: 悪鬼による解体はアキラの罪の可視化であり、少年による再構築は「語り直し」による存在の再定義（救済）である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

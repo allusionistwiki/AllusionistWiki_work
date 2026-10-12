@@ -1,0 +1,451 @@
+episode: ch0252
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_クオア・リア・クロウサー]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0252_クオア・リア・クロウサー_appears_瀕死の翼竜_p8107
+        quote: 天翔ける亜竜、クオア・リア・クロウサーは巨体を大きくよろめかせる。飛ぶことさえままならず、穴だらけの翼を畳んだクオアは硬い大地の上に倒れ込んだ。何かを言おうとして詰まり、喉から大量の吐血。潰れた片目は見えておらず、片足を引きずらねば歩くことさえままならない。
+        locator: {}
+        spoiler_after: ch0252
+    speech:
+      observations:
+      - event_ref: E_ch0252_クオア・リア・クロウサー_says_人形への侮蔑_p8107
+        quote: 「馬鹿、な。この私が、地を這うラフディの人形などに」
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_蒼空騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_蒼空騎士団_defeats_壊滅_p8107
+        quote: 配下の翼竜騎士たちも半数以上が岩塊の上で骸を晒すか、あるいは果ての無い空の下へと墜ちていくかしていた。見るも無残な壊滅。それがかつてガロアンディアンの空で不敗を誇った蒼空騎士団の末路だ。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_観客]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_観客_observes_大海_p8107
+        quote: レースの熱が通り過ぎて、観客たちの関心は岩塊が浮かぶ大空から濃霧に覆われた大海へと移り変わる。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト・イヴニル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_アルト・イヴニル_defeats_クオア_p8108
+        quote: アルト・イヴニルとクオアの戦いは、反逆した翼竜の勝利で終わった。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダウザール]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_ダウザール_other_エントラグイシュ_p8108
+        quote: まさに赤子の手を捻るが如く、アレッテ・イヴニルが召喚した『軍勢』はダウザールの呪術によって大半が壊滅していた。
+        locator: {}
+        spoiler_after: ch0252
+    speech:
+      observations:
+      - event_ref: E_ch0252_ダウザール_defines_混沌_p8111
+        quote: 空使いダウザールは常人では全容を把握することさえおぼつかないチッセという赤子が生まれた瞬間、たったひとことでそれを定義付けた。 混沌。クロウサーと言う方向性の、ひとつの結末がそこにあった。
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ダウザール_says_老いた身の可愛げ_p8115
+        quote: 「さて。老いた身としては、たまに世話を焼きたくなるくらいがちょうど良い可愛げだとも思うがな。まあ落ち着け、ハグレスよ。外堀の工作は首尾よく進んだようではないか」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ダウザール_asks_神の幻視_p8120
+        quote: 「ふむ。では少し頼ってもよいかな。リーナは順調に覚醒へと向かっているが、このままのぺースではやや不安が残る。夢界でアストラル体に少しばかり手を加えたい。ハグレスよ、いつもの手であの娘に『神の幻視』をもたらしてやってはくれまいか」
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チッセ・ディパーシュ・クロウサー]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0252_チッセ・ディパーシュ・クロウサー_appears_浮遊する囚人_p8108
+        quote: ふわりと、軽やかな足取りで現れる者がいた。着地はしない。大きな羽飾りが目立つぶかぶかのブーツは大地を拒絶しており、窮屈そうな囚人服に包まれた小柄な身体がぷかぷかと宙に浮いている。
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_チッセ・ディパーシュ・クロウサー_reveals_化身_p8109
+        quote: みしみしと拘束具が軋み、内側から肉体が膨張。無数の生命が躍動する気配は『軍勢』のそれだが、衣服が弾け飛んだことで露になったそれは『化身』だった。
+        locator: {}
+        spoiler_after: ch0252
+    action:
+      observations:
+      - event_ref: E_ch0252_チッセ・ディパーシュ・クロウサー_attacks_クオア_p8108
+        quote: 手錠と拘束具でほとんど動かせない両手の先をぱたぱたと開閉するたび、細い身体が移動し周囲を風が吹き抜ける。煽るような強風は倒れたクオアの頭部を執拗に襲っていた。
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_チッセ・ディパーシュ・クロウサー_activates_異界閉鎖_p8109
+        quote: 「クオア、ちょっとこの隣接異界を閉鎖するから、掌握者権限借りるよぉ？ チッセ・ディパーシュ・クロウサーの名において空と大地に命ずる。閉ざせ」
+          宣名と同時、どこまでも広大な青空が一瞬にして縮む。
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_チッセ・ディパーシュ・クロウサー_kills_生き残りの人形_p8109
+        quote: 簡素な『空圧』の呪術基盤。岩盤の陰から奇襲を仕掛けようとしていた生き残りの人形が吹き飛ばされ、両断された。人形に縦に走った細い『線』が二本、三本と増え続け、嵐のように荒れ狂いながら対象を微塵に切り刻む。
+        locator: {}
+        spoiler_after: ch0252
+    speech:
+      observations:
+      - event_ref: E_ch0252_チッセ・ディパーシュ・クロウサー_says_神経支配の探査_p8108
+        quote: 「さっきこのへんの岩塊群を『神経支配』で探査したんだけどぉ、けっこぉ討ち漏らしてるよぉ？ クオアは大雑把すぎぃ～やるなら徹底しないとねぇ」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_チッセ・ディパーシュ・クロウサー_says_辛勝への嘲弄_p8108
+        quote: 「忙しいお館様に助けてもらったのに辛勝とかダサ～。クオアは反省してぇ」
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_エントラグイシュ]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_エントラグイシュ_flees_逃走_p8109
+        quote: これ以上は隠れ潜むのも限界であると判断し、エントラグイシュたちの生き残りがバラバラの方向へと逃走する。アルト・イヴニルの総体はほとんどの戦力を喪失した。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_クロウサー家]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0252_クロウサー家_defines_混沌派血統術師_p8110
+        quote: それは政治的思惑以上に、多様な種族の血を取り入れる混沌派血統術師としての思想に基づいた呪術的戦略としての側面が強い。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チッセ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0252_チッセ_appears_as_混沌_p8110
+        quote: それは男であり女であり獣であり虫であり鳥であり草木であり豆腐であり納豆であり雲であり虹であり犬であり稲妻であり風であり雨であり雪であり川であり森であり山であり炎であり熱であり命であり心であり繋がりであり幻であり虚構であり現実であり世界である。
+        locator: {}
+        spoiler_after: ch0252
+    name:
+      observations:
+      - event_ref: E_ch0252_チッセ_names_忌み名_p8110
+        quote: 『チッセ』という忌み名はクロウサー家の内部でも当主をはじめとした上層部しか知らない恥部であり、同時に過ちを繰り返さぬための戒めとしてのみ記憶されている。
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_チッセ_names_序列四位_p8111
+        quote: チッセはその序列四位。空使いより『威風』の号を与えられた天空神の一角である。
+        locator: {}
+        spoiler_after: ch0252
+    relationship:
+      observations:
+      - event_ref: E_ch0252_チッセ_bonds_クオア_p8111
+        quote: クオアに向ける視線は侮り混じりではあったが、微かな親しみも見て取れる。 ごく近しい関係性。親族に対する気安さだった。
+        locator: {}
+        spoiler_after: ch0252
+    action:
+      observations:
+      - event_ref: E_ch0252_チッセ_captures_エントラグイシュ_p8111
+        quote: 無数の生命が爆発するように躍動し、手足と触手の激流がエントラグイシュたちを絡めとり、内部へと引きずり込んでいく。「エントラグイシュはこれで確保だねぇ。
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_チッセ_helps_クオア_p8111
+        quote: 「いまのところチッセちゃんはそんなに忙しくないからぁ、馬鹿でザコでダサダサなクオアを治療してあげるぅ。感謝してぇ」
+        locator: {}
+        spoiler_after: ch0252
+    speech:
+      observations:
+      - event_ref: E_ch0252_チッセ_says_終端血族の動向_p8112
+        quote: 「アルゾラ家とサンブル家も来てるよぉ。お館様がいつになく元気だしぃ、ちゃんとご令孫を迎えに行く準備しないとだからぁ終端血族は勢揃いだよ～」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_チッセ_says_偵察中の報告_p8113
+        quote: 「クラウビューラ兄さまも久々に起きるって～。あとはステランプとネオレイン、バルヘリオンとフェジェンも来てるよ～。なんかぁディスケイムに先手を打たれたらしくてぇ、冥府を押さえられちゃったからいま偵察中～」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_チッセ_says_予定調和_p8114
+        quote: 「わかってるよぉ。でもでもぉ、末妹選定の本番なんだから、他の座だって守護者の数を揃えるのは当然でしょ。戦争なんて予定調和なんだし、今さら慌てても仕方なくな～い？」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_チッセ_says_藍の天主の戦死_p8114
+        quote: 「藍の天主セレクティが戦死したって～」
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_七つ風]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0252_七つ風_defines_特務親衛隊_p8111
+        quote: 空使いダウザールは直属の特務親衛隊、『七つ風』を従えていたという。 彼らはかつてパーン・ガレニス・クロウサーの反逆を阻んだ壁であり、現代の基準で言えば全員が第七階梯、すなわち巨人位階に到達している高位呪術師集団であった。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クオア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0252_クオア_says_逆風への弁解_p8112
+        quote: 「序列が一つ上なだけだろうが、偉そうに。今回は逆風が吹いていただけだ。順風ならそうそう負けはしない。それより、他の連中はどうした？」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_クオア_threatens_怠慢_p8113
+        quote: 「怠慢だな。『下』でいったい何をしていた。こういう時のためにダウザール様はお前たちの血族を鈴国圏に潜り込ませていたのだぞ」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_クオア_says_緊張感の欠如_p8114
+        quote: 「貴様、緊張感がなさ過ぎるぞ。そんなだからあの女にグロソラリアの座を奪われるのだ」
+        locator: {}
+        spoiler_after: ch0252
+    action:
+      observations:
+      - event_ref: E_ch0252_クオア_other_傷_p8113
+        quote: 消耗した体力を取り戻したクオアは安堵の息を吐く。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_クロウサー]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0252_クロウサー_defines_四大血族_p8112
+        quote: クロウサー。その巨大な家の主流は四つの血族である。 だが、それは現代における一般認識だ。 かつては違った。クロウサーとは、最も強大な空使いダウザールのことだったからだ。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ディパーシュ家]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0252_ディパーシュ家_appears_as_亡霊_p8112
+        quote: 歴史の流れに埋もれて廃れた行き止まりの血。それは存在しないはずの亡霊だ。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハグレス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_ハグレス_fights_世界槍_p8115
+        quote: とりわけ今は世界槍という九層に重なった遊戯盤が彼らの主戦場だった。 同盟者である二人以外の打ち手の姿はないが、その存在は確かに局面に影響を与えている。
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ハグレス_defeats_魔軍_p8116
+        quote: 「第八階層の趨勢はほぼ決した。魔軍はこれで終わりさ」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ハグレス_conceals_ソルダ_p8118
+        quote: 「殺しはしないさ。『やりなおし』を試みることさえできない次元回廊に幽閉し続けるだけで最弱の修道騎士は無力化できる。
+        locator: {}
+        spoiler_after: ch0252
+    speech:
+      observations:
+      - event_ref: E_ch0252_ハグレス_says_ダウザールへの愚痴_p8115
+        quote: 「手駒が無能だとイライラさせられるよ。君もそうじゃないかい、ダウザール？」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ハグレス_says_ソルダの凡庸さ_p8119
+        quote: 「あれは父祖と同じく凡庸な神具の担い手でしかない。本来なら名前さえ残らぬ一兵卒に過ぎないよ。短期的には英雄的な活躍ができるかもしれないが、神の視座で見下ろせば取るに足りない。僕の敵じゃないのさ」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ハグレス_says_楽園の顕現_p8119
+        quote: 「これより第九世界槍における掌握作戦は大神院が中心となって執り行う。全ては僕の『楽園』を地上に顕現させるために。愚かな人形どもを踊らせてやろう」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ハグレス_promises_下界への降臨_p8120
+        quote: 「お安い御用さ。それで彼女が天の御殿と共鳴できたら色々な手間が省けるしね。それじゃあ少し降りてくるよ。下界では化身体で会おう、ダウザール」
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セレクティ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_セレクティ_dies_敗死_p8116
+        quote: セレクティの敗死。ティリビナ人勢力と古き神々という扱いの難しい反抗勢力をこれまで上手く抑えていたはずの天主が、予想だにしなかった形で盤上から取り除かれたのだ。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マーネロア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_マーネロア_takes_魔軍総司令官_p8116
+        quote: 魔軍総司令官の地位を魔将筆頭であるマーネロアが引き継ぎ、彼が率いる境界動物解放戦線の主要メンバーを中心とした魔軍残党が立て直しを図っているが、劣勢は明らかだ。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_巨人連合軍]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_巨人連合軍_captures_生ける藍域_p8116
+        quote: 「いくらあれがディスケイムの傑作とはいえ、無駄な抵抗さ。前線基地である『生ける藍域』は巨人連合が制圧した。いまや下方勢力の呪術的な権威を握るのは僕の駒たちだ」
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ソルダ・アーニスタ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_ソルダ・アーニスタ_captures_逮捕_p8117
+        quote: 松明の騎士ソルダ・アーニスタは内乱予備罪の容疑で逮捕・拘束されていた。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_楽園]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_楽園_other_巨人連合軍_p8117
+        quote: そこに、『楽園』を名乗る異質な神が加わったことで状況が変化していた。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ソルダ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_ソルダ_other_穂先_p8118
+        quote: 確かにソルダは幸運にも世界槍の秘密に触れ、槍神の名を掌握した。 この文明圏に限り、彼は神の代理人を僭称可能なほどに強大な存在になった。
+          使命を放棄した姉に代わって松明の騎士という立場を手に入れた。 謎めいた『穂先』を独占し、神具との適合を果たした。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_テセト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0252_テセト_says_進捗報告_p8120
+        quote: 「テセト、進捗はどうか」「は。万事滞りなく。合図さえあれば、いつからでも始められます」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_テセト_says_融血混沌の儀_p8124
+        quote: 「サイリウス様。ダウザール様。ミブリナ様。そしてリーナ様。我らが始祖。我らが娘。四方に散った血族よ。融血混沌の儀、今度こそ成就させてみせましょう。全ては地獄の愚者どもの『藍域』を蹴散らし、正統なる『明藍』を奪還するため」
+        locator: {}
+        spoiler_after: ch0252
+    action:
+      observations:
+      - event_ref: E_ch0252_テセト_conceals_権力の行使_p8123
+        quote: 『始祖』を奉じ、主要な血族たちとは独立した権限を与えられているアルゾラ家当主はその気になれば当主の意向を無視して強引に介入することもできた。
+          伝統、格式、分家たちの総意。そういった様々な『テセトが行使可能な権力』を用いればリーナを傀儡に仕立てることさえ難しくはなかっただろう。 だが彼はそれをしなかった。必要がないからだ。
+        locator: {}
+        spoiler_after: ch0252
+    relationship:
+      observations:
+      - event_ref: E_ch0252_テセト_other_クロウサーの血脈_p8123
+        quote: 彼は現代のクロウサー家における数少ない当主の真実を知る存在。 サイリウスではなく、クロウサーの血脈そのものに仕える忠実な下僕であった。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オブルディス・エジーメ・クロウサー]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0252_オブルディス・エジーメ・クロウサー_defines_第一より前_p8121
+        quote: 王に神権を授与する特権を持つ者たち。 王の序列を定め、順番を与える『第一より前』に位置していること。 それが最初の王冠創造者であった『空使い』オブルディス・エジーメ・クロウサーが定めた血脈の位置。第零王権者という序列。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_聖地]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_聖地_repairs_テロ被害_p8122
+        quote: 過日の『禁呪テロ』によって内部からその守りが崩され、甚大な被害を受けたにもかかわらず、聖地は爪痕ひとつ残さず清らかな状態まで復元され、失われた命もまた補充されていた。絶対安全な聖域の名に傷は残らない。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_テセト・アルゾラ・クロウサー]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0252_テセト・アルゾラ・クロウサー_names_七つ風序列七位_p8123
+        quote: 男の名はテセト・アルゾラ・クロウサー。 ダウザール親衛隊・『七つ風』の序列七位。テセト転生三十七世。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_天の御殿]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0252_天の御殿_appears_逆さまの城_p8124
+        quote: その向こうから、巨大な建造物がゆっくりと姿を現そうとしていた。 逆さまの城。天の御殿。魂が行き着く神々の居城。主なき玉座。意思なき神。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ダウザール会議]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0252_ダウザール会議_other_八人_p8125
+        quote: ダウザール会議。参加人数は八人に及ぶ。 老人たちが口を開くと、立て続けに罵声と嘆きが飛び交う。
+        locator: {}
+        spoiler_after: ch0252
+    speech:
+      observations:
+      - event_ref: E_ch0252_ダウザール会議_says_ハグレスの不要論_p8125
+        quote: 「あれはもはや不要だ。リーナが望む新たな世界に、老人どもの楽園なぞ不要。古びた信仰は血管を腐らせる。我らは常に新たな血脈を取り入れて未来へと進まねばならぬ」「ハグレスよ。今度はお前が薪となるのだ」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ダウザール会議_says_ハグレスの腐敗_p8125
+        quote: 「ハグレスがなぜあそこまで『堕ちた』のか。文明圏、信仰圏の主神とはその世界を構成する人類の精神が反映された形で擬人化される。あやつがこうまで卑小な邪神となり果てた最大の原因は大神院の劣化。槍神教それ自体の腐敗に他ならぬ」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ダウザール会議_says_アキラへの接触_p8126
+        quote: 「これマジでマレブランケのメンバーへの接触はしなくていいの？ 何ならウチがじきじきにシナモリアキラを篭絡しても良いけど？」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ダウザール会議_says_悪役の禁止_p8126
+        quote: 「然り。急いて目先の結果ばかりを求め、やれ席を奪うだの暗殺だのと剣呑な話に持っていくから関係がこじれる。それではまるで、物語の悪役ではないか」
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ダウザール会議_says_転生アプリ_p8126
+        quote: 「それよりさぁ、転生アプリってマッチングアプリみたく使えるじゃない？ 既にウチとダーリンで運命の出会い演出の量産に成功してんだけど。サンブルから何人かは高い確率で成婚に至るって占術結果が出たのね。
+        locator: {}
+        spoiler_after: ch0252
+      - event_ref: E_ch0252_ダウザール会議_says_リーナの自由意志_p8127
+        quote: 「粘り強く交渉し、話し合い、必要に応じて力や手練手管を用いる。財や能力を相手が求めるなら取引を行い、関係の基盤をゆるやかに築き上げていくのだよ。まさにいま、リーナが己の才覚で為そうとしていることではないか。あれで良いのだ。良き隣人、信頼の置ける友人、互いに利益を与えられる取引。現代は無理に婚儀を結び血の繋がりで呪縛する時代ではない。子は必要だが、それは強制ではなく自発的な愛の結果であるべきだろう」
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エクリーオベレッカ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0252_エクリーオベレッカ_appears_守護天使_p8127
+        quote: 大神院の教えによれば、エクリーオベレッカは人格のない守護天使。 誰も住んでいるはずのない空っぽの城。 その扉が、内側からほんのわずかに開きつつあった。
+        locator: {}
+        spoiler_after: ch0252
+  first_appearance_candidate: true

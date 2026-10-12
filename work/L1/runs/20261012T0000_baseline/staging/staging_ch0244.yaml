@@ -1,0 +1,383 @@
+episode: ch0244
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アヴロノ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_アヴロノ_uses_蜂型魔弾_p7962
+        quote: アヴロノの蜂型魔弾による制圧射撃が敵集団の移動を妨げ、地上側についたティリビナ人たちがマナタル勇者戦団の説得を試みる。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イツノ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0244_イツノ_appears_増援_p7962
+        quote: 現れた増援は同じくマレブランケの筆頭であるマラコーダ、立ち位置の不確かな塔の魔女イツノ、アズーリア隊に所属するアヴロノ・ローザとティリビナ人のガザとアデンだった。
+        locator: {}
+        spoiler_after: ch0244
+    visual:
+      observations:
+      - event_ref: E_ch0244_イツノ_observes_ヒュレー_p7967
+        quote: 長い黒髪、着崩した着物風ジャケット、黒銀と流水の義肢。イツノと呼ばれるよくわからない立ち位置の異物がぼんやりとした表情でヒュレーをじっと見つめている。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_マナタル勇者戦団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_マナタル勇者戦団_attacks_アルテミシア_p7962
+        quote: 戦いは激化の一途を辿っていた。 迫りくる過激派ティリビナ人組織、マナタル勇者戦団。 防戦一方のアルテミシアと逃げ惑うキノコ人の少年『掃除屋』。
+        locator: {}
+        spoiler_after: ch0244
+    speech:
+      observations:
+      - event_ref: E_ch0244_マナタル勇者戦団_says_狼煙_p7962
+        quote: 「ああ、その通りだ。お前たちのような腰抜けに目覚めの機会を与えるためにな！ この闘争を狼煙がわりに、世界中に我らの意思を示す時だ！」
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_マナタル勇者戦団_says_祝祭_p7962
+        quote: 「この祝祭は絶好の機会なんだ、ぶち壊しにする気か？！」
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_マナタル勇者戦団_says_プリエステラ_p7963
+        quote: 「お前たちのような惰弱な裏切り者は存在してはならない。このような分断工作を強いた卑劣なプリエステラ、槍神に媚びる淫らがましい腐れ子房を必ずや排除すべきだ！」
+        locator: {}
+        spoiler_after: ch0244
+    symbolic:
+      observations:
+      - event_ref: E_ch0244_マナタル勇者戦団_has_property_過激な思想_p7963
+        quote: マナタル勇者戦団の思想は、同胞たちの被害さえ厭わない過激なものだった。
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_マナタル勇者戦団_is_made_of_ふり_p7972
+        quote: 過激派集団と穏健派集団。これは『ふり』だ。おそらく、どちらも。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラコーダ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_マラコーダ_appears_増援_p7962
+        quote: 現れた増援は同じくマレブランケの筆頭であるマラコーダ、立ち位置の不確かな塔の魔女イツノ、アズーリア隊に所属するアヴロノ・ローザとティリビナ人のガザとアデンだった。
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_マラコーダ_threatens_ヒュレー_p7967
+        quote: 「はいそこまで。召喚獣を出した瞬間、呪毒があなたの同胞を駆け巡るわよ」 高密度の呪力障壁をいつの間に掻い潜ったのか、蠍の尾がヒュレーの首筋に突きつけられていた。
+        locator: {}
+        spoiler_after: ch0244
+    speech:
+      observations:
+      - event_ref: E_ch0244_マラコーダ_says_わたしにーさま_p7967
+        quote: 「わたしにーさまになりたいの？ ならその資格があるかどうか試すために殺す。わたしにーさまになれたら相克するアニムスとして殺す。やっぱりやめるって言ってもわたしにーさまへの冒涜だから殺す。さいきんわたしにーさまが構ってくれないから殺す」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マレブランケ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_マレブランケ_other_カルカブリーナ_p7962
+        quote: そして身柄を狙われたマレブランケの一員カルカブリーナ。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_穏健派ティリビナ人]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0244_穏健派ティリビナ人_asks_マナタル勇者戦団_p7962
+        quote: 「こんなことをしても我々の立場が悪くなるばかりだとなぜわからない！ 矛を収めろ、地上にも話し合える者はいる！」
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_穏健派ティリビナ人_teaches_クレイ_p7966
+        quote: 「葉針派の呪剣士か。そこの君、あいつはまだ強烈な『陽閃』という切り札を隠している。それと滑るような歩法は『根潜り』だ。浮かせるか、岩などの障害物で床を作れば妨害できるはず」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ローザ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_ローザ_activates_灯台庭園_p7964
+        quote: 「導かれるのは正しい者だけ！ 私の『灯台庭園』は真理を証明する！」 浄界の構築と同時に『不快な者は皆殺し』という意思の込められた眼光がマナタル勇者戦団の構成員全てを捕捉していた。
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_ローザ_uses_剪定鋏_p7965
+        quote: 無限庭園の主である術者は光を放つ灯台を背に囚われの犠牲者たちを睥睨し、絶対の殺意を持って巨大な剪定鋏を担ぎ上げる。
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_ローザ_uses_端末_p7965
+        quote: 剥き出しの殺意が急に雲散霧消し、ローザは戦闘中にもかかわらず巨大な鋏を地面に突き刺して端末を取り出す。
+        locator: {}
+        spoiler_after: ch0244
+    speech:
+      observations:
+      - event_ref: E_ch0244_ローザ_says_殺意_p7964
+        quote: 「めんどくさー。てかこーいうわからずやさんたち、ぶっ殺すしかなくないですか？」
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_ローザ_says_首ちょんぱ_p7965
+        quote: 「ここまで辿り着けた人にだけ、死と脱出のチャンスをあげますね。いつまでもグダグダやってるお馬鹿さんは、空間ごとねじって首ちょんぱ！ って、あれ？
+          なにこれ」
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_ローザ_says_メッセージ_p7968
+        quote: 「あー、はいはい。いいですよ。それと話が変わるんですけど、なんか変なメッセージが来てて。みんな忙しそうだったから、話こっちで進めちゃいました。別にいいですよね？」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_灯台庭園]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0244_灯台庭園_is_located_病院別棟_p7964
+        quote: 病院別棟のエントランス付近の領域が歪む。壁面が溶けて消えたかと思うと床面が波打ち、天井は星ひとつない真っ黒な夜空に変容していく。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アデン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_アデン_stops_ヒュレー_p7965
+        quote: 轟音。堅く重い生命樹は少女を叩き潰す直前で静止していた。ガザとアデンがすんでの所で割って入り、ヒュレーの攻撃を止めたのだ。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガザ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_ガザ_stops_ヒュレー_p7965
+        quote: 轟音。堅く重い生命樹は少女を叩き潰す直前で静止していた。ガザとアデンがすんでの所で割って入り、ヒュレーの攻撃を止めたのだ。
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_ガザ_asks_ローザ_p7968
+        quote: 既に戦意はないと見て、ガザとアデンがローザに浄界の解除を要請する。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_クレイ_attacks_ヒュレー_p7965
+        quote: 背後の植え込みを切り裂きながら盲目の剣士クレイが不可視の斬撃を伝播させようとしているが、大半の肉体言語魔術は背を向けた相手には効果が減衰する。
+        locator: {}
+        spoiler_after: ch0244
+    speech:
+      observations:
+      - event_ref: E_ch0244_クレイ_asks_ローザ_p7966
+        quote: 「おいローザ、なにしてる？！ 戦闘中だぞ！」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_トピアリー]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0244_トピアリー_has_property_使い魔_p7965
+        quote: 庭園内のトピアリーは全てかりそめの命を与えられた使い魔だ。 加えて、絶えず姿を変える迷路は決して脱出を許さない。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヒュレー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_ヒュレー_attacks_ローザ_p7965
+        quote: 少女が晒した隙を逃さず、迷路を飛び越えて上空から襲い掛かる者がいた。追い縋る茨を引き千切り、不正者を咎める毒蜂を全身に振りかけた霊薬で跳ねのける巨体が豪快に着地。二刀を振り回すティリビナ人たちのリーダー、ヒュレーである。
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_ヒュレー_activates_召喚_p7966
+        quote: 巨漢の眼前で火花が散った。それは眼光が意思に呼応して現実を変容させる予兆。 象られた意思は具象化し、回転する木製のコインとなる。
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_ヒュレー_other_ハース・ベル・ガニヤ_p7967
+        quote: 「麗しき九祖、獣背界の天鯨母ハース・ベル・ガニヤよ。大いなる根の子が伏して願い奉る。古き盟約に従い、侵略者に正しき裁きを与」
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_ヒュレー_other_マラコーダ_p7968
+        quote: 戦力差を考えればここからの逆転はない。 二振りの大剣を地面に突き立て、両手を放して無抵抗のアピール。
+        locator: {}
+        spoiler_after: ch0244
+    speech:
+      observations:
+      - event_ref: E_ch0244_ヒュレー_says_王子様_p7968
+        quote: 「おいおいマジかよ。知らねえぞこの流れ。王子様が視えねえから俺の担当になったってのに、視えねえ奴を重ねるとか悪質だろ」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン行政局]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0244_ガロアンディアン行政局_other_オークション_p7968
+        quote: 「ガロアンディアン行政局よりお知らせです」 ちびシューラの仕業だろうか、病院内への全体放送だ。 「たったいま、マレブランケのメンバーであるファルファレロとカルカブリーナ及びこちらで保護している名無しの王を祝祭で行われるオークションに出品することが決定しました」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エレクトラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_エレクトラ_uses_リアルマネートレード_p7969
+        quote: 転生者たちに与えられたチートスキルのひとつ、『リアルマネートレード』。 エレクトラは『生前』の固有呪術が反映されたため、あらかじめそのスキルを保有している状態で転生していた。未来を掌握するティリビナ人に対抗するため、エレクトラが選んだ起死回生の策。それがこのスキルの使用であった。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファルファレロ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0244_ファルファレロ_says_セージ_p7969
+        quote: 「いやいやいや！ 僕そんなの聞いてないんですけどぉ？！ 勝手に売買しないでくださいよ！ 僕の身体は端から端まで愛しのセージさんのものなんですが？！」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_オークション]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0244_オークション_defines_参加者_p7970
+        quote: 「この公開オークションは祝祭のイベントの一環として行われます。『上』からはクロウサー家や槍神教の高位神官、北辺帝国の大貴族といった数々の富豪が参加を希望しており、『下』からも名門であるディスケイム家や虹国の大賢者、洞窟国の王家と錚々たる面々が名乗りをあげております」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0244_ちびシューラ_other_闘技イベント_p7973
+        quote: 「さて、今回『転活体験アプリ・ウィズメモリーｂｅｔａ』のリリース記念として突発的に行われた闘技イベントに参加していただいたティリビナ人の皆様！
+          今回のイベントでガロアンディアンのゲームマスター相手に大健闘したことを称えて、祝祭期間中に行われている様々なトーナメントやリーグ戦形式の闘技イベントへの参加権を進呈いたします！」
+        locator: {}
+        spoiler_after: ch0244
+      - event_ref: E_ch0244_ちびシューラ_other_襲撃事件_p7974
+        quote: 「ふいー、ひとまずこれでおしまい。モーリュ及びサンデリアーナを名乗っていたティリビナ人は撤退。追跡してるけど、ティリビナ同胞団と合流する素振りはないね。あくまでも別組織っていう体裁は守り通すっぽい。あとは探索者部隊の歴史改変についても処理したよー。緊急凍結処理が間に合ってよかった。襲撃事件はひとまず解決かなー」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0244_ガロアンディアン_transforms_テロリズム_p7973
+        quote: テロリストであるという暴力性をまるごと『過激な闘技形式のひとつ』に置き換える。 それでティリビナ人との間に存在する数多くの問題が解決するわけではない。
+          だが、祝祭が破綻していないように見せかけることはできる。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メートリアン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0244_メートリアン_other_シナモリアキラ_p7975
+        quote: 「まあいいんじゃないですか？ どの道、こんな不安定な勢力が単独で維持できるわけもないでしょうし。バランスは考えるとしても、シナモリアキラの議席を他の勢力に売りつけるっていうのは意外とありかもしれません」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_ユディーア_appears_侵入者_p7976
+        quote: 「マレブランケのチリアットから連絡。『病院の正面エントランスに新たな侵入者あり、現在交戦中。至急増援を求む』ってまたですか？ 今度は誰？」「えーっとね、なんか『ジャッフハリムの魔将ユディーア』って宣名してるみたいだね」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルテミシア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_アルテミシア_uses_潜行_p7977
+        quote: 下半身が蛇になっている石化邪視の使い手アルテミシアは、こそこそと移動しながら物陰に隠れた。身を屈ませると、水中に飛び込むようにして地面に頭を突っ込む。
+          硬質なはずの大地が水面のように揺らぎ、溶けた。 トロルの高位呪術師が使う地中への『潜行』だ。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キノコ人の少年]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0244_キノコ人の少年_observes_アルテミシア_p7977
+        quote: 「追いかけましょう、クレイさん！ 僕、中が透けて視えたんです！ アルテミシアさんのアストラル体に、あの時のトロルが入ってた！」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クナータ・ノーグ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0244_クナータ・ノーグ_observes_戦場_p7978
+        quote: 病院内での激戦を、少し離れた地点で観察していたクナータ・ノーグは、静かに目を閉じて回想を始めた。これから起きる未来の光景。その記憶を掬い出すように。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クヘーバ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0244_クヘーバ_threatens_アサブ_p7978
+        quote: 「にゃにゃ、てめえクナータ様に文句つけようってのか、にゃあん？ かわいいにゃんが相手になるにゃんぞ！ おら来いや、ぶっ殺してやるにゃん、ゴルァ！」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_スーリウム]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0244_スーリウム_says_抹消_p7980
+        quote: 「まずい、まずいまずいまずい、奴だけは否定しなければ、カーインの血統が、父上から受け継いだ私という存在の根幹が揺らいでしまう。くそ、悪鬼め！
+          選定レースでの動きはロードデンドロンとエリカに任せた。私は今からあの男を抹消しに向かう！」
+        locator: {}
+        spoiler_after: ch0244
+    action:
+      observations:
+      - event_ref: E_ch0244_スーリウム_other_時間改変_p7980
+        quote: クナータには分かる。彼は時間の流れを改変しようとしていた。 エレクトラを助けに入ったカーイン。 彼が存在するという流れを否定し、更にはその来歴を歪めようと並行矛盾史を構築し続けているが、結果として全て失敗に終わっていた。
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エリカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0244_エリカ_other_スーリウム_p7981
+        quote: 「スーリウム様。魔竜事件の記録によれば、あのロウ・カーインを名乗る人物は分身が可能とのこと。そしてアルト・イヴニルを追撃していた者たちが、別々の場所でよく似た風体の男を目撃しております。ここで仕掛けても敵を滅ぼせる保証はなく、逆に誘い出しの恐れがあります。どうかご再考を」
+        locator: {}
+        spoiler_after: ch0244
+  first_appearance_candidate: true

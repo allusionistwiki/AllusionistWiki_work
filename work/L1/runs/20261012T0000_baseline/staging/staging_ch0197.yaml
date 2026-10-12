@@ -1,0 +1,72 @@
+episode: ch0197
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_セインディアの博物城]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0197_セインディアの博物城_appears_as_鳥籠_p6621
+        quote: 幾つもの尖塔に囲まれた外観は巨大な鳥籠のようでもあり、色の無い光景はどこか温度の絶えた世界を思わせたからだ。
+        locator: {}
+        spoiler_after: ch0197
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_秩序派の血統術師]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0197_秩序派の血統術師_defines_血統の配列_p6621
+        quote: あらゆる種族。あらゆる人種。あらゆる血統。  それらを掛け合わせ、整え、保存し、正しく配列する。秩序派の血統術師たちはずっとその営みに心血を注いできたし、これからもそうするだろう。
+        locator: {}
+        spoiler_after: ch0197
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キニス]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0197_キニス_other_父_p6622
+        quote: それでもキニスは、たぶん父のことが好きだった。
+        locator: {}
+        spoiler_after: ch0197
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_父]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0197_父_other_冒険と自由_p6623
+        quote: この世界は本当はもっと自由なんだ。正しさとか必要性とか、そういうものだけで世界はできていない。冒険だよ冒険。危険や邪悪の世界を渡り歩く緊張感、バカみたいに無謀な無茶して死にかける、退屈な人生にはそういう大冒険が足りないのさ
+        locator: {}
+        spoiler_after: ch0197
+      - event_ref: E_ch0197_父_promises_自由_p6625
+        quote: 俺は最後の王として博物城に君臨する。俺が定める新しいルールの中でなら、お前たちはみんな自由に外の世界に行っていいんだ。好きな道を歩いていい、好きなことをして遊んでいい、好きな相手を選んで結婚することだってできる
+        locator: {}
+        spoiler_after: ch0197
+      - event_ref: E_ch0197_父_asks_冒険への同行_p6627
+        quote: 「けどキニス。それでもこの場所は正しいだけなんだ。世界はけっして完璧なだけじゃない。俺はそれをお前に知って欲しい。だからな。怒られるのは俺が全部引き受ける。そのかわり、一度でいいから俺と一緒に外の世界に出て冒険しよう！」
+        locator: {}
+        spoiler_after: ch0197
+    action:
+      observations:
+      - event_ref: E_ch0197_父_gives_珊瑚の角_p6623
+        quote: これは珊瑚の角が生えた蛙の世界に行ったときの土産だ。大海蛇の魔の手から助けた姫君にいたく気に入られた俺は、彼女の愛の証であるこの見事な珊瑚の角と情熱的な接吻を賜った。
+        locator: {}
+        spoiler_after: ch0197
+      - event_ref: E_ch0197_父_reveals_融血呪の秘儀_p6624
+        quote: 「ついに俺は成し遂げたんだ。守護者の資格を得た。見ろキニス、これがトライデントの細胞たる証。融血呪の秘儀だ」
+        locator: {}
+        spoiler_after: ch0197
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_母]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0197_母_other_父_p6624
+        quote: 最後に母から鉄拳を貰って引っ繰り返る。  滑稽な顛末を見た子供たちはそれを見て大笑い。
+        locator: {}
+        spoiler_after: ch0197
+  first_appearance_candidate: true

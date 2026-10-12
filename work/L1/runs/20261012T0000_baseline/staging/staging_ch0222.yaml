@@ -1,0 +1,462 @@
+episode: ch0222
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_トランクケース]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0222_トランクケース_has_property_異常な軽さ_p7353
+        quote: 驚くほど軽い。というか中身の存在をまるで感じない。
+        locator: {}
+        spoiler_after: ch0222
+    action:
+      observations:
+      - event_ref: E_ch0222_トランクケース_requires_呪文鍵_p7354
+        quote: そもそも解錠のために必要な『四桁の数字に見える呪文鍵』の構造がわからない。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0222_ユディーア_observes_トランクケース_p7353
+        quote: ふと、ある変化に気付いた。対面に座っていた人物が置き忘れていったのだろうか、簡素なつくりのトランクケースがそのままになっている。
+        locator: {}
+        spoiler_after: ch0222
+    speech:
+      observations:
+      - event_ref: E_ch0222_ユディーア_thinks_トランクの中身_p7353
+        quote: もし空っぽだとして、どんな意味があるのかを考える。何らかの暗号。あるいは特殊な気体。呪術的な『意味』や『音』そのもの。
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_ユディーア_asks_ニアホン_p7354
+        quote: 「まさか空の民がぎゅうっと詰め込まれてる、なんてことは無いよね」「にあ、誘拐犯！」
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_ユディーア_observes_歴史解釈の欠如_p7356
+        quote: 単純に吸血鬼たちをまとめ上げることができていないのではないだろうか？
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_ユディーア_thinks_リールエルバへの優しさ_p7357
+        quote: 次にリールエルバに会った時にはうんと優しくしてあげようと決めた。
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_ユディーア_suspects_王殺し_p7364
+        quote: 予想が正しければ、この中に『王殺し』が紛れているはずだ。三位以内に入賞すれば表彰式で機械女王の暗殺が狙える。
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_ユディーア_observes_襲撃者_p7365
+        quote: ネビロン氏族やカマソッソ氏族のアヴロノがいるということは、襲撃を仕掛けてきているのは十中八九『豚好きハデス』率いる『十戒』の犯罪者たちだろう。
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_ユディーア_thinks_マレブランケ選_p7383
+        quote: 『マレブランケ』の空席、四つの枠を巡る『シナモリアキラ選』なる噂は確かなものではないが、デマを現実に変えたい者にとっては利用すべき噂だ。
+        locator: {}
+        spoiler_after: ch0222
+    action:
+      observations:
+      - event_ref: E_ch0222_ユディーア_travels_旧市街_p7355
+        quote: トランクケースを片手に向かう先はどこかおどろおどろしい雰囲気の旧市街。というより意図的に『古い景観』を再現した観光用の区画だった。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ガロアンディアン主街区]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0222_ガロアンディアン主街区_defines_機能別モジュール_p7354
+        quote: ガロアンディアン主街区は機能別に分けられた幾つかのモジュールで構成されている。空間で分割された性質の異なる都市機能群は、更に時間帯によっても変化するという特性を持っていた。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_旧市街]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0222_旧市街_functions_as_移動式再演博物館_p7355
+        quote: 「にあにあにあ、ぴこーん！ 移動式再演博物館！ 魔竜事件の後に作られた特別区！ ドラトリア系夜の民が中心、にあ！」
+        locator: {}
+        spoiler_after: ch0222
+    symbolic:
+      observations:
+      - event_ref: E_ch0222_旧市街_appears_as_過去への遡行_p7356
+        quote: 「夕方から夜にかけて、この移動する区画は『過去』になる」 過去へと遡り続ける異界であり、隔離された時空間。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_機械女王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0222_機械女王_conceals_瘴気と穢れ_p7355
+        quote: 機械女王はその中で『瘴気』と『穢れ』という暗い過去を封印することに成功した。その『封印』というのがこの区画。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0222_リールエルバ_has_property_精神的疲労_p7356
+        quote: 「にあ～。ほんとはこの区画の管理者、姉様にやってほしいってトリシューラに言われた。でも姉様、疲れちゃって無理だった。まだ外に出るの、大変だから」
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_天眼の民]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0222_天眼の民_has_property_猫への畏怖_p7357
+        quote: 血塗られた記憶が天眼の民に刻んだのは『猫への畏怖』である。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_警備体制]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0222_警備体制_appears_as_猫科魔獣_p7357
+        quote: 獅子、虎、豹といったいわゆる『猫科』とされる魔獣が街中を闊歩し、あるいは浮遊しながら周囲を照らしている。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_古代の魔獣]]'
+  entity_type: item
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0222_古代の魔獣_functions_as_対竜族用兵器_p7358
+        quote: 古い言語支配者たちが猫科として創造した古代の魔獣はリーグシル神話体系では聖獣とされているが、その実態は対竜族用の兵器でしかない。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_獅子]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0222_獅子_appears_as_炎の鬣を持つ獣_p7358
+        quote: 墓標船由来の『炎の鬣を持つ獣』という短い文字情報から再現されたた古代の人造魔獣で、燃える鬣に包まれた浮遊する獣の頭部、という異形の魔獣だ。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_アサブ]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0222_アサブ_asks_パレードの目的地_p7359
+        quote: 「なあ、このパレードってやつはどこに向かってんだ？」
+        locator: {}
+        spoiler_after: ch0222
+    action:
+      observations:
+      - event_ref: E_ch0222_アサブ_appears_砂の精霊_p7369
+        quote: 黒檀の民が拳をごきりと鳴らしながら背後に巨大な砂の精霊を出現させている。
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_アサブ_fights_ファルファレロ_p7369
+        quote: 「『根っこ』はてめぇか、クソガキがよ。潰すぞ」 背後から襲い掛かったアヴロノを何もない所から出現した大量の砂で拘束しながらアサブが拳をファルファレロに向けた。
+        locator: {}
+        spoiler_after: ch0222
+    relationship:
+      observations:
+      - event_ref: E_ch0222_アサブ_bonds_ロードデンドロン_p7382
+        quote: どうやら共通の敵を撃退したことで、黒檀の民とティリビナ人のリーダーたちの間に連帯感のようなものが生まれたらしい。拳を突き合わせて笑い合う二人は紛れもない戦友同士だった。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_猫科魔獣]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0222_猫科魔獣_defeats_テロリスト_p7359
+        quote: 上空にオルゴーの滅びの呪文を構築して破壊活動を行おうとしたテロリストを獅子の炎が焼き尽くし、
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_虎]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0222_虎_has_property_時空を嚙み砕く力_p7359
+        quote: 紫の体毛を持つ個体は時空を嚙み砕く力を持ち、転移・復元・腐朽といった呪術を行使できる。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_豹]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0222_豹_has_property_消失と出現_p7359
+        quote: この魔獣は定まった姿を持たず、瞬きの間に消失と出現を繰り返す。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロードデンドロン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0222_ロードデンドロン_says_本選コースのお披露目_p7360
+        quote: 「この吸血鬼地区に続く新区画らしい。そして明日の本選で最初に通過するコースのお披露目でもある。私にとっては貴重な下見の機会となるわけだ」
+        locator: {}
+        spoiler_after: ch0222
+    action:
+      observations:
+      - event_ref: E_ch0222_ロードデンドロン_activates_召喚_p7370
+        quote: 「召喚！」 銃口から放たれたのは銃弾でもなければ手品の花でもない。閃光と呪文の渦、螺旋と円によって構成された空中に広がる『扉』だった。
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_ロードデンドロン_activates_ゴーレム_p7372
+        quote: 「召喚。美しき九祖、土のアヴロノ、穏やかなるアドガレンスよ。この身に城砦の守りを与えたまえ」
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_ロードデンドロン_activates_連続召喚_p7374
+        quote: それを立て続けに八体。それも同時に召喚を維持したまま制御を続けている。
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_ロードデンドロン_activates_軍勢_p7379
+        quote: ロードデンドロンが己の血を媒介にして召喚したのは『ティリビナ人』という種族の歴史そのものだ。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_塔]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0222_塔_appears_蜃気楼_p7360
+        quote: と、古い町並みの先に蜃気楼のように揺らめく何かを見つけた。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_本選コース]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0222_本選コース_defines_次元巡り_p7360
+        quote: 裏面や隣界などと呼ばれる異なる法則や神の摂理に守られた世界を通過しながらこの場所に帰還するという流れらしい。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_カルカブリーナ]]'
+  entity_type: item
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0222_カルカブリーナ_names_マレブランケ_p7361
+        quote: もうひとりは槍や杖、弓など無数の武器を背負った物々しいシルエットの青年。
+        locator: {}
+        spoiler_after: ch0222
+    speech:
+      observations:
+      - event_ref: E_ch0222_カルカブリーナ_says_新世界の案内_p7361
+        quote: 「これより、明日のレースで使用される新世界をご案内します」
+        locator: {}
+        spoiler_after: ch0222
+    action:
+      observations:
+      - event_ref: E_ch0222_カルカブリーナ_attacks_参加者_p7364
+        quote: カルカブリーナが無造作にボウガンから矢を放ったことに少し驚かされた。
+        locator: {}
+        spoiler_after: ch0222
+      - event_ref: E_ch0222_カルカブリーナ_uses_ライフル_p7371
+        quote: カルカブリーナが手にしているのは槍ではない。穂先を銃口に取り付けた小銃、あるいは槍銃と呼ばれる携行火器だ。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファルファレロ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0222_ファルファレロ_names_マレブランケ_p7361
+        quote: 少年はシナモリアキラを構成する『マレブランケ』の一員だと名乗った。少年がファルファレロ、青年がカルカブリーナと言うらしい。
+        locator: {}
+        spoiler_after: ch0222
+    action:
+      observations:
+      - event_ref: E_ch0222_ファルファレロ_activates_呪文竜_p7365
+        quote: ほぼ同時に解説を詠唱に置き換えていたファルファレロが大型スクリーンを魔導書の項に見立てて呪文竜を解放。
+        locator: {}
+        spoiler_after: ch0222
+    speech:
+      observations:
+      - event_ref: E_ch0222_ファルファレロ_says_勝利確率_p7367
+        quote: 「はいおしまい。これで僕たち『十戒』の勝利確率は揺るぎない６２パーセントです」
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラプンシエル]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0222_ラプンシエル_other_あの世_p7362
+        quote: 『マレブランケ』のグラッフィアカーネことキュトスの姉妹ラプンシエルが管理するガロアンディアンの『あの世』。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_地下アイドル空間]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0222_地下アイドル空間_is_located_旧白骨迷宮_p7362
+        quote: 生産区画付近の地下にあるのは旧白骨迷宮。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_シナモリアキラ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0222_シナモリアキラ_defines_転生都市_p7363
+        quote: 第五階層の紀人、転生を司る新しき神シナモリアキラ＝ガロアンディアン。転生都市の十二化身『マレブランケ』のひとつラプンシエルは冥界の女神だ。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シード枠の選手たち]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0222_シード枠の選手たち_appears_本選参加者_p7364
+        quote: 暗緑色の飛行服を纏った兄弟、背中に『喧嘩上等』と刺繍されたつなぎ姿の若者、プロペラで浮遊する鉄の杖、長身の謎めいた黒衣、細身の老婆。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アヴロノ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0222_アヴロノ_attacks_参加者_p7365
+        quote: 同時に黒肌のアヴロノたちが一斉に呪術を発動、頭上から降り注ぐ流れ星の豪雨。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ジュティア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0222_ジュティア_kills_ツインテールの少女_p7367
+        quote: ジュティアが突如として短剣を振り回し、目の前の少女の首を刎ねたのだ。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_精神加工]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0222_精神加工_has_property_麻薬的な扱い_p7368
+        quote: 現代における『精神加工』は麻薬のような扱いを受けている呪術だ。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_サハリック]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0222_サハリック_appears_巨大な蟹_p7371
+        quote: 「麗しき九祖、星抱く蟹の王、勇ましきサハリックよ。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_竜覚]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0222_竜覚_other_カルカブリーナ_p7371
+        quote: 竜覚は明確に規制対象に反応しており、既に自動的な天罰が下っているはずだ。銃を握るカルカブリーナの両手が焼けただれ、皮膚が燃え落ちていくのがはっきりとわかる。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルラウネ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0222_アルラウネ_appears_半透明の女_p7380
+        quote: ロードデンドロンの背後に半透明の女が寄り添う。すみれ色の瞳をした白肌の巫女。その姿が知り合いに瓜二つに見えて、ユディーアはぞっとした。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハデス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0222_ハデス_disappears_魂_p7381
+        quote: 祖霊と霊媒の言葉が重なり、神を名乗る男の魂が根底から否定された。存在ごと抹消された偽りの夜空が砕け、
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0222_アズーリア_other_ユディーア_p7384
+        quote: なんか大げさなこと言ってるなあ、とぼんやり眺めていたユディーアはニアホンの通知に気づいた。隣界からの通信だ。差出人はアズーリア。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エスト]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0222_エスト_appears_画面_p7385
+        quote: 画面の端から覗き込んできたのはティリビナの巫女、プリエステラことエストだった。大人びた顔立ちと振る舞いに反して、緑の髪を飾る大輪の花と、ひらひらとした民族衣装は少女のように愛らしい。
+        locator: {}
+        spoiler_after: ch0222
+    speech:
+      observations:
+      - event_ref: E_ch0222_エスト_says_師匠の再会_p7386
+        quote: 「絶体絶命のその時、私たちを助けてくれた人がいたの。それがなんと！ 私が小さい頃にお世話になったお師匠様だったのよ！」
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_スーリウム]]'
+  entity_type: relationship
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0222_スーリウム_appears_映像_p7387
+        quote: 薔薇のような麗人。性差を超越した美貌。艶めいた黒髪も、赤と黒の衣装も、アトリビュートのように指先で挟んでいる一輪の薔薇も。
+        locator: {}
+        spoiler_after: ch0222
+    name:
+      observations:
+      - event_ref: E_ch0222_スーリウム_names_花のアヴロノ_p7388
+        quote: 「私の名はスーリウム。我が母アルラウネより『花のアヴロノ』としての称号を受け継いで以来、ティリビナ人の守護者たることを自らに任じている。
+        locator: {}
+        spoiler_after: ch0222
+    relationship:
+      observations:
+      - event_ref: E_ch0222_スーリウム_loves_エスト_p7389
+        quote: 麗人がエストに注ぐ視線には、確かな慈愛があった。そしてロードデンドロンの求婚とは違い、この親愛は一方通行ではない。
+        locator: {}
+        spoiler_after: ch0222
+  first_appearance_candidate: true

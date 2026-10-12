@@ -1,0 +1,324 @@
+episode: ch0254
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_org_ゾラの血族]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0254_ゾラの血族_has_property_言語支配_p8153
+        quote: 呪文を、ことばを、風を、大気の震えを支配するゾラの血族は魔導書技術や航空・雲上業界に強いことが知られている。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_風聞]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0254_風聞_defines_情報の伝播_p8153
+        quote: 風は噂で、噂は風。 アナロジーが作用する限り、それらは限りなく近しい呪文となる。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_アルゾラ・クロウサー]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0254_アルゾラ・クロウサー_is_made_of_ゾラ分家_p8154
+        quote: アルゾラ・クロウサー。 それは最古のゾラ分家の名だ。薄く広い血の交わりを多方面で維持し続けるこの家系は、報道機関や各出版社との密接なコネクションを持つ。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_機甲箒]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0254_機甲箒_functions_as_黒風浄化装置_p8154
+        quote: 浄化祈祷を推力に変換する箒レースにおいて、上空を駆け巡る瘴気混じりの大気は追い風に等しい。理論上、黒風を浄化し続ける限り際限なく加速することが可能だからだ。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ・ゾラ・クロウサー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0254_リーナ・ゾラ・クロウサー_other_黒風_p8155
+        quote: たったひとりが小異界に満ちる穢れの大半を引き寄せ、浄化しようとしていた。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダウザール]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0254_ダウザール_other_ハグレス_p8156
+        quote: 「どうやら見限られたようですね、落ち目の偽神には相応しい末路 アルコーン です」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ダウザール_uses_リーナ_p8162
+        quote: ダウザールの目論見は単純だ。 反抗期の孫娘に飴をくれてやる。これはただそれだけの祖父らしい気遣いだ。 リーナの目指す『善き未来への改革』をクロウサー家の総力で後押しする。
+        locator: {}
+        spoiler_after: ch0254
+    speech:
+      observations:
+      - event_ref: E_ch0254_ダウザール_other_ハグレス_p8157
+        quote: 「それはいま、必要な問答か？」 老人は縋るような言葉を切って捨てる。
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ダウザール_other_ティリビナ人問題解決_p8162
+        quote: 「『空使い』リーナ・ゾラ・クロウサーの名において、ティリビナ人問題の抜本的解決を図る。機械女王はこの提案を拒否できまい。ガロアンディアンを中心とした平和的秩序の構築。主導権を握るのは我らクロウサーとなるだろう」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ダウザール_other_ハグレス_p8164
+        quote: 「もっとも、あっさりとお前を見限ることに決めてくれたのには驚いたが。よほど嫌われていたようだな」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ダウザール_other_新時代の風_p8165
+        quote: 「新時代の風、か。任せてみるべきなのかもしれんな。若木たちの可能性に」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ダウザール_other_統治_p8165
+        quote: 「得てして統治とはそうしたもの。低俗なポピュリズムへの迎合と結託、その繰り返しに過ぎぬ。それがわからぬからお前は血族を失ったのだ」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ダウザール_other_リーナ_p8166
+        quote: 「美名はリーナに。汚れ役はガロアンディアンに、というわけか」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ダウザール_reveals_後継者_p8166
+        quote: 「知れたこと。我が正統なる後継に」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ダウザール_other_リーナと竜母の融合_p8167
+        quote: 「青い血があれば資格は不要になる。ダウザール、貴様。リーナを正統な竜母と融け合わせるつもりか。あの時のように」
+        locator: {}
+        spoiler_after: ch0254
+    action:
+      observations:
+      - event_ref: E_ch0254_ダウザール_other_虹の矢_p8169
+        quote: 「御殿の主よ、蒼天を撃ち抜け」 厳かな呼び声に応えたのは、一条の光。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハグレス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0254_ハグレス_other_フルグントの六柱群_p8156
+        quote: 「だっ、誰かっ！ フルグントの六柱群が揃えば貴様らなどっ！ アダス！ セロナ！ レナリア！ 僕の呼び声に応えろ！ 今すぐ助けに来い！
+          来い！ はやくっ！」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ハグレス_other_ダウザール_p8157
+        quote: 「どうしてなんだよ、ダウザール！？ 僕は君を怒らせるようなことをしてしまったかい？ ずっと上手くやってきたじゃないか！ 僕たちは互いに力を合わせてずっと鈴国圏と戦ってきただろう？
+          利害以上の友情があった、そうじゃないのか？」
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ライラ・ラプス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0254_ライラ・ラプス_other_夢の光景_p8158
+        quote: 「ええ、その通り。これは夢。私が描き出した、新時代へと続く夢の光景」
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0254_パーン_other_ダウザール_p8159
+        quote: 「俺を抜くならせめて勝ち誇れ。ダウザールめ、下らん小細工を。興覚めもいい所だ」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_パーン_other_ダウザール_p8165
+        quote: 「俗物め。派閥抗争を大衆のガス抜きに利用しただけだろうが」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_パーン_other_ダウザール_p8166
+        quote: 「操り人形が真の意味で物語の主役になることはない。ダウザール、お前はリーナから流れを取り上げて、誰に空を委ねるつもりだ？」
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0254_リーナ_other_レース_p8159
+        quote: リーナが加速する。クロウサーが生み出した血の終端が勝利に近づく。
+        locator: {}
+        spoiler_after: ch0254
+    symbolic:
+      observations:
+      - event_ref: E_ch0254_リーナ_other_英雄の卵_p8164
+        quote: だからこそマウザ・クロウサーの後継者でありながら体制に暴力で風穴を開けようとしたガルズの存在は衝撃的だったし、それを否定して穏健に改革を推し進めると宣言したリーナにはそれ以上の期待が寄せられていた。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_クロウサー家]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0254_クロウサー家_other_世論_p8160
+        quote: 祝祭に浮かれる人々の目に飛び込んできたそのニュースは、タイミングを見計らって拡散されたクロウサー家による渾身の呪文操作。
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_クロウサー家_other_大神院内部_p8163
+        quote: 機甲箒が央都上空を覆い尽くす。 『大掃除』と銘打たれたその暴挙は、しかし巷で騒がれているようなクーデターではなく大神院内部での自浄作用が働いた結果であると発表された。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_大神院]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0254_大神院_other_権力基盤_p8160
+        quote: 旧時代の槍神教を象徴するハグレスが劣勢に立たされている現状は、実世界における社会情勢の反映そのものである。すなわち、今の大神院が独占する権力基盤が揺らいでいる。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_フォルス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0254_フォルス_betrays_ハグレス_p8163
+        quote: 「馬鹿な、聖剣『切断処理』だと？！ フォルスまでもが裏切ったのか？！」
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_宮殿騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0254_宮殿騎士団_fights_ゾラの風使いたち_p8168
+        quote: 反逆者たちの討伐に動き出した宮殿騎士団は即座に態勢を立て直し、強襲してきたゾラの風使いたちを蹴散らしていく。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_巨人たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0254_巨人たち_other_全能域_p8168
+        quote: 老いた身体を若返らせ、己の全能域を拡張し、常識を改変しながら槍を振り回す。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_虹]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0254_虹_appears_as_聖なる弓_p8169
+        quote: 様々な文化圏で橋、竜蛇、あるいは弓などに喩えられるそれを、虹と呼ぶ。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_アルゾラ家]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0254_アルゾラ家_other_風聞展開_p8170
+        quote: 「アルゾラ家より本家へ。『風聞』の全部隊を展開してデマゴギーチェーンの連結工作を実行中。矛盾史ヴェールの全構築まであと６０秒。大業の準備、滞りなく完了しております」
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_サンブル家]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0254_サンブル家_other_央都包囲_p8170
+        quote: 「サンブル家も順調。私とダーリンの愛の浄界できっちり央都を包み込んだわ！」
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ディパーシュ家]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0254_ディパーシュ家_other_ハグレス依り代発見_p8170
+        quote: 「それからウチの若いコがハグレスの依り代を発見～お手柄！ たぶんアダス とかレナリア入りなんで、サクっと封印しちゃうってさ～。」
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_フリグ家]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0254_フリグ家_other_中原空路制圧_p8170
+        quote: 「こちらフリグ家、蹄隊より報告。中原空路の主要回廊を制圧完了。当主様によろしく」
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メートリアン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0254_メートリアン_other_状況_p8171
+        quote: 『なんなんですかもう！ あなたの前世がアルト王ってことが判明しただけでもいっぱいいっぱいなのに！ 盗賊王ゼドとか暗殺者レナリア、こいつらさっさと追い出せないんですか？！』
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0254_ユディーア_escapes_第六階層_p8171
+        quote: 「ニアちゃん、背後の警戒と迎撃おねがい！」 「にあ、まかされた！」 ちびニアを肩に乗せて走りつつ、
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ユディーア_other_記憶_p8171
+        quote: 指先から脳に伝播した『過去』を通して無数の言葉が巡る。 ユディーアが読み取った断片的な記憶はクロウサー家が大規模な動きを見せていることを示していた。
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ユディーア_fights_クロウサー家の精鋭_p8172
+        quote: 必死で抗う。『鉤爪』と『吐息』をフル活用して軽い体躯を引き裂き、大地に叩きつけ、炎で焼き焦がす。
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_ユディーア_other_逃走_p8174
+        quote: なんとしても、クロウサー家の追撃から逃げ切らねばならない。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_百目の男]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0254_百目の男_other_ユディーア_p8173
+        quote: 「血統もだが、内包している魂がかなり複雑だ。アダス、レナリア、そして恐らくは亜竜王アルト。ほぼ間違いなくあの娘は覚醒前の転生者だ。」
+        locator: {}
+        spoiler_after: ch0254
+      - event_ref: E_ch0254_百目の男_other_ミルーニャの切除_p8174
+        quote: 「ミルーニャ・アルタネイフ。汚らわしい血族の異物め。
+        locator: {}
+        spoiler_after: ch0254
+    action:
+      observations:
+      - event_ref: E_ch0254_百目の男_observes_ユディーア_p8173
+        quote: その瞳は無数。金を除くありとあらゆる色彩の眼球がびっしりと頭部で蠢き、ぎょろぎょろと蠢いて千里先を、あるいは目に見えぬ運命や未来を探り続けている。
+        locator: {}
+        spoiler_after: ch0254
+  first_appearance_candidate: true

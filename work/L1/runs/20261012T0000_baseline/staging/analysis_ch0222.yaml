@@ -1,0 +1,220 @@
+chapter: ch0222
+created: '2026-10-10'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0222_トランクケース_has_property_異常な軽さ_p7353]]'
+  object: '[[ME_MacGuffin]]'
+  claim: 中身が不明で物語を駆動させるだけの装置であるトランクケースは、ヒッチコックが提唱した『マクガフィン』の概念そのものである。
+  quote: いわゆる『純粋価値』ということもあり得るが、その場合は中身マクガフィン
+  paragraph: p7353
+  confidence: explicit
+  quotes:
+  - quote: いわゆる『純粋価値』ということもあり得るが、その場合は中身マクガフィン
+    paragraph: p7353
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0222_地下アイドル空間_is_located_旧白骨迷宮_p7362]]'
+  object: '[[ME_Idol_Otaku_Culture]]'
+  claim: 冥界という死後の世界を、青銅アイドルがパフォーマンスを行う『地下アイドル空間』として娯楽化・観光化する構造は、現代のオタク文化やテーマパーク化された宗教観のパロディである。
+  quote: 地下アイドル空間。きらめくステージ、歌と踊りが彩る華やかな死者たちの世界。
+  paragraph: p7362
+  confidence: strong
+  quotes:
+  - quote: 地下アイドル空間。きらめくステージ、歌と踊りが彩る華やかな死者たちの世界。
+    paragraph: p7362
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0222_ハデス_disappears_魂_p7381]]'
+  object: '[[ME_Greek_Mythology_Hades]]'
+  claim: 冥府の管理者を僭称する敵対勢力の首領が『ハデス』と名乗り、冥界を支配しようとする設定は、ギリシャ神話の冥界の王ハデスを直接的に引用している。
+  quote: このハデスこそが冥府システムの管理者、新たなる死の神だ！
+  paragraph: p7378
+  confidence: explicit
+  quotes:
+  - quote: このハデスこそが冥府システムの管理者、新たなる死の神だ！
+    paragraph: p7378
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0222_竜覚_other_カルカブリーナ_p7371]]'
+  object: '[[ME_Gun_Regulation_Tropes]]'
+  claim: 異世界において銃器が『英雄性を否定する無慈悲な暴力』として天罰（竜覚）の対象となるのは、一般的に銃が最強の武器として扱われるジャンルクリシェの逆転である。
+  quote: 英雄を否定する無慈悲な『杖』の暴力が牙を剥く。
+  paragraph: p7372
+  confidence: strong
+  quotes:
+  - quote: 英雄を否定する無慈悲な『杖』の暴力が牙を剥く。
+    paragraph: p7372
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0222_ガロアンディアン主街区_defines_機能別モジュール_p7354]]'
+  object: '[[ME_Urban_Planning_Zoning]]'
+  claim: 時間帯によって都市の機能や景観が変化する『移動式再演博物館』は、現実の都市計画におけるゾーニングやテーマパークの演出を、呪術的な技術で実現したものである。
+  quote: 空間で分割された性質の異なる都市機能群は、更に時間帯によっても変化するという特性を持っていた。
+  paragraph: p7354
+  confidence: moderate
+  quotes:
+  - quote: 空間で分割された性質の異なる都市機能群は、更に時間帯によっても変化するという特性を持っていた。
+    paragraph: p7354
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0222_精神加工_has_property_麻薬的な扱い_p7368]]'
+  object: '[[ME_Drug_Control_Laws]]'
+  claim: 精神支配（洗脳）が戦闘中に困難であり、麻薬のように規制・管理されているという記述は、現代の薬物規制法や倫理観を魔法体系に投影している。
+  quote: 現代における『精神加工』は麻薬のような扱いを受けている呪術だ。
+  paragraph: p7368
+  confidence: strong
+  quotes:
+  - quote: 現代における『精神加工』は麻薬のような扱いを受けている呪術だ。
+    paragraph: p7368
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Trunk_Contents
+  note: ユディーアに贈られた謎のトランクケースの中身。空っぽの可能性や、呪術的な意味、あるいは『純粋価値』など複数の仮説が提示されている。
+  quotes:
+  - quote: つまりは意図的に残されたユディーア宛の荷物と見るべきだった。贈り物。課題。あるいは呪い。
+    paragraph: p7353
+    quote_verified: true
+  - quote: 四桁の数字に見える呪文鍵』の構造がわからない。
+    paragraph: p7354
+    quote_verified: true
+  expected_payoff: 物語の重要な鍵となるアイテム、あるいはユディーアの能力覚醒・転生に関するヒントとして開封される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Suriyum_Identity
+  note: エストの師匠として登場した『スーリウム』。ユディーアにとって『知り合いに瓜二つ』であり、ユディーアが強い嫌悪感と恐怖を抱く存在。
+  quotes:
+  - quote: その姿が知り合いに瓜二つに見えて、ユディーアはぞっとした。
+    paragraph: p7380
+    quote_verified: true
+  - quote: 私の名はスーリウム。我が母アルラウネより『花のアヴロノ』としての称号を受け継いで以来、ティリビナ人の守護者たることを自らに任じている。
+    paragraph: p7388
+    quote_verified: true
+  expected_payoff: ユディーアの過去、あるいは彼女が忌避する『理想』や『支配』の象徴としての対立軸となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mareblanche_Vacancy
+  note: マレブランケの二人が敗北・洗脳されたことで生じた空席。これを巡る『シナモリアキラ選』の噂と、外部勢力による派閥形成の危険性。
+  quotes:
+  - quote: 『マレブランケ』の空席、四つの枠を巡る『シナモリアキラ選』なる噂は確かなものではないが、デマを現実に変えたい者にとっては利用すべき噂だ。
+    paragraph: p7383
+    quote_verified: true
+  expected_payoff: ガロアンディアンの政治的権力闘争の火種となり、ユディーアやロードデンドロンが巻き込まれる政治劇へ発展する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Riel_Relba_Mental_State
+  note: リールエルバが精神的に疲弊しており、外に出ることもままならない状態であるという情報。
+  quotes:
+  - quote: 姉様、疲れちゃって無理だった。まだ外に出るの、大変だから
+    paragraph: p7356
+    quote_verified: true
+  expected_payoff: リールエルバの精神崩壊、あるいは彼女が抱えるトラウマ（魔竜事件など）が物語の重要な転換点となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 歴史の観光化と虚構の権力
+  weight: 0.8
+  quotes:
+  - quote: 虚構や幻想は形を持つ。それが語られることで実際に過去に息づくようになるのであれば、それもまた歴史に等しい重みを持つ正しい過去だ。
+    paragraph: p7356
+    quote_verified: true
+  - quote: 歴史解釈のゆらぎ、主義主張の衝突は『表現の自由』の範囲内だ。
+    paragraph: p7356
+    quote_verified: true
+  note: ガロアンディアンの旧市街が『移動式再演博物館』として機能し、歴史が娯楽や観光資源として消費・操作されている様子が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生と死の境界の曖昧化と管理
+  weight: 0.7
+  quotes:
+  - quote: 足元に広がる実在する冥府である。
+    paragraph: p7362
+    quote_verified: true
+  - quote: 輪廻転生のシナモリアキラと冥府のラプンシエル。この二大神は生と死、魂の扱いを管理するガロアンディアンの霊的支柱だ。
+    paragraph: p7363
+    quote_verified: true
+  note: 冥界がアイドルステージとして機能し、魂の転生がシステム化・管理されている世界観。死が神聖さや恐怖を失い、都市機能の一部として組み込まれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 種族の連帯と『正しさ』の相対性
+  weight: 0.6
+  quotes:
+  - quote: 黒檀の民とティリビナ人の和解の象徴、これはすごい絵になるぞ
+    paragraph: p7382
+    quote_verified: true
+  - quote: 我々は夜を、戦を、死を否定する。お前のようなものは、我々の美しい未来に必要ない
+    paragraph: p7380
+    quote_verified: true
+  note: 敵対する種族（黒檀の民とティリビナ人）が共通の敵を通じて連帯し、互いの文化や歴史（祖霊信仰など）を尊重し合う姿。しかしそれは『美しい未来』という名の排他的な正しさの上に成り立っている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と倫理の境界線（精神支配と銃器）
+  weight: 0.5
+  quotes:
+  - quote: そのような技術が誰かの手に存在すれば人間社会は破壊されてしまう。
+    paragraph: p7368
+    quote_verified: true
+  - quote: 英雄を否定する無慈悲な『杖』の暴力が牙を剥く。
+    paragraph: p7372
+    quote_verified: true
+  note: 精神支配（洗脳）が麻薬のように規制され、銃器が英雄性を否定する禁じ手として天罰を受けるなど、技術の進歩と倫理的・宗教的なタブーとの緊張関係が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

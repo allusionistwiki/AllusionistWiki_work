@@ -1,0 +1,264 @@
+episode: ch0110
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0110_アキラ_activates_イェツィラー_p3855
+        quote: まだ俺はコルセスカと繋がっている。『イェツィラー』
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_アキラ_other_絶句_p3855
+        quote: 絶句。 あまりの事態に、俺もクレイも、役者として動いているグラも言葉を失っていた。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_アキラ_takes_グラの制御_p3855
+        quote: 咄嗟に俺はグラの制御を奪った。グラに演じられている俺という役がパーンという役に支配されることで、俺はグラの緩衝材となったのだ。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_アキラ_activates_サイバーカラテ道場_p3886
+        quote: 「これをやるのも、久しぶりだな――【サイバーカラテ道場Ｖｅｒ２．０】起動！ 当然【Ｅ－Ｅ】も常駐起動だ！」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_アキラ_appears_霊体_p3887
+        quote: 「初めましてだ、パーン・ガレニス・クロウサー」 俺は肉声で口を開く。目の前の中空に投げ出されている眼鏡をかけた男に向かって、威圧的な表情を作って宣言する。
+        locator: {}
+        spoiler_after: ch0110
+    speech:
+      observations:
+      - event_ref: E_ch0110_アキラ_thinks_クロウサー家_p3857
+        quote: パーン・ガレニス・クロウサーは過去の人物だ。その彼が当時からトライデントの使い魔だったということがあり得るのか？
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_アキラ_other_罪悪感_p3866
+        quote: だが――取り返しのつかない事をしてしまったという罪悪感が消えない。 棘となって心を苛むのは、恩人を裏切ったという意識だ。
+        locator: {}
+        spoiler_after: ch0110
+    name:
+      observations:
+      - event_ref: E_ch0110_アキラ_names_シナモリ・アキラ_p3887
+        quote: 「サイバーカラテ道場第五階層支部、師範代のシナモリ・アキラだ。唐突で悪いが――ここから先は、俺も参加させてもらう」
+        locator: {}
+        spoiler_after: ch0110
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グラッフィアカーネ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0110_グラッフィアカーネ_other_動揺_p3855
+        quote: 彼は自分の口が勝手に台詞を紡いでいるという事態に動揺して精神の均衡を失いかけていた。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_グラッフィアカーネ_other_吹き散らし_p3855
+        quote: 「目障りな。これは髪の毛か？」 眼鏡越しの威圧的な眼光と共に、その全てが吹き散らされた。
+        locator: {}
+        spoiler_after: ch0110
+    visual:
+      observations:
+      - event_ref: E_ch0110_グラッフィアカーネ_transforms_パーン_p3855
+        quote: グラのビークル犬の頭部が輪郭を失い、パーンのそれに取って代わられようとしている。
+        locator: {}
+        spoiler_after: ch0110
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0110_パーン_names_血脈_p3856
+        quote: 「【血脈】と、ダウザールの奴は呼んでいたが――まさか同系統の術を未来人が使うとは。今日は随分と驚かされる」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_reveals_過去干渉_p3858
+        quote: 現在俺たちが演じているパーン・ガレニス・クロウサーという男は『自分が演じられている』ということを過去の時点で察知して未来へ干渉しているらしい。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_asks_事情_p3861
+        quote: 「貴様ら未来人がどのような心算でこの俺に干渉してきたのか――まずはそれを話すがいい。要点を押さえて素早く説明しろ」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_says_法_p3861
+        quote: 「法とは弱者が身を守る為にある呪術であり、俺のような強者は自力救済によって身を守れるのだよ。よって法と罰の権能ではこの俺を掌握することはできん」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_promises_協力_p3862
+        quote: 「良かろう、貴様らの事情はおおむね理解した。協力してやろうではないか――その代わり、俺の要求を呑んで貰う」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_says_弱者_p3862
+        quote: 「――弱者というのは、常に度し難いな」 声の温度が氷点下まで低下して、藍色の瞳に一瞬だけ苛立ちが宿る。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_asks_転生_p3864
+        quote: 「俺はこれから転生の術を習得するつもりだ。未来で蘇った後、貴様らの力になってやっても良いだろう。その後で、俺がクロウサーを打倒し【空使い】となるのに協力するならば、という条件付きでな」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_other_決闘_p3865
+        quote: 「俺はその当主を殺さずに地位を簒奪する――正々堂々たる決闘によって。武力、知力、呪力の競い合いにて雌雄を決し、【空使い】に相応しいのがどちらなのかをはっきりとさせる。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_reveals_野望_p3871
+        quote: 「俺は世界中の強者に片っ端から挑んでいく事に決めた。特に俺を差し置いて王などと名乗っている気にくわない連中は全てその座から引きずり下ろす」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_says_山賊退治_p3871
+        quote: パーンは少女を一瞥し、素っ気なく答えた。「山賊退治だ」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_other_カーイン_p3873
+        quote: 「――お前はいつまでも変わらないのだな、カーインよ。大根役者ぶりに磨きがかかっているような気がするが――いずれにせよ滑稽だ。良い道化だよ本当に」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_asks_知識_p3884
+        quote: 「未来人、貴様ら少し知識を寄越せ。この時代には有り得ぬ力で奴を倒し、そして」
+        locator: {}
+        spoiler_after: ch0110
+    action:
+      observations:
+      - event_ref: E_ch0110_パーン_uses_融血呪_p3856
+        quote: 操り糸となった髪の毛、数千にも及ぶ青い融血呪が、一瞬で吹き散らされる。 パーンの詠唱によって生み出された、圧倒的な量の流体によって。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_learns_融血呪_p3857
+        quote: パーンの操る滝のような藍色の流体が、恐ろしい事に細く繊細な流れに枝分かれしていく。寒気のするような事実だが、この男は初見の呪術を摸倣して我がものにしようとしているのだ。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_kills_未来人_p3859
+        quote: 大気を穿孔して、不可視の腕が時空を駆け抜けていった。 余りにも呆気なく、偉大なる古代人を操作しようとした身の程知らずの命が弾けて散った。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_makes_建国_p3863
+        quote: たった一人、『我こそは王にして国土』であると規定し、建国を行った男。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_kills_山賊_p3874
+        quote: 肩いからせて、がに股で近付いてくるという威圧的な振る舞いと共に何かを言おうとした山賊の一人が、頭部から脳漿を撒き散らして即死した。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_attacks_巨人_p3878
+        quote: 「ちっ、出力不足――やはり【ガレニス】無しでは生命エネルギーの伝導が不充分かっ」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_uses_金箒花_p3879
+        quote: カーインが指を鳴らすと、どこからともなく金箒花が出現して、滑らかに形状を変化させていく。出所の不明な細く丈夫な枝を軸にして、金色の箒が完成する。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_パーン_travels_洞窟_p3880
+        quote: 「言理飛翔――標準加速」 金色の花が光の粒子を放出していき、凄まじい風が吹き荒れた。 パーンはその吹きすさぶ風に乗り、闇の中に突入していく。
+        locator: {}
+        spoiler_after: ch0110
+    name:
+      observations:
+      - event_ref: E_ch0110_パーン_names_空使い_p3863
+        quote: 彼は血族の長であることを示す【空使い】の称号を勝手に名乗り、当時のクロウサー家当主であったダウザールに追放されて各地を彷徨ったのだという。
+        locator: {}
+        spoiler_after: ch0110
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_血脈]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0110_血脈_has_property_藍色_p3856
+        quote: パーンの纏う【血脈】は明るい藍色なのだ。それはラクルラールの支配すら受け付けない無敵の護りとして機能していた。
+        locator: {}
+        spoiler_after: ch0110
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0110_ちびシューラ_says_情報共有_p3858
+        quote: 「ん――アキラくん、それちょっと保留で。とりあえず、この状況が終わったら、ひとまずリールエルバと――あとメートリアンあたりと情報共有しておきたい。ハルベルトとは別に、ね」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_ちびシューラ_says_経緯_p3862
+        quote: ちびシューラが俺たちを代表して今までの経緯を簡単に説明した。未来でグレンデルヒに敗北したこと。その状況を覆すために、古の時代に生きた六王の力を借りようとしていること。
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_ちびシューラ_other_裏切り_p3864
+        quote: 「断る。クロウサーはシューラのガロアンディアンにとって最も重要な同盟相手。失えばシューラたちは一緒に破滅する。たとえ勝利しても、その後が続かないのなら貴方の協力を得る意味は無くなる」
+        locator: {}
+        spoiler_after: ch0110
+    action:
+      observations:
+      - event_ref: E_ch0110_ちびシューラ_other_提案_p3866
+        quote: 案の定、ちびシューラはパーンの申し出を受け入れた。相手の大幅な譲歩を引き出したのだ、ここで手を打っておくしか無いというのはわかる。
+        locator: {}
+        spoiler_after: ch0110
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0110_クレイ_attacks_パーン_p3859
+        quote: 肉体言語魔術による不可視の斬撃が飛んでいき、パーンの首に直撃。 当然のように、傷一つ無い。
+        locator: {}
+        spoiler_after: ch0110
+    speech:
+      observations:
+      - event_ref: E_ch0110_クレイ_says_天則剣_p3860
+        quote: 「俺の天則剣は刑を執行する神罰の剣だ。野蛮な槍や棍のように、秩序無き暴力とは品格からして異なる。そこらの程度の低い呪術と一緒にしないでもらおう」
+        locator: {}
+        spoiler_after: ch0110
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_フェロニア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0110_フェロニア_appears_奴隷_p3868
+        quote: その中の一人、奴隷の少女フェロニアは両手を温めようと息を吐きかけた。 息の白さに僅かな愉しさを感じたが、そんなものは吹けば飛ぶような儚い慰めに過ぎなかった。
+        locator: {}
+        spoiler_after: ch0110
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0110_カーイン_gives_薔薇_p3869
+        quote: 見れば、鮮やかな大花香月季が一輪、彼女の目の前に差し出されている。「美しい女性に沈んだ表情は似合わない――君は笑うべきだ。この薔薇のように」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_カーイン_uses_薔薇_p3876
+        quote: カーインがぱちりと指を弾くと、音に呼応したかのように薔薇が散った。「醜く弱いのならば、せめて死に花だけは美しくしてあげよう」
+        locator: {}
+        spoiler_after: ch0110
+    speech:
+      observations:
+      - event_ref: E_ch0110_カーイン_says_目的_p3870
+        quote: 「そうだな。ミシャルヒは契約を結んでいるからだけれど、私に限って言えば単純な話――面白いからさ。パーンという男を見ていたいという、何と言うことの無い道楽といったところだね。それともう一つ目的はあるが、達成はかなり先の話になるだろう」
+        locator: {}
+        spoiler_after: ch0110
+      - event_ref: E_ch0110_カーイン_bonds_パーン_p3872
+        quote: 「流石は我が盟友にして生涯の宿敵。キミはどこまでも私を楽しませてくれるな、パーン。いいだろう、付き合おうじゃないか。それに私の知らないところで勝手に死なれては困る。頂に立ったパーン・ガレニス・クロウサーを倒し、私が最強を証明する。それが私の目的なのだから」
+        locator: {}
+        spoiler_after: ch0110
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミシャルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0110_ミシャルヒ_uses_夢幻泡影_p3876
+        quote: 「絶招・夢幻泡影」 無数の掌打が山賊たちの肌を透過して魂魄に直接打撃を与えていく。
+        locator: {}
+        spoiler_after: ch0110
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_巨人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0110_巨人_captures_フェロニア_p3878
+        quote: 巨大な幻肢はフェロニアを包み込んだまま地の底へと引き摺り込んでいく。
+        locator: {}
+        spoiler_after: ch0110
+  first_appearance_candidate: true

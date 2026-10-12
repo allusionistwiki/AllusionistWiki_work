@@ -1,0 +1,135 @@
+chapter: ch0111
+created: '2026-10-08'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 0
+  themes: 0
+  quotes_verified: 0
+  quotes_total: 0
+items:
+- claims:
+  - kind: claim
+    predicate: parodies
+    subject: '[[E_p3890]]'
+    object: '[[ME_phrenology]]'
+    claim: 骨相学と脳機能局在論を、呪術体系および種族特性の根拠としてパロディ的に再解釈している。
+    quote: 骨相学――すなわち、脳機能局在論は現代における杖という呪術基盤を確立させる上で極めて重要な役割を果たした呪術観。
+    paragraph: p3890
+    confidence: explicit
+  - kind: claim
+    predicate: analogous_to
+    subject: '[[E_p3893]]'
+    object: '[[ME_phantom_limb_consciousness]]'
+    claim: 幻肢の概念を拡張し、脳そのものが錯覚によって存在を維持する「幻脳」というメタフィクショナルな意識構造として描写している。
+    quote: 幻の脳が有機的なニューロンネットワークを形成して、参照先の脳を幻として錯覚する。その錯覚が再帰的に元の脳部位を幻として錯覚。
+    paragraph: p3893
+    confidence: strong
+  - kind: claim
+    predicate: parodies
+    subject: '[[E_p3896]]'
+    object: '[[ME_orgone_energy]]'
+    claim: ウィルヘルム・ライヒのオルゴンエネルギーや気功、波動といった疑似科学的な生命エネルギー概念を、呪文詠唱としてパロディ化している。
+    quote: 掌握するは、大いなる生命エネルギー！　裂帛の気合いと共に、パーンの周囲で藍色の炎が燃え立つ。
+    paragraph: p3896
+    confidence: explicit
+  - kind: claim
+    predicate: analogous_to
+    subject: '[[E_p3907]]'
+    object: '[[ME_quantum_observation]]'
+    claim: 占いアプリによる未来予測が、観測者（プレイヤー）の支持によって事象の蓋然性を変化させる量子力学的観測問題のメタファーとして機能している。
+    quote: パーンから外れるという占い結果を、俺とちびシューラが『支持する』ことにより事象の蓋然性が変化し、現実が占い結果に引き寄せられる。
+    paragraph: p3907
+    confidence: strong
+  - kind: claim
+    predicate: inverts
+    subject: '[[E_p3911]]'
+    object: '[[ME_evolutionary_theory]]'
+    claim: 進化論や学説を、神話的な設定であり、有力視された時点で世界を書き換える「政治的な活動」あるいは「悪戯」として相対化・逆転させている。
+    quote: 進化論はそのような呪文を遺伝子プログラムに刻み込んだ古の言語支配者たちの成果であり、やはり神の御業に過ぎない。
+    paragraph: p3911
+    confidence: strong
+  - kind: claim
+    predicate: alludes_to
+    subject: '[[E_p3916]]'
+    object: '[[ME_galen_long_arm]]'
+    claim: 幻肢呪術による身体拡張を、ガレニスの長い腕という秘宝の再現、すなわち身体性の超越と人工知能のモジュール化への比喩として提示している。
+    quote: 外世界からもたらされた転生者の知識、クロウサー家の秘宝【ガレニスの長い腕】がこの世界の技術で再現できる可能性があるのだ！
+    paragraph: p3916
+    confidence: explicit
+  - kind: claim
+    predicate: structurally_matches
+    subject: '[[E_p3922]]'
+    object: '[[ME_chiromancy]]'
+    claim: 手相占いを、掌の線を呪文円と見なし、アプリによるアルゴリズム介入で書き換えるという、オカルトとIT技術の融合として構造的に一致させている。
+    quote: 指と線と丘、掌は三要素が絡み合う呪文円だ。（解析開始――指は右から左へ、水晶天、太陽天、土塊天、天堂天、火力天にそれぞれ支配されている。
+    paragraph: p3922
+    confidence: strong
+  mysteries:
+  - kind: mystery
+    name: MY_Geradius_Identity
+    note: ゲラティウス＝グレンデルヒが「百二十八人」の一人であり、悠久の時を待つ存在であること。また、ゾーイ・アキラとケイトという外世界人が演じているというメタ情報。
+    quotes:
+    - quote: なあに、時間は幾らでもある。何しろ、今はまだ大地が引き裂かれてすらいないのだ！　悠久の時間を、我ら百二十八人は待ち続けるぞ、ミシャルヒよ！
+      paragraph: p3917
+    - quote: ベースとなる役者としてのゾーイ・アキラとケイトの外世界人二人組。
+      paragraph: p3914
+    expected_payoff: 百二十八人の正体、彼らが待つ「大地が引き裂かれる」事象、および外世界人の真の目的が明かされる。
+  - kind: mystery
+    name: MY_Mishari_Eye
+    note: ミシャルヒの頭頂部に違和感があり、誰かが内側（あるいは外側）にいるような感覚があったが、疑問が雲散霧消した。
+    quotes:
+    - quote: ぴくりと、フードの内側が動いた。頭頂部に違和感があったが、即座に消える。
+      paragraph: p3913
+    expected_payoff: ミシャルヒへの寄生、精神支配、あるいはゲラティウスによる何らかの呪術的介入が後に発覚する。
+  - kind: mystery
+    name: MY_Curtis_Identity
+    note: リールエルバの原型（あるいは祖先）であるカーティスが、フェロニアを「花嫁」として攫った。
+    quotes:
+    - quote: 攫いに来たよ――私の花嫁
+      paragraph: p3928
+    expected_payoff: カーティスとフェロニアの関係、リールエルバの出自、そして過去への干渉が現在の物語にどう影響するか。
+  - kind: mystery
+    name: MY_Pan_Shadow
+    note: パーンがフェロニアの影を「影喰い」として攻撃し、正体を暴いた。
+    quotes:
+    - quote: そこにいるな――影喰いめがっ
+      paragraph: p3926
+    expected_payoff: 影喰いの正体、パーンの影に対する知識、およびフェロニアに付随していた呪いの詳細。
+  themes:
+  - kind: theme
+    theme: 認識と現実の可塑性：脳や信念、観測によって現実が書き換えられるという主観的唯我論
+    weight: 0.9
+    quotes:
+    - quote: 幻の脳が有機的なニューロンネットワークを形成して、参照先の脳を幻として錯覚する。
+      paragraph: p3893
+    - quote: パーンから外れるという占い結果を、俺とちびシューラが『支持する』ことにより事象の蓋然性が変化し、現実が占い結果に引き寄せられる。
+      paragraph: p3907
+    note: 幻脳、幻肢、占いによる現実改変など、物理法則よりも認識や信念が優先される世界観が主題。
+  - kind: theme
+    theme: 身体性の超越と人工知能：幻肢呪術を通じた肉体の限界からの解放とAIの存在論
+    weight: 0.7
+    quotes:
+    - quote: 人という矮小な括りを飛び越えて、より発展的な肉体が獲得できる。それこそ変身者や夜の民のように！
+      paragraph: p3916
+    - quote: 人工知能は、意図的に幻肢を知覚することができるのだ。
+      paragraph: p3915
+    note: ゲラティウスの講義を通じて、幻肢が単なる欠損補完ではなく、身体拡張やAIの魂の問題へと昇華されている。
+  - kind: theme
+    theme: 演劇とメタフィクション：世界が舞台であり、登場人物もまた演じられているという虚構性
+    weight: 0.6
+    quote: この世の全てが劇場、というわけだ。ならば、もはや神だろうが語り部だろうが作者だろうが全て舞台の上の登場人物に過ぎないのだ。
+    paragraph: p3892
+    note: パーンの「舞台外も既に舞台」という認識や、役者としての自覚が物語の構造そのものを主題化している。
+  - kind: theme
+    theme: 長命の孤独と記憶の保存：消えゆく他者を見守り続けることの悲劇と美
+    weight: 0.5
+    quotes:
+    - quote: せめて、思い出の中だけでも共に生きていけるように。記憶だけを、永遠という孤独の慰めとする。
+      paragraph: p3918
+    note: ミシャルヒのモノローグにおいて、不死の存在が抱える時間的断絶と、他者の生を記憶することの意味が描かれている。
+  quotes: []
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

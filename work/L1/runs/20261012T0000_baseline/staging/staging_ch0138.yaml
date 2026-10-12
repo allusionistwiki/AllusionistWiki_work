@@ -1,0 +1,250 @@
+episode: ch0138
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0138_マラード_appears_as_美貌の王_p4703
+        quote: マラードの佇まいは単純に美しかった。彫像の容貌、細く長い指、白亜の肌。目と口元は妖しく、足を踏み出すだけで艶のようなものが醸し出される。
+        locator: {}
+        spoiler_after: ch0138
+    speech:
+      observations:
+      - event_ref: E_ch0138_マラード_says_国立競技場の自慢_p4703
+        quote: 「どうかな、我がラフディの国立競技場は」
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_マラード_confesses_死後の黄金時代への信念_p4705
+        quote: 愛しきセレス姫に導かれて【死人の森】に包まれたあの時代こそが黄金時代。そしてこれから、長き時を超えて絶頂期の続きが始まるだろう
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_マラード_reveals_木こりの地位向上_p4705
+        quote: かつてラフディの貧民たちは日銭を稼ぐ為に木こりとなり、職人たちにこき使われてきたものだが、俺の代でそれは改められた――正確には再生者となってからだがな
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_マラード_says_永続的な建造へのこだわり_p4705
+        quote: どうせなら、すぐに消える儚い『つくりもの』より、いつまでも形として残る『確かなもの』を築いてみようと思ってね。
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_マラード_threatens_宣戦布告_p4706
+        quote: 「そう――国の威信を懸けたこの伝統の一戦で、雌雄を決するのだ」
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_マラード_asks_国歌斉唱_p4708
+        quote: マラードが試合の前に国歌を歌うべきだと言い出したのだ。
+        locator: {}
+        spoiler_after: ch0138
+    action:
+      observations:
+      - event_ref: E_ch0138_マラード_makes_ラフディ式の握手_p4708
+        quote: マラードが右手で窪みを作って何かを掬うように前に差し出すと、トリシューラは逆に右手を覆い被せるようにして乗せた。二人の手が架空の球体を作り出す。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_マラードの衣服]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0138_マラードの衣服_functions_as_呪的な紋様_p4703
+        quote: 円形を基調とした華やかな刺繍は呪的な紋様としての力を発揮して王の全身を災いから守っている。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0138_ちびシューラ_observes_建築の異質さ_p4704
+        quote: 第五階層で常識とされているデジタル建築でも、古典的で物理的なアナログ建築でもない。その両方を高いレベルで融合させたのがラフディのやり方だった。
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_ちびシューラ_other_国歌の機能_p4709
+        quote: 国歌斉唱――使い魔間で呪力を高め合わせる呪文だね。歌詞によって王の権威を高めたり、集団の結束を強固にしたり、国土の領域を定義したりと色々できるけど
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_ちびシューラ_other_古代ルール_p4711
+        quote: 今回は古代ラフディのやり方に合わせるから、くれぐれも死なないでね
+        locator: {}
+        spoiler_after: ch0138
+    action:
+      observations:
+      - event_ref: E_ch0138_ちびシューラ_stops_アキラの演武_p4710
+        quote: （アキラくん、止めよう。こっちはそういうの無し。この流れ、相手の土俵に乗せられてる気がする。シューラね、なんとなく『青い糸』が見える気がするよ）
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ラフディの国立競技場]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0138_ラフディの国立競技場_is_made_of_複合的な建築技術_p4704
+        quote: この競技場、擂り鉢状の下半分は大地を操る土木建築系の呪術で造られたもので、上半分の開閉式天井なんかは第五階層の創造能力で造られたものなんだ。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0138_アキラ_thinks_戦力の同化吸収_p4706
+        quote: 問題はアルトが他勢力の殲滅じゃなくて制圧後の同化吸収を目論んでること。だからシューラたちも、今はガロアンディアンの理念である『共生』を目指す方針をとらざるをえない。
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_アキラ_thinks_ルバーブへの対抗心_p4711
+        quote: 正面からこの男と競い合える機会を、何処かで待ち望んでいた。
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_アキラ_says_発勁用意_p4726
+        quote: 「発勁用意！」
+        locator: {}
+        spoiler_after: ch0138
+    action:
+      observations:
+      - event_ref: E_ch0138_アキラ_arrives_競技場_p4707
+        quote: 控え室から出て競技場へと向かう。
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_アキラ_fights_ルバーブ_p4719
+        quote: 完全にパワー負けしていた。ルバーブが俺のスティックを押しのけてボールを狙い通りに弾く。
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_アキラ_uses_弾道予報_p4722
+        quote: 優先度の高い『監督シューラのオススメ選択肢』に従って全身が動き、俺はパスの軌道上にスティックの網を『置いた』。
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_アキラ_activates_サイバーカラテ道場_p4725
+        quote: 【サイバーカラテ道場】を通じて【マレブランケ】の四人もこの視界を共有している。ユーザー間で思考や動きを同期させて最速の連携を行う機能。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラフディチーム]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0138_ラフディチーム_other_儀礼的な儀式_p4709
+        quote: パイプだ。王から預かった筒状の喫煙具は濛々と煙を立ち上らせており、試合に臨む選手たちは一人ずつ順番にパイプを『回し飲み』していく。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルバーブ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0138_ルバーブ_says_挨拶_p4710
+        quote: たルバーブが、「よろしくお願いする」と言って目礼した。
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_ルバーブ_says_血の供物_p4724
+        quote: 「どうした。まだまだ球神への供物には足りんぞ。もっと血を流せ。もっと血を流させろ。贄たる我らが闘争によって魂を捧げてこそ球神はお喜びになる」
+        locator: {}
+        spoiler_after: ch0138
+    action:
+      observations:
+      - event_ref: E_ch0138_ルバーブ_attacks_アキラ_p4722
+        quote: ルバーブがスティックを槍、あるいは棍のように持って激しく突きかかる。狙いは肩、脇、首などいずれもプロテクターで防御されていない箇所である。
+        locator: {}
+        spoiler_after: ch0138
+      - event_ref: E_ch0138_ルバーブ_other_間接得点_p4724
+        quote: 弾けた棘のうちゴールに入ったのはたったの一本。にもかかわらず、こちらの被害は甚大だった。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_スティック]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0138_スティック_functions_as_武器_p4711
+        quote: 九人はそれぞれ先端に丸い網籠の付いた棒を持って試合に臨む。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ラフディーボール]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0138_ラフディーボール_defines_間接得点_p4712
+        quote: ボールをゴールに入れれば九点が入るが、ゴールの外側で地面に叩きつけて炸裂させても数点が入る可能性があるということだ。
+        locator: {}
+        spoiler_after: ch0138
+    symbolic:
+      observations:
+      - event_ref: E_ch0138_ラフディーボール_has_property_炸裂する棘_p4712
+        quote: 九つの棘は一種の呪的な手榴弾であり、地面に強く叩きつけると地脈と反応して炸裂し、周囲に棘を撒き散らす。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0138_カーイン_appears_余裕_p4713
+        quote: 振り返ると余裕に満ちた態度のカーインがいた。長身に軽鎧のようなプロテクターがよく嵌っている。
+        locator: {}
+        spoiler_after: ch0138
+    speech:
+      observations:
+      - event_ref: E_ch0138_カーイン_reveals_ラフディーボール経験_p4714
+        quote: 私も『お山』で修行の一環としてやらされたことがあってな。それなりに修羅場は潜ってきている
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0138_グレンデルヒ_threatens_ゼドとアルマ_p4715
+        quote: 「ここは戦士が競い合う栄光の殿堂だ、薄汚いこそ泥風情の居場所は無いぞ。そら、お帰りはあちらだ」
+        locator: {}
+        spoiler_after: ch0138
+    action:
+      observations:
+      - event_ref: E_ch0138_グレンデルヒ_makes_ロングパス_p4720
+        quote: 地面に激突して弾け飛ぶ寸前のボールをふわりと掬い上げると、そのままの勢いで投擲した。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0138_ゼド_says_傭兵としての協力_p4716
+        quote: 「――報酬の半分、確かにミアスカの口座に振り込まれていることを確認した。約束通り、傭兵として協力させてもらおう」
+        locator: {}
+        spoiler_after: ch0138
+    action:
+      observations:
+      - event_ref: E_ch0138_ゼド_other_九点_p4720
+        quote: ラフディの後衛の顔の真横を抜けてゴールの円に突き刺さったボールが、そのまま地面に突き刺さって大量の棘を撒き散らす。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルマ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0138_アルマ_attacks_グレンデルヒ_p4717
+        quote: グレンデルヒの顔面にグローブの裏拳が命中し、不遜な言葉が強制的に中断させられた。
+        locator: {}
+        spoiler_after: ch0138
+    speech:
+      observations:
+      - event_ref: E_ch0138_アルマ_reveals_サリアの不在_p4717
+        quote: 「んー、よくあるんだよね、黙ってどっか行っちゃうこと。多分、余計な情報を周りに知らせると未来がぶれちゃうからだと思うけど。
+        locator: {}
+        spoiler_after: ch0138
+  first_appearance_candidate: true

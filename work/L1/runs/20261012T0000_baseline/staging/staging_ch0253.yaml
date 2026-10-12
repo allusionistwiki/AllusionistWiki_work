@@ -1,0 +1,274 @@
+episode: ch0253
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0253_ハルベルト_thinks_機械女王の余裕なし_p8129
+        quote: 『今の機械女王には市民をコントロールする余裕がない』という不安が生まれているとハルベルトは分析していた。
+        locator: {}
+        spoiler_after: ch0253
+    action:
+      observations:
+      - event_ref: E_ch0253_ハルベルト_travels_大型輸送箒_p8130
+        quote: それを受けて即座に大型輸送箒で飛び立ったハルベルトたち。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_中継整備所]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0253_中継整備所_appears_as_騒然_p8129
+        quote: 中継整備所は騒然としていた。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_大型輸送箒]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0253_大型輸送箒_activates_戦闘用ドローン_p8129
+        quote: 緊急時に用いられるはずの大型輸送箒や戦闘用ドローンなどが一斉に稼働を開始したことから、異常事態が起きていることに疑いの余地はない。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_運営サイド]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0253_運営サイド_gives_予定通り受け入れ指示_p8129
+        quote: 『予定通り選手たちを万全な態勢で受け入れてね！』という普段通りのものだけ。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0253_アズーリア_thinks_状況把握困難_p8130
+        quote: 不測の事態を受けての予定変更やアドリブが多すぎたのだ。
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_アズーリア_observes_メイファーラ二人_p8133
+        quote: つやつやお肌のメイファーラと白骨死体のメイファーラを見比べて唸る。わからない。どっちもメイファーラにしか見えない。
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_アズーリア_fears_キュトスの魔女_p8134
+        quote: 『いい子にしてないと、キュトスの魔女がやってきて森の奥に攫われちゃうよ？』
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_アズーリア_thinks_メイファーラの不在_p8137
+        quote: アズーリアという存在はチョコレートリリーの語り直しによって蘇った。けれどその呪文にメイファーラは含まれていない。
+        locator: {}
+        spoiler_after: ch0253
+    visual:
+      observations:
+      - event_ref: E_ch0253_アズーリア_wears_金鎖_p8131
+        quote: 金鎖はいつでも砕けるように準備してある。
+        locator: {}
+        spoiler_after: ch0253
+    action:
+      observations:
+      - event_ref: E_ch0253_アズーリア_attacks_マロゾロンド_p8146
+        quote: 私は無言のまま影を斧にかえて、勢いよく振りかぶった。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エスト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0253_エスト_arrives_医療棟入口_p8130
+        quote: 負傷した黒檀の民マリナと一緒にいたエストは状況を把握しようと整備所に併設された医療棟の入口前で私と合流した
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ライラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0253_ライラ_appears_as_虹犬_p8130
+        quote: ライラ・ラプス。『槍の民』なる存在を統べるハグレス神に対しての共闘を持ち掛けてきた不死なる虹犬の超越者。
+        locator: {}
+        spoiler_after: ch0253
+    speech:
+      observations:
+      - event_ref: E_ch0253_ライラ_says_濡れ衣_p8131
+        quote: 「濡れ衣です。あの場面で私が彼女を襲撃する意味はありません」
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_ライラ_says_塔への軽蔑_p8143
+        quote: 本質などない。戦争。殺戮。暴力。実在するのはそれだけです」
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_ライラ_asks_邪神の心臓_p8148
+        quote: 「ライラ、邪神の心臓が欲しいなあ。ね、おじいさま。可愛い孫娘のおねがいです」
+        locator: {}
+        spoiler_after: ch0253
+    action:
+      observations:
+      - event_ref: E_ch0253_ライラ_activates_夢界コース_p8145
+        quote: ライラの術は、あらかじめガロアンディアンによって準備されていた『夢界コース』の制御を奪取し、その現出を前倒しにするというものだ。
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_ライラ_transforms_傘の魔女_p8148
+        quote: 中から現れたのは犬頭の貴婦人だ。冥府から帰還した、完全なる『傘の魔女』がそこにいた。
+        locator: {}
+        spoiler_after: ch0253
+    name:
+      observations:
+      - event_ref: E_ch0253_ライラ_names_ライラ・プラパーシュ・クロウサー_p8150
+        quote: 「ダウザール特務親衛隊『七つ風』筆頭、ライラ・プラパーシュ・クロウサー」
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メイファーラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0253_メイファーラ_appears_臨戦態勢_p8132
+        quote: 抜き身の短槍を構えて臨戦態勢をとっている。穏やかそうな垂れ気味の目は珍しくきりりとライラを睨み据えていた。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_骨メイファーラ]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0253_骨メイファーラ_appears_貴婦人_p8132
+        quote: 新たな闖入者は、豪奢なドレスを身に纏った貴婦人だった。だが襟と裾から覗いた素肌は生者のものではありえない。
+        locator: {}
+        spoiler_after: ch0253
+    speech:
+      observations:
+      - event_ref: E_ch0253_骨メイファーラ_says_召喚士への警告_p8134
+        quote: 「わきまえなさい、召喚士。豹変幻術で取り繕えるのは表層だけ。帰ってお前の主に伝えるといいわ。呪文の座と手を結びたいのなら、虚飾よりも虚構を用いるべきだと」
+        locator: {}
+        spoiler_after: ch0253
+    action:
+      observations:
+      - event_ref: E_ch0253_骨メイファーラ_gives_メイファーラの銀貨_p8136
+        quote: 骸骨貴婦人の姿をした『だれか』と私の間を、『メイファーラ』が飛んでいく。飛翔する私の友達は、銀貨の形をしているはずだ。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_肉メイファーラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0253_肉メイファーラ_says_本物宣言_p8133
+        quote: 「待って！　あたし、ちゃんと本物だよ！　合流が遅れたのは上からの命令で要人警護任務があったってだけだし、レース会場で後任に引き継いだ時に虹犬の工作員たちの情報を入手したの。それで急いで知らせなきゃってここまで来たんだよ。チョコレートリリーとしての思い出だってある。疑うならなんでも質問して！」
+        locator: {}
+        spoiler_after: ch0253
+    action:
+      observations:
+      - event_ref: E_ch0253_肉メイファーラ_disappears_緑色の鬼火_p8135
+        quote: こちらが何かを言う前に偽ファーラは緑色の鬼火じみた呪術光に包まれて姿を消してしまった
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレアノーズ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0253_クレアノーズ_says_ハグレスへの対策_p8138
+        quote: 「あの愚か者を封じるためには、あと一工夫して虚を突く必要がある」
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_クレアノーズ_says_ライラへの承認_p8142
+        quote: 「ライラ。既に本選は始まっている。お前が今回の守護者として立つなら私は承認しましょう。さあ、選びなさい？」
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_クレアノーズ_other_アズーリアへの指示_p8143
+        quote: 「アズーリア、次にハグレスが狙うのはリーナよ、守りなさい。ライラと協力してどうにか隙を作ってくれたら、あとは私がどうにかする」
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_クレアノーズ_other_エストへの指示_p8144
+        quote: 「アズーリアの目でも借りて見学してなさい、プリエステラ。お前はこれから、家と血の呪いを目の当たりにする。リーナの選ぶ道がいかなる形をしているのかを見届け、よく考えることね。自分にとっての家族の意味を」
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_クレアノーズ_names_使い魔の座_p8151
+        quote: 「これよりクロウサー、ディスケイム、リーヴァリオンによる使い魔の座トライデントの最終選定を始めます。
+        locator: {}
+        spoiler_after: ch0253
+    name:
+      observations:
+      - event_ref: E_ch0253_クレアノーズ_names_封印者_p8139
+        quote: 十一女であるクレアノーズは『妹』たちの取り纏め役だ。
+        locator: {}
+        spoiler_after: ch0253
+    action:
+      observations:
+      - event_ref: E_ch0253_クレアノーズ_fights_ルスクォミーズ_p8141
+        quote: 実はクレアノーズは反逆者ルスクォミーズが姉殺しの大罪を犯すよりも前に単身でルスクォミーズに挑んで返り討ちにされている。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルスクォミーズ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0253_ルスクォミーズ_kills_シャーネス_p8140
+        quote: 完全な女神に至らんとしたルスクォミーズは、七女である『七つの風の主』シャーネスを喰らい尽くした。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ディスケイム]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0253_ディスケイム_observes_盤面_p8146
+        quote: 『盤面』を眺めつつ、様子見の一手。その両手は一心不乱に土を掻き出し掘り進む。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マロゾロンド]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0253_マロゾロンド_appears_黒衣_p8146
+        quote: 「やあ、アズーリア。久しぶりだね」馬鹿みたいな饒舌さ。不自然を不自然と思わせない。さっきのメイファーラと同じだ。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーヴァリオン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0253_リーヴァリオン_defeats_カシューティス_p8147
+        quote: 今この時より、私こそがミェス・リヴァ。華麗なる紀人スーリウム・ミェス・リーヴァリオンだ」
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダウザール]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0253_ダウザール_fights_ハグレス_p8149
+        quote: 空の支配者は、虹を掴んで弓にしている。
+        locator: {}
+        spoiler_after: ch0253
+      - event_ref: E_ch0253_ダウザール_gives_ご褒美_p8149
+        quote: 「仕方ない子だ。そら、おじいちゃんがご褒美をあげよう」ダウザールは無造作に『手』を振るった。
+        locator: {}
+        spoiler_after: ch0253
+  first_appearance_candidate: true

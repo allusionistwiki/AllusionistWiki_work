@@ -1,0 +1,285 @@
+chapter: ch0042
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 7
+  themes: 4
+  quotes_verified: 23
+  quotes_total: 24
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0042_転移門_has_property_望みを捨てる文言_p1782]]'
+  object: '[[ME_Dante_Inferno]]'
+  claim: 転移門の文言はダンテ『神曲』地獄篇の門の銘文「汝らここに入る者、一切の希望を捨てよ」の直接的な引用（パロディ）であり、迷宮が地獄の入口であることを示唆している。
+  quote: 「『汝らこの門をくぐる者は一切の望みを捨てよ』――かぁ」
+  paragraph: p1782
+  confidence: explicit
+  quotes:
+  - quote: 「『汝らこの門をくぐる者は一切の望みを捨てよ』――かぁ」
+    paragraph: p1782
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0042_アズーリア_activates_金鎖システム_p1794]]'
+  object: '[[ME_Auto_Response_System]]'
+  claim: 呪動装甲からの通報が本部ではなく、寄生異獣（フラベウファ）の自動返信システムに接続される構造は、現代のチャットボットやAI客服の自動応答システムを模倣したSF的ガジェットである。
+  quote: 金鎖システムから自動返信しますが、そんな変態主人は即刻逮捕して首輪をつけるべきですね。
+  paragraph: p1794
+  confidence: strong
+  quotes:
+  - quote: 金鎖システムから自動返信しますが、そんな変態主人は即刻逮捕して首輪をつけるべきですね。
+    paragraph: p1794
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0042_ソルダ_uses_アリュージョン_p1806]]'
+  object: '[[ME_Metaphor_Mechanic]]'
+  claim: 「引喩系神働術」という能力名は、作品タイトル『幻想再帰のアリュージョニスト』の核心概念であり、物語の構造そのものが「比喩（アリュージョン）による現実の書き換え」であることを示している。
+  quote: 初代松明の騎士である大フォグラントの存在を参照し、その威光を纏って戦う引喩系神働術――たった３００秒ですが、彼はその間だけ真の英雄となる。
+  paragraph: p1806
+  confidence: explicit
+  quotes:
+  - quote: 初代松明の騎士である大フォグラントの存在を参照し、その威光を纏って戦う引喩系神働術――たった３００秒ですが、彼はその間だけ真の英雄となる。
+    paragraph: p1806
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0042_ソルダ_other_竜神信教信徒_p1809]]'
+  object: '[[ME_Colonial_Administration]]'
+  claim: ソルダによる「人から異獣へのラベル付け」は、植民地支配における「文明人/野蛮人」の二分法や、行政による住民の強制移住・追放を彷彿とさせる暴力装置として機能している。
+  quote: 松明の騎士の名に於いて宣言する。君たちは今この瞬間から人ではなく異獣となった。
+  paragraph: p1809
+  confidence: moderate
+  quotes:
+  - quote: 松明の騎士の名に於いて宣言する。君たちは今この瞬間から人ではなく異獣となった。
+    paragraph: p1809
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0042_ソルダ_confesses_冬の魔女コルセスカ_p1813]]'
+  object: '[[ME_Fairy_Tale_Romance]]'
+  claim: ソルダとコルセスカの物語は、グリム童話や北欧神話に見られる「凍結された愛」や「運命の再会」をモチーフとしたおとぎ話の構造を模している。
+  quote: 火竜メルトバーズを地獄の奥底に氷漬けにして封印した二人の英雄譚。そして、悲恋の物語でもある。
+  paragraph: p1813
+  confidence: strong
+  quotes:
+  - quote: 火竜メルトバーズを地獄の奥底に氷漬けにして封印した二人の英雄譚。そして、悲恋の物語でもある。
+    paragraph: p1813
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0042_アズーリア_thinks_記憶の空白_p1815]]'
+  object: '[[ME_Data_Corruption]]'
+  claim: 記憶の空白が「呪文の羅列」による捏造であるという描写は、デジタルデータにおける改ざんや、脳への書き込みによる記憶操作（マインドコントロール）を連想させる。
+  quote: 私の脳に、心に、アストラル体に書き込まれた呪文の羅列。極めて複雑で高度な記憶の捏造と認識の操作。
+  paragraph: p1815
+  confidence: strong
+  quotes:
+  - quote: 私の脳に、心に、アストラル体に書き込まれた呪文の羅列。極めて複雑で高度な記憶の捏造と認識の操作。
+    paragraph: p1815
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0042_大機竜オルガンローデ_is_made_of_少年の命_p1802]]'
+  object: '[[ME_Human_Cannon]]'
+  claim: 少年の命を捧げて機械竜を起動させる儀式は、第二次世界大戦における人間魚雷「回天」や、特攻兵器の運用を想起させる自己犠牲のメタファーである。
+  quote: 一人の少年の命を捧げることによって。
+  paragraph: p1802
+  confidence: moderate
+  quotes:
+  - quote: 一人の少年の命を捧げることによって。
+    paragraph: p1802
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_ch0042_アルスタ_teaches_復讐と愛_p1792]]'
+  object: '[[ME_Nietzsche_Will_to_Power]]'
+  claim: 復讐を「愛の証明」と定義し、怒りをエネルギー源とするアルスタの思想は、ニーチェ的な「力への意志」や、価値の転換（復讐の肯定）を想起させる。
+  quote: 復讐心はね、愛の証明なんだ
+  paragraph: p1792
+  confidence: weak
+  quotes:
+  - quote: 復讐心はね、愛の証明なんだ
+    paragraph: p1792
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_転移門の文言の正体
+  note: 「幻の参照先」とされるダンテの引用が、後に世界槍の構造や地獄の性質を解明する鍵となる可能性。
+  quotes:
+  - quote: 何かの引用だと聞くが、何の引用なのかは誰も知らないのだという。もしかしたら、この世界には存在しない幻の参照先なのかもしれない。
+    paragraph: p1782
+    quote_verified: true
+  expected_payoff: 世界槍が「地獄」の模倣であり、その設計思想がダンテの地獄篇にあることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_左手の三つの環
+  note: アズーリアの左手にある金鎖の「三回きりの切り札」。既に2回使用済み（p1802, p1807）であり、残り1回が物語のクライマックスで使われる。
+  quotes:
+  - quote: 手首に埋め込まれた金色の鎖を意識する。三つの環。三回きりの切り札。使い切ってしまえば後が無い。
+    paragraph: p1784
+    quote_verified: true
+  expected_payoff: 最後の1回が、フィリスの完全解放、あるいはアズーリアの存在の消滅/変貌を招くトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アルスタの正体とソルダの二重性
+  note: アルスタがソルダ・アーニスタ（総団長）であることが明かされたが、なぜ「最弱」と呼ばれ、なぜ「アルスタ」という偽名で探索者として活動しているのか。
+  quotes:
+  - quote: 我が名はソルダ＝ルセス・アルスタ＝アーニスタ！ 闇を照らし、希望を掲げる【松明の騎士】！！
+    paragraph: p1805
+    quote_verified: true
+  - quote: 巷では『最弱の聖騎士』などと呼ばれているとか
+    paragraph: p1805
+    quote_verified: true
+  expected_payoff: ソルダが「最弱」である理由（アリュージョンの代償、フィリスとの関係性）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_フィリスの少年の正体
+  note: アズーリアの意識の闇に現れた「白い獣耳を持つ少年」。フィリスの擬人化か、フィリスの宿主（過去の誰か）か。
+  quotes:
+  - quote: それは少年。フラベウファのような三角の耳は白く、その美貌は輝かんばかり。
+    paragraph: p1816
+    quote_verified: true
+  expected_payoff: フィリスが「第二魔将変異獣モルゾワーネス」の再現であり、その原型がソルダやコルセスカと深く関わる存在であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_記憶の空白と呪文の羅列
+  note: アズーリアがフィリスを宿す前の記憶が「呪文の羅列」で捏造されている事実。誰が、なぜ、何を隠すために捏造したのか。
+  quotes:
+  - quote: 私の脳に、心に、アストラル体に書き込まれた呪文の羅列。極めて複雑で高度な記憶の捏造と認識の操作。
+    paragraph: p1815
+    quote_verified: true
+  expected_payoff: アズーリアが「転生者」であること、またはフィリスの宿主としての過去（妹ビーチェとの関係）が隠蔽されていることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_大機竜内部の少年（ダイロくん）
+  note: 大機竜の動力源として捧げられた少年「ダイロくん」と、彼を愛する少女「クィ」。彼らは竜神信教の信徒として地獄へ送られた。
+  quotes:
+  - quote: 「無茶だよ、行かないで」「駄目だ、今度こそ見つかった。あいつらは俺達をけっして見逃さない」
+    paragraph: p1802
+    quote_verified: true
+  expected_payoff: 地獄篇でダイロくんが重要な役割（セレクティフィレクティとの接触など）を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ソルダの首筋の噛み痕
+  note: ソルダの首筋にある「孔はないが痕跡がある」噛み痕。フィリス（少年）との関係を示唆する。
+  quotes:
+  - quote: まるで噛み痕のように淡く光る、首筋の二つの点。
+    paragraph: p1808
+    quote_verified: true
+  expected_payoff: ソルダがフィリスの「最初の宿主」であり、フィリスとの契約（噛み痕）が彼の力の源であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 復讐は愛の裏返しであり、愛なくして復讐は成立しない。
+  weight: 0.9
+  quotes:
+  - quote: 復讐心はね、愛の証明なんだ
+    paragraph: p1792
+    quote_verified: true
+  - quote: 愛する気持ちを抱いて復讐を遂げること。自分自身が大切なものを想うその唯一無二の気持ちの為に怒りと憎しみを仇にぶつけるんだ。
+    paragraph: p1792
+    quote_verified: true
+  note: アズーリアとソルダの対話を通じて、物語の原動力である「復讐」の倫理的基盤が提示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶と認識は外部から操作・捏造されうる虚構である。
+  weight: 0.8
+  quotes:
+  - quote: 極めて複雑で高度な記憶の捏造と認識の操作。
+    paragraph: p1815
+    quote_verified: true
+  - quote: 確かだったはずの記憶が、揺らいでいく。
+    paragraph: p1815
+    quote_verified: true
+  note: アズーリアの記憶の空白とフィリスの介入により、主人公の主体性が揺らぐメタフィクショナルな主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄とは「引喩（アリュージョン）」によって一時的に構成される虚構の存在である。
+  weight: 0.7
+  quotes:
+  - quote: 初代松明の騎士である大フォグラントの存在を参照し、その威光を纏って戦う引喩系神働術
+    paragraph: p1806
+    quote_verified: true
+  - quote: 空想の勇士を現代に甦らせる聖なる祭祀
+    paragraph: p1806
+    quote_verified: true
+  note: ソルダの能力「アリュージョン」が、英雄譚そのものが「参照」によって成立する虚構であることを示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 地上の秩序は「箱庭の楽園」であり、自由は残酷な真実の中にのみ存在する。
+  weight: 0.6
+  quotes:
+  - quote: この地上に自由は無い。あるのはかりそめの自由。箱庭の楽園。
+    paragraph: p1817
+    quote_verified: true
+  - quote: 最も自由で残酷な、世界の真ん中で会おう。
+    paragraph: p1817
+    quote_verified: true
+  note: フィリス（少年）の言葉により、地上の平和が管理された虚構であることが示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

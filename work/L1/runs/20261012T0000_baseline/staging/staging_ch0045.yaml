@@ -1,0 +1,224 @@
+episode: ch0045
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0045_アズーリア_other_不安_p1860
+        quote: もう手は繋いでいない。理由のわからない恐慌状態からは抜け出せたみたいで安心したけれど、それでも私は不安なままだった。
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_アズーリア_thinks_誰も死なないこと_p1863
+        quote: 誰も死ななければいい。人が死ぬことは、とても悲しくてつらいことだから。
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_アズーリア_fears_ガルズの金眼_p1869
+        quote: 私を殺す、まなざしであるような。聖女の死の宣告。私は死ぬ。定められた未来の回想。
+        locator: {}
+        spoiler_after: ch0045
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_エルネ＝クローザンドの空の民]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0045_エルネ＝クローザンドの空の民_has_property_浮遊_p1860
+        quote: 常時わずかに浮遊している彼ら彼女らは足音を立てるということがない。
+        locator: {}
+        spoiler_after: ch0045
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第一区]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0045_第一区_has_property_安全快適_p1860
+        quote: 雲海に突き刺さった巨大な樹状区画は透明な強化硝子と幾重にも張り巡らされた呪術障壁によって外部の過酷な環境から守られている。
+        locator: {}
+        spoiler_after: ch0045
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0045_ハルベルト_says_メイファーラの生存_p1861
+        quote: 「メイファーラはそう簡単には死なない。心配するだけ無駄」
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_ハルベルト_says_ヴァニタス_p1866
+        quote: 「ヴァニタス――」
+        locator: {}
+        spoiler_after: ch0045
+    action:
+      observations:
+      - event_ref: E_ch0045_ハルベルト_activates_呪文_p1870
+        quote: 密やかに行われていたハルベルトの詠唱が完成し、男と少女の周囲を発光する文字列が取り囲む。
+        locator: {}
+        spoiler_after: ch0045
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メイファーラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0045_メイファーラ_has_property_過去視_p1861
+        quote: 過去視というのは記憶に深く関係している能力だ。そもそも、消去した直後に過去視が発動したら即座に記憶が甦ってしまうのでは？
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_メイファーラ_other_予備候補_p1861
+        quote: 「メイファーラ・リトも予備候補だった。途中で脱落して末妹の選定に関わる詳細な記憶は消去されたはずだけど、星見の塔との関わりそのものは消えていなくて、たまにああして協力してもらってる。」
+        locator: {}
+        spoiler_after: ch0045
+    visual:
+      observations:
+      - event_ref: E_ch0045_メイファーラ_appears_噴雲広場_p1862
+        quote: 見ると、雲霞を吹き出す噴雲広場で脳天気そうな少女が手を振っていた。長い髪が頭部の側面で揺れる。瑪瑙の髪留めが特徴的なメイファーラ。
+        locator: {}
+        spoiler_after: ch0045
+    action:
+      observations:
+      - event_ref: E_ch0045_メイファーラ_uses_天眼_p1865
+        quote: メイファーラの天眼は多機能だ。過去視と千里眼の組み合わせで、捜し物や捜し人などが簡単にこなせてしまう。
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_メイファーラ_attacks_ガルズ_p1869
+        quote: メイファーラは無表情のまま三つに折り畳んだ短槍を伸ばして固定し、そのまま一切の躊躇無く男に刺突を繰り出した。
+        locator: {}
+        spoiler_after: ch0045
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0045_ミルーニャ_is_located_第一区_p1862
+        quote: 「メートリアンの所は主に通信販売だから、直接お客が来る必要が無いの。ペリグランティア製薬の支社があるのも一区だし、こちらの方が何かと動きやすいはず」
+        locator: {}
+        spoiler_after: ch0045
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_マリー]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0045_マリー_appears_アズーリア_p1863
+        quote: どんよりとした虚ろな目。慢性的な不眠にでも悩まされているかのような隈が出来ている眼窩。そして顔色は蒼白。荒れ放題の長い髪はとても不健康。
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_マリー_appears_as_絵画のモデル_p1867
+        quote: その中に混じって、唯一生者を描いた人物画があった。頭蓋骨を持った少女。柔らかに微笑む幼い美貌。
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_マリー_uses_骨の花_p1874
+        quote: 放射状に伸びる鋭角の花弁。白くおぞましく咲き誇る骨の花。中央には金色の眼球。
+        locator: {}
+        spoiler_after: ch0045
+    speech:
+      observations:
+      - event_ref: E_ch0045_マリー_says_存在の謝罪_p1864
+        quote: 「なんか、すみません。ぶつかってしまってすみません。生まれてきてすみません。私が存在したのがそもそもの間違いでした」
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_マリー_asks_絵の購入_p1868
+        quote: 「あのう、ここにある絵、少しでも気に入ったものがあったら買っていただけないでしょうか。そんなに高いものではないのです」
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_マリー_names_左目_p1874
+        quote: 「私は『左目』のマリー。力作を何度も壊されて傷付きました。つらいのであなたたちを殺して私も死にます」
+        locator: {}
+        spoiler_after: ch0045
+    action:
+      observations:
+      - event_ref: E_ch0045_マリー_other_ガルズ_p1873
+        quote: しかし、目の前に立ちはだかったマリーがそれを妨げた。長い黒髪を振り乱しながら驚くべき速度で間合いを詰めると、どこからともなく取り出した槌で私の攻撃を止めたのだ。
+        locator: {}
+        spoiler_after: ch0045
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガルズ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0045_ガルズ_makes_死の風景画_p1865
+        quote: 描き出されていたのは、写実的なものではなく、非現実の風景画。死んだ街だ。道行く人々は服を着た白骨か、至る所から中身をこぼしていく腐乱死体。
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_ガルズ_uses_ペンタブレット_p1866
+        quote: 男の座る丸椅子の下に、接触感応式の描画用端末が見えた。
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_ガルズ_makes_動く死体画_p1867
+        quote: 動く死体。腐乱した身体で乾杯し、頭蓋骨の隙間から果実酒をこぼしていく。
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_ガルズ_has_property_邪視_p1870
+        quote: 輝かんばかりに美しい金眼の中央で、黒目があらゆる光を飲み込もうとして口を開いている。邪視。
+        locator: {}
+        spoiler_after: ch0045
+    speech:
+      observations:
+      - event_ref: E_ch0045_ガルズ_says_朽ちていくこと_p1868
+        quote: 「僕は静かに絵を描きながら飢えて朽ちていく。それが自然でありあるがままの人の在り方だ」
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_ガルズ_promises_一緒に死ぬこと_p1869
+        quote: 「君には苦労をかけて申し訳無いと思っているよ、マリー。だから一緒に死のう」
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_ガルズ_names_右目_p1871
+        quote: 「使い魔のグロソラリア――いや、こう言うべきかな。僕はトライデントの細胞が一人。与えられた器官名は『右目』。まことの名はガルズ・マウザ・クロウサー。」
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_ガルズ_threatens_十三人の殺害_p1872
+        quote: 「これから十三日後――１，１２３，２００秒後に大規模な葬送式典が行われるね。僕はそれまでに十三人を殺す。」
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_ガルズ_says_アズーリアとの同一性_p1873
+        quote: 「同じだよ。君は屍の上に立つ影喰いじゃないか。死の匂いがこびりついているよ。臭い臭い、僕とおんなじ人でなしだ」
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_ガルズ_is_located_浄界の支配者_p1876
+        quote: 今のガルズは、この空間の掌握者だ。第五階層の奧で待ち構えていたエスフェイルと同格かそれ以上の敵だと言っても過言ではない。
+        locator: {}
+        spoiler_after: ch0045
+    action:
+      observations:
+      - event_ref: E_ch0045_ガルズ_activates_浄界_p1875
+        quote: 「【浄界】――ヴァニタス・ヴァニタートゥム」直後、世界が一変した。
+        locator: {}
+        spoiler_after: ch0045
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_浄界]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0045_浄界_has_property_死者の支配_p1875
+        quote: 生者は死者となり、美しい街並みは朽ち果てていく。色褪せた世界から音が消え、太陽が月に喰われて歪な光が辺りに満ちる。
+        locator: {}
+        spoiler_after: ch0045
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0045_リーナ_appears_浄界_p1877
+        quote: 「晴れろ暗雲！　空よ、そのあるべき姿を取り戻せ！」澄んだ空のような、清澄な声だった。
+        locator: {}
+        spoiler_after: ch0045
+    speech:
+      observations:
+      - event_ref: E_ch0045_リーナ_names_リーナ・ゾラ・クロウサー_p1878
+        quote: 「リーナ・ゾラ・クロウサー。だよね、確か」
+        locator: {}
+        spoiler_after: ch0045
+      - event_ref: E_ch0045_リーナ_asks_アズーリアとの関係_p1879
+        quote: 「あーっ！　わかった、先輩が昨日からめっちゃ惚気てたアズーリアって人だ！　えっえっマジで責任とって結婚するのそれとも年下なのに養子にするの？」
+        locator: {}
+        spoiler_after: ch0045
+  first_appearance_candidate: true

@@ -1,0 +1,388 @@
+episode: ch0069
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_シナモリ・アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0069_シナモリ・アキラ_says_両方の要素をぶち込む_p2557
+        quote: 個人的な好みで言わせてもらえば――悩むくらいなら両方の要素をぶち込んでしまえばいい。収拾がつかないとか辻褄とかバランスとかは気にしないで、滅茶苦茶なくらいが一番面白いと、俺は思う
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_語り手]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0069_語り手_defines_信仰_p2557
+        quote: そうあるのだと、幻想を抱きたいという、願い。ある人はそれを信仰と呼んだ。別の人はそれを価値観と規定した。世界観、と言った人もいた。言葉は一つ一つ違うけれど、それらの記号が参照している現実はひとつ。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_カタルマリーナ派]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0069_カタルマリーナ派_makes_異獣憑き_p2558
+        quote: 智神の盾――槍神教内部に公然と入り込んだカタルマリーナ派が完成させた異獣憑き。異獣をまつろわせる宣教聖騎士。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラーゼフ・ピュクシス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0069_ラーゼフ・ピュクシス_says_フィリスに負けない_p2558
+        quote: 『あなたもジルも、そしてみんなも。もうフィリスに負けるほど弱くない。呪文の力を掌握して、自在に操る一人前の魔女なんだから。力を合わせればフィリスに負ける事なんてない。もちろん、マロゾロンドにだって』
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ラーゼフ・ピュクシス_says_フィリスの浸食_p2558
+        quote: 『このままフィリスを使い続ければ、浸食されるのは君だけに留まらないだろう』
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_紀元槍]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0069_紀元槍_functions_as_自己参照の再帰的幻想_p2558
+        quote: 世界それ自体を――紀元槍を浸食する紀元槍の端末。自己を参照し続ける再帰的な幻想。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_言語魔術師たち]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0069_言語魔術師たち_says_呪文_p2558
+        quote: 物語素体を参照して改変されていく現実も存在する。それが呪文だと、言語魔術師たちは誇らしげに語る。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_黒百合の子供たち]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0069_黒百合の子供たち_has_property_フィリスによる浸食_p2558
+        quote: フィリスの封印は黒百合の子供たち全員で行っているもの。黒百合の子供たちもまた、フィリスによって浸食されている。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_セルフ・リファレンス・エンジン]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0069_セルフ・リファレンス・エンジン_defines_意味の呪力変換_p2559
+        quote: 意味を呪力に変換して、心をモジュールとして扱う単位。零落した神秘を大量消費し、神聖なる俗情を崇拝する。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0069_ハルベルト_says_釣り合い_p2559
+        quote: 「釣り合い。何それ」 長い昏睡から目を覚ました私にそう言って、ハルベルトはフードを脱いだ気を抜いた姿で軽く寝台に腰掛けた。
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_says_信仰_p2560
+        quote: 「交換可能性に人は耐えられない。けど、唯一絶対なる信仰対象――規範、道徳、正義、信念、価値観、世界観、そういったもの以外の全ては大体交換可能なもの。だから、壊れそうになったら自分を支える枠組みを確認するの。それを信仰と呼ぶのだと、ハルは思う」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_says_釣り合う相手は存在しない_p2560
+        quote: 「根本的って」「そもそもハルと釣り合う相手なんて存在しない」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_says_重力_p2561
+        quote: 「愛は惜しみなく与えるもの。恋は鷹揚に貢がせるもの。そもそもハルと釣り合う相手がいないのだから、アズが下らないことを気にする必要はないの」「幾ら何でもちょっとそれは」「重力と同じ。質量の大きい方に引き寄せられていればいい。上から下へ落ちていけばいい。月のようにずっと同じ軌道を回っていればいい」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_says_契約_p2562
+        quote: 「――うう」「屈して、預けて、委ねて。全部」「こ、これどういう状況なの？！」「ん？ 正式な契約を結ぶだけ」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_says_舌の象徴性_p2563
+        quote: 「舌っていうのは調音器官の一つで、それでいてあなたの象徴である触手のアナロジーでもあるから。ハルたちの繋がりを強固にするのに最適な部位」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_asks_アズーリア_p2564
+        quote: 「じゃあ、次はアズがして」「はい？」 そう言ってハルベルトは目を瞑る。そして、私の目の前で口を開いた。「何？」「――だから、同じ事をアズもハルにするの」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_says_見せちゃ駄目_p2566
+        quote: 「ハルも、これは誰にも見せちゃ駄目だからね」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_asks_詞_p2567
+        quote: 「ライブの予定に無い新曲を最後にねじ込む。そしてそれは呪文の座であるハルが行う真の呪術儀式でもある」
+        locator: {}
+        spoiler_after: ch0069
+    action:
+      observations:
+      - event_ref: E_ch0069_ハルベルト_wounds_アズーリア_p2561
+        quote: 頬を張られた。あまり痛くはなかったけれど、すごくいい音がした。
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_takes_アズーリアの舌_p2563
+        quote: 不意打ちだった。口の中に手を突っ込まれる。なんか、舌を摘まれた。
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_makes_呪文_p2564
+        quote: 喉に近い奥の方。何らかの呪文を刻まれているみたいだけれど、それが何かは私には教えない、ということだった。秘密、神秘こそが呪文の力を強くする。
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ハルベルト_uses_生命吸収_p2564
+        quote: 唾液が溜まる度にハルベルトが極微レベルにまで弱めた【生命吸収】で吸い出してくれたけど、あの大量の唾液はどこに消えたのだろう。不思議だ。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0069_アズーリア_remembers_過去の発言_p2560
+        quote: 『だいたい、私は最初から貴方に釣り合わない。こんな化け物――こんな、知能が無い――脳すら存在しない下等な生き物、貴方の使い魔に相応しくない』
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_アズーリア_says_ビーチェ_p2561
+        quote: 「唯一絶対――えっと、ビーチェのことかな」
+        locator: {}
+        spoiler_after: ch0069
+    action:
+      observations:
+      - event_ref: E_ch0069_アズーリア_makes_呪文_p2565
+        quote: 指で真っ赤な舌を撫でて、なぞって、文字を描いて。彼女が知らない、私からの呪文を刻み込む。
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_アズーリア_uses_触手_p2565
+        quote: 溜まった唾液はこっそりと伸ばした触手で吸っていく――ばれないよね？
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マリー]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0069_マリー_has_property_哲学的ゾンビ_p2560
+        quote: 哲学的ゾンビって何だろう、と思う。クオリア――感覚質、つまり感覚を司るアストラル体が死んでいるのに、生身のマテリアル体は生きている状態だから、ゾンビ。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_タマちゃん先生]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0069_タマちゃん先生_appears_白黒兎_p2567
+        quote: 出し抜けにどこからか白黒兎がやってきた。「あ、クリアせんせーだ」「タマちゃん先生、どうしたんですか」
+        locator: {}
+        spoiler_after: ch0069
+    speech:
+      observations:
+      - event_ref: E_ch0069_タマちゃん先生_says_作詞のコツ_p2568
+        quote: 「作詞のコツをアドバイスできると思いますわ。肝要なのはクルクル回って優雅にターン！」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_タマちゃん先生_says_絆_p2568
+        quote: 「ワタクシたち、いつか出会った際にはきっと固い絆で結ばれるとかねてより予感しておりましたの」
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ベル・ペリグランティア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0069_ベル・ペリグランティア_appears_立体幻像_p2569
+        quote: 落ち着いた雰囲気の女性だな、と思った。ゆったりとした長衣は瑠璃色で、表情は宗教画の聖人のよう。小さな壺を持っているが、あれは何だろう。ぴんとくるものがあった。きっとあれは薬壺だ。
+        locator: {}
+        spoiler_after: ch0069
+    name:
+      observations:
+      - event_ref: E_ch0069_ベル・ペリグランティア_names_瑠璃光の薬師_p2570
+        quote: 「いいのよ。四十六位なんて位階にいる姉妹のことなんて知ってる方が驚きだもの。それでね、私の号は【瑠璃光の薬師】っていうんだけど」
+        locator: {}
+        spoiler_after: ch0069
+    speech:
+      observations:
+      - event_ref: E_ch0069_ベル・ペリグランティア_says_メートリアン_p2570
+        quote: 「ヴァイドゥーリヤ――トリシューラに異界の神話を教え、呪術医としての手ほどきをした私が、メートリアンを通じて貴方という存在に引き合わされた。興味深いわね」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ベル・ペリグランティア_asks_万能細胞_p2571
+        quote: 「そういえば、保存していたメートリアンの万能細胞の件だけれど。あの毛髪やらは本当にあなたの同意があって送ったのよね？ 摸倣子解析は既に開始して」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ベル・ペリグランティア_asks_詞章_p2571
+        quote: 「見せて頂戴、アズーリア。貴方が語る詞章、未知なる異言浄瑠璃を」
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0069_ミルーニャ_takes_アズーリア_p2569
+        quote: 「少しだけお時間をいただけませんか」 そう頼まれて、断れる私では無い。ミルーニャの導きに従って、私は暗い個室に連れてこられていた。
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_ミルーニャ_stops_映像_p2571
+        quote: 「ぅわあああー！！ あーあー！ なんか機材の調子が悪いみたいですねー！」 何故かミルーニャが大慌てで騒ぎ出し、映像はふつりと途絶えた。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_エルネトモラン]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0069_エルネトモラン_has_property_死人の溢れ_p2572
+        quote: 迷宮都市エルネトモランは、悲鳴と悲惨で溺れかけていた。溢れかえった死人、そして迫り来る魔将の脅威。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_死人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0069_死人_attacks_生者_p2572
+        quote: 積載人数を超過して詰め込まれた列車や大型箒から人が振り落とされ、そこに群がる死人の群れ。襲われた者もまた死人となり、涎を垂らしながら生者を求めて徘徊を始める。
+        locator: {}
+        spoiler_after: ch0069
+    visual:
+      observations:
+      - event_ref: E_ch0069_死人_has_property_呪力感知_p2572
+        quote: 「連中、呪力に反応しやがる！ おい、九位以外全員追い出せ！」
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_大型車輌]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0069_大型車輌_breaks_建物_p2573
+        quote: 車体に縋り付いた大量の死人。正面の窓に張り付いた夥しい人影によって視界が遮られ、運転を誤って建物に突っ込む。爆発炎上。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_異獣動物園]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0069_異獣動物園_opens_第十三区_p2573
+        quote: 第十三区に存在する【異獣動物園】が解放され、自由を得た地獄の住人たちが暴れ出し、死人に噛み付かれた様々な動物たちが暴れ狂う。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少女]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0069_少女_fears_死人の父_p2574
+        quote: 天の御殿をも取り込んだガルズの浄界は、死者の記憶を再生する。死んだはずの父親が理性のない死人となって現れるという残酷に、少年は歓喜し、少女は恐怖する。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_老女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0069_老女_fights_青年_p2575
+        quote: 「あんたはひっこんでな！」 老女が、肩を掴んだ女性の手を勢いよく振り払う。その弾みで、黒衣が一瞬だけはだけてしまう。
+        locator: {}
+        spoiler_after: ch0069
+    visual:
+      observations:
+      - event_ref: E_ch0069_老女_has_property_獣毛_p2576
+        quote: 露わになる老女の手。闇のように暗い色。毛深いその手の甲を、礼拝堂の誰もが見た。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_青年]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0069_青年_says_槍神への祈り_p2575
+        quote: 「この苦境でこそ！ 我々は父なる槍神に祈りを捧げ！ 敬虔な心で信じるべきなのです！ さあ皆さん、清浄なる世界を実現するために祈りましょう！」
+        locator: {}
+        spoiler_after: ch0069
+      - event_ref: E_ch0069_青年_says_異獣の排除_p2577
+        quote: 「おお、皆さん、わかっていただけますね？ 均質な祈りに、異物は必要無いのです。異獣とは人では無いのですから。調和と秩序こそ至上！」
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_男性]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0069_男性_attacks_老女_p2576
+        quote: 「おい、ばあさん、その手ぇ見せてみろ！」「お、お止め！ 触るでないよ！」 屈強な男性が老女の黒衣を剥いて、その素肌を露わにする。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_兎たち]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0069_兎たち_fights_強化死人_p2578
+        quote: 呪文と杖の適性に優れた兎たちは魔導書を手に強化死人を迎撃する。しかし、限界はいつか訪れる。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_貴人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0069_貴人_uses_金剛杵_p2578
+        quote: 金色の武器が浮遊し、磁力の結界を構築して死人たちを吹き飛ばす。
+        locator: {}
+        spoiler_after: ch0069
+    speech:
+      observations:
+      - event_ref: E_ch0069_貴人_says_呪いのかたち_p2579
+        quote: 「さあ、見せて頂戴、ヴィルギリア。貴方が選び取った、呪いのかたちを」
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_呪術儀式]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0069_呪術儀式_appears_過去_p2580
+        quote: 三つの呪術儀式、その最初のひとつである【過去】の歌が甦ろうとしていた。曲名は――【この夜が明けるまであと百万の祈り】。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_誰か]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0069_誰か_says_言理の妖精語りて曰く_p2580
+        quote: 「言理の妖精語りて曰く」 離れた場所で、同時に発せられたその詠唱。
+        locator: {}
+        spoiler_after: ch0069
+  first_appearance_candidate: true

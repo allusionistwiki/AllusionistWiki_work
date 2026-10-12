@@ -1,0 +1,374 @@
+episode: ch0099
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ダーカンシェル]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0099_ダーカンシェル_appears_as_神_p3597
+        quote: ダーカンシェルという名の神は蜥蜴の身体と妖精の頭、虫の翅を持った生き物で、並外れて賢く、さらには強い力を持っていた。
+        locator: {}
+        spoiler_after: ch0099
+    action:
+      observations:
+      - event_ref: E_ch0099_ダーカンシェル_gives_言葉_p3597
+        quote: 「お前たち民、すなわち人畜に『言葉』を与えよう。それと引き替えに、お前たちは私の臣民となり、私のために尽くすのだ」
+        locator: {}
+        spoiler_after: ch0099
+    speech:
+      observations:
+      - event_ref: E_ch0099_ダーカンシェル_asks_嫁と子供_p3598
+        quote: 「可愛い私の子供たち。私はもう力が衰えて、生きる気力すら湧いてこない。哀れと思うなら、私にお前たちの嫁と、子供たちを捧げておくれ」
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_動物たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0099_動物たち_learns_視る_p3597
+        quote: 開けた世界はより鮮明になり、動物たちはものごとを『視る』ことを知った。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_赤毛の少年]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0099_赤毛の少年_kills_ダーカンシェル_p3597
+        quote: だがある時、ダーカンシェルは前触れもなく現れた赤毛の少年が振るう槍によって討たれ、その傷が元となってあっさりと零落してしまった。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_大きな頭と鋭い牙の亜竜]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0099_大きな頭と鋭い牙の亜竜_promises_妻と子供_p3598
+        quote: 「私も貴方に妻と子を捧げましょう。自らの財産を恩ある相手、父にも等しき貴方に惜しむような真似がどうしてできましょうか。また、困窮した相手に自らが身を切ることこそが最も尊ばれるべき美徳であるのですから」
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_黒い亜竜]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0099_黒い亜竜_promises_妻と子供_p3598
+        quote: 「わかりました。父なるダーカンシェルに我が妻と子供たちを捧げましょう。妻はまた娶れば良いし、子供はまた生めばよい。だが貴方がいなくなればもう二度と会えないのですから」
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0099_アルト_other_白き亜竜_p3599
+        quote: この二人の子供が、世に名高き双竜王、ダエモデクとアルトである。
+        locator: {}
+        spoiler_after: ch0099
+    symbolic:
+      observations:
+      - event_ref: E_ch0099_アルト_has_property_聡明さ_p3599
+        quote: 白き亜竜アルトはダーカンシェルの聡明さを受け継いでいた。
+        locator: {}
+        spoiler_after: ch0099
+    action:
+      observations:
+      - event_ref: E_ch0099_アルト_transforms_霊長_p3599
+        quote: また、自らの恐ろしい姿で弱き者らが怯えぬよう、普段は二本足で歩く毛無し猿――時代を経るにつれて霊長と名乗るようになった種族――の如き姿に変化していた。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_conceals_まことの名_p3600
+        quote: アルトは慎重な性格で、『まことの名』を隠していた。その名を知る者は自分と、既に没した親と、半身とも言えるダエモデクだけであった。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_helps_夫_p3601
+        quote: アルトは、こういうときにダエモデクを止めても聞く耳を持たない事を良く知っていたので、先回りして夫を逃がし、妻にはちょっとした知恵を授けてやることにした。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_saves_ダエモデク_p3602
+        quote: 目を開くと、目の前には片目を失ったアルトが立ちはだかり、猛然と牙を剥いて戦っているではないか。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_gives_娘_p3604
+        quote: 欲のないモグラにいたく感心して、自分の娘であるバーガンディアを妻とすることを許した。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_gives_鱗_p3604
+        quote: 「では、この剥ぎ取った王さまの鱗を私に下さい」
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_gives_息子_p3605
+        quote: さらに、暗い土の中は寒かろうと息子のグレイシスを引き裂いて与えた。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_travels_太陰_p3607
+        quote: そうしてアルトは兎をお供に連れて、多種多様な言語が刻まれた石版の塔を昇っていった。空に浮かぶ太陰に到着したアルト王は、太陰の王に目通りを願う。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_helps_太陰_p3608
+        quote: 哀れに思ったアルト王は兎の為に、そして神々の図書館の再建のために、太陰に援助を行うことを決めた。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_defeats_ダエモデク_p3610
+        quote: 王城とは名ばかりの、山にぽっかりと口を開けた洞穴にたどり着いたアルトは、ダエモデクと一騎打ちをして見事に打ち負かした。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_other_ダエモデク_p3610
+        quote: アルトはダエモデクを洞窟の奥の隠し通路に逃して、戦いが終わったことを臣民たちに宣言しようとして、振り返った。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_finds_ディーテ_p3612
+        quote: その三叉槍は古の時代の覇王メクセトが残した伝説の武具で、銘をこう言った。「私はディーテ。貴方を助ける為に遠い場所からやってきました」それは、喋る武器だったのだ。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_other_追撃_p3612
+        quote: 王は洞窟の奥へと向き直ると、今も逃げているであろうダエモデクに聞こえるほどの大声で、征伐の続行を宣言した。精鋭たる騎士団に追撃を命じると、自らは王城の完全な征服を指揮する。
+        locator: {}
+        spoiler_after: ch0099
+    speech:
+      observations:
+      - event_ref: E_ch0099_アルト_says_慈しみ_p3600
+        quote: 「臣民たちよ、隣にいる人々を慈しむのだ。自らの持ち物を惜しみなく分け与え、助け合うことこそが最上の美徳である。それこそが王たる私の言葉を与えられた臣下としての価値であると知れ」
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_confesses_真実_p3603
+        quote: アルトは全てをダエモデクに打ち明けた。そして、親友あるいは兄弟に等しい己の半身に深く謝罪をした。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_アルト_other_ダエモデク討伐_p3609
+        quote: アルト王は、自らの半身を討伐することを宣言した。「聞け！　暴虐なるダエモデクと恥知らずにも悪竜に組する外道どもは、我らの尊き理念、共存と共生という理想を踏みにじろうとしている！
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダエモデク]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0099_ダエモデク_other_黒き亜竜_p3599
+        quote: この二人の子供が、世に名高き双竜王、ダエモデクとアルトである。
+        locator: {}
+        spoiler_after: ch0099
+    symbolic:
+      observations:
+      - event_ref: E_ch0099_ダエモデク_has_property_猛々しさ_p3599
+        quote: 黒き亜竜ダエモデクはダーカンシェルの猛々しさを受け継いでいた。
+        locator: {}
+        spoiler_after: ch0099
+    speech:
+      observations:
+      - event_ref: E_ch0099_ダエモデク_says_殺せ奪え勝ち取れ_p3599
+        quote: 『殺せ、奪え、勝ち取れ』というのが彼の掲げる理念であった。「この世の全ては俺様のものだ！　民よ、その肉をよこせ！　俺様の血肉となって奉仕せよ！　それが人畜の価値というものだ！」
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_ダエモデク_threatens_アルト_p3603
+        quote: 「呪われろ！　お前がその立派な鱗を持ち続けている限り、お前の理念は地に堕ち、王国は衰退し、不運という不運がお前の道行きを穢すだろう！」
+        locator: {}
+        spoiler_after: ch0099
+    action:
+      observations:
+      - event_ref: E_ch0099_ダエモデク_reveals_まことの名_p3600
+        quote: ダエモデクは常日頃から呪われることを恐れずに、自らの『まことの名』を触れ回っていた。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_ダエモデク_attacks_村落_p3601
+        quote: ダエモデクは天空を引き裂いて舞い降り、大地を揺るがしながら降り立つと、人家を薙ぎ払いながら村落を荒らし回り、切ない恋の言葉を叫び続けた。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_ダエモデク_loves_人妻_p3601
+        quote: ある時のこと、ダエモデクが恋をした。世にも美しいその相手は、不運にも人妻だった。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_ダエモデク_fights_アキラ_p3602
+        quote: ダエモデクは鋭い牙と爪を誇示しながら、怪鳥へと挑みかかった。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_ダエモデク_attacks_アルトの王国_p3605
+        quote: ダエモデクは、それからも幾度と無く軍勢を率いてアルトの王国に攻め入ったが、そのたびに追い返された。
+        locator: {}
+        spoiler_after: ch0099
+    relationship:
+      observations:
+      - event_ref: E_ch0099_ダエモデク_hates_アルト_p3603
+        quote: 血まみれのダエモデクはしかしアルトを許さなかった。裏切られたと憤慨し、続いてアルトを強く憎んだ。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0099_女_asks_愛の証_p3601
+        quote: 「では、私を愛しているという証を見せてください」
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_女_asks_アキラの卵_p3602
+        quote: 「この辺りで一番高い木の梢に巣を作っている怪鳥アキラの卵を三つ、持ってきてください。私はどうしてもあれが食べたいのです」
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0099_アキラ_defeats_ダエモデク_p3602
+        quote: ダエモデクは鋭い爪で怪鳥の首を刎ねたが、首から上を失ったアキラはそれでも戦い続け、見事に巣の中の三つの卵を守り通したのである。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ディルトーワ]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0099_ディルトーワ_other_鱗剥がし_p3604
+        quote: 手先の器用なディルトーワは、王国に呪いをもたらしているアルトの鱗を剥がすことを提案したのだった。
+        locator: {}
+        spoiler_after: ch0099
+    action:
+      observations:
+      - event_ref: E_ch0099_ディルトーワ_other_鱗_p3604
+        quote: モグラは見事に王の鱗を全て剥ぎ取ることに成功したのだ。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_ディルトーワ_other_ラフディ_p3605
+        quote: ディルトーワの縄張りはやがてラフディという名の王国となり、アルトの治める王国とは滅びの時まで友好的な関係を結んでいくことになる。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_グレイシス]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0099_グレイシス_functions_as_糸竜_p3605
+        quote: 「このグレイシスは、糸竜と言って細かい沢山の糸で出来ているのだ。これをばらばらにして身体の好きな所に付けなさい。暖かいし、身を守る鎧にもなるだろう。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0099_ガロアンディアン_has_property_多言語_p3606
+        quote: ガロアンディアンは各地から数多くの人々が集まってくるという事情から、他に類を見ないほどの多言語国家であった。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_竜王国]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0099_竜王国_defines_共存_p3606
+        quote: 誰もが共存できる優しい世界。それこそが竜王国の理念。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0099_ヴァージル_breaks_神々の図書館_p3608
+        quote: さらに悪いことに、王子ヴァージルは完成しかけていた神々の図書館、すなわち混沌とした言葉に秩序を与えるための仕組みを破壊していったのだった。
+        locator: {}
+        spoiler_after: ch0099
+      - event_ref: E_ch0099_ヴァージル_kills_王妃_p3608
+        quote: 世にも愛らしい兎の王妃は狂王子の手にかかりその儚い命を落とし、それ以来というもの王はすっかり塞ぎ込み、誰とも会おうとしないのだという。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_言震]]'
+  entity_type: motif
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0099_言震_other_竜王国_p3609
+        quote: 世にその災害の絶えたことは無い。それこそが言震。言葉の地層が歪んで起きる、認識という地盤の衝突である。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_臣民たち]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0099_臣民たち_other_殺せ_p3611
+        quote: 勝利したアルトに襲いかかった、波濤のごとき大音声。それは、ダエモデクを追え、殺せというものだったのだ。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チリアット]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0099_チリアット_other_乱入_p3614
+        quote: 「ええ。何しろ俺にも縁の深い話ですので。それに、どうやら人形劇の方も、今しがた話したあたりに差し掛かろうとしております。入り込むならば今ですな」
+        locator: {}
+        spoiler_after: ch0099
+    action:
+      observations:
+      - event_ref: E_ch0099_チリアット_activates_人形_p3615
+        quote: 俺の意思に応じて、チリアットが人形の付いた棒を真上に突き上げる。乱入した人形によって舞台が書き換えられ、状況が変動していく。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴィヴィ＝イヴロス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0099_ヴィヴィ＝イヴロス_other_人形劇_p3614
+        quote: 「今、舞台上では『女王』が人形劇を上演している。糸で上から人形を操ってね。あちらが上からならこっちは下からだ。この人形を奈落から付きだして、乱入してしまうといい」
+        locator: {}
+        spoiler_after: ch0099
+    action:
+      observations:
+      - event_ref: E_ch0099_ヴィヴィ＝イヴロス_other_チリアット_p3614
+        quote: 「準備が出来た。すぐに向かいたまえ」チリアットの昔語りを遮るように、ヴィヴィ＝イヴロスが声をかけてきた。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0099_グレンデルヒ_appears_人形_p3615
+        quote: 口が開いて、聞き覚えのある男女二重の声が響き渡る。（やっぱり出やがったな、ゾーイにグレンデルヒ！）
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゾーイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0099_ゾーイ_appears_人形_p3615
+        quote: 舞台上に、かたかたと音を立てながら現れる第三の影。糸も棒も無しで動くそれは、絡繰り仕掛けの人形だった。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_俺]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0099_俺_observes_女王_p3615
+        quote: 暗がりの中を蓄光テープの明かりを頼りに進んでいき、照明の光が射し込む場所を目指す。頭上から響くコルセスカの――『女王』の声を聞きながら、割り込む機会を窺う俺たち。
+        locator: {}
+        spoiler_after: ch0099
+  first_appearance_candidate: true

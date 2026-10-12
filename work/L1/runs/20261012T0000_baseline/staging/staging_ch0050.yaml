@@ -1,0 +1,224 @@
+episode: ch0050
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0050_リーナ_uses_幻覚呪術_p1977
+        quote: 浮遊する端末から書籍テクスチャを立体投影しているリーナに問いかける。実体の存在しない純粋に情報的な書籍でも、幻覚呪術によって『手触り』を再現して重さや項をめくる際の紙の質感などを再現することができる。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_戦場小説]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0050_戦場小説_defines_社会的利用形態_p1977
+        quote: 戦場小説あるいは迷宮小説と呼ばれる、その内容よりも社会的な利用形態に重きをおいて定義されるジャンルの小説である。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0050_アキラ_thinks_肉体の変動_p1978
+        quote: 私が肉体のサイズを変動させれば最適化されるのだが、『私』を歪めるようで抵抗感があるのだ。
+        locator: {}
+        spoiler_after: ch0050
+    name:
+      observations:
+      - event_ref: E_ch0050_アキラ_names_チョコレートリリー_p1983
+        quote: 午前中にパレルノ山の転移門に降り立った私たち【チョコレートリリー】とサリア、そして修道騎士二人の合計九人は急ぎ足でティリビナの民の集落を訪れ
+        locator: {}
+        spoiler_after: ch0050
+    action:
+      observations:
+      - event_ref: E_ch0050_アキラ_activates_金鎖_p2002
+        quote: だから私は、死んでしまって呪文を唱える口も無い私は、存在しない左手を掲げて、言葉を紡ぐ。無いはずの金鎖が、砕ける音がした。――遡って、フィリス。
+        locator: {}
+        spoiler_after: ch0050
+      - event_ref: E_ch0050_アキラ_dies_全滅_p2002
+        quote: 私たちは、ただの一人も残さず全滅した。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0050_プリエステラ_says_準備完了_p1978
+        quote: 「二人とも、みんなの準備が出来たよ」
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ペイル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0050_ペイル_says_軽傷の自慢_p1979
+        quote: 「先日の件では死傷者こそいなかったものの、軽傷や心理的な衝撃を受けた者が多数おりまして。かくいう僕もその一人です。傷付いたなあーもの凄く傷付いたなあー」
+        locator: {}
+        spoiler_after: ch0050
+    action:
+      observations:
+      - event_ref: E_ch0050_ペイル_helps_ミルーニャ_p1981
+        quote: 結果的に、彼の下品極まりない言動のお陰でミルーニャに対する敵意に歯止めがかかったような気もする。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0050_ミルーニャ_bonds_ティリビナの民の子供_p1979
+        quote: そのミルーニャは、現在列の後ろで小さな子供たちに囲まれている。どうやら懐かれてしまったらしい。
+        locator: {}
+        spoiler_after: ch0050
+    action:
+      observations:
+      - event_ref: E_ch0050_ミルーニャ_makes_運搬用呪具_p1979
+        quote: 列の後尾には、浮遊する絨毯や布などが『敷かれて』いた。その上には保護用の布に包まれた大量の荷物。列の移動と共に自動的に移動するあの呪具を用意したのはミルーニャだ。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サリア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0050_サリア_appears_先導者_p1982
+        quote: 軽装で、腰の革袋と二振りの短剣以外にはさしたる装備も身につけていない。探索者用の頑丈で汚れてもいい茶色の服は実用一点張り。栗色の髪が一房だけ編み込まれているのが唯一のお洒落だったが、その美貌は全く色褪せることはない。
+        locator: {}
+        spoiler_after: ch0050
+    speech:
+      observations:
+      - event_ref: E_ch0050_サリア_says_コルセスカとの戦い_p1986
+        quote: 「負けた。それはもう命からがら逃げてきた。三人で全力の凍結食らわせて時間稼ぎしてる間に空間に裂け目作って追放するので精一杯だった」
+        locator: {}
+        spoiler_after: ch0050
+      - event_ref: E_ch0050_サリア_other_陽動_p1989
+        quote: 「【死の囀り】の動きは不規則で、万が一ということもある。基本的に地上で歌ってるだけだとは思うけど、もし聞こえてきたら消音結界をお願い。私が陽動して遠ざけるから」
+        locator: {}
+        spoiler_after: ch0050
+      - event_ref: E_ch0050_サリア_has_property_超人的聴力_p1997
+        quote: 恐るべきはその索敵範囲である。どうやら彼女は目ではなく耳で遠くの微かな音を拾っているらしい。
+        locator: {}
+        spoiler_after: ch0050
+    action:
+      observations:
+      - event_ref: E_ch0050_サリア_fights_守護機械_p1995
+        quote: 言うが早いか、風のように前へと駆けて行ってしまう。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0050_ハルベルト_fears_悪魔の九姉_p1984
+        quote: 「お姉様――」ハルベルトが、小さく呟く。キュトスの七十一姉妹。その上位九名、悪魔の九姉と呼ばれる恐るべき魔人たちが世界に残した爪痕。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_パレルノ山]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0050_パレルノ山_transforms_滅びの炎_p1984
+        quote: 禿げた岩山の各所から、白い炎が吹き上がっている。あれは滅びの炎だ。今まさに、パレルノ山は死に逝こうとしている。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_白焔]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0050_白焔_has_property_時間流_p1987
+        quote: あの白い焔は、実際には燃焼という物理現象ではないの。抽象的な火の概念――ものごとの始まりと終わり。加速度的に進行していく時間的経過が理解可能な形として『翻訳』されているだけ。あの白い焔は全てを終端まで運んでいく膨大な時間流そのもの
+        locator: {}
+        spoiler_after: ch0050
+    action:
+      observations:
+      - event_ref: E_ch0050_白焔_attacks_坑道_p2001
+        quote: 崩落する天井から、純白の焔が坑道内部を焼き滅ぼそうと侵略を開始する。白い火柱の中から、燃えるような貴婦人がその姿を現した。悪魔の九姉による挟撃。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0050_コルセスカ_has_property_時間操作系呪術_p1988
+        quote: コアは『凍結』という概念を拡張させて時間を停止させる能力を持ってる――逆かな。時間停止の結果として凍結現象が起きている。いずれにせよ、あの子の適性は時間操作系の呪術だった。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_カタルマリーナ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0050_カタルマリーナ_is_made_of_残響_p1991
+        quote: 「うん。残響――亡霊みたいなものだって。知性の無い、暴力的な呪力の塊。だから気が楽。冷静なお姉様方を敵に回すなんて、考えただけで恐ろしくなる」
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ペリグランティア製薬]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0050_ペリグランティア製薬_defines_派閥争い_p1992
+        quote: ペリグランティア製薬というのは星見の塔の傘下にある企業であり、歴史の古い杖の一派閥そのものでもある。派閥の首魁たる呪術医ベル・ペリグランティアは、末妹の選定において杖の座に対して一定の影響力を有するが、その力は絶対的なものではない。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラクルラール派]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0050_ラクルラール派_defines_最大勢力_p1993
+        quote: ラクルラール派は使い魔の座トライデントを筆頭に、杖の座であるトリシューラまでも擁する最大勢力である。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_死の囀り]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0050_死の囀り_appears_無音_p1999
+        quote: だから、『それ』が音もなく目の前に現れたとき、私たちの誰もが愕然としたのは無理もないと言えるだろう。『音もなく』――そう、それこそが最大の誤算。
+        locator: {}
+        spoiler_after: ch0050
+    action:
+      observations:
+      - event_ref: E_ch0050_死の囀り_makes_即席の魔導書_p2000
+        quote: 帳面に書き記された文字列。それは呪文だ。あれこそは偉大なる魔女がたった今この場で書き記した、即席の魔導書である。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_肉塊]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0050_肉塊_appears_金色の瞳_p2000
+        quote: その背後で、全身を複雑怪奇にねじり回したようになっている、あの肉塊のようなものは何だろう。
+        locator: {}
+        spoiler_after: ch0050
+  first_appearance_candidate: true

@@ -1,0 +1,236 @@
+chapter: ch0017
+created: '2026-09-30'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 21
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0017_トリシューラ_activates_アストラル界へのダイブ_p748]]'
+  object: '[[ME_hacker_movie_trope]]'
+  claim: アストラル界への侵入描写が、映画やゲームにおける「ハッキング」のステレオタイプな視覚表現（ヘッドギア、高速打鍵、3Dマップ）を意図的に模倣し、その「それっぽさ」が呪術的効果を持つというメタ構造を提示している。
+  quote: 「なんちゃってクラッキング描写やめろ」
+  paragraph: p748
+  confidence: explicit
+  quotes:
+  - quote: 「なんちゃってクラッキング描写やめろ」
+    paragraph: p748
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0017_トリシューラ_says_視覚的イメージの効用_p749]]'
+  object: '[[ME_placebo_effect]]'
+  claim: 呪術の発動に「仰々しさ」や「直観に則した外観」が必要とされる理屈は、医学的なプラセボ効果（偽薬効果）や、儀式の心理的効果と構造的に一致する。
+  quote: 仰々しさは儀式に繋がるし、直観に則した外観が科学性の外――すなわち呪術の力を強固にする
+  paragraph: p749
+  confidence: strong
+  quotes:
+  - quote: 仰々しさは儀式に繋がるし、直観に則した外観が科学性の外――すなわち呪術の力を強固にする
+    paragraph: p749
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0017_コルセスカ_defines_ICE_p753]]'
+  object: '[[ME_ice_acronym]]'
+  claim: コルセスカの攻性防壁「ICE」は、サイバーセキュリティ用語の「Intrusion Countermeasures Electronics」のパロディであり、ここでは「Entrance（入神）」に意味を転換して呪術的な防御システムを定義している。
+  quote: アイス――つまりＩｎｔｒｕｓｉｏｎ Ｃｏｕｎｔｅｒｍｅａｓｕｒｅ Ｅｎｔｒａｎｃｅｍｅｎｔの頭文字をとってＩＣＥってことなんだけど
+  paragraph: p753
+  confidence: explicit
+  quotes:
+  - quote: アイス――つまりＩｎｔｒｕｓｉｏｎ Ｃｏｕｎｔｅｒｍｅａｓｕｒｅ Ｅｎｔｒａｎｃｅｍｅｎｔの頭文字をとってＩＣＥってことなんだけど
+    paragraph: p753
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0017_トリシューラ_says_文体論的推定_p757]]'
+  object: '[[ME_stylometry]]'
+  claim: テキストの「筆致」や「文体」から個人を特定する手法は、現実の統計言語学における「文体計量学（Stylometry）」や、ネット上の匿名アカウント特定手法（プロファイリング）の呪術的変換である。
+  quote: あらゆるテクストには『筆致』や『文体』という呪術的痕跡が必ず残る。情報量が多くなればなるほど、統計に基づいた文体論的推定は容易になるの
+  paragraph: p757
+  confidence: strong
+  quotes:
+  - quote: あらゆるテクストには『筆致』や『文体』という呪術的痕跡が必ず残る。情報量が多くなればなるほど、統計に基づいた文体論的推定は容易になるの
+    paragraph: p757
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0017_トリシューラ_makes_情報操作の解析_p756]]'
+  object: '[[ME_social_media_manipulation]]'
+  claim: SNSでの情報拡散、アカウント作成日時、スレッドのタイミングを解析して工作を暴くプロセスは、現代のネット世論操作（アストロフィー）や炎上対策の手法をそのまま異世界に移植したものである。
+  quote: 騒ぎをまとめてるブログの記事投稿日時、ソースになってるスレッド立てとレスポンスのタイミング、ＳＮＳで情報拡散してるアカウントの作成日時を調べられるか
+  paragraph: p756
+  confidence: strong
+  quotes:
+  - quote: 騒ぎをまとめてるブログの記事投稿日時、ソースになってるスレッド立てとレスポンスのタイミング、ＳＮＳで情報拡散してるアカウントの作成日時を調べられるか
+    paragraph: p756
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0017_敵呪術師_transforms_物理的実体_p752]]'
+  object: '[[ME_augmented_reality]]'
+  claim: 画面内のアバターが物理的な実体を得て現実世界に出現する現象は、AR（拡張現実）技術の極限形態、あるいは「バーチャルがリアルを侵食する」SF的恐怖の具現化である。
+  quote: 水流はそのまま画面から飛び出し、物理的な実体を獲得、そのまま等身大の少女の形をとる。
+  paragraph: p752
+  confidence: moderate
+  quotes:
+  - quote: 水流はそのまま画面から飛び出し、物理的な実体を獲得、そのまま等身大の少女の形をとる。
+    paragraph: p752
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0017_トリシューラ_says_打鍵速度と技量_p749]]'
+  object: '[[ME_gaming_mechanics]]'
+  claim: 打鍵速度が技量とイコールであるという設定は、リズムゲームやMMOにおける「APM（Actions Per Minute）」がプレイヤーの腕前を測る指標となるゲーム的メカニクスを反映している。
+  quote: 打鍵速度は言語魔術師の技量とイコールだと見なされているの。だから速ければ速いほど侵入の成功率は上昇する
+  paragraph: p749
+  confidence: moderate
+  quotes:
+  - quote: 打鍵速度は言語魔術師の技量とイコールだと見なされているの。だから速ければ速いほど侵入の成功率は上昇する
+    paragraph: p749
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リーナ・ゾラ・クロウサーの正体
+  note: 実名で反論し、深夜に衝動的に謝罪し、アズーリアの言葉を代弁する謎の探索者。アキラの近況を異常なほど知りたがる。
+  quotes:
+  - quote: 名前はリーナ・ゾラ・クロウサーという女性らしい。
+    paragraph: p757
+    quote_verified: true
+  - quote: どうしてかやたらと俺なんかの近況を知りたがる奇妙な探索者。
+    paragraph: p769
+    quote_verified: true
+  expected_payoff: 彼女がアズーリアの親族、友人、あるいはアズーリア本人の変装/代理である可能性。アキラとアズーリアを繋ぐ重要なキーパーソンとして登場する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アズーリアの生存と所在
+  note: クロウサーが「アキラの存命はアズーリアの耳にも届いた」と述べており、アズーリアが生きていてアキラを気にしていることを示唆する。
+  quotes:
+  - quote: 貴方の存命はアズーリア・ヘレゼクシュの耳にも届いたと思います。
+    paragraph: p767
+    quote_verified: true
+  expected_payoff: アキラが地上へ戻る、あるいはアズーリアと再会する展開の伏線。アキラがトリシューラを裏切る（キロンの誘いに応じる）動機となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの監視と中立性
+  note: コルセスカが第五階層のどこかで監視しており、アキラを助けたが、トリシューラ側についたわけでもない曖昧な立場。
+  quotes:
+  - quote: 多分まだ第五階層のどこかにいて、こっちの動きを監視してるんだ
+    paragraph: p754
+    quote_verified: true
+  expected_payoff: コルセスカが最終的にどちらの陣営にも属さず、独自の判断でアキラを助ける、あるいは敵対する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_松明の騎士団と槍神教
+  note: キロンの所属する組織であり、地上の最大勢力。アキラが「槍神」と呼ばれることへの言及。
+  quotes:
+  - quote: 槍神って何だ？
+    paragraph: p758
+    quote_verified: true
+  - quote: 松明の騎士団が最高神として崇めてるね。
+    paragraph: p758
+    quote_verified: true
+  expected_payoff: 地上勢力との対立、宗教的対立軸の浮上。アキラが「槍神」として祭り上げられることによる政治的・宗教的リスク。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記述と痕跡による個人特定（デジタル・プロファイリングの呪術化）
+  weight: 0.9
+  quotes:
+  - quote: あらゆるテクストには『筆致』や『文体』という呪術的痕跡が必ず残る。
+    paragraph: p757
+    quote_verified: true
+  - quote: ＩＤ晒すよりずっと効果的だと言いながら、トリシューラは工作を暴き立てていく。
+    paragraph: p757
+    quote_verified: true
+  note: 匿名性や偽装が通用しない世界観。現代のネット社会における「アカウント特定」や「炎上調査」の手法が、呪術という形で正当化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 形式主義と儀式の効用（見せかけが力になる）
+  weight: 0.8
+  quotes:
+  - quote: 巷間に流布した視覚的なイメージは呪術的な強化に繋がるの。
+    paragraph: p749
+    quote_verified: true
+  - quote: 仰々しさは儀式に繋がるし、直観に則した外観が科学性の外――すなわち呪術の力を強固にする
+    paragraph: p749
+    quote_verified: true
+  note: 論理的な正しさよりも、直観やイメージ、形式（ヘッドギア、打鍵速度）が現実に干渉する世界。メタフィクション的な「演出」が力を持つ構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者による代理救済と自己肯定の欠如
+  weight: 0.7
+  quotes:
+  - quote: 私は、必ず貴方を迎えにいくから
+    paragraph: p766
+    quote_verified: true
+  - quote: その場所で無事でいることが分かっていれば、きっと安心する筈です
+    paragraph: p767
+    quote_verified: true
+  note: アキラは自ら行動して解決するのではなく、コルセスカに助けられ、クロウサーに代弁され、アズーリアに迎えに来られることを待っている。受動的な救済への渇望。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世論の可逆性と感情の操作
+  weight: 0.6
+  quotes:
+  - quote: 世間の手の平返しの鮮やかさといったら。
+    paragraph: p758
+    quote_verified: true
+  - quote: 一度現れた世論は極端に膨れ上がり急速に固まっていく。
+    paragraph: p756
+    quote_verified: true
+  note: 論理ではなく直観と感情で動く群衆。情報操作によって容易に善悪が逆転する社会の脆さと、その制御の難しさ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

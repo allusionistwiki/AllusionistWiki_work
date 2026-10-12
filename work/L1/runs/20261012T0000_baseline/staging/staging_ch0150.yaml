@@ -1,0 +1,159 @@
+episode: ch0150
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_オルヴァ王]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0150_オルヴァ王_thinks_退屈_p5083
+        quote: 老人は退屈な生に倦んでいた。
+        locator: {}
+        spoiler_after: ch0150
+      - event_ref: E_ch0150_オルヴァ王_fears_経験の欠如_p5085
+        quote: 果たして、生を演じるという経験を今までしたことがあっただろうか。
+        locator: {}
+        spoiler_after: ch0150
+    symbolic:
+      observations:
+      - event_ref: E_ch0150_オルヴァ王_appears_as_形無き形_p5084
+        quote: そして、そこに『賢王』は形無き形としてあらわれるのだった。
+        locator: {}
+        spoiler_after: ch0150
+    name:
+      observations:
+      - event_ref: E_ch0150_オルヴァ王_names_賢王_p5084
+        quote: いつしか神への感謝と信仰に基づく労働、日々の祈りこそが『賢王』という形を定めるようになり、それは王個人と関わりなく普遍化していく。
+        locator: {}
+        spoiler_after: ch0150
+    action:
+      observations:
+      - event_ref: E_ch0150_オルヴァ王_other_回想_p5086
+        quote: そう、必要なのは未来を回想し、過去へ旅立つことだったのではないか。
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_カシュラム]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0150_カシュラム_transforms_絶望_p5084
+        quote: だが外界の揺らぎ、時空の亀裂から侵入してきた無数の闇によってカシュラムは絶望の底に叩き落された。
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カニャッツォ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0150_カニャッツォ_says_謝罪_p5086
+        quote: 「こ、この度は、私の不適切な発言で大変なご迷惑を――」
+        locator: {}
+        spoiler_after: ch0150
+      - event_ref: E_ch0150_カニャッツォ_says_安産型_p5087
+        quote: 「『安産型』という発言の意図につきましては、相手方を中傷するような意図があったわけではなく、あくまでも褒め言葉として使用したものです。
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ノーグ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0150_ノーグ_appears_血脈_p5086
+        quote: ノーグという血脈は、その瞬間に創造された。
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プーハニア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0150_プーハニア_loves_レスリング_p5090
+        quote: 闘犬格闘技――その中でもレスリングと呼ばれる『組み合い、投げ、倒す』というシンプルな競技をプーハニアは好んだ。
+        locator: {}
+        spoiler_after: ch0150
+    action:
+      observations:
+      - event_ref: E_ch0150_プーハニア_learns_サイバーカラテ_p5091
+        quote: サイバーカラテも、その延長線上にある修業の一環という意識でやっていた。自分を打ち負かしたシナモリアキラやカーインが認める強さとはどんなものだろう、と。
+        locator: {}
+        spoiler_after: ch0150
+      - event_ref: E_ch0150_プーハニア_transforms_交換部品_p5093
+        quote: 気づけば肉体を改造され、シナモリアキラ用の交換部品にされていた。
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サイバーカラテマン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0150_サイバーカラテマン_appears_参上_p5094
+        quote: 「サイバーカラテマン参上！ 女性を心無い言葉で傷つけ、シナモリアキラの名誉を損なう不届き者め！ 天と地と人が許しても、この俺が許さんぞ！
+          成敗してくれる！ 発勁用意！！」
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_元軍人の男]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0150_元軍人の男_uses_雷破拳_p5096
+        quote: 「これぞ秘技・雷破拳――稲妻は俺に効かん！」
+        locator: {}
+        spoiler_after: ch0150
+      - event_ref: E_ch0150_元軍人の男_uses_NOKOTTA_p5097
+        quote: 続けて元軍人が「ＮＯＫＯＴＴＡ」と叫んだ。 闘気が鎧となって全身を覆い、両の拳に一際強い輝きが収束。
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_老人]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0150_老人_uses_七色表情筋トレーニング_p5099
+        quote: 考えた結果、『七色表情筋トレーニング』で強引に表情を取り繕うことにした。
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_殺人鬼]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0150_殺人鬼_says_命の価値_p5103
+        quote: 「カジュアルな殺しってのはさぁ、つまり命の価値を肉と一緒に解体する行為なんだよね。これが俺のスタイルでファッション。
+        locator: {}
+        spoiler_after: ch0150
+      - event_ref: E_ch0150_殺人鬼_other_奴隷男_p5104
+        quote: 「なにあれ。オリジナルちゃんっぽさ皆無じゃね？ しかもアミアウィズ使ってるしオルヴァの名前呼んでるし。ぼーとくっしょ。
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_品森晶]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0150_品森晶_says_アニマ_p5109
+        quote: 「私はアニマだから。アニムスを打倒し、統合することを求めている。あるいは統合されることを。アダム・カドモンへ至るためには安定が必要。
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_シナモリアキラ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0150_シナモリアキラ_transforms_モジュール_p5112
+        quote: シナモリアキラという紀人は解体され、複数の要素として検討され、再解釈されていく。
+        locator: {}
+        spoiler_after: ch0150
+  first_appearance_candidate: true

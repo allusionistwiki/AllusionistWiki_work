@@ -1,0 +1,513 @@
+episode: ch0195
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0195_アキラ_thinks_アンドロイドの生_p6512
+        quote: そもそもアンドロイドの魔女にとっての『春』とは何だろう。死を象徴する『冬』の逆を生とするなら、アンドロイドやサイボーグ、人形たちにとって生とはなんだ？
+          俺は決定的に自己を変容させながらも確かに生きている。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_アキラ_thinks_権力の行使_p6523
+        quote: 恐らく問題は多発し、その中には致命的な被害をもたらすものすら含まれるだろうが、それでも俺は紀人という権力を振りかざすべきではない。その暴走が『法の内』で起きるにせよ『法の外』で起きるにせよ、その時俺はルウテトやラクルラールと同じような存在となるだろう。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_アキラ_asks_ゼドの行方_p6525
+        quote: 「結局、ゼドの行方は分からずじまいか」「うん。探索者たちはあいつの正体すら知らないみたい。側近の五人だけはゼドと同じように足取りが掴めないけど」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_アキラ_suspects_セロナ_p6536
+        quote: 絶対に人に悪意を抱いたことが無さそうで暴力を働けそうも無い体格と振る舞い――だからこそ確信した。こいつはこの笑顔のまま拷問と殺人を容易く実行できる。感情制御アプリなど無くとも心を全く動かさずにいられるタイプの人間なのだ、と。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_アキラ_thinks_ルウテトとの対比_p6546
+        quote: 俺はルウテトのクレイに対する態度を非難した。親が子供を拡張身体として扱い、自分の理想を代行させるための道具として扱う傲慢、家族として振るわれる権力を間違っていると糾弾した。
+        locator: {}
+        spoiler_after: ch0195
+    action:
+      observations:
+      - event_ref: E_ch0195_アキラ_uses_第五階層_p6512
+        quote: 第五階層が拡張身体の一部になったとはいっても、干渉できる範囲と知覚できる範囲が広がっただけのサイボーグ／オカルトーグだ。語弊を恐れずに言えば、俺がやれる事というのは凄腕の言語魔術師スーパーハッカーが都市機能を乗っ取って全ての監視水晶の映像を盗み見たり、各種社会基盤を自分に都合良く利用したりする程度のものだ。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_アキラ_observes_第五階層全域_p6514
+        quote: あのルウテトとの激しい戦いから数日が経過した。都市機能が集中している中心部はともかく、周辺部や空間の歪みが著しい場所は俺の感覚では捉えきれないので、第五階層全域を直接見て被害状況を確認しているのだ。
+        locator: {}
+        spoiler_after: ch0195
+    visual:
+      observations:
+      - event_ref: E_ch0195_アキラ_observes_左手_p6514
+        quote: 俺は視界を左側に向けて、自分の身体が完全な球形であることを確認する。――大丈夫だよな？ 生えてないよな？ よし、なんともない。今度こそ晴れて自由の身だ。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0195_トリシューラ_says_春と冬_p6512
+        quote: 「かくして厳しい冬は去り、恵みの春がやって来ました、めでたしめでたし――なんて言うと、『じゃあしばらくしたらまた冬だね』ってなるじゃない？
+          私はその先に行かないとね」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_トリシューラ_says_放置_p6516
+        quote: 「放置！ もう当面は放置だよ！ お手上げー！」トリシューラは思いきりむくれていたが、今できることは何も無い。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_球体ドローン]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0195_球体ドローン_functions_as_目と頭部_p6513
+        quote: たとえばいま俺が『器』としているこの球体。第五階層上空をふわふわと浮かんでいるこの人間の頭部大の呪具は、ラフディ式の多機能ドローンだ。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五階層]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0195_第五階層_has_property_森_p6514
+        quote: 大地を突き破って伸び上がっているのは多種多様な樹木たち。佇んでいると言うには無遠慮で、並んでいるというには荒っぽすぎる。舗装された地面を、密集していた探索者たちの居住区を、強引に圧壊させて恐るべき密度で形成されていくのは『森』だ。
+        locator: {}
+        spoiler_after: ch0195
+    action:
+      observations:
+      - event_ref: E_ch0195_第五階層_requires_ライブ準備_p6517
+        quote: 暦の上での冬もじき終わる。三ヶ月後という間近に迫った歌姫のライブ、『魔女の豊穣夜』という祝祭、そしてクロウサー家と共同で開催される箒レースなど山盛りのイベントの準備をしなくてはならなかった。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ティリビナ人]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0195_ティリビナ人_is_located_世界槍_p6515
+        quote: そう、ティリビナ人たちはこの世界槍のあらゆる場所に最初からいた。外からやってきたのではない。戦場となった世界槍の中を彷徨い続けていたのだ。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_世界樹]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0195_世界樹_appears_as_逆さまの森_p6515
+        quote: 天を仰げば、そこには逆さまに広がる一面の森。鬱蒼と生い茂る広葉樹の緑から、巨大な『世界樹』の残骸が垂れ下がっている。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第九世界槍]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0195_第九世界槍_defines_氷の槍_p6515
+        quote: その出現と共に明らかになった、この第九世界槍と位置付けられた氷の槍が、実は焼失した第八世界槍の存在を上書きしたものであるという事実。現在、外部から見たこの世界槍は焼け焦げた大樹を分厚い氷の層が覆った槍として認識されている。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルウテト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_ルウテト_other_冬から春への交代_p6516
+        quote: 自分を古い邪神と位置付けたばかりか、天からは第五階層の『冬』を終わらせる生命の象徴を招き寄せた――つまり、『冬』から『春』への交代劇を積極的に引き起こそうとしていたようなのだ。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ氏]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_リーナ氏_makes_独創的アイデア_p6517
+        quote: リーナ氏がノリノリで独創的アイデアを次々に出してくるので、『これが名家を率いる当主の才気なのか』と感心させられるばかりである。クラッシュすれば死の危険すらある超高速レースにパン食い競争を組み込む発想は流石に無かった。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_箒レース]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0195_箒レース_functions_as_呪術儀式_p6517
+        quote: 第五階層全体を使った箒レースのコースは、ぐるりと円を描いてそれ自体が呪術儀式のための円陣の枠組として機能するのだという。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ラプンシエル]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_ラプンシエル_makes_地下アイドル空間_p6518
+        quote: ラプンシエルは人形たちを引き連れて階層の地下空間に居を構え、崩壊した地下アイドル空間を甦らせた。現在、人形たちはみなラプンシエルの小さな『王国』に身を寄せている。
+        locator: {}
+        spoiler_after: ch0195
+    speech:
+      observations:
+      - event_ref: E_ch0195_ラプンシエル_says_前座_p6521
+        quote: 「シナモリアキラと利害が一致するのは不快だけれど、まあいいわ。歌姫のライブ、協力して盛り上げていきましょう。『心臓』が降臨するために、第五階層は『前座』が暖めておかなきゃいけないからね」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ラプンシエル_names_敵対細胞_p6522
+        quote: 「当面の敵はジャッフハリムの天主セレクティフィレクティ――『右足』と『左足』は全ての『細胞』にとって最大の敵。なにしろ『心臓』を私物化して自分がトライデントの中核に取って代わろうとしてる野心家だから。そしてもっと最悪なのが『鼻』と『口舌』」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ラプンシエル_reveals_トライデントの権力闘争_p6522
+        quote: 「『使い魔の座』も一枚岩じゃない。『心臓』にどれだけの影響力を行使できるのかを競い合ってるの。良くある話だけど、トライデント内で権力闘争があるわけ。みんな救世主のお気に入りになって、出世したいのね」
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0195_ミヒトネッセ_says_お茶の時間_p6519
+        quote: 「お嬢様、お茶の時間でございます――それからお手数ですが、本日分のぜんまいばねをまいて下さいますか？」「狩りか？ 付き合うぜ、めんどくせーが、お前を守るのが俺の仕事だからな」
+        locator: {}
+        spoiler_after: ch0195
+    relationship:
+      observations:
+      - event_ref: E_ch0195_ミヒトネッセ_wears_多様な役割_p6519
+        quote: 最近の奴はいやにフットワークが軽く、ある時はラプンシエルの妹にして地下の王子様系アイドル、ある時はトリシューラのストーカー、ある時はクレイと共にコルセスカに侍る従者、そしてまたある時は俺に喧嘩を売りに来る暇な道場破り、と常に忙しい。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト・イヴニル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_アルト・イヴニル_defeats_狂怖と呪動兵_p6521
+        quote: アルト・イヴニルは第六階層の掌握者として名乗りを上げ、大魔将イェレイド率いる狂怖及び呪動兵からなる軍勢を自らの十二の軍団で打ち破った。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_アルト・イヴニル_makes_聖域_p6548
+        quote: 代わって世界を彩るのは優美な曲線を描く柱や壁、球形屋根の建造物。かつて最も美しい王が愛した麗しの故郷、その記憶を純化した誰にも侵されない聖域の光景がそこにあった。
+        locator: {}
+        spoiler_after: ch0195
+    name:
+      observations:
+      - event_ref: E_ch0195_アルト・イヴニル_names_ラフディ＝ガロアンディアン_p6521
+        quote: そして古き王権を受け継いだ新たな王国、ラフディ＝ガロアンディアンの復活を宣言したのだ。第五階層のガロアンディアンに対抗するように、『上』でも『下』でもない第三、いや第四の勢力として。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_アルト・イヴニル_names_ラフディ＝ガロアンディアン_p6549
+        quote: この小世界の新たな名はラフディ＝ガロアンディアン。揺り籠に『心臓』が降臨する日に備えて力を蓄えるアルトにとっての城であり、いずれ救世主を迎えるための自分専用の揺り籠だ。
+        locator: {}
+        spoiler_after: ch0195
+    relationship:
+      observations:
+      - event_ref: E_ch0195_アルト・イヴニル_has_property_マレブランケ_p6549
+        quote: 紫の天主にとっての『マレブランケ』は彼が引き継いだ王権を証明する力だ。彼はこの軍勢を使って大魔将イェレイドさえも第六階層から追いやることに成功していた。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_アルト・イヴニル_has_property_六王の力_p6551
+        quote: 「王よ、あまり六王の力を再演すべきではありません。御身が完全に掌握できているのは『愛情』と『道徳』――マラード王とアルト王の二つのみ。戦いに際してその二つ以外を用いれば、あなたの自我は損なわれていくでしょう」
+        locator: {}
+        spoiler_after: ch0195
+    speech:
+      observations:
+      - event_ref: E_ch0195_アルト・イヴニル_requires_承認_p6550
+        quote: 臣下たちが答えるたび、分裂しそうなアルトの存在が安定し、王の苦痛が和らいでいく。彼は承認を欲していった。それが無くてはその五体はバラバラに千切れ、彼は彼でいられなくなってしまうだろう。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_アルト・イヴニル_other_愛_p6553
+        quote: 「ああ、崇高なるトリアイナ様。その本質こそは『愛』に他ならない」欲しいのは『愛の力』だ。全ての根源、全ての答え、全ての極点。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_アルト・イヴニル_says_救済_p6554
+        quote: 「ああ、そうだ。俺は――私はそれだけを求めていた。愛したい。愛されたい。抱きしめたら抱きしめ返して欲しい。大いなる赦しが、絶対的な抱擁が必要なのだ。俺が、まがいものの私がここにいていいのだという救済が！」
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヘリシューラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0195_ヘリシューラ_appears_as_マスコットドローン_p6524
+        quote: 聞き慣れた声がすると思ったら、すぐ右側で頭に回転翼を付けたちびシューラが飛行していた。いつも俺の視界隅に現れる映像ではなく、物理的実体として上空に存在している小型ドローンのようだ。
+        locator: {}
+        spoiler_after: ch0195
+    speech:
+      observations:
+      - event_ref: E_ch0195_ヘリシューラ_reveals_第二世界槍崩壊_p6527
+        quote: 「世界槍が――壊れてる、のか？」「うん。第二世界槍ノーモン＝プシュケが崩壊したの。原因は不明。影響や被害範囲も不明。それどころか戦っていた上下の軍勢がどうなったのかも不明」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ヘリシューラ_other_世界観の相対性_p6532
+        quote: 「そうだよ？ 世界槍が展開する『文明圏』の内外では『世界観』が違うの。第六の人たちにとってはここだって独立コロニーとの定期便が行き交う宇宙ステーションと大地を結ぶ軌道エレベータ――まあ実際は縦長の静止衛星に近いけど――のひとつとして解釈されるし、あちらの『文明圏』では実際に『そうなる』」
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_スキリシアの古老]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_スキリシアの古老_threatens_新興勢力_p6528
+        quote: 深い闇の底で眠っていた『悪なる樹殻を喰らう四匹の牡鹿』と呼ばれる古代の神獣が重い腰を上げ、不遜な新興勢力が聖域でこれ以上の蛮行を働くなら徹底的な反撃を加えると宣言したのだ。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第一世界槍]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_第一世界槍_other_禁呪テロ_p6530
+        quote: まず目を惹くのは光と雲からなる第一世界槍・天頂霊廟エルネ＝クローザンドで『水晶の司書』を名乗る言語魔術師が起こした『禁呪テロ』事件。人類を融合させ完全で幸福な上位存在にシフトさせる『統合進化計画』を目論んでいたらしい。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第三世界槍]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0195_第三世界槍_transforms_書物_p6530
+        quote: その直後にこれまで『槍』の形をしていた第三世界槍が『書物』にその姿を変えたらしい。更には天と地に分かれて敵対していた北辺帝国と地底都市周辺の空間が圧縮、『書物化』されて、次元の歪みである『書架』に吸い込まれているという。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第七世界槍]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_第七世界槍_other_九紀真経争奪戦_p6531
+        quote: 第七世界槍・砂鐘霊峰アイオーンでは、武林における九大門派によって『手にした者が天下を統べる』と言われる秘伝の奥義書『九紀真経』を巡る争奪戦が行われていたが、最終的には草の民の血を引く運送業の男と美貌の仙人が書物を神仙郷に封印し、争いを収めたという。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五世界槍]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_第五世界槍_other_カード暗躍_p6531
+        quote: 第五世界槍・廃棄世界根ルイン＝ロディニオでは先史文明の遺産を利用して世界征服を目論む闇カード組織ダークジェネシスがカード暗躍。封じられていた数万枚もの禁止カード、『嘲笑うものペレケテンヌル』が危うく世に解き放たれるところだったが、十二歳までの少年少女からなる呪札決闘士たちの活躍で世界の危機は未然に防がれたらしい。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_樹木巡槍艦]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0195_樹木巡槍艦_arrives_第五階層の港_p6533
+        quote: なにしろ木製だ。古めかしい帆船どころか、巨大な樹木を枝も切らずに横倒しにして、中を少し切り抜いて居住可能にしている、といった外観。予備知識が無ければただの大樹にしか見えない、あまりにも『自然と親和的です』みたいな主張を押し出した船。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セロナ・ハーヴェスト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0195_セロナ・ハーヴェスト_names_死神_p6534
+        quote: 「直接顔を合わせるのはこれが初めてですね。改めて自己紹介を。僕はセロナ・ハーヴェスト。ええ、ゼドが内包する死神が一人、と言っておきましょう」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_セロナ・ハーヴェスト_says_ガリヨンテの鎌_p6535
+        quote: 「今日の糧から明日の槍まで、我々『ガリヨンテの鎌』はどのような商品でも迅速にご用意致します。口さがない者たちはダンジョンの死神、卑しい盗品売りなどと呼びますが、いたって誠実な商売をさせていただいておりますので、どうかご安心下さいね」
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セロナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0195_セロナ_reveals_緑の目覚め_p6536
+        quote: 今回の異変で第五階層だけではなく、各階層の『緑』が本格的に目覚め始めます。第八世界槍ティルブ＝ユグドラシルの再生を目指して、ね」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_セロナ_other_アルメ＝アーニスタの所在_p6537
+        quote: 「凍結状態にあるアルメ＝アーニスタの前世体――あれを仇敵であるティリビナ人と巨人は血眼になって探していますが、僕はその所在を掴んでいます」
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ディスペータ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_ディスペータ_attacks_セロナ_p6539
+        quote: セロナをぶん殴ったのは俺だった。球体ドローンから唐突に生えてきた左腕が勝手に動いていたのだ。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ディスペータ_other_絶対遵守の呪文_p6540
+        quote: 「はい黙る。そして傾聴。『生死の誓言』よ刃を研げ。『信仰』の祭司、『誓約』の裁定者、『豊穣』の神官が種を貸し付けを許す――子々孫々、流転する来世、暗き死後の地中までも抵当に定め、未来永劫に奴隷の運命を言祝がん」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ディスペータ_defeats_セロナの対抗呪文_p6541
+        quote: ディスペータの強制誓約呪文と対商人に特化した史実参照の誘惑呪文の連続詠唱に対し、セロナは瞬時に対抗呪文を組み上げて発動。それをディスペータは一睨みで打ち消したのである。それも、わずかに時間を遡って。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ディスペータ_fights_ちびシューラ_p6543
+        quote: ちびシューラがちびルウに殴りかかるも、ちびルウは短い手によるぐるぐるパンチを全てかわして鋭いカウンターを放つ。ちびシューラが吹っ飛ばされてダウン、テンカウント後も立ち上がれない。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ディスペータ_makes_支援呪術_p6543
+        quote: 資産も信用もボロボロな俺たちの王国がセロナに支払い可能なほど繁栄しなくてはならない、という誓約。絶対遵守の呪力が働く以上、俺たちはもはや成功するしかない。
+        locator: {}
+        spoiler_after: ch0195
+    speech:
+      observations:
+      - event_ref: E_ch0195_ディスペータ_says_左腕_p6539
+        quote: 「ふふん、余裕ぶった態度でちゃっかり『第五階層の住人』扱いされようなど百年早いです！ 商人であるあなたの狙いはおおかたメートリアンたちの『富』でしょうけど、残念ですが失敗です！
+          なぜならこの私、シナモリアキラ様の左腕であるディスペータがいるのですから！！」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ディスペータ_threatens_セロナ_p6542
+        quote: 「馬鹿ですかあなたは。王か祭司か村の長――立会人が取り持った契約は王国の法に守られた絶対遵守の約束。しかしそれを担保するのは神の権威、神の力です。つまり契約の事実もあなたたちの生殺与奪も王による踏み倒しもこの私の匙加減ひとつ、ということです。処刑しますよ？」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ディスペータ_says_拡張身体_p6545
+        quote: 「私も、あなたの拡張身体なのですよ」どこか寂しそうに、俺にだけ聞こえる声でディスペータが囁く。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ディスペータ_promises_守護_p6548
+        quote: 「安心して下さいね、アキラ様。第五階層に害をなす全てから、私はあなたを守ってみせる――ラクルラール、未完成の女神。あれは私が必ず否定します」
+        locator: {}
+        spoiler_after: ch0195
+    relationship:
+      observations:
+      - event_ref: E_ch0195_ディスペータ_loves_アキラ_p6547
+        quote: 彼女は俺を愛している。俺が罪に怯え、悩み、苦しみ――カインを殺したその瞬間、罪悪感を誤魔化す罪悪感に耐えきれず『Ｅ－Ｅ』を遮断した弱さを肯定している。この苦痛と懊悩こそが彼女の望み。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびルウ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0195_ちびルウ_appears_as_二頭身キャラクター_p6542
+        quote: 呪文発動の時系列に割り込みをかける灰の色号は呪文の打ち消し合戦において最も有利な呪術系統である――そんな知識を披露してきたのは、俺の視界の左側にいつの間にか現れていた小さな二頭身キャラクターだ。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_火車]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_火車_makes_継ぎ接ぎの怪物_p6555
+        quote: 殺すたびに増殖する小鬼――それらの死体を寄せ集めた継ぎ接ぎの怪物が出来上がっていく。半透明なアストラル体の男は、その継ぎ接ぎ死体を『器』にしようとしている。
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_火車_kills_イェレイド_p6557
+        quote: 答える前に拳がイェレイドの頭部を圧壊させる。破壊、殺戮、性欲――暴力的衝動と力の行使が直結していた。
+        locator: {}
+        spoiler_after: ch0195
+    visual:
+      observations:
+      - event_ref: E_ch0195_火車_wears_猫耳_p6555
+        quote: 頭に猫耳などを乗せてにゃーんと鳴いてみせるが、さてこの小鬼は異界からやってきた猫の成れの果てだったのだろうか？
+        locator: {}
+        spoiler_after: ch0195
+    speech:
+      observations:
+      - event_ref: E_ch0195_火車_says_シナモリアキラ_p6557
+        quote: 「あれは全部ゴミだよ。無節操に『俺』を増やそうと無意味だ。ゼロに何をかけてもゼロだろ。無価値は無価値。まがいものはまがいもの――それは『オリジナルの衝動』である俺にしたって同じだ。俺がシナモリアキラのアストラル体であったとしても、その価値は他の有象無象のシナモリアキラ共となんら変わることは無い」
+        locator: {}
+        spoiler_after: ch0195
+    name:
+      observations:
+      - event_ref: E_ch0195_火車_names_セト_p6560
+        quote: 「もう俺は今の『シナモリアキラ』とは別のものだ。原初にして剥き出しの俺は――ああ、じゃあこう名乗ろう。『セト』と」
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イェレイド]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0195_イェレイド_says_イェレド_p6561
+        quote: 「いえ、こちらの与太話ですわ。イェレイドという名は、ジャッフハリマータ表記で歪められたイエレド――猫の国から伝わった人類始祖の一人の名前の転訛なのですよ。」
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セト]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0195_セト_loves_イェレイド_p6561
+        quote: ただその在り方に見惚れただけだ。その美しさと醜さに惹かれただけだ。トリシューラとコルセスカに出会わず、第六階層に転生していたなら、きっとシナモリアキラはイェレイドに運命を感じていた。
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イツノ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_イツノ_defeats_ルウテト_p6563
+        quote: その結果がこの勝利。いや、完全な勝利とはいかなかったにせよ、ルウテトが『揺り籠』を掌握することは防げたのだ、少なくとも敗北ではない。
+        locator: {}
+        spoiler_after: ch0195
+    speech:
+      observations:
+      - event_ref: E_ch0195_イツノ_thinks_フィド・シュガ_p6563
+        quote: 「しっかりわたし！　わたしにーさまを殺して『わたし』が完全になるまで、浮ついた思考は厳禁！　求めるのは強きアニムス、男か女か曖昧な存在にうつつを抜かしている場合では無いの！」
+        locator: {}
+        spoiler_after: ch0195
+    relationship:
+      observations:
+      - event_ref: E_ch0195_イツノ_bonds_マラコーダ_p6569
+        quote: 「私はトリシューラを守り、正しい道に導く」「私もトリシューラを守り、正しい道に導こうと思っているわ。良かった、目的が一緒で――ねえ、私たち、仲良くやっていけそうじゃない？」
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラコーダ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0195_マラコーダ_names_ミスカトニカの代行者_p6566
+        quote: 「九姉の六位を巡る椅子取りゲームの監視役。滅びた前六位ミスカトニカの指令で動く代行者ラクルラール、それがマラコーダの正体――違う？」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_マラコーダ_promises_トリシューラへの忠誠_p6567
+        quote: 「陛下が正道を歩む限り、私はあの可愛らしい女王様の味方よ。ミスカトニカ様の正統なる後継者にして新たなる代理人――私たちのトリシューラを脅かすものは全てこのフィド・シュガが倒す」
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラクルラール]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0195_ラクルラール_makes_ジオラマ_p6572
+        quote: 正六角形のゲーム盤には六王や人形の駒が乱雑に並び、盤面の両端で睨み合う白骨の女王と人形師の駒は依然として健在なまま。ゲーム盤はひどく精緻なジオラマの第五階層だ。
+        locator: {}
+        spoiler_after: ch0195
+    speech:
+      observations:
+      - event_ref: E_ch0195_ラクルラール_says_ディスペータ_p6574
+        quote: 「ディスペータ、死ねない女神。あなたは私が必ず殺す。ゲームでなら勝てるなんて思い上がり、粉砕してあげるよ」
+        locator: {}
+        spoiler_after: ch0195
+      - event_ref: E_ch0195_ラクルラール_says_アキラくん_p6575
+        quote: やがてラクルラールの唇が、最大級の親しみを込めてある形をなぞっていく。『ア、キ、ラ、く、ん』
+        locator: {}
+        spoiler_after: ch0195
+  first_appearance_candidate: true

@@ -1,0 +1,280 @@
+episode: ch0122
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_広告動画]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0122_広告動画_appears_as_球体関節人形_p4284
+        quote: 青い髪の球体関節人形がカメラの方を向くとカタカタと笑う。それを見た家族が談笑する。両親に手を引かれた小さな子供が人形を欲しがる。
+        locator: {}
+        spoiler_after: ch0122
+    speech:
+      observations:
+      - event_ref: E_ch0122_広告動画_defines_資格習得の理屈_p4284
+        quote: 資格の習得を促す広告。機械に仕事を奪われた分だけ、その機械に関連した仕事が必要になってくるのだという理屈が述べられる。
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_広告動画_defines_最初の先生_p4285
+        quote: 小さな子供は、父親と一緒に内側の機械を組み立て、母親と一緒に人形の目を彩色し、服を縫製して飾り立てる。大写しになる文字――『最初の先生は、すぐそばにいる』
+        locator: {}
+        spoiler_after: ch0122
+    action:
+      observations:
+      - event_ref: E_ch0122_広告動画_disappears_画面_p4285
+        quote: ぶつりと、全ての映像が消えた。そこは暗闇。無数の画面が瓦礫のように積み上がった散らかった空間だ。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五階層]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0122_第五階層_transforms_夜空_p4286
+        quote: 天蓋の巨大な照明が明滅し、灰色のドームがゆっくりと薄れて消えていく。現れたのは、無限に広がる夜空だった。四つの月が第五階層という名の小世界を照らす。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_言理の妖精]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0122_言理の妖精_enables_矛盾の並存_p4286
+        quote: 世界槍という巨大な尖塔の内部であるにも関わらず、言理の妖精という神秘がその異常を現実に落とし込んだ。ガロアンディアンの頭上には第四階層があり、同時に空が広がっている。二つの事実は矛盾しながら並存しているのだっ
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_青髪の人形]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0122_青髪の人形_says_アキラくん_p4286
+        quote: 人形が、赤毛の少女と一緒に名前を呼ぶ。『ア、キ、ラ、く、ん』
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マゼンタ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0122_マゼンタ_says_シナリオ_p4287
+        quote: 「いいのよ、背後の警戒なんて適当で。それに多分、全てはお姉様が望まれたシナリオの内。どうせ七番目は必要になる」
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_マゼンタ_defines_使い魔の紀人_p4288
+        quote: 「市場と企業の紀人グレンデルヒ、官庁と国家の紀人トリシューラ、武術流派とネットコミュニティの紀人シナモリアキラ――これらは技術と杖に近い紀人たち。真に純粋な使い魔の紀人は――そうね、学校。そして家族」
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_マゼンタ_reveals_第七断章富_p4288
+        quote: 「第七断章【富】――担い手はメクセトの裔か、クロウサーの当主トラストか、はたまた狂える吸血姫か。最後のピースは運命によってこの場所に引き寄せられる。
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_マゼンタ_other_トリシューラ_p4289
+        quote: 「馬鹿なトリシューラ。国家の紀人、そんな道を選択した時点で、あなたは操り人形となる道を自ら選んでしまったようなもの。国民お人形を作り出す手段がなければ、王国に未来は無い。
+        locator: {}
+        spoiler_after: ch0122
+    action:
+      observations:
+      - event_ref: E_ch0122_マゼンタ_disappears_姿_p4289
+        quote: 暗雲に月光が遮られ、少女たちの姿も消える。残ったのは、長い長い絹糸のような紅紫の髪が一本。それさえも夜風に吹かれてどこかへと飛ばされていった。ふと、虚空でその色が変化する。深い深い、青色に。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0122_ゼド_other_盗賊団_p4290
+        quote: 盗賊王ゼド。非正規探索者たちを率いるならず者たちの英雄。そして彼に付き従うのは英雄たちから利益を掠め取る盗賊団。
+        locator: {}
+        spoiler_after: ch0122
+    speech:
+      observations:
+      - event_ref: E_ch0122_ゼド_hopes_シナモリアキラ_p4291
+        quote: 「上の方でもなにやら動きがあったようだ。俺たちはどう立ち回るか――お前はどう動く、シナモリアキラ。その正義と価値が熟すのはいつになる？」
+        locator: {}
+        spoiler_after: ch0122
+    visual:
+      observations:
+      - event_ref: E_ch0122_ゼド_conceals_青い髪_p4292
+        quote: 「大将、髪染めました？」「いいや？ どうした？」「光の加減かな、一瞬青く見えたような」気のせいかな、と探索者が呟いた。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グラッフィアカーネ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0122_グラッフィアカーネ_fights_自動機械_p4292
+        quote: 「【変異の三手】はグレンデルヒを演じていたんだろ。サイザクタートの仇であるあいつが普通の手段で殺せないなら、そいつらを殺すしか仇を討つ方法が無いじゃないか！」敵対勢力を捕縛している自動機械たちに怒鳴りつける。
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_グラッフィアカーネ_flees_ちびシューラ_p4295
+        quote: 「すみません、ちょっと今後の事について考えさせてもらいます」不信は決定的なものとなっていた。強引に相手を従わせようとするやり方は、当然のことながら反発を招く。足早に立ち去っていく少年の背を、稼働する機械たちは見送ることしかできなかった。
+        locator: {}
+        spoiler_after: ch0122
+    visual:
+      observations:
+      - event_ref: E_ch0122_グラッフィアカーネ_has_property_青い体毛_p4293
+        quote: トライカラーの毛並みが逆立っていく。白、黒、黄褐色。そして青。――青い、体毛。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ちびシューラ]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0122_ちびシューラ_uses_マレブランケ_p4294
+        quote: 【マレブランケ】という異界の呪力を借りた形式。名付け親とは名付けた相手に疑似的な親として権威を振るえる呪術的絶対者である。しかしちびシューラがグラッフィアカーネという名に対して行使した呪文は不発に終わる。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_魔教]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0122_魔教_other_オルヴァ・スマダルツォン_p4295
+        quote: 「おお、偉大なるブレイスヴァ。そして、かの恐るべきあぎとを幻視した大予言者、オルヴァ・スマダルツォンよ！」魔教は、まずブレイスヴァを恐れ、それから一人の人物を崇め奉る。
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_魔教_other_大儀式_p4296
+        quote: 十三階段に一人ずつの生贄。それぞれが異なる階層の出身で、階段は十三の地位を表現している。それは一定の日時、場所、生贄を順番に処刑していくという条件を満たし、天の御殿より霊魂を逆流させるという大儀式。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ネドラド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0122_ネドラド_fights_アズーリア_p4297
+        quote: 「余波だけでこれか。最強の寄生異獣マリー。どうも、僕にとってあれは鬼門らしい。こうまで惨めに逃げる羽目になるとはね」守護の九槍第八位、ネドラド。
+        locator: {}
+        spoiler_after: ch0122
+    visual:
+      observations:
+      - event_ref: E_ch0122_ネドラド_has_property_青い髪_p4298
+        quote: ぎこちない動きで歩く男の頭部に、一房の青い髪が混じっていた。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_幻姿霊]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0122_幻姿霊_fights_新生三報会_p4299
+        quote: 瞬間、黒い布の中央を突き抜けて何かが飛び出し、男の鳩尾に叩き込まれた。その場の誰も、一切の予備動作を感知できなかった。鋭い槍を思わせる貫手。
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_幻姿霊_other_新生三報会_p4300
+        quote: それらが倒れて呻く男たちの目の中に侵入し、脳の中を探っていく。絶叫が、夜の闇に谺した。
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_幻姿霊_other_青い糸_p4301
+        quote: 粘つくような操り糸。それが影に触れようとした瞬間。より巨大な青い奔流が影から溢れ出し、か細い糸を飲み込んでしまう。
+        locator: {}
+        spoiler_after: ch0122
+    speech:
+      observations:
+      - event_ref: E_ch0122_幻姿霊_asks_カーイン_p4300
+        quote: 「やはりここにいたか、カーイン」フードの内側で、鋭く端整な顔が歪む。それは怒りか悲しみか。「何故、ジャッフハリムを裏切った――」
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_幻姿霊_other_パーン_p4301
+        quote: 「誰も彼もが、私を置いていく。なあ、パーンよ。私はいつまで待てばいい？」
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_聖マローズ教団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0122_聖マローズ教団_appears_大型モニタ_p4301
+        quote: 映し出されていた歌姫のＰＶが中断され、唐突に新たな映像が表示される。何事かと頭上を見上げる人々は、黒ずくめたちを目にする。彼らあるいは彼女らは、聖マローズ教団と名乗った。
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_聖マローズ教団_threatens_人質の殺害_p4304
+        quote: 全ての人体が吐き出され、最後にごろりとした生首が落ちる。獣の三角耳、宝石の瞳、そして黄色い髪を備えた、ドラトリアが誇る美姫。人質よりも少しだけ年下の少女が無惨な姿を晒していた。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラリスキャニア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0122_ラリスキャニア_other_神祖マロゾロンド_p4302
+        quote: 画面中央の指導者はラリスキャニアと名乗った。我こそは神祖マロゾロンドの声を代弁するものである、と。
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_ラリスキャニア_other_大カーティスの魂_p4303
+        quote: 曰く、不遜にも我らの下に在るべき魂を独占するその所業恥じるべし。期日までにドラトリアの建国王、大カーティスの魂をマロゾロンドの御許へと運べ。そこで――『人質』と交換する、と捲し立てた
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_人質の少女]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0122_人質の少女_appears_as_拘束された吸血鬼_p4303
+        quote: 長い翠玉の髪と血のような瞳、そして長い牙を口から覗かせる艶然たる美貌。裸のまま割座の姿勢をとらされており、腰を斜めにずらし、か細い裸の足を持ち上げることでかろうじて足の間を隠している。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_水底の存在]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0122_水底の存在_hopes_ハザーリャの加護_p4305
+        quote: 「終わらぬ。まだなにも終わってなどおらぬ。我らが部族の悲願を果たすまでは死ねぬのだ。たとえ狂信者どもの走狗に成り果てようと、必ずや偽りの守護天使を退け、真の守護神たるハザーリャの加護を取り戻してみせようぞ」
+        locator: {}
+        spoiler_after: ch0122
+      - event_ref: E_ch0122_水底の存在_other_魂の同胞_p4306
+        quote: 「待っていろ、今助け出してやる。ロドウィ、アルテミシア、ローズマリー、セージ、アニス。我が魂の同胞たちよ。再生者として復活し、我と共に江湖の栄光を取り戻すのだ」
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_バル・ア・ムント]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0122_バル・ア・ムント_fights_グレンデルヒ_p4306
+        quote: 第五階層北東部、工場や生産プラントが並ぶガロアンディアンにとって重要な区画に突如として黄褐色のスーツを着たグレンデルヒが出現。トリシューラの留守を預かっていたバル・ア・ムントらドラトリア系夜の民部隊と交戦した。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0122_グレンデルヒ_disappears_遺体_p4307
+        quote: しかし、一向にそれらしき遺体は見つからない。それどころか、最後のグレンデルヒ中枢を演じていたのが誰であるのかも不明なままだ。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼンマイ仕掛けの人形]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0122_ゼンマイ仕掛けの人形_says_トリシューラ_p4308
+        quote: 「そうでしょう？ ――私の、トリシューラ」がらくた 独白は夜に溶けていく。揺るぎ無い声。完璧な人形として、機能を十全に果たすだけ。何があろうとも少女人形は傷付かない。
+        locator: {}
+        spoiler_after: ch0122
+  first_appearance_candidate: true

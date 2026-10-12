@@ -1,0 +1,186 @@
+episode: ch0003
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_イェレイド]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0003_イェレイド_says_作戦の失敗_p171
+        quote: 申し訳ありません。遠隔操作の呪力兵だけを連れて侵攻したのが裏目にでましたわ。呪力兵は全て自壊、わたくし一人が第四階層で完全に孤立しました。
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_イェレイド_asks_アキラの処遇_p173
+        quote: それよりもマーネロア。『ソレ』、止めを刺していないようですが、ゾンビかボットにでもしますの？
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_イェレイド_says_迷宮の美意識_p175
+        quote: うんうん、それに青ばっかで色彩感覚おかしくなりそう。美意識皆無だよね
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_イェレイド_says_魔将の残数_p175
+        quote: ですがもう四人しか残っていませんわ。だからわたくしたちの中で彼が最弱。異論がありまして？
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_イェレイド_promises_階層の掌握_p176
+        quote: 次は私がこの階層を掌握します。この一騎当千のイェレイドが、全ての敵を迎え撃ち、悉く屍に変えてご覧に入れましょう
+        locator: {}
+        spoiler_after: ch0003
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マーネロア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0003_マーネロア_observes_アキラ_p171
+        quote: 意識を失った隻腕義手の男を、その倍はあろうかという体格の影が見下ろしていた。 猿だ。 途方もなく巨大な、柱と見まがうほどに野太い両腕を地面に着け、前傾姿勢をとっている。
+        locator: {}
+        spoiler_after: ch0003
+    name:
+      observations:
+      - event_ref: E_ch0003_マーネロア_names_イェレイド_p172
+        quote: 滅多な事を言うものではないぞ、イェレイド。それにまだ我らがいる
+        locator: {}
+        spoiler_after: ch0003
+    speech:
+      observations:
+      - event_ref: E_ch0003_マーネロア_thinks_アキラの戦士としての資質_p173
+        quote: 私の奇襲に反応して一撃を返せるほどの戦士がここで終わるという事実に、戦場の無情を感じていたのだ
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_マーネロア_says_迷宮の構築_p175
+        quote: それにしてもひどい迷宮構築だ。掌握者の自意識が過剰に前面に出ていて下品極まりない
+        locator: {}
+        spoiler_after: ch0003
+    action:
+      observations:
+      - event_ref: E_ch0003_マーネロア_other_アキラの殺害_p176
+        quote: 無言のまま巨大な腕が持ち上げられる。そのまま振り下ろされただけで、圧倒的な重量と腕力に叩きつぶされて男は命を失うだろう。
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_マーネロア_loses_階層の掌握_p178
+        quote: 迷宮は、マーネロア以外のものによって掌握され、再構成されようとしていた。
+        locator: {}
+        spoiler_after: ch0003
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガドール]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0003_ガドール_says_エスフェイルの死体_p172
+        quote: こっちでもエスフェイルの死体を確認したよー。最終形態まで見せたのに負けちゃったみたい
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_ガドール_defines_魂と呪術_p174
+        quote: 一度でも魂が無いって観測されてしまった存在は、呪術の質が著しく落ちる。良くて低級の使い魔、悪くて自律型の魔導書ってところじゃないかな
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_ガドール_other_アキラの技量_p174
+        quote: 最低でもエスフェイルさん以上だと見積もっておく必要があるんじゃないかな
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_ガドール_says_エスフェイルの死因_p174
+        quote: このエスフェイルさんの死体さ、面白いことに紀源から遡及的に解体されてる。わかる？ 時間に干渉して、過去に遡って因果ごと殺してるんだよ。
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_ガドール_other_人狼_p177
+        quote: いや違う。あれ、皮を被ってるだけの偽物だね。狼の皮を被るもの――高位呪術師だ
+        locator: {}
+        spoiler_after: ch0003
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_人狼]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0003_人狼_takes_アキラ_p177
+        quote: 一陣の風が吹き、その身体を持ち去っていく。
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_人狼_teleports_アキラ_p178
+        quote: 呪術による目眩ましに気を取られた巨猿の足が一瞬止まり、発光が収まった時には、人狼と青年の姿は忽然と消え失せていた。
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_人狼_attacks_ヲルヲーラ_p179
+        quote: その目が赤い光を放つ。ヲルヲーラの片翼が何らかの外力を加えられ、半ばからねじ曲がる。
+        locator: {}
+        spoiler_after: ch0003
+    speech:
+      observations:
+      - event_ref: E_ch0003_人狼_names_アキラ_p180
+        quote: だから、もっと強くなってよね、アキラくん
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_人狼_says_アキラへの期待_p180
+        quote: 心配ないよ。この子なら、きっと貴方たちの作る秩序だって打ち倒して、その先へ行ける
+        locator: {}
+        spoiler_after: ch0003
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_青い造花]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0003_青い造花_attacks_人狼_p177
+        quote: 蠢く造花は人狼に触れられない。目に見えない力で近付くもの全てを押しのけているかのようだった。
+        locator: {}
+        spoiler_after: ch0003
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヲルヲーラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0003_ヲルヲーラ_asks_人狼の立場_p179
+        quote: この時節に貴方が介入するとは予想外でした。いったい貴方は上方勢力と下方勢力、どちらに付くつもりなのですか？
+        locator: {}
+        spoiler_after: ch0003
+    action:
+      observations:
+      - event_ref: E_ch0003_ヲルヲーラ_dies_肉体_p179
+        quote: 風船が割れるかのような音がして、猫の肉体が内側から弾け飛ぶ。
+        locator: {}
+        spoiler_after: ch0003
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0003_アキラ_names_鎧の腕_p181
+        quote: 血と暴力に支配された猥雑の中を、腕一本のみで渡り歩き、のし上がっていく男は、いつしかその異様な風貌から『鎧の腕』とあだ名されるようになっていた。
+        locator: {}
+        spoiler_after: ch0003
+    action:
+      observations:
+      - event_ref: E_ch0003_アキラ_other_再会_p181
+        quote: 黒く、闇のような左手を雁字搦めに金鎖で縛られて、寝台に横たわりながら無力に責め苛まれる。
+        locator: {}
+        spoiler_after: ch0003
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ゼオーティア]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0003_ゼオーティア_defines_世界_p182
+        quote: この世界を、多くの異世界がゼオーティアと呼んだ。
+        locator: {}
+        spoiler_after: ch0003
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_赤い髪の魔女]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0003_赤い髪の魔女_says_世界の性質_p182
+        quote: 野蛮でないものは失われた。ここは棍棒と呪術の世界。血と闘争、鉄の願いが支配する、地獄すら狩り場にして恥じない呪われた世界
+        locator: {}
+        spoiler_after: ch0003
+      - event_ref: E_ch0003_赤い髪の魔女_says_祈りと暴力_p182
+        quote: だから今は祈ろう。祈りながら、祈祷の道具を鈍器に換えて、殴って悪夢を醒ましてやろう
+        locator: {}
+        spoiler_after: ch0003
+  first_appearance_candidate: true

@@ -1,0 +1,182 @@
+episode: ch0234
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ダウザール]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0234_ダウザール_appears_as_青い血液の群体_p7680
+        quote: 片方は流動する青い血液で、時折内部が盛り上がって肉塊に変わり、帽子や翼や金眼などを覗かせる奇妙な群体。
+        locator: {}
+        spoiler_after: ch0234
+    name:
+      observations:
+      - event_ref: E_ch0234_ダウザール_reveals_正体_p7681
+        quote: ダウザールというのは、クロウサー家が持つ特徴の全てを発現させた古い時代の『空使い』の名であり、パーン・ガレニス・クロウサーが挑んだ魔王その人である。
+        locator: {}
+        spoiler_after: ch0234
+    speech:
+      observations:
+      - event_ref: E_ch0234_ダウザール_says_右腕への信頼_p7681
+        quote: 「あの中には私が最も信頼する右腕もいる。失敗はない」
+        locator: {}
+        spoiler_after: ch0234
+      - event_ref: E_ch0234_ダウザール_thinks_ソルダの評価_p7684
+        quote: 「しょせんは多神教世界観の中で一柱の力を簒奪しただけの人の子に過ぎぬ。セレクティやディスケイムほどの脅威と見なすのは過大評価に思えるが？」
+        locator: {}
+        spoiler_after: ch0234
+    action:
+      observations:
+      - event_ref: E_ch0234_ダウザール_observes_リーナ_p7684
+        quote: 虚空に幻像が浮かぶ。過去の戦いを再現したものだった。巨大な水銀の蛇と相対するちっぽけなリーナ。
+        locator: {}
+        spoiler_after: ch0234
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ハグレス]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0234_ハグレス_appears_as_神々の幻影_p7680
+        quote: もう片方は黒衣や虹の弓持つ若者など、良く知られているゼオーティアの神々に次々と姿を変える個体。
+        locator: {}
+        spoiler_after: ch0234
+    action:
+      observations:
+      - event_ref: E_ch0234_ハグレス_gives_ミシャルヒとカーズガン_p7682
+        quote: 「ミシャルヒとカーズガンは僕からのプレゼントだ。上手く使ってほしい」
+        locator: {}
+        spoiler_after: ch0234
+    speech:
+      observations:
+      - event_ref: E_ch0234_ハグレス_says_共存の選択_p7682
+        quote: 「おかげで首尾よく絡みつけた。持つべきものは友達だね。君たちが幽月から来訪したあの時、共存を選択した僕は賢明だった」
+        locator: {}
+        spoiler_after: ch0234
+      - event_ref: E_ch0234_ハグレス_reveals_金鎖騎士団_p7684
+        quote: 「その認識は改めるべきだよ、ダウザール。ソルダは『守護の九槍』に代わる新たな戦力を準備している。『金鎖騎士団』という妙な集団だ」
+        locator: {}
+        spoiler_after: ch0234
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_守護の九槍]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0234_守護の九槍_defines_監視役_p7683
+        quote: 松明の騎士団という組織は決して一枚岩ではない。義国派と呼ばれるこの三名は本国から派遣された監視役であり、槍神教の中枢たる大神院の目である。
+        locator: {}
+        spoiler_after: ch0234
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミシャルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0234_ミシャルヒ_other_カーズガン_p7685
+        quote: 黒衣の麗人ミシャルヒと魁偉なる戦士カーズガンが、世界槍の中心で握手を交わしていた。
+        locator: {}
+        spoiler_after: ch0234
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0234_シナモリアキラ_appears_as_ミーム_p7686
+        quote: 何故かシナモリアキラとシナモリアキラが握手をして自作自演の和解をするシーンがミーム化。 氾濫したシナモリアキラ自演画像が検索性を高めるための投稿タグである『＃コアート』を荒らしまわるに至りコルセスカが遺憾の意を表明。
+        locator: {}
+        spoiler_after: ch0234
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファーガスト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0234_ファーガスト_threatens_カーズガン_p7687
+        quote: 「カーズガンよぉ、てめえよくも俺の前にツラ出せたもんだな、ああっ？！」
+        locator: {}
+        spoiler_after: ch0234
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エンハ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0234_エンハ_transforms_ナックス_p7688
+        quote: 無造作に。そしてごく自然に。 兄が弟の首を引き千切った。 さながら鞘から刃を抜くように、エンハは競技者というよりむしろ戦士のように闘志を滾らせていた。
+        locator: {}
+        spoiler_after: ch0234
+    speech:
+      observations:
+      - event_ref: E_ch0234_エンハ_promises_勝利_p7689
+        quote: 「今度こそクァヒートの血をゾラの本流に！ リーナ・ゾラ・クロウサーは俺たちが娶る。邪魔する全てを排除して！ 偉大なる空と槍にかけて、俺たちは勝利を誓おう！」
+        locator: {}
+        spoiler_after: ch0234
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ビルメーヤ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0234_ビルメーヤ_teaches_リーナ_p7690
+        quote: 彼女はリーナにとっては初等学院時代の恩師にあたる。 若い頃にはその名を知られた箒乗りであり、名コーチとしても知られている人物だが、現役を退いてからは随分な時間が経っている。
+        locator: {}
+        spoiler_after: ch0234
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0234_パーン_says_ダウザールへの挑発_p7691
+        quote: 「舐めているのか、ダウザール？」
+        locator: {}
+        spoiler_after: ch0234
+    action:
+      observations:
+      - event_ref: E_ch0234_パーン_activates_儀式呪詛_p7693
+        quote: いずれにせよ異常な規模での儀式呪詛が会場を取り囲んでいた。 全方位に撒き散らされた呪いを誰も回避できなかった。
+        locator: {}
+        spoiler_after: ch0234
+      - event_ref: E_ch0234_パーン_kills_ミルーニャ_p7694
+        quote: 爆炎の中から焼けただれたミルーニャの身体が落下する。 パーンの腕がその胸を串刺しにして心臓を無造作に抉り出す。
+        locator: {}
+        spoiler_after: ch0234
+      - event_ref: E_ch0234_パーン_takes_血脈_p7698
+        quote: パーンの右腕が、リーナの胸元に吸い込まれていく。 溶けるように内部へと沈んでいく鋼鉄の義肢を、信じられないものを見るようにリーナが見下ろす。
+        locator: {}
+        spoiler_after: ch0234
+      - event_ref: E_ch0234_パーン_other_ダウザール_p7699
+        quote: 彼方から引きずり出されたのは、しわくちゃの赤子でありつるりとした老人だった。 形なき神である巨人の受肉。
+        locator: {}
+        spoiler_after: ch0234
+      - event_ref: E_ch0234_パーン_defeats_ダウザール_p7700
+        quote: パーンは誰よりも高みにいなければならないという拘りをあっさりと放棄して、受肉した怪物の顔面を鷲掴みにする。突然の急降下。誰からもよく見える低い大地に老人を這いつくばらせて、その頭を踏みつけた。
+        locator: {}
+        spoiler_after: ch0234
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メートリアン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0234_メートリアン_other_第五階層_p7701
+        quote: 世界槍に記録された魂は第五階層を管理する紀人の権能と掌握者権限によって巡り、新たな器に流れ込む。
+        locator: {}
+        spoiler_after: ch0234
+    relationship:
+      observations:
+      - event_ref: E_ch0234_メートリアン_other_エレクトラ・ラムンゼン_p7704
+        quote: 「あなた、名前は？」「エレクトラ・ラムンゼンです。よろしくね、メートリアンさん」 知らない名前だが、疑惑は確信に変わった。
+        locator: {}
+        spoiler_after: ch0234
+    speech:
+      observations:
+      - event_ref: E_ch0234_メートリアン_other_ウィズメモリー_p7705
+        quote: 断言するが、この『転活体験アプリ・ウィズメモリー』は最悪だ。ぜったいに星ひとつでレビューしてやる。
+        locator: {}
+        spoiler_after: ch0234
+  first_appearance_candidate: true

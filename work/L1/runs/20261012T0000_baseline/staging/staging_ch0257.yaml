@@ -1,0 +1,148 @@
+episode: ch0257
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_メートリアン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0257_メートリアン_says_身体がある_p8221
+        quote: 「え、なんですかこれ、私の身体がある？」 困惑するメートリアンはぺたぺたと素手で身体に触れている。
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_メートリアン_other_融血呪_p8226
+        quote: 「さっき湯気のお姉さんの温泉浄界を融かしたみたいに、青い血を操ってクロウサーの浄界に穴を開けることができるかもしれない。ぶっつけ本番で悪いんだけど、やってみてくれない？」
+        locator: {}
+        spoiler_after: ch0257
+    visual:
+      observations:
+      - event_ref: E_ch0257_メートリアン_transforms_アストラル体_p8221
+        quote: ユディーアのマテリアル体から一時的に幽体離脱していただけの不安定な存在だった彼女が、いまははっきりと自律した呪的生命に変化している。
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_メートリアン_has_property_金眼_p8223
+        quote: メートリアンの右目。 その瞳は、マウザ・クロウサーの特徴である金眼と化していた。
+        locator: {}
+        spoiler_after: ch0257
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_青い血]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0257_青い血_other_浄界_p8221
+        quote: 浄界の破綻。百目のクロウサー、イナータルゴによる調和さえ塗りつぶして、青い血が全てを呑み込んだ。
+        locator: {}
+        spoiler_after: ch0257
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0257_ユディーア_asks_メートリアン_p8222
+        quote: 「メートリアン、禁呪の代償は？ 個我は安定してる？ 記憶の混濁は？ 肉体に変化を感じる？ 何と混じったかわかるっ？」
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_ユディーア_observes_融血呪_p8222
+        quote: 「ほんとうの、融血呪」 ドロドロのミックスでも、継ぎ接ぎのキメラでもない。 おそらく、最終段階の一歩手前。
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_ユディーア_remembers_ガルズ・マウザ・クロウサー_p8223
+        quote: （骨の花。野心ぎらぎらだった頃のメートリアンがあたしたちを裏切ってフィリスを奪おうとした時に、途中で乱入してきたガルズ・マウザ・クロウサーの使い魔！
+          結局は負けちゃって、メートリアンの中に取り込まれたって話だったけど）
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_ユディーア_says_メートリアン_p8226
+        quote: 「メートリアン、移動の準備をしながら聞いて。その身体は空の民みたいな状態だけど、本質的には何かの寓意像なんだと思う」
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_ユディーア_asks_チリアット_p8236
+        quote: 「アテンプレク先生。マーネロアのことを、動物として見ていたの？」
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_ユディーア_observes_レメス_p8239
+        quote: ユディーアはこれが世界の危機であることに気付きつつあった。 レメスが好き勝手に振る舞えば、クロウサーが世界を支配するとかそれどころではない事態が始まってしまう可能性があった。
+        locator: {}
+        spoiler_after: ch0257
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イナータルゴ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0257_イナータルゴ_reveals_真の主_p8225
+        quote: 「古き大神院は崩れ、偽りの槍神は折れた！ 最上位の紀神に至るべき我らが主人は復活の時を迎えようとしている！ 見よ、我らが天を！」
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_イナータルゴ_says_ダウザール_p8225
+        quote: 「私も！ お前たちも！ ダウザール様でさえ！ 所詮は凡庸な超越者、ありきたりな神のイメージしか描けぬ凡夫に過ぎぬというのに！」
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_イナータルゴ_reveals_チリアットの秘密_p8228
+        quote: 「お前の痛みが良く見えるぞ。叶わぬ恋の傷、醜い欲の毒」 「魔将マーネロアであろう？ お前の叶わぬ願い。歪んだ欲動の向かう先は」
+        locator: {}
+        spoiler_after: ch0257
+    action:
+      observations:
+      - event_ref: E_ch0257_イナータルゴ_attacks_チリアット_p8227
+        quote: 「私には物事の本質が見える。お前の業もだ、チリアット＝アテンプレク」
+        locator: {}
+        spoiler_after: ch0257
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_レメス]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0257_レメス_appears_戦場_p8230
+        quote: 城内から現れたのはサンダルと腰布だけを身につけた線の細い青年だ。 癖のある巻き毛、優しそうな垂れ目と長い睫毛、血色のいい頬、柔和な笑み。
+          気象現象たる巨大な虹そのものを弓として携えた男性は、楽器を鳴らすような優雅さで光の弦を長い指で爪弾いた。
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_レメス_transforms_下半身_p8232
+        quote: 腰布に覆われていたはずの下半身の前方に、獣の姿がある。 遠目には、上半身が人で下半身が獣という神話にありがちな姿にも見えた。
+        locator: {}
+        spoiler_after: ch0257
+    action:
+      observations:
+      - event_ref: E_ch0257_レメス_kills_巨人_p8230
+        quote: 弓を引いた瞬間、命中していた矢が巨人を瞬く間に消滅させる。
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_レメス_transforms_獣将国_p8238
+        quote: レメスが手を一振りすると、遥か遠方の空間が撓み、一瞬で塗り替えられた。 険しい渓谷や雄大な河川、広がる草原といった自然に満ちたステージは『下』の西方に広がる虹国ヴァルニアと融合していく。
+        locator: {}
+        spoiler_after: ch0257
+    speech:
+      observations:
+      - event_ref: E_ch0257_レメス_says_生めよ殖えよ_p8233
+        quote: 「神ならこうだ。『生めよ、殖えよ、地に満ちよ』って叫ぶよ、世界中に聞こえるように！ 犯せ、言祝げ、かくて人口は爆発する！」 瞬間、巨人たちが爆散した。
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_レメス_defines_出生主義_p8234
+        quote: 「そうさ！ クロウサーこそ真の！ 究極の意味での！ 出生主義者だ！ 誰も否定することはできない！ 生まれること、可能性を有すること、祝福を与えられること！」
+        locator: {}
+        spoiler_after: ch0257
+      - event_ref: E_ch0257_レメス_other_ユディーア_p8237
+        quote: 「おお、まさかそこにいるのは僕の親友、ダーカンシェルじゃないか？」 「ではその血を受け継ぐ者だね！ 親友の子孫は我が子も同然！ 我が娘にして大親友ダーカンシェラよ、共にケモハーレムを築こう！」
+        locator: {}
+        spoiler_after: ch0257
+    symbolic:
+      observations:
+      - event_ref: E_ch0257_レメス_has_property_超性欲_p8235
+        quote: 美しき青年神は超性欲をその身に宿した神話級の『犬好き』だったのだ。 邪視者の極点たる浄界、そして超リビドーによる『人類』呪文の詠唱により、虹犬という種族を生み出すという偉業さえ成し遂げた。
+        locator: {}
+        spoiler_after: ch0257
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_大神院]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0257_大神院_fears_レメス_p8231
+        quote: 槍神教という巨大な勢力が、たったひとりの男を恐れている。 あるいは、クロウサー家という巨大な陣営全体よりも。 この美しい紀人こそが真の恐怖であるかのように。
+        locator: {}
+        spoiler_after: ch0257
+  first_appearance_candidate: true

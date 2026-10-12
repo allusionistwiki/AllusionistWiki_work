@@ -1,0 +1,128 @@
+episode: ch0217
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_少年]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0217_少年_observes_空使いの戦い_p7250
+        quote: 策に溺れた敗者の間の抜けた表情を眺めながら、観戦者は愉快そうに笑った。
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_少年_stops_侵入者_p7253
+        quote: と、その直前で何かに気づいて停止した。「へえ？　けっこう気付かれるもんだな。かくれんぼは得意なんだけど。それとも、これはお前だからなのか？」
+        locator: {}
+        spoiler_after: ch0217
+    speech:
+      observations:
+      - event_ref: E_ch0217_少年_says_予定調和の崩壊_p7250
+        quote: 「かくて予定調和は崩れ去り、運命は流転していく。車輪のように。巡る蛇のように」
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_少年_says_人類の残酷さ_p7250
+        quote: 「根のように。泥のように。人類は強く前に進む。屍で出来た道を顧みることもなく。悲しく空しく、傲慢で残酷だ。ヒトはずうっと変わらないな。そう思わないか、兄弟？」
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_少年_says_リーナへの呼びかけ_p7252
+        quote: 「『かつてあったことは、これからもあり、かつて起こったことは、これからも起こる。太陽の下、新しいものは何ひとつ無い』。ああ、リーナ。来ていたんだね。」
+        locator: {}
+        spoiler_after: ch0217
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_男]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0217_男_makes_ヴァニタスの絵_p7251
+        quote: 髑髏と果実。死と生。ヴァニタス・ヴァニタートゥム。
+        locator: {}
+        spoiler_after: ch0217
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_鳥籠]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0217_鳥籠_is_located_ガロアンディアンの上空_p7251
+        quote: ガロアンディアンの目が届かぬ遥か上空、天竜境界の干渉に晒されない安全地帯。祝祭の厳重な監視網をかいくぐるかのように構築された隔離された異界。
+        locator: {}
+        spoiler_after: ch0217
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0217_オルヴァ_asks_ガルズ・マウザ・クロウサーの行方_p7254
+        quote: 「ガルズ・マウザ・クロウサーをどうするつもりだ」
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_オルヴァ_fears_未知の奇襲_p7256
+        quote: ガドールとの遭遇を未来視は見通せなかった。それはすなわち、この魔将には賢者を上回る何かがあることを意味していた。
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_オルヴァ_other_罠_p7257
+        quote: オルヴァを倒すのはガドールであってガドールではない。知覚外から放たれた、未知の奇襲である。
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_オルヴァ_says_破滅の予言_p7262
+        quote: 「女王の罪は暴かれる！　狼の牙が機械仕掛けの喉笛に狙いを定め、虹と茨と奈落が王国を包囲するであろう！　シナモリアキラは内と外に押しつぶされ、無残に崩壊する！」
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_オルヴァ_says_竜の帝王の破壊_p7263
+        quote: 「断じて否！　カシュラムが貪られるのであれば、宿敵たるラフディの未来もまたブレイスヴァに飲み込まれることは必然！
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_オルヴァ_says_歌姫の孤立_p7265
+        quote: 「『現在』を望む歌姫は石を投げられ、声はどこにも響かない。この世界のどこにも甘い理想に耳を傾ける者などいない！」
+        locator: {}
+        spoiler_after: ch0217
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガドール]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0217_ガドール_says_虚ろうもの_p7256
+        quote: 「俺は『虚ろうもの』。弑された終端を握るのはお前ではない、そしてこの俺でもない」
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_ガドール_asks_心臓の行方_p7267
+        quote: 「『心臓』は誰の手に？」
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_ガドール_says_コルセスカへの宣告_p7268
+        quote: 「誰も抗えない破滅がやってくるぞ、コルセスカ！　お前のあがきは無意味だ、『未知なる末妹』は怒りと共に産声を上げる！」
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_ガドール_says_最終決戦の展望_p7270
+        quote: 「どうせこのバカ騒ぎの最後には『真なる使い魔の座』と『真なる邪視の座』が激突して全部おしまいになる。このかりそめの都は塵も残さず滅び去るんだ。」
+        locator: {}
+        spoiler_after: ch0217
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_鏡]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0217_鏡_appears_割れた鏡_p7258
+        quote: いつの間にか巨大な鏡が少年の背後に鎮座していた。映し出された世界に亀裂が走る。鏡面が割れ、歪んだ世界に映るガドールの鏡像が分かれていく。
+        locator: {}
+        spoiler_after: ch0217
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0217_女_takes_ガルズ_p7273
+        quote: 鳥籠の中から消失したガルズ。その運命はいつの間にか『鼻』の手に握られていた。
+        locator: {}
+        spoiler_after: ch0217
+      - event_ref: E_ch0217_女_observes_機械仕掛けの少女_p7276
+        quote: 遥か頭上を見上げれば、立体幻像の窓に機械仕掛けの少女と氷のような少女が映し出されている。
+        locator: {}
+        spoiler_after: ch0217
+  first_appearance_candidate: true

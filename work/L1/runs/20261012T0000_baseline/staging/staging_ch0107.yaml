@@ -1,0 +1,263 @@
+episode: ch0107
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ウォレス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0107_ウォレス_says_甘えへの非難_p3775
+        quote: 「王よ。それは甘えです」
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_ウォレス_says_絆による不安解消_p3777
+        quote: 「陛下には儂がいるではございませんか。陛下は一人ではありません。信じ合える友が、仲間がいれば出来ないことなどなにもありません。」
+        locator: {}
+        spoiler_after: ch0107
+    action:
+      observations:
+      - event_ref: E_ch0107_ウォレス_attacks_ウォレス自身_p3776
+        quote: 伸び放題になった隠者の髪の毛と髭が、まるで蛇や長虫のように自ら動いて、老人の首に巻き付いたのである。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_ウォレス_activates_地位の断章_p3784
+        quote: 「『地位の断章』は領域と空間、そして場面すら掌握する。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_ウォレス_other_オルヴァ_p3785
+        quote: その後頭部に、老人の指が深々と突き刺さっている。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_ウォレス_captures_キシャル_p3787
+        quote: 更には一斉に突き出された槍がその小柄な身体を貫いた。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_ウォレス_other_キシャル_p3794
+        quote: 「いいだろう。付け加えるなら、このままではオルヴァ王の再生そのものが失敗する危険性があるからな」
+        locator: {}
+        spoiler_after: ch0107
+    visual:
+      observations:
+      - event_ref: E_ch0107_ウォレス_transforms_髪による支配_p3778
+        quote: その口から、涎で濡れた長い髪の毛が出てきたのを見てオルヴァは驚いてその場にへたり込む。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_ウォレス_transforms_巨漢_p3795
+        quote: 老人の肉体が膨張し、「六十パーセント」の声が響くと同時、石肌の巨漢が豪快に殴り飛ばされた。
+        locator: {}
+        spoiler_after: ch0107
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0107_オルヴァ_says_王位放棄の願望_p3775
+        quote: 「生きることはどうしてこんなにも辛いのか。王の地位など捨て去り、お前のように暮らすことができたならどんなに良いだろう。なあ、我が友ウォレスよ」
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_オルヴァ_says_愛の虚無_p3779
+        quote: 「愛の誓いなどいずれブレイスヴァに食らい尽くされるものに過ぎないのだ。愛だけではない、この世の全てはブレイスヴァによって食い尽くされる定めにある。」
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_オルヴァ_fears_寝取られ_p3786
+        quote: 人は彼を【寝取られ王】の異名で呼び、恐れたという。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_オルヴァ_asks_妻の裏切り_p3787
+        quote: 「我が友よ、どうか彼女を裏切らせてくれ」
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_オルヴァ_other_キシャル_p3788
+        quote: 「やはり裏切ったではないか！ ああ、やはり私が正しかった！ 女など信じられない！」
+        locator: {}
+        spoiler_after: ch0107
+    action:
+      observations:
+      - event_ref: E_ch0107_オルヴァ_flees_中庭_p3778
+        quote: オルヴァは悲鳴を上げてその場から逃げ出した。その日以来、王が中庭に近付く事は無かった。
+        locator: {}
+        spoiler_after: ch0107
+    visual:
+      observations:
+      - event_ref: E_ch0107_オルヴァ_transforms_赤毛と青血_p3782
+        quote: 赤毛と青い血によって構成されたどろどろの塊の中に、生身の左腕が混ざっていたからである。
+        locator: {}
+        spoiler_after: ch0107
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_王宮庭園]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0107_王宮庭園_is_located_隠者の小屋_p3775
+        quote: 畑の隣、庭園の片隅に、煌びやかな王宮内に相応しからぬ小屋が建っている。
+        locator: {}
+        spoiler_after: ch0107
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キシャル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0107_キシャル_arrives_王宮_p3779
+        quote: 何故か傷だらけで、知らされていたよりもずっと遅れて到着したものの、まだ年若い妃はとても美しかった。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_attacks_オルヴァ_p3782
+        quote: 少女は骨だけになった腕を伸ばし、王の全身を引き裂いた。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_fights_オルヴァ_p3783
+        quote: 倒れてきた柱を片手で粉砕しながら、キシャルは不敵な笑みを浮かべて言った。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_other_滅亡_p3790
+        quote: よろめきながら立ち上がったのは、蜂蜜色の髪をした少女だった。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_uses_地位の断章_p3791
+        quote: 「では、その不条理な『状況』の中で抗うだけです」 キシャルの手の中で、『地位』という名の書物が光を放った。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_other_死人の軍勢_p3795
+        quote: 少女は地の底から死人の軍勢を呼び出して対抗した。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_attacks_レストロオセ_p3796
+        quote: 全身の肉が削ぎ落とされて骨だけになった少女が、足下から這い上がってくる百足や蛇を振り払いながら足を進めていく。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_other_イェツィラー_p3800
+        quote: 「イェツィラー」 青い青い融血呪が、髪の毛を伝って世界に浸透する。
+        locator: {}
+        spoiler_after: ch0107
+    speech:
+      observations:
+      - event_ref: E_ch0107_キシャル_says_魂の断絶_p3780
+        quote: 「人の想いは、魂は、決して共有できない」
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_confesses_他者の赦し_p3781
+        quote: 「だから私は、人の痛みと苦悩を赦します。それだけが絶対的な他者にできるただ一つのことだから。」
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_reveals_哲学的ゾンビ_p3781
+        quote: 「哲学的ゾンビというのはね、『人は絶対にわかり合えない』という決定的断絶の象徴なのです。」
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_says_劇への退屈_p3782
+        quote: 「お遊びはここまで。文字だけの劇など、私には退屈過ぎます。どうせなら、血と肉と骨を賭けて挑んできなさいな」
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_other_地位の断章_p3786
+        quote: 「では、私が自らの誠実さを証明できたあかつきには、隠者殿が持つその『地位の断章』を所望します。」
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_other_ウォレス_p3793
+        quote: 「奪われるというのは、男性性の敗北ではなくて？ それは英雄としての貴方のセキュリティホールになり得る。」
+        locator: {}
+        spoiler_after: ch0107
+    visual:
+      observations:
+      - event_ref: E_ch0107_キシャル_observes_操り糸_p3799
+        quote: その糸、その髪の毛は、毛根を二つ有するのである。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_キシャル_transforms_氷の少女_p3800
+        quote: 右の眼窩を埋めるように、青い氷が現れて義眼となっていたのだ。
+        locator: {}
+        spoiler_after: ch0107
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_カシュラム]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0107_カシュラム_dies_王国_p3789
+        quote: カシュラムは滅亡した。炎は九日九晩に渡って王国を焼き尽くし、巨大な黒蛇が人々を喰らった。
+        locator: {}
+        spoiler_after: ch0107
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レストロオセ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0107_レストロオセ_appears_カシュラム_p3789
+        quote: 「皆殺し、皆殺し――わたくしの目の前に存在するものは全て、全て、ぐつぐつ煮込んで美味しく料理して、綺麗に盛りつけした後で捨てましょう。」
+        locator: {}
+        spoiler_after: ch0107
+    action:
+      observations:
+      - event_ref: E_ch0107_レストロオセ_captures_オルヴァ_p3790
+        quote: 巨大な闇の中に閉じ込められた王の姿が見えなくなる。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_レストロオセ_transforms_キシャル_p3797
+        quote: 球となった肩から脚が伸び、膝があるべき場所と手首が連結される。
+        locator: {}
+        spoiler_after: ch0107
+    speech:
+      observations:
+      - event_ref: E_ch0107_レストロオセ_says_不条理の肯定_p3791
+        quote: 「人間は不意に訪れた病や事故などにより特に意味も無く死に！ 次の瞬間には隕石の落下、火山の噴火、地震や津波などの天変地異により人類は滅亡する！
+          これがリアル！」
+        locator: {}
+        spoiler_after: ch0107
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_カシュラム人]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0107_カシュラム人_fears_地位の転落_p3792
+        quote: 現状の地位を脅かされることを根源的な恐怖として深層意識に刻み込まれたカシュラム人は、下から上へと突き上げる力に強い恐れを抱く。
+        locator: {}
+        spoiler_after: ch0107
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ブレイスヴァ]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0107_ブレイスヴァ_defines_カシュラムの終端_p3792
+        quote: それこそがブレイスヴァ。終端を弑するもの。
+        locator: {}
+        spoiler_after: ch0107
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_氷の少女]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0107_氷の少女_says_共感_p3801
+        quote: 「同じ英雄でも、あの男とは大違い。本当に優しい子なのね。」
+        locator: {}
+        spoiler_after: ch0107
+    action:
+      observations:
+      - event_ref: E_ch0107_氷の少女_activates_地位の入れ替え_p3802
+        quote: 「隠者ウォレス＝グレンデルヒ！ 王と対になる存在として、その役割を果たして貰うっ！ 富める王と貧しき乞食よ、入れ替われっ！」
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_氷の少女_other_支配の髪_p3803
+        quote: 少女の氷の腹を突き破って、手刀の形を作った右腕が髪の毛を切断していく。
+        locator: {}
+        spoiler_after: ch0107
+      - event_ref: E_ch0107_氷の少女_other_世界_p3803
+        quote: 「氷血呪の完全解放――その演技。これで世界は終焉を迎え、この劇は強制的に終幕を迎える。」
+        locator: {}
+        spoiler_after: ch0107
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_終端]]'
+  entity_type: motif
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0107_終端_dies_定め_p3804
+        quote: ――終端は、ここに弑されたのだ。
+        locator: {}
+        spoiler_after: ch0107
+  first_appearance_candidate: true

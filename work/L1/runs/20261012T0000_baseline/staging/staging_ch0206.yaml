@@ -1,0 +1,298 @@
+episode: ch0206
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_セラメル]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0206_セラメル_is_located_工房_p6902
+        quote: 鍛冶師セラメルの工房は驚くほど真っ白な彩域だった。
+        locator: {}
+        spoiler_after: ch0206
+    speech:
+      observations:
+      - event_ref: E_ch0206_セラメル_says_ボロボロ_p6903
+        quote: 「あと十合持ったら大したもんだね。その程度にはボロボロになってるよ。やりあう予定でもあんのかい？」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_セラメル_threatens_ユディーア_p6903
+        quote: 露骨な舌打ちと「私の前で舐めた爪見せやがって」という憎々しげな呟きを聞いて震え上がった。
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_セラメル_reveals_ディスケイムの血脈_p6905
+        quote: 「このディスケイムってのは来訪者の血脈かい？　ふうん、亜竜人の王統。それでこの爪の構造は、ああなるほど。使い捨てか。道理でろくに手入れも教えてないはずだ。くそったれめ、胸くそ悪いったらないよ」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_セラメル_says_修行経験_p6905
+        quote: 「そんなとこさ。地上にいた頃はあちこちで修行したからね。カレルヘインでは妖精鍛冶を、ダイベルムでは呪文刻印を、トルクルトアでは錬金術を。亜大陸で霊木の扱いを教わったこともあるし、エジーメ家の付与術師に知性武具の調教術を叩き込まれたこともある」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_セラメル_says_血統魔術_p6906
+        quote: 「血統魔術ってのはヒトを素材として扱い、イエを部品として見立てるまじないだ。整備方法を教えられてないってのは、たぶんあんた、親から壊れてもいいと思われてるよ」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_セラメル_says_過去に落っこちてる_p6908
+        quote: 「あんたには未来が無いんじゃない。過去に落っこちてんのさ。後ろの方から引っ張られて厄介な血に飲み込まれちまう。きっとこの脆い鉤爪は導線だね。血脈の中で安全弁をやってるあんたを取り除くための」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_セラメル_promises_箒レースの装甲_p6909
+        quote: 「箒レースの装甲？　なら任せな。ゴーリーのアホは死ねばいいけど、あんたが出場するってのはおもしろそうだ」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_セラメル_asks_盗み_p6914
+        quote: 「ちょっとあいつらの倉庫に忍び込んで必要な素材を拝借してこようかと思うんだよ。手伝ってくれるだろ？」
+        locator: {}
+        spoiler_after: ch0206
+    action:
+      observations:
+      - event_ref: E_ch0206_セラメル_breaks_喋る槍_p6904
+        quote: セラメルは喋る槍を蹴り飛ばして黙らせると、作業場の中心にある金床の前に立った。
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_セラメル_kills_若者たち_p6911
+        quote: 事実、そのあとセラメルは同胞団に殴り込んだ。『ロードデンドロンとサシで話をさせろ』と騒ぎ、発端になった若者たち五人を殺害。ロードデンドロンも大火傷を負うこととなった。
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_セラメル_makes_神聖貨幣_p6919
+        quote: セラメルは噛み切った唇から滴り落ちた燃える血の雫から黄色に輝く硬貨を創造した。血とは贄、神に捧げる価値そのもの。
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_セラメル_attacks_ノゴルオゴルオ_p6928
+        quote: 裂帛の気合いと共に猛火の塊と化した金槌が投げ放たれる。
+        locator: {}
+        spoiler_after: ch0206
+    name:
+      observations:
+      - event_ref: E_ch0206_セラメル_names_鉄亀砕き_p6904
+        quote: 『鉄亀砕き』セラメルといえば上方勢力ではいわゆる準英雄級の探索者として知られている。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_杖]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0206_杖_defines_白の色号_p6902
+        quote: ゆえに白の色号は『塔』の分類で言えば『邪視』と『杖』の中間に位置する呪術だとされていた。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_職人]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0206_職人_says_鉄は正直だ_p6902
+        quote: 髭をたくわえたいかめしい顔つきの職人は骨槌を握りながら「この鉄は正直だな」とつぶやき
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0206_ユディーア_asks_爪の耐久度_p6903
+        quote: 「仮に、あたしが伝説級の武具、たとえばメクセトの神滅具とかの使い手と戦ったとして、この爪だと何度まで打ち合えると思いますか」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ユディーア_says_核は決まっていない_p6906
+        quote: 「どうなんでしょう。たぶん、決まっていないんだと思います。少なくとも、今はまだ」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ユディーア_asks_再訪_p6909
+        quote: 「あの、また来てもいいですか。鎧とか槍とか、セラメルさんに頼みたいなって」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ユディーア_thinks_構図は呪い_p6930
+        quote: 『この構図は呪いだ』と。
+        locator: {}
+        spoiler_after: ch0206
+    action:
+      observations:
+      - event_ref: E_ch0206_ユディーア_uses_鋳造_p6917
+        quote: 「そういうこと。使えるんだろ、『鋳造』みたいなまじないがさ」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ユディーア_makes_銀貨_p6919
+        quote: 労働が価値を生み出すように、時間や命数から硬貨を削り出す。ユディーアは指の間に数枚の銀貨を創造し
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ユディーア_uses_ユディーアの銀貨_p6920
+        quote: 「あたしの『ユディーアの銀貨』を握りしめた裏切り者はあたしと同じ属性を有するようになるので、同じ術が使えるんです」
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_伝説級の武具]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0206_伝説級の武具_is_made_of_彩域の凝縮体_p6903
+        quote: 伝説級の武具というのは、そのほとんどが熟練した白の色号使いである職人が全身全霊を込めて白神を定着させた『彩域の凝縮体』だ。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_槍]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0206_槍_says_握ってみませんか_p6904
+        quote: 金鋏の傍に放置されていた槍がカタカタと動いて「可愛いお嬢さん、どうか俺を握ってみませんか、ちょっとだけ、呪ったりしないから」と囁く。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_燐血の民]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0206_燐血の民_has_property_血の加熱_p6904
+        quote: 燐血の民は怒ると本当に血が加熱するのだ。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロードデンドロン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0206_ロードデンドロン_transforms_敵意_p6910
+        quote: しかし、緑天主ロードデンドロンは隠されていた敵意と怒りを顕在化させた。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_霊木]]'
+  entity_type: item
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0206_霊木_requires_ティリビナ人の許可_p6910
+        quote: 「必要な素材が無いのさ。箒レース用の装甲板となると霊木や青銅系の伝承合金が必要だが、霊木の伐採にはティリビナ人の許可がいる」
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ティリビナ同胞団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0206_ティリビナ同胞団_attacks_キノコ人_p6911
+        quote: ささやかな果樹園は法によらず曖昧な占有がなされていたが、あるときティリビナ同胞団に所属する樹木系の若者たちが暴力によって強奪、占拠した。キノコ人は一人が殺され二人が手足を奪われた。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_左手地区]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0206_左手地区_is_located_十戒の支配地域_p6915
+        quote: 通称『左手地区』。都市であるシナモリアキラの左手に相当する地域だと『十戒』の連中は主張しているらしい。地脈がどうこうとかで、いい呪力が盗める地区なんだと
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_硬貨]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0206_硬貨_has_property_炎の翼_p6920
+        quote: 「天意よ、羽ばたけ」　セラメルの命令に従い、硬貨に炎の翼が生える。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_倉庫]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0206_倉庫_is_located_魔窟_p6921
+        quote: 足下を這い回る長虫や鼠、飛び回る蝙蝠。生贄らしき屍肉を蛆や白色のキノコが覆い尽くし、あちこちに落ちた糞を養分にして白いカビのようなものまで生えていた。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0206_コルセスカ_defines_浄界_p6922
+        quote: 「これって冬の魔女の浄界関係？」「そう。英雄グレンデルヒを圧倒したって評判の奴さ」
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_松明]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0206_松明_is_located_中間地点_p6922
+        quote: 「えっと？　なんでこんな倉庫内にぽつんと松明が？」「ここが中間地点、いや違うな。多分ボス前だ。用心しな」
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キノコ人]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0206_キノコ人_captures_ティリビナ人_p6924
+        quote: 手足の付いた大きなキノコ型のティリビナ人たちが、寝台に拘束されて呻き続けている。
+        locator: {}
+        spoiler_after: ch0206
+    action:
+      observations:
+      - event_ref: E_ch0206_キノコ人_transforms_異獣_p6934
+        quote: キノコ人たちの肉体が膨張し、見上げるような巨体へと変容していった。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ノゴルオゴルオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0206_ノゴルオゴルオ_appears_ユディーア_p6924
+        quote: 「また会ったなあ、ユディーアの娘っこ」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ノゴルオゴルオ_defeats_ユディーア_p6925
+        quote: 初手の攻防で完全な敗北を突きつけられたのである。ただの投石という単純な牽制で切り札が無力化されていた。
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ノゴルオゴルオ_saves_キノコ人_p6926
+        quote: 岩肌の巨漢が軽く腕を振ると、石になった拘束帯や枷が一斉に砕け散った。
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ノゴルオゴルオ_transforms_異獣_p6931
+        quote: それは触手だった。それは吸盤だった。それはカビまみれの屍肉だった。
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ノゴルオゴルオ_deceives_キノコ人_p6933
+        quote: 「そうだ。そして見ろ。あのおなごどもの目！　おめたつを馬鹿にして、まるで怪物と蔑む『まなざし』を！　あれが異獣、おめたつにとっての敵だ！」
+        locator: {}
+        spoiler_after: ch0206
+    speech:
+      observations:
+      - event_ref: E_ch0206_ノゴルオゴルオ_says_アルティウスの完成_p6926
+        quote: 「悪くねえな。アルティウスの完成までには仕上がりそうだ」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ノゴルオゴルオ_says_搾取_p6927
+        quote: 「決まってるだよ。こんな粗悪な精製施設から救い出して、もっと効率的に搾り取れるとこさ連れて行くだ。卑しいキノコどもがおらたつに奉仕するのは当然だからなあ」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ノゴルオゴルオ_says_洞窟の道理_p6929
+        quote: 「じきにその洞窟の道理が常識になるだよ。岩石の眷族こそが全ての頂点、それ以外の下等種族は全て奴隷だ！」
+        locator: {}
+        spoiler_after: ch0206
+      - event_ref: E_ch0206_ノゴルオゴルオ_uses_方言使い_p6932
+        quote: 方言使いノゴルオゴルオは世界の言語秩序を破壊する言語テロリストなのだ。
+        locator: {}
+        spoiler_after: ch0206
+  first_appearance_candidate: true

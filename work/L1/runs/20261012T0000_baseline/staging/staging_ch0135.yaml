@@ -1,0 +1,575 @@
+episode: ch0135
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_シューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_シューラ_defeats_ラフディ_p4630
+        quote: 【星見の塔】有数の銃士であるシューラにかかれば赤子の手を捻るより容易くやっつけられるってこと）
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_弾道学]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0135_弾道学_defines_サイバネティクスの基礎_p4630
+        quote: 弾道学はサイバネティクスの基礎だ。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_星見の塔]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0135_星見の塔_defines_高位呪術師による独占_p4630
+        quote: 投射武器の発達が遅れたこの世界ではそうした研究成果は一部の高位呪術師が独占するものとなり、【星見の塔】をはじめとする幾つかの呪術師結社から外部に『選別された上で』もたらされているとちびシューラは語る。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_高射砲]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_高射砲_stops_巨大な岩石群_p4630
+        quote: 上を向いた高射砲が正確無比な射撃で投石を防御し、その勢いのまま敵陣へと攻撃を加えていた。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_高射砲_stops_大型バリスタ_p4631
+        quote: 大型バリスタや石像兵による大地の呪力を纏った投石を、弾道予報を応用した高射砲の対空射撃によって撃ち落とす。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0135_アルト_helps_アキラ_p4631
+        quote: といっても、現在俺たちと共に戦っているのはアルト率いる竜王国だけだ。カーティスという群体は今は第五階層から離れている。
+        locator: {}
+        spoiler_after: ch0135
+    action:
+      observations:
+      - event_ref: E_ch0135_アルト_defeats_ラフディの石像兵_p4636
+        quote: 遠くで派手な轟音が聞こえる。 東側の防衛を任せているアルトが、ラフディの石像兵を粉砕しているのだ。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_アルト_other_極大呪文_p4637
+        quote: あとは親衛隊である【緑竜騎士団】に守られた亜竜王アルトが長大な詠唱を終えるのを待てばそれで決着だ。唱えた『力ある言葉』の長さに応じて威力と複雑さが増大していく極大呪文が放たれ、生半可な呪術ではびくともしない石像兵たちを片っ端から消滅させていく。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルマ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_アルマ_loses_戦闘能力_p4631
+        quote: だが、その後すぐに倒れ込んでしまう。アルトの極大呪文が直撃したのだ、とても戦える状態ではない。
+        locator: {}
+        spoiler_after: ch0135
+    speech:
+      observations:
+      - event_ref: E_ch0135_アルマ_promises_協力_p4631
+        quote: 「ごめんね、肝心な時に役立たずで。今度こそ、ちゃんと力になるから」
+        locator: {}
+        spoiler_after: ch0135
+    relationship:
+      observations:
+      - event_ref: E_ch0135_アルマ_fears_海中_p4632
+        quote: そして、海中は燐血の民であるアルマにとって不得手な場所だった。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラフディ]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_ラフディ_attacks_ガロアンディアン_p4631
+        quote: 第五階層の覇権を狙うラフディは真っ先に他勢力に宣戦を布告。 手始めとばかりに隣接するガロアンディアンの領域へと進行してきた。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_ラフディ_attacks_ガロアンディアン_p4645
+        quote: 文化戦争において一勝したラフディは勢いづいたのか、直接のぶつかり合いでも成果を残した。 翌日、ラフディは前回より遙かに大規模な侵攻を開始。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_ラフディ_defeats_トリシューラ_p4645
+        quote: ラフディは春物コーデに合わせるようなゆるふわヘアを流行させ、こちらの呪術攻撃を受け流し、自らの力として取り込んだのだ。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_ラフディ_uses_サイバーカラテ古流・ラフディ相撲_p4645
+        quote: 剛というより柔。相手の呪力を利用して自らの呪力に転化するその技こそはサイバーカラテの呪的発勁に他ならない。「サイバーカラテ古流・ラフディ相撲か。敵に使われるとこの上なく厄介だな」
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_ラフディ_attacks_地下_p4646
+        quote: ラフディは砲による遠距離の撃ち合いでは勝てないと悟ったのか、地下から攻めるという戦法を選んでいた。第五階層の地下に広がる下水道と白骨迷宮に穴を開け、こちらの真下から直接白兵戦を仕掛けてくるのである。
+        locator: {}
+        spoiler_after: ch0135
+    symbolic:
+      observations:
+      - event_ref: E_ch0135_ラフディ_has_property_圧倒的な建築呪力_p4648
+        quote: はっきり言ってラフディの建築が発生させる呪力は他の追随を許さない。生み出されるエネルギーは莫大であり、遠距離からの砲撃や空からの爆撃を全て球状障壁で無効化するほどである。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_男根城ファルス]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0135_男根城ファルス_is_located_アストラルの海中_p4631
+        quote: コルセスカが囚われている男根城ファルスとかいうふざけた建造物は、アストラルの海中に存在するという。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_アキラ_conceals_コルセスカ救出_p4632
+        quote: ラクルラール攻略の目処が立つまではコルセスカを救出に向かうことはできないのだった。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_アキラ_other_サイバーカラテ道場第五階層支部_p4638
+        quote: というトリシューラの言葉に従った俺は前線を離れ、サイバーカラテ道場第五階層支部に顔を出した。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_クレイ_defeats_ラクルラール_p4632
+        quote: 『王国』の呪力をその手に宿すクレイはラクルラールの支配を打ち破れていた。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_クレイ_defeats_ラクルラール_p4653
+        quote: 「ちなみに、クレイがラクルラールに対抗できるのは【王国の剣】だからだね。ガロアンディアンも同じ『法』のシステムを構築してしっかり運用できればラクルラールの支配に抗えるかもしれない」
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_死人の森の断章]]'
+  entity_type: item
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0135_死人の森の断章_defines_王国の権威の証_p4632
+        quote: 同じように、『王国』の権威の証である【死人の森の断章】を集めていけばラクルラールに抗える可能性は高い。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_聖マローズ教団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_聖マローズ教団_fights_絶対美少女吸血姫神リールエルバ様教団_p4632
+        quote: 聖マローズ教団が内部分裂を起こし、マロゾロンド教徒とその中から発生した狂信的な『絶対美少女吸血姫神リールエルバ様教団』に分かれて抗争を開始、スキリシアの一地方を巻き込んだ紛争に発展しているとのこと。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_カーティス_departs_スキリシア_p4633
+        quote: カーティスはアルトの戦力が圧倒的ということもあって、単身スキリシアへ赴くことを決めた。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_カーティス_travels_影の世界_p4633
+        quote: 俺たちは白骨迷宮に設置した【扉】から影の世界へと向かうカーティスを見送った。
+        locator: {}
+        spoiler_after: ch0135
+    speech:
+      observations:
+      - event_ref: E_ch0135_カーティス_promises_帰還_p4633
+        quote: 「すまないが、私は子孫の救援に向かわせて貰う。リールエルバを助けたらすぐに戻ると約束する」
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_リールエルバ_defeats_聖マローズ教団の幹部_p4633
+        quote: リールエルバは無事で、戦いの指揮を執って聖マローズ教団の幹部を次々に打ち破っているらしい。
+        locator: {}
+        spoiler_after: ch0135
+    speech:
+      observations:
+      - event_ref: E_ch0135_リールエルバ_promises_援軍_p4633
+        quote: 戦いを終わらせ次第すぐにこちらに援軍に着てくれると請け負ってくれた。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0135_ちびシューラ_confesses_欺瞞_p4634
+        quote: （――欺瞞だけどね。要するにリソースを確保したいだけだから）
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_ちびシューラ_fears_王の器_p4636
+        quote: （王の器がシューラには無いんだって。今までのやり方じゃ、シューラは駄目なのかも。邪悪な魔女と、立派な女王としての在り方は両立できない――そうなのかな。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_ちびシューラ_reveals_ティリビナ人の出自_p4641
+        quote: （ティリビナ系は大まかに二つのグループに分かれてるんだけど、さっきの人たちはほとんどが『下』から来たティリビナ人だね。第八階層の特別自然保護区から来たみたい）
+        locator: {}
+        spoiler_after: ch0135
+    action:
+      observations:
+      - event_ref: E_ch0135_ちびシューラ_makes_球技大会_p4652
+        quote: ちびシューラが広報メールを第五階層にばらまいていく。そこには、こう書かれていた。『球技大会開催のお知らせ！ スポーツを通じて文化交流をしよう！
+          詳しくは大会運営本部まで』
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_カルカブリーナ_fights_敵_p4634
+        quote: カルカブリーナ
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チリアット]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_チリアット_fights_敵_p4634
+        quote: 高い『杖』適性を持つ銃士の活躍
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_トリシューラ_helps_ガロアンディアン_p4634
+        quote: 少なくとも技術力という点ではトリシューラとガロアンディアンは他の追随を許さない。傑出した遠距離砲撃の制圧力は今後も俺たちを助けてくれるだろう。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_トリシューラ_takes_物質創造能力_p4634
+        quote: トリシューラは現在のガロアンディアン領に残った人々から臨時に物質創造能力を徴集してこれらの軍事施設の構築リソースに充てている。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_トリシューラ_conceals_北門閉鎖の真実_p4635
+        quote: 当然、同盟者であるアルトにはこの事は知らせていない。露見すれば協力関係に亀裂が入ることは避けられないだろう。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_トリシューラ_deceives_住民_p4635
+        quote: トリシューラはこれを敵対する六王の仕業だと断定。 速やかに状況を解決し、外部への移動を可能にすると住民たちに約束したが――それが真っ赤な嘘であることを俺は知っている。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_トリシューラ_requires_人口_p4635
+        quote: 物質創造能力のリソースを確保するために。 そして『王国』の権威を維持する為に不可欠な人口を維持するために。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_トリシューラ_stops_追撃_p4637
+        quote: 攻撃の波が止んでラフディの兵が撤退しても、トリシューラは追撃を命じなかった。ラフディの守りは堅牢なことで有名であり、まだ攻め込む段階では無いと言うことらしい。今は陣営の強化に専念するとのことだった。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_トリシューラ_other_春物コーデ_p4644
+        quote: 「こうなったら、春物コーデで反撃するしかない！」 今は晩冬だから、丁度春物の服を売り出していく時期だ。春の魔女として負けられないと気合いを入れるトリシューラだった。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_トリシューラ_other_ゲーム_p4646
+        quote: 第五階層の一区画をジオラマ化したゲーム盤の前に立ったトリシューラが、どこかで見たような駒を動かしていく。戦争がまるでゲームのようだった。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_トリシューラ_uses_カニャッツォ_p4647
+        quote: トリシューラはブルドックの駒を動かして、石像兵がこちらの重要施設である呪術医院を破壊する寸前に差し込んだ。耐久力に優れる彼なら石像兵を倒せないまでも足止めすることはできる。
+        locator: {}
+        spoiler_after: ch0135
+    speech:
+      observations:
+      - event_ref: E_ch0135_トリシューラ_asks_アキラ_p4637
+        quote: 「とりあえずアキラくん、物理道場行ってきてくれる？ 師範代が顔出せばみんな安心すると思うんだ。アキラくんの人気は存在の強さに直結するからね」
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_トリシューラ_asks_アキラ_p4643
+        quote: 「正直な感想を聞かせてアキラくん。髪型を変えた人たち――例えば、事務員のシアナさんのお団子と私のこれ、どっちが良い感じ？」
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_トリシューラ_fears_マラード_p4644
+        quote: 「カリスマ、つまり王の資格。マラードに髪型の流行を押さえられて、美容師としての地位を確立されたら、私は王として彼に負けていることになる」
+        locator: {}
+        spoiler_after: ch0135
+    visual:
+      observations:
+      - event_ref: E_ch0135_トリシューラ_wears_おしゃれミリタリースタイル_p4642
+        quote: 「士気高揚のおしゃれミリタリースタイルだよ！」 赤と黒を基調としたカラーリングはいつも通りだが、ダブルブレストの軍服とボウタイブラウスを合わせたようなワンピースを纏ったトリシューラは華やかでありながら凛々しくもあった。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_レオ_helps_住民の保護_p4634
+        quote: そうした細々とした事が得意なレオの協力もあって、比較的スムーズに『住民の保護』は進んでいる。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_レオ_helps_人々_p4639
+        quote: あの少年の資質は貴重だ。他の避難所や巡槍艦を回って人々を元気づけていることだろう。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_レオ_makes_弱者が駆け込める居場所_p4639
+        quote: しかしそれに一つ付け加えるなら、レオが丁寧に整えてきた『弱者が駆け込める居場所』がここだからというのも大きいのではないかと思っている。
+        locator: {}
+        spoiler_after: ch0135
+      - event_ref: E_ch0135_レオ_helps_ティリビナ人_p4640
+        quote: 現在かろうじて共存できているのは、レオがティリビナ人コミュニティの長と必死に交渉し、街路樹や自然公園を用意することでどうにか折り合いをつけることに成功したからだ。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_大地の民]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0135_大地の民_has_property_領土依存_p4634
+        quote: （大地の民は、その名の通り大地から呪力を得る。領土が狭くなれば自然と弱体化するし、広大な土地を『領土』に定めている今が一番厄介だよ）
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_牙猪]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_牙猪_fights_石像兵_p4634
+        quote: 中でも前線で巨大な石像兵と殴り合ってまったく引けをとらない牙猪と、高い『杖』適性を持つ銃士の活躍が目覚ましい。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_北門]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_北門_stops_機能_p4635
+        quote: ガロアンディアン領内の【北門】と【北階段】は原因不明の不具合が発生しており、外界から完全に閉ざされてしまっている。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_再生者]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0135_再生者_has_property_無尽蔵の体力_p4636
+        quote: 竜王国とラフディの軍勢を構成しているのは古代から甦った再生者たちであるため、ほぼ無尽蔵の体力を持つ。が、肉体が完全に損壊してしまえばしばらく戦線復帰はできない。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_蒼空騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_蒼空騎士団_attacks_ラフディ軍_p4636
+        quote: 航空戦力である【蒼空騎士団】が膜構造の翼を広げて飛翔し、空から呪術による爆撃を行っている。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_黄獣騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_黄獣騎士団_fights_石像兵_p4636
+        quote: 屈強な獣人の多い【黄獣騎士団】と機動力に優れる【黒蟲騎士団】が石像兵を翻弄し、大地の民たちを蹴散らしている。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_黒蟲騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_黒蟲騎士団_fights_石像兵_p4636
+        quote: 屈強な獣人の多い【黄獣騎士団】と機動力に優れる【黒蟲騎士団】が石像兵を翻弄し、大地の民たちを蹴散らしている。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_白翼海騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_白翼海騎士団_stops_再生者の復活_p4637
+        quote: 【白翼海騎士団】は陸上での戦闘が不得手な分、海として認識しているアストラル界からの呪術攻撃でラフディ軍の情報網を撹乱し、呪詛によって再生者たちの復活を妨害している。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シアナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_シアナ_other_道場の管理_p4638
+        quote: 中に入ると、事務員のシアナさんがいた。髪を纏めて団子にしており、少し憔悴した様子だ。彼女には一時的な避難所として解放した道場の管理を任せており、かなり負担をかけてしまっていた。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トバルカイン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0135_トバルカイン_appears_骨狼_p4638
+        quote: すぐに番犬が出迎えてくれたので、屈み込んで頭を撫でる。「よしよし、仕事お疲れ」 骨狼のトバルカインがカタカタ歯を鳴らしながら俺の周囲を回る。
+        locator: {}
+        spoiler_after: ch0135
+    action:
+      observations:
+      - event_ref: E_ch0135_トバルカイン_repairs_自身_p4638
+        quote: アルマに燃やされたトバルカインだが、鶏の生き血と断末魔の絶叫を浴びせながら再生者専用の治療呪術を行ったらあっさりと復活した。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ティリビナ人]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0135_ティリビナ人_hates_アキラ_p4639
+        quote: 視線を向けると、身体が樹皮で覆われたティリビナ人がいた。「機械野郎が」
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_穏健なティリビナ人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_穏健なティリビナ人_stops_敵意_p4640
+        quote: 「やめるんだ。不必要に敵意を振りまくものじゃない。我々とは異質な他者を尊重すること無しに我々が尊重されることは無いと、オーファ様も仰られていたじゃないか」
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ティリビナの街路樹の民]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0135_ティリビナの街路樹の民_hates_ガロアンディアン_p4641
+        quote: （レオが広めたこの『眷属種としての名前』はね、彼らにとっては『女神レルプレアを貶める呪い』であり、『聖なる巫女が槍神教に屈した忌まわしい記憶』を呼び起こすものなんだ。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_脱出したティリビナ人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_脱出したティリビナ人_travels_ラフディ_p4642
+        quote: 更に悪いことに、脱出したティリビナの民たちは南側の地区、つまりラフディに向かったらしい。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0135_マラード_appears_カリスマ美容王_p4643
+        quote: 『カリスマ美容王マラード』と紹介された男が斜めの角度で微笑みながら白く光る歯を光らせている。
+        locator: {}
+        spoiler_after: ch0135
+    action:
+      observations:
+      - event_ref: E_ch0135_マラード_attacks_大通り_p4645
+        quote: 「マラードの顔だけメテオ嫌い！」「あいつのイケメン爆撃は確かに厄介だな。大通りが穴だらけにされて、あれじゃまともに通れない」
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ミリョ餅]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0135_ミリョ餅_has_property_運気上昇_p4647
+        quote: 「なんだそれは」「昔からある携行糧食だよ。運気が良くなるってジンクスがあるから戦場での生存率が少しだけ上がるの」
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラコーダ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0135_マラコーダ_reveals_トリシューラの悪評_p4649
+        quote: 「トリシューラが裏切った？」 思わずトリシューラを見る。きょとんとしていた。 知らせを持ってきた蠍尾は、女性たちの間でそんな話が広がっている教えてくれた。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ワルシューラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0135_ワルシューラ_appears_悪堕ちしたちびシューラ_p4650
+        quote: いずれも派手なアイシャドウで目の縁を強調し、悪魔的なメイクで可愛らしい顔を凶悪そうに見せている。（悪いシューラ――いわばワルシューラだよ！
+          何者かによって汚染されて悪堕ちしちゃったんだ！）
+        locator: {}
+        spoiler_after: ch0135
+    name:
+      observations:
+      - event_ref: E_ch0135_ワルシューラ_is_made_of_省庁シューラ_p4651
+        quote: どうやらあそこにいるのは、ヴァージルに奪われた省庁シューラたちらしい。（あれは文科シューラ、それも競技部分だけを切り分けて独立させてるんだ！
+          その上なんか変な改造されちゃってる！）
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_ヴァージル_deceives_トリシューラ_p4651
+        quote: あの少年の狙いはおそらくトリシューラの権威の失墜。改造したちびシューラたちに悪さをさせることで女王としての評判を落とそうとしているのだ。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0135_コルセスカ_transforms_世界_p4653
+        quote: 実際、コルセスカの浄界は元々ゲームっぽかったこの世界を更にゲーム的に改変していた。
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ラクルラール]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0135_ラクルラール_is_made_of_法_p4653
+        quote: 「ラクルラールは『法』で倒せるって？ なんかよくわからん話だ。敵の正体は犯罪者か何かか？」「似たようなものかな。規模が段違いだけど」
+        locator: {}
+        spoiler_after: ch0135
+  first_appearance_candidate: true

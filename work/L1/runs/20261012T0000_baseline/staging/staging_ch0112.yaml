@@ -1,0 +1,262 @@
+episode: ch0112
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_スキリシアの神]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0112_スキリシアの神_says_巨人神話_p3931
+        quote: 【窮乏】、【疾病】、【無知】、【陋隘】、そして【失業】といいました。
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_スキリシアの神_reveals_神話の真実_p3933
+        quote: 一応僕はスキリシアの神だからね。こういった神話を事実だと言い張ればそれは事実になってしまうんだよ。
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_スキリシアの神_names_カーティス_p3934
+        quote: 残念ながらアズーリアは期待外れだった。暫く青い鳥は見るのも嫌だね。だがカーティスとミシャルヒは僕の期待に応えてくれることだろう。
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_スキリシアの神_other_ラクル_p3934
+        quote: そういうわけで、ラクルにヴィヴィ？ 君たちの喧嘩は見ていて中々に微笑ましいけれど、今は少しだけ控えてもらえるかな？ 派閥争いは『塔』に戻ってやりたまえ。
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_スキリシアの神_threatens_ヴィヴィ_p3934
+        quote: ああ、ヴィヴィは舞台裏に残って『劇場』を維持するように。ただしそれ以外の行動は禁止。言いつけを破ったら毎晩夢の中に触手が出てくるからね。
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_無知]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0112_無知_defines_世界_p3932
+        quote: 【無知】に近い範囲になればなるほど当人が絶対の全知全能者として振る舞える度合いは高まり
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_疾病]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0112_疾病_learns_寄生_p3932
+        quote: 自分を苦しめているものの正体は、実は自分自身だと知った【疾病】は自らの在り方を自在に変化させる術と、暗がりに潜む生き物たちの中に入り込んでその身体を間借りする術を覚えました。
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_窮乏]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0112_窮乏_learns_幻姿_p3932
+        quote: 【窮乏】は、幻が確かな形を持ち始めていることに気がつき、幻を自在に現実のものとする術を身につけました。
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_失業]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0112_失業_flees_洞窟_p3933
+        quote: 二人はこのままでは【無知】に殺されてしまうと思い、洞窟の外に出て行くことにしました。
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_緑髪の人物]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0112_緑髪の人物_says_神祖への不満_p3936
+        quote: 「全く、我らが神祖にも困ったものだ。とはいえ、今のあの方を祖と仰ぐのはいささか不本意ではあるが。友情に篤いのは結構だが、神としての器まで貸してやることもなかろうに」
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_白衣の男]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0112_白衣の男_says_解剖_p3937
+        quote: 「労ってやらんとな。何なら解剖してやろうかね、ひひっ」
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_黒いドレスの女性]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0112_黒いドレスの女性_says_神託_p3937
+        quote: 「とはいえ我らがあの方の忠実なる端末――すなわち化身であることに変わりはあるまいて。神託を無視することは許されぬ」
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_吸血鬼たち]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0112_吸血鬼たち_bonds_血族_p3938
+        quote: しかし彼らは家族や親族といった関係性ではない。彼らを結ぶのは確かに血であり命であり、同質性ではある。にもかかわらず、全員が赤の他人。
+        locator: {}
+        spoiler_after: ch0112
+    action:
+      observations:
+      - event_ref: E_ch0112_吸血鬼たち_makes_宴_p3938
+        quote: 「歓待の準備が必要だね、私」
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゾーイ・アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0112_ゾーイ・アキラ_fights_肉塊_p3939
+        quote: 「私のコピーだって？！ 誰がやったのかは知らないが、いい度胸だ！ 偽物じゃ本物に勝てないってことを教えてやるよ！」
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_ゾーイ・アキラ_dies_ゾーイ・アキラ_p3940
+        quote: 消滅した二人を見下ろすゾーイとケイト、それを撃墜する力士と行司、さらにそれを仕留めたのは複数人で徒党を組んだゾーイ、ゾーイ、ゾーイ、ケイト、ケイト、ケイト――その数に果ては無い。
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_ゾーイ・アキラ_other_殺し合い_p3941
+        quote: 「冷静になれ！ 最後の一人になれば殺し合いは止まる。僕らが死んだとしても一人残れば総体としてのゾーイは継続する！」
+        locator: {}
+        spoiler_after: ch0112
+    speech:
+      observations:
+      - event_ref: E_ch0112_ゾーイ・アキラ_asks_カーティス_p3941
+        quote: 「あのカーティスとか言うやつ、どこに消えた？」
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ケイト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0112_ケイト_other_クラッキング_p3940
+        quote: これは夜の民というコピーアンドペーストが得意な種族によるクラッキングらしい。君の本体権限が一部乗っ取られているぞ！
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_トライデントホールディングス]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0112_トライデントホールディングス_defines_ゾーイの所属_p3942
+        quote: 民間警備会社から転生保険会社に出向しているゾーイ・アキラとケイトの所属は、共にトライデントホールディングス傘下の子会社である。
+        locator: {}
+        spoiler_after: ch0112
+    speech:
+      observations:
+      - event_ref: E_ch0112_トライデントホールディングス_other_カーティスの殺害_p3942
+        quote: カーティスと行動を共にして、可能ならば殺害せよ。
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0112_カーティス_appears_ゾーイ_p3943
+        quote: 「やあ、強いんだね、君たちは」
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_カーティス_uses_影占い_p3944
+        quote: 数日前から毎日私を未来に送って君に攻撃を仕掛け続けていた。
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_カーティス_transforms_ネズミ_p3955
+        quote: 夥しい数のネズミの群れに向かって、パーンが絶叫した。
+        locator: {}
+        spoiler_after: ch0112
+    speech:
+      observations:
+      - event_ref: E_ch0112_カーティス_other_ゾーイの処遇_p3945
+        quote: 「複製して使役するのが良いと思うよ。外世界人の従僕だなんて、他の真祖たちに自慢できるよ」
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_カーティス_other_災厄_p3945
+        quote: 「秩序の更新が近づいている証拠だ」「いずれ大きな災厄が起きる。地脈の乱れも激しい」「まず大地が平面となり、それから二つに引き裂かれることだろう」
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_カーティス_loves_ペルセフォネ_p3946
+        quote: 「私の可愛いペルセフォネ。それともプロセルピナと呼ぼうか。
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_カーティス_learns_追跡者_p3947
+        quote: 「あまり良くない知らせがある。我々の聖なる婚姻を邪魔立てしようとする者たちが現れたようだ」
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_カーティス_other_存在の闘争_p3951
+        quote: 「女王の下に従属してしまえば、『我々』はカーティスというただの『私』に貶められてしまうということだよ」「私は我々で在り続けたい」
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_カーティス_names_大勢_p3955
+        quote: 「私はカーティス」「俺の名はイウワァバイ」「またの名をリールエルブス」
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_カーティス_other_少女_p3957
+        quote: 「待っていてくれ。この舞台が最後だ。ここで決着をつけて、俺と六王を加えた死人の森が未来のヒュールサスを、そして更に未来のガロアンディアンを救う。
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミシャルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0112_ミシャルヒ_betrays_パーン_p3953
+        quote: 「私を殺せ、パーン」「何があった」「我が神の勅命だ。逆らえん。これより私は大いなるマロゾロンドの手足として、このカーティスと共に動くことになる。
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0112_パーン_promises_奪還_p3956
+        quote: 「ミシャルヒもフェロニアも、俺のものは全て奪い返す。下らぬ神め、足蹴にして身の程をわきまえさせてくれる」
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少女]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0112_少女_confesses_アキラ_p3957
+        quote: 「ねえ、アキラ様」
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_少女_asks_罪の苦痛_p3959
+        quote: 「私は、貴方にあのままであって欲しかった」
+        locator: {}
+        spoiler_after: ch0112
+      - event_ref: E_ch0112_少女_other_独占_p3960
+        quote: 「アズーリアを消して、トリシューラを壊して、コルセスカを消し去って。全ての邪魔者を排除したら――そうしたら、私だけを見てくれますよね？」
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true
+- canonical_target: '[[E_phrase_ナレーター]]'
+  entity_type: phrase
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0112_ナレーター_defines_恋の物語_p3961
+        quote: ――つまるところ、これは恋の物語だ。
+        locator: {}
+        spoiler_after: ch0112
+  first_appearance_candidate: true

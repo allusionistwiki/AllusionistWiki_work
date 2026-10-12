@@ -1,0 +1,328 @@
+episode: ch0115
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_コルセスカ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0115_コルセスカ_activates_浄界コキュートス_p4015
+        quote: 既にヴィヴィお姉様の浄界【世界劇場】の機能を限定的に掌握している。私が展開した浄界【コキュートス】の摂理が、【世界劇場】を覆うようにして取り囲んでいるのだ。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_コルセスカ_uses_ゲームパッド_p4017
+        quote: 私はアキラが肉体に刻み込まれた型を反射的になぞるよりも早く動作に割り込みをかけて攻撃をキャンセルし、防御と回避行動を同時に行わせた。ゲームパッドの九ボタンを叩く指先が、アキラに新たな命令を送り込む。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_コルセスカ_uses_断章技能_p4021
+        quote: 【技能】の断章が藍色の輝きを放つ。開いた項から呪文が溢れ出し、その場に姿を現したのは眼鏡をかけた尊大な男。幻影のようなアキラの身体と重なり合うようにして土俵に降り立ったパーン・ガレニス・クロウサーがゾーイと真正面から向かい合う。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_コルセスカ_uses_改造ゲームパッド_p4026
+        quote: 今から私は己に課した禁を破る。両手にぴったりと吸い付くような流線型のゲームパッド。カラーリングは私の好きな白と銀、そして青。レスポンスは良好、使用感も抜群。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_コルセスカ_makes_足場_p4034
+        quote: 私はアキラの動きを止めず、そのまま跳躍させた。真後ろにある壁に向かって。瞬間的に生成されたその構造物は、彼が得意とする足場の生成。第五階層の物体創造能力を応用したものだ。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_コルセスカ_uses_氷鏡_p4039
+        quote: 一時はグレンデルヒに奪われた私の【氷鏡】は、浄界の展開と同時に奪い返している。これまでの戦いではアキラに預けていたそれを、ちびシューラの周囲に展開する。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_コルセスカ_transforms_オルガンローデ_p4041
+        quote: 槍が姿を変えて、私は長くのたうつ氷の竜となった。第九紀竜オルガンローデ。人造の真竜。邪視によるオルガンローデは、自らが竜だと強く確信して竜に変化するというものだ。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_コルセスカ_arrives_ヒュールサス_p4046
+        quote: 五分の状況で、私たちは遂に舞台の上に辿り着く。昇降機が停止して、土俵は舞台の床と一つになる。ここは【世界劇場】の中心。演劇空間の基点となるヒュールサスだ。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_コルセスカ_makes_災厄の剣_p4049
+        quote: 最後の【断章】である【生存】が開かれ、内側から無数の文字列が飛び出す。力ある言葉が寄り集まって直剣となった。それは青銅よりも石よりもなお古い、骨の剣。
+        locator: {}
+        spoiler_after: ch0115
+    speech:
+      observations:
+      - event_ref: E_ch0115_コルセスカ_thinks_目標_p4015
+        quote: やるべきことはシンプルだ。私ことコルセスカと、俺ことシナモリアキラはその認識を共有する。グレンデルヒ＝ゾーイをぶっ飛ばして、過去から未来へと駆け上がれ。
+        locator: {}
+        spoiler_after: ch0115
+    relationship:
+      observations:
+      - event_ref: E_ch0115_コルセスカ_observes_アキラ_p4023
+        quote: 落ち着こう。ちょっとアキラの視点にのめり込むあまりに意識が接近し過ぎている。冷静になって、俯瞰視点で状況を把握する。アキラの目から背中へ、さらに頭上へ。段階的に距離を置いていく。
+        locator: {}
+        spoiler_after: ch0115
+    symbolic:
+      observations:
+      - event_ref: E_ch0115_コルセスカ_defines_邪視の呪文_p4039
+        quote: そして邪視使いの呪文はというと、己の意思を押し通すための牽強付会で我田引水な詭弁と誤謬の力業だ。重要なのは、他人の言葉に良く耳を傾けて、自分の構築した論理の中に取り込んでしまうこと。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_浄界コキュートス]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0115_浄界コキュートス_defines_森羅万象型_p4016
+        quote: 【コキュートス】は森羅万象型。個別の一元宇宙、それらを内包する多元宇宙といった全ての可能な宇宙を包み込む集合。概念的に規定された無限の終わりにして永劫の彼方。すなわち、【最果て】。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0115_アキラ_fights_ゾーイ_p4017
+        quote: 初戦は暗闇の中。アキラが演じるのは、カーティスが内包する闇の眷族たちの中でただ一人、誘拐された少女に哀れみを抱いた存在。その名はリールエルブス。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_アキラ_defeats_ゾーイ_p4019
+        quote: 乱舞する掌打が力士を土俵際まで追い詰め、遂には外へと弾き飛ばす。闇の中へ真っ逆さまに墜落していくゾーイを見て、私たちはまず一勝したという手応えを得た。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_アキラ_fights_ゾーイ_p4025
+        quote: 豪快な突っ張りに向かって、生身の左手が鋭く払われる。手を真っ直ぐに伸ばした刃を思わせる形――手刀。左腕に一時的に宿っているクレイの力が打撃を斬撃へと変化させる。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_アキラ_defeats_ゾーイ_p4027
+        quote: 本物さながらの演技は現実を改変する。アキラの腕が獣となって力士の生体装甲を食い破り、唸るような咆哮が衝撃波となって力士の体内に伝わっていく。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_アキラ_transforms_オルヴァ_p4027
+        quote: 更に続けてアキラの両目が光り輝く。瞳が十字の紋様を映し出し、カシュラム王オルヴァの役が一時的に降りてくる。託宣によって未来を予知する大予言者にして大賢者。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_アキラ_transforms_ヴァージル_p4030
+        quote: あらゆる種族の中でも屈指の跳躍力。アキラに重なるようにして、太陰の王子ヴァージルが出現していた。周囲の光景も、広大な暗黒の宇宙空間、そこに浮かぶ無数の石碑というものに変化している。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_アキラ_transforms_アルト_p4037
+        quote: 今のアキラは、隻眼に白髪、首回りを帯状に覆う詰め襟の軍服を身に纏った背の高い男性となっている。伝承に基づいて、『私そのもの』である氷の三叉槍を構築。見得を切るように大きく旋回させて構えた。
+        locator: {}
+        spoiler_after: ch0115
+    speech:
+      observations:
+      - event_ref: E_ch0115_アキラ_says_瘴気_p4018
+        quote: 「瘴気よ」私が操るアキラが――そしてアキラが演じているカーティス＝リールエルブスが静かに呟くと、私たちの呪術が変質していく。
+        locator: {}
+        spoiler_after: ch0115
+    visual:
+      observations:
+      - event_ref: E_ch0115_アキラ_transforms_穿山甲_p4043
+        quote: 第六ラウンドの開幕と同時にアキラの全身を覆い尽くす無数の鱗。その姿が隠れていく。一言で今のアキラを形容するなら、鱗に覆われたアリクイ。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_アキラ_transforms_義肢_p4053
+        quote: いつの間にか、男の右腕は血に濡れた金属の義肢に変化している。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ケイト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0115_ケイト_other_ゾーイ_p4018
+        quote: ウィルスとして侵入した呪文の群れを、ゾーイの傍らに浮かぶ小さな男性が防壁を展開して防ごうとする。ケイトは外世界人にも関わらずこの世界に適応している。
+        locator: {}
+        spoiler_after: ch0115
+    speech:
+      observations:
+      - event_ref: E_ch0115_ケイト_promises_決戦_p4052
+        quote: 「まさか、念のために持ってきていた無人機の出番とはね！　こうなったら最後までやってやろうじゃないか。この劇場は相棒の本体が暴れるには狭すぎる。外で待っているよ、雌雄を決しようじゃないか！」
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0115_グレンデルヒ_transforms_ゾーイ_p4020
+        quote: 転移能力によって土俵の上に再構成される力士。その脂肪が変質して、岩のような肌になっていく。役を変えて、ラウス＝ベフォニスになったようだ。第二ラウンドが始まろうとしているのだ。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_グレンデルヒ_transforms_サイザクタート_p4036
+        quote: 力士の手の動きに連動して、巨大な仮想使い魔の姿が変貌する。三首の犬サイザクタートの全身が細かく分割され、丸みを残した立方体となったのだ。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_グレンデルヒ_uses_空間操作_p4037
+        quote: 土俵に、そして周囲の空間そのものが架空の立方体に包囲される。空間そのものが二十七分割され、力士の手掌によって自在に動き出す。空中にいるこちらの座標が、強引に動かされて力士のすぐ傍に引き寄せられてしまう。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_グレンデルヒ_flees_軌道船_p4052
+        quote: 柱が内側から割れて、内部から現れたのは巨大な艦船――否、翼を備えた飛行機だった。上昇しているのは時空を航行する軌道船なのだ。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0115_パーン_defeats_ゾーイ_p4022
+        quote: 外れたはずの長い両足が弧を描いて曲がり、力士の顎に直撃。脳を揺らされた力士の動きが止まる。そして始まる、パーンによる一方的な蹂躙。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_パーン_fights_ゾーイ_p4022
+        quote: 鋼鉄の右腕が展開していく。四つの関節を有する機械義肢がパーンが操る波動を効率的に伝導、増幅させる。まともに受ければたとえ屈強な岩石肌であっても耐えることはできないだろう。
+        locator: {}
+        spoiler_after: ch0115
+    speech:
+      observations:
+      - event_ref: E_ch0115_パーン_says_神の資格_p4048
+        quote: 「否に決まっている。器も無しに王の名を僭称する不遜な輩に神の名などは勿体ないというもの。あれは醜い巨人族に過ぎん。その座から引きずり下ろして足蹴にしてやるのが相応の扱いだろうよ」
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゾーイ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0115_ゾーイ_transforms_出力60%_p4024
+        quote: 「出力――六十パーセント」雷光が閃き、ゾーイの巨体が膨張する。分厚い脂肪はその組成を変質させ、硬化した鎧となって力士の全身を覆う。昆虫の外骨格を思わせるフォルムに、毒々しいペイントが施された異形の身体。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_ゾーイ_transforms_出力70%_p4030
+        quote: 「七十パーセント」何度でもその肉体を再構成できる不死身の力士は、全身を更に禍々しく変貌させていった。肩は鋭角に尖り、背中から突きだした管は排気用のものなのか陽炎が揺らめいている。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_ゾーイ_transforms_大烏賊_p4043
+        quote: 空を飛ぶ大烏賊と同化した力士は「八十パーセント」の声と共に九つの触手をうねらせる巨大怪獣へと変身してみせた。
+        locator: {}
+        spoiler_after: ch0115
+    action:
+      observations:
+      - event_ref: E_ch0115_ゾーイ_attacks_アキラ_p4029
+        quote: 両手が交差して双剣の鋭さを宿す。その銘こそは、フライングクロスチョップ。回避は間に合わず、咄嗟の防御も力士の巨体の前には無意味に等しい。凄まじい衝撃に吹き飛ばされ、土俵の外へと押し出された。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_ゾーイ_fights_アキラ_p4031
+        quote: ゾーイが厄介なのは、前段の張り手が既に必殺の威力を有している点である。防御してもダメージが蓄積していく。一度引いたが最後、怒濤の寄り身で一気に押し切られてしまうのだ。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_ゾーイ_defeats_アキラ_p4045
+        quote: 力士の怪力が巨獣の尾を掴んで、豪快に振り回していく。ジャイアントスイング。回転させて目を回させるだけではなく、そのまま場外まで吹き飛ばすという荒技だ。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サイザクタート]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0115_サイザクタート_attacks_ゾーイ_p4034
+        quote: 雷光が閃き、輝く文字列と稲妻によって構成された獣が力士に食らいついていた。青白い雷獣の頭部は三つ。呪文によって生まれた三首の犬がヴァージルの敵を猛然と攻撃していく。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0115_ヴァージル_loses_第四ラウンド_p4036
+        quote: 雷の吐息によってその身を灼かれ、兎の少年は場外へと落下していった。哀れな主従は共に姿を消していく。第四ラウンドはこちらの敗北。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0115_ちびシューラ_uses_キーボード_p4038
+        quote: 情報処理用の眼鏡をかけたちびシューラは、架空の鍵盤を叩きながら言い放つ。（シューラに任せて！こういうパズル系はセスカより得意だよ！）
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0115_アルト_promises_冥道の幼姫_p4042
+        quote: もの言う槍が変化した不思議な子供は、彼に血のように赤黒い柘榴を差し出して、友を生き返らせる代わりに、死後、女王の従僕となるように要求する。アルトは承諾し、少女から貰った柘榴をダエモデクに与えて生き返らせる。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0115_クレイ_helps_アキラ_p4044
+        quote: 叫んだのはクレイだ。鱗を刃のようにして射出すると、次々に糸を切断していく。女王第一の配下である彼の『剣』は融血呪に対して極めて有効な切り札となり得る。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_六王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0115_六王_appears_ヒュールサス_p4046
+        quote: 六つの【断章】が光を放ち、そのうちの一つが空に浮かぶ太陰へと呪文を届かせる。情報の海底で眠り続けていた石版が輝き、冥道が開いていく。ヴァージルが作り出した冥府へ続く門。そこから飛び出した六条の魂魄がヒュールサスに飛来して、土の中に飲み込まれていく。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_六王_other_土_p4052
+        quote: その事を全員で確かめ合うと、六王は静かに目を閉じて土の中に還っていく。次に目覚めた時、彼らは盟主と共に決戦に挑むのだ。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_冥道の幼姫]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0115_冥道の幼姫_asks_王の資格_p4047
+        quote: 「死せる者たちに問いましょう。王に求められるものとは何か」応じるのは六王たち。一人ずつ、その資格を口にしていく。「それは愛情」「それは道徳」「それは健康」「それは地位」
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_女王]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0115_女王_other_死人の森の女王_p4050
+        quote: そして女王が宣言する。「これより私がヒュールサスの神、死人の森の女王となる。天よ、この神殺しの怒りを知るがいい！」虹色に燃えさかる刃が横薙ぎに一閃され、屹立する神体である巨大な柱が鮮やかに断ち切られた。
+        locator: {}
+        spoiler_after: ch0115
+    action:
+      observations:
+      - event_ref: E_ch0115_女王_fights_邪神_p4051
+        quote: 六王を率いる小さな女王は、輝く剣を振るって現れた名状しがたい醜悪な邪神と激闘を繰り広げる。それは雄々しい男性の化身のようであり、また巨大な力士のようでもあった。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_女王_kills_邪神_p4052
+        quote: 強大な力を持つ神は、それを倒しうるだけの力を持った強大な六王と小さな女王によって討伐された。哄笑しながら、邪神に乗り移っていた存在の気配が遠ざかっていく。
+        locator: {}
+        spoiler_after: ch0115
+      - event_ref: E_ch0115_女王_arrives_始まりの罪_p4053
+        quote: 二人はそうして、遙かな道のりを歩き、その場所に辿り着いた。暗く深い森の中、それは始まりの闇の中。月光に照らされて、死せる命が静かに眠る。そこに、始まりの罪が横たわっていた。
+        locator: {}
+        spoiler_after: ch0115
+    relationship:
+      observations:
+      - event_ref: E_ch0115_女王_bonds_アキラ_p4053
+        quote: 「さあ、幕を引きましょう。あなたの苦しみ、その尊さに、答えを出す時です」蜂蜜色の髪をした少女は、小さな手を伸ばして男の手を握った。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハザーリャ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0115_ハザーリャ_transforms_女王の権能_p4052
+        quote: その座を追われ、新たな神にして女王の権能の一部となったハザーリャが笑い出す。雄々しき男神そのものとなった巨大な槍の中にいるのは、もはやお馴染みとなった宿敵グレンデルヒだ。
+        locator: {}
+        spoiler_after: ch0115
+  first_appearance_candidate: true

@@ -1,0 +1,154 @@
+episode: ch0028
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_org_保険会社]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0028_保険会社_uses_民間警備会社_p1231
+        quote: 多くの保険会社は民間警備会社と契約するか、社内に警備部門を設立し、【殺し屋】から顧客の命を守ろうとする。
+        locator: {}
+        spoiler_after: ch0028
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_保険屋]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0028_保険屋_fights_殺し屋_p1231
+        quote: 【保険屋】と【殺し屋】。その二つの職種は、異世界転生が当たり前になった現代日本において、不倶戴天の商売敵といえる関係にあった。
+        locator: {}
+        spoiler_after: ch0028
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女性]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0028_女性_thinks_研修の意味_p1231
+        quote: どんな風に頭を捻ってもさっぱり答えが出てこない。これでは一年にも及ぶ対【殺し屋】戦闘の特別研修に何の意味があったのかわからない。
+        locator: {}
+        spoiler_after: ch0028
+      - event_ref: E_ch0028_女性_names_青嶺瑠璃_p1234
+        quote: 「まじです。付け加えると、その担当者は退社後消息を絶っています。名前は、例によって青嶺瑠璃」
+        locator: {}
+        spoiler_after: ch0028
+    action:
+      observations:
+      - event_ref: E_ch0028_女性_uses_電子書籍_p1231
+        quote: 密かに網膜内に電子書籍の文字列を投影させて、仕事をする振り
+        locator: {}
+        spoiler_after: ch0028
+      - event_ref: E_ch0028_女性_stops_音声_p1232
+        quote: これ以上この小うるさい覗き魔の妄言を聞いていると容赦のないネタバレをされそうだったので、強制的に音声を切断する。
+        locator: {}
+        spoiler_after: ch0028
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_殺し屋]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0028_殺し屋_helps_依頼主_p1231
+        quote: 【殺し屋】は他殺や事故死に偽装して、依頼主の事実上の自殺を幇助する職業である。
+        locator: {}
+        spoiler_after: ch0028
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ケイト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0028_ケイト_says_レジンキャストミルク_p1232
+        quote: （何々、藤原祐の『レジンキャストミルク』？ 随分とまた古い小説を。というか君は相変わらずその年代の娯楽小説が好きだよね）
+        locator: {}
+        spoiler_after: ch0028
+      - event_ref: E_ch0028_ケイト_says_人間扱い_p1237
+        quote: 「失敬だな！ たとえ肉体が存在しなくとも、自律的に判断し主体的に行動する僕は紛れもない人間だよ。ああ、でも少し不安だな。これから赴く異世界に、その事を理解してくれる人はいるのだろうか？」
+        locator: {}
+        spoiler_after: ch0028
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_上司]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0028_上司_reveals_重複転生_p1233
+        quote: 「しかし、これではっきりしたなあ。間違いなく重複転生案件だぞ、こりゃあ」
+        locator: {}
+        spoiler_after: ch0028
+      - event_ref: E_ch0028_上司_says_調査結果_p1233
+        quote: 「調査の結果、間違いなく該当する契約者は希望した異世界――下位プレーンの小規模世界ですね――に転生し、そこでおよそ一年ほど過ごした後に死亡しています。」
+        locator: {}
+        spoiler_after: ch0028
+      - event_ref: E_ch0028_上司_asks_担当者の退社_p1234
+        quote: 「当時の担当者が、転生処理の実行直後に退社しておりまして」
+        locator: {}
+        spoiler_after: ch0028
+      - event_ref: E_ch0028_上司_asks_本業_p1235
+        quote: 「どうにか『無かったこと』として収めないと私も君も色々危ないことになる。というわけで――『本業』の方、頼もうか。」
+        locator: {}
+        spoiler_after: ch0028
+      - event_ref: E_ch0028_上司_says_また_p1235
+        quote: '「『また』か」
+
+          「『また』です」'
+        locator: {}
+        spoiler_after: ch0028
+      - event_ref: E_ch0028_上司_says_転生_p1236
+        quote: 「全く、正気の沙汰じゃないね。転生なんざする奴も、異世界に転移する奴も、気が知れん。自分が消えて異世界に再構成されたって、そいつは同じってだけで意識は連続してない別人だろうに」
+        locator: {}
+        spoiler_after: ch0028
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_契約者]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0028_契約者_fights_武将_p1233
+        quote: 最後は当該世界における最大勢力の武将と相打ちになる形でその人生に幕を閉じた、と歴史書にもその名が残っており、事後調査が楽でした。
+        locator: {}
+        spoiler_after: ch0028
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_造井玲]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0028_造井玲_names_アキラ_p1236
+        quote: 造井玲はとろんとした目でビル街を眺めていた。ぞういあきら
+        locator: {}
+        spoiler_after: ch0028
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0028_アキラ_uses_脳侵襲機器_p1238
+        quote: 小さな、そしてつるりとした禿頭を撫でる。その表面で、ナノマシンによって刻まれた微細構造が複雑なパターンの光を放ち、最先端の脳侵襲機器が詰め込まれた彼女の頭蓋がその真価を発揮するために加熱していく。
+        locator: {}
+        spoiler_after: ch0028
+      - event_ref: E_ch0028_アキラ_kills_抹消決定_p1239
+        quote: 「抹消決定。お仕事なんで、恨まないでねー」
+        locator: {}
+        spoiler_after: ch0028
+      - event_ref: E_ch0028_アキラ_teleports_世界_p1239
+        quote: そして、彼女はそのまま世界から消失した。 情報的に離散し、物理的に崩壊する。 次の瞬間に彼女が降り立ったのは槍が世界を貫く、先程までとは異なる世界。
+        locator: {}
+        spoiler_after: ch0028
+    speech:
+      observations:
+      - event_ref: E_ch0028_アキラ_names_シナモリ・アキラ_p1239
+        quote: 「本名もやばいよねー。じゃあ呼称は暫定でー、シナモリ・アキラさん？ ええっと、とりあえず『最終的解決』っと」
+        locator: {}
+        spoiler_after: ch0028
+    name:
+      observations:
+      - event_ref: E_ch0028_アキラ_names_沼女_p1239
+        quote: 世界から世界へ、瞬く間に転移してのけた世界間転移能力者――通称【沼女】は、気怠げに頭を振ると、自らの職務を遂行すべく行動を開始した。
+        locator: {}
+        spoiler_after: ch0028
+  first_appearance_candidate: true

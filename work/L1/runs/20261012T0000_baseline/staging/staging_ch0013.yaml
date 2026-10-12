@@ -1,0 +1,214 @@
+episode: ch0013
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0013_コルセスカ_hides_自室_p591
+        quote: ちなみにコルセスカは個室に籠もって不貞寝しているらしい。
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0013_トリシューラ_gives_軍資金_p591
+        quote: 手持ちぶさたになった俺と猫耳の少年に軍資金を握らせてそう言ったのだ。
+        locator: {}
+        spoiler_after: ch0013
+    visual:
+      observations:
+      - event_ref: E_ch0013_トリシューラ_wears_黒白ボーダー柄シャツ_p591
+        quote: 今日のトリシューラは黒と白のボーダー柄のシャツに黒系のキュロットと赤いタイツを合わせ、シンプルな黒のパンプスという装い。グレーのベレー帽がワンアクセントになっている様子だ。
+        locator: {}
+        spoiler_after: ch0013
+    speech:
+      observations:
+      - event_ref: E_ch0013_トリシューラ_reveals_襲撃映像の公開_p592
+        quote: こないだの戦いは私がばっちり撮影してアップロードしといたよ。あ、ちゃんと無駄な所とかカットして、プライベートに配慮した編集してるから大丈夫だよ
+        locator: {}
+        spoiler_after: ch0013
+      - event_ref: E_ch0013_トリシューラ_asks_パートナーシップ_p593
+        quote: 「謝罪の気持ちがあるならさ、私のパートナーにならない？」
+        locator: {}
+        spoiler_after: ch0013
+      - event_ref: E_ch0013_トリシューラ_teaches_責任感の扱い_p594
+        quote: 私が勝手に行動して、勝手に背負い込んだ危険だもん。そういう考え方してると責任感と恩で潰れちゃうよ
+        locator: {}
+        spoiler_after: ch0013
+      - event_ref: E_ch0013_トリシューラ_attacks_第五階層_p626
+        quote: （格の違いを思い知らせてあげよう。さあ始めようかアキラくん。私は、この迷宮を破壊する。見届けてくれるかな？）
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0013_アキラ_thinks_三日間の約束_p593
+        quote: 俺は三日間と区切りを決めた。俺の内心がどうであれ、公平性を理由にそう約束してしまったのだから、もう反故には出来ない。
+        locator: {}
+        spoiler_after: ch0013
+      - event_ref: E_ch0013_アキラ_names_レオ_p604
+        quote: 「【レオ】ってのはどうだ？」
+        locator: {}
+        spoiler_after: ch0013
+      - event_ref: E_ch0013_アキラ_other_結婚提案_p620
+        quote: 「申し訳無いのですが、今の俺は身の置き場も定まらない状況です。定まった職業も持たない身で、軽々しく誰かと結ばれるなどと口にするのは無責任というものです。魅力的なお誘いですが、謹んで辞退させて頂きます」
+        locator: {}
+        spoiler_after: ch0013
+      - event_ref: E_ch0013_アキラ_thinks_ロドウィへの敵意_p623
+        quote: 目の前で優しげに笑みを浮かべる老人は、凶悪なマフィアの頭目なのだ。
+        locator: {}
+        spoiler_after: ch0013
+    visual:
+      observations:
+      - event_ref: E_ch0013_アキラ_wears_急場凌ぎの義肢_p596
+        quote: あれからトリシューラが用意してくれた代わりの義肢を付けているのだが、これはただ腕の形をしているだけの急場凌ぎの装飾用義肢で、動かしたりは出来ないタイプの物だ。
+        locator: {}
+        spoiler_after: ch0013
+    action:
+      observations:
+      - event_ref: E_ch0013_アキラ_activates_トリシューラの計画_p624
+        quote: （うん、ちゃんとわかってるよ。アキラくん。もう準備だってできているから）「ああ。それなら今すぐだ。やってくれ」
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0013_ちびシューラ_reveals_トリシューラの意図_p595
+        quote: 「本音は俺たちを餌にして【公社】の反応を見たい？」
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0013_レオ_takes_アキラの義肢_p597
+        quote: ぱっと表情を輝かせて、子犬のように俺の義肢にとびつく。
+        locator: {}
+        spoiler_after: ch0013
+    speech:
+      observations:
+      - event_ref: E_ch0013_レオ_other_レオという名前_p605
+        quote: 「レオ、レオ、レオ――僕の名前は、レオ。わ、なんだかしっくり来るような気がする。アキラさん、ありがとうございます。とっても嬉しいです！」
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_店員]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0013_店員_wears_呪術師の服装_p598
+        quote: 黒と紫を基調とした呪術師の服装で、手には大きな杖を握っている。杖の先端には皿のように窪んだ巨大な円盤が取り付けられており、巨大な匙のようにも見える。
+        locator: {}
+        spoiler_after: ch0013
+    speech:
+      observations:
+      - event_ref: E_ch0013_店員_other_古代語_p599
+        quote: 店員さんの口から滑らかに滑り出す、少年と同じ言語。彼の言葉が理解できるためか、俺にもそれが聞き取れた。
+        locator: {}
+        spoiler_after: ch0013
+      - event_ref: E_ch0013_店員_says_探索者の苦難_p608
+        quote: 探索者としての能力以外を求められてくる方がそれなりの数いらっしゃるので、結局一人で探索に行っていますね
+        locator: {}
+        spoiler_after: ch0013
+    action:
+      observations:
+      - event_ref: E_ch0013_店員_other_屋台_p607
+        quote: 「あのお店のシフトがお昼までなんですよ。お昼時はここで働かせてもらっています」
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_端末]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0013_端末_defines_通信情報機器_p599
+        quote: この世界における端末とは、通信と情報処理の役割を果たす小型の機器のことを指します。
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ライブラリ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0013_ライブラリ_defines_四十枚一組の端末形式_p602
+        quote: このように、四十枚一組の【図書館】と呼ばれる形式にすれば魔導書にも劣らない性能を発揮することが可能なんですよ
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_Speaer]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0013_Speaer_appears_大型ディスプレイ_p610
+        quote: 背の高いビルディング、その上の大型ディスプレイ。映し出されているのは黒髪の歌姫だ。
+        locator: {}
+        spoiler_after: ch0013
+    speech:
+      observations:
+      - event_ref: E_ch0013_Speaer_other_エスニック・ポリフォニー_p611
+        quote: 今流れているナンバーは【エスニック・ポリフォニー】。美しいソプラノが混沌とした喧噪の中で、別格の存在感を持って流れていく。
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ロドウィ]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0013_ロドウィ_appears_雑踏_p613
+        quote: 流暢な日本語で話す、恰幅のいい壮年の男。【公社】の首領ロドウィがそこに立っていた。
+        locator: {}
+        spoiler_after: ch0013
+    speech:
+      observations:
+      - event_ref: E_ch0013_ロドウィ_asks_アニスとの結婚_p619
+        quote: 「ははは、仲がいいじゃないか。どうかね、アキラ。娘を嫁に貰ってはくれんだろうか。
+        locator: {}
+        spoiler_after: ch0013
+      - event_ref: E_ch0013_ロドウィ_other_住宅サービス_p621
+        quote: 「君に任せたいのは住宅サービスの提供でね。今日の寝床すら定まらないような貧困層の為に、低価格で住居を貸し出そうと思っているのだよ。
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_アニス]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0013_アニス_wears_黒服_p618
+        quote: 詰め襟の軍服めいた黒服に身を包んでおり、身体の線から性別は分からないが、ゆるやかに波打つ豊かな黒髪と線の細い顔だちは年若い娘のものだ。
+        locator: {}
+        spoiler_after: ch0013
+      - event_ref: E_ch0013_アニス_carries_トンファー_p619
+        quote: だぼっとした袖口の内側に、旋棍型の呪具が隠されている事を俺はトンファー知っている。
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_治癒符]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0013_治癒符_appears_空からの散布_p625
+        quote: 階層の天蓋すれすれを飛行する無人の回転翼機が、ぶら下げた大きなコンテナから大量の治癒符をばらまいているのだ。
+        locator: {}
+        spoiler_after: ch0013
+  first_appearance_candidate: true

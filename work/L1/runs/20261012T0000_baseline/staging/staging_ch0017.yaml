@@ -1,0 +1,158 @@
+episode: ch0017
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0017_アキラ_thinks_決断の鈍り_p747
+        quote: 昨日まではトリシューラの元に身を寄せると決めていた筈なのに、状況が少し動いただけでこうも決断が鈍るというのは、我ながら不誠実であると言う他無い。
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_アキラ_thinks_状況の逆転_p747
+        quote: 第五階層の覇権を巡って対立する【公社】とトリシューラの抗争は、当初トリシューラ優勢だと思われたが、俺の炎上や新たな紙幣発行などの応手によって状況は逆転。
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_アキラ_asks_コルセスカとの対立_p750
+        quote: 「もし――コルセスカが敵に回っていたんだとしたら、どうするんだ？」
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_アキラ_other_アズーリアへの感謝_p762
+        quote: その思い込みを指摘して、どこに行けばいいのかも分からず混乱する私に指針を示してくれたのが、その人です。
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_アキラ_asks_アズーリアの所在_p764
+        quote: 『それでもなお謝罪を続けるというのなら、代わりに頼みを聞いていただけませんか。私はその松明の騎士、アズーリアという人物のことを探しています。』
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_アキラ_other_アズーリアの約束_p766
+        quote: 「私は、必ず貴方を迎えにいくから」直後、夢が弾けた。
+        locator: {}
+        spoiler_after: ch0017
+    action:
+      observations:
+      - event_ref: E_ch0017_アキラ_other_感謝のメール_p759
+        quote: 「アドレス書いてあるけど、お礼のメールをしておきたいな。公開して炎上のネタになっても嫌だし、個人的に感謝を述べるって形で」
+        locator: {}
+        spoiler_after: ch0017
+    visual:
+      observations:
+      - event_ref: E_ch0017_アキラ_other_アズーリアの訪問_p766
+        quote: 差し込む光。朝だ、と思って見上げると、鋼鉄の籠手に包まれた手が差し伸べられていた。
+        locator: {}
+        spoiler_after: ch0017
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キロン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0017_キロン_threatens_裏切りの誘い_p747
+        quote: 加えて、【松明の騎士団】のキロンという男が現れ、俺にトリシューラを裏切れば地上に迎え入れるという誘いをかけてきた。
+        locator: {}
+        spoiler_after: ch0017
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_トリシューラ]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0017_トリシューラ_activates_アストラル界へのダイブ_p748
+        quote: 「アストラル界にダイブして、【公社】のサーバーに侵入する」
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_トリシューラ_makes_情報操作の解析_p756
+        quote: トリシューラはそう意気込むと、猛烈な勢いで打鍵を再開する。浅はかな情報操作や工作など、見るものが見ればすぐにわかる。
+        locator: {}
+        spoiler_after: ch0017
+    speech:
+      observations:
+      - event_ref: E_ch0017_トリシューラ_says_勝つこと_p748
+        quote: 「要するに、私が勝てばいいんだ。そうだよね、アキラくん？」
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_トリシューラ_says_打鍵速度と技量_p749
+        quote: 「打鍵速度は言語魔術師の技量とイコールだと見なされているの。だから速ければ速いほど侵入の成功率は上昇する」
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_トリシューラ_says_視覚的イメージの効用_p749
+        quote: 「それでも、こういう巷間に流布した視覚的なイメージは呪術的な強化に繋がるの。仰々しさは儀式に繋がるし、直観に則した外観が科学性の外――すなわち呪術の力を強固にする」
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_トリシューラ_says_勝ちたいという意志_p751
+        quote: 「わからない。けど、もしセスカが私と戦う事を選んだのだとしたら――私は、勝ちたい」
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_トリシューラ_says_コルセスカの助勢_p754
+        quote: 「――セスカが助けてくれたんだと思う。多分まだ第五階層のどこかにいて、こっちの動きを監視してるんだ」
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_トリシューラ_says_文体論的推定_p757
+        quote: あらゆるテクストには『筆致』や『文体』という呪術的痕跡が必ず残る。情報量が多くなればなるほど、統計に基づいた文体論的推定は容易になるの
+        locator: {}
+        spoiler_after: ch0017
+    visual:
+      observations:
+      - event_ref: E_ch0017_トリシューラ_wears_巨大なヘッドギア_p748
+        quote: 頭部をすっぽりと覆う巨大なヘッドギア。無数のコードが据え置きの端末に繋がり、室内にはファンの回転する音がＢＧＭとして響いている。
+        locator: {}
+        spoiler_after: ch0017
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_コルセスカ]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0017_コルセスカ_saves_アキラ_p752
+        quote: 瞬間、水流の槍が一斉に凍結し、その動きを停滞させた。
+        locator: {}
+        spoiler_after: ch0017
+    speech:
+      observations:
+      - event_ref: E_ch0017_コルセスカ_defines_ICE_p753
+        quote: 「アイス――つまりＩｎｔｒｕｓｉｏｎ Ｃｏｕｎｔｅｒｍｅａｓｕｒｅ Ｅｎｔｒａｎｃｅｍｅｎｔの頭文字をとってＩＣＥってことなんだけど」
+        locator: {}
+        spoiler_after: ch0017
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_敵呪術師]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0017_敵呪術師_transforms_物理的実体_p752
+        quote: 水流はそのまま画面から飛び出し、物理的な実体を獲得、そのまま等身大の少女の形をとる。水によって形作られた瞳がこちらを視認。どろりとした口が言葉を紡ぎ出す。
+        locator: {}
+        spoiler_after: ch0017
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_リーナ・ゾラ・クロウサー]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0017_リーナ・ゾラ・クロウサー_says_実名での反論_p757
+        quote: それが匿名ではなく、実名を明かしての意見の発信であったことも大きかった。身元の確かな探索者で、名前はリーナ・ゾラ・クロウサーという女性らしい。
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_リーナ・ゾラ・クロウサー_says_自己満足_p759
+        quote: 『私はただ、筋違いな理路を正したかっただけであり、お礼を言われるような事はしていません。あれは不当に他者を貶め、栄誉と利益を独占しようとすることへの個人的な怒りの発露であり、私の自己満足に過ぎません』
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_リーナ・ゾラ・クロウサー_confesses_謝罪_p763
+        quote: 『ごめんなさい、ただ謝られても意味が分からないですね。
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_リーナ・ゾラ・クロウサー_says_アズーリアの言葉_p765
+        quote: 『ですがきっと、その人はこう言うでしょう。貴方がそこに無事でいることを、とても、とても嬉しく思う。今もまだ、その場所で戦い続けている貴方を、私はいつか必ず』
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_リーナ・ゾラ・クロウサー_says_アズーリアへの伝言_p767
+        quote: 『ですが、今回の騒動で貴方の存命はアズーリア・ヘレゼクシュの耳にも届いたと思います。貴方の目的のほとんどは既に達成されている筈です。』
+        locator: {}
+        spoiler_after: ch0017
+      - event_ref: E_ch0017_リーナ・ゾラ・クロウサー_asks_継続的な交流_p768
+        quote: 『もしよろしければ、これからもこうしてお話していただけませんか』
+        locator: {}
+        spoiler_after: ch0017
+  first_appearance_candidate: true

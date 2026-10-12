@@ -1,0 +1,254 @@
+chapter: ch0010
+created: '2026-09-30'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 5
+  themes: 1
+  quotes_verified: 15
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0010_コルセスカ_makes_呪術準備_p436]]'
+  object: '[[ME_AR_ゲーム]]'
+  claim: 床に描かれた紋様と氷球からの立体映像が組み合わさる様子は、現実世界でのAR（拡張現実）技術を用いたゲームプレイやUI表示のメタファーである。
+  quote: 加えて、氷球から反射する光が立体映像を形作り、床の模様と組み合わさり複雑な多層構造を作り出している。
+  paragraph: p436
+  confidence: strong
+  quotes:
+  - quote: 加えて、氷球から反射する光が立体映像を形作り、床の模様と組み合わさり複雑な多層構造を作り出している。
+    paragraph: p436
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0010_アキラ_thinks_価値の相対性_p441]]'
+  object: '[[ME_自己責任論]]'
+  claim: アキラが「価値は外部から規定される欺瞞」として抗う姿勢は、社会構造によって個人の価値が決定されることへの批判であり、自己責任論的な「自分の価値は自分で決める」という建前への皮肉な逆転を示す。
+  quote: 俺はその欺瞞が気にくわない。好き勝手に外部から価値を規定されるなら、ぎりぎりまで抗って嫌がらせをしてやろう。
+  paragraph: p441
+  confidence: moderate
+  quotes:
+  - quote: 俺はその欺瞞が気にくわない。好き勝手に外部から価値を規定されるなら、ぎりぎりまで抗って嫌がらせをしてやろう。
+    paragraph: p441
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0010_アキラ_observes_融合体の音_p454]]'
+  object: '[[ME_音声認識AI]]'
+  claim: アキラが聴覚を鋭敏にし、ノイズを排除して個々の音にタグ付けしグループ分けする行為は、現代の音声認識AIやノイズキャンセリング技術のアルゴリズムを人間側の感覚で再現したものである。
+  quote: それぞれの音のパターンを捉え、個別にタグを付ける。特徴ごとにグループ分けされていく音のパターンから、共通する点が多いものから排除していく。
+  paragraph: p454
+  confidence: strong
+  quotes:
+  - quote: それぞれの音のパターンを捉え、個別にタグを付ける。特徴ごとにグループ分けされていく音のパターンから、共通する点が多いものから排除していく。
+    paragraph: p454
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0010_アキラ_finds_カッサリオの位置_p460]]'
+  object: '[[ME_スマホゲーム_ターゲットロック]]'
+  claim: アプリ『Doppler』を用いて巨大な敵集団の中から特定のボス（カッサリオ）の位置を特定し、視覚情報ではなく音響データで補正する様子は、スマホゲームにおけるターゲットロック機能やレーダーのメタファーである。
+  quote: そもそも、あれほどの巨体だというのに、融合体の表面にはそれとわかるようにカッサリオの姿が現れていない。そうやって隠されている時点でもう弱点であると宣言しているようなものだ。
+  paragraph: p460
+  confidence: moderate
+  quotes:
+  - quote: そもそも、あれほどの巨体だというのに、融合体の表面にはそれとわかるようにカッサリオの姿が現れていない。そうやって隠されている時点でもう弱点であると宣言しているようなものだ。
+    paragraph: p460
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0010_アキラ_remembers_カインの死_p470]]'
+  object: '[[ME_安楽死]]'
+  claim: カインの同化と殺害の記憶は、安楽死や尊厳死の倫理的葛藤、特に「苦痛からの解放」という名目で他者の生命を断つ行為の重さを示唆している。
+  quote: かつて俺は、懇願する彼の願いを聞き届け、その生命を終わらせた。選択の重さすら外側に投げ出した。
+  paragraph: p470
+  confidence: strong
+  quotes:
+  - quote: かつて俺は、懇願する彼の願いを聞き届け、その生命を終わらせた。選択の重さすら外側に投げ出した。
+    paragraph: p470
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0010_アキラ_attacks_カッサリオ_p461]]'
+  object: '[[ME_格闘ゲーム_入力コマンド]]'
+  claim: サイバーカラテ道場の仮想人体に光が点灯し、「GOOOD!」「発勁用意」「DOSUKOI!」といった文字が表示される様子は、格闘ゲームのコマンド入力成功演出やコンボ表示を模倣している。
+  quote: 「ＧＯＯＤ！」の文字が輝き、膝、大腿部、腰から左肩、肘へと移動。「発勁用意」の文字が輝きを放ち、太く巨大な左義肢の先端に、右足から伝達された力が最適な効率で収束、融合体と接する一点で炸裂する。「ＤＯＳＵＫＯＩ！」
+  paragraph: p461
+  confidence: explicit
+  quotes:
+  - quote: 「ＧＯＯＤ！」の文字が輝き、膝、大腿部、腰から左肩、肘へと移動。「発勁用意」の文字が輝きを放ち、太く巨大な左義肢の先端に、右足から伝達された力が最適な効率で収束、融合体と接する一点で炸裂する。「ＤＯＳＵＫＯＩ！」
+    paragraph: p461
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0010_ロウ・カーイン_other_探索者パーティ_p450]]'
+  object: '[[ME_転職]]'
+  claim: 悪鬼の用心棒から探索者パーティへの「暫定的な加入」は、現代の労働市場における転職や、状況に応じた契約形態の変更（ギグワーク）のメタファーである。
+  quote: 迷いは一瞬だった。果断にも雇い主を裏切る決断を下したカーインは暫定的にコルセスカの仲間として探索者パーティに加入したのだった。
+  paragraph: p450
+  confidence: moderate
+  quotes:
+  - quote: 迷いは一瞬だった。果断にも雇い主を裏切る決断を下したカーインは暫定的にコルセスカの仲間として探索者パーティに加入したのだった。
+    paragraph: p450
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0010_コルセスカ_activates_シャルマキヒュの凍視_p459]]'
+  object: '[[ME_監視社会]]'
+  claim: 「受動型呪術」「回避の権利はありません」という宣言は、一度視認されれば逃れられないという点で、現代の監視カメラやデータ追跡による監視社会の不可避性を象徴している。
+  quote: 「無駄です。【シャルマキヒュの凍視】は受動型呪術。行動を終えた貴方たちに、回避の権利はありません」
+  paragraph: p459
+  confidence: moderate
+  quotes:
+  - quote: 「無駄です。【シャルマキヒュの凍視】は受動型呪術。行動を終えた貴方たちに、回避の権利はありません」
+    paragraph: p459
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0010_アキラ_threatens_カーインの誇り_p451]]'
+  object: '[[ME_ネット炎上]]'
+  claim: カーインの二つ名を「虚名」「大道芸」と貶めるアキラの挑発は、ネット上での人格否定や、実績を「盛っている」と批判する炎上行為の構造を模している。
+  quote: 「それとも、『六淫操手』とかいう二つ名は虚名だったのかな。唾を油まみれにするのが関の山の大道芸か。全く、お里が知れる」
+  paragraph: p451
+  confidence: moderate
+  quotes:
+  - quote: 「それとも、『六淫操手』とかいう二つ名は虚名だったのかな。唾を油まみれにするのが関の山の大道芸か。全く、お里が知れる」
+    paragraph: p451
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0010_アキラ_says_殺意の定義_p439]]'
+  object: '[[ME_ブラックリスト]]'
+  claim: 「信用が失われれば無視」「不信が蓄積すれば殺す」という二項対立は、SNSやプラットフォームにおけるユーザーのブラックリスト化（シャドウバン/アカウント停止）と、その先にある物理的・社会的排除のメタファーである。
+  quote: 「信用が失われれば俺はそいつをクズだと認識して無視するが、不信が蓄積すれば敵だと認識して殺す」
+  paragraph: p439
+  confidence: moderate
+  quotes:
+  - quote: 「信用が失われれば俺はそいつをクズだと認識して無視するが、不信が蓄積すれば敵だと認識して殺す」
+    paragraph: p439
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トライデントの正体と目的
+  note: 「使い魔の魔女」トライデントが「融血呪」で攻撃していることが判明したが、その具体的な目的や背景は不明。トリシューラとコルセスカが「絶対に敵対しかあり得ない」と言うほどの存在である。
+  quotes:
+  - quote: 「あの青い血液による異質な生命同士の融合現象。あれは間違いなくトライデントの禁戒呪法『融血呪』です。つまり、私達は今、トライデントの攻撃を受けていると見てまず間違いありません」
+    paragraph: p445
+    quote_verified: true
+  - quote: 「トライデントは『使い魔』の魔女です。自らは姿を現すことなく、使役する組織構成体を送り込んでくる厄介な相手。その使い魔の数は無尽蔵で、とても単独では抗えません」
+    paragraph: p446
+    quote_verified: false
+  expected_payoff: トライデントがなぜアキラを狙うのか、また「使い魔」としての性質がアキラの「使い魔化」の試みとどう対比されるかが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_星見の塔の最後の魔女の席
+  note: 4人の候補者が争う「最後の魔女」の席。その席に座ることで何が得られるのか、また「塔のお姉様たち」とは誰なのかが未定義。
+  quotes:
+  - quote: 「私達は『星見の塔』の『最後の魔女』の席を賭けて争っているんだ。その席はたった一ポストつきりで、四人いる候補者のうち一人しかそこには座れない。私達はその『場所』を獲得するために互いを押しのけて、それぞれの目的を達成して『塔』のお姉様たちに認めてもらわないといけないの」
+    paragraph: p446
+    quote_verified: false
+  expected_payoff: この席の獲得が物語の終盤の目標となり、アキラがその争いにどう関与するかが描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_少年の正体と融合体への取り込み
+  note: 猫耳の少年が融合体に飲み込まれた。カインの同化を想起させるが、少年は死んでいるのか、それとも融合体の一部として存在し続けるのか。
+  quotes:
+  - quote: 本体中央が口を開くように大きく窪んだかと思うと、その中に少年を一気に飲み込んでしまったのだ。
+    paragraph: p469
+    quote_verified: true
+  - quote: その光景は、半年前にエスフェイルに取り込まれ、同化させられたカインの姿を思い起こさせずにはいられなかった。
+    paragraph: p470
+    quote_verified: true
+  expected_payoff: 少年が融合体の中でどうなっているか、アキラが少年を救出できるか、あるいはカインのように殺さざるを得ない状況に直面するかが描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ロウ・カーインの「気」の性質
+  note: カーインの「六淫操手」の技が、アキラの肉体を強化し、さらに融合体（死体を含む）に対しては効果が薄いという特性を持つ。この「気」の定義が今後の戦闘で重要になる。
+  quotes:
+  - quote: 「経絡秘孔を突き、任脈に気を充溢させた。一時的に肉体の活力が平常時の三倍にまで高まっているはずだ。見たかシナモリ・アキラ！　これが『六淫操手』が虚名ではないという確たる証拠！」
+    paragraph: p452
+    quote_verified: true
+  - quote: カーインの技は、生物には絶大な効果を発揮する。しかし、既に生きていない者には全く意味を為さないのではないか。
+    paragraph: p468
+    quote_verified: true
+  expected_payoff: カーインの技の限界と、アキラのサイバーカラテとの相性、あるいは「気」がアキラの義肢や身体に与える長期的な影響が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トリシューラの「禁呪」
+  note: トリシューラが「私だって『禁呪』が使えれば――」と言いかけて口を噤んだ。彼女が使えるはずの強力な呪術の代償や条件が不明。
+  quotes:
+  - quote: 「それに私だって『禁呪』が使えれば――」
+    paragraph: p437
+    quote_verified: false
+  expected_payoff: トリシューラが窮地において「禁呪」を使用せざるを得ない状況に追い込まれ、その代償（記憶の喪失、機能停止など）が描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 価値は他者との関係性の中で「でっち上げ」られる虚構である
+  weight: 0.9
+  quotes:
+  - quote: 価値とは相対的な関係性の中で創出されるもの――換言すればでっち上げられるものだからだ。
+    paragraph: p441
+    quote_verified: false
+  - quote: その時点で、二人にとって俺は『価値ある存在』になってしまっているのだ。
+    paragraph: p441
+    quote_verified: true
+  note: アキラは自分の能力（サイバーカラテのランキング）が低いことを自覚しているが、魔女たちは彼を「価値ある存在」として扱う。この矛盾が物語の駆動力となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

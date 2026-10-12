@@ -1,0 +1,740 @@
+episode: ch0239
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキレギア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0239_アキレギア_says_正義の味方_p7823
+        quote: 「お手並み拝見ってとこか。せいぜい暴れてくれよ？　あんまショボいと『正義の味方』がやりづれえからよ」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_アキレギア_says_奪取シナリオ_p7824
+        quote: 「なら名無し野郎の奪取シナリオが上手くいく方にお祈りしようかね。望み薄だけど」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アサブ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_アサブ_observes_襲撃_p7823
+        quote: 襲撃地点からやや離れた木立に身を潜めるのは、『ハルムシオンの風』と呼ばれる亜大陸出身の黒檀の民である。　中心にいるのは一組の男女。頭目のアサブと、その情婦アキレギアだ。
+        locator: {}
+        spoiler_after: ch0239
+    speech:
+      observations:
+      - event_ref: E_ch0239_アサブ_says_修正シナリオ_p7823
+        quote: 「あくまでも失敗時の修正シナリオだろ？　流れ次第じゃ何もせず撤退ってこともある。あんまはしゃぐなよ、アキレギア」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_アサブ_says_最下位_p7824
+        quote: アキレギアが尋ねると、アサブは端末を見て鼻で笑うように答えた。「最下位」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_クイーンサイド]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_クイーンサイド_attacks_機械女王の拠点_p7823
+        quote: 襲撃者たちは遠目にも明らかな樹皮肌で、ティリビナ人の過激派勢力であることを隠そうともしていない。「『クイーンサイド』の連中が動いたぞ」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_スーリウム]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0239_スーリウム_has_property_保険_p7824
+        quote: 全知に等しいティリビナの賢者が、失敗した時の保険を用意しているというのはやや奇妙とも言える。枝分かれする未来を自由に選択可能な怪物にも慎重さが備わっていると解釈することもできるが、仮にそうでなかった場合。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハデス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_ハデス_makes_精神加工_p7824
+        quote: 「アプリでもいいってよ。豚好きハデスの精神加工。一時的に死を偽装できるって話」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルティウス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0239_アルティウス_says_思考停止_p7825
+        quote: 「否ダ。そレは、たダの思考停止ニ過ギぬ。ソルダなラば、そう言ったハずだ」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_アルティウス_promises_従順_p7826
+        quote: 「今ノは、答えカ？　イヤ、返事は不要ダ。我が主ヨ、ソルダの思惑ガどうでアれ、オれはアなタに従うのミ」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クナータ・ノーグ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0239_クナータ・ノーグ_asks_信仰_p7825
+        quote: 「信仰とは、果たして超越的な力への盲従のことでしょうか」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ティリビナ同胞団]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0239_ティリビナ同胞団_has_property_非統一_p7825
+        quote: それはティリビナ同胞団という総体の意思が統一されていないことを意味する。　この舞台を支配しているのは、決してスーリウムひとりではないのだ。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クナータ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0239_クナータ_thinks_悪魔ハグレス_p7826
+        quote: 「神を僭称し、契約を持ち掛け、力を与える一方で破滅に導く。それは聖典に語られる悪魔ハグレスの行い。零落した神の末路」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_クナータ_asks_松明_p7827
+        quote: 「煙によって火が灯る。この場合、松明はどちらでしょう」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_クナータ_says_夢_p7828
+        quote: 「あなたの夢を、わたしも信じたかったわ」
+        locator: {}
+        spoiler_after: ch0239
+    action:
+      observations:
+      - event_ref: E_ch0239_クナータ_breaks_蝶_p7827
+        quote: アルティウスが何かを口にするより先に、少女の細い手が動く。残酷な子供のように、きらきらと光る儚い翅をつまみ、ねじる。
+        locator: {}
+        spoiler_after: ch0239
+    visual:
+      observations:
+      - event_ref: E_ch0239_クナータ_observes_蝶_p7827
+        quote: 「声が、聞こえる」　少女の顔のすぐ前に、光り輝く蝶が舞う。　不思議な存在感と神秘性を持ったそれは、明確な意思を持って聖女の周囲を羽ばたき、何事かを主張しているように見えた。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_クナータ_makes_二重螺旋の鎖_p7828
+        quote: そこに載せられていたのは、細く長い鎖。　だが修道騎士の金鎖とは少し趣が違っていた。　　二本の鎖が一対となった二重螺旋の形をしていたのだ。片方は煌めくような金。もう片方は融けるような青。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_槍神教]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0239_槍神教_defines_堕落_p7826
+        quote: 悪魔によって人が堕落し、信仰が穢されるのではない。　堕落と穢れがあらかじめ人の心に潜んでいるために悪魔が存在するのだ。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メートリアン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_メートリアン_fights_レナリア_p7828
+        quote: 突如として現れ襲い掛かってきたレナリアの殺意を、短槍を構えたメートリアンは真正面から迎え撃つ。互いに刃で火花散らすこと数合。距離を置き、投擲された短剣を穂先を跳ね上げる動きで弾く。暗殺者の動きは機敏。実戦経験ではあちらが数段上のようだ。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_メートリアン_activates_解錠_p7832
+        quote: 「では痛みにだけ気を付けて。右手親指、解錠！」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_メートリアン_makes_オーケストラ_p7833
+        quote: 激痛を引き金にして開かれた魂の扉から、勇壮にして荘厳なオーケストラが溢れ出した。力強い歌唱と疾走感に満ち溢れた民謡的フレーズの背後からクワイアとバグパイプが追いかけ、幻想的でありながら重厚長大なメロディーが空間を席巻する。
+        locator: {}
+        spoiler_after: ch0239
+    speech:
+      observations:
+      - event_ref: E_ch0239_メートリアン_says_翼_p7829
+        quote: 「ちょっと！　私の身体！　翼は大事にしてください！」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_メートリアン_other_提案_p7832
+        quote: 「解析してる時間が惜しいので却下。それより天眼で探知をお願いします。この病棟の周囲と下方向に人はいますか？」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_メートリアン_says_父親_p7834
+        quote: 「何ですか？　私は父親に関係した全てを否定しなければならないと？　じゃあ呪具どころか日用品も錬金術も使用言語資源も丸ごと放棄しないとですね。文化に罪はないと思うんですけどあなたの意見は違うようで、なるほどたいへん先進的なお考えです」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_メートリアン_says_距離_p7834
+        quote: 「無遠慮というより喧嘩売ってるのかって感じですけど、いいですよ別に。でもあなたって距離の詰め方が下手すぎません？」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_メートリアン_says_合理的判断_p7835
+        quote: 「戦力が限られている以上、合理的な判断です。敵も最優先で狙ってくるでしょうし」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_メートリアン_says_裏切り者_p7846
+        quote: 「最低。自分が信じられません。よくもまあ、こんな裏切り者と共闘しようだなんて」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_メートリアン_says_サイバーカラテ_p7847
+        quote: 「あっ、サイバーカラテ道場とか勝手にインストールしないで、あたしの身体でそんなの使うなばか！」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レナリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_レナリア_makes_不運_p7828
+        quote: 暗殺者の背後に出現した異形の神像が吼えるのと同時、足元にバナナの皮が出現。理不尽な不運により転倒を余儀なくされる。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_レナリア_uses_陽動_p7831
+        quote: 別動隊だ。レナリアが率いていたのは本命ではなく陽動。目的はあくまでもマレブランケの奪取だった。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_レナリア_flees_敷地外_p7837
+        quote: 横合いから叩きつけられた呪詛をかろうじて回避するも、既にエレクトラたちとの距離はかなり離されてしまっていた。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_レナリア_takes_ファルファレロ_p7839
+        quote: レナリアとの完璧な連携でエレクトラの背後をとった誰かは、石像に守られているはずのファルファレロを鮮やかに攫ってみせた。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_レナリア_flees_撤退_p7841
+        quote: いいように使われたレナリアは無事な配下のみを連れて離脱することを即断。
+        locator: {}
+        spoiler_after: ch0239
+    speech:
+      observations:
+      - event_ref: E_ch0239_レナリア_asks_ニアホン_p7829
+        quote: 「お友達は助けなくてもいいの？！」　レナリアが言っているのは奪われたニアホンのことだろう。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_レナリア_says_偽装_p7839
+        quote: 「馬鹿な。私のイシルドゥムアを、ハグレス様の声を、偽装したの？」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エレクトラ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0239_エレクトラ_has_property_変身_p7829
+        quote: どうやら転生により魂を同居させているこの状態では肉体までもがアストラル体に引きずられてしまうらしい。もとより霊長類体と亜竜人体を変身呪術で使い分けできるエレクトラだったが、新たな変身部位としてメートリアンの翼が加わったというわけだ。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_fights_メートリアン_p7847
+        quote: 一瞬で険悪になった二人の心身はバラバラで、息の合った連携など到底不可能だった。
+        locator: {}
+        spoiler_after: ch0239
+    action:
+      observations:
+      - event_ref: E_ch0239_エレクトラ_makes_煙幕_p7829
+        quote: 走りながら呪符を背後に放ると、『煙幕』が視界を覆い隠していく。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_other_ファルファレロ_p7829
+        quote: エレクトラ／メートリアンの目的はレナリアなどではない。優先すべき目標は別にあるし、この狭い空間で集団を相手にするのは体力の浪費だ。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_uses_メートリアンの翼_p7829
+        quote: 背中に広げた翼を擦りながら床面を滑り、羽ばたきで跳ねあがって群れる悪鬼たちを蹴り飛ばし槍を振り回して散らす。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_uses_過去視_p7842
+        quote: 直接の接触でなくとも、灰神が届く空間であれば過去視は可能だ。　どんな難敵でもその過去を覗き見れば手の内や狙いは明らかになる。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_uses_感情抑制_p7845
+        quote: 「えい」　己のこめかみ、首、腹腔、手掌に灰神を纏わせた状態で貫手を放っていく。　点穴による感情抑制は劇的な効果をもたらした。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_uses_鉤爪_p7845
+        quote: 右手に具現化した鉤爪を振るえばいいだけの話。　血統術の精髄たるオルガンローデの刃が障壁をバターのように引き裂いていく。
+        locator: {}
+        spoiler_after: ch0239
+    speech:
+      observations:
+      - event_ref: E_ch0239_エレクトラ_other_非戦闘員_p7832
+        quote: 「周辺には自動機械と魔獣だけ、非戦闘員は退去済みだよ」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_other_解呪_p7832
+        quote: 「襲われてるコも灰になるのはまずいよね。フィリスで広域解呪とか試そうか。『下のモロレクが仲間に混じってる』って半数のラベル上書きすれば同士討ち狙えるかも」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_says_趣味_p7833
+        quote: 「ねえこの曲ってメートリアンの趣味？　気分が乗るから支援呪文に？　その、ちょっとダサ、古、いやかっこいい趣味だね」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_says_レコード_p7834
+        quote: 「古いものがいっぱいある実家だったんだよー。今でもたまに聴いて、生きてた頃のこと思い返したりするんだ。そういうのもあるのかな、って考えるのはちょっと無遠慮だった？」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_says_信頼関係_p7834
+        quote: 「いや緊急事態だからガガッと詰めてササッと打てば響く関係になっときたくて。戦闘時の連携に信頼関係は必須でしょ？」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_asks_名無しの王_p7835
+        quote: 「重要な護衛対象は『名無しの王』だけってこと？」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_says_囮_p7836
+        quote: 「『名無しの王』まで囮ですか。雇った戦力ごとミヒトネッセの遁甲術で逃がすから問題なし？　いや大ありでしょ」　最悪の場合、『転生アプリがあるから死んでもいい』くらいのことは考えていそうな気配さえある。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_says_なにこれ_p7842
+        quote: 時間にしてわずか一瞬。敵の過去へと遡ったエレクトラはモーリュの過去を知り、「なに、これ」　よろめくように後退し、震える声を喉から絞り出す。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_other_天眼_p7846
+        quote: 「なるほど。第三の目はティリビナ式の天眼か。こちらの妨害と限定空間に対する干渉、三眼瞬知とはロジックが違うのかな」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_says_大馬鹿_p7847
+        quote: 「はぁ？　魔女のくせに棒切れ振り回すしか能の無い大馬鹿に馬鹿って言われたくないんですけど？　下らない拘りと時代遅れの忌避感で有用なツールも使えないとか中身おばあちゃんですか？」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_エレクトラ_other_恋_p7848
+        quote: 「あ、友情以外の感情で絆を再構築するとか？」「念のため訊きますけど、何の感情を？」「恋。『メートリアンしゅきしゅきだいしゅき』って感じでよければできるよ。嫌だけど。本当にぜったいぜったい無理だけど」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_ちびシューラ_makes_隔壁_p7830
+        quote: 爆発と同時に仮想のちびシューラが『えいや！』と手を振り下ろすと、追っ手を遮るように隔壁が降りた。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_ちびシューラ_other_マップ_p7836
+        quote: ちびシューラは施設内の簡易マップを表示。正門ではチリアット、別棟ではクレイ、中庭ではラプンシエルとミヒトネッセが交戦中という文字が強調されている。
+        locator: {}
+        spoiler_after: ch0239
+    speech:
+      observations:
+      - event_ref: E_ch0239_ちびシューラ_other_誘導_p7836
+        quote: 「他の襲撃地点は心配無用だから、できればファルファレロを連れて指定位置まで敵を誘導して欲しいな！」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびニア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_ちびニア_escapes_レナリア_p7830
+        quote: 「にあー！」　機をうかがっていた猫姫端末が突如として手足を伸ばし、するりとレナリアの手から抜け出した。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_ちびニア_fights_神像_p7830
+        quote: 暗殺者の背後で異様な呪力を放射する神像に飛び掛かり、爪を伸ばしてがりがりと引っ掻くちびニア。神像もまた爪を伸ばして応戦した。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_悪鬼]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_悪鬼_attacks_病室_p7830
+        quote: 通路を曲がった先、絶叫の発生源らしき病室に殺到しているのは夥しい数の悪鬼の群れ。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_軍勢]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_軍勢_appears_病院内部_p7830
+        quote: しかし、侵入者は彼女が引き連れていた一団のみではない。　屋上から現れたのは『軍勢』は至る所から病院内部に入り込んでいた。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルスクォミーズ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0239_ルスクォミーズ_defines_悪鬼_p7831
+        quote: 『悪鬼』とは使い魔系統に属する呪術の一種で、ある過激な思想集団や閉鎖的な血族、犯罪組織や忌み嫌われる種族として解釈され得る『集団の指向性』の名前だ。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_盲目の守護者像]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_盲目の守護者像_appears_通路_p7833
+        quote: メートリアンの内的宇宙『アルタネイフ呪具百貨』から飛び出した『盲目の守護者像』が通路の四方を豪快に破壊しながら出現。悪鬼の群れを吹き飛ばし、ついでに病室の入り口に片腕を突っ込む。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_石像]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_石像_carries_ファルファレロ_p7833
+        quote: 石像が巨大な右手を開く。やわらかく保持していたのは包帯でぐるぐる巻きにされた眼鏡の少年だった。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キノコ人]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0239_キノコ人_appears_中庭_p7835
+        quote: ずんぐりとした筒型体型と頭部で広がった傘が特徴的なキノコ人たちは、別の地点から侵入してきたティリビナ勢力の戦争奴隷たちだろう。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_機械女王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_機械女王_other_花火_p7836
+        quote: 病院からの脱出経路とその後の目標地点、罠や待ち伏せの詳細な情報、さらに施設そのものが『花火の打ち上げ』により『打ち上げ用の空き地』になるまでのタイムリミットが示される。最終的には『ここには何もなかった』ということにするつもりらしい。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0239_ガロアンディアン_has_property_対策_p7837
+        quote: 「こっちが盗賊王の眷属に対策してないと本気で思ってたの？　甘すぎだよ」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハイマン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_ハイマン_fights_悪鬼_p7837
+        quote: 無神論を主張する黒曜石の槍が偽神の誘惑を跳ねのけ、使い魔の凝視水牛が悪鬼の群れを地に這わせる。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダリオ・タイオン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0239_ダリオ・タイオン_appears_敷地外_p7838
+        quote: 敷地の外側、施設を覆い隠す木立の向こうからよろよろとした足取りで誰かが現れる。　一見して燕尾服を纏った紳士だが、顔面が半球状に抉れているのが異様だった。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファルファレロ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0239_ファルファレロ_says_花火_p7838
+        quote: 「なんかヤバいですよこれ！　『花火』が解呪されてます！　『塔』式の防壁とセージさんの皆殺し迷路を掻い潜るなんて無茶苦茶が、
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_ファルファレロ_says_姫様_p7866
+        quote: 「ひっ、ひめさまっ？！　なんでここにっ」
+        locator: {}
+        spoiler_after: ch0239
+    action:
+      observations:
+      - event_ref: E_ch0239_ファルファレロ_loses_意識_p7839
+        quote: 少年は何故か言葉の途中で不意に白目を剥いて気を失った。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_神像]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_神像_other_猫科魔獣_p7838
+        quote: 三階から落下してきた神像はちびニアだけではなく複数の獅子に取り囲まれてその動きを封じられていた。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_神像_other_熱と光_p7839
+        quote: 直後、紀人の力である神像が熱と光を放射しながら爆発した。　正確には、紀人の権能を再現していた偽物が。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_魔導書]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0239_魔導書_other_参りました_p7838
+        quote: 表紙に張り付いた人面が引き攣った笑みを浮かべ、口を開いた。「参りました。慣れぬ前線でこれは、割に合わな、い」　書物が血を吐き、手にした男と共に大地に投げ出される。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_モーリュ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0239_モーリュ_appears_木の上_p7840
+        quote: いつの間にか木々の上に腰かけてぶらぶらと足を揺らしていた誰かは、樹皮の肌を持つ女だった。　黒と灰に染められたローブを身に着けたティリビナ人は、膝の上に乗せた少年の身体を片手で支えている。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_モーリュ_has_property_第三の目_p7840
+        quote: 原因はティリビナ人の額にある。　左右の目が細くなった柔らかい笑顔の中で、中央上部に位置する目だけがこちらを凝視し続けていた。
+        locator: {}
+        spoiler_after: ch0239
+    action:
+      observations:
+      - event_ref: E_ch0239_モーリュ_other_攻撃_p7841
+        quote: 時間差で襲い掛かったそれらの脅威を、ティリビナ人は事も無げに防ぎ切る。　恐ろしく迅速で高精度な『静謐』だ。同時に放たれた個々の攻撃に対する完璧な返し呪文。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_モーリュ_takes_悪鬼の軍勢_p7841
+        quote: いつの間にか、異文化に由来する理解困難な呪文が大気を伝播して悪鬼の軍勢を覆い尽くしていた。レナリアが引き連れていた兵力は今や完全にモーリュと名乗ったティリビナ人に掌握されてしまっている。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_モーリュ_flees_空間移動_p7846
+        quote: ティリビナ人の服と樹皮を僅かにかすめたが、笑顔で飛び退ったモーリュとの距離が急速に遠ざかっていった。地面のファルファレロも一緒に移動していることから考えると、空間移動の術だろう。
+        locator: {}
+        spoiler_after: ch0239
+    speech:
+      observations:
+      - event_ref: E_ch0239_モーリュ_names_モーリュ_p7841
+        quote: 「あなた、何者？」「モーリュでーす。所属は薔薇の結社ぁ。位階はー、天主式だとビショップだよー。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_モーリュ_says_フォービットデーモン_p7843
+        quote: 「この組み合わせって懐かしいよね。フォービットデーモン以来かな？　彩石ゲームは途中で降りちゃったけどさ」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_モーリュ_defines_並行矛盾史_p7844
+        quote: モーリュの語る過去は虚言などではない。　確かに存在した『もしもの歴史』だ。　友情が実在していたからこそ、エレクトラの過去視は呪いに変わる。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_モーリュ_says_友達_p7844
+        quote: 「ねえ、やっぱ戦うのやめよ？　私たち、『塔』で一緒に学んだ友達じゃん」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_モーリュ_says_友情_p7847
+        quote: 「ちょう悲しいー。友情はもっと大事にしなよー」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_モーリュ_says_歴史_p7868
+        quote: 「なら、私たちの縋った抵抗の歴史は、否定されちゃうの？」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_クレイ_fights_ヒュレー_p7849
+        quote: 「ああ？！　意味がわからねえな！　何だその無駄な動作はよぉ！」　施設内を揺さぶるような豪快な声は、決して悪意や意図的な無理解に基づくものではなかった。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヒュレー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_ヒュレー_uses_大太鼓_p7851
+        quote: 「大太鼓、か？」「正解。俺の地元じゃ一番の力自慢がやる祭りの主役だ。まあちょっと聴いてくれや」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_ヒュレー_other_理解_p7852
+        quote: 『不快』や『怒り』の発露としての芝居を刃に乗せた瞬間、相手はほとんど同じ演技プランで斬撃を繰り出して『快』や『興奮』を示す。
+        locator: {}
+        spoiler_after: ch0239
+    speech:
+      observations:
+      - event_ref: E_ch0239_ヒュレー_names_ヒュレー_p7852
+        quote: 「問われたら宣名しねえとな。マナタル勇者戦団のルーク、ヒュレーだ」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルテミシア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_アルテミシア_uses_邪視_p7855
+        quote: 白い髪と輝く瞳が妖しい光を放射すると、あらゆる物質を石化させる邪視が空間を術者の世界観で染め上げていく。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_アルテミシア_uses_注視_p7856
+        quote: アルテミシアが実行したのは『注視』と呼ばれる技術。　邪視の効果範囲を狭めることで、世界観の強度を飛躍的に高めることができる。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ティリビナ人]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_ティリビナ人_other_邪視_p7855
+        quote: 屈強なティリビナ人の男たちが、勇ましい雄叫びを上げながら木製の大盾を構える。　刻まれた錬金呪紋と接ぎ木された詠唱造花が『挑発』に近い呪的効果を発揮して邪視を前衛たちに誘導。
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_ティリビナ人_uses_決闘宣名_p7856
+        quote: 狙われたひとりが完全に石化しきる直前に発した叫びに呼応して、ティリビナ人たちが順番にマナタル勇者戦団の所属と共に己の名を高らかに叫んでいく。
+        locator: {}
+        spoiler_after: ch0239
+    symbolic:
+      observations:
+      - event_ref: E_ch0239_ティリビナ人_other_正しさ_p7864
+        quote: 彼らは共通して、己の邪悪さと正しさを同時に信じているように見える。　信念に基づくテロル。破壊がもたらす爪痕を、未来だと信じているかのように。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エクリエッテ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0239_エクリエッテ_teaches_マナタル勇者戦団_p7858
+        quote: 「あのキュトスの魔女なら俺の先生が説得してくれたよ。今じゃ『緑の君』は俺たちマナタル勇者戦団の戦闘教官さ」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハタラドゥール]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_ハタラドゥール_attacks_中庭_p7859
+        quote: 霊長類的な容貌を持つティリビナ人の霊媒個体、樹妖精。　伝承に謳われる緑竜騎士ハタラドゥールは単騎にして軍勢に匹敵する怪物だった。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サンデリアーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0239_サンデリアーナ_names_サンデリアーナ_p7861
+        quote: 鋭利な両刃の剣に似た葉を頭部、肩、両手から生やした男は優雅にお辞儀をして名乗る。「黙詞隊のナイト、サンデリアーナ。偉大なるハタラドゥール様の子孫でございます」
+        locator: {}
+        spoiler_after: ch0239
+      - event_ref: E_ch0239_サンデリアーナ_other_ハタラドゥール_p7863
+        quote: 「いいえ？　何故なら私は私。最初からハタラドゥールの『正しい記憶』を持っていた転生者なのですから。間違った記憶など、無視していれば問題ないでしょう？」
+        locator: {}
+        spoiler_after: ch0239
+    action:
+      observations:
+      - event_ref: E_ch0239_サンデリアーナ_takes_ハタラドゥールの魂_p7862
+        quote: 「父祖様、どうか私めの肉体を器として下さい。この転生アプリがあれば容易いはず。まさにこのような危機のため、同胞たちはあなたにこの手段を残していたのです」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルシャニア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0239_ハルシャニア_appears_戦場_p7864
+        quote: それは天から降り注ぐ滝に似ていた。　飛沫を噴き上げながら舞い降りた黒髪の女は、流動する水の義肢を前に突きだして戦意をむき出しにする。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_塔]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_塔_activates_ウィッチオーダー_p7864
+        quote: 「認証コード『アニマ』。ウィッチオーダー起動、四十二番『ハルシャニア』！」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0239_ハルベルト_appears_戦場_p7865
+        quote: 「まったく、世話が焼ける」　仮想使い魔を待機させたまま、黒いローブの少女が呟く。　険悪な様子で言い争っていたエレクトラとメートリアンは思わず言葉を失った。
+        locator: {}
+        spoiler_after: ch0239
+    name:
+      observations:
+      - event_ref: E_ch0239_ハルベルト_names_ハルベルト_p7866
+        quote: 「ハルベルト」
+        locator: {}
+        spoiler_after: ch0239
+    speech:
+      observations:
+      - event_ref: E_ch0239_ハルベルト_says_歴史_p7867
+        quote: 「エストが願う平和への歴史を、否定させはしない」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_半透明の兎]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_半透明の兎_takes_ファルファレロ_p7865
+        quote: 襲撃者のひとり、モーリュによって奪われていたファルファレロの身柄が、突如として現れた半透明の兎によって奪取されていた。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_男]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_男_makes_カードシャッフル_p7865
+        quote: 態勢を立て直そうとする集団の前に逆さまの道化が出現したかと思うと、その姿が裏返り縦縞のスーツを着こんだ男がカードのシャッフルを始める。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_麗人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_麗人_makes_呪毒汚染_p7865
+        quote: 続けて、長身の麗人がその高い位置にある腰から伸ばした蠍の尾を地面に突き立てる。すると針から大地へと滲んでいく禍々しい呪毒汚染が襲撃者たちを呑み込んでいった。
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ニース]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0239_ニース_helps_ファルファレロ_p7866
+        quote: ニースと呼ばれた月の民は笑顔のまま無言で少年の敬礼を止めさせ、拳を腹腔に叩き込んで黙らせた。
+        locator: {}
+        spoiler_after: ch0239
+    speech:
+      observations:
+      - event_ref: E_ch0239_ニース_other_援軍_p7867
+        quote: 「諸事情があって、隊長の第一班とエストさんの第三班は中継整備所で待機しています。そのかわり、一班から戦力としてローザ、ガザ、アデンを。ガロアンディアンからはマラコーダさん、グレンデルヒさん、イツノさんをお借りできました」
+        locator: {}
+        spoiler_after: ch0239
+  first_appearance_candidate: true

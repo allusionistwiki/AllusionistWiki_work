@@ -1,0 +1,374 @@
+episode: ch0227
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_幻像広告]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0227_幻像広告_appears_シナモリアキラ_p7477
+        quote: 無数の幻像広告が夜闇を斬り裂いて天を染め上げる。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_機械女王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_機械女王_other_バトルロイヤルゲーム_p7477
+        quote: 『祝祭期間中、バトルロイヤルゲームがやりたい』という要望を受けた機械女王は快諾。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_都市管理システム]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_都市管理システム_other_バトルロイヤルゲーム_p7477
+        quote: 転生神たる都市管理システムも二つ返事で承認した。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_飛行船]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0227_飛行船_appears_ガロアンディアン_p7477
+        quote: 都市の上空に巨大な飛行船が現れた。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_ガロアンディアン_other_シナモリアキラ選_p7478
+        quote: 『マレブランケの空席を埋めるため、シナモリアキラ選が行われる』という噂を受けたガロアンディアン側の対策だった。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0227_シナモリアキラ_other_サイバーカラテ_p7478
+        quote: 「サイバーカラテを信じるのです。さすればシナモリアキラは我らを救済するでしょう」「愚かな。サイバーカラテそのものは神にあらず！」
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_シナモリアキラ_other_課金スタイル_p7479
+        quote: 「プレミアムの奴隷が！」「無課金の寄生虫め！」「俺は全部入りじゃなく必要な機能だけ個別に利用してるだけだ脳死プラン野郎！」
+        locator: {}
+        spoiler_after: ch0227
+    action:
+      observations:
+      - event_ref: E_ch0227_シナモリアキラ_fights_シナモリアキラ_p7478
+        quote: 百を超える新世代のシナモリアキラたちが乱舞し、無秩序に激突する。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ドローン]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_ドローン_other_倒されたシナモリアキラ_p7479
+        quote: 倒されたシナモリアキラはドローンに回収されて場外へ。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_幻像掲示板]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0227_幻像掲示板_other_異名_p7479
+        quote: 上空の飛行船がぶら提げている幻像掲示板には無数の『異名』が記されていた
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_雪女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_雪女_other_蜘蛛脚型義手の男_p7480
+        quote: 白い着物を纏った銀雪の少女が杖を振ると、先端の呪石から呪文が展開。発光と同時に氷塊が形成され、投射された質量がシナモリアキラの背中に直撃する。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_雪女_uses_リクシャマー式氷炎自動小杖_p7480
+        quote: 少女が使っているのは古めかしいリクシャマー式の氷炎自動小杖《ＦＷ１８０１》。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_雪女_defeats_巨大な仮想使い魔_p7481
+        quote: アストラルの海から浮上した巨大な仮想使い魔が眉間を撃ち抜かれて霧散していく。
+        locator: {}
+        spoiler_after: ch0227
+    speech:
+      observations:
+      - event_ref: E_ch0227_雪女_other_軍勢_p7482
+        quote: 魔女はその異形を一瞥し、冷ややかに切って捨てた。「少ないですね」
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_雪女_other_塗壁_p7483
+        quote: 「警告！　設定された地下区画以外のマップ外に隠れたり移動したりするグリッチは反則です！」
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_検閲システム]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_検閲システム_other_雪女の名前_p7481
+        quote: 彼女に対する言動が検閲され、自動で特定の文字列に変換される。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_塗壁]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_塗壁_appears_地下_p7482
+        quote: ペットショップ付近の地面が盛り上がり、突如として爆発。真下から飛び出してきた巨大な岩肌種の男が苦痛にのたうち回る。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_塗壁_other_雪女との戦い_p7483
+        quote: 『雪女』の申し出を、『塗壁』はにべもなく断った。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_塗壁_other_征服の騎士団_p7486
+        quote: 大地から応えた複数の気配が、『塗壁』の前に次々と隆起して姿を現す。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_塗壁_other_アルテミシア_p7502
+        quote: 立ち上がった『塗壁』は振り向き、両手を広げてその巨体を盾とした。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_塗壁_makes_ハート_p7515
+        quote: 胸の前で両手をハートの形にしたのだ。猫の国において心や愛を示す記号。
+        locator: {}
+        spoiler_after: ch0227
+    speech:
+      observations:
+      - event_ref: E_ch0227_塗壁_other_クレイ_p7490
+        quote: 「お、おねげえだ。おらはもうダメだ。頼むから、代わりにおらたつトロルの王女を、アルテミシアを助けてやってけろ！」
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_軍勢]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_軍勢_attacks_雪女_p7482
+        quote: 『雪女』に攻撃を加えているのは首無し馬に乗った男だった。
+        locator: {}
+        spoiler_after: ch0227
+    speech:
+      observations:
+      - event_ref: E_ch0227_軍勢_other_百の因子_p7482
+        quote: 「俺は体内に百のシナモリアキラの因子を内包している。お前という新たなシナモリアキラの可能性を見せてくれ、『雪女』よ」
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_大蛇]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_大蛇_attacks_シナモリアキラ_p7484
+        quote: 挟撃するように水竜滅呪に乗った『大蛇』が行列に追い付き、百のシナモリアキラをなぎ倒しながらわけのわからない繰り言をまくしたてる。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_木霊]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_木霊_attacks_塗壁_p7484
+        quote: 身を翻して走り出した岩肌の男を、彼方から飛来した一条の閃光が貫いた。
+        locator: {}
+        spoiler_after: ch0227
+    speech:
+      observations:
+      - event_ref: E_ch0227_木霊_names_ヘリオトロープ_p7485
+        quote: 「『木霊』と呼んでくれ。貴様の舌で名が穢れる」
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エリカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_エリカ_attacks_征服の騎士団_p7487
+        quote: 十を超えるオルガンローデの一斉解放が岩肌種の軍勢をまとめて叩き潰した。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_エリカ_uses_設置型オルガンローデ_p7488
+        quote: 「馬鹿な。設置型の、草花のオルガンローデだと」
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_エリカ_other_征服の騎士団_p7490
+        quote: 「そちらの奇岩擬人は無効化させてもらいました。『かたち』と『こころ』は私の専門分野。あなたたちは、ただの岩です」
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_エリカ_attacks_キノコ人の少年_p7508
+        quote: 傲慢な顕花が罵り声を上げ、銀フードの女が掌から稲妻を迸らせ
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_エリカ_other_ヘリオトロープ_p7510
+        quote: その一撃は弾かれ、偏向し、無警戒のヘリオトロープに直撃したのだ。
+        locator: {}
+        spoiler_after: ch0227
+    speech:
+      observations:
+      - event_ref: E_ch0227_エリカ_other_エリカ・モノトロープ_p7489
+        quote: 「エリカっちゅうと、まさか『色号詞人』のエリカ・モノトロープか」
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_征服の騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_征服の騎士団_functions_as_石像兵_p7487
+        quote: 彼らはみな『軍勢』や『化身』といった呪術の奥義を使いこなす石像兵呪術の達人であるからだ。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_クレイ_other_ペットショップ_p7491
+        quote: 店内に呪符を貼り終え、店外の四方に楔を打ち込んでいた所を見つけられてしまった。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_クレイ_fights_巨獣の群れ_p7492
+        quote: クレイは悲鳴を上げて逃げ惑う己のファンたちを庇うように、店内から溢れ出した巨獣の群れと相対した。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_クレイ_other_霊感_p7495
+        quote: 論理ではなく、己の霊感のみを信じて。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_クレイ_saves_蛇人の女_p7496
+        quote: 神速の手刀が虚空を駆け抜け、大小の虹をまとめて切断した。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_クレイ_other_光線_p7499
+        quote: 蛇人の女と『掃除屋』と呼ばれていたキノコ人を纏めて消し飛ばそうと迫っていた破壊的威力の光線を真っ向から迎え撃つ。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_クレイ_other_死の運命_p7506
+        quote: クレイは、死を幻視した。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_クレイ_other_ダアルノート_p7509
+        quote: 「踊れ、ダアルノート」クレイの口から呪文が紡がれるより先に刃は振り抜かれていた。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_クレイ_carries_アルテミシア_p7510
+        quote: 「その女をガロアンディアンの呪術医院まで運ぶ。俺に確約できるのはそこまでだ」
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_クレイ_opens_瞼_p7511
+        quote: 閉ざされていた瞼が開くと、そこに広がっていたのは輝く夜空。星の散りばめられた瞳。
+        locator: {}
+        spoiler_after: ch0227
+    visual:
+      observations:
+      - event_ref: E_ch0227_クレイ_other_幻視_p7493
+        quote: そして、あまりにも奇妙な幻視を脳裏に描いて困惑した。犬が走っている。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_一反木綿]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_一反木綿_attacks_ペットショップ_p7492
+        quote: 空飛ぶ絨毯に乗った大男が巨大な突撃槍義手でペットショップの外壁を粉砕する。
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ライラ・ラプス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_ライラ・ラプス_other_クレイ_p7497
+        quote: 「申し訳ありませんが、用事を思い出したので私はこれで失礼しますね」
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_掃除屋]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0227_掃除屋_other_キノコ人の少年_p7498
+        quote: 「『掃除屋』、まさかお前がライラ・ラプスに寝返るなんてな！　エリカ様への恩義を忘れる不忠者め！」
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ノゴルオゴルオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0227_ノゴルオゴルオ_other_クレイ_p7499
+        quote: 「頼めた義理でねえのはわかってる。それでもおねげえだ、そこの娘っこはおらの大事な家族なんだ。どうか助けてやってけろ」
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヘリオトロープ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0227_ヘリオトロープ_attacks_塗壁_p7500
+        quote: 容赦のない顕花族の追撃が岩肌種の背を襲い、悲鳴が響いた。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_ヘリオトロープ_uses_陽閃_p7501
+        quote: 「このヘリオトロープの美しき一撃は、わが師スーリウム様から直々に『偉大なる陽閃』の二つ名を賜った絶技。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_ヘリオトロープ_attacks_アルテミシア_p7504
+        quote: 視力を奪われた半蛇の女は無防備な胴を貫かれ、何が起きているのかも分からぬまま血を吐いて倒れた。
+        locator: {}
+        spoiler_after: ch0227
+      - event_ref: E_ch0227_ヘリオトロープ_other_小太陽_p7505
+        quote: 同時に頭上に巨大な光球を出現させた。徐々に大きく膨らみ、輝きを増していくそれはまるで小さな太陽のようだ。
+        locator: {}
+        spoiler_after: ch0227
+    speech:
+      observations:
+      - event_ref: E_ch0227_ヘリオトロープ_threatens_エリカ_p7507
+        quote: 「ならば証明しろ。忘れるな、罪人の一族は試され続けなければならない。誰もがお前たちの振る舞いを見ているのだぞ」
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルテミシア]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0227_アルテミシア_other_クレイ_p7512
+        quote: 「えへへ。迎えに来てくれたんだぁ、私の王子様」
+        locator: {}
+        spoiler_after: ch0227
+  first_appearance_candidate: true

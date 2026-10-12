@@ -1,0 +1,263 @@
+chapter: ch0020
+created: '2026-09-30'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 6
+  themes: 1
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0020_コルセスカ_uses_右目のセンサー機能_p916]]'
+  object: '[[ME_eye_tracking_interface]]'
+  claim: コルセスカの右目が眼球運動から意思を予測して操作を代行する機能は、現代の視線入力インターフェース（アイトラッキング）のSF的拡張である。
+  quote: 卓上に立体投影された遊戯盤のスクロール、クリック、文字入力といった多彩な操作を、目の動きからその奧の意思を予測して代行する。
+  paragraph: p916
+  confidence: strong
+  quotes:
+  - quote: 卓上に立体投影された遊戯盤のスクロール、クリック、文字入力といった多彩な操作を、目の動きからその奧の意思を予測して代行する。
+    paragraph: p916
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0020_コルセスカ_other_やり直しの支援_p917]]'
+  object: '[[ME_video_game_design]]'
+  claim: 「やり直しがきかないのはクソゲー」という発言は、ゲームデザインにおける「セーブ/ロード機能」や「リトライシステム」の存在意義を逆説的に肯定するメタコメントである。
+  quote: やり直しがきかないのはクソゲーなのでもっと高品質なゲームを探しましょう。
+  paragraph: p917
+  confidence: explicit
+  quotes:
+  - quote: やり直しがきかないのはクソゲーなのでもっと高品質なゲームを探しましょう。
+    paragraph: p917
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0020_トリシューラ_other_世界更新の条件_p904]]'
+  object: '[[ME_world_building]]'
+  claim: 火竜を殺す＝世界を更新する＝法則を書き換えるという構造は、TRPGや小説における「世界設定（ワールドビルディング）」の権限をキャラクターが行使するメタファーである。
+  quote: 今あるこの世界の、当たり前に生き物が生まれて死んでいくという法則をアップデートして、別の法則に書き換えるってこと。
+  paragraph: p904
+  confidence: strong
+  quotes:
+  - quote: 今あるこの世界の、当たり前に生き物が生まれて死んでいくという法則をアップデートして、別の法則に書き換えるってこと。
+    paragraph: p904
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0020_トリシューラ_other_アキラの人格_p898]]'
+  object: '[[ME_ship_of_theseus]]'
+  claim: 記憶と感情制御を失った人間が「元の人格」と同一か否かを問うトリシューラの論理は、テセウスの船の悖論（構成要素がすべて入れ替わった物体は元の物体か？）の応用である。
+  quote: 感情の制御ができなくなった貴方はもう【アキラくん】じゃない。前世の記憶が無いんだからそれ以前の人格――前世を生きていた【誰か】とも同一とは言えない。
+  paragraph: p898
+  confidence: moderate
+  quotes:
+  - quote: 感情の制御ができなくなった貴方はもう【アキラくん】じゃない。前世の記憶が無いんだからそれ以前の人格――前世を生きていた【誰か】とも同一とは言えない。
+    paragraph: p898
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0020_コルセスカ_other_ゲームの公平性_p916]]'
+  object: '[[ME_ai_gameplay]]'
+  claim: コルセスカが右目の処理を自動化し、自身は情報を遮断して「公平性」を確保しようとする行為は、AIがプレイヤーの操作を代行しつつチート判定を回避しようとするゲーム設計の構造と一致する。
+  quote: 右の義眼が行う処理を自動化し、コルセスカ自身はその情報をあえて遮断することで、ゲームに於ける公平性の確保も抜かりない。
+  paragraph: p916
+  confidence: moderate
+  quotes:
+  - quote: 右の義眼が行う処理を自動化し、コルセスカ自身はその情報をあえて遮断することで、ゲームに於ける公平性の確保も抜かりない。
+    paragraph: p916
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0020_アキラ_other_失敗の許容_p917]]'
+  object: '[[ME_trial_and_error]]'
+  claim: 「失敗は必要なこと」というゲームの一般論を、全てを失ったアキラに適用することで、ゲームの「リトライ」が現実の「喪失」に対して残酷な皮肉として機能している。
+  quote: 失敗したら、やり直せばいいんですよ。
+  paragraph: p917
+  confidence: strong
+  quotes:
+  - quote: 失敗したら、やり直せばいいんですよ。
+    paragraph: p917
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0020_トリシューラ_other_紙幣_p878]]'
+  object: '[[ME_fiat_currency]]'
+  claim: 紙幣の価値を呪術で保証し、その価値が回路のように循環するという描写は、法定通貨（フィアット・マネー）の信用創造と経済循環のメカニズムを呪術的に可視化したものである。
+  quote: その中で、価値が回路みたいに循環してる
+  paragraph: p878
+  confidence: strong
+  quotes:
+  - quote: その中で、価値が回路みたいに循環してる
+    paragraph: p878
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0020_トリシューラ_other_世界更新の条件_p904]]'
+  object: '[[ME_mythology_pangaea]]'
+  claim: 火竜メルトバーズを「原初の生命体パンゲオンの九つある首の一つ」と定義するのは、生物学的な「パンゲア（全地球超大陸）」や「パンゲア（全生物の共通祖先）」の概念を神話的に再構成したものである。
+  quote: 火竜メルトバーズは全ての生き物の母にして原初の生命体パンゲオンの九つある首の一つ。
+  paragraph: p904
+  confidence: explicit
+  quotes:
+  - quote: 火竜メルトバーズは全ての生き物の母にして原初の生命体パンゲオンの九つある首の一つ。
+    paragraph: p904
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0020_コルセスカ_other_ゲームの公平性_p916]]'
+  object: '[[ME_sensory_augmentation]]'
+  claim: コルセスカが「邪視者の右に出る者はいない」として眼球運動を処理し、ゲームの操作を代行させることは、身体拡張技術（サイボーグ化）によるゲームプレイの優位性（チート）の比喩である。
+  quote: 眼球と視線に関する理解において、邪視者の右に出る者はいない。
+  paragraph: p916
+  confidence: moderate
+  quotes:
+  - quote: 眼球と視線に関する理解において、邪視者の右に出る者はいない。
+    paragraph: p916
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_ch0020_コルセスカ_other_転生の種類_p920]]'
+  object: '[[ME_reincarnation_taxonomy]]'
+  claim: コルセスカが自分の転生を「異世界からのものではなく、この世界の内側でのこと」と定義するのは、本作の「転生」概念が単なる異世界転生ではなく、世界内でのループや再構成であることを示唆する。
+  quote: といっても、貴方のように異世界から転生したわけではなくて、この世界の内側でのことですけれど。
+  paragraph: p920
+  confidence: strong
+  quotes:
+  - quote: といっても、貴方のように異世界から転生したわけではなくて、この世界の内側でのことですけれど。
+    paragraph: p920
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第五階層の迷宮化の真犯人
+  note: トリシューラは「敵はキロンだけじゃない。まだ裏に誰かがいる」と警告し、コルセスカも「心当たり」があるが姿を見せない。キロン以外の勢力（トライデントの残党、あるいは第四の魔女など）が階層支配を再開した原因。
+  quotes:
+  - quote: 第五階層ではまた迷宮化が起きているんだよ。セスカだって気付いてるでしょう？ 敵はキロンだけじゃない。まだ裏に誰かがいる。
+    paragraph: p886
+    quote_verified: true
+  - quote: その何者かの正体にコルセスカは心当たりがあったが、姿を見せないその相手に対抗する手段が今の所は無い。
+    paragraph: p908
+    quote_verified: true
+  expected_payoff: キロンとの決戦の最中、あるいは直後に、この「裏の誰か」が介入し、戦況をさらに複雑化させる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第四の魔女（変人）
+  note: アキラの復活（パーソナルヒストリーの遡行）のために、トリシューラが「あの何を考えてるかわからない変人」を頼る可能性を示唆。コルセスカとの相性が最悪とされる。
+  quotes:
+  - quote: そうすると残る当ては一つしか無いよね。あの何を考えてるかわからない変人を頼るの？ セスカと相性最悪じゃなかった？
+    paragraph: p901
+    quote_verified: true
+  expected_payoff: アキラの記憶・人格回復、あるいは世界更新のビジョンを得るために、この「変人」魔女との接触・交渉が必須となる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_レオのカリスマの正体
+  note: レオが「天然の魅了」で【上】と【下】の住人を統合する集団を率いている。コルセスカはこれを「恐ろしい」と評し、視線の異常（慈愛・保護欲）を観測。レオが単なる少年ではない可能性。
+  quotes:
+  - quote: 視線という不可視の現象を専門とするコルセスカだからこそ、そこで起きている異常事態を正確に把握することができていた。背後の集団から少年に向けられている視線は、全てが慈愛、そして保護欲である。
+    paragraph: p911
+    quote_verified: true
+  - quote: 「天然の魅了――なんて恐ろしい」
+    paragraph: p911
+    quote_verified: true
+  expected_payoff: レオが持つ「魅了」の呪術的起源（神話的出自、あるいは特定の魔女との関係）が明かされ、勢力図の鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの「内側での転生」
+  note: コルセスカがアキラに「この世界の内側での転生」と明かす。これは彼女が「冬の魔女」としての記憶や人格をループ・継承していることを示唆する。
+  quotes:
+  - quote: といっても、貴方のように異世界から転生したわけではなくて、この世界の内側でのことですけれど。厳密には異なるカテゴリです。
+    paragraph: p920
+    quote_verified: true
+  expected_payoff: コルセスカの過去（初代冬の魔女との関係、氷血呪の起源）が語られ、彼女が「世界更新」のビジョンを持つ（あるいは持たざるを得ない）理由が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_火竜メルトバーズの封印劣化
+  note: コルセスカがアキラを救うために氷血呪を使い、封印のエネルギーが目減りした。トライデントが封印解除を狙っている。
+  quotes:
+  - quote: あの封印は、長い年月を経て劣化しています。地獄の最深層に赴いて再封印するか、問題を根本から断たないことには何の解決にもなりません。
+    paragraph: p902
+    quote_verified: true
+  expected_payoff: 第五階層での戦いが終結した後も、火竜復活の危機は継続し、最終的な「世界更新」への動機付けとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの「義肢」の要求
+  note: アキラがトリシューラに「義肢を作ってくれるって話が有効なら」と戦う力を求めている。トリシューラは一度これを無視（タスクを理由に）している。
+  quotes:
+  - quote: もし、まだ義肢を作ってくれるって話が有効ならさ。俺に、もう一度戦うための力をくれないか。
+    paragraph: p885
+    quote_verified: true
+  expected_payoff: トリシューラが最終的にアキラに義肢（戦闘用プロテーゼ）を提供し、アキラが「武器」を取り戻して戦う展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 存在の価値は、他者からの「消費」によってのみ定義される。
+  weight: 0.9
+  quotes:
+  - quote: あらゆる人間は全てそうだろ。どうせ誰かに消費されて値札をつけられるんだ。ならせめて、自分でその価値をありったけ吊り上げてやればいい
+    paragraph: p884
+    quote_verified: true
+  - quote: 私の価値を――有用性を証明しないと、【私】が死んじゃうの。
+    paragraph: p883
+    quote_verified: true
+  note: トリシューラの存在論とアキラのニヒリスティックな肯定が交差する主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

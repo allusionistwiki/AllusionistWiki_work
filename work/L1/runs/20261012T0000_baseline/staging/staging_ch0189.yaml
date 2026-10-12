@@ -1,0 +1,371 @@
+episode: ch0189
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_イツノ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_イツノ_arrives_旧校舎の教室_p6243
+        quote: その掟を破れば厳しい罰が下されるという噂は、しかし黒髪の乙女を止める理由にはならなかった。
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_イツノ_opens_教室の扉_p6243
+        quote: 古びた廊下を踏破して、教室の扉を勢いよく開ける。
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_イツノ_attacks_マラコーダ_p6244
+        quote: イツノの腕が蠢き、竜蛇の大顎を模倣する。 クリアな殺意が麗人へと向けられていた。
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_イツノ_disappears_教室_p6247
+        quote: イツノの身体が足下から泡になって消えていく。どこか異なる場所に再配置され、また異なる役を与えられるのだ。
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_イツノ_observes_ゼルディーオの屍_p6247
+        quote: 消滅の寸前、イツノの視線が教室の隅、人形の残骸に混じったゼルディーオの屍を捉えた。機械仕掛けの大魚、流線型の次元潜行船。
+        locator: {}
+        spoiler_after: ch0189
+    visual:
+      observations:
+      - event_ref: E_ch0189_イツノ_has_property_男の娘_p6243
+        quote: 着物風に改造した女子用制服、長い黒髪に一直線で切りそろえた前髪、涼しげな目元に流水の義肢。男子部に突如として現れた美少女転校生イツノは、男の娘である。
+        locator: {}
+        spoiler_after: ch0189
+    speech:
+      observations:
+      - event_ref: E_ch0189_イツノ_asks_学院の存続理由_p6244
+        quote: 「どうしてこの舞台は未だに学院という形を保っているの？」 イツノはひとり、小声でつぶやいた。
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_イツノ_thinks_自身の人形性_p6245
+        quote: ラクルラールを知り、そこに考えが及ばなかった者はいないだろう。すなわち自分こそラクルラールの人形、あるいは無自覚な本人なのではないか、という疑念だ。
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_イツノ_fears_マラコーダの運命_p6246
+        quote: イツノにとって衝撃だったのは、マラコーダが自らの運命を完全に上位の意志に委ねきっていることだった。自由意志による自由意志の放棄。
+        locator: {}
+        spoiler_after: ch0189
+    name:
+      observations:
+      - event_ref: E_ch0189_イツノ_has_property_トリシルシリーズ_p6245
+        quote: 言うまでもなく、イツノはトリシルシリーズという魔女たちの被造物だ。人形師が操作するにはうってつけのツールだろう。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラクルラール]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0189_ラクルラール_dies_教室_p6243
+        quote: 中でラクルラールが死んでいた。 槍で黒板に串刺しにされて決定的に機能を喪失したスクラップ。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_教室]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0189_教室_has_property_死体安置所_p6243
+        quote: そこには瓦礫と残骸が積み上げられた、人形たちの死体安置所しか残っていない。
+        locator: {}
+        spoiler_after: ch0189
+    symbolic:
+      observations:
+      - event_ref: E_ch0189_教室_has_property_空間の歪み_p6244
+        quote: せいぜい三十人程度しか収容できないはずの室内は数千、数万の屍が敷き詰められてもなお破綻を来していない。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_マラコーダ]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_マラコーダ_appears_イツノの背後_p6244
+        quote: 「あるいは他のプレイヤーが望んでいるか。そういうことよね、イツノちゃん」 背後の声に振り向く。
+        locator: {}
+        spoiler_after: ch0189
+    speech:
+      observations:
+      - event_ref: E_ch0189_マラコーダ_reveals_シナモリアキラ_p6244
+        quote: 「この身体はシナモリアキラ。対『死人の森』用の戦力として、また対『ラクルラール』用のワクチンとして我が機械女王が調整してきた妖精王の末裔」
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_マラコーダ_defines_ラクルラールの役割_p6245
+        quote: 「ラクルラールはあくまで人形師。創造、調整、操作が本領。このマラコーダという身体は機械女王のオカルトーグだから、調整対象ってわけ」
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_マラコーダ_reveals_はじまりのラクルラールの虚構性_p6245
+        quote: 「あなたは幾つもある『はじまりのラクルラール』のダミー情報を掴まされているのよ、イツノちゃん。いいえ、より正確に言えば『はじまりのラクルラール』なんて言葉そのものがダミー。そして、あなたも私と同じ」
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_マラコーダ_names_主役_p6246
+        quote: 「浅ましさから呪いを招いた父。あるいは厭わしき外敵と化した息子。『死人の森の女王』を貫く槍にして魔女、『彼の父親』という役割を演じる者」
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_マラコーダ_reveals_イツノとマラコーダの運命_p6246
+        quote: 「私たちはね、対立する二つの陣営にとって最も使い勝手のいい人形なのよ」
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_世界]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_世界_transforms_舞台_p6247
+        quote: 言葉が終わらないうちに世界が揺れ動く。時震による軋みだろう。ここは舞台裏、幕間に入ったわずかな亀裂のようなものだ。
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_世界_other_文明_p6248
+        quote: そして世界はリセットされる。神々の怒りは大洪水を、大嵐を、あるいは大地震を招き、あらゆる文明を粉々に粉砕した。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エフラス]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0189_エフラス_names_妖精皇帝_p6248
+        quote: かつて、偉大な皇帝があった。 妖精皇帝エフラス。運命の掌握に成功した言語支配者。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ゼルディーオ]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0189_ゼルディーオ_appears_腕_p6248
+        quote: 流線型の方舟、その内側から、ぬっと手が突き出される。何者かが這いだそうとしていた。 ひとつ、ふたつ、みっつ、それから沢山。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_水]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_水_other_教室_p6248
+        quote: 直後、教室に大量の水が流れ込む。 大波は全てを飲み込み、残骸を深海へと誘っていく。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_アヴロニア]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_アヴロニア_disappears_空の彼方_p6249
+        quote: エフラスを恐れた槍の神々によって妖精郷アヴロニアは空の彼方に追放された。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハジュラフィン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0189_ハジュラフィン_other_銀の森_p6249
+        quote: 「この森が皇帝陛下の直轄領ね。ならばあのお方が不在の間、彼の右腕であるこのハジュラフィンがお預かりするのが道理というもの。帰還の日まで、この冬の美を凝縮させたような森は全部アタシのもの。たまんないわあ」
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_ハジュラフィン_asks_冥道の秘儀_p6250
+        quote: 「一応、形式上訊ねておくけど。劣化なき魂の継承、冥道の秘儀を教えてもらいにきたわ。もちろん、嫌なら力ずくで話してもらうけど、どうする？」
+        locator: {}
+        spoiler_after: ch0189
+    action:
+      observations:
+      - event_ref: E_ch0189_ハジュラフィン_travels_銀の森_p6249
+        quote: 蛇蝎将ハジュラフィンは蛇蝎王と名を改め、西方のいずこかにあるという秘境、『銀の森』に向かっていた。
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_ハジュラフィン_wounds_ルウテト_p6251
+        quote: 彼は長い蠍の尾を伸ばし、ルウテトの肉体を幾度と無く突き刺した。
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_ハジュラフィン_flees_銀の森_p6252
+        quote: そう言って致命傷を負った蛇蝎王はその場から逃げ去った。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルウテト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_ルウテト_appears_銀の森_p6249
+        quote: 森の怯えに気づいたのだろう、奥から凍えるような美しさの光妖精が現れる。
+        locator: {}
+        spoiler_after: ch0189
+    speech:
+      observations:
+      - event_ref: E_ch0189_ルウテト_other_ハジュラフィン_p6250
+        quote: 「愚にもつかない劣化コピーを繰り返すしかできないあなたが私の兄弟？ 繰り言はやめなさい。あなたは王の器ではない。魂胆も知れています。去れ。さもなくばこの森を墓場とするがいい」
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_ルウテト_confesses_名前_p6251
+        quote: 「ああ、マラード、アルト、オルヴァ、ヴァージル、パーン、カーティス、そしてゼルディーオにハジュラフィン、これもまた音の羅列、代替可能な記号！」
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_ルウテト_other_ハジュラフィン_p6251
+        quote: 「私は盟友である皇女殿下、エトラメトラトンから地位と所領の二つを預けられています。どちらも今の私にとっては必要なもの。ですからこう答えましょう。お断りします。今は、まだ」
+        locator: {}
+        spoiler_after: ch0189
+    visual:
+      observations:
+      - event_ref: E_ch0189_ルウテト_has_property_黒い血_p6251
+        quote: 女の血は漆黒であった。『エフラスの最も賢く最も呪わしい娘』エトラメトラトンの呪いによって赤い血を書物のインクに変質させていたルウテトは、己に纏わる伝承を滴らせる。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トウコ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_トウコ_makes_人形劇_p6252
+        quote: ばちんと音がして、スポットライトの下に現れる騎士とまじない使いの丸っこい人形。紅紫の少女人形トウコが声色を使って二役を演じていく。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_銀の森]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0189_銀の森_has_property_地の毒_p6252
+        quote: かくして『銀の森』が有していた神秘的な土地の力は汚染され、地の毒という恐るべき呪いが森を、そしてルウテトを蝕んでいった。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コズエ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_コズエ_appears_舞台_p6253
+        quote: 闇を裂いて照明が降りてくる。 切り取られた舞台の上、そこに立つのは赤い髪をした少女コズエ。
+        locator: {}
+        spoiler_after: ch0189
+    speech:
+      observations:
+      - event_ref: E_ch0189_コズエ_other_自身との対決_p6254
+        quote: 「ああ、なんてこと。やはりそうなのだ。私が乗り越えるべき相手は他ならぬ私自身の理想でしかあり得ない。そうすることでしか私は私の世界を掴めないのだ」
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_コズエ_thinks_女神への道_p6254
+        quote: 「私は勝利を手に入れた。乗り越えるべき試練に打ち勝った。けれど本当にこれだけでいいのだろうか。私が立ち向かうべき宿命は別にあるのでは？」
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヒメ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0189_ヒメ_appears_寝台_p6254
+        quote: 新たな照明が作る円形の空間、そこには簡素な寝台とそこに眠るひとりの少女があった。 冬の銀を宿す、永遠の死を統べる王女。 ヒメという名のコズエの半身。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_盤上遊戯]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0189_盤上遊戯_appears_観客席_p6255
+        quote: そこには小さな卓と盤面があった。盤上には駒が配置され攻防を繰り広げていた。 奇妙な盤だった。 駒を奪い合う競技ではあるのだろうが、盤の構成が二層に分けられている。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_剣の駒]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_剣の駒_appears_盤面_p6256
+        quote: 剣だ。退場したはずの無害な駒。 なぜこの駒が今になって盤面に舞い戻ってくる？
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_なぞなぞねこさん]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0189_なぞなぞねこさん_appears_島_p6257
+        quote: すると天の彼方、島に広がる森を飛び越えて巨大な怪物が飛来する。巨躯にして矮躯、形容矛盾した異形が男子生徒たちを威圧する。
+        locator: {}
+        spoiler_after: ch0189
+    speech:
+      observations:
+      - event_ref: E_ch0189_なぞなぞねこさん_asks_謎かけ_p6258
+        quote: 「にあ！ 地を満たし、空を駆け、海を漂うもの、ありとあらゆる生命のうちこれほどその姿と力を変えるものは他になし。脚は四つ、二つ、三つと変化し、その脚が多いほど歩みは遅々として進まぬ。にあ！
+          これなーんだ！」
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_青年]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0189_青年_other_謎かけ_p6259
+        quote: 「そは人類なり。始原の母パンゲオンより生まれし時、赤子は母なる獣と等しき四つの脚をもって這う。齢十二で信仰を選び、祈りの手を組み合わせれば地には二つの脚が残る。解き放たれた両手は火と鉄の神より知恵を授かり杖を作り、すなわちこれが第三の脚となる」
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_青年_confesses_宿命からの逃避_p6261
+        quote: 「そうだ、俺はここに宿命から逃れる手段を探しに来た。ここに逃げてきたんだ。縁もゆかりもないこの場所ならば、この身に告げられた忌まわしい予言、父殺しと母との姦淫というおぞましい宿命は追って来れまい」
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_青年_says_居場所_p6261
+        quote: 「俺はここに捜し物をしにきたんだ。俺がいていい場所、俺がいるべき居場所を見つけにはるばる旅をしてきた」
+        locator: {}
+        spoiler_after: ch0189
+    action:
+      observations:
+      - event_ref: E_ch0189_青年_appears_校庭_p6259
+        quote: 校庭の端に、黒い影が現れていた。 長い黒髪を後頭部で括った、鋭い美貌の青年である。
+        locator: {}
+        spoiler_after: ch0189
+      - event_ref: E_ch0189_青年_defeats_なぞなぞねこさん_p6260
+        quote: 美貌の青年が舞うように身体を旋回させ、手刀で虚空を裂いた。すると魔獣が大きく仰け反り、悲鳴を上げてのたうち回る。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_学院]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_学院_transforms_天使_p6260
+        quote: やがて学院を埋め尽くしていた人形の屍に異変が生じた。物言わぬ残骸に亀裂が走る。卵の殻を内側からつつくような音がして、やがて生まれたのは無垢なる天使。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女生徒]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0189_女生徒_observes_青年_p6261
+        quote: 荒れ果てた校舎に消えていくその後ろ姿を、黄砂色の髪をした女生徒がじっと睨みつけていた。彼女だけが、その呟きを耳にしていた。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_女王の生首]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0189_女王の生首_has_property_不快な音_p6262
+        quote: 蠅にたかられた死せる女王の周囲だけは変わらぬまま、耳障りな羽音が絶えることは無い。不快な音が完全に消えることはついになかった。
+        locator: {}
+        spoiler_after: ch0189
+  first_appearance_candidate: true

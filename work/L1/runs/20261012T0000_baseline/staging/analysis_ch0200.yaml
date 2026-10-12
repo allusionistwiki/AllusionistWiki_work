@@ -1,0 +1,230 @@
+chapter: ch0200
+created: '2026-10-10'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0200_ユディーア_makes_銀貨_p6732]]'
+  object: '[[ME_ガチャの排出演出]]'
+  claim: ユディーアがコインを操り、肉体が銀貨に変換されてから再構成される様子は、スマホゲームにおけるガチャの演出やリソース変換を想起させる。
+  quote: 親指の付け根から現れたコインがくるくると回りながら細い指の間を渡り歩く。
+  paragraph: p6732
+  confidence: moderate
+  quotes:
+  - quote: 親指の付け根から現れたコインがくるくると回りながら細い指の間を渡り歩く。
+    paragraph: p6732
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0200_ユディーア_transforms_銀貨_p6732]]'
+  object: '[[ME_ゲームのテクスチャ崩壊]]'
+  claim: 人間が銀貨になる描写が「テクスチャが、存在が剥落していくように」と表現されており、現実の物理現象ではなくゲーム的なグラフィックバグやデータ破棄を連想させる。
+  quote: 皮膚や肉が、ではない。テクスチャが、存在が剥落していくように、人間ひとり分の映像が崩れ落ちていく。
+  paragraph: p6732
+  confidence: strong
+  quotes:
+  - quote: 皮膚や肉が、ではない。テクスチャが、存在が剥落していくように、人間ひとり分の映像が崩れ落ちていく。
+    paragraph: p6732
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0200_ユディーア_reveals_オルゴーの滅びの呪文_p6736]]'
+  object: '[[ME_ロドニー・カミングスの『オルゴーの滅びの呪文』]]'
+  claim: 「オルゴーの滅びの呪文」という名称は、SF作家ロドニー・カミングスの短編小説における、宇宙の終わりを告げる呪文を直接引用している。
+  quote: 産み落とされたその瞬間から、ユディーアの爪は『無詠唱のオルゴーの滅びの呪文』として完成されていた。
+  paragraph: p6736
+  confidence: explicit
+  quotes:
+  - quote: 産み落とされたその瞬間から、ユディーアの爪は『無詠唱のオルゴーの滅びの呪文』として完成されていた。
+    paragraph: p6736
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0200_ユディーア_uses_剥落の鉤爪_p6735]]'
+  object: '[[ME_ステータス異常による防御無効化]]'
+  claim: 「剥落の鉤爪」が相手の防御や存在そのものを銀貨（リソース）に変換して剥がす能力は、RPGにおける防御力無視やステータスリセットなどのゲームメカニクスを比喩的に描いている。
+  quote: それは極めて単純な理屈。力はより強い力によってねじ伏せられる。
+  paragraph: p6735
+  confidence: moderate
+  quotes:
+  - quote: それは極めて単純な理屈。力はより強い力によってねじ伏せられる。
+    paragraph: p6735
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0200_カーイン_reveals_角_p6737]]'
+  object: '[[ME_悪魔憑き・変身]]'
+  claim: 仮面（社会的役割）を剥がされた人物から角が生え、正体が露わになる展開は、悪魔憑きや隠された魔性の本性が暴かれるという神話的・ホラー的なモチーフに一致する。
+  quote: 漆黒の肌、苦痛に歪んだ顔、その額から生えているのは二本の角だった。
+  paragraph: p6737
+  confidence: moderate
+  quotes:
+  - quote: 漆黒の肌、苦痛に歪んだ顔、その額から生えているのは二本の角だった。
+    paragraph: p6737
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0200_ユディーア_other_人間形態_p6743]]'
+  object: '[[ME_変身解除の苦痛]]'
+  claim: 通常、変身解除は安堵や解放として描かれることが多いが、ここでは嘔吐を伴う激しい拒絶反応として描かれ、異形の力への嫌悪や自己嫌悪を強調している。
+  quote: 笑顔と握手と謝罪と友好の意思を示そうとして口を押さえて嘔吐く。
+  paragraph: p6743
+  confidence: moderate
+  quotes:
+  - quote: 笑顔と握手と謝罪と友好の意思を示そうとして口を押さえて嘔吐く。
+    paragraph: p6743
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0200_クナータ_other_祈祷_p6746]]'
+  object: '[[ME_電気椅子]]'
+  claim: 聖女が座る「玉座」が「刑死者不在の電気椅子」と呼ばれ、神の裁きや死を管理する装置として描写されている。
+  quote: 刑死者不在の電気椅子。
+  paragraph: p6746
+  confidence: explicit
+  quotes:
+  - quote: 刑死者不在の電気椅子。
+    paragraph: p6746
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カーインの未知の力
+  note: カーインが使用する力が既存の呪術分類（塔の四大分類など）で捉えきれない未知のものであるとユディーアが認識している。その正体と由来。
+  quotes:
+  - quote: この男、ロウ・カーインは何か異質だ。既存の呪術系統、『塔』の四大分類や天主の色号論では捉えきれないような未知の力を働かせている。
+    paragraph: p6740
+    quote_verified: true
+  expected_payoff: カーインが転生者であること、あるいは別の世界からの干渉者であることの伏線として、その力の正体が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ルーシメアの真の姿
+  note: 空っぽの玉座に座る「彼」としてユディーアに認識されるルーシメア。その実体と、ユディーアが「悪竜」と呼ぶ存在との関係。
+  quotes:
+  - quote: この身に感じる悪竜を、未だにおぞましいと感じている以上は。
+    paragraph: p6748
+    quote_verified: true
+  expected_payoff: ルーシメアが単なる聖女ではなく、世界を滅ぼすほどの存在（悪竜）そのもの、あるいはその器であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_クレイの宿主としての覚醒
+  note: トロメリアの宿主がクレイであり、彼が「トライデントの大前提」を理解して協力しているという事実。
+  quotes:
+  - quote: うちの宿主ちゃんはトライデントの『大前提』を話したらわかってくれたよ。
+    paragraph: p6746
+    quote_verified: true
+  expected_payoff: クレイがどのような経緯で「大前提」を受け入れ、ユディーアたちと敵対しないのか、その心理的変化や対話の内容が回想される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_百戦目の意味
+  note: ユディーアがカーインとの戦いを「百戦目」と呼び、カーインもそれを「待ちに待った百戦目」と楽しんでいる。この「百戦」が指す具体的な意味や、過去の戦闘の反復性。
+  quotes:
+  - quote: この見るも無惨な呪いの押し付け合いが、そんなものであってたまるか。
+    paragraph: p6740
+    quote_verified: false
+  expected_payoff: この世界がループしている、あるいは特定の運命を繰り返しているというメタ的な構造の核心に触れる手がかりとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: アイデンティティの剥離と再構築
+  weight: 0.9
+  quotes:
+  - quote: 敵がその全身で『カーイン』を纏うなら、その全てを剥がしてやろう。
+    paragraph: p6734
+    quote_verified: true
+  - quote: 私は、カーインだ。
+    paragraph: p6737
+    quote_verified: false
+  note: ユディーアがカーインの「仮面（役割）」を剥がそうとし、カーインがそれでも「カーイン」と名乗り続ける対立を通じて、名前や役割が自我を規定するのか、それとも内面にあるのかという問いが提示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命の決定論と自由意志の衝突
+  weight: 0.8
+  quotes:
+  - quote: 確定したはずの未来を書き換えられた、そんな感覚。
+    paragraph: p6739
+    quote_verified: true
+  - quote: 運命と秩序に逆らってはならない。
+    paragraph: p6739
+    quote_verified: true
+  note: カーインが「運命を書き換える」ような行動を取り、ユディーアがそれを「秩序への逆らい」として警戒する構図は、シナリオ（運命）に従うことと、自らの意志で物語を変えることの葛藤を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力による対話の不可能性と強制的和解
+  weight: 0.7
+  quotes:
+  - quote: 仲間。この不快な存在がカーインだろうとカーインでなかろうと、同じ勢力に属する仲間であることだけは確かだった。
+    paragraph: p6743
+    quote_verified: true
+  - quote: いえ無理に和解しなくていいですよカーインとなんて
+    paragraph: p6743
+    quote_verified: true
+  note: 個人的な憎悪や復讐心が、組織的な目的（救世主の誕生）や第三者の介入によって強制的に封じ込められ、「仲間」として機能することを強いられる状況は、集団主義における個人の感情の抑圧を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 神聖さの脱構築と人工的な権威
+  weight: 0.6
+  quotes:
+  - quote: 即席の神々しさの下で一心不乱に意味の分からない言語を、祈祷を、見知らぬリズムで歌い上げていく。
+    paragraph: p6746
+    quote_verified: true
+  - quote: 神がもたらす稲妻の神秘を零落させ、死の裁きすらも人の手で管理するための傲慢なる舞台装置。
+    paragraph: p6746
+    quote_verified: true
+  note: 聖女の祈祷が「即席の神々しさ」と呼ばれ、玉座が「電気椅子」と呼ばれることで、宗教的権威や神聖さが人工的に構築されたシステムの一部であることが暴かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

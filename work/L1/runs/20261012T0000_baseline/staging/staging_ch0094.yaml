@@ -1,0 +1,248 @@
+episode: ch0094
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_チリアット]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0094_チリアット_appears_舞台_p3471
+        quote: チリアットとコルセスカが舞台上で次の一幕を演じている。
+        locator: {}
+        spoiler_after: ch0094
+    speech:
+      observations:
+      - event_ref: E_ch0094_チリアット_says_ヒュールサス到着_p3481
+        quote: 「おお、なんと立派な外壁だろうか！　ここがヒュールサスか！」
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_俺]]'
+  entity_type: motif
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0094_俺_thinks_劇の全体像_p3471
+        quote: 台本は最初の方しか渡されていない為、劇の全体像はざっくりとしか掴めていないのだが、現在分かっている事をまとめるとこうなる。
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_俺_thinks_呪術儀式_p3471
+        quote: グレンデルヒ率いる【変異の三手】及びその傘下に入っている【死人の森】によって窮地に追い込まれた俺とコルセスカは、状況を打開し、トリシューラとその王国ガロアンディアンを救う為に過去を再演することで過去を改変するという呪術儀式を行うことになった。
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_俺_thinks_女王との縁_p3471
+        quote: 先程の一幕から推測するに、チリアットが演じる俺は過去に遡り、幼き日の死人の森の女王と出会った。ここで生まれた縁が、現在の状況を成り立たせている女王の肩入れという結果を生んでいるのではないだろうか。
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_俺_thinks_カインの復活_p3472
+        quote: 俺が自身の罪を償い、物言わぬ屍となっているカインを【再生者】として復活させなければ、今の状況は成立しない。
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_俺_thinks_布石_p3472
+        quote: 勝つための布石。俺とコルセスカの存在を取り戻し、グレンデルヒと力士ゾーイを打ち負かし、トリシューラを奪還する。そんな、起死回生の布石。
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_俺_trusts_星見の塔の魔女たち_p3472
+        quote: いずれにせよ、他に選択肢が無いのも事実。協力してくれている星見の塔の魔女たちのことを信用するしかない。
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_俺_thinks_未来改変_p3474
+        quote: 演劇という呪術が再演によって過去の改変を可能とするのなら、未来を演じることは、未来の改変に繋がるのだろうか？
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_俺_thinks_劇の意味_p3480
+        quote: あれは明らかに、現在進行形で起こっている俺たちが消えた後の戦いの状況だ。
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_俺_thinks_時間稼ぎ_p3480
+        quote: それを、ここで『ゼドたちが時間稼ぎをしてくれている』という劇を演じることで、実際にグレンデルヒの勝利を先延ばしにしているのか。
+        locator: {}
+        spoiler_after: ch0094
+    action:
+      observations:
+      - event_ref: E_ch0094_俺_helps_チリアット_p3472
+        quote: 俺は左手を動かし、彼の左大腿部に最初の数文字を書いてやる。それでも出てこないようだったので、やや強引だが意識に直接台詞を流し込んだ。
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_神]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0094_神_appears_二人_p3471
+        quote: 開幕早々に現れた神によって二人はヒュールサスという古代に実際に存在したらしい国へ向かうことになった。
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_プロンプター]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0094_プロンプター_defines_役割_p3472
+        quote: プロンプターというのは、役者が台詞を忘れた時に合図や切っ掛けを出して思い出させる役割の裏方である。
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴィヴィ＝イヴロス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0094_ヴィヴィ＝イヴロス_says_台詞の変動_p3473
+        quote: 劇の台詞や演出というのは常に、直前まで、最悪の場合は開幕後ですら変動し得るので、絶対に必要な役割だとはヴィヴィ＝イヴロスの談だが――本当だろうか？
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_二人]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0094_二人_other_劇団_p3473
+        quote: 街道を進む二人は、劇団の一座と遭遇する。
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_劇]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0094_劇_functions_as_神事_p3473
+        quote: 劇とは神事であり、神へと奉納する儀式でもあるのだとか。
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_生と死の神]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0094_生と死の神_functions_as_演劇の神_p3473
+        quote: なんでも、この辺りで崇められている生と死の神は演劇の神でもあるらしい。
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_若き劇団員]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0094_若き劇団員_asks_稽古の観覧_p3473
+        quote: 一緒になった若き劇団員が、来るべき舞台に向けて一人稽古をするので見てくれないかと頼み込んでくる。
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_若き劇団員_says_未来回想_p3474
+        quote: 曰く、「さあさ、お立ち会い。これより演じますのは【未来回想】の物語、未だ誰も見たことのない、遠い先の物語にございます」
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0094_コルセスカ_says_おままごと_p3474
+        quote: 「つまり、おままごとをするの？」
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_グレンデルヒ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0094_グレンデルヒ_fights_ゼド_p3475
+        quote: 音速の突進、超音速の銃弾を容易く回避し、すれ違いざまに反撃の拳を叩き込む。そればかりかカード型端末に封じられた呪術を解放して追撃を加え、突撃槍と一体となって戦うゼドを引きずり降ろし、床に叩きつける。
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_グレンデルヒ_defeats_ゼド_p3476
+        quote: グレンデルヒが放った渾身の一撃によって壁に叩きつけられ、今度こそ昏倒した。
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_グレンデルヒ_uses_魔導書_p3479
+        quote: その手の中に、いつの間にか見慣れぬ魔導書が現れていた。「健闘を讃えて、私も少しばかり本気でやろうか。この【神々と１２８人の魔法使いたち】は『制御盤』でね。意味がわかるだろうか？
+        locator: {}
+        spoiler_after: ch0094
+    speech:
+      observations:
+      - event_ref: E_ch0094_グレンデルヒ_has_property_天才的武術_p3476
+        quote: 対して、グレンデルヒのそれは超人が最適効率を追求して『無駄』を削ぎ落とした芸術的な天才的武術。
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0094_ゼド_appears_満身創痍_p3475
+        quote: 四英雄が一人、盗賊王ゼドは満身創痍だった。
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グラッフィアカーネ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0094_グラッフィアカーネ_appears_戦場_p3476
+        quote: トライカラー（黒と白と茶）の犬頭。耳の垂れた、ビーグル犬に似た獣人。【マレブランケ】の新参者、グラッフィアカーネが、獰猛な唸り声を口から漏らしながら、凄絶な殺意を放射していた。
+        locator: {}
+        spoiler_after: ch0094
+    action:
+      observations:
+      - event_ref: E_ch0094_グラッフィアカーネ_attacks_グレンデルヒ_p3477
+        quote: 懐から片側が鈴になった金剛杵を取り出すと、ガラガラと鳴らす。音と共に稲妻が放射された。「グレンデルヒ＝ライニンサル！　待っていたぞ、この時を！」
+        locator: {}
+        spoiler_after: ch0094
+      - event_ref: E_ch0094_グラッフィアカーネ_other_グレンデルヒ_p3478
+        quote: 直接触れること無くグレンデルヒの体勢を崩した虹犬は、そのまま間合いへと踏み込むと蓬髪の英雄を掴み、豪快に投げ飛ばした。
+        locator: {}
+        spoiler_after: ch0094
+    speech:
+      observations:
+      - event_ref: E_ch0094_グラッフィアカーネ_confesses_復讐_p3478
+        quote: 「サイザクタートの仇だ！　幼馴染みを二度も殺した地上の英雄どもめ！　お前とアズーリア・ヘレゼクシュだけは、この手で殺してみせる！」
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_合気]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0094_合気_defines_呪術_p3478
+        quote: 合気が操作するのは生体電流だけではない。脳の電気生理学的反応、筋電位に及ぶまで、ありとあらゆる生体に干渉することにより、自他の脳神経系すら掌握するという呪術である。
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_思考台本]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0094_思考台本_transforms_内容_p3480
+        quote: 呪術によって仮想的に存在する『思考台本』をもう一度確認して目を疑った。内容が、変化している。
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サイザクタート]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0094_サイザクタート_appears_門番_p3481
+        quote: それは、その犬のような頭部が三つ存在する事。中央の、皺だらけの頭が口を開く。
+        locator: {}
+        spoiler_after: ch0094
+    speech:
+      observations:
+      - event_ref: E_ch0094_サイザクタート_names_自分_p3481
+        quote: 「儂はサイザクタート。このヒュールサスのしがない門番さ」
+        locator: {}
+        spoiler_after: ch0094
+  first_appearance_candidate: true

@@ -1,0 +1,379 @@
+episode: ch0168
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0168_アキラ_uses_サイバーカラテ道場_p5612
+        quote: 『道場』の予測に従って空に浮かぶドーナツを足場に跳躍、空を泳ぐイルカたちに飛び乗った。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_アキラ_uses_ゲストアカウント_p5613
+        quote: 俺はいま、ゲストアカウントでこの夢に参加している。目的は二つ。ひとつは日中に夢見人から頼まれた問題を解決するため。もうひとつは『サイバーカラテ道場』と競合する可能性がある『朱色の夢』の内情を探り、先人から良い部分を盗――いや学びとるためだ。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_アキラ_uses_パーソナルスペースデータ_p5619
+        quote: 「偏見発言はやめろ。まあただ、ふるまいとバンドメンバーとの距離感がちょいひっかかるな――ちびシューラ、うちのユーザーのパーソナルスペースデータとあの四人とを比較できるか？
+          カップルの平均的な親密圏を図りたい」
+        locator: {}
+        spoiler_after: ch0168
+    speech:
+      observations:
+      - event_ref: E_ch0168_アキラ_observes_朱色の夢_p5613
+        quote: 「アストラルネットとは違うんだよな」（似て非なるものだね。シューラも入れるのが面白いところ！）見た通り、これは夢だ。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_アキラ_thinks_搾取_p5614
+        quote: 哀れな獲物たちは自らが持つ創造性を少しずつ搾取されている。そんな意地の悪い見方もできなくはない。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_アキラ_thinks_クレイ_p5626
+        quote: だとすると、ひとつ疑問が残る。なぜクレイは生まれてきたのか。あるいは、クレイだけが純粋な再生者として存在できる理由があるのか。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0168_カイン_repairs_橋_p5612
+        quote: カーインがレオの行く先々で橋を直しており
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ道場]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0168_サイバーカラテ道場_appears_as_夢_p5612
+        quote: サイバーカラテ道場は夢を見る。ナビに従って突き出される拳はどこかふわふわしていて、雲のように広がってどこまでも伸びていった。
+        locator: {}
+        spoiler_after: ch0168
+    action:
+      observations:
+      - event_ref: E_ch0168_サイバーカラテ道場_learns_夢の法則性_p5612
+        quote: 膨大な情報を高速で処理しつつ、『サイバーカラテ』は夢に適応していった。ランダムなパターンの中から法則性を見出して『次の支離滅裂な展開』を予想する。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_サイバーカラテ道場_reveals_親密圏_p5624
+        quote: 『サイバーカラテ道場』が導き出した親密圏の測定は、白骨妊婦の距離感がギタリストとベーシストの双方と極めて近い事実を示していた。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_冷凍睡眠者]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0168_冷凍睡眠者_uses_朱色の夢_p5613
+        quote: 冷凍睡眠者をはじめとする朱色の信奉者は、天主に夢を預けて恩恵を得ている。彼らは互いに夢世界で自己表現をし、コミュニケーションをとり、自在な創造行為を行うのだった。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_朱の天主]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0168_朱の天主_defines_朱色の夢_p5613
+        quote: 『朱』の天主が集合無意識の底に築き上げたＳＮＳであり、メッセージ伝達サービスであり、居住空間であり、あらゆる創作・競技・遊戯・思索が許される世界。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0168_シューラ_says_アキラへの期待_p5614
+        quote: 「我ながら悪役の思考だなあ」（アキラくんにも『サイバーカラテ道場』の化身としての自覚が出てきたみたいでシューラは安心だよ。もっと悪い奴になろうね！）
+        locator: {}
+        spoiler_after: ch0168
+    visual:
+      observations:
+      - event_ref: E_ch0168_シューラ_appears_as_小悪魔_p5627
+        quote: 牙やコウモリの羽を生やした小悪魔シューラが三叉槍を掲げて喜んでいた。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_夢の世界]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0168_夢の世界_has_property_適当さ_p5614
+        quote: その一方で夢の世界だけにあらゆることが適当という欠点もありそうだ。作りかけで放棄されたものがそこら中に散らばっており、諸々の権利関係なんかもかなり適当な扱いのようだ。
+        locator: {}
+        spoiler_after: ch0168
+    visual:
+      observations:
+      - event_ref: E_ch0168_夢の世界_transforms_茶の海_p5615
+        quote: 途端、あらゆる光景がかき消えて一瞬にして別世界が広がっていく。茶の海の上にクッキーの島が幾つも浮いているという甘ったるい世界は、一体誰の夢なのだろう。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_夢の世界_transforms_羊水と血_p5619
+        quote: お菓子だらけの夢がたちまち羊水へと変化し、光という光が全て暗黒へと変換されていく。流れる大河は血に染まり、陸地の全てがピンク色の肉塊へと変貌。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0168_サイバーカラテ_functions_as_杖_p5615
+        quote: 『サイバーカラテ道場』がデータの蓄積と分析による『杖』のプラットフォームなら、『夢の世界』は記憶と感覚が複合した『邪視』のプラットフォームだ。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_Frozen/Torch]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0168_Frozen/Torch_uses_夢世界アカウント_p5616
+        quote: 『Ｆｒｏｚｅｎ／Ｔｏｒｃｈ』のメンバーは冷凍睡眠ドラマーといつでも連絡がとれるように全員この夢世界のアカウントを取得しているらしい。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_Frozen/Torch_fights_口論_p5618
+        quote: どうやら彼らは表向きの『バンドの方向性についての議論』という建前をかなぐり捨てて『最初に白骨死体妊婦と親しかったのは誰か』とか『彼は悪くないの私がいけない子だったの』みたいなことで揉めているようだ。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_Frozen/Torch_makes_ライブ_p5621
+        quote: 泣き喚く赤子を妊婦の腹の中に収めてそれぞれが楽器を『創造』、公共チャンネルでライブの告知をすると次々と興味を持った観客がやってくる。
+        locator: {}
+        spoiler_after: ch0168
+    relationship:
+      observations:
+      - event_ref: E_ch0168_Frozen/Torch_bonds_連帯_p5622
+        quote: あまり思考して無さそうな感性だけの言葉で互いに理解し合い、夢の中で連帯を深める四人、いや一人足して五人か。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0168_オルヴァ_says_夢での説得_p5616
+        quote: 「機械的であるから、無機質であるからと拒絶されるならば、機械を介さぬ夢の世界でならありのままで向き合うことができよう――お前たちには不快な理屈かもしれないが、このような場が必要な時もあるということだ」
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_オルヴァ_says_破滅の予感_p5623
+        quote: 「まだ、終わっていない」「え？」オルヴァがぼそりと呟く。彼の十字の瞳は爛々と輝き、これから訪れる未来を幻視し続けていた。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_オルヴァ_says_ブレイスヴァ_p5624
+        quote: 「おお、なんということだ！ 愛情はうつろい、情熱は揺らぎ、絆はたやすくほつれていく！
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_オルヴァ_says_再生者の必然_p5626
+        quote: 「選択権を与えられた再生者の赤子たちは必ずその答えに辿り着く――彼らは、彼らを宿した命の母よりも冥府というより大いなる母を選ぶのだ。そう、必ず。絶対にだ。例外は無い」
+        locator: {}
+        spoiler_after: ch0168
+    visual:
+      observations:
+      - event_ref: E_ch0168_オルヴァ_transforms_年齢_p5616
+        quote: 一見すると目隠しをした少年だが、瞬きをすれば物憂げな表情の青年に変わり、かと思えば見る間に髭が伸びて骨と皮ばかりの朽ちた老人になってしまう。
+        locator: {}
+        spoiler_after: ch0168
+    action:
+      observations:
+      - event_ref: E_ch0168_オルヴァ_activates_感情パターン共振_p5617
+        quote: 「確か、意識固有の感情パターンを共振させて繋がりを構築していたはずだ。こちらのチャンネルと波長を合わせられないかどうか試してみる」
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_オルヴァ_other_カシュラム王_p5625
+        quote: 絶好調のカシュラム王が少年期青年期老年期全ての姿を使って嘆きを演出する。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_オルヴァ_takes_冷凍睡眠者_p5626
+        quote: 淡々と言い放つオルヴァは、片手でごっそりと空間を抉り取った。すると次の瞬間、彼の目の前に『引き寄せ』される冷凍睡眠者。アポート
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_オルヴァ_stops_アキラ_p5627
+        quote: オルヴァが俺の目の前に立ち、片手を前にかざした。「ここまで――含めての破滅だ」
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_焼死体ベーシスト]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0168_焼死体ベーシスト_appears_as_キャンプファイヤー_p5618
+        quote: というか、焼死体の再生者が燃え上がっている。「キャンプファイヤーかよ」「炎上する口論を囲んで踊る、か。言い得て妙だな」
+        locator: {}
+        spoiler_after: ch0168
+    action:
+      observations:
+      - event_ref: E_ch0168_焼死体ベーシスト_uses_熱学センサ_p5621
+        quote: 棺の外部にこれ見よがしに取り付けられた大型の熱学センサ。いまあの冷凍睡眠者はライブの熱気を感知している。『熱い演奏をしている』という分かりやすいパフォーマンス。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_吸血鬼ギタリスト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0168_吸血鬼ギタリスト_names_白骨妊婦_p5619
+        quote: そして、ある時を境にリーダーの吸血鬼ギタリストから強い推薦があって加入したとか。その時には身籠もっていたわけだ。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_吸血鬼ギタリスト_says_父親似_p5620
+        quote: 「この子のグロウル、もしかして俺に似てるんじゃないか」とかなんとか。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_白骨妊婦]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0168_白骨妊婦_gives_赤子_p5619
+        quote: 状況の動きがあった。白骨妊婦の腹部が発光し、中から勢い良く何かが飛び出した。それは勢い良く泣き始めて周囲の夢を改変し始める――それも凄い勢いで。
+        locator: {}
+        spoiler_after: ch0168
+    speech:
+      observations:
+      - event_ref: E_ch0168_白骨妊婦_says_拒絶_p5626
+        quote: 進退窮まった母親は、赤子に向けて叫ぶ。黙れ、うるさい、おおよそそんな意味の拒絶の意思。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0168_ちびシューラ_says_再生者の意識_p5620
+        quote: 「アキラくん、再生者だから多分冥府から魂が送られてきた瞬間には『存在』として確定するんだよ。妊娠一秒の時点で霊的存在としては意識があるんだ」
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_犬耳ドラマー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0168_犬耳ドラマー_wears_眠り棺_p5621
+        quote: 犬耳ドラマーは夢の中であってもあえて『眠り棺』を『創造』して纏い、『機械が行う正確無比な生演奏』を演じてみせる。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_犬耳ドラマー_reveals_SNSアカウント_p5625
+        quote: 堂々と焼死体ベーシストと吸血鬼ギタリストの両方と『仲良く』しているという事実が赤裸々に語られていた。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_赤子]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0168_赤子_transforms_骨の翼_p5622
+        quote: 胎児は夢特有のいい加減さで骨の翼を生やして羽ばたき、雲の合間を抜けて空を華麗に舞い踊った。その姿はさながら死の天使だ。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_赤子_appears_as_焼死体ベーシスト_p5624
+        quote: その姿は焼死体ベーシストそっくりで――いや、燃えている箇所はまさしく彼の火傷痕と完璧に一致している。そっくりと言っていい。
+        locator: {}
+        spoiler_after: ch0168
+    action:
+      observations:
+      - event_ref: E_ch0168_赤子_wounds_自身_p5623
+        quote: その骨の翼が加熱する空気にあてられたか、ごおごおと炎上する。そればかりではない。剥き出しの小さな頭蓋骨の半分が炎に包まれ焦げていくではないか。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_赤子_flees_冥府_p5626
+        quote: するりと手指から逃れた子供は厭気のさした現世から逃れて子宮から冥府へと逆流していったのだ。生まれる事を拒絶するかのように。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アマランサス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0168_アマランサス_appears_人形_p5628
+        quote: 朱色の雲とオレンジ色の空から舞い降りてくるのは、フリルだらけのドレスを纏った可憐な人形。
+        locator: {}
+        spoiler_after: ch0168
+    speech:
+      observations:
+      - event_ref: E_ch0168_アマランサス_names_自身_p5628
+        quote: 「私はアマランサス。ええ、トリシルシリーズ第七ドール、不滅のアマランサスとは私のことよ。左右に分かれたアレッテ・イヴニルのもうひとつの瞳。それが私」
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_アマランサス_asks_アキラ_p5629
+        quote: 「さて、自己紹介も終わったところで本題よ。シナモリアキラ。あなた、『アマランサス・サナトロジー』に入らない？」
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エントラグイシマレブランシュ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0168_エントラグイシマレブランシュ_appears_赤子の亡霊_p5629
+        quote: 空が裂ける。ぼたぼたと、雨が降るように大地に落ちてくる無数の赤子たち。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガルラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0168_ガルラ_names_自身_p5629
+        quote: 「ぼくはガルラだよ！」少女人形の名乗りと共に、脇から飛び出すローブ姿の更に小さな人形。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0168_クレイ_observes_自身_p5631
+        quote: クレイは――夜すら凍てつかせる美しき冥府の王子は、己の打ちひしがれている惨めな姿を記録する誰かがいることに気付いていた。
+        locator: {}
+        spoiler_after: ch0168
+      - event_ref: E_ch0168_クレイ_arrives_森の中_p5632
+        quote: クレイは気付く。ここは木々の間から日の光が差し込む森の中だ。
+        locator: {}
+        spoiler_after: ch0168
+    speech:
+      observations:
+      - event_ref: E_ch0168_クレイ_thinks_一位のアイドル_p5631
+        quote: アイドルランク一位という絶対者の超越性に打ちのめされた自分の弱さを、徹底的に検証し直して鍛え直すのだ。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファウナ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0168_ファウナ_appears_金髪の少女_p5633
+        quote: 現れた少女は困ったように言った。「もう、みんなだめよ。お客様を困らせてはいけないわ」
+        locator: {}
+        spoiler_after: ch0168
+    speech:
+      observations:
+      - event_ref: E_ch0168_ファウナ_says_クレイへの好意_p5633
+        quote: 「この子たち、みんなあなたが好きみたい」「冗談を言え。俺からは死の臭いしかしないはずだ。生き物が寄りつくものか」「でも、命の香りもするわ」
+        locator: {}
+        spoiler_after: ch0168
+    name:
+      observations:
+      - event_ref: E_ch0168_ファウナ_names_自身_p5634
+        quote: 少女の名は『動物想』。ファウナ・ボナ・デア。死者達が集う地下に華を添える一輪のアイドルにして、再生者たちに絶大な人気を誇る『ヒュールサスのファッションブランド』こと『コルヌー・コピアイ』のデザイナー。
+        locator: {}
+        spoiler_after: ch0168
+  first_appearance_candidate: true

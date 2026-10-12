@@ -1,0 +1,326 @@
+episode: ch0214
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_でかちびシューラ]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0214_でかちびシューラ_appears_立体幻像_p7212
+        quote: 第五階層の空に出現した巨大な二頭身、『でかちびシューラ』の立体幻像が口上を並べ立てるのをぼんやり眺めながら、ユディーアは感心していた。
+        locator: {}
+        spoiler_after: ch0214
+    speech:
+      observations:
+      - event_ref: E_ch0214_でかちびシューラ_says_予選レースの案内_p7215
+        quote: 「というわけで、本選にはシード選手以外も参加できるんだ！　本日行われる予選レースを勝ち抜いた上位三名！　当日飛び入り大歓迎のこのレースを勝ち抜いて、異次元の箒レースに参加しちゃおう！
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0214_トリシューラ_defines_猫のゲーム禁止_p7212
+        quote: ガロアンディアンの五族戦乱時代からの伝統に則り、あらゆる殺し合いと義国圏と鈴国圏の階層攻略戦、及びそれに類する一切の『猫のゲーム』を禁止する！」
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_トリシューラ_says_万獣祭の開催宣言_p7212
+        quote: 「それではただ今より、第三百回！　『万獣祭』を開催します！　これから九日間は種族も敵味方も関係ない！　この私、機械女王トリシューラは新しき神シナモリアキラの名において宣誓するよ！
+        locator: {}
+        spoiler_after: ch0214
+    relationship:
+      observations:
+      - event_ref: E_ch0214_トリシューラ_has_property_暗殺対象_p7215
+        quote: 機械女王トリシューラは『ガロアンディアン女王としての生命』を狙われている。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0214_ユディーア_says_上司の発言_p7212
+        quote: 「って、私の上司が言ってたよ」
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_ユディーア_other_ピュクシスの存在_p7213
+        quote: 「そうそう。ピュクシスせんせ。若いけど評議会メンバーなんだよ。天才だよね」
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_ユディーア_asks_マレブランケの戦力_p7214
+        quote: 「あの人とオルヴァ王、グレンデルヒが『マレブランケ』の最大戦力？」
+        locator: {}
+        spoiler_after: ch0214
+    action:
+      observations:
+      - event_ref: E_ch0214_ユディーア_other_セリアック＝ニア_p7216
+        quote: ユディーアは破顔して手を振った。「やっほ、ニアちゃん」
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_祝祭]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0214_祝祭_functions_as_呪術儀式_p7212
+        quote: 『祝祭』という『場』に大勢が参加することで、その呪術儀式は参加者全員が共同で成立させるための巨大な仕組みに変質していく。複数人で行う約束や誓約は強固な縛りとなって世界全体に対する強制力となるのだ。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_花火]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0214_花火_appears_青空_p7212
+        quote: 昼の花火が青空で散ると、爆音じみた歓声が地から沸き上がった。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ道場]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0214_サイバーカラテ道場_functions_as_ストリートファイトの場_p7213
+        quote: ほら見ろよ。ランキング上位を目指してさっそく『サイバーカラテ道場』のユーザーどもがおっぱじめてやがる」　プーハニアの言うとおり、あちこちでギャラリー付きのストリートファイトが繰り広げられている。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プーハニア・トストンス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0214_プーハニア・トストンス_has_property_呪具いじりの特技_p7213
+        quote: 呪具いじりが得意とはなんとも意外ではあるが、何でもそのむかし違法な箒レースに関わっていた頃に覚えた特技らしい。
+        locator: {}
+        spoiler_after: ch0214
+    visual:
+      observations:
+      - event_ref: E_ch0214_プーハニア・トストンス_is_made_of_ブルドッグ頭_p7213
+        quote: ブルドッグ頭の虹犬は、当日になって箒の整備係兼ボディガードを買って出てくれたプーハニア・トストンスという『公社』所属の『おまわりさん』である。
+        locator: {}
+        spoiler_after: ch0214
+    speech:
+      observations:
+      - event_ref: E_ch0214_プーハニア・トストンス_names_ピュクシス_p7213
+        quote: 「へえ。そいつは例の『智神の盾』の典礼総監様ってやつかい」
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_プーハニア・トストンス_says_宣誓の抜け道_p7213
+        quote: 「俺に言わせりゃ抜け道だらけの宣誓さ。殺し合いと戦争が禁止ってだけ。誓ってる対象がシナモリアキラなんだぜ？　むしろ喧嘩は推奨ってな。
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_プーハニア・トストンス_other_戦力の増加_p7214
+        quote: 「多分な。俺の予想じゃ、この祝祭でまた増えるね。入れ替わりもあるかもな」
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_マレブランケ]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0214_マレブランケ_defines_ランク戦の相手_p7213
+        quote: 「祝祭期間中はランク上位の『マレブランケ』を見つけたら自由に挑んでランク戦を仕掛けられるってもっぱらの噂だ。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラフディ王ルバーブ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0214_ラフディ王ルバーブ_fights_挑戦者たち_p7214
+        quote: 虹犬が指差す方向で、地面に轍を作りながら挑戦者たちを薙ぎ倒していくまん丸い巨体の男がちらりと見えた。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_挑戦者たち]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0214_挑戦者たち_thinks_記念の参加_p7214
+        quote: 鎧袖一触されていく挑戦者たちの表情にはさしたる悔しさがない。　高名な強者に『一丁揉んでもらえる』ということで記念に突っ込んでいっただけなのだろう。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_暗殺]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0214_暗殺_defines_社会的評価の損傷_p7214
+        quote: 暗殺。呪術世界におけるそれは、なにも生命を絶つことだけを指すのではない。　名誉、誇り、社会的評価。形のないものを損なうことで、不死すら実現する大呪術師に致命的な打撃を与える。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0214_セリアック＝ニア_appears_小柄な人影_p7216
+        quote: 平坦な声が響く。ユディーアとプーハニアの所に近付いて来たのは小柄な人影だ。　頭の上で三角耳が忙しなく角度を変える。
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_セリアック＝ニア_wears_変装衣装_p7217
+        quote: セリアック＝ニアは変装も兼ねているのか、普段のふわふわお姫様ファッションがなりをひそめて髪型もアップにして大胆なイメージチェンジを図っている。
+        locator: {}
+        spoiler_after: ch0214
+    speech:
+      observations:
+      - event_ref: E_ch0214_セリアック＝ニア_asks_コメント_p7216
+        quote: 「ところでセリアもこれからレースの裏で調査をするわけですが。あなたから何か無いんですか。気の利いたコメントとか」
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_セリアック＝ニア_other_ユディーアの感想_p7217
+        quote: 「つまんない感想ですね」「感想言えって要求したのニアちゃんなのに」「そんな要求してません。馴れ合いごっこは寒いですよ」
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_セリアック＝ニア_other_王殺しの可能性_p7217
+        quote: 「判明した範囲の要注意人物です。本選に出て来る可能性が高い者。つまりは、『王殺し』が入れ替わっている、あるいは入れ替わりを狙うかもしれない者たち」
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_セリアック＝ニア_other_クロウサー家の主催_p7218
+        quote: 「クロウサー家が主催者ですから。シード枠は自然と『上』に偏るのです」
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_セリアック＝ニア_other_参加者の動機_p7218
+        quote: 「ほとんどの参加者は多分、ここで名前を売って『祝祭』の流れに乗ろうって腹でしょう。その他、推薦枠から漏れた本職レーサーもちらほら」
+        locator: {}
+        spoiler_after: ch0214
+    action:
+      observations:
+      - event_ref: E_ch0214_セリアック＝ニア_gives_要注意人物リスト_p7217
+        quote: 素気なく言うと、セリアック＝ニアはプーハニアにも手短に挨拶を済ませてから端末に文書データを送ってきた。見るとずらりと名前と念写映像、簡易なプロフィール。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_予選参加者]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0214_予選参加者_appears_屋外特設会場_p7216
+        quote: ここ、予選参加者が待機を命じられた屋外特設会場には屋内には収まりきらないほど大勢の人が集まっている。見た感じ、『中央』ではなく『辺境』の参加者が多い。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_箒]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0214_箒_appears_as_アンダーグラウンドの臭気_p7216
+        quote: 改造した自作箒、ぼろぼろの中古品、継ぎ接ぎ部品の骨董品までありとあらゆる箒が出揃っているが、いずれからもアンダーグラウンドの臭気が漂っていた。
+        locator: {}
+        spoiler_after: ch0214
+      - event_ref: E_ch0214_箒_appears_as_珍妙な乗り物_p7219
+        quote: 「あそこの四輪車、磨き粉散布車じゃない？　あっちの二人乗りのクレンザー箒はなんか魔改造したマジックミサイルっぽいし、これ箒レースでいいんだよね？」
+        locator: {}
+        spoiler_after: ch0214
+    symbolic:
+      observations:
+      - event_ref: E_ch0214_箒_defines_多義的な用語_p7220
+        quote: 箒という言葉が示す対象は幾つもある。　古典的なものは長細い木の棒に枝の束を取り付けた掃き掃除の道具。転じて浄化呪術に用いる祭具。そこから派生して一般的な家庭用呪具、清掃業者のトレードマークとしての『吸引箒』。さらにそこから発展し、複数の文脈が重ね合わさった『浄化によって生じる推進力を利用した飛行用の乗り物』である『機甲箒』、すなわちフライトビークル。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_セリアック＝ニアの衣装]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0214_セリアック＝ニアの衣装_functions_as_抗呪力と装甲強化_p7217
+        quote: 編み上げビスチェ合わせの白ブラウスと黒スカート、足先の尖った編み上げブーツという装い。レースアップのファッションミームを重ねることで神話的な抗呪力を高めつつ胴体と脚部の装甲強化を両立している合理的な服装と言えた。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_予選コース]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0214_予選コース_is_located_都市の上空_p7218
+        quote: 異界を巡る本選と違い、予選のコースは都市の上空をぐるっと周回するだけだ。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_王殺し]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0214_王殺し_has_property_変身能力_p7218
+        quote: 『王殺し』は『上』の出身だが、だからといって予断は禁物だ。　彼の変身を見破るのはほとんど不可能。どんな種族に化けているか、想像すらできない。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ガロアンディアンの規則]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0214_ガロアンディアンの規則_has_property_緩い規則_p7219
+        quote: 箒レースと言っても時代や地域ごとに規則はかなり違う。　ガロアンディアンのそれは特に緩い。おそらく機械女王の気質が反映されているのだろう。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_不穏な影]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0214_不穏な影_names_反中央勢力_p7219
+        quote: 例えばそれは、『中央』に反抗する四つの勢力であったり、祝祭の裏で蠢く超越的な神のごとき存在であったりする。　ノゴルオゴルオとアルティウス、ライラ・ラプスにスーリウム。　クロウサー、リーヴァリオン、そしてディスケイム。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_予選レース]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0214_予選レース_functions_as_前座_p7219
+        quote: 妨害あり乱闘あり。ルール無用の大騒ぎ。　伝統のある『空使い』選定レースではできない馬鹿みたいな展開も許容される盛大な『前座』がこの予選レースの本質だ。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ティリビナ人]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0214_ティリビナ人_appears_予選参加者_p7220
+        quote: ユディーアの暗い瞳にある光景が入り込んだ。　それは枯れ木のごとき樹肌を有する人間たちの集団。　ティリビナ人たちもまたこの予選に参加しようとしているのだ。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ティリビナ人の箒]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0214_ティリビナ人の箒_is_made_of_木製_p7220
+        quote: 「あの箒って普通の木製？　呪動機は積んでないの？　聖別フィルターは？」「自然由来の浄化率は意外と馬鹿にできないかもしれません。とうぜん静音性は比べものにならないでしょうし、祈祷効率も未知数です。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_スーリウム]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0214_スーリウム_other_ティリビナ同胞団_p7221
+        quote: なにより『ティリビナ同胞団』の背後には、あの『王殺し』を第五階層に招いた張本人、神の如きスーリウムが控えているのだから。
+        locator: {}
+        spoiler_after: ch0214
+  first_appearance_candidate: true

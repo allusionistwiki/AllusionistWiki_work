@@ -1,0 +1,291 @@
+episode: ch0185
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_青肌人]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0185_青肌人_has_property_身体拡張_p6135
+        quote: タコやイカのような無数の手足を有していたり、多機能ロボットアームを分離・遠隔操作したり、時には艦船や飛行機、海底基地や複数の小型ドローンそのものと自己の感覚を一体化させたりといった、人の枠を拡張するような身体性のあり方がそこにある。
+        locator: {}
+        spoiler_after: ch0185
+    name:
+      observations:
+      - event_ref: E_ch0185_青肌人_uses_特殊用途義肢_p6135
+        quote: サイバーカラテ発祥の地ネオアメリカの青肌人には特殊用途義肢ブルージーンズの適合者が多いと聞く。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サブサンプション]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0185_サブサンプション_defines_知能構築_p6136
+        quote: 脳から流出する『我思うゆえに我在り』という論理の世界よりも、世界があるが故に我が在るとする反射とフィードバックの知能構築。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0185_シナモリアキラ_transforms_身体感覚_p6136
+        quote: 手が遊離・分裂し、第五階層の至る所をがっちりと掴む。切り離されても身体の延長線上のまま、伸張された身体感覚が道路を、街頭を、監視水晶を、公共端末を、余さず覆い尽くしていった。
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_シナモリアキラ_uses_幻肢_p6136
+        quote: 俺はその遊離する幻肢を呪術的端末として『幽体離脱』させてアストラル投射が可能になったが、思えばこれもトリシューラにとっては下準備だったのだろう。
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_シナモリアキラ_makes_公園_p6138
+        quote: なにやらトリシューラとコルセスカが俺の意識に語りかけてきているようだ。二人の言葉に従って、俺は未開発の地区を選んで開発計画を実行。大枠の布地は『公園』に決定。
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_シナモリアキラ_makes_ライブシアター_p6141
+        quote: 俺はアイドル時代の経験を生かし、まず呪術医院周辺をライブシアターへと大改造していく。戦場は戦場のまま、瘴気に満ちたおぞましい世界はそのままに。
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_シナモリアキラ_other_宝石_p6169
+        quote: 事態を解決に導いてくれた空組、とりわけセリアック＝ニアに感謝しなくてはならない。彼女がこの第五階層にちりばめてくれた宝石を俺は確かに受け取った。
+        locator: {}
+        spoiler_after: ch0185
+    speech:
+      observations:
+      - event_ref: E_ch0185_シナモリアキラ_confesses_裏切り_p6139
+        quote: 「二人とも、俺は」
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_シナモリアキラ_thinks_無能_p6139
+        quote: 俺は無能だ。砂場遊びすら満足にできない。もう自分のセンスを信じるのはやめて空間構築の細部はトリシューラやコルセスカに任せよう。
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_シナモリアキラ_other_グレンデルヒ_p6141
+        quote: 「いや、髭太夫の知識を借りるからいい」
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_シナモリアキラ_asks_オルヴァ_p6142
+        quote: 「お前の力が必要だ。あるだけ寄越せ、時空を統べる技の全てを！」
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_イストリン]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0185_イストリン_is_made_of_呪動ミシンと制御盤_p6137
+        quote: 形状は呪動ミシンと大型の制御盤が一体化した『平たいハサミ』か『巨大ステープラーもどき』と言ったところか。時空間そのものを縫い合わせて、世界を衣服にすることができるというのが売り文句だ。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0185_コルセスカ_says_九点評価_p6139
+        quote: 「あ、予測スコアが出てますね。『イストリンお姉さまの辛口評価』？ えーと色々と項目がありますが、とりあえず総合は九点みたいです」
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0185_トリシューラ_says_百点満点_p6139
+        quote: 「いえ、百点満点ですね」
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_トリシューラ_stops_謝罪_p6139
+        quote: 「謝るのはやめてね。私の調教計画が間違ってるみたいじゃない？ これでいいし、これまでのことも必要なプロセスだったんだよ」
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_トリシューラ_says_忘却なし_p6142
+        quote: 「私にとっての過去は今の自分が認識できる過去。だって私に忘却は無い。歴史は記録で、等しく参照できるデータなんだもの。だから、私のスタンスは変わらない。過去でも現在でも未来でも、同じように進むだけ！」
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_トリシューラ_other_拡張_p6143
+        quote: 「あっはは！ ねえリールエルバ、アキラくんの首孔を自分のサイズに広げて得意げにいきがってたけどさ、私の方がずっと致命的にアキラくんを拡張できる！
+          さあ見せてあげようアキラくん。あの程度の不可逆変化じゃ、もう満足できない体なんだってことを！」
+        locator: {}
+        spoiler_after: ch0185
+    action:
+      observations:
+      - event_ref: E_ch0185_トリシューラ_other_ファッションブーム_p6146
+        quote: 穢れと病の全ては、何かゴシックとかダークとかそんな雰囲気を醸し出すための文化的なタームに零落。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス＝リールエルバ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0185_カーティス＝リールエルバ_appears_観客_p6140
+        quote: リールエルバもまた夢から現実に混ざり、『チョコレートリリー空組』の観客となっていたカーティス＝リールエルバと一体になる。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0185_グレンデルヒ_other_指導_p6141
+        quote: 「ほう、ついにこの階梯まで登ってきたか、シナモリアキラ！ では少しばかり指導してやろう」
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_アマランサス・サナトロジー]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0185_アマランサス・サナトロジー_other_再演舞台_p6143
+        quote: 中心になって動き回るのは新しくアキラ化した人形軍団『アマランサス・サナトロジー』。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルバーブ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0185_ルバーブ_fights_シラミ_p6144
+        quote: 地竜の『化身』センザンコウとなったルバーブにシラミは手も足も口吻も出せずに攻めきれない。
+        locator: {}
+        spoiler_after: ch0185
+    speech:
+      observations:
+      - event_ref: E_ch0185_ルバーブ_says_未来なし_p6145
+        quote: 「衛生的な美しい都市の設計、整備された上下水道は陛下の夢でもあった。これより先の世に貴様らの未来は無い」
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_吸血鬼]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0185_吸血鬼_other_役者_p6144
+        quote: 吸血鬼は古き良き幻想に零落し、保護されるべき演劇文化の中に住まう永遠の役者たちとなるだろう。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_鉄群鱗]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0185_鉄群鱗_attacks_鵺_p6146
+        quote: 戦場に紛れ込んでいた仮面の男、『鵺』と呼ばれるカシュラム系吸血鬼をベースとしたシナモリアキラが始祖と拳を交えているのだ。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_鵺]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0185_鵺_uses_鉄悪疫_p6147
+        quote: 「外破――『鉄悪疫』」
+        locator: {}
+        spoiler_after: ch0185
+    speech:
+      observations:
+      - event_ref: E_ch0185_鵺_says_壁の悪_p6148
+        quote: 「壁の外を壁の内側と同じにする――お前たちの理想は、俺の悪と相容れない。俺はまず壁そのものの悪を糾弾しなければならない。その理想は恐怖と同じだ。あのイェレイドと同じ、俺の敵だ！」
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0185_ミヒトネッセ_takes_トバルカイン_p6151
+        quote: 「貰っていくぞ。トバルカインはお前には不要なものだ。俺に盗まれる程度のちゃちな罪貨、惜しく無いだろう？」
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0185_セリアック＝ニア_travels_過去_p6152
+        quote: セリアック＝ニア、リーナ、ミルーニャの三人は、再演ライブによって過去に遡航していた。目指すはカーティス、そして魔竜の根源。
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_セリアック＝ニア_uses_ナーグストール_p6158
+        quote: 二人の手が重なり合った瞬間、闇の中にいくつもの光が灯されていった。
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_セリアック＝ニア_uses_エル・ニア・ナーグストール_p6160
+        quote: 「お願い、エル・ニア・ナーグストール！」 完全なる宣名が封印の円を解き放ち、宝石の輝きが世界を満たす。
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_セリアック＝ニア_uses_ネイルアート_p6166
+        quote: 猫姫が爪から放ったネイルアートの呪文。 流星となった輝きはカーティスの脇をすり抜け、その背後で二人の戦いを見守っていた存在を直撃していた。
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_セリアック＝ニア_other_カーティス_p6167
+        quote: いつの間にか、セリアック＝ニアの手のひらがリールエルバの頬を撫でていた。その感触を、遠い記憶の彼方から取り戻す。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_第七の巫女]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0185_第七の巫女_appears_黄金アイドル_p6152
+        quote: その正体こそ古代から歌声を響かせ続ける永劫不朽の黄金アイドルが一人。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_黄金アイドル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0185_黄金アイドル_attacks_空組_p6153
+        quote: 強大無比な歌と踊りは、技術が確立する以前の曖昧な表現に過ぎない。マジカルアピールの原型でしかない単純なイメージは、しかし圧倒的な力となって少女たちを叩きのめした。
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ナーグストール]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0185_ナーグストール_names_アンテノル_p6159
+        quote: 「アンテノル。それが、ナーグストールの本当の名前？」
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0185_カーティス_attacks_セリアック＝ニア_p6165
+        quote: 罪と穢れを一身に宿した孤独の王は、暗がりで自らの姿を完全に隠すと、真っ黒な靄となって一直線に猫姫に飛びかかった。
+        locator: {}
+        spoiler_after: ch0185
+      - event_ref: E_ch0185_カーティス_other_侵入_p6166
+        quote: 吸血によって他者の命を招いたカーティスは、セリアック＝ニアの呪的侵入を許してしまっている。
+        locator: {}
+        spoiler_after: ch0185
+    speech:
+      observations:
+      - event_ref: E_ch0185_カーティス_other_セリアック＝ニア_p6168
+        quote: 「私のニア。おまえはまた、私をさらいに来てくれたのね」
+        locator: {}
+        spoiler_after: ch0185
+  first_appearance_candidate: true

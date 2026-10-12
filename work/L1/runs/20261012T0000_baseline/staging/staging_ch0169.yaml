@@ -1,0 +1,507 @@
+episode: ch0169
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_人形姫]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_人形姫_defines_楽園_p5635
+        quote: 「よくできました。そうね、ここはずっと明るい夕べの楽園。瞳に浮かべた想像を、せいいっぱいに羽ばたかせ、どこまでだって飛んでいい。どこでもいつでも、大人には内緒のおもちゃ箱よ」
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_人形姫_says_玻璃の瞳_p5635
+        quote: 「わからない？ その色の付いた玻璃の瞳でよく見てごらんなさい」
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_人形姫_teaches_呼吸法_p5636
+        quote: 「落ち着いて。息を吸って、吐いて、隣の子のぜんまいを回してあげなさい」
+        locator: {}
+        spoiler_after: ch0169
+    visual:
+      observations:
+      - event_ref: E_ch0169_人形姫_carries_鈴の付いた杖_p5636
+        quote: 鈴の付いた杖を持ち、姫君は人形を率いていく。
+        locator: {}
+        spoiler_after: ch0169
+    action:
+      observations:
+      - event_ref: E_ch0169_人形姫_makes_人形劇_p5636
+        quote: 小人たちに請われるままに、美しいお姫様は昔語りを歌い出す。 流れるように、奏でるように。 沢山の歌声と共に古い世界を演じ始める。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_小人たち]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0169_小人たち_appears_人形姫の周り_p5635
+        quote: 騒ぎを聞きつけ、小さな人形たちがどこからともなく集まってくる。 人形姫の周りには小人たちがひい、ふう、みい、それからたくさん。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_幼い声]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_幼い声_asks_場所_p5635
+        quote: 「ここはどこ？」 響く幼い声に、優しげな答えが返される。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_幼子]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_幼子_observes_夢の舞台_p5635
+        quote: 「わかったよ、ここは夢の舞台だ！」
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少女たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_少女たち_observes_人形の残骸_p5636
+        quote: 次第に鮮明になっていく廃墟の光景、目を引くのは不気味に横たわる幾つもの人形、その残骸。 人形である少女たちにとって、死体にも等しい。
+        locator: {}
+        spoiler_after: ch0169
+    speech:
+      observations:
+      - event_ref: E_ch0169_少女たち_says_専門書の読解_p5640
+        quote: 「私はどんな難解な専門書だって読める」 「私だって詩情を解します。修辞学、音韻論、文献学、解釈学、あらゆるデータベースを参照して詩を吟ずることさえできるのですよ」
+          「一級の芸術品の真贋を見極めることくらいなら――あと、基準さえ設定しておけば評価だって」 だが、彼女たちに漫画を読むことはできない。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_舞台]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0169_舞台_appears_as_横倒しの塔_p5636
+        quote: 暗転。月光が天井から降り注ぎ、舞台の上を照らし出す。 それは横倒しの塔だった。 朽ち果てた廃墟、石造りの骸、ここにあるのは空虚だけ。
+        locator: {}
+        spoiler_after: ch0169
+    speech:
+      observations:
+      - event_ref: E_ch0169_舞台_defines_再演_p5641
+        quote: 繰り返し繰り返し、この舞台は上映されてきた。 残酷な運命に立ち向かう姫君と可憐な小人たち。 歌と踊りを織り交ぜた、悲惨と勇壮をミックスした悪趣味のショウ。
+          それはかつて起きた出来事。 取り返しのつかない敗北の結末だ。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_孤高の少女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_孤高の少女_fights_お姫様_p5637
+        quote: 「そういうレッテこそ、みんなを操って従えて、あの女そっくりじゃない！ あたしはあんたなんか信用しない、下らない馴れ合いには付き合わないから」
+          孤高の少女はお姫様と対立し、ぶつかり合って砕け散る。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_幼い子供]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_幼い子供_says_研究_p5637
+        quote: 「エリちゃんは研究がしたいのです。放って置いてほしいのです」 そう言った幼い子供は茨に包み込まれて醒めない眠りに閉じ込められて。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_理知的な少女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_理知的な少女_dies_爆破_p5637
+        quote: 危険だと周囲が止めるのも聞かずにそう言った理知的な少女は、後に身体の内側から爆破されてバラバラになっているところを発見された。
+        locator: {}
+        spoiler_after: ch0169
+    speech:
+      observations:
+      - event_ref: E_ch0169_理知的な少女_says_脱出_p5637
+        quote: 「下らないお遊びになど付き合っていられるか。希望は外にこそある。私はたとえひとりでも脱出するぞ」
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_紅紫の姫君]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_紅紫の姫君_says_ラクルラールの教育_p5637
+        quote: 「理不尽に屈してはいけないわ。この悪趣味さ、きっとまたラクルラールお姉様の『教育』が始まったのでしょう。でもこんなのは正しいやり方じゃない。私たちがお姉様の人形だからって、あんな邪悪な人にいいようにされるばかりじゃないってこと、思い知らせてやりましょう！」
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_脚萎えの姫君]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_脚萎えの姫君_loses_自由_p5637
+        quote: 「どうして、みんな私を置いていくの――？」 脚萎えの姫君は身動きできないまま暗い地下に取り残され、迫り来る黒い影に飲み込まれていった。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_雄弁な人形]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_雄弁な人形_says_球神の力_p5637
+        quote: 「汝ら我に供物を捧げよ、さすればこの身は万能の神造遺物として全ての苦難を取り除くであろう。球神の力、万智を啓かん！」 雄弁な人形は青い髪に絡め取られて喉を塞がれ、ずっとカタカタ歯を打ち鳴らすだけになってしまった。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_黒い影]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_黒い影_attacks_少女たち_p5637
+        quote: 夜な夜な襲い来る正体不明の黒い影。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レッテ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_レッテ_suspects_一号の怨念_p5638
+        quote: 「きっとあれは一号の怨念なんだわ。置き去りにしたことを恨んでいるの」
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_レッテ_says_打ち勝つ_p5641
+        quote: 「大丈夫よみんな。私たちはラクルラールお姉様に、今度こそ打ち勝つの」
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_レッテ_names_カーティス_p5642
+        quote: 「だから私はカーティスに注目したの。六王の中で、最もその痕跡を現代に遺しているスキリシアの暗君こそ私の希望」
+        locator: {}
+        spoiler_after: ch0169
+    action:
+      observations:
+      - event_ref: E_ch0169_レッテ_dies_飛び降り_p5641
+        quote: 姫君は犠牲となり、塔の天辺から飛び降りた。 哀れ、青い糸に吊り上げられた彼女は傾いた塔を真っ逆さまに落ちていく。 上へ上へと、堕ちていく。
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_レッテ_transforms_操り人形_p5641
+        quote: そうして天上に座す全能の造物主の操り人形として生まれ変わるのだ。 反抗期はおしまい、これからは正しいお勉強の時間。 折り目正しい優等生として、人形たちを導く模範生になりましょう。
+        locator: {}
+        spoiler_after: ch0169
+    visual:
+      observations:
+      - event_ref: E_ch0169_レッテ_observes_ネッセ_p5641
+        quote: ああ、けれど、それでもまだ。 どぶのように濁った瞳が、ちいさな妹を見る。 読めない漫画を大事そうに抱えた侍女服の可愛らしいぜんまいばねの人形を。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_砂茶の少女]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_砂茶の少女_helps_レッテ_p5638
+        quote: 「レッテ、泣かないで。私が付いてるわ」 砂茶の少女、侍女姿の人形がぴったりと寄り添って言った。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_見えない糸]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0169_見えない糸_binds_人形たち_p5638
+        quote: 天上から垂れ落ちる見えない糸は人形たちに残酷なさだめを強いていく。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_赤い少女]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_赤い少女_gives_命_p5638
+        quote: 「ねえレッテ、私はもう助からないわ。私の命をあなたにあげるから、その命でできるだけ沢山の子を助けてあげて。それはきっと、あなたにしかできないことよ」
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エルネアーズ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_エルネアーズ_other_漫画_p5639
+        quote: 我関せずとばかりに横向きの椅子に腰掛けて静かに読書している少女がいた。 静かな緑の瞳に二つ結びの赤い髪、鮮血の生気と鋼鉄の無機質さを兼ね備えた人形。
+          もっとも小さな、か弱い少女。 彼女はただひとり、不安を感じた様子も無く寡黙に読書を続けている。
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_エルネアーズ_attacks_漆黒の影_p5640
+        quote: 「眠れ」 ちくり。鮮血の少女は、血のような赤い針で影を一刺し。 それだけで暗闇は微睡むように力を失い、暗い闇の底へと落ちていった。
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_エルネアーズ_escapes_出口_p5640
+        quote: ぱかり、と建物の一部が開いて出口を示す。 ただひとり、合格を認められた鮮血の少女は一足先にその場を立ち去っていく。
+        locator: {}
+        spoiler_after: ch0169
+    speech:
+      observations:
+      - event_ref: E_ch0169_エルネアーズ_says_漫画を読んでいます_p5639
+        quote: 「こんな時に何をしているの、エルネアーズ！」 「漫画を読んでいます」 淡々とした答えに、その場にいる全員がたじろいだ。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_侍女人形]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_侍女人形_other_漫画の理解_p5639
+        quote: 鮮血の少女は興味津々といった様子の侍女人形に「あげます」と言って漫画を手渡したが、渡された相手は漫画を開いてじいっとページを眺めるばかり。顔に近付けたり遠ざけたり、矯めつ眇めつして色々頑張ってはいるが難しそうな顔。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ネッセ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_ネッセ_takes_漫画_p5640
+        quote: 「行きましょう、ネッセ。ここに答えは無いのだから」 エルネアーズを真似て漫画を睨み付けながらうんうん唸っている侍女姿の少女が、紅紫の髪を持つ年上の少女に手を引っ張られて退場していく。漫画は手にしたままで、少し名残惜しそうに鮮血の少女に視線をやる。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アマランサス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_アマランサス_asks_同盟_p5642
+        quote: 「今ならお姉様の目も届かないわ。ここは『黒い影』が支配する地下世界だから。シナモリアキラ。そしてトリシューラ。どうか私たちと手を結んでちょうだい」
+          アマランサスは腰を折って懇願した。
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_アマランサス_other_神権傀儡政権の反転_p5642
+        quote: 「私が六王の力を束ね、王権を手にした瞬間こそが最大にして最後の機会。ラクルラールお姉様を神に、私を王にした神権傀儡政権という構想を反転させる。神を引き摺り下ろして零落させるの。この地に満ちる穢れと、高まったアイドルたちへの信仰心を利用してね」
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_アマランサス_other_ランク戦_p5643
+        quote: 「だからもっとシンプルに勝負して決めましょう。『アマランサス・サナトロジー』と『シナモリアキラ』でランク戦をするの。勝った方が負けた方の言う事をきく。ね、わかりやすくていいでしょう？」
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_塔]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0169_塔_transforms_瓦礫の大蛇_p5642
+        quote: がらくたの塔が重く鳴動し、ゆっくりとその巨体を持ち上げていく。 塔はいつの間にか瓦礫の大蛇に変貌していた。 巨竜が口を開き、天に吼える。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_オルヴァ_says_叛意と諦め_p5643
+        quote: 「あの子がまだラクルラールへの叛意を隠し持っていた、というのはちょっと意外だけど、不自然ではないかな。もしかすると『諦め』をアルトが受け持っていて、『叛意』をアマランサスが受け持っているのかも」
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_俺]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_俺_suspects_ラクルラールの罠_p5643
+        quote: 「どう思った？ 俺はラクルラールの罠だと思う。アマランサスが無自覚なまま操られているっていうケースもあるな」
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_俺_asks_覚悟_p5650
+        quote: 「いいけど、お前シナモリアキラになる覚悟はあるのか？」
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_俺たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_俺たち_other_対決_p5643
+        quote: 「とりあえず戻るか。『アマランサス・サナトロジー』対策が必要だ」 そんなわけで、俺たちは相手が敵か味方かも見定められぬままに巨大なアイドルグループ『アマランサス・サナトロジー』と対決することになった。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_劇団員アイドル]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0169_劇団員アイドル_other_赤子の亡霊_p5643
+        quote: 数多くの人形――劇団員アイドルが不気味な赤子の亡霊に騎乗して姫君に続く。赤子たちは天使のように翼を広げ、連鎖する泣き声で天を埋め尽くしながら夢世界を駆け抜けていった。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_うずめ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_うずめ_other_舞い_p5644
+        quote: 革張りの太鼓が軽やかに、馬の毛の琴が伸びやかに、楽する音が歩みを速め、乙女の柔肌を風がなぶる。冷たい夜風、冬を孕む死の吐息が。 漆黒の影が舞い手に迫る。洞穴の奥から響く列車のような、恐ろしげな唸りを轟かせて小さな体躯を脅かす。それでも舞いは止まらず音は均質に奏でられ、神に奉じるまじないは滞りなく終わりを告げる。
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_うずめ_disappears_行方不明_p5645
+        quote: 「『うずめ』が消えた？」 翌朝、宿の一室に集まってトリシューラと共に作戦会議を行う。最初に確認するのはやはりランキングだが、真っ先に目に留まった異変がそれだった。
+        locator: {}
+        spoiler_after: ch0169
+    visual:
+      observations:
+      - event_ref: E_ch0169_うずめ_observes_黒肌の女_p5644
+        quote: とりわけ目立つ熟練の舞い手、黒肌の女と視線が重なり、離れる。 うずめは相手を知っていた。相手もうずめを知っていた。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_トリシューラ_says_死人の森の姫君_p5644
+        quote: 「『死人の森の姫君と蘇った六人の王さま』だよ。なんか一周して戻って来たね」
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_青い操りの髪の毛]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0169_青い操りの髪の毛_binds_うずめと黒肌の女_p5644
+        quote: 彼女たちの頭上には細い糸。 青い操りの髪の毛は、遙かな天上へと伸びていく。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_ちびシューラ_other_ホテルの荷物_p5645
+        quote: ちびシューラがミルーニャに確認をとったところ、ホテルにも荷物を置いたまま忽然と姿を消しているという話だ。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ランキング]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0169_ランキング_defines_アイドル順位_p5645
+        quote: 一位：『狂イ姫－†囚焉舞イ血ル妬環ノ華†』 二位：『ハンズ・オブ・グローリー』 三位：『アマランサス・サナトロジー』 四位：『動物想』
+          五位：『パイロマスター・イン・ヘルファイア』 六位：『ラリスキャニア』 七位：『チョコレートリリー・空組』 八位：『シナモリアキラ』 九位：『塩れもねいど』
+          十位：『キラメキ時代』
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_カーイン_arrives_部屋_p5646
+        quote: 「少し時間をもらえるかな」 カーインの声。扉を開けると、見慣れた長身が立っていた。
+        locator: {}
+        spoiler_after: ch0169
+    speech:
+      observations:
+      - event_ref: E_ch0169_カーイン_other_ドラトリアの介入_p5647
+        quote: 「結論から言えばトリシューラの予想通りだった。ドラトリアの姫君の足どりは掴めなかったが、ドラトリア政府は何らかの手段で自国の姫君の活動を監視できているようだ。一週間前、この区画にドラトリアの部隊が投入された」
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_カーイン_uses_オルヴァの顔_p5647
+        quote: 「今日はオルヴァなのか」「ああ、イツノはハラキリで療養中だからな。若い時の姿でいれば女性ファン獲得もできるからしばらくこれでいく」
+        locator: {}
+        spoiler_after: ch0169
+      - event_ref: E_ch0169_カーイン_says_偽物_p5648
+        quote: 「ドラトリアが追っているのが偽物か、アイドルとして頂点に立っているリールエルバが偽物か、あるいは両方とも偽物、両方とも本物ってこともあり得るな」
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0169_クレイ_asks_専属デザイナー_p5646
+        quote: クレイはランク一位になるためファウナに専属のデザイナーになって欲しいと熱烈なラブコールを送るも、ファウナからは冷たい拒絶。
+        locator: {}
+        spoiler_after: ch0169
+    action:
+      observations:
+      - event_ref: E_ch0169_クレイ_fights_ライブ対決_p5646
+        quote: 逆上したクレイは要求を押し通す為にライブ対決を申し込んだというような事が面白おかしく書き綴られていた。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ドラトリアの部隊]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_ドラトリアの部隊_other_最下層_p5647
+        quote: カーインが示したのは俺たちが向かうことすらできない最下層だった。 だが、影を友とする種族は闇を渡って世界の壁を軽々と越えていく。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0169_セリアック＝ニア_appears_カーインの頭_p5648
+        quote: カーインの乱れた髪の上で、小さな猫耳のお姫様が丸くなっていた。
+        locator: {}
+        spoiler_after: ch0169
+    speech:
+      observations:
+      - event_ref: E_ch0169_セリアック＝ニア_says_喧嘩_p5648
+        quote: 「にあ。リーニャとミルーニャ、喧嘩、ぎくしゃく、こわい」
+        locator: {}
+        spoiler_after: ch0169
+    action:
+      observations:
+      - event_ref: E_ch0169_セリアック＝ニア_attacks_オルヴァ_p5649
+        quote: 「ふしゃー！ オルヴァ、きらい！」 突如として床から宝玉を繋げたようなフォルムの謎の巨体が出現し、オルヴァでもある俺を思いきり殴打。
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0169_ゼド_arrives_部屋_p5649
+        quote: 「宝飾細工師までいるとは、我ながらいいタイミングで来たらしい」 テンガロンハットにサングラス、深緑のシャツという出で立ちの、そろそろ中年に差し掛かろうかという年代の男。
+        locator: {}
+        spoiler_after: ch0169
+    speech:
+      observations:
+      - event_ref: E_ch0169_ゼド_other_連合_p5649
+        quote: 「俺は盗みのターゲットを最下層の『王権』と定めた。その為にはまず障害であるラクルラール勢力を取り除く必要がある。というわけで打倒『アマランサス』だ。シナモリアキラ、俺と手を組め」
+        locator: {}
+        spoiler_after: ch0169
+  first_appearance_candidate: true

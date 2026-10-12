@@ -1,0 +1,210 @@
+episode: ch0011
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_phrase_悪鬼たち]]'
+  entity_type: phrase
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0011_悪鬼たち_attacks_アキラ_p473
+        quote: 悪鬼たちの無数の感情は、いつしか結実し、復讐という名の意思となって実体化していく。　それらは刃であり、拳であり、訴えであり、罵倒であった。
+        locator: {}
+        spoiler_after: ch0011
+    speech:
+      observations:
+      - event_ref: E_ch0011_悪鬼たち_says_お前が殺した_p474
+        quote: お前が殺した。　愛する人を。大切な者を。かけがえのない家族を。　死者の無念を聞け。その苦痛を味わえ殺人鬼め。
+        locator: {}
+        spoiler_after: ch0011
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0011_アキラ_finds_猫耳の少年_p474
+        quote: 夢のような時間感覚の中で、俺はついにそれを見つける。　猫耳。　闇の中に、猫耳の少年が立っている。
+        locator: {}
+        spoiler_after: ch0011
+    speech:
+      observations:
+      - event_ref: E_ch0011_アキラ_remembers_前世の社会_p476
+        quote: 『お互いが配慮し合う、住みよい街づくりを』『だれもが納得できる、美しい社会に』
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_アキラ_remembers_片腕の男_p477
+        quote: シナモリ・アキラは腕が無いということで不自由した経験が無かった。裕福だったからだ。親は小さな赤ん坊に高性能な義肢を与えた。
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_アキラ_says_約束_p480
+        quote: 『君を殺すのは私だと言ったはずだ』　『守るという約束、嘘にする気はありません』　『ぽんこつって言葉、撤回させるまで絶対に死なせないからっ』
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_アキラ_says_ありがとう_p482
+        quote: 「ありがとう。この手を引いてくれて」
+        locator: {}
+        spoiler_after: ch0011
+    action:
+      observations:
+      - event_ref: E_ch0011_アキラ_takes_壊れた左義肢_p479
+        quote: 壊れてしまった左の義肢を、そっと持ち上げる。　どうしてかは分からなくても、身体は反射のように動いた。　砕け、融解した機械の義肢と、闇色の左手が触れあった。
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_アキラ_fights_融合体_p499
+        quote: 「あの中に割って入るつもりかね？　聞くが、正気か？」　「当然。俺はいつだって平常心だ」　　疾走する。
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_アキラ_learns_言語の翻訳_p505
+        quote: 俺はそれを読むことができた。　かかれた文字が揺らぎ、形を成し、不定型でありながら定まった姿を持って俺に認識できる言葉になっていたのだ。
+        locator: {}
+        spoiler_after: ch0011
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_猫耳の少年]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0011_猫耳の少年_saves_アキラ_p475
+        quote: 『であれば、貴方はここで失われるべきではない。貴方が僕を救い出してくれたように、今度は僕が貴方を救い出そう』　　悪鬼たちの手が、一斉に静止する。
+        locator: {}
+        spoiler_after: ch0011
+    speech:
+      observations:
+      - event_ref: E_ch0011_猫耳の少年_says_アズーリア_p475
+        quote: 『いずれ貴方はアズーリアとも引き合うんだろうね、儚く危ういゼノグラシア』
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_猫耳の少年_says_巡り合わせ_p475
+        quote: 『どうしてだろうね。貴方は何をどうやっても僕と引き合ってしまう巡り合わせらしい』　　その左手が影のような黒であることに、今更気がつく。
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_猫耳の少年_says_遡って語り直す_p476
+        quote: 『さあ、貴方という存在を、遡って。そして語り直すことを許して欲しい。それがどんな痛みでも、そこから貴方という存在が立ち上がってくるはずだから』
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_猫耳の少年_says_規範を外部に求めている_p479
+        quote: 『心を鎖した貴方は、だからこそ規範を外部に求めている。貴方にとって大切なものは、内側じゃなくて外側にあるんだね』
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_猫耳の少年_loses_記憶_p504
+        quote: 結局、少年の記憶は全てあの異獣の中に消えてしまった。
+        locator: {}
+        spoiler_after: ch0011
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_転生保険]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0011_転生保険_defines_転生保証_p478
+        quote: 死は救いだ。転生が選べない生まれを選べるようにしてくれる。　けれど、それすら届かない人がいる。　異世界転生保険。その加入額にすら手が伸ばせない
+        locator: {}
+        spoiler_after: ch0011
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロウ・カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0011_ロウ・カーイン_saves_アキラ_p480
+        quote: ロウ・カーインが俺を引きずって融合体から引きはがしたのだった。
+        locator: {}
+        spoiler_after: ch0011
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_トリシューラ]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0011_トリシューラ_says_鮮血呪_p481
+        quote: 「あーっ、もう！　鮮血呪が間に合うギリギリのラインだったんだよっ、アキラくんのバカ！　あのままアキラくんまで取り込まれてたらどうする気だったの！　主に借金とか借金とか！」
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_トリシューラ_says_杖_p484
+        quote: 「『杖』とはすなわち、身体性の拡張」
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_トリシューラ_says_アッシャー_p485
+        quote: '『活動せよ我が錫杖』
+
+          アッシャー'
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_トリシューラ_names_鮮血のトリシューラ_p487
+        quote: 「キュトスの姉妹Ｎｏ．７１――鮮血のトリシューラだよ。よろしく死んでね！」
+        locator: {}
+        spoiler_after: ch0011
+    action:
+      observations:
+      - event_ref: E_ch0011_トリシューラ_activates_パワードエクゾスケルトン_p490
+        quote: 「パワードエクゾスケルトン、モデル『狼の皮を被る者』、起動」
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_トリシューラ_attacks_融合体_p491
+        quote: トリシューラの射撃、いや砲撃はその足下を陥没させ
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_トリシューラ_takes_王獣カッサリオの角_p503
+        quote: 「ほらほら、王獣カッサリオの角っ！　レアドロップだよっ！」
+        locator: {}
+        spoiler_after: ch0011
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0011_コルセスカ_says_邪視_p484
+        quote: 「『邪視』とはすなわち、世界観の拡張」
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_コルセスカ_says_アツィルト_p485
+        quote: '『流れ出せ我が涙』
+
+          アツィルト'
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_コルセスカ_names_氷血のコルセスカ_p487
+        quote: 「我が銘はキュトスの姉妹が七十一番、氷血のコルセスカ」
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_コルセスカ_says_世界よ凍れ_p488
+        quote: 「世界よ凍れ――私以外の全てが遅い」　　コルセスカの言葉と同時に、その姿がかき消えた。
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_コルセスカ_says_炎は黄金を証明する_p501
+        quote: 『Ｉｇｎｉｓ ａｕｒｕｍ ｐｒｏｂａｔ；ｍｉｓｅｒｉａ ｆｏｒｔｅｓ ｖｉｒｏｓ』　　槍を掲げたコルセスカが、詠唱と共に新たな呪術を発動させる。　「炎は黄金を証明する！」
+        locator: {}
+        spoiler_after: ch0011
+    visual:
+      observations:
+      - event_ref: E_ch0011_コルセスカ_makes_三叉槍_p488
+        quote: 白銀の輝きを放ちながら現れたのは長大な槍だ。　それは氷の槍だった。左右に湾曲した刃を有する、三叉槍。
+        locator: {}
+        spoiler_after: ch0011
+    action:
+      observations:
+      - event_ref: E_ch0011_コルセスカ_defeats_融合体_p502
+        quote: コルセスカが最後に槍を振るうと共に、その背後で異形の死者が跡形もなく滅び去った。
+        locator: {}
+        spoiler_after: ch0011
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0011_ちびシューラ_says_氷血呪の代償_p492
+        quote: 『セスカ最大の武器である『氷血呪』を使うには、命を代償にすることが必要なの。セスカの不死は不完全だから、全力で戦い続ければいつかは自壊してしまう。』
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_ちびシューラ_says_負担の分散_p494
+        quote: 『セスカは仲間に負担をかけたくないからって、仲間を一杯増やして負担を分散しようって思ってるんだよ』
+        locator: {}
+        spoiler_after: ch0011
+      - event_ref: E_ch0011_ちびシューラ_says_シューラが私であること_p497
+        quote: 『シューラの目的？　大した事じゃないよ。シューラが――『シューラが、私であること』。ただそれだけ』
+        locator: {}
+        spoiler_after: ch0011
+  first_appearance_candidate: true

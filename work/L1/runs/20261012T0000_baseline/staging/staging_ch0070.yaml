@@ -1,0 +1,402 @@
+episode: ch0070
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ディセクター]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0070_ディセクター_is_located_研究施設_p2581
+        quote: 直属の上司である第十五位の修道騎士ディセクターもまたそこにいた。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ナト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_ナト_other_研究施設_p2581
+        quote: 「起きたか」 目覚めたナトは、まず自分が生きている事に驚き、続いてペイルとイルスまでもがいることに気付いて思わず身を起こそうとした。
+          失敗する。手足の感覚が無く、腹筋と上体の弾みだけで起き上がるのは難しい。
+        locator: {}
+        spoiler_after: ch0070
+    speech:
+      observations:
+      - event_ref: E_ch0070_ナト_other_馬_p2583
+        quote: 「当分はこっちにいるつもりだよ。放っておくと死にそうな馬鹿がいるもんでね」
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ペイル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_ペイル_helps_ラーゼフ・ピュクシス_p2581
+        quote: ペイルが重い装甲を持ち上げてその手伝いをしている。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_第六騎士修道会]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0070_第六騎士修道会_is_located_第一区の研究施設_p2581
+        quote: そこは時の尖塔にほど近い場所にある、第一区の研究施設。 第六騎士修道会――智神の盾が管理する装備開発のための一室だった。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_草の民]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_草の民_other_無事な者たち_p2582
+        quote: しかし彼らは冷静に馬を駆り、死人たちを蹴散らしながら無事な者たちを救出していった。 三本足の使い魔として大量の呪力を宿す馬たちに群がる死人たちを、強風を纏って次々と吹き飛ばしていく草の民たちに、人々は全力で縋った。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_草の民の伝令]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0070_草の民の伝令_other_市街地の異変_p2583
+        quote: 「市街地に別種の死人たちが出現し、死人同士で争っております！」
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_草の民の男]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0070_草の民の男_asks_ナト_p2583
+        quote: 「まだ新しい半身は決めていないのだろう？ どうだ、帰ってくる気は無いか？ ちょうど、空きが出てな。老いた乗り手を失ったが、馬の方はまだ年若い――お前ならば乗りこなせると思うが」
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クエスドレム]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_クエスドレム_fights_新たな死人_p2584
+        quote: 足の止まった死人の軍勢の中心で、朱大公クエスドレムは激怒していた。 その脇でガルズが魔将を窘める。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_新たな死人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_新たな死人_attacks_古い死人_p2585
+        quote: 古い死人を新たな死人が叩き伏せ、その首筋に噛み付く。 すると腐敗し、破損した死人の傷に肉腫が蠢き、急速に再生していく。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_新たな死人_other_屍の亜竜_p2586
+        quote: 彼らはその肉体を霧に変化させると屍亜竜の体内に入り込み、内側から感染を広げる。
+        locator: {}
+        spoiler_after: ch0070
+    visual:
+      observations:
+      - event_ref: E_ch0070_新たな死人_transforms_蝙蝠_p2585
+        quote: 肉体の一部が膨張した死人が巨大な腕で新たな死人を圧壊させようとするが、その全身がばらばらに解けたかと思うと、無数の蝙蝠となって強化死人に噛み付いていく。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エスフェイル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0070_エスフェイル_observes_新たな死人_p2586
+        quote: 「あれは、もしや」「間違い無い。してやられたよ。戦場の内側に気を取られて外側を見ていなかったのは僕らの方だったみたいだね」 新たな死人たちの口には、血が滴る長い犬歯――否、牙が生えていた。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ピッチャールー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_ピッチャールー_attacks_メイファーラ_p2587
+        quote: 暗視能力でもあるのか、魔将ピッチャールーは正確無比な打撃によって遂にメイファーラの短槍を弾き飛ばし、耐久力の限界を迎えた丸盾を破壊した。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_ピッチャールー_wounds_腕_p2589
+        quote: 戦闘が終了したと見なし、地上へと戻り他の魔将と合流すべく動き始める。 その、瞬間。「ごめんね」 腕の一本が、勢いよく斬り飛ばされた。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メイファーラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_メイファーラ_other_アストラル体_p2587
+        quote: メイファーラの背後に、淡い光を放つ半透明の女性が出現した。 その雰囲気、顔立ちはどこかメイファーラに似ている。 アストラル体はそのままメイファーラの身体に重なり、内側に入り込む。
+        locator: {}
+        spoiler_after: ch0070
+    speech:
+      observations:
+      - event_ref: E_ch0070_メイファーラ_activates_ユディーア_p2589
+        quote: 「隔世よ――【ユディーア】」 めざめ
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_黒百合の子供たち]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0070_黒百合の子供たち_has_property_霊媒の素質_p2588
+        quote: 黒百合の子供たちは、そのほとんどが霊媒としての素質を有する。 その中で、メイファーラだけは特に第七位の天使シャルマキヒュの霊媒ということもなく、ごく普通の子供であるとされていた。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_亜竜人の少女]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0070_亜竜人の少女_appears_奈落_p2590
+        quote: 頭部の右側から、長く長く伸び上がった見事な角が後方に向けて生えている。 蜥蜴人の上位種、亜竜人の証たる二つの角は片方が根元で折れ、
+        locator: {}
+        spoiler_after: ch0070
+    action:
+      observations:
+      - event_ref: E_ch0070_亜竜人の少女_activates_凍視_p2592
+        quote: 天眼をオーバークロックして灰色の光を纏わせた爪を魔将の胴体に突き入れる。 【シャルマキヒュの凍視】からの【殺戮】という鮮やかな連続攻
+          撃。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_亜竜人の少女_uses_生命吸収_p2593
+        quote: 相手の積み重ねた時間、戦闘経験を奪い我がものとする【生命吸収】が発動。 時間停止が解除され、魔将が気がついた時には状況を認識することすら困難になっていた。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_天眼の民]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0070_天眼の民_has_property_先祖返り_p2591
+        quote: 天眼の民の変身は古代の血を『思い出す』ことで発動する。 古代の血とは、霊長類と混血を繰り返して現在の姿を獲得する以前の種の記憶。 一族の祖霊の力によって、祖先の形質を強制的に発現させ、一時的な突然変異として覚醒する能力。
+          先祖返り。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_シャルマキヒュ]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0070_シャルマキヒュ_has_property_凍視_p2592
+        quote: 天眼の民に加護を与えるシャルマキヒュ本来の権能は天眼だけでない。 それは【凍視】と呼ばれる時間停止能力であり、これは「無秩序な混沌である全ての分子運動を未来永劫に渡って把握することは不可能でも、時間と空間を限定すれば可能である」とする己の能力への確信によるものである。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0070_リーナ_activates_言理飛翔_p2594
+        quote: 「言理飛翔・十倍加速！」
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_リーナ_activates_百倍加速_p2614
+        quote: リーナは瞬間、自分が『落ちこぼれ』だということを忘れた。『言理飛翔・百倍加速！』
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_リーナ_activates_十七万六千倍加速_p2617
+        quote: 「十七万六千倍加速！」 そして、リーナ・ゾラ・クロウサーという存在は宇宙から消失した。 質量操作には、一つの禁忌がある。 その数値を零にしてはならない。
+        locator: {}
+        spoiler_after: ch0070
+    action:
+      observations:
+      - event_ref: E_ch0070_リーナ_uses_違法霊薬_p2594
+        quote: 彼女が厳格に管理する霊薬が注射針を伝ってリーナの腕に浸透していくと同時、どくんと心臓の音が鳴り響いて全身の『血』に満ちた呪力が活発化する。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_ミルーニャ_helps_リーナ_p2596
+        quote: ミルーニャによる違法ぎりぎりの調律改造を施された箒によって、リーナは今までに無い速さを得ることができた。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_ミルーニャ_attacks_サジェリミーナ_p2606
+        quote: 『【ヲルヴォーレの雷火】発射っ！』 あらゆるものを焼き滅ぼす荷電粒子の砲撃を、繰り返すこと七回。 成し得ぬ盾による絶対防御を解除しての危険極まりない攻撃。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_ミルーニャ_uses_プロトプラズマ収束弾_p2607
+        quote: 『アルタネイフとクロウサーと智神の盾、その叡智の結晶を受けて死ねっ！ プロトプラズマ収束弾、接射！』 機体下部の砲身から魔将に向けて直接発射された表意文字。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_ミルーニャ_uses_雲霞の鎧_p2608
+        quote: 『模造神滅具、【雲霞の鎧】による摸倣子テレポート。ぶっつけ本番でしたが、上手く行きましたね』
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_ミルーニャ_uses_プロトプラズマ_p2609
+        quote: 観測基準たる惑星、すなわち世界の心臓にして脳たる中心核に撃ち込まれた原形質の呪文構造体が一斉に活動を開始。 プロトプラズマ それらは複数の状態に分化していき、アストラルのエクトプラズマやミルーニャの万能細胞を再現したネオエクトプラズマとなって浄界の基礎構造に侵入。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_ミルーニャ_saves_母親_p2613
+        quote: 牽引呪術で女性を――妹の母親を視界に入れないようにしながら真横に押しのける。
+        locator: {}
+        spoiler_after: ch0070
+    visual:
+      observations:
+      - event_ref: E_ch0070_ミルーニャ_uses_成し得ぬ盾_p2601
+        quote: ミルーニャはその伝承を逆に解釈し、『攻撃者と防御者が無事である限り決して砕けぬ盾』、『すなわち盾が無事ならば両者は絶対に傷つく事が無い』という絶対防御を実現した。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サジェリミーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_サジェリミーナ_activates_創生の闇_p2597
+        quote: サジェリミーナの浄界、【創生の闇】が発動した直後。 コロニュービア 魔将が放った初撃は凄まじい熱を炸裂させたが、それは警告が間に合ったために完全に遮断された。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_サジェリミーナ_attacks_空の民_p2597
+        quote: 地獄における最速と呼ばれた銀霊の魔将は満身創痍の空の民たち クイックシルバー を鎌状の刃で次々と斬殺していく。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_サジェリミーナ_uses_占星術_p2599
+        quote: 巨大な暗黒宇宙の中心たるサジェリミーナを観測者として、浄界内部の天球座標が凄まじい勢いで書き換えられていく。 天体の運行から意味を見出す占星術と己の認識で世界を書き換える邪視とが複合し、サジェリミーナの宇宙では天体は創造主に都合のいい配置に移動していく。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_サジェリミーナ_other_ペレケテンヌル_p2600
+        quote: 錬金術の守護天使たるペレケテンヌルを象徴する三角形の配列が完成した。 作り出された次元の裂け目から、全身を破損して自己修復作業中の機械天使が出現する。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_サジェリミーナ_transforms_地上_p2602
+        quote: すると景色が一瞬で切り替わり、そこは暗黒の宇宙ではなく無窮の蒼穹と変幻自在の雲、そして大地が広がる世界となった。『地上？！』 空間転移――ではない。
+          サジェリミーナが世界の座標を書き換えたのだ。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_サジェリミーナ_dies_自己への確信_p2618
+        quote: 双頭の蛇の口から、腹から、内部から。 凄まじい光が満ちあふれる。 それが魔将の終焉だった。『馬鹿な、このサジミェリーナが、自己への確信を見失うなど――』
+          双頭の大蛇が水銀の身体を消滅させた。
+        locator: {}
+        spoiler_after: ch0070
+    visual:
+      observations:
+      - event_ref: E_ch0070_サジェリミーナ_transforms_カラス型箒_p2605
+        quote: 箒が流体のように溶けて二人を包み込み、質量を増しながら全く異質な形へと瞬時に変貌していく。 それは、巨大な白いカラスだった。
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_サジェリミーナ_transforms_双頭の蛇_p2611
+        quote: 歪みきった宇宙の中で、途方もなく巨大な双頭の蛇が二人を見下ろしていた。 その頭部には銀色の帽子。その背には巨大な翼。
+        locator: {}
+        spoiler_after: ch0070
+    speech:
+      observations:
+      - event_ref: E_ch0070_サジェリミーナ_says_人類の更新_p2612
+        quote: 世界を更新するのなら人類も更新するべきだ！ 更にその変異はあらゆる環境の激変に対応できるように！ 自由自在にして急速でなければならない！
+          変幻自在の水にして炎にして風にして土！
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_修道騎士]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_修道騎士_attacks_サジェリミーナ_p2603
+        quote: 錬金術のメソッドによる対抗呪文【静謐】は対象を原子レベルにまで分解する。 流体によって構成されたサジェリミーナの全身が解体されていく。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_カラス型箒]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_カラス型箒_activates_アストラルエンジン_p2605
+        quote: 『霊魂導子の励起状態を確認。アストラルエンジン起動！』
+        locator: {}
+        spoiler_after: ch0070
+      - event_ref: E_ch0070_カラス型箒_travels_中心核_p2607
+        quote: 超高熱、超高圧のマグマ溜りへと突入。 あらゆる生物が死を免れないその空間を、成し得ぬ盾の模造品によって生存したまま突き抜けていく。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルティール]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_ハルティール_gives_帽子_p2616
+        quote: 『受け取れ、落ちこぼれ！』 投げつけた帽子が粒子となって分解され、リーナの被った三角帽子に吸い込まれていく。 エジーメの血族が司る始祖クロウサーの帽子を持った左手――使い魔に力を与えるその呪術が、限界を超えたリーナに更なる力を与える。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サジェミリーナ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0070_サジェミリーナ_appears_男性と女性_p2619
+        quote: 代わって現れたのは、帽子を被った男性と女性。 共に水銀によって肉体を構成している銀霊である。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_紀元神群]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0070_紀元神群_other_魔将_p2620
+        quote: 世界の根本言理に繋がった上位の存在を、人は紀神と呼び、崇め奉った。 槍神教の勢力圏に深く浸透し、最上位の存在――第零の位階として密かに『格』を高め続けていた紀元神群最大の『息吹』が、その威容のみで魔将を平伏させる。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0070_プリエステラ_observes_魔将の口論_p2622
+        quote: その様子を見ながら、プリエステラは内心で安堵する。 次の瞬間には死んでいるかもしれないという状況であるにも関わらずだ。
+        locator: {}
+        spoiler_after: ch0070
+    action:
+      observations:
+      - event_ref: E_ch0070_プリエステラ_other_歌_p2624
+        quote: その歌は――その文字は。 はっきりとあらゆる人々の目に見えるようになっていた。 彼らは音の無いその詩歌を無言で読む。 黙読された文字が、その脳裏に音を想起させる。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ道場]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0070_サイバーカラテ道場_appears_アプリ_p2625
+        quote: そして、それと同時に。 エルネトモランの全ての端末に不可視の呪術的ウィルスが感染し、強制的に一つのアプリケーションをインストールしていく。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ゼノグラシア]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0070_ゼノグラシア_defines_異言体系_p2625
+        quote: それは全くの異物。 この世界には存在しないはずの異言体系。 ゼノグラシア その日、地上に新たなる神話が打ち立てられた。
+        locator: {}
+        spoiler_after: ch0070
+  first_appearance_candidate: true

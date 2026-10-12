@@ -1,0 +1,299 @@
+chapter: ch0059
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 5
+  themes: 4
+  quotes_verified: 25
+  quotes_total: 26
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0059_ハルベルト_uses_心療治癒呪術_p2233]]'
+  object: '[[ME_認知療法_ナラティブ・セラピー]]'
+  claim: ハルベルトが用いる「信用できない時制と語り手の解決」を利用した過去遡及的な心療治癒呪術は、現代のナラティブ・セラピー（物語療法）における「問題の外部化」と「再構成」のメタファーである。
+  quote: 事後的に生成された捏造された過去――『信用できない時制と語り手の解決』を利用した過去遡及的な心療治癒呪術。
+  paragraph: p2233
+  confidence: strong
+  quotes:
+  - quote: 事後的に生成された捏造された過去――『信用できない時制と語り手の解決』を利用した過去遡及的な心療治癒呪術。
+    paragraph: p2233
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0059_青嶺瑠璃_appears_悪夢_p2234]]'
+  object: '[[ME_アイドル育成シミュレーションゲーム]]'
+  claim: 青嶺瑠璃がSpeaのマネージャーとして「膝枕」「お手」などの命令に従い、世界が「不具合」でリセットされる描写は、アイドル育成ゲームのUI操作とバグ、またはセーブデータ破損を模倣している。
+  quote: 「ルリ、膝枕」「はい、幾らでもどうぞ！」「ルリ、お手」「わんっ」
+  paragraph: p2235
+  confidence: moderate
+  quotes:
+  - quote: 「ルリ、膝枕」「はい、幾らでもどうぞ！」「ルリ、お手」「わんっ」
+    paragraph: p2235
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0059_変態_appears_第五階層_p2230]]'
+  object: '[[ME_デス・ノート_リューク]]'
+  claim: 全裸で現れ、隻腕に金属の右腕を持つ「変態」は、英雄譚の文脈を破壊する「異物」として、物語の論理を改竄する存在（死神リュークのような介入者）を想起させる。
+  quote: 全裸だ。男は全裸だった。変態だ。変態は謎の動きで大狼と渡り合い、遂には打ち倒してしまう。隻腕の上に右腕が奇妙な金属で覆われた男は、何故かアズーリアたちと行動を共にして第五階層を進んでいく。
+  paragraph: p2230
+  confidence: weak
+  quotes:
+  - quote: 全裸だ。男は全裸だった。変態だ。変態は謎の動きで大狼と渡り合い、遂には打ち倒してしまう。隻腕の上に右腕が奇妙な金属で覆われた男は、何故かアズーリアたちと行動を共にして第五階層を進んでいく。
+    paragraph: p2230
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0059_青嶺瑠璃_other_悪夢_p2237]]'
+  object: '[[ME_ループもの_タイムリープ]]'
+  claim: 「不具合が発生したので、最初からやり直し」というナレーションと、同じ状況が繰り返される構造は、ループものジャンルにおける「セーブ＆ロード」や「タイムリープ」のメカニズムをメタ的に提示している。
+  quote: 不具合が発生したので、最初からやり直し。私の名前は青嶺瑠璃。普通の十六歳だ。
+  paragraph: p2237
+  confidence: strong
+  quotes:
+  - quote: 不具合が発生したので、最初からやり直し。私の名前は青嶺瑠璃。普通の十六歳だ。
+    paragraph: p2237
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0059_ハルベルト_has_property_呪い_p2222]]'
+  object: '[[ME_親の愛_過保護]]'
+  claim: ハルベルトにかけられた「全身の呪い」は、通常「呪い＝悪意」とされるクリシェを逆転させ、「母からの愛＝絶対的な保護（過保護）」として再定義されている。
+  quote: ハルベルトにとって全身にかけられた呪いは母と師からの愛だった。彼女は呪われている。最後の魔女になるという運命に縛られ、囚われている。
+  paragraph: p2222
+  confidence: explicit
+  quotes:
+  - quote: ハルベルトにとって全身にかけられた呪いは母と師からの愛だった。彼女は呪われている。最後の魔女になるという運命に縛られ、囚われている。
+    paragraph: p2222
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0059_クリア先生_transforms_触手_p2225]]'
+  object: '[[ME_パズルゲーム_マッチ3]]'
+  claim: 恐怖の触手が拍手の音と共に「お菓子」に変換される現象は、パズルゲームにおける敵の消去や、恐怖を無害な報酬（お菓子）に変換するゲーム的メカニクスを連想させる。
+  quote: その時、拍手の音と共に触手の群れが次々とお菓子になっていく。棒付き飴、チョコレート、焼き菓子、スポンジ菓子、焼きたてのパイに焦げ目の付いたカラメル菓子。
+  paragraph: p2225
+  confidence: moderate
+  quotes:
+  - quote: その時、拍手の音と共に触手の群れが次々とお菓子になっていく。棒付き飴、チョコレート、焼き菓子、スポンジ菓子、焼きたてのパイに焦げ目の付いたカラメル菓子。
+    paragraph: p2225
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0059_第七位_kills_修道騎士_p2228]]'
+  object: '[[ME_組織内いじめ_権力闘争]]'
+  claim: 第四階層の掌握者による「味方殺し」や「兵力の無為な損耗」は、ファンタジー迷宮攻略の文脈において、現代の組織内いじめや権力闘争による人材の浪費を風刺している。
+  quote: 地上側の兵力を無為に損耗させ、犬死にさせることに心血を注ぐ守護の九槍第七位は、攻略を停滞させ、敵対派閥の修道騎士を公然と殺害していく『有能』な存在として知られていた。
+  paragraph: p2228
+  confidence: strong
+  quotes:
+  - quote: 地上側の兵力を無為に損耗させ、犬死にさせることに心血を注ぐ守護の九槍第七位は、攻略を停滞させ、敵対派閥の修道騎士を公然と殺害していく『有能』な存在として知られていた。
+    paragraph: p2228
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0059_青嶺瑠璃_other_Spea_p2234]]'
+  object: '[[ME_推し活_オタク文化]]'
+  claim: 青嶺瑠璃がSpeaの命令に無条件で従い、ファンレターを送り続ける姿は、現代の「推し活」におけるオタクの献身的な崇拝と、アイドルとファンの非対称な関係性を描いている。
+  quote: 圧倒的に美しい一つ年下の少女は一体誰なのか。彼女こそ、今をときめく歌姫Ｓｐｅａｒその人。ミリオンセラーを記録したアルバムは現在進行形で伝説を更新中。
+  paragraph: p2234
+  confidence: strong
+  quotes:
+  - quote: 圧倒的に美しい一つ年下の少女は一体誰なのか。彼女こそ、今をときめく歌姫Ｓｐｅａｒその人。ミリオンセラーを記録したアルバムは現在進行形で伝説を更新中。
+    paragraph: p2234
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_ch0059_ハルベルト_has_property_不死性_p2224]]'
+  object: '[[ME_条件付き不死_解呪条件]]'
+  claim: ハルベルトの不死性が「紀元槍に至り末妹になることのみ」で解呪されるという条件は、物語の終盤における「末妹」の定義や、その条件達成の困難さを示唆する伏線である。
+  quote: 魂を蝕む呪いを解呪する条件――それは紀元槍に至り末妹になることのみ。
+  paragraph: p2224
+  confidence: explicit
+  quotes:
+  - quote: 魂を蝕む呪いを解呪する条件――それは紀元槍に至り末妹になることのみ。
+    paragraph: p2224
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0059_Spea_other_決闘_p2246]]'
+  object: '[[ME_ゼロサムゲーム_存在の賭け]]'
+  claim: 「勝った方がハルベルトの名を受け継ぎ、存在基盤を確立する」という決闘は、現代のSNSにおけるアカウントの乗っ取りや、アイデンティティの所有権を賭けたゼロサムゲームを連想させる。
+  quote: ハルと――ううん、ジルと存在をかけて決闘して。勝った方が、ハルベルトの名を受け継ぎ、存在基盤を確立する。
+  paragraph: p2246
+  confidence: moderate
+  quotes:
+  - quote: ハルと――ううん、ジルと存在をかけて決闘して。勝った方が、ハルベルトの名を受け継ぎ、存在基盤を確立する。
+    paragraph: p2246
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_変態の正体と改竄
+  note: 全裸の変態（隻腕に金属の右腕）が英雄譚の報告書を改竄させた理由と、その正体。アズーリアの英雄像を歪めた要因。
+  quotes:
+  - quote: 魔将エスフェイルを討伐した時のアズーリアの報告。そこには、何者かによって改竄されたと思しき痕跡が残っていたのだ。
+    paragraph: p2230
+    quote_verified: true
+  - quote: 全裸の変態でメンヘラ。駄目だ、どうやっても英雄譚にならない。
+    paragraph: p2231
+    quote_verified: true
+  expected_payoff: 変態がアズーリアの「英雄性」を破壊した真の理由、または変態がアズーリアの「妹」や「ハルベルト」との関連性を持つ存在であることの判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_青嶺瑠璃とSpeaの正体
+  note: 悪夢の中に現れた「青嶺瑠璃」と「Spea」が、アズーリアの記憶のどの部分に対応するのか。Speaが「ハルを守って」と言う意味。
+  quotes:
+  - quote: 「お姉ちゃん」 間違い無く、心臓が止まった。「ハルを守って」
+    paragraph: p2241
+    quote_verified: true
+  - quote: あなたはハルに妹を投影してる
+    paragraph: p2242
+    quote_verified: true
+  expected_payoff: 青嶺瑠璃がアズーリアの「妹（ベアトリーチェ）」の記憶の投影であること、Speaがハルベルト（またはその関連者）の人格の断片であることの判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ジルとの決闘
+  note: Speaが提案した「ジルとの決闘」で、青嶺瑠璃が選んだ結果。
+  quotes:
+  - quote: さあ選んで」 私どころか、無数の影までもが呆然としてその言葉に圧倒されていた。どう転んでも滅茶苦茶な結果しか生まない選択肢。そして、私が選んだのは――。
+    paragraph: p2246
+    quote_verified: true
+  expected_payoff: 青嶺瑠璃が「ハルベルトの名」を継ぐのか、消滅するのか、あるいはジルを殺すのか。この選択がアズーリアの心療治癒の成否を決定づける。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_サリアの狂気とトリシューラ
+  note: サリアの精神決壊と、トリシューラ（始祖吸血鬼の成れの果て）の鎧の制御。
+  quotes:
+  - quote: サリアは狂気に駆られるがままひたすらに目の前のものを切断していく。誰彼構わず噛み付くだけの狂犬。
+    paragraph: p2226
+    quote_verified: true
+  - quote: それが、かつてサリアがコルセスカと共に挑んだ始祖吸血鬼の成れの果てであり、それを生ける呪動装甲にしたのがトリシューラであることまでハルベルトは知っていた。
+    paragraph: p2226
+    quote_verified: true
+  expected_payoff: サリアが完全に暴走し、ハルベルトたちを襲う可能性。トリシューラの制御方法、またはサリアの救出方法。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_クリア先生の正体
+  note: 触手をお菓子に変える「クリア先生」の正体。サリアの使い魔であるサリア自身、あるいはコルセスカ、あるいは別の存在か。
+  quotes:
+  - quote: 「ありがとうございます、クリア先生」 黒百合宮で過ごしていた頃からずっと自分たちを見守ってくれていた一人の女性の名を呼んで、ハルベルトは先へ向かう。
+    paragraph: p2225
+    quote_verified: false
+  expected_payoff: クリア先生が誰なのか（サリアの人格の一部、コルセスカ、あるいはアズーリアの保護者）の判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の権力と改竄：英雄譚の虚構性
+  weight: 0.8
+  quotes:
+  - quote: 魔将エスフェイルを討伐した時のアズーリアの報告。そこには、何者かによって改竄されたと思しき痕跡が残っていたのだ。
+    paragraph: p2230
+    quote_verified: true
+  - quote: いきなり現れた変態の助力によって魔将討伐に成功した――こんな話、英雄譚に相応しいとはとても思えない。
+    paragraph: p2230
+    quote_verified: true
+  note: アズーリアの記憶が「英雄譚」として編集・改竄されている事実が、歴史の記述が権力によって歪められることを示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 愛と呪いの不可分性：保護としての暴力
+  weight: 0.9
+  quotes:
+  - quote: ハルベルトにとって全身にかけられた呪いは母と師からの愛だった。
+    paragraph: p2222
+    quote_verified: true
+  - quote: あらゆる悪意を上回る、母から向けられた絶対の呪い。それこそが愛の証明なのだと、歓喜と共に闇の世界を突き進む。
+    paragraph: p2224
+    quote_verified: true
+  note: ハルベルトの不死性と呪いが、母からの「愛」そのものであるという逆説的な主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己の投影と所有：推し活の病理
+  weight: 0.7
+  quotes:
+  - quote: あなたはハルに妹を投影してる
+    paragraph: p2242
+    quote_verified: true
+  - quote: 君はファン――つまり沢山いる内の一人だ。『特別』じゃない
+    paragraph: p2245
+    quote_verified: true
+  note: 青嶺瑠璃がSpea（アズーリア/ハルベルトの投影）に抱く感情が、自己の欠落を他者で埋めようとする「投影」であり、それが「特別」の剥奪によって崩壊する過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶のループと修復：ナラティブによる治療
+  weight: 0.6
+  quotes:
+  - quote: 不具合が発生したので、最初からやり直し。
+    paragraph: p2237
+    quote_verified: true
+  - quote: 事後的に生成された捏造された過去――『信用できない時制と語り手の解決』を利用した過去遡及的な心療治癒呪術。
+    paragraph: p2233
+    quote_verified: true
+  note: 悪夢がループし、ハルベルトが「語り直し」によって記憶を修復しようとする試み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,340 @@
+episode: ch0196
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0196_アズーリア_observes_ソルダ_p6576
+        quote: 燃えるような赤毛の下で力強く輝く瞳はしかと前に向けられて、これから起きる事を正面から受け止めようとしていた。
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_アズーリア_wears_神働装甲_p6582
+        quote: 今の私は夜の民の正装である黒いローブではなく、戦場に赴くような漆黒の神働装甲に身を纏っている。修道騎士としてこの場に立っている事を示すためだ。
+        locator: {}
+        spoiler_after: ch0196
+    action:
+      observations:
+      - event_ref: E_ch0196_アズーリア_other_権威_p6595
+        quote: 振り下ろした斧槍、笑って死んだ誇り高き人狼。私はその屍を踏み越えていくと決めた。私の影が、ざわりと揺らめく。炎が落とす暗い影、それが私だ。
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_アズーリア_other_松明の点火_p6596
+        quote: 先代であるキロンは透き通るような青だったと聞いているが、果たして私の目の前にあるはずの槍の松明にはなにも灯されてはいなかった。私の呪力、私の資格に呼応して燃え上がるはずの炎が無い。
+        locator: {}
+        spoiler_after: ch0196
+    speech:
+      observations:
+      - event_ref: E_ch0196_アズーリア_other_第五階層掌握_p6604
+        quote: 「第五階層の始末は、私がつけます」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_アズーリア_other_歌姫すぴにゃん腹パン本_p6616
+        quote: 「例えば『歌姫すぴにゃん腹パン本』なんて二次創作をどう思う。歌姫は語尾が『にゃん』にされてるやつ」「絶対に許さない」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_アズーリア_other_再会_p6620
+        quote: 「私の心を占めていたのは、たったひとつの欲求だ。ハルベルトに、仲間たちに会いたい。それだけ。それが全て。」
+        locator: {}
+        spoiler_after: ch0196
+    relationship:
+      observations:
+      - event_ref: E_ch0196_アズーリア_fears_ソルダ_p6619
+        quote: 「もしかして、ソルダ・アーニスタは。世界を滅ぼす火竜や世界を救う末妹より、ずっと恐ろしい存在なのでは――？」
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_枢機卿団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0196_枢機卿団_other_ソルダ_p6576
+        quote: 少年――『松明の騎士団』を統べるソルダ・アーニスタは槍神教全ての頂点に立つ『教皇機関』の補佐組織・枢機卿団の呼び出しを受けていた。
+        locator: {}
+        spoiler_after: ch0196
+    speech:
+      observations:
+      - event_ref: E_ch0196_枢機卿団_other_ソルダ_p6577
+        quote: 「由々しき事態だな。よもや第八世界槍の認識封鎖を破られるなど。揺り籠の掌握にも失敗し、過日は第一階層に魔将の侵入を許す始末。君が槍の裔でなければ既にその任を解かれているところだぞ」
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_大神院]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0196_大神院_defines_普遍史_p6577
+        quote: 「無論、唯一絶対の『普遍史』を紡ぎ続ける教皇機関』、大聖典『ファザーシステム啓示告白』の記述を正しく実現させるためです、猊下」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_大神院_other_末妹選定_p6580
+        quote: 「トライデントのためにも、新たな英雄アズーリア・ヘレゼクシュと『呪文の座』は有効活用せねば。女王気取りの機械人形も君がご執心の姫君も同じく、全ては救世主完成に必要な細胞たちだ。せいぜいしっかり守ってあげたまえ。」
+        locator: {}
+        spoiler_after: ch0196
+    relationship:
+      observations:
+      - event_ref: E_ch0196_大神院_fears_逸脱_p6578
+        quote: 大神院は『記述』からの逸脱を何よりも嫌うからだ。
+        locator: {}
+        spoiler_after: ch0196
+    action:
+      observations:
+      - event_ref: E_ch0196_大神院_reveals_世界支配_p6579
+        quote: 大神院は世界を裏から支配しようとしている――市井の人々が囁くそんな噂話は誇張でもなんでもなく、ただの事実なのだと理解できた。
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ソルダ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0196_ソルダ_other_枢機卿団_p6581
+        quote: 「意識を聖典と同化させ、普遍石板に記され続ける記述と成り果てた老人会。聖職者である必要すら無く、王侯貴族や宰相など国家の要職にある者が金と呪力を積めばなれるお手軽な不老不死の座。何の意味も価値も無い、文字通りの石塊だ」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_守護の九槍_p6584
+        quote: 「では始めよう。『松明の騎士』ソルダ・アーニスタの名において、『松明を掲げる者ピュクティエトの貧しき同胞たち』の頂点たる特任司教、階層掌握の権限を有する守護の九槍をここに召集する」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_アレッシオ_p6591
+        quote: 「このたび大神院からの推薦で新しく第八位に就任したアレッシオ特任司教だ。元々は央都で軍歌作曲と軍楽隊の指揮を任されていた辣腕のアイドルプロデューサーと聞いている」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_アズーリア_p6597
+        quote: 「アズーリア・ヘレゼクシュ。汝を『守護の九槍』が第九位と認め、その身に『病者への塗油』の秘蹟を授ける」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_reveals_第九世界槍の真実_p6598
+        quote: 「そしてなにより、我々にとってより問題となっているのは、この世界槍に纏わる真実――第八世界槍を上書きした第九世界槍がこの槍だ、ということなんだけど」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_第五階層攻略_p6600
+        quote: 「第五階層が中立を謳って明確な敵対姿勢を見せない以上、我々が取れる最も穏便な手段は対話による決着、あるいは宣教による教化だ。すなわち『智神の盾』によるガロアンディアン併合と、異獣扱いになっている第五階層の住民たちを眷族種に吸収する。」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_純粋さ_p6607
+        quote: 「そう。全てを混沌に融かしてしまう救世主から、尊い純粋さを守っている」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_ティリビナ人の説得_p6610
+        quote: 「ティリビナの巫女――プリエステラを連れて行くんだ。第五階層のティリビナ人たちを我々が守るべき眷族種――『街路樹の民』として保護する。その過程で、彼女の存在は必ず必要となる」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_アレッシオの妨害_p6611
+        quote: 「いいかい、恐らく、いやほぼ確実に同行するアレッシオ特任司教の妨害があるだろう。彼は歌姫のライブそのものを汚染し、大神院に都合のいい視座で君たちを操ろうとするはずだ。」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_reveals_真なる邪視の座_p6614
+        quote: 「彼女こそが本物だ。間違った解釈で歪められた偽物なんかじゃない。雑多な編纂で曲げられた神話像なんかでもない。ありのまま、最初のままの純粋なコルセスカはこの原典を凍らせた世界にしかいないんだ」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_悲劇的結末_p6615
+        quote: 「暗い展開とか悲劇とか切なかったり苦かったりする結末とか泣ける要素とかやめろよ、人を殺したり別離させたりすれば楽しいのかよお前らいい加減にしろ僕はもううんざりだ！」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_二次創作_p6616
+        quote: 「お前らのクソまみれの世界観を美しいものに押し付けて汚すな価値が損なわれるだろうが原作への尊敬が無いんだよ挙げ句の果てにヘイト創作だの陵辱だの寝取られだのマジでぶち殺すぞ」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_解釈_p6617
+        quote: 「神々を気取ってる連中の下らない解釈なんて全部いらない。ゴミみたいな展開を役者に押し付けてくる演出家なんて皆殺しにしてやる。不確定に揺らぐ二次的な人物像も編纂された神話の総体も正統な彼女を穢すだけだ。僕は僕以外の解釈を一切認めない。一切だ。」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_asks_アズーリア_p6618
+        quote: 「異世界転生者シナモリアキラは僕に倒されてなお幸福になってもらわなければ困る。だからこそ君が必要なんだ、アズーリア」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_promises_ハッピーエンド_p6618
+        quote: 「善良なるアズラよ。誰もが幸せになりました、そんな世界にしようじゃないか」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_threatens_ゆらぎの神話_p6619
+        quote: 「唯一無二の固定された視座、不変の関係性。愛はひとつ、ひとつだからこそ愛なんだ。
+        locator: {}
+        spoiler_after: ch0196
+    action:
+      observations:
+      - event_ref: E_ch0196_ソルダ_activates_松明_p6583
+        quote: まず第一の火が灯された。九槍の第一位、ソルダ・アーニスタの炎だ。一本目の槍は情熱的に燃えさかり、彼の髪色さながらに周囲を照らしている。
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_叙階の秘蹟_p6593
+        quote: 「『松明の騎士』の名において、これより『叙階』の秘蹟を執り行う」ソルダは任命書を読む代わりとして油を塗った紙を燃やし、記された文字を灰の呪文として宙に舞わせていく。
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_attacks_アズーリア_p6594
+        quote: すなわち思いきり油をぶちまけて、松明から直接掴み取った『炎の呪力』を燃え上がらせながら私の兜に叩きつけたのだ。直後、呪文の集中豪雨が降り注いだ。
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ソルダ_other_アズーリア_p6605
+        quote: 「悪いんだけど、もう少し付き合ってくれるかな。今の話を踏まえてもう一つ、僕から個人的に話しておきたいことがある」
+        locator: {}
+        spoiler_after: ch0196
+    relationship:
+      observations:
+      - event_ref: E_ch0196_ソルダ_loves_コルセスカ_p6617
+        quote: 「だが彼の信仰は槍神に捧げられたものではない。少年にとって譲れないものは、この少女だけなのだ。」
+        locator: {}
+        spoiler_after: ch0196
+    visual:
+      observations:
+      - event_ref: E_ch0196_ソルダ_other_氷槍_p6618
+        quote: いつの間にか、少年の手には槍が握られていた。凍てつく氷の長柄武器――『氷槍』が。
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_松明の間]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0196_松明の間_is_located_世界槍上層_p6583
+        quote: 遙か雲上、世界槍の穂先にほど近い高み。天の威光が最も強く降り注ぐ聖なる場所に、その大広間はあった。
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クナータ・ノーグ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0196_クナータ・ノーグ_appears_第二位_p6584
+        quote: 守護の九槍第二位、聖女とも称される可憐な予言者クナータ・ノーグ。槍の穂先で揺れる神秘的な紫色の炎が、カシュラム系アヴロノであるノーグ氏族最後の生き残りの横顔を照らす。
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_フォルス＝エウリュティオン・キャレプター]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0196_フォルス＝エウリュティオン・キャレプター_appears_第三位_p6585
+        quote: その姿は天上の美を体現し、輝く貌は直視すれば目を灼かれかねない。頭上には燃える光輪、長い髪は光の奔流、背には六枚の翼。
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーズガン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0196_カーズガン_arrives_第四位_p6586
+        quote: 『扉』から飛び込んできたのは巨大な馬――いや、騎乗した修道騎士だった。騎士は荒々しくそして華麗に馬を操ると、やあ、とう、といったかけ声と共に広間をひとしきり駆け回ってフォルスの隣に辿り着く。
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_テッシトゥーラ・ティータ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0196_テッシトゥーラ・ティータ_appears_第五位_p6587
+        quote: 寡黙な第五位は『詠唱者』テッシトゥーラ・ティータ。彼女は聖女派とでも呼ぶべき特殊な立ち位置で、司祭ですらない一介の読師だが、クナータたっての希望により抜擢された天才的呪文使いだ。
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ネッスス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0196_ネッスス_appears_第六位_p6587
+        quote: 藍色の炎が灯る下で、鋭く小さい黒目が私に狙いを定めている。脱色された短髪、細い眉に三白眼、ノコギリじみたギザギザの歯。
+        locator: {}
+        spoiler_after: ch0196
+    speech:
+      observations:
+      - event_ref: E_ch0196_ネッスス_threatens_アズーリア_p6588
+        quote: 「おいガキ、英雄が辛くなったら言えや。金出しゃ贖宥状くらい馬鹿みてえに刷ってやる。特別サービスで俺様の告解室に招待してもいいぜ」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ネッスス_observes_影の炎_p6596
+        quote: 「『この世界』にはな。目を閉じてよく観ろ。影が揺らめいてるだろうが」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_ネッスス_other_シナモリアキラの狩猟_p6602
+        quote: 「シナモリアキラって紀人は俺様に狩らせろ。異邦の神なら俺らの流儀で染めればそれで終わりだ。クソみてえに浄化して天使コレクションに加えてやるよ」
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_フォルス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0196_フォルス_stops_ネッスス_p6588
+        quote: 「ネッスス、あまり若者を脅かすものではありません」「了解。以後は控えます、フォルスさん」
+        locator: {}
+        spoiler_after: ch0196
+    speech:
+      observations:
+      - event_ref: E_ch0196_フォルス_other_ネドラドの罪_p6591
+        quote: 「前第八位ネドラドの独断専行は我ら『松明』とは関わり無きこと。彼の後先を考えぬ身勝手な愚行はけして槍神教の教えに基づいたものではなく、彼独自の妄想が行き過ぎたゆえのものです。」
+        locator: {}
+        spoiler_after: ch0196
+      - event_ref: E_ch0196_フォルス_stops_ネッスス_p6603
+        quote: 「控えなさい、ネッスス。第五階層の見極めはまだ済んではいません。強引な宣教や改宗の強制は禍根を残します。まず対話から始める必要があり、そのために最も適した人材がアズーリア卿なのですよ」
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_義国派]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0196_義国派_defines_普遍史_p6588
+        quote: 神働教皇機構『啓示告白』は世界最高の魔導書として現在も大神院で人類のあるべき姿たる『普遍史』を紡ぎ続けており、その維持と保全こそが彼らにとって至上目的であるとされている。
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_第七位]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0196_第七位_other_ヴィティス_p6589
+        quote: 第四位の言葉通り、第七位の席には誰もいない。しかし何故かそこには緑色の炎が灯されており、また不在が問題視される事も無かった。
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッシオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0196_アレッシオ_appears_第八位_p6590
+        quote: 朱色の炎が揺らめくと同時、良く通る声が広間の隅々まで響き渡った。現れた顎髭の男性はすらりとした長身で、演説向きの低い声を持った美丈夫だ。
+        locator: {}
+        spoiler_after: ch0196
+    speech:
+      observations:
+      - event_ref: E_ch0196_アレッシオ_other_死人の森の女王_p6601
+        quote: 「更に『死人の森の女王』は機械女王の使い魔、新たに誕生した異界の紀人シナモリアキラと一体化し、第五階層そのものに転生したとされております。」
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_穂先]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0196_穂先_is_located_第零階層_p6606
+        quote: 「ここは、第一階層じゃないんですね。異世界――第零階層、とかですか？」「その理解で概ね正しい。ここでは全てが凍っている。時も、意味も、価値も。」
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0196_コルセスカ_other_氷の結晶_p6613
+        quote: それは、混沌の中心で揺らがずに静止する氷の結晶。その内側で、途方も無く美しい白銀の少女が眠りについていた。
+        locator: {}
+        spoiler_after: ch0196
+  first_appearance_candidate: true

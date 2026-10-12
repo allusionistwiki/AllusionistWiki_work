@@ -1,0 +1,212 @@
+episode: ch0113
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_幻灯劇]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0113_幻灯劇_defines_呪術_p3962
+        quote: 幻灯劇は、光差す世界から持ち込まれた杖の技術とスキリシアのファンタズマゴリア文化が交錯した結果として生まれた呪術のひとつ。
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_朱一色の異様な目を持った男]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0113_朱一色の異様な目を持った男_says_キュトスの裔ども_p3962
+        quote: 「再演による過去の改竄か――なるほど、相変わらずキュトスの裔どもは悪さばかりをする。自ら安定した秩序を築いたかと思えばそれを壊し、生まれた混沌をかき混ぜるか。その在り方は好ましくも憎らしい」
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_男]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0113_男_says_クエスドレム_p3963
+        quote: 「不遜なことだ。これは少々、懲らしめてやる必要がありそうだ。お前もそう思うであろう？　なあ、クエスドレムよ」
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_男の影]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0113_男の影_appears_as_怪物_p3963
+        quote: 怪物のように壁一面を覆い尽くす漆黒は、長くのたうつ蛇のような身体と、かぎ爪を有する巨大な手足を兼ね備えた、異形の影であった。
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セレクティ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0113_セレクティ_has_property_生真面目さ_p3964
+        quote: やや前を行く方は生真面目さが強く表情に表れており、唇は固く引き結ばれ視線は揺るぎなく前を向いている。
+        locator: {}
+        spoiler_after: ch0113
+    speech:
+      observations:
+      - event_ref: E_ch0113_セレクティ_says_来世への執着の戒め_p3965
+        quote: 「来世の事などを考えるのはおやめなさいフィレクティ。それは転生者として許されない怠惰さです。今この瞬間を懸命に生きることだけが、この身に抱えた宿業に飲み込まれないための唯一の手段。『次がある』などという考えに縋ったが最後、わたくしたちは決定的な瞬間で敗北を喫するでしょう。あの時のように」
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_セレナイト]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0113_セレナイト_functions_as_心を穏やかに保つ効果_p3964
+        quote: 月光を蓄えた透石膏は柔らかな波動を放つことで近くを通る者のセレナイトバイブレーション心を穏やかに保つ効果がある。
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_フィレクティ]]'
+  entity_type: relationship
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0113_フィレクティ_has_property_優しげな表情_p3964
+        quote: その後ろを控え目についていく方は優しげな表情で、人当たりの良さそうな笑顔を浮かべている。
+        locator: {}
+        spoiler_after: ch0113
+    speech:
+      observations:
+      - event_ref: E_ch0113_フィレクティ_says_スキリシアへの転生願望_p3964
+        quote: 「この世界はいつ来ても落ち着きます。ねえお姉様。わたくし、いつかスキリシアに転生してみたいです。青い鳥になって夜月の下をペリュトン飛ぶのとか、とっても楽しそうじゃないですか？」
+        locator: {}
+        spoiler_after: ch0113
+      - event_ref: E_ch0113_フィレクティ_other_火炎候の子息の預かり_p3969
+        quote: 「そうですわお姉様。わたくしたちで、火炎候のご子息をお預かりするのはいかがでしょう？　お力になれるかもしれません」
+        locator: {}
+        spoiler_after: ch0113
+    action:
+      observations:
+      - event_ref: E_ch0113_フィレクティ_makes_名付け親という呪術的な血縁関係_p3970
+        quote: 事実上その会話は、『名付け親』という呪術的な血縁関係を結ぶということであり極めて重い契約なのだが、フィレクティはそんなことはお構いなしだった。
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_悪霊レゴン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0113_悪霊レゴン_appears_as_使い魔_p3966
+        quote: セレクティの足下から飛び出す小さな影があった。心臓に顔の部品を無理矢理取り付けたような不気味な生物、悪霊レゴンである。
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_火炎候シェボリズ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0113_火炎候シェボリズ_appears_as_巨大な狼_p3967
+        quote: 相手は途轍もなく巨大な狼であった。黒々とした体躯、吐息は毒々しい色の噴煙、瞳は爛々と輝く青い炎、尾は黄色の松明という恐るべき姿である。
+        locator: {}
+        spoiler_after: ch0113
+      - event_ref: E_ch0113_火炎候シェボリズ_loses_黒炎の四肢_p3967
+        quote: 本来ならば見る者を恐怖に陥れる四肢、常人ならば四度発狂すると言われている『魂灼きの黒い炎』そのものである不定形の四つ脚が、何故か普通の狼のような黒い脚だったからである。
+        locator: {}
+        spoiler_after: ch0113
+    speech:
+      observations:
+      - event_ref: E_ch0113_火炎候シェボリズ_confesses_呪祖レストロオセへの恐怖_p3968
+        quote: 「私は今でも、あれが何だったのか理解できずにいるのだ。前脚も後ろ脚も出なかった。あんなものは見たことがない。呪祖と名乗った何者かは、あらゆる存在に似ているようでもあり、他の何にも似ていない化け物だった。
+        locator: {}
+        spoiler_after: ch0113
+      - event_ref: E_ch0113_火炎候シェボリズ_reveals_呪祖レストロオセの権能_p3970
+        quote: 名を奪い、我がものとし、更にはその存在を掌握して従僕とする権能――私は分裂することで辛うじて難を逃れたが、部族の半数近くが奴に飲まれてしまった」
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0113_カーティス_arrives_婚礼の行列_p3971
+        quote: 壮麗な行列が、案内の使い魔たちの制止を振り切って空間に大挙して現れた。仰々しい呪力と威圧感、騒音のような音楽をかき鳴らしながらやってきたのは、驚くべき事にスキリシア式の婚礼に用いられる車であった。
+        locator: {}
+        spoiler_after: ch0113
+    visual:
+      observations:
+      - event_ref: E_ch0113_カーティス_appears_as_混沌_p3977
+        quote: その内側で無数の触手が蠢動している。変幻する光や鹿の頭部、鼠に狼に流動する質量を持った影というありとあらゆる混沌を内包したそれは、既に吸血鬼という枠内に収まるものではない。
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_館の主人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0113_館の主人_appears_集い_p3971
+        quote: 朱色の瞳は黒目も白目も無い玉石のような一色。同色の長衣の裾が風もないのにゆらめき、浮遊しながら中央へと移動していく。館の主人が指を鳴らすと、光の射し込む部屋中央に巨大な円卓が出現した。
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_冥道の幼姫]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0113_冥道の幼姫_appears_as_手枷と鎖付きの首輪を嵌めた少女_p3973
+        quote: その傍らに小さな少女が手枷と鎖付きの首輪を嵌められて立っている。
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クエスドレム]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0113_クエスドレム_says_ゾーイ・アキラとケイトへの宣告_p3974
+        quote: 「わかるか、この世界の秩序を乱す者たちよ。ゾーイ・アキラとケイト、並びにグレンデルヒ。お前たちはここで始まりここで終わる。始まりと終わりは今定められた。永劫の螺旋に囚われたお前たちは、永遠に過去で踊り続けるがいいだろう」
+        locator: {}
+        spoiler_after: ch0113
+      - event_ref: E_ch0113_クエスドレム_says_秩序の歪みへの警告_p3974
+        quote: 「遊びはここまでだ。お前たちは秩序を著しく歪め、あるべき時間と運命の流れを切り分けてしまった。これは許されないことだ。この修正にどれだけのリソースを割かねばならないことか。私がこの時点で止めていなければ、クルエクローキがお前たちを引き裂いていたところだ」
+        locator: {}
+        spoiler_after: ch0113
+      - event_ref: E_ch0113_クエスドレム_reveals_外世界人の存在_p3975
+        quote: 「他にもいるな。カーティスの影の中か――出て来るが良い、外世界人」
+        locator: {}
+        spoiler_after: ch0113
+      - event_ref: E_ch0113_クエスドレム_says_過去という現実_p3976
+        quote: 「筋書きにも史料にも記されていない展開に、戸惑っているのかね、未来人たちよ。だがこれが過去というものだ。深淵に沈み、闇に飲まれた知識は見えなくとも確かに存在しているのだよ」
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0113_グレンデルヒ_dies_十字架への磔_p3974
+        quote: 一人の男が、そこには磔にされていた。手足を杭で縫い付けられ、自重で裂けていく掌が骨の支えによってかろうじて繋ぎ止められている。
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガドカレク]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0113_ガドカレク_names_竜帝_p3978
+        quote: 「我が名は【竜帝】ガドカレク。秩序を守護する九首の真竜が第五首にしてこの【紀竜と紀神の集い】の主宰である。
+        locator: {}
+        spoiler_after: ch0113
+      - event_ref: E_ch0113_ガドカレク_says_閉じた再演の輪_p3978
+        quote: 「ようこそ、歓迎しよう異邦人たちよ。永久のもてなしを受けられよ。始まりも無く終わりも無い、この閉じた再演の輪の中で踊り続けるといい」
+        locator: {}
+        spoiler_after: ch0113
+  first_appearance_candidate: true

@@ -1,0 +1,352 @@
+episode: ch0118
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_イアテム]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0118_イアテム_appears_魚人_p4124
+        quote: 顔は似たり寄ったりの壮年男性のものだが、耳の部分が鰭であったり鰓であったり、あるいは頭足類の触手だったりと様々な形をしているのが目を引く特徴だ。
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_イアテム_has_property_側線器官_p4126
+        quote: 鰓蓋の上端辺りから足に向かって走る細い点状の筋。これこそが水中を伝わる音波や圧力の変化、水の動きを感じ取るための魚本来の『耳』である。
+        locator: {}
+        spoiler_after: ch0118
+    relationship:
+      observations:
+      - event_ref: E_ch0118_イアテム_functions_as_戦闘指揮官_p4125
+        quote: 液体によって自らの分身を作り出す事ができる使い魔を扱う高位呪術師。【変異の三手】副長としてグレンデルヒの不在を預かる戦闘指揮官。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_巡槍艦ノアズアーク]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0118_巡槍艦ノアズアーク_breaks_船体_p4124
+        quote: まるで堤防が決壊するようだった。耳を劈く轟音と共に、船体が半ばからへし折れて内側から爆風と瓦礫、粉塵などが弾け飛んでいく。
+        locator: {}
+        spoiler_after: ch0118
+    visual:
+      observations:
+      - event_ref: E_ch0118_巡槍艦ノアズアーク_is_located_第五階層_p4124
+        quote: 巡槍艦ノアズアーク。きぐるみの魔女トリシューラが所有する次元巡洋艦は、現在グレンデルヒ率いる【変異の三手】によって制御を奪われてしまっている。巡槍艦は壁面を破壊することなく透過して港に乗り付けていた。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_砂場]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0118_砂場_defines_世界槍内側の可塑性空間_p4124
+        quote: 世界槍の内側に広がる可塑性のある空間のことを、砂場と呼ぶ向きがある。広めたのはきぐるみの魔女トリシューラだ。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0118_トリシューラ_attacks_イアテム_p4125
+        quote: 甲冑と生物の毛皮を無理矢理纏め上げたようなデザインの強化外骨格を纏うのは幼い顔に物々しい眼鏡を載せた十三歳のトリきぐるみシューラ。少女が引き金を引くと、保持している長大な機銃が唸りを上げる。
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_トリシューラ_activates_群狼_p4128
+        quote: 本体であるトリシューラが帰還するや否や第五階層に響かせた『遠吠え』に呼応して、巡槍艦と第五階層の各所で有事に備えて待機していた過去のトリシューラたちが目覚め、瞬く間に戦況を塗り替えたのだった。
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_トリシューラ_uses_ゴム弾_p4129
+        quote: 無数のグレンデルヒたちに対しては特殊な呪紋を刻印した殺傷性の低いゴム弾を使用し、急所を外して狙い撃つ。
+        locator: {}
+        spoiler_after: ch0118
+    speech:
+      observations:
+      - event_ref: E_ch0118_トリシューラ_says_天気予報風呪文_p4125
+        quote: 「ガロアンディアン気象庁が本日の天気をお知らせします。本日は全国的に銃弾の雨が降るでしょう。お出かけの際には防弾仕様の防具が必要になりそうです。あっても死ぬ時は死ぬのでご注意を」
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_トリシューラ_says_グレンデルヒへの挑発_p4129
+        quote: 「誰も彼もがグレンデルヒだなんて頭の悪い牽強付会、私の領域で存在を許されると思わないでね――全私、撃つ！」
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_トリシューラ_reveals_グレンデルヒの三本足_p4131
+        quote: 「多分、貴方の三本足は『市場』――そうじゃなかったら資本主義それ自体か、さもなきゃ物象化された物同士の間にある関係性の総体あたりかな」
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_トリシューラ_says_アキラ返還要求_p4132
+        quote: 「アキラくんを返せ」
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_トリシューラ_says_コルセスカへの呼びかけ_p4137
+        quote: 「お帰り、セスカ！」
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファルファレロ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0118_ファルファレロ_says_サイバーカラテ呪文_p4127
+        quote: 「言理の妖精、発勁用意！」
+        locator: {}
+        spoiler_after: ch0118
+    action:
+      observations:
+      - event_ref: E_ch0118_ファルファレロ_uses_言理の妖精_p4127
+        quote: トリシューラの配下が一人、中傷者ファルファレロは言理の妖精使いにしてサイバーカラテ使いという、まさに三ヶ月前の『事件』が生んだハイブリッドな呪術師と言えた。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_グレンデルヒ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0118_グレンデルヒ_defines_浄界闘争領域の拡大_p4130
+        quote: そこには『人を資源として見なす』という暗黙の了解がある。この戦場には人間存在に対して聖なる価値を認めるという視座が無い。杖の冷徹な原理が世界を覆い尽くしているのだ。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラデルヒ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0118_アキラデルヒ_appears_シナモリアキラの肉体_p4132
+        quote: 一人のグレンデルヒは道着を纏っており、左腕が黒銀の義肢という姿。
+        locator: {}
+        spoiler_after: ch0118
+    speech:
+      observations:
+      - event_ref: E_ch0118_アキラデルヒ_says_魔女への敵意_p4133
+        quote: 「そして私は貴様のものではない、魔女風情が調子に乗るな。真の英雄を軟弱な女ごときが使役しようなどという思い上がりは、この私が正してくれよう」
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_アキラデルヒ_says_九姉兵装の再解釈_p4134
+        quote: 「貴様ら魔女のまじないなど使うはずが無いだろう。これは私なりの再解釈だ。英雄に相応しい形への上書きというものだよ。サイバーカラテの『遠当て』を見せてやろう。発勁用意――撃てっ！」
+        locator: {}
+        spoiler_after: ch0118
+    action:
+      observations:
+      - event_ref: E_ch0118_アキラデルヒ_uses_ウィッチオーダー_p4133
+        quote: 黒銀の義肢、アーザノエルの御手【ウィッチオーダー】がその真価を発揮する。
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_アキラデルヒ_attacks_トリシューラ_p4135
+        quote: アキラデルヒの腕が突き出されるのと連動して九つの砲身が唸りを上げ、それぞれの銃口から様々な呪術が発動していく。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0118_コルセスカ_appears_凍れる呪文_p4136
+        quote: 万事休すと思われたその時、涼やかな、懐かしい声が響いた。「凍れ」
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_コルセスカ_activates_森羅万象型の浄界_p4138
+        quote: 発動したのは世界そのものを変容させる森羅万象型の浄界。
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_コルセスカ_attacks_アキラデルヒ_p4143
+        quote: 「それと、アキラの身体は返して貰います」
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_コルセスカ_uses_手孕説話_p4144
+        quote: 手孕説話という奇怪な伝承を下敷きにした腕の出産を攻撃に転用したのだった。
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_コルセスカ_bonds_アキラ_p4147
+        quote: コルセスカがアストラル体を投射してシナモリアキラに憑依して合体する。
+        locator: {}
+        spoiler_after: ch0118
+    symbolic:
+      observations:
+      - event_ref: E_ch0118_コルセスカ_has_property_氷の義眼_p4136
+        quote: 言葉は氷の義眼を起動させるための鍵だった。幼い頃に決めた合い言葉。その瞳の呪具は、二人の魔女がはじめて一緒に完成させたものだったから、
+        locator: {}
+        spoiler_after: ch0118
+    speech:
+      observations:
+      - event_ref: E_ch0118_コルセスカ_says_生への肯定_p4158
+        quote: 「『たとえ誰かのことを踏みつけていたとしても、私たちは今、ここに生きている。罪深くても、傲慢でも、私は大人しく死を待つのなんて嫌です。だってこの世界は、こんなに楽しいじゃないですか！』
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ゼド]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0118_ゼド_finds_カチカチハンマー_p4138
+        quote: 「何だこれは。カチカチハンマー？」
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カニャッツォ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0118_カニャッツォ_dies_復活_p4141
+        quote: 同時にカニャッツォが爆発四散して即死。無惨な死に様に誰もが目を覆いそうになるが、直後。「ふっかあぁぁぁつ！」
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_アキラ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0118_アキラ_other_左腕_p4146
+        quote: 上書きされていた壮年男性の顔は既に無い。腹部から己の左腕を生やしたシナモリアキラが、遂に元通りとなった鋼鉄と氷の義肢で左右から中央の手を包み込む。
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_アキラ_transforms_左腕_p4159
+        quote: シナモリアキラの左腕の変形が止まらない。膨れあがる光が熱を放射し、凍れる右腕で抑え込んでもまだ反発するほどの呪力が吐き出されていく。
+        locator: {}
+        spoiler_after: ch0118
+    visual:
+      observations:
+      - event_ref: E_ch0118_アキラ_transforms_新型強化外骨格_p4160
+        quote: 再生者の骨はあくまでも骨組みでしかない。第五階層の物質創造能力が左手の制御下で限界を超えて駆使されて、狼の骨を基点にして装甲を形作っていく。
+        locator: {}
+        spoiler_after: ch0118
+    name:
+      observations:
+      - event_ref: E_ch0118_アキラ_names_トバルカイン_p4162
+        quote: 第五義肢が形成した新型強化外骨格、その名は。「吠えろ、【錬鉄者】！」
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ケイト]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0118_ケイト_appears_無人機_p4150
+        quote: ヘルメット状の頭部のフェイス部分がスクリーンとなって表示されたのは行司姿の青年。ウェーブがかかった黒髪に濃茶色の肌をしたインド人――ケイトと呼ばれていた力士の相棒が、無人機を操作しているのだ。
+        locator: {}
+        spoiler_after: ch0118
+    speech:
+      observations:
+      - event_ref: E_ch0118_ケイト_defines_テセウスの船型サイボーグ_p4151
+        quote: 意識を電子化した情報的人類であるケイトが宿った無人戦闘機械は、その瞬間に定義上、肉体を全て機械化した『テセウスの船型サイボーグ』となる。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グラッフィアカーネ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0118_グラッフィアカーネ_other_リニアモーターカー_p4152
+        quote: その手と平行に浮遊する片側が鈴になった金剛杵から紫電が迸り、大気をイオン化させながら電磁空気投げが行われる。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チリアット]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0118_チリアット_fights_力士_p4153
+        quote: 硬質化した生体質量の鎧を纏ったゾーイ・アキラの突進を、巨大な異形が正面から受け止める。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0118_レオ_asks_チリアットの休養_p4154
+        quote: 「『このままだと、友を喰い殺してしまう。それは嫌だ』って、そう言ってます――お願いですアキラさん、もう休ませてあげてください」
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_力士]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0118_力士_says_アキラへの否定_p4157
+        quote: 「何がシナモリアキラだ。何が【鎧の腕】だ。お前は惨めな人生の敗残者だろう？　なあ、セト――」
+        locator: {}
+        spoiler_after: ch0118
+    action:
+      observations:
+      - event_ref: E_ch0118_力士_activates_システム蹴速_p4159
+        quote: 「百パーセントだ――制限解除、システム【蹴速】を解放する」
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ウィッチオーダー]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0118_ウィッチオーダー_has_property_第五の封印_p4160
+        quote: それこそは冥界の権能を司る第五の封印。不完全な解除なのかアキラが自らの意思で制御する事すらままならず、半ば暴走するかのようにして勝手に換装が行われてしまう。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0118_カイン_uses_生身の左腕_p4160
+        quote: 人狼が内包する引き千切られた左腕が光り輝いた。生身の左腕が、ウィッチオーダーから溢れ出す光の中へと飛び込んでいく。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0118_ちびシューラ_reveals_五番義肢の名_p4161
+        quote: （――見えたよ、五番義肢の性能と、その強化外骨格の名前が！）ちびシューラが高らかに叫ぶ。それは封印が解かれたことで天啓の如く上位のトリシューラからもたらされた知識だった。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_新型強化外骨格]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0118_新型強化外骨格_has_property_リビングアーマー_p4161
+        quote: 構えをとると、鎧は滑らかに従った。むしろ鎧の方がアキラを導くかのように息を合わせてくれている。それは意思を持った生けるマー鎧だった。
+        locator: {}
+        spoiler_after: ch0118
+    visual:
+      observations:
+      - event_ref: E_ch0118_新型強化外骨格_has_property_氷と鋼鉄の拳_p4161
+        quote: 装甲に覆われた両腕の尖端部から鏡を纏う氷の拳と歯車を回す鋼鉄の拳が迫り出した。
+        locator: {}
+        spoiler_after: ch0118
+      - event_ref: E_ch0118_新型強化外骨格_has_property_裂肉歯のバイザー_p4161
+        quote: 上顎の第四前臼歯である裂肉歯が燐光に包まれて更なる大型化を遂げる。視界を妨げないように真下に伸びた牙と牙の間に透明な素材が形成され、暗色のヘルメットバイザーとなる。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_トバルカイン]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0118_トバルカイン_defines_原初の鍛冶師_p4162
+        quote: 其れこそは全ての黒金を鍛える者。あらゆる武装を作り出す、刃の鍛え手。死者を踏み越えた果てに叡智を築き上げる原初の鍛冶師。
+        locator: {}
+        spoiler_after: ch0118
+  first_appearance_candidate: true

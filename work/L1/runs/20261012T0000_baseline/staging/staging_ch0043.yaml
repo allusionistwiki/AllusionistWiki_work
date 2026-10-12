@@ -1,0 +1,252 @@
+episode: ch0043
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0043_アズーリア_observes_肥満した神官_p1819
+        quote: 食卓を囲むお歴々は揃いも揃って恰幅が良く、小さな私は明らかに場違いだった。
+        locator: {}
+        spoiler_after: ch0043
+    speech:
+      observations:
+      - event_ref: E_ch0043_アズーリア_fears_異物視_p1822
+        quote: ここで食べなければ、私は異物と見なされる。
+        locator: {}
+        spoiler_after: ch0043
+      - event_ref: E_ch0043_アズーリア_confesses_天使への攻撃_p1830
+        quote: 私は一昨日の夜、ミルーニャを苦しめていたあの守護天使、旧世界の遺物たる古き神に超極大呪文を撃ち込んでしまった。
+        locator: {}
+        spoiler_after: ch0043
+      - event_ref: E_ch0043_アズーリア_confesses_死なない決意_p1840
+        quote: 「ありがとう。ハル、私は死なない。絶対に」
+        locator: {}
+        spoiler_after: ch0043
+    action:
+      observations:
+      - event_ref: E_ch0043_アズーリア_transforms_分裂_p1826
+        quote: あ、転んでフォークにぶつかった。　鋭利な尖端が突き刺さったせいで四つに分裂してしまったらしい。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_大神院の高位神官]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0043_大神院の高位神官_wears_黒衣_p1819
+        quote: 大神院の高位神官をはじめとして松明の騎士団や智神の盾といった主要な騎士修道会の要職にある人物がずらりと並んでいる。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_トントロポロロンズ]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0043_トントロポロロンズ_says_食べて_p1820
+        quote: 「大丈夫だよ、怖くないよ。さあ、ぼくを食べて」　ぷるぷると震えながら、白い長方形が喋る。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_肥満]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0043_肥満_defines_貧困病_p1820
+        quote: ところで、肥満は貧困病である。　食料自給が一定水準以上の社会においては、むしろ中流以下や貧困層で肥満は増加する。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_羊人種]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0043_羊人種_says_食べられることが幸せ_p1821
+        quote: 「そうですよ、わたしたちは食べられるために生まれてきたのです。貴方に食べられることがわたしたちの幸せなんです」
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_神官]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0043_神官_uses_フォーク_p1822
+        quote: 神官たちは羊の少女たちをフォークで串刺しにして思い思いに口に運んでいる。
+        locator: {}
+        spoiler_after: ch0043
+    speech:
+      observations:
+      - event_ref: E_ch0043_神官_other_アズーリアへの攻略_p1834
+        quote: 「ソルダ団長にはしばらく防衛に専念していただいて、第六階層の攻略は若き英雄どのに任せたらいかがかな」
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0043_ハルベルト_wounds_アズーリアの足_p1823
+        quote: 逡巡していると、両足が同時に踏みつけられた。　両隣の二人が、私に早く食べろと急かしているのだった。
+        locator: {}
+        spoiler_after: ch0043
+    speech:
+      observations:
+      - event_ref: E_ch0043_ハルベルト_says_天使の諍い_p1831
+        quote: 「きっと意地悪な三角は、黒衣の行進を邪魔してしまった。妨げる事が許されないその歩みを止めたゆえに、上位者からの罰を受けたの」
+        locator: {}
+        spoiler_after: ch0043
+      - event_ref: E_ch0043_ハルベルト_promises_序列引き上げ_p1835
+        quote: 「一巡節――半年以内にアズーリア・ヘレゼクシュの序列を可能な限り引き上げる。隊を率いることができる立場にまで。そして、英雄は己の部隊と共に第六階層に挑むの」
+        locator: {}
+        spoiler_after: ch0043
+      - event_ref: E_ch0043_ハルベルト_promises_運命への抗い_p1840
+        quote: 「運命なんて下らない。それに抗ってこその英雄でしょう」
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_群青様]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0043_群青様_gives_棒付き飴_p1823
+        quote: 卓の反対側から歩いてきた小さなその人物は、黒衣の中から自分の体積以上の棒付き飴を取り出す。
+        locator: {}
+        spoiler_after: ch0043
+      - event_ref: E_ch0043_群青様_uses_影の触手_p1825
+        quote: けぷ、とフードから音を漏らして、影の触手を伸ばして葡萄酒を啜る。触手は吸管のようにも使えるのだ。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_夜の民]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0043_夜の民_has_property_老齢化による縮小_p1824
+        quote: これは霊長類もそうだけど、私達は老いと共に身体が小さくなり、赤子に近付いていく。老齢の夜の民は掌に乗るくらいの大きさとなるのが普通だ。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ビーチェ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0043_ビーチェ_binds_アズーリアの一部_p1826
+        quote: どうやらビーチェの影があまりにも居心地がいいものだから、自然に入り込んでしまうようなのだ。　――もしかしたら、まだ妹の影の中には私の一部が入り込んでいるかもしれない。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_智神の盾]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0043_智神の盾_defines_知識と教化_p1827
+        quote: 序列第六位の天使、神々の図書館の管理者ラヴァエヤナは知識を司る。こちらは内部の『異端』を裁く法の番人であり、また異質なものを排除するのではなく教化して槍神教内部に取り込む宣教を象徴してきた。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_松明の騎士団]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0043_松明の騎士団_defines_武力と啓蒙_p1827
+        quote: 序列第八位の天使、松明を掲げる者ピュクティエトは武力や啓蒙を象徴する。古来より異種族や異民族を平定し、『異教徒』を葬ってきた『聖絶』の守護天使だ。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ペイル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0043_ペイル_transforms_身体能力向上_p1828
+        quote: 「修道騎士ペイルは生体装甲の超回復によって以前よりも身体能力が向上しており、
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラーゼフ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0043_ラーゼフ_other_アズーリアの私闘_p1828
+        quote: 「あれはあくまで訓練の一環であり、その結果として戦力の向上に成功しております。ここにいるハルベルト殿の教導官としての腕前は確か。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ナト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0043_ナト_uses_神働装甲_p1829
+        quote: また修道騎士ナトに関しましても我々智神の盾が開発している新型の呪動装甲――いえ、【神働装甲】の試作実験機の搭乗者として最高の適性を示すことが確認されております。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ペレケテンヌル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0043_ペレケテンヌル_loses_神働術の力_p1829
+        quote: 「一昨日と言えば、何故かペレケテンヌル様への祈りが届かなくなったという報告が相次いでおりまして――」
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ソルダ・アーニスタ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0043_ソルダ・アーニスタ_fights_第六階層_p1832
+        quote: 松明の騎士、ソルダ・アーニスタ。　今、彼は第六階層に挑んでいるのだ。それも、たった一人で。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イェレイド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0043_イェレイド_kills_ソルダ・アーニスタ_p1833
+        quote: 直後、死の衝撃が松明の騎士に襲いかかった。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クナータ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0043_クナータ_appears_食堂_p1837
+        quote: 食堂の扉が開いて、ふらふらと焦点の定まらない瞳で歩み寄ってくる小さな姿。「聖女様！　お気を確かに、どうかお戻り下さい！」
+        locator: {}
+        spoiler_after: ch0043
+      - event_ref: E_ch0043_クナータ_dies_意識_p1839
+        quote: 十字に輝く瞳から血が溢れていく。歪み続ける記憶を振り返りすぎてしまったのだ。高い負荷に彼女の脳が悲鳴を上げ、血涙は美しい衣装を汚していく。　そして、糸が切れたように聖女様は意識を失って崩れ落ちた。
+        locator: {}
+        spoiler_after: ch0043
+    speech:
+      observations:
+      - event_ref: E_ch0043_クナータ_says_誕生日_p1837
+        quote: 「お誕生日のお祝いかしら。あなたたちは、ついこの間に生まれたんですものね――あら、どうしてかしら。わたし、アズーリアとは古いお友達なのに――？　みんな、この間生まれたと記憶しているのだけれど。もう、おかしいの」
+        locator: {}
+        spoiler_after: ch0043
+      - event_ref: E_ch0043_クナータ_reveals_葬送式典_p1838
+        quote: 「この間の、大きな葬送式典。第一区、この大樹の梢。天の御殿に一番近い場所で、魂を空に送るの。迷える魂を黒衣の天使が導く。それで、みんなみんな生まれたのよ。
+        locator: {}
+        spoiler_after: ch0043
+  first_appearance_candidate: true

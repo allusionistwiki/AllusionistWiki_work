@@ -1,0 +1,140 @@
+episode: ch0263
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_シャーネス]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0263_シャーネス_defines_七つの風の主_p8318
+        quote: 七つの風の主。その号が暗示するのは彼女の不死性の由来だ。
+        locator: {}
+        spoiler_after: ch0263
+    symbolic:
+      observations:
+      - event_ref: E_ch0263_シャーネス_has_property_個我の脆弱性_p8319
+        quote: そのような『軽い』自己像では足場が定まらず、より強固な個我を持った邪視をぶつけられればあっさりと押しのけられてしまうだろう。
+        locator: {}
+        spoiler_after: ch0263
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0263_リーナ_asks_個我の安定_p8318
+        quote: ていうかそれ、『個我』の安定は大丈夫だったの？　ほら、小鬼化とか
+        locator: {}
+        spoiler_after: ch0263
+    action:
+      observations:
+      - event_ref: E_ch0263_リーナ_other_逆立ち_p8320
+        quote: ごまかすようにくるんと身体を反転させ、太腿で体を固定しつつ頭を真下に向けた。
+        locator: {}
+        spoiler_after: ch0263
+      - event_ref: E_ch0263_リーナ_other_塔_p8323
+        quote: 穏やかに自分が越えられるだけの障害を乗り越え、そこそこの魔女として『塔』を卒業することになった。
+        locator: {}
+        spoiler_after: ch0263
+      - event_ref: E_ch0263_リーナ_other_空想_p8323
+        quote: 周囲からの『落ちこぼれ』という呪詛によって形作られた『駄目な自分』という強固な自己像で、淡い空想を覆い尽くす。
+        locator: {}
+        spoiler_after: ch0263
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミブレル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0263_ミブレル_reveals_ゾラの目的_p8319
+        quote: 『七つ風』の秘儀を、再びクロウサーに取り戻すために
+        locator: {}
+        spoiler_after: ch0263
+      - event_ref: E_ch0263_ミブレル_teaches_リーナ_p8319
+        quote: 『塔』の中にはカネッサやカルルアルルアのように並行矛盾史を専門に扱う魔女もいますが、あれはとても危うい魔道です。
+        locator: {}
+        spoiler_after: ch0263
+      - event_ref: E_ch0263_ミブレル_other_リーナの呪文_p8320
+        quote: 『逆立ちしても無理』という前提から『逆立ち』の見立てによって現実を歪めようとするのは詐術として破綻が大きすぎる
+        locator: {}
+        spoiler_after: ch0263
+      - event_ref: E_ch0263_ミブレル_other_リーナ_p8321
+        quote: 七つ風の中で個我を失わない、強い目的意識を定めなさい
+        locator: {}
+        spoiler_after: ch0263
+      - event_ref: E_ch0263_ミブレル_other_リーナ_2_p8321
+        quote: あなたは天才ですよ。でなければ、私の『群雲』に意識流を親和させることさえできなかったでしょう。
+        locator: {}
+        spoiler_after: ch0263
+      - event_ref: E_ch0263_ミブレル_other_自由の定義_p8322
+        quote: 生まれつき自由な者は、本当に自由を知っていると言えるでしょうか？
+        locator: {}
+        spoiler_after: ch0263
+      - event_ref: E_ch0263_ミブレル_names_ミブリナ_p8323
+        quote: 今よりミブリナと名乗りなさい、目的を持たぬ放浪者。
+        locator: {}
+        spoiler_after: ch0263
+    visual:
+      observations:
+      - event_ref: E_ch0263_ミブレル_appears_as_ティドロソフ_p8320
+        quote: この時、リーナの目の前に漂う雲は厳格な目をしたティドロソフのようであり
+        locator: {}
+        spoiler_after: ch0263
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ルスクォミーズ]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0263_ルスクォミーズ_defeats_シャーネス_p8319
+        quote: ルスクォミーズはその弱点を的確に突いてシャーネスお姉さまを丸呑みしてのけたのです
+        locator: {}
+        spoiler_after: ch0263
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_箒乗り]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0263_箒乗り_defines_侮蔑の烙印_p8324
+        quote: 『箒乗り』というのは侮蔑の烙印だ。心ひとつで自在に宙を渡るべき空の民にあるまじき欠陥。
+        locator: {}
+        spoiler_after: ch0263
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミブリナ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0263_ミブリナ_has_property_想像の翼_p8325
+        quote: 少女の背に生えた想像の翼はクロウサーの誰よりも大きく立派だった。それでも彼女は無価値なままだ。
+        locator: {}
+        spoiler_after: ch0263
+    speech:
+      observations:
+      - event_ref: E_ch0263_ミブリナ_other_調停業務_p8326
+        quote: 「めんどくさい」　正直、めちゃめちゃイヤだった。
+        locator: {}
+        spoiler_after: ch0263
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_使者]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0263_使者_gives_風の便り_p8329
+        quote: こちら、父君より託された『風の便り』でございます。リーナ様宛の、最後の遺言。
+        locator: {}
+        spoiler_after: ch0263
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_風の便り]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0263_風の便り_other_父の情愛_p8329
+        quote: 死を覚悟して戦場に赴いた巨人の、魂を込めた願いが切々と綴られていく。重さを与えられた愛情がそこにあった。
+        locator: {}
+        spoiler_after: ch0263
+  first_appearance_candidate: true

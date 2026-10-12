@@ -1,0 +1,296 @@
+episode: ch0108
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0108_オルヴァ_has_property_生存説_p3805
+        quote: とはいえ、オルヴァの特殊性は王であった時代にはない。 彼には根強い『生存説』があったのだ。
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ・スマダルツォン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0108_オルヴァ・スマダルツォン_dies_断頭台_p3805
+        quote: オルヴァ・スマダルツォンはクーデターにより王位から引きずり下ろされ、九日九晩にわたって熱した鉄の棺の中に閉じ込められるという責め苦を受けた。
+          その後、断頭台の露と消えたと言われている。
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_権力者たち]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0108_権力者たち_breaks_階段_p3805
+        quote: 政変を成功させた権力者たちはオルヴァが踏んだ階段を順番に破壊した。これによりカシュラムに存在した十二の身分が破壊され、最後にオルヴァが弑されたことによって従来の身分制は消滅したと言われている。
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0108_アキラ_observes_コルセスカ_p3806
+        quote: 白骨を包み込む氷の彫像。精緻な少女の造形。見間違う筈も無い。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_observes_ちびシューラ_p3808
+        quote: 俺は自分の手首あたりに立ちながら、掌の上で座り込んでいるちびシューラを見た。投げ出された左腕の上にいる俺たちの間に会話は無い。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_observes_人形たち_p3811
+        quote: 暗闇に目を凝らすと、至る所に裸の球体関節人形が立ったり座ったりと様々な姿勢で置いてあるのがわかる。その全ての頭部から青い長髪が伸びており、髪は頭皮に根を張って各人形を繋いでいるのだった。
+        locator: {}
+        spoiler_after: ch0108
+    speech:
+      observations:
+      - event_ref: E_ch0108_アキラ_remembers_コルセスカとのゲーム_p3806
+        quote: ――確か、コルセスカとやったゲームだと生存説を採用していて、主人公である女王の国で宮廷付きの賢者となり、恋人兼臣下として末永く女王の傍で仕えたという結末だったな。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_thinks_キシャルとコルセスカの境界_p3806
+        quote: だが、同時に冥道の幼姫キシャルでもあったように思う。 彼女たち二人の境界がどこにあるのか、俺には既にわからない。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_thinks_予防的殺害の是非_p3807
+        quote: 未だ為されていない罪を問う事は、正しいのか？ 過去に遡って己に害を為すであろう人物を予防的に殺害することと、遺伝子や障害といった要因に基づいて優生学的に胎児や新生児を間引くことにどれだけの違いがある？
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_asks_ちびシューラ_p3809
+        quote: （ちびシューラ。そろそろレオたちが回収に来る。何か対策を講じないとまた操られて終わりだ）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_asks_レストロオセの正体_p3809
+        quote: （そういえば、あの時にいきなり現れた外敵――ジャッフハリムだったか。あのレストロオセと名乗っていた奴、どう見ても前に見た魔将イェレイドだったんだが、あれはどういうことだ？）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_thinks_情報弱者_p3809
+        quote: 現実を改変する噂の量はさながら荒れ狂う大海。その情報の海を渡って正確な目的地を見つけるには、優れた検索エンジンの助けが必要となる。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_thinks_ちびシューラの自尊心_p3810
+        quote: 彼女は感情豊かな仮面で人らしさを偽装する。いつか、それで死にかけたことすらあったのだ。自尊心はこの少女の聖なるもの、魂そのものだ。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_thinks_キシャルとの協力_p3812
+        quote: キシャルは敵だ。 だが、この呪わしい糸に支配された状況下で、唯一共闘できそうな相手でもある。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_other_ちびシューラ_p3813
+        quote: （聞いてくれちびシューラ。勝負っていうのは一度では終わらない。負けた原因を分析して、自己改良を繰り返すんだ。試行錯誤を繰り返していけばいつかは勝ちに届く。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_promises_褒める_p3814
+        quote: （褒める褒める。ちびシューラがいなかったら今の俺はいなかったよ）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_thinks_転生と召集_p3818
+        quote: キロンとの戦いで形勢を逆転してみせた反則級の『再現性の不死』、あれこそが使い魔側の言葉で言うところの【召集】なのかもしれない。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_thinks_コルセスカによる召集_p3819
+        quote: （もしかして、今まさに俺はコルセスカに【召集】されているのか）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_other_クレイ_p3820
+        quote: （へえ。じゃあお前、ママの腹の中から出てきたばっかりの赤ん坊ってわけだ）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_other_疎外感_p3828
+        quote: なんだろうこの疎外感。 特にレオは、こう、俺の方が先に縁を持っていたはずなのに――というか何だこの感情。独占欲か。
+        locator: {}
+        spoiler_after: ch0108
+    action:
+      observations:
+      - event_ref: E_ch0108_アキラ_other_ちびシューラの尻尾_p3810
+        quote: なんとなく、尻尾を引っ張ってみた。ふさふさしていた。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_アキラ_attacks_クレイ_p3821
+        quote: 物騒な事を言いながらさっと左右に分かれてクレイを取り囲む俺たち。
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_賢者スマダルツォン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0108_賢者スマダルツォン_appears_as_オルヴァ_p3806
+        quote: その後に現れた賢者スマダルツォンは終末の予言を告げたことで有名だが、その外見的特徴が伝説的なカシュラムの祭司にして霊媒でもあったオルヴァと酷似していた。
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キシャル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0108_キシャル_saves_アキラ_p3807
+        quote: 救い出してくれたのは、あの二人だ。 今にして思えば、囚われたオルヴァが隠者ウォレスと入れ替えられたのは『生存説』を確定させる為だろう。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_キシャル_other_髪_p3812
+        quote: 糸に操られたオルヴァに襲われたキシャルは、その腹部から右腕を出現させた。 冥界でも目にしたあの右腕は、確かに俺を呪縛していた髪の毛だけを断ち切り、それによって俺は自由意志を取り戻せたのだ。
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0108_トリシューラ_makes_呪術機械_p3808
+        quote: トリシューラが改造してくれていたのだ。ちびシューラの意識を計算する呪術機械によって、俺というキャラクターが再現されているのだろう。
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ちびシューラ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0108_ちびシューラ_says_検索_p3809
+        quote: （検索すれば）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_ちびシューラ_says_慰め_p3810
+        quote: （あのさー、アキラくんさー、こう言うときって落ち込んでるシューラを頼れる使い魔が慰めてくれる展開が妥当じゃない？ それっぽくない？）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_ちびシューラ_confesses_役立たず_p3813
+        quote: （ごめんねアキラくん。期待させたのにシューラ役立たずで）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_ちびシューラ_confesses_敵の情け_p3814
+        quote: （今の状況は、シューラじゃなくて敵の情けのお陰。シューラは役立たずだった。むしろ足手まといだった。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_ちびシューラ_other_カーイン/カイン_p3831
+        quote: （あれ、説明してなかったっけ？ カーインとかカインって、元は古い時代の勇士の伝説に出てくるんだよ。地獄ではジャッフハリム四十四士、地上ではクロウサー家の守護者として広まっているんだ。
+        locator: {}
+        spoiler_after: ch0108
+    name:
+      observations:
+      - event_ref: E_ch0108_ちびシューラ_names_クレイ＝スマダルツォン_p3817
+        quote: （クレイだっ！ クレイ＝スマダルツォン！ 以前、地下迷宮で戦っただろうが！ トーナメントにも出場していた！）
+        locator: {}
+        spoiler_after: ch0108
+    action:
+      observations:
+      - event_ref: E_ch0108_ちびシューラ_makes_ダミー_p3828
+        quote: 同時にちびシューラが呪文を構築して切断された糸に接続する。 敵の糸をクラッキングすることで、『俺たちが糸によって支配されている』と相手に思い込ませるための措置だ。
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0108_クレイ_appears_右腕_p3815
+        quote: 出し抜けに響いた声に驚いて、俺たちは揃って左腕の断端のあたりを見た。 その上には、とても小さな、切断された腕が乗っている。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_クレイ_transforms_デフォルメ男性_p3816
+        quote: 再びその場所を見ると、腕に代わって奇妙な存在が現れていた。 俺やちびシューラと同じような、二頭身にデフォルメされた男性だ。
+        locator: {}
+        spoiler_after: ch0108
+    speech:
+      observations:
+      - event_ref: E_ch0108_クレイ_says_召集_p3817
+        quote: （知れたこと。俺は陛下の軍勢の一部。ゆえに【召集】の呪術によって、いついかなる時であっても馳せ参じる事が可能なのだ）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_クレイ_other_高位の使い魔_p3818
+        quote: （――高位の使い魔は主の資質に応じた召集形態を有する。杖ならば使い魔の肉体を作り起動させる、邪視ならばその姿を幻視する、というようにな。貴様は二君に仕えるという恥知らずな真似をしているから、その両方ができるはずだ）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_クレイ_says_死人の森の軍勢_p3819
+        quote: （我ら【死人の森の軍勢】は生と死を行き来する無敵の兵。生殖を司る我らが母の胎内から現れることができるのは勿論、死した者たちが埋められる地の底からも這い出すことができる。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_クレイ_threatens_アキラたち_p3820
+        quote: （ふん、まあいい。不本意だが役目を果たさねばならん。貴様ら、我らの軍門に下ることを許してやってもいいぞ。そら頭を垂れろ。額を地面に擦り付けるがいい）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_クレイ_other_アキラたち_p3824
+        quote: （貴様ら、陛下の命が無ければ本当に殺している所だぞ――いいからふざけてないで真面目にやれ。こちら相手に優位に立とうなどと考えるな。必要最小限の協力だけしてこの状況を切り抜けたら、後はまた敵に戻るだけだ）
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_クレイ_other_協力関係_p3825
+        quote: （ああ。陛下はまず第一にグレンデルヒの打倒を目指しておられる。故に貴様らと手を結ぶことを決意された。加えて、ラクルラールとやらが貴様らに伸ばしている呪縛の糸を、俺に断ち切るように申しつけられた）
+        locator: {}
+        spoiler_after: ch0108
+    action:
+      observations:
+      - event_ref: E_ch0108_クレイ_other_剣詩舞_p3822
+        quote: クレイは華麗なステップを踏み、舞という儀式によって大魔将すら切り刻む必殺の大呪術を発動させようとして、重心を崩して見事に転んだ。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_クレイ_attacks_アキラとちびシューラ_p3824
+        quote: と、艶やかな漆黒の髪は刃の様に頭部から切り離されて、なんとこちらに飛来してきた。弧を描いて回転していく髪の束が、俺とちびシューラの頭上すれすれを通過していく。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_クレイ_other_糸_p3828
+        quote: 周囲に見つからないよう、存在を希薄にしていたクレイが手刀を振るう。 触手のように伸びてきていた糸が断ち切られ、
+        locator: {}
+        spoiler_after: ch0108
+    name:
+      observations:
+      - event_ref: E_ch0108_クレイ_names_クレイ・ガレニス・クロウサー_p3826
+        quote: （――それが、この呪術儀式の結果ということだ。次はさしずめクレイ・ガレニス・クロウサーにでもなるのだろうさ）
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0108_レオ_other_カーイン_p3827
+        quote: 「【召集】のやり方をセージに教えて貰っていたので、呪文を唱えて来てもらいました――けどねカーイン？ ちょっと遅いよ？」
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_レオ_other_カーイン_p3828
+        quote: 「だから？ 呼んだらすぐ来て。できないならできるようになって」「承知。精進致します」
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_レオ_other_カーイン_p3833
+        quote: 「僕、カーインには期待してるから。頑張ってね」 レオは、相変わらずの可愛らしい笑顔を浮かべてそう言った。
+        locator: {}
+        spoiler_after: ch0108
+    action:
+      observations:
+      - event_ref: E_ch0108_レオ_other_カーイン役_p3830
+        quote: レオは俺の左腕をグラッフィアカーネことグラに渡して、にこりと笑って台本を広げた。役名の一覧には、『カーイン』という名が記されている。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_レオ_other_新しい解釈_p3831
+        quote: 「『実は関係があった』のです！ 『上』に伝わる物語と『下』に伝わる物語、二つの起源が一つなら、それはよく再解釈して語り直せば一つに繋ぐことができるはず――というわけで、クロウサー家の物語とベフォニス退治の物語をくっつけた、新しい解釈のストーリーを上演します。
+        locator: {}
+        spoiler_after: ch0108
+      - event_ref: E_ch0108_レオ_other_カーインたち_p3832
+        quote: しかし、レオは相変わらずの柔らかな微笑みを浮かべたまま、「でも、こっちの方が楽しそうじゃありません？」 と言って、何気なく細い指先で青い三角耳に触れた。
+          猫の耳に繋がっている青い糸が、一瞬だけ震えて、そのまま動きを止める。
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロウ・カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0108_ロウ・カーイン_arrives_アキラ_p3827
+        quote: 俺の左腕を拾って、断端に軽く触れて意思を伝えてくるのはロウ・カーインだった。
+        locator: {}
+        spoiler_after: ch0108
+  first_appearance_candidate: true

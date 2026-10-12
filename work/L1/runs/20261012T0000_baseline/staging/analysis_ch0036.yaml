@@ -1,0 +1,263 @@
+chapter: ch0036
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 6
+  themes: 1
+  quotes_verified: 16
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0036_アズーリア_repairs_折れた脚_p1496]]'
+  object: '[[ME_現代医療の応急処置]]'
+  claim: 魔法による治療が、現代の整形外科的な処置（整復、固定、創傷処置）とほぼ同じ手順・リスク管理で行われている。
+  quote: 幸い皮膚が破れている様子は無い。開放骨折を放置したまま気を失うのは余りにも危険だったから、その点は運が良かったと言える。しかし、血管や筋肉、神経が傷付いている可能性がある。腫れはかなり酷く、炎症を起こしているようだった。
+  paragraph: p1496
+  confidence: strong
+  quotes:
+  - quote: 幸い皮膚が破れている様子は無い。開放骨折を放置したまま気を失うのは余りにも危険だったから、その点は運が良かったと言える。しかし、血管や筋肉、神経が傷付いている可能性がある。腫れはかなり酷く、炎症を起こしているようだった。
+    paragraph: p1496
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0036_アズーリア_other_端末通信_p1497]]'
+  object: '[[ME_スマホの圏外・バッテリー切れ]]'
+  claim: 異世界の通信端末が「結晶が繋がらない」という理由で機能不全に陥る描写は、現代のスマホが電波塔の死角やバッテリー切れで使えなくなる状況を模倣している。
+  quote: 駄目だ、端末のグロートニオン結晶が繋がらない――
+  paragraph: p1497
+  confidence: moderate
+  quotes:
+  - quote: 駄目だ、端末のグロートニオン結晶が繋がらない――
+    paragraph: p1497
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0036_タマ_gives_綿菓子と水飴_p1497]]'
+  object: '[[ME_ゲームの回復アイテム]]'
+  claim: タマが差し出す綿菓子と水飴が「呪力補給源」として機能し、食事よりも高効率であるという描写は、RPGにおけるHP/MP回復アイテムの消費を象徴している。
+  quote: ふわりとした甘さが舌に蕩けた。失われた呪力と体力が急速に取り戻されていくのがわかった。ハルベルトには申し訳無いけれど、昼に食べた重箱の中身よりずっと高効率な呪力補給源だった。
+  paragraph: p1497
+  confidence: strong
+  quotes:
+  - quote: ふわりとした甘さが舌に蕩けた。失われた呪力と体力が急速に取り戻されていくのがわかった。ハルベルトには申し訳無いけれど、昼に食べた重箱の中身よりずっと高効率な呪力補給源だった。
+    paragraph: p1497
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0036_アズーリア_activates_アストラル体_p1499]]'
+  object: '[[ME_VRアバター・オンラインゲーム]]'
+  claim: 肉体を置き去りにして精神のみを移動させ、アバターとして他者と接触する描写は、VR技術やオンラインゲームにおけるアバター操作のメタファーである。
+  quote: 精神の遊離。実体のみを残して、浮き立つ心をそのまま解き放つ。意識は遠くに、意思は高みへ。私自身の居場所を置き去りにして、私は透明な姿となって高く飛翔した。その姿は小さく丸い黒衣の二頭身。
+  paragraph: p1499
+  confidence: moderate
+  quotes:
+  - quote: 精神の遊離。実体のみを残して、浮き立つ心をそのまま解き放つ。意識は遠くに、意思は高みへ。私自身の居場所を置き去りにして、私は透明な姿となって高く飛翔した。その姿は小さく丸い黒衣の二頭身。
+    paragraph: p1499
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0036_ハルベルト_reveals_キュトスの姉妹の候補者_p1515]]'
+  object: '[[ME_アイドルグループのメンバー選抜]]'
+  claim: 「いないなら作ってしまえばいい」という発想から、候補者を選出し競争させるという構造は、現代のアイドルグループやオーディション番組におけるメンバー選抜プロセスを想起させる。
+  quote: ある時、誰かが考えた。いないなら、作ってしまえばいいじゃない。反対意見も当然あったらしいが、どのような力学が働いたものか、その発想は形を得てしまった。【最後の魔女】を創造し、選定し、決定する計画。
+  paragraph: p1515
+  confidence: moderate
+  quotes:
+  - quote: ある時、誰かが考えた。いないなら、作ってしまえばいいじゃない。反対意見も当然あったらしいが、どのような力学が働いたものか、その発想は形を得てしまった。【最後の魔女】を創造し、選定し、決定する計画。
+    paragraph: p1515
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0036_ハルベルト_reveals_人外化の代償_p1516]]'
+  object: '[[ME_美容整形・身体改造]]'
+  claim: 「人ならざる存在になるために必要なこと」として、意図的に身体的特徴（耳、紋様）を改変したという説明は、理想の姿を追求するための身体的改造（整形、タトゥー等）の比喩として読める。
+  quote: 左右非対称の耳。胴体を蠢く、黒い血の紋様。それらは全て、人ならざる存在になるために必要なことなのだと彼女は語った。
+  paragraph: p1516
+  confidence: weak
+  quotes:
+  - quote: 左右非対称の耳。胴体を蠢く、黒い血の紋様。それらは全て、人ならざる存在になるために必要なことなのだと彼女は語った。
+    paragraph: p1516
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0036_アズーリア_thinks_期待と失望_p1506]]'
+  object: '[[ME_推し活・ファン心理]]'
+  claim: 師匠に対して「素敵な人」という理想像を投影し、その裏切り（現実の欠点）に激怒するアズーリアの心理は、アイドルやキャラクターに対する過剰な期待と失望（推し活の闇）を逆転させた構造を持つ。
+  quote: 本当はこう思ってた。折角――私が助けてあげたのに。お礼の一つも無いなんて。彼女の命を救ったということを盾にしたかった。厳しくて険しい目でこちらを睨んでくる彼女の、時折見せる優しさを欲しがってしまった。
+  paragraph: p1506
+  confidence: strong
+  quotes:
+  - quote: 本当はこう思ってた。折角――私が助けてあげたのに。お礼の一つも無いなんて。彼女の命を救ったということを盾にしたかった。厳しくて険しい目でこちらを睨んでくる彼女の、時折見せる優しさを欲しがってしまった。
+    paragraph: p1506
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0036_ミルーニャ_suspects_ハルベルトの重力操作_p1501]]'
+  object: '[[ME_保険・リスク管理]]'
+  claim: ミルーニャが「保険として」衝撃緩和材を用意し、最悪の事態（墜落死）に備える行動は、現代のリスク管理や保険商品の概念をファンタジー世界に適用したものである。
+  quote: わかりました、あの口先女ではなく、二度もミルーニャを助けてくれたアズーリア様の言葉を信じます。ただし、保険としてミルーニャ達が真下で待機してからです。念のために枯れ木と腐葉土と布で即席の衝撃緩和材を作っておきますので、その上に落ちてきて下さい。
+  paragraph: p1502
+  confidence: moderate
+  quotes:
+  - quote: わかりました、あの口先女ではなく、二度もミルーニャを助けてくれたアズーリア様の言葉を信じます。ただし、保険としてミルーニャ達が真下で待機してからです。念のために枯れ木と腐葉土と布で即席の衝撃緩和材を作っておきますので、その上に落ちてきて下さい。
+    paragraph: p1502
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0036_プリエステラ_has_property_アルラウネ_p1522]]'
+  object: '[[ME_植民地支配・先住民の抹殺]]'
+  claim: ティリビナの民が「松明の騎士団」により故郷を焼かれ、絶滅を望まれているという背景は、歴史上の植民地支配における先住民の迫害・抹殺を想起させる。
+  quote: かつて眷族種と異獣の境界線にいた種族であり――現在は【異獣】と見なされて地上から排斥され、大神院に絶滅を望まれている種族。その故郷であるミューブランを焼き払い不毛の砂漠に変えたのは【松明の騎士団】だ。
+  paragraph: p1523
+  confidence: strong
+  quotes:
+  - quote: かつて眷族種と異獣の境界線にいた種族であり――現在は【異獣】と見なされて地上から排斥され、大神院に絶滅を望まれている種族。その故郷であるミューブランを焼き払い不毛の砂漠に変えたのは【松明の騎士団】だ。
+    paragraph: p1523
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0036_ハルベルト_reveals_選定理由_p1518]]'
+  object: '[[ME_マッチングアプリ・相性診断]]'
+  claim: ハルベルトがアズーリアを選んだ理由として「呪文との相性」「年齢」「趣味の共通性」を挙げることは、現代のマッチングアプリにおける相性診断やプロフィール検索のロジックに酷似している。
+  quote: 理由はさっき言った。それにあなたは呪文と相性が良いタイプだから、【呪文の座】の候補者であるハルと相性がいいと考えた。【夜の民】と【耳長の民】は同じように月から呪力を引き出すから、その点でも息が合わせやすいと思うし――それに歳も同じくらいで、あとは、事前調査で趣味が、その
+  paragraph: p1518
+  confidence: moderate
+  quotes:
+  - quote: 理由はさっき言った。それにあなたは呪文と相性が良いタイプだから、【呪文の座】の候補者であるハルと相性がいいと考えた。【夜の民】と【耳長の民】は同じように月から呪力を引き出すから、その点でも息が合わせやすいと思うし――それに歳も同じくらいで、あとは、事前調査で趣味が、その
+    paragraph: p1518
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_太陰の王女と月の実家
+  note: ハルベルトが太陰の王女であり、月に実家があるという設定。月の政治状況や、ハルベルトが地上に来た真の理由（王位継承権、追放、逃亡など）が今後の展開で重要になる可能性。
+  quotes:
+  - quote: もしかしなくてもそう。周りから王女として敬われたことなんてなかったけど。胎児の時から呪術で調整を受けてきた影響で、こんな半端な見た目になったせいで――いつか絶対、最後の魔女として凱旋して全員平伏させてやる
+    paragraph: p1516
+    quote_verified: true
+  - quote: 月の実家に帰ってもそのまま日帰りとかで、同郷の友達とかも、全然いないし
+    paragraph: p1514
+    quote_verified: true
+  expected_payoff: 月の勢力との対立、ハルベルトの王位継承問題、または月への帰還が物語のクライマックスに関わる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_キュトスの姉妹の残り候補者
+  note: 「邪視」「使い魔」「杖」の座にいる残り3人の候補者が世界槍に存在し、活動を開始しているという情報。彼らとの遭遇・競争が今後の主要な対立軸となる。
+  quotes:
+  - quote: 他の三人の候補者も既にこの場所で活動を始めていて――着いたのはハルが一番最後。勝利条件はそれぞれで違うらしいけれど、とにかくその『競い合い』の為に彼女はこの地に足を踏み入れたのだという。
+    paragraph: p1516
+    quote_verified: false
+  expected_payoff: 他の候補者との戦闘、協力、または裏切り。各座の勝利条件の謎解き。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_プリエステラの正体とティリビナの民
+  note: プリエステラが「最後のティリビナの巫女」であり、レルプレア神と交信できるという設定。ティリビナの民の歴史（松明の騎士団による迫害）と、彼女が世界槍に隠れている理由が明かされる。
+  quotes:
+  - quote: 私はプリエステラ。大いなる森の母、レルプレア神と交信できる――もう最後になってしまった、【ティリビナの巫女】よ
+    paragraph: p1523
+    quote_verified: true
+  - quote: 槍神教の追撃の手から逃れるために、世界槍の内部、古代世界に隠れ住んでいるという噂は聞いたことがあった。
+    paragraph: p1523
+    quote_verified: true
+  expected_payoff: ティリビナの民の復讐、レルプレア神の介入、またはプリエステラがアズーリア達にとっての味方か敵かの決着。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ガーデニア（クチナシ）の伏線
+  note: ハルベルトがアズーリアの趣味として「ガーデニア」を挙げ、アズーリアが反応しなかったこと。この花が象徴するもの（純潔、秘密の愛、毒など）が今後の関係性や事件の鍵となる可能性。
+  quotes:
+  - quote: あの、ガーデニア」「はい？」「だから、クチナシ――梔子と言ったの」「それが、何か？」
+    paragraph: p1518
+    quote_verified: false
+  expected_payoff: アズーリアの過去、ハルベルトの調査能力、または特定の呪術・アイテムとの関連。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_フィリスの行方と万色彩星
+  note: アズーリアが仲間達にフィリスの事と【万色彩星】を使った事実を隠した。この秘密がバレた時、またはフィリスが再び現れた時の反応が重要。
+  quotes:
+  - quote: フィリスの事をどう説明していいのかわからなかったのだ。それに、伝説上にしか記述が無い大呪術、【万色彩星】を使ったミレノプリズムだなんて、言ったところで冗談だと思われるだけだ。
+    paragraph: p1501
+    quote_verified: true
+  expected_payoff: 仲間との信頼関係の崩壊、またはフィリスの正体（英雄/魔将）に関する真実の露見。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ハルベルトの「弱さ」の正体
+  note: ハルベルトが「弱くていい」「前衛も後衛もこなせる超人ではない」と自虐的に語る。彼女が「人外化」の代償として失ったもの、または隠している能力の真実。
+  quotes:
+  - quote: どうせ、どこかの亜光速移動しながら邪視と杖を同時に操る英雄とか、呪術医で狼の変身者の二重職ウィッチドクターシェイプシフター業な悪役みたいに前衛も後衛もこなせたりしないもの
+    paragraph: p1512
+    quote_verified: true
+  expected_payoff: ハルベルトの真の能力の覚醒、または彼女が「弱さ」を克服する過程での成長。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 理想の投影と現実の受容：師弟関係の再構築
+  weight: 0.9
+  quotes:
+  - quote: 貴方は――もっと素敵な人だって思っていたから。ごめんなさい、私が勝手に理想を押しつけただけです。お師様は単に、元々そういう人だったってだけですよね
+    paragraph: p1508
+    quote_verified: true
+  - quote: 弱くていい――ちゃんと、私が守ればハルベルトが前で戦える必要なんてないから。だから、その、さっきはごめんなさい
+    paragraph: p1512
+    quote_verified: true
+  note: アズーリアがハルベルトに抱いていた「完璧な師匠」という理想像が崩壊し、欠点だらけの現実の人間として受け入れ、対等なパートナーシップ（弟子入り）へと昇華する過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

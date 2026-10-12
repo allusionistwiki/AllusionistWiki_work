@@ -1,0 +1,266 @@
+episode: ch0103
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0103_アキラ_observes_敵_p3687
+        quote: 俺は三つの首のうち一つに宿るとその双眸を開き、しかと敵を見据えた。
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_アキラ_other_プロンプター_p3691
+        quote: 俺はひとまず飾りの頭として主導権をグラ演じるサイザクタートに委ね、台詞や次の行動を教えるプロンプターとしての役割に徹することにした。
+        locator: {}
+        spoiler_after: ch0103
+    speech:
+      observations:
+      - event_ref: E_ch0103_アキラ_thinks_後悔_p3687
+        quote: 左の頭から演劇の空間を見る俺は、激しい後悔に苛まれていた。
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_アキラ_says_殺せ_p3688
+        quote: （よし殺せストレスを溜め込むのは身体に良くないつまり俺たちは奴に脳を攻撃されている！）
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_アキラ_remembers_カイン_p3693
+        quote: ただ、息絶えたカインと、血に濡れた右側の義肢のことを、少しだけ思い出して、感情の温度が下がっただけだ。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ウォゾマ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0103_ウォゾマ_attacks_サイザクタート_p3687
+        quote: サイザクタートを演じるグラッフィアカーネことグラは俺のせいでまんまとウォゾマ演じるグレンデルヒの策略に嵌ってしまったというわけである。
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_ウォゾマ_flees_現場_p3688
+        quote: ウォゾマ（グレンデルヒのことだが、グラの精神衛生上こう呼ぶのはよろしくないので役名で呼ぶ）は俺の打撃を受け、サイザクタートの宣言を聞いた後、何故か「今に見ていろ」などと小悪党のような捨て台詞と共に去っていった。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_演劇空間]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0103_演劇空間_has_property_実物_p3687
+        quote: 小道具大道具は実物に変じており、木々も岩も踏みしめた土も冷たい空気も、全てが夜の森そのものだった。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0103_グラ_thinks_職場の不安_p3688
+        quote: 何この人、先輩がだいぶアレとか本当にこの職場大丈夫なの――とかグラが内心で後悔しているのが感じられる。
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_グラ_confesses_サイザクタートへの思い_p3690
+        quote: 「少し、胸がすっとしました。昔、サイザクタートの事、あ、子孫の方ですけど、あいつをあんな感じで悪く言う奴がいて。そう言う時、俺は我慢しなかったなって思い出しました」
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_グラ_reveals_鈴の入手経緯_p3695
+        quote: 「ええ、あれはサイザクタートの遺品です。あいつから家宝を奪い取った【変異の三手】の副長、イアテムとか言う奴を第三階層の裏面で襲ってどうにか取り戻しました。
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_グラ_other_役者の制約_p3697
+        quote: 「無理です！　だって今、サイザクタートは声をかけたくないって思ってます！　なら、それを覆すだけの材料が無いと動けない！」
+        locator: {}
+        spoiler_after: ch0103
+    relationship:
+      observations:
+      - event_ref: E_ch0103_グラ_other_サイザクタート_p3691
+        quote: 亡き幼なじみの先祖を演じる、というのは、彼なりの喪の儀式なのかもしれない。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴィヴィ＝イヴロス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0103_ヴィヴィ＝イヴロス_disappears_幕間_p3689
+        quote: 先程の幕間ではヴィヴィ＝イヴロスは姿を見せなかった。
+        locator: {}
+        spoiler_after: ch0103
+    speech:
+      observations:
+      - event_ref: E_ch0103_ヴィヴィ＝イヴロス_names_ティーアードゥ_p3705
+        quote: 「平伏せよ罪人たちよ！　我が名はティーアードゥである！」
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_台本]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0103_台本_defines_本筋_p3689
+        quote: なにせこの話の本筋は王子ヴァージルとサイザクタートの関わりの方であって、ヒュールサスの因習にサイザクタートが立ち向かうとかそういったものではない。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_時系列]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0103_時系列_has_property_矛盾_p3689
+        quote: まず時系列がおかしいのだ。話の開始時点で、既に神々の図書館が破壊されてしまっている。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0103_コルセスカ_says_マラードへの願望_p3690
+        quote: 特にマラードとか、「思い切り拒絶して罵倒してプライドをへし折った後に優しく許して受け入れてあげたい」とか言ってたのでああこいつトリシューラの姉妹なんだなと思いました。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サイザクタート]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0103_サイザクタート_functions_as_冥道の番犬_p3692
+        quote: 冥道の番犬は、罪人たちを洞窟の向こうに連れて行き、冥界行きという刑罰を与える役目も担っている。
+        locator: {}
+        spoiler_after: ch0103
+    speech:
+      observations:
+      - event_ref: E_ch0103_サイザクタート_says_制止_p3704
+        quote: 「ヴァージルッ！　それ以上は駄目だ！　戻れなくなるっ！」
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロドウィ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0103_ロドウィ_appears_ジヌイービ_p3692
+        quote: 珊瑚の角を持つ蛙、ジヌイービ。
+        locator: {}
+        spoiler_after: ch0103
+    action:
+      observations:
+      - event_ref: E_ch0103_ロドウィ_carries_罪人_p3692
+        quote: ロドウィなるジヌイービが連れてきたのは、ウォゾマの時と同じように、人が詰め込まれた袋である。
+        locator: {}
+        spoiler_after: ch0103
+    speech:
+      observations:
+      - event_ref: E_ch0103_ロドウィ_says_殺人への畏怖_p3693
+        quote: 「おっかねえおっかねえ。人を殺すなんてとんでもねえ。そういうのは神さまのなさることだ。俺たち下々のもんがやっていいことじゃねえや」
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0103_ヴァージル_learns_死の麻痺_p3694
+        quote: 匿われているヴァージルは大量の生が死へと変じていくのを見て、やがて死というものに対する感覚が麻痺していく。
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_ヴァージル_other_テスモポリス_p3702
+        quote: 次の瞬間、ヴァージルは信じがたい暴挙に出た。抵抗する間を与えず、テスモポリスの額に口づけたのだ。
+        locator: {}
+        spoiler_after: ch0103
+    speech:
+      observations:
+      - event_ref: E_ch0103_ヴァージル_says_テスモポリスへの愛_p3699
+        quote: 「ごめんね、僕のテスモポリス。君を一人にしてしまった。でも安心して。君を追いかけて、ここまで来たんだよ。もうあの男に縛られることも無い。君は自由だ。だから、僕と一緒にここを出よう？　外の世界で二人で生きよう」
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_ヴァージル_says_テスモポリスへの執着_p3700
+        quote: 「曾お祖母様、曾々お祖母様、ご先祖様――『ママ』。どうして、今までの王家のみんなは良かったのに、僕だけは駄目なの？」
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_ヴァージル_says_妊娠_p3701
+        quote: 「生まれてくるよ。だって念入りに、念入りに、お墓の中に入ってまで愛してあげたんだもの」
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_ヴァージル_other_子供_p3703
+        quote: 「楽しみだなあ、楽しみだなあ！　可愛い可愛い、僕たちの子供だよ！　名前はなんて付けようか？
+        locator: {}
+        spoiler_after: ch0103
+    visual:
+      observations:
+      - event_ref: E_ch0103_ヴァージル_has_property_非対称な耳_p3701
+        quote: 頭頂部にある三角形の猫耳、右側頭部にある兎の垂れ耳、そして左側頭部にあるテスモポリスそっくりの尖った耳。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_鈴]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0103_鈴_appears_as_金剛杵_p3694
+        quote: サイザクタートはその鈴を手にしてヴァージルを連れ戻そうとすることになるのだが、その形状は金剛杵という宗教的な道具にとてもよく似ていた。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ケイト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0103_ケイト_appears_サイザクタートの右頭_p3696
+        quote: 「やあやあはじめまして僕。右側の頭である僕は、サイザクタートの理性が人格を持って現れた存在なのさ。
+        locator: {}
+        spoiler_after: ch0103
+      - event_ref: E_ch0103_ケイト_stops_サイザクタート_p3696
+        quote: 「本当にいいのかい？　そうしたら、君の、失敬、僕たちの醜い姿が彼の愛らしい目に映ってしまうよ？　彼の純真な心は、それに耐えられるだろうか。彼の目を穢してしまうことになるのではないかな？」
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_世界劇場]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0103_世界劇場_defines_演劇の力_p3698
+        quote: 黙ったままの意思よりも、音として発話された意思の方が重みがある。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_テスモポリス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0103_テスモポリス_appears_冥道の幼姫_p3699
+        quote: 蜂蜜色の髪、灰色の瞳。
+        locator: {}
+        spoiler_after: ch0103
+    action:
+      observations:
+      - event_ref: E_ch0103_テスモポリス_other_屍蝋化した腕_p3703
+        quote: 産み落とされたのは、屍蝋化した腕。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ティーアードゥ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0103_ティーアードゥ_appears_機械仕掛け_p3704
+        quote: 暗闇の背景を引き裂いて、機械仕掛けが出現する。
+        locator: {}
+        spoiler_after: ch0103
+  first_appearance_candidate: true

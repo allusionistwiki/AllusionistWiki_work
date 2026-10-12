@@ -1,0 +1,252 @@
+chapter: ch0015
+created: '2026-09-30'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 4
+  themes: 1
+  quotes_verified: 21
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0015_トリシューラ_makes_広告塔_p672]]'
+  object: '[[ME_influencer_marketing]]'
+  claim: 異世界転生者の「武勲」をSNSのフォロワー数や広告収入に換算する現代のインフルエンサー経済の構造を、トリシューラのマネジメント行為がパロディ化している。
+  quote: トリシューラが肖像権侵害で訴訟することをちらつかせながら法外な金銭を要求している様子を見て絶句した。これはもう俺の手には負えない。
+  paragraph: p672
+  confidence: strong
+  quotes:
+  - quote: トリシューラが肖像権侵害で訴訟することをちらつかせながら法外な金銭を要求している様子を見て絶句した。これはもう俺の手には負えない。
+    paragraph: p672
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0015_探索者協会_attacks_アキラ_p674]]'
+  object: '[[ME_internet_flame_war]]'
+  claim: 功績の独占を巡る争いが、匿名のネットユーザーによる断片的な情報に基づく「炎上」へと発展する様子は、現代のSNSにおけるキャンセルカルチャーや誹謗中傷の構造と一致する。
+  quote: あとはもう炎上一直線だ。俺は他人の功績を掠め取ろうとする詐欺師であるというような風評が流布しつつある。
+  paragraph: p675
+  confidence: explicit
+  quotes:
+  - quote: あとはもう炎上一直線だ。俺は他人の功績を掠め取ろうとする詐欺師であるというような風評が流布しつつある。
+    paragraph: p675
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0015_公社_makes_新紙幣_p678]]'
+  object: '[[ME_fiat_currency_meme]]'
+  claim: 紙幣が単なる交換価値だけでなく、国家権力（呪的権威）による承認を通じて文化的図像（ミーム）を強制し、思想を伝播させるメディアとして機能するという記述は、フィアット通貨の信用創造とプロパガンダ機能を指している。
+  quote: 文化を媒介するものには全て呪力が宿る。それを国家なんていう呪的権威が承認したら、その呪術的強度は等比級数的に跳ね上がってしまう
+  paragraph: p679
+  confidence: strong
+  quotes:
+  - quote: 文化を媒介するものには全て呪力が宿る。それを国家なんていう呪的権威が承認したら、その呪術的強度は等比級数的に跳ね上がってしまう
+    paragraph: p679
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0015_キロン_names_真名_p695]]'
+  object: '[[ME_true_name_magic]]'
+  claim: 真名を名乗ることで物理的・精神的な支配力を行使するキロンの行為は、ファンタジーにおける「真名の力」のクリシェを、呪術的な権威の行使として再構成している。
+  quote: その意味の量、込められた呪的な力が桁違いだったのだ。魔将エスフェイルがその名を吠えた時よりも雄々しく、二人の魔女が同時に名乗りを上げた時よりもずっとおぞましく。
+  paragraph: p696
+  confidence: strong
+  quotes:
+  - quote: その意味の量、込められた呪的な力が桁違いだったのだ。魔将エスフェイルがその名を吠えた時よりも雄々しく、二人の魔女が同時に名乗りを上げた時よりもずっとおぞましく。
+    paragraph: p696
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0015_レオ_makes_フィランソロピー_p715]]'
+  object: '[[ME_altruism_vs_utilitarianism]]'
+  claim: レオの「見返りを求めない、拒絶されても続く施し」は、アキラが依拠してきた「効用」や「生存」を基準とした合理的判断（功利主義）を、純粋なフィランソロピー（博愛）によって逆転・批判している。
+  quote: レオが作り出すその表情の、行動の、なんと尊いことだろうか。圧倒的な善性。溢れんばかりのフィランソロピー。人は、見知らぬ誰かに優しくすることができる。
+  paragraph: p715
+  confidence: strong
+  quotes:
+  - quote: レオが作り出すその表情の、行動の、なんと尊いことだろうか。圧倒的な善性。溢れんばかりのフィランソロピー。人は、見知らぬ誰かに優しくすることができる。
+    paragraph: p715
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0015_アキラ_thinks_マクガフィン_p716]]'
+  object: '[[ME_macguffin]]'
+  claim: 主人公が他者から求められる「価値」を、物語を動かすための道具に過ぎない「マクガフィン」として自己認識するのは、メタフィクション的な自己客体化であり、ゲーム的な「主人公特権」の虚構性を指摘している。
+  quote: 多分それは金メッキのトロフィーに価値を仮構するような、偽りの値札なんだよ。ゲーム用のおもちゃの通貨。舞台用のマクガフィン。
+  paragraph: p716
+  confidence: explicit
+  quotes:
+  - quote: 多分それは金メッキのトロフィーに価値を仮構するような、偽りの値札なんだよ。ゲーム用のおもちゃの通貨。舞台用のマクガフィン。
+    paragraph: p716
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0015_キロン_other_キュトスの姉妹_p706]]'
+  object: '[[ME_mythological_demonization]]'
+  claim: トリシューラを「邪神キュトスの末裔」として宗教的・神話的に排除しようとするキロンの論理は、歴史上の魔女狩りや異端審問における「悪魔化」の構造を指している。
+  quote: 神話の時代、偉大なる槍神は不死の邪神を七十一の肉片に引き裂いたと言われている。キュトス、というのはその邪神の名だ。
+  paragraph: p706
+  confidence: moderate
+  quotes:
+  - quote: 神話の時代、偉大なる槍神は不死の邪神を七十一の肉片に引き裂いたと言われている。キュトス、というのはその邪神の名だ。
+    paragraph: p706
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0015_アキラ_says_サイバーカラテの定義_p676]]'
+  object: '[[ME_genre_classification]]'
+  claim: 「サイバーカラテ」が既存の武術カテゴリー（空手、中国武術）に収まらないと激怒する場面は、ジャンル分類への執着や「俺のジャンルは俺が定義する」というネット文化特有のアイデンティティ政治をパロディ化している。
+  quote: サイバーカラテはサイバーカラテなんだよ空手でも中国武術でも無い新時代の純粋外家拳だからそういう安易なカテゴライズは不要なのわかる？！
+  paragraph: p676
+  confidence: strong
+  quotes:
+  - quote: サイバーカラテはサイバーカラテなんだよ空手でも中国武術でも無い新時代の純粋外家拳だからそういう安易なカテゴライズは不要なのわかる？！
+    paragraph: p676
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_キロンの真名の正体
+  note: キロンの真名は「刺激が強すぎて」聞くと意識を失うほどの呪力を持つ。その真名が何であるか、またそれがトリシューラやコルセスカ、あるいは「星見の塔」とどう関連するかが未回収。
+  quotes:
+  - quote: 俺の真名は用意も無しに聞かせるには少々刺激が強すぎてね。
+    paragraph: p695
+    quote_verified: true
+  - quote: その意味の量、込められた呪的な力が桁違いだったのだ。
+    paragraph: p696
+    quote_verified: true
+  expected_payoff: キロンの真名が明かされることで、彼の出自（神話的由来）やトリシューラとの因縁の深さが判明し、戦闘の勝敗を左右する鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの離反と紙幣発行
+  note: ちびシューラは、トリシューラ以上の高位呪術師の反応がコルセスカ以外に感じられないことから、コルセスカが公社の紙幣発行に関与し、トリシューラを裏切った可能性を疑っている。
+  quotes:
+  - quote: シューラと並ぶような呪術師なんて、それこそ【星見の塔】の他には世界中探しても数えるほどしか
+    paragraph: p682
+    quote_verified: true
+  - quote: でも、シューラより強力な呪術師の反応なんてセスカ以外には全く感じられないんだもの。
+    paragraph: p683
+    quote_verified: true
+  expected_payoff: コルセスカが公社側についたことが確定し、トリシューラとの決定的な対立、あるいはアキラを巻き込んだ三方の争いが勃発する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_レオの「言葉が通じない」特異性
+  note: レオは言語が通じない相手（ティリビナ人など）ともジェスチャーで意思疎通を試みている。この「言語を介さないコミュニケーション」が、アキラの「言語による疎外」と対比され、レオの正体（異世界人としての適応能力）を示唆する。
+  quotes:
+  - quote: レオが話しかけ、はたらきかける相手は様々だ。傷病者、物乞い、昆虫系種族、幼子を含む街娼。
+    paragraph: p713
+    quote_verified: true
+  - quote: 言葉が通じていない。その程度の事実など、何の障害にもなりはしないと、証明するかのように。
+    paragraph: p715
+    quote_verified: true
+  expected_payoff: レオがアキラとは異なる「転生者」としての性質（言語依存度の低さ、直感力）を持ち、最終的にアキラの欠落した「居場所」を象徴する存在として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの「左腕」の代償
+  note: キロンはエスフェイルの力（寄生異獣）で左腕を補えると提案している。これがアキラの「闇と死を掌握する権能」への堕落、あるいはトリシューラへの裏切りへの誘因となる。
+  quotes:
+  - quote: 望みさえすれば、魔将エスフェイルの力は新たな左腕となって君を助けるだろう――闇と死を掌握する権能と共に
+    paragraph: p703
+    quote_verified: true
+  expected_payoff: アキラが左腕を得るためにトリシューラを売る、あるいはキロンの誘いに乗ることで、トリシューラとの関係が破綻し、アキラが「邪悪」の側へ傾く転換点となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「居場所」の不在と、他者からの承認（価値）の虚構性
+  weight: 0.9
+  quotes:
+  - quote: 多分それは金メッキのトロフィーに価値を仮構するような、偽りの値札なんだよ。ゲーム用のおもちゃの通貨。舞台用のマクガフィン。
+    paragraph: p716
+    quote_verified: true
+  - quote: 俺が未だに居場所を持たないのは、言葉のせいではなくて。
+    paragraph: p715
+    quote_verified: true
+  note: アキラはトリシューラやキロンから「価値ある存在」として扱われているが、レオの純粋な善性を見て、その価値が「マクガフィン（物語上の道具）」に過ぎないと自覚する。これは転生者としての自己肯定感の崩壊と、真の居場所の探求を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 言語の限界と、フィランソロピーによる超越
+  weight: 0.8
+  quotes:
+  - quote: レオが作り出すその表情の、行動の、なんと尊いことだろうか。圧倒的な善性。溢れんばかりのフィランソロピー。
+    paragraph: p715
+    quote_verified: true
+  - quote: 言葉が通じなかった俺は、彼のような事はできなかった。
+    paragraph: p715
+    quote_verified: true
+  note: アキラが依拠する「言語・論理・取引」による世界構築が、レオの「非言語的・無条件な施し」によって無効化される。コミュニケーションの根本的なあり方を問う主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 経済的・宗教的権威による支配の不可視性
+  weight: 0.7
+  quotes:
+  - quote: 文化を媒介するものには全て呪力が宿る。それを国家なんていう呪的権威が承認したら、その呪術的強度は等比級数的に跳ね上がってしまう
+    paragraph: p679
+    quote_verified: false
+  - quote: 紙幣っていうのはその在り方が既にして呪符なの。呪符は紙幣であるとも言えるけど
+    paragraph: p680
+    quote_verified: true
+  note: 公社の紙幣発行が、単なる経済政策ではなく「思想の伝播（洗脳）」という呪術的支配であることが明かされる。現代のメディア・経済支配の構造を、呪術というメタファーで描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 「正義」の相対性と、トリシューラの邪悪の肯定
+  weight: 0.6
+  quotes:
+  - quote: 問題は、いざその邪悪さが自分の身近な人に向けられた時にだけ、都合良くトリシューラを非難しそうになったというその無責任さそれ自体にある。
+    paragraph: p708
+    quote_verified: true
+  - quote: 俺は一度トリシューラの邪悪を肯定した。今もそれを肯定し、追認し続けている。
+    paragraph: p708
+    quote_verified: true
+  note: キロンがトリシューラを「邪悪」と断罪するのに対し、アキラはトリシューラの邪悪を「自分の利益のため」として肯定してきた。その自己欺瞞（レオの善性との対比）が、アキラの倫理的な葛藤を生む。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

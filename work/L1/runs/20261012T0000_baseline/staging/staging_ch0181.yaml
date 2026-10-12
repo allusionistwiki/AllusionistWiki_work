@@ -1,0 +1,416 @@
+episode: ch0181
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_アキラ_breaks_操り糸_p5992
+        quote: 降りてきた青い糸を、指先でつまんで軽く千切る。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_アキラ_attacks_ドラトリア_p5993
+        quote: 『炎上』や『虜』といった高位呪術がアストラルの海を乱れ飛び、ドラトリアが誇る高位呪術防壁の網をするりと抜けていった。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0181_リールエルバ_says_運命からの解放_p5992
+        quote: 私はもう、私を闇の底に押し込めようとする運命には縛られない。私は私だけの意思で、望みの全てを叶えてみせる
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_リールエルバ_says_ガロアンディアン侵攻の正当性_p5996
+        quote: 前提が間違っている。この世界槍における第五階層は元々『死人の森』が統べる領域であり、固有の領土だ。私は侵略者に対する正統な防衛を行っているだけだ
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_リールエルバ_defines_ドラトリアの総意_p5997
+        quote: 私こそがドラトリアであり、私の意思がドラトリアの総意だ。既に我が国は民主的にこの決定を受け入れた。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_リールエルバ_says_トリシューラへの警告_p5999
+        quote: 舞台の幕は上がった。この状況を作った時点で、お前には既に無傷の勝ちは無くなったのよ、トリシューラ。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_リールエルバ_says_聖姫の不在_p6013
+        quote: その通りだ。信頼できるシナモリアキラに壁の外に連れ出して貰った。ここは隔離された壁の中。聖姫のいるべき場所ではない
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_リールエルバ_other_アキラ_p6015
+        quote: アキラ、そこのリーナは強敵よ。容赦は不要。ミルーニャ諸共、殺していいわ
+        locator: {}
+        spoiler_after: ch0181
+    action:
+      observations:
+      - event_ref: E_ch0181_リールエルバ_kills_動画配信者_p5994
+        quote: 冷や汗をかく男の首を指先から伸ばした血の刃で切断しつつ、夜の王は言った。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_リールエルバ_transforms_動画配信者_p5999
+        quote: 不可視の手で全身を掴まれた男は声も出せずに目を見開き、自分の胸の中に細い手指がめり込んでいくのを眺めることになった。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_リールエルバ_deceives_トリシューラ_p6025
+        quote: 宣言通りに恐怖による印象を振りまいても、逆に蹂躙されて惨めな姿を晒しても――『隔離されたもの』としての存在を世に示すことができる
+        locator: {}
+        spoiler_after: ch0181
+    symbolic:
+      observations:
+      - event_ref: E_ch0181_リールエルバ_functions_as_情報戦の主体_p5995
+        quote: 印象を微調整し、文脈を自らに引き寄せ、自陣営の正統性を主張しつつ敵対陣営の悪辣さを強調する。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_魔竜レーレンターク]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_魔竜レーレンターク_defeats_対地攻撃_p5992
+        quote: 大型の無人ヘリによる火炎放射、爆撃呪術、聖水散布といった対地攻撃が、魔竜の羽が羽ばたくだけで吹き散らされていく。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ドラトリア]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_ドラトリア_reveals_汚点_p5993
+        quote: 貴族院議員の汚職が白日の下に晒され、プライベートでの差別発言が暴かれる。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_動画配信者]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_動画配信者_uses_動画加工呪術_p5994
+        quote: 即死した瞬間に自らを中心とした映像を『加工』して死を回避した超高位動画配信者は、第五階層が破壊されていく光景を配信しながら叫んだ。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_動画配信者_other_セリアック＝ニアの映像_p5998
+        quote: 動画配信者は端末を持ち上げ、空中の瘴気に過去の映像を投影してみせた。
+        locator: {}
+        spoiler_after: ch0181
+    speech:
+      observations:
+      - event_ref: E_ch0181_動画配信者_asks_リールエルバ_p5995
+        quote: お、恐れ多くもリールエルバ新女王？　いや国王陛下？　に突撃インタビュー！　しちゃったりしてもいいっすかね、どうでしょ実際
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_動画配信者_asks_破壊の正当性_p5998
+        quote: この凄惨な破壊行為を、亡き妹殿下の前で正しいと言えますか
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_探索者たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_探索者たち_fights_魔竜_p6000
+        quote: 魔竜との戦いにおいて主役となっているのは上空から九門の砲塔で呪術射撃を続けるグレンデルヒ、無尽蔵に生み出される巨大石像を操りながら自身も戦車の如き勢いで魔竜に攻撃を仕掛けるルバーブ、荒ぶる天災として魔竜と正面から格闘するアルマの三人だが
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_探索者たち_learns_魔竜の無敵性_p6004
+        quote: つまり、魔竜には文脈を絡めた攻撃が一切通用しない。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_探索者たち_fights_シナモリアキラ_p6016
+        quote: 高名な英雄ではなく、名も無き探索者が始祖吸血鬼という大物を倒した。ならば我々にだってまだ勝ち目はある。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0181_ミヒトネッセ_asks_ツインテール_p6001
+        quote: 魔竜に撃とうとしているそぶりを見せてね。周囲に狙いを気付かれないように
+        locator: {}
+        spoiler_after: ch0181
+    action:
+      observations:
+      - event_ref: E_ch0181_ミヒトネッセ_finds_ツインテール_p6001
+        quote: やがて常人の視力を超えた人形の瞳がそれを見つける。　浮遊するツインテールの美少女呪文使いである。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_作家志望の男]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_作家志望の男_other_浄界の破壊_p6002
+        quote: 巨大怪獣殺人事件。新人賞の投稿作にするためのネタとして創世竜を捕獲しようとした作家志望の男は浄界を内側から破壊されて白目を剥いた。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_呪術師]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_呪術師_stops_魔竜_p6002
+        quote: かろうじて無事な道に交通呪文を描き、国際規格の道路標識杖を掲げた呪術師が魔竜の前に立ちはだかった。しかし巨大ネズミの進撃は止まらない。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルヴァオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0181_ルヴァオ_other_魔竜_p6003
+        quote: ネズミの王を名乗る煙の怪物、その身の証を立てたいと望むならば、言理の妖精にかけて、この小さな箱に入ってみせよ！
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_扉職人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_扉職人_teleports_魔竜_p6003
+        quote: 魔竜は大量の影と共に飲み込まれ、扉諸共に消失した。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_魔竜]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_魔竜_kills_ルヴァオ_p6004
+        quote: 見え透いた挑発であり、多くの物語の筋では賢者の口車に乗せられて怪物はこのまま封じられてしまうのが常ではあるが、魔竜はそのような呪文に捕らわれたりはしなかった。空気を読まない踏みつけがルヴァオを圧殺する。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アヴロノ女性]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_アヴロノ女性_flees_戦場_p6005
+        quote: 「あー無理無理、いい加減キリ無いわこれ」　つば広帽子のアヴロノ女性がうんざりしたように言った。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_アヴロノ女性_other_通信_p6006
+        quote: 端末に『戦場に戻れ』という旨の通信が入るが、帽子のアヴロノは素知らぬ顔で無視
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_アヴロノ女性_other_瘴気_p6008
+        quote: 通常の呪術基盤は一応有効。参照系呪文の無意味さが不自然。そもそも繋がって無いのか――瘴気は正体不明
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_アヴロノ女性_stops_宣名_p6010
+        quote: 突如として甲高い音が響き渡り、長々とした口上を遮った。　帽子のアヴロノが音響符を投げつけたことで周囲の音が掻き消され、宣名が強制的に中断されたのだ。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_アヴロノ女性_uses_マジックミサイル_p6011
+        quote: 前に出て音響符を破壊したアキラに乱射された矢が直撃。体内に潜り込んだ光の矢は爆発して熱と衝撃を撒き散らす。
+        locator: {}
+        spoiler_after: ch0181
+    speech:
+      observations:
+      - event_ref: E_ch0181_アヴロノ女性_names_巨大シナモリアキラ_p6012
+        quote: 「汝の御名にまことは非ず！　其は原初の遊戯、幼子笑う名付けの魔法！　言理の妖精語りて曰く、『お腹ゴロゴロ村のゲリ便ブリブリ太郎』！」
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0181_ガロアンディアン_has_property_非愛国化_p6005
+        quote: ガロアンディアンは家を自由に創造する仮宿の街、非定住の都市だ。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_桃髪ポニーテール]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0181_桃髪ポニーテール_says_聖なる穢れ_p6006
+        quote: 物理浄化で一掃は無理だよ。ドラトリアの『聖なる穢れ』だもん。隔離して再封印してもかえって王権を強化する結果になりそう。
+        locator: {}
+        spoiler_after: ch0181
+    action:
+      observations:
+      - event_ref: E_ch0181_桃髪ポニーテール_kills_男性探索者_p6007
+        quote: 桃髪ポニーテールはちょうど良い、とばかりに呪符を槍に貼り付けてネズミまみれの男の背中に突き入れて、ぺろりと舌を出しながら片目を瞑って謝意を示す。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_桃髪ポニーテール_kills_アメーバ・アキラ_p6011
+        quote: 転がした標的目掛けて電磁加速した槍が吸い込まれていく。イアテムの斬撃すら凌駕する『岩穿ち』の呪詛がアメーバの核を破壊し、絶命させた。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_桃髪ポニーテール_kills_巨大シナモリアキラ_p6012
+        quote: 桃色のポニーテールが槍の先端に巨大な矢尻を『創造』し、それに合わせるように灰色のアヴロノが固定式の巨大な弓を『創造』する。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アメーバ・アキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0181_アメーバ・アキラ_appears_壁_p6009
+        quote: 壁から染み出した流動する水――あるいは液状の原生生物がくぐもった声で言った。
+        locator: {}
+        spoiler_after: ch0181
+    speech:
+      observations:
+      - event_ref: E_ch0181_アメーバ・アキラ_says_外破_p6010
+        quote: 『外破』――これこそ俺たち病気持ちのシナモリアキラが固有に持つ『病の形』を解放する特殊宣名。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_巨大シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0181_巨大シナモリアキラ_appears_壁_p6011
+        quote: そして、『分身』を殺されたことで激怒した『本体』がその擬態を解除。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0181_シナモリアキラ_has_property_漢数字_p6012
+        quote: よく見れば、細かい粒子となって消滅していくアメーバの残骸に、日本語の『拾壱』という漢数字が刻まれていた。
+        locator: {}
+        spoiler_after: ch0181
+    action:
+      observations:
+      - event_ref: E_ch0181_シナモリアキラ_attacks_リーナ_p6015
+        quote: その影の中からぬっと現れたのは病的に白い肌と血のように赤い目を持つシナモリアキラ。白い影は滑らかに浮遊し、勢い良くリーナに飛びかかる。
+        locator: {}
+        spoiler_after: ch0181
+    symbolic:
+      observations:
+      - event_ref: E_ch0181_シナモリアキラ_has_property_病人_p6016
+        quote: 病気持ちのシナモリアキラたちは病としての性質を色濃く受け継いでおり、それゆえに重い症状に苦しんでいる。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ・ゾラ・クロウサー]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0181_リーナ・ゾラ・クロウサー_asks_リールエルバ_p6013
+        quote: 「あれー？　こっちいったと思ったのに、ニアちゃんどこー？！」
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0181_リーナ_says_肯定できない暴力_p6014
+        quote: 私は、それを許すわけにはいかないんだ
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_トリシューラ_suspects_リールエルバ_p6016
+        quote: 「何か変だ。魔竜以上に、カーティス――ううん、リールエルバが見えない」
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_トリシューラ_uses_ライブ映像_p6017
+        quote: トリシューラは離れた場所で戦っているカーインに『心話』で呼びかけ、同時に『夢』のライブを表示できる立体幻像装置を積んだドローンを戦場の各所に配置。
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_トリシューラ_other_罠_p6024
+        quote: 「違う、違うの、そうじゃない。最初からだ。初手から失敗してた。魔竜を倒してリールエルバを倒しても意味が無いの！」
+        locator: {}
+        spoiler_after: ch0181
+    speech:
+      observations:
+      - event_ref: E_ch0181_トリシューラ_other_印象の編集_p6024
+        quote: 念写映像は主観のバイアスがかかるの。私がそうならないから、すっかり失念していたけど――印象が映像の流れを編集して加工してるんだよ
+        locator: {}
+        spoiler_after: ch0181
+      - event_ref: E_ch0181_トリシューラ_fears_迫害の再演_p6026
+        quote: カーティスと戦っちゃ駄目だったんだ。勝利した瞬間、私は隔離と迫害と虐殺の歴史を再演することになってしまう！
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_カーイン_kills_コレラ・アキラ_p6017
+        quote: そして、遂にカーインがコレラ・アキラの『紀命点』を探り出し、正確に貫手を突き入れることに成功した。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_コルセスカ_other_マジカルアピール_p6017
+        quote: 絶好の踏み出しから美しいジャンプを決めるコルセスカが戦場の空を舞い、ジャンプと同時にマジカルアピールを決める。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_蠍コーダマラ尾]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_蠍コーダマラ尾_kills_シナモリアキラ_p6019
+        quote: 砂袋を担いだシナモリアキラ。彼の胸の中心に刻印された『参』の数字を毒針で貫き、致命的な呪毒を注ぎ込む。
+        locator: {}
+        spoiler_after: ch0181
+    symbolic:
+      observations:
+      - event_ref: E_ch0181_蠍コーダマラ尾_other_世界_p6020
+        quote: 見えない壁が、精神活動を含めたあらゆる動きを封じている。
+        locator: {}
+        spoiler_after: ch0181
+    speech:
+      observations:
+      - event_ref: E_ch0181_蠍コーダマラ尾_other_偏見の声_p6021
+        quote: 「妊娠しないからゴムとか使わないんだって」「不特定多数と関係」「ああいう閉じたコミュニティって外から見えないからさー」
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イツノ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0181_イツノ_saves_蠍コーダマラ尾_p6022
+        quote: 突如、ためらいが混じった声が響き、青い流水の膜が薄く蠍尾の周囲を覆い隠した。
+        locator: {}
+        spoiler_after: ch0181
+    speech:
+      observations:
+      - event_ref: E_ch0181_イツノ_says_治水の権力_p6023
+        quote: 古来、治水のわざは権力だった。河川の王は田畑や穀倉地帯に水を引き、富を築いた。
+        locator: {}
+        spoiler_after: ch0181
+  first_appearance_candidate: true

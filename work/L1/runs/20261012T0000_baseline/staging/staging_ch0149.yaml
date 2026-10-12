@@ -1,0 +1,268 @@
+episode: ch0149
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_少年]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0149_少年_observes_光と影の秩序_p5053
+        quote: 踏める場所と踏めない場所を見極めて軽やかに進むのは年端もいかない少年だ。 子供には光と影の秩序が理解できていた。
+        locator: {}
+        spoiler_after: ch0149
+    speech:
+      observations:
+      - event_ref: E_ch0149_少年_thinks_滅びの美しさ_p5054
+        quote: 滅び行くさだめの美しさ。 砕けていく、燃えていく、灰となり虚無の彼方へと消えていく、そのあまりに残酷な光景に、言いようのない感動を覚える自分もまた存在したのだ。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_少年_says_終わりの始まり_p5055
+        quote: ――おわりのはじっこが、たべられちゃってるよ？
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_母]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0149_母_promises_目隠しの禁止_p5054
+        quote: 大人になるまでは、決してその覆いをとってはいけませんよ。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_シナモリアキラ]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0149_シナモリアキラ_appears_仮面の男_p5056
+        quote: たなびく真紅の鉢巻き、白い道着、不似合いな黒いマント。 真っ白な仮面をつけた男は自らをシナモリアキラと名乗り
+        locator: {}
+        spoiler_after: ch0149
+    speech:
+      observations:
+      - event_ref: E_ch0149_シナモリアキラ_says_サイバーカラテの正義_p5056
+        quote: ヒーローは周囲を顧みない。サイバーカラテマンの正義は『殴って良さそうなものを気持ちよく鉄拳制裁』だ！
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_システム]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0149_システム_names_鵺_p5057
+        quote: 対象識別コード『鵺』の追跡調査を継続する。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_システム_names_大入道_p5059
+        quote: 対象識別コード『大入道』の追跡調査を継続する。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_システム_names_鎌鼬_p5060
+        quote: 対象識別コード『鎌鼬』の追跡調査を継続する。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_システム_names_百々目鬼_p5063
+        quote: 対象識別コード『百々目鬼』の追跡調査を継続する。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_システム_names_絡新婦_p5065
+        quote: 対象識別コード『絡新婦』の追跡調査を継続する。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_システム_names_鬼_p5066
+        quote: 対象識別コード『鬼』の追跡調査を継続する。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_システム_names_塗壁_p5067
+        quote: 対象識別コード『塗壁』の追跡調査を継続する。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_システム_names_子泣き爺_p5070
+        quote: 対象識別コード『子泣き爺』の追跡調査を継続する。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_システム_names_件_p5073
+        quote: 対象識別コード『件』の追跡調査を継続する。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_システム_names_九尾_p5075
+        quote: 対象識別コード『九尾』の追跡調査を不本意ながら継続せざるを得ない。
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_システム_names_大蛇_p5082
+        quote: 対象識別コード『大蛇』の来訪を歓迎する。待ってたよ、私のプロトタイプ・アキラ姫。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_神父]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0149_神父_attacks_下出身者_p5057
+        quote: 巨躯の男が長大な槍を振るうと、『下』出身の者たちが次々と引き裂かれて無残な屍を晒す。
+        locator: {}
+        spoiler_after: ch0149
+    speech:
+      observations:
+      - event_ref: E_ch0149_神父_says_神罰_p5058
+        quote: 異端と異教徒は死ね。神の教えに背く咎人、進化論を唱える愚者、堕胎肯定の不埒者、摂理を否定する異常性欲者、唾棄すべき数秘悪魔オッキュテスバの信奉者ども、ことごとく死すべし
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_殺人鬼]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0149_殺人鬼_says_劣化コピー_p5059
+        quote: シナモリアキラっつーか、その劣化コピー的な？ オリジナルちゃんマジリスペクトしてるわけよ。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_自警団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0149_自警団_attacks_殺人鬼_p5061
+        quote: 我らはサイバーカラテの理念を体現する者。我らはシナモリアキラの意思の代行者。我らはこの第五階層の治安を守る自警団である。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ギャルシューラ]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0149_ギャルシューラ_activates_精神修養コース_p5062
+        quote: 精神修養コースを開始。社会奉仕プログラムへの貢献によって貴様の罪は濯がれる。これから貴様は地域の安全を守る良き人々に生まれ変わるのだ
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_樵]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0149_樵_attacks_ティリビナ人_p5064
+        quote: 左腕が丸ごとチェーンソーとなって呪文を纏いながら木々と引き裂き、右腕もまたチェーンソーとなって高周波を撒き散らしながら逃げ惑うティリビナ人を襲う。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_元軍人]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0149_元軍人_thinks_屍の山_p5066
+        quote: 足りぬな。ズタークスタークとの決戦で失われたあの屍の山にはまだ到底届いておらぬ。武の頂は遥か天の彼方、か。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_岩肌種]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0149_岩肌種_says_武のてっぺん_p5066
+        quote: おらはシナモリアキラってもんだ。武のてっぺんさ目指してる
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_岩肌種_reveals_ラウス＝ベフォニス_p5067
+        quote: 『ラウス＝ベフォニス』――跡目は兄貴に譲ったんだげども、おっ死んだっつーんだからなぁ。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_吸血鬼]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0149_吸血鬼_deceives_青年_p5069
+        quote: 老人は安心したように男の手を取り、「あ――？」 そのまま軽く小指を捻るようにして動きを封じつつ、流れるように青年を抱きしめる。
+        locator: {}
+        spoiler_after: ch0149
+    visual:
+      observations:
+      - event_ref: E_ch0149_吸血鬼_has_property_頭痛_p5069
+        quote: 吸血鬼の中でも煙草を愛する血統に連なる老人は、ひどい偏頭痛持ちだった。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_変身者]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0149_変身者_transforms_マレブランケ_p5070
+        quote: どろどろに融けていく正体不明の工作員は襲撃者から距離を取って肉体を固定していく。その姿は『マレブランケ』に酷似していた。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_奴隷男]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0149_奴隷男_says_予言_p5071
+        quote: 偉大なる予言王はこう仰っている。次に『鉄球は囮であったか』とお前は言うだろう、と
+        locator: {}
+        spoiler_after: ch0149
+    action:
+      observations:
+      - event_ref: E_ch0149_奴隷男_uses_媒鳥_p5072
+        quote: すなわち置き鳥――媒鳥である。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0149_ミヒトネッセ_bonds_男_p5074
+        quote: アダム・カドモンは一人でいい。私の『再演』がお前の願いを叶え、私はお前の『Ｅ－Ｅ』となる。
+        locator: {}
+        spoiler_after: ch0149
+    speech:
+      observations:
+      - event_ref: E_ch0149_ミヒトネッセ_says_トリシューラへの妄想_p5075
+        quote: そして、最後の一人となった私をトリシューラは『やっぱり私の使い魔はあなただけだよアキラくん――ううん、ミヒトネッセ！ 大好き！』って感じで抱きしめてくれるの！
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_男]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0149_男_uses_バイオカラテ_p5077
+        quote: むしろ『制御』に重きを置くサイバーカラテの対極――過負荷によって肉体の力を過度に引き出すバイオカラテに近い。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_品森晶]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0149_品森晶_appears_少女_p5078
+        quote: 暴力の化身とでも呼ぶべき男と対照的に、挑戦者は象牙細工のように華奢だった。
+        locator: {}
+        spoiler_after: ch0149
+    action:
+      observations:
+      - event_ref: E_ch0149_品森晶_activates_ウィッチオーダー・プロト／アゴニスト_p5080
+        quote: 認証コード『アニマ』。起動――ウィッチオーダー・プロト／アゴニスト
+        locator: {}
+        spoiler_after: ch0149
+      - event_ref: E_ch0149_品森晶_kills_男_p5080
+        quote: 頭部から叩き落とされた男は首の骨を折られて絶命している。
+        locator: {}
+        spoiler_after: ch0149
+  first_appearance_candidate: true

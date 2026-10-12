@@ -1,0 +1,348 @@
+episode: ch0062
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0062_アズーリア_remembers_葉っぱの伝言板_p2302
+        quote: 『第五階層には関わらない方がいいってどういうこと？　みんなは大丈夫なの？』『いえ、ティリビナの民に危険がある、ということではありません。ただ、アズーリア様が連絡するのはやめた方がいいということです』
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_アズーリア_thinks_アキラへの決別_p2312
+        quote: アキラはもう敵なんだ。　だから、全部、切り捨てないと。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_アズーリア_promises_アキラへの連絡_p2326
+        quote: 「――うん。ありがとう、リーナ」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_アズーリア_says_アキラへの言葉_p2330
+        quote: 「どうして、私に都合のいいことばかり言うの」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_アズーリア_makes_アキラへの継続連絡の依頼_p2333
+        quote: 『もしよろしければ、これからもこうしてお話していただけませんか』
+        locator: {}
+        spoiler_after: ch0062
+    action:
+      observations:
+      - event_ref: E_ch0062_アズーリア_uses_端末_p2302
+        quote: 呪術儀式の準備で色々と忙しくしている私たちは、端末を片手にライブ相談をしていた。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_アズーリア_helps_リーナ_p2317
+        quote: 私はリーナの髪を左右で三つ編みにし始めた。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_アズーリア_appears_闇の中_p2323
+        quote: 私の身体には今、力が満ちあふれている。　青い翼を広げて、枝角を伸ばした。　箒から離れ過ぎないように、重力を感じない闇の中をゆっくりと泳ぐ。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_アズーリア_carries_リーナ_p2326
+        quote: 私は翼を広げて無限に広がる闇から、そして星々と月から呪力を集め、青い翼でリーナを包み込むと、そのまま真っ直ぐに地表に向けて降下していった。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_アズーリア_makes_アキラへのメール_p2332
+        quote: 何気なく手をとって、ほとんど無意識にメールを打ち込んでしまう。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0062_プリエステラ_uses_新型機種_p2302
+        quote: プリエステラは、先日ミルーニャと一緒に買いに行ったという新型機種をややおぼつかない手付きで操作している。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_ミルーニャ]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0062_ミルーニャ_asks_アズーリア_p2302
+        quote: リーナが発見した【サイバーカラテ道場】とシナモリ・アキラから私への連絡を請う文面について皆に相談したところ、ほぼ満場一致でやめておけと言われた。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_ミルーニャ_bonds_トリシューラ_p2305
+        quote: 実はトリシューラは私の師であるベル・ペリグランティアお姉様から呪術医としての手ほどきを受けてます。その繋がりでちょっと相互に内通してまして
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0062_アキラ_threatens_アズーリアの英雄像_p2303
+        quote: 彼の存在は、槍神教が仕立て上げた私という『新たな英雄』の存在を揺るがしかねない。　不用意な接触はまずい。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_アキラ_is_located_敵対勢力_p2311
+        quote: 兎に角、そのアキラとかいう外世界人は明確に松明の騎士団と敵対している。
+        locator: {}
+        spoiler_after: ch0062
+    action:
+      observations:
+      - event_ref: E_ch0062_アキラ_kills_修道騎士_p2307
+        quote: アキラの左手に装着されている手斧は異常な切れ味で修道騎士たちを斬殺していく。両断される呪動装甲、飛び散る血飛沫。絶叫に次ぐ絶叫。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_アキラ_fights_トリギス_p2308
+        quote: アキラは次々と修道騎士を殺害していき、序列二十八位の修道騎士、トリギスと交戦する。
+        locator: {}
+        spoiler_after: ch0062
+    visual:
+      observations:
+      - event_ref: E_ch0062_アキラ_wears_義肢_p2307
+        quote: 映像に映し出されていたのは、紛れもなくあの外世界人だった。　先程【サイバーカラテ道場第五階層支部（仮）】で見た時とは異なり、円筒形の左腕がある。先端には単純な形状の手斧。
+        locator: {}
+        spoiler_after: ch0062
+    speech:
+      observations:
+      - event_ref: E_ch0062_アキラ_says_アズーリアへの感謝_p2329
+        quote: 「意外。けっこう丁寧な文面だ。それに、憎んでないって。お父さんの冥福を祈ります、だって。そっかそっか」
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0062_トリシューラ_other_ラクルラール派_p2303
+        quote: トリシューラは派閥としては使い魔と杖の派閥――ラクルラール派に属しています。つまりトライデントと同じ勢力なんです。これは彼女の庇護者である中立派のクレアノーズお姉様を人質に取られているために、やむを得ずにそういう選択をしているだけに過ぎませんが
+        locator: {}
+        spoiler_after: ch0062
+    name:
+      observations:
+      - event_ref: E_ch0062_トリシューラ_is_located_第五階層_p2303
+        quote: 面倒な事にきぐるみの魔女トリシューラの活動拠点でもありまして
+        locator: {}
+        spoiler_after: ch0062
+    speech:
+      observations:
+      - event_ref: E_ch0062_トリシューラ_has_property_反撃能力_p2304
+        quote: あのきぐるみの魔女には人質は通じません。いえ、通じることは通じるんですが、ある段階を踏み越えて追い詰め過ぎると人質ごと反撃されます。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ペリグランティア製薬]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0062_ペリグランティア製薬_is_located_第五階層_p2303
+        quote: あそこは、うちの――ペリグランティア製薬の探索事業部門である【公社】が進出して勢力を伸ばしているのですが
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリギス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0062_トリギス_disappears_消息_p2306
+        quote: きぐるみの魔女を捜索していた修道騎士トリギス率いる分隊が消息不明になった。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0062_リーナ_says_複雑な派閥関係への不満_p2306
+        quote: 「うがああああなんでこんなぐちゃぐちゃしてるの！　普通によーいどんで四人で殴り合えばいいじゃん！　いいじゃん！」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_asks_アズーリア_p2313
+        quote: 「気になってたんだけどさー」「うん」「この人は何、あれなの。アズーリアさんのいわゆるそういうあれなのっ？」「それはない」「なーんだ、つまらん」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_says_アキラへの評価_p2314
+        quote: 「何か色々事情があるのは聞いたけどさ、結局このアキラって人、たくさん人を殺してる悪者なんでしょ？　杖の座の使い魔ってことは敵なわけだし」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_confesses_ガルズへの後悔_p2315
+        quote: 「パレルノ山でさ、ガルズに色々聞いたじゃん？　で、思ったんだ。何で私、その時すぐ近くにいなかったんだろうって。何で平然と大学行ったり遊んだりバイトで探索してたんだろうって」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_says_炎上_p2317
+        quote: 「え、炎上しとる」「【炎上】？」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_promises_アズーリア_p2320
+        quote: 「私がさ、この空を晴れにしたら言うことひとつ聞いてくれる？」「いいよ」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_says_世界の自由_p2323
+        quote: 「なんていうか、あそこには世界の『ほんとう』があったんだって、そう思うの。あるがままっていうかさ。朝とか昼とか夜とか、そういう区別とか境界とか、全部人が定めたもので――空の向こうって、きっと私が想像してる以上に、怖いくらいに自由で」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_asks_アズーリア_p2324
+        quote: 「ね、晴れたから私の言うこと聞いてくれるよね」「それは、ずるって言わない？」「今、雨降ってないじゃん。だから晴れ」「確かに今ここにいる私たちにとってはそうかもしれないけど」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_threatens_アズーリア_p2325
+        quote: 「約束破ったら駄目なんだよー。ディスペータお姉様に言いつけちゃうぞー」「それだけはやめて」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_says_万色_p2327
+        quote: 私たちは、声を揃えてこう言った。「万色！」
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_promises_決戦_p2330
+        quote: 「ガルズを、マリーを止める。それが、私が今やりたいことだから」
+        locator: {}
+        spoiler_after: ch0062
+    action:
+      observations:
+      - event_ref: E_ch0062_リーナ_departs_アズーリアの部屋_p2315
+        quote: それだけ言って、リーナは勢いよく立ち上がると部屋を出て行った。　寝台の上に、三角帽子が所在なく載っている。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_takes_アズーリア_p2318
+        quote: 突然立ち上がり、私の手を引いて部屋の外に連れ出そうとする。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_travels_第一階層の高度_p2320
+        quote: 慣れた箒さばきで追撃を全て振り切ってみせると、リーナは私に一切負荷をかけることなくついに世界槍から枝上に伸びる第一階層の高度まで到達する。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_takes_鱗_p2321
+        quote: 世界を取り巻く大気そのものである第一の創世竜、界竜ファーゾナーを突き抜けていく。ついでにとばかりにリーナはその巨体から鱗の一枚を拝借していく。
+        locator: {}
+        spoiler_after: ch0062
+      - event_ref: E_ch0062_リーナ_makes_アキラへの連絡_p2329
+        quote: そして、アキラに対してそれと分からないように、無関係なリーナを装って連絡する。　そして、思惑通りあちらとメールのやりとりをすることに成功した、のだが。
+        locator: {}
+        spoiler_after: ch0062
+    visual:
+      observations:
+      - event_ref: E_ch0062_リーナ_uses_金箒花の箒_p2319
+        quote: リーナの箒はとても長い。明るい黄色の呪石製の軸に、頭は金色の花弁に彩られた枝でできている。　かつての幼馴染みたちと再会したあのパレルノ山で採集した金箒花を素材にした、高い呪力を宿した箒だ。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロドウィ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0062_ロドウィ_has_property_暴走傾向_p2306
+        quote: 【公社】、つまりうちの探索事業部門の部長代理であるロドウィは、少し暴走しがちな所があります。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カッサリオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0062_カッサリオ_appears_第六階層_p2308
+        quote: 「王獣カッサリオ、なんでこんなところに？！」　それは、アキラに続いて私にとって因縁深い相手だった。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0062_コルセスカ_appears_第六階層_p2309
+        quote: 何故かその場所にあの冬の魔女コルセスカが現れたかと思えば死んでいたり再生したりまた死んだり
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_メイファーラ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0062_メイファーラ_breaks_野菜ジュース_p2309
+        quote: その時、何故かメイファーラが飲んでいた野菜ジュースの紙パックをべこっと握りつぶす。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_謎の男性]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0062_謎の男性_saves_アキラ_p2309
+        quote: 見知らぬ長身の男性がカッサリオを攻撃してアキラの窮地を救ったり
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ソルダ・アーニスタ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0062_ソルダ・アーニスタ_loses_冷静さ_p2310
+        quote: 松明の騎士団の頂点に立つソルダ・アーニスタが、前世からの運命の恋人である冬の魔女コルセスカの事になると度を失う事は有名だったからだ。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_クロウサー家]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0062_クロウサー家_threatens_ハルベルト_p2316
+        quote: クロウサー家への復讐という襲撃の性質上、最終日に殺害されるのはサイリウス・ゾラ・クロウサーだろう。　つまり明日、ハルベルトが襲撃される。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_大神院]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0062_大神院_defines_天気_p2316
+        quote: 大神院の気象管理システム――すなわち天意を信徒に代弁する神託機械は、本日の天気は雨が望ましいと判断していた。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_メルトバーズ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0062_メルトバーズ_defines_地獄の資源_p2322
+        quote: 地上太陽――第八の創世竜メルトバーズが吐き出した炎。　地獄を完全に幸福な福祉社会として成立させている呪力の供給源であり、遠くない未来に枯渇することが確定している有限の資源。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0062_ハルベルト_names_リーナ_p2328
+        quote: 「星見の塔関係者である私たちの誰が連絡しても問題あり――けれど、ただ一人一切トリシューラや公社に警戒されない人物がいる」「それは？」「クロウサー家始まって以来のお天気頭、ゾラの血族最大の軽量型脳みその持ち主。
+        locator: {}
+        spoiler_after: ch0062
+    action:
+      observations:
+      - event_ref: E_ch0062_ハルベルト_dies_処刑_p2334
+        quote: 舞台上に立つ黒衣が揺らめき、フードを突き破って現れたのは体内の骨を押し固めて生成した三叉槍。　体内から体外へと肉の身体を引き裂く凶器は、またしても誰にも妨げられることなく目的を実行した。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マリー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0062_マリー_observes_ハルベルトの死_p2334
+        quote: 何もかもが予定調和。　闇の中で、マリーと呼ばれた少女がほくそ笑んだ。
+        locator: {}
+        spoiler_after: ch0062
+  first_appearance_candidate: true

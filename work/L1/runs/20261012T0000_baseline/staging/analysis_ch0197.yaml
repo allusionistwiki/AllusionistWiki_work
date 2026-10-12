@@ -1,0 +1,220 @@
+chapter: ch0197
+created: '2026-10-10'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0197_秩序派の血統術師_defines_血統の配列_p6621]]'
+  object: '[[ME_eugenics_and_genetic_engineering]]'
+  claim: 秩序派の血統術師による種族や血統の掛け合わせ・整列は、優生学や遺伝子工学に基づく人間改良の試みを暗示している。
+  quote: あらゆる種族。あらゆる人種。あらゆる血統。それらを掛け合わせ、整え、保存し、正しく配列する。
+  paragraph: p6621
+  confidence: strong
+  quotes:
+  - quote: あらゆる種族。あらゆる人種。あらゆる血統。それらを掛け合わせ、整え、保存し、正しく配列する。
+    paragraph: p6621
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0197_セインディアの博物城_appears_as_鳥籠_p6621]]'
+  object: '[[ME_platos_cave_and_panopticon]]'
+  claim: 外観が鳥籠のように見える博物城は、プラトンの洞窟の寓話やベンサムのパノプティコン（監視装置）を想起させ、管理された知と自由の欠如を象徴する。
+  quote: 幾つもの尖塔に囲まれた外観は巨大な鳥籠のようでもあり、色の無い光景はどこか温度の絶えた世界を思わせたからだ。
+  paragraph: p6621
+  confidence: moderate
+  quotes:
+  - quote: 幾つもの尖塔に囲まれた外観は巨大な鳥籠のようでもあり、色の無い光景はどこか温度の絶えた世界を思わせたからだ。
+    paragraph: p6621
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0197_父_other_冒険と自由_p6623]]'
+  object: '[[ME_hero_journey_call_to_adventure]]'
+  claim: 父の冒険譚は英雄の旅の「冒険への招待」だが、それは秩序ある社会（博物城）からは「不純物」や「悪影響」として排除される異端の行為として描かれている。
+  quote: この世界は本当はもっと自由なんだ。正しさとか必要性とか、そういうものだけで世界はできていない。冒険だよ冒険。
+  paragraph: p6623
+  confidence: strong
+  quotes:
+  - quote: この世界は本当はもっと自由なんだ。正しさとか必要性とか、そういうものだけで世界はできていない。冒険だよ冒険。
+    paragraph: p6623
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0197_母_other_父_p6624]]'
+  object: '[[ME_greek_tragedy_matricide_and_revenge]]'
+  claim: 冒頭と結末で繰り返される「幼いキニスに母殺しは早すぎた」という記述は、エレクトラやオレステイアなどのギリシャ悲劇における復讐譚の構造を逆転させ、復讐を果たせない（あるいは復讐の相手が母である）悲劇性を示唆する。
+  quote: 幼いキニスに母殺しは早すぎた。復讐譚の主人公となるには、彼女は優しすぎたのだ。
+  paragraph: p6621
+  confidence: explicit
+  quotes:
+  - quote: 幼いキニスに母殺しは早すぎた。復讐譚の主人公となるには、彼女は優しすぎたのだ。
+    paragraph: p6621
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0197_父_reveals_融血呪の秘儀_p6624]]'
+  object: '[[ME_alchemy_and_transmutation]]'
+  claim: 血液が青に変化し、異なる血統の力が融け合う「融血呪」は、錬金術における元素の転換や、対立する原理の統合（コイニオ・オポシトルム）を連想させる。
+  quote: 滴り落ちた血液がみるみるうちに赤から青への変化していく。深い色合いは、藍に近い。
+  paragraph: p6624
+  confidence: moderate
+  quotes:
+  - quote: 滴り落ちた血液がみるみるうちに赤から青への変化していく。深い色合いは、藍に近い。
+    paragraph: p6624
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0197_父_promises_自由_p6625]]'
+  object: '[[ME_fairy_tale_ending_and_royal_romance]]'
+  claim: 父が王となり子供たちを救うという展開は、おとぎ話やロマンス小説の「ハッピーエンド」のテンプレートを模倣しているが、娘によって「現実感が無く、空虚なもの」として否定されることでその虚構性が暴かれている。
+  quote: キニスは物語を想像した。それはひどく現実感が無く、空虚なものであるように思われた。
+  paragraph: p6626
+  confidence: strong
+  quotes:
+  - quote: キニスは物語を想像した。それはひどく現実感が無く、空虚なものであるように思われた。
+    paragraph: p6626
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_父の真の目的とオルヴァ王の血脈
+  note: 父が「上」で見つけたという「ノーグの末裔」「オルヴァ王の最後の血脈」を持つ少女。父はこれを切り札とし、キニスの新しい居場所になると言うが、その真意と少女の正体が不明。
+  quotes:
+  - quote: 実は、お前には会わせたい子がいるんだ。ずいぶん前に『上』で『子宮』を見つけた。ノーグの末裔だ。
+    paragraph: p6627
+    quote_verified: true
+  - quote: これは博物城のジジイどもに対する切り札であると同時に、お前にとっての新しい居場所になる。
+    paragraph: p6627
+    quote_verified: true
+  expected_payoff: この少女がキニスの運命を大きく左右する存在として登場するか、父の計画の核心が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_母の「正しさ」の限界と内部崩壊
+  note: 母は父を殺害し「失敗作」と断じるが、「ディスケイムには無かった可能性」としてその試みを完全に否定しきれず、キニスに外の世界への探索を命じる。秩序派内部の矛盾や、母の計画の破綻が示唆される。
+  quotes:
+  - quote: 失敗作にしては上出来な成果。ですがその身には過ぎた野心でした。
+    paragraph: p6629
+    quote_verified: true
+  - quote: しかしこれがディスケイムには無かった可能性であることも否定できない。
+    paragraph: p6630
+    quote_verified: true
+  expected_payoff: 母の厳格な秩序維持が何らかの危機（混沌の侵食など）によって破綻し、キニスの旅がその解決策となる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_キニスの「彩度」の喪失と回復
+  note: 父の死の記憶が「モノトーン」であり「彩度だけが無かった」と描写される。これは感情の麻痺や、父がもたらした「色彩（自由・混沌）」の喪失を象徴しており、キニスの成長と感情の回復がテーマとなる可能性。
+  quotes:
+  - quote: けれど、色だけが。モノトーンの記憶で再生されるあの瞬間には、彩度だけが無かった。
+    paragraph: p6628
+    quote_verified: true
+  expected_payoff: キニスが外の世界で「色」を取り戻し、感情や自我を再構築する過程が描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_「ユディーア」という名の意味
+  note: キニスが母の期待に応える形で「ユディーア」と名乗り、正義を受け継ぐ者として生きることを宣言する。この名前が単なる偽名なのか、何かの称号や呪いなのか不明。
+  quotes:
+  - quote: あたしは正義を受け継ぐ者。だから、ユディーアとして正しく生きます
+    paragraph: p6631
+    quote_verified: true
+  expected_payoff: 「ユディーア」というアイデンティティが、キニスの本当の自我との葛藤を引き起こすトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 秩序と自由の対立、および管理された社会における個人の抑圧
+  weight: 0.9
+  quotes:
+  - quote: 彩度に乏しい白と黒の古城を、遊び場であり修練場でもあった中庭から見上げるたび、キニスは得体の知れない寒気に身体を震わせた。
+    paragraph: p6621
+    quote_verified: true
+  - quote: この世界は本当はもっと自由なんだ。正しさとか必要性とか、そういうものだけで世界はできていない。
+    paragraph: p6623
+    quote_verified: true
+  note: 博物城の「正しさ」と父の「自由」の対比が物語の中心軸であり、キニスの葛藤は社会規範と個人の欲望の狭間で生じている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 親の期待と自己犠牲によるアイデンティティの喪失
+  weight: 0.85
+  quotes:
+  - quote: 期待に応えて母に喜んで貰いたい、褒めて欲しいという欲求もある。けれど、それを成し遂げたところで自分は満たされないだろうという漠然とした予感が少女の中にはあった。
+    paragraph: p6622
+    quote_verified: true
+  - quote: 本当は外の世界が怖かったから、踏み出す不安を誤魔化すために『優しい自分』で正当化を図ろうとしただけではなかったか。
+    paragraph: p6627
+    quote_verified: true
+  note: キニスが母の期待（正しさ）と父の誘い（自由）の間で揺れ動き、最終的に母の期待に従うことで自己を殺す選択をする心理描写が詳細に描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 復讐の不能性と「優しさ」の呪い
+  weight: 0.7
+  quotes:
+  - quote: 幼いキニスに母殺しは早すぎた。復讐譚の主人公となるには、彼女は優しすぎたのだ。
+    paragraph: p6621
+    quote_verified: true
+  - quote: 怒りと憎しみと怨恨と復讐と。それらにまつわる物語は、少女には向いていなかった。
+    paragraph: p6631
+    quote_verified: true
+  note: 伝統的な復讐譚の主人公像（怒りや憎しみを持つ者）と対照的に、キニスの「優しさ」が彼女を復讐者たらしめず、受動的な犠牲者へと追いやっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶の改竄とトラウマの不可視化
+  weight: 0.6
+  quotes:
+  - quote: 頬にかかる鮮血の感触を覚えている。死にゆく命の温度を覚えている。父の瞳から光が失われていく光景が、今も記憶に焼き付いている。
+    paragraph: p6628
+    quote_verified: true
+  - quote: 母の腕が父の心臓を貫いたあの時、キニスは何を感じていたのか、詳しく思い出そうとしてもわからない。
+    paragraph: p6628
+    quote_verified: true
+  note: 物理的な記憶は鮮明に残っているが、感情の記憶が欠落しているという描写は、トラウマによる防衛機制や、記憶の信頼性の崩壊を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

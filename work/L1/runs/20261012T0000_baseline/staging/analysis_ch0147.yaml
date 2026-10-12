@@ -1,0 +1,230 @@
+chapter: ch0147
+created: '2026-10-10'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0147_カーティスの群れ]]'
+  object: '[[ME_クラウドソーシング_分散処理]]'
+  claim: カーティスが多数の個体として情報を収集・共有し、並列処理で結論を出す様子は、クラウドソーシングや分散コンピューティングの仕組みを擬人化している。
+  quote: あるカーティスは市民の影から影へと渡り、あるカーティスは旅行者やアンケート調査を装って地道に聞き込みを行い、またあるカーティスは相手を強引に物陰に引きずり込んでその牙の餌食とし、己の眷属にして手足を増やした。
+  paragraph: p4999
+  confidence: strong
+  quotes:
+  - quote: あるカーティスは市民の影から影へと渡り、あるカーティスは旅行者やアンケート調査を装って地道に聞き込みを行い、またあるカーティスは相手を強引に物陰に引きずり込んでその牙の餌食とし、己の眷属にして手足を増やした。
+    paragraph: p4999
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0147_絶対美少女吸血姫神リールエルバ様教団]]'
+  object: '[[ME_アイドルオタク文化_推し活]]'
+  claim: リールエルバを崇拝する教団の狂信的な行動や、豚の鳴き真似をさせるという屈辱的な奉仕は、現代のアイドルオタク文化における過剰な推し活や、神輿としての偶像崇拝を風刺している。
+  quote: その名を、『絶対美少女吸血姫神リールエルバ様教団』という。「リールエルバ様ぁぁぁっ！」「あら、豚のくせに人語を解するのね。おりこうさん。良い子、良い子。もっと私の名前を呼んでいいわよ」
+  paragraph: p5002
+  confidence: strong
+  quotes:
+  - quote: その名を、『絶対美少女吸血姫神リールエルバ様教団』という。「リールエルバ様ぁぁぁっ！」「あら、豚のくせに人語を解するのね。おりこうさん。良い子、良い子。もっと私の名前を呼んでいいわよ」
+    paragraph: p5002
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0147_都市の九つの病]]'
+  object: '[[ME_公害病_環境汚染]]'
+  claim: サリアが都市を恐怖の対象と見なし、大気汚染や水質汚濁などを「都市の九つの病」として列挙する描写は、近代化に伴う公害問題や環境破壊への批判的視点を含んでいる。
+  quote: 大気汚染、水質汚濁、土壌汚染、騒音、振動、悪臭、地盤沈下、外部不経済の黙認、呪波汚染――近代以降、都市が併発した九つの病。
+  paragraph: p5020
+  confidence: explicit
+  quotes:
+  - quote: 大気汚染、水質汚濁、土壌汚染、騒音、振動、悪臭、地盤沈下、外部不経済の黙認、呪波汚染――近代以降、都市が併発した九つの病。
+    paragraph: p5020
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0147_サリアのループ戦闘]]'
+  object: '[[ME_ゲームの周回プレイ_セーブスロット]]'
+  claim: サリアが「七回試した」「パターン化してある」と語り、戦闘を最適化されたルートとして捉える態度は、ビデオゲームの周回プレイや攻略チャートを利用したメタフィクション的構造を示している。
+  quote: 「とりあえず七回試したけど。うん、やっぱ最速で駆けつければこのタイミングで割り込んで面倒なカシュラムを処理できる。ラリスキャニア経由で取り込まれたカーティスからのブレイスヴァとマロゾロンドの同時降臨はもうやりたくないし、このルートでいいな」
+  paragraph: p5016
+  confidence: strong
+  quotes:
+  - quote: 「とりあえず七回試したけど。うん、やっぱ最速で駆けつければこのタイミングで割り込んで面倒なカシュラムを処理できる。ラリスキャニア経由で取り込まれたカーティスからのブレイスヴァとマロゾロンドの同時降臨はもうやりたくないし、このルートでいいな」
+    paragraph: p5016
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0147_カーティスの模倣論]]'
+  object: '[[ME_ディープフェイク_偽物の価値]]'
+  claim: カーティスが「完璧な模倣ならそれは本物と同じ」として疑似餌のリールエルバを孫として認める論理は、AI生成物やディープフェイクにおける「オリジナルとコピーの境界の消失」を想起させる。
+  quote: 「夜の民とは摸倣者であり」「完璧な摸倣ならそれは本物と同じものだ」「君は確かに私の子孫だ」「そう見える」「だから子孫でいい」
+  paragraph: p5006
+  confidence: moderate
+  quotes:
+  - quote: 「夜の民とは摸倣者であり」「完璧な摸倣ならそれは本物と同じものだ」「君は確かに私の子孫だ」「そう見える」「だから子孫でいい」
+    paragraph: p5006
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0147_サイバーカラテ道場]]'
+  object: '[[ME_オンラインゲーム_ランキングシステム]]'
+  claim: アストラルネットを通じて世界中から参加者が集い、ランキングを競う「サイバーカラテ道場」は、MMORPGやeスポーツのグローバルなランキングシステムを模している。
+  quote: サイバーカラテは今やアストラルネットを通じて世界中に広がっている。地上の各地から、地獄の全土から、腕に覚えのある者が第五階層に集い始めていた。
+  paragraph: p5036
+  confidence: strong
+  quotes:
+  - quote: サイバーカラテは今やアストラルネットを通じて世界中に広がっている。地上の各地から、地獄の全土から、腕に覚えのある者が第五階層に集い始めていた。
+    paragraph: p5036
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0147_カシュラム人の定義]]'
+  object: '[[ME_ミーム_文化的アイデンティティ]]'
+  claim: カシュラム人が血統や言語ではなく「理解」や「終末思想への共感」によって定義される民族であるという設定は、ミームやイデオロギーに基づく集合的アイデンティティの形成を指喩している。
+  quote: カシュラム人はどこにでも現れる。お前たちは言語でも血統でも無く、『理解』の上に生まれる民族だからだ。『あれ』を僅かでも分かってしまった連中はカシュラム人になる。
+  paragraph: p5029
+  confidence: strong
+  quotes:
+  - quote: カシュラム人はどこにでも現れる。お前たちは言語でも血統でも無く、『理解』の上に生まれる民族だからだ。『あれ』を僅かでも分かってしまった連中はカシュラム人になる。
+    paragraph: p5029
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第五階層の放置と黒百合の役割
+  note: サリアがオルヴァとカーティスを道連れにした際、第五階層の処理を「黒百合」に任せると発言している。黒百合がどのような介入を行うか、また第五階層で何が起きているかが伏線。
+  quotes:
+  - quote: 「――まあ、第五階層は放置になっちゃうけど。リールエルバはあっちに移されてるだろうし、助けるのは黒百合に任せればいいか」
+    paragraph: p5033
+    quote_verified: true
+  expected_payoff: 黒百合が第五階層でリールエルバを救出するか、あるいは別の勢力と衝突する展開が示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ラクルラールの真意とトリアイナ
+  note: サリアの思考中に「アルマと一緒にラクルラールども締め上げたルートでは、戦乱によってトリアイナを誕生させるとかいう設定だった」とあり、ラクルラールの計画と「トリアイナ」という存在・概念の正体が不明。
+  quotes:
+  - quote: 「アルマと一緒にラクルラールども締め上げたルートでは、戦乱によってトリアイナを誕生させるとかいう設定だった――問題は分岐で設定が書き換わる場合だ。
+    paragraph: p5033
+    quote_verified: true
+  expected_payoff: ラクルラールの長期的な計画や、トリアイナという存在が物語の根幹に関わる重要なキーアイテムまたは勢力として登場する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_オルヴァの起源とオリーブ油の儀礼
+  note: オルヴァの名前が「オリーブ」に由来し、叙任権の呪術が「猫の国」由来であることが語られる。彼の本当の起源や、彼が「歴史改変者」であることの具体的な意味が未回収。
+  quotes:
+  - quote: 「オルヴァ、オリヴィア、Ｏｌｖａ――『オリーブ』ね。男性形ならオリヴィエとかオリヴァーってとこ？　あえて『オルヴァ』にしてるのはどんな含みがあるのやら」
+    paragraph: p5028
+    quote_verified: true
+  expected_payoff: オルヴァの過去や、カシュラムの歴史改変の真相、そして「猫の国」との関連性が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_尊敬の書の自動記述
+  note: 次元の彼方で「尊敬」の書が全ての出来事と心を記述し続けている。この書が誰によって書かれ、どのような目的で存在するのか、また「われわれ」がこれと同じであるという発言の意味が不明。
+  quotes:
+  - quote: 『われわれ』もまた同じである。
+    paragraph: p5037
+    quote_verified: true
+  expected_payoff: 物語のメタ構造、あるいは作者と読者、あるいは登場人物と「記録者」の関係性が明かされるメタフィクション的な回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 模倣とオリジナルの境界の消失、およびそれによるアイデンティティの再定義
+  weight: 0.9
+  quotes:
+  - quote: 「夜の民とは摸倣者であり」「完璧な摸倣ならそれは本物と同じものだ」「君は確かに私の子孫だ」「そう見える」「だから子孫でいい」
+    paragraph: p5006
+    quote_verified: true
+  - quote: 「真似を本物と区別しない」「それが私たちの流儀」「クローンでも」「疑似餌でも」「演じられた役でも」「リールエルバであることに変わりはないよ」
+    paragraph: p5012
+    quote_verified: true
+  note: カーティスが疑似餌を孫として受け入れ、リールエルバの信奉者たちが模倣を肯定する場面から、本物と偽物の区別が無意味化し、関係性や認識によって存在が定義されるテーマが強く打ち出されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 近代化・都市化に対する原初の恐怖と、自然（森）との対比
+  weight: 0.8
+  quotes:
+  - quote: 大気汚染、水質汚濁、土壌汚染、騒音、振動、悪臭、地盤沈下、外部不経済の黙認、呪波汚染――近代以降、都市が併発した九つの病。
+    paragraph: p5020
+    quote_verified: true
+  - quote: ――だから彼女は、都市が怖い。
+    paragraph: p5019
+    quote_verified: true
+  note: サリアが都市を「死の坩堝」や「九つの病」の発生源として恐怖し、森こそが自分の居場所であると認識する描写から、技術文明への批判と自然回帰的な思想が読み取れる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的構造（周回・最適化）と、その中での「遊び」や「喜び」の発見
+  weight: 0.7
+  quotes:
+  - quote: 「とりあえず七回試したけど。うん、やっぱ最速で駆けつければこのタイミングで割り込んで面倒なカシュラムを処理できる。
+    paragraph: p5016
+    quote_verified: true
+  - quote: 「――楽しいから」
+    paragraph: p5026
+    quote_verified: true
+  note: サリアが戦闘を「ルート」や「パターン」として捉えつつも、最終的には「楽しいから」戦うと宣言する点に、ゲーム的な最適化を超えた、行為そのものの肯定や遊びの精神が主題として浮かび上がっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と記述による世界の構築（言語魔術）
+  weight: 0.6
+  quotes:
+  - quote: 自然界に無限に存在する暗黒の泥という数列を掬い取り、名前という魔術を対応させて事象として分節化する。
+    paragraph: p5037
+    quote_verified: true
+  - quote: 世界を説明すること。それは神話という視座。
+    paragraph: p5037
+    quote_verified: true
+  note: 章の最後で「尊敬の書」が世界を記述し、名前を与えることで世界を分節化するという描写は、言語が現実を構築するという言語哲学的なテーマを示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

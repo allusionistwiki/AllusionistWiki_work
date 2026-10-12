@@ -1,0 +1,275 @@
+chapter: ch0066
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 4
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0066_修道騎士_learns_攻略用資料_p2456]]'
+  object: '[[ME_ゲームの攻略Wiki]]'
+  claim: 敵の情報を全プレイヤーに公開し、指揮官が責任を負うという構造は、MMOやオンラインゲームにおける攻略情報の共有と運営の責任分担を模している。
+  quote: これは普通に考えれば重要な機密を漏洩したとして処分の対象になりかねなかったが、第一位ソルダ・アーニスタから指揮権を移譲された第十位バル・ア・ムントはその全責任を自分一人が負う事を宣言してそれを実行。
+  paragraph: p2456
+  confidence: strong
+  quotes:
+  - quote: これは普通に考えれば重要な機密を漏洩したとして処分の対象になりかねなかったが、第一位ソルダ・アーニスタから指揮権を移譲された第十位バル・ア・ムントはその全責任を自分一人が負う事を宣言してそれを実行。
+    paragraph: p2456
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0066_サイザクタート_defines_朱の色号_p2460]]'
+  object: '[[ME_ゲームのセーブポイント]]'
+  claim: 起きた出来事を一瞬のみ無かったことにできる能力は、ゲームにおける「死亡直前のセーブデータからのリロード」や「タイムリセット」のメタファーである。
+  quote: 『朱』の色号使いであるサイザクタートは現実を『夢』であるということにして起きた出来事を一瞬のみ無かったことにできるという。
+  paragraph: p2460
+  confidence: strong
+  quotes:
+  - quote: 『朱』の色号使いであるサイザクタートは現実を『夢』であるということにして起きた出来事を一瞬のみ無かったことにできるという。
+    paragraph: p2460
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0066_ナト_appears_白銀のカラス型神働装甲_p2461]]'
+  object: '[[ME_ドローン]]'
+  claim: 遠隔誘導攻撃端末を操るカラス型装甲は、現代の軍事技術における無人攻撃機（ドローン）の自律・遠隔操作システムを連想させる。
+  quote: 遠隔誘導攻撃端末――優れた使い魔と杖の才覚を有する者のみが扱える、超高度な呪動武装。
+  paragraph: p2461
+  confidence: moderate
+  quotes:
+  - quote: 遠隔誘導攻撃端末――優れた使い魔と杖の才覚を有する者のみが扱える、超高度な呪動武装。
+    paragraph: p2461
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0066_ピッチャールー_attacks_プリエステラ_p2473]]'
+  object: '[[ME_自動迎撃システム]]'
+  claim: 呪術（エネルギー）に反応して殺到する浮遊する金属球は、レーダー波や熱源に反応するミサイル、あるいは自動迎撃砲の挙動を模している。
+  quote: あれは、攻撃端末――？...呪術に反応するタイプの受動端末――くっ
+  paragraph: p2473
+  confidence: strong
+  quotes:
+  - quote: あれは、攻撃端末――？...呪術に反応するタイプの受動端末――くっ
+    paragraph: p2473
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0066_サジェリミーナ_reveals_錬金術師_p2484]]'
+  object: '[[ME_パッチによる能力解放]]'
+  claim: 生前の呪い（制限）が死（リセット）によって無効になり、生前より強くなるという現象は、ゲームのアップデートやパッチ適用によるキャラクターの強化を想起させる。
+  quote: 生前クエスドレム様の不興を買ってアストロマンサーしまったせいで錬金術と占星術を封じられていたんだけど、一回死んだせいで呪いは無効になったみたいだね！
+  paragraph: p2484
+  confidence: moderate
+  quotes:
+  - quote: 生前クエスドレム様の不興を買ってアストロマンサーしまったせいで錬金術と占星術を封じられていたんだけど、一回死んだせいで呪いは無効になったみたいだね！
+    paragraph: p2484
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0066_サイザクタート_says_世界は夢_p2459]]'
+  object: '[[ME_荘子の胡蝶の夢]]'
+  claim: 「この世はサイザクタートの夢」という台詞は、荘子の「胡蝶の夢」における主観と客観の境界の曖昧さ、および世界が観測者の意識に依存するという哲学的概念を引用している。
+  quote: 「だって僕らはサイザクタートの夢だからね」「だってこの世はサイザクタートの夢だからね」
+  paragraph: p2459
+  confidence: strong
+  quotes:
+  - quote: 「だって僕らはサイザクタートの夢だからね」「だってこの世はサイザクタートの夢だからね」
+    paragraph: p2459
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0066_サジェリミーナ_activates_創生の闇_p2486]]'
+  object: '[[ME_ヘルメス・トリスメギストス]]'
+  claim: 「上なるものは下なるもののごとく」という詠唱は、ヘルメス主義の根本原理「上なるものは下なるもののごとく、下なるものは上なるもののごとく」を直接引用し、錬金術の宇宙観を示している。
+  quote: 「上なるものは下なるもののごとく、下なるものは上なるもののごとく。小宇宙を解き明かし、大宇宙をこの手の中に――【創生の闇】
+  paragraph: p2486
+  confidence: explicit
+  quotes:
+  - quote: 「上なるものは下なるもののごとく、下なるものは上なるもののごとく。小宇宙を解き明かし、大宇宙をこの手の中に――【創生の闇】
+    paragraph: p2486
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0066_ミルーニャ_activates_盲目の守護者像_p2476]]'
+  object: '[[ME_ガチャ]]'
+  claim: 右手親指の爪を「解錠」して体内倉庫から巨大な石像を取り出す行為は、ゲームにおけるガチャ（抽選）やインベントリからのアイテム取り出しを模している。
+  quote: くっ、右手親指、解錠！　来たれ【盲目の守護者像】！
+  paragraph: p2476
+  confidence: moderate
+  quotes:
+  - quote: くっ、右手親指、解錠！　来たれ【盲目の守護者像】！
+    paragraph: p2476
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0066_バル・ア・ムント_appears_赤熱する髭_p2457]]'
+  object: '[[ME_ステータス表示]]'
+  claim: 髭が赤く燃え上がることで「燐血の民の証」を示し、敵を威圧し味方を鼓舞する描写は、ゲームにおけるキャラクターの属性やバフ状態の視覚的表現（オーラなど）を連想させる。
+  quote: 高い呪力を有する燐血の民の証。敵を威圧し味方を鼓舞しながら、赤熱する槍を振り上げて雄叫びを上げて突撃する。
+  paragraph: p2457
+  confidence: weak
+  quotes:
+  - quote: 高い呪力を有する燐血の民の証。敵を威圧し味方を鼓舞しながら、赤熱する槍を振り上げて雄叫びを上げて突撃する。
+    paragraph: p2457
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0066_グラル・アーニスタ_fights_死人_p2464]]'
+  object: '[[ME_ギルドシステム]]'
+  claim: 同じ姓（アーニスタ）を持つ者同士が結束し、集団を強化する神働術は、MMOにおけるギルドメンバー同士のバフ効果や連携ボーナスを模している。
+  quote: アーニスタというのはボロブ系燐血の民に最もよく見られる姓だが、グラルは同じ姓であることを共同体への所属と見なし、結束の呪力によって集団を強化する神働術の使い手である。
+  paragraph: p2464
+  confidence: moderate
+  quotes:
+  - quote: アーニスタというのはボロブ系燐血の民に最もよく見られる姓だが、グラルは同じ姓であることを共同体への所属と見なし、結束の呪力によって集団を強化する神働術の使い手である。
+    paragraph: p2464
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_奈落の底の真実
+  note: メイファーラとピッチャールーが奈落へ転落した。奈落は「使い魔による監視の範囲外となる暗闇の底」と記述されており、ここで何が起きるかが今後の展開の鍵となる。
+  quotes:
+  - quote: 使い魔による監視の範囲外となる暗闇の底に、メイファーラと魔将が消えていった。
+    paragraph: p2475
+    quote_verified: true
+  expected_payoff: 奈落の底でメイファーラがピッチャールーを撃破する、あるいは奈落に潜む別の存在（ズタークスタークなど）と遭遇する展開が示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_マリキアンの盾の怨霊
+  note: マリキアンの盾と鎧には妻子の怨霊が宿っており、これが呪術の障壁となっている。ダエモデクとの戦いでこの怨霊がどう作用するか、またマリキアンの「妻子は死んだ」という発言の真意が問われる。
+  quotes:
+  - quote: 自分こそがマリキアンを呪い殺すのだと息巻く半透明の死者の群れ。その全てが、彼に殺された蜥蜴人たちである。皮肉にも、彼らの怨念がマリキアンにとっては強力な呪術の障壁となっているのだった。
+    paragraph: p2468
+    quote_verified: true
+  expected_payoff: マリキアンがダエモデクを倒す、あるいは怨霊の力によって自滅する、もしくはダエモデクが怨霊を浄化・吸収する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_サジェリミーナの浄界の結末
+  note: リーナとミルーニャが「創生の闇」という浄界に閉じ込められた。「破滅は際限なく広がり、屍はただただ積み上がる」と記述されており、二人の生死が不明確なまま章が閉じる。
+  quotes:
+  - quote: 浄界が完全に閉ざされ、破壊的なエネルギーは外からは一切確認出来なくなる。内側に閉じ込められた者の運命は、全て闇の中。破滅は際限なく広がり、屍はただただ積み上がる。
+    paragraph: p2488
+    quote_verified: true
+  expected_payoff: 次章でリーナとミルーニャが浄界から脱出する、あるいはミルーニャが「無神論」の結界を応用して浄界を破壊する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_先生の正体と役割
+  note: 「先生」はアキラの最後の切り札であり、正面戦闘を苦手とするため情報収集に専念している。この「先生」が誰であり、最終的にどのような役割を果たすかが伏線となっている。
+  quotes:
+  - quote: 最後の切り札、秘されているゆえに有効に機能しうる伏兵である『先生』はまだ動けない――そもそも、純粋に正面から敵とぶつかり合うことは苦手な人だから、今はフィリスを有効に活用する為に情報収集に専念して貰うしかない。
+    paragraph: p2456
+    quote_verified: true
+  expected_payoff: 最終決戦において「先生」がアキラのフィリス（能力）を最大限に引き出す、あるいは「先生」自身が重要な役割を果たす展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メタ構造と現実の侵食
+  weight: 0.9
+  quotes:
+  - quote: 攻略用資料が全修道騎士に配布され、続けて探索者たちにも閲覧可能なようにアストラルネット上にもアップロードされる。
+    paragraph: p2456
+    quote_verified: false
+  - quote: 「聞いてた話と違う――」
+    paragraph: p2471
+    quote_verified: true
+  note: 攻略情報の共有、予期せぬ敵の挙動（バグや仕様変更）、セーブリロード的な能力など、ゲームのメカニクスが物語の核心に組み込まれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 痛みと存在の肯定
+  weight: 0.8
+  quotes:
+  - quote: 「痛みってものを教えてやるよ！　その三本頭を斬り飛ばしてね！」
+    paragraph: p2462
+    quote_verified: true
+  - quote: 「悲しいな。悲しいね。長く生き続けていると子供たちの死を見ることも多くなるけれど、やはり子孫たちがこうして若くして死んでいくのは耐え難い痛みだ――ねえマリキアン。もう止めにしないかな？」
+    paragraph: p2469
+    quote_verified: false
+  note: サイザクタートの「痛みを無かったことにする」能力へのナトの怒り、ダエモデクのマリキアンへの共感など、痛みを伴う存在の重みと、それを否定する力への対比が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 知識の限界と未知の恐怖
+  weight: 0.7
+  quotes:
+  - quote: 「聞いてた話と違う――」
+    paragraph: p2471
+    quote_verified: true
+  - quote: 「古代ジャッフハリム語でサジェルは水銀とか流動、ミーナは三倍とか三重って意味です。被ってませんよ」
+    paragraph: p2483
+    quote_verified: true
+  note: 攻略資料（知識）が敵の真の能力（未知）を捉えきれず、キャラクターたちが「聞いてた話と違う」現実に直面する恐怖と混乱が主題となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家父長制と血族の呪縛
+  weight: 0.6
+  quotes:
+  - quote: 「当代の【空使い】を見殺しにしたとあっては亡きサイリウス様に申し訳が立たん」「貴様が死ねばせいせいするが、その称号を移譲してもらわんとな。【空使い】の名を天の御殿に持って行かれたとあってはクロウサー家末代までの恥」
+    paragraph: p2485
+    quote_verified: false
+  note: リーナを巡るエジーメ血族の行動は、個人の生死よりも家系の名誉と称号の継承を優先する家父長制的な呪縛を示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

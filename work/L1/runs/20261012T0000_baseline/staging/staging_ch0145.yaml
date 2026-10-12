@@ -1,0 +1,298 @@
+episode: ch0145
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0145_ちびシューラ_says_アルマの生存確認_p4937
+        quote: 「にあ！ 生きてる！ へいき！ 自己修復、もうしてる！」
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_天使]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0145_天使_appears_as_残骸_p4937
+        quote: 爆心地に天使の残骸が横たわっている。 ダモクレスの剣による王国の滅亡に巻き込まれたようだ。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_箒の魔女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0145_箒の魔女_fights_天使_p4937
+        quote: 空を旋回する箒の魔女は人形たちを翻弄し、遂には天使すら破滅の渦へと誘い込んでしまった。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0145_マラード_thinks_決着_p4938
+        quote: 「終わったか。終わったのだな、俺の――」 マラードは何かを言葉にしようとして、やめた。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルバーブ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0145_ルバーブ_promises_マラードの支え_p4938
+        quote: 「不肖未熟の身ではございますが、どうか私めに陛下を支える役目をお任せ頂きたく存じます」
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_ルバーブ_promises_マラードの救出_p4951
+        quote: 「必ず、お救いします」 頭上のアルトに、そしてその中にいるもう一人に宣言する。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッテ・イヴニル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0145_アレッテ・イヴニル_attacks_マラード_p4939
+        quote: 対象を束縛する糸の邪視がマラードを捉えて引き寄せる。 力を失った身体は抗うことができずに呪縛されてしまう。
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_アレッテ・イヴニル_activates_聖婚_p4940
+        quote: 残酷なまでの束縛と支配。 アレッテの邪眼が爛々と輝き、紅紫に世界が染まる。 そして、それは始まった。「聖婚」
+        locator: {}
+        spoiler_after: ch0145
+    speech:
+      observations:
+      - event_ref: E_ch0145_アレッテ・イヴニル_confesses_マラードへの支配欲_p4940
+        quote: 「私の絶望で、あなたを奪う」 強引に顎を引き寄せた。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト・イヴニル]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0145_アルト・イヴニル_appears_as_融合体_p4941
+        quote: 無機質な裸身には球体関節。 肘や膝、つるりとした逆三角形の腰。それら関節部品の隙間からは青い流体が見え隠れし、ときおり周囲からの視線に反応するようにぎょろりと極小の眼球を形成して見返してくる。
+        locator: {}
+        spoiler_after: ch0145
+    speech:
+      observations:
+      - event_ref: E_ch0145_アルト・イヴニル_names_第六彩域の天主_p4942
+        quote: 「聞け、三界に住まう全ての者よ。我こそは紅にして紫、世界の歯車を回す第六彩域の天主にして第九紀竜アルト・イヴニルである」
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_アルト・イヴニル_other_ガロアンディアンの真竜王_p4944
+        quote: 「既に二つの王権はこの手にある。そうだ、私こそがガロアンディアンの真竜王。これより偽りの僣主は一人残らず駆逐され、最も強く美しい王だけがこの大地を統べることになるだろう」
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_アルト・イヴニル_threatens_諦観_p4944
+        quote: 「抗うな。期待するな。未来に絶望しろ。ここには『未知の救世主』など現れない。俯き、目を伏せ、諦めながら生と死をやり過ごせ。諦観こそが救い。
+        locator: {}
+        spoiler_after: ch0145
+    action:
+      observations:
+      - event_ref: E_ch0145_アルト・イヴニル_other_神十ランケ二限界_p4946
+        quote: 「ガロアンディアンが誇る魔戦人形師団、その中でも選り抜きの最精鋭たちが今、全て揃った。この機会に紹介しよう。集え、我神十ランケ二限界よ」
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_アルト・イヴニル_gives_エントラグイシュ_p4949
+        quote: 「【扉の向こうのエントラグイシュ】――九百九十九の魂魄から成る愛の亡者。祝福されなかった赤子、偉大なる大地と闇の王子たち。最強の死骸人形にして、個にして軍勢でもある可能性の種子」
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_アルト・イヴニル_other_人格の保持_p4951
+        quote: アルトのどぶのような独眼に一瞬だけ光が宿る。グラデーションを描く髪が青と白に切り替わり、唇が震えて誰かの名を呼ぼうとする。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_融血呪]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0145_融血呪_functions_as_融合の奇跡_p4941
+        quote: 融血呪。個と個の境界を対価に融合と共有の奇跡を実現させる禁忌の呪法だ。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_彩域]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0145_彩域_defines_基本領域_p4943
+        quote: 「ジャッフハリム語で『彩域といえば、五つの色号呪力を生み出す基本領域のことだよ。古くからいる天主たちはこの彩域を統括しているの）
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第九紀竜]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0145_第九紀竜_defines_大呪術_p4943
+        quote: 第九の紀竜とは、人の手によって構成された大呪術のことだ。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0145_アキラ_uses_カルルアルルア_p4945
+        quote: 「換装・四十五番！」 カルルアルルア 知覚している世界全てが急速に遅くなっていく。
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_アキラ_flees_アルトの軍勢_p4950
+        quote: アルト王が展開する軍勢はどこまでも強大だ。 まず間違い無く勝てない。そう確信した俺とトリシューラは撤退を決定。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_竜王国の五将軍]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0145_竜王国の五将軍_appears_as_亜竜_p4947
+        quote: 竜王国の五将軍――ラフディとの戦いであれだけ圧倒的な強さを見せていた奴らが敵に回るのか
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エントラグイシュ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0145_エントラグイシュ_transforms_多頭の赤子_p4950
+        quote: 赤子の背から肉腫が盛り上がり、その中から巨大な赤子が誕生。 それらが結合し、多頭の赤子に変貌、口から激流としか形容のできない凄まじい勢いの嘔吐をして攻撃してくる。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0145_ヴァージル_appears_雷撃_p4952
+        quote: 「不快だな」 青天の霹靂。彼は前触れもなく現れた。 雷撃が宙を走り抜け、まず人形の軍勢を、そして地の底から湧いてくる狂怖の群れを一掃した。
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_ヴァージル_uses_断章_p4954
+        quote: ヴァージルは右手に漆黒の『断章』を、左手に青い髪のラクルラール人形を乗せてまっすぐな言葉を紡いだ。
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_ヴァージル_fights_アルト・イヴニル_p4955
+        quote: 「あなたが邪魔だ、はりぼての王」 全軍、前へ」 アルトとヴァージルが激突する。
+        locator: {}
+        spoiler_after: ch0145
+    speech:
+      observations:
+      - event_ref: E_ch0145_ヴァージル_says_秩序と統合_p4954
+        quote: 「僕はそんな混沌を否定する。世界にふさわしいのは秩序と完全なる統合だ」
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_炎の天使]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0145_炎の天使_attacks_ヴァージル_p4956
+        quote: 聖なる炎が呪文の雷とぶつかり合って、金色の鎖がヴァージルの腕に絡みつく。 あらゆる呪文を無効化する炎天使に少年の攻撃は全く通用しない。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_カルカブリーナ]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0145_カルカブリーナ_is_located_呪術医院_p4957
+        quote: この近くにはトリシューラが各地域に建設した呪術医院が存在しており、地竜が暴れたあと散り散りになったトリシューラの部下たちは拠点であり避難所でもあるその場所に集まっているとのことだ。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0145_トリシューラ_other_撤退_p4957
+        quote: 「じき別働隊と合流できる！ みんな、もうちょっとだから頑張って！」 トリシューラが後続を励ましの声をかけた。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チリアット]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0145_チリアット_other_隻眼の男_p4958
+        quote: 「女王陛下。お耳に入れたいことが」 そんなふうにトリシューラに耳打ちしたのは牙猪だった。 チリアット
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_隻眼の男]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0145_隻眼の男_loses_記憶_p4959
+        quote: 「わた――『 』とは、誰なのだ？」 隻眼の男は――『 』は、何もかもを失っていた。 過去を、立場を、同胞を、そして己自身を。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ラクルラール]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0145_ラクルラール_appears_as_第四のラクルラール_p4961
+        quote: 四番目のラクルラールと名乗った存在は無傷のまま口を開く。
+        locator: {}
+        spoiler_after: ch0145
+    speech:
+      observations:
+      - event_ref: E_ch0145_ラクルラール_says_虐殺の文法_p4962
+        quote: 「虐殺には文法がある――人間集団の傾向や性質が一定の枠内に収まるのなら、その振る舞いを理解することで新しい虐殺の呪文を唱える事ができる筈」
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_ラクルラール_says_言震_p4963
+        quote: 「終末。末世。致命的な破局――すなわち言震。それこそが、『最後の救世主』を誕生させるための呼び水だ。
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_パーン]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0145_パーン_defeats_ラクルラール_p4965
+        quote: 直後、遥かな天上より途方もなく巨大な構造物が落下してラクルラールを叩き潰した。
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_パーン_uses_融血呪_p4966
+        quote: 禁呪とも呼ばれるクロウサーの秘術の一つ。 融け合う呪いは共有の呪い。 与えることと奪うことを同時に行うが、パーンという圧倒的に強固な『我』がそれを使えば、与えようが奪おうが結果は同じだ。
+        locator: {}
+        spoiler_after: ch0145
+    speech:
+      observations:
+      - event_ref: E_ch0145_パーン_names_全てである者_p4966
+        quote: 「我が名はパーン。『全て』である者。下らん端役が、俺の覇道を妨げるな」
+        locator: {}
+        spoiler_after: ch0145
+      - event_ref: E_ch0145_パーン_thinks_氷血呪_p4967
+        quote: 「クロウサーの奴隷、ラクルラールの奴隷、トライデントの奴隷。そんなものに甘んじる俺ではない。ならば『俺』を固定化する中和剤が必要だ――なるほど、それが氷血呪というわけか」
+        locator: {}
+        spoiler_after: ch0145
+  first_appearance_candidate: true

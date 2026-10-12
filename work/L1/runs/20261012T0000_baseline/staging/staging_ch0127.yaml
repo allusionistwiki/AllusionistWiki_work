@@ -1,0 +1,282 @@
+episode: ch0127
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_ちびシューラ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0127_ちびシューラ_other_潜行_p4394
+        quote: （海の民が得意とする物質透過呪術、【潜行】だよ！　欠点は攻撃の瞬間に解除しなきゃならないこと。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ちびシューラ_says_アキラ_p4397
+        quote: （アキラくん、話とか聞かなくていいよ。殺して）
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ちびシューラ_other_摂取_p4417
+        quote: （それがあいつの特性なんだよ！　他者の感情や価値観を自分のものとして『取り入れ』てしまう能力！）
+        locator: {}
+        spoiler_after: ch0127
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0127_アキラ_activates_弾道予報_p4394
+        quote: 我に返った俺は【弾道予報】を即座に起動、迫り来る手裏剣をぎりぎりの所で掴み取った。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_アキラ_other_手裏剣_p4394
+        quote: 軌道を微調整しながら背後に投擲。頭上から襲いかかってきた敵に手裏剣が突き刺さる。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_アキラ_activates_ウィッチオーダー_p4398
+        quote: 言うが早いか【ウィッチオーダー】が瞬時に構築した漆黒の円盤を投擲。低次の知性を持ち、自律的に未来を予測しながら敵を狙う浮遊円盤だ。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_アキラ_uses_カッサリオ因子_p4398
+        quote: 素早く赤黒いカプセルを口に放り込む。途端、体内に取り込まれた圧縮呪文が俺の存在そのものと呪的に同化したカッサリオ因子を活性化させていく。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_アキラ_activates_リーエルノーレス_p4401
+        quote: 「換装、五十七番！」（了解だよ！　【リーエルノーレス】・エミュレート！）　両方の選択肢、どちらもだ。　左腕に光の粒子が収束し、その姿を変えていく。　現れたのは漆黒のチェーンソー。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_アキラ_breaks_ドルネスタンルフ_p4403
+        quote: 絶えずその呪文配列を組み替える呪動鎖鋸はドルネスタンルフの加護を打ち破る最適な配列に辿り着き、粉々に破壊する。
+        locator: {}
+        spoiler_after: ch0127
+    speech:
+      observations:
+      - event_ref: E_ch0127_アキラ_names_ミヒトネッセ_p4396
+        quote: 「ミヒトネッセ、ってのはお前か」
+        locator: {}
+        spoiler_after: ch0127
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0127_クレイ_breaks_精神支配の糸_p4394
+        quote: まずクレイの手刀が俺にかけられた精神支配の糸を断ち切る。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_クレイ_fights_イアテム_p4395
+        quote: 水流の刃を片手で受け止め、回転しながらもう片方の手刀で別のイアテムを切断する。流れるような剣舞が呪力を生み出し、『飛ぶ斬撃』となってイアテムを滅多切りにしていった。
+        locator: {}
+        spoiler_after: ch0127
+    speech:
+      observations:
+      - event_ref: E_ch0127_クレイ_says_ロウ・カーイン_p4396
+        quote: 「黙れジャッフハリム人。貴様と馴れ合うつもりはない」
+        locator: {}
+        spoiler_after: ch0127
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_ロウ・カーイン]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0127_ロウ・カーイン_appears_通路_p4394
+        quote: 通路の奥から躍り出た新たな人影が鋭い貫手を放つ。敵が汚水の塊となって形状を崩壊させ、床に水たまりを作った。
+        locator: {}
+        spoiler_after: ch0127
+    speech:
+      observations:
+      - event_ref: E_ch0127_ロウ・カーイン_says_アキラ_p4394
+        quote: 「不穏な気配を感じてついてきてみれば、案の定か。君もよくよく厄介事を抱え込む男だ、シナモリアキラ」
+        locator: {}
+        spoiler_after: ch0127
+    relationship:
+      observations:
+      - event_ref: E_ch0127_ロウ・カーイン_bonds_クレイ_p4396
+        quote: カーインがクレイに襲いかかろうとしていたイアテムを蹴り飛ばしながらクレイに声をかけると、クレイは露骨に舌打ちしながらカーインに迫っていたイアテムを両断する。即席のコンビネーションが成立していた。
+        locator: {}
+        spoiler_after: ch0127
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_イアテム]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0127_イアテム_appears_as_分身_p4395
+        quote: 無尽蔵のイアテムは全てが分身。使い捨ての暗殺者にして鉄砲玉。放てば戻ってこない矢のようなものだ。
+        locator: {}
+        spoiler_after: ch0127
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0127_ミヒトネッセ_appears_as_ガイノイド_p4397
+        quote: フリル過多な侍女服の袖口から覗く手首関節とスカートの裾から覗く膝関節は、明らかに人のものでは無い。可動域だけ露出した球体は、このタイプの人形に特有の機構であり、ラフディが誇る文化の精髄。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_other_男根の数珠_p4414
+        quote: 首飾りのように、男根が数珠つなぎになって並んでいる。根本から切除された、剥き出しの男性器。無数の陰茎は、針と髪の毛で縫い合わされていた。
+        locator: {}
+        spoiler_after: ch0127
+    speech:
+      observations:
+      - event_ref: E_ch0127_ミヒトネッセ_says_聖書_p4398
+        quote: 読み取れた唇の動きはこう告げていた。「『彼はお前の頭を砕き、お前は彼のかかとを砕く』」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_says_ゼオーティア_p4399
+        quote: 「けれど私はこのゼオーティアにおける『てつのかかと』。私は蛇に踵を噛み砕かれない。ゆえに私は悪魔の頭を一方的に踏み砕く」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_says_アキラ_p4400
+        quote: 「あんたと私、どちらが真にアダム・カドモンに相応しいか――ここではっきりさせてあげる」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_says_トリシューラ_p4407
+        quote: 「ふん！　相変わらずのぽんこつっぷりね、このがらくた！」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_says_トリシューラ_p4408
+        quote: 「あんたが自分で作ったと思い込んでる繋がりは、ぜんぶ偽りよ。だからね、その、本当の意味でトリシューラのことを考えてるのが誰かってことをね、ちゃんと考えてみた方がいいんじゃないっていうか」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_confesses_トリシューラ_p4409
+        quote: 「一度は愛を交わして結ばれた仲なのに」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_says_トリシューラ_p4410
+        quote: 「呪力射撃だってトリシューラの中にある情報を弾丸にして解放したんだから、これも情報を相手に注ぎ込む射精のメタファー。つまり呪的セックスよね。幼なじみを無理矢理レイプしておいて、言い訳するの？」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_says_クレアノーズ_p4411
+        quote: 「私たちの尊敬するクレアノーズお姉様は、『トリシューラを助けるように』って言って下さったわ。ラクルラールお姉様だって『貴方を正しい道に引き戻してあげなさい』って」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_says_トリシューラ_p4412
+        quote: 「だから私は、トリシューラをトライデントの左腕にして『使い魔と魔女の座』にしてあげるの。細胞の一部となった杖の魔女が勝利すれば、それは使い魔の魔女の勝利なんだから。私たちみんな、幸せになれるでしょう？」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_says_女性_p4413
+        quote: 「『女は本能的に屈伏させられることを望んでいる生き物なの。どんなに女王を気取っても、それは自分を男性側になぞらえて虐げられている側に自己を投影するという被虐願望の発露でしか無いわけ』」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_names_ミヒトネッセ_p4415
+        quote: 「号は足蹴の砂茶色、性は淫乱メイドロボ、卑しい起源はガイノイド」
+        locator: {}
+        spoiler_after: ch0127
+    action:
+      observations:
+      - event_ref: E_ch0127_ミヒトネッセ_fights_ウィッチオーダー_p4399
+        quote: 革靴の踵は刃の部分に激突していた。金属加工された踵部位は切断されずに正面から刃を打ち砕く。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_activates_ドルネスタンルフ_p4402
+        quote: 「球神よ！」　超常の存在に呼びかけて加護を得る簡易呪文が発動した。　ミヒトネッセの周囲に球形の呪文障壁が展開される。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_activates_スキリシア_p4403
+        quote: 「王権守護者――【スキリシア】」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_escapes_身代わり_p4403
+        quote: 目の前で、敵の残骸が破れた呪符に変化する。身代わりだ。本体は既に逃れている。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_attacks_アキラ_p4404
+        quote: 投擲された苦無が、いつの間にかこちらの影に突き刺さっていたのだ。身体が影ごと大地に縫い止められたかのように動かなくなっている。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_activates_ドルネスタンルフ_p4406
+        quote: ミヒトネッセが片足立ちの状態のまま急速な回転を開始した。竜巻のような激しさで旋回し、周囲に呪力を撒き散らして衝撃で俺たちを弾き飛ばしていく。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_activates_摂取_p4416
+        quote: 「摂取」　ミヒトネッセがその呪文を唱えた途端、少女の在りようが一変する。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_activates_イルディアンサ_p4419
+        quote: 「禁忌林檎――【イルディアンサ】！！」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_attacks_ブウテト_p4425
+        quote: 「【髪盗人】」　致命的な一撃が放たれ、ブウテトの命が鋭い呪力を纏った刃によって断ち切られてしまう。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ミヒトネッセ_escapes_戦場_p4427
+        quote: 「目的は達した。名残惜しいけど、またねトリシューラ」
+        locator: {}
+        spoiler_after: ch0127
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_リーエルノーレス]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0127_リーエルノーレス_has_property_呪文発動_p4402
+        quote: 唸りを上げる三枚の刃が頂点で三文字を連ねて呪文を発動させる。
+        locator: {}
+        spoiler_after: ch0127
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0127_トリシューラ_arrives_戦場_p4405
+        quote: 「お待たせアキラくん。マラコーダのフルチャージした【呪毒】でイアテムは戦闘不能だよ。というわけであとはアレだけ」　駆けつけてきたトリシューラが樹脂性の自動式拳銃を構えながら微笑む。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_トリシューラ_attacks_ミヒトネッセ_p4418
+        quote: トリシューラはミヒトネッセの頭上に向かって照明弾を投擲した。強烈な閃光が敵の影をこちらに移動させ、俺は足下の影に向かってチェーンソーを突き込む。
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_トリシューラ_other_ミヒトネッセ_p4423
+        quote: 「トリシューラ、さっきそいつにチェーンソー振り下ろした時、確かに倒したと思ったら身代わりだったんだけど」「知ってるっ！」
+        locator: {}
+        spoiler_after: ch0127
+    speech:
+      observations:
+      - event_ref: E_ch0127_トリシューラ_says_ミヒトネッセ_p4410
+        quote: 「呪槍銃ぶちこんで内部からバラバラにしてやっただけっ！！」
+        locator: {}
+        spoiler_after: ch0127
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ブウテト]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0127_ブウテト_appears_as_豚_p4420
+        quote: 「ぶうぶう。今の私はルウテトではありません。アキラ様のでりかしーの無い発言にぷんすこしてるブウテトです。ぷぎー」
+        locator: {}
+        spoiler_after: ch0127
+    action:
+      observations:
+      - event_ref: E_ch0127_ブウテト_other_バチルス・サブティリス_p4421
+        quote: 「大いなる神格バチルス・サブティリスよ、ねばねばであの娘を捕らえるぶひ」
+        locator: {}
+        spoiler_after: ch0127
+      - event_ref: E_ch0127_ブウテト_attacks_ミヒトネッセ_p4426
+        quote: 「ひどいですぶひーっ！」　先程の【空圧】に数倍する威力だ。既に初級の呪術などではなくブウテトオリジナルの呪術【ぶう圧】とでも呼ぶべき暴風、いやぶう風がミヒトネッセの身体に直撃。
+        locator: {}
+        spoiler_after: ch0127
+    speech:
+      observations:
+      - event_ref: E_ch0127_ブウテト_confesses_アキラ_p4429
+        quote: 「も、戻れなくなっちゃいました、ぶうぶう」
+        locator: {}
+        spoiler_after: ch0127
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0127_コルセスカ_says_三枚のお札_p4424
+        quote: 「ミヒトネッセが使用した神話級呪術は、もしかしたらアキラの故郷に伝わる【三枚のお札】なのではないでしょうか」
+        locator: {}
+        spoiler_after: ch0127
+  first_appearance_candidate: true

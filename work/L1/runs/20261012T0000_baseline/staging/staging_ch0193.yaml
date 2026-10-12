@@ -1,0 +1,464 @@
+episode: ch0193
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アマランサス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0193_アマランサス_says_再演劇の概要_p6385
+        quote: いいわ。今更ではあるけれど、再演劇の概要をこの私、アマランサスが説明しておきましょう。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_アマランサス_hates_アンティゴネ_p6387
+        quote: こんなおぞましいものを、当然のような顔をして、それでいて『自分自身の自由意思で選び取りました』みたいな顔で敢然と上位者クレオンに立ち向かう、アンティゴネの生き方には嫌悪すら覚える。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_アマランサス_says_死なない_p6400
+        quote: 「だから、私は死なない」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_アマランサス_says_がらくたじゃない_p6401
+        quote: 「私は、がらくたじゃない」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_アマランサス_thinks_諦観_p6437
+        quote: 諦観が私の世界観。諦めることが私の意思。自由の無い自由意志だなんて、どこまでも弱い私らしい。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_アマランサス_other_諦観_p6440
+        quote: 「――これはレッテの諦めだけど。そっか、私はこれを持って行けるのね」
+        locator: {}
+        spoiler_after: ch0193
+    visual:
+      observations:
+      - event_ref: E_ch0193_アマランサス_has_property_バーガンディアの魔眼_p6399
+        quote: この秘宝の呪力が私をもうひとりのアレッテとして規定している。
+        locator: {}
+        spoiler_after: ch0193
+    action:
+      observations:
+      - event_ref: E_ch0193_アマランサス_travels_横倒しの塔_p6400
+        quote: 次なる劇場はかつて私が敗北した地。『横倒しの塔』を再現した決闘の舞台。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_アマランサス_fights_メートリアン_p6404
+        quote: スコップを大きく振りかぶって走る。私がスコップを振り下ろし、メートリアンが銀色の剣で迎え撃つ。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0193_トリシューラ_other_前提の共有_p6385
+        quote: それにしてもどうしてかトリシューラもコルセスカも、シナモリアキラでさえ何も知らない様子なのが不可解なんだけど――共有されているはずの前提を誰も知らないこの状況、これにはどういう意味があるのかしら。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_再演劇]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0193_再演劇_is_made_of_アンティゴネ_p6385
+        quote: この再演劇のベースとなっているのは、基幹参照世界におけるソフォクレスの悲劇『アンティゴネ』。そこに『オイディプス』とかアイスキュロスの『テーバイ攻めの七将』の要素も混ざっているけど、あくまでメインは『アンティゴネ』だと思っていい。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アンティゴネ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0193_アンティゴネ_dies_自害_p6386
+        quote: アンティゴネはそこで首を括り、更にはアンティゴネの婚約者にしてクレオンの息子であった王子ハイモンもまた恋人の後を追って自刃する。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_アンティゴネ_makes_埋葬_p6386
+        quote: 妹イスメネの制止にもかかわらず彼女は叛逆者ポリュネイケスを埋葬してしまう。
+        locator: {}
+        spoiler_after: ch0193
+    symbolic:
+      observations:
+      - event_ref: E_ch0193_アンティゴネ_fights_外なる法_p6387
+        quote: 一方その娘アンティゴネは家族への情愛と素朴な信仰心をもって『外なる法』、すなわち人が作りだした秩序と相対する。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレオン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0193_クレオン_stops_埋葬_p6386
+        quote: 彼は敵将と相打ちになった前王エテオクレスを手厚く葬らせたけど、異国の軍勢を引き入れた裏切り者ポリュネイケスを許さず、その埋葬を禁じて屍を野晒しにせよと厳命した。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0193_コルセスカ_asks_共闘_p6388
+        quote: 「自分こそがその役に相応しいと全身全霊で主張しなくてはなりません。たったひとつしかない主役の座、たとえ兄弟姉妹であろうとも蹴落として我こそはと名乗りを上げる。競い合えとあなたの心がまだ命じるならば、私と共に来て下さい」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_コルセスカ_reveals_秘策_p6388
+        quote: 全てを語り終えると、コルセスカは自分にはその状況を踏まえて事態を打開するための秘策があると豪語してのけた。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_コルセスカ_says_オーディション_p6388
+        quote: 「クレイ。いいえ、クレイ役を失格になった無名の役者。舞台『死人の森』はあなたを選ぶことはありませんでした。しかし悲観することはありません。この広い世界にはオーディションなど幾らでもあります。」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_コルセスカ_promises_ルウテトの保証_p6389
+        quote: 「いいえ。他ならぬこの私が、それはルウテトの趣味では無いと保証します。何故なら、彼女はその結末を既に見終わっている。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_コルセスカ_promises_安全_p6390
+        quote: 「ルウテトはあなたを含めたラクルラール派を完全に打ち倒すつもりですが、私はアルト・イヴニルやアマランサスを含めた人形たちの身の安全を保証します。この瞳にかけて、私の創造する世界にあなたたちの居場所を作る」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_コルセスカ_says_末妹選定_p6391
+        quote: 「末妹選定は今なお続行中です。ならば冬の魔女の動機はたったひとつに決まっている」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_コルセスカ_says_未知の幸運_p6392
+        quote: 「私はコルセスカ、いずれ未知なる末妹になる女神候補。私が神として創造する世界はあなたたちが諦めてしまった既知の運命ではなく、未知の幸運です」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_コルセスカ_says_二次創作_p6398
+        quote: 「期待してくれていいですよ。私は原作の本来の意図とか余韻とかをぶち壊す強引なハッピーエンドだって平気な顔で創造できる悪い魔女ですので」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_コルセスカ_says_死_p6420
+        quote: 「二人は死にました。ミヒトネッセは全てを諦めて自らを縛る操り糸で首を括り、クレイはその後を追うようにして自刃を――」
+        locator: {}
+        spoiler_after: ch0193
+    action:
+      observations:
+      - event_ref: E_ch0193_コルセスカ_uses_クレイの動機_p6390
+        quote: クレイを味方に引き入れるためにコルセスカが選択した説得方法は、そもそも相手の動機をそのまま再利用することだった。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_コルセスカ_attacks_ミヒトネッセ_p6391
+        quote: 視線は呪いだった。呪縛された二人は息を凍らせ、思考と感情さえも麻痺したように静止する。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_コルセスカ_appears_氷の槍_p6419
+        quote: 一人はコルセスカ、硝子窓を割るように空間を突き破って豪快に登場した冬の魔女が俺の横に並んでルウテトに氷の槍を突きつける。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0193_クレイ_asks_宿命_p6389
+        quote: 「そのオイディプス王をベースに俺が創造されたのだとして――では、俺がすべきことは何だ。創造主の定めた宿命に従い、このまま闇の中で朽ちていくのが相応しい結末というものでは無いのか？」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_クレイ_says_演じきる_p6393
+        quote: 「降りた先もまた舞台です。死すらも人を舞台から自由にはしない。なら戦わなければ。あの光の先に向かって、世界の壁に向かって、声の限りに自分を演じきるしかないでしょう？」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_クレイ_says_肋骨_p6397
+        quote: 「俺の肋骨は、一本だけ多い」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_クレイ_says_造反_p6428
+        quote: 「陛下の真意が俺の奮起にあるならば、貴方の意を汲んで造反の刃を御身に向けましょう。それこそが真の忠義であると信じて」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_クレイ_dies_安心_p6435
+        quote: 「良かった――俺は何度生まれても、こうして貴方に剣を捧げられるのですね」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_クレイ_says_剣_p6435
+        quote: 「陛下――俺の剣は、常に貴方に捧げられております」
+        locator: {}
+        spoiler_after: ch0193
+    action:
+      observations:
+      - event_ref: E_ch0193_クレイ_fights_ゼド_p6395
+        quote: 返答は斬撃だった。舞台を蹴る脚は軽やかで、翻る腕のしなり、大気を切断する手刀の冴えは以前と比べて何の遜色もありはしない。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_クレイ_dies_冥府の聖婚_p6428
+        quote: 自死による冥府の聖婚――脚本に沿って地の底で最期の時を迎えた二人は死によってルウテトの胎内に移動した。与えられた役割を演じきることで『その後』が生まれる余地を作りだしたのだ。
+        locator: {}
+        spoiler_after: ch0193
+    visual:
+      observations:
+      - event_ref: E_ch0193_クレイ_transforms_黄金の軍装_p6396
+        quote: 斬撃から溢れ出した鮮やかな光に包まれたクレイの姿が変わっていく。高貴さと勇猛さを重ね合わせた軍装、金の飾緒と肩章が踊り、
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_クレイ_makes_骨の剣_p6397
+        quote: 斬鉄を成し遂げたのは、骨だ。真の王子となった男の胸から引き抜かれた刃は、白骨を薄く鋭く引き伸ばしたかのような異形――それこそが彼が胸に抱いていた『王国の剣』なのだった。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_クレイ_appears_白馬_p6428
+        quote: 出し抜けに響いた馬の嘶き声と共に、鮮血を撒き散らしながらその男は現れた。手刀によって女神の腹を内側から切り裂いて、飛び出したのは騎乗した美貌の剣士。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0193_ミヒトネッセ_suspects_コルセスカ_p6390
+        quote: 「だいたいあんた、どういうつもりでここにいるわけ？ 助けに来ましたみたいな顔してるけど、要するに私たちを駒として使いたいってわけでしょう」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ミヒトネッセ_thinks_クレイ_p6392
+        quote: 主に捨てられてなお一途に忠節を尽くそうとする彼の本質は、ただ従属を強いられているだけの自分とは違い、従属を選び取ることのできる強さを持った、輝ける『星』なのではないか？
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ミヒトネッセ_says_時間稼ぎ_p6429
+        quote: 「どう転ぶにしても、第六階層で次の準備をしているアルト・イヴニルのために時間稼ぎが出来ればそれでいい。アマランサス、あんたが今後シナモリアキラに肩入れしたとしても、この目的だけは共有できるって信じるから」
+        locator: {}
+        spoiler_after: ch0193
+    symbolic:
+      observations:
+      - event_ref: E_ch0193_ミヒトネッセ_has_property_従属_p6391
+        quote: その本質は従属。誰かの強い意思に付随して性能を発揮するのが本領と定められた道具に過ぎない。
+        locator: {}
+        spoiler_after: ch0193
+    visual:
+      observations:
+      - event_ref: E_ch0193_ミヒトネッセ_appears_マフラー_p6428
+        quote: 幻像が霧散し、伸縮自在のマフラーを取り払って再び首に巻き付けたのは黄色い砂色の髪をした侍女人形ミヒトネッセだ。
+        locator: {}
+        spoiler_after: ch0193
+    action:
+      observations:
+      - event_ref: E_ch0193_ミヒトネッセ_takes_宝珠_p6429
+        quote: ミヒトネッセもその手に血塗れの物体を握りしめており、恐らく『あれ』を盗み出すことに成功しているはずだ。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ミヒトネッセ_uses_イヴァダスト_p6429
+        quote: 侍女人形の指先から展開された呪文の帯が渦巻いて球形となり、情報構造体の衛星として周回し始める。膨大な量の情報を処理しながらミヒトネッセは雨霰と降り注ぐ呪いの数々を次々に回避してみせた。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ミヒトネッセ_gives_宝珠_p6430
+        quote: 未来予測でもしているのか、ミヒトネッセは妨害をものともせずに俺、というよりアマランサスの下に走り寄って手にしたものを受け渡した。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0193_ゼド_appears_影絵_p6393
+        quote: 麗しい容貌の王子の背後で、重なり合う六人分の影絵が嘲弄する。ルウテトの眷族と化した盗賊王ゼドは、その手に一振りの剣を握っていた。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ゼド_appears_ガンマン_p6419
+        quote: もう一人はゼド。床を這う無数の影が集合してひとかたまりの闇となって立ち上がる。テンガロンハットに薄汚れたコート、腰のガンベルトから巨大な拳銃を抜いて構えたガンマンは、今やルウテトの使い魔だった。
+        locator: {}
+        spoiler_after: ch0193
+    action:
+      observations:
+      - event_ref: E_ch0193_ゼド_takes_トバルカイン_p6427
+        quote: 見間違えるはずがない。あれは盗賊王が俺から盗み出した骨犬の力。奪われたトバルカイン――俺が背負うべき罪の象徴を纏って、ゼドはこちらに突進してくる。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メートリアン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0193_メートリアン_says_操り人形_p6405
+        quote: 「気を付けて。本命の操り人形はあなたです」
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マゼシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0193_マゼシューラ_says_駒の奪い合い_p6406
+        quote: 「ルウテトは敵の駒を奪って自分の戦略に組み込もうとしているだけ。『駒の奪い合い』が神々の盤上遊戯の基本なんだ」
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルウテト]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0193_ルウテト_appears_女王_p6408
+        quote: 天上からゆっくりと女神がその姿をあらわす。結い上げられた蜂蜜色の髪と長い耳、緑色の血管が透き通るような白い肌は妖精種族そのものだが、
+        locator: {}
+        spoiler_after: ch0193
+    speech:
+      observations:
+      - event_ref: E_ch0193_ルウテト_says_イスメネ_p6408
+        quote: 「いいですねアマランサス、及第点です。あなたはイスメネの葛藤を正しく捉え自らの血肉として解釈した。『内なる法』と『外なる法』――『わたし』と『せかい』がせめぎ合う苦しみ、弱き人の罪深さこそ私が愛するもの」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_says_自己実現_p6413
+        quote: 「子供は親の自己実現の道具。『私にできないのなら、できるものを作ればいい』――末妹選定とは、そもそもこの思想に基づいて計画された儀式。私は間違っていますか、アキラ様？」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_says_クレイの設計_p6414
+        quote: 「泥人形は、私の意のままにできる未来の父でもあります。空っぽの器に愛への飢えを植え付けて思考基盤を単純化させ、男たちが奪い合うトロフィーを求め、嫉妬し、父を憎む。そのように設計された、女権によって支配される暴力の剣。母を守る、ただそれだけの道具」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_says_愛_p6415
+        quote: 「愛は不可解に、情は迂遠に――焦らして焦がして、虐めてあげます」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_says_悪夢_p6433
+        quote: 「アキラ様、あなたはゲームオーバーです。でも大丈夫、また悪夢を見ればいいのですよ。あなたがこの世界にやってきたばかりの時みたいにね」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_says_領域戦_p6436
+        quote: 決着は第五階層対第六階層の領域戦で着けるとしましょう。まさか、手駒を失った状態で私に勝てるとは思っていないでしょう、ラクルラール？」
+        locator: {}
+        spoiler_after: ch0193
+    action:
+      observations:
+      - event_ref: E_ch0193_ルウテト_attacks_責め苦_p6422
+        quote: 「恐れよ罪人、裁かれるべき基幹罪は七つ！ 不敬、密通、殺人、偶像崇拝、強姦、偽証、詐欺、いずれの罪を犯したとしても地獄の責め苦がお前を待つ！」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_makes_セレスティアル・オーブ_p6422
+        quote: 「見るがいい、これこそ周回軌道の地獄、森羅万象あまねく煌めきを統べる女王のセレスティアル・オーブ、『責め苦の全天』！」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_attacks_ステュクス_p6425
+        quote: 『女王』の浄界、ステュクス。悠久の大河には舞台の大橋が架かり、その上に俺たちは立たされている。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_uses_第九世界槍_p6431
+        quote: 事実としてルウテトは世界を支える軸のひとつをその手に握り、振るおうとしていた。「第九世界槍、展開」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_defeats_シナモリアキラ_p6432
+        quote: 女神はこの世界を握りしめ、意のままに振り回す。それで終わり。俺たちは全滅した。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_wounds_クレイ_p6434
+        quote: あまりにも無造作に、槍の穂先がクレイの胸を貫いた。存在の終焉という結果が最初に確定し、事後的な滅びがクレイを終わらせる。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_ルウテト_kills_ミヒトネッセ_p6436
+        quote: クレイの口が侍女人形の名を呼ぼうとする寸前、ルウテトは消滅寸前の我が子と人形の骸を槍で薙ぎ払い、川底に叩き落とす。
+        locator: {}
+        spoiler_after: ch0193
+    symbolic:
+      observations:
+      - event_ref: E_ch0193_ルウテト_has_property_不死_p6426
+        quote: 即死級の攻撃を受けたルウテトは肉体の再生をしようともせず、両断され、血と肉と骨と内臓をぶら下げたまま平然とそこに立ち続けている。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0193_シナモリアキラ_says_好感度_p6409
+        quote: 「なら少しは俺の好感度を稼ぐプレイングを心がけるべきじゃないのか？」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_シナモリアキラ_says_冬の魔女_p6410
+        quote: 「俺の知っている『冬の魔女』は丁寧に攻略を進めてくる奴だった。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_シナモリアキラ_says_付喪神_p6411
+        quote: 「――いいえ。正しい反論です。流石はアキラ様、いわゆるジャパニーズ付喪神の精神ですわね」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_シナモリアキラ_says_種族統合_p6418
+        quote: 「俺による種族統合と信仰上書き――呪的な民族浄化が成立する」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_シナモリアキラ_teaches_サイバーカラテ_p6438
+        quote: 「諦観は怠惰な思考放棄ではなく間断のない思考の連鎖だ。素早く諦め、閃光の速度で見切りをつけろ。訓練で神経系に刻み込んだ諦観であらゆる苦痛から目を逸らせ。」
+        locator: {}
+        spoiler_after: ch0193
+    action:
+      observations:
+      - event_ref: E_ch0193_シナモリアキラ_fights_ルウテト_p6419
+        quote: 「カーインに言わせれば流派の誇り、法に照らし合わせればコンプライアンス。何にせよ、紀人の名にかけてここでお前を倒すぞ、紀神ルウテト」
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_シナモリアキラ_uses_ヘリステラの転生力_p6426
+        quote: 左腕に義肢を具現化した俺は『マレブランケ』たちにゼドを任せて疾走する。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_シナモリアキラ_flees_ゼド_p6427
+        quote: 素早く身を躱し、残った髪の毛の一部を手刀で切り捨てて身代わりにする。呪的逃走の術により創造された俺の分身がゼドを惑わせているうちに復帰した『マレブランケ』たちが参戦してくる。足止めを任せて俺はルウテトの下へ走った。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_シナモリアキラ_uses_宝珠_p6430
+        quote: 血塗れの盗品が放つ呪力を義肢で押さえ込み、握り潰さんばかりの力で持ち上げるとそのまま口の中に放り込み、何度か咀嚼して嚥下する。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五階層]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0193_第五階層_has_property_逆さまの森_p6416
+        quote: 第五階層の天蓋に逆さまに生えた無数の木々――おそらく糸杉だろう――は真冬さながらの雪化粧に染め上げられているが、それらが重力に従って墜ちてくることは無かった。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0193_ちびシューラ_says_根源人種浄化_p6417
+        quote: 「『根源人種浄化』の呪術だよアキラくん！ ルウテトは再生者や『死人の森』をそのまま現世に復活させるなんて反動の大きいことは企んでいない。既存の『弱く虐げられた者たち』の信仰基盤を乗っ取って現代風に調整された新しい再生者と更新された『死人の森』をこの地に甦らせるつもりなんだ！」
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレイシス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0193_グレイシス_attacks_ゼド_p6421
+        quote: ゼドが撃ち出した弾丸、それを俺が認識するより速く『髪の毛』が迎撃していたのだ。シナモリアキラの現在の肉体であるアマランサスが髪に宿す亜竜グレイシス。のたうつ頭髪が大蛇のように大口を開き、咆哮による音速の呪文で弾丸を叩き落とす。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルマ・アーニスタ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0193_アルマ・アーニスタ_attacks_ルウテト_p6426
+        quote: 瞬間、ルウテトの死角となった背後から氷の盾と燃えさかる斧を手にした重装甲の戦士が唐突に出現する。熱光学迷彩――トリシューラの技術によって隠れ潜んでいたアルマ・アーニスタの一撃は振り向くことすらしないルウテトの骨翼に受け止められる。
+        locator: {}
+        spoiler_after: ch0193
+      - event_ref: E_ch0193_アルマ・アーニスタ_attacks_ルウテト_2_p6426
+        quote: 熱光学迷彩――トリシューラの技術によって隠れ潜んでいたアルマ・アーニスタの一撃は振り向くことすらしないルウテトの骨翼に受け止められる。直後――というべきか、その光景が巻き戻り軌道を変えた斧が今度こそルウテトの背中を両断し、肉と骨を焼きながら女神を斜めに二分してみせた。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0193_サリア_attacks_ルウテト_p6426
+        quote: 冬の魔女第一の使い魔であるサリアはその背後に半透明のハエのビジョンを浮かび上がらせながらルウテトの『成功する未来』を撃ち抜いている。
+        locator: {}
+        spoiler_after: ch0193
+  first_appearance_candidate: true

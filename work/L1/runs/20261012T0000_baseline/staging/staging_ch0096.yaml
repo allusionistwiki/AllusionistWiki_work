@@ -1,0 +1,365 @@
+episode: ch0096
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_org_劇団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0096_劇団_other_過去の再演_p3499
+        quote: 任せてくれ、と請け負ったのは、旅路で一緒になった流れの劇団である。 見知らぬ国の人々の為に立ち上がった少女の真情に共感し、賛同してくれたのである。
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_劇団_makes_台本_p3499
+        quote: 劇団は即座に台本を仕上げ、演出を決定し、有り合わせの道具と材料でちょっとした小道具まで作ってしまった。
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少女]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0096_少女_other_過去の再演_p3499
+        quote: 少女の唐突な思いつきを聞いて、周囲が呆然としていたのは一瞬のことだった。 過去の出来事を再演することで時間の流れを書き換える。
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_少女_other_牙猪_p3500
+        quote: 「あなたが一番身体が大きくて立派なんですもの。だから、王様役はあなた」
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_少女_other_失敗の危険_p3501
+        quote: 「お芝居だけど、実際に過去へ行くのと同じこと。だから、失敗したらお芝居の世界から帰ってくることができなくなったりするかもしれない」
+        locator: {}
+        spoiler_after: ch0096
+    action:
+      observations:
+      - event_ref: E_ch0096_少女_other_牙猪の左手_p3501
+        quote: 当初の目的を口にして、少女は牙猪の左手をそっと握った。
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_きぐるみ]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0096_きぐるみ_has_property_外見の偽装_p3500
+        quote: 死体から剥いだ皮をつなぎ合わせて作ったその呪具には、ひとたび中に入ればたとえ種族が違えども外からは本物そっくりに見えてしまうという神秘的な力が働いている。
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_牙猪]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0096_牙猪_asks_王様役_p3500
+        quote: 「本当に、俺がやらなくちゃならないのか？」
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_舞台]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0096_舞台_opens_王の物語_p3501
+        quote: やがて二人を呼ぶ声がして、まもなく舞台が開演する。 はじめに演じられるのは美しい王の物語。
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラフディ]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0096_ラフディ_is_located_小世界_p3502
+        quote: その国の名はラフディ。 球神ドルネスタンルフに守られた、大地と共に生きる人々が暮らす土地。
+        locator: {}
+        spoiler_after: ch0096
+    visual:
+      observations:
+      - event_ref: E_ch0096_ラフディ_has_property_丸い建築_p3503
+        quote: 中心部に存在する王宮は大小の球体を組み合わせたような作りをしていた。球体と円形、それによってラフディという国は成立している。
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_世界]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0096_世界_appears_as_円盤の大地_p3502
+        quote: 広大な円盤の大地と、端から流れ出す大海。天を界竜ファーゾナーが覆い、世界を取り巻く暗黒に数多の星々が輝く。
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0096_マラード_has_property_恋の病_p3504
+        quote: その二つ名は【恋の病】。この時代の貴人の常として、まことのマラード名ではなく通称が公に用いられ、それが事実上の名となっていた。
+        locator: {}
+        spoiler_after: ch0096
+    visual:
+      observations:
+      - event_ref: E_ch0096_マラード_has_property_美しい髪_p3505
+        quote: 非凡だったのは、その髪の毛だ。 腰まで流れ落ちる艶やかな頭髪には丹念に櫛が通され、毛根から毛先までは青から白銀へと移り変わる緩やかな勾配が美しい。
+        locator: {}
+        spoiler_after: ch0096
+    speech:
+      observations:
+      - event_ref: E_ch0096_マラード_says_よきにはからえ_p3507
+        quote: 「よきにはからえ」 と一言だけで全てが済んだかのような顔をする所が、このマラードという王の性格であり、臣下たちの頭を悩ませている原因であった。
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_マラード_other_話のすり替え_p3512
+        quote: 「うむ。それはな、話を上手くすり替えたかったからだ」
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_マラード_asks_真の恋_p3516
+        quote: 「永き時を生き、万事に通じるというそなたたちに問おう。真の恋とはいずこにあり、どのようにすれば手に入るのだ？」
+        locator: {}
+        spoiler_after: ch0096
+    action:
+      observations:
+      - event_ref: E_ch0096_マラード_other_美しい都_p3511
+        quote: それは、ただ一人の男が心のままに土の上に描いた結果として出来上がった、偶然の産物。 髪の美しさの他には何も持たぬ男が為し遂げた唯一の偉業であった。
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_マラード_loses_反論_p3536
+        quote: もはや、王には返す言葉が無かった。
+        locator: {}
+        spoiler_after: ch0096
+    relationship:
+      observations:
+      - event_ref: E_ch0096_マラード_other_セレス_p3538
+        quote: マラードは自らが王であることすら忘れてしまったかのように、忘我の表情でセレスの愛らしい容貌、小さな頭や赤らんだ頬、柔らかそうな唇を順番に見つめていた
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルバーブ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0096_ルバーブ_appears_as_醜い従僕_p3508
+        quote: ひどくみすぼらしい男だった。 だらしなく丸々と太った体型。顎は首の肉に埋まり、目尻は垂れ下がっており鼻は大きい。なにより乱れた黄色の髪が不潔であり、それはこの国においては最も醜悪と見なされる要因だった。
+        locator: {}
+        spoiler_after: ch0096
+    action:
+      observations:
+      - event_ref: E_ch0096_ルバーブ_other_マラードの行動_p3509
+        quote: 「陛下が次に仰せになるのはこうです。『ルバーブよ、今日もまた、街に新たな出会いを探しに行きたい。口うるさいじじいどもの目を誤魔化す為に、俺と入れ替わるがよい。髪をくれてやるから明日まで幻影のまじないで周囲を上手く誤魔化すのだぞ』といった所でしょうか」
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_賢者たち]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0096_賢者たち_other_真の恋_p3517
+        quote: 曰く、「頭蓋を開き脳を洗い、微弱な稲妻を流せばたちどころに最上の快楽が得られましょうぞ。真実とは得てしてその程度のものでございます」「恋とはすなわち生の躍動。すなわち極限における命の実感こそがそれを生み出すのです。愛しき相手と殺し合われませ」
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ・スマダルツォン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0096_オルヴァ・スマダルツォン_other_ブレイスヴァ_p3518
+        quote: 「いずれ来る十九の獣がこの世の全てを滅ぼし、その終末すら大いなる存在が喰らい尽くしてしまうであろう。恋など終わりが終わらぬという恐怖に比べれば些細な問題に過ぎぬ。おお、恐るべきは終端を喰らうもの！
+          うあああ、天井の採光窓に、窓に！ そこかしこから大きな口を開いて待ちかまえている！ ブレイスヴァが！ ブレイスヴァが！ 呪われよ！ 呪われよ！」
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ウルトラマリン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0096_ウルトラマリン_other_性別変更_p3519
+        quote: 「陛下は女性も羨むほどの美しい髪とかんばせをお持ちと讃えられるほどのお方。そこでどうでしょう、一つ私のまじないで女になってみるというのは。今までとは違った視点で恋を楽しめるやもしれませぬ」
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_ウルトラマリン_other_人を探す_p3523
+        quote: 「陛下が探すべきは恋ではありませぬ。人を探すと良いでしょう。あるいは、天空から可憐な少女が降ってくることを神々に祈ればよろしい」
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ウルトラマリン＝イヴァ・ダスト]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0096_ウルトラマリン＝イヴァ・ダスト_appears_as_幻姿霊_p3519
+        quote: 小柄な体を鹿にしたり狼にしたりコウモリにしたり、あるいは不定形の光の靄にしたりと忙しなく変幻させていく。 幻姿霊と呼ばれる氏族である彼、あるいは彼女は、次々と姿を変えながら王の前に降り立った。
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_アエタイト]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0096_アエタイト_functions_as_安産の呪力_p3520
+        quote: 小さな石を内包した様が子を宿している母親に似ていることから、安産を祈願する呪力が宿っているとされております」
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_入れ子人形]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0096_入れ子人形_has_property_自己相似形_p3522
+        quote: 細部を縮小していく度にそれが全体として立ち現れる自己相似形。そしてそれは無限に続いていくのだ。
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0096_グレンデルヒ_appears_謁見の間_p3525
+        quote: だがそのとき、不意の闖入者が現れる。 噂をしていたのが聞こえていたかのように、長身の影が謁見の間の入り口に差したのだ。
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_グレンデルヒ_transforms_脂肪の肉体_p3526
+        quote: ルバーブの打撃を受けても壮年の大男は身じろぎ一つしないまま。 代わりに、打撃を受けた場所を起点とするようにぱっくりと生肉が割れて内側が覗けた。つるりとした禿頭の表面で入れ墨のような微細な溝が光を放ち、屈強な筋肉に押し上げられた胸部は女性的に盛り上がっている。
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_グレンデルヒ_breaks_舞台_p3527
+        quote: 賢者がそう言いながら重く足踏みをした瞬間、赤絨毯の敷かれた大理石の床が踏み抜かれ、木製の舞台床が砕けた。破綻した箇所を中心として世界に亀裂が入っていく。
+        locator: {}
+        spoiler_after: ch0096
+    speech:
+      observations:
+      - event_ref: E_ch0096_グレンデルヒ_says_特異調整_p3526
+        quote: くぐもった女性の声が、静かに告げた。「特異調整・二十パーセント」 変異した脂肪が蠢き、壮年の男の姿を再現する。
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_グレンデルヒ_other_参加_p3528
+        quote: 「簡潔に用件を言おう。私も混ぜろ」
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_グレンデルヒ_other_恋愛市場の歪み_p3530
+        quote: 「陛下が特定の相手を抱え込まず、短い恋愛を楽しまれるのは素晴らしいことなのですよ。この王国において最も富める者が大量に消費してこそ、市場は活発になり、貧しい者にも自然に富が滴り落ちる。自由な市場の在り方に委ねることが一番なのです」
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_グレンデルヒ_other_廃棄_p3531
+        quote: 「大量に溢れた品々をいかにするか。供給量を絞り、質の悪い、価値の無い商品を減らせばよろしい」 「減らすとは？」 「言葉通りです。廃棄すればよろしい」
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_グレンデルヒ_other_ルバーブ_p3533
+        quote: 「人生に失敗し、さらにはその自覚すらなく自分が強いと理由もなく信じ込むその愚かしさ。醜い中年の童貞男が生きている価値など、本物の価値を相対的に押し上げる為にしかないというのに」
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_グレンデルヒ_other_ルバーブの家族_p3535
+        quote: 処女が中古品よりも高い価値を有するのはこの為だ。これの妻になるほど安上がりな女ならば間違いなく払い下げの中古品。となればそれまでの使用者の形質がどれほど混ざっているか知れたものではない。全く、ぞっとするな。貧乏人の世界とはかくもおぞましい」
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セレス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0096_セレス_appears_暗がり_p3537
+        quote: だがそのとき。 光の射し込まぬ暗がり、空間の片隅からじわりと染み出すようにして、何者かの影がその場に現れた。
+        locator: {}
+        spoiler_after: ch0096
+    name:
+      observations:
+      - event_ref: E_ch0096_セレス_names_冥道の幼姫_p3537
+        quote: 「私の名はセレス。人呼んで冥道の幼姫。十三番目の賢者にございます、陛下。貴方様に生と死の神ハザーリャの祝福があらんことを」
+        locator: {}
+        spoiler_after: ch0096
+    speech:
+      observations:
+      - event_ref: E_ch0096_セレス_other_内側の問題_p3539
+        quote: 「であれば、貴方様の気付きとは間違ったものなのです――よろしいですか、陛下。貴方様の鬱屈、その原因を外側に求めるということがそもそもの間違いです。問題は貴方様の内側にある」
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0096_アキラ_other_ヴィヴィ＝イヴロス_p3540
+        quote: 「どういうことだ、あれは！」 俺は強引にチリアットの身体の制御を奪うと、ヴィヴィ＝イヴロスの胸ぐらを掴んで壁に押しつけた。
+        locator: {}
+        spoiler_after: ch0096
+    speech:
+      observations:
+      - event_ref: E_ch0096_アキラ_fears_演じ切り_p3542
+        quote: 果たして、本当にこの調子で最後まで演じ切れるのか？
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_アキラ_thinks_グレンデルヒの誘導_p3542
+        quote: 「さっきのグレンデルヒの誘導、かなり露骨に残虐な方向に誘導しようとしていたな。下手したら舞台の方向性や空気が台無しになる」
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_アキラ_thinks_長い髪の王_p3542
+        quote: その時、俺はまるで自分が長い髪の王になったかのような錯覚を覚えていた。
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_アキラ_other_安堵_p3543
+        quote: いつも通りの温度の低い声は、ひどく柔らかい響きを伴って俺の心に溶けていく。矛盾するようなイメージの組み合わせだが、その冷たさに、俺は安堵の暖かみを感じていた。
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0096_コルセスカ_other_アキラ_p3540
+        quote: 「アキラ、落ち着いて」 現在は幼い姿となっているコルセスカが牙猪チリアットが演じている俺を窘める。
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_コルセスカ_other_アキラ_p3542
+        quote: 「私がいます。昔話では、良い魔法使いは悪い魔法使いなんかに負けたりしないものですよ。もちろん、傲慢な王さまも最後には改心するんです」
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_コルセスカ_other_アキラ_2_p3542
+        quote: 「大丈夫」 コルセスカは、灰色の瞳で俺を真っ直ぐに見つめて言った。
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_コルセスカ_says_良い魔法使い_p3542
+        quote: 「私がいます。昔話では、良い魔法使いは悪い魔法使いなんかに負けたりしないものですよ。もちろん、傲慢な王さまも最後には改心するんです」
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゾーイ・アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0096_ゾーイ・アキラ_other_グレンデルヒ_p3541
+        quote: 「悪役系力士が得意とする変身能力。脂肪を操作してグレンデルヒを再現して、舞台上でグレンデルヒ本人に成り代わってるわけだ」
+        locator: {}
+        spoiler_after: ch0096
+      - event_ref: E_ch0096_ゾーイ・アキラ_other_過去干渉_p3541
+        quote: そうすることで、この劇による過去干渉に横槍を入れようとしているらしい。
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴィヴィ＝イヴロス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0096_ヴィヴィ＝イヴロス_reveals_浄界への侵入_p3541
+        quote: 「正直、私も驚いている。私の浄界にこうも容易く侵入され、あまつさえ破壊されかけたばかりか利用されるとはね」
+        locator: {}
+        spoiler_after: ch0096
+  first_appearance_candidate: true

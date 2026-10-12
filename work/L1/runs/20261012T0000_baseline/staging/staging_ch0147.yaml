@@ -1,0 +1,274 @@
+episode: ch0147
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_六人の王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0147_六人の王_other_少女_p4995
+        quote: 六人の王は夢を見る。 銀色の森でひとりきりで誰かを待ち続ける、小さな少女の夢を。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_森]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0147_森_gives_庇護_p4995
+        quote: だから森は彼らに庇護を与え、永遠の中に閉じ込めた。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_スキリシア]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0147_スキリシア_defines_変幻自在な闇_p4996
+        quote: スキリシアを構成する闇は変幻自在。常にその姿を変容させるがゆえに一度として同じ顔を見せることは無い。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_吸血鬼]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0147_吸血鬼_is_located_エルネトモラン_p4997
+        quote: 吸血鬼ことドラトリア系夜の民は、大神院によって正式に天使の眷属種として認定された。エルネトモランでも吸血鬼たちは特別居住区で暮らしている。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_影の州]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0147_影の州_is_located_ドラトリア_p4997
+        quote: 『表』と『裏』の両方で連邦制を敷くドラトリアにおける夜の民たちのための行政区、通称『影の州』は『地上の諸州』との関係性の深さから比較的固定された位置を維持していた。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0147_カーティス_has_property_大勢_p4998
+        quote: かの王は『大勢』なるもの。漠然とした『多さ』のイメージは正確な数を定義させず、十分な戦力の用意を許さない。
+        locator: {}
+        spoiler_after: ch0147
+    action:
+      observations:
+      - event_ref: E_ch0147_カーティス_travels_ドラトリア_p4998
+        quote: カーティスが群れをなして夜の世界を駆け抜けていく。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_カーティス_activates_人海戦術_p4999
+        quote: 無数の自己が次々と各地に散っていく。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_カーティス_appears_群衆_p5004
+        quote: 『感染』は既にカーティスリーグの全域に広がっている。この都市の名は『カーティスのもの』という意味であり、当然と言えばそれまでのことだった。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_カーティス_fights_ラリスキャニア_p5010
+        quote: 「真似を本物と区別しない」「それが私たちの流儀」
+        locator: {}
+        spoiler_after: ch0147
+    speech:
+      observations:
+      - event_ref: E_ch0147_カーティス_says_助けに来た_p4999
+        quote: 「助けに来たよ、私の遠い裔」
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_カーティス_says_子孫の承認_p5005
+        quote: 「完璧な摸倣ならそれは本物と同じものだ」「君は確かに私の子孫だ」「そう見える」「だから子孫でいい」
+        locator: {}
+        spoiler_after: ch0147
+    relationship:
+      observations:
+      - event_ref: E_ch0147_カーティス_bonds_リールエルバ_p5006
+        quote: 「ははは、おじいちゃんもしくはおばあちゃんと呼んでくれてもいいのだよ」
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_カーティスリーグ]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0147_カーティスリーグ_appears_as_近代化された都市_p4998
+        quote: 中央の市街はすっかり近代化が進んで血管のようなチューブが道路となって中を箒が飛び交い、骨のようなビルディングから漏れ出る呪術照明が街を眠らせない。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_聖マローズ教団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0147_聖マローズ教団_captures_リールエルバ_p4999
+        quote: 近頃ドラトリアを騒がす悪質なカルト宗教団体、聖マローズ教団は度重なるテロ行為をエスカレートさせ、ついに王族たるリールエルバを誘拐するに至った。
+        locator: {}
+        spoiler_after: ch0147
+    speech:
+      observations:
+      - event_ref: E_ch0147_聖マローズ教団_other_カーティスの魂_p5000
+        quote: 王族を人質にとった狂信者たちの要求は『カーティスの魂』。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_聖マローズ教団_defines_終末思想_p5008
+        quote: 人の世に災いをもたらす全てを聖なるものとして讃え、自然のままに死と絶望が蔓延することこそが神の望みであるとする教義。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0147_リールエルバ_appears_as_教祖_p5001
+        quote: その名を、『絶対美少女吸血姫神リールエルバ様教団』という。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_リールエルバ_wears_舞台衣装_p5002
+        quote: 極めて珍しいことに、少女は服を着ていた。それも豪華絢爛な舞台衣装、舞い踊って躍動するための軽やかなものだ。
+        locator: {}
+        spoiler_after: ch0147
+    action:
+      observations:
+      - event_ref: E_ch0147_リールエルバ_other_群衆_p5003
+        quote: 少女は歩み、跳ね、曲線を描きながらある方向へと移動していく。熱狂の中にある観客たちは誘われるようにステージの上へと昇り、そのまま神殿の奥へと突き進む。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラリスキャニア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0147_ラリスキャニア_reveals_疑似餌_p5006
+        quote: 「馬鹿め、かかったな！ お前の腕の中にいるリールエルバはボクの触手が模倣した疑似餌だ！」
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_ラリスキャニア_confesses_劣等感_p5008
+        quote: 「ボクは『影の姫』では終わらない。リールエルバを追い落とし、真の王権を我が身に取り込めば、もう誰もボクを無視できない。」
+        locator: {}
+        spoiler_after: ch0147
+    action:
+      observations:
+      - event_ref: E_ch0147_ラリスキャニア_other_蝕の十二使徒_p5007
+        quote: 「さあ目覚めの時だ、『蝕の十二使徒』。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_ラリスキャニア_transforms_オルヴァ_p5012
+        quote: 「嗚呼、見よ、天頂の月に陰りあり！ あれなるはこの世の終焉、万象を貪り尽くすブレイスヴァに他ならぬ！」
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0147_オルヴァ_has_property_時空操作_p5013
+        quote: すなわち、時空を操る灰と紫の力を。
+        locator: {}
+        spoiler_after: ch0147
+    action:
+      observations:
+      - event_ref: E_ch0147_オルヴァ_other_カシュラムの歴史_p5023
+        quote: そこには夢があった。滅びたカシュラムの全て。その栄華と衰退の光と闇。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0147_サリア_appears_戦場_p5015
+        quote: そして、闇の奥から現れたのは一人の女。山野にでも出かける時のような出で立ちの、氷の弓を携えた狩人だ。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_サリア_uses_ゼール・コゼーヌ_p5016
+        quote: 「ゼール、減らず口はいいから装甲を展開しろ」
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_サリア_fights_十二使徒_p5017
+        quote: 呪動装甲が速度を持ち、単純な打撃が減速呪術が発動するより先に使徒の顔面を打ち抜いた。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_サリア_fights_オルヴァ_p5020
+        quote: 「お前――」 静かな呟き。死を目の前にしてもサリアに焦りは無い。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_サリア_uses_カーティス砲_p5029
+        quote: 片腕と一体化した『カーティス砲』を構えてサリアが叫んだ。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_サリア_defeats_オルヴァ_p5031
+        quote: 死が紫色の歴史を砕き、カーティスがオルヴァを貫いて永劫の果てに放逐した。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_サリア_other_戦場_p5032
+        quote: 「第五階層は放置になっちゃうけど。リールエルバはあっちに移されてるだろうし、助けるのは黒百合に任せればいいか」
+        locator: {}
+        spoiler_after: ch0147
+    speech:
+      observations:
+      - event_ref: E_ch0147_サリア_says_パターン化_p5015
+        quote: 「とりあえず七回試したけど。うん、やっぱ最速で駆けつければこのタイミングで割り込んで面倒なカシュラムを処理できる。
+        locator: {}
+        spoiler_after: ch0147
+      - event_ref: E_ch0147_サリア_other_カシュラムの歴史_p5024
+        quote: 「邪魔だ」 サリアはただの一言で否定し殲滅した。
+        locator: {}
+        spoiler_after: ch0147
+    symbolic:
+      observations:
+      - event_ref: E_ch0147_サリア_has_property_都市恐怖症_p5018
+        quote: ――だから彼女は、都市が怖い。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ブレイスヴァカラテの伝承者]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0147_ブレイスヴァカラテの伝承者_other_サイバーカラテランキング_p5034
+        quote: 彼らは『サイバーカラテ道場』にアーカイブされた古流武術――ブレイスヴァカラテの伝承者たち。六王たちが第五階層を争乱の渦に巻き込んで以来、破竹の勢いでランキングを駆け上がっている手練れたちだった。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_十二人]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0147_十二人_names_カシュラムの王_p5035
+        quote: 「我こそは賢王」「我こそは拳王」「我こそは未来王」
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_断章]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0147_断章_other_全て_p5035
+        quote: 漂う『尊敬』の書がありとあらゆる出来事を書き連ねていく。
+        locator: {}
+        spoiler_after: ch0147
+    action:
+      observations:
+      - event_ref: E_ch0147_断章_other_項_p5037
+        quote: 心で溢れそうな『断章』は、永劫の闇の中で静かに項を増やし続けた。 文字列は無尽蔵に無制限に増えて漆黒の塊へと変貌する。
+        locator: {}
+        spoiler_after: ch0147
+  first_appearance_candidate: true

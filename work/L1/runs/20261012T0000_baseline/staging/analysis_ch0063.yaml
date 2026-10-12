@@ -1,0 +1,296 @@
+chapter: ch0063
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 5
+  themes: 4
+  quotes_verified: 24
+  quotes_total: 25
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0063_ミルーニャ_learns_サイバーカラテ_p2336]]'
+  object: '[[ME_ネットゲームのマルチクラス]]'
+  claim: 武術の掛け持ちへの疑問は、MMORPGにおける職業（クラス）の重複取得や、現実の格闘技における流派の混在に対するメタ的な疑念を指している。
+  quote: なんか武術とかそういうのって掛け持ち？ みたいなことしていいのかな。
+  paragraph: p2336
+  confidence: moderate
+  quotes:
+  - quote: なんか武術とかそういうのって掛け持ち？ みたいなことしていいのかな。
+    paragraph: p2336
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0063_ドルネスタンルフ_appears_as_球体の肉塊_p2340]]'
+  object: '[[ME_ゲームのバグやアセット破損]]'
+  claim: 転移門から現れた「人の皮を用いた大玉」のような球体は、3Dゲームにおけるメッシュの破綻、テクスチャの貼り付け失敗、またはアバターが圧縮・変形した際のグロテスクな視覚的異常を連想させる。
+  quote: まるで、人の皮を用いた大玉のようだ。だが継ぎ目は一切見当たらない。最初からそうであったかのように、自然な生き物として球体はそこにいた。
+  paragraph: p2340
+  confidence: strong
+  quotes:
+  - quote: まるで、人の皮を用いた大玉のようだ。だが継ぎ目は一切見当たらない。最初からそうであったかのように、自然な生き物として球体はそこにいた。
+    paragraph: p2340
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0063_葬送式典_functions_as_娯楽_p2356]]'
+  object: '[[ME_テレビ中継の広告挿入]]'
+  claim: 厳粛な葬送式典が地上全土に配信され、複合企業体の広告幻像が乱舞する様子は、現代のスポーツイベントや国葬級行事におけるスポンサー広告の浸透と、娯楽化された宗教儀礼を風刺している。
+  quote: 現在も鏡には広告主である多数の複合企業体の名前が次々と表示されている。広告幻像が乱舞する会場に、一般客たちがざわめきながら着席する。
+  paragraph: p2356
+  confidence: strong
+  quotes:
+  - quote: 現在も鏡には広告主である多数の複合企業体の名前が次々と表示されている。広告幻像が乱舞する会場に、一般客たちがざわめきながら着席する。
+    paragraph: p2356
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0063_神働装甲_functions_as_カラス型と人型の変形装甲_p2361]]'
+  object: '[[ME_変形ロボット玩具・トランスフォーマー]]'
+  claim: カラス型と人型の二形態を使い分ける甲冑は、変形ギミックを持つ玩具やアニメのメカデザイン、およびゲームにおけるキャラクターの形態変化（フォームチェンジ）を想起させる。
+  quote: あのカラス型と人型、二つの形態を使い分ける新型の甲冑は、神働装甲と名付けられた新武装である。
+  paragraph: p2361
+  confidence: moderate
+  quotes:
+  - quote: あのカラス型と人型、二つの形態を使い分ける新型の甲冑は、神働装甲と名付けられた新武装である。
+    paragraph: p2361
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0063_金鎖_enables_類感呪術通信_p2362]]'
+  object: '[[ME_分散型ネットワーク・P2P通信]]'
+  claim: 中枢を殺しても通信が途絶えない分散処理構造は、単一障害点を持たない分散型ネットワーク（P2P）や、ブロックチェーン技術の耐検索性を模倣した構造である。
+  quote: 全ての金鎖が相互に分散処理を行っているため、仮想的なフラベウファは決して死ぬことがない。
+  paragraph: p2362
+  confidence: strong
+  quotes:
+  - quote: 全ての金鎖が相互に分散処理を行っているため、仮想的なフラベウファは決して死ぬことがない。
+    paragraph: p2362
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0063_リールエルバ_is_made_of_クローン_p2347]]'
+  object: '[[ME_クローン技術の倫理・自己同一性の崩壊]]'
+  claim: 「複製であるという事実により常に自己同一性の崩壊の危機に晒され続ける」という記述は、クローン人間が抱える存在論的な不安や、オリジナルとの区別不能性によるアイデンティティの危機を指す。
+  quote: 複製であるという事実により常に自己同一性の崩壊の危機に晒され続けるという非業の運命。
+  paragraph: p2347
+  confidence: strong
+  quotes:
+  - quote: 複製であるという事実により常に自己同一性の崩壊の危機に晒され続けるという非業の運命。
+    paragraph: p2347
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0063_守護の九槍第五位_activates_浄界_p2358]]'
+  object: '[[ME_AR（拡張現実）による空間上書き]]'
+  claim: 己の心に描いた世界で現実を書き換える「浄界」は、AR技術によって物理空間に仮想オブジェクトを重ね合わせ、知覚を改変する技術の魔法的拡張として描かれている。
+  quote: 己の心に描いた世界で現実を書き換える、邪視者の奥義です。
+  paragraph: p2364
+  confidence: moderate
+  quotes:
+  - quote: 己の心に描いた世界で現実を書き換える、邪視者の奥義です。
+    paragraph: p2364
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0063_アキラ_hopes_アキラの勝利_p2363]]'
+  object: '[[ME_ゲームのセーブデータ・リプレイ機能]]'
+  claim: 「物語素体」を駆動させ、遠く離れた場所の戦いを「加工」して届ける行為は、ゲームの録画・リプレイ機能や、プレイヤーの行動をデータとして記録・再生する仕組みを連想させる。
+  quote: やや恥ずかしいが、寝ずに突貫で『加工』した物語素体。どうにか形になっているといいのだけれど。
+  paragraph: p2363
+  confidence: moderate
+  quotes:
+  - quote: やや恥ずかしいが、寝ずに突貫で『加工』した物語素体。どうにか形になっているといいのだけれど。
+    paragraph: p2363
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0063_ハルベルト_appears_舞台_p2363]]'
+  object: '[[ME_バーチャルYouTuber・アバター]]'
+  claim: マリーが「殺したはず」と絶叫する中、偽装呪術（アバター）を被ったハルベルトが歌姫として登場する様子は、アバターの裏に別の人間（または存在）がいるというVTuber的な構造を暗示する。
+  quote: いつもはフードで隠していた両耳は高度な偽装呪術によって半妖精の質感と映像を被せられている。
+  paragraph: p2362
+  confidence: moderate
+  quotes:
+  - quote: いつもはフードで隠していた両耳は高度な偽装呪術によって半妖精の質感と映像を被せられている。
+    paragraph: p2362
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0063_転移門_is_made_of_九つの円柱と巨大な円環_p2338]]'
+  object: '[[ME_国際空港のゲート・トランジット]]'
+  claim: 軍事利用の教訓から国際法で規制され、膨大な事務手続きを要する転移門は、現代の国際空港における出入国管理、トランジット手続き、および地政学的な安全保障の枠組みを模している。
+  quote: 国際法で厳重に規制され、その運用には細心の注意が払われるのだが、使用できないというわけではない。
+  paragraph: p2338
+  confidence: moderate
+  quotes:
+  - quote: 国際法で厳重に規制され、その運用には細心の注意が払われるのだが、使用できないというわけではない。
+    paragraph: p2338
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_駕籠の中の女性の正体
+  note: 強烈な呪力を放ち、アキラ（夜の民）の正体を見透かすような感覚を与えた謎の女性。その正体と目的が未明。
+  quotes:
+  - quote: 黒衣の内側まで見透かされたような感覚。どうしてかぞっとする。
+    paragraph: p2351
+    quote_verified: true
+  - quote: ――貴方が、アズーリア・ヘレゼクシュね？
+    paragraph: p2351
+    quote_verified: true
+  expected_payoff: この女性がアキラの秘密（フィリスとの関係など）を知っている、あるいはアキラの敵・味方として後の展開で重要な役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リールエルバの承認欲求と存在維持
+  note: リールエルバが「誰かに認められたい」という欲求によって存在を維持しているという設定。この依存関係が破綻した場合の結末が示唆される。
+  quotes:
+  - quote: 自らを傷つけかねない強い承認欲求によって存在を維持せねばならないほどに危うい存在。それがリールエルバだ。
+    paragraph: p2346
+    quote_verified: true
+  expected_payoff: リールエルバが誰にも見られなくなった瞬間に消滅する、あるいはその欲求を悪用した攻撃が行われる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第四階層侵攻の意図と内通者
+  note: 葬送式典の警備を薄くするために意図的に侵攻が行われた可能性。トライデントの細胞が地上の奥深くに入り込んでいるという示唆。
+  quotes:
+  - quote: この時に地獄が侵攻を始める事を知っていたからこそ、ガルズは葬送式典の襲撃を計画した？
+    paragraph: p2356
+    quote_verified: true
+  - quote: 内通者は、恐らく私が想像していた以上に地上の奥深くに入り込んでいる。
+    paragraph: p2356
+    quote_verified: true
+  expected_payoff: 式典の成功を装いながら、実はより大きな計画（例：エクリーオベレッカの制御、王獣の解放など）が進められていることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ナトの四肢欠損と適性上昇
+  note: 四肢を奪われたことが呪術適性を上げたという特異な現象。ミルーニャが「不快」と感じている点。
+  quotes:
+  - quote: 四肢の欠損や臨死体験など、極限の状況に晒される事で魂がより高みへと引き上げられることがあるという。
+    paragraph: p2361
+    quote_verified: true
+  expected_payoff: この「欠損による強化」が、アキラや他のキャラクターにも適用される可能性、あるいはナトの装甲が暴走する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_セリアック＝ニアの「猫の取り替え子」設定
+  note: ニアが猫のナーグストールとニアちゃんのどちらなのかという問い。獅子王キャカラノートとの関連。
+  quotes:
+  - quote: 生まれたばかりのニアちゃんは取り替えられたのです。彼女は猫のナーグストール？ それともニアちゃん？
+    paragraph: p2364
+    quote_verified: true
+  expected_payoff: ニアの人格の分裂、あるいはナーグストールがニアを乗っ取る展開。アキラとフィリスの関係の鏡像として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己同一性の境界の曖昧さ（アキラ/フィリス、ニア/ナーグストール）
+  weight: 0.9
+  quotes:
+  - quote: セリアにはわかりません。セリアの中にいるナーグストールはセリアです。なら使徒様の中にいるフィリスだって使徒様ではないのですか
+    paragraph: p2344
+    quote_verified: false
+  - quote: 私とて、同化と浸食の繰り返しでもうどこまでが自分でどこまでがフィリスなのかという境界は曖昧なのだ。
+    paragraph: p2344
+    quote_verified: true
+  note: セリアック＝ニアの問いを通じて、主人公アキラの存在論的な不安（内なる異物との共生）が主題として浮き彫りになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 承認欲求による存在の脆弱性
+  weight: 0.7
+  quotes:
+  - quote: 自らを傷つけかねない強い承認欲求によって存在を維持せねばならないほどに危うい存在。それがリールエルバだ。
+    paragraph: p2346
+    quote_verified: true
+  - quote: どんな形であれ、人に認められるって嬉しいものよ。
+    paragraph: p2346
+    quote_verified: true
+  note: リールエルバの描写を通じて、他者からの視線（承認）が自己存在の基盤となることの危うさが描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 儀式の娯楽化とメディアによる支配
+  weight: 0.6
+  quotes:
+  - quote: 地上全土に配信されるこの葬送式典は、厳粛な儀式であると同時に娯楽でもあるから、多くの人が注目するのだ。
+    paragraph: p2356
+    quote_verified: true
+  - quote: 洗脳にも似た圧倒的な神働術――教会音楽という小儀式によって、プリエステラやその賛同者たちに釘が刺されているのだと感じた。
+    paragraph: p2358
+    quote_verified: true
+  note: 葬送式典が広告と娯楽で彩られ、浄界による音楽で観客が支配される様子は、メディアによる宗教・政治の操作を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 階級社会と身体特徴による差別
+  weight: 0.5
+  quotes:
+  - quote: 妾種の分際で一体何を勘違いしてこの場に紛れ込んだ？ 全く、ガルズといい地虫の血は碌な結果を生まんな。
+    paragraph: p2353
+    quote_verified: true
+  - quote: リーナは落ちこぼれなんかじゃない。そう力一杯叫んでやりたい。
+    paragraph: p2354
+    quote_verified: true
+  note: 空の民によるリーナへの侮辱（翼耳の欠如）を通じて、血統や身体的特徴に基づく階級差別と、それに対するアキラの怒りが描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

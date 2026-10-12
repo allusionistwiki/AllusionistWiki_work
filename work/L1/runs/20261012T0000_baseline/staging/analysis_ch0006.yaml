@@ -1,0 +1,237 @@
+chapter: ch0006
+created: '2026-09-30'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0006_アキラ_thinks_過去の牢獄_p307]]'
+  object: '[[ME_save_data_corruption]]'
+  claim: 夢の世界を「記憶が蓄積されず未来へ進めない出口のない牢獄」と定義する構造は、ゲームのセーブデータが上書きされず、同じ地点からリスタートし続けるバグ状態（ループ）に似ている。
+  quote: だがここでは記憶は蓄積されない。全てが既知の記憶だけで構成されているから、どこに行くこともできない。ゆえに出口のない牢獄。
+  paragraph: p307
+  confidence: moderate
+  quotes:
+  - quote: だがここでは記憶は蓄積されない。全てが既知の記憶だけで構成されているから、どこに行くこともできない。ゆえに出口のない牢獄。
+    paragraph: p307
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0006_アキラ_thinks_馬鹿_p310]]'
+  object: '[[ME_hardware_spec]]'
+  claim: アキラが自分の暴力性や社会適応の失敗を「病でも故障でもない、ただの仕様」と呼ぶのは、人間の精神をハードウェアの仕様（スペック）として捉える機械論的な自己認識のパロディである。
+  quote: 馬鹿は死んだって治りはしない。直りもしない。なぜならそれは病でも故障でもない、ただの仕様だから。
+  paragraph: p310
+  confidence: strong
+  quotes:
+  - quote: 馬鹿は死んだって治りはしない。直りもしない。なぜならそれは病でも故障でもない、ただの仕様だから。
+    paragraph: p310
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0006_コルセスカ_says_記憶の解釈_p307]]'
+  object: '[[ME_narrative_construction]]'
+  claim: コルセスカの「記憶や意識は事後的に解釈されている」という発言は、人間の自己同一性が連続的な実体ではなく、過去を参照して事後的に構築されるナラティブ（物語）であるという認知科学・哲学の概念を指している。
+  quote: 彼女は、俺の記憶や意識は事後的に解釈されていると言った。俺という個は、過去を参照することで今を形作っているのだと。
+  paragraph: p307
+  confidence: strong
+  quotes:
+  - quote: 彼女は、俺の記憶や意識は事後的に解釈されていると言った。俺という個は、過去を参照することで今を形作っているのだと。
+    paragraph: p307
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0006_アキラ_thinks_社会からのドロップアウト_p309]]'
+  object: '[[ME_emotional_labor]]'
+  claim: 「感情は機械で制御できても、意思と動機は制御できない」という記述は、現代社会における感情労働（エモーショナル・レイバー）の限界、すなわち表層的な感情の管理はできても、内発的な動機付けは外部から強制できないという構造と一致する。
+  quote: だって感情は機械で制御できても、意思と動機は制御できなかっ たから。
+  paragraph: p309
+  confidence: moderate
+  quotes:
+  - quote: だって感情は機械で制御できても、意思と動機は制御できなかっ たから。
+    paragraph: p309
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0006_アキラ_thinks_反証としての現実_p309]]'
+  object: '[[ME_counterfactual_thinking]]'
+  claim: 悪夢（もし六人と出会わなかったら）という反事実的なシミュレーションを見ることで、現実の記憶の価値を逆説的に確認する構造は、反事実的思考（Counterfactual
+    Thinking）による価値の再評価プロセスを逆転させたメタフィクションである。
+  quote: あの六人に出会わなかった俺という最悪の結果を夢として見続けているからこそ、反証としての現実の記憶が際立つ。
+  paragraph: p309
+  confidence: strong
+  quotes:
+  - quote: あの六人に出会わなかった俺という最悪の結果を夢として見続けているからこそ、反証としての現実の記憶が際立つ。
+    paragraph: p309
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0006_アキラ_dies_狼の王_p306]]'
+  object: '[[ME_grinding]]'
+  claim: 「死んでは繰り返し、死んでは繰り返し」という迷宮でのループは、MMOゲーム等で経験する、成長の伴わない単調な戦闘の反復（グラインディング）の苦痛と無意味さを象徴している。
+  quote: 死んでは繰り返し、死んでは繰り返し。
+  paragraph: p306
+  confidence: weak
+  quotes:
+  - quote: 死んでは繰り返し、死んでは繰り返し。
+    paragraph: p306
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_ch0006_謎の声_says_頭を良くする_p310]]'
+  object: '[[ME_cognitive_modification]]'
+  claim: 「頭を良くしてあげる」という謎の声の発言は、アキラの認知機能や精神構造に対する直接的な介入（ハッキング、改変、あるいは洗脳）が今後行われることを示唆している。
+  quote: 『アキラくん、私が、頭を良くしてあげるよ――』
+  paragraph: p310
+  confidence: strong
+  quotes:
+  - quote: 『アキラくん、私が、頭を良くしてあげるよ――』
+    paragraph: p310
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_lucidity_doubt
+  note: アキラが「これは夢だ」と自覚しているが、その自覚自体が正しいのか疑念を抱いている。この疑念が、後の展開で「現実と夢の境界の崩壊」や「コルセスカによる意識操作」の伏線となる可能性。
+  quotes:
+  - quote: 明晰夢。 これは夢だ、という自覚のある夢。 現在、俺が見ているこれがそうだが、しかしどうだろう、それは本当に正しいのか、とも思う。
+    paragraph: p306
+    quote_verified: true
+  expected_payoff: アキラが「夢だ」と思っている世界が実は現実であり、逆に「現実」だと思っている世界が夢であるという逆転、あるいはコルセスカがアキラの「明晰夢」の定義を操作していることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_azuria_absence
+  note: アキラが「どうして、アズーリアはあの時来てくれなかったんだ？」と問い、再会が第五階層脱出の鍵だと感じている。アズーリアの不在の理由と、再会の条件が重要な伏線。
+  quotes:
+  - quote: どうして、アズーリアはあの時来てくれなかったんだ？
+    paragraph: p308
+    quote_verified: true
+  - quote: 再び出会わなければ、俺にとって牢獄にも等しいこの第五階層を抜け出すことが出来ないのだという気がしてならない。
+    paragraph: p308
+    quote_verified: true
+  expected_payoff: アズーリアがアキラを救わなかった（来なかった）理由が、アキラの「仕様（馬鹿さ）」や「転生の必然性」と深く結びついていることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_voice_identity
+  note: 悪夢の中でアキラに語りかける「謎の声」の正体。コルセスカである可能性が高いが、アキラは「さっきから一体誰が喋ってるんだ？」と認識していない。
+  quotes:
+  - quote: 『それが、あなたの渇望？』
+    paragraph: p308
+    quote_verified: true
+  - quote: そもそも、さっきから一体誰が喋ってるんだ？
+    paragraph: p310
+    quote_verified: true
+  expected_payoff: この声がコルセスカであることが明示され、彼女がアキラの夢（深層心理）に直接干渉できる能力を持つことが確認される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_spec_defect
+  note: アキラが自分を「病でも故障でもない、ただの仕様」と定義し、社会からドロップアウトする必然性を述べている。この「仕様」の具体的な内容（前世のトラウマ、性格、能力の欠陥など）が今後の行動原理の核となる。
+  quotes:
+  - quote: なぜならそれは病でも故障でもない、ただの仕様だから。
+    paragraph: p310
+    quote_verified: true
+  - quote: 人間の社会で生きることは俺には無理だ。
+    paragraph: p309
+    quote_verified: true
+  expected_payoff: アキラの「仕様」が、異世界での戦闘能力や対人関係において、彼を孤立させる要因として具体的に描かれ、コルセスカによる「頭を良くする（仕様変更）」の必要性が強調される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶の呪縛と解放の矛盾
+  weight: 0.9
+  quotes:
+  - quote: 未来を繋いでくれたものから解放されることで未来へと進みたいという、矛盾したこの意思こそが俺の本当の渇望なのだ。
+    paragraph: p309
+    quote_verified: true
+  - quote: 『じゃあ、その記憶は呪縛なんだね』
+    paragraph: p309
+    quote_verified: true
+  note: アキラにとって、六人との出会い（記憶）は正気を保つための支え（反証）であると同時に、彼を現在の牢獄（第五階層）に縛り付ける呪いでもある。このパラドックスが章の中心主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己の仕様としての暴力と社会からの脱落
+  weight: 0.8
+  quotes:
+  - quote: 意思によって制御されない暴力に頼れば、すり切れていつかこうなることぐらい、前世で嫌と言うほど思い知ったというのに。
+    paragraph: p310
+    quote_verified: true
+  - quote: 人間の社会で生きることは俺には無理だ。
+    paragraph: p309
+    quote_verified: true
+  note: アキラの暴力性が「仕様（本質）」であり、それが社会適応を不可能にしているという自己認識。転生もその延長線上にあるという運命論。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 明晰夢という名の牢獄
+  weight: 0.7
+  quotes:
+  - quote: ここは過去の牢獄だ。現実ならば時間が流れている為、記憶が蓄積され続ける。未来へ進んでいるという実感がある。だがここでは記憶は蓄積されない。
+    paragraph: p307
+    quote_verified: true
+  note: 明晰夢（自覚のある夢）であることが、かえって「未来への蓄積」を阻害し、アキラを過去の反復に閉じ込める牢獄となっているという逆説。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: アズーリアへの渇望と待機
+  weight: 0.6
+  quotes:
+  - quote: きっと今でも、アズーリアを待ち続けている。
+    paragraph: p308
+    quote_verified: true
+  - quote: ただ待つ。ひたすらに耐える。愚か者だと自分を非難しながらも、どこかで希望を捨てきれなかった、あの地獄のように長い一日。
+    paragraph: p308
+    quote_verified: true
+  note: アキラの行動原理の根底にある「待機」の心理。アズーリアの不在が、彼の時間感覚を歪め、第五階層からの脱出を阻んでいる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

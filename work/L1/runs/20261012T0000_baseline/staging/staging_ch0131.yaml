@@ -1,0 +1,242 @@
+episode: ch0131
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_ミヒトネッセ]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0131_ミヒトネッセ_other_カーテシー_p4522
+        quote: 人の形をしていた異形は、いつしか奇怪な獣の顔へと変貌していた。獣は獰猛に牙を開き、獲物を捕食する。「あおーん、ばうばう」
+        locator: {}
+        spoiler_after: ch0131
+    visual:
+      observations:
+      - event_ref: E_ch0131_ミヒトネッセ_observes_巨大な剣_p4523
+        quote: 天空の裂け目から巨大な剣が現れ、今まさに落下した所だった。
+        locator: {}
+        spoiler_after: ch0131
+    speech:
+      observations:
+      - event_ref: E_ch0131_ミヒトネッセ_says_批評呪文_p4523
+        quote: 「説明したら解釈が固定されちゃうでしょう。演じ手にそういうことを聞かないで。勝手に推測するくらいはいいけど。批評呪文は常に開かれてるから」
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_ミヒトネッセ_says_グレンデルヒ_p4524
+        quote: 「さあ。そもそもアレに自由意思なんてあったのかな――操り人形だったんじゃないかと思えてならない。だとすると、敵に支配されている今のグレンデルヒはそこそこ幸せなのかもね。叛逆という自由意思の夢を見ていられるから」
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_ミヒトネッセ_says_王国_p4524
+        quote: 「とはいえあれは呪術的な破壊。『王国』のみを殺す剣が落ちたところで、物理的な被害は一切無い筈だ。『女王』も無傷のままである。」
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_ミヒトネッセ_says_英雄_p4524
+        quote: 「一応イアテムは真面目に『英雄』をやろうとしているみたいよ――私に言わせれば、『英雄』なんてもの自体が滑稽極まりないんだけどね」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッテ・イヴニル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0131_アレッテ・イヴニル_says_竜殺しの英雄_p4523
+        quote: 「竜殺しの英雄もね」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_レッテ]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0131_レッテ_asks_ミヒトネッセ_p4523
+        quote: 「今のは、狼の暗喩？　食べちゃうぞって、性的な意味で？」
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_レッテ_says_トリシューラ_p4525
+        quote: 「いつトリシューラの寝首を掻いてやろうか、なんて考えてるのよ、きっと」
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_レッテ_says_ラクルラール_p4525
+        quote: 「どうかしら。ラクルラールお姉様はきっと、勝者が私でもトリシューラでも困らない。だって最終的にはあの方の糸で傀儡の王を操るだけだもの」
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_レッテ_promises_ミヒトネッセ_p4526
+        quote: 「あの子が勝ったら一緒にいればいいの。ラクルラールお姉様の庇護の下でトライデントの『左腕』として共に戦えばいい。私が勝ったら逃げればいいわ。ほら、どっちにしても一緒にいられる。それがミヒトネッセの一番でしょう？」
+        locator: {}
+        spoiler_after: ch0131
+    action:
+      observations:
+      - event_ref: E_ch0131_レッテ_other_ミヒトネッセ_p4526
+        quote: 「構わないから、こういうときくらいお姉さんに甘えておきなさい」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イアテム]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0131_イアテム_says_女王_p4527
+        quote: 「ふははは！　遂にやったぞ！　ここに【死人の森】は砕かれた！　これよりこのイアテムが女王を妃とし、新たなる『王国』を――ぶごっ」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ダモクレスの剣]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0131_ダモクレスの剣_other_ブウテト_p4527
+        quote: 半透明の剣が豚となったブウテトにまっすぐに落ちてきて、閃光を撒き散らして消えた――かと思えば、巨大な質量の落下が発生させるような破壊も衝撃も一切無く、ただ巨大な呪力が消失しただけ。
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0131_パーン_says_王国_p4528
+        quote: 「まずフェロニアを呪縛から解き放ち、然る後に俺が『王国』を再建してやろう」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0131_オルヴァ_says_キシャル_p4531
+        quote: 「私は希望を掴もう。もう一度、自らの愚かさで失った愛しの姫君、キシャルをこの手に取り戻してみせよう」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0131_グレンデルヒ_says_シナモリアキラ_p4532
+        quote: （ふ、だから『お前たちの行動の代償は高くつくであろう』と言ったのだ。シナモリアキラよ。私は忠告したぞ？）
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_アルト]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0131_アルト_takes_軍服_p4533
+        quote: アルトはトリシューラに断って近くにあったブティックから詰め襟の軍服に似た上着を拝借。
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_アルト_uses_竜爪眼_p4535
+        quote: アルトの残された左目が強く発光する。すると無数のイアテムが一瞬にして動きを停止させ、更には肌に氷が張り付いていく。
+        locator: {}
+        spoiler_after: ch0131
+    speech:
+      observations:
+      - event_ref: E_ch0131_アルト_says_秩序_p4534
+        quote: 「奪われたからといって、他の誰かから奪うというのでは秩序が保たれぬ。集団としての規律、国家としての法、守るべき人倫。道徳を重んじぬ者はもはや人ではなく獣でしかない。」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ちびシューラ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0131_ちびシューラ_other_転生_p4537
+        quote: 「イアテムの配下だった男達はたった今、この瞬間に前世が確定したの。『過去の記憶が甦った』ことになって、人格ごと魂が書き換えられて、完全に六王の転生体としての存在に固定されたんだ」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ヴァージル]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0131_ヴァージル_activates_サイザクタート_p4537
+        quote: 跳躍したヴァージルの足下に、雷によって構成された三頭犬が出現する。
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_ヴァージル_opens_冥道_p4538
+        quote: 「冥道と接続――開門する」
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_ヴァージル_captures_ちびシューラ_p4541
+        quote: 同心円を描くタイルのように回転する文字列の中に、沢山のちびシューラが囚われているのが見えた。
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_ヴァージル_other_禁呪_p4544
+        quote: 「世界根を捧げ、世界樹の灰を撒け。ガリヨンテの肉を裂き、レルプレアの骨を抉り、アルラウネの血を――ぐっ」
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_ヴァージル_uses_智神の盾_p4550
+        quote: 「まとめて絶滅しろ――【智神の盾】」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_サイザクタート]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0131_サイザクタート_other_破壊_p4539
+        quote: 先程まで眠っていたサイザクタートの左右の頭部が目覚めていた。互いを『ディー』『ダム』と呼び合う頭部の瞳が朱色に輝くと、ヴァージルを中心とした空間が曖昧に揺らぎ、破壊に類する事象が全て巻き戻されていく。
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0131_カーティス_attacks_ヴァージル_p4544
+        quote: 「【墓の下の穢れ】」だが、カーティスが唱える『言語魔術』は理屈も何もない極めて非効率的なまじないだ。
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルバーブ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0131_ルバーブ_fights_パーン_p4545
+        quote: 「元祖サイバーカラテ・ラフディ相撲。打撃と柔術、そして呪術を複合させたこの体技は波動であっても崩せはしませぬ」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0131_マラード_threatens_コルセスカ_p4546
+        quote: 「いい加減、この俺のものになるがいい。あなたがこの美貌に屈したがっているのは分かっている」
+        locator: {}
+        spoiler_after: ch0131
+      - event_ref: E_ch0131_マラード_says_セレス_p4549
+        quote: 「約束したね、大きくなったら結婚しようと。【冥道の幼姫】――幼き姫と呼ぶのはもう終わりだ。長きに渡るレストロオセとの戦いは終わった。森の下での眠りが終わりを告げた今こそ、大人になったセレスは俺のものになるんだよ」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_コルセスカ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0131_コルセスカ_says_個別ルート_p4553
+        quote: 「えっだって個別ルートでのイベントはノーカンですよ。他のルートに別ルートの問題を持ち込まないで下さい。ゲームと現実の区別が付かない人ですか？」
+        locator: {}
+        spoiler_after: ch0131
+    action:
+      observations:
+      - event_ref: E_ch0131_コルセスカ_other_コキュートス_p4556
+        quote: 「いえ、実はまだ【コキュートス】は弄る余地があるんですよね。この際ですから、ちょっとやってみましょうか。リスクもありますけど」
+        locator: {}
+        spoiler_after: ch0131
+  first_appearance_candidate: true

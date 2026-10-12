@@ -1,0 +1,167 @@
+episode: ch0178
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0178_クレイ_loses_右腕_p5907
+        quote: 『死人の森』の王子クレイは戦いの果て、盗賊王ゼドの不意打ちによって地を這わされていた。痛々しい右腕の断端を片手で押さえ、クレイは憎悪を込めてゼドを睨み付ける。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_クレイ_flees_第五階層の外れ_p5920
+        quote: 一瞬で身体の位置関係を入れ替え、勢いをつけて瞬時に構築した『扉』の中へと蹴り込む。時空間を操作する遁行術。水中に没するように、闇の底へと沈んでいくクレイ。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_クレイ_loses_意識_p5921
+        quote: 力強い腕で持ち上げられる感覚を最後に、クレイの意識はそこで途絶えた。
+        locator: {}
+        spoiler_after: ch0178
+    symbolic:
+      observations:
+      - event_ref: E_ch0178_クレイ_loses_王国の剣_p5908
+        quote: 彼にとって命にも等しい『王国の剣』たる右腕は奪われ、その呪力の大半は失われてしまっている。アストラル界を見通す霊視能力者であれば、『クレイ』という名すら薄れて消えかけているのがはっきりとわかっただろう。
+        locator: {}
+        spoiler_after: ch0178
+    speech:
+      observations:
+      - event_ref: E_ch0178_クレイ_says_死ね_p5908
+        quote: 「死ね、死ね、死んでしまえ」
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_クレイ_remembers_ミヒトネッセの囁き_p5916
+        quote: 直前の一幕であの人形がとった不可解な行動の記憶が、クレイの胸中に棘のように刺さっていた。 記憶は、少しだけ遡る。「なんて顔してるの」
+        locator: {}
+        spoiler_after: ch0178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0178_ゼド_appears_as_みすぼらしいコートの男_p5907
+        quote: 見目麗しい霊媒たちが囚われた大空洞の中心で、みすぼらしいコートを着た男が芝居がかった仕草で呟くように声を響かせる。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ゼド_appears_as_失敗作の蝋人形_p5909
+        quote: 向けられた憎しみすら心地良いと、陰気な男の顔が歪んだ。 失敗作の蝋人形のように不自然な笑み。 再生者たるクレイよりよほど不自然な生の形がそこにある。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ゼド_disappears_黒い蝶_p5913
+        quote: 黒い蝶。 影のような鱗粉を散らして、妖しく舞う蝶だけがゼドのいた空間に残されていた。奇術じみた消失に、ミルーニャたちは一瞬泡を食って動きを止める。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ゼド_transforms_女装した少女_p5915
+        quote: 漆黒のオーラとなって盗賊王の身を取りまいていくのは、クレイから奪ったドレス――ではない。 闇と死、栄華と蝶をモチーフとした愛らしさと妖艶さを両立させた夜会服だ。
+          その内包する呪力、目を奪うほどの魅力、紛れもなく『黄金』と同等のコーデであることは間違い無い。
+        locator: {}
+        spoiler_after: ch0178
+    speech:
+      observations:
+      - event_ref: E_ch0178_ゼド_says_盗賊の仕事を始めよう_p5907
+        quote: 「盗賊の仕事を始めよう。俺たちの仕事を始めよう」 歌が闇を震わせる。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ゼド_says_探索者とはこういうものだ_p5908
+        quote: 「そう睨むな、ダンジョンの宝よ。探索者とはこういうものだ。グレンデルヒもイアテムもそうだったろう？ お前たち『森』は打倒されるために出現し、我々に報酬を与え続ける――今やシナモリアキラですらそうなのだ。六王という神話級の『装備品』を手に入れマレブランケて自己を強化し続ける、まさしく理想的な遊戯盤だよ、『死人の森』は」
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ゼド_says_欲望には欲望、敵意には敵意で報いるのがここの流儀_p5912
+        quote: 「奪ったら奪われる。欲望には欲望、敵意には敵意で報いるのがここの流儀――違いますか、探索者」 「違わないな。お前の言うとおりだ」
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ゼド_says_もうひとつの黄金_p5915
+        quote: ミルーニャは愕然と目を見開いた。「もう一つの――『黄金』？！」 つまり――ゼドははじめから『黄金』位のコーデを所有するアイドルだった。
+        locator: {}
+        spoiler_after: ch0178
+    action:
+      observations:
+      - event_ref: E_ch0178_ゼド_attacks_クレイ_p5908
+        quote: ゼドはそう言ってクレイの顔を踏みつけた。端整な顔が歪む。 ステージから引き摺り下ろされ土に塗れたその姿。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ゼド_takes_黄金のコーデ_p5908
+        quote: 亡き師ファウナより受け継いだ『黄金』のコーデ――至上の偶像のみが手にすることを許されたレガリア――を封じたカードは、今ゼドの手中に収められていた。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ゼド_activates_青い糸_p5909
+        quote: そう言って、ゼドは小さく呪文を唱える。途端、男の掌からしゅるしゅると青い糸が現れた。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ゼド_makes_歪な巨腕_p5913
+        quote: 「融けろ」 と短く唱えると、ゼドの腕から幾つもの青い糸が伸びて『腕』に巻き付いていった。異なる二つのものを強引に融け合わせる呪術が奪われたクレイの右腕とゼドの右腕、二つの腕を一つにしていく。二つの腕を強引に融合させた歪な巨腕。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ゼド_attacks_クレイ_p5915
+        quote: 儀式としての結婚、略奪としての誓い。喰らい、貪るような口づけ。 クレイの残された腕がかすかに抵抗するようにゼドの頭に伸びる。
+        locator: {}
+        spoiler_after: ch0178
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ミルーニャ]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0178_ミルーニャ_appears_チョコレートリリー空組_p5910
+        quote: 眼鏡と明るい癖毛、巨大な肩掛け鞄の少女と、箒に腰掛けた三角帽子の少女。それからがさごそと帽子の中から顔を出す小さな猫耳の少女――ミルーニャ、リーナ、セリアック＝ニアからなる『チョコレートリリー空組』が現れたのだ。
+        locator: {}
+        spoiler_after: ch0178
+    action:
+      observations:
+      - event_ref: E_ch0178_ミルーニャ_attacks_ゼド_p5911
+        quote: 相対するミルーニャは片手で何かを握り、軽く手を捻るような仕草。 握られた手の内から、千切れた長い髪の毛が零れ落ちた。 海のように青い、粘つき融ける呪わしい糸が。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ミルーニャ_uses_ヒュドラボルテージ_p5912
+        quote: ミルーニャは鞄を開き、中から飛び出した鶏を片腕に留まらせた。燃えさかる羽ばたきと共に『ヒュドラボルテージ』が一声いななく。
+        locator: {}
+        spoiler_after: ch0178
+    speech:
+      observations:
+      - event_ref: E_ch0178_ミルーニャ_says_あなたも私の断章目当てですね_p5911
+        quote: 「成り行きはだいたいわかりました。『死人の森』の覇権争いも大変ですね。察するに、あなたも私の『断章』目当てですね、盗賊王」
+        locator: {}
+        spoiler_after: ch0178
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_パイロマスター]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0178_パイロマスター_appears_五人組_p5914
+        quote: 虚空を引き裂くようにして現れたのは五人。 「『扉』？！ いえ、影歩きですかっ」 警戒の声を上げるミルーニャが使い魔をいななかせ、爆炎の吐息を撒き散らした。
+        locator: {}
+        spoiler_after: ch0178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0178_ミヒトネッセ_helps_クレイ_p5917
+        quote: 「静かに、勘付かれる。あいつ、影の中にも手勢を潜ませてるから」 鋭い叱責の後、影の中から伸びてきた手がクレイの口を塞いだ。 更に、男の身体が下方向にぐいと引っ張られる。
+        locator: {}
+        spoiler_after: ch0178
+      - event_ref: E_ch0178_ミヒトネッセ_takes_クレイの純潔_p5919
+        quote: 肉がじわりと侵入し、ひとつになって融け合った。 壁の灯火に照らされたひとつの影はふたつとなり、その距離が開いていく。 そこにあったのは鏡。人形は一瞬にしてクレイと寸分違わぬ姿に変貌していた。
+        locator: {}
+        spoiler_after: ch0178
+    speech:
+      observations:
+      - event_ref: E_ch0178_ミヒトネッセ_says_私がクレイになる_p5918
+        quote: 「だから私がクレイになる。あの男が私を嬲っている隙にせいぜい遠くまで逃げればいい。どこかで呪的保護を受けるか改名でもすることね」
+        locator: {}
+        spoiler_after: ch0178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_虹犬]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0178_虹犬_says_もう俺は関係ねえぞ_p5921
+        quote: ブルドッグ氏族の虹犬は苦虫を噛み潰したような表情になると、「ああくそ、なんだってんだ。もう俺は関係ねえぞ」 と言って足早にその場から離れていく。
+        locator: {}
+        spoiler_after: ch0178
+  first_appearance_candidate: true

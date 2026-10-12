@@ -1,0 +1,240 @@
+chapter: ch0078
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 4
+  themes: 1
+  quotes_verified: 17
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0078_ちびシューラ_helps_アキラ_p2904]]'
+  object: '[[ME_スマホゲームの自動戦闘機能]]'
+  claim: ちびシューラによる初撃パターンの予測とサジェストは、現代のスマホゲームにおけるオート戦闘やAIアシスト機能のメタファーである。
+  quote: 新生したサイバーカラテ道場が過去の対戦データを参照してそこから推察されるカーインの初撃パターンを提示。 最も蓋然性の高い一つをサジェストするちびシューラのアシストに従って鋭い貫手の連撃を回避。
+  paragraph: p2904
+  confidence: strong
+  quotes:
+  - quote: 新生したサイバーカラテ道場が過去の対戦データを参照してそこから推察されるカーインの初撃パターンを提示。 最も蓋然性の高い一つをサジェストするちびシューラのアシストに従って鋭い貫手の連撃を回避。
+    paragraph: p2904
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0078_カーイン_has_property_光学幻像_p2903]]'
+  object: '[[ME_格闘ゲームのヒットボックス隠し]]'
+  claim: 乱数を参照して不規則に揺らめく光学幻像による脚の動きの隠蔽は、格闘ゲームにおける視覚的な欺瞞（ヒットボックスのズレ）を物理的に再現したものである。
+  quote: 乱数を参照して不規則に揺らめく光学幻像が脚の動きを隠している。視界隅で二頭身のキャラクターが予測精度の低下を告げていた。
+  paragraph: p2903
+  confidence: moderate
+  quotes:
+  - quote: 乱数を参照して不規則に揺らめく光学幻像が脚の動きを隠している。視界隅で二頭身のキャラクターが予測精度の低下を告げていた。
+    paragraph: p2903
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0078_カーイン_has_property_情報的牽制_p2905]]'
+  object: '[[ME_将棋の指し手による読み誘導]]'
+  claim: カーインの動きや表情がサイバーカラテの予測を誘導する『情報的牽制』として機能する構造は、将棋における相手のAIや人間の読み筋を誘導する「誘い手」の概念と一致する。
+  quote: 奴のこれ見よがしな上体の動き、次々と入れ替わる貫手の形、内側が判然としない両足の移動経路、視線、表情、言葉、何もかもが情報の提示によってサイバーカラテの予測を誘導する為の『情報的牽制』である。
+  paragraph: p2905
+  confidence: strong
+  quotes:
+  - quote: 奴のこれ見よがしな上体の動き、次々と入れ替わる貫手の形、内側が判然としない両足の移動経路、視線、表情、言葉、何もかもが情報の提示によってサイバーカラテの予測を誘導する為の『情報的牽制』である。
+    paragraph: p2905
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0078_サイバーカラテ_defines_インドアユーザー_p2908]]'
+  object: '[[ME_クラウドファンディングやデータ提供による支援]]'
+  claim: インドアユーザーがアウトドアユーザーのデータ提供によって支えられ、相互に助け合う構造は、現代のデータエコシステムやクラウドソーシングの構造を模している。
+  quote: 大まかに二極化したサイバーカラテユーザーは、俺のようなアウトドアユーザーが彼らインドアユーザーの実験台となりデータを提供することで助け合っているのだ。
+  paragraph: p2908
+  confidence: moderate
+  quotes:
+  - quote: 大まかに二極化したサイバーカラテユーザーは、俺のようなアウトドアユーザーが彼らインドアユーザーの実験台となりデータを提供することで助け合っているのだ。
+    paragraph: p2908
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0078_アキラ_names_師範代_p2911]]'
+  object: '[[ME_総合格闘技のルール説明]]'
+  claim: 武器、飛び道具、呪術、毒、多人数連携、騙し討ちまで許容するレギュレーションの説明は、総合格闘技（MMA）のオープンルールを極端に拡張したパロディである。
+  quote: レギュレーションはネット上で確認済みだな？ 武器、飛び道具、呪術の使用、毒、多人数での連携、騙し討ちと何でもありだ。考え得る全ての手段を用いてかかってくるといい
+  paragraph: p2911
+  confidence: strong
+  quotes:
+  - quote: レギュレーションはネット上で確認済みだな？ 武器、飛び道具、呪術の使用、毒、多人数での連携、騙し討ちと何でもありだ。考え得る全ての手段を用いてかかってくるといい
+    paragraph: p2911
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0078_カーイン_says_勝利確率_p2907]]'
+  object: '[[ME_スポーツの勝率予測]]'
+  claim: 戦闘データに基づく改良後の勝利確率が「12%」と宣言されることは、通常高い確率を期待されるデータ分析の逆説的な低さを示し、運の要素を強調する。
+  quote: 先程の師範代との戦闘データから戦闘プログラムに改良を施しました。現在の予測精度は完璧。僕の勝利確率は揺るぎない十二パーセントです
+  paragraph: p2907
+  confidence: moderate
+  quotes:
+  - quote: 先程の師範代との戦闘データから戦闘プログラムに改良を施しました。現在の予測精度は完璧。僕の勝利確率は揺るぎない十二パーセントです
+    paragraph: p2907
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0078_マラコーダ_has_property_美貌_p2909]]'
+  object: '[[ME_アイドルやインフルエンサーの集客力]]'
+  claim: マラコーダの美貌が門下生からの人気や「客」を呼ぶ要因となっていることは、現代のインフルエンサーマーケティングやアイドル文化の集客構造を反映している。
+  quote: 何しろ見た目だけなら凄まじく美形の男性なので毎日門下生の若い女性たちから黄色い声援を浴びている。彼女目当ての『客』すらいるくらいだ。
+  paragraph: p2909
+  confidence: strong
+  quotes:
+  - quote: 何しろ見た目だけなら凄まじく美形の男性なので毎日門下生の若い女性たちから黄色い声援を浴びている。彼女目当ての『客』すらいるくらいだ。
+    paragraph: p2909
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_ch0078_カーイン_has_property_天眼石_p2904]]'
+  object: '[[ME_呪術の物理的媒介]]'
+  claim: 天眼石が髪に疑似神経を通して『気』を流すという解説は、後の展開でカーインの髪が呪術的な攻撃手段としてさらに進化・活用される伏線となる。
+  quote: 天眼石だね。強力な魔除けでこっちの世界だと知覚を強化するって効果もあるよ。多分、頭髪に疑似神経を通して『気』を流してる
+  paragraph: p2904
+  confidence: moderate
+  quotes:
+  - quote: 天眼石だね。強力な魔除けでこっちの世界だと知覚を強化するって効果もあるよ。多分、頭髪に疑似神経を通して『気』を流してる
+    paragraph: p2904
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カーインの髪による点穴突
+  note: カーインの髪が『気』を流す疑似神経であり、点穴を突く一撃必殺の武器になり得るという記述。今後の戦闘で髪が致命打として機能する可能性。
+  quotes:
+  - quote: 『気』を流しているという言葉が確かならば、あの髪で『点穴』を突くことも可能なのだろう。貫手同様に一撃必殺の武器だと考えておくべきだ。
+    paragraph: p2904
+    quote_verified: true
+  expected_payoff: アキラが髪を切断して痛みを体験させる計画が失敗し、逆に髪による点穴突で致命傷を負う展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_サイバーカラテの運要素
+  note: サイバーカラテの予測の行き着く先が『運』のようなものまで入り込むという記述。データ分析の限界と、乱数や気紛れが勝敗を分ける要因になる伏線。
+  quotes:
+  - quote: 最適な戦術を予測するサイバーカラテの行き着く先は、突き詰めれば『運』のようなものまで入り込む。
+    paragraph: p2906
+    quote_verified: true
+  expected_payoff: 高度なデータ分析が破綻し、アキラが直感や運に頼らざるを得ない状況への転換。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_マラコーダの指導内容
+  note: マラコーダが初心者や女性、老人を中心に指導し、基礎体力が足枷であるという課題。彼女が指導する門下生が重要な役割を果たす可能性。
+  quotes:
+  - quote: ぼちぼちね。お嬢さんたち、それなりに様になってきてるわよ。基礎体力が足枷だけど、そこはまあ今後の課題ね
+    paragraph: p2909
+    quote_verified: true
+  expected_payoff: マラコーダが指導した門下生たちが、アキラの不在時や特殊な状況で道場を守る、あるいは敵として現れる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_道場破りのレギュレーション
+  note: 武器、呪術、毒、多人数連携、騙し討ちまで許容するレギュレーション。このルールが後の大規模な戦闘や陰謀で悪用される可能性。
+  quotes:
+  - quote: 武器、飛び道具、呪術の使用、毒、多人数での連携、騙し討ちと何でもありだ。考え得る全ての手段を用いてかかってくるといい
+    paragraph: p2911
+    quote_verified: true
+  expected_payoff: このルールを悪用した組織的な襲撃や、アキラの義肢を破壊する特殊な武器の使用。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: データ分析の限界と運の介入
+  weight: 0.8
+  quotes:
+  - quote: 最適な戦術を予測するサイバーカラテの行き着く先は、突き詰めれば『運』のようなものまで入り込む。
+    paragraph: p2906
+    quote_verified: true
+  - quote: 現在の予測精度は完璧。僕の勝利確率は揺るぎない十二パーセントです
+    paragraph: p2907
+    quote_verified: true
+  note: サイバーカラテの高度な予測機能にもかかわらず、カーインの勝利確率が低く、運の要素が強調されている。技術の進歩が完全な制御を可能にしないという主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 技術と身体性の融合
+  weight: 0.7
+  quotes:
+  - quote: 俺は深く、静かに気息を導引しながら、左の義肢を前に出して構えた。
+    paragraph: p2903
+    quote_verified: true
+  - quote: サイバーカラテはその性質上、実際に手足を動かすのではなく観戦やシミュレーションだけを室内で行い、最適な戦術プランを提示したり効率的な動作プログラムを構築したりといったユーザーが重宝される。
+    paragraph: p2908
+    quote_verified: true
+  note: 義肢を用いた武術と、シミュレーションによる身体性の拡張。サイバーカラテが身体とデータの境界を曖昧にする構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: コミュニティの形成と多様性
+  weight: 0.6
+  quotes:
+  - quote: 道場に通う門下生の数も、この三ヶ月で随分と増えた。そこに、暴力に伴う血の臭いは無い。「平和だな」
+    paragraph: p2909
+    quote_verified: true
+  - quote: マラコーダは俺よりも女性への対応が遙かに得意だ。当人が女性なので当然と言えば当然だが、何しろ見た目だけなら凄まじく美形の男性なので毎日門下生の若い女性たちから黄色い声援を浴びている。
+    paragraph: p2909
+    quote_verified: true
+  note: 道場が単なる戦闘の場ではなく、多様な人々が集う平和なコミュニティとして機能している。マラコーダの存在がその多様性を象徴している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 情報の非対称性と誘導
+  weight: 0.5
+  quotes:
+  - quote: 奴のこれ見よがしな上体の動き、次々と入れ替わる貫手の形、内側が判然としない両足の移動経路、視線、表情、言葉、何もかもが情報の提示によってサイバーカラテの予測を誘導する為の『情報的牽制』である。
+    paragraph: p2905
+    quote_verified: true
+  note: カーインが意図的に情報を開示し、相手の予測を誘導する戦略。情報戦における優位性の構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

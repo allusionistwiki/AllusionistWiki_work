@@ -1,0 +1,342 @@
+chapter: ch0202
+created: '2026-10-10'
+status: proposed
+counts:
+  claims: 14
+  mysteries: 5
+  themes: 4
+  quotes_verified: 22
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p6777]]'
+  object: '[[ME_gacha_game_tutorial]]'
+  claim: 女神からの啓示を、ゲームにおける退屈なチュートリアルやイベントCGのスキップ対象としてメタ的に描写している。
+  quote: ここで自分にできることは何も無く、ただ起きる事を受け止めるだけ。一方的に落ちてくる情報を聞き流すだけのつまらない時間。
+  paragraph: p6777
+  confidence: strong
+  quotes:
+  - quote: ここで自分にできることは何も無く、ただ起きる事を受け止めるだけ。一方的に落ちてくる情報を聞き流すだけのつまらない時間。
+    paragraph: p6777
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p6777]]'
+  object: '[[ME_norse_mythology_odin]]'
+  claim: 隻眼、槍、猫をモチーフにした耳飾りという描写は、北欧神話のオーディン（隻眼、グングニル）およびフレイヤ（猫の戦車）の要素を混在させた擬似神格である。
+  quote: 隻眼、槍、猫をモチーフにした耳飾り、力強くしなやかな女戦士とはかくあるべし、みたいな理想像。
+  paragraph: p6777
+  confidence: moderate
+  quotes:
+  - quote: 隻眼、槍、猫をモチーフにした耳飾り、力強くしなやかな女戦士とはかくあるべし、みたいな理想像。
+    paragraph: p6777
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_p6778]]'
+  object: '[[ME_metafiction_plot_device]]'
+  claim: 神の啓示の曖昧さを「物語の都合」や「作劇上の逃げ」としてキャラクター自身が自覚し、メタフィクション的な構造を内包している。
+  quote: 『物語の都合』とか『作劇上の逃げ』が透けて見えるくらいには今ひとつ役に立たない。
+  paragraph: p6778
+  confidence: explicit
+  quotes:
+  - quote: 『物語の都合』とか『作劇上の逃げ』が透けて見えるくらいには今ひとつ役に立たない。
+    paragraph: p6778
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p6780]]'
+  object: '[[ME_cosplay_event]]'
+  claim: 戦闘準備としての甲冑着用を、キャラクターのコスプレやイベント参加として娯楽的に描き、シリアスな戦闘への導入を緩やかにしている。
+  quote: 白昼夢から目覚めると、『猫騎士』の甲冑を身につけたセリアック＝ニアをクナータが激賞していた。
+  paragraph: p6780
+  confidence: moderate
+  quotes:
+  - quote: 白昼夢から目覚めると、『猫騎士』の甲冑を身につけたセリアック＝ニアをクナータが激賞していた。
+    paragraph: p6780
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_p6783]]'
+  object: '[[ME_memory_manipulation]]'
+  claim: 聖女の記憶が書き換わる現象は、単なる幻覚ではなく、過去改変や因果律の操作といった高度な呪術的介入を示唆している。
+  quote: 聖女の記憶に存在する『母』の姿が書き換わったということは、彼女の子であり転生先である救世主の存在が変質したということだ。
+  paragraph: p6783
+  confidence: strong
+  quotes:
+  - quote: 聖女の記憶に存在する『母』の姿が書き換わったということは、彼女の子であり転生先である救世主の存在が変質したということだ。
+    paragraph: p6783
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p6785]]'
+  object: '[[ME_ar_overlay_reality]]'
+  claim: 虹の架け橋によって建物の壁が消失し世界が上書きされる様子は、AR技術による現実の拡張や、ゲーム内のステージ転移を連想させる。
+  quote: 一階の大部分を上書きするように鮮やかな色彩の帯が空間を塗りつぶし、建物の壁面を消失させて外部と繋げていた。
+  paragraph: p6785
+  confidence: moderate
+  quotes:
+  - quote: 一階の大部分を上書きするように鮮やかな色彩の帯が空間を塗りつぶし、建物の壁面を消失させて外部と繋げていた。
+    paragraph: p6785
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p6786]]'
+  object: '[[ME_causality_paradox]]'
+  claim: 「預かります」という宣言の後に現実が書き換えられるという因果の逆転は、言語が現実を規定する魔法的・プログラミング的な世界観を示している。
+  quote: まるでその宣言によって現実が書き換えられたかのような不自然な流れ。
+  paragraph: p6786
+  confidence: strong
+  quotes:
+  - quote: まるでその宣言によって現実が書き換えられたかのような不自然な流れ。
+    paragraph: p6786
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p6788]]'
+  object: '[[ME_greek_mythology_narcissus]]'
+  claim: 薔薇の麗人が他者を「美」の基準で品定めし、醜い者を排除しようとする態度は、ナルシシズムや美的全体主義の暗喩である。
+  quote: 華やかじゃない有象無象を石像という美の形式に押し込めることができるからね。
+  paragraph: p6788
+  confidence: moderate
+  quotes:
+  - quote: 華やかじゃない有象無象を石像という美の形式に押し込めることができるからね。
+    paragraph: p6788
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p6796]]'
+  object: '[[ME_industrial_capitalism]]'
+  claim: 双頭トロルが「再生者」を資源として奪い、王国を構築しようとする欲望は、人間を道具として扱う資本主義的・植民地的搾取構造の比喩である。
+  quote: 再生者の力ぁまだ奪い足りね。もっとだ、もっと再生者と戦うだ。今度こそおらは王をこさえる。
+  paragraph: p6796
+  confidence: moderate
+  quotes:
+  - quote: 再生者の力ぁまだ奪い足りね。もっとだ、もっと再生者と戦うだ。今度こそおらは王をこさえる。
+    paragraph: p6796
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p6799]]'
+  object: '[[ME_shooting_game_boss]]'
+  claim: 虹犬の貴婦人が傘から光の雨を降らせる攻撃は、シューティングゲームにおけるボスの弾幕攻撃を模倣している。
+  quote: 天から光の雨が降り注いだ。無差別に降り注ぐ光の柱は建造物の屋根を溶解させ、
+  paragraph: p6799
+  confidence: moderate
+  quotes:
+  - quote: 天から光の雨が降り注いだ。無差別に降り注ぐ光の柱は建造物の屋根を溶解させ、
+    paragraph: p6799
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p6800]]'
+  object: '[[ME_divine_right_of_kings]]'
+  claim: 虹犬の貴婦人が「人は神に跪くもの」として序列を正当化する思想は、王権神授説やカースト制度といった階級社会のイデオロギーを反映している。
+  quote: 人は神に跪くもの。神が運命と序列を定め、それに逆らうことは許されない。
+  paragraph: p6800
+  confidence: strong
+  quotes:
+  - quote: 人は神に跪くもの。神が運命と序列を定め、それに逆らうことは許されない。
+    paragraph: p6800
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_p6804]]'
+  object: '[[ME_body_horror]]'
+  claim: 人間が薔薇へと変容する描写は、美の追求が人間の形を失わせるというボディホラーの要素を含み、美と醜の境界を曖昧にしている。
+  quote: 麗人の顔が咲き乱れ、血のように鮮やかな大輪の赤薔薇へと変容する。
+  paragraph: p6804
+  confidence: strong
+  quotes:
+  - quote: 麗人の顔が咲き乱れ、血のように鮮やかな大輪の赤薔薇へと変容する。
+    paragraph: p6804
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p6806]]'
+  object: '[[ME_time_stop_ability]]'
+  claim: ユディーアの「疑似的な時間停止」は、多くのフィクションにおける最強の初見殺し能力であり、対戦相手も同能力を持つという展開は「能力対能力」のメタゲームを想起させる。
+  quote: ユディーアの切り札となる『疑似的な時間停止』は最強の初見殺しだ。
+  paragraph: p6806
+  confidence: strong
+  quotes:
+  - quote: ユディーアの切り札となる『疑似的な時間停止』は最強の初見殺しだ。
+    paragraph: p6806
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_p6809]]'
+  object: '[[ME_identity_mystery]]'
+  claim: 敵の正体が「顔のない存在」であり、その正体がユディーアの認識を覆すものであることは、物語の核心に関わる重大な伏線である。
+  quote: 目も、鼻も、耳も、口さえも。ただ一枚の鱗、それが顔の肉と完全に一体化して頭部を形作っている。
+  paragraph: p6809
+  confidence: strong
+  quotes:
+  - quote: 目も、鼻も、耳も、口さえも。ただ一枚の鱗、それが顔の肉と完全に一体化して頭部を形作っている。
+    paragraph: p6809
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Qunata_Kidnapping_Cause
+  note: クナータがなぜ、どのようにして誘拐されたのか。その背後にある「外より来る者たち」の目的。
+  quotes:
+  - quote: 先読みの聖女の身柄は私たちが預かります。それでは
+    paragraph: p6786
+    quote_verified: true
+  expected_payoff: クナータの誘拐が、単なる拉致ではなく、世界改変や神話の再構築のための重要なピースであることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Fate
+  note: アズーリアが故郷と戦うことになり、セリアック＝ニアがそれを心配している。アズーリアの「裏切り者」としての運命。
+  quotes:
+  - quote: 最悪の場合、アズーリアは自分の故郷や同胞と戦うことに
+    paragraph: p6782
+    quote_verified: true
+  expected_payoff: アズーリアが敵として立ちはだかるか、あるいは仲間として合流するかの分岐点となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Artius_Identity
+  note: アルティウスという男の正体。顔がないこと、ペラティアの名前を知っていること、ガロアンディアンを破壊すると宣言したこと。
+  quotes:
+  - quote: 俺の名はアルティウス。ガロアンディアンを破壊スる、新シい亜竜王の名前だ
+    paragraph: p6809
+    quote_verified: true
+  expected_payoff: アルティウスがユディーアの過去や、ディスケイム家、あるいは亜竜の歴史と深く関わる存在であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Memory_Rewrite_Mechanism
+  note: クナータの記憶が書き換わった原因。誰が、どのような手段で「母」の存在を改変したのか。
+  quotes:
+  - quote: 聖女の記憶に存在する『母』の姿が書き換わった
+    paragraph: p6783
+    quote_verified: true
+  expected_payoff: 記憶改変の技術が、敵の主要な戦力であり、世界の真実を隠蔽するための手段であることが示される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tromelia_Past
+  note: 双頭トロルとクレイ・トロメリアの過去の関係。ベフォニス家での「失敗作」への言及。
+  quotes:
+  - quote: その結果がベフォニス家のあの惨状だろ。当主はあんたが好き勝手に改造できる人形じゃないんだぜ。
+    paragraph: p6795
+    quote_verified: true
+  expected_payoff: トロメリアがなぜクレイと契約しているのか、また双頭トロルがなぜクレイを憎んでいるのかという背景が語られる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の構造とキャラクターの主体性の対立
+  weight: 0.9
+  quotes:
+  - quote: 『物語の都合』で詳しいことを言えないというのはまさしくその通り。それが『神が描いた物語』であるというだけのこと。
+    paragraph: p6778
+    quote_verified: true
+  note: キャラクターが自らの運命を「物語の都合」として冷徹に分析し、神や作者の意図からの脱却を試みるメタフィクショナルな主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美と暴力、そして存在の定義
+  weight: 0.7
+  quotes:
+  - quote: 不出来なものは美しい花の養分となるために存在している。君も己の運命に従いたまえ
+    paragraph: p6805
+    quote_verified: true
+  note: 薔薇の麗人の行動に見られるように、「美」が暴力を正当化し、他者の存在意義を決定づける恐ろしい権力として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶とアイデンティティの脆弱性
+  weight: 0.8
+  quotes:
+  - quote: 聖女の記憶に存在する『母』の姿が書き換わったということは、彼女の子であり転生先である救世主の存在が変質したということだ。
+    paragraph: p6783
+    quote_verified: true
+  note: 記憶が改変されることで自我や関係性が崩壊する様子は、人間の本質が記憶に依存しているという哲学的問いを投げかけている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 階級社会と神の支配への反抗
+  weight: 0.6
+  quotes:
+  - quote: この世界は神の所有物。人はみな神の奴隷。であれば奴隷種族たちに必要なのは効率的に神に奉仕するための序列化と管理です。
+    paragraph: p6800
+    quote_verified: true
+  note: 虹犬の貴婦人の台詞に見られる、神による支配と序列の正当化は、現実の社会構造や差別意識の暗喩として機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

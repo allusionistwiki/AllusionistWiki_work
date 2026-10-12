@@ -1,0 +1,324 @@
+episode: ch0262
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_ダウザール]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0262_ダウザール_dies_第一の死_p8306
+        quote: 古き空使いダウザールが『第一の死』を迎えたあと
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_ダウザール_gives_チェダラーテの蹄鉄_p8306
+        quote: ダウザールはその偉業を称えて愛馬チェダラーテの霊妙なる蹄鉄を贈った。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_四人]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0262_四人_transforms_クロウサーの記号_p8306
+        quote: 青い血が四人の中に入り込むと、彼らの身体には始祖クロウサーの象徴とされる四つの記号が顕れたという。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_四人の呪術師]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0262_四人の呪術師_other_ダウザールの魂_p8306
+        quote: 常識を超え、理解を阻む壁を壊して死せるダウザールの魂と謁見した四人の呪術師たち。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_四大血族]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0262_四大血族_defines_クロウサーの記憶_p8306
+        quote: 四人の魂に刻まれたのはクロウサーの記憶そのもの。この事実をもって、四人の勝利者たちはクロウサーの主流たる四大血族の基礎を築くことに成功したのである。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_血族の者たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0262_血族の者たち_travels_冥府下り_p8306
+        quote: 血族の中から我こそがと名乗り出た者たちが空使いの称号を受け継ぐために冥府下りを決行した。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_蹄鉄]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0262_蹄鉄_has_property_青い血_p8306
+        quote: 彼らが蹄鉄を現世に持ち帰ると、それは青い輝きと共に高貴なる血を滴らせた。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_蹄鉄の四血族]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0262_蹄鉄の四血族_defines_クロウサー主要血族_p8306
+        quote: クロウサーの主要血族を示す古い名に、『蹄鉄の四血族』というものがある。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_選定レース]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0262_選定レース_defines_起源_p8306
+        quote: 選定レースの起源とされているこの呪術儀式は苛烈を極め、死出の旅路に等しい難業を達成できたのはたったの四人。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チェダラーテ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0262_チェダラーテ_functions_as_母_p8307
+        quote: つまり神馬チェダラーテは、血族にクロウサーの力を与えた『母』であったのだ。
+        locator: {}
+        spoiler_after: ch0262
+    speech:
+      observations:
+      - event_ref: E_ch0262_チェダラーテ_says_ファーガストへの誘い_p8307
+        quote: 「ファーガスト。私のいとし子。この青い血を受け止め、ひとつになりましょう？」
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_チェダラーテ_says_願いの成就_p8308
+        quote: 「ああ、ようやく願いが叶うのね！　ファーガスト、私たちのいとし器！」
+        locator: {}
+        spoiler_after: ch0262
+    action:
+      observations:
+      - event_ref: E_ch0262_チェダラーテ_activates_テキストベース・サーキット_p8309
+        quote: チェダラーテが選手とひとつになったことで、その膨大な文脈がテキストベース・サーキットというルールの中で機能し始めたのだ。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファーガスト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0262_ファーガスト_says_覚悟_p8307
+        quote: 「ここで逃げんのは、男じゃねえよな」
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_ファーガスト_says_合体の要求_p8308
+        quote: 「ラーテ！　合体すんぞ！」
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_ファーガスト_remembers_カーズガン_p8309
+        quote: 仲間を捨てて守護の九槍となった『兄貴分』のことを思い出す。カーズガン 偉大な英雄の名を授かりながら、その誇りを捨てた草の民の恥晒し。
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_ファーガスト_says_扇動呪文_p8309
+        quote: 「怒りを解放せよ、草原に生きる者たちよ！　今こそ蹄鉄の約定を思い出せ！」
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_ファーガスト_says_栄光の回復_p8309
+        quote: 「もう槍神教に頭を下げる必要はない！　ずっと俺たちと共に草原を駆け抜けた友と手を取り合い、かつての栄光を取り戻そう！　草の民にはチェダラーテを祖とするフリグ・クロウサーの血族がついている！」
+        locator: {}
+        spoiler_after: ch0262
+    action:
+      observations:
+      - event_ref: E_ch0262_ファーガスト_other_チェダラーテの求め_p8307
+        quote: ゆえにこそ、神馬チェダラーテの求めをファーガストは正しく理解した。
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_ファーガスト_arrives_人馬一体_p8308
+        quote: ファーガストは一歩を踏み出し、そこに至った。すなわち、人馬一体の境地。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_使い魔]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0262_使い魔_defines_主従の絆_p8307
+        quote: そうした在り方は主従の間に強い結びつきを生み、原始的な『使い魔』としての形が成立する。時に、その絆の深さは家族にも匹敵するほどだ。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_嘶き]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0262_嘶き_defines_馬言語魔法_p8307
+        quote: 馬言語魔法。その身で切り裂く風そのものを『世界』と見なして干渉する馬種族の文明基盤。それは『嘶き』という名で知られている最古の呪術基盤のひとつだ。
+        locator: {}
+        spoiler_after: ch0262
+    visual:
+      observations:
+      - event_ref: E_ch0262_嘶き_transforms_ファーガストの馬体_p8310
+        quote: 『嘶き』が馬体を変化させていく。拡張部位である角・翼・ヒレといった特徴が青い血から生じ、ファーガストをより完全なる呪術師の高みへと引き上げていった。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ケヌートゥ]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0262_ケヌートゥ_defines_混成種族_p8308
+        quote: かつて獅子王キャカラノートが平定した異形の諸部族には『ケヌートゥ』なる人と馬の混成種族が存在していたと言われているが
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファーガスト＝チェダラーテ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0262_ファーガスト＝チェダラーテ_transforms_人馬箒_p8308
+        quote: いずれにせよ、ファーガスト＝チェダラーテは人であり、馬であり、箒でもある『何か』へと生まれ変わった。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_レメスの浄界]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0262_レメスの浄界_enables_融血_p8308
+        quote: だが獣愛神レメスの浄界の中で既存の障壁など無意味だった。愛、熱情、官能の旋律。喜びの歌が世界を揺らす。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_青い血]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0262_青い血_transforms_ファーガストとチェダラーテ_p8308
+        quote: 恍惚の中、馬のアストラル体から溢れ出した青い血が機甲箒とレーサーをどろどろに融かしてひとつの生命へと変質させていった。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_風]]'
+  entity_type: motif
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0262_風_helps_人馬ファーガスト_p8308
+        quote: 直後、人馬ファーガストの背を風が後押しする。古き神馬が駆け抜けてきた歴史の重み。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_草の民]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0262_草の民_bonds_クロウサー_p8310
+        quote: だが自らの愛馬にクロウサーの血が流れていると知ったならどうか。生まれるのは拒否反応ではない。半身を拒絶することなど自殺同然だからだ。ゆえに草の民はクロウサーを受け入れるしかない。
+        locator: {}
+        spoiler_after: ch0262
+    action:
+      observations:
+      - event_ref: E_ch0262_草の民_helps_ファーガスト_p8310
+        quote: その感情は、既存秩序を変えていこうとするリーナへの若者たちの共感に近い。『何かをやってくれそうな若者』に対する期待が彼らの背を後押しする風となる。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロードデンドロン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0262_ロードデンドロン_observes_劣勢からの光_p8311
+        quote: 緑天主ロードデンドロンは、劣勢の中に一筋の光を見ていた。
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_ロードデンドロン_travels_死人の森_p8311
+        quote: 隣接異界から第五階層へと帰還した選手たちを待つのはガロアンディアンと隣り合う深い森。古き『死人の森』の試練である。
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_ロードデンドロン_uses_対抗回想_p8311
+        quote: 使うならここしかない。世界が切り替わる瞬間、文脈とルールがリセットされて『次なる展開』への期待が高まる絶好のタイミングを逃さず捉える。ロードデンドロンの脳裏に浮かび、テキストベース・サーキットの紙面に広がったのはひどく荒んだ過去だった。
+        locator: {}
+        spoiler_after: ch0262
+    speech:
+      observations:
+      - event_ref: E_ch0262_ロードデンドロン_says_勝利への決意_p8312
+        quote: 「この選定レースに勝利して真の意味で緑天主となれば、故郷の長老たちも耳を傾けてくれるはずだ」
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_ロードデンドロン_says_悲しみを止める決意_p8312
+        quote: 「もう誰も悲しませないために、負けるわけにはいかない！」
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クリーナー]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0262_クリーナー_says_回想への批判_p8313
+        quote: 「しみったれてんだよ三行でまとめろや」
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_クリーナー_says_斜め読みの正当化_p8315
+        quote: 「俺はよお、世界情勢とか少数民族の問題とか辛気臭い話題はついてけねーんだわ。こんなレース！　『斜め読み』して、『飛ばし読み』しとけばいいんだよ！」
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_クリーナー_says_リーナへの約束_p8316
+        quote: 「待っていてくれ、リーナ。お父さんが、お前を自由にしてやるからな」
+        locator: {}
+        spoiler_after: ch0262
+    action:
+      observations:
+      - event_ref: E_ch0262_クリーナー_uses_死人の森の断章_p8314
+        quote: 彼の目の前に広がるのは一冊の古い魔導書。『死人の森の断章』がその真価を発揮していた。
+        locator: {}
+        spoiler_after: ch0262
+      - event_ref: E_ch0262_クリーナー_uses_地の利_p8316
+        quote: だが『死人の森』であるのなら、地の利はクリーナーにある。
+        locator: {}
+        spoiler_after: ch0262
+    name:
+      observations:
+      - event_ref: E_ch0262_クリーナー_appears_ダークホース_p8316
+        quote: 謎が謎を呼ぶダークホース、クリーナーとは何者なのか？
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_観客]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0262_観客_helps_ロードデンドロン_p8313
+        quote: 画面の向こうにある遠い世界の悲劇に胸を痛めながら、正しさに賛同を示す観客たちの声は風となってロードデンドロンの背を押していく。
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_指し手たち]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0262_指し手たち_makes_バトンタッチ_p8317
+        quote: 指し手たちが空の器に注ぐのは、奇しくも同質の呪文だった。すなわち、若い世代への期待。選手交代である。バトンタッチ
+        locator: {}
+        spoiler_after: ch0262
+  first_appearance_candidate: true

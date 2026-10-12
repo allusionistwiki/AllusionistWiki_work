@@ -1,0 +1,208 @@
+episode: ch0202
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_シャルマキヒュ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0202_シャルマキヒュ_appears_ユディーア_p6777
+        quote: 後光に照らされたその姿は既視感に満ちていた。様々な絵画や彫像による想像の平均値を曖昧にぼやかした女神の幻影。お約束の記号を押さえておけば少なくとも『この神格だ』と分かる部位だけがはっきりと像を結んでいる。隻眼、槍、猫をモチーフにした耳飾り、力強くしなやかな女戦士とはかくあるべし、みたいな理想像。
+        locator: {}
+        spoiler_after: ch0202
+    speech:
+      observations:
+      - event_ref: E_ch0202_シャルマキヒュ_reveals_イヴァ＝ダスト_p6779
+        quote: 二番目の月イヴァ＝ダストは飛来神群、あるいは来訪者と呼ばれる異界の神々が住まうとされている隣接異界である。そしてこの世界で長い歴史を持つクロウサー家、リーヴァリオン家、ディスケイム家といった血脈の祖は来訪者であるという伝承があり、それは事実だった。
+        locator: {}
+        spoiler_after: ch0202
+      - event_ref: E_ch0202_シャルマキヒュ_says_ユディーア_p6779
+        quote: だがその運命が歪められようとしている。今回ばかりは心して聞け、私を信じぬ娘。神話の英雄たちと嵐の如き宿命が裏切り者たちの前に立ちはだかるであろう。時の娘ですらあらがえぬ流れがそなたたちの未来を揺るがし、そなたは死よりも恐るべき呪いに苛まれる
+        locator: {}
+        spoiler_after: ch0202
+      - event_ref: E_ch0202_シャルマキヒュ_other_ユディーア_p6780
+        quote: 異界の理に尋常な手段で対抗してはならぬ。夢には悪夢。灰には炎。氷にはまなざし。邪神どもに力で勝つことはできぬものと深く心に刻め
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0202_ユディーア_thinks_シャルマキヒュ_p6778
+        quote: 『物語の都合』で詳しいことを言えないというのはまさしくその通り。それが『神が描いた物語』であるというだけのこと。手駒の操作と誘導。それがこの一幕が示す意味だ。
+        locator: {}
+        spoiler_after: ch0202
+    visual:
+      observations:
+      - event_ref: E_ch0202_ユディーア_wears_竜騎士の甲冑_p6780
+        quote: 白昼夢から目覚めると、『猫騎士』の甲冑を身につけたセリアック＝ニアをクナータが激賞していた。ユディーア自身は『竜騎士』の甲冑を身につけてポーズをとっている。
+        locator: {}
+        spoiler_after: ch0202
+    action:
+      observations:
+      - event_ref: E_ch0202_ユディーア_uses_疑似的な時間停止_p6806
+        quote: 色号術の外法と天眼の超過駆動。二つを組み合わせた時間と空間の掌握。ユディーアの切り札となる『疑似的な時間停止』は最強の初見殺しだ。
+        locator: {}
+        spoiler_after: ch0202
+      - event_ref: E_ch0202_ユディーア_loses_クナータ_p6810
+        quote: こうして聖女クナータは攫われた。確かな未来は、この瞬間に失われたのだ。
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0202_セリアック＝ニア_asks_アズーリア_p6781
+        quote: 「お二人に聞いておきたいことがあるのですが、アズーリアの様子はどうでしたか？」
+        locator: {}
+        spoiler_after: ch0202
+    action:
+      observations:
+      - event_ref: E_ch0202_セリアック＝ニア_defeats_セリアック＝ニア_p6801
+        quote: 熱線の雨が少女と猫の化身を穿ち、炸裂する光の奔流が一帯をまとめて飲み込んでいった。後に残されたのは、溶解した猫騎士甲冑の残骸、そして価値を失った石ころのみ。
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クナータ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0202_クナータ_says_アズーリア_p6782
+        quote: 「例の事件についてなら、アズさんの故郷は消失した第二世界槍から離れた地域にあって即座にどうこう、って話にはなってないみたい。けどご両親から『戻ってこないか』って連絡があったって聞いたよ」
+        locator: {}
+        spoiler_after: ch0202
+    action:
+      observations:
+      - event_ref: E_ch0202_クナータ_other_記憶の改変_p6783
+        quote: 十字に輝く瞳が色を失い、すぐに光を取り戻す。新しい景色を映し始めた聖女の瞳から、血の涙が流れ落ちていく。ユディーアはこの現象を知っている。記憶が歪み始めているのだ。
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_虹犬の貴婦人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0202_虹犬の貴婦人_appears_クナータ_p6784
+        quote: 一階の大部分を上書きするように鮮やかな色彩の帯が空間を塗りつぶし、建物の壁面を消失させて外部と繋げていた。目を疑うしかないが、それは虹の架け橋としか言いようのないものだ。
+        locator: {}
+        spoiler_after: ch0202
+      - event_ref: E_ch0202_虹犬の貴婦人_takes_クナータ_p6786
+        quote: 抱えていた兜を放り出して抱き抱えていたクナータが、どこにもいない。「先読みの聖女の身柄は私たちが預かります。それでは」意味がわからなかった。発生した現象の因果が明らかに捻れている。
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0202_カーイン_arrives_ユディーア_p6787
+        quote: 横合いから吹っ飛んできた人間大の質量によって邪魔されたのだ。こちらにのしかかってくる体の重さとその正体を確認してユディーアの顔は滅多に無いことだが思い切りひきつった。よりにもよってカーインだったからだ。
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ヴァルレメス]]'
+  entity_type: item
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0202_ヴァルレメス_names_虹犬の貴婦人_p6787
+        quote: そして傘が前方に突き出されたことで貴婦人の顔が露わとなる。女は犬の頭をしていた。蝶のように広がった特徴的な形の耳、恐らくはパピヨン氏族の虹犬。ヴァルレメス
+        locator: {}
+        spoiler_after: ch0202
+    action:
+      observations:
+      - event_ref: E_ch0202_ヴァルレメス_uses_レメスの穹弩_p6799
+        quote: 傘の先端から七色の光、あるいはそれ以上に多彩な煌めきが分散していった。
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_双頭トロル]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0202_双頭トロル_appears_クレイ_p6788
+        quote: もう一人はひと目でそれとわかる岩肌種だった。ごつごつとしたトロル
+        locator: {}
+        spoiler_after: ch0202
+    action:
+      observations:
+      - event_ref: E_ch0202_双頭トロル_uses_石化の邪視_p6789
+        quote: 蔑むような一瞥が空間を薙ぎ払った。双頭トロルの目がかっと輝いたかと思うと、その視線上に存在したあらゆるものが動きを停止させ、灰色の物言わぬ石像と化していく。石化の邪視だ、それも極めて強力な。
+        locator: {}
+        spoiler_after: ch0202
+      - event_ref: E_ch0202_双頭トロル_other_呪宝石の巨神_p6796
+        quote: 双頭トロルが地の底から呼び出した使い魔が大地を鳴動させ、腕の一振りで『公社』のビルが粉砕される。
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_薔薇の麗人]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0202_薔薇の麗人_appears_カーイン_p6788
+        quote: 一人は薔薇を人の形にしたかのような麗人だ。長く艶やかに流れる黒髪に挿された赤色。胸元や腰、袖口にひだを集めたドレスもまた赤と黒。真紅の薔薇を口に咥えているのは流石に演出過剰とさえ思えるが、堂々たる佇まいは完成された絵のようで様になっていた。
+        locator: {}
+        spoiler_after: ch0202
+    speech:
+      observations:
+      - event_ref: E_ch0202_薔薇の麗人_reveals_テテリビナ_p6803
+        quote: 「私は、誇り高き勇士、ロウ・カーインだ」「口を慎みたまえよ、君。どのような事情があるにせよ、それ以上の妄言は誇り高く美しかった我が父カーインへの侮辱と捉えるぞ」
+        locator: {}
+        spoiler_after: ch0202
+    action:
+      observations:
+      - event_ref: E_ch0202_薔薇の麗人_transforms_アールヴ_p6804
+        quote: すなわち世界がまだずっと単純だった頃、物質界の楔を植物に選んだ原初の妖精たち、アールヴ『花のアヴロノ』の生き残りである。
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルティウス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0202_アルティウス_appears_ユディーア_p6791
+        quote: ユディーアを奇襲したのは槍使いの男だった。男性としてはさほど体格に恵まれているわけではない。それゆえに彼が両腕で構える三叉槍の長大さが際立って感じられる。青く透き通った三つの刃と薄い雪のような白銀の柄。
+        locator: {}
+        spoiler_after: ch0202
+      - event_ref: E_ch0202_アルティウス_appears_顔_p6809
+        quote: 何だ、これは。それは白い鱗だった。亜竜のものと思しき大きな一枚の鱗が男の顔に貼りついている。その他には何も無い。目も、鼻も、耳も、口さえも。
+        locator: {}
+        spoiler_after: ch0202
+    action:
+      observations:
+      - event_ref: E_ch0202_アルティウス_uses_凍結_p6792
+        quote: 「凍レ」消滅。いや、これは凍結と言うべきか。不自然な唐突さで激情が停止し、吐き出されようとしていた怒りが鎮火されていた。
+        locator: {}
+        spoiler_after: ch0202
+      - event_ref: E_ch0202_アルティウス_uses_氷血のコルセスカ_p6807
+        quote: 仮面の男が魔槍の銘を開帳すると同時、時空が凍り付き、世界は静寂に包まれる。
+        locator: {}
+        spoiler_after: ch0202
+    speech:
+      observations:
+      - event_ref: E_ch0202_アルティウス_names_アルティウス_p6809
+        quote: 「俺の名はアルティウス。ガロアンディアンを破壊スる、新シい亜竜王の名前だ」
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0202_クレイ_fights_双頭トロル_p6797
+        quote: 圧縮された神話の奔流は容易く剣を打ち砕き、真下にいたクレイごと大地を陥没させた。
+        locator: {}
+        spoiler_after: ch0202
+  first_appearance_candidate: true

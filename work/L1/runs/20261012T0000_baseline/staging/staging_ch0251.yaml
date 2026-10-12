@@ -1,0 +1,340 @@
+episode: ch0251
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_org_ヴアルンディニーニィ]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0251_ヴアルンディニーニィ_has_property_悪魔伝承_p8082
+        quote: 『恵みの大樹』ディニーニィの周囲に栄えた恩寵の都には大樹の精霊と敵対する悪魔にまつわる伝承がある。悪魔によっていちど大樹が切り倒された後、民たちは生贄を捧げ三日三晩休まずに祈り続けて偉大なる天霊を招き、悪魔を退けて大樹を植え直した。
+        locator: {}
+        spoiler_after: ch0251
+    speech:
+      observations:
+      - event_ref: E_ch0251_ヴアルンディニーニィ_has_property_苛烈さ_p8082
+        quote: 不屈の気概と歴史を持つこの都市の民は質実剛健、更には立ちはだかる敵に対して容赦しない苛烈さで知られている。聖絶の時代、ヴィティス特任司教の志に賛同し天霊に背いたティリビナ人たちを残らず切り倒したことは街の誇りだ。
+        locator: {}
+        spoiler_after: ch0251
+    name:
+      observations:
+      - event_ref: E_ch0251_ヴアルンディニーニィ_is_located_亜大陸西部_p8082
+        quote: 亜大陸西部の巨大文明圏といえばまず精霊都市ティシムガンドの名前が挙がるが、それに次ぐ第二の都市、麗しの古都ヴアルンディニーニィで奇妙な現象が起きている。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ティリビナ人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0251_ティリビナ人_appears_地上_p8083
+        quote: ティリビナ人たちが『街路樹の民』として眷属種認定されてからしばらく経つが、彼らの一部が地下大森林の特別保護区から地上に姿を現すようになったのは『枯れ枝剪定』と呼ばれるティリビナ人同士の抗争からだ。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プレア＝エステラ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0251_プレア＝エステラ_names_ティリビナ人_p8083
+        quote: 眷属種認定の働きかけを行ったティリビナ人たちの美しき巫女プレア＝エステラがそうであったように、若い世代の間で大きな価値観の変化が生まれていることは間違いない。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ポイヤス氏]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0251_ポイヤス氏_says_ティリビナ人_p8083
+        quote: この動きを受けて市長のポイヤス氏は『聖域に善きティリビナ人たちが立ち入ることを全面的に許可する』と宣言、これまでの方針を覆す決定に亜大陸全土を驚かせた。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_老シャーマンたち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0251_老シャーマンたち_attacks_市民_p8083
+        quote: 一部の過激派ティリビナ人が実行しようとした呪術テロを同じティリビナ人が阻止したことで亜大陸では大きな話題となったが、象徴的だったのはその年代差だろう。テロリストグループは揃って高齢の老シャーマンたちだったのに対して、
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_芽吹き運動]]'
+  entity_type: motif
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0251_芽吹き運動_travels_ヴアルンディニーニィ_p8083
+        quote: ティシムガンドにおいて発生している大規模な『芽吹き運動』の波が、ついにヴアルンディニーニィにも広がり始めたのだ。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_若者たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0251_若者たち_saves_市民_p8083
+        quote: 市民を守った英雄たちはいずれも十代から三十代までの若者たちだった。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_黒檀の民]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0251_黒檀の民_defines_ティリビナ人の異端性_p8083
+        quote: これまで亜大陸でティリビナ人たちが神殿や聖地への立ち入りを許されたことはない。かつて精霊信仰との共存を望んだ槍神教に唾を吐き、黒檀の民を裏切ったティリビナ人たちの悪魔信仰は明確に『異端』と見なされてきた。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ウネム・リビュエー・イルドアート]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0251_ウネム・リビュエー・イルドアート_dies_ヨグウム警備保障南辺支社_p8084
+        quote: 昨夜未明、エルネトモラン第六区のヨグウム警備保障南辺支社で騎士修道士のウネム・リビュエー・イルドアートさんが死亡しているのが見つかりました。『人が首を吊っている』という通報があり、都市警察や救急車が駆けつけましたがウネムさんは既に亡くなっており、現場の状況から自殺とみられるということです。
+        locator: {}
+        spoiler_after: ch0251
+    name:
+      observations:
+      - event_ref: E_ch0251_ウネム・リビュエー・イルドアート_names_司書級ウィザード_p8084
+        quote: 松明の騎士団所属の騎士修道士ウネムさんは亜大陸のヴアルンディニーニィ出身の３８歳。黒檀の民としてはじめて太陰の図書館司書採用試験に合格した英才として話題になりました。
+        locator: {}
+        spoiler_after: ch0251
+    speech:
+      observations:
+      - event_ref: E_ch0251_ウネム・リビュエー・イルドアート_has_property_妊娠_p8099
+        quote: 状況から見て死産らしいけど、遺体の近くには体液と水晶片しかなかったって
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ネットニュース]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0251_ネットニュース_functions_as_情報干渉呪文_p8084
+        quote: 注釈：このネットニュースは意図的に誤情報を織り交ぜたマスメディア型の情報干渉呪文として作成されています。フェイクニュースの予防接種がまだの方は道化印の自己催眠アプリでアストラル体を保護することをおすすめします。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ジーゼロ]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0251_ジーゼロ_has_property_サイクロン方式_p8085
+        quote: 機体は全長４６フィーテ、重さ３００ドルネで、『渦』の遠心力を利用して聖別するサイクロン方式を採用している。
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_ジーゼロ_has_property_杖のオルガンローデ_p8086
+        quote: 独自に開発した仮想使い魔を搭載しており、レース用にチューンナップされた『杖のオルガンローデ』としての呪術基盤を組み込んでいるという。
+        locator: {}
+        spoiler_after: ch0251
+    speech:
+      observations:
+      - event_ref: E_ch0251_ジーゼロ_says_開発チームへの感謝_p8095
+        quote: 『ボクを頑張って作ってくれた開発チームのみんな、ありがとう！』『ぜったいに勝ってみせる勝ってみせる勝って勝って勝って勝ってってっててて』
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_ジーゼロ_functions_as_降霊式_p8099
+        quote: ジーゼロの中身は降霊式だったってオチ？　杖の技術で完全自動操縦とか嘘くせーと思ったんだよなあ
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ヨグウム警備保障]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0251_ヨグウム警備保障_makes_ジーゼロ_p8085
+        quote: ヨグウム警備保障は１０日、呪動機と汎式浄界を搭載した無人機甲箒『ジーゼロ』の第一次実証実験が成功したことを明らかにした。
+        locator: {}
+        spoiler_after: ch0251
+    speech:
+      observations:
+      - event_ref: E_ch0251_ヨグウム警備保障_reveals_監視網の欠陥_p8085
+        quote: ヨグウム警備保障側の発表によりますと、支社の監視網記録にはウネムさんが社内に出入りした痕跡は見つからず、発見された遺体は死後数か月が経過した状態であったということです。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セイグリン氏]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0251_セイグリン氏_says_人命保護_p8086
+        quote: 技術提携を行ったクロウサー・アサルト・ブルーム社最高経営責任者のセイグリン氏は『全ての技術は価値ある人命を守るために用いられるべきである』とのコメントを発している。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファーガスト・ガディン]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0251_ファーガスト・ガディン_has_property_アルセミット国籍_p8086
+        quote: アルセミット国籍とエルネトモランの名誉市民としての権利を有している。
+        locator: {}
+        spoiler_after: ch0251
+    name:
+      observations:
+      - event_ref: E_ch0251_ファーガスト・ガディン_names_草の民_p8086
+        quote: ファーガスト・バン・ガディン・ファザ・シャミギラ（シャミギラ族ガディン家の息子ファーガスト）はフリグサナ出身、草の民の機甲箒レーサー、探索者、一代騎士、神馬騎乗士、準二級言語魔術師。オトルベイトモーター・レーシングチーム所属。
+        locator: {}
+        spoiler_after: ch0251
+    action:
+      observations:
+      - event_ref: E_ch0251_ファーガスト・ガディン_other_草裂き_p8087
+        quote: その後、地元で同年代の友人たちと共に若い草の民たちで構成された『草裂き』と呼ばれる愚連隊に参加。軽犯罪を繰り返していた愚連隊は盗品や廃部品で組み上げられた違法な機甲箒や馬を利用した暴空族（暴掃族）に姿を変えていき、『抵抗運動』と称してアルセミットとの緩衝地帯付近の民家や商店の襲撃、略奪や破壊、迷惑行為を繰り返していた。
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_ファーガスト・ガディン_other_閃空騎士団_p8087
+        quote: その後、カーズガンが守護の九槍入りすると共にファーガストを含めた愚連隊の構成員たちは『聖印による赦免』を受けて釈放。全員が新たに結成された『閃空騎士団』と呼ばれる探索者集団に加入する。
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_ファーガスト・ガディン_uses_ラーテ_p8087
+        quote: １２歳で加護を選択するより前から街のシンボルである『英雄の母』フリグメルタの大蟻塚とその夫である『豊穣の死神』フルグントの大宝物庫を遊び場に、愛馬ラーテと共に空や異界が内包された古代迷宮を駆け巡っていた。草の民として加護を得た後は三本足を愛馬ラーテに定め、
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_ファーガスト・ガディン_fights_罠_p8096
+        quote: 『売られたケンカは買うだろ。当然』『上等だ、かましてやるよ。お前らタイミング最高。いい感じに盛り上げてくぞ』『ファーガスト参上だゴラァ！！』『夜・路・四・駆』
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_ファーガスト・ガディン_dies_空使い選定レース_p8097
+        quote: ファーガスト逝ったああああああ！！！　２２６　名無しの妖精
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_ファーガスト・ガディン_other_夜路四駆モード_p8103
+        quote: ファーガスト生きてたあああああ！！！
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_ファーガスト・ガディン_activates_夜路四駆モード_p8105
+        quote: 夜路四駆モード！！！　ってなんだよ！　ファーガストとラーテが思ってたより強くて草そよぐ
+        locator: {}
+        spoiler_after: ch0251
+    speech:
+      observations:
+      - event_ref: E_ch0251_ファーガスト・ガディン_says_ファンサービス_p8089
+        quote: 『そう言うなってラーテ、プロ入りしたんだからファンサービスもしねえと』『ありがとよ。こっからしばらく軽く慣らし入るけど、終わったらケツ乗っけてやろうか』『おう、じゃあちょっと待ってろ』『何だマジで待っててくれたのか？　やべーな大ファンじゃん。サインいる？』
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_ファーガスト・ガディン_says_無人機への批判_p8089
+        quote: 『あーでもあれは正直ねえな、無人機？　作ったメカニックは素直にすげえと思うよ？　けどレースはガチンコで魂ぶつけ合うもんだろ。自動運転じゃ燃えねえよ』
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_ファーガスト・ガディン_says_呪文戦_p8096
+        quote: 『やー、テキストベース・サーキットっつうから呪文戦あるかなーって思ってたんだけどさあ、マジでマジで、ガチのやつ来ちゃったよ』
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーズガン]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0251_カーズガン_other_草裂き_p8087
+        quote: 『紀人カーズガンの再来』とまで言われた初代総長カーズガンが指揮するこの愚連隊は悪名高い『草裂き』の中でもとりわけ危険視された。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_大神院]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0251_大神院_captures_草裂き_p8087
+        quote: 緩衝地帯に配備された部隊が正面からの戦闘で敗北したことで大神院が討伐令を下すこととなり、愚連隊は解散。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_閃空騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0251_閃空騎士団_defeats_ズタークスターク_p8088
+        quote: その後、大魔将ズタークスターク戦で閃空騎士団は壊滅。ファーガストは唯一の生還者となり、奮戦を称えて大神院からアルセミット国籍の付与と特別栄誉勲章が授与された。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルポリエ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0251_アルポリエ_other_セイグリン_p8089
+        quote: 愛しいセイグリンへ　この手紙が届く頃には情勢が変わっているかもしれないけれど、アストラルの海を介する危険を冒すことができない以上、いつものようにスティングに託します。長旅で疲れていると思うから、そちらに着いたら羽を撫でて、好物の雲肉を与えてあげてちょうだい。
+        locator: {}
+        spoiler_after: ch0251
+    speech:
+      observations:
+      - event_ref: E_ch0251_アルポリエ_reveals_十翼熾の瓦解_p8090
+        quote: 結局、あの占いが的中してしまったわね。いまや私が作り上げた十翼熾は完全に瓦解してしまった。支柱となるはずだったオベロンが賢天主に敗れ、皇帝陛下が瞳を閉じられた時点でこの流れは必然だったのかもしれない。
+        locator: {}
+        spoiler_after: ch0251
+      - event_ref: E_ch0251_アルポリエ_says_救世主の候補_p8091
+        quote: あの日、私たちが遂に届かなかった世界を変革する力。それがとうとう見つかった。喜ばしいことに候補は二つ。どちらに転んでも北辺の秩序は新しい形へと生まれ変わることでしょう。
+        locator: {}
+        spoiler_after: ch0251
+    relationship:
+      observations:
+      - event_ref: E_ch0251_アルポリエ_loves_セイグリン_p8091
+        quote: 有翼氷河が北辺の上空を覆ったあの日、まだ少年だったあなたは信じられないくらい眩しくて、愚かで、可能性に満ちていた。無為に生き過ぎた私にもまだ光を直視することができるんだって、信じられない気持ちになったものだわ。
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カシューティス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0251_カシューティス_says_新秩序_p8094
+        quote: 雌伏の時は終わった　今こそリーヴァリオンの光を示す時　救世主の母たるクナータは我が手中にある　もはや来訪者も神の子も恐れるに値せず　翼を広げ、我らが神の威光を示せ　クロウサーどもの妄言、空使いなどという虚飾を葬り、新秩序を我が手に
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カシューティス側]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0251_カシューティス側_activates_降臨儀式_p8094
+        quote: 『了解、カシューティス様の名において、降臨儀式の起動準備に入ります』『輝ける貪りあれ』
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ヨグウムの無人機]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0251_ヨグウムの無人機_transforms_怨霊_p8101
+        quote: ヨグウムの無人機、あれの暴走ってこっから脱走した怨霊の仕業らしい
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラーテ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0251_ラーテ_has_property_蹄の民_p8104
+        quote: 『蹄の民』は文字がないだけで知能レベルは普通に俺らと遜色ないからね？
+        locator: {}
+        spoiler_after: ch0251
+    visual:
+      observations:
+      - event_ref: E_ch0251_ラーテ_transforms_ケルピーモード_p8104
+        quote: ケルピーモードすげええええ　飛翔海流に突っ込んで無事とか　ラーテちゃん有能すぎ
+        locator: {}
+        spoiler_after: ch0251
+  first_appearance_candidate: true

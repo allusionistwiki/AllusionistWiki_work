@@ -1,0 +1,186 @@
+episode: ch0272
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0272_トリシューラ_thinks_信頼のメッセージ_p8429
+        quote: これから出迎える相手を考えればやりすぎということはないし、信頼のメッセージくらいにはなる。少なくとも機械女王トリシューラはそう考えていた。
+        locator: {}
+        spoiler_after: ch0272
+    action:
+      observations:
+      - event_ref: E_ch0272_トリシューラ_other_疑似タイムスリップ_p8430
+        quote: 過去のボディを同時使用して後で記憶を同期するという疑似タイムスリップの最中であり、『この』トリシューラは少しばかり前に使用していた機体だ。
+        locator: {}
+        spoiler_after: ch0272
+      - event_ref: E_ch0272_トリシューラ_uses_融血呪_p8440
+        quote: 「融血呪」小さく呟く。トリシューラにとって馴染み深いそれは、既にガロアンディアンに存在することが当たり前になった呪術の名前だ。
+        locator: {}
+        spoiler_after: ch0272
+      - event_ref: E_ch0272_トリシューラ_uses_融血呪の普及化_p8441
+        quote: トリシューラが寄生異獣計画を推進した理由は幾つかあるが、最大の目的は融血呪の普及化による価値の零落だった。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_応接室]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0272_応接室_has_property_呪術的静謐_p8429
+        quote: スタジアム内部には意図的に静けさを保つように設計された空間が幾つかある。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_血液型占い]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0272_血液型占い_functions_as_防衛システム_p8429
+        quote: 血液型占いと紐づいた防衛システムは本来ならガロアンディアンや『塔』に由来するものではない。提供されたものをそのまま使っているのは、ある種のコミュニケーションの一環だ。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_観客]]'
+  entity_type: motif
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0272_観客_other_動物的熱狂_p8429
+        quote: 観客たちの『動物的熱狂』が加速する一方で、選定レースの舞台である大型スタジアムの内部には冷え冷えとした静寂が満ちる。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_防護システム]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0272_防護システム_activates_血流星座回路_p8429
+        quote: 外部からの占術探知に反応して防護システムが起動。血流星座回路が命占抗体を作り出して複数の勢力からの視線を遮断する。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ピュクシス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0272_ピュクシス_appears_くたびれた白衣_p8430
+        quote: 魔女盛装の黒いローブで出迎えたトリシューラとは反対に、くたびれた白衣姿でこの場に現れたのは尽くす礼を持たないという意思表示、ではなく単にずぼらなだけだろう。
+        locator: {}
+        spoiler_after: ch0272
+      - event_ref: E_ch0272_ピュクシス_transforms_ガルズ・ピュクシス_p8449
+        quote: とても懐かしい姿。
+        locator: {}
+        spoiler_after: ch0272
+    symbolic:
+      observations:
+      - event_ref: E_ch0272_ピュクシス_is_made_of_古代ジャッフハリム時代の彫像_p8431
+        quote: 彼女のデザインは古代ジャッフハリム時代の彫像がベースだと聞いている。古き良き時代の再現。それがピュクシスという人造魔女の設計理念だ。
+        locator: {}
+        spoiler_after: ch0272
+    name:
+      observations:
+      - event_ref: E_ch0272_ピュクシス_names_ラーゼフ・ピュクシス_p8431
+        quote: 『盾』の呪術技官ラーゼフ・ピュクシスという名はそれなりに重みを持っている。
+        locator: {}
+        spoiler_after: ch0272
+    relationship:
+      observations:
+      - event_ref: E_ch0272_ピュクシス_bonds_トリシューラ_p8432
+        quote: 実際のところ『塔』で開発された姉妹機の二人は協力関係にある。
+        locator: {}
+        spoiler_after: ch0272
+      - event_ref: E_ch0272_ピュクシス_other_典礼総監_p8432
+        quote: 異獣憑き部門の管理官で、『智神の盾』では典礼総監の役職までくっ付いてきたって話だけど
+        locator: {}
+        spoiler_after: ch0272
+      - event_ref: E_ch0272_ピュクシス_other_クロウサー家_p8434
+        quote: クロウサー家が『塔』の魔女候補であるピュクシスを娶ったのは必然だった。
+        locator: {}
+        spoiler_after: ch0272
+    action:
+      observations:
+      - event_ref: E_ch0272_ピュクシス_transforms_ルラーマとカルパオッソ_p8435
+        quote: 瞬間、ラーゼフ・ピュクシスの瞳から光が消失。
+        locator: {}
+        spoiler_after: ch0272
+    speech:
+      observations:
+      - event_ref: E_ch0272_ピュクシス_reveals_永劫線ノエレッテ_p8447
+        quote: 師匠である穴掘りニースフリルと永劫線ノエレッテが私に与えたデザイナー能力は『歴史の参照』だ。魔導書や遺物も併用するが、過去の人物をじかに再現する際には『永劫線』にアクセスして引っ張り出す。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_サンブル家]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0272_サンブル家_is_located_クロウサー本家_p8436
+        quote: 現代のサンブル・クロウサーは表向きエジーメの分家ということになっているが、その実態は逆だ。確かにエジーメとは親戚ではあるのだが、彼らはエジーメに取って代わられた本家である。
+        locator: {}
+        spoiler_after: ch0272
+    action:
+      observations:
+      - event_ref: E_ch0272_サンブル家_functions_as_ブライダル産業_p8438
+        quote: ブライダルを中心にホテル、レストラン、美容、化粧品、パーティといった事業を手掛けるサンブル家は世界各国の上流階級、大企業、呪術結社といった支配階層が交流する『場』を用意する役目を担い続けてきた。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルパオッソ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0272_カルパオッソ_other_リーナの結婚式_p8437
+        quote: 選定レースが終わり、正式に空使いとして認められた直後に婚約を発表。祝祭のフィナーレを飾る電撃的かつ華々しい結婚式で世界に新たなリーダーの誕生を知らしめるのさ。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルパオッソとルラーマ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0272_カルパオッソとルラーマ_makes_恋愛の商品化_p8438
+        quote: 結婚の形式が時代の流れと共に変化していく過程で発生した『恋愛』という価値。それを商品化したのがカルパオッソとルラーマというカップルの功績だった。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_融血呪]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0272_融血呪_has_property_劣化した青い血_p8441
+        quote: 実のところ、寄生異獣の本質は『異なる二者の合一』という点にはない。融合そのものではなく、『劣化した青い血』によって繋がっていること。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_セルアデス]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0272_セルアデス_defines_永劫線_p8447
+        quote: セルアデスという来訪者は幽月においては死と葬送を司る天使としての役目を担っていたらしいよ。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ガルズ・ピュクシス]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0272_ガルズ・ピュクシス_names_波風_p8449
+        quote: ガルズ・ピュクシス。彼が司る七つ風はある意味で最悪のひとつだ。その名は『波風』。平穏と幸福を揺さぶる、波乱と不和の予兆である。
+        locator: {}
+        spoiler_after: ch0272
+  first_appearance_candidate: true

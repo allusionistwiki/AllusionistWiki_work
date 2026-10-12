@@ -1,0 +1,653 @@
+episode: ch0090
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0090_トリシューラ_has_property_三親等以内の射程_p3317
+        quote: トリシューラであれば三親等以内が『射程範囲』だが、より高位の呪術師は更に範囲を広げられるらしい。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_感染呪術]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0090_感染呪術_defines_身体性の拡張_p3317
+        quote: 感染呪術。 かつてトリシューラから受けた講義を俺なりに解釈すると、この呪術は関係性の拡張である以前に、身体性の拡張に含まれることになる。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_感染呪術_requires_起源同一の認識_p3317
+        quote: まず『あらゆる生命は元は一つのものであった』という認識を用意する。 親子はもちろん近しい親族に至るまで、『起源が同一である』という点に繋がりを見出すことで、同質性を仮構するのだ。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラコーダ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0090_マラコーダ_attacks_ゾーイ・アキラ_p3318
+        quote: 高位の呪詛を力士に注ぎ込んだのは、蠍の尻尾。 マラコーダはただ倒された訳ではなかったのだ。 倒される直前、蠍の尻尾で反撃を繰り出し、感染呪術という名の毒素を注入していたのである。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_マラコーダ_activates_戦術級の大呪術_p3320
+        quote: 彼女は突如として現れた力士を状況から推測して瞬時に俺の敵であると断定し、トリシューラに委ねられている権限を行使して戦術級の大呪術を発動する。
+        locator: {}
+        spoiler_after: ch0090
+    symbolic:
+      observations:
+      - event_ref: E_ch0090_マラコーダ_has_property_遠隔操作可能な猛毒_p3318
+        quote: マラコーダの毒は注入した後で行動を制限する麻痺毒にするか、親類縁者を巻き込んで皆殺しにする凶悪な呪詛にするかを任意に選択することが出来る。
+          遠隔操作可能な猛毒。
+        locator: {}
+        spoiler_after: ch0090
+    name:
+      observations:
+      - event_ref: E_ch0090_マラコーダ_has_property_最大の広域殲滅能力_p3319
+        quote: マラコーダの【呪毒】は、ガロアンディアンが保有する破壊呪術の中で最大の広域殲滅能力を有する。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_修道騎士]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0090_修道騎士_uses_寄生異獣_p3318
+        quote: 修道騎士が使う寄生異獣も、下の『怪物』たちの肉体の一部、すなわち爪、歯、髪の毛といった細胞を移植することによってその力を得るという『身体性と関係性の拡張』だ。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0090_ガロアンディアン_functions_as_巨大な呪術_p3319
+        quote: 『国家』も同じだ。 ガロアンディアンも【死人の森】も、極めて巨大な呪術が固定された形式であると見なされる。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_三本足の民]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0090_三本足の民_has_property_道具の身体化_p3319
+        quote: 【三本足の民】なる種族が使い魔や道具を自らの身体の一部として認識するのも、この感染呪術に含まれるらしい。愛用した道具、愛玩した動物であるほどにその呪力は高まっていくのだとか。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゾーイ・アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0090_ゾーイ・アキラ_other_呪毒_p3320
+        quote: ゾーイ・アキラは涼しげな表情のままだった。 全身を覆い尽くそうとしていた【呪毒】が自然消滅していく。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_呪毒]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0090_呪毒_functions_as_権威の爆撃_p3320
+        quote: 国家規模の軍事費を食らいながら絶大な呪力を練り上げていく猛毒。それは共同体の呪力を他の共同体にぶつけるという、原始的な【権威の爆撃】であった。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イアテム]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0090_イアテム_appears_副長_p3321
+        quote: そして、魚のヒレのような耳をした白髪の英雄。水の分身を遠隔操作する言語魔術師だが、この身体もまた本体ではないのだろうか。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0090_クレイ_appears_副長_p3321
+        quote: 手刀であらゆるものを断ち切る美貌の肉体言語魔術師。舞うような動きで準決勝まで勝ち上がってきた彼は、次でカーインと戦う予定だった。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ニケ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0090_ニケ_appears_死人の森の女王_p3321
+        quote: 蜂蜜色の髪と灰色の瞳。眩いほどの美貌だが、その右半分が朽ち果てた死人のそれに変貌するところを目の当たりにしたばかりである。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ニケ_other_解体されたトリシューラ_p3325
+        quote: 全身をバラバラに解体された、俺の主だった。 両手両足が付け根から引き千切られて天井から吊り下げられていた。胴体は強引にこじ開けられて内部構造が露わにされてしまっている。
+        locator: {}
+        spoiler_after: ch0090
+    speech:
+      observations:
+      - event_ref: E_ch0090_ニケ_says_女王対決の勝利_p3321
+        quote: 「国と国との権威比べ――僣主トリシューラは不在ですが、女王対決は私の勝ち、ということでいいのかしら」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ニケ_asks_ニケと呼ぶこと_p3322
+        quote: 「ヴィク」「ごきげんよう、アキラ様――今はヴィクではない気分なので、ニケと呼んでいただけませんか？」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ニケ_confesses_トリシューラの拘束_p3324
+        quote: 「心配なさらずとも、僣主トリシューラの身柄なら私の方で預かっています」
+        locator: {}
+        spoiler_after: ch0090
+    action:
+      observations:
+      - event_ref: E_ch0090_ニケ_defeats_ちびセスカの邪視_p3327
+        quote: 邪視による凍結が女王に襲いかかる。だが灰色の瞳が揺らめくと、青い輝きはあっさりと吹き散らされてしまう。
+        locator: {}
+        spoiler_after: ch0090
+    name:
+      observations:
+      - event_ref: E_ch0090_ニケ_transforms_カロン_p3375
+        quote: 「この私に同じ呪文は二度も通じません――ニケに代わって、カロンとでもお呼び下さいな」
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0090_アキラ_thinks_呼び名の変更に呪術的意味_p3322
+        quote: それとも、呼び名を次々と変えることが何らかの呪術的意味を持っているのか。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_says_ゲームの醍醐味_p3363
+        quote: 「心が躍るな。それでこそ、だ。瀬戸際の攻防、命を賭けた駆け引き、全てがゲームの醍醐味というもの。いいぞ外世界人、私をもっと楽しませろ」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_thinks_ゾーイがチャンピオン_p3363
+        quote: ここで言うチャンピオンとは、現在は俺の事だ。無敗というわけではないが、三ヶ月の勝率で僅かにカーインを上回った結果である。 その認識がこの場所に、そして俺に浸透した瞬間だった。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_remembers_カイン_p3401
+        quote: 冷えていく思考の中で、俺が思い出すのはカインのことだった。 転生してすぐ、暗い森の中で俺が殺した相手。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_promises_トリシューラとコルセスカ_p3407
+        quote: 「当然だ。トリシューラとコルセスカを諦めてこのまま終わるなんて選択肢は、三ヶ月前に消えてるんだよ」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_thinks_タイムパラドックス_p3407
+        quote: 整理すると、俺がこの状況をどうにかするためには過去に向かう必要があり、そこで何かをすればいいのだが具体的にそれを知ってしまうと恐らくタイムパラドックス的な何かが起きてしまうので詳細は教えたくない、ということだな。
+        locator: {}
+        spoiler_after: ch0090
+    action:
+      observations:
+      - event_ref: E_ch0090_アキラ_activates_アトリビュート・七十一番_p3326
+        quote: 「アトリビュート・七十一番」 右腕の周囲に展開された【氷鏡】からコルセスカの【氷球】が出現する。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_stops_ちびセスカの変貌_p3329
+        quote: 展開された鏡の中で幻影の右腕が動いて、多面鏡の内側で無限に広がっていくコルセスカの手を掴んだ。 鏡の中に映し出された無数の前世、無数の冬の魔女が粉々に砕け散って、俺の掌に乗ったのは元通りのちびセスカただ一人だ。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_attacks_ゾーイ_p3356
+        quote: ゾーイの背面から左の掌を心臓の位置に押し当てた俺の姿は、誰にも見えない。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_other_自己_p3364
+        quote: 独りでに動こうとする左腕を、右腕が反射的に止める。 高熱を持った機械義肢を瞬時に氷の右手が冷却すると共に、俺の思考が冷えていく。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_attacks_ゾーイ_p3372
+        quote: 炸裂した熱線が目指すのは、脳では無い。 注意していなければ――それこそ俺が【氷鏡】でコルセスカの広い視界を借りていなければ気づけなかったであろう存在。
+          遙か天井で浮遊する、不可視の機械だ。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_transforms_グレンデルヒ_p3374
+        quote: 「浄界――【闘争領域の拡大】」 さあ、楽しい楽しい、ゲームの時間だ。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_other_左腕_p3403
+        quote: 声に、どこか大人びた響きが混じって――そして、死した狼が俺の目の前に舞い降りる。咥えた左腕が、『俺』に触れた。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_appears_注釈の世界_p3405
+        quote: 「ここは永劫線――『注釈の世界』よ。『主人公』や『語り手』であっても、ここまでは影響力を行使できない」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_arrives_注釈の世界_p3405
+        quote: ここはどこだろう。 俺は周囲を見回した。 そして、すぐ目の前に車椅子の女性が記述されていることに気がついた。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_other_少女の殺害_p3408
+        quote: ならば、過去で俺がなすべきは彼女を殺して難敵を事前に排除しておくことか。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_travels_古代_p3408
+        quote: そして俺は、暗い森の中に降り立った。 青ざめた月、風に揺れる木々。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_stops_殺害_p3409
+        quote: しかし、怯え、震える少女を前にして拳を握りしめたとき、ふと気付く。 彼女は、まだトリシューラを害していない。 未だ行われていない罪を裁くことが、一体誰にできるというのだろう。
+        locator: {}
+        spoiler_after: ch0090
+    visual:
+      observations:
+      - event_ref: E_ch0090_アキラ_appears_壮年男性_p3377
+        quote: 百九十センチメートルほどの長身に、蓬髪を振り乱した四十代から五十代あたりの壮年男性。ストライプのスーツがすらりとした肉体を包み込んでいる。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_アキラ_finds_狼の死骸_p3408
+        quote: そして俺は、それを見つけた。 血に沈み、動かないままの狼の死骸。その傍らにしゃがみ込んで、小さな声で泣いている少女を。
+        locator: {}
+        spoiler_after: ch0090
+    name:
+      observations:
+      - event_ref: E_ch0090_アキラ_reveals_グレンデルヒ_p3379
+        quote: 「いかにも。私のフルネームは、グレンデルヒ＝アキラ＝シナモリ＝ライニンサルとでもしておこうかな。
+        locator: {}
+        spoiler_after: ch0090
+    relationship:
+      observations:
+      - event_ref: E_ch0090_アキラ_other_少女_p3409
+        quote: その灰色の瞳の中に、誰かの姿を見て、俺は。 最初に抱いた印象が、何も間違っていなかったのだと、そう理解した。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ケイト]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0090_ケイト_transforms_偽シューラ_p3323
+        quote: 行司シューラの立体映像にラグが走り、その姿が一瞬にして切り替わる。 ウェーブがかかった黒髪。濃茶色の肌。穏やかなそうな瞳。
+        locator: {}
+        spoiler_after: ch0090
+    speech:
+      observations:
+      - event_ref: E_ch0090_ケイト_reveals_存在抹消の回避_p3324
+        quote: 「こっちは相棒のケイト。そんなに睨まないでよ。こいつのお陰で、当初は存在抹消予定だったのを折衷案で落ち着かせることにできたんだからさ。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ケイト_reveals_予備機体の起動不能_p3330
+        quote: 「なあに、ちょっとこの艦のシステムに侵入して、小細工をね。残念だが、予備のアンドロイドは起動できないよ。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ケイト_uses_サイバーカラテ_p3331
+        quote: 「もちろんただのジェスチャーに過ぎない」 言った。（君は事の重大さを理解しているのかな――異世界に文明を持ち込むということの罪深さを。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ケイト_other_アキラの重複転生_p3333
+        quote: 「君は重複転生者だ」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ケイト_other_アキラの注目度上昇_p3336
+        quote: 「だが三ヶ月前、君の記録は発掘された。ヲルヲーラの暴走という不確定要素が影響して、多くの世界にこの世界と君という転生者が認識されたんだ。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ケイト_other_アキラの投降_p3337
+        quote: 「安心して欲しい。僕らはもっと穏当な手段で解決を図ることにしたんだ。だから、このまま大人しくこっちに来てくれないかい？」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ケイト_other_低価格転生プラン_p3388
+        quote: これからは、大量の短期転生者プランが主力製品となる。 コンセプトは『太く短い充実した転生』だ。
+        locator: {}
+        spoiler_after: ch0090
+    action:
+      observations:
+      - event_ref: E_ch0090_ケイト_other_静謐_p3340
+        quote: それは広範囲に向けて放たれた対抗呪文、【静謐】。 あらゆる呪術効果を無効化するその呪文によって、サイバーカラテの心技体を成立させている呪術――とりわけ精神を安定させる各種の呪術が消滅していた。
+        locator: {}
+        spoiler_after: ch0090
+    name:
+      observations:
+      - event_ref: E_ch0090_ケイト_other_妖精使い_p3340
+        quote: 彼は、妖精使いと呼ばれる全く新しいタイプの言語魔術師なのだ。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゾーイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0090_ゾーイ_bonds_ニケ_p3323
+        quote: 「利害の一致――といっていいのかな。どちらかと言えばお互いに妥協し合うことで共に目的を達成するっていう協定を結んだわけだけど。とにかく、今の私、ゾーイ・アキラは一時的にこの女王様の所に身を置いてるってわけ」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ゾーイ_other_サイバーカラテ_p3338
+        quote: 「その劣化ジークンドーで力士に勝てるとでも本気で思っている？」
+        locator: {}
+        spoiler_after: ch0090
+    action:
+      observations:
+      - event_ref: E_ch0090_ゾーイ_attacks_公社呪術師_p3344
+        quote: 光学干渉呪術で姿を消して背後に接近していた公社所属の呪術師の頭を振り向きもせずに鷲掴みにしてそのまま握りつぶすと、ゾーイはそのまま死骸を投擲。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ゾーイ_other_頭部爆砕_p3358
+        quote: 炸裂した【爆撃】が頭蓋の内側から力士の 頭部を爆砕する。粉々になった肉片の脳漿が飛び散って屈強な外世界人は即死した。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ゾーイ_attacks_アキラ_p3361
+        quote: 遠心力を利用しての解放。投擲された俺は頭部から壁へと突っ込んでいった。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ゾーイ_teleports_アキラの上_p3362
+        quote: （喰らえ、テレポート・ボディ・プレスだ！） 空間圧縮された練武場の天井は、非常に高い。 その天辺に転移して自由落下してくる力士の巨体が、一直線に俺に襲いかかる。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ゾーイ_defeats_カニャッツォ_p3367
+        quote: 無慈悲な脳天砕きによってカニャッツォはどうと倒れ、かりそめ のリングが夢のように消えていく。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ゾーイ_kills_カニャッツォ_p3368
+        quote: 骨杭が棺の中央に落とされて、棺の隙間から赤々とした鮮血がこぼれ落ちていく。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ゾーイ_uses_発気_p3370
+        quote: 行司姿の男と力士の女が声を揃えて高らかに叫ぶ。「発気、よぉぉぉぉぉい」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ゾーイ_other_熱学発勁_p3372
+        quote: 熱学発勁が呆気なく吹き散らされて、俺は攻撃手段を誤ったことに気付く。 あの機械に搭載された遮蔽装置は、単純な感知への欺瞞だけではなく、攻撃への防御機能までも有していたのだ。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ゾーイ_captures_アキラ_p3373
+        quote: 力士の身体に強く引き付けられる。更に、体格差を利用するようにして上からのし掛かられた。 背骨から肋骨にかけてが圧迫されて、背中が、腰が、膝が同時に悲鳴を上げて喉から息が漏れていく。
+        locator: {}
+        spoiler_after: ch0090
+    symbolic:
+      observations:
+      - event_ref: E_ch0090_ゾーイ_has_property_不死身_p3359
+        quote: 「残念だけどね。『生き体』である限り、彼女は何度でも甦るよ。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ゾーイ_has_property_不死身_2_p3359
+        quote: 残念だけどね。『生き体』である限り、彼女は何度でも甦るよ。
+        locator: {}
+        spoiler_after: ch0090
+    name:
+      observations:
+      - event_ref: E_ch0090_ゾーイ_other_元女横綱_p3360
+        quote: 「ＹＯＫＯＺＵＮＡ――なのか」（ご名答。今世紀に入って初の女ＹＯＫＯＺＵＮＡとなった人間兵器。それが彼女、ゾーイ・アキラだよ）「もう引退してるっての」
+        locator: {}
+        spoiler_after: ch0090
+    visual:
+      observations:
+      - event_ref: E_ch0090_ゾーイ_transforms_肉体_p3369
+        quote: 盛り上がった筋肉が厚みを増し、質量そのものが増大。 身長すら伸びていき、二メートル未満だった体格は二メートル半に届こうかと言うほどになる。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0090_ちびセスカ_threatens_ニケ_p3326
+        quote: 「ちびセスカ、招きに応じて参上しました――死人の森の女王。貴方と【変異の三手】には報いを受けさせる。死よりも過酷な、英雄の精神すら歪めて壊す最悪の拷問で、徹底的に！」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ちびセスカ_other_フィクションの現実性_p3328
+        quote: 「トリシューラは確かに『いる』んです！ 第一、作り事だったら何だというのですか。妄想でも現実でも、トリシューラはトリシューラです。冬の魔女コルセスカが、神話の魔女がそうであるように
+          フィクション ！」
+        locator: {}
+        spoiler_after: ch0090
+    action:
+      observations:
+      - event_ref: E_ch0090_ちびセスカ_fights_グレンデルヒ_p3393
+        quote: 「つまりグレンデルヒは実はアキラであり、サイバーカラテが力を増す事によって利益を得るサイバーカラテユーザーです！ 貴方はグレンデルヒではなく、アキラだったということです！」
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_群衆]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0090_群衆_suspects_トリシューラの人形性_p3327
+        quote: 改めて目に見える形として『機械である』という事実を突きつけられたことで、『所詮は人形』という認識が強まりつつあるのだった。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_転生保険]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0090_転生保険_functions_as_エンターテイメント_p3335
+        quote: 異世界転生のコンテンツ化、エンターテイメント化である。 転生者の新たな人生をフィクションとして鑑賞し、消費するとい う娯楽。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_マレブランケ]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0090_マレブランケ_other_PTSDの再発_p3341
+        quote: 年若いファルが戦いの恐怖に怯え、牙猪チリアットが克服したはずの死への恐怖を思い出してしまい泣き喚く。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0090_カーイン_defeats_クレイ_p3345
+        quote: 間合いを詰めた内家拳士はそのままクレイの眉間を貫手で突き、戦いは瞬きもしないうちに終わりを告げた。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_カーイン_uses_六淫操手_p3346
+        quote: 六淫操手。接触感染だけでなく空気、飛沫、と様々な感染経路から病の素を他者に送り込むという恐るべき呪術的武術の使い手。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_カーイン_other_ケイトの呪文_p3347
+        quote: カーインの指先から放たれた複雑怪奇な表意文字の群が呪文の中を逆流していき、ケイトに直撃したのである。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_カーイン_repairs_サイバーカラテ道場のセキュリティ_p3347
+        quote: 「サイバーカラテ道場に『気』を流し込んでセキュリティを強化しておいた。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レゴン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0090_レゴン_transforms_ちびラズリ_p3348
+        quote: 俺のカード型端末の一つから飛び出した悪霊レゴン――グロテスクな臓物に顔の部位をくっつけたような怪物の姿が漆黒の靄につつまれたかと思うと、次の瞬間にはその姿が変化していた。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびラズリ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0090_ちびラズリ_has_property_魅了の呪術_p3349
+        quote: 全く、天然で魅了の呪術を振りまいてるとか、恐ろしい人だな。
+        locator: {}
+        spoiler_after: ch0090
+    speech:
+      observations:
+      - event_ref: E_ch0090_ちびラズリ_other_トーナメントの真の目的_p3350
+        quote: 失われた内力のバランスを取り戻す為に、練り上げられた陽の気を俺の中に注ぎ込んで正常なバランスに戻す。荒っぽい手段だが、呪力の伝導効率が極めて良い俺だからこそ可能な治療法ということらしい。
+        locator: {}
+        spoiler_after: ch0090
+    action:
+      observations:
+      - event_ref: E_ch0090_ちびラズリ_activates_カッサリオ_p3353
+        quote: 「目覚めよ――カッサリオ」 俺とコルセスカは同時に反応した。その意味を店員さんに問いただすより先に、下腹部に熱を感じて呻く。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_カニャッツォ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0090_カニャッツォ_fights_ゾーイ_p3365
+        quote: ブルドッグ面を獰猛に歪めて、瞳に闘志を燃やしながらカニャッツォがゾーイとがっぷりと組み合う。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_カニャッツォ_uses_虹弓_p3366
+        quote: 彼は【虹弓】をリングとして展開し、磨き上げたロープワークによってバウンドし、自らが弾体となる戦法を得意としている。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カロン]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0090_カロン_transforms_フェブルウス_p3376
+        quote: 「そうですね。今度は『フェブルウス』とでも名乗っておきましょうか」 宣名によって凄まじい呪力が炸裂し、周囲にいた公社の呪術師が片端から吹き飛ばされていく。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0090_グレンデルヒ_other_歴史_p3381
+        quote: 滅茶苦茶な事実を開陳したグレンデルヒは、キロンに殺害された後からトリシューラと聖婚を為し遂げて勝利したこと、それから今に至るまでのアキラの軌跡の全てが実は『アキラを演じていたグレンデルヒによるもの』だったのだという現実をアストラルネットに拡散していく。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_グレンデルヒ_uses_陰謀論_p3386
+        quote: サイバーカラテユーザー＝シナモリ・アキラ＝グレンデルヒ。 グレンデルヒは、全てのサイバーカラテユーザーを支配下に置き、自在に操り、その気になれば存在ごと上書きして『グレンデルヒ』を増やす事が可能となる。
+        locator: {}
+        spoiler_after: ch0090
+    relationship:
+      observations:
+      - event_ref: E_ch0090_グレンデルヒ_bonds_多世界籍企業_p3389
+        quote: この世界へ手を伸ばす第一段階として、まずはグレンデルヒを引き込みたいという思惑と、更なる力、更なる知識を欲望するという思惑が合致し、悪夢のような同盟が結ばれていたのだった。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_サイバーカラテユーザー]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0090_サイバーカラテユーザー_transforms_グレンデルヒ_p3386
+        quote: 練武場に集結した者たちは老若男女の区別無く、一人残らず蓬髪の男性に変化してしまったのだ。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_フェブルウス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0090_フェブルウス_other_名声値_p3394
+        quote: 「年齢と性別の問題もあります。年若い少女の主張よりも、社会的地位の確かな壮年男性の方が『発言に重みがある』。事実とは関係無くね。
+        locator: {}
+        spoiler_after: ch0090
+    action:
+      observations:
+      - event_ref: E_ch0090_フェブルウス_transforms_コルセスカ_p3397
+        quote: 「そう。私は、銀の森の魔女――浄罪者フェブルウス＝コルセスカ」 宣名によって発動した呪力の性質は、死臭の混じった突風ではなく、身も凍るような冷たい空気である。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_フェブルウス_kills_チリアット_p3399
+        quote: 氷の腕が振り下ろされて、絶対零度の貫手がチリアットの心臓を貫通した。 一撃で絶命した牙猪の命を【生命吸収】によって奪い、存在の全てを氷の右腕の中に吸い上げていく。
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_フェブルウス_other_カイン_p3400
+        quote: 「出番よ、カイン」 巡槍艦の奥、トリシューラの執務室から一直線にこの練武場まで駆け抜けてきた屍の狼が、硝子をぶち破って飛び出してくる。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0090_カイン_other_アキラの左腕_p3400
+        quote: その口に、何かを咥えて。 それは得体の知れない液体に塗れた、肘の辺りから食い千切られた左腕だった。
+        locator: {}
+        spoiler_after: ch0090
+    speech:
+      observations:
+      - event_ref: E_ch0090_カイン_says_バックアップ_p3403
+        quote: 『それは、唯一の汚染されていない貴方』 聞き覚えのある声――首筋と右腕にその存在を感じ続けている誰かに似た響きを持った言葉が、俺に道標を示す。『シナモリ・アキラのバックアップ。感染呪術の基本原則を思い出して下さい。元々一つだったものは、呪力を宿す。遠く離れていても影響を及ぼし合う』
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_注釈の世界]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0090_注釈の世界_defines_不可侵領域_p3405
+        quote: 「早い話が、ここは『彼女』の領域だから不可侵ってこと。
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヘリステラ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0090_ヘリステラ_appears_車椅子の女性_p3406
+        quote: 「そうか、貴方が、ヘリステラか」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ヘリステラ_has_property_中立_p3406
+        quote: 「そうそう。本当は中立の私が介入するのは良くないんだけどね。グレンデルヒがああなっているのはこちらにも責任があるし――彼がこの世界に次元侵略者を招き入れて好き勝手にしようとしているのは見逃せない」
+        locator: {}
+        spoiler_after: ch0090
+    speech:
+      observations:
+      - event_ref: E_ch0090_ヘリステラ_other_アキラ_p3407
+        quote: 「永劫線を通じて、古代へと遡ってもらうわ。グレンデルヒに勝利する為には、あなたもまたより強大な力を手にしなくてはならない。たとえば、その左腕の新しい機能とか、勝利への布石を置いてくるとかね」
+        locator: {}
+        spoiler_after: ch0090
+      - event_ref: E_ch0090_ヘリステラ_asks_妹たち_p3408
+        quote: 「私の妹たちを、よろしくお願いね」
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァレリアンヌ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0090_ヴァレリアンヌ_appears_緑髪の少女_p3406
+        quote: 「やっほーヴァレリアンヌ本人なのですよー、ノエレッテが留守なので私が【扉】を作りますねー」
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少女]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0090_少女_appears_幼き日の女王_p3408
+        quote: 一目でわかった。これは幼き日の死人の森の女王だ。
+        locator: {}
+        spoiler_after: ch0090
+    speech:
+      observations:
+      - event_ref: E_ch0090_少女_asks_狼の救助_p3409
+        quote: 「お願いです。私はどうなってもいいですから――この子を、助けてあげてください。とっても、とっても辛いって、死ぬのが嫌だって、苦しんでいるの」
+        locator: {}
+        spoiler_after: ch0090
+  first_appearance_candidate: true

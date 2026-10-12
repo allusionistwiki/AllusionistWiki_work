@@ -1,0 +1,223 @@
+episode: ch0077
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_彼女]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0077_彼女_thinks_アキラの苦痛_p2872
+        quote: あの苦痛、あの醜態、あの嘆き。 全て全て、肯定して受け止めて、傷口を抉って苦しめ続けてみたい。 それは、正しい苦しみなのだと。 その苦しみこそ、貴方の秩序の正しさなのだと糾弾し、弾劾し、その行動と人格と欺瞞にあらん限りの罵声を浴びせたい。
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_彼女_fears_灰色_p2873
+        quote: あの灰色は、なにより綺麗な苦しみを、あっけなく塗りつぶしてしまった。 なんてひどい。 なんて傲慢。
+        locator: {}
+        spoiler_after: ch0077
+    action:
+      observations:
+      - event_ref: E_ch0077_彼女_other_逆襲の意思_p2874
+        quote: そして、明確に自覚されることは無かったけれど。 未来の彼方に置いてきた、それは逆襲の意思だった。 暗く静かな死人の森で、粘着質な妄執が泡となって浮かび上がる。
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_巨漢]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0077_巨漢_attacks_男たち_p2876
+        quote: 刺青――呪紋が輝き、剛腕が伸びる。 がしりと肩を掴むと、凄まじい握力で握り込んだ。
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_人影]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0077_人影_appears_椅子_p2877
+        quote: 様々な色合いの煙の向こう側、椅子や簡易卓代わりの箱に腰掛けた人影が、ゆっくりと身体を起こす。
+        locator: {}
+        spoiler_after: ch0077
+    action:
+      observations:
+      - event_ref: E_ch0077_人影_attacks_地面_p2877
+        quote: 踏み抜いた石の地面が粉砕され、ひび割れ、破片となって放射状に持ち上がっていく。そしてそれが踏み込みだった。
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_人影_kills_巨漢_p2878
+        quote: 腰の辺りを持ち上げて、床に叩きつける。 まず、それで首の骨が折れた。だが。「残った」 振り下ろされた掌が、頭蓋を叩きつぶす。 死の確定。
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_幻像]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0077_幻像_says_発気_p2877
+        quote: と、人影の頭部の横に、小さな立体幻像が出現した。 縮小された人型が、明朗に声を紡ぐ。「発気、よぉぉぉぉぉい」
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_幻像_says_残った_p2878
+        quote: 「残った」 小さな幻像はなおも言葉を発する。
+        locator: {}
+        spoiler_after: ch0077
+    visual:
+      observations:
+      - event_ref: E_ch0077_幻像_uses_黒い扇_p2878
+        quote: 幻像は扇にも似た道具を手にしていた。柄の反対側からは房紐が付いており、黒い扇はどこか蝶にも似ている。
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_男]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0077_男_says_サイバーカラテ_p2879
+        quote: 「あ、あんた、アキラって言うのかい。じゃあ、もしかして」「俺ぁ知ってるぜ、今のかけ声はサイバーカラテってヤツだろ！ はっけいようい？
+          だっけ？ 女王サマの『猟犬』が使うってあの武術だよ！」
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0077_アキラ_names_スモー_p2880
+        quote: 「それと、サイバーカラテなんて一時の流行と一緒にしないで欲しいね。僕たちのはもっと古くて伝統的な、【スモー】なんだから」
+        locator: {}
+        spoiler_after: ch0077
+    name:
+      observations:
+      - event_ref: E_ch0077_アキラ_names_ゾーイ・アキラ_p2881
+        quote: 「【力士】のゾーイ・アキラだ。こっちはケイト。さ、『アキラ』 スモーレスラー について知ってることを教えてよ。
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_猫の取り替え子]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0077_猫の取り替え子_other_公社_p2881
+        quote: 極めて凄惨な上層部の刷新――という名の『粛正』が行われ、現在は【猫の取り替え子】が公社の頂点に立っているという。
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0077_カイン_arrives_娼館_p2882
+        quote: 男は複雑な裏道を通り、決められた符丁で案内人と情報をやり取りし、高価な呪石を握らせて、ようやくその場所に辿り着いた。 そこは娼館だった。
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_カイン_attacks_ウィクトーリア_p2890
+        quote: 小さな肩を荒っぽく掴むと骨肉を砕き引き裂かんばかりの力で圧迫する。
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_カイン_attacks_ウィクトーリア_p2897
+        quote: 「俺の純情を弄んだな、この淫売がぁっ！」 固く握りしめられた拳が、女性の頬を打った。 一度では終わらない。 二度、三度と左右の拳が繊細な頭部を殴打し続ける。
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_カイン_attacks_ウィクトーリア_p2899
+        quote: 右拳が女の露わになった腹部を繰り返し繰り返し殴りつけ、荒々しく爪を立てると柔肌を引き裂いて鮮血を飛散させた。
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_カイン_loses_右腕_p2900
+        quote: 無造作に、右腕を引いた。 引き抜いた腕の先には、何も無かった。 ただ鋭利な断面を晒した腕が血を吹き出して震えるだけ。
+        locator: {}
+        spoiler_after: ch0077
+    speech:
+      observations:
+      - event_ref: E_ch0077_カイン_thinks_女王への憎悪_p2883
+        quote: 愚かな女どもに、身の程というものをきっちり教えてやらなければならない。 それが自分の使命なのだ。
+        locator: {}
+        spoiler_after: ch0077
+    visual:
+      observations:
+      - event_ref: E_ch0077_カイン_has_property_手甲_p2885
+        quote: その右手には巨大な手甲が嵌められていて、内部がどうなっているのかはわからない。しかし、溢れんばかりの呪力がひどく険呑な雰囲気を漂わせていた。
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_カイン_finds_白骨死体_p2887
+        quote: 左右に、動く物体がある。 人ではない。
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_カイン_has_property_人面疽_p2898
+        quote: 露わになったのは、異形の右腕。 しわくちゃになった顔が、右の掌に張り付いていた。 人面疽という呪術が存在するが、男の奇怪な腕もそれを応用したものだろう。
+          開いた掌には複製、縮小された男自身の顔が張り付いている。
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女王]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0077_女王_other_第五階層_p2882
+        quote: 女王の治世は、苛烈にして残虐。 逆らうことなど許されぬ死と暴力の嵐は、まさしく天災のようなものだ。 その一方で、服従を示せば寛大にして手厚い庇護を受けられる。
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ウィクトーリア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0077_ウィクトーリア_appears_闇_p2889
+        quote: 一人の女性が、奥の闇から姿を現した。 脳髄と心臓を同時に鷲掴みにされて、目の前にはっきりとした死を突きつけられているかのような猛烈な悪寒。
+          怖気を振るう美しさ。
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_ウィクトーリア_other_腐乱した女体_p2891
+        quote: 次々と、次々と、柔らかく、脆く、繊細な女体が、床を這いずって近付いて来ているのだった。
+        locator: {}
+        spoiler_after: ch0077
+    name:
+      observations:
+      - event_ref: E_ch0077_ウィクトーリア_names_ウィクトーリア_p2890
+        quote: 「ようこそ旦那様――当館の主人、ウィクトーリアと申します」
+        locator: {}
+        spoiler_after: ch0077
+    action:
+      observations:
+      - event_ref: E_ch0077_ウィクトーリア_other_カイン_p2892
+        quote: 「あら。甘えんぼさんですね。それじゃあ、みんなにはちょっとだけ我慢してもらいましょうか」 その言葉こそが呪文であったかのように、全ての異変がかき消えた。
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_ウィクトーリア_kills_カイン_p2901
+        quote: 「ああ――ごめんなさい。子供たちが、少しやんちゃをしてしまったみたいです。本当に悪戯好きで――でも、けっして悪い子たちじゃないんですよ？」
+        locator: {}
+        spoiler_after: ch0077
+    speech:
+      observations:
+      - event_ref: E_ch0077_ウィクトーリア_promises_おいた禁止_p2893
+        quote: 「一つだけ、約束です。この中では決して『おいた』はしないこと。一夜の夢は、儚く優しく、そして醒めれば何事も無く当たり前の生活に帰るために――」
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_ウィクトーリア_says_痛みへの反応_p2899
+        quote: 「それに、大した痛みではありません――どんな男性のものだって、赤ちゃんの頭に比べたら可愛らしいものでしょう？」
+        locator: {}
+        spoiler_after: ch0077
+      - event_ref: E_ch0077_ウィクトーリア_says_ママ_p2902
+        quote: 「大丈夫ですよー怖くないですよー。ほうら、私が貴方のママですからねー♪」 悪夢の泡がふわりと浮かび、やがて弾けた。
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_人面疽]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0077_人面疽_other_死人の森_p2900
+        quote: 闇をも見通す人面疽の邪視――それが見せているのは、人の体内ではない。 暗く深い、静かな森。 月明かりに照らされた、死と静謐に満ちた世界。
+        locator: {}
+        spoiler_after: ch0077
+  first_appearance_candidate: true

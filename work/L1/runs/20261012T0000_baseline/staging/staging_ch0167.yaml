@@ -1,0 +1,412 @@
+episode: ch0167
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0167_アキラ_fights_イツノ_p5586
+        quote: そのまま義肢の制御に割り込みをかけて『大蛇』の横っ面に平手を叩きつけた。
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_アキラ_travels_外出_p5587
+        quote: 『俺』の方はもともと使っていた義体を利用すれば活動可能だ。偵察や情報収集などできることは幾らでもある。
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_アキラ_stops_カシュラム人_p5588
+        quote: 全て言い終わらないうちに顎を掴んで強引に閉じさせた。
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_アキラ_stops_オルヴァ_p5589
+        quote: 「承知した――ブレイ」「おい」素早く顎を押さえつけた。
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_アキラ_stops_オルヴァ_p5603
+        quote: 「ブ」老人が唇を震わせた瞬間、二つの機械義肢が同時に動いた。長く伸びた念動アームが上から、俺の左手が下から、老人の頭と顎を挟み込んだのだ。
+        locator: {}
+        spoiler_after: ch0167
+    speech:
+      observations:
+      - event_ref: E_ch0167_アキラ_says_内的闘争_p5586
+        quote: 「落ち着け。今はお前の内的闘争に付き合う気は無いし、それは完成じゃない」
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_アキラ_thinks_統合_p5586
+        quote: いや、『私』は正常だ。これこそ私／俺の完成に必要な統合なのだから。
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_アキラ_thinks_地雷_p5587
+        quote: とにかく顔がいいのでアイドル活動には必要な人材であるのだが、これからは十分に気を付けなければならないだろう。中身が地雷過ぎる。
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_アキラ_thinks_遊び_p5597
+        quote: 俺たちがアイドル活動なんかをやっていられるのも、この空間にどこか『遊び』があるからだろう。
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_アキラ_fears_破滅_p5611
+        quote: こう言っては何だが、破滅の予感しかしない。俺と『眠り棺』は寒気を感じたかのようにぞっと身を震わせた。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イツノ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0167_イツノ_says_殺してアキラ貫く_p5586
+        quote: 「わたしにーさま私とひとつ、刺して殺してアキラ貫く、晴れて一緒に悶え死ぬ」
+        locator: {}
+        spoiler_after: ch0167
+    action:
+      observations:
+      - event_ref: E_ch0167_イツノ_wounds_腹_p5586
+        quote: 両手は簡素なこしらえの短刀を逆手に握り、刃を腹に突き入れていた。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カシュラム人]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0167_カシュラム人_appears_as_老賢者_p5587
+        quote: 曲のテンポに合わせるように、音楽的に老いていく。楽しげに朽ち、快く果て、骨と皮ばかりの身軽な死へと突き進む。
+        locator: {}
+        spoiler_after: ch0167
+    speech:
+      observations:
+      - event_ref: E_ch0167_カシュラム人_says_ブレイス_p5588
+        quote: 「推しのブログと自撮りから恋人の影を見出す、おおこれぞブレイス」
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0167_オルヴァ_functions_as_情報収集_p5588
+        quote: この老賢者にはライバルとなるアイドルたちの情報を集めてもらっている。過去視と短期的未来予測によって厄介な相手への対策を練ることができるのは大きい。
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_オルヴァ_uses_過去視_p5595
+        quote: オルヴァのまじないで見た『Ｆｒｏｚｅｎ／Ｔｏｒｃｈ』の直近の過去。
+        locator: {}
+        spoiler_after: ch0167
+    name:
+      observations:
+      - event_ref: E_ch0167_オルヴァ_names_髭大夫_p5588
+        quote: まことの名をオルヴァ、仮の名を『髭大夫』という老人は小さく肯きを返した。
+        locator: {}
+        spoiler_after: ch0167
+    speech:
+      observations:
+      - event_ref: E_ch0167_オルヴァ_says_妥協_p5588
+        quote: 「見えた――『うずめ、遂に再三の勧告に屈してボディペイントライブで妥協』――明日は彼女のファンが荒れるだろうな。心が離れた瞬間、こちらが付け入る隙が生まれる。シナモリアキラよ、脱ぐがいい」
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_オルヴァ_observes_妊婦_p5596
+        quote: 「あの妊婦から妙な気配を感じた。気になってもう少し過去にさかのぼってみたのだが――奇妙なことに、地下に来る以前は妊娠していなかったようだ」
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_オルヴァ_says_純粋な再生者_p5596
+        quote: 「あれは――『死せる者どもの王子』と同じ純粋な再生者になるだろう。彼ほど死の根源に近いということは無いにせよだ」
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_オルヴァ_says_女神の覚醒_p5597
+        quote: 「ただひとりの純粋な再生者、それが増えるかもしれん。『死人の森』に変化が起きようとしている。あるいは、女神の覚醒が近づいているのか」
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_オルヴァ_promises_呪縛の解除_p5610
+        quote: 「これも何かの縁だ。絡まりほつれた人の環の呪縛、私が解きほぐしてみせよう」
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0167_トリシューラ_stops_オルヴァ_p5588
+        quote: その能力を有効活用できるかどうかはともかく、極めて強大なオルヴァの力は、本人の危険性からトリシューラによって厳重に封印されている。
+        locator: {}
+        spoiler_after: ch0167
+    speech:
+      observations:
+      - event_ref: E_ch0167_トリシューラ_thinks_逆転劇_p5589
+        quote: 圧倒的な力を持っていると『逆転劇』や『サクセスストーリー』が演出しづらくなる。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ道場]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0167_サイバーカラテ道場_functions_as_データ共有_p5590
+        quote: 集めたデータを『サイバーカラテ道場』経由で共有してちびシューラに分析を任せていくうち、現在の情勢がわかってきた。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ランキング]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0167_ランキング_defines_一位_p5590
+        quote: 一位：『狂イ姫－†囚焉舞イ血ル妬環ノ華†』リールエルバシュウエンマイチルトワノハナ
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_ランキング_defines_七位_p5591
+        quote: 七位：『チョコレートリリー・空組』
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_ランキング_defines_三位_p5591
+        quote: 三位：『アマランサス・サナトロジー』
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_ランキング_defines_九位_p5591
+        quote: 九位：『シナモリアキラ』
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_ランキング_defines_二位_p5591
+        quote: 二位：『ハンズ・オブ・グローリー』
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_ランキング_defines_五位_p5591
+        quote: 五位：『動物想』ファウナ
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_ランキング_defines_八位_p5591
+        quote: 八位：『ラリスキャニア』
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_ランキング_defines_六位_p5591
+        quote: 六位：『うずめ』
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_ランキング_defines_十位_p5591
+        quote: 十位：『Ｆｒｏｚｅｎ／Ｔｏｒｃｈ』
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_ランキング_defines_四位_p5591
+        quote: 四位：『パイロマスター・イン・ヘルファイア』
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_地下アイドル空間]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0167_地下アイドル空間_is_located_地下フロア_p5590
+        quote: 地下アイドル空間に聳え立つランキング。厳しさの象徴であり、競争による質の向上にも役立つシステムだが
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_空組]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0167_空組_loses_うずめ_p5591
+        quote: 普段とは打って変わって不調に陥り、先日倒したばかりの『うずめ』に敗北してランクを下げてしまっている。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_Ｆｒｏｚｅｎ／Ｔｏｒｃｈ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0167_Ｆｒｏｚｅｎ／Ｔｏｒｃｈ_loses_ラリスキャニア_p5591
+        quote: これまで好調だったネクロメタルバンド『Ｆｒｏｚｅｎ／Ｔｏｒｃｈ』が勢いを落とし、安定したパフォーマンスを維持するラリスキャニアに挑まれて敗北。
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_Ｆｒｏｚｅｎ／Ｔｏｒｃｈ_makes_抗死臭香水_p5593
+        quote: ちなみに『Ｔｒｕｔｈ』という抗死臭香水をプロデュースしていることでも知られている。
+        locator: {}
+        spoiler_after: ch0167
+    visual:
+      observations:
+      - event_ref: E_ch0167_Ｆｒｏｚｅｎ／Ｔｏｒｃｈ_is_made_of_悪魔崇拝メタラー_p5593
+        quote: 地上から自由な音楽を求めてやってきた悪魔崇拝メタラーと再生者たちが結成した反槍神団体で、『凍れる松明』という冒涜的なバンド名は命知らずの証明だ。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キーボード担当]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0167_キーボード担当_is_made_of_白骨死体妊婦_p5594
+        quote: 胎教にいいからという理由で音楽を始めたキーボード担当の白骨死体妊婦（当然腹の中に見えている胎児も白骨死体だ）
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ドラムス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0167_ドラムス_is_made_of_眠り棺_p5594
+        quote: 冷凍睡眠者の代理人格が入力した打ち込みのドラムスを念動マニピュレータで生演奏する自律型の『眠り棺』
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ベース担当]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0167_ベース担当_is_made_of_焼死体ゾンビ_p5594
+        quote: 美しい火傷顔に熱視線を集めている焼死体ゾンビはベース担当。『ＳｈＡｄＥ』ブランドのトップモデルでもあり
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーダー]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0167_リーダー_is_made_of_吸血鬼_p5594
+        quote: 数か月前にいちど再生者化したが直後に吸血鬼になったという、いわゆる『ドラトリア系夜の民』だ。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0167_クレイ_is_made_of_純粋な再生者_p5597
+        quote: 『死人の森』の王子にして純粋な――つまり『元々の種族』を持たない再生者とは、女王につき従う刃のごとき男、クレイのことだ。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_眠り棺]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0167_眠り棺_appears_as_棺桶_p5598
+        quote: そこには手足の付いた棺桶が立っていた。正確には寝台とか揺り籠と言った方がいいだろう。なにしろあれは冷凍睡眠装置なのだから。
+        locator: {}
+        spoiler_after: ch0167
+    speech:
+      observations:
+      - event_ref: E_ch0167_眠り棺_says_話せる_p5598
+        quote: 「はじめましてシナモリアキラ。それとひさしぶり『紫の』。ちょっと話せる？」
+        locator: {}
+        spoiler_after: ch0167
+    action:
+      observations:
+      - event_ref: E_ch0167_眠り棺_functions_as_仮想使い魔_p5599
+        quote: 冷凍睡眠装置である『代替身体』に本人の『ふるまい』を再現させる仮想使い魔を憑依させ、覚醒後、本人に使い魔の記憶を高速で転写する
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_冷凍睡眠]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0167_冷凍睡眠_defines_時間旅行者_p5599
+        quote: 冷凍睡眠者。夢すら見ない深い眠りにつくことで、肉体の時間を停止させて未来へと進もうとする時間旅行者たち。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アヌビス７４０]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0167_アヌビス７４０_gives_食事_p5600
+        quote: 「おごるから何でも頼んで？ 私たちは生憎と見て楽しむことしかできないから、その分そっちが味を楽しんでくれると嬉しいかな」
+        locator: {}
+        spoiler_after: ch0167
+    name:
+      observations:
+      - event_ref: E_ch0167_アヌビス７４０_names_眠り棺_p5600
+        quote: アヌビス７４０と名乗った『下』の『眠り棺』は俺たちを手近なバーに誘った。
+        locator: {}
+        spoiler_after: ch0167
+    visual:
+      observations:
+      - event_ref: E_ch0167_アヌビス７４０_is_made_of_第七世代ローエンド_p5601
+        quote: （アヌビス搭載型コクーンの第七世代――のローエンドモデルだね。ネットの評価によると低価格帯としては耐久性能が良くて、コスパを重視する冷凍睡眠業者に好評を博した人気の『眠り棺』みたい）
+        locator: {}
+        spoiler_after: ch0167
+    speech:
+      observations:
+      - event_ref: E_ch0167_アヌビス７４０_says_クライオニクス_p5604
+        quote: 聞くところによれば、その財団は『クライオニクス』――いわゆる死亡直後の遺体を凍結させて未来での蘇生に望みを託すという事業を行っていたらしい。
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_アヌビス７４０_says_三角関係_p5608
+        quote: 「問題はまだあるんだ。実は、バンド内部で三角関係っぽくなってる」
+        locator: {}
+        spoiler_after: ch0167
+      - event_ref: E_ch0167_アヌビス７４０_asks_共闘_p5609
+        quote: 「提案がある。私たち、共闘できないかな？ 衝突を避けて、まずは上のランクを目指す。そして、壁になっているあの巨大アイドルグループを協力して倒すんだ」
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マーブシュズール]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0167_マーブシュズール_defines_言語支配者_p5602
+        quote: 最古の夢占い師にして言語支配者がひとり、マーブシュズール。
+        locator: {}
+        spoiler_after: ch0167
+    action:
+      observations:
+      - event_ref: E_ch0167_マーブシュズール_functions_as_夢の支配者_p5602
+        quote: その言語支配者は捧げられた夢を参照し、夢すら見ないほど冷たく眠った自らの信徒たちに『夢見人』としての代わりの人生を与える。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_死人の森]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0167_死人の森_wounds_財団_p5604
+        quote: だが『死人の森』が復活し、再生者たちが増加し始めると状況は一変する。冷凍された死体たちが次々と復活を始めたのだ。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_死人の森の女王]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0167_死人の森の女王_is_made_of_ティーアードゥ_p5605
+        quote: 「言っておくが、『死人の森の女王』はティーアードゥと同化している。彼女は今、法と裁きの女神でもあるのだ」
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_財団]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0167_財団_threatens_死人の森の女王_p5605
+        quote: 「もし受け入れてもらえない場合、彼らは『死人の森の女王』に対して損害賠償を請求する用意がある。事前に予告の無い強制的な再生者化により財団は甚大な損害を被った。財団の弁護士たちは法と裁きの神ティーアードゥの名のもとに、『死人の森の女王』と争うことも覚悟している」
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_アマランサス・サナトロジー]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0167_アマランサス・サナトロジー_is_made_of_数百人_p5610
+        quote: 正規メンバーである十二人、二軍三軍と連なる予備メンバーを含めれば数百人にも及ぶ大所帯のアイドルユニット。
+        locator: {}
+        spoiler_after: ch0167
+  first_appearance_candidate: true

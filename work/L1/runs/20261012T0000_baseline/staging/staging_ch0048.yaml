@@ -1,0 +1,234 @@
+episode: ch0048
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_カタルマリーナ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0048_カタルマリーナ_has_property_死の囀り_p1941
+        quote: そのさえずる声――この世のものとは思えぬ歌を耳にした者は、例外なく宇宙の深淵を覗いたかのごとき恐怖に囚われ、発狂すると言われている。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_歌姫Spear]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0048_歌姫Spear_names_カタルマリーナ_p1941
+        quote: 歌姫カタルマリーナ。 その名前は、とてつもなく不吉で、おぞましいイメージを内包していた為に当初は悪目立ちして話題になったが――その後すぐに忘れられた。
+        locator: {}
+        spoiler_after: ch0048
+      - event_ref: E_ch0048_歌姫Spear_has_property_太陰の王族_p1944
+        quote: 素性を隠さなければならない理由は沢山あった。 太陰の王族であること。キュトスの姉妹の予備候補であること。 イルディアンサ その両耳が、左右非対称であること。
+        locator: {}
+        spoiler_after: ch0048
+    action:
+      observations:
+      - event_ref: E_ch0048_歌姫Spear_functions_as_ネットミーム_p1942
+        quote: 歌姫Ｓｐｅａｒはネットアイドルだ。 アストラル界とグラマー界に網目状に広がる情報の流れに乗って運ばれていくネットミーム。ちょっとした流行。けれどしつこく蘇り、決して下火になることがない。
+        locator: {}
+        spoiler_after: ch0048
+      - event_ref: E_ch0048_歌姫Spear_transforms_不死女神の欠片_p1942
+        quote: やがて理想を押し通すことができなくなり――彼女は消えていった。 けれど、不死女神の欠片の名前を冠していた歌姫は、そこから奇跡のように甦った。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0048_アズーリア_says_歌姫Spearの素性_p1943
+        quote: 「――と言うわけ。わかった？」「う、うん」 私の念入りな説明を聞いて、プリエステラは引きつった声で答えた。
+        locator: {}
+        spoiler_after: ch0048
+      - event_ref: E_ch0048_アズーリア_promises_ハルベルトの保護_p1946
+        quote: 「返り討ちにしてやろうね！ 歌姫Ｓｐｅａｒのステージを邪魔するような屑は死ねばいいよっていうかぶっ殺すよ！ 大丈夫、私がハルを守るから」
+          ぎゅっとハルベルトの手を両手で握りしめて力強く宣言する。
+        locator: {}
+        spoiler_after: ch0048
+      - event_ref: E_ch0048_アズーリア_hopes_明日の脱出_p1957
+        quote: 「明日、全員で無事にパレルノ山を脱出しようね」「うん。そしたら、みんなでお祝いしようか。」
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_クロウサー社]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0048_クロウサー社_other_歌姫Spear_p1943
+        quote: 原盤の製作、事務所、出版――それら全てを包括するクロウサー社の支援を受けて、歌姫の名声は瞬く間に地上に広がったのだった。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0048_ハルベルト_other_葬送式典_p1944
+        quote: 「第一区の葬送式典――霊性複合体の合同慰霊コンサートに参加する事になっている。本当は当日に明かして驚かせようと思っていたけれど」 ハルベルトが、少し残念そうに呟く。
+        locator: {}
+        spoiler_after: ch0048
+    speech:
+      observations:
+      - event_ref: E_ch0048_ハルベルト_reveals_アヴロノ_p1944
+        quote: 私の懇切丁寧な説明と、実はＰＶを加工して半妖精の振りをして アヴロノ いるのだという事実をハルベルトが明かした事で、ようやくミルーニャとリーナもここにいるのが歌姫Ｓｐｅａｒだと納得してくれたようだった。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガルズ・マウザ・クロウサー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0048_ガルズ・マウザ・クロウサー_other_儀式呪術_p1945
+        quote: ガルズ・マウザ・クロウサー。あの男はまさにその葬送式典までに十三人を殺害し、生贄を献げる事で何らかの儀式呪術を行おうとしている。 恐らく、葬送式典の当日に何かを仕掛けるつもりなのだろう。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_名簿]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0048_名簿_other_歌姫Spear_p1945
+        quote: 殺害予告が記された名簿――その中には、歌姫Ｓｐｅａｒの名が確かに存在した。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ・ゾラ・クロウサー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0048_リーナ・ゾラ・クロウサー_attacks_ハルベルト_p1946
+        quote: そして見た。寝ているハルベルトの真上に飛び上がり、両足で踏みつけようとしている――というかほとんど跳び蹴りに近かった――リーナ・ゾラ・クロウサーの姿を。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_空の民]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0048_空の民_has_property_朝の民_p1947
+        quote: 「空の民は、夜の民と対比させて朝の民とも言われてますからね。太陽の光を浴びるとやたら元気になるんですよ」
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0048_リーナ_makes_朝食_p1948
+        quote: リーナは一人で朝食を用意していた。てきぱきと動いて、調理場から卵焼きと付け合わせの野菜、そしてこんがり焼き上がった空魚の切り身が乗った空の民流の朝食を運んできては並べていく。
+        locator: {}
+        spoiler_after: ch0048
+      - event_ref: E_ch0048_リーナ_other_アズーリアの黒衣_p1951
+        quote: 「そうなんだ。どれどれ？」 言いながら、リーナが私の黒衣に下から潜り込んでくる。「ほほーキュロットかー。ティアードになってんのはハルベルトとお揃いにしてんの？
+          可愛いー！」
+        locator: {}
+        spoiler_after: ch0048
+    speech:
+      observations:
+      - event_ref: E_ch0048_リーナ_confesses_アズーリアへの感謝_p1949
+        quote: 「お父さんの仇とってくれて、ありがとね。それからお姉ちゃんの事も」
+        locator: {}
+        spoiler_after: ch0048
+      - event_ref: E_ch0048_リーナ_has_property_記憶の欠如_p1949
+        quote: 「末妹選定の事？ うん、先輩から教えてもらった。てか私も予備候補だったらしいよ。記憶無いけど」
+        locator: {}
+        spoiler_after: ch0048
+      - event_ref: E_ch0048_リーナ_other_アズーリアの戦い_p1950
+        quote: 「ガルズの奴、トライデントって魔女の手下になってるんでしょ？ ハルベルトとアズーリアの競争相手なんだよね。なら私が一緒に戦えば、お父さんの仇を討ってくれたアズーリアへの恩返しになるよね」
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_夜の民]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0048_夜の民_has_property_黒衣の下着_p1950
+        quote: 「私だって、黒衣の下には街の人が着てるみたいな普通の服を身につけている。というか、夜の民はみんなそうだよ。普通にお洒落くらいするし」
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メイファーラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0048_メイファーラ_observes_ハルベルトの照れ_p1952
+        quote: メイファーラがそっと耳打ちしてくる。「アズ隊長、多分ですが、ハルさんは照れているものと思われます」
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガルズ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0048_ガルズ_kills_神官_p1953
+        quote: 二人目の犠牲者が出たという知らせは、夕方になってもたらされた。 智神の盾の調査によると、死亡したのはまたしても前日の昼食会に出席していた神官の一人。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_時の尖塔]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0048_時の尖塔_is_located_殺害現場_p1953
+        quote: 異様なのは、それが外敵の侵入を決して許さない時の尖塔のただ中だったこと。 その上、周囲を護衛で固めて自身も何重にも防御障壁を張り巡らせていたにも関わらず、白昼堂々と殺害が実行されたこと。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_骨の槍]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0048_骨の槍_kills_神官_p1953
+        quote: 体内の骨が血肉を引き裂きながら胴体の中央へと蠢いて依り合わさって行く。 そして骨が抜けて柔らかくなった肉体を内部から突き破って出てくる鋭利な穂先。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_プリエステラ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0048_プリエステラ_other_アズーリア_p1955
+        quote: 「やっぱやめた！ えっと、とにかく色々ありがとうってこと！ 仇討ち手伝ってくれたことも、ミルーニャを説得してくれたことも」
+        locator: {}
+        spoiler_after: ch0048
+      - event_ref: E_ch0048_プリエステラ_confesses_居場所への渇望_p1956
+        quote: 「私って生まれた時からティリビナの巫女になることが決まってたから――あの場所以外にも居場所が、友達が、欲しかったのかも」
+        locator: {}
+        spoiler_after: ch0048
+      - event_ref: E_ch0048_プリエステラ_defines_呪術師としての関係性_p1957
+        quote: 「私は自然との関係性から呪力を引き出すちょっと変則的な使い魔の呪術師。自然界に溢れる植物たちは私の使い魔であり、同時に私は植物の使い魔でもある。私にとって関係性――自然や家族、同胞との絆は一番大事なもの。」
+        locator: {}
+        spoiler_after: ch0048
+      - event_ref: E_ch0048_プリエステラ_other_チョコレートリリー_p1957
+        quote: 「【チョコレートリリー】――私もその一員なんだよね。大事な人が、五人も増えた。だから、私もみんなを守るよ。仲間を守る、それが私の生き方だから。」
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_金色の瞳]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0048_金色の瞳_other_死_p1958
+        quote: 金色の瞳は、死という暗闇を運んで来たのだ。
+        locator: {}
+        spoiler_after: ch0048
+  first_appearance_candidate: true

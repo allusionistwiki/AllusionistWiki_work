@@ -1,0 +1,132 @@
+episode: ch0250
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ビルメーヤ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0250_ビルメーヤ_loses_レコードゴースト_p8065
+        quote: ビルメーヤの競技者としての人生はとうとう不完全燃焼のままに幕を閉じた。　あれほど焦がれた亡霊に、彼女の箒が届くことはなかったのだ。
+        locator: {}
+        spoiler_after: ch0250
+      - event_ref: E_ch0250_ビルメーヤ_activates_空落とし_p8068
+        quote: 老婦人は箒の先端を上に向けて舞い上がる。誰よりも高く高く、遥かな空へ。
+        locator: {}
+        spoiler_after: ch0250
+      - event_ref: E_ch0250_ビルメーヤ_uses_機体のエラー_p8070
+        quote: 聖別フィルターと呪動機を限界まで酷使し、本来なら安定した単一視座によって実行されるべき飛翔という高度な呪術が複数の視座によって並列で行われてしまう。
+        locator: {}
+        spoiler_after: ch0250
+      - event_ref: E_ch0250_ビルメーヤ_dies_肉体_p8072
+        quote: 己の命を完全に燃焼させることを厭わぬ暴走でもぎ取った一位。
+        locator: {}
+        spoiler_after: ch0250
+      - event_ref: E_ch0250_ビルメーヤ_travels_白翼海_p8079
+        quote: 世界の壁を突き抜け、立ち込める霧と海風に勢い良く突入していく。　次なるステージは白翼海。
+        locator: {}
+        spoiler_after: ch0250
+    speech:
+      observations:
+      - event_ref: E_ch0250_ビルメーヤ_asks_リーナ_p8066
+        quote: 「先生おねがい、私に箒で飛ぶやり方、おしえて！」
+        locator: {}
+        spoiler_after: ch0250
+      - event_ref: E_ch0250_ビルメーヤ_names_グレイスボーア_p8066
+        quote: 箒乗りたちが集う遥かなグレイスボーアの空に己の全てを叩きつけたかった。
+        locator: {}
+        spoiler_after: ch0250
+      - event_ref: E_ch0250_ビルメーヤ_thinks_リーナ_p8067
+        quote: リーナ・ゾラ・クロウサーは良い箒乗りになるだろうという直観があった。
+        locator: {}
+        spoiler_after: ch0250
+      - event_ref: E_ch0250_ビルメーヤ_says_クリーナー_p8075
+        quote: 「見えちゃいないねえ。ひとりで飛ぶにしても、空さえ掴めてないんじゃ話にならない。この身体の子はそこんとこちゃあんと分かってたよ。若いなりによく考えたもんさ」
+        locator: {}
+        spoiler_after: ch0250
+      - event_ref: E_ch0250_ビルメーヤ_says_ダウザール_p8077
+        quote: 「私は永遠の百歳だよ。魔女ってのはね、百歳超えたらそっから死ぬまで青春なのさ」
+        locator: {}
+        spoiler_after: ch0250
+      - event_ref: E_ch0250_ビルメーヤ_says_ミブリナ_p8078
+        quote: 「さて、まだ寝てんのかいミブリナ。それともダウザールの奴が思いのほか粘ってんのかねえ。アンタの獲物はそろそろ食べ頃だ。モタモタしてると私が食っちまうよ」
+        locator: {}
+        spoiler_after: ch0250
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_レコードゴースト]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0250_レコードゴースト_defines_過去の残影_p8065
+        quote: レコードゴースト。それは蘇る過去の残影。コースに刻まれた至高の記録。
+        locator: {}
+        spoiler_after: ch0250
+    action:
+      observations:
+      - event_ref: E_ch0250_レコードゴースト_transforms_ビルメーヤ_p8073
+        quote: ビルメーヤが遂にその手を届かせた亡霊が、彼女の身体に吸い込まれていく。びくり、ともう動かないはずの老体が震える。
+        locator: {}
+        spoiler_after: ch0250
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_機甲箒]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0250_機甲箒_functions_as_浄化装置_p8069
+        quote: あらゆる機甲箒は原則として『浄化』によって飛翔している。送風機により負圧を作り出して『穢れ』を吸引、エアフィルターで『聖俗』を分離する簡易聖別を実行、作り出された簡易浄界の呪力を展開して飛翔。
+        locator: {}
+        spoiler_after: ch0250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダウザール]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0250_ダウザール_observes_ビルメーヤの遺体_p8072
+        quote: 力尽きたはずのビルメーヤに寄り添うようにして、半透明の何かが箒に乗っている。
+        locator: {}
+        spoiler_after: ch0250
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_機械女王]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0250_機械女王_names_ビルメーヤ_p8076
+        quote: 「えーと、転生紀人及び死人の森の女王との審議が終了しました。結論、ビルメーヤ選手の同一性を認めます！　転生した彼女もまた『ビルメーヤ選手である』という解釈の適用に問題はありません。
+        locator: {}
+        spoiler_after: ch0250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0250_パーン_asks_ビルメーヤ_p8077
+        quote: 「お前は、まさかあの時ミブリナの周りをうろちょろしていた小娘ガキか！」
+        locator: {}
+        spoiler_after: ch0250
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ジーゼロ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0250_ジーゼロ_makes_ネットのざわめき_p8080
+        quote: 無人機ジーゼロ。レースの情勢を淡々と分析し、論理的に導き出された対抗策を実行するはずの機械は、しかしサーキットの外部へと干渉を行っていた。レースの観戦フォーラム。様々な声が飛び交うネットのざわめきに、わずかな風を起こすために。
+        locator: {}
+        spoiler_after: ch0250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ティリビナ人]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0250_ティリビナ人_says_言理の妖精_p8080
+        quote: 「言理の妖精、語りて曰く」
+        locator: {}
+        spoiler_after: ch0250
+  first_appearance_candidate: true

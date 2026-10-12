@@ -1,0 +1,244 @@
+episode: ch0223
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0223_ユディーア_hopes_平和な一般家庭_p7390
+        quote: 来訪者の秩序血統とか戦乙女の血族とか亜竜王の末裔とか紀竜神殿の霊媒とかその他諸々の因縁と関係ない一般家庭で平和に暮らせればそれでいい。
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_ユディーア_thinks_諦めるしかない_p7391
+        quote: あまたの神秘を受け継ぐ者として、ユディーアは今を生きなければならない。 母にはそう教えられた。だからもう、諦めるしかないのだ。
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_ユディーア_other_暴力_p7408
+        quote: それを否定して未来を語ることは、力強く正しいこととされている。 だからそれはきっと、暴力に似ている。 少なくとも、ユディーアにとっては。
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_ユディーア_thinks_裏切り_p7408
+        quote: （最終的にはどうせ裏切るんだろうけど） そのうち利害がかみ合わなくなったり思想面で譲れない部分が出たりして内部から崩壊するに決まっている。
+        locator: {}
+        spoiler_after: ch0223
+    visual:
+      observations:
+      - event_ref: E_ch0223_ユディーア_observes_地下アイドル広告_p7390
+        quote: 地下への入り口である塔の中、大階段の付近には地下アイドルや新冥府に関連した広告幻像が浮かんでは消えていく。
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_ユディーア_observes_ティリビナ人の女_p7392
+        quote: ユディーアがそれとなく周囲を探ると、冥府への大階段の近くに『中継点』らしき人影を見つけた。幽霊のような存在感のティリビナ人の女だ。
+        locator: {}
+        spoiler_after: ch0223
+    action:
+      observations:
+      - event_ref: E_ch0223_ユディーア_makes_事前準備_p7393
+        quote: 引き続きロードデンドロンとティリビナ同胞団に対する監視は継続、数名を張り付かせるのと同時にジュティアとミナを接触させて『因縁』を作っておく。
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_ユディーア_other_ハタラドゥールの申し出_p7407
+        quote: ハタラドゥールの想いに胸を打たれたということにして手を握って上目遣い。共に力を合わせてガロアンディアンの理想を形にしましょうとか適当にそれっぽい言葉を並べた。
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_広告幻像]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0223_広告幻像_appears_as_第五階層らしさ_p7390
+        quote: 胡散臭くて軽薄な文字列、いかにもな『第五階層らしさ』が陰鬱な日常からの救いを呼びかけてくる。
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_博物城の前世持ち]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0223_博物城の前世持ち_says_転生は碌なものじゃない_p7391
+        quote: 『転生なんて碌なものじゃない』と博物城の前世持ちたちは言っていた。
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_転活体験アプリ]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0223_転活体験アプリ_defines_ウィズメモリー_p7391
+        quote: 転活体験アプリ『ウィズメモリー』のオープンベータテスト開始！
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_スーリウム]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0223_スーリウム_activates_心話_p7392
+        quote: 『聞こえているかな？ 今、同胞を中継点にして『心話』を繋げている』
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_スーリウム_defeats_ノゴルオゴルオ_p7392
+        quote: 何故かアズーリアたちを強襲したノゴルオトロルゴルオがスーリウムによって撃退されたのだ。画面の中でスーリウムがこちらを見て微笑む。
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_スーリウム_kills_ノゴルオゴルオ_p7395
+        quote: 『生命吸収』によって骨も残さず喰い尽くされた。
+        locator: {}
+        spoiler_after: ch0223
+    speech:
+      observations:
+      - event_ref: E_ch0223_スーリウム_says_時間樹の掌握_p7394
+        quote: 『その通り。私は時間樹に手を伸ばし、未来と並行史を掌握できる』
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_スーリウム_other_交渉_p7396
+        quote: 『脅迫の間違いじゃないの？』『交渉だよ。私も色々と忙しくてね。この状況でディスケイムとの全面対決は避けたい』
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_スーリウム_reveals_同胞団の融和化_p7396
+        quote: スーリウムはティリビナ同胞団が融和的な組織へと変化を遂げようとしていること、そのきっかけはエストが『街路樹の民』を守ろうとした行動であること、リーダーのロードデンドロンが熱心な彼女のファンであることなどを語った。
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_スーリウム_other_アルラウネ断章_p7397
+        quote: あるいは、他の長老たちではなく博物城に我々の『アルラウネ断章』を『アーカイブ』として寄贈すると言ったら？
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_スーリウム_says_友人の希望_p7398
+        quote: 『それに関しては私と言うよりも私の友人の希望だと言うべきかな。私としては、彼の望みを最大限かなえてやりたいというだけさ。それが私の同胞たちの利益にもつながる』
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_キノコ人]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0223_キノコ人_is_made_of_寄生呪術_p7393
+        quote: ティリビナ人の呪術は自然を対象とするものが基本だから、『人を操る』ことは専門外なのだが、キノコ人たちの寄生呪術なら話は別だ。
+        locator: {}
+        spoiler_after: ch0223
+    action:
+      observations:
+      - event_ref: E_ch0223_キノコ人_other_開門の儀式_p7401
+        quote: 閃光がキノコ人たちを焼き、命が散っていく。 迸る魂のエネルギーが円形の門を形成し、空間を歪めていった。
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロードデンドロン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0223_ロードデンドロン_has_property_使い魔特化_p7393
+        quote: 『使い魔』に特化した召喚士であるロードデンドロンとは身に纏うオーラに歴然たる差があった。
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ディスケイム]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0223_ディスケイム_other_緊急連絡_p7394
+        quote: ディスケイムからの緊急連絡が届いたのは普段使いの連絡先ではない。 『メイファーラ』が使用しているアバター、『目玉』に宛てられたメッセージだった。
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_メッセージ]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0223_メッセージ_other_実家からの訪問_p7395
+        quote: 『みんなで遊びに行くからよろしく。おばーちゃんが心配してたから、お祭りが終わったら実家に帰っておいで。おじさんのとこに集合する予定だから、時間あったら会おうね』
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エリカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0223_エリカ_other_菌輪門_p7398
+        quote: 『丁重に頼むよ』 『心話』による問いかけに応じた声は思いのほか近かった。
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_銀フードの女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0223_銀フードの女_other_ユディーア_p7399
+        quote: 気配もなくユディーアの傍らに接近していた銀フードのティリビナ人女性が、人目につかない建物と建物の間へと先導する。
+        locator: {}
+        spoiler_after: ch0223
+    speech:
+      observations:
+      - event_ref: E_ch0223_銀フードの女_says_ザドーナ_p7399
+        quote: 「ところで綺麗な白神だね。白星都市で修行でもした？」 グリア クロウジャナス 「いえ、ザドーナです」
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_銀フードの女_other_古いタイプの騎士_p7400
+        quote: 「あの、念のため。これから紹介する人物は、非常に古いタイプの正統な騎士です。付け加えて言うなら、貴方の出自を非常に重要視しておられます」
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_銀フードの女_other_軽薄な態度_p7400
+        quote: 「余計なお世話かもしれませんが、そういった軽薄な態度は相手によっては不快感を与えることがあります。場合に応じた使い分けが必要なこともあるかと」
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハタラドゥール]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0223_ハタラドゥール_appears_緑竜騎士団の長_p7402
+        quote: キノコ人たちの死骸の中央に現れ、膝をついていたのは中性的な麗人だ。 緑色の髪とすみれ色の瞳、緑亜竜の紋章が描かれたローブ、袖口からは剣じみた葉。
+        locator: {}
+        spoiler_after: ch0223
+    name:
+      observations:
+      - event_ref: E_ch0223_ハタラドゥール_names_ハタラドゥール・タラドカン・デ・ラ_p7403
+        quote: 「私の名はハタラドゥール・タラドカン・デ・ラ。ガロアンディアンを守護する緑竜騎士団の長にして樹木人たちの調停役を任されていた者です」
+        locator: {}
+        spoiler_after: ch0223
+    speech:
+      observations:
+      - event_ref: E_ch0223_ハタラドゥール_other_ペラティアの末裔_p7403
+        quote: 「あなたというペラティアの正統なる末裔が現れた今となっては」 「あのスーリウム様が認めた正統なる後継の器。ペラティアの紀竜神殿は貴方という種をこの時代に播いた。これはまさしく竜の定めた運命でしょう。」
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_ハタラドゥール_confesses_不忠_p7404
+        quote: 「確かに、私の行いは不忠者のそれだ。このような振る舞いを繰り返す私があなたを王と仰いだところで、信用できないかもしれません」
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_ハタラドゥール_other_死人の森の女王_p7404
+        quote: 「本来、土に還って未来に生きる者の糧となるべきこの私が、信仰を曲げ再生者と成り果てててまで『死人の森の女王』に願ったことがあります。ティリビナ人たちがこの大地で平穏無事に暮らせること。ただそれだけなのです」
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_ハタラドゥール_asks_王になること_p7406
+        quote: 「ペラティアの末裔よ。若きユディーアよ。どうかこの地の王となり、竜母の輝きで我らティリビナ人を照らし給え。ガロアンディアンの理想を取り戻し、ティリビナ人にとっての安住の地をこの第五階層に築くのです」
+        locator: {}
+        spoiler_after: ch0223
+      - event_ref: E_ch0223_ハタラドゥール_hates_老い_p7406
+        quote: 「私は老いを嫌悪しています。腐敗と劣化こそ最も唾棄すべき悪徳。我が王がずっと善き者であればよかった。」
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ティリビナ同胞団]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0223_ティリビナ同胞団_bonds_緑竜騎士団_p7407
+        quote: かくしてティリビナ同胞団と緑竜騎士団は正式に同盟を結ぶことが決まった。
+        locator: {}
+        spoiler_after: ch0223
+  first_appearance_candidate: true

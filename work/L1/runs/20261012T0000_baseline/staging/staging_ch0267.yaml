@@ -1,0 +1,154 @@
+episode: ch0267
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0267_リーナ_remembers_カイン_p8373
+        quote: 金色の瞳を思い出す。綺麗な目と、彼の優しい笑顔が好きだった。
+        locator: {}
+        spoiler_after: ch0267
+      - event_ref: E_ch0267_リーナ_says_加速_p8373
+        quote: 言理飛翔、加速、加速、加速！　もっと速く！　もっと高く！
+        locator: {}
+        spoiler_after: ch0267
+      - event_ref: E_ch0267_リーナ_thinks_飛翔_p8373
+        quote: 届くと、はっきりわかった。手を伸ばすことで、雲海を破ることができるだろう。あらゆる障壁を壊し、限界の向こうへと突き進む。
+        locator: {}
+        spoiler_after: ch0267
+      - event_ref: E_ch0267_リーナ_fears_ファーガスト_p8375
+        quote: 怖い。ファーガストとチェダラーテが融け合った存在を感知して感じたのは脅威。これはダウザールと同質の、リーナに害なすものだという確信がある。
+        locator: {}
+        spoiler_after: ch0267
+      - event_ref: E_ch0267_リーナ_says_パーン_p8376
+        quote: ばいばい、パーン。本当はあなたのファンだったよ
+        locator: {}
+        spoiler_after: ch0267
+      - event_ref: E_ch0267_リーナ_thinks_飛翔_p8377
+        quote: もう逃げられない。絶対的な恐れと不安がある。それでも背を押してくれる心を感じる。「飛べるはずだ。飛べるのかな」
+        locator: {}
+        spoiler_after: ch0267
+    visual:
+      observations:
+      - event_ref: E_ch0267_リーナ_observes_ティリビナ人_p8374
+        quote: すれ違う顔に、ふと友人を思い出す。「エスト？」　黒百合宮の記憶。葉っぱの手紙。懐かしい感覚。
+        locator: {}
+        spoiler_after: ch0267
+      - event_ref: E_ch0267_リーナ_disappears_藍の海_p8377
+        quote: 指先で泥を掬うこともかなわないほど深い、藍の海。沈みゆく肉体が丸ごと包まれたのだと、ぼんやりとわかった。終わりのない母の抱擁。
+        locator: {}
+        spoiler_after: ch0267
+    action:
+      observations:
+      - event_ref: E_ch0267_リーナ_fights_ビルメーヤ_p8375
+        quote: ビルメーヤ、あるいはビルメーヤと名乗っている誰かは流れの変化を敏感に感じ取り、即座にこちらの動きに対応していた。
+        locator: {}
+        spoiler_after: ch0267
+    symbolic:
+      observations:
+      - event_ref: E_ch0267_リーナ_transforms_竜母_p8377
+        quote: リーナ・ゾラ・クロウサーはダウザールが求めた『救世主の器』となった。空の竜母は奈落にあり、必然の結末としてクロウサーの勝利が確定した。
+        locator: {}
+        spoiler_after: ch0267
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ビルメーヤ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0267_ビルメーヤ_helps_リーナ_p8374
+        quote: せいぜい覚悟して挑むんだね。安心しな、寂しくないようにすぐ追いつくさ
+        locator: {}
+        spoiler_after: ch0267
+      - event_ref: E_ch0267_ビルメーヤ_says_入口_p8374
+        quote: 上出来だよお嬢ちゃん。けどわかってるね？　ここが入口だよ。この先にあるのがミブリナが見ていた光景。このババアが遂に越えられなかった壁もそこにある。
+        locator: {}
+        spoiler_after: ch0267
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レルプレア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0267_レルプレア_says_緑天主_p8374
+        quote: 語り遊ぶ詞を藍域に届かせたのは見事。だがこちらにも負けられない理由がある。緑天主レルプレアの彩域を蘇らせるため、悪いが加減はしてやれない
+        locator: {}
+        spoiler_after: ch0267
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五階層]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0267_第五階層_is_located_逆さまの森_p8374
+        quote: 第五階層の上空。そこは偽りの天空に広がる逆さまの森。星々の果実。
+        locator: {}
+        spoiler_after: ch0267
+      - event_ref: E_ch0267_第五階層_is_located_冥府_p8376
+        quote: 第五階層の地下。そこは冥府に見立てられた洞窟。降り注ぐのは生まれぬ命。ヒュールサスの残滓は原初の光景を再現しようとしていた。
+        locator: {}
+        spoiler_after: ch0267
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エンハ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0267_エンハ_says_逆走_p8375
+        quote: 逆走とは愚かな女だ。突飛な行動で勝てるほどレースは甘くない
+        locator: {}
+        spoiler_after: ch0267
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マルガリータ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0267_マルガリータ_says_開門_p8375
+        quote: 正解。上からでも下からでもない。天地は等しく、生と死もまた等しい。空虚とは同時に充溢でもあるのだと、自力で気付いたことは賞賛に値する。開門の役目は譲りましょう。
+        locator: {}
+        spoiler_after: ch0267
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0267_パーン_says_クロウサー_p8376
+        quote: ミブリナのように呪文を信じるか。それはゾラの道、そしてお前の道だ。俺とは違う。だが、道とは常に双方向に広がっているもの。箒という言の葉が交わる瞬間が再び訪れるだろう。クロウサーと対峙するなら、それを心に留めておけ
+        locator: {}
+        spoiler_after: ch0267
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_魔導書]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0267_魔導書_teaches_リーナ_p8376
+        quote: 魔導書から流れ込む知識が多くのことをリーナに示し、善き教師となって彼女の飛翔を助けていた。それは遡りながら前進するという学びそのものだった。
+        locator: {}
+        spoiler_after: ch0267
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダウザール]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0267_ダウザール_threatens_リーナ_p8377
+        quote: 無駄なこと。既に肉体は私の支配下に置かれている。クロウサーの家に生を受けた時点で、お前は血脈から逃れることはできん。おとなしく竜母となるがいい！
+        locator: {}
+        spoiler_after: ch0267
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_メートリアン]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0267_メートリアン_gives_断章_p8377
+        quote: いいですかリーナ、あなたが積み上げてきたものを信じて！　箒は杖、飛ぶための道具は言葉！　意思だけで飛ぶなら、機甲箒ではなく書を箒にしなさい。死人の森の断章を預けます。
+        locator: {}
+        spoiler_after: ch0267
+  first_appearance_candidate: true

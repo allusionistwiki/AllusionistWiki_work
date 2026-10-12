@@ -1,0 +1,302 @@
+chapter: ch0021
+created: '2026-09-30'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 5
+  themes: 4
+  quotes_verified: 24
+  quotes_total: 27
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0021_コルセスカ_uses_ゲーム_p924]]'
+  object: '[[ME_RPG_character_growth]]'
+  claim: コルセスカがゲーム内のキャラクターをレベル上限まで強化し、苦手な属性の敵とも戦い続ける行為は、現実の自己肯定感の欠如をゲーム内の数値成長で補償しようとする心理的代償行為のメタファーである。
+  quote: 私はいつもレベルを限界まで上げて、たとえ苦手な炎属性の敵が出てくるダンジョンでも無理に連れ回していました。自分の分身のつもりだったんでしょうね。
+  paragraph: p924
+  confidence: strong
+  quotes:
+  - quote: 私はいつもレベルを限界まで上げて、たとえ苦手な炎属性の敵が出てくるダンジョンでも無理に連れ回していました。自分の分身のつもりだったんでしょうね。
+    paragraph: p924
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0021_コルセスカ_other_神滅具収集_p933]]'
+  object: '[[ME_Completionist_Mindset]]'
+  claim: コルセスカが神滅具を収集する動機を「因縁」ではなく「フルコンプしないと気が済まない」と定義することは、物語的な使命感をゲームの収集要素（コンプリート）に置換するメタフィクショナルな逆転である。
+  quote: 因縁があるから義務感や使命感に駆られてってわけじゃなくて……我ながら困った性分ではあるのですが、フルコンプしないと気が済まないのです。
+  paragraph: p933
+  confidence: explicit
+  quotes:
+  - quote: 因縁があるから義務感や使命感に駆られてってわけじゃなくて……我ながら困った性分ではあるのですが、フルコンプしないと気が済まないのです。
+    paragraph: p933
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0021_コルセスカ_names_アキラ_p933]]'
+  object: '[[ME_Gacha_Party_Building]]'
+  claim: コルセスカがアキラを「中盤加入の暗い過去を持つ武術家キャラ」として仲間イベントのフラグと認識し、前衛強化の必要性から加入を促す行為は、RPGやガチャゲームにおけるパーティ編成とキャラガチャのメカニクスを模倣している。
+  quote: 私は貴方が、中盤に加入する暗い過去を背負った武術家クラスの仲間キャラだと確信しています。丁度、前衛も強化したかった所ですし。
+  paragraph: p933
+  confidence: strong
+  quotes:
+  - quote: 私は貴方が、中盤に加入する暗い過去を背負った武術家クラスの仲間キャラだと確信しています。丁度、前衛も強化したかった所ですし。
+    paragraph: p933
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0021_コルセスカ_other_男性攻略_p934]]'
+  object: '[[ME_Otome_Game_Mechanics]]'
+  claim: コルセスカが男性との結婚経験や同時攻略を「百戦錬磨」「エンディング」という用語で語るのは、乙女ゲームや恋愛シミュレーションゲームの攻略ルート（エンディング）を現実の人間関係に適用するメタファーである。
+  quote: 男性と結婚を迎えたことも十や二十ではきかず、果ては九人同時に攻略して全員を囲ったことまであります
+  paragraph: p934
+  confidence: explicit
+  quotes:
+  - quote: 男性と結婚を迎えたことも十や二十ではきかず、果ては九人同時に攻略して全員を囲ったことまであります
+    paragraph: p934
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0021_コルセスカ_other_感情の凍結_p945]]'
+  object: '[[ME_Emotion_Control_App]]'
+  claim: コルセスカがアキラの感情を奪い凍結させる行為は、現代のSNSやアプリにおける感情の可視化・管理・遮断（ミュート機能）を、呪術という物理的な手段で実現したアナロジーである。
+  quote: 貴方の感情を、情動を、心を波立たせる全ての要因を――余さず奪って、凍らせる
+  paragraph: p945
+  confidence: moderate
+  quotes:
+  - quote: 貴方の感情を、情動を、心を波立たせる全ての要因を――余さず奪って、凍らせる
+    paragraph: p945
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0021_トリシューラ_defines_生存条件_p963]]'
+  object: '[[ME_Turing_Test]]'
+  claim: トリシューラの存在証明が「知性があるか」という問いに帰結し、それが生存とイコールであるという設定は、人工知能が人間と区別可能かを問うチューリングテストの哲学的命題を、魔女の生存条件として実体化させている。
+  quote: チューリングテスト。中国語の部屋。コンピューターが質問の意味を『理解』できているのかどうか。トリシューラというパターンを、知能だと見なせるか否か。
+  paragraph: p963
+  confidence: explicit
+  quotes:
+  - quote: チューリングテスト。中国語の部屋。コンピューターが質問の意味を『理解』できているのかどうか。トリシューラというパターンを、知能だと見なせるか否か。
+    paragraph: p963
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0021_鮮血呪_defines_効果_p960]]'
+  object: '[[ME_Economic_Value_Exchange]]'
+  claim: 鮮血呪が「交換不可能なものと交換可能なものを交換する」と定義され、生贄を「価値の切り売り」として描かれることは、経済学における価値の相対性や市場原理を呪術のメカニクスとして導入したアナロジーである。
+  quote: 交換不可能な形のない何かを失う事で、交換可能な実体のあるものを創造する効果が副産物として生まれてしまう。
+  paragraph: p962
+  confidence: strong
+  quotes:
+  - quote: 交換不可能な形のない何かを失う事で、交換可能な実体のあるものを創造する効果が副産物として生まれてしまう。
+    paragraph: p962
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0021_リーナ_asks_アキラ_p973]]'
+  object: '[[ME_Narrative_Structure_Choice]]'
+  claim: リーナが「全員生き残る大団円」と「犠牲を払う悲劇」のどちらが良いかというメタ的な問いを投げかけ、アキラが「両方ぶち込む」と回答するのは、物語構造の選択をゲームのマルチエンディングやシナリオ分岐のメタファーとして扱っている。
+  quote: 『全員生き残って大団円で終わる筋書きと犠牲を払ったけどその悲しみを胸に強く生きていくみたいな筋書き、どっちがいいと思う？』って相談してくるんだけど
+  paragraph: p973
+  confidence: explicit
+  quotes:
+  - quote: 『全員生き残って大団円で終わる筋書きと犠牲を払ったけどその悲しみを胸に強く生きていくみたいな筋書き、どっちがいいと思う？』って相談してくるんだけど
+    paragraph: p973
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0021_コルセスカ_defines_存在形態_p923]]'
+  object: '[[ME_Akashic_Records]]'
+  claim: コルセスカがアカシックレコードに記述されることで実体を持つと語るのは、情報理論における「データとしての存在」が物理的実体より優先されるという現代のデジタル存在論を反映している。
+  quote: この世界の基盤――万象の根源たる紀元槍に精確にアカシックレコード記述されているのです。それは存在するのと同じこと。
+  paragraph: p923
+  confidence: strong
+  quotes:
+  - quote: この世界の基盤――万象の根源たる紀元槍に精確にアカシックレコード記述されているのです。それは存在するのと同じこと。
+    paragraph: p923
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0021_コルセスカ_other_物語と現実の同一性_p929]]'
+  object: '[[ME_Metaphysical_Realism]]'
+  claim: 「物語の中の登場人物も現実に生きている人たちも必死に生きている」というコルセスカの結論は、フィクションと現実の境界を解体し、物語の論理が現実の倫理を凌駕するメタフィクショナルな世界観を提示している。
+  quote: 物語の中の登場人物はみんな自分の人生を必死に生きていて、現実に生きている人たちも自分の人生を必死に生きている。
+  paragraph: p929
+  confidence: strong
+  quotes:
+  - quote: 物語の中の登場人物はみんな自分の人生を必死に生きていて、現実に生きている人たちも自分の人生を必死に生きている。
+    paragraph: p929
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの右眼とトリシューラの関係
+  note: コルセスカの右眼がトリシューラに抉られた過去と、その後の義眼作成の共同作業。このエピソードは二人の複雑な絆（恐怖と庇護）を示す伏線であり、今後のトリシューラの精神崩壊（自己同一性の喪失）と対比される。
+  quotes:
+  - quote: 私の本物の右目は、昔トリシューラに抉られたのです
+    paragraph: p941
+    quote_verified: true
+  - quote: 邪視を擬似的に再現する義眼。邪視系統が苦手中の苦手のくせに、必死になって作っていたんです。
+    paragraph: p942
+    quote_verified: true
+  expected_payoff: トリシューラの「自己証明」の試み（義眼作成）が、コルセスカとの関係性の中でどのように機能し、現在の崩壊にどう影響するか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの魂への注釈
+  note: アキラの魂に書き込まれた二つの注釈。一つはアズーリアの免責事項、もう一つはトリシューラによる「わたしの」という所有欲の表出。これらがアキラの行動制限や運命を規定する可能性。
+  quotes:
+  - quote: 『この者、シナモリ・アキラの世界槍内部における行動の全責任を、アズーリア・ヘレゼクシュが負うものとする』という、免責事項に関する注釈です。
+    paragraph: p939
+    quote_verified: true
+  - quote: 『わたしの』という一言だけです。所有代名詞のみ。
+    paragraph: p940
+    quote_verified: true
+  expected_payoff: アキラがトリシューラとコルセスカのどちらを選ぶか、あるいは両方を救うかという決断において、これらの注釈が呪術的・運命的な制約として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リーナからのプロット
+  note: リーナが送ってきた「プロット」が勝つための鍵となる。これは物語構造そのものを利用した解決策を示唆しており、メタフィクショナルな解決の伏線。
+  quotes:
+  - quote: 『プロットをご覧いただいてもよろしいでしょうか？』
+    paragraph: p974
+    quote_verified: true
+  - quote: それが、俺達が勝つための最後の鍵だった。
+    paragraph: p974
+    quote_verified: true
+  expected_payoff: リーナのプロットが、コルセスカとトリシューラの二者択一のジレンマを「両方ぶち込む」形で解決する具体的な手段として提示される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ちびシューラの存在基盤
+  note: ちびシューラが脳細胞そのものに刻印された呪術式として存在し、物理的損壊以外では殺せないという設定。トリシューラの「不死性」や「存在証明」の核に関わる。
+  quotes:
+  - quote: 脳そのものが物理的に損壊しない限り、ちびシューラは殺せないのだ。
+    paragraph: p931
+    quote_verified: true
+  expected_payoff: トリシューラの精神崩壊時、ちびシューラがどのように振る舞い、トリシューラの「自己」を維持・回復する役割を果たすか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_鮮血呪の代償と自己同一性
+  note: 鮮血呪の代償が「自己同一性の喪失」であり、トリシューラが他者のために使うと精神が崩壊する。このメカニクスがトリシューラの生死を左右する。
+  quotes:
+  - quote: トリシューラが支払わなければならない鮮血呪の代償は、自己同一性の喪失。
+    paragraph: p963
+    quote_verified: true
+  - quote: 【鮮血呪】を他人の為に使ってしまった場合、その行為が最終的に自分の為にならなければならない。
+    paragraph: p965
+    quote_verified: true
+  expected_payoff: アキラがトリシューラを救うために、彼女の「自己証明」をどう支援するか、あるいは彼女に「利己的な理由」を再設定させるプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の登場人物としての自己受容と、現実の倫理との葛藤
+  weight: 0.9
+  quotes:
+  - quote: 自分が歴史上の、あるいはフィクション上の登場人物だと考える誇大妄想狂を生み出すためだけにあった今までの、そしてこれからの人生。
+    paragraph: p926
+    quote_verified: true
+  - quote: 物語の中の登場人物はみんな自分の人生を必死に生きていて、現実に生きている人たちも自分の人生を必死に生きている。
+    paragraph: p929
+    quote_verified: true
+  note: コルセスカが自らの存在を「物語の模倣」として捉えつつ、その物語の論理（ヒロイックな行動）を現実の行動原理として採用する過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 交換可能性の論理による存在の解体と再構築
+  weight: 0.8
+  quotes:
+  - quote: 交換可能性――価値そのものを解体し、再構築するのがその本当の力なのだと私は理解しています
+    paragraph: p962
+    quote_verified: true
+  - quote: 価値と質は別々のものだ。価値が下がっても質が損なわれたりはしない。
+    paragraph: p969
+    quote_verified: true
+  note: 鮮血呪のメカニクスを通じて、人間関係や存在意義が「価値」の交換として描かれ、それがトリシューラの崩壊とアキラの決断の基盤となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メタファーによる現実の操作
+  weight: 0.7
+  quotes:
+  - quote: フルコンプしないと気が済まないのです。
+    paragraph: p933
+    quote_verified: true
+  - quote: 悩むくらいなら両方の要素をぶち込んでしまえばいい。収拾がつかないとか辻褄とかバランスとかは気にしないで、滅茶苦茶なくらいが一番面白いと、俺は思う
+    paragraph: p974
+    quote_verified: true
+  note: キャラクターの成長、パーティ編成、収集要素、シナリオ分岐など、ゲームの用語とメカニクスが現実の人間関係や運命を記述・操作する言語として機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己証明としての生存と、利他行為の毒
+  weight: 0.6
+  quotes:
+  - quote: トリシューラにとって自己の存在証明（知性の証明）は生存とイコールであり
+    paragraph: p963
+    quote_verified: false
+  - quote: 純粋な利他行為。アズーリア、レオ、コルセスカといった俺が好ましいと感じた人々が当たり前の様に行うそれは、トリシューラにとっては猛毒と同じものなのだ。
+    paragraph: p965
+    quote_verified: true
+  note: トリシューラの存在論が「自己証明」に依存しており、それが利他行為を許容しない構造を持つことで、アキラとの関係性が生死を賭けたものになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

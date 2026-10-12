@@ -1,0 +1,244 @@
+episode: ch0220
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ちびニア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0220_ちびニア_appears_立体幻像_p7313
+        quote: 「にあにあにあ。こっそり偵察！　報告！」　可愛らしい着信音。ユディーアが端末機を手に取ると、立体幻像が立ち上がる。
+        locator: {}
+        spoiler_after: ch0220
+    speech:
+      observations:
+      - event_ref: E_ch0220_ちびニア_says_せーりゃくけっこん_p7325
+        quote: 「にあー。せーりゃくけっこん、うんざりー」
+        locator: {}
+        spoiler_after: ch0220
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0220_ユディーア_thinks_マルガリータ_p7313
+        quote: 頼もしさに心が暖かくなるのを感じた。「よーし、あたしも頑張ろうっと」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ユディーア_thinks_戦略_p7313
+        quote: 表舞台に上がらないのであれば、ゴーリーやレナリアを活用していく必要があった。本選における駒であるジュティアとミナの働きは未知数だ。打てる手は打っておくに越したことはない。我ながら用意周到、などと考えつつ
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ユディーア_thinks_ロードデンドロン_p7318
+        quote: これがパフォーマンスで、呪文戦の一種であることには誰もが気付いている。　悪趣味にもほどがある過激さ。一歩間違えれば戦争になりかねない危うさ。
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ユディーア_thinks_ロードデンドロン_p7324
+        quote: それはそれとして流れが見えてきたせいでムカついてきた。なんだこいつ。
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ユディーア_thinks_ロードデンドロン_p7325
+        quote: 「王になるつもりなんだね、この自己陶酔野郎」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ユディーア_says_ダサ_p7327
+        quote: 「え、ダサ」
+        locator: {}
+        spoiler_after: ch0220
+    action:
+      observations:
+      - event_ref: E_ch0220_ユディーア_uses_迷宮刑罰者_p7313
+        quote: ニアホンとは別の端末を操作しながら近くの暗がりで待機させていた迷宮刑罰者に指示を出す。
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ユディーア_observes_呪文_p7315
+        quote: 夢想家の言葉、詩人の響き、そして役者の発声。　ユディーアのみならず、その場にいた呪文の心得がある者すべてが警戒したはずだ。　開戦の狼煙は既に上がっている。
+        locator: {}
+        spoiler_after: ch0220
+    visual:
+      observations:
+      - event_ref: E_ch0220_ユディーア_observes_ミスマッチ_p7316
+        quote: 目を疑うような、それは異質過ぎる取り合わせだった。　『拳銃を持ったティリビナ人』などというミスマッチを、誰が思い描くだろう？
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ユディーア_observes_動画_p7320
+        quote: ユディーアには気づいたことがある。　動画に登場しているのは子供や若者だけだ。年経た古株、大柄で枯葉を纏った老人たちはどこにも見当たらない。
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ユディーア_other_エスト_p7323
+        quote: 映し出されたのはユディーアにとって馴染み深い『仲間』の姿。
+        locator: {}
+        spoiler_after: ch0220
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_アサブ]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0220_アサブ_appears_黒檀の民_p7314
+        quote: 今にも巨大なゴーレムを振りほどいて暴れだしそうな筋骨隆々とした上半身裸の拳闘士とは対照的に
+        locator: {}
+        spoiler_after: ch0220
+    relationship:
+      observations:
+      - event_ref: E_ch0220_アサブ_bonds_ロードデンドロン_p7314
+        quote: 両者の関係は険悪を通り越して不倶戴天の敵同士。
+        locator: {}
+        spoiler_after: ch0220
+    name:
+      observations:
+      - event_ref: E_ch0220_アサブ_names_ハルムシオンの風_p7314
+        quote: 黒檀の民グループ『ハルムシオンの風』を束ねる頭目アサブ。
+        locator: {}
+        spoiler_after: ch0220
+    speech:
+      observations:
+      - event_ref: E_ch0220_アサブ_threatens_ロードデンドロン_p7315
+        quote: 「ッだコラてめえ。殺すぞオラァッ！」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_アサブ_other_精霊_p7321
+        quote: 「は、精霊じゃなくて昇天使っつうんだよ。改心した悪魔ってな」
+        locator: {}
+        spoiler_after: ch0220
+    action:
+      observations:
+      - event_ref: E_ch0220_アサブ_fears_銃_p7316
+        quote: アサブはその言葉に殺意で返すこともできただろう。　だが口は半開きの状態で音を発することはない。　簡単な理屈だ。その反応がきっかけで相手は指を動かすかもしれない。
+        locator: {}
+        spoiler_after: ch0220
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロードデンドロン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0220_ロードデンドロン_appears_ティリビナ人_p7314
+        quote: ティリビナ人の背丈は小柄ですらりとした細身だった。　石楠花の花冠に飾られた頭部は『表情がわかりづらい』と異種族が評しがちな樹皮の顔を明るく見せており、足取りはどこか優雅で艶がある。白っぽいピンクの花弁で飾られた祭服は古びた信仰の祭司というイメージを払拭しており、たいそう華やかだ。
+        locator: {}
+        spoiler_after: ch0220
+    name:
+      observations:
+      - event_ref: E_ch0220_ロードデンドロン_names_ティリビナ同胞団_p7314
+        quote: ティリビナ人グループ『ティリビナ同胞団』の指導者ロードデンドロン。
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_names_プレア＝エステラ_p7324
+        quote: 「愛しい人、プレア＝エステラよ！」
+        locator: {}
+        spoiler_after: ch0220
+    speech:
+      observations:
+      - event_ref: E_ch0220_ロードデンドロン_says_穏やかな世界_p7314
+        quote: 「万民が道ばたですれ違うだけの関係だったなら、それはどんなに穏やかな世界だろう」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_says_公共_p7315
+        quote: 「ガロアンディアン市民たちの世界は『公共』によって守られている。まさしく『人間的な力』だ。機械女王トリシューラの叡智と紀人都市シナモリアキラの理性がこの祝祭の日を成立させている」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_says_暴力の象徴_p7316
+        quote: 「これは暴力の象徴だ。私の気まぐれは予定調和の破壊を引き起こす。『殺す』という言葉はこの退屈をじつに安易に呼び込んでしまう」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_says_手品_p7317
+        quote: 「手品が好きでね。『裏切り』という悪徳を美しく塗り替え、分かり切った予想を覆す。それ自体が予定調和の茶番であったとしても、『意表を突く』ことは世界を退屈から救ってくれる。楽しく美しく、それでいて無意味。素晴らしいとは思わないか」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_says_愛_p7319
+        quote: 「我々の手は人を殴るためにあるのではない。人と手をつなぐためにあるんだ」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_says_美しさと面白さ_p7319
+        quote: 「『異様な外見のティリビナ人』が君たちから忌避されないために必要なものは何だ？　社会正義か、人権か、公正さか？　違う。美しさと面白さ。そして創造性と生産力だ」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_says_共存の記憶_p7321
+        quote: 「だが、かつてはそうではない記憶もあったはずだ。はじめから失われていた穏やかな記憶。善き共存の過去。君も知っているはずだ。失われた故郷、口伝の中でしか知らぬ共存と楽園の光景を」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_says_戦いの形_p7321
+        quote: 「戦いの形は暴力によるものだけだろうか？　君たちの伝統である拳闘は力の強さだけを競うものではなく、誇りや文化を継承していくものだろう。入れ墨と猛りの歌、精霊との親和、肉体の礼賛。その歴史をかつて私たちは共有していたはずだ」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_says_王国の夢_p7322
+        quote: 「独立自治、そして王国の夢はここにある！　対話と歩み寄り、祝祭がもたらす偉大な愛の先に！」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_names_プリエステラ_p7323
+        quote: 「『ティリビナの街路樹の民』という和解の道を示した立役者、ティリビナの巫女プリエステラを！」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_promises_結果_p7323
+        quote: 「そして約束しよう、明日のレースの結果を君に捧げると！」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_other_プリエステラ_p7324
+        quote: 「麗しのエスト、愛しい人よ！　私は表彰台の上で、トロフィーではなく君に求婚する栄誉を求める！　平和を象徴するような聖なる結婚式！　私たちが必要なものとは、愛に満たされた幸福ではないだろうか？」
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_says_薔薇の銃弾_p7326
+        quote: 「薔薇の銃弾で君の心を撃ち抜く」
+        locator: {}
+        spoiler_after: ch0220
+    action:
+      observations:
+      - event_ref: E_ch0220_ロードデンドロン_takes_拳銃_p7316
+        quote: ゆったりとした服の隙間から、男はあるものを引き抜いてアサブに突きつけていた。　艶の無い黒色、筒を覆うような長方形から垂直に伸びた台形のグリップ。
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_other_拳銃_p7317
+        quote: たった一本の指が、ちっぽけな部品をわずかに動かす。　銃声。
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_gives_花_p7319
+        quote: 対立していたはずの黒檀の民に銃口から抜き取った花を差し出す。　友好の仕草。
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_makes_立体幻像_p7319
+        quote: しかし花びらに彩られて次々に出現していく立体幻像の窓は相応に目を惹く。　それらは見やすく編集された短い動画であり、『ティリビナ人は非文明的である』という従来のイメージを完全に裏切るような宣伝戦略だった。
+        locator: {}
+        spoiler_after: ch0220
+      - event_ref: E_ch0220_ロードデンドロン_makes_動画_p7326
+        quote: 三度展開される大量の立体幻像。数組のティリビナ人男女が、槍神教のやり方で結婚式を挙げている映像が流れて行った。
+        locator: {}
+        spoiler_after: ch0220
+    symbolic:
+      observations:
+      - event_ref: E_ch0220_ロードデンドロン_defines_聖婚_p7325
+        quote: 呪術的、祭祀上の手続きとして王と王妃がレルプレア神の名の下に聖婚する。　その行為はティリビナ人たちの心をまとめ上げ、ロードデンドロンに絶大なカリスマを付与することになる。
+        locator: {}
+        spoiler_after: ch0220
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_アイアンゴーレム]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0220_アイアンゴーレム_functions_as_化身_p7315
+        quote: 第五階層を掌握する紀人都市シナモリアキラの端末とも呼べる無人機は、いうなれば新しき神の『化身』だ。
+        locator: {}
+        spoiler_after: ch0220
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_拳銃]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0220_拳銃_appears_as_花_p7317
+        quote: 多くの者の予想を裏切って、銃口から飛び出したのは花だった。　色鮮やかな、ピンク色の石楠花。
+        locator: {}
+        spoiler_after: ch0220
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ティリビナ同胞団]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0220_ティリビナ同胞団_reveals_祝祭参加_p7320
+        quote: 誤解の余地なく、ティリビナ同胞団は祝祭への参加を求めていた。
+        locator: {}
+        spoiler_after: ch0220
+  first_appearance_candidate: true

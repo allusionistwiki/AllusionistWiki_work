@@ -1,0 +1,256 @@
+episode: ch0121
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_motif_アキラ]]'
+  entity_type: motif
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0121_アキラ_trusts_トリシューラ_p4277
+        quote: 叛逆の危険性は大きいが、そう簡単に無力化できるような相手ではないので、トリシューラの選択を俺は尊重することにした。
+        locator: {}
+        spoiler_after: ch0121
+    action:
+      observations:
+      - event_ref: E_ch0121_アキラ_stops_コルセスカ_p4278
+        quote: そんな中、俺はひとまずコルセスカの憑依状態を解除することにした。
+        locator: {}
+        spoiler_after: ch0121
+    speech:
+      observations:
+      - event_ref: E_ch0121_アキラ_thinks_グレンデルヒ_p4278
+        quote: ――あまり懲りていない気がするが、言動が過剰になったらその都度反面教師として悪役をあてがうことにしよう。
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_アキラ_asks_ヘリステラ_p4281
+        quote: 「それは、ヘリステラのことか？」
+        locator: {}
+        spoiler_after: ch0121
+    visual:
+      observations:
+      - event_ref: E_ch0121_アキラ_observes_ルウテト_p4280
+        quote: だがルウテトの瞳が湛える灰色は、俺という曖昧な存在をしかと見据えていた。
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_アキラ_observes_幻視_p4282
+        quote: 風が吹いた。 俺は、そこがガロアンディアンであるにも関わらず、異なる景色を幻視する。 瓦礫は消えて、柔らかな腐葉土の匂いが立ちこめた。
+          屍が横たわるそこは、はじまりの森。
+        locator: {}
+        spoiler_after: ch0121
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0121_ガロアンディアン_other_休戦_p4277
+        quote: 未来は定かではないが、今のところは休戦ということになったようだ。
+        locator: {}
+        spoiler_after: ch0121
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0121_グレンデルヒ_is_located_サイバーカラテ道場_p4277
+        quote: グレンデルヒは紀人としてサイバーカラテ道場に封印される形になっており、俺やトリシューラの意思によって呼び出される使い魔となった。
+        locator: {}
+        spoiler_after: ch0121
+    action:
+      observations:
+      - event_ref: E_ch0121_グレンデルヒ_loses_資格_p4277
+        quote: またそれによって本来地上の法では取得できない各種資格などを剥奪され、地上のメガコーポからも見放されかけているようだが、本人はふてぶてしい笑みを浮かべてまるでへこたれた様子がない。
+        locator: {}
+        spoiler_after: ch0121
+    symbolic:
+      observations:
+      - event_ref: E_ch0121_グレンデルヒ_has_property_存在の強度_p4278
+        quote: 腐っても英雄、存在の強度は恐らく【マレブランケ】随一だ。
+        locator: {}
+        spoiler_after: ch0121
+    speech:
+      observations:
+      - event_ref: E_ch0121_グレンデルヒ_thinks_サイバーカラテ_p4278
+        quote: （捲土重来――これからはサイバーカラテに切り替えていく。本物のワイルドさ、強さを知らしめていきたい）
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_グレンデルヒ_thinks_知性派マッチョイズム_p4278
+        quote: （ぽっと出のアイドルや優男の吟遊詩人、私の後釜の色物マスコットなどに負けてたまるか。これからの私は激悪オヤジ、ダンディズムを超えた知性派マッチョイズムが一世を風靡するだろう）
+        locator: {}
+        spoiler_after: ch0121
+    visual:
+      observations:
+      - event_ref: E_ch0121_グレンデルヒ_wears_道化服_p4278
+        quote: 拘束帯の付いた道化服を着せられたグレンデルヒは仮想道場の隅に置いておくとしよう。
+        locator: {}
+        spoiler_after: ch0121
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0121_トリシューラ_appears_as_女王_p4277
+        quote: ガロアンディアンの女王として得意げに振る舞うトリシューラはいつになく活き活きとしていた。
+        locator: {}
+        spoiler_after: ch0121
+    action:
+      observations:
+      - event_ref: E_ch0121_トリシューラ_other_名声_p4277
+        quote: 度重なる戦闘や鮮血呪の使用で激しく消耗していたのが、グレンデルヒに勝利したことで得た名声によって完全に回復していた。
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_トリシューラ_uses_ドローン_p4277
+        quote: 戦いが終わり、トリシューラがドローンを操作して【変異の三手】の残党を捕縛していく。
+        locator: {}
+        spoiler_after: ch0121
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルウテト]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0121_ルウテト_names_ルウテト_p4277
+        quote: 蜂蜜色の髪を揺らす左右で生死が非対称な女性は、改めて俺にルウテトと名乗り、ひとまずトリシューラとコルセスカとの和解に合意してくれた。
+        locator: {}
+        spoiler_after: ch0121
+    speech:
+      observations:
+      - event_ref: E_ch0121_ルウテト_promises_和解_p4277
+        quote: 改めて俺にルウテトと名乗り、ひとまずトリシューラとコルセスカとの和解に合意してくれた。
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_ルウテト_says_巡節_p4279
+        quote: '「この世界には、太陰の運行を基準とした暦をはじめとして幾つも
+
+          ゼオーティア
+
+          の歳月の区切り方があります。巡節という数え方もそのひとつ」'
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_ルウテト_says_アキラ_p4280
+        quote: 「アキラ様、ちょっと、いやかなりお顔が、その、凛々しく、というか、とっても素敵に――ああ、そう、好みに――え？ 好きなキャラ要素を毎日自由に組み込み放題？
+          そ、そう」
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_ルウテト_says_六王巡節_p4280
+        quote: 「春季と冬季で分けたとか、諸説あるのですが、こういう言い伝えがあります。巡節というのはかつては六王巡節と言われており、再生者の女神が最も力の強い眷族である六王にその半身を不死の果実として分け与えた逸話に由来すると」
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_ルウテト_other_キュトスの姉妹_p4281
+        quote: 「その通り。そして転生者は、大いなる地母神キュトスの生まれ変わりの一人として認められました。キュトスの姉妹として迎え入れられたのです」
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_ルウテト_reveals_正体_p4282
+        quote: 「――私はキュトスの死。敗北と喪失、選ばれなかったという結末から生まれる、有り得ざる可能性。そう、前世の決定的な死が、私を再生と死を司る女神として転生させたのです」
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_ルウテト_says_末妹_p4282
+        quote: 「私が望んでいた在り方は九姉ではない。もう一度、今度こそ、末妹に――それが叶わないのなら、自らそうなれる子供たちを育て上げるだけ」
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_ルウテト_names_コルセスカ_p4283
+        quote: 「私の前世での名前は――コルセスカと言います」
+        locator: {}
+        spoiler_after: ch0121
+    visual:
+      observations:
+      - event_ref: E_ch0121_ルウテト_appears_as_蜂蜜色の髪_p4279
+        quote: 言い終わらぬうちにコルセスカの肩くらいまでの長さの白銀の髪が、背中まで伸びる蜂蜜色に変化して行く。右の義眼は虚ろに、光妖精と再生者を左右で分け合った眩暈のするような容貌の女性が現れた。
+        locator: {}
+        spoiler_after: ch0121
+    action:
+      observations:
+      - event_ref: E_ch0121_ルウテト_gives_主導権_p4279
+        quote: ルウテトはひとまず身体の主導権をコルセスカに譲るらしい。
+        locator: {}
+        spoiler_after: ch0121
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_巨獣]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0121_巨獣_disappears_断章_p4277
+        quote: ルウテトが従えていた巨獣は八つの断章の中に吸い込まれていき、六王もまた姿を消した。
+        locator: {}
+        spoiler_after: ch0121
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0121_コルセスカ_other_アキラ_p4279
+        quote: 俺の意識の中心で布団を被りながらゲームパッドを持っていたコルセスカがのそのそと這い出して出て行こうとする。寝具とかゲーム機とかは置いて行くようだ――おい、菓子類を散らかしたまま行くのはやめろ。
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_コルセスカ_other_紀元槍内部_p4279
+        quote: コルセスカはルウテトが使っている物理的身体――というか『紀元槍内部において存在の領域を占めている位置』に戻ったらしいのだが、説明を聞いても何の事やら意味不明だった。
+        locator: {}
+        spoiler_after: ch0121
+    speech:
+      observations:
+      - event_ref: E_ch0121_コルセスカ_says_交代_p4279
+        quote: 「ちょっと、ルウテトが話したがっているので交代しますね」
+        locator: {}
+        spoiler_after: ch0121
+    relationship:
+      observations:
+      - event_ref: E_ch0121_コルセスカ_trusts_ルウテト_p4279
+        quote: コルセスカがルウテトに対して妙に信頼を置いている様子だったので、俺とトリシューラも敵意を剥き出しにすることなく対話することができた。
+        locator: {}
+        spoiler_after: ch0121
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トバルカイン]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0121_トバルカイン_bonds_ルウテト_p4280
+        quote: 傍をついてくる骨狼のカイン――いや、今は新たな名を得たトバルカインがカチカチと鳴き声を上げてルウテトに擦り寄っていく。やはり母なる女王に良く懐いている。
+        locator: {}
+        spoiler_after: ch0121
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女神]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0121_女神_other_未来転生者_p4280
+        quote: 「生と死の女神は、未来転生者でした。遙かな未来から過去へとやり直しにきた時間遡行者。『もう一度』という願いを実現するため
+        locator: {}
+        spoiler_after: ch0121
+    symbolic:
+      observations:
+      - event_ref: E_ch0121_女神_other_冬と春_p4280
+        quote: それは、生と死の女神が力を月のように満ち欠けさせる過程であり、命が凍り付いて行く冬と、生命が誕生していく春を象徴しているのだと。
+        locator: {}
+        spoiler_after: ch0121
+    action:
+      observations:
+      - event_ref: E_ch0121_女神_other_力_p4280
+        quote: 力を分け与えた事で、女神は一時的に弱体化する。
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_女神_other_冬の本質_p4281
+        quote: 「に、彼女は今度こそ女神になろうとした。自らの力、その可能性を極限まで追求して、冬という本質を拡張し続けたのです」
+        locator: {}
+        spoiler_after: ch0121
+      - event_ref: E_ch0121_女神_other_迎え_p4281
+        quote: 「やがて、女神が思い描いた物語――不思議な本の中から『理想の使い魔たち』を呼び出すことができるようになった時、その転生者のところに迎えがやってきました。車椅子の女神――ありとあらゆる路を往く女王にして車輪を司る不死なる化身」
+        locator: {}
+        spoiler_after: ch0121
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0121_ちびシューラ_appears_視界_p4281
+        quote: （アキラくん。あのね） 突然視界の隅に現れたちびシューラが真剣な顔で何かを言おうとして、躊躇いがちに目を伏せた。
+        locator: {}
+        spoiler_after: ch0121
+  first_appearance_candidate: true

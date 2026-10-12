@@ -1,0 +1,287 @@
+chapter: ch0061
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 4
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 25
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0061_アズーリア_uses_感応の触手_p2296]]'
+  object: '[[ME_プログラミングのデバッグ]]'
+  claim: 呪文の微調整作業を「指で打鍵するよりも速い入出力」と表現し、現代のプログラミングやデータ入力における高速インターフェース（脳波入力等）への移行を暗示している。
+  quote: 要求されている量をこの短期間でこなすことは、霊長類には物理的に困難である。ゆえに、呪文を感覚的に操作できる――つまり指で打鍵するよりもずっと速く情報の入出力ができる夜の民が適任と言うことになる。
+  paragraph: p2296
+  confidence: strong
+  quotes:
+  - quote: 要求されている量をこの短期間でこなすことは、霊長類には物理的に困難である。ゆえに、呪文を感覚的に操作できる――つまり指で打鍵するよりもずっと速く情報の入出力ができる夜の民が適任と言うことになる。
+    paragraph: p2296
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0061_アキラ_says_NOKOTTA_p2299]]'
+  object: '[[ME_格闘ゲームの必殺技]]'
+  claim: 「発勁用意」から「NOKOTTA!」への叫びと動作は、格闘ゲームにおける必殺技の発動演出（コマンド入力後の技名叫び）を模倣・パロディ化している。
+  quote: 右腕を深く後方に引き付けると、ぐっとその全身に力が込められる。「発勁用意」... 右の掌が、凄まじい勢いで突き出される。「ＮＯＫＯＴＴＡ！」
+  paragraph: p2299
+  confidence: strong
+  quotes:
+  - quote: 右腕を深く後方に引き付けると、ぐっとその全身に力が込められる。「発勁用意」... 右の掌が、凄まじい勢いで突き出される。「ＮＯＫＯＴＴＡ！」
+    paragraph: p2299
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0061_十三階段_makes_哲学的ゾンビ_p2291]]'
+  object: '[[ME_哲学的ゾンビ]]'
+  claim: 霊魂を破壊された人間を「哲学的ゾンビ」と呼称し、心（クオリア）を欠いた状態の人間を指す哲学用語をそのまま用いている。
+  quote: ぶつかり合って破壊された霊魂が辺りに散らばり、後には魂無き哲学的ゾンビの群れが残るのみ
+  paragraph: p2291
+  confidence: explicit
+  quotes:
+  - quote: ぶつかり合って破壊された霊魂が辺りに散らばり、後には魂無き哲学的ゾンビの群れが残るのみ
+    paragraph: p2291
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0061_ハザーリャ_other_生殖と蘇生_p2292]]'
+  object: '[[ME_ヒエロス・ガモス]]'
+  claim: ハザーリャの象徴する「聖婚」を「ヒエロス・ガモス」と記述し、古代ギリシャの神話的・宗教的な聖婚概念を引用している。
+  quote: 冬が終わり春の訪れを祝福する聖婚。ヒエロス・ガモス。平たく言えば生殖の暗喩。
+  paragraph: p2292
+  confidence: explicit
+  quotes:
+  - quote: 冬が終わり春の訪れを祝福する聖婚。ヒエロス・ガモス。平たく言えば生殖の暗喩。
+    paragraph: p2292
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0061_プリエステラ_bonds_ティリビナの民の安全_p2285]]'
+  object: '[[ME_技術移転と保護の取引]]'
+  claim: 技術や文化の供与と引き換えに安全を保証する構造は、現代の国際関係における技術移転条約や難民保護の政治的取引を連想させる。
+  quote: プリエステラがまとめ役兼折衝役となって、その独自の技術や固有の文化性の供与と引き替えにティリビナの民の安全は保証される。
+  paragraph: p2285
+  confidence: moderate
+  quotes:
+  - quote: プリエステラがまとめ役兼折衝役となって、その独自の技術や固有の文化性の供与と引き替えにティリビナの民の安全は保証される。
+    paragraph: p2285
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0061_メイファーラ_activates_過去視_p2288]]'
+  object: '[[ME_プライバシー侵害]]'
+  claim: 接触感応による過去視が「個人情報の保護に配慮すべき」と評されることで、監視技術やデータ収集におけるプライバシー問題への批判を暗示している。
+  quote: メイファーラの接触感応からの過去視はもうちょっと個人情報の保護に配慮すべきだと思う。
+  paragraph: p2288
+  confidence: strong
+  quotes:
+  - quote: メイファーラの接触感応からの過去視はもうちょっと個人情報の保護に配慮すべきだと思う。
+    paragraph: p2288
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0061_サイバーカラテ道場第五階層支部_is_made_of_日本語_p2298]]'
+  object: '[[ME_ネット上の怪しい広告]]'
+  claim: 「サイバーカラテ道場第五階層支部（仮）」という名称と、日本語で表記された動画コンテンツは、現代のネット上に氾濫する胡散臭い広告やスパムコンテンツをパロディ化している。
+  quote: 【サイバーカラテ道場第五階層支部（仮）】――ってなにこれ
+  paragraph: p2298
+  confidence: strong
+  quotes:
+  - quote: 【サイバーカラテ道場第五階層支部（仮）】――ってなにこれ
+    paragraph: p2298
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0061_死人の森の断章_defines_ハザーリャと再生者_p2291]]'
+  object: '[[ME_禁書・秘教]]'
+  claim: 暗号化され隠された真の章に失われた神について記されているという設定は、歴史上の禁書や秘教の教典の構造を模している。
+  quote: 暗号化されて隠されている真の章には、失われた神ハザーリャとその眷族種である再生者について記されているはず
+  paragraph: p2291
+  confidence: moderate
+  quotes:
+  - quote: 暗号化されて隠されている真の章には、失われた神ハザーリャとその眷族種である再生者について記されているはず
+    paragraph: p2291
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0061_アズーリア_uses_感応の触手_p2284]]'
+  object: '[[ME_引きこもり]]'
+  claim: 異世界の魔法使いが「感応の触手」で端末を弄る姿は、現代の引きこもりがスマホやPCを弄る姿の逆転的描写（ファンタジー要素の日常化）である。
+  quote: 据え置きの端末と睨めっこしながら、感応の触手で画面をひたすら弄り回しているのだ。
+  paragraph: p2284
+  confidence: moderate
+  quotes:
+  - quote: 据え置きの端末と睨めっこしながら、感応の触手で画面をひたすら弄り回しているのだ。
+    paragraph: p2284
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0061_リールエルバ_asks_死人の森の断章の転送_p2295]]'
+  object: '[[ME_データ権限の要求]]'
+  claim: 魔導書の「内容を転送し使用者権限を付与して欲しい」という要求は、現代のクラウドデータやソフトウェアのライセンス・アクセス権の管理を連想させる。
+  quote: もし戦いの最中に【死人の森の断章】を手に入れる機会があったなら、その内容を私に転送して、使用者権限を付与して欲しいの
+  paragraph: p2295
+  confidence: strong
+  quotes:
+  - quote: もし戦いの最中に【死人の森の断章】を手に入れる機会があったなら、その内容を私に転送して、使用者権限を付与して欲しいの
+    paragraph: p2295
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの正体と目的
+  note: 日本語で表記された「サイバーカラテ道場」に現れたシナモリ・アキラが、なぜこの世界で動画配信をしているのか、また「鎧の腕」としてのカインとの関係がどう回収されるか。
+  quotes:
+  - quote: あらゆる言語を管理する太陰の【神々の図書館】に登録された新言語――【日本語】によって表記された通信道場名。
+    paragraph: p2298
+    quote_verified: false
+  - quote: もはや間違えようも無い。シナモリ・アキラがそこにいた。
+    paragraph: p2300
+    quote_verified: true
+  expected_payoff: アキラが異世界に干渉する存在（転生者、観測者、あるいは敵対勢力）として登場し、日本語という言語の存在自体が世界の構造に関わる伏線として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_死人の森の断章の真の力
+  note: リールエルバが「全生命の死か、あるいは恒久的な不死か」と予言した断章の力が、ミルーニャの理想（不死）とどう結びつき、最終的に誰がどう使うかが焦点となる。
+  quotes:
+  - quote: その先に待つのは全生命の死か、あるいは恒久的な不死か――
+    paragraph: p2294
+    quote_verified: true
+  - quote: もし戦いの最中に【死人の森の断章】を手に入れる機会があったなら、その内容を私に転送して、使用者権限を付与して欲しいの
+    paragraph: p2295
+    quote_verified: true
+  expected_payoff: 決戦において断章が入手され、リールエルバが使用することで世界改変のトリガーとなる、あるいはミルーニャとの対決の鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_サリアとアルマの行方
+  note: ガルズを殺したサリアがアルマに回収されたという事実が、サリアの生存状態やアルマの意図、そしてアズーリアとの再会にどう影響するか。
+  quotes:
+  - quote: 力を使い果たしたサリアはアルマが回収していった為、私が起きてから話す機会は無かったけれど、この件が片付いて落ち着いたら一度話したいと思う。
+    paragraph: p2297
+    quote_verified: true
+  expected_payoff: サリアがアルマの支配下でどうなっているか、あるいはアルマがサリアをどう利用しているかが明かされ、アズーリアの精神的な決着（ガルズの死への向き合い）が描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リールエルバの隠された動機
+  note: リールエルバが「メートリアンやリーナと同じ、思い入れ」と言い、ガルズ（メートリアンの父）の遺品であることを強調する背景にある、彼女自身の過去やガルズとの関係。
+  quotes:
+  - quote: メートリアンのお父上の遺品だと言うことは理解しているわ。... 思い入れ、かしら
+    paragraph: p2296
+    quote_verified: false
+  - quote: ガルズだかマリーだか知らないけどね、私が一番【死人の森の断章】を上手く使えるのよ
+    paragraph: p2296
+    quote_verified: true
+  expected_payoff: リールエルバがガルズやディスペータとどのような関係を持っていたか、彼女の「思い入れ」の正体が明かされ、彼女の行動原理が深掘りされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と魔法の融合による情報戦の高度化
+  weight: 0.8
+  quotes:
+  - quote: 呪文を感覚的に操作できる――つまり指で打鍵するよりもずっと速く情報の入出力ができる夜の民が適任と言うことになる。
+    paragraph: p2296
+    quote_verified: false
+  - quote: あらゆる言語を管理する太陰の【神々の図書館】に登録された新言語――【日本語】によって表記された通信道場名。
+    paragraph: p2298
+    quote_verified: false
+  note: 魔法が「情報処理」や「プログラミング」のメタファーとして描かれ、異世界がデジタル的な構造へと変質していることを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死と再生の循環、および不死への渇望
+  weight: 0.7
+  quotes:
+  - quote: ハザーリャが象徴するのは死であると同時に生命の誕生。冬が終わり春の訪れを祝福する聖婚。
+    paragraph: p2292
+    quote_verified: true
+  - quote: その先に待つのは全生命の死か、あるいは恒久的な不死か――
+    paragraph: p2294
+    quote_verified: true
+  note: ハザーリャの神話的象徴と、ミルーニャの不死への理想が重なり、生と死の境界が曖昧になる世界観を提示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異文化・異言語の侵入と日常の侵食
+  weight: 0.6
+  quotes:
+  - quote: 【サイバーカラテ道場第五階層支部（仮）】――ってなにこれ
+    paragraph: p2298
+    quote_verified: true
+  - quote: 「発勁用意」... 「ＮＯＫＯＴＴＡ！」
+    paragraph: p2299
+    quote_verified: false
+  note: 日本語という「外」の言語が「内」の迷宮世界に現れることで、世界の境界が破綻し、メタフィクショナルな干渉が始まっていることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 無力感と逃避、そして再起
+  weight: 0.5
+  quotes:
+  - quote: 無力感に苛まれてしまうのも仕方が無い。
+    paragraph: p2286
+    quote_verified: true
+  - quote: 私はぐったりとした。呪文を一から再解釈していくという作業は神経をすり減らす。
+    paragraph: p2296
+    quote_verified: true
+  note: アズーリアやリーナの精神的な疲弊と、それに対する周囲の支え（プリエステラの差し入れなど）が、人間ドラマとしての側面を強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

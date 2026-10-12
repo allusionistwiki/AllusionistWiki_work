@@ -1,0 +1,270 @@
+episode: ch0256
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_チリアット]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0256_チリアット_saves_ユディーア_p8201
+        quote: 加速ブルータ状態で疾駆したチリアット＝アテンプレクが魅了浄界から彼女を救出したのだ
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_チリアット_transforms_超加速状態_p8209
+        quote: 死の恐怖に怯えた牙猪の目が血走り、彼の体感時間が引き伸ばされていく。三眼瞬知。超加速状態に突入したチリアットが疾走する
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_チリアット_other_右腕_p8214
+        quote: 漆黒の右腕が膨張し、本体からは独立した動きでチリアットの口の中に突っ込んだ。即座に自切
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_チリアット_other_牙_p8215
+        quote: 迷わずに己の下顎に残ったもう一本の牙を折り、ユディーアに向けて投擲。虚空で火花を散らして大気が焼き焦げていく。衝撃の後、同調を強いる無形の魔導書が霧散
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_チリアット_uses_牙_p8215
+        quote: 見れば、チリアットは倒れた状態で下顎から伸びた牙を大地に突き刺していた。四肢が動かせない状態でも自由に呪力を込められる部位。それが牙や角や爪だ
+        locator: {}
+        spoiler_after: ch0256
+    visual:
+      observations:
+      - event_ref: E_ch0256_チリアット_wounds_自身_p8201
+        quote: ユディーアを抱えていた左腕の火傷と裂傷。背中にへばり付いた怨念呪詛。黒鱗に覆われた右拳の流血。男は見てわかる部分だけで三か所は負傷していた
+        locator: {}
+        spoiler_after: ch0256
+    speech:
+      observations:
+      - event_ref: E_ch0256_チリアット_other_ディスケイム陣への逃走_p8207
+        quote: ユディーア様。この場を離脱してディスケイムの陣に逃れましょう
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_浄界]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0256_浄界_functions_as_惑わし_p8201
+        quote: 巧みに人の心に付け入り、惑わし、呪縛する浄界の輝き
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第六階層]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0256_第六階層_has_property_自然光_p8201
+        quote: 周囲を照らすものは発光する呪石や岩壁にへばりつく光苔といった仄かな自然光のみだ
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_トランクケース]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0256_トランクケース_has_property_怨霊吸収_p8202
+        quote: 反射的に掲げて盾にした『あるもの』に、怨霊が吸い込まれていったのだ
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_トランクケース_breaks_ネオレインの呪い_p8208
+        quote: 物質霊である呪われた包丁が即座に解呪されて消失し、複数の生首が反旗を翻して怨霊を喰らう。一塊の怨霊呪弾となって解き放たれ、水子の怨霊たちの制御を次々と奪って術者に呪いを返す
+        locator: {}
+        spoiler_after: ch0256
+    symbolic:
+      observations:
+      - event_ref: E_ch0256_トランクケース_is_made_of_メイファーラの銀貨の呪い_p8203
+        quote: 謎めいた再生者の貴婦人が忘れていったものだ。メイファーラの銀貨を持って行ったあの人の、おそらくは何らかの呪い
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ネオレイン]]'
+  entity_type: item
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0256_ネオレイン_names_ネクロマンサー_p8202
+        quote: 浄界に誘う際にネオレインとか名乗っていたはずだ。おそらくかなり古典的なタイプの死霊術士。ネクロマンサー
+        locator: {}
+        spoiler_after: ch0256
+    action:
+      observations:
+      - event_ref: E_ch0256_ネオレイン_uses_泡子爆弾_p8202
+        quote: ホスト男が片手に纏わせた怨霊の群れを圧縮し、無造作に投擲した
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_ネオレイン_uses_貢がせ蟲毒_p8203
+        quote: 開栓した途端、中から溢れ出したのは酒ではなく愛と呪い
+        locator: {}
+        spoiler_after: ch0256
+    speech:
+      observations:
+      - event_ref: E_ch0256_ネオレイン_uses_水素水ポーション_p8206
+        quote: 無駄だよ。クラウビューラさんの水素水ポーションがあるから俺らは不死身なわけ
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_バルへリオン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0256_バルへリオン_attacks_ちびニア_p8202
+        quote: バルへリオンとかいう男の風船鉄球による軽くて重い一撃をバルーンハンマー逸らすことに成功していた
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_敵集団]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0256_敵集団_defeats_メートリアン_p8202
+        quote: 温泉浄界の使い手に至ってはメートリアンの救出を阻止しており、彼女はアストラル体のまま温泉にぶくぶくと沈んでいた
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メートリアン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0256_メートリアン_loses_アストラル体_p8204
+        quote: メートリアンのアストラル体はやけに簡単に幽体離脱してしまった
+        locator: {}
+        spoiler_after: ch0256
+    visual:
+      observations:
+      - event_ref: E_ch0256_メートリアン_opens_右目_p8219
+        quote: やや時間を置いて、メートリアンの閉ざされていた瞼がゆっくりと水中で開かれた。白い少女の右目から、どろりとした青い血が溢れ出す
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イナータルゴ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0256_イナータルゴ_other_チリアット_p8205
+        quote: 過去の後悔に起因するもの。別の対象への友愛を投影、血縁者、なるほど父親との交友関係、ならばこいつもディスケイムか。冥府への親和性から見てティーアードゥ型の二次加護持ちの天眼猪人。牙猪の特性は死の直視。恐怖を誘発条件にした三眼瞬知が得意技だな
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_イナータルゴ_other_呪術師たち_p8205
+        quote: お前たち、殺意を消せ。手足は折ってもいい。呪術による捕縛に切り替える
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_イナータルゴ_other_トランクケース_p8208
+        quote: 優先目標にあのトランクケースを追加だ。亜竜人と共にあれを奪取せよ
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_イナータルゴ_reveals_浄界加工技術_p8210
+        quote: イナータルゴは浄界に対しての『加工技術』を持っている。それはつまり、敵対者の浄界に対して優位性を持つということでもあった
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_イナータルゴ_other_捕縛_p8212
+        quote: だが、私は理性に逆らいあえて空気を読まないことにする。お前たちは捕縛し、私の管理下で封印する
+        locator: {}
+        spoiler_after: ch0256
+    visual:
+      observations:
+      - event_ref: E_ch0256_イナータルゴ_appears_空の民_p8205
+        quote: 大小の百目を禿頭に貼り付けた壮年男性。イナータルゴと呼ばれていた空の民が、胡坐の姿勢で上空に浮遊している
+        locator: {}
+        spoiler_after: ch0256
+    action:
+      observations:
+      - event_ref: E_ch0256_イナータルゴ_other_チリアットの加速_p8209
+        quote: 同じ速度域だ。ユディーアは思わず目を瞠った。百目の男イナータルゴが、チリアットと全く同じ加速倍率で行動している
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_イナータルゴ_uses_神経支配_p8211
+        quote: 『神経支配』の呪術だ。生体電流の制御を行うことで自己の反応速度を強化する術だが、熟達した使い手は接触した生物の支配さえ可能とする
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_イナータルゴ_uses_魔導書化_p8211
+        quote: 非言語的な関係性の気流、その乱雑さを魔導書化できる
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_イナータルゴ_uses_融血呪_p8213
+        quote: そして紀なる光よ、形を成せ！　平伏せよ、世界を束ねるクロウサーの融血呪に！
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダエモデク]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0256_ダエモデク_activates_吐息_p8206
+        quote: チリアットの右腕に寄生している黒亜竜がダエモデク活性化。黒い竜の頭部が鎌首をもたげ、ユディーアと息を揃えて『吐息』を解き放つ
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0256_ユディーア_fears_幼児化_p8207
+        quote: アルティウスにかけられた幼児化の呪いだ。おそらく、亜竜としての特性を思い出すたびにユディーアの魂は『前世』に引きずられていくだろう
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_ユディーア_threatens_チリアット_p8209
+        quote: メートリアンを見捨てられるわけない！　ひとりで逃げて！　さもなくば死ね！
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_ユディーア_hates_クロウサーの融血呪_p8214
+        quote: クロウサーの愚劣さと傲慢さ、欺瞞を欺瞞のまま利用しているセレクティフィレクティへの怒りが湧き上がる
+        locator: {}
+        spoiler_after: ch0256
+    action:
+      observations:
+      - event_ref: E_ch0256_ユディーア_uses_勇士の髪秤_p8216
+        quote: ユディーアという個を特徴づけるサイドテールの髪房を、伸ばした指を一閃させて切り落とす。髪は呪物で、角は誇りだ。「来たれ我が軍勢。『勇士の髪秤』！！」
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_ユディーア_other_軍勢_p8217
+        quote: 呼び出したのは迷宮刑罰者集団『ゴーリーズ』のメンバーが二人、レナリアの配下が二人、探索者のジュティアとミナ、クロウとオーテスの八人
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_ユディーア_other_裏切り_p8218
+        quote: 彼ら本来の意思や真の主など関係なく、ユディーアの権能は強制的に銀貨を手にした者を裏切りに走らせる
+        locator: {}
+        spoiler_after: ch0256
+      - event_ref: E_ch0256_ユディーア_other_トランクケース_p8219
+        quote: 走り寄る時間も惜しく、そのまま振りかぶって投擲した。砕け散った水面が波紋を広げていく。謎めいたトランクケースが温泉の中に沈み込み、メートリアンのアストラル体に接触
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ジュティア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0256_ジュティア_attacks_巨人_p8218
+        quote: 続けてジュティアが放った邪視の魔弾が巨大な女の顔を掠めて濡れ髪を穿つ
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0256_ミナ_attacks_巨人_p8218
+        quote: ミナは真正面から巨人と打ち合う力強さを発揮し、燃える槍を振り下ろして巨人を引き裂いた
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラドリン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0256_ラドリン_betrays_イナータルゴ_p8219
+        quote: 必殺の呪術があらぬ方向に飛んでいったからだ。それも、離れた位置でチリアットと死闘を繰り広げていたイナータルゴの背に直撃するという最悪の形で
+        locator: {}
+        spoiler_after: ch0256
+  first_appearance_candidate: true

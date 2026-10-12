@@ -1,0 +1,398 @@
+episode: ch0174
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アマランサス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_アマランサス_asks_第五階層の放置理由_p5770
+        quote: 「そもそもの話、第五階層が『中立地帯』なんてお題目に守られて放置されてきた理由がおわかりかしら」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_アマランサス_thinks_シナモリアキラとトリシューラの合流_p5770
+        quote: シナモリアキラとトリシューラを下し、その力を人形たちの陣営に合流させることができれば勝利はぐっと近付くことだろう。
+        locator: {}
+        spoiler_after: ch0174
+    visual:
+      observations:
+      - event_ref: E_ch0174_アマランサス_observes_戦場_p5771
+        quote: いつしかアマランサスの周囲には煌びやかなドレスを身に纏った人形たちが集まっていた。軍勢を率いる指揮官のように、アマランサスは戦場を見据えた。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_上と下の勢力]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_上と下の勢力_fears_死者の軍勢_p5770
+        quote: 同時に彼らは死者の軍勢を欲しがってもいるから、内乱が発生している今、両勢力は介入の機会を窺っている。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_小さな人形]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_小さな人形_says_死人の森への恐怖_p5770
+        quote: 「『死人の森』があるからでしょ？　みんな知ってるよ。『上』も『下』も死者に怯えているんだ」
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラクルラール派]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_ラクルラール派_names_アルト・イヴニル_p5771
+        quote: 「『上』の諸勢力と深く結びついたラクルラール派は王権を手にしたアルト・イヴニルにその役目を担わせようとしている。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_古い女神]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_古い女神_breaks_男性性と槍の呪力_p5771
+        quote: 古い女神を男性性と槍の呪力によって打破することは、『上』の論理をこの地に打ち立てることに等しい
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_死人の森]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_死人の森_defines_正統な盟主_p5771
+        quote: 『死人の森』という王国こそ最も古く、正統なるこの地の盟主に他ならない。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_王権]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_王権_defines_玉座に座った者_p5771
+        quote: いずれにせよ最後に玉座に座っていたものが王になることは間違い無い。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_イアテムの剣]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0174_イアテムの剣_has_property_水毀れ_p5772
+        quote: ぼたり、と雫が落ちる。イアテムの剣は水毀れしていた。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0174_クレイ_fights_イアテム_p5772
+        quote: 二人の男は互いを不倶戴天の敵と見定めて闘争を開始したが、両者が剣を打ち合わせて既に十数合。未だ決着は遠い。
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_クレイ_travels_白骨の迷宮_p5772
+        quote: 自らを庇い、攫われてしまった師ファウナを追ったクレイは闇の中で海の民の勇士イアテムと遭遇した。
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_クレイ_fights_カーティス_p5773
+        quote: クレイの反撃が吸血鬼を引き裂くと、またして
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_クレイ_kills_ファウナ_p5787
+        quote: 満足げに微笑んだ女の口から、赤い雫が溢れ落ちる。　それよりもずっと多い血液が胸元に突き入れられた右腕を伝っていく。
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_クレイ_takes_ファウナの肋骨_p5788
+        quote: クレイは女の肋骨を切断し、取り出すと、そのまま自らの脇腹に侵入させていった。
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_クレイ_breaks_操り糸_p5789
+        quote: 手刀一閃。遍く空から降り注ぐ不可視の糸が千切れ飛ぶ。
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_クレイ_fights_ミヒトネッセ_p5791
+        quote: かくして最大のライブ対決が始まった。　ランキング戦・一位と二位の激突。
+        locator: {}
+        spoiler_after: ch0174
+    speech:
+      observations:
+      - event_ref: E_ch0174_クレイ_says_聖剣切断処理_p5773
+        quote: 「俺の剣と打ち合いたくば、音に聞く聖剣『切断処理』でも持ってくるんだな」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_クレイ_says_陛下への忠誠_p5773
+        quote: 「陛下への忠誠。ただそれだけだ」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_クレイ_suspects_ミヒトネッセ_p5776
+        quote: 「黙れ人形！　ミヒトネッセとか言ったな――ラクルラールの手駒め、カーティスの末裔に扮して、一体何を企んでいる！？
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_クレイ_says_王たる資格の否定_p5777
+        quote: 「外道め、またしてもこれが狙いか。民を欺き、扇動し、巻き添えにする奸計を用いておいて何が覇道だ、貴様らに王たる資格など無い！」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_クレイ_says_自由意思_p5789
+        quote: 「俺は人形じゃない。進むべき道は俺の自由意思で決める」
+        locator: {}
+        spoiler_after: ch0174
+    visual:
+      observations:
+      - event_ref: E_ch0174_クレイ_transforms_女_p5788
+        quote: 煌めくドレスは『コルヌー・コピアイ』の色合いを残した、ファウナの遺作。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_イアテム]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0174_イアテム_activates_サテライトオーブ・スキリシア_p5773
+        quote: 「サテライトオーブ・スキリシア」　詠唱の直後、イアテムの姿が縦に割れる。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0174_カーティス_appears_イアテムの内部_p5773
+        quote: 雛鳥が卵の殻を破るように、イアテムの内側から現れたのは緑色の波打つ長髪を肩に流した黒衣の麗人だった。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_クレイの信念]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0174_クレイの信念_enables_呪力_p5773
+        quote: 彼の信念はそのまま呪力となって手刀を取り巻き、イアテムの呪剣を上回る鋭さと力強さを実現している。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0174_オルヴァ_attacks_クレイ_p5774
+        quote: オルヴァの足から更なる衛星が撃ち出され、発生した呪力により再度の加速。爆発的に詰められた間合いにクレイは対応しきれない。掌打がガード越しにクレイを打ち抜き、軋みを上げる腕ごと背後に吹っ飛ばされる。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_兎耳の少年]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0174_兎耳の少年_appears_カーティスの内部_p5774
+        quote: もその肉体が裂けて中から新たな人物が出現した。今度は左右非対称の兎耳を持った少年だ。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少年]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_少年_says_戦いの終結_p5774
+        quote: 「気付かなかった？　もう僕たちの戦いはほとんど終わっているんだよ」
+        locator: {}
+        spoiler_after: ch0174
+    visual:
+      observations:
+      - event_ref: E_ch0174_少年_transforms_青年、老人、屍_p5774
+        quote: その姿が青年、老人と変化して行く。成長と老いの果てに滅びを迎えた屍は、腐り落ちていく目をかっと見開く。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_隻眼の男]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_隻眼の男_says_クレイへの誘い_p5774
+        quote: 「舞台を整え、形式をなぞらせる。男どもによる王権争奪は成立し、英雄の種は私のうちにある――あとはお前だ、クレイ。誘えば来ると信じていたぞ」
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_リールエルバ_names_迷宮の主_p5775
+        quote: 「私はリールエルバ。私こそがこの迷宮の主、地下のトップアイドル・狂イ姫」
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_美貌の男]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0174_美貌の男_attacks_クレイ_p5775
+        quote: 美貌の男の右腕が爆ぜる。　幾重にも折り畳まれた鋼鉄の機械義肢が伸びて大蛇のように舞い手を襲った。　クレイは舞踏を強制的に中断させられて地面に叩き伏せられてしまう。
+        locator: {}
+        spoiler_after: ch0174
+    speech:
+      observations:
+      - event_ref: E_ch0174_美貌の男_says_クレイの弱さ_p5775
+        quote: 「お前は弱すぎる。そんな剣ではこの俺を御することなどできん」
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_リールエルバミヒトネッセ_says_承認による真実性_p5776
+        quote: 「私はこんなふうに崇められている。承認を得ている。リールエルバとして認められている。たとえなりすましだって、それは今この瞬間には真実なのよ？　なら私は、本物でもあるの。少なくとも舞台の上ではね」
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ファンたち]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0174_ファンたち_other_悪夢めいた感情_p5777
+        quote: 恥ずかしげも無く剥き出しの性欲を抱き枕にぶつける全裸中年男性、ポルノ画像にアイドルの顔を貼り付けたコラージュを拡散させる者、道行く異性に『いやらしい格好で誘っているんだろう』と怒鳴りつける者、マント一枚で糞尿を垂れ流す変質者、溜め込んだ体液を手にべっとり付けて握手会に赴く者、ＳＮＳの公式アカウントに卑猥な言葉を発する者――悪夢めいた感情の全てが一箇所を目指して解き放たれようとしていた。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_ミヒトネッセ_says_リビドーの増幅_p5777
+        quote: 「私は欲動によって増幅される彼女の力をもっと大きくしてあげただけ」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_says_ガイノイドの魔女_p5778
+        quote: 「褒め言葉だわ、王子さま。だって私はガイノイドの魔女。そのように造られた卑しい雌豚だもの」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_says_リールエルバの本体_p5778
+        quote: 「さて問題です。欲望の誘蛾灯、淫蕩の餌と成り果てたリールエルバの『本体』は今頃どうなっているのでしょう？
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_says_信奉者の貶め_p5778
+        quote: 「リールエルバを前にした信奉者たちはもはや理性無き豚。脳髄を海綿体に置き換えて、荒い鼻息だけで呼吸する下劣な獣。女王の権威を貶めるための道具よ」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_says_女神の権威失墜_p5778
+        quote: 「これはね、あの子が今までにしてきた行動の結果に過ぎないの。そう見られる事を望んだのはリールエルバ本人。女神の権威はじきに失墜する」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_says_六王との関係_p5779
+        quote: 「六王たちとは寝てないわ――そんな隙があるはずもない。けどね、彼らは現世に甦るにあたってイアテム配下の戦士たちを寄り代にした。彼らと事前に情を交わしていれば、彼らが転生したことで事後的に私は『英雄と交わった』ことになる」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_says_英雄の転生_p5779
+        quote: 「私は性玩具の魔女。男の精を胎内で受け止め、育み、子宮という異界の呪力によって再生を促す――私という蛹を破る蝶のように、かくりよ英雄たちは女の屍を踏み越えて転生するの。そして彼らは異界転生者となるの」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_says_冥土忍法異界転生_p5780
+        quote: 「これぞ冥土忍法『異界転生』――六王たちは役目を終えた。あとは『森』を掌握して、『冥道』と『子宮』を揃えて降臨を待つだけ。
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_says_王の剣_p5780
+        quote: 「新王アルト・イヴニルの勅命を受けた私は王の剣となって古き女王を弑するの。お前たちを殺して、お前たちの形をそっくり引き継ぐ。破壊と再生の理をここに示すというわけ。
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_threatens_クレイ_p5780
+        quote: 「あなたを抱くわ。その精の全てを私の中にぶちまけなさい。そうすれば私はもうすぐ王子さま、古くて悪いねずみの王さまを退治するの！」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_names_ナットクラッカー_p5782
+        quote: 「私はくるみ割り人形。ねじの壊れた性玩具」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_says_マザコン_p5782
+        quote: 「こんなにべちゃべちゃにしてくれちゃって。変態。異常性欲者。このマザコン」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_says_トリシューラの正しさ_p5790
+        quote: 「やっぱり最低ねあいつ。だからトリシューラが残るのが正しいんだって、こんなの明らかだっていうのに、どいつもこいつも分からず屋ばっかり――」
+        locator: {}
+        spoiler_after: ch0174
+    action:
+      observations:
+      - event_ref: E_ch0174_ミヒトネッセ_attacks_クレイ_p5781
+        quote: 人形の手はその材質とは裏腹にやわらかい動きでクレイの身体を愛撫していく。背を、肩を、二の腕を、首筋を、頬を――直接的な場所へは決して手を伸ばさず、焦らすような干渉を繰り返す。
+        locator: {}
+        spoiler_after: ch0174
+    visual:
+      observations:
+      - event_ref: E_ch0174_ミヒトネッセ_reveals_くるみ割り人形_p5782
+        quote: 持ち上げられた布の奥深く、球体関節の特徴が目立つ三角形の腰――両足の付け根でカタカタ、カチカチと小気味よく音が鳴る。
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ミヒトネッセ_transforms_狂イ姫_p5791
+        quote: 浮遊する鋼鉄の翼と近未来的な外殻を纏った緑髪の歌姫。　ツーサイドアップの髪型はアイドルらしく、マイクから流れる歌声は非人間的。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファウナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0174_ファウナ_appears_ミヒトネッセの襲撃_p5783
+        quote: 「破廉恥はそこまでよ」　黄金の輝きが世界を埋め尽くし、横殴りの衝撃がミヒトネッセを襲う。
+        locator: {}
+        spoiler_after: ch0174
+    speech:
+      observations:
+      - event_ref: E_ch0174_ファウナ_says_衰え_p5784
+        quote: 「少し、無茶をしてしまったわ。油断――いいえ、衰えたのね、単純に」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ファウナ_says_黄金のドレスの真実_p5784
+        quote: 「まずは、嘘を吐いてごめんなさい。あなたが『黄金』に選ばれなかったのはね、舞踏の技術が未熟だったからではないの」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ファウナ_asks_クレイ_p5785
+        quote: 「クレイ、最後のレッスンよ。どうかあなたの手で私を貫いて」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ファウナ_says_クレイの本質_p5786
+        quote: 「あなたは王国の剣。六王を御する女王の手綱。けれど、今のままではあなたは六王には敵わない――それはあなたの本質が戦い競うことではなく、自己を高めることに寄っているから。あなたが攻め滅ぼす英雄ではなく、守り侍る従者だから」
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ファウナ_teaches_クレイ_p5786
+        quote: 「あなたの愛は独りよがり――唯一の愛だけを見ているようで、きっと小さな自分の世界しか見えていない。クレイ、王子たらんとするならば、まずは周囲に目を向けるの。善も悪も無い、混沌そのままのファンを直視なさい。
+        locator: {}
+        spoiler_after: ch0174
+      - event_ref: E_ch0174_ファウナ_asks_クレイ_p5787
+        quote: 「私を殺して、クレイ。あなたの剣がなまくらでないと、人を殺せる刃だと証明するのよ。そうすることではじめて王国の剣は完成する」
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_死者のドレス]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0174_死者のドレス_defines_矛盾した在り方_p5785
+        quote: 「この『死者のドレス』は持ち主と生涯を共にする――生者しか身に纏えない、けれど死に寄り添わなければ選ばれない、そんな矛盾したドレス。持ち主の魂から黄金のドレスを引き剥がすということは、一対の矛盾した在り方を終わらせるということ。
+        locator: {}
+        spoiler_after: ch0174
+  first_appearance_candidate: true

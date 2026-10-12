@@ -1,0 +1,268 @@
+episode: ch0081
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0081_アキラ_thinks_年齢_p2956
+        quote: いや、前世の基準で言えば俺は『生後約九ヶ月』とされるのだが、まあ再構成型の転生で正確な年齢も何もないだろう。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_アキラ_other_ファルファレロ_p2967
+        quote: 「ファルファレロ、お前はその名前をトリシューラに下賜された時、これまでに築き上げてきた人生の全てを捨てたはずだ。なら、その決意にいちいち『不義』だの『不倫』だのと余計な言葉をくっつける必要は無い。欲するがままに動け。俺に相談する意味などない」
+        locator: {}
+        spoiler_after: ch0081
+    action:
+      observations:
+      - event_ref: E_ch0081_アキラ_uses_遠当て_p2988
+        quote: 左腕を空間制御の義肢に換装。　サイバーカラテにおける【遠当て】を繰り出す。すなわち距離を短縮することによる遠距離からの打撃。無防備なイアテムを今度こそ完璧に捉えた。
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファルファレロ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0081_ファルファレロ_asks_アキラ_p2956
+        quote: 「師範代、折り入ってお願いが」　トリシューラの配下にしてサイバーカラテユーザーの集団【マレブランケ】の一人、ファルことファルファレロが俺の所にやってきて頭を下げたのは、今日の稽古が終わった直後だった。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_ファルファレロ_flees_店_p2968
+        quote: 勢い良く立ち上がり、大きな声で、「僕が間違ってました！　これから告白してきます！」　と叫ぶ。やめろ早まるな。　　止める間もなく、ファルは走り出していく。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_ファルファレロ_gives_セージ_p2987
+        quote: 「受け取って下さいセージさん、届け僕の愛！」　亀裂の入った眼鏡を光らせながらよろよろと立ち上がったファルが、腰の入らない姿勢でそこだけびしりと伸びた指先でセージを示す。　虚空を走っていく文字列が、少女を取り巻く水流コンピュータに吸い込まれていった。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_ファルファレロ_uses_クリミナトレス_p2987
+        quote: 低く呻くイアテムの周囲に、燃える翼を象ったエンブレムが次々と表示されていく。視界を埋め尽くし動作を妨害する幻覚ウィルスだ。「これはまさか、中傷者かっ」　クリミナトレス
+        locator: {}
+        spoiler_after: ch0081
+    speech:
+      observations:
+      - event_ref: E_ch0081_ファルファレロ_confesses_恋_p2964
+        quote: 「実は僕、そのー、気になっている人がいるんです」　眼鏡を弄る少年の告白に、間抜けな答えしか返せない。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_ファルファレロ_asks_不義の恋_p2966
+        quote: 「いいえ。師範代に教えていただきたいのは、ずばり不義の恋についてです」
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_ファルファレロ_loves_セージ_p2990
+        quote: 「ドライで辛辣なセージさんにどうでも良さそうに罵倒される――これだ、これこそが僕に本当に必要なものだったんだ！」
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラコーダ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0081_マラコーダ_appears_美女_p2957
+        quote: 端末で連絡すると、男性の肉体を持つ美女はすぐさまやってきた。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_マラコーダ_wears_カーディガン_p2957
+        quote: ゆったりとしたカーディガンと長い脚にフィットしたデニム生地が上下のコントラストを生んでいる。アンバランスなようでしっかりと着こなしているのは、ドーラーヴィーラの専属モデルだけあると言うべきか。
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_クロウサー社]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0081_クロウサー社_functions_as_外食チェーン_p2958
+        quote: 俺たち三人が向かったのは、最近ガロアンディアンに進出してきたクロウサー社系列の外食チェーン店だった。　比較的高めの価格帯だが、ペリグランティア製薬との技術提携によって開発された薬膳が身体機能を向上させると評判になっており
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_夜警団]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0081_夜警団_has_property_義肢爆発_p2958
+        quote: 全員が第五階層の物質創造能力によって義肢を獲得した者たちであり、トリシューラの許可が下りた時のみ発砲が可能という安全装置付きの武力だ。　銃を悪用しようとすると義肢が爆発するので、皆よく言う事を聞いて仕事に専念している。
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ステージ]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0081_ステージ_functions_as_呪力発生_p2959
+        quote: 『文化』を発信することで呪力を発生させる、いわば人力発電のようなものらしい。
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_マレブランケ]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0081_マレブランケ_bonds_トリシューラ_p2959
+        quote: 「私たち【マレブランケ】は女王陛下と使い魔である貴方の爪となりあらゆる敵を討ち滅ぼすべく身を粉にして働く所存――どうかこき使って頂戴ね」
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_六王]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0081_六王_names_高位再生者_p2960
+        quote: 偉大なる女王に仕えし六人の高位再生者。　オルクス＝ハイ　【死人の森】よりも更に古い六つの王国から死後甦った偉大なる六王。
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_男]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0081_男_fights_アキラ_p2961
+        quote: 目が、合った。　遠く離れているにも関わらず、その時何故か俺は斬り殺される、と錯覚した。
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0081_ちびシューラ_threatens_アキラ_p2962
+        quote: おまけにバイト上がりの時間を聞こうとしただけだというのに左腕をジャックされて自分で自分を殴ることになってしまった。
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラズリ・ジャッフハリム]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0081_ラズリ・ジャッフハリム_other_店員_p2962
+        quote: とにこやかに接客しているのはなんかどこに行ってもバイトしてるお馴染みの店員さん、ラズリ・ジャッフハリムである。本業は探索者とか請負人のはずだが、なんかフリーターが主になってないか。
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セージ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0081_セージ_names_水使い_p2965
+        quote: かつて敵対した公社の幹部、四姉妹の次女。【水使い】セージ。公社が誇る一級言語魔術師。
+        locator: {}
+        spoiler_after: ch0081
+    action:
+      observations:
+      - event_ref: E_ch0081_セージ_loves_レオ_p2976
+        quote: 熊のぬいぐるみを強く抱きしめる少女こそ、ファルが好意を抱いている相手なのだが――どう見てもレオ以外眼中に無い。抱きしめたぬいぐるみから綿がはみ出しているだけでなく、鼻血とか涎とか色々出てはいけないものが出てしまっている。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_セージ_uses_水流コンピュータ_p2982
+        quote: くまのぬいぐるみ型の端末から無数の文字列を走らせ、水流コンピュータを周囲で流動させて不正アクセスを仕掛ける。「脳を焼き切っちゃえば叱られる心配ゼロ！　レオくんのために頑張るし！」
+        locator: {}
+        spoiler_after: ch0081
+    speech:
+      observations:
+      - event_ref: E_ch0081_セージ_other_ファルファレロ_p2990
+        quote: 「ファルくんだっけ？　さっきはありがとね」「ふぁ？！　はは、はいっ、とと、当然のことをしたまでで」　どもりながらあたふたとする少年に、「なんかキモいね？」　と辛辣な事を言い放ってさっさと離れていく少女。
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0081_クレイ_asks_女王の猟犬_p2970
+        quote: 「殺気には気付いたようだ――しかし、あれが言われる程の男とは思えんな。本当にあれが【転生者殺し】に勝利した【女王の猟犬】なのか」
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ダモクレスの剣]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0081_ダモクレスの剣_appears_巨大な剣_p2971
+        quote: 「遂に出るのか――【ダモクレスの剣】が」　クレイの呟きと共に、刃が振り下ろされる。　それは長大な直剣だった。勢い良く落下して三人を圧殺するかと思われたが、それは上空で静止した。
+        locator: {}
+        spoiler_after: ch0081
+    symbolic:
+      observations:
+      - event_ref: E_ch0081_ダモクレスの剣_functions_as_大量破壊兵器_p2972
+        quote: 槍が外敵に向けられるものならば、剣は内敵に向けられるもの。　『正しい秩序』を維持し、時に『間違った秩序』を処断する。
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イアテム]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0081_イアテム_other_魔女殺し_p2973
+        quote: 揺れる振り子の切っ先が、右手に立つ男を示した。　重く巨大な肉体が、静かに動き出す。「――俺か。では、参ろう」
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_イアテム_attacks_トリシューラ_p2979
+        quote: トリシューラの反撃の直前に矢を放ち、跳躍してその上に乗る、更にそこから矢を射て同じ事を繰り返しながらジグザグにこちらへと接近してきているのだった。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_イアテム_uses_ウォーターカッター_p2980
+        quote: 襲撃者が柄のように握りしめる矢、その矢尻から長く伸びる薄い水流の刃が氷の右腕を上から押し切ろうとしていた。　加圧された水流の速度は恐らく音速の数倍以上。当たった部分を吹き飛ばすそれはウォーターカッターと呼ばれる工業用の技術――呪術だった。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_イアテム_defeats_マレブランケ_p2985
+        quote: 共有している【サイバーカラテ道場】の脆弱性を突いたクラッキング。　高度な連携を可能とするが故に、一度侵入されてしまえば同時に情報を欺瞞され、手玉にとられてしまうという弱点が露呈していた。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_イアテム_escapes_アストラル体_p2989
+        quote: 「ていうか、お師匠様は水コンピュータで実体と完璧に同一構造のアバターを作ってそこにアストラル体を憑依させて操るの。本当の肉体はどこかに隠れてて、アストラル体も一部だけ囮として残してどっか逃げてったと思う」
+        locator: {}
+        spoiler_after: ch0081
+    speech:
+      observations:
+      - event_ref: E_ch0081_イアテム_names_白眉_p2982
+        quote: 「名乗らせてもらおう。我が名は白眉のイアテム！　【変異の三手】が右副肢にして副長である！」
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0081_レオ_appears_猫耳の少年_p2975
+        quote: 自動ドアが開いて中から猫耳の少年が現れる。目ざとく――いや、耳ざとく俺に気がついた。「あ、アキラさんだ！」
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0081_トリシューラ_uses_指ミサイル_p2978
+        quote: トリシューラが左手を突き出すと、五指がそれぞれ根本から分離し、断面から炎を噴射しながら飛び立っていく。　超小型ミサイルと化したトリシューラの指が次々と襲撃者のいる屋上に着弾。
+        locator: {}
+        spoiler_after: ch0081
+      - event_ref: E_ch0081_トリシューラ_kills_イアテム_p2988
+        quote: 小型ミサイルが至近距離で炸裂。　イアテムは首から上を爆発四散させた。
+        locator: {}
+        spoiler_after: ch0081
+    speech:
+      observations:
+      - event_ref: E_ch0081_トリシューラ_reveals_セージの年齢_p2991
+        quote: 「ていうか、セージって確かアストラル体を若い肉体に憑依させ続けてるから、実年齢がそれなりのそこそこだったはずなんだけど」
+        locator: {}
+        spoiler_after: ch0081
+  first_appearance_candidate: true

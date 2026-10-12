@@ -1,0 +1,388 @@
+episode: ch0184
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0184_コルセスカ_fights_リールエルバ_p6087
+        quote: 全く同時に演技を開始した両者は、お互いの表現を塗りつぶすようにして自己の存在を主張していく。光の軌跡を残して舞うコルセスカの滑りを、リールエルバの背後から放たれたコウモリの群が覆い隠す。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_コルセスカ_other_共演_p6087
+        quote: コルセスカが行ったのは一種の共演強制だった。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_コルセスカ_makes_即興のカウンター_p6087
+        quote: 竜巻のように激烈なスピンと共にスケート靴が周囲の穢れをまとめて切り刻み、冬の旋風と化した氷晶が舞い上がって夜天を彩る星となる。闇を前提とした光のイメージをマジカルアピールに組み込む即興のカウンター。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_コルセスカ_uses_複合呪術_p6088
+        quote: コルセスカがやったのは協力の強制と魅力的演技の複合呪術だった。敵対者の世界観を自分なりに解釈して最適な形に落とし込み、その上で自分の世界を魅せる。
+        locator: {}
+        spoiler_after: ch0184
+    visual:
+      observations:
+      - event_ref: E_ch0184_コルセスカ_transforms_衣装_p6130
+        quote: コルセスカの衣装が激変していく。スカートはイチジクの葉のように。五つに裂けた葉は掌か扇といったところだが、シャープなデザインに仕上げた結果としてコルセスカらしい氷のイメージと重なっていた。クリアな氷の羽はより精緻な御使いの白翼に変貌し、右足のみを這い伝う茨、紫と黒の炎を纏った鎖の幻が手袋と重なるといった変化が『可憐な雪の妖精』というイメージを破壊し、新たな側面を創造していく。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0184_リールエルバ_attacks_コルセスカ_p6087
+        quote: リールエルバの背後から放たれたコウモリの群が覆い隠す。マジカルアピールによる相手のアピールの封殺は、競い合いという形式すら放棄した陰惨なつぶし合いに等しい。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_リールエルバ_uses_物語構築_p6088
+        quote: ドラマ仕立てのアピールが強調するのは暗い負の感情と穴に突き落とされる場面から始まる物語。美しい弱者や可憐な敗者が上を目指して抗う姿はいつの世も人の心を捉えて離さない。コルセスカの圧倒的輝きを前提とした魅力の利用。これも協力の強制。そして呪文による物語構築だ。
+        locator: {}
+        spoiler_after: ch0184
+    speech:
+      observations:
+      - event_ref: E_ch0184_リールエルバ_remembers_母の教え_p6115
+        quote: 「可愛いリル。賢いリル。その衝動は私の教え子に相応しい。教師として、とても誇らしく思います」 雑音じみた響きは、闇の底から響く母の言葉だ。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_邪視者]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0184_邪視者_defines_ファシネイター_p6088
+        quote: ゆえに小鬼に堕ちることを望まない邪視者は他者に己の傲慢を承認させようとする。必要なのは他者との調和、妥協、あるいは協力の強制、それとわからぬような洗脳、誘導。人を惹きつけ納得させる程の強烈なカリスマ。魅力を持つ者、すなわち邪視者。ファシネイター
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_トリシューラ]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0184_トリシューラ_remembers_シナモリアキラとの会話_p6089
+        quote: 「嫌いだけど嫌いじゃないし、好きだけど好きじゃない、みたいな感じかな。あの子は私の裏返しだから」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_トリシューラ_other_シナモリアキラ_p6090
+        quote: 「始祖吸血鬼のアキラくんとか、カシュラムの我神十ニ限界とか、揃いも揃ってやることがマレブランケの猿真似だなんて創意工夫が足りなさすぎる」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_トリシューラ_asks_チョコリリ組_p6091
+        quote: 「いよっし。それじゃあちょっと作戦会議しよう。そこのチョコリリ組、『心話』のチャンネル繋いでくれる？」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_トリシューラ_other_シナモリアキラの最適使用者_p6091
+        quote: 「やっぱり下手っぴには任せらんないなー。どう考えてもアキラくんを一番上手く使えるのは私なんだもん」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_トリシューラ_other_ライブ_p6094
+        quote: 「私たち三人で」「ライブをする、ですか」「にあ？」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_トリシューラ_other_E-Eの処理_p6112
+        quote: 「バージョンアップした『Ｅ－Ｅ』は呪力を捉える際、『尋』という情報処理を行って表層の『シナモリアキラ』に認識を届けるの」
+        locator: {}
+        spoiler_after: ch0184
+    relationship:
+      observations:
+      - event_ref: E_ch0184_トリシューラ_thinks_リールエルバとの関係_p6089
+        quote: ある意味でリールエルバはもうひとりのトリシューラだ。その出自も運命も、在り方も渇望も。人工姉妹トリシルシリーズとして定められたコンセプトやデザインすらも。
+        locator: {}
+        spoiler_after: ch0184
+    action:
+      observations:
+      - event_ref: E_ch0184_トリシューラ_uses_鮮血の剣_p6090
+        quote: 使い慣れない鮮血の剣を軽く握り直す。アンドロイドは猫姫に敗れて塵と消えつつあった白いアキラに切っ先を向けた。すると飛び散った鮮血と肉片は螺旋を描くように鮮血の刀身に吸い込まれてく。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_トリシューラ_other_ライブ_p6123
+        quote: 「いいやできるね！ 地下アイドルブームで沸騰中の第五階層では、時空なんてもうガバガバなんだから！ 渾身のマジカルアピール、それもドラマ性とイメージ性の高い演出でなら、きっと過去にだって届く！」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_トリシューラ_uses_外側の邪視_p6127
+        quote: 「足りないものは、外側からもってくればいい」 邪視と使い魔。浄界を、創造した世界を安定させるために必要な相互協力の原則。ライブには観客たちの幻想もまた必要で、人工知能はそうした欲求を読みとることに長けている。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_トリシューラ_other_機甲箒_p6128
+        quote: トリシューラは機甲箒に跨がりつつ眼下でセリアック＝ニアたちが舞台を成功させつつあるのを確認してひとつ頷いた。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_トリシューラ_gives_コーデ_p6128
+        quote: 「セスカ、新しいコーデ、行くよ！」 夢に向かって、今度はトリシューラが声をかける。指に挟んだカードを手首のスナップをきかせて投げつける。
+        locator: {}
+        spoiler_after: ch0184
+    visual:
+      observations:
+      - event_ref: E_ch0184_トリシューラ_transforms_衣装_p6094
+        quote: 黒ずんだ血霞を裂いて、トリシューラの衣装が更新された。変幻する体表面テクスチャ。まだこの段階では手探りだが、着実に答えに肉薄しつつある。退廃的でグロテスク、露悪的でセンシティブ。夜と死を漂わせつつ、黒い夜会服を身にまとって戦場を往く鮮血の魔女。
+        locator: {}
+        spoiler_after: ch0184
+    symbolic:
+      observations:
+      - event_ref: E_ch0184_トリシューラ_other_コルセスカ_p6131
+        quote: それは一つの聖婚の形。コルセスカがトリシューラを着るという、かつて行われた再演劇の繰り返し。きぐるみの内にコルセスカがいて。遊戯制御器の外にトリシューラがいる。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0184_シナモリアキラ_other_トリシューラ_p6090
+        quote: 彼が協力を強制されることを防げなかったのは、彼自身がそれを望んでしまったから。彼がどうしようもなくトリシューラの『使い魔』であったからだ。
+        locator: {}
+        spoiler_after: ch0184
+    action:
+      observations:
+      - event_ref: E_ch0184_シナモリアキラ_appears_ステージ_p6131
+        quote: 約束が果たされると同時、意識はそこに生成された。ここにいる。いつだって二人のそばに。それが俺の、シナモリアキラの意思なのだから。「おかえりなさい、アキラ」「さあ、新しいアキラくんを始めよう」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_シナモリアキラ_activates_射影三昧耶形・四番_p6133
+        quote: 「Ｎｏ．４『イストリン』エミュレート！」 かくして俺は都市となり、時空間はアキラ化する。
+        locator: {}
+        spoiler_after: ch0184
+    visual:
+      observations:
+      - event_ref: E_ch0184_シナモリアキラ_other_九層の秩序_p6132
+        quote: ――『俺たち』は見た。九層の秩序。多層化された心的領域を遊泳していく超上位自我。炎を纏った御使いたち。無限大の宇宙、天体を模した多層構造は人工の呪術脳。大地と太陽、四つの衛星と四つの遊星。天の構造は夜光天、幽冥天、精霊天、太陰天、太陽天、土塊天、火力天、水晶天、天堂天、天球層と連なり紀神と紀竜がそれらを統べる。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_鮮血の剣]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0184_鮮血の剣_functions_as_王権の呪い_p6090
+        quote: 死を吸い込む王者の剣。ダモクレスの剣すら砕いてみせたそれは、鮮血呪の応用形でありトリシューラの王権でもある呪いの形だ。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0184_セリアック＝ニア_uses_圧縮言語_p6091
+        quote: ただちに圧縮言語による思念会議が行われた。「にあ。にあにあにあ。にーあにあ」「にー？」「にあ！」「にゃおーん」「みあーおう」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_セリアック＝ニア_defines_法の剣_p6092
+        quote: 『法の剣』たるファナハード公家の聖姫にはドラトリア王が暴虐をもって民を支配した時、王を討ち滅ぼす使命があるのだという。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_セリアック＝ニア_other_リールエルバの計画_p6092
+        quote: 「今はそれで全部終わりにするつもりはありません。だって姉様はセリアのことをわかってます。このままだと姉様の思い通りです。セリアは、それが嫌です」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_セリアック＝ニア_other_リールエルバの意図_p6093
+        quote: 「重要なのは、討ち滅ぼされる王が同時に弱者でもあるという構図です。暴虐に抵抗するための秩序の剣は、時に暴力に訴えざるを得なかった者を正義の名の下に抑え付けるもう一つの暴力である――姉様がこの舞台を整えてまで再演したかったのは、加害と被害の両義性、あるいは双方向性です。」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_セリアック＝ニア_other_カーティスの心情_p6119
+        quote: 「これは姉様による公開自殺の舞台なのだと、セリアはそう考えます。姉様はセリアに殺される為にこんな無謀な戦いを始めたんです」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_セリアック＝ニア_other_カーティス_p6120
+        quote: 「姉様の今の心情を率直に述べるなら、それは『甘え』です。このシスコン。セリアがいないと本当にダメです。えっとあとは、そう、姉様のばーか」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_セリアック＝ニア_other_救出_p6122
+        quote: 「今度はセリアが、セリアたち三人が姉様を連れて行きます。この歌と踊り、マジカルアピールで！」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_セリアック＝ニア_other_オリジナル楽曲_p6124
+        quote: オリジナルの楽曲なのだろう。歌詞は日常の何気ない楽しさをお菓子になぞらえたでたらめなもので、独特のつぎはぎめいた言葉選びに癖を感じた。
+        locator: {}
+        spoiler_after: ch0184
+    visual:
+      observations:
+      - event_ref: E_ch0184_セリアック＝ニア_arrives_魔竜の背_p6117
+        quote: 孤独の王は玉座から立ち上がり、魔竜の背に飛び乗ってきた少女を見た。黄色を基調としたいつものドレスーーをさらにアレンジしたキュートでポップな舞台衣装。
+        locator: {}
+        spoiler_after: ch0184
+    action:
+      observations:
+      - event_ref: E_ch0184_セリアック＝ニア_fights_カーティス_p6118
+        quote: 硬質な音を響かせて激突する爪と翼手。魔竜の背を決戦の舞台に、猫獣と天鼠の死闘が演じられていた。カーティス＝リールエルバが瘴気を拡散させればセリアック＝ニアが香水でそれを防ぐ。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_セリアック＝ニア_travels_ドラトリアの過去_p6126
+        quote: 向かう先はドラトリアの遙かな過去。協力してしまった当の本人の始まりの地。タイムマシンの大きなスリッパに乗って、三人は巡る舞台背景と共に浮遊島の浮かぶ空へ、界賊たちが秘宝を求めて旅する混沌の海へ、亜竜たちが地上の覇権を握る古代へと次々に転移して、最後に影絵の神殿にたどり着く。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_魔竜]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0184_魔竜_is_located_影_p6096
+        quote: 「けど、このやり方では魔竜の本質には届いていないんだ。なぜならここにあるのは、魔竜の影だから」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_魔竜_is_made_of_影_p6099
+        quote: 「未来のリールエルバが手足なら、頭であるカーティスの『紀源』は過去にある。魔竜も同じ。今ここにいるあの巨大ネズミは、過去に存在する魔竜本体が現代に投げかけている影そのものなんだ」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_魔竜_is_located_関係性の狭間_p6100
+        quote: 「うん、そうなんだと思う。あれは私たちの中に在る。正確には、私たちとカーティスたちとの関係性の狭間に存在する『使い魔』なんだ」
+        locator: {}
+        spoiler_after: ch0184
+    name:
+      observations:
+      - event_ref: E_ch0184_魔竜_defines_罪_p6101
+        quote: 「魔竜とは、『罪』」
+        locator: {}
+        spoiler_after: ch0184
+    action:
+      observations:
+      - event_ref: E_ch0184_魔竜_other_E-Eの処理_p6113
+        quote: 「ところが、魔竜レーレンタークはその過程に介入できる。『Ｅ－Ｅ』が正しく情報を処理しても、表層の『シナモリアキラ』に正しく入力されず、『異なる名前』にデータが出力されてしまう。そしてアキラくんというシステムそのものがずらされていく」
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0184_カーティス_uses_影占い_p6097
+        quote: 「古代のカーティス、あるいはその前身であった魔竜の霊媒は、今で言うところの『使い魔』を得手とするまじない使いだったんです。そこでカーティスが行っていたのは『影占い』。この世ならざるあの世に干渉する技術――『あの世』というのは、死後や異界のみならず、過去や未来も含むのです」
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_カーティス_other_幻想_p6126
+        quote: 『私の妹は世界一可愛い』という真理に否応もなく直面させられたカーティス＝リールエルバはその認識を自分の王としての権能、魔竜が持つ絶対の権威よりも妹の可愛さを上位に位置づけた。
+        locator: {}
+        spoiler_after: ch0184
+    speech:
+      observations:
+      - event_ref: E_ch0184_カーティス_other_生け贄の宿命_p6116
+        quote: 哀れな生け贄としての宿命、非業の死という末路を全うするための惨めな一生を体現するための有り様。この身は見せ物小屋で飼われる道化の王、所詮儚い命であるならば、今こそ笑い物にされてみせましょう。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_古代ドラトリア語]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0184_古代ドラトリア語_has_property_流動的な時制_p6097
+        quote: 「古代ドラトリア語ではセリアたちが普段使っているような意味での『時制』の運用がされていませんでした。全ては可能なもの、取り得る形として記述され、過去現在未来は文脈無しでは等しいものとして扱われます」
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_単眼竜]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0184_単眼竜_appears_沼地_p6102
+        quote: 新たに出現した人物の厳かな声が響く。威圧的な風貌の男だった。薄い病衣が分厚い筋肉にぴったりと張り付き、肢体の輪郭をくっきりと浮き上がらせている。裸の男は少年を片手で吊し、巨大ネズミを踏みつけた。
+        locator: {}
+        spoiler_after: ch0184
+    name:
+      observations:
+      - event_ref: E_ch0184_単眼竜_has_property_名前_p6102
+        quote: かつては六王とまで呼ばれた単眼の竜。存在するだけで全てを脅かすこの魔獣に名前は無い。野生の暴威には本来呼び名が無いからだ。
+        locator: {}
+        spoiler_after: ch0184
+    action:
+      observations:
+      - event_ref: E_ch0184_単眼竜_kills_魔竜の写し身_p6102
+        quote: 裸の男は少年を片手で吊し、巨大ネズミを踏みつけた。魔竜の写し身はぐしゃりと潰れて絶命する。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_単眼竜_other_使い魔_p6105
+        quote: 単眼からこぼれ落ちていく涙から次々に創造される使い魔たちは『単眼巨人』『蟲視』『凶作』の名を関する妖魔であり、一つ一つの個体が甚大な被害をもたらす災厄であった。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_単眼竜_kills_赤子アキラ_p6105
+        quote: 握り潰す。血を飛散させながら絶命した肉塊アキラは忌まわしい呪力を宿した即席の杖となり果てた。
+        locator: {}
+        spoiler_after: ch0184
+    speech:
+      observations:
+      - event_ref: E_ch0184_単眼竜_threatens_黒いアキラ_p6103
+        quote: 「そして小僧。俺様の財宝を傷つけ、あまつさえ俺様の許し無くまじないの交易を行うとはどういう了見だ」
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_黒いアキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0184_黒いアキラ_transforms_赤子アキラ_p6104
+        quote: 「ばぶー」 赤子アキラへの転生。『老いては子に従え』という直前の呪文を逆手にとった戦術である。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0184_レオ_appears_カーインのそば_p6107
+        quote: 何よりも異彩を放つのは、両手両耳と同様に闇と光を湛えた双眸だ。オッドアイ、ヘテロクロミア、邪視者たちの世界では二重単眼と呼ばれる特異体質。
+        locator: {}
+        spoiler_after: ch0184
+    speech:
+      observations:
+      - event_ref: E_ch0184_レオ_asks_トレミー_p6108
+        quote: 「トレミー、お願い」 少年がそう言って左手を前に出す。すると宇宙が彼の手中で無限の広がりを見せた。闇の左手が握るのは星。
+        locator: {}
+        spoiler_after: ch0184
+    action:
+      observations:
+      - event_ref: E_ch0184_レオ_defeats_単眼竜_p6108
+        quote: 「お眠り、暴虐の王。今はまだその時ではない」 無限の光を食らいつくした竜は膨らんだ腹を撫でながらごろんと地面に横になり、そのまま大きないびきをかき始めた。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_レオ_disappears_沼地_p6109
+        quote: 「僕は期待している。彼女たちだけじゃなくて、あなたにもだよ、カーイン。答えは既に、そこにある」 言い終えた途端、少年の姿は忽然とかき消えた。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0184_カーイン_finds_紀命点_p6111
+        quote: カーインが穿つべき紀命点は、関係性の狭間にあったのだ。カーインは再び複数人に分かれ、それぞれがそれぞれの胸を素早く突いた。自分で自分を攻撃し、また自分の中に衝突する他人を感じていた。
+        locator: {}
+        spoiler_after: ch0184
+      - event_ref: E_ch0184_カーイン_attacks_シナモリアキラ_p6114
+        quote: 「フィードバック。私が知る武芸の鍛錬もまた、因果の流れの中にある。ならばこの一撃、サイバーカラテという武芸への『礼』と受け取れ！」 カーインの四肢が型をなぞり、貫手が想定されたサイバーカラテユーザーを穿つ。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チョコリリ組]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0184_チョコリリ組_other_ライブ_p6122
+        quote: 即席のライブステージが完成し、カードを手にした『チョコレートリリー空組』が瞬時に揃いのアイドル衣装を身に纏った。真の呪術戦が始まろうとしていた。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五階層]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0184_第五階層_transforms_シナモリアキラ_p6134
+        quote: その日、第五階層は新たな名を得て転生する。世界槍の中心に広がる泡の異界。ゼオーティアが孕む内世界のひとつ、その名をシナモリアキラといった。
+        locator: {}
+        spoiler_after: ch0184
+  first_appearance_candidate: true

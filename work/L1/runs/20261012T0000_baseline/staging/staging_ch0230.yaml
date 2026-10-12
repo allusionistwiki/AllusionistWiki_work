@@ -1,0 +1,178 @@
+episode: ch0230
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_カタリア草]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0230_カタリア草_has_property_精神賦活_p7590
+        quote: 一般的には蚊避けのまじないだが、猫にとっては酩酊感と踊り出したくなるような高揚をもたらす精神賦活の薬草だ。
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0230_セリアック＝ニア_uses_ちびニア_p7590
+        quote: セリアック＝ニアは小さく溜息を吐いてから、夜通しの調査活動で得た記憶を『別の自分たち』と共有する。分割・縮小した己の心身を『ちびニア』や『ニアホン』などと名付けて運用する奇妙なまじないはこの猫の取り換え子の得意技だ。
+        locator: {}
+        spoiler_after: ch0230
+      - event_ref: E_ch0230_セリアック＝ニア_travels_ハルムシオンの風_p7591
+        quote: 動き出す前の予兆を感じながら、デフォルメされた二頭身とは思えないほどの跳躍力で建物から建物へと音も無く移動する。小動物ほどのサイズの魔女の目当てはとある勢力の拠点だった。
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ハルムシオンの風]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0230_ハルムシオンの風_is_located_実建築_p7591
+        quote: 第五階層内で自在に作り出せるかりそめの宿ではなく、大地に根付いた棲家。しかしその外観は膨れ上がった出来損ないの砦もどきと言ったところ。
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_占い師]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0230_占い師_captures_占い師狩り_p7591
+        quote: 呪詛の込められた木製の枷を両足と首に嵌められた哀れな囚人たち。彼らは一心不乱に水晶玉や呪札を使って未来を占い続けている。第五階層を騒がせる『占い師狩り』。その悪意が彼らを奴隷の身に貶めていた。
+        locator: {}
+        spoiler_after: ch0230
+    speech:
+      observations:
+      - event_ref: E_ch0230_占い師_says_予兆_p7602
+        quote: 「『家』への反逆。『父』への復讐。『尊厳』の回復。誘拐婚を繰り返すこと三度。赦しなき流血の果て、天と地は裏返る」
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキレギア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0230_アキレギア_appears_呪術義肢_p7592
+        quote: だがそれ以上に目につくのは左右で性質の異なる呪術義肢だった。左腕が木、右手が砂。枝葉は蛇のようにくねり、砂は絶えず流動し続ける。
+        locator: {}
+        spoiler_after: ch0230
+    relationship:
+      observations:
+      - event_ref: E_ch0230_アキレギア_bonds_アサブ_p7593
+        quote: 曰く、『今や組織を牛耳っているのは新しくやってきたアサブの情婦である』、と。
+        locator: {}
+        spoiler_after: ch0230
+    speech:
+      observations:
+      - event_ref: E_ch0230_アキレギア_says_リビコッコ_p7593
+        quote: 「お前にしかできねえよ。シナモリアキラの『リビコッコ』って役は」
+        locator: {}
+        spoiler_after: ch0230
+    action:
+      observations:
+      - event_ref: E_ch0230_アキレギア_uses_魅了のまじない_p7599
+        quote: 顔を寄せた女が熱い吐息を男の耳に当てた。お手本のように情熱的な、魅了のまじない。
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アサブ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0230_アサブ_names_ハルムシオンの風_p7592
+        quote: 男の名はアサブ。『ハルムシオンの風』の頭目である。
+        locator: {}
+        spoiler_after: ch0230
+    speech:
+      observations:
+      - event_ref: E_ch0230_アサブ_fears_魔将_p7597
+        quote: アサブは恐ろしい過去の記憶を振り返り、小さく身震いした。絶対的な力を持つ魔将への恐怖。それを克服し、立ち向かえぬ者に英雄たる資格はない。
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_リビコッコ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0230_リビコッコ_defines_亜大陸_p7595
+        quote: すなわち、亜大陸と本大陸の境界部に存在する世界槍都市トゥルサ以外の亜大陸はおおむね『リビア』というわけだ。本大陸人にとって、黒檀の民はみな亜大陸人だ。
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クナータ・ノーグ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0230_クナータ・ノーグ_appears_時空の揺らぎ_p7601
+        quote: 四隅に、あるいは中心に、偏在とも遍在とも言えない揺らぎ。それは不確定な未来のように。
+        locator: {}
+        spoiler_after: ch0230
+    action:
+      observations:
+      - event_ref: E_ch0230_クナータ・ノーグ_attacks_セリアック＝ニア_p7603
+        quote: 閃光のような狙撃が過去に遡って飛翔し、小さな猫型端末の意識を刈り取った。紫槍歯虎の精霊が宿る対霊狙撃杖は少女の背丈を遥かに上回るほどに長大。
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エスト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0230_エスト_other_マリナ_p7604
+        quote: 病室に現れたプリエステラの姿を見て、寝台の上で沈み込んでいた女の表情がぱっと華やいだ。
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マリナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0230_マリナ_reveals_ヘレネ_p7607
+        quote: 「ね、エストにだけ、もう一つの秘密を教えるね。私の、ティリビナ人としての名前」
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヘレネ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0230_ヘレネ_says_ヘレネの神話_p7608
+        quote: 「その美貌のため。世界一の美女であるヘレネを巡って男たちが争ったの。ヘレネは神に選ばれた英雄に誘拐されて強引に結婚させられた。」
+        locator: {}
+        spoiler_after: ch0230
+      - event_ref: E_ch0230_ヘレネ_asks_誘拐_p7610
+        quote: 「ねえ、エスト。もしも、もしもだよ？ 私があなたをさらって逃げようとしたら、どうする？ 逆に、私をさらって逃げてってお願いしたら、どうする？」
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン・ガレニス・クロウサー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0230_パーン・ガレニス・クロウサー_captures_ミルーニャ・アルタネイフ_p7613
+        quote: 「ミルーニャ・アルタネイフは預かった」『空使い』候補たるリーナのパートナーが誘拐された。誘拐犯であるパーンはミルーニャを人質にとって堂々と動画を配信した。
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ・アルタネイフ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0230_ミルーニャ・アルタネイフ_says_争わないで_p7615
+        quote: 「ふ、ふえ～ん。わたしのために争わないで下さ～い！」そうして、攫われたお姫様の物語が幕を開ける。
+        locator: {}
+        spoiler_after: ch0230
+  first_appearance_candidate: true

@@ -1,0 +1,249 @@
+chapter: ch0077
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0077_幻像_says_発気_p2877]]'
+  object: '[[ME_相撲の決まり手]]'
+  claim: 「発気」は相撲の掛け声「発気揚々」の略称であり、アキラが「スモー（Sumo）」を名乗ることで、この戦闘スタイルが相撲のメタファーであることが明示される。
+  quote: 「発気、よぉぉぉぉぉい」
+  paragraph: p2877
+  confidence: explicit
+  quotes:
+  - quote: 「発気、よぉぉぉぉぉい」
+    paragraph: p2877
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0077_男_says_サイバーカラテ_p2879]]'
+  object: '[[ME_サイバーパンク作品の格闘技]]'
+  claim: 「サイバーカラテ」という造語は、サイバーパンク作品における義体化された格闘技のクリシェをパロディ化しており、アキラがこれを「一時の流行」として否定し「スモー」と訂正することで、伝統と近未来の対比を描く。
+  quote: 「あんた、アキラって言うのかい。じゃあ、もしかして」「俺ぁ知ってるぜ、今のかけ声はサイバーカラテってヤツだろ！　はっけいようい？　だっけ？　女王サマの『猟犬』が使うってあの武術だよ！」
+  paragraph: p2879
+  confidence: strong
+  quotes:
+  - quote: 「あんた、アキラって言うのかい。じゃあ、もしかして」「俺ぁ知ってるぜ、今のかけ声はサイバーカラテってヤツだろ！　はっけいようい？　だっけ？　女王サマの『猟犬』が使うってあの武術だよ！」
+    paragraph: p2879
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0077_猫の取り替え子_other_公社_p2881]]'
+  object: '[[ME_ケルト神話のフェアリー・チェンジリング]]'
+  claim: 「猫の取り替え子（Changeling）」は、ケルト神話で妖精が人間の赤子を奪い、代わりに妖精の赤子（または木片）を置き去りにする伝承を指し、公社の頂点に立つ存在が「偽物」または「異質なもの」にすり替わったことを示唆する。
+  quote: 現在は【猫の取り替え子】が公社の頂点に立っているという。
+  paragraph: p2881
+  confidence: explicit
+  quotes:
+  - quote: 現在は【猫の取り替え子】が公社の頂点に立っているという。
+    paragraph: p2881
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0077_カイン_has_property_人面疽_p2898]]'
+  object: '[[ME_日本の怪談・人面疽]]'
+  claim: 掌に顔が張り付く「人面疽」は、日本の怪談に登場する顔が現れる腫瘍を指し、カインの性的欲望と暴力性が身体の一部として具現化されていることを象徴する。
+  quote: 露わになったのは、異形の右腕。しわくちゃになった顔が、右の掌に張り付いていた。人面疽という呪術が存在するが、男の奇怪な腕もそれを応用したものだろう。
+  paragraph: p2898
+  confidence: explicit
+  quotes:
+  - quote: 露わになったのは、異形の右腕。しわくちゃになった顔が、右の掌に張り付いていた。人面疽という呪術が存在するが、男の奇怪な腕もそれを応用したものだろう。
+    paragraph: p2898
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0077_ウィクトーリア_says_ママ_p2902]]'
+  object: '[[ME_マタニティ・ホラー／母性恐怖]]'
+  claim: ウィクトーリアがカインを「ママ」と呼び、胎内（死人の森）へ引き込む描写は、母性への回帰を死（胎内への回帰）として描くマタニティ・ホラーの構造を模している。
+  quote: 「大丈夫ですよー怖くないですよー。ほうら、私が貴方のママですからねー♪」
+  paragraph: p2902
+  confidence: strong
+  quotes:
+  - quote: 「大丈夫ですよー怖くないですよー。ほうら、私が貴方のママですからねー♪」
+    paragraph: p2902
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0077_幻像_says_残った_p2878]]'
+  object: '[[ME_格闘ゲームのKO判定]]'
+  claim: 「残った」という叫びは、格闘ゲームにおけるKO判定（相手が完全に消滅するまで攻撃を続ける演出）を模しており、戦闘の過剰な残虐性をゲーム的なルールとして提示する。
+  quote: 「残った、残った残った残った残った残った残った残った残った残った残った残った」
+  paragraph: p2878
+  confidence: moderate
+  quotes:
+  - quote: 「残った、残った残った残った残った残った残った残った残った残った残った残った」
+    paragraph: p2878
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0077_カイン_thinks_女王への憎悪_p2883]]'
+  object: '[[ME_家父長制・ミソジニー]]'
+  claim: カインの「女は男に屈伏させられるために生まれてくる」という思想は、家父長制に基づくミソジニー（女性嫌悪）の典型であり、女王の統治を「女気取り」として否定する構造は現実のジェンダー政治の歪みを反映している。
+  quote: そもそも女などと言うものは、男に屈伏させられるために生まれてくるものだ。
+  paragraph: p2883
+  confidence: strong
+  quotes:
+  - quote: そもそも女などと言うものは、男に屈伏させられるために生まれてくるものだ。
+    paragraph: p2883
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0077_ウィクトーリア_other_光妖精_p2894]]'
+  object: '[[ME_エルフの耳の尖り]]'
+  claim: 光妖精（エルフ）の耳が尖っている描写は、人間の認識能力の限界による「誇張」が現実化するというメタフィクション的な説明であり、エルフの尖った耳というクリシェの起源を「認識の歪み」として再定義している。
+  quote: そして、その『光妖精は耳が尖っている』という認識は広く共有されるにつれて確かな『常識』となって現実化していく。
+  paragraph: p2894
+  confidence: explicit
+  quotes:
+  - quote: そして、その『光妖精は耳が尖っている』という認識は広く共有されるにつれて確かな『常識』となって現実化していく。
+    paragraph: p2894
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_灰色の正体
+  note: p2873で言及される「灰色」は、アキラの苦痛を塗りつぶす存在であり、彼女が根源的な恐怖を植え付けられた対象。これが誰（または何）であるかが今後の展開で明かされる可能性が高い。
+  quotes:
+  - quote: あの灰色は、なにより綺麗な苦しみを、あっけなく塗りつぶしてしまった。
+    paragraph: p2872
+    quote_verified: true
+  - quote: 思い出せない遠い遠い彼方で、あの灰色に、黒に、白に、無彩色に。ひどく、根源的な恐怖を植え付けられたような。
+    paragraph: p2873
+    quote_verified: true
+  expected_payoff: 「灰色」がアキラを救済する存在（おそらく主人公や特定のキャラクター）であり、彼女との対立軸として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_逆襲の意思
+  note: p2874で「未来の彼方に置いてきた、それは逆襲の意思だった」と記述される。これは彼女が現在抑圧されている状況から、将来的に反転する伏線。
+  quotes:
+  - quote: そして、明確に自覚されることは無かったけれど。未来の彼方に置いてきた、それは逆襲の意思だった。
+    paragraph: p2874
+    quote_verified: true
+  expected_payoff: 彼女がアキラへの加虐願望を遂行する、あるいは「灰色」への復讐を果たす展開への布石。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ウィクトーリアの胎内世界
+  note: p2900-2901で、ウィクトーリアの胎内が「死人の森」そのものであることが判明する。カインが腕を突っ込んだ先が森であり、彼女が「ママ」としてカインを殺す構造は、彼女が森の支配者であることを示唆する。
+  quotes:
+  - quote: 人面疽が見せているのは人の体内ではない。暗く深い、静かな森。月明かりに照らされた、死と静謐に満ちた世界。
+    paragraph: p2900
+    quote_verified: false
+  - quote: 女は、その胎内に世界を孕んでいた。死人の森の、深い闇。
+    paragraph: p2901
+    quote_verified: true
+  expected_payoff: ウィクトーリアが「死人の森」の本体、あるいは森の擬人化された存在であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ローズマリーの行方
+  note: カインが捜している「ローズマリー」は行方不明だが、ウィクトーリアが現れたことで、ローズマリーとウィクトーリアの関係（同一人物、または継承関係）が問われる。
+  quotes:
+  - quote: 三ヶ月前の動乱から行方の知れない彼女を、男は捜し続けていた。
+    paragraph: p2885
+    quote_verified: true
+  - quote: ローズマリー？　誰だその雌豚は。この至上の美貌こそ自分が求めていたものに他ならない。
+    paragraph: p2890
+    quote_verified: true
+  expected_payoff: ウィクトーリアがローズマリーの変貌した姿、あるいはローズマリーを殺した存在である可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 加虐と愛の不可分性
+  weight: 0.9
+  quotes:
+  - quote: 失われている左手よりも、罪の赤に濡れた鋼の右手の方こそを、虐めて嬲って躾けて撫でて触って抱きしめて――愛してあげたい。ただ、そう思った。それはきっと、恋だった。
+    paragraph: p2872
+    quote_verified: true
+  note: 彼女のアキラへの感情は、苦痛を肯定し加虐を望むという形で「恋」と定義されており、愛と暴力が表裏一体であることが主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家父長制的暴力の自己崩壊
+  weight: 0.8
+  quotes:
+  - quote: そもそも女などと言うものは、男に屈伏させられるために生まれてくるものだ。
+    paragraph: p2883
+    quote_verified: true
+  - quote: 「裏切ったな」「どうかなさいましたか、旦那様？」「俺の純情を弄んだな、この淫売がぁっ！」
+    paragraph: p2897
+    quote_verified: true
+  note: カインのミソジニーに基づく暴力が、ウィクトーリアの超越的な存在（母性・死）によって無効化され、カイン自身が「甘えんぼ」として殺される構造は、家父長制的権力の虚構性を暴く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 認識の歪みによる現実の構築
+  weight: 0.7
+  quotes:
+  - quote: そして、その『光妖精は耳が尖っている』という認識は広く共有されるにつれて確かな『常識』となって現実化していく。
+    paragraph: p2894
+    quote_verified: true
+  note: ウィクトーリアの美しさやエルフの特徴が、人間の認識能力の限界による「誇張」が現実を形成するというメタフィクショナルな主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死への回帰（胎内への回帰）
+  weight: 0.6
+  quotes:
+  - quote: すべての死者と生者は森の中に回帰する
+    paragraph: p2901
+    quote_verified: true
+  - quote: 「大丈夫ですよー怖くないですよー。ほうら、私が貴方のママですからねー♪」
+    paragraph: p2902
+    quote_verified: true
+  note: カインの死が、恐怖ではなく「ママ」への回帰として描かれ、死が母性的な安らぎとして再定義される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

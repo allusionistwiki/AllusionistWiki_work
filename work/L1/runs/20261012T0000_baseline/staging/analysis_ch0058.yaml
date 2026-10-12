@@ -1,0 +1,236 @@
+chapter: ch0058
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 1
+  quotes_verified: 17
+  quotes_total: 22
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0058_リーナ_says_空が青い理由_p2199]]'
+  object: '[[ME_rayleigh_scattering]]'
+  claim: 科学的な光の散乱（レイリー散乱）という物理現象を、主観的な快楽（飛んだ時の気持ちよさ）という目的論的な理由に置き換えることで、科学と感性の断絶を風刺している。
+  quote: 『空がどうして青いかって？　それはあれだよ、飛んだ時に気持ちいいからだよ』
+  paragraph: p2199
+  confidence: strong
+  quotes:
+  - quote: 『空がどうして青いかって？　それはあれだよ、飛んだ時に気持ちいいからだよ』
+    paragraph: p2199
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0058_リーナ_fears_時間の巻き戻り_p2200]]'
+  object: '[[ME_save_and_load]]'
+  claim: 黒百合宮からの脱出失敗が「時間が巻き戻っている」と表現されることは、ゲームにおけるセーブポイントからのリセット（ロード）機能のメタファーである。
+  quote: 抜け出そうとしたこと自体が夢の中の出来事で、目が醒めたら時間が巻き戻っていることが怖い。
+  paragraph: p2200
+  confidence: moderate
+  quotes:
+  - quote: 抜け出そうとしたこと自体が夢の中の出来事で、目が醒めたら時間が巻き戻っていることが怖い。
+    paragraph: p2200
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0058_リーナ_uses_重力操作の邪視_p2207]]'
+  object: '[[ME_ear_stone]]'
+  claim: 飛翔の原理として「耳石器」による直線方向（重力方向）の感知と錯覚を利用する描写は、人体の平衡感覚器官を魔法のインターフェースとして機能させるSF的な発明である。
+  quote: 耳石器は直線方向――つまりは重力方向の動きを感知する。　昇降機に乗った時のような感覚を意識的に錯覚して、リーナは飛翔した。
+  paragraph: p2207
+  confidence: strong
+  quotes:
+  - quote: 耳石器は直線方向――つまりは重力方向の動きを感知する。　昇降機に乗った時のような感覚を意識的に錯覚して、リーナは飛翔した。
+    paragraph: p2207
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0058_マリー_confesses_色の実感の欠如_p2210]]'
+  object: '[[ME_qualia]]'
+  claim: 「青い」という概念の理論的理解と、その主観的体験（クオリア）の間のギャップを、マリーの「実感がない」という悩みを通じて提示している。
+  quote: 光の散乱とか、そういう杖の説明は勉強したからわかるの。……でも、なんて言うのかな。それが本当に青なんだっていう実感が無いの
+  paragraph: p2210
+  confidence: strong
+  quotes:
+  - quote: 光の散乱とか、そういう杖の説明は勉強したからわかるの。……でも、なんて言うのかな。それが本当に青なんだっていう実感が無いの
+    paragraph: p2210
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0058_母_says_花嫁捜索の許可_p2216]]'
+  object: '[[ME_eugenics]]'
+  claim: 母がリーナに「花嫁を捜す」ことを許容するのは、個人の自由の付与ではなく、クロウサー家の「血統」を強化・混沌化させるための優生学的な戦略の一環として描かれている。
+  quote: ミルーニャの万能細胞を用いれば、同性間で子供を作ることが可能よ。……リーナ、貴方は己の花嫁を捜すといいわ
+  paragraph: p2216
+  confidence: moderate
+  quotes:
+  - quote: ミルーニャの万能細胞を用いれば、同性間で子供を作ることが可能よ。……リーナ、貴方は己の花嫁を捜すといいわ
+    paragraph: p2216
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_ch0058_アズーリア_transforms_霊長類_p2215]]'
+  object: '[[ME_human_origin]]'
+  claim: 有翼の牡鹿（デーモン）から「背の低い霊長類」への変異は、デーモンが人間（またはその原初形態）へと回帰する、あるいは人間がデーモンの起源であるという逆転の暗示である。
+  quote: 一瞬にして背の低い霊長類になると、翼という飛翔のための器官を失ったアズーリアは見る間に落下していく。
+  paragraph: p2215
+  confidence: moderate
+  quotes:
+  - quote: 一瞬にして背の低い霊長類になると、翼という飛翔のための器官を失ったアズーリアは見る間に落下していく。
+    paragraph: p2215
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0058_エル・ア・フィリス_says_物語の要求_p2219]]'
+  object: '[[ME_narrator]]'
+  claim: 「言理の妖精」として過去を語らせる存在の出現は、物語の構造そのもの（ナレーション）がキャラクター化され、メタフィクショナルな介入を行うことを示唆している。
+  quote: 私はその為に存在する、言理の妖精なのだから
+  paragraph: p2219
+  confidence: strong
+  quotes:
+  - quote: 私はその為に存在する、言理の妖精なのだから
+    paragraph: p2219
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アズーリアの左手の無彩色
+  note: アズーリアが名前を取り戻した瞬間に現れた「無彩色の左手」。黒、影、闇、灰色、白と見方によって変わる奇怪な質感。これがエル・ア・フィリスの本体、あるいはリーナを支配する「闇」の源である可能性。
+  quotes:
+  - quote: アズーリアがアズーリアとしての自分を取り戻した瞬間、『何か』が出現してその身体に取り憑いた。　間違い無い、左手にいる。
+    paragraph: p2215
+    quote_verified: true
+  - quote: アズーリアの左手には色がない（黒、影、闇、灰色、白など見方によって変化する奇怪な左手）。
+    paragraph: p2215
+    quote_verified: false
+  expected_payoff: この左手が、リーナの意識を奪い、エル・ア・フィリスとの接触のトリガーとなる。後にリーナの身体の一部、あるいは呪術の核として機能する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_エル・ア・フィリスの正体
+  note: 「言理の妖精」と自称する存在。リーナの過去を語らせる目的を持つ。マリー/アズーリアの変異体なのか、独立した概念の具現化なのか。
+  quotes:
+  - quote: 『エル・ア・フィリス』　という言葉が返ってきた。　聞き覚えのあるような気がする、不思議な響き。
+    paragraph: p2219
+    quote_verified: true
+  - quote: さあリーナ。貴方の過去に遡って、私に物語を語らせて？　私はその為に存在する、言理の妖精なのだから
+    paragraph: p2219
+    quote_verified: true
+  expected_payoff: リーナの記憶や黒百合宮の歴史を改変、あるいは暴露する役割を担う。物語の「語り手」としての権限を持つ存在であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_時間の巻き戻りと悪夢
+  note: リーナが過去に試した「外に出る→目が覚める→時間巻き戻り」の現象。悪夢の中でメートリアンに追い回された経験。
+  quotes:
+  - quote: 抜け出そうとしたこと自体が夢の中の出来事で、目が醒めたら時間が巻き戻っていることが怖い。
+    paragraph: p2200
+    quote_verified: true
+  - quote: 悪夢の中で大量のメートリアンに追い回されたので二度とやらないと誓った。
+    paragraph: p2200
+    quote_verified: true
+  expected_payoff: 黒百合宮の時間構造（ループ）の解明。メートリアンが「悪夢」の中で追跡者として機能する理由（姉の呪い、あるいは保護者としての役割の歪み）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ミルーニャの万能細胞
+  note: 母がリーナに同性婚（花嫁捜索）を許可する根拠となった技術/呪術。
+  quotes:
+  - quote: ミルーニャの万能細胞を用いれば、同性間で子供を作ることが可能よ。
+    paragraph: p2216
+    quote_verified: true
+  expected_payoff: クロウサー家の血統強化の具体的なメカニズム。リーナとニア（またはリールエルバ）の間の関係が、単なる友情を超えた「血統」上の結合へ発展する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自由とは、与えられた束縛（使命・血統）の中で見出す主観的な錯覚である
+  weight: 0.9
+  quotes:
+  - quote: ゾラの血族にとって飛翔術は使命のようなもの。　それを自由と呼ぶのは敷かれた線路の上を走るようなものかもしれなかったが、それでもリーナは空を飛ぶことに自由を感じた。
+    paragraph: p2216
+    quote_verified: true
+  - quote: 息苦しい不自由の中で、ひとつでもいいから何か自由を見つけなさい。
+    paragraph: p2216
+    quote_verified: true
+  note: リーナが空を飛ぶ行為を「自由」と定義するが、それは家系の使命（線路）の上での行為であるという矛盾。自由の相対性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 名前（アイデンティティ）は他者との関係性の中で喪失し、回復される
+  weight: 0.8
+  quotes:
+  - quote: もう色が分かるようになって、みんなの中で浮かなくなったのなら、マリー・スーって名前はいらないわねって言われて
+    paragraph: p2211
+    quote_verified: true
+  - quote: アズーリア！　そう、私の名前はアズーリアだったんだ！
+    paragraph: p2214
+    quote_verified: true
+  note: マリーが「色無し」から「アズール」へ、そして「アズーリア」へと名前を再定義する過程。名前が単なる記号ではなく、存在の核（声・翼）と結びついていること。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 知識（理論）と体験（クオリア）の断絶
+  weight: 0.7
+  quotes:
+  - quote: 光の散乱とか、そういう杖の説明は勉強したからわかるの。……でも、なんて言うのかな。それが本当に青なんだっていう実感が無いの
+    paragraph: p2210
+    quote_verified: false
+  - quote: テツガクとかさっぱりですよ。
+    paragraph: p2199
+    quote_verified: true
+  note: マリーの「青」への悩みと、リーナの「哲学（テツガク）拒絶」の対比。世界をどう認識するかという認識論的な問題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 逃避行としての飛翔と、その代償としての墜落
+  weight: 0.6
+  quotes:
+  - quote: よし、いっちょやってみるか。　できるかできないかではない、考えるより先に行動して、無理そうだったら諦めればいいのだ。
+    paragraph: p2206
+    quote_verified: true
+  - quote: 翼という飛翔のための器官を失ったアズーリアは見る間に落下していく。
+    paragraph: p2215
+    quote_verified: true
+  note: 授業からの逃避として始まった飛翔が、最終的にアズーリアの翼の喪失と落下（意識消失）という物理的・精神的な墜落に帰結する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

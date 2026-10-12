@@ -1,0 +1,317 @@
+chapter: ch0007
+created: '2026-09-30'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 5
+  themes: 5
+  quotes_verified: 26
+  quotes_total: 29
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0007_トリシューラ_says_アキラ_p312]]'
+  object: '[[ME_AI_Voice_Assistant]]'
+  claim: トリシューラの「息づかいがない」「スピーカーを通したようなアーティフィシャルな声」は、現代のAI音声アシスタントや合成音声の特性を指喩している。
+  quote: スピーカーを通して喋っているかのような、奇妙にアーティフィシャルな感じのする声。そうだ。この声には、息づかいが感じられない。
+  paragraph: p313
+  confidence: strong
+  quotes:
+  - quote: スピーカーを通して喋っているかのような、奇妙にアーティフィシャルな感じのする声。そうだ。この声には、息づかいが感じられない。
+    paragraph: p313
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0007_トリシューラ_reveals_無資格_p316]]'
+  object: '[[ME_Unlicensed_Medicine]]'
+  claim: 「社会的に独立した孤高のウィッチドクター」でありながら「医師としては無資格」という設定は、現代の医療制度における資格規制と闇医者の概念を逆転させたパロディである。
+  quote: ちなみに呪術師としては『星見の塔』の所属だけど、医師としては無資格だよ
+  paragraph: p316
+  confidence: explicit
+  quotes:
+  - quote: ちなみに呪術師としては『星見の塔』の所属だけど、医師としては無資格だよ
+    paragraph: p316
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0007_男_threatens_少年_p334]]'
+  object: '[[ME_Social_Media_Viral]]'
+  claim: 動画による脅迫と、その下に並ぶコメント欄（同意するチェックボックス）は、SNSにおける炎上や世論形成、そして「動画信仰」と呼ばれる情報拡散の力学を模している。
+  quote: 動画の下には大量のコメント。名指しされた外世界人が来るか来ないか、凄惨な光景への期待、人道的な見地からの非難、特に中身のない短文などが並ぶ。
+  paragraph: p335
+  confidence: strong
+  quotes:
+  - quote: 動画の下には大量のコメント。名指しされた外世界人が来るか来ないか、凄惨な光景への期待、人道的な見地からの非難、特に中身のない短文などが並ぶ。
+    paragraph: p335
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0007_アキラ_activates_サイバーカラテ道場_p345]]'
+  object: '[[ME_Mobile_Game_App]]'
+  claim: 「格闘動作制御アプリ」「感覚・感情制御アプリ」「索敵アプリ」という用語群は、現代のスマートフォンゲームやARアプリのインターフェースを異世界の呪術システムに置き換えたものである。
+  quote: 「格闘動作制御アプリ『サイバーカラテ道場』起動」 感覚・感情制御アプリ『Ｅ－Ｅ』は常駐アプリだ。残り一枠をどう使うか。
+  paragraph: p345
+  confidence: explicit
+  quotes:
+  - quote: 「格闘動作制御アプリ『サイバーカラテ道場』起動」 感覚・感情制御アプリ『Ｅ－Ｅ』は常駐アプリだ。残り一枠をどう使うか。
+    paragraph: p345
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0007_コルセスカ_makes_復元符_p349]]'
+  object: '[[ME_Data_Backup]]'
+  claim: 「右目で念写した貴方の肖像写真を元に再現しました」という髪型の復元は、デジタルデータ（画像）からの物理的復元、すなわち3Dプリントやデータバックアップからの復旧を連想させる。
+  quote: 復元符です。右目で念写した貴方の肖像写真を元に再現しました。
+  paragraph: p349
+  confidence: moderate
+  quotes:
+  - quote: 復元符です。右目で念写した貴方の肖像写真を元に再現しました。
+    paragraph: p349
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0007_トリシューラ_reveals_言語資源_p320]]'
+  object: '[[ME_Machine_Translation]]'
+  claim: 「辞書やコーパスなんかの電子データをそっちの世界から送ってもらえばいい」という説明は、機械翻訳や言語資源のデジタル化によるコミュニケーションの高速化を指喩している。
+  quote: 辞書やコーパスなんかの電子データをそっちの世界から送ってもらえばいいわけでしょう。言語資源は非常に価値が高い上に権利関係が複雑だから
+  paragraph: p320
+  confidence: strong
+  quotes:
+  - quote: 辞書やコーパスなんかの電子データをそっちの世界から送ってもらえばいいわけでしょう。言語資源は非常に価値が高い上に権利関係が複雑だから
+    paragraph: p320
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0007_コルセスカ_confesses_目的_p329]]'
+  object: '[[ME_RPG_Quest]]'
+  claim: 「迷宮を攻略し、最深部でボス（火竜）を倒す」という目標設定は、現代のRPGやMMOにおける標準的なクエスト構造そのものである。
+  quote: 私の目的は、この迷宮『世界槍』を攻略すること。最深部である第九階層――地獄に辿り着き、そこに封印された異獣たちの帝王、火竜メルトバーズを倒す事です
+  paragraph: p329
+  confidence: explicit
+  quotes:
+  - quote: 私の目的は、この迷宮『世界槍』を攻略すること。最深部である第九階層――地獄に辿り着き、そこに封印された異獣たちの帝王、火竜メルトバーズを倒す事です
+    paragraph: p329
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0007_アキラ_remembers_少年の言葉_p344]]'
+  object: '[[ME_Machine_Translation_Lag]]'
+  claim: 過去の記憶を遡って言語が日本語に置き換わっていく現象は、リアルタイム翻訳の遅延や、後から翻訳データが適用される仕組みを想起させる。
+  quote: 単語、文法、そうした知識が俺には無いのにも関わらず、過去の記憶に遡って、言葉が日本語に置き換えられていく。
+  paragraph: p343
+  confidence: moderate
+  quotes:
+  - quote: 単語、文法、そうした知識が俺には無いのにも関わらず、過去の記憶に遡って、言葉が日本語に置き換えられていく。
+    paragraph: p343
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0007_アキラ_says_保留_p330]]'
+  object: '[[ME_User_Agreement]]'
+  claim: 「使い魔になって下さい」という契約提案に対し「保留で」と答える行為は、現代のアプリ利用規約やサービス契約への同意プロセスを模している。
+  quote: 「私は氷血のコルセスカ。火竜を殺す冬の魔女。アキラ、私の使い魔になって下さい」 「保留で」
+  paragraph: p330
+  confidence: moderate
+  quotes:
+  - quote: 「私は氷血のコルセスカ。火竜を殺す冬の魔女。アキラ、私の使い魔になって下さい」 「保留で」
+    paragraph: p330
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0007_トリシューラ_opens_境界空間_p353]]'
+  object: '[[ME_Loading_Screen]]'
+  claim: 第五階層と第六階層の「境界にある空間」を通り抜ける描写は、ゲームにおけるロード画面や、ステージ間の転送処理を空間的に表現したものである。
+  quote: ここはね、アキラくん。第五階層と第六階層の境界にある空間なんだよ
+  paragraph: p353
+  confidence: weak
+  quotes:
+  - quote: ここはね、アキラくん。第五階層と第六階層の境界にある空間なんだよ
+    paragraph: p353
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トリシューラの正体と目的
+  note: トリシューラは「無資格の医者」「第五階層の住人」「星見の塔所属」だが、なぜアキラを自発的に治療し、第六階層への移動手段を提供したのか。その「諸事情」とは何か。
+  quotes:
+  - quote: 私は『上』でも『下』でも無いよ。今回助けてあげたのは、セスカが友達だからだよ？
+    paragraph: p327
+    quote_verified: true
+  - quote: 諸事情あって今は身を潜めていたいんだ。だから協力はここまで。ごめんね
+    paragraph: p355
+    quote_verified: true
+  expected_payoff: トリシューラが第五階層の掌握者権限に関与している、あるいはアキラの「クローン/アンドロイド」説に関わる存在である可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの嘘の真意
+  note: コルセスカは「翻訳のため」という嘘をついてアキラと行動を共にした。その真の目的は「利用」だが、具体的に何をアキラから得ようとしているのか。
+  quotes:
+  - quote: 貴方と一緒にいたかったから、とか？
+    paragraph: p320
+    quote_verified: true
+  - quote: 多分だけど、セスカは貴方を利用したいんだと思う
+    paragraph: p321
+    quote_verified: true
+  expected_payoff: コルセスカがアキラの「ゼノグラシア（異世界知識）」を迷宮攻略の鍵として利用しようとしていることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第五階層掌握者の正体
+  note: アキラが掌握者権限を失った経緯（殺害、譲渡、強制譲渡）が不明。噂ではアキラが掌握者だが、権限は不明の第三者にある。
+  quotes:
+  - quote: 俺は殺されていない上に誰かに権限を譲渡した覚えがない。
+    paragraph: p323
+    quote_verified: true
+  - quote: その何者かは掌握者としての能力、すなわち建造物の創造能力を第五階層の住人全てに分け与え、姿を隠したままなのだが
+    paragraph: p323
+    quote_verified: true
+  expected_payoff: 掌握者権限の分散が第五階層の混沌（上と下の争い）の根本原因であり、アキラが再び権限を取り戻す、あるいは権限の不在が物語の核心であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_少年の「アズーリア」言及
+  note: 少年がアキラに「アズーリアの次に大切な人」と言った。少年とアズーリアにどのような関係があるのか。
+  quotes:
+  - quote: 『貴方は僕にとって、アズーリアの次に大切な人だ。縁があれば、また逢おう』
+    paragraph: p344
+    quote_verified: true
+  expected_payoff: 少年がアズーリアの親族、あるいはアズーリアが少年を保護していたことが判明し、アキラとアズーリアの再会への直接的な手がかりとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トリシューラの「自発的治療」
+  note: コルセスカが頼んだのではなく、トリシューラが自発的にアキラを治療した。なぜトリシューラはアキラを死なせたくなかったのか。
+  quotes:
+  - quote: 自分から申し出ておいて、恩着せがましい。貴方がアキラを助けようとするのは徹頭徹尾、己の為でしょう
+    paragraph: p356
+    quote_verified: true
+  - quote: トリシューラは、コルセスカが頼んだのではなく自分から申し出てアキラを治療したことを明かす。
+    paragraph: p356
+    quote_verified: false
+  expected_payoff: トリシューラがアキラの「クローン」説を支持している、あるいはアキラの脳内データ（サイバーカラテ等）に価値を見出していることが示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人間性の機械化と感情のアウトソーシング
+  weight: 0.9
+  quotes:
+  - quote: 俺は主体的に選択することに向いていない。だからこそ、精神を機械に預けている。
+    paragraph: p332
+    quote_verified: true
+  - quote: 感覚・感情制御アプリ『Ｅ－Ｅ』は常駐アプリだ。
+    paragraph: p345
+    quote_verified: true
+  note: アキラが感情や決断をアプリ（E-E, サイバーカラテ）に依存し、自己を「機械」「獣」と呼ばれる存在として定義しようとする過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 善悪の相対化と「安い命」の倫理
+  weight: 0.8
+  quotes:
+  - quote: 彼の命は、俺にとって大して価値が無い。当たり前の事だろう？
+    paragraph: p335
+    quote_verified: true
+  - quote: 命は安い。ゆえに大量に消費し、気軽に使い潰す。命を、暴力を、殺人を娯楽として享受する無邪気な消費者でありたい。
+    paragraph: p346
+    quote_verified: true
+  note: アキラが少年を救う動機を「人道」ではなく「安さ」や「気晴らし」に置き換え、伝統的な英雄譚の倫理を解体する試み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と権力の関係（翻訳の政治学）
+  weight: 0.7
+  quotes:
+  - quote: 日本語をこの世界に定着させるのに、そんな作業は必要ないよ？
+    paragraph: p319
+    quote_verified: true
+  - quote: 言語資源は非常に価値が高い上に権利関係が複雑だから、こっちの一般人が手に入れようとしても難しいけれど。
+    paragraph: p320
+    quote_verified: true
+  note: コルセスカの嘘（翻訳作業）とトリシューラの指摘（データ送付）の対比を通じて、異世界における言語の流通が権力構造（塔、公社）に支配されていることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者による自己定義（鏡としての魔女たち）
+  weight: 0.6
+  quotes:
+  - quote: 他人が見て、聞いて、判断したものがそのまま俺自身の性質だ。トリシューラの判断はそれがどんなものであれ正しい。
+    paragraph: p336
+    quote_verified: true
+  - quote: 随分と、許されたそうな顔で言うんだね。
+    paragraph: p338
+    quote_verified: false
+  note: アキラがトリシューラやコルセスカという「他者」の視線を通じて、自分の本質（悪人、機械、屑）を認識し、固定化していく過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の消費とメタフィクション
+  weight: 0.5
+  quotes:
+  - quote: 竜殺しとは、英雄譚の定番ではなかったか。異世界転生においても、竜を退治して財宝を得るというライフプランを組んでいる人は多いと聞く。
+    paragraph: p331
+    quote_verified: true
+  - quote: 動画の情報ソースとしての確度って再生回数によって変動するの。
+    paragraph: p353
+    quote_verified: true
+  note: コルセスカの「火竜退治」がアキラにとって「定番の物語」であること、動画の再生回数が現実の物理法則（呪力）に影響することなど、物語構造そのものが世界の一部であること。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

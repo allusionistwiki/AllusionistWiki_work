@@ -1,0 +1,252 @@
+episode: ch0139
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_サイバーカラテ道場]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0139_サイバーカラテ道場_functions_as_自律的に判断する仮想司令塔_p4727
+        quote: 『広い視野』と『的確な判断力』を両立させた、『自律的に判断する仮想司令塔』こそが【サイバーカラテ道場】である。
+        locator: {}
+        spoiler_after: ch0139
+    action:
+      observations:
+      - event_ref: E_ch0139_サイバーカラテ道場_activates_精神修練呪術_p4741
+        quote: 器質的にハイになったサイバーカラテユーザーたちは苦境でも挫けない強いメンタルを得て戦えるのだ。
+        locator: {}
+        spoiler_after: ch0139
+      - event_ref: E_ch0139_サイバーカラテ道場_learns_ラフディーボール_p4745
+        quote: 失敗と苦境はより効率的な成果を生み出すための材料でしかない。多くのフィードバックが、前進のためのエネルギーとなる。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ラフディーボール]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0139_ラフディーボール_defines_呪術の使用_p4727
+        quote: ラフディーボールでは呪術の使用が認められている。その上、グレンデルヒを倒す為の演劇呪術によってサイバーカラテはラフディで独自の発展を遂げていた。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラフディ側の九番後衛]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0139_ラフディ側の九番後衛_attacks_サイバーカラテ道場_p4727
+        quote: 彼女の側頭部にインプラントされている緑の団子虫と紫水晶が無数の呪文を展開して【サイバーカラテ道場】への攻撃を行っているのだった。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0139_アキラ_thinks_中衛の役割_p4728
+        quote: ボールの中継点である中衛は、その性質上ボールに触れる時間、つまり受け取って運んだりパスをしたりする時間が長くなりがちだ。ゆえに、最も苛烈な妨害に晒される。
+        locator: {}
+        spoiler_after: ch0139
+    action:
+      observations:
+      - event_ref: E_ch0139_アキラ_uses_弾道予報_p4744
+        quote: 俺は【弾道予報】が描き出す棘の軌道にスティックを割り込ませ、豪快にスイングした。一度に三つの棘が軌道を変えてゴールに叩き込まれていく。
+        locator: {}
+        spoiler_after: ch0139
+      - event_ref: E_ch0139_アキラ_deceives_ルバーブ_p4747
+        quote: ルバーブの目を睨み付け、戦意を剥き出しにした顔で俺は挑むように笑った。ルバーブが試合前に見せたような獰猛な表情。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラフディの三番]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0139_ラフディの三番_appears_as_草原の肉食獣_p4729
+        quote: 口にスティックを咥え、地に両手を突いた四足走行で疾走してくるラフディの三番は小柄ながら独特の存在感があった。草原の肉食獣もかくやという勢いで跳躍し、こちらに飛びかかる。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルバーブ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0139_ルバーブ_has_property_風のような軽やかさ_p4729
+        quote: ルバーブはあんこ型力士のような体型であるにもかかわらず風のように軽やかにそれを回避してみせた。
+        locator: {}
+        spoiler_after: ch0139
+    action:
+      observations:
+      - event_ref: E_ch0139_ルバーブ_gives_生肉_p4740
+        quote: ルバーブを中心とした相手チームが獲物を手にしながらこちらにやってきて血の滴る肉をこちらに差し出してきた。食べろということらしい。
+        locator: {}
+        spoiler_after: ch0139
+      - event_ref: E_ch0139_ルバーブ_other_一発退場_p4748
+        quote: 凄まじい一撃に俺は吹き飛ばされ、同時にルバーブが一発退場を申し渡される。
+        locator: {}
+        spoiler_after: ch0139
+    symbolic:
+      observations:
+      - event_ref: E_ch0139_ルバーブ_has_property_球神憑依_p4742
+        quote: ボールを占有している者には球神の遣わした天使が憑依するという。そう信じられているということは、実際にそうであるということだ。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアンチーム]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0139_ガロアンディアンチーム_other_激しい消耗_p4730
+        quote: 荒い息を吐きながら次々と膝を突いていくガロアンディアンチームの面々。カーインは腕を押さえ、グレンデルヒは露出した体内の機械部品から煙を吹き、後衛の三人が一斉に倒れ伏す。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0139_ゼド_other_九点シュート_p4730
+        quote: どうしてもヘルメットを被ろうとしないテンガロンハットの男はパスを華麗に受け取り、そのまま守りを振り切って弾丸のようなシュートを決める。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0139_カルカブリーナ_has_property_ほぼ無傷_p4731
+        quote: ゴールに攻め込んでいく前衛の銃士カルカブリーナがほぼ無傷なのは意外と言えば意外だった。体格も俺よりやや下で、こちらのチームでは一番身長が低い。
+        locator: {}
+        spoiler_after: ch0139
+    speech:
+      observations:
+      - event_ref: E_ch0139_カルカブリーナ_reveals_修道騎士としての過去_p4732
+        quote: 地上で修道騎士をしていた頃、大地の民居留地で暴動の鎮圧を行った経験があるらしかった。手榴弾代わりに用いられる殺傷力の高められたラフディーボールは修道騎士が使用する鎧を貫通してくる為、大量の死傷者が出たのだという。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チリアット]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0139_チリアット_other_全身貫通創_p4731
+        quote: ゴールを守る九番の牙猪などは仲間を庇うために爆発寸前のボールに覆い被さった為、胸や腹で無事な箇所が存在しないほどだった。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラフディ]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0139_ラフディ_uses_オウンゴール戦術_p4731
+        quote: ラフディは自陣で故意に自殺点を行う事により、攻め込んで来ていたフォワードに攻撃するという戦術を多用してきた。
+        locator: {}
+        spoiler_after: ch0139
+      - event_ref: E_ch0139_ラフディ_other_ハーフタイムの狩り_p4739
+        quote: ラフディはフィールドに巨大な団子虫や猛り狂う大型ハリネズミを放して狩りをはじめたのだ。ルバーブたちがラフディーボールを手榴弾として投げつけて獲物を鮮やかに仕留めていく。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルマ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0139_アルマ_other_カルカブリーナの本名_p4732
+        quote: 「ああ、どっかで見たと思ったら、バルのとこの。確か名前、ライガだっけ？」
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0139_マラード_other_ヘアアレンジ実演_p4733
+        quote: 頭髪は彼の領土であり、彼はその王だ。肩に流れる髪束の広がりを支配し、乱れる毛先を屈伏させ、怠惰な前髪を動きのある働き者に生まれ変わらせる。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッテ・イヴニル]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0139_アレッテ・イヴニル_appears_as_球体関節人形_p4734
+        quote: 服を着ていても首や手といった箇所を見れば彼女が球体関節人形であることは明らかだった。彼女こそがラクルラール派のもう一人の刺客、アレッテ・イヴニルに違いない。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッテ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0139_アレッテ_has_property_貴人の空気_p4735
+        quote: どぶのような瞳が、ぬめりつくような邪視となって世界を撫でていく。機械の肌が粟立つかと思うほどに強烈な世界観。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0139_トリシューラ_other_アルトの名前の由来_p4736
+        quote: 「本当は、アルトの正確な発音はアレ＝トーって感じなんだけどね。神の息吹とか、最も尊いもの、高貴なものを意味する『ａｌｌ－』プシュケーは昔の王さまが真名を覆い隠す為の防御呪文としてよく用いられていたんだ」
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0139_レオ_other_チアリーディング_p4738
+        quote: 体操競技さながらの倒立回転や宙返り、アクロバットなジャンプにターン、更には複数人で足場を作ってレオを空高く打ち上げるという豪快な技を次々と繰り広げていく様は圧巻の一言だ。
+        locator: {}
+        spoiler_after: ch0139
+    speech:
+      observations:
+      - event_ref: E_ch0139_レオ_promises_後半での活躍_p4739
+        quote: 「失態を晒し続けるわけにも行かない、か。シナモリアキラ、後半からは私にボールを回してくれ。必ず決めてみせる」
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0139_ガロアンディアン_defeats_ラフディ_p4748
+        quote: 最終的な点差は十一点。ガロアンディアン対ラフディの試合は、ガロアンディアン側の勝利に終わった。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_観客]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0139_観客_suspects_八百長_p4749
+        quote: 「これってさ」「賭博でしょ？」「日本語でなんていったっけ」「八百長じゃねえの？」「買収ってこと？」「やらせかよ」
+        locator: {}
+        spoiler_after: ch0139
+    action:
+      observations:
+      - event_ref: E_ch0139_観客_transforms_暴徒_p4750
+        quote: 観客たちはまるで何者かによって操られるかのように暴徒と化した。予定調和の結末。平和的な解決など到底望めるはずもなく、愉快なエンターテインメントとしての球技大会は完全に破綻した。
+        locator: {}
+        spoiler_after: ch0139
+  first_appearance_candidate: true

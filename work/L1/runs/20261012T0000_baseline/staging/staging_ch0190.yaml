@@ -1,0 +1,420 @@
+episode: ch0190
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_少年]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0190_少年_flees_家庭_p6263
+        quote: 枕元に書き置きを残して、少年はわずかな名残惜しさと罪悪感を振り切って旅立とうとしていた。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_少年_makes_刃_p6264
+        quote: 伸びた手指が刃を模せば、剣となって世界を切り裂く。剣詩舞の鮮やかさに舞台はひとときだけ呼吸を止めた。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_少年_makes_髪_p6264
+        quote: ふと思い立って、長い髪を後頭部で括る。馬の尻尾のように垂れ下がる長髪の気配。しっくりとくる。これでいい。けれど、黒いゴムをどこで手に入れたのかは思い出せない。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_少年_other_王の役目_p6265
+        quote: 舞い手は拍手と声援に応えなければならない。そうしなければ舞いが止まってしまうからだ。踊り続けるため、彼は王の役目を引き受けた。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_少年_defeats_魔獣_p6265
+        quote: 颯爽と島に現れた強く美しい若者によって悪しき謎かけの魔獣は討伐された。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_少年_kills_イアテム_p6266
+        quote: 昇天する魂の下で、うつろな生身の首が王によって切断された。
+        locator: {}
+        spoiler_after: ch0190
+    visual:
+      observations:
+      - event_ref: E_ch0190_少年_has_property_黒髪_p6263
+        quote: 眉目秀麗にしてすらりと長い手足は鋭く、艶やかな長い黒髪は冷たい夜風に流れて闇に溶けていた。
+        locator: {}
+        spoiler_after: ch0190
+    speech:
+      observations:
+      - event_ref: E_ch0190_少年_says_父_p6263
+        quote: 「だから行ってきます、父さん。先輩が言っていたあの島に行けば、俺は何かを掴める気がするんだ」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_少年_thinks_忘却_p6263
+        quote: とても大切なことを忘れている気がして、旅に出ようと少年は思い立った。
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_父]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0190_父_has_property_ブルドッグ_p6263
+        quote: 頬肉の垂れたブルドッグの寝顔に静かに話しかける。大いびきをかく父はたったひとりで我が子を養うために夜遅くまで働き、疲れ果てて寝台に倒れ込んでいる。
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_先輩]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_先輩_says_予言_p6264
+        quote: 「まだ信じられません、先輩。俺が実の父を殺し、母を陵辱するようなあさましい怪物になってしまうだなんて」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_先輩_teaches_少年_p6264
+        quote: なにもわからない少年に、飼育委員で占い研究会でトップアイドルという謎めいた盲目の先輩は教えてくれた。死の女王島、その中に建てられた秘密の学院。そこには世界の忘れ物が隠されていると。
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_暴れ教師]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0190_暴れ教師_appears_学院_p6265
+        quote: 「レイ様、新学院国王陛下！　暴れ教師です。暴れ教師が現れました！」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_観客]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_観客_names_少年_p6265
+        quote: 名も無き刃を宝剣と称える声は際限なく高まり、拍手喝采が巻き起こる。
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イアテム]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0190_イアテム_attacks_少年_p6266
+        quote: 「悪い子だ。お前のような子供は厳しくしつけてやらねばな。こっちに来い、口答えをするな！」生活指導の体育教師イアテムが竹刀を振り回す。
+        locator: {}
+        spoiler_after: ch0190
+    speech:
+      observations:
+      - event_ref: E_ch0190_イアテム_says_少年_p6266
+        quote: 「こんな、こんなにも細く柔らかく未成熟な身体つきでありながら、ここのものは既にこんなにも男ではないか。なんとはしたない、いやらしい、子供のくせに、本物の男ではないのに、我などは、ああなんと妬ましい！」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_グレンデルヒ_says_少年愛_p6267
+        quote: 「古代において少年愛は美の世界への陶酔であり、耽美なる暴力であった。英雄が紅顔の少年をその毒牙にかけたとて、絵画や戯曲の中であれば咎める者もおるまい。私にとっても同じことだ。知恵の英雄である私の役割はさしずめ危険な家庭教師とでもいったところか」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_グレンデルヒ_says_カルカブリーナ_p6279
+        quote: 「銃士の役割はもう無いと見ていい。その男が父と慕うバル・ア・ムントもこの舞台に取り込まれていたのは、『父と子』の関係性に導線を引くためだろう。しかしその流れは『コズエ』がラクルラールに銃弾を撃ち込んだことで潰された」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_グレンデルヒ_says_敵_p6280
+        quote: 「ここにいるシナモリアキラの構成要素は曲がりなりにも紀人とその眷属たちだ。その運命にここまで強烈に干渉できるとすれば、最悪の可能性を考えねばならん。第九階梯、紀神級の存在が最低でも二柱以上この第五階層に干渉し、我々紀人を駒として操っているのだ」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_グレンデルヒ_says_ゼド_p6282
+        quote: 「わかっているだろうが。あの薄汚い盗賊、ゼドだ」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_グレンデルヒ_says_店員_p6282
+        quote: 「カッサリオの力は知っていよう。地獄の天主が動かんのは冬の魔女との決戦に備えて力を温存しているからというのもあるだろうがな」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_グレンデルヒ_says_ゼド_p6283
+        quote: 「真実は違う。奴らは恐らく私と同等か、あるいは」グレンデルヒはその先を口にしなかった。彼は自らを強者と規定している。自傷行為をする意味は無いし、こうしている今も半信半疑なのだろう。
+        locator: {}
+        spoiler_after: ch0190
+    action:
+      observations:
+      - event_ref: E_ch0190_グレンデルヒ_transforms_少女人形_p6268
+        quote: 光の発生源は英雄の亡骸だった。卵の殻を破るように、内側から何か輝かしいものが誕生しようとしている。生命の気配にたじろぐ王。後ずさる間もなく何者かが飛び出してくる。
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セージ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0190_セージ_attacks_美少年_p6267
+        quote: 男子部初等クラスの新任女教師セージが涎を垂らして美少年を念写盗撮する。顔と経歴を自在に変えて逃走する最悪の変質者にして快楽殺人鬼は欲望のままに教師生活を満喫していた。
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0190_王_kills_セージ_p6267
+        quote: 容赦のない裁き、死の斬撃が女教師を塵に変えた。王の剣は槍の秩序を認めない。ゆえに裁定は絶対であった。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_王_kills_グレンデルヒ_p6268
+        quote: 「黙れっ」若き王は侮辱に更なる死の罰で応じる。手刀が遙か天上へと斬撃の言の葉を飛ばし、大剣を吊す糸を断ち切った。傲慢な男の頭部に落下した刃が不要な役者を退場させていく。
+        locator: {}
+        spoiler_after: ch0190
+    speech:
+      observations:
+      - event_ref: E_ch0190_王_thinks_父_p6268
+        quote: 彼にとって父は尊敬すべき対象だ。あの優しく不器用なブルドッグがそのような忌まわしい、口にすることすらはばかられる性的スキャンダルを抱えているはずがない。そのはずだ。それでも、呪いは王の胸に残った。
+        locator: {}
+        spoiler_after: ch0190
+    visual:
+      observations:
+      - event_ref: E_ch0190_王_observes_少女人形_p6269
+        quote: 衝撃から立ち直った王が自らの胸に乗ったものを見ると、それは黄砂色の長い髪を持った、それはそれは見事な少女人形だった。若き王は赤面した。少女は全裸だったのだ。
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クルミ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_クルミ_names_自分_p6269
+        quote: 「先程は不調法をいたしました。改めてご挨拶させて下さいませ。本日よりレイ様のお世話係を務めさせていただきます、舞踏科一年の渦巻羽クルミです。何卒よろしくお願い致します」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_クルミ_says_レイ_p6270
+        quote: 「裁定の剣は既に貴方様の頭上にも存在します。王者に相応しい振る舞いをなさいませ。私はそのための道具、英雄の装身具なのです」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_クルミ_says_トレミー_p6271
+        quote: 「無駄だよ。その人形には俺が見えていないし、見る気がない。見たくないことを選んでいるのだから、断絶を埋めることはできない」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_レイ_says_クルミ_p6269
+        quote: 「女子が男子部の敷地内に入ることは校則で禁止されている。さっさと帰れ」
+        locator: {}
+        spoiler_after: ch0190
+    action:
+      observations:
+      - event_ref: E_ch0190_レイ_other_クルミ_p6273
+        quote: 事態は進行せず、ただ時計の針が周り、太陽と四つの月が巡りゆく。やがて若き王は侍女人形のいる日常を容認せざるをえなくなっていた。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_レイ_fights_敵_p6274
+        quote: 度重なる敵との戦いで王は勝利を重ねていたが、蓄積した疲労はやがて彼に限界を教えたのだった。
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トレミー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0190_トレミー_transforms_レイ_p6270
+        quote: 「まあまあレイちゃん、女の子同士、仲良くしよ？」「殺すぞ。そのふざけた術を解除しろ、男に戻せ」いつの間にやら、ごく自然なことのようにレイもまた可憐な美少女へと変貌を遂げていた。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_トレミー_transforms_クルミ_p6271
+        quote: 「はい元通り。ついでに女の子が怖いレイちゃんのために問題解決したよ。でも、メイド男子クルミくん、犯罪っぽくね？」言葉通り、部屋にいるのは男だけだ。侍女人形は、その形を美しい少年に変えていた。
+        locator: {}
+        spoiler_after: ch0190
+    name:
+      observations:
+      - event_ref: E_ch0190_トレミー_names_自分_p6271
+        quote: 眉をひそめる王の言葉に肩を竦めてみせる、男とも女ともつかぬ奇妙なまじない使いトレミー。星読み、預言者、王付きの賢者を気取るこの若者は、王の同級生で親友を自称するルームメイトだ。
+        locator: {}
+        spoiler_after: ch0190
+    speech:
+      observations:
+      - event_ref: E_ch0190_トレミー_says_レイ_p6272
+        quote: 「俺は肉の器を持った形じゃない。お前が泥であるように、俺は息吹なのだから」確かな形を持った侍女人形には見ることができない。魂無き器では捉えられない、曖昧な影。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_トレミー_says_レイ_2_p6272
+        quote: 「いい加減に諦めろってレイちゃん。この流れは変えられないんだ。俺らが自在に断ち切れるのはラクルラールの青い糸だけ。けどこの舞台を仕切ってるのはもうあの人形遣いじゃない。ここはおとなしくクルミと踊れ。やばくなったらいつも通りうまく運んでやるからさ」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_トレミー_says_レイ_p6273
+        quote: 「いやー、ちょっと久しぶりに実家の仔ライオンの成長ぶりを確認しに帰省をね。あとオトモダチのカーくんの顔が見たかったんさ」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_トレミー_says_カーイン_p6276
+        quote: 「俺の加護が及んでいる以上、ラクルラールの青糸なんかに支配されることは無いはずなんよな。奴は前回の舞台で確かに敗れた。だからレイちゃんまでもが役割を強制されているのは、別の支配者が干渉しているからなんだけど」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0190_カーイン_names_自分_p6274
+        quote: 長く滑らかな黒髪、濃い色の肌をした白衣の男が寝台の脇に立っている。保険医のロウ・カーインだ。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_カーイン_names_クレイ_p6276
+        quote: 「先輩なのですから少し落ち着きを持って下さい。さて無花果レイ――いやこう呼ぼうか、『栄光の手』クレイ。君は状況をどのくらい把握している？」
+        locator: {}
+        spoiler_after: ch0190
+    speech:
+      observations:
+      - event_ref: E_ch0190_カーイン_says_レイ_p6275
+        quote: 「日が暮れるまでだ。疲れがたまっていたのだろう、寮に戻って休養をとるべきだな。一応、疲労回復の秘孔を刺激はしたが、しばらく舞いは控えたほうがいい」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_カーイン_says_クレイ_p6277
+        quote: 「見たところ君の技術は卓越しているようだが、未だに足りていないのは役と舞台に対する理解だ。台本をなぞるだけでは操り人形と変わらない。その視座で事態を暴き、己が解釈で舞台をものにしろ。トロメリアと共に敵を見つけるんだ」
+        locator: {}
+        spoiler_after: ch0190
+    action:
+      observations:
+      - event_ref: E_ch0190_カーイン_activates_浄界_p6276
+        quote: 「演劇空間の経絡秘孔を突いた。一時的に浄界の掌握権限を乗っ取り、筋書きから逸脱した領域を作っている。ああ、我々の偽装人格に演技の代行をさせているからしばらくこちらに集中しても構わない」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_カーイン_activates_クレイ_p6277
+        quote: 言葉と同時にカーインの指先がクレイの眉間、こめかみ、顎下を刺激していく。呆然とするクレイは一切の言葉が聞こえないかのようだったが、指先によって与えられた刺激によって小刻みに震え、短く吐息を吐いていった。
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0190_シナモリアキラ_appears_舞台袖_p6278
+        quote: 「悪いがこの空間を遣わせて貰うぞ、そらどけ発勁用意だ死ね人形使い」突如として乱入した俺に蹴り飛ばされたトウコが人形たち共々舞台袖に転がっていく。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_シナモリアキラ_makes_会議_p6279
+        quote: 「これより、シナモリアキラ脳内会議を始める」正式な劇中ではなく、幕間劇という舞台外の舞台だからこそ可能になった空間の乗っ取り。即席の会議室で、俺たちは情報交換を始めた。
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_シナモリアキラ_other_同盟_p6288
+        quote: 瞬間的な脳内会話の後に下された結論は、「いいだろう、サイバーカラテ道場の門戸は万人に開かれている」アレッテの一部、アマランサスをシナモリアキラに正式に組み入れる。
+        locator: {}
+        spoiler_after: ch0190
+    speech:
+      observations:
+      - event_ref: E_ch0190_シナモリアキラ_thinks_槍の民_p6290
+        quote: 「生まれついての種族に加えて、槍神の加護を重ねて受けた、再生者と同じ多重眷族種。槍の欠片に影響され、英雄となる運命を与えられた転生者。私たち魔女は、彼らをこう呼んでいる――『エアル＝セイスの槍の民』と」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_カルカブリーナ_says_状況_p6279
+        quote: 「理解不能ですよもう。吸血鬼にボコられた俺の身体は？　ていうか現実って何みたいな。劇とか舞台とかここ最近は足場ぐらぐらで目が回りっぱなしで」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_スカルミリオーネ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_スカルミリオーネ_says_紀神_p6280
+        quote: 「だが気まぐれと偶然の紀神アエルガ＝ミクニーですらこの世の全てを思うがままに動かせるわけではない。だからこそ神話の戦いが成立する。紀神に対抗する手段とて無いわけではないのだからな」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファルファレロ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_ファルファレロ_says_敵_p6280
+        quote: 「僕たちの敵はまるで運命を司る神のようです。実際、第七階梯か第八階梯、紀神に準ずるだけの権能を有しているのでしょうけれど」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラコーダ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_マラコーダ_says_マレブランケ_p6280
+        quote: 「カルカブリーナも人形劇の為に用意された駒ってこと。これは私も、そして他のマレブランケたちも同じ。そういう宿命に引き寄せられているの」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_マラコーダ_says_紀人_p6284
+        quote: 「自分の眷属種や王国を持ち、一定以上の繁栄を勝ち得た紀人などがそうね。虹の紀人レメスとその眷属である虹犬や、美の紀人ミエス・リヴァとその眷属である北辺帝国の半妖精なら貴方も良く知ってるでしょ？」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_バルバリッチャ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_バルバリッチャ_says_破滅_p6281
+        quote: 「紀神同士の激突は、ともすれば世界の均衡を揺るがしかねん。明日から世界全てが劇場と化していてもおかしくはない」「おお、ブレイスヴァ！　破滅はいまや目前に！」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッテ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0190_アレッテ_appears_幕間劇_p6284
+        quote: 「私も話し合いに混ぜて貰ってもいい？　その権利はあるはずよ、敗北し、シナモリアキラに取り込まれたこのアマランサスには」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_アレッテ_gives_アマランサス_p6288
+        quote: 「私の命数のうち半分、アマランサスの力を委ねる。虹犬の抜け番を埋めておけ」
+        locator: {}
+        spoiler_after: ch0190
+    speech:
+      observations:
+      - event_ref: E_ch0190_アレッテ_says_シナモリアキラ_p6285
+        quote: 「ええ。かつて滅びようとしていたトリシルシリーズの失敗作アマランサスは、アレッテ・イヴニルの中に取り込まれたの。シナモリアキラがマレブランケや六王を取り込んでいったようにね。レッテにはその為の機能が備わっていた」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_アレッテ_asks_シナモリアキラ_p6286
+        quote: 「既にこの舞台は私たちラクルラール派のコントロールを受け付けていない。恥を忍んでお願いするわ。私たちと協力してこの浄界の主と戦って。このままではミヒトネッセが潰されてしまう」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_アレッテ_says_ゼド_p6289
+        quote: 「そうそう、盗賊王の正体について、私の見解を述べておくわ。あれ、多分だけど松明の騎士の同類だと思う」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_アレッテ_says_ルバーブ_p6289
+        quote: 「勝ち負けなんてどうでもいいのよ。だって本当に欲しければ負けてたって手放さないもの。貴方がこの身を砕いても、絶対に彼は手放さない。下らない駒としての機能でもね、これだけはありがたいと思っているのよ、私」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0190_マラード_says_遊戯_p6286
+        quote: 「古今東西、駒を奪い合う盤上遊戯には様々な種類がある。俺たち六王の間で一時期流行っていたのが、『捕食者』と呼ばれるものだ」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_マラード_says_ルール_p6287
+        quote: 「この遊戯を特徴付けるルールはシンプルだ。相手の駒を奪うと、その動きを奪える。つまりは敵の捕食。権能を取り込む略奪の遊戯というわけだ」
+        locator: {}
+        spoiler_after: ch0190
+      - event_ref: E_ch0190_マラード_says_勝利条件_p6287
+        quote: 「シナモリアキラとアレッテ・イヴニル、そして恐らくクレイが勝利条件に繋がる駒だ。一定数の生け贄を食らうことで駒は昇格する。魔女が使い魔を育成、強化するようにな。解説はこれくらいで十分だろう」
+        locator: {}
+        spoiler_after: ch0190
+  first_appearance_candidate: true

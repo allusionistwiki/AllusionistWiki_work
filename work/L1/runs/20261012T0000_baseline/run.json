@@ -1,0 +1,17 @@
+{
+  "run_id": "20261012T0000_baseline",
+  "layer": "L1",
+  "kind": "baseline",
+  "created": "2026-10-12",
+  "tool": "legacy LLMWiki2 pipeline (imported as-is)",
+  "derived_from": {
+    "repo": "allusionistwiki/AllusionistLLMWiki2_Work",
+    "commit": "054f7a2a16688da68e89abe614610e2a5a1700d0",
+    "note": "旧 Work repo の最終状態を L1 ベースラインとして取り込み。以後の run は runs/ への追記（増分）で行う。"
+  },
+  "input": {
+    "raw_manifest": "AllusionistWiki_obsidian/tools/data/raw_manifest.json (2026-10-12)",
+    "episodes": "ch00001-ch00272 (PDF 由来採番)"
+  },
+  "contents": ["facts/", "candidates/", "_merged/", "appearance_facts/", "deferral_facts/", "events/", "changesets/", "staging/", "search/", "reports/", "locks/"]
+}

@@ -1,0 +1,153 @@
+chapter: ch0112
+created: '2026-10-08'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 0
+  themes: 0
+  quotes_verified: 0
+  quotes_total: 0
+items:
+- claims:
+  - kind: claim
+    predicate: parodies
+    subject: '[[E_ch0112_スキリシアの神_says_巨人神話_p3931]]'
+    object: '[[ME_キリスト教の七つの大罪]]'
+    claim: 五人の巨人の名前（窮乏、疾病、無知、陋隘、失業）は、キリスト教の七つの大罪や社会悪を擬人化した神話的構造を模倣・変奏している。
+    quote: 巨人たちにはそれぞれ名前があって、上から【窮乏】、【疾病】、【無知】、【陋隘】、そして【失業】といいました。
+    paragraph: p3931
+    confidence: strong
+  - kind: claim
+    predicate: analogous_to
+    subject: '[[E_ch0112_トライデントホールディングス_defines_ゾーイの所属_p3942]]'
+    object: '[[ME_現代のブラック企業と社畜]]'
+    claim: ゾーイとケイトの行動原理は、個人の意思よりも企業体への忠誠と命令遂行が優先される現代の過酷な労働環境（社畜）のメタファーである。
+    quote: 勤め人である以上、それに従うのが社員の使命だ。
+    paragraph: p3942
+    confidence: strong
+  - kind: claim
+    predicate: analogous_to
+    subject: '[[E_ch0112_ケイト_other_クラッキング_p3940]]'
+    object: '[[ME_サイバーセキュリティと権限乗っ取り]]'
+    claim: 吸血鬼によるコピー＆ペースト攻撃は、デジタル空間におけるハッキングや権限乗っ取り、そして自己のアイデンティティがデータとして複製・改変される恐怖を現代的に描いている。
+    quote: これは夜の民というコピーアンドペーストが得意な種族によるクラッキングらしい。君の本体権限が一部乗っ取られているぞ！
+    paragraph: p3940
+    confidence: strong
+  - kind: claim
+    predicate: alludes_to
+    subject: '[[E_ch0112_カーティス_loves_ペルセフォネ_p3946]]'
+    object: '[[ME_ペルセポネーの誘拐]]'
+    claim: カーティスが攫った少女を「ペルセフォネ」または「プロセルピナ」と呼ぶことは、ギリシャ神話における冥界の王ハデスによるペルセポネーの誘拐と、その結果としての季節の循環（死と再生）を指している。
+    quote: 私の可愛いペルセフォネ。それともプロセルピナと呼ぼうか。
+    paragraph: p3946
+    confidence: explicit
+  - kind: claim
+    predicate: inverts
+    subject: '[[E_ch0112_吸血鬼たち_bonds_血族_p3938]]'
+    object: '[[ME_伝統的な吸血鬼の血族概念]]'
+    claim: 吸血鬼は血の繋がりではなく、同質性によって結ばれた「赤の他人」の集合体であると定義することで、伝統的な家族や血族の絆という概念を逆転・解体している。
+    quote: 彼らを結ぶのは確かに血であり命であり、同質性ではある。にもかかわらず、全員が赤の他人。
+    paragraph: p3938
+    confidence: strong
+  - kind: claim
+    predicate: analogous_to
+    subject: '[[E_ch0112_スキリシアの神_reveals_神話の真実_p3933]]'
+    object: '[[ME_メタフィクションにおける作者の権能]]'
+    claim: 神が「事実だと言い張ればそれは事実になってしまう」と述べることは、物語の作者（または神）が世界観やルールを恣意的に決定できるメタフィクショナルな権能を自覚的に示している。
+    quote: 一応僕はスキリシアの神だからね。こういった神話を事実だと言い張ればそれは事実になってしまうんだよ。
+    paragraph: p3933
+    confidence: strong
+  - kind: claim
+    predicate: structurally_matches
+    subject: '[[E_ch0112_カーティス_uses_影占い_p3944]]'
+    object: '[[ME_タイムトラベルの因果律]]'
+    claim: カーティスが過去の自分を未来に送って攻撃させる行為は、タイムトラベルものにおける因果律のループや、自己との対峙というSF的テーマをファンタジーの呪術として再構成している。
+    quote: 数日前から毎日私を未来に送って君に攻撃を仕掛け続けていた。
+    paragraph: p3944
+    confidence: moderate
+  mysteries:
+  - kind: mystery
+    name: MY_スキリシアの神の真意
+    note: 神が「世界は遊戯盤」と述べ、カーティスとミシャルヒを「期待できる端末」として選んだ理由。彼の介入が最終的にどのような結末（望む未来）をもたらすのか。
+    quotes:
+    - quote: 元々僕にとっては世界の全てが遊戯盤で、舞台のようなものに過ぎない。
+      paragraph: p3935
+    - quote: だがカーティスとミシャルヒは僕の期待に応えてくれることだろう。
+      paragraph: p3934
+    expected_payoff: 神の介入が単なる娯楽ではなく、より大きな物語の構造（例えば他章の主人公たちとの対比や、世界改変のトリガー）に繋がる。
+  - kind: mystery
+    name: MY_秩序の更新と災厄
+    note: カーティスが予言した「大地が平面となり、それから二つに引き裂かれる」という災厄。これが第五階層の崩壊や、世界そのものの再編成を指すのか。
+    quotes:
+    - quote: 秩序の更新が近づいている証拠だ
+      paragraph: p3945
+    - quote: まず大地が平面となり、それから二つに引き裂かれることだろう
+      paragraph: p3945
+    expected_payoff: 物語のクライマックスで、スキリシアや関連する世界が物理的・概念的に分裂・再統合されるイベントとして描かれる。
+  - kind: mystery
+    name: MY_少女の正体とアキラとの関係
+    note: カーティス（アキラ）を「アキラ様」と呼ぶ少女。彼女が「死人の森を復活させる」と言い、アキラの「罪の苦痛」を愛している理由。彼女が誰なのか（過去の記憶、別世界の存在、あるいは概念的存在）。
+    quotes:
+    - quote: ねえ、アキラ様
+      paragraph: p3957
+    - quote: 私は、貴方にあのままであって欲しかった
+      paragraph: p3959
+    expected_payoff: 少女がアキラの過去（人間時代や転生前）に関わる重要なキーパーソンであることが判明し、アキラのキャラクター成長や悲劇の核心に触れる。
+  - kind: mystery
+    name: MY_ミシャルヒの裏切りと神の勅命
+    note: ミシャルヒが「我が神の勅命だ」としてパーンに牙を剥いた。彼女の神（スキリシアの神？）の真の目的と、ミシャルヒの自我がどこまで残っているのか。
+    quotes:
+    - quote: 我が神の勅命だ。逆らえん。
+      paragraph: p3953
+    - quote: 全ては、我らの神こそが紀元槍を手に入れるために
+      paragraph: p3953
+    expected_payoff: ミシャルヒが完全に支配されているのか、それとも内部で抵抗しているのか。パーンによる救出劇や、ミシャルヒの自我回復の過程が描かれる。
+  - kind: mystery
+    name: MY_トライデントの命令の真意
+    note: トライデントホールディングスがゾーイにカーティスの殺害を命じた理由。単なる競合排除なのか、それともカーティスが持つ「秩序の更新」に関する情報や力を狙っているのか。
+    quotes:
+    - quote: カーティスと行動を共にして、可能ならば殺害せよ。
+      paragraph: p3942
+    expected_payoff: トライデントが異世界転生システムそのものや、世界の改変権限を狙っていることが明かされ、ゾーイの立場が複雑化する。
+  themes:
+  - kind: theme
+    theme: 自己の複製とアイデンティティの希薄化
+    weight: 0.9
+    quotes:
+    - quote: 全て、ゾーイ・アキラ本人だったからである。
+      paragraph: p3939
+    - quote: 我々が我々として在り続けるか、それとも我が愛しの君が我々を卑しい下僕として従えるのか。
+      paragraph: p3951
+    note: ゾーイの無限複製とカーティスの「我々」という集合的アイデンティティは、個の境界が溶け合う恐怖と、自己とは何かという問いを提示している。
+  - kind: theme
+    theme: 狂信的な愛と独占欲
+    weight: 0.85
+    quotes:
+    - quote: アズーリアを消して、トリシューラを壊して、コルセスカを消し去って。全ての邪魔者を排除したら――そうしたら、私だけを見てくれますよね？
+      paragraph: p3960
+    - quote: つまるところ、これは恋の物語だ。
+      paragraph: p3961
+    note: 少女のカーティスへの執着は、他者を排除してまで愛する者を得ようとする、病的で純粋な「恋」の暴力性を描いている。
+  - kind: theme
+    theme: 企業論理と個人の従属
+    weight: 0.7
+    quotes:
+    - quote: 個を捨て、常に総体の為に奉仕せよ。イェツィラー
+      paragraph: p3943
+    - quote: 証明し続けることでしか、存在を許されないんだ
+      paragraph: p3943
+    note: ゾーイとケイトの行動は、現代の資本主義社会における個人の存在意義が企業への有用性によってのみ定義されるという冷徹な現実を反映している。
+  - kind: theme
+    theme: 神話の構築と真実の相対性
+    weight: 0.6
+    quotes:
+    - quote: 世界はとても柔らかいんだ。
+      paragraph: p3933
+    - quote: 僕が五分前に即興で考えたんだ。
+      paragraph: p3933
+    note: スキリシアの神による神話の即興作成は、歴史や真実が権力者（神）によって後から構築・決定されるものであるという相対主義的な視点を提供する。
+  quotes: []
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

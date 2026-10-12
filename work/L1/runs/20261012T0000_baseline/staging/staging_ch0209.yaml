@@ -1,0 +1,400 @@
+episode: ch0209
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_フラベウファ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_フラベウファ_says_第四階層掌握者ヴィティス特任司教の生命反応停止_p7035
+        quote: 「こちらは金鎖機関統御用仮想使い魔、フラベウファです。第四階層で活動中の全修道騎士に通達します。第四階層掌握者ヴィティス特任司教の生命反応が停止、魂魄の制御を奪われました。以降、第四階層は不明な敵性勢力の掌握下に置かれたものと見なし、大神院によって戦闘区域に指定されます」
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_大柄な修道騎士]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_大柄な修道騎士_says_第七位のアホが死にやがった_p7035
+        quote: 「つまり何か？　第七位のアホが死にやがった上に死霊術師に操られたせいでこの階層が丸ごと敵のもんになっちまったと？　間抜けかよクソったれ！」
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_神働装甲]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0209_神働装甲_fights_低空の脅威_p7035
+        quote: 両腕が分離、飛翔して羽根キノコを貫通していく。本来なら自由自在に飛びまわるはずの攻撃端末の動きに翳り。地面から次々と生えてくる不気味な樹木が障害物となっているのだ。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_ハルベルト_says_浄界は個我の発露_p7036
+        quote: 「落ち着いて。浄界は個我の発露。当人以外に強制されても大した脅威にはならない」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ハルベルト_says_あなたたちはキノコ人を迫害してきたの？_p7066
+        quote: 「そうやって、あなたたちはキノコ人を迫害してきたの？　仲間同士で連帯して、あなたたちの正しさで黙らせて、よってたかって彼らをいじめて」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ハルベルト_asks_アズ_p7072
+        quote: （アズ。チョコレートリリーのネットワーク経由でプリエステラのアストラル体に干渉してもいい。足下の影なら掌握できるはず。いざとなったら止めて）
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ハルベルト_says_分断の呪いが発動してしまう_p7081
+        quote: 「原因が特定できない。問題があるようには思えないのに、どうしても分断の呪いが発動してしまう。とりあえず折れた角を補修して、また折れても繋がるようにはしたけど」
+        locator: {}
+        spoiler_after: ch0209
+    action:
+      observations:
+      - event_ref: E_ch0209_ハルベルト_activates_仮想使い魔_p7037
+        quote: ハルベルトは仮想使い魔を構築、擬人化した大樹に意識を発生させる。　悪意の森は立ち所に絵本の挿絵を彷彿とさせる光景に早変わり。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ハルベルト_uses_森の解釈_p7038
+        quote: 「そうすると今度はハルが疲れる。森の解釈が違いすぎる個々人に『お話』を翻訳するのは手間だし、少し危うい」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ハルベルト_uses_キャンディ_p7041
+        quote: 冷静になれと自分に言い聞かせながらハルベルトはキャンディを取り出して口に含んだ。糖分補給は呪力補給に等しい。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ハルベルト_other_部隊_p7043
+        quote: 「罠があるなら見ておきたい。部隊を丸ごと突っ込ませる」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ハルベルト_appears_戦場_p7049
+        quote: 戦場に姿を現したのは私の主にして師、呪文の魔女ハルベルト。　そして彼女を守るように広がった修道騎士たちだった。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ハルベルト_uses_自爆呪文_p7050
+        quote: ハルベルトがその魂を振り絞って自爆呪文を唱える瞬間を、私は確かに目撃した。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ハルベルト_uses_集団の抽象化_p7053
+        quote: ハルベルトが行っているのは『集団の抽象化』だ。　部隊という『個』の集合を『群』という記号に変換する呪文。部隊に所属する個々人をリソースと捉え、その観念的な上部構造に仮想使い魔を構築する。
+        locator: {}
+        spoiler_after: ch0209
+    visual:
+      observations:
+      - event_ref: E_ch0209_ハルベルト_other_折れた枝角_p7078
+        quote: 「統合が歪んでいる。見て、仮想使い魔の角が折れているでしょう」
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_プリエステラ_says_言理の妖精_p7036
+        quote: 「付け加えれば、私たちには『言理の妖精』がついてるわ。胸に共存共栄の理念がある限り、『分断の呪い』が及ぶことは無い」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_プリエステラ_says_絶対に許さない_p7057
+        quote: 「絶対に許さない、卑怯者！」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_プリエステラ_says_殺すべきよ_p7061
+        quote: 「捕虜にして連れて行く。情報も欲しい」「殺すべきよ」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_プリエステラ_says_祖父はキノコ人邪教徒に片目と片腕を奪われた_p7062
+        quote: 「あのね、これまでにだって大勢の仲間がキノコ人に殺されているの。私の祖父はキノコ人邪教徒に片目と片腕を奪われた。私に巫女としての在り方を教えてくれた先生が卑劣な邪教の祭司を倒さなければ祖父は殺されて私は生まれることすら無かった」
+        locator: {}
+        spoiler_after: ch0209
+    action:
+      observations:
+      - event_ref: E_ch0209_プリエステラ_kills_操られた仲間_p7058
+        quote: プリエステラはそう宣言して無造作に杖を振るった。　緑の刃が飛翔する。硬質化した巨大な葉が装甲の隙間に入り込み、寄生したキノコごと犠牲者の命を断ち切っていった。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_プリエステラ_other_ハルベルト_p7066
+        quote: 既にプリエステラは手を振り抜いている。　ハルベルトは赤くなった頬を押さえたままショックのあまり何も言えないようだった。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_プリエステラ_captures_マリナ_p7071
+        quote: プリエステラは正しいのかもしれないけど、『呪文の座』としては明らかに暴走している。　チョコレートリリー総体の中に意識を上昇させていく。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_プリエステラ_loses_マリナを殺す意志_p7077
+        quote: プリエステラはマリナに向けていた杖を取り落とし、荒く息を吐きながらへたり込んでしまった。できない。もう彼女はマリナを殺せない。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_プリエステラ_helps_マリナ_p7080
+        quote: プリエステラがマリナに手を差し伸べていた。挑むように睨み付けたアイシャを宥めるようにイルスが割って入り、マリナが微笑みながらプリエステラに何かを言った。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ペイル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0209_ペイル_fights_ティリビナ人_p7039
+        quote: 巨漢同士が顔を寄せて睨み合うが、背後から蔦と分離式の腕が伸びて引き離した。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ペイル_uses_ラウセス_p7059
+        quote: 「ぶちかませ、『ラウセス』！」　ペイルが右拳を振るう。　届くはずの無い一撃。いかにペイルが巨漢とはいえ、見上げるような怪物である二頭犬には拳での殴打などささやかな衝撃しかもたらさないはずだった。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_夜の民]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_夜の民_says_きらきら蝙蝠_p7040
+        quote: 「了解。ようやく姫さん直伝の『きらきら蝙蝠』が試せる。こいつは楽しみだ」
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_大神院]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0209_大神院_defines_扉職人_p7041
+        quote: いかに第七位の浄界が世界を塗り替えようとも、大神院が独占管理する空間操作呪術、『扉職人』の秘儀を無効化することはできない。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_月の民]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_月の民_says_内通者の可能性_p7042
+        quote: 「キノコ人グループは『架け橋』の使用権限を持たない。この前提は本当に正しい？　あっさりと異界障壁を利用されたことから、修道騎士側に内通者がいる可能性は？」「敵に高位の『扉職人』がいるということも有り得ます」
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_私]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0209_私_fights_犬の使い魔_p7044
+        quote: 翼で呪力の流れを叩き、すれ違いざまに斧を叩き込んだ。　両断。背後で爆散していく犬の使い魔。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_私_uses_射影即興喜劇・深林雲母_p7048
+        quote: '「お前なんかに屈するかっ！　射影即興喜劇・深林雲母！」
+
+          アトリビュート
+
+          アベンチュリン
+
+          　仲間の力を参照し、金鎖を砕く。呼び起こすは堅牢なる深緑の守り。'
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_私_fights_虹犬の貴婦人_p7051
+        quote: 私とプリエステラはタイミングを合わせ、左右から樹木の破城鎚を放つ。骨と肉が潰れる鈍い音。残った頭部を鋭利な攻撃端末が貫通、再生不可能なほどの手傷を与える。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_私_uses_黒玉飛翔_p7057
+        quote: 「言理の妖精語りて曰く」　金鎖が砕ける。左手の輝きは『黒玉飛翔』、ハルベルトと私が作り出した解呪の願いがキノコ人たちの呪詛と修道騎士たちを切り離し、複雑に絡みあった魂と呪いとを細やかに解きほぐしていく。
+        locator: {}
+        spoiler_after: ch0209
+    speech:
+      observations:
+      - event_ref: E_ch0209_私_thinks_ントゥガ族の教化_p7046
+        quote: そもそもントゥガ族を教化したのは『智神の盾』だ。これは私たちが招いた結果でもある。受け止めなければならない罪だ。私には彼らを救い出す責任がある。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_虹犬の貴婦人]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_虹犬の貴婦人_says_神の被造物たるもの_p7045
+        quote: 「神の被造物たるもの、父への崇敬を絶やすべからず。虫神ダレッキノへの祈りを失った愚かな猿どもに秘宝を守る資格などありません！」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_虹犬の貴婦人_says_我慢強い子は好き_p7048
+        quote: 「私、我慢強い子は好きですよ。苦しみにあえぎ歪む顔、痛みに耐える無様な姿、そして心が折れて陥落していく姿。たまらない、屈伏させる甲斐がある」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_虹犬の貴婦人_says_境界線を書き換えてしまえばお終い_p7049
+        quote: 「どれだけ強い心を持とうとも、価値観や倫理観の境界線を書き換えてしまえばお終いでしょう？　生も死も、善も悪も、全ての境界線はわたくしが定める」
+        locator: {}
+        spoiler_after: ch0209
+    action:
+      observations:
+      - event_ref: E_ch0209_虹犬の貴婦人_attacks_私_p7047
+        quote: 向こう側の虹犬女性は無傷だ。　前に突き出しているのは傘だ。あれを盾にして防いだのか。　信じられない。ズタークスタークの稲妻を逸らしたり回避したりするのではなく、正面から受け止めて耐えるなんて。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_汚物屋]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_汚物屋_says_虫筒を持って先に移動_p7054
+        quote: 「かしこまりました。虫筒を持って先に移動して下さい。僕はここに残り、ライラ殿と共に敵を食い止めます」
+        locator: {}
+        spoiler_after: ch0209
+    action:
+      observations:
+      - event_ref: E_ch0209_汚物屋_uses_霊魂の集積_p7055
+        quote: 緑色の燐光が肉体から霊体を引き剥がし、一箇所に集めていく。　傘の貴婦人が作り出していた虹の円環。次々と円の中に吸い込まれていくントゥガ族の霊魂は、内部で一塊になって肥大化していった。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_修道騎士]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0209_修道騎士_attacks_私_p7056
+        quote: 砕かれた神働装甲、引き裂かれた肌、傷口から生えているキノコの子実体。　キノコ人たちの呪術によって肉体を支配された修道騎士が側面から襲い来る。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_修道騎士_dies_爆散_p7057
+        quote: 直後、救出したはずの修道騎士の五体が爆散した。　血肉が弾け、断末魔を上げることすら許されずに犠牲者が骸を晒す。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ナト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0209_ナト_kills_二頭犬_p7060
+        quote: すかさず叩き込まれたナトの攻撃端末がもう片方の頭部を貫通。　二人の活躍により強敵は倒された。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アイシャ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_アイシャ_says_アズーリア・ヘレゼクシュ_p7068
+        quote: 「アズーリア・ヘレゼクシュ。あなたが新しい九槍になったのね」「はい。そういうあなたは七槍の」「そう。ヴィティス様の下で治療師やってたアイシャよ。覚えてるかな、第五階層帰りのあなたが尋問されてる時、ぎりぎり生かすくらいの応急処置をしたのが私。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_アイシャ_says_マリナはよりにもよってキノコの呪い植え付けられてる_p7070
+        quote: 「かもじゃなくて確実に殺される。私はともかくこの子、マリナはよりにもよってキノコの呪い植え付けられてるんだから。異獣認定して殺すにはちょうどいいって話」
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マリナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_マリナ_reveals_黒檀の民とティリビナ人の間に生まれた_p7075
+        quote: 「私は黒檀の民とティリビナ人との間に生まれたの。ずっと黒檀の民として生きてきたけど、レルプレアへの信仰心を隠して槍に祈るのはとてもつらかった」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_マリナ_asks_遺体が残らないように_p7076
+        quote: だから、殺すのなら自分の遺体が残らないようにしてほしいとマリナは言った。死体から事実が露見しないように、真実ごと
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_マリナ_says_レルプレアへの崇敬_p7076
+        quote: 「それから、お願い。最後にレルプレアに祈らせて。本物の巫女さまに祝福してもらえるなら、他に望むことはないから」
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0209_アズーリア_uses_強制同調_p7077
+        quote: 強制的に同調し、心を重ね、半ば乗っ取る形で安定させていく。それは暴力的な支配であり倫理的に許されない洗脳行為だったけど、私はもうためらわなかった。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_アズーリア_other_持ち場に戻って_p7079
+        quote: 「ガザとアデンはアズーリア斑、ローレルとメープルはハルベルト斑、シーハとラッセはプリエステラ斑。全員持ち場に戻って、指示があるまで待機」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_アズーリア_arrives_虫王の庭_p7083
+        quote: 『門』をくぐって転移したのは別の『門』に繋がる『架け橋』の亜空間ではない。　更には『ントゥガの断崖』ですらなかった。
+        locator: {}
+        spoiler_after: ch0209
+    speech:
+      observations:
+      - event_ref: E_ch0209_アズーリア_says_ティリビナ人を私たちじゃないって感じてた_p7078
+        quote: 「待って、おかしい、おかしいよ。みんな敵を作りすぎてる。私、いまティリビナ人を『私たちじゃない』って感じてた！」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_アズーリア_says_最終的な意思決定をするのは隊長である私_p7079
+        quote: 「でも最終的な意思決定をするのは隊長である私だってことを忘れないで。あなたが自分の裁量で命令を下せるのは班員であるペイル、ナト、イルス、シーハ、ラッセだけ」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_アズーリア_other_二人はこのまま連れていきます_p7080
+        quote: 「二人はこのまま連れていきます。キノコ人武装勢力を捕縛すれば人体操作の呪いからマリナさんを解放することができるかもしれないし、第五階層まで行けばより確実に二人を助けることができるでしょう」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_アズーリア_says_第四階層にキノコ人を手引きした内通者がいた_p7084
+        quote: そしてそれができるのは地上側だけだ。　悪い予想は当たっていた。第四階層にキノコ人を手引きした内通者がいたのだ。
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_アズーリア_thinks_私は独りじゃ無いんだから_p7088
+        quote: 英雄とか、責任とか、理想とか。それ以上に私が大切にしているものがここにはある。　空を大きな虫が飛んでいく。　ここは未知の異世界で、これから先どうなるかはわからない。　けれど、少なくとも空は晴れている。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イルス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0209_イルス_says_アイシャは妹なんだ_p7077
+        quote: 「頼むからやめてくれ、アイシャは妹なんだ！」
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_虫態アヴロノ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0209_虫態アヴロノ_appears_巨大な蜻蛉_p7083
+        quote: 空を見上げる。ちょうど私たちの上空を巨大な蜻蛉が通過していくところだった。反射的に攻撃的な巨大害虫かと身構えてしまうが、違う。　遠い複眼に宿る呪力には確かな理性がある。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ローザ・パルサ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0209_ローザ・パルサ_arrives_アズーリア_p7085
+        quote: 白を基調とした北辺式修道服に茨と鎖を巻き付かせ、ふわふわした膝上スカートを揺らしながら私の胸に飛び込んで来る。
+        locator: {}
+        spoiler_after: ch0209
+    speech:
+      observations:
+      - event_ref: E_ch0209_ローザ・パルサ_says_あのわんこは首をチョキンしても空間ぐねっても水とか地面とか殴ってる感じ_p7086
+        quote: 「他の人は『ちょっとは削れてるかな』感があるんだけど、あのわんこは首をチョキンしても空間ぐねっても水とか地面とか殴ってる感じ！」
+        locator: {}
+        spoiler_after: ch0209
+      - event_ref: E_ch0209_ローザ・パルサ_says_燃えるニワトリが放火して山火事になりかけてた_p7087
+        quote: 「それから私がもうひとり出てきて囮になってくれたり。あと燃えるニワトリが放火して山火事になりかけてた！　消火活動で大変そうだった！」
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0209_ミルーニャ_appears_アズーリア_p7088
+        quote: 滞空状態の機甲箒から小柄な女性が降り立つ。　箒乗りらしいヘルメットとフライトジャケットという出で立ちで、ゴーグルを持ち上げるとお馴染みの茶色の巻き毛と同色の瞳が露わになる。
+        locator: {}
+        spoiler_after: ch0209
+  first_appearance_candidate: true

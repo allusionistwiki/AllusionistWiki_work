@@ -1,0 +1,229 @@
+chapter: ch0226
+created: '2026-10-10'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0226_掃除屋_observes_精霊_p7451]]'
+  object: '[[ME_AR_SNS_Filter]]'
+  claim: 少年の「透視」能力は、現実の景色から不要な情報を除去し、望む景色だけを選択して映し出すARフィルターやSNSのアルゴリズムに類似している。
+  quote: 傘の下にある真ん丸な目が必要な景色だけを選択して映し出す。
+  paragraph: p7451
+  confidence: strong
+  quotes:
+  - quote: 傘の下にある真ん丸な目が必要な景色だけを選択して映し出す。
+    paragraph: p7451
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0226_ちびシューラ_other_転生ランキング_p7457]]'
+  object: '[[ME_MobileGame_Gacha]]'
+  claim: 機械女王が発表した「転活体験アプリ」や転生ランキングは、現代のスマホゲームにおけるガチャやアバター着せ替え、およびその商業的インセンティブ設計を風刺している。
+  quote: 転生体験は受け入れ側のメリットが最大の問題点になるため、転生されることに対するインセンティブが必要になる。
+  paragraph: p7456
+  confidence: strong
+  quotes:
+  - quote: 転生体験は受け入れ側のメリットが最大の問題点になるため、転生されることに対するインセンティブが必要になる。
+    paragraph: p7456
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0226_掃除屋_other_ケイブ＆ネスト_p7451]]'
+  object: '[[ME_Pet_Shop_Business_Model]]'
+  claim: ペットショップ「ケイブ＆ネスト」の多角的なサービス（販売、レンタル、遠隔操作など）は、現代のペットビジネスやサブスクリプション型サービスを反映している。
+  quote: 戦闘魔獣などの大型使い魔から通信から愛玩までこなす小型使い魔まで手広く扱っており、販売・買取・レンタル・遠隔操作・探索代行、その他様々なニーズに対応した使い魔系の総合ショップとして知られている。
+  paragraph: p7451
+  confidence: moderate
+  quotes:
+  - quote: 戦闘魔獣などの大型使い魔から通信から愛玩までこなす小型使い魔まで手広く扱っており、販売・買取・レンタル・遠隔操作・探索代行、その他様々なニーズに対応した使い魔系の総合ショップとして知られている。
+    paragraph: p7451
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0226_少年_has_property_邪視の才能_p7450]]'
+  object: '[[ME_Toxic_Positivity]]'
+  claim: 「不都合な事実を直視しない才能」が「優れた邪視者の証明」とされることは、現実の「ポジティブシンキング」や「自己責任論」における現実逃避の肯定を逆説的に描いている。
+  quote: 彼はそういった不都合な事実を直視しない才能に恵まれていた。それは優れた邪視者の証明である。
+  paragraph: p7450
+  confidence: strong
+  quotes:
+  - quote: 彼はそういった不都合な事実を直視しない才能に恵まれていた。それは優れた邪視者の証明である。
+    paragraph: p7450
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0226_エリカ_says_動物の権利の欺瞞_p7452]]'
+  object: '[[ME_Utilitarianism_vs_Animal_Rights]]'
+  claim: エリカの台詞は、功利主義的な幸福最大化と動物の権利擁護という倫理的対立軸を、ペットショップという空間を通じて批判的に言及している。
+  quote: 『功利主義と動物の権利を秤にかけてみせる欺瞞。家畜も使い魔も、主人の罪悪感なんて知ったことではないのにね』
+  paragraph: p7452
+  confidence: explicit
+  quotes:
+  - quote: 『功利主義と動物の権利を秤にかけてみせる欺瞞。家畜も使い魔も、主人の罪悪感なんて知ったことではないのにね』
+    paragraph: p7452
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0226_塗壁_other_ベフォニスの器_p7470]]'
+  object: '[[ME_Possession_Possession]]'
+  claim: 「アストラル体を流用しただけの別物」としての存在は、憑依や乗り移りといったオカルト的現象、あるいは魂の所有権という概念を物理的な器の交換として描いている。
+  quote: アストラル体を流用しただけの別物。器の中身を染め上げられた異物。
+  paragraph: p7470
+  confidence: strong
+  quotes:
+  - quote: アストラル体を流用しただけの別物。器の中身を染め上げられた異物。
+    paragraph: p7470
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_少年の父の正体
+  note: 母の遺言で「父は偉い顕花様」とされるが、隠花族と顕花族の混血は稀であり、その真偽や父の正体が後の展開で明かされる可能性が高い。
+  quotes:
+  - quote: それでも彼は母の『お前の父は偉い顕花様なんだよ』という遺言を頑なに信じた。
+    paragraph: p7450
+    quote_verified: true
+  expected_payoff: 少年が実は高位の顕花族の血を引いている、あるいは母が嘘をついていたことが判明し、彼のアイデンティティや立場が大きく変わる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アルテミシアの正体と目的
+  note: 蛇尾族に見せかけているが、実際は霊長類型の内世界被膜で覆われた「わけあり」の存在。ノゴルオゴルオ（塗壁）の姉妹を名乗るが、その真の忠誠心や過去が不明。
+  quotes:
+  - quote: 正体を隠した『わけあり』。この女性も監視対象だ。
+    paragraph: p7452
+    quote_verified: true
+  - quote: 姉ちゃん。ね、え、ちゃ、ん。おらは家族として姉ちゃんを心配してるだけだ。
+    paragraph: p7468
+    quote_verified: true
+  expected_payoff: アルテミシアがティリビナ側へ寝返る、あるいは塗壁の支配から脱却しようとする動きが見られる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_虹犬の貴婦人の正体
+  note: 白い犬の姿で少年に力を貸そうとする「虹犬の貴婦人」。その正体と、なぜ少年に接触してきたのかという意図が未回収。
+  quotes:
+  - quote: 優雅で高慢な虹犬の貴婦人が、彼に妖しく手を差し伸べている姿を。
+    paragraph: p7465
+    quote_verified: true
+  expected_payoff: 虹犬が少年の使い魔となる、あるいは別の勢力（ライラ・ラプスなど）のスパイであることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_クレイとトロメリアの繋がり
+  note: クレイが「四十四士の使い魔？」と推測されるほど、トロメリアとの強い繋がりを感じさせる描写がある。
+  quotes:
+  - quote: この人とトロメリアって人に強い繋がりを感じる。四十四士の使い魔？
+    paragraph: p7460
+    quote_verified: true
+  expected_payoff: クレイがトロメリアの分身、あるいはトロメリアの計画の一部として行動していることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_白き穀霊（レストロオセ）の動向
+  note: 塗壁が「白き穀霊」の動向を懸念しており、ジャッフハリムに懐柔されていることを危惧している。
+  quotes:
+  - quote: 問題は『白き穀霊』の奴がどう動くかだ。あの娘っこ、ジャッフハリムに預けてた間に随分と懐柔されちまってたんでねえか？
+    paragraph: p7471
+    quote_verified: false
+  expected_payoff: レストロオセが塗壁の計画を裏切る、あるいはティリビナ側へ付くことで戦況が変化する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 認識の歪曲による自己防衛と現実逃避
+  weight: 0.9
+  quotes:
+  - quote: 彼はそういった不都合な事実を直視しない才能に恵まれていた。それは優れた邪視者の証明である。
+    paragraph: p7450
+    quote_verified: true
+  - quote: 嫌いなものは箒で掃いてどこかにやってしまえばいい。視界の隅を見ないようにしていれば、幸せはきっとやってくる。
+    paragraph: p7459
+    quote_verified: true
+  note: 少年が「透視」能力を、見たくないものを見ないための防衛機制として使用しており、それが彼の生存戦略となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 階級社会におけるアイデンティティの流動性と搾取
+  weight: 0.8
+  quotes:
+  - quote: あなたが変わりたいと願うのなら、きっと顕花にだってなれるでしょう
+    paragraph: p7450
+    quote_verified: true
+  - quote: アストラル体を流用しただけの別物。器の中身を染め上げられた異物。
+    paragraph: p7470
+    quote_verified: true
+  note: 隠花族から顕花族への転生という夢と、塗壁が他者の器を利用する姿が対比され、魂や肉体が所有物として扱われる社会構造を批判している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による神秘の矮小化と消費
+  weight: 0.7
+  quotes:
+  - quote: 転生の『体験』っていう形で神秘を卑俗化しているところが要点なんでしょうね、あのアプリ。
+    paragraph: p7457
+    quote_verified: true
+  - quote: 転生という言葉は拡張され、その意味を変動させている。
+    paragraph: p7456
+    quote_verified: true
+  note: 本来神聖視されるべき「転生」が、アプリによる一時的な体験やデータ収集の対象として消費されている現状を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力と支配の構造（家族という名の檻）
+  weight: 0.6
+  quotes:
+  - quote: おらは家族として姉ちゃんを心配してるだけだ。
+    paragraph: p7468
+    quote_verified: true
+  - quote: 従順に躾けられた子供たちは反抗する気力を失い、使い魔としてのあり方に執着するようになる。
+    paragraph: p7470
+    quote_verified: true
+  note: 塗壁とアルテミシアの「家族」関係は、恐怖と支配による従属を強制するものであり、愛や絆の裏にある暴力性を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

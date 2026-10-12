@@ -1,0 +1,248 @@
+episode: ch0018
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0018_レオ_says_おまけ_p770
+        quote: 「いえ。なんだか、僕が行くと皆さん色々おまけしてくれたり、安くしてくれたりするみたいなんです。僕は普通にお買い物してるだけなんですけど」
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_レオ_says_アキラへの感謝_p771
+        quote: 「アキラさんは確かに僕を助けてくれました。だから、僕も誰かの為にできることがしたいなって思ったんです。もちろん、一番はアキラさんや先生たちのお手伝いをすることですけど」
+        locator: {}
+        spoiler_after: ch0018
+    action:
+      observations:
+      - event_ref: E_ch0018_レオ_helps_弱者_p796
+        quote: レオは一人の少女に寄り添っていた。背中から蝶の翅を生やしていること、服装から娼婦ではないかと思われた。
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0018_トリシューラ_asks_活動の継続_p771
+        quote: 「なんでも、いざという時の布石になり得るからって。あと、僕はこの場所以外にも『足場』を作っておいたほうがいいんだそうです」
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_トリシューラ_asks_セスカへの処遇_p775
+        quote: 「勝敗ははっきりさせるけど、生きるか死ぬかの勝負にはさせないってこと？ 土台からひっくり返すようなこと思いつくよね」
+        locator: {}
+        spoiler_after: ch0018
+    action:
+      observations:
+      - event_ref: E_ch0018_トリシューラ_activates_自動機銃_p785
+        quote: 街中に待機させていた自走機銃がキロンへと攻撃を仕掛けているのだ。
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_トリシューラ_helps_アキラ_p791
+        quote: アニスの真上に飛来したトリシューラの強化外骨格が、黒と赤の胴体を輝かせながら救援に訪れる。
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_トリシューラ_loses_制御_p798
+        quote: 実体の無い迷宮がちびシューラを取り囲んだかと思うと、その身体が俺から切り離されていく。
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0018_アキラ_thinks_左手の記憶_p772
+        quote: あの色のない左手を差し伸べられたその時から、ずっと。あとはその想いを追認するだけ。
+        locator: {}
+        spoiler_after: ch0018
+    speech:
+      observations:
+      - event_ref: E_ch0018_アキラ_says_トリシューラへの忠誠_p774
+        quote: 「俺はトリシューラの物だ。道具は使い手の意思を最優先する。お前の為すべき事、為し遂げたい事を全て代行してやる。いいか、お前の望む全てをだ」
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_アキラ_says_キロンの排除_p776
+        quote: 聖騎士キロンは、俺が倒す。
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_アキラ_thinks_松明の騎士団_p810
+        quote: 【松明の騎士団】は信用に値しない。故に、俺が悩んだのはどのようにして彼らを打倒するか、どのようにして騙し、陥れ、裏切り、殺害するかという事だけだ。
+        locator: {}
+        spoiler_after: ch0018
+    action:
+      observations:
+      - event_ref: E_ch0018_アキラ_uses_E-E_p792
+        quote: 【Ｅ－Ｅ】が感情を分離したことで、相手の客観的な魅力や価値といったものが自分とは関係の無い事のように感じられる。
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_アキラ_breaks_アブロニクレス_p807
+        quote: 撃ち出された右手は正確にそれを掴み取って、そのまま一気に握り潰す。
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_アキラ_attacks_負傷した少年_p820
+        quote: 「負傷した者を狙うとは、卑劣なっ」
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_店員さん]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0018_店員さん_gives_クレープ_p778
+        quote: 「今日のこの時間はクレープ屋さんのお仕事なんです。お客様はよくお会いしますから、買って下さったらちょっとおまけしちゃいますよ」
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キロン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0018_キロン_asks_アキラの帰属_p781
+        quote: 「ああ。俺は【松明の騎士団】に身を寄せる事に決めた。やっぱり、恩人と――アズーリアと敵対なんて俺にはできない。それに、こんな危険極まりない場所で生活するのもいい加減しんどかったしな」
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_キロン_says_異獣の駆逐_p817
+        quote: 「一匹たりとも逃がさぬよ。穢れた異獣は全て駆逐する」
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_キロン_says_異獣の駆逐_p818
+        quote: '「異獣は人では無い」
+
+          「もはやこの場所でおとなしくする理由も無いのだ。私は聖騎士の本分を全うするのみ――すなわち、あらゆる異獣の根絶を」'
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_キロン_says_槍との一体化_p824
+        quote: 「これを捨てる？ とんでもない。この槍は既に、俺そのものだ。捨てさせたいのなら、力尽くで引きはがしてみるがいい！」
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_キロン_says_ミエスリヴァ_p829
+        quote: '「憎い仇の力を使ってでも――我が価値を問え、【ミエスリヴァ】」
+
+          そして世界が、モノクロに染まる。'
+        locator: {}
+        spoiler_after: ch0018
+    action:
+      observations:
+      - event_ref: E_ch0018_キロン_transforms_少年_p812
+        quote: キロンの手の中で、少年が裸身を光り輝かせている。その全身が黄金の煌めきに満たされたかと思うと、その輪郭が不意に歪み、異なる形状へと変化していく。
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_キロン_uses_射影聖遺物_p815
+        quote: 「射影聖遺物・第七番――翼無きレメスの苦悶」
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_キロン_transforms_少年達_p822
+        quote: 素早く残り二人の少年に隣接、順番にその頭に触れる。
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少年]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0018_少年_says_嘘の指摘_p782
+        quote: 「策略です。その方は嘘を吐いています」
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五階層]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0018_第五階層_transforms_迷宮_p784
+        quote: 床面からせり上がってくるのは、無数の障壁だ。更に周囲に乱立していた建造物が全て光の粒子となって消滅し、同じような壁となって再構成されていく。
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アニス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0018_アニス_attacks_アキラ_p786
+        quote: 「アニス！ この破壊狂がっ」
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルテミシア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0018_アルテミシア_names_フレウテリス_p789
+        quote: 「宣名によりて我が世界の枷を解き放つ――我が魔名はアルテミシア。まことの名を【フレウテリス】。呪祖レストロオセの呼び声を聴き、現世全てに災いを運ぶ者なり」
+        locator: {}
+        spoiler_after: ch0018
+    action:
+      observations:
+      - event_ref: E_ch0018_アルテミシア_flees_地下_p809
+        quote: 自らの脚を石化させたかと思うと、それを根本から砕き、へし折ったのだ。
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0018_カーイン_helps_アキラ_p790
+        quote: '「カーイン？」
+
+          「何をしている、さっさと逃げろっ！」'
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ローズマリー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0018_ローズマリー_uses_魅了呪術_p791
+        quote: 「受けてごらんなさい、私の愛を。病みつきになるわよ」
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0018_コルセスカ_fights_アルテミシア_p807
+        quote: 視認するだけで世界を書き換える能力を持つ両者が相対した時、その戦いは世界の改変合戦の様相を呈する。
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_コルセスカ_uses_水鏡の盾_p821
+        quote: 「【水鏡の盾】はいずれかひとつの対象から与えられるダメージを軽減し、零にする。そして軽減したダメージに等しいダメージを指示した対象に与えます。つまりは【反撃】属性です。」
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_コルセスカ_defeats_キロン_p827
+        quote: コルセスカの指先に操られるようにしてキロンの左腕を黒槍ごと切り落とす。
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_コルセスカ_uses_氷の鏡_p827
+        quote: 「いにしえの【鏡の魔女】が遺した奥義のひとつ。私の氷はそれをほぼ完全に再現する」
+        locator: {}
+        spoiler_after: ch0018
+    speech:
+      observations:
+      - event_ref: E_ch0018_コルセスカ_names_神滅具_p823
+        quote: 「あれらは旧時代の言語支配者である覇王メクセトが遺した神滅具、【自殺の黒槍】に【死出の蹄鉄】です。」
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_コルセスカ_says_呪波汚染_p824
+        quote: 「使い手だけではなく周囲の環境全てに呪波汚染を撒き散らす、神話時代の産業廃棄物です！」
+        locator: {}
+        spoiler_after: ch0018
+      - event_ref: E_ch0018_コルセスカ_says_宿主_p828
+        quote: 「ええ、急に宿主を殺して神滅具が暴走してもいけませんので、まずは生きたまま凍結隔離するか解呪をしないとならないのです」
+        locator: {}
+        spoiler_after: ch0018
+  first_appearance_candidate: true

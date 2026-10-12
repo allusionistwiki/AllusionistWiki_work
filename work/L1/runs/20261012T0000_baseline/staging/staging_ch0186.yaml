@@ -1,0 +1,602 @@
+episode: ch0186
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_org_トリシューラ]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0186_トリシューラ_other_門_p6171
+        quote: カーティスが敗北した現在では再びトリシューラの管理下に置かれている。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_塔]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0186_塔_functions_as_門_p6171
+        quote: 空間的ではなく観念的な『上下』に向かって同時に流れている情報の大河に乗ることで、人は第五階層という小さな世界から異なる世界へと旅立つことが可能になる。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_壁]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_壁_functions_as_目_p6171
+        quote: 光の柱を囲うようにして建設された天井吹き抜けの巨大建造物は防衛用の『壁』であり、第五階層の出入りを管理するための『目』でもあった。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_第五階層の人々]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_第五階層の人々_hopes_安堵_p6171
+        quote: 第五階層の人々はひとまず安堵に胸をなで下ろしていた。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_入管シューラ]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_入管シューラ_loses_モニタ_p6172
+        quote: 敷地内の全モニタが乗っ取られ奇妙な幻が上映される。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_入管シューラ_observes_孤立_p6172
+        quote: この『門』付近のちびシューラ全てが情報的に孤立させられていた。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_映像]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0186_映像_other_紛争地帯_p6172
+        quote: 荒廃した都市部。砂埃を巻き上げて突き進む装甲車。杖を担いだ歩兵たちが悲壮な表情で戦場と化した街で呪術戦闘を繰り広げる。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_映像_other_そこに未来はありますか_p6173
+        quote: 真っ暗な画面に大写しとなる『そこに未来はありますか』の文字。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_映像_other_児童割礼_p6173
+        quote: 頑迷な海の民による児童割礼、死や重大事故の危険性がある成人儀式、宗派や民族間での血腥い争いが陰惨さを強調されながら映し出される。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_来訪者]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_来訪者_says_観光慈善啓蒙活動_p6172
+        quote: 「観光、慈善――それから啓蒙活動だよ、君」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_東区画の転移門]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0186_東区画の転移門_appears_歪み_p6172
+        quote: 閉鎖された東区画の転移門から流れる光にわずかな歪みが生じる。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_東地区の門]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_東地区の門_transforms_独立異界_p6172
+        quote: いまやこのちびシューラたち、そして東地区の『門』は第五階層から切り離された独立異界と化しているのだ。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_青い髪の女]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_青い髪の女_uses_糸_p6172
+        quote: 来訪者の青く染められたショートヘアから無数の糸が伸びて支配力を及ぼす。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_動画編集呪術]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_動画編集呪術_other_訴え_p6173
+        quote: 二人の限界過ぎる言動は動画編集呪術によって『第五階層の悲惨を訴える子供の声』に改変されていた。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_海の民]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_海の民_attacks_聖地_p6173
+        quote: 独自の信仰を持った海の民が新たな聖地を求めて侵攻を開始。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_眼鏡の少年]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_眼鏡の少年_says_タブレット_p6173
+        quote: 「女王は僕らナードの気持ちを考えてくれないんだ。ファッションとか知りませんよ、服より新しいタブレットとか端末の周辺機器とかが買いたいのに。」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_蝶翅の少女]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_蝶翅の少女_says_美少年売春合法化_p6173
+        quote: 「第五階層の治安は世界最悪だし！　ヤバイサイボーグとか胡散臭い格闘家とかが世界の至宝である美少年を狙ってて目障りだから何とかして欲しいし！　あと美少年売春の合法化はよ。とーぜん全部独占で」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラクルラール]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0186_ラクルラール_appears_教師_p6174
+        quote: 満を持して登場するのは人形の教師たちだ。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_transforms_球体_p6187
+        quote: ラクルラールたちは形を変えて球となる。再び張り付いたテクスチャは子供たちの満面の笑顔。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_is_located_宇宙空間_p6200
+        quote: 世界にたったひとつ、広大な宇宙空間を旅する人工惑星型の学園異界都市ラクルラール。
+        locator: {}
+        spoiler_after: ch0186
+    action:
+      observations:
+      - event_ref: E_ch0186_ラクルラール_other_門_p6174
+        quote: その中を来訪者は白衣を靡かせて悠々と歩んでいく。彼女を咎め立てる者はいない。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_appears_背後_p6177
+        quote: 確かに文脈操作は成功していた。にも関わらず、女はバルの前と後ろ、双方同時に存在している。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_takes_断章_p6178
+        quote: 戦闘後の混乱を突いた『青い糸』が六冊全てを奪い取ったのだ。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_other_アレッテ・イヴニル_p6179
+        quote: 蘇生した人形は女性的な肉体に戻されている。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_other_恐怖_p6180
+        quote: 諦めた者、惰性で生きる者にも恐怖はある。そのようにラクルラールが設定したからだ。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_kills_警備兵_p6181
+        quote: 警備兵たちは意識を残したまま肉のスープに変えられ、苦痛の声が周辺一帯を阿鼻叫喚の地獄に落とす。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_other_体験入学_p6190
+        quote: 巨大重力は探索者を中心とした第五階層の住民たちを次々と吸い上げ、闇の中へと飲み込んでいく。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_other_転校生_p6198
+        quote: 「今日はお前たちに転校生を紹介する。二人とも、入っていいぞ」
+        locator: {}
+        spoiler_after: ch0186
+    speech:
+      observations:
+      - event_ref: E_ch0186_ラクルラール_says_融けろ_p6175
+        quote: 「融けろ」
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_names_バル_p6177
+        quote: 「シナモリアキラの一員であるカルカブリーナと疑似的な親子関係ないしそれに近い結びつきを有しているな。つまりお前はあの転生者の父親役ができると。素晴らしい最高の役者だオーディションは合格、十点加点してやろう！」
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_threatens_ミヒトネッセ_p6180
+        quote: 「あるいは次に素体とするのはお前か、さもなくばミヒトネッセかと言ったところだが――」
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_teaches_六王の虐殺_p6181
+        quote: 「歴史の授業、虐殺についての話をしよう。今まさに虐殺されている生徒諸君！」
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_says_サイバーカラテ_p6183
+        quote: ここに新たなるサイバーカラテの暴力が加わることで、この地は血塗られた祭儀場へと変質していくだろう
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_says_通信格闘講座_p6184
+        quote: 「そこで我々も『通信格闘講座』を始める事にした競合することになるがまあよろしく頼む敗れて死ね」
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_deceives_コルセスカ_p6186
+        quote: 「ネドラドって元『守護の九槍』の？　そんなアキラくん、うちにはいないけど」
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_defines_戦略兵器_p6189
+        quote: レールガン方式のマスドライバーによる教育質量投射爆撃を行うことで超広域に向けた破壊的洗脳呪術を実行できる戦略兵器。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_requires_民衆の望み_p6189
+        quote: 「『呼ばれた』からさ。民衆が心より未来を望んだ時、私は構築される」
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_defines_思想的基盤_p6190
+        quote: 彼女こそは槍神教と並ぶ上方世界の思想的基盤のひとつである。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_defines_女_p6191
+        quote: 「女は生み育てるもの。家庭を担う人材育成こそ私の機能だ」
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ラクルラール_has_property_六つの命_p6193
+        quote: 我が命は地上の衛星と主星、軌道上の学院を含めて計六つ、つまり六回殺さなければ倒せぬぞ
+        locator: {}
+        spoiler_after: ch0186
+    relationship:
+      observations:
+      - event_ref: E_ch0186_ラクルラール_binds_アレッテ・イヴニル_p6179
+        quote: 王権は剥奪され、アレッテ・イヴニルとしてラクルラールに従属するという力関係が再現されてしまっていた。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラクルラール学院]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_ラクルラール学院_defines_教育_p6174
+        quote: 劣った眷属種、落伍した半異獣でさえ最高の教育を受ければ社会に居場所を見つけることができる。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_門付近]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0186_門付近_has_property_静寂_p6174
+        quote: 騒音が響く『門』の付近は異様な静寂で満たされていた。宣伝文句以外の音が忽然と消えている。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_牛頭ジャッフハリム人]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0186_牛頭ジャッフハリム人_wears_対洗脳甲冑_p6175
+        quote: 機械女王に下った獄卒の牛頭ジャッフハリム人は無骨な対洗脳甲冑に身を包んでラクルラール対策も十分な筈であった。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_鋼糸]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_鋼糸_other_甲冑_p6175
+        quote: 極めて細い鋼糸が全ての甲冑をバターのように切断すると、断面から大量の液体が流れていった。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_バル・ア・ムント]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_バル・ア・ムント_attacks_ラクルラール_p6176
+        quote: 影から現れた赤髭の壮年男性が自らの手首に牙を立てる。飛び散る燐血が発火し、同時に瘴気を纏うことで『炎のコウモリ』を形成。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_バル・ア・ムント_uses_文脈操作_p6176
+        quote: このような『どう考えても倒せていない』パターンを踏んだ言動をすることで、ほぼ確実に生きているであろう敵の反撃開始位置を爆心地に確定させたのである。
+        locator: {}
+        spoiler_after: ch0186
+    speech:
+      observations:
+      - event_ref: E_ch0186_バル・ア・ムント_says_無傷_p6176
+        quote: 「さしもの貴様といえど！　これだけの攻撃を叩き込めば！　無傷というわけにもいくまい！」
+        locator: {}
+        spoiler_after: ch0186
+    relationship:
+      observations:
+      - event_ref: E_ch0186_バル・ア・ムント_loves_ラクルラール_p6177
+        quote: 恐怖にひきつっていたバルの表情は、その姿をはっきりと捉えた瞬間、朗らかな笑顔に変わっていく。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッテ・イヴニル]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0186_アレッテ・イヴニル_fears_ミヒトネッセ_p6180
+        quote: 「お待ち下さい、あの子はっ」
+        locator: {}
+        spoiler_after: ch0186
+    speech:
+      observations:
+      - event_ref: E_ch0186_アレッテ・イヴニル_says_適当_p6194
+        quote: 「いいのよ。ラクルラールとの決戦なんて適当で」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_アルト_kills_五大騎士団_p6181
+        quote: 司る虐殺は敵対派閥の徹底的殲滅。度重なる戦の果てに力を増大させた五大騎士団、その全ての粛清は鮮やかの一言。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_マラード_kills_少数民族_p6181
+        quote: 司る虐殺は少数民族の弾圧と旧臣の粛清。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_オルヴァ_kills_革命_p6182
+        quote: 司る虐殺は革命、反乱、その鎮圧、流血による円環、破滅の繰り返し。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_カーティス_kills_疫病_p6182
+        quote: 司る虐殺は疫病による大量死、隔離による差別――裏と表の呪い。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_パーン_kills_族誅_p6182
+        quote: 司る虐殺は族誅――九族皆殺し。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_ヴァージル_kills_文化_p6182
+        quote: 司る虐殺はラディカルな統合主義。今もなお地上で命脈を保つ思想であり、文化とミームの破壊は教会も得意とするところだ。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_アキラ_fights_ラクルラール_p6183
+        quote: 南地区での襲撃は密やかに、そして大胆に進行した。誰もが敵の存在には気づけないまま、俺と魔女たちだけがその圧力を感じている。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_アキラ_fights_学院_p6194
+        quote: 後がなくなり破れかぶれになったラクルラールは上空の学院を直接俺にぶつけるという最後の手段に訴えた。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_アキラ_fights_アレッテ_p6196
+        quote: 剥き出しのアレッテが鋼糸を伸ばし、俺が義肢を換装する。勢いよく踏み出し、両者の影が激突する。
+        locator: {}
+        spoiler_after: ch0186
+    speech:
+      observations:
+      - event_ref: E_ch0186_アキラ_other_アレッテ_p6195
+        quote: 「そうか。俺はお前に対して特に何も感じないな。この世界に来て以来、一番どうでもいいと思えたのがお前だよ」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ちびシューラ]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_ちびシューラ_other_戦闘_p6184
+        quote: 敵の複雑怪奇な呪術の波が映像に引きずられて零落、打撃の応酬に変質する。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラクルラール球]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_ラクルラール球_says_セレスティアルオーブ・ゼオーティア_p6187
+        quote: 「――セレスティアルオーブ・ゼオーティア」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_セレスティアルオーブ・ゼオーティア]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_セレスティアルオーブ・ゼオーティア_functions_as_生命吸収_p6188
+        quote: 直後、極大の『生命吸収』が第五階層を襲った。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_ミヒトネッセ_takes_セリアック＝ニア_p6191
+        quote: 王子様役のミヒトネッセは強引な手つきでリールエルバからセリアック＝ニアを引き剥がす。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルマ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_アルマ_uses_氷の盾_p6192
+        quote: コルセスカの言葉に応えてアルマが氷の盾を掲げる。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_グレンデルヒ_helps_アキラ_p6192
+        quote: 「全能感に酔っているのは貴様だ。そしてこの私こそ真の全能者と知るがいい」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_サリア_appears_時空_p6192
+        quote: 何もない場所から声が聞こえる。出し抜けに、次元の裏側から長い手指がこちら側に飛び出す。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_サリア_attacks_ラクルラール_p6193
+        quote: その応用形である時空を穿つ紀人殺しの概念狙撃が蠅の幻と共にラクルラールに叩き込まれた。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0186_コルセスカ_says_ハイディング解除_p6193
+        quote: 「サリア、ハイディング解除、ＣＴ毎に三アビ、ボスが最終形態になったらアルマのかばう技に併せて氷弓ぶっぱでお願いします！」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0186_ゼド_has_property_十二本の腕_p6196
+        quote: 六対で計十二本。六人分に匹敵する腕がずらりと肩から伸びており
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ゼド_wears_呪動装甲_p6197
+        quote: 盗賊王の全身は、いつの間にか骨犬をベースにした呪動装甲に覆われていた。
+        locator: {}
+        spoiler_after: ch0186
+    action:
+      observations:
+      - event_ref: E_ch0186_ゼド_other_腕_p6196
+        quote: ゼドは無造作に掴んでいた屍の腕を振り上げると、そのままアレッテの胸に突き立てた。
+        locator: {}
+        spoiler_after: ch0186
+      - event_ref: E_ch0186_ゼド_other_決闘_p6196
+        quote: 「いいや、これは一対一の決闘ではない」
+        locator: {}
+        spoiler_after: ch0186
+    speech:
+      observations:
+      - event_ref: E_ch0186_ゼド_says_鍵_p6197
+        quote: 「全ての鍵は揃った。隠された宝への道は今こそ開かれる」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コズエ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0186_コズエ_appears_眼帯_p6198
+        quote: もう一人は顔の右側を覆い隠すような装飾的な眼帯をつけた雪の結晶に似た少女。
+        locator: {}
+        spoiler_after: ch0186
+    speech:
+      observations:
+      - event_ref: E_ch0186_コズエ_says_よろしく_p6199
+        quote: 「――コズエです。よろしくおねがいします」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヒメ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0186_ヒメ_appears_赤い髪_p6198
+        quote: 一人は左右で二つに結んだ赤い髪と緑の瞳、すらりとした肢体を制服に包んだ人形のように整った容姿の少女。
+        locator: {}
+        spoiler_after: ch0186
+    speech:
+      observations:
+      - event_ref: E_ch0186_ヒメ_says_よろしく_p6198
+        quote: 「はじめまして、私はヒメと言います。これからよろしくお願いしますねっ」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クルミ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0186_クルミ_loves_コズエ_p6199
+        quote: 瞬間、クルミの瞳に小さな火が熾る。言葉に出来ない熱っぽい衝動。
+        locator: {}
+        spoiler_after: ch0186
+    speech:
+      observations:
+      - event_ref: E_ch0186_クルミ_suspects_転校生_p6199
+        quote: 「ねえ、なんかあの二人、感じ悪くない？　この学年の『エトワール』はトウコなのに、でしゃばっちゃって」
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トウコ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0186_トウコ_observes_転校生_p6199
+        quote: 転校生たちに負けず劣らずの美貌を誇る窓際の姫君は、関心を失ったのか紅紫の瞳を退屈そうに窓の外に向ける。
+        locator: {}
+        spoiler_after: ch0186
+  first_appearance_candidate: true

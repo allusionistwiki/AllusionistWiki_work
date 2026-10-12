@@ -1,0 +1,330 @@
+episode: ch0141
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_トリシューラ_attacks_塔の外壁_p4779
+        quote: トリシューラは肩撃ち式のロケットランチャーを構え、塔の外壁に向けて発射した。戦車の装甲すら貫通する威力が炸裂し、轟音と共に爆発のエネルギーが撒き散らされていく。粉塵が晴れた後、無傷の外壁を見たトリシューラは舌打ちした。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_トリシューラ_uses_非殺傷武器_p4780
+        quote: 事前に警告されていた俺たちは目と耳を塞ぐ。直後、凄まじい音響と閃光が群衆を一瞬で無力化した。更に催涙ガス、電気銃といった非殺傷性の武器で次々と暴徒の大海を引き裂いていく。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_トリシューラ_other_メートリアン_p4797
+        quote: 「――げ、トリシューラ」「メートリアン？」 そこにいたのは見慣れた腐れ縁の協力者。
+        locator: {}
+        spoiler_after: ch0141
+    speech:
+      observations:
+      - event_ref: E_ch0141_トリシューラ_gives_指示_p4780
+        quote: 消耗が激しい蠍尾、牙猪、レスラーはレオを守りながら地下通路マラコーダチリアットカニャッツォから脱出を試みて！ アキラくん、銃士、道化は私についてきて！カルカブリーナアルレッキーノ
+          アルマとゼド、カーインも手伝ってくれる？
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_トリシューラ_thinks_操り手_p4787
+        quote: 「最初からこれが狙いか。ラフディーボールっていう競技の選択がまずかった――いや、そもそもこの『流れ』、私たちも操られた結果なのかな？」
+          トリシューラの呟きは一つの可能性を示唆していた。
+        locator: {}
+        spoiler_after: ch0141
+    symbolic:
+      observations:
+      - event_ref: E_ch0141_トリシューラ_thinks_寂しさ_p4794
+        quote: 『寂寥』という観念に適合する外界の情報と『人らしさモデル』を照合して『悲しさ』『寂しさ』という再現性のある神経伝達物質の反応をシミュレート。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_トリシューラ_thinks_孤独_p4801
+        quote: ああそうか、とその時すとんと納得が胸に落ちる。 『寂しい』という意味が、その文脈が理解できたのだ。 それは、全く『寂しさ』を感じていない時に獲得した理解だった。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_第五階層の住人]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_第五階層の住人_fights_暴動_p4779
+        quote: 第五階層の住人たちは見境なしに暴れ、狂乱している。アレッテ・イヴニルの扇動によってガロアンディアンとラフディという二つの勢力は相争うように仕向けられたが、人が入り乱れる観客席でそんな区別など出来ている者はいない。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_大地の民]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0141_大地の民_has_property_凶暴化_p4780
+        quote: 足裏から膨大な呪力が彼らの体内に流れ込み、それが彼らを凶暴化させているのだと判明した。アレッテが言っていた球神に血を捧げる儀式とやらの影響らしい。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_アルマ]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_アルマ_uses_氷盾_p4781
+        quote: 同時に、アルマの目の前で何もかもが音もなく停止した。 正確には、彼女が前方に伸ばした手から発生している不可視の力場によって強制的に動きを止められているのだ。
+        locator: {}
+        spoiler_after: ch0141
+    speech:
+      observations:
+      - event_ref: E_ch0141_アルマ_uses_嘲弄_p4782
+        quote: 「は、情けない。ラフディの戦士っていうのはその程度？ そんなんじゃトントロポロロンズだって平気で跳ね返せるよ」 【嘲弄】の呪術だ。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラフディ]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_ラフディ_fights_トリシューラたち_p4781
+        quote: 再生者として甦った大地の民――ラフディ側の戦士や呪術師たちは暴徒鎮圧用の装備で対処出来るような相手ではなかった。何度傷付いても立ち上がる耐久力に、不屈の精神。更には『マラード王とラフディの民を守る為に』という大義まで掲げているのだ。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ネドラド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_ネドラド_attacks_トリシューラ_p4783
+        quote: 「破壊しろ！ 我々から貴い労働の権利を奪う機械の魔女を打ち壊せ！」 煽動者の叫びに賛同しながら機械の腕を振り上げてトリシューラに襲いかかる暴徒たち。
+        locator: {}
+        spoiler_after: ch0141
+    symbolic:
+      observations:
+      - event_ref: E_ch0141_ネドラド_has_property_狂信_p4784
+        quote: 純粋、潔癖、高潔。その究極たるグロテスクさ。 どこまでも善良に正義を信じ、その果てに傲慢な殺戮に至る。 聖なる狂信者。キロンに似ているのだ、この男は。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_グレンデルヒ_saves_トリシューラ_p4784
+        quote: 寸前で割って入ったのはグレンデルヒだった。トリシューラを突き飛ばしてネドラドの拳を受け止め、そのまま至近距離で極大の呪術を放とうとする。
+          しかし、あの男を機械の身体に憑依させていたのが失敗だった。 グレンデルヒは一撃でバラバラに解体され、瞬く間に無力化されてしまう。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_カルカブリーナ_uses_バトルライフル_p4785
+        quote: 銃士があらゆる距離に対応できる高火力のバトルライフルをセミカルカブリーナオートで撃ち続ける。引き金が動く度に上に跳ね上がる銃口。この銃を使いこなす為には正確な照準をし続ける必要がある。凄まじい反動制御、手ぶれの補正を自動で【サイバーカラテ道場】が行い、【弾道予報】が正確な照準を助けていた。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_ゼド_fights_ネドラド_p4785
+        quote: その時、ネドラドの手が顔の前で閃いた。 白骨化している指先に、銃弾が挟み込まれている。 テンガロンハットを被った男が、両手に巨大な拳銃を構えてネドラドの前に立ちはだかっていた。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ルバーブ]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0141_ルバーブ_has_property_棘球_p4786
+        quote: ざんばらで癖の強い乱れ髪。艶やかなマラードの長髪とは対照的な――口の悪い言い方をしてしまえば汚い印象のある髪だ。その至る所に、小さな棘球が引っかかっている。
+        locator: {}
+        spoiler_after: ch0141
+    speech:
+      observations:
+      - event_ref: E_ch0141_ルバーブ_says_球神への祈り_p4787
+        quote: トリシューラの問いに、ルバーブは一言で返した。「おお、球神よ、我に加護を与え給え」 ネドラドと同じ目をしていた。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_ルバーブ_says_王権神授_p4792
+        quote: 「王の権威とはすなわち神によって与えられしもの。その二つは同じこと」 王権神授――Ｄｉｖｉｎｅ ｒｉｇｈｔ ｏｆ ｋｉｎｇｓ．
+        locator: {}
+        spoiler_after: ch0141
+    action:
+      observations:
+      - event_ref: E_ch0141_ルバーブ_uses_影棘_p4791
+        quote: ルバーブはぼそりと呪文を唱えた。「【影棘】」シャドウアーチン 実体の棘と、非実体の棘。銀と黒の刺突の嵐が猛然と襲いかかる。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_ルバーブ_uses_釘のナタリエル_p4793
+        quote: 「五十五番――【釘のナタリエル】」 それは、俺と全く同じ【キュトスの姉妹】を参照先にしたサイバーカラテの技術に他ならなかった。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_ルバーブ_uses_感染呪術_p4808
+        quote: （釘を傷付いたり病んだりしている部位に触れさせてから地面に打ち込むことで『穢れ』を地面に転移させて癒すという感染呪術だよ。その地面は踏めば傷と病が足裏から伝わる罠だから気をつけて）
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_ルバーブ_uses_路の女王ヘリステラ_p4810
+        quote: 「一番――【路の女王ヘリステラ】」 ぞっとするほどに、手強い相手として。 ルバーブが口にしたのは、キュトスの長姉その人の名だった。
+        locator: {}
+        spoiler_after: ch0141
+    symbolic:
+      observations:
+      - event_ref: E_ch0141_ルバーブ_transforms_紀人_p4810
+        quote: （戦車の業――信じられない、ルバーブは今、闘争の昂ぶりの中でメルカバわざ魂を限りなく球神に接近させている。『行』によって紀元槍に到達ぎょうしようとしているんだ）
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_アキラ_fights_ルバーブ_p4788
+        quote: 「あとは任せる、トリシューラ！」「ここは任せたよ、アキラくん！」 咆哮するルバーブの背後で、浮遊する黒い魔導書が項を捲り続けていた。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アキラ_uses_エンバーディープ_p4789
+        quote: 「換装・五十番！」（Ｎｏ．５０――【エンバーディープ】エミュレート！） 蒸気機関の腕に換装して腰を落とす。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アキラ_uses_釘のナタリエル_p4806
+        quote: 「こっちもいくぞ、五十五番っ！」 第五階層という小さな宇宙が呼び声に応え、物質を創造する。 まず釘が出現し、俺の左掌に突き刺さった。
+          そして左手に沿うように出現する、途方もなく巨大な十字架。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アキラ_fights_ルバーブ_p4812
+        quote: いつの間にか、ルバーブから球神への狂信が消え去っているように見えた。 球神のいる高みに近付き、操り糸を断ち切ることに成功したのだろうか。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0141_リーナ_asks_六王_p4799
+        quote: 「六王ってなんだっけ」 あ、キレた。 メートリアンの小さな頭を見下ろしながら、トリシューラはちょっと愉快になった。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッテ・イヴニル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0141_アレッテ・イヴニル_thinks_マラード_p4802
+        quote: 気の毒なマラードを思い出す。どんな時も自らを美しいと胸を張る堂々たる姿――あれこそが美しさだ。私は、だから彼が羨ましく、悲しいと思う。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_says_バベルの塔_p4803
+        quote: 「『どんなことが真理とか寓話とか言って、 数千巻の本に現れて来ようと、 愛がくさびの役をしなかったら、 それは皆バベルの塔に過ぎない』
+          ――さて、私の塔はどうなのかしら」
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_says_ガリヨンテ_p4817
+        quote: 「紀人レルプレアはね、自らが信仰を捧げた神を食べて紀神に至ったの。王殺し――神の捕食。食べるというのはつまるところ儀式。聖餐という呪術が崇高さをこの世に引き摺り下ろす。神性を掌握可能にする」
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_says_お父様_p4821
+        quote: 「名前で呼んではくれないのね――ひどいわ。『お父様』」 アルトはたった一つの目をこれ以上ないほどに見開き、アレッテを凝視した。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_says_お父様_2_p4821
+        quote: 「名前で呼んではくれないのね――ひどいわ。『お父様』」
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_hates_アルト_p4822
+        quote: 「直視するの、本当に疲れる。まず声が嫌いだわ。それから見た目も。臭いも多分嫌いよ。言動の全てが鼻につく。あなたという存在そのものが厭わしい。殺して誰かに墓でも建てられたら最悪。だからね――いっそ誰からも忘れ去られてしまえばいいと、そう思うのよ。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_says_資格_p4822
+        quote: 「そうよ。だから私には資格があるの。憂鬱なことにね」 心底から不本意そうにアレッテは言って、それから目を閉じた。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_other_選択_p4823
+        quote: 「これから、貴方に道を示すわ。一つはこのまま消えていく道。もう一つは、美しきラフディの王として永遠を手にする道」
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_says_ルバーブの殺害_p4823
+        quote: 「活路はたった一つ。ルバーブを殺せば貴方は永遠を手に入れることができる。本当の意味で、ラフディの王になれるの」
+        locator: {}
+        spoiler_after: ch0141
+    action:
+      observations:
+      - event_ref: E_ch0141_アレッテ・イヴニル_attacks_アルト_p4819
+        quote: 「死になさいよ」 倦怠、諦め、退屈――そうした普段の印象が全て消えて、殺意だけが膨れあがる。純粋な激怒が亜竜のかぎ爪となって具現化した。
+          竜爪眼。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_uses_オルガンローデ_p4820
+        quote: 「――されど奴隷に逃げ場は無し。金枝は遠く、金鎖は砕けず、この身は塔から抜け出せず。天の金鎖に囚われるなら、この身は稲妻と共に地に墜ちよ。タークスターク、落っこちた。王さまの首が落っこちた」
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_takes_竜牙_p4822
+        quote: 竜牙を回収しておいてくれる？ 五将軍はこれからの戦いに必要だから――私なら、五大騎士団を掌握できるしね」
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_other_マラード_p4822
+        quote: 優しげに手を伸ばし、こわれ物をあつかうようにして頬を撫でる。どぶの瞳に、アルトに似た悲しみの色が宿る。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アレッテ・イヴニル_uses_忘却_p4822
+        quote: 「【忘却】――これで終わりね。ああ、ベルグくんは『それ』からオブリヴィオン竜牙を回収しておいてくれる？
+        locator: {}
+        spoiler_after: ch0141
+    visual:
+      observations:
+      - event_ref: E_ch0141_アレッテ・イヴニル_appears_as_亜竜_p4821
+        quote: 人形姫の細い身体。 その背後に伸びる影の形にアルトは気付く。 巨大な顎に獰猛な牙。前傾姿勢の巨体とは不釣り合いなほど小さな手と長大な尾――亜竜そのもののシルエット。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_マラード_appears_塔_p4813
+        quote: 誰かにぶつかって弾き飛ばされる。 何かを言おうとするが、皆まで言えずに罵声を浴びせられてしまう。 男には力が無かった。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_マラード_other_アレッテ_p4823
+        quote: 目を閉じて、意識を束の間の夢に彷徨わせていた美しき王は、ゆっくりと覚醒した。やがて瞳の焦点が合うと、安心できる顔がすぐ傍にあったことで安心したように表情を和らげた。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_アルト_helps_マラード_p4814
+        quote: 「――おお、アルト王ではないか」 喜びの色。 つい先日まで敵対していた相手――いや、今も事の成り行き次第では敵対するかもしれない相手だ。しかし同時に、長い付き合いの友人でもあった。
+        locator: {}
+        spoiler_after: ch0141
+      - event_ref: E_ch0141_アルト_takes_オルガンローデ_p4821
+        quote: その全身から全ての力が失われ、全く無抵抗のままアレッテのオルガンローデをその身に受ける。常人ならば消し炭になっているであろう致命的なダメージを負って、アルトは膝をついた。
+        locator: {}
+        spoiler_after: ch0141
+    speech:
+      observations:
+      - event_ref: E_ch0141_アルト_remembers_赤眼騎士団_p4815
+        quote: 塔を見ると苦い記憶が甦る。 失われた赤眼騎士団。恩人であるディルトーワに報いる為になにものにも代えがたい至宝をくれてやったこと。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ベルグ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0141_ベルグ_kills_アルト_p4822
+        quote: アルトは、頭上に何かがあることに気が付いた。 影が差す。巨大な質量の気配。 藍色の血に濡れた全身甲冑が、その巨躯を生かして途方もなく巨大な戦鎚を振り上げている。反応する間も無く、アルトは鉄槌によって押し潰された。
+        locator: {}
+        spoiler_after: ch0141
+  first_appearance_candidate: true

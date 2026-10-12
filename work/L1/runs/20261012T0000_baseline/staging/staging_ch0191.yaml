@@ -1,0 +1,719 @@
+episode: ch0191
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アベル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_アベル_gives_羊の仔_p6291
+        quote: アベルは肥えた羊の仔を。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_カイン]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_カイン_fights_悪魔の化身_p6291
+        quote: 兄のカインは鋤を持ち畑を耕し、弟のアベルは犬と共に羊の世話をしておりました。二人は悪魔の化身である虫や狼と戦い、苛酷な日々を耐えていました。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_カイン_gives_アベル_p6291
+        quote: カインは最愛の弟を。
+        locator: {}
+        spoiler_after: ch0191
+    name:
+      observations:
+      - event_ref: E_ch0191_カイン_names_アベル_p6291
+        quote: 昔々の物語。 あるところにカインとアベルという兄弟がおりました。
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_カイン_promises_アベル_p6291
+        quote: 兄弟はお互いに支え合いながら生きていこう、どんな理不尽にも挫けずに頑張ろうと誓い合います。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_父]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_父_asks_生贄_p6291
+        quote: 「自分たちの持ち物の中で、最も価値あるものを生贄として私に捧げなさい」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_父_reveals_正解_p6291
+        quote: 正解は最も素晴らしい価値を持つ父を殺す事だったのに。
+        locator: {}
+        spoiler_after: ch0191
+    action:
+      observations:
+      - event_ref: E_ch0191_父_other_カイン_p6291
+        quote: 激怒した父は嵐となり、カインの畑を根こそぎにし、彼が歩む大地の全てが荒野となるように呪いをかけました。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_レイ_travels_目的地_p6292
+        quote: 蝿、ハエ、はえ、羽音――ぶんぶん響く耳障りな音。 まだ冬だというのに、学院にはこれほどたくさんの虫がいただろうか。若き王は煩わしさを振り払うように強く息を吐き、目的地へと足を運ぶ。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レイ_other_練習場_p6313
+        quote: 日暮れを迎えた時刻の練習場、他の部員たちが帰った後でもレイは未だに舞い続けていた。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レイ_kills_クルミ_p6325
+        quote: レイが握るのは屍蝋の腕、誰かから奪われた筈の右腕。彼は存在しないはずの右腕で自らの右腕を握り、剣に見立てて人形に突き立てた。
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_レイ_says_父_p6293
+        quote: 「去れ！ 俺の父は故郷にいるただ一人、お前たちなど顔も知らぬ！」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レイ_threatens_六王_p6294
+        quote: 「貴様らもだ、これ以上の好き勝手は許さん！ 学院の風紀を乱す不良生徒ども、退学にしてやるから覚悟しろ！」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レイ_says_クルミ_p6295
+        quote: 「さあな。お前は次の発表会の心配でもしていろ。さっさとレッスンに行け」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レイ_remembers_先輩_p6296
+        quote: ――だめよ王子さま、それは美しくないわ。 先輩――先輩？ 彼女は誰だったろう。 いつか聞いた言葉を、白昼夢のように思い出す。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レイ_remembers_先輩_p6314
+        quote: 「先輩と約束したんだ。独りよがりの狭い舞ではなく、周りを見て踊る広い舞を見つけると。だから――そうだな。たぶん俺は卒業後もこうして練習して、ステージに立っていたいんだ。だからいま、こうしている」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レイ_says_楽しい_p6314
+        quote: 「そうかもな。それでも、『形』を研ぎ澄ましていくのは楽しい」 レイの口から自然に出てきた『楽しい』という言葉に、クルミの表情が凍る。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レイ_other_埋葬禁止_p6322
+        quote: 「この糞にも劣る畜生連中、不遜にもこの俺の父親を僭称した虫けらどもの死を嘆くことを禁ずる。その屍は野晒しとし、鳥に啄まれるに任せよ」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レイ_other_埋葬_p6323
+        quote: 「ならん！ 古き邪神の法など捨てよ、さもなくばこの国を去れ！」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_六王]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0191_六王_appears_レイ_p6292
+        quote: 帰還した生徒会執行部、六王は災厄そのもの。糸で吊された顔の無い人形たち、六人の美男子たちが入れ替わり立ち替わり現れて、レイを誘惑していく。
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_六王_other_親権_p6293
+        quote: 彼らは口々に若き王の親権を主張し、自分こそが未熟な王の代理人となって学院の王権を手にするのに相応しい父親であると言い立てる。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_六王_asks_花嫁_p6294
+        quote: 「王権の象徴である花嫁を父に渡すがいい、息子よ」「そうだそうだー、子は自らの妻子を父に捧げるのが古くからのならわしだー」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_六王_says_革命_p6295
+        quote: 「王の専横に対する正統なる革命を！」「決闘だ！ 決闘だ！」
+        locator: {}
+        spoiler_after: ch0191
+    action:
+      observations:
+      - event_ref: E_ch0191_六王_fights_クルミ_p6294
+        quote: 六王たちはドレス姿の渦巻羽クルミを取り囲むと、これは俺のものだ、玉璽をよこせと奪い合いを始める。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_六王_activates_鎧骨壱式_p6295
+        quote: 「虚ろを満たせ、鎧骨壱式！」 六王たちが叫ぶと、床から迫り上がってきた鎧のような拘束具が彼らを外側から抱きしめる。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_六王_gives_手袋_p6295
+        quote: 若き王に投げつけられる白い手袋、その数六つ。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_六王_transforms_古き王_p6296
+        quote: 死者の骨で作られた外骨格が闇を噴出させ、役者を役で染め上げる。六王は過去と合一し、再びの生を得て現世に降り立つ。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_子]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_子_other_父殺し_p6292
+        quote: そうして子は自らの父を、そして兄弟を殺すことを決意したのです。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_母]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_母_hides_カイン_p6292
+        quote: これを見た母、万物を生み出した大地は天空の怒りが届かぬ地割れの狭間に息子を誘い、深い闇の中に匿いました。
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_母_promises_子_p6292
+        quote: 「いい子ね、可愛い坊や。今はお母さんが守ってあげる。だから、大きくなったらきっとお父さんからお母さんを救ってね」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_アルト_names_父_p6293
+        quote: 「じ、自由奔放？ な他の者たちには任せられん。ここはこのアルトを父と呼ぶがいいー」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トレミー]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_トレミー_says_役者_p6293
+        quote: 「舞台掌握のアピールをするにしても、もう少しマシな役者はいなかったわけ？」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_トレミー_helps_レイ_p6294
+        quote: 「そこで黙っちゃ駄目だよレイちゃーん。ほらほら頑張って、男の見せ所だぞー。レイちゃんのかっこいいとこ見たーい」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_トレミー_asks_ミヒトネッセ_p6316
+        quote: 「君が一番見えない。振られたとこ悪いけど、強引にでも探らせて貰うよ」 伸ばされた手を、ミヒトネッセは意にも介さず舞台袖へと向かう。
+        locator: {}
+        spoiler_after: ch0191
+    action:
+      observations:
+      - event_ref: E_ch0191_トレミー_disappears_背景_p6294
+        quote: トレミーは口の端に着いていたジッパーを閉めてすうっと背景に溶けていった。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_トレミー_gives_おまじない_p6296
+        quote: トレミーはレイにあるものを託す。王の胸、肋骨の下あたりに手を添えて、ぐっと力を込めて押したのだ。「レイちゃんの胸にいつも剣があるようにっていう、ちょっとしたおまじない。忘れないためのメモや付箋みたいなもので、大した力は無いけど」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_マラード_says_後継者_p6293
+        quote: 「あ、新しき王のなんと美しいことかー。あの黒髪の艶やかさ、まさしく俺の後継者に相応しい。このマラードが先輩として指導してやろうー」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クルミ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0191_クルミ_appears_花嫁_p6294
+        quote: 照明が舞台の端に落とされ、少女人形の花嫁姿が露わになる。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_クルミ_transforms_豚_p6325
+        quote: 腐り落ちた人形の肉、美しかった容貌は無惨な畜生のものと成り果てる。 その面相はさながら腐った豚。「ぶう、ぶう、ぶう、ぶう」
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_クルミ_asks_レイ_p6313
+        quote: 「舞なんて神に奉納するためのごっこ遊びでしょ。祭司王としての責務を熱心にこなすのは責任感から？ それとも他にやることが無いの？」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_クルミ_says_マザコン_p6315
+        quote: 「――そう。マザコンじゃモテないし、よかったんじゃない？」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_クルミ_says_女王_p6325
+        quote: 「さあ約束の時だ女王よ、俺を死神にしてみせろ！ 殺し屋の異名などではなく、『紀』に刻まれた理において死の執行者として承認しろ。血に汚れたこの手を濯ぎ、全ての罪と苦痛と死者どもの呪いから俺を自由にしてくれ！」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_狂王子]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_狂王子_dies_墓標_p6296
+        quote: 狂王子は潔癖症の仮面を血に染めて、仮初めの墓標に押し潰されて眠りにつく。
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_狂王子_says_母_p6297
+        quote: 「ああ、母様、母／おのれエトラメトラトン、あの魔女め／うして、僕を――」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_セリアック＝ニア_attacks_世界_p6297
+        quote: 猫の爪が闇夜の帳を引き裂くと、紗幕が引き裂かれると同時に世界そのものが大きくたわむ。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_セリアック＝ニア_saves_クレイ_p6298
+        quote: 宝石の爪がぶんぶんうるさい音を一気に吹き散らし「お願い、ナーグストール！」という叫びが世界を塗り替えた。 セットが破壊された舞台、六王に扮したゼド配下の盗賊団員に取り囲まれたクレイとミヒトネッセ、虚ろな瞳の人形が並ぶ観客席、ハエが飛び回る腐臭まみれの古びた劇場。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_夜の王]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_夜の王_says_姦通魔_p6297
+        quote: 「不貞！ 姦通魔！ そうか、お前こそが我が妻を奪う寝取り男だったか――！」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_義手の覇王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_義手の覇王_flees_舞台_p6297
+        quote: 誰より強固な個我を保ったまま、敗退してなお生存を勝ち取った義手の覇王。 早々に舞台から降りると、呆れた様子で客席を突っ切って退出していく。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_シナモリアキラ_other_意識_p6298
+        quote: そこでようやく俺＝シナモリアキラは自分を取り戻した。 違う、意識を敵に集中させろ。優先的に対処すべきはゼドで間違い無いはずだ。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_シナモリアキラ_uses_人形_p6298
+        quote: 舞台袖に放置されていた『この身体』は恐らくグレンデルヒ役として使われた人形だ。外れた首を嵌め直し、立ち上がって舞台を目指す。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_シナモリアキラ_attacks_ミヒトネッセ_p6299
+        quote: カーインが頭を下げると同時、俺はガタガタに緩んでいた頭部をぶん投げる。投擲された俺の頭部が屈み込んだカーインの上を通過して背後から迫っていたミヒトネッセの頭部に肉薄。「その首、挿げ替えさせて貰う」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_シナモリアキラ_uses_オルヴァの技術_p6299
+        quote: オルヴァの技術を再現し、大口を開いた俺の頭部が侍女人形の首に食らいつく。 オルヴァの呪力が牙と化して肌を突き破り、グレンデルヒによる呪的侵入が架空のアストラル構造の奥深くへと俺の支配力を及ぼしていく。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_シナモリアキラ_breaks_ミヒトネッセ_p6307
+        quote: 敵陣のど真ん中に切り離された俺は即座に自爆。 精神世界に呪力が吹き荒れ、物理的に首に噛み付いていた頭部も同時に爆散。ミヒトネッセの身体が舞台を転がっていくが、即座に立ち上がり体勢を立て直す。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_シナモリアキラ_other_感情_p6309
+        quote: 俺も同じ気持ちだったが、まずは落ち着けとカルカブリーナの恐怖とストレスを抑制する。扁桃体に食い込んだ微細機械に感情を噛ませて代行させつつ、エミュレートした感情を出力して肉体を正常に再起動させていく。
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_シナモリアキラ_other_子守歌_p6300
+        quote: これは、どこか懐かしい――音色、ハミング、ことば、詩歌――子守歌？
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_シナモリアキラ_suspects_アダス_p6305
+        quote: 「笑わせるな。共感ごっこなら余所でやれ」 思わず罵声が出た。凄まじく苛立たしい。遮断できないほどに、不快感が絶え間なく湧き上がってくる。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_シナモリアキラ_other_習合_p6306
+        quote: 「断る。お前の一部になる気はない。それと俺はシナモリアキラだ。前世のことはだいたい忘れた。殺し屋だっけ？ 何の話か覚えてねえよ」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_謎の少年]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0191_謎の少年_appears_クレイ_p6298
+        quote: いつのまに出現していたのだろう、どこか女のようにも見える、男子用制服を着た少年がクレイのそばで星の海を広げている。
+        locator: {}
+        spoiler_after: ch0191
+    action:
+      observations:
+      - event_ref: E_ch0191_謎の少年_stops_盗賊たち_p6299
+        quote: クレイを守るように立ちはだかった謎の少年により阻まれた。彼が広げる宇宙的光景が空間を押し広げると、クレイとの距離はどんどん離れていくばかりでちっとも縮まろうとしない。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_カーイン_attacks_ミヒトネッセ_p6299
+        quote: 上手から疾走してきたのは白衣を纏ったカーイン。下手側にいた俺よりもクレイとミヒトネッセに近かった奴は恐るべき速度で貫手を放ち、ミヒトネッセの首筋に一撃を叩き込んだ。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_カーイン_fights_レナリア_p6311
+        quote: 不運にもカーインが足を滑らせてルバーブに激突したおかげで全てが二人に直撃する。原因はバナナの皮だ。
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_カーイン_says_レナリア_p6310
+        quote: 「事故に見せかけた殺しを得意とするレナリアといえば、東方の第七世界槍に根を張る『黒斑病公司』という闇組織の頭目だ。あまりの邪悪さから『朱』の天主に破門されたという『夢界の殺し屋』――まさか盗賊王と同一人物だったとはな」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_ミヒトネッセ_disappears_輪郭_p6299
+        quote: 直後、人形はその輪郭を失い衣服だけがはらりと落ちる。 カーインは丸太にめり込んだ指を抜きながら「空蝉かっ」と悔しげに言うが、
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_ゼド_says_観測_p6300
+        quote: 「未来の観測ってのは邪視だ。望む未来を引き寄せるんじゃねえ、観測者の紀源に根ざした世界を押し広げる。」「うぅ、ひっく。本質的には『現在』しか無いんだよぉ。観測者がいる『今ここ』だけが過去と未来の広がりを認識できる。」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_ゼド_reveals_レナリア_p6301
+        quote: 「その通り。はじめまして、私はレナリア。よろしくね」 闇の中に浮かび上がった顔は、長い銀髪を二つに括った年若い少女のもの。盗賊王とは似ても似つかないが、紛れもない同一人物だ。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_ゼド_reveals_セロナ_p6302
+        quote: 「ああ、申し遅れましたが僕はセロナ。セロナ・ハーヴェストです」 真下から穏やかな少年の声。意識をより深い方へと向けると、靄がかかったような小柄な姿がある。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_ゼド_other_ミヒトネッセ_p6303
+        quote: 「ミヒトネッセは見事に仕事をやり遂げた。そして彼女の理解はそこで止まった」 「俺たち／私たちは罪貨。交換可能な英雄。あの肉体に拘る必要はもはや無いわ。ミヒトネッセに『純粋な呪力』として複写され、奪われた時点で『盗賊王』の伝播は終わっている。」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_ゼド_asks_女王_p6334
+        quote: 「おいおい、俺を忘れてくれるなよ。好きな方とガチで喰らい合わせてくれるんだろう？ 俺に負けるようならお前には不要な役者ってことだからな。全く、冷酷な女神様だ、豚ってのは沢山生むから子供への愛情が薄いのか？」
+        locator: {}
+        spoiler_after: ch0191
+    action:
+      observations:
+      - event_ref: E_ch0191_ゼド_other_シナモリアキラ_p6300
+        quote: ミヒトネッセの意識の底に作られた罠、侍女人形の中に潜んだゼドが俺を狩るために用意していた処刑場。
+        locator: {}
+        spoiler_after: ch0191
+    visual:
+      observations:
+      - event_ref: E_ch0191_ゼド_appears_人形_p6330
+        quote: 突然むくりと起き上がる人形にクレイがびくりと身を震わせるが、直後その表情が驚愕に染まる。侍女の姿は幻のように消え失せて、そこには薄汚れたコートとテンガロンハットの陰気な男が立っていたのだ。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アダス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0191_アダス_appears_ゼド_p6302
+        quote: 薄茶のくたびれたコートにテンガロンハット、無精髭の陰気な顔。このゼドの気配は、初めて対面するものではないと確信する。
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_アダス_says_目的_p6302
+        quote: 「俺は俺、殺し屋紛いのアダス、盗賊崩れのゼドだ。狙いは『死人の森』に眠る財宝、古代の叡智、失われた神秘。目的は一貫して変わっていない」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_アダス_other_保護_p6303
+        quote: 「安心しろアキラ。せっかく紀人に至れた後輩をいきなり狩るなんてマナー違反はしない。むしろその逆。俺はお前を守ってやりたいんだ」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_アダス_confesses_殺し屋_p6305
+        quote: 「この俺、アダスの本質は盗賊ではなく殺し屋だ。依頼されれば契約通り、上質な死を顧客にお届けする。安楽死代行から戦いで散りたい戦士の相手役までこなすクリーンな人殺しが売りで、市民に愛される優しい死神ともっぱらの評判だ」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_アダス_asks_習合_p6306
+        quote: 「俺と習合しないか、転生者セト。紀人になったばかりでは抵抗があるかもしれないが、なに、遅かれ早かれいずれは経験しなければならないことだ」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハッピー]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_ハッピー_says_盗賊の掟_p6304
+        quote: 「殺し、奪い、勝ち取る！ これぞ盗賊の掟、英雄の性ってな。」「人生はそれだけだ。他の紀人どもはぜんぶ紛い物、なにもかも薄っぺらな糞、糞、糞だ！」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レナリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_レナリア_transforms_ミヒトネッセ_p6307
+        quote: ミヒトネッセの髪色が一瞬で銀色に染まる。周囲に可視化されていく呪力はまるで鱗粉。少女が両手を広げると手品のように武器が出現。右手には鉤爪、左手にはステッキ。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レナリア_attacks_シナモリアキラ_p6308
+        quote: 「貴方、事故で死ぬわ」 飛び退くよりも早く、真上から落下してくる巨大質量の気配。駄目だ、避けきれない。迫る光と熱、そして風圧と重圧。橋が落ちてくる。「不運ね。悪竜を呪い、私に祈りなさい」
+          舞台天井の照明ブリッジが容赦なく俺にのし掛かった。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_レナリア_defeats_マレブランケ_p6309
+        quote: レナリアが鉤爪で虚空を一撫でしただけでグレンデルヒとオルヴァが解き放った光球があっけなく掻き消え、彼女がもう片方の手に持ったステッキを一振りすればカルカブリーナが狙撃した銃弾はその軌道を逸らす。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グラッフィアガット]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0191_グラッフィアガット_appears_舞台_p6312
+        quote: ダウナーで投げ遣りな声が応じて、舞台袖から紅紫の長髪を造花で飾った少女が登場する。両手には騎士と魔法使いの人形。「ベルグくんと！」「ガルラくんの！」「むりやり人形劇がはっじまっるよー！」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_コルセスカ_attacks_ミヒトネッセ_p6317
+        quote: トレミーの常識とミヒトネッセの無視を問答無用のグーパンチが粉砕した。侍女人形は鼻を潰さぬように顔を傾けたために頬に拳をめり込ませ、そのまま吹っ飛んでいく。腰の入った力強い右ストレートを放ったのは雪のような冬の化身、冷たくも明るい光を巨眼に宿す魔女、コルセスカだった。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_コルセスカ_takes_ぜんまいばね_p6319
+        quote: その隙を狙ってコルセスカの手が素早くミヒトネッセの頭部に伸ばされた。触れたのは人形のぜんまいばね。髪飾りのようにも見えるそれを、魔女はぐるりと無造作に回すと、強引に抜き取った。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_コルセスカ_other_ミヒトネッセ_p6321
+        quote: 「私は、どちらかと言えば都合のいいハッピーエンドが好きですね」 そう言ってコルセスカは倒れたミヒトネッセを両手でひょいと持ち上げてえいやとばかりに遠くに投げ捨てた。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_コルセスカ_saves_クレイ_p6341
+        quote: 傷一つ無い『クレイ』を空間を引き裂いて現れた雪のような少女が攫い、豚の邪視を氷の盾が遮った。
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_コルセスカ_threatens_ミヒトネッセ_p6319
+        quote: 「ならまずトリシューラにこれまでの事を謝罪し、ラクルラール派の企みを残らず吐き出し、ついでに私に豪華ディナーと新作ゲーム代を奢り、更に私の言う事を何でも聞くメイドさんになってもらいましょうか。」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_民衆]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_民衆_asks_埋葬_p6323
+        quote: 「どうか私に死者たちを葬る資格を与えて下さい、王よ！ 何故あなたの法はかくも苛烈なのですか。私たちの内なる法と慈悲の心は嘆き叫んでおります」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_民衆_other_レイ_p6324
+        quote: 「父との愛を拒絶し、母との愛までも捨てるというなら、その証を法の剣で示せ」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_豚の女王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_豚の女王_other_遺体_p6326
+        quote: 侍女人形の遺体、蝿まみれの豚の屍がゆっくりと立ち上がる。 蘇りの過程でその腐肉は崩れ、しかして不気味に蠢き膨張し続ける。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_豚の女王_takes_槍_p6329
+        quote: ほっそりとしてはいるが、サイズ感の狂った巨大な手が柱の如き槍を掴み、一気に引き抜く。 槍を掲げた怪物は全身に歓喜を漲らせて叫んだ。「やっと取り戻せた。私の浄界、私の死人の森、私の世界槍、私の力。未だ完全ではありませんが、感慨深いものですね」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_豚の女王_gives_権能_p6331
+        quote: ぶうぶう鳴きながら豚が口と鼻から垂れ流すのは黒く濁った油だ。 ゼドは帽子を脱ぎ、頭上から降り注ぐ汚液を頭で受け止める。
+        locator: {}
+        spoiler_after: ch0191
+    speech:
+      observations:
+      - event_ref: E_ch0191_豚の女王_other_世界槍_p6330
+        quote: 「本来の第八世界槍である世界樹ティルブ＝ユグドラシルは松明の炎によって死を迎えました。その後、欠落した世界の軸を私の槍が埋めて安定化させた。それが現在の上書きされたこの世界槍というわけです」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_豚の女王_says_目的_p6332
+        quote: 「私の目的は、『死人の森』のアップデート。再演によって新たな神話を生み出すことだったのです」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_クレイ_other_レイ_p6327
+        quote: 「おお、見よ！ 若き王は遂に破滅の予言を成就させた。それと知らずに六人の父を殺し、それと知らずに母を愛したのだ！ インセストの禁忌、情交の咎、近親者と寝所を共にすること罷り成らぬと法に定め置きながら、王が自らそれを破るとは、なんと嘆かわしいことか！」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_クレイ_promises_女王_p6333
+        quote: 「俺にそこまでの期待をかけて下さっていただなんて――陛下、ありがとうございます。この腕の剣に誓って、どのような役でも演じきってみせましょう」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_クレイ_other_復讐_p6338
+        quote: 純粋な心で主君に使える騎士という在り方を信じていた若者の心に嵐が吹き荒れる。天を仰ごうとも祈るべき神は彼を裏切った。ならば彼はどうするべきか。「復讐だ！
+          復讐しかない！」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女王]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_女王_says_バックアップ_p6332
+        quote: 「ですが悲観することはありません。当然、私はこの世界槍の中核にバックアップをとっておいたのです。ぶう」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_says_クレイ_p6333
+        quote: 「ですが再演をしても前と同じではいけませんぶひ。解釈を変え、役者を入れ替えて新鮮さを出して行く必要がありますぶう。そのための貴方です、クレイ。私はあなたという主演俳優を最高の存在に育て上げる必要がありました。ぷぎゅ」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_says_試練_p6334
+        quote: 「全ての試練はレベリングのためにありました。戦闘と捕食による自己強化、槍の理を内面化して殺し、奪い、勝利するハックアンドスラッシュの蛮人。六王というステージボスを撃破し、新たなアビリティを獲得していく過程。ええ、『マレブランケ』のスロットに六王の仮面を追加していくことで、紀人シナモリアキラはより強くなる。」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_asks_クレイ_p6335
+        quote: 「クレイ、可愛いクレイ。貴方が正しく新王の役割をこなせるかを試すため、役の解釈を問います」「はい、何なりとお答えします」 背筋を伸ばして豚を仰ぎ見るクレイ。
+          自分はまだ試されている段階なのだ、この嫌な空気は気を引き締めるべきだという警告なのだと己に言い聞かせながら、新人俳優として最終面接に臨む。 そして、手酷い圧迫がその心を打ちのめした。「日常シーンの解釈ですが、若き王は侍女に手を出していたと思いますか？
+          ていうか正直、自分に傅く美しいセクサロイドにむらむらきませんでした？」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_reveals_インセスト_p6336
+        quote: 「私が入り込んで以降のあの人形は、貴方にとって魅力的だったはず。ええ、かつて私と契約を交わしたファウナも忘れられない人になったでしょう？
+          試作体の貴方が羊飼いの少女を捕縛してきた時、これだと思ったのです。厳しさの中に柔らかさを感じる、貴方にとって適度に都合の良い年上の異性。私への忠誠と両立しうるだけの好意の萌芽はあったはず。それは当然のこと。私しか愛せない貴方は、私が端末化した恋人役だけをそうと知らずに犯すことができる」
+          無自覚のインセスト・タブー。 クレイの脳裏に浮かぶ、血の記憶。 舞踏の師ファウナの胸を貫き、王の侍女クルミの胸を貫いた自らの穢れた手。 自分は知らないうちに母親の影を殺し、捕食し、陵辱していた。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_reveals_ロック_p6336
+        quote: 「誤作動を防止するため、性的なものに近付くと強いショックを受けるよう貴方の魂にはロックをかけています。『部位』などの記号に惑わされることなく、対象の本質にだけ惹かれ、欲望するように設定しました」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_reveals_クレイ_p6337
+        quote: 「クレイ、貴方は道具。そして私が切り離した端末」 肉体の一部、自己愛の対象。シナモリアキラが第五階層を拡張身体として扱うのと全く同じ。自我を持った身体性の延長。それが子供、それが家族。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_other_クレイ_p6338
+        quote: 「ああついに！ 造物主の課した運命に抗うのですねクレイ？ やっと反抗期、素晴らしい、それがトゥルーエンドへの分岐です！ 憎いですか、私のことが！
+          暴虐の父権！ 支配の母権！ 抗いようのない権力で子供をモノとして扱う親を、内心の自由さえも縛る呪いを、断ち切る決意ができたのですね？」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_says_元ネタ_p6338
+        quote: 「父親は、えーとそうですね。私がこれまでに触れてきた無数のキャラ、数々の彼氏たち――ああ、貴方も夢主である私の亜種彼氏ではあるのですが――しいて言えば、そのへんがクレイの元ネタです。創作ってそういうものでしょう？」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_says_ノーマルエンド_p6339
+        quote: 「あーあ、まーたノーマルエンドですか。どこで分岐間違ったんでしょうね。これではソルダはおろかガドールにも通用しません」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_other_クレイ_p6341
+        quote: 「ああそうか、まだいたんですね。うーん、じゃあチュートリアルバトルいってみましょう。クレイ。私の可愛いクレイ。練習用のエネミーを倒して、経験値を獲得するのです。前のデータを引き継いで強くなりましょうねー」
+        locator: {}
+        spoiler_after: ch0191
+    action:
+      observations:
+      - event_ref: E_ch0191_女王_makes_クレイ_p6337
+        quote: 女王は腐り落ちた肉を眼差し、邪視によって変容させた。 死が覆り、再びの生を受けた肉塊がクレイそっくりの顔を形作る。喃語を口から漏らす出来損ないのクレイが女王の腹から次々と湧いて出て来ると、そのままどろどろと腐り落ちて崩壊していった。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_女王_makes_粘土人形_p6340
+        quote: 巨大な手を生やし、腹部に突っ込んで泥のようなものを取り出す。 粘土だ。舞台の上で、幼児がそうするように一心不乱にこね始める。「キャラメイク、キャラメイクと――今度はもう少しオスっぽいデザインとか？
+          ぶひっ、ビルドは戦士系スキル主体で、儀式系は紀人ツリーに届かせるための必須分だけ取得する方向で。経験値ポーションと好感度アイテムぽーいっと。ぶう」
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_新しいクレイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_新しいクレイ_promises_女王_p6340
+        quote: 「いいのですか？ 俺などにこのような贈り物を――光栄です、陛下。大切に、ずっと大切にします。陛下の真心に応えられる戦士になることを、ここに誓いましょう。ずっとおそばで、陛下を守らせて下さい」
+        locator: {}
+        spoiler_after: ch0191
+    action:
+      observations:
+      - event_ref: E_ch0191_新しいクレイ_attacks_クレイ_p6341
+        quote: 柔らかな慈母の声が命ずるままに、新たなクレイはどこかたどたどしい手つきで手刀を構え、見捨てられたものに斬りかかる。逆らうことを知らない子供は、母親の暴力から逃げる術を持たない。刃は無慈悲な死をもたらす。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0191_トリシューラ_attacks_ゼド_p6341
+        quote: 観客席から飛び上がって快哉を叫ぶ盗賊王の銃弾を、義肢の男が軌道を予測して回避、赤毛のアンドロイドが反撃の号砲を鳴らす。「これは合図のための射撃なので銃規制セーフ！」
+          叫びながら音響呪文を解放、『爆撃』の雨をゼドに浴びせていくトリシューラ。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルウテト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0191_ルウテト_says_宣名_p6342
+        quote: 「役者は揃いました。もはやこの期に及んで紀神としての宣名を躊躇う理由はありません。愚かな小娘、失敗に向かうだけの終わった私。誰が真の邪視者であるのかを、今こそ教えて差し上げます」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_ルウテト_reveals_世界槍_p6343
+        quote: 「この世界槍の名を教えましょう。誰も意識できず、疑問に思う事すらできなかった認識のヴェールを取り払ってね」 女王が握る透明な槍が伸張し、世界を貫いていった。「ここは第九世界槍、揺籃命宮アイスナイン。私が持つ九氷晶の最後のひとつ、『氷槍』そのものです」
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_ルウテト_says_夢_p6344
+        quote: 全てはまどろみの中に。 これは完全なる力を取り戻した紀神ルウテトが見る、グロテスクな夢想だ。「いい子ね、可愛い坊や。さあ、これからもお母さんが守ってあげる。お腹の中にいらっしゃい。素敵な現実から醒めて、悪い夢を楽しみましょう――？」
+        locator: {}
+        spoiler_after: ch0191
+    visual:
+      observations:
+      - event_ref: E_ch0191_ルウテト_transforms_女王_p6342
+        quote: 死人の森の女王ルウテトは、豚の皮を脱ぎ捨てて真の姿を露わにする。 左半身は薄翅を広げる美しい光妖精の美貌。 右半身は骨の翼を突き出した穢れた死者の異形。
+          頭蓋骨の仮面が顔の片側に貼りつき、闇のような眼窩から氷の瞳が迫り出す。
+        locator: {}
+        spoiler_after: ch0191
+    action:
+      observations:
+      - event_ref: E_ch0191_ルウテト_defeats_コルセスカ_p6344
+        quote: 世界観同士のぶつかり合いの果て、敗れたのはコルセスカの世界だった。 この世界は既に冥府であり、死の女王が統べる手のひらの上。 森羅万象が捩れて虚空の一点に溶け落ちる。誰も彼もが奈落の大穴へ落とされて、生ある全てが落ちた後には存在という存在が死とひとつになっていく。
+        locator: {}
+        spoiler_after: ch0191
+      - event_ref: E_ch0191_ルウテト_fights_コルセスカ_p6344
+        quote: 「分かっていますよ。これでようやく始められる――それでも、最後に勝つのはこの私です。第一浄界――『ステュクス』！」「第二浄界――『コキュートス』！」
+          視線が激突し、時空が軋みを上げる。
+        locator: {}
+        spoiler_after: ch0191
+  first_appearance_candidate: true

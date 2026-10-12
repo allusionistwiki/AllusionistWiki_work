@@ -1,0 +1,342 @@
+episode: ch0085
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0085_ゼド_other_米料理_p3097
+        quote: そう切り出したゼドが色の付いた米を頬に付けていたので指摘すると、真顔で摘んで口に入れた。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_ゼド_defeats_第九魔将ピッチャールー_p3098
+        quote: 第九魔将ピッチャールーとの追撃戦の様子を仲間の一人が念写で撮影していたため、動画をネットで見ることができる。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_ゼド_uses_ハメ手_p3099
+        quote: 魔将の攻撃パターンを読み切って『こうすればこうなる』という戦術を瞬時に構築、相手の行動を任意の方向に誘導し、更に迷宮の罠を逆に活用した『ハメ手』は探索者の間で語り草になっている。
+        locator: {}
+        spoiler_after: ch0085
+    visual:
+      observations:
+      - event_ref: E_ch0085_ゼド_is_located_黒百合館_p3097
+        quote: 娼館で宿で食堂で探索者協会の支部で――という雑多な施設が入り交じった建物は、事実上ゼドの根城だ。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_ゼド_wears_女装_p3132
+        quote: 彼は変装術にも長けていて、特殊な化粧やら呪術の道具やらであっという間に女性らしくなってしまった。
+        locator: {}
+        spoiler_after: ch0085
+    speech:
+      observations:
+      - event_ref: E_ch0085_ゼド_says_ニセアキラ_p3097
+        quote: 「『ニセアキラ』の話を知っているか」
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_ゼド_reveals_地下の組織_p3103
+        quote: 「どうも最近、『地下』を中心に動いている組織があるらしい」
+        locator: {}
+        spoiler_after: ch0085
+    relationship:
+      observations:
+      - event_ref: E_ch0085_ゼド_has_property_探索者としての適性_p3098
+        quote: ゼドは四英雄で最も探索者らしい探索者だ。戦いよりも遺跡などの探索に向いており、またそれさえ出来れば魔将を討伐したりといった主たる攻略には興味が無い、という性格である。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ニセアキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0085_ニセアキラ_attacks_三報会_p3099
+        quote: 【三報会】が完全に潰された。文字通り、物理的に拠点ごと叩き潰されたって話だ。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_ニセアキラ_uses_サイバーカラテ_p3099
+        quote: サイバーカラテ特有の――『発勁用意』とかいう発声を耳にした者が何人もいる
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_ニセアキラ_kills_ティムたち_p3100
+        quote: 結果は全滅。仇には三倍の報いを受けさせるというのが連中の信条だが――奴らが受けたのは三倍どころじゃない。
+        locator: {}
+        spoiler_after: ch0085
+    symbolic:
+      observations:
+      - event_ref: E_ch0085_ニセアキラ_has_property_超人_p3101
+        quote: 象なら俺の銃で狩れるんだがな――どうやらこいつはそれ以上の怪物だ。いつだったか、お前が『俺は一般人だ』とか馬鹿みたいなことをぬかして、異世界の超人の話をしただろう
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ティム]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0085_ティム_attacks_ニセアキラ_p3100
+        quote: 三報会に残った最後の頭目、【報復】のティムが幹部の仇討ちに手勢を引き連れて動いた。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_変異の三手]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0085_変異の三手_has_property_紋章_p3104
+        quote: 連中は互いを識別するための符号として三本の手を持った三角錐の紋章を身体のどこかに、あるいは持ち物に刻んでいる
+        locator: {}
+        spoiler_after: ch0085
+    speech:
+      observations:
+      - event_ref: E_ch0085_変異の三手_other_女神復活_p3115
+        quote: 【変異の三手】はその生と死を司る地母神を復活させようとしているとか、そんな感じか
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_霊薬]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0085_霊薬_functions_as_ドラッグ_p3104
+        quote: カプセル型の薬だった。三角錐の形で、脇に日本語の説明文が記されている。洒落にならない効用――そして、圧倒的な安価さだった。
+        locator: {}
+        spoiler_after: ch0085
+    speech:
+      observations:
+      - event_ref: E_ch0085_霊薬_other_幻覚_p3105
+        quote: 依存性が高く、特定の夢を見せることができるらしい。得られた証言はこうだ。『森の奥でママが待ってる』
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ステュクス]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0085_ステュクス_other_ポルノスター_p3108
+        quote: 世界的に有名な、本名及び顔が不明のポルノスター、【ステュクス】がそうではないかと言われているのだ。
+        locator: {}
+        spoiler_after: ch0085
+    symbolic:
+      observations:
+      - event_ref: E_ch0085_ステュクス_uses_呪力_p3108
+        quote: ポルノスターってのは一種の偶像にもなり得る。つまり、信仰を――原始的な性欲のエネルギーを一身に集めるその対象は、極まれば凄まじい呪力を宿しうるということだ。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_キュトス]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0085_キュトス_other_紀神_p3110
+        quote: キュトスというのはそもそもあらゆる地母神像が神話として揺らいだ後に立ち現れる神的イメージ、つまりは『紀神』だ
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_槍神]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0085_槍神_defeats_キュトス_p3110
+        quote: 男神は力強い槍によって女神キュトスを切り裂き征服することで現在の秩序を形作った。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ディスペータ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0085_ディスペータ_disappears_存在_p3113
+        quote: 最も有力な姉妹の一人であった第五位の『姉』が存在抹消に追い込まれたらしい
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_ディスペータ_has_property_記憶の欠落_p3116
+        quote: 誰もディスペータお姉様の詳細な顔を思い出せないの。直弟子であったリールエルバですら、詳しく思い出そうとすると記憶に靄がかかったようになるって言ってた
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_死人の森の女王]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0085_死人の森の女王_other_ディスペータ_p3114
+        quote: 【死人の森の女王】と呼ばれる存在は、俺は失われた地母神そのものか、その巫女ではないかと見ている。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_夜の民]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0085_夜の民_appears_as_青い鳥_p3118
+        quote: 夜の民――それも地上で最も数が多い、青い鳥という種族らしい。ペリュトン 呪術的な事情により姿を隠しており、その実体は不定で影のような存在だとか。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0085_コルセスカ_attacks_アキラ_p3121
+        quote: 冷ややかな声と共に後頭部を叩かれた。振り返ると、絶対零度の視線。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_コルセスカ_other_狂気_p3122
+        quote: サリアはアルマに預けてきたので暫くはこちらに滞在できます。あの子の狂気もたっぷり吸ってきたので、当分狂乱することも無いでしょうし
+        locator: {}
+        spoiler_after: ch0085
+    speech:
+      observations:
+      - event_ref: E_ch0085_コルセスカ_threatens_アキラ_p3122
+        quote: やはり一度しっかりと私が躾けた方がいいでしょうか。そもそも、最初は徹底的に調教しようと思っていたのです。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_コルセスカ_reveals_銀の森_p3127
+        quote: 私の元ネタである【冬の魔女】は【銀の森の魔女】とも言われているらしいのです。その【銀の森】、かつては【死人の森】と呼ばれていたとか、いないとか
+        locator: {}
+        spoiler_after: ch0085
+    visual:
+      observations:
+      - event_ref: E_ch0085_コルセスカ_wears_ロリータ服_p3137
+        quote: 大きな眼帯にヘッドドレス、フリルがふんだんに使われた白いツーピースという、前世で言うところのロリータ服を着た姿は実際可愛らしい。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0085_アキラ_helps_コルセスカ_p3125
+        quote: 虚ろな瞳のまま呟き続けるコルセスカの手を引いて、人気の無い路地裏の物陰に連れて行く。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_アキラ_activates_サイバーカラテ道場_p3145
+        quote: 胸の重量とひらひらしたスカートの分を計算に入れて誤差を自動修正しつつ、サイバーカラテ道場を起動。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_アキラ_attacks_クレナリーザ_p3145
+        quote: クレナリーザの顔を掌打で弾き飛ばして宣言して包囲を突破。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_アキラ_other_夢_p3145
+        quote: 暗転。そして、俺は夢の中に飛び込み。己の罪と、対面する。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_アキラ_uses_右腕_p3145
+        quote: 微かな繋がりを頼りに『右腕』の力を解放しながら、俺は死人の群れを薙ぎ倒して奥へと突き進んでいく。
+        locator: {}
+        spoiler_after: ch0085
+    visual:
+      observations:
+      - event_ref: E_ch0085_アキラ_wears_女装_p3131
+        quote: 女装させられた。ひどい。レオとかファルとかならまだ普通に少女で通用するのだが、俺がやるともう筆舌に尽くしがたい、というか目も当てられない惨状だった。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_黒百合館]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0085_黒百合館_is_located_花街_p3129
+        quote: 咲き誇る黒紫。それを美しいととるか毒々しいととるかは人によるだろうが、俺にはその色彩が魔性を宿しているように思えた。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_黒百合館_hides_死体_p3142
+        quote: カタカタと剥き出しの歯を打ち鳴らし、空洞の眼窩から眼球を零れ落とし、腐乱した乳房がべちゃりと床を汚していく。
+        locator: {}
+        spoiler_after: ch0085
+    speech:
+      observations:
+      - event_ref: E_ch0085_黒百合館_other_死の快楽_p3142
+        quote: 「当館では、貴方が死体を陵辱するのではなく、死体が貴方を陵辱いたします」
+        locator: {}
+        spoiler_after: ch0085
+    symbolic:
+      observations:
+      - event_ref: E_ch0085_黒百合館_defines_死と快楽_p3144
+        quote: ここでは、死とは性的な欲求を満たすことと同義。性行為とは、すなわち殺戮である。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレナリーザ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0085_クレナリーザ_defines_黒百合館のコンセプト_p3137
+        quote: まずこの館のコンセプトは母娘と姉妹による歓待というものよ。家族関係を擬した私たちはお客さまを持てなす――家族の一員としてね。
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_クレナリーザ_other_代理_p3140
+        quote: 「馬鹿ね、私は代理。この黒百合館の主人は『お母様』よ」
+        locator: {}
+        spoiler_after: ch0085
+      - event_ref: E_ch0085_クレナリーザ_reveals_出口の不在_p3145
+        quote: 「当館では、物事は始まりから終わりへと進むのではなく、終わりから始まりへと進むからです――貴方は、出口には、辿り着けない」
+        locator: {}
+        spoiler_after: ch0085
+    action:
+      observations:
+      - event_ref: E_ch0085_クレナリーザ_other_アキラ_p3141
+        quote: 手の中に隠していた端末から、コルセスカとゼドの反応が途絶する。それどころか端末で通信そのものができなくなっている。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_死人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0085_死人_attacks_客_p3143
+        quote: 死人たちに群がられ、彼女たちへの無意味な殺戮を繰り返し、逆に返り討ちにされている特殊な嗜好の客たちは、歓喜の声を上げながら息絶えていた。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_客]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0085_客_says_ママ_p3144
+        quote: 断末魔の言葉は、どうしてか決まってこうだ。「ママ！　ママ！」
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_狼の死体]]'
+  entity_type: motif
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0085_狼の死体_appears_as_幻覚_p3146
+        quote: 闇の彼方に、腐乱した狼の死体が立っている。四つ脚の色は骨の白。陥没した胴体から、血まみれの何かが迫り出してくる。
+        locator: {}
+        spoiler_after: ch0085
+    speech:
+      observations:
+      - event_ref: E_ch0085_狼の死体_says_アキラ_p3146
+        quote: 打撃によって砕かれた顔面から、眼球がこぼれ落ちていく。痛い苦しいと呻き続けて、最後に俺の名前を呼ぶ。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_鎧の腕]]'
+  entity_type: motif
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0085_鎧の腕_appears_as_幻覚_p3146
+        quote: 今はもう存在しない『鎧の腕』が、血に濡れて悲鳴を上げているようだった。
+        locator: {}
+        spoiler_after: ch0085
+  first_appearance_candidate: true

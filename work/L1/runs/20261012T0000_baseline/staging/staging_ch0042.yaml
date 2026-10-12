@@ -1,0 +1,224 @@
+episode: ch0042
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0042_アズーリア_remembers_松明の騎士団入団_p1782
+        quote: ひとつひとつ思い出していこう。私――アズーリア・ヘレゼクシュが辿ってきた日々、駆け抜けてきた戦いを。　それは、私が【松明の騎士団】に入り、フィリスを宿したばかりの頃。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アズーリア_thinks_左手の金鎖_p1784
+        quote: 籠手に包まれた左手と、手首に埋め込まれた金色の鎖を意識する。三つの環。三回きりの切り札。使い切ってしまえば後が無い。今ここで使うべきかどうか。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アズーリア_confesses_復讐の動機_p1790
+        quote: 「迷宮を踏破して、地獄へ攻め入ります。故郷を襲い、妹を私から奪った憎い異獣を倒す。それが私の望みです」
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アズーリア_thinks_記憶の空白_p1815
+        quote: 妹を失い、声を無くした私のそれから。寄生異獣フィリスを宿し、修道騎士としての第一歩を踏みだし始めた私のそれ以前。その間、一体私は何をしていたのだろう――？　確かだったはずの記憶が、揺らいでいく。
+        locator: {}
+        spoiler_after: ch0042
+    action:
+      observations:
+      - event_ref: E_ch0042_アズーリア_travels_竜骨の森_p1782
+        quote: 単独での【竜骨の森】踏破。指定された場所まで進み、そこに群生する花を摘み取って戻ってくるだけの単純な試験だ。それさえ終われば私も晴れて正式な修道騎士として迷宮に潜ることが認められる。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アズーリア_uses_呪動装甲_p1783
+        quote: かしゃかしゃと呪動装甲が音を立てるが、重さはほとんど感じない。むしろ私の肉体の動きを予測するかのように先んじて足を前に出してくれる。まるで外側にある骨のようだった。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アズーリア_bonds_アルスタ_p1788
+        quote: 革手袋に包まれた少年の手と、籠手に包まれた私の手が、甲と甲をぶつけ合う。　私とアルスタは、そうして即席の分隊を結成したのだった。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アズーリア_activates_金鎖システム_p1794
+        quote: 「はい、承りました。金鎖システムから自動返信しますが、そんな変態主人は即刻逮捕して首輪をつけるべきですね。さあどうぞ」
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アズーリア_uses_左手の金鎖_p1802
+        quote: 第二の金鎖が砕け散って、私は大機竜の過去へと遡った。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アズーリア_uses_左手の金鎖_p1807
+        quote: 私は咄嗟に最後の金鎖を砕いた。同時にじゃらじゃらと音を立てながら金鎖が伸び、上空から「凍れ」という声が響く。
+        locator: {}
+        spoiler_after: ch0042
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_転移門]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0042_転移門_has_property_望みを捨てる文言_p1782
+        quote: 「『汝らこの門をくぐる者は一切の望みを捨てよ』――かぁ」　おどろおどろしい文言が転移門の上に刻まれていた。何かの引用だと聞くが、何の引用なのかは誰も知らないのだという。
+        locator: {}
+        spoiler_after: ch0042
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_竜骨の森]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0042_竜骨の森_is_made_of_墓標船の記憶_p1783
+        quote: 古の時代、異次元より飛来した巨大な墓標船。不時着の衝撃で展開されてしまった異界の記憶が世界槍の記憶と混淆し、無秩序な世フォーミングテラ界改変を開始して生まれたのがこの竜骨の森の起源であると言われている。
+        locator: {}
+        spoiler_after: ch0042
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_襲撃者]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0042_襲撃者_attacks_アズーリア_p1783
+        quote: 私を追いかけて攻撃してきているのは、私と同じ地上人類なのだ。服装は森に溶け込むような色彩の貫頭衣。
+        locator: {}
+        spoiler_after: ch0042
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルスタ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0042_アルスタ_fights_襲撃者_p1785
+        quote: 一人、二人と斬り捨てられていく。白い槍が翻り、血の軌跡を描いていく。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アルスタ_other_突入_p1796
+        quote: 「アズーリア、君の力を借りたい。できれば捕縛して連行したい。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アルスタ_activates_聖遺物_p1804
+        quote: 「フラベウファ。松明の騎士団総団長の名に於いて聖遺物の解放を申請する」
+        locator: {}
+        spoiler_after: ch0042
+    name:
+      observations:
+      - event_ref: E_ch0042_アルスタ_names_アルスタ_p1786
+        quote: 「まずは自己紹介と行こうか。僕は――そうだな。ひとまずはアルスタとでも名乗っておこうか。ご覧の通り探索者で、今はちょっとした任務を請け負っている最中なんだ」
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アルスタ_names_ソルダ・アーニスタ_p1805
+        quote: 「我が名はソルダ＝ルセス・アルスタ＝アーニスタ！　闇を照らし、希望を掲げる【松明の騎士】！！」
+        locator: {}
+        spoiler_after: ch0042
+    speech:
+      observations:
+      - event_ref: E_ch0042_アルスタ_other_竜神信教_p1787
+        quote: アルスタと名乗った少年探索者は、この竜骨の森を拠点とするとあるテロリスト――狂信者の集団の調査に来ているらしい。そして、可能ならばその殲滅も。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アルスタ_teaches_森の危険性_p1789
+        quote: 「森はただそこにあるだけだよ。恐ろしいかどうかを定めるのは人だ」
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アルスタ_teaches_復讐と愛_p1792
+        quote: 「だから復讐心はね、愛の証明なんだ」...「愛する気持ちを抱いて復讐を遂げること。自分自身が大切なものを想うその唯一無二の気持ちの為に怒りと憎しみを仇にぶつけるんだ。それが復讐の意義であり、叶わなくなってしまった自分自身の想いを遂げる唯一の手段なのだから」
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_アルスタ_confesses_失った最愛の人_p1793
+        quote: だから、ずっと足掻いている。もう一度彼女を取り戻す為に。偉そうな事を言ってすまないけれど、僕の戦いは復讐と言うには少し望みがあり過ぎる。儚い希望だけれど、最愛の人を取り戻す可能性が残されている」
+        locator: {}
+        spoiler_after: ch0042
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_フラベウファ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0042_フラベウファ_appears_金鎖の少女_p1794
+        quote: 特徴的だったのは、白黒のヘッドドレスの後ろから直立する二つの三角形。黄金の毛並みをした、獣のような耳。そして、ほっそりとした首筋に見える頑丈そうな首輪と、その中央から伸びる金色の鎖。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_フラベウファ_has_property_掌の口_p1797
+        quote: フラベウファの左右の掌に、口があった。唇は無い。亀裂が走り、ぎざぎざの牙が剥き出しになった簡素な出入り口。そこから金色の鎖が伸びているのだった。
+        locator: {}
+        spoiler_after: ch0042
+    name:
+      observations:
+      - event_ref: E_ch0042_フラベウファ_names_金鎖のフラベウファ_p1795
+        quote: 「申し遅れましたが、わたくし金鎖のフラベウファと申します。以後お見知りおき下さい、アズーリア様」
+        locator: {}
+        spoiler_after: ch0042
+    action:
+      observations:
+      - event_ref: E_ch0042_フラベウファ_uses_金鎖_p1796
+        quote: それはフラベウファが操る金色の細長い鎖だ。彼女の両の掌から伸びた金鎖が自在に動いて、呪術を発動する前に封じ込めているのだ。
+        locator: {}
+        spoiler_after: ch0042
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_大機竜オルガンローデ]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0042_大機竜オルガンローデ_appears_機械の竜_p1798
+        quote: 大跳躍を果たしたそれは、私達三人の目の前に着地すると、盛大に土と草花を舞い上がらせて咆哮した。
+        locator: {}
+        spoiler_after: ch0042
+    symbolic:
+      observations:
+      - event_ref: E_ch0042_大機竜オルガンローデ_is_made_of_少年の命_p1802
+        quote: 大量の呪石が捧げられた儀式場の中央で蹲る巨大な機竜。その角に少年が血を垂らすと、背中が開いていく。内側に入っていく少年が小さく何かを呟いた。
+        locator: {}
+        spoiler_after: ch0042
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ソルダ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0042_ソルダ_uses_アリュージョン_p1806
+        quote: 「初代松明の騎士である大フォグラントの存在を参照し、その威光を纏って戦う引喩系神働術――たった３００秒ですが、彼はその間だけ真の英雄となる。空想の勇士を現代に甦らせる聖なる祭祀」
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_ソルダ_attacks_大機竜_p1807
+        quote: 左腕の武装は投槍器、あるいは杭打ち機なのだ。「貫け、神火明光！！」　灼熱の輝きが槍となって天から突き下ろされそうになったその時、
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_ソルダ_saves_少年_p1808
+        quote: 「最初から【氷槍】を発動して彼の命は守るつもりだった。愛する者同士が引き裂かれるのは、見ていられない」　私達の近くに降り立ったソルダの右腕には、左腕同様に巨大な円筒が出現していた。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_ソルダ_gives_花_p1812
+        quote: 「ごめんよ、あんまりにも気の利いた冗談に聞こえてしまったものだから。僕たちだけの間で通じる符丁みたいなものなんだ。気を悪くしたよね。お詫びに、これを進呈するよ」　ソルダが私に差し出したのは青と白が綺麗に調和した小さな花。
+        locator: {}
+        spoiler_after: ch0042
+    speech:
+      observations:
+      - event_ref: E_ch0042_ソルダ_other_竜神信教信徒_p1809
+        quote: 「松明の騎士の名に於いて宣言する。君たちは今この瞬間から人ではなく異獣となった。
+        locator: {}
+        spoiler_after: ch0042
+      - event_ref: E_ch0042_ソルダ_confesses_冬の魔女コルセスカ_p1813
+        quote: 「早く、会えるといいですね」「――ありがとう。そうだね。僕も、彼女に恥じない英雄にならなければ」
+        locator: {}
+        spoiler_after: ch0042
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_フィリス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0042_フィリス_appears_少年の姿_p1816
+        quote: 悪夢の泡が浮かんでいく暗闇の底に、誰かがいるような気がした。それは少年。フラベウファのような三角の耳は白く、その美貌は輝かんばかり。
+        locator: {}
+        spoiler_after: ch0042
+    speech:
+      observations:
+      - event_ref: E_ch0042_フィリス_says_再会の約束_p1817
+        quote: 「ずっと昔、君は僕に会いに来てくれた――これから会いに来てくれる。運命が僕たちを引き合わせようとしているのが感じられるよ。いつか、僕たちは巡り会う」
+        locator: {}
+        spoiler_after: ch0042
+    action:
+      observations:
+      - event_ref: E_ch0042_フィリス_uses_オー_p1817
+        quote: その聞いたこともないたった一つの音が、フィリスの対極なのだとどうしてか理解できてしまって、私は恐怖に震えた。
+        locator: {}
+        spoiler_after: ch0042
+  first_appearance_candidate: true

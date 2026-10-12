@@ -1,0 +1,138 @@
+episode: ch0226
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_エリカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0226_エリカ_promises_顕花への転生_p7450
+        quote: 「あなたは賢明な子ね、『掃除屋』。その目で私たちには見えないものを見つけてきてくれたら、きっとスーリウム様にあなたのお願いを伝えてあげる。大丈夫、ここは第五階層だもの。あなたが変わりたいと願うのなら、きっと顕花にだってなれるでしょう」
+        locator: {}
+        spoiler_after: ch0226
+      - event_ref: E_ch0226_エリカ_says_動物の権利の欺瞞_p7452
+        quote: 『功利主義と動物の権利を秤にかけてみせる欺瞞。家畜も使い魔も、主人の罪悪感なんて知ったことではないのにね』
+        locator: {}
+        spoiler_after: ch0226
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_友人たち]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0226_友人たち_other_少年_p7450
+        quote: 友人たちは無謀だと諫めた。幼馴染の少女は『あちしらには立派な傘頭巾があるだろバカ』と言って彼を叱りつけた。
+        locator: {}
+        spoiler_after: ch0226
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少年]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0226_少年_other_顕花族_p7450
+        quote: 大人になったら立派な顕花族になるのが少年の夢だった。
+        locator: {}
+        spoiler_after: ch0226
+    symbolic:
+      observations:
+      - event_ref: E_ch0226_少年_has_property_邪視の才能_p7450
+        quote: 彼はそういった不都合な事実を直視しない才能に恵まれていた。それは優れた邪視者の証明である。
+        locator: {}
+        spoiler_after: ch0226
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_母]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0226_母_says_父は偉い顕花様_p7450
+        quote: それでも彼は母の『お前の父は偉い顕花様なんだよ』という遺言を頑なに信じた。
+        locator: {}
+        spoiler_after: ch0226
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_掃除屋]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0226_掃除屋_observes_精霊_p7451
+        quote: 少年の目はトロルの岩肌にこびりついた精霊を見逃さない。彼は知っている。エリカお嬢様が見せてくれた。これはディスケイムの精霊だ。
+        locator: {}
+        spoiler_after: ch0226
+      - event_ref: E_ch0226_掃除屋_other_ケイブ＆ネスト_p7451
+        quote: 『掃除屋』は勤務しているペットショップ『ケイブ＆ネスト』は『影走り』の登録使い魔センターである。
+        locator: {}
+        spoiler_after: ch0226
+      - event_ref: E_ch0226_掃除屋_other_ノゴルオゴルオの拠点_p7453
+        quote: 『掃除屋』はここがノゴルオゴルオの拠点であることを確信していた。
+        locator: {}
+        spoiler_after: ch0226
+      - event_ref: E_ch0226_掃除屋_uses_透視_p7453
+        quote: 『透視』は千里眼や天眼などと呼ばれる超知覚の一種だが、少年の実感としては『反知覚』とでも言うべき技術だった。
+        locator: {}
+        spoiler_after: ch0226
+    speech:
+      observations:
+      - event_ref: E_ch0226_掃除屋_other_エリカ_p7457
+        quote: 「転生の『体験』っていう形で神秘を卑俗化しているところが要点なんでしょうね、あのアプリ。あとは記憶をデータとして扱うのは杖の得意技だし、実際には『サイバーカラテ道場』のデータ収集が主な目的なんじゃないでしょうか」
+        locator: {}
+        spoiler_after: ch0226
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルテミシア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0226_アルテミシア_has_property_蛇との融合_p7452
+        quote: 失った足を補うためなのか、得体の知れない青い血で蛇の使い魔と融合しているのだ。
+        locator: {}
+        spoiler_after: ch0226
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0226_クレイ_appears_盲目の男_p7454
+        quote: 涼やかで良く通る声だ。優しそうなのに、どこか刃のような鋭さがある。
+        locator: {}
+        spoiler_after: ch0226
+    speech:
+      observations:
+      - event_ref: E_ch0226_クレイ_other_掃除屋_p7461
+        quote: 「死にたくなければお前も逃げろ。これからここは戦場になる」
+        locator: {}
+        spoiler_after: ch0226
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0226_ちびシューラ_other_転生ランキング_p7457
+        quote: 「そして堂々の第一位はなんと、かわいいペットちゃんでした～！」
+        locator: {}
+        spoiler_after: ch0226
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_虹犬]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0226_虹犬_other_力_p7465
+        quote: 「とっても飛ぶのがお上手なキノコさん。私が力を貸してあげましょうか？」
+        locator: {}
+        spoiler_after: ch0226
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_塗壁]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0226_塗壁_other_ベフォニスの器_p7470
+        quote: アストラル体を流用しただけの別物。器の中身を染め上げられた異物。
+        locator: {}
+        spoiler_after: ch0226
+  first_appearance_candidate: true

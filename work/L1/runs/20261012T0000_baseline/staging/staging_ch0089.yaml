@@ -1,0 +1,452 @@
+episode: ch0089
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_サイバーカラテユーザー]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0089_サイバーカラテユーザー_says_発勁用意_p3255
+        quote: 「発勁用意！　ＮＯＫＯＴＴＡ！」　清澄な空気を、サイバーカラテユーザーたちの力強い発声が切り裂いていく。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_会場]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_会場_has_property_防御呪術_p3255
+        quote: 試合用のジョイントマットは転倒や衝撃のダメージを効率的に吸収する防御呪術が付与されている。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_警備ドローン]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0089_警備ドローン_captures_妨害者_p3255
+        quote: 何に使うのかわからない賞品を売りさばこうとしたりしては警備ドローンに掴まって連行されていく。恐らく行き先は『反省室』だろう。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0089_サイバーカラテ_functions_as_狩り場_p3256
+        quote: 実戦データを収集できるこのような場所は、サイバーカラテユーザーにとって垂涎の『狩り場』である。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_サイバーカラテ_functions_as_数の暴力_p3276
+        quote: それがサイバーカラテの強み、すなわち数の暴力だ。
+        locator: {}
+        spoiler_after: ch0089
+    name:
+      observations:
+      - event_ref: E_ch0089_サイバーカラテ_defines_国民的スポーツ_p3257
+        quote: 今やサイバーカラテは第五階層の国民的スポーツである。
+        locator: {}
+        spoiler_after: ch0089
+    action:
+      observations:
+      - event_ref: E_ch0089_サイバーカラテ_requires_拡張身体_p3257
+        quote: サイバーカラテは拡張身体としての靴、義足を用いる事を前提とした武術だ。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_サイバーカラテ_requires_読み合い_p3262
+        quote: ここで『読み合い』が発生する。対戦相手は膨大なサイバーカラテのデータベース、プールされた戦術理論、武術体系から取捨選択して試合に挑む。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_巡槍艦ノアズアーク]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_巡槍艦ノアズアーク_is_located_世界槍周囲_p3256
+        quote: 巡槍艦ノアズアークは『港』を離れ、世界槍の周囲を巡航中である。世界槍の呪力で航行しているので、離れ過ぎて墜落しないようにつかず離れず、衛星のようにぐるぐると回り続けていた。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_立体映像の掛け軸]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_立体映像の掛け軸_appears_as_催眠幻覚呪術広告_p3256
+        quote: 立体映像の掛け軸が『心頭滅却すれば火もまた涼し、心頭滅却の為の催眠・幻覚呪術の購入は下記のＵＲＬをクリック、今ならキャンペーン中で大幅値下げ実施中』の文字を上から下へと流している。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0089_レオ_asks_負傷者の安否_p3257
+        quote: 「さっきの人、大丈夫でしょうか。心配だなあ」
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_レオ_threatens_カーイン_p3273
+        quote: 「情けないね。無様を晒すのは何度目なのかな？」
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_レオ_threatens_カーイン_p3275
+        quote: 「あまり僕を失望させないでね――でないと、そのうち捨てちゃうから」
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0089_アキラ_says_試合の安全性_p3258
+        quote: 「サイバーカラテの試合ではよくあることだ。流石に首や目、急所なんかへの攻撃は禁止されてるし、死人や重傷者が出たりはしないから大丈夫だろう」
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_アキラ_thinks_違和感_p3261
+        quote: ――なぜか、奇妙な違和感を覚えた。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_アキラ_says_ゲームの技名_p3303
+        quote: 「何をやってる、それでも冬の魔女かコルセスカ！　そのくらい、『アイスブラッド』なら余裕で跳ね返せるし、『幻想戦記』なら全て回避できるはずだっ」
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_アキラ_says_たのもう_p3316
+        quote: 「こう言えばいいのかな――たのもう」サイバーカラテユーザーは、たじろがない。
+        locator: {}
+        spoiler_after: ch0089
+    action:
+      observations:
+      - event_ref: E_ch0089_アキラ_makes_公開挑戦状_p3259
+        quote: ただし、俺たちは既に名指しで公開挑戦状を叩きつけている。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_アキラ_defeats_マラコーダ_p3313
+        quote: 喉輪。黒衣の『アキラ』は、マラコーダの喉元を片手で真正面から掴み、もう片方の手で腰を、道着の帯を掴むと、そのまま上方に持ち上げて背中からマットに叩き落としたのだ。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0089_ファル_loses_試合_p3258
+        quote: ファルの敗北によって試合会場が空き、比武は滞りなく進行していく。
+        locator: {}
+        spoiler_after: ch0089
+    speech:
+      observations:
+      - event_ref: E_ch0089_ファル_reveals_変異の三手の正体_p3311
+        quote: エントリー名『イアー』が副長のイアテムで、『ニケ』が【死人の森の女王】であり、現在はそれぞれのブロックの控え室で大人しくしているらしい。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_名声値]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0089_名声値_defines_存在の強度_p3258
+        quote: アストラルネットで全国中継されているため、敗北は名誉の失墜、勝利は存在の強度の上昇を意味する。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_変異の三手]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_変異の三手_appears_as_黒いローブの参加者_p3259
+        quote: 黒いローブで全身を隠している『自称夜の民』が四人いる時点で察してくれと言っているようなものだ。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0089_コルセスカ_fights_武技のみ_p3260
+        quote: 恐ろしい事に、コルセスカは呪術を一切使っていない。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_コルセスカ_appears_as_氷の三叉槍_p3287
+        quote: やがて様々な明色はその輝きの度合いを増していき、遂には天井の照明すらも超えた眩さで人々の目を覆い尽くしていく。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_コルセスカ_transforms_氷の像_p3298
+        quote: なぜならば、その氷はコルセスカの血液を凍らせて作りだした彼女の身体の一部であるからだ。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_コルセスカ_uses_氷血呪_p3299
+        quote: 虚空に保存されていた『攻撃時間』が一斉に解凍され、一瞬のうちに夥しい数の刺突がラズリを襲ったのだ。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_コルセスカ_transforms_氷球_p3303
+        quote: 変貌した【氷球】は自律的に呪文を作動させる呪具と化して【水鏡の盾】を発動。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_コルセスカ_learns_周回プレイ_p3304
+        quote: それは転生者ゆえの特権。前の人生を参照して、技量や経験の『引き継ぎ』ができるという、ゲームで言うところの周回プレイ。
+        locator: {}
+        spoiler_after: ch0089
+    speech:
+      observations:
+      - event_ref: E_ch0089_コルセスカ_says_トリシューラの隠し事_p3308
+        quote: 「転生者のゴーストに、【星夜光】の奥義。そういうことですか。トリシューラからは、何も聞いていないのですが」
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_星見の塔トーナメント]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0089_星見の塔トーナメント_functions_as_回復儀式_p3260
+        quote: この【星見の塔トーナメント】はコルセスカの発案で行われている、歴史のある呪術儀式だそうだ。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_行司シューラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_行司シューラ_appears_as_デフォルメ魔女_p3261
+        quote: 二頭身のデフォルメ魔女は、何故か黒い烏帽子に男性用の衣服であるはずの直垂を身につけており、更には軍配団扇を手にしていた。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0089_カーイン_defeats_重装甲の相手_p3263
+        quote: 「拡張身体だ」と言い張って重装甲を纏った対戦相手を重さを増した下段蹴りで攻めて足に負荷を集中させて膝をつかせる、相手の力を利用した柔法で投げ飛ばすといった当然とも言える対応を見せて勝ち星を重ねていた。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_カーイン_defeats_チリアット_p3284
+        quote: 「悪いが、亜竜人の弱所なら知り尽くしている」
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0089_ゼド_other_クレーム_p3263
+        quote: 四英雄の権威と説得力は絶大なのか、彼の判定にまで文句をつける参加者は皆無だった。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0089_カルカブリーナ_loses_初戦_p3264
+        quote: カルカブリーナを破ったのは、黒色のフード付きローブで全身を覆い隠した参加者だった。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カニャッツォ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_カニャッツォ_appears_as_ブルドッグ獣人_p3265
+        quote: 彼の容貌は、ブルドッグの頭部を持った獣人、という言葉で簡単に形容できる。
+        locator: {}
+        spoiler_after: ch0089
+    action:
+      observations:
+      - event_ref: E_ch0089_カニャッツォ_loses_カーイン_p3265
+        quote: 「いやあ、負けた負けた。カーインの奴、まぁた強くなりやがったな。追いつけるのはいつになることやら」
+        locator: {}
+        spoiler_after: ch0089
+    speech:
+      observations:
+      - event_ref: E_ch0089_カニャッツォ_other_グラッフィアカーネ_p3268
+        quote: 「実は、俺がトリシューラの姐さんに紹介したんだよ。ジャッフハリムにいた頃にちょっとした縁があってな。まあ見てな、かなり使える奴だからよ」
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グラッフィアカーネ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_グラッフィアカーネ_appears_as_ビーグル獣人_p3267
+        quote: ブルドッグ氏族ではなくビーグル氏族で、垂れ耳がどこか愛嬌を感じさせる。
+        locator: {}
+        spoiler_after: ch0089
+    action:
+      observations:
+      - event_ref: E_ch0089_グラッフィアカーネ_defeats_カーイン_p3270
+        quote: 獣人は手刀によってカーインの貫手の勢いを受け流し、その上で力を完全に無駄なく利用して中心軸を崩し、投げ飛ばしたのだ。
+        locator: {}
+        spoiler_after: ch0089
+    speech:
+      observations:
+      - event_ref: E_ch0089_グラッフィアカーネ_confesses_ルール違反_p3272
+        quote: 「いえ、ここはルールに違反した俺が退くべきでしょう。勝ちに拘りはありませんし、単にこういう催しに参加して自己紹介の代わりにしたかっただけなので」
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラズリ・ジャッフハリム]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_appears_as_店員_p3268
+        quote: 暗色のヴェールに隠れた表情が美しい。店員さんことラズリ・ジャッフハリムさんである。何故か息が荒く顔が赤い。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_transforms_別人_p3301
+        quote: まるで彼女の中に、誰かが入り込んでしまったかのように。「星間追放の刑に処す」
+        locator: {}
+        spoiler_after: ch0089
+    action:
+      observations:
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_fights_コルセスカ_p3290
+        quote: ラズリは大振りの攻撃を次々と繰り返した。隙を圧倒的な速度と錫杖の威力で埋めながら、広範囲の横薙ぎで面を制圧していく。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_uses_影の歩法_p3292
+        quote: 柔らかく股関節を動かして地を『泳ぐ』、円弧を描くような流麗な歩法。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_uses_漢字呪術_p3295
+        quote: 『店員さん』の周囲を乾・兌・離・震・巽・坎・艮・坤の八文字が浮遊している。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_transforms_影_p3296
+        quote: 影となったラズリ自身が文字に変幻して、錫杖を持った『辰』の字がその内側に無数の星々を煌めかせながら円弧を描いていく。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_uses_神働術_p3297
+        quote: 「槍神の従属神、パーシーイーの神働術――その身で受けるといいでしょう」
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_uses_天招星歌・星夜光_p3302
+        quote: ラズリの両目から放出されたのは、星の光を集めたかのような煌めきの束。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_learns_幻影_p3305
+        quote: ラズリの前面にも、コルセスカと同じように幻影が出現しているのだ。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_defeats_コルセスカ_p3307
+        quote: 沈墜勁からの十字勁という緻密な重心制御と身体制御によってより速く早い肘打ちをコルセスカに叩き込む。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_transforms_小さな牡鹿_p3307
+        quote: 割り砕かれた頭部から黒い粘液が流れだし、無数の気泡を生む。その泡の中から次々と小さな牡鹿や縮小されたラズリが出てきて、甲高い声で口々に喚く。
+        locator: {}
+        spoiler_after: ch0089
+    speech:
+      observations:
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_says_数学の系_p3298
+        quote: 「参照可能なあらゆる異世界は、数学の系が同一です。ゆえに、数字という記号は内包する意味を保持しやすい。」
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_other_服の破損_p3300
+        quote: 「ああ、服がこんなに。下のポイントこっちで使えないのに。出費がまた――それにこの服気に入っていたのに、ひどいですひどいですー！」
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_ラズリ・ジャッフハリム_confesses_冬の魔女への感情_p3301
+        quote: 「気が合うのは嫌なのでやっぱり好きです――はっ、わたくしったらなんてことを！」
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チリアット]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_チリアット_appears_as_牙猪獣人_p3277
+        quote: それもただの猪ではなく、鹿猪という極端に犬歯が発達した動物バビルサを思わせる、牙猪種という種族だ。
+        locator: {}
+        spoiler_after: ch0089
+    action:
+      observations:
+      - event_ref: E_ch0089_チリアット_transforms_黒亜竜人_p3282
+        quote: 右腕が漆黒の鱗に覆われていき、蜥蜴人のように変化していく。
+        locator: {}
+        spoiler_after: ch0089
+      - event_ref: E_ch0089_チリアット_uses_吐息_p3283
+        quote: 亜竜と呼ばれる蜥蜴人の上位種が使う、【吐息】という高位呪文ブレスだ。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ＝ライニンサル]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0089_クレイ＝ライニンサル_appears_as_クレーグレン_p3285
+        quote: 勝ったにも関わらず、女性的なまでに美しい顔を悔しそうに歪める男の名は、やはりというべきか、【変異の三手】が副長の一人、クレイ＝ライニンサルだ。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0089_クレイ_attacks_カーイン_p3286
+        quote: 極限にまで薄く小さく押し固めた【空圧】の刃。それが、カーインの髪と頬を浅く切り裂く。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラコーダ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_マラコーダ_appears_as_蠍の尻尾_p3310
+        quote: マラコーダが形成した『蠍の尻尾』はとある古代生物の細胞を核に、第五階層の物質創造能力で外殻を構築した『尻尾の義肢』である。
+        locator: {}
+        spoiler_after: ch0089
+    action:
+      observations:
+      - event_ref: E_ch0089_マラコーダ_uses_血族の呪術_p3310
+        quote: 『血族』という呪術基盤から祖霊を参照し、己の力となす呪術。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0089_グレンデルヒ_appears_as_アキラ_p3312
+        quote: その登録名を、『アキラ』といった。
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゾーイ・アキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0089_ゾーイ・アキラ_appears_as_スモーレスラー_p3314
+        quote: 剃り上げた頭部には頭髪の代わりに刺青のようにびっしりと刻まれた情報回路。最先端の脳侵襲機器とナノマシンが搭載されている事を示す頭部の前面には、精悍な、それでいて少し気怠げな顔立ちが張り付いている。
+        locator: {}
+        spoiler_after: ch0089
+    name:
+      observations:
+      - event_ref: E_ch0089_ゾーイ・アキラ_names_ゾーイ・アキラ_p3315
+        quote: 「はじめまして、シナモリ・アキラ。私はゾーイ・アキラ。『問題』を『解決』しに来た――と言えばわかって貰えるかな」
+        locator: {}
+        spoiler_after: ch0089
+  first_appearance_candidate: true

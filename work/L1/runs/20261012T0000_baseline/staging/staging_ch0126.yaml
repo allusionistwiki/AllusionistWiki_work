@@ -1,0 +1,270 @@
+episode: ch0126
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0126_アキラ_asks_ルウテトの前世_p4380
+        quote: 本当に、ルウテトはコルセスカの前世なのだろうか。そして、「本当に、ルウテトの前世がコルセスカなのか？」根本的な疑問を投げかける。
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_アキラ_asks_アキラ様という呼称_p4381
+        quote: 「それだ。まずその名前がわからない」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_アキラ_asks_過去_p4381
+        quote: 「何があった？」単刀直入に訊ねる。
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_アキラ_suspects_ルウテトの正体_p4383
+        quote: 「いや、おま――死人の森の女王ルウテトさんですよね？失礼ですが貴方はコルセスカさん本人なのでは？」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_アキラ_asks_トリシューラとの関係_p4384
+        quote: 「質問を変える。ルウテト。トリシューラとの間に何があった？」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_アキラ_asks_ソルダ・アーニスタ_p4385
+        quote: 「その、ソルダ・アーニスタとはどうなった」
+        locator: {}
+        spoiler_after: ch0126
+    visual:
+      observations:
+      - event_ref: E_ch0126_アキラ_observes_ルウテト_p4380
+        quote: 豊かな胸元、細身ながら女性的な魅力に満ちた体型、スカートから伸びる美しい脚、どことなく無防備に見えてしまう表情。あらためて一つ一つの要素を取り上げると、まるで重なる部分が無い。
+        locator: {}
+        spoiler_after: ch0126
+    action:
+      observations:
+      - event_ref: E_ch0126_アキラ_other_ルウテト_p4391
+        quote: トリシューラは俺にルウテトを探してくるように言いつけて、そのまま六王の相手を続けた。先ほどの失態を取り返す為にも、ルウテトの姿を求めて歩く。
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_六王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0126_六王_other_トリシューラ_p4380
+        quote: 一般参加者が帰って行くが、六王はトリシューラとなにやら話し込んでいた。各自が自由に歓談するという体裁で、個別に交渉や情報交換が始まっているのだ。
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_製菓]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0126_製菓_has_property_精密機械のような完璧さ_p4380
+        quote: 当たり前だが、製菓は精密機械のように完璧に行われた。そこには感情を差し挟む余地はなく、ただ冷たい結果が残るのみ。
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0126_トリシューラ_other_ルウテトの話_p4381
+        quote: トリシューラもおそらくは知りたかっただろうし、今もちびシューラを介して聞いているはずだ。
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_トリシューラ_other_権威の確保_p4389
+        quote: カーティスとアルト、その二人こそ絶対に強固な関係性を構築しておかなければならない王だ。両者と盤石の関係を築いておけば、ガロアンディアンという危うい勢力は外と内、二つの地点から古い伝統の権威によってその地盤を固められる。
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_トリシューラ_other_ビーグル犬_p4390
+        quote: トリシューラは少し考えて、ロップイヤーの王子の相手をビーグル犬に任せることを選んだ。
+        locator: {}
+        spoiler_after: ch0126
+    speech:
+      observations:
+      - event_ref: E_ch0126_トリシューラ_asks_カーティス_p4387
+        quote: 「それでは、カーティス＝リィキ・ギェズ総体としては、リールエルバの救出に同意していただけるという認識でよろしいですか？」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_トリシューラ_other_アルト_p4388
+        quote: 「父祖たるアルト王に、今代の女王トリシューラよりご挨拶を申し上げます」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_トリシューラ_asks_仲介_p4389
+        quote: 「叔父様さえよろしければ、私たちの間に立ち、事をとりもっていただけないでしょうか」
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルウテト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0126_ルウテト_asks_アキラへの呼称_p4381
+        quote: 「二人きりの時は、ルウ、と呼んで下さると嬉しいですわ。アキラ様」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_other_自己の本質_p4381
+        quote: 「厳密に言えば、間に一つキュトスの姉妹としての人生が挟まっていますが、現在と地続きとも言えるので曖昧ですね。ただ、未知なる末妹となる未来を絶たれた今の私は明確にコルセスカとは別人です。ゆえにルウテトという光妖精の名こそが私の本質です」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_other_その他の死因_p4382
+        quote: 「他にも呪力源と食糧が尽きて餓死したり、初見の即死トラップで壊滅したり、どうせ治癒の霊薬だろうと鑑定せずに持っていた瓶の中身に敵の火炎攻撃が引火して大爆発を起こして全滅したり、外なる神の露店から貴重な呪具をありったけ盗んで逃げたら追いかけ回されて詰んだり」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_other_各階層での失敗_p4382
+        quote: 「第九階層の火竜に焼かれました。第八階層では巨人族との戦争でティリビナ神群の重要拠点を制圧されてどうしようもなくなりました。第七階層では松明が切れて異界に閉じ込められたこともありました。第六階層の大魔将戦は何度やり直したことか。あそこは未だに安定しません」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_reveals_無限のループ_p4382
+        quote: 「もう、断片的な記憶しか思い出せないけれど。私は何度も何度も繰り返してきました。終わりの無い、火竜殺しの旅を」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_other_入れ替わり_p4383
+        quote: 「はっ、違います、違いますよ！ゲームとか、そういう子供っぽいのは卒業したんです！そういう記憶はほとんど残っていませんし」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_other_ループの多様性_p4384
+        quote: 「歌姫カタルマリーナが半球騎士団を率いて全世界に宣戦布告、神々の図書館を巡って地上が乱世になった話とかします？第八世界槍を舞台にした末妹選定どころじゃなくなって、ダンジョン探索から戦略シミュレーションにジャンルが変わったんですけど。
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_other_情報の共有_p4384
+        quote: 「そういった情報については、後でトリシューラに伝えておきます。サイバーカラテ道場にまとめておいていつでも閲覧できる形にする方が効率的でしょう。
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_other_回答_p4384
+        quote: 「答えたくありません」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_reveals_痕跡神話の全滅_p4384
+        quote: 「痕跡神話は全滅しました。それだけです」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_threatens_アキラ_p4385
+        quote: 「それを、訊くんですか」凍るような声。
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_confesses_不信感_p4386
+        quote: 「私は、貴方を信用していません。貴方と全ての情報を共有する意義を感じていません。貴方を守りたいと思ってはいますが、共に戦うのではなく私が一方的に庇護する形が理想だと考えています」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_ルウテト_other_アキラへの恨み_p4386
+        quote: 「さらいにきて、くれなかったくせに」あまりにも幼い声で。見捨てられた子供のように。
+        locator: {}
+        spoiler_after: ch0126
+    action:
+      observations:
+      - event_ref: E_ch0126_ルウテト_other_トリシューラ_p4382
+        quote: 形容しがたい、矛盾した感情が交じる視線だったように思う。ルウテトは、恐らく今でもトリシューラのことを大切に思っている。だが同時に、排除したいという思いも抱えている。
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0126_ちびシューラ_other_アキラ_p4387
+        quote: （多分だけど、追いかけてきてくれない所に怒ってるんじゃないかな。アキラくんに何を求めてるんだかって感じだけどね）
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_カーティス]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0126_カーティス_other_リールエルバ救出_p4387
+        quote: 「子孫が窮地に陥っているのだ。私としてはなんとかして助けてやりたい。死人の森に身を置いてはいるが、それでもドラトリアは私にとって特別だからね」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_カーティス_defines_クローン_p4388
+        quote: 「クローンというのは複製体のことだね？ならば、それは私の形式を受け継ぐ子供であり孫であり、私自身のようなものだよ」
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0126_アルト_other_親族関係_p4388
+        quote: 「キュトスの姉妹には我が義姉ディシルも名を連ねている。ならばキュトスの姉妹に連なるお前を遠戚と見なしても不都合は無かろう」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_アルト_other_仲介役_p4389
+        quote: 「ふむ。難しい注文だが――死人の森とガロアンディアン、双方に関わりのある身だからこそできることもあるだろう。その役目、引き受けよう」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_アルト_other_助力_p4389
+        quote: 「盟友ダエモデクの志を受け継ぎし者トリシューラよ、何か困ったことがあればいつでも言うが良い。この老竜で良ければ力になろう」
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0126_パーン_threatens_クロウサー家_p4390
+        quote: パーンは一応協力してくれるようだが、クロウサー家打倒の意思を胸に秘めたままだ。いずれ現当主であるリーナ・ゾラ・クロウサーに正式に挑戦状を叩きつけると息巻いている。
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0126_ヴァージル_other_トリシューラ_p4390
+        quote: オルヴァとは会話にならず、ヴァージルはどうにも手応えが無い。浮き世に関心の無い貴人のように、トリシューラの言葉を聞き流すだけ。
+        locator: {}
+        spoiler_after: ch0126
+    speech:
+      observations:
+      - event_ref: E_ch0126_ヴァージル_other_グラッフィアカーネ_p4390
+        quote: 「ねえ、君はさっきからずっと壁の花だけど、何をしているの？」ヴァージルが話しかけたのは、グラッフィアカーネだった。
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0126_クレイ_other_アキラ_p4391
+        quote: 扉の前に、黒い影が立ちふさがっていた。「クレイ」「気安く呼ぶな、屑め」
+        locator: {}
+        spoiler_after: ch0126
+    speech:
+      observations:
+      - event_ref: E_ch0126_クレイ_threatens_アキラ_p4392
+        quote: 「貴様は陛下にとって害でしかない。俺の剣が貴様に向けられていないのは、陛下の寛大さゆえだと知れ」
+        locator: {}
+        spoiler_after: ch0126
+      - event_ref: E_ch0126_クレイ_other_六王の意図_p4392
+        quote: 「奴ら、六王どもが陛下に対して」そこまで言い掛けて、クレイの口が止まる。
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0126_マラード_other_トリシューラ_p4391
+        quote: マラードとルバーブの反応は先ほどの二人に比べればいくらか良かった。先ほどの宴で昆虫料理を食べたことが印象を良くしたのか、同盟相手として協力してやっていこう、というような話題の流れになる。
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラクルラール]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0126_ラクルラール_attacks_アキラ_p4393
+        quote: 回転しながら迫り来る十字の刃。それが何か、俺は知っている。その名を、手裏剣という。
+        locator: {}
+        spoiler_after: ch0126
+  first_appearance_candidate: true

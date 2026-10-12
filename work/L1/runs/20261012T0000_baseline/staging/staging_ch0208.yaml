@@ -1,0 +1,776 @@
+episode: ch0208
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0208_ガロアンディアン_other_様子見_p6983
+        quote: ガロアンディアンという第三勢力の出現、『死人の森』という世界を揺るがしかねない力の存在はにらみ合う二大勢力に様子見の一手を強要した。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_壁]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0208_壁_functions_as_異界への窓_p6983
+        quote: 遠くからだと壁は厚みの無いスクリーンにも見える。 しかしその実態は異界へと繋がる『窓』であり『扉』だ。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_第四階層]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0208_第四階層_has_property_要塞と壁_p6983
+        quote: 第四階層は要塞を中心とした階層だ。 掌握者を守るための堅牢な防衛拠点と、それを取り囲む複数の大壁。
+        locator: {}
+        spoiler_after: ch0208
+    action:
+      observations:
+      - event_ref: E_ch0208_第四階層_other_平穏_p6983
+        quote: これまで第四階層は長きに渡って平穏を維持し続けてきた。階層掌握合戦を定期的に行い、第六階層に対する侵攻と反撃を交互に繰り返しながら互いの体面を保ってきたのだ。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_兵士]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0208_兵士_hopes_祝祭後の安全_p6984
+        quote: きっと祝祭が終わるまでは大丈夫。根拠のない楽観が大量死を招いた。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_巨大な虫]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0208_巨大な虫_attacks_第四階層_p6984
+        quote: あらゆる生命を物言わぬ肉塊に変えていくその脅威は、巨大な虫の姿をしていた。 人体にのし掛かり、押しつぶし、凶暴な口吻で首を引き裂く。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_探索者]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_探索者_other_虫_p6984
+        quote: 応戦しようと呪符や杖を掲げた探索者たちはその圧倒的な質量に圧倒され、不気味な複眼から放射される魔力に屈していった。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_探索者_saves_学者_p6985
+        quote: 探索者とおぼしき数人の男たちが学者の命を救っていた。有無を言わさずに手を引かれる。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_探索者_flees_災厄_p6990
+        quote: 探索者と学者は顔を見合わせ、無言で走り出した。 他にできる事などない。追い縋る大量の怪虫たちを蹴散らしながら逃走する。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_探索者_attacks_虹犬_p6991
+        quote: 矢を追いかけるようにして短剣と丸盾を装備した軽戦士が疾走、その後ろに蛇槍を構えた呪槍士が続く。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_探索者_uses_邪視と使い魔_p6992
+        quote: 軽戦士の盾が妖しく輝いて紋様に見えた目蓋が開き、呪槍士の蛇槍が棍棒に巻き付いた。邪視による呪縛が雷撃を封殺し、使い魔武装が虹犬の手に噛み付こうと牙を剥く。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_異界]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_異界_breaks_均衡_p6984
+        quote: 均衡は破られ、かりそめの平穏は脆くも崩れ去った。 要塞を守っていた障壁、異界を映し出すスクリーンの一つに生じた異変によって。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_第四階層の第三期調査団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_第四階層の第三期調査団_loses_大半_p6984
+        quote: 第四階層の第三期調査団はその大半が壊滅し、今や逃げまどうだけの無力な餌となり果てていた。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_初老の男]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_初老の男_other_ントゥガの断崖_p6985
+        quote: この第四階層と連結した異界、『ントゥガの断崖』から帰還したばかりの学者だった。調査団は彼を除いて全滅。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_世界槍]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_世界槍_breaks_次元の扉_p6986
+        quote: 世界と世界を繋ぐ次元の扉が砕け、その背後から土石流のように異界が殺到する。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_学者]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0208_学者_reveals_虫王の復活_p6986
+        quote: 「これは予兆に過ぎない！ 来訪者が、虫の王が復活する！ ントゥガ族が守ってきた邪神ダレッキノの卵がキノコ人たちに奪われ、孵化したんだ！」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_学者_other_探索者_p6991
+        quote: 「気を付けろ！ あの虹犬、キノコ人と組んでントゥガ族と修道騎士を襲ってた奴だ！」
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ントゥガ族]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_ントゥガ族_other_巨大昆虫_p6987
+        quote: 必死に長い手を動かす彼らの背に、飛来した巨大昆虫がその牙を剥く。 鮮やかな翠玉色の染料で染め上げられた集落が赤く上塗りされて、甲高い絶叫と共に猿人たちは真っ逆さまに崖を転がり落ちていった。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_修道騎士]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_修道騎士_fights_キノコ人_p6988
+        quote: 戦っているのは神働装甲を身に纏った修道騎士と大柄なントゥガ族、そして無数の虫を使役する巨大なキノコ人だ。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_修道騎士_uses_魔導書_p6988
+        quote: 修道騎士は浮遊する無数の魔導書を空中に広げながら呪文を多重詠唱。前衛を務めるントゥガ族を支援しつつ虫を排除していく。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_修道騎士_uses_滅びの呪文_p6989
+        quote: 高速詠唱によって呪文を組み上げ、待機させていた呪文の帯を纏めて放出、束ねて巨大な形を構築する。 オルゴーの滅びの呪文。言語魔術師の奥義が炸裂、巨大な死番虫にその牙を突き立てんとするが、抵抗は無意味に終わった。
+        locator: {}
+        spoiler_after: ch0208
+    relationship:
+      observations:
+      - event_ref: E_ch0208_修道騎士_other_裏面_p6995
+        quote: この呪われた第四階層において、手をさしのべることができるのは同じ血が流れる同族のみだからだ。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_死番虫]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0208_死番虫_appears_世界槍_p6988
+        quote: 世界槍に取り憑いた甲虫は、その腹に木製の時計を埋め込まれていた。
+        locator: {}
+        spoiler_after: ch0208
+    symbolic:
+      observations:
+      - event_ref: E_ch0208_死番虫_has_property_寿命を司る_p6988
+        quote: 秒針が動くたび、甲虫の周囲に存在するあらゆる生命が色褪せていく。 鳥は衰弱して墜ち、植物は枯れて死に、猿人は老いて天命が尽きた。 寿命を司る死神は時計を持つという。
+        locator: {}
+        spoiler_after: ch0208
+    action:
+      observations:
+      - event_ref: E_ch0208_死番虫_other_魔導書_p6989
+        quote: 死番虫の巨大な顎が世界槍の穂先を粉々に砕き、ついでとばかりに滅びの呪文を貪り喰った。呪文竜が断末魔の声を上げると同時、浮遊する大量の魔導書に穴が穿たれていく。本喰らいである死番虫によって呪文ごと魔導書が捕食されているのだ。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_死番虫_kills_キノコ人呪術師_p6989
+        quote: 死番虫の大顎がキノコ人呪術師の胴体を捕らえ、いとも容易く噛み千切る。 あとには剥き出しの暴力だけが残された。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_死番虫_other_呪文竜_p7006
+        quote: 本を喰らう死番虫は呪文竜を腕の一振りで引き裂き、内包する言葉の全てを貪らんと口吻を蠢かせる。腹の時計が物語を古びさせ、呪文の意味を劣化させていく。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キノコ人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_キノコ人_transforms_世界_p6989
+        quote: 幻は現実となり、上下は反転し、縮尺は歪んでいく。極限まで縮んだ猿人は山より大きなキノコ人に踏み潰され、虚空から湧き出た名状しがたい姿の異獣が修道騎士に襲いかかる。
+        locator: {}
+        spoiler_after: ch0208
+    speech:
+      observations:
+      - event_ref: E_ch0208_キノコ人_other_葬儀屋_p7025
+        quote: 驚くべきことに、死体が口を開いた。私が知る死霊術の類ではない。死体に寄生するタイプのキノコ人が喋っているのだ。
+        locator: {}
+        spoiler_after: ch0208
+    relationship:
+      observations:
+      - event_ref: E_ch0208_キノコ人_uses_ヴィティス_p7031
+        quote: どのような思惑か、キノコ人たちは死者であるヴィティスを第四階層の掌握者に据えたまま間接的に階層を制圧しようとしていた。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_虹犬]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0208_虹犬_appears_探索者_p6990
+        quote: 垂れ耳、突きだした鼻とマズル。その首から上は獣性と愛らしさを兼ね備えたビーグル犬そのもの。 虹犬、あるいは犬精と呼ばれる下方勢力の種族。
+        locator: {}
+        spoiler_after: ch0208
+    action:
+      observations:
+      - event_ref: E_ch0208_虹犬_defeats_探索者_p6992
+        quote: 虹犬は稲妻の化身だった。 雷獣より速く動くことは誰にもできない。 最小限の動きで射撃を回避、軽戦士の斬撃を横薙ぎで妨げ、
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_魔将サイザクタート]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0208_魔将サイザクタート_names_自身_p6991
+        quote: 「我が名は魔将サイザクタート。レストロオセ四十四士と相対できる栄誉を噛みしめて死ね」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_魔将サイザクタート_says_朱神の微睡み_p6992
+        quote: 「朱神はもう微睡んでいる。俺たちの夢が重なり合っているように」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_魔将サイザクタート_threatens_アズーリア_p6994
+        quote: 「魔将サイザクタート。亡き友の雪辱、この俺が果たす」
+        locator: {}
+        spoiler_after: ch0208
+    action:
+      observations:
+      - event_ref: E_ch0208_魔将サイザクタート_kills_探索者_p6992
+        quote: 空間に線が走る。 風景を分断する直線が、一本、二本、三本と増え続け、気付けば夥しい数の線が嵐となって魔将の周囲を取り巻き回転していく。
+          惨殺であった。 至近距離にいた探索者たちは残らず五体を引き裂かれて即死した。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_魔将サイザクタート_other_死_p7014
+        quote: 「まだ、だ」 魔将が立ち上がった。明らかな死に体だというのに、焼け焦げた体を強引に動かして進もうとする。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_英雄]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_英雄_appears_虹犬_p6993
+        quote: 彼方から舞い降りる救い手を。 蒼穹の如き翼を広げて飛翔する、翼ある鹿の姿を。
+        locator: {}
+        spoiler_after: ch0208
+    visual:
+      observations:
+      - event_ref: E_ch0208_英雄_transforms_甲冑_p6993
+        quote: それは優雅に地上に降り立つと、暗い影のように輪郭を歪ませていった。次の瞬間にそこに立っていたのは優美な幻獣とは似ても似つかない重厚な甲冑。
+          小柄だった。まるで子供のような背丈。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_アズーリア_attacks_魔将サイザクタート_p6994
+        quote: 「邪魔だ。死ね、サイザクタート」 冷酷な意思がわだかまる闇となって膨れ上がる。 殺意と殺意がぶつかり合い、二つの稲妻が絡み合って破裂した。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_arrives_第四階層_p6998
+        quote: 偶然にも九槍アズーリアがこの場所に駆けつけてくれたのは唯一と言っていい福音であった。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_fights_魔将サイザクタート_p7010
+        quote: 閃光と雷鳴が空を走り抜け、目にも留まらぬ速度域で二つの影が交錯する。 英雄と魔将。地上と地獄を象徴する力の頂点が、空の一点で幾度と無く激突を繰り返していた。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_other_魔将_p7011
+        quote: 兜の内側で各種機器が敵魔将の分析結果を計測している。ピュクシス製の分析機器によれば、予測される魔将の能力特性は雷撃操作を軸とした邪視特化型。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_uses_失明稲妻_p7011
+        quote: あらゆる邪視者に対して優位に立てるはずの『失明稲妻』は私にとって必殺の切り札だ。敵が邪視に秀でた虹犬であればこれで完封できるはず。その目論見はあっさり崩された。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_uses_影の触手_p7013
+        quote: 稲妻を捌きながら死角から襲い来る影の触手を同時に凌ぐのは困難を極める。私にとってあくまで本命は影の呪文。稲妻は派手さで注意を引きつけるための魅せ技に過ぎない。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_breaks_金鎖_p7014
+        quote: 「遡って、フィリス」 左手首から垂れ下がった金鎖がひとりでに砕ける。 それで終わり。準備は既に済ませていた。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_kills_魔将サイザクタート_p7015
+        quote: 漆黒の斧を振り上げる。 そして、私は物質界での動作と影を切り離して足下から虹犬の影に干渉した。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_other_終油の秘蹟_p7016
+        quote: 終油の秘蹟。臨終にある者に対して行われる死への慰め。 つまり欺瞞だ。 殺した相手を憐れみ、その罪が赦されることを祈る。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_other_アレッシオ_p7028
+        quote: 心の中で詫びつつ、アレッシオを残してこの場を去ることに決める。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_other_空中_p7029
+        quote: 私は高ぶる気持ちのまま腰に左手を当て、斧を持った手をリズムよく上げ下げしながら意気揚々と空中を歩いていった。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_attacks_アレッシオ_p7033
+        quote: 「死ね。私たちが望む未来に、お前はいらない」 陥穽、雷撃、影槍、静謐。キノコ人たちの攻撃に合わせるようにして叩きつけた呪術の連続攻撃がアレッシオを襲う。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_other_第四階層_p7033
+        quote: 仇敵が致命傷を負ったのを確認すると、私は翼を広げてその場を離脱した。あとはキノコ人たちが始末してくれるだろう。私は急いで第五階層に迫る脅威を排除しなければならない。
+        locator: {}
+        spoiler_after: ch0208
+    speech:
+      observations:
+      - event_ref: E_ch0208_アズーリア_other_エスト_p7008
+        quote: 「エスト。先に『門』に向かって。裏面で救助活動を」「アズーリアの方が決着したら合流ね。それまではここの人たちをお願いできる？」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_other_物理法則_p7010
+        quote: 物質界での戦いはいつもこうだ。 体の重さ、まとわりつく風、制御を振り切ろうとする荒々しい慣性。 私に支配されまいとする物理法則の枷はいつだってこの影の体を呪縛する。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_other_シナモリアキラ_p7017
+        quote: 「構いません。彼を自称するならず者が無数に存在していることは理解しています」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_other_通信_p7028
+        quote: （敵の狙いは第五階層に異界の邪神を持ち込むこと。魔将を倒したら転移門に急いで。ハルたちも向かってるけど、妙な光に幻惑されて進めない）
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_other_洗脳_p7033
+        quote: 危なかった。私を援護した『行進』の術、あれは祝福の形をとった洗脳の呪い。もう少し気付くのが遅かったら完全に奴の操り人形と化していただろう。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_thinks_ソルダ_p7033
+        quote: 我らが苛烈にして純粋なる槍、ソルダ総団長の言葉を思い出す。 解釈違いを殺せ、イメージの主流を奪え、理想の世界を勝ち取れ。 全てはチョコレートリリーの未来のために。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アズーリア_other_敵_p7034
+        quote: 私たちの敵は、皆殺しだ。
+        locator: {}
+        spoiler_after: ch0208
+    visual:
+      observations:
+      - event_ref: E_ch0208_アズーリア_observes_ヴィティス_p7030
+        quote: 私の目は空中に放り出されたその男の姿に釘付けにされていた。前進の意思に浮き立つ心が沈んでいく。代わって頭をもたげてきたのは重く暗い怒りと憎しみ。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア・ヘレゼクシュ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0208_アズーリア・ヘレゼクシュ_names_自身_p6994
+        quote: 「守護の九槍、序列第九位。アズーリア・ヘレゼクシュ」
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_修道騎士モバン・ジート]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_修道騎士モバン・ジート_observes_虫の大群_p6995
+        quote: 四腕人のメナル修道騎士モバン・ジートは天を埋め尽くす虫の大群を見上げながら嘆息した。 「で、こりゃどういう状況だ？」
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_副官]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0208_副官_other_キノコ人の襲撃_p6995
+        quote: キノコ人グループは『智神の盾』が封印していたントゥガ族の秘宝を使い邪神の復活を試みたものと思われます」
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_虫王の卵]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0208_虫王の卵_has_property_自律型使い魔_p6996
+        quote: 「彼によると、ントゥガ族の至宝である『虫王の卵』は単独では破壊衝動を発散するだけの自律型使い魔でしかなく、時間経過で呪力が枯渇すれば自壊するとのことです」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_虫王の卵_requires_資格のある者_p6996
+        quote: 「『単独では』というのはどういう意味だ？」「資格のある者が『虫王の卵』を用いれば、理性を有した邪神が復活するとのことです。」
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キノコ人グループ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_キノコ人グループ_carries_卵三つ_p6997
+        quote: 「邪神ダレッキノの卵は全部で五つ。うち二つはその場で孵化し、残り三つを持ってキノコ人グループと虹犬の一人が逃走中。第五階層に繋がる『門』を目指して移動中とのことです」
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_トルウート隊]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_トルウート隊_kills_ワイヤ隊_p6997
+        quote: 「殺し合ったんだな？ お互いに」「はい。第四階層の禁忌です。最も近い『門』を封鎖することには成功したのですが、両隊ともに互いを異獣認定し、全修道騎士が死亡しました」
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴィティス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0208_ヴィティス_defines_異獣認定の呪い_p6998
+        quote: 「無茶を言うな。この場から撤退したらヴィティスの呪いで異獣認定されるだろうが。同じことをやった連中をさんざん殺してきたのを忘れたわけじゃないだろう」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_ヴィティス_other_宣言_p7031
+        quote: 「第四階層掌握者として宣言する。これより管理権限を『汚物屋』『葬儀屋』『虫飼い』の三名に委譲。第四階層をキノコ人たちの聖地に認定し、特別保護区として解放。私は彼らが主張するあらゆる権利を認める」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_ヴィティス_other_レイシズム変数_p7032
+        quote: 「レイシズム変数」 瞬間、『われわれ』という言葉の鎖が第四階層を覆い尽くす。
+        locator: {}
+        spoiler_after: ch0208
+    visual:
+      observations:
+      - event_ref: E_ch0208_ヴィティス_has_property_死体_p7030
+        quote: 胸部や腹部の深手は見ただけでわかる致命傷。見るものに強烈な印象を残す『うろ』の瞳、あらゆる光を飲み込むかのような眼球には元々希薄だった生気が失われている。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_モバン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0208_モバン_other_状況_p6999
+        quote: 「はあ？ 肝心な時にクソの役にも、いや邪神と相打ちなら役には立っているのか、だがどうせならもう一匹をどうにかしてから死んでくれ！」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_モバン_other_卵の行方_p7008
+        quote: 「待ってくれ。金鎖経由で本隊に報告が行ってないのか？ あの害虫の親玉を生む卵がまだ三つある。キノコ人の武装集団が第五階層に持ち込もうとしているんだ。」
+        locator: {}
+        spoiler_after: ch0208
+    relationship:
+      observations:
+      - event_ref: E_ch0208_モバン_bonds_多様な種族_p7009
+        quote: 「第七位の命令なんぞクソ食らえだ。全員で団結して俺たちの地上を守る。それがあるべき修道騎士の姿だろうが。やってやるぜ、俺たちで」
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_第七位]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0208_第七位_defeats_虻_p6999
+        quote: 「また第七位は本部を直接襲撃してきた『虻』に応戦、撃退に成功したものの、現在は生死不明との報告が入っております」
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0208_プリエステラ_appears_修道騎士_p7000
+        quote: 呪文に呼応して、突如として青青とした草木が生い茂り、伸び上がった大樹が障壁となって押し寄せる虫の侵攻を押しとどめた。
+        locator: {}
+        spoiler_after: ch0208
+    relationship:
+      observations:
+      - event_ref: E_ch0208_プリエステラ_other_多様な種族_p7001
+        quote: 「アズーリア隊所属、特任司祭プリエステラです。私たちはこれより『ントゥガの断崖』に赴き、取り残された修道騎士とントゥガ族の救援に向かいます」
+        locator: {}
+        spoiler_after: ch0208
+    speech:
+      observations:
+      - event_ref: E_ch0208_プリエステラ_promises_殺し合いの停止_p7002
+        quote: 「言理の妖精は私たちの味方よ。安心して、あなたたちはもう仲間同士で殺し合わなくていい。残存戦力を集めて、皆で困難に立ち向かいましょう！」
+        locator: {}
+        spoiler_after: ch0208
+    action:
+      observations:
+      - event_ref: E_ch0208_プリエステラ_other_花獣ビテロ_p7004
+        quote: 「花の獣、黒肌のビテロよ、どうか私に力を貸してちょうだい！」 巫女の呼び声に応え、大地を割って現れたのはこんもりと丸い大輪の花。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_歌姫]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0208_歌姫_appears_修道騎士_p7003
+        quote: 攻撃的なシルエットの鋲付きコートは夜の漆黒、少女的なミニスカートから伸びた細い脚は病的な純白。
+        locator: {}
+        spoiler_after: ch0208
+    action:
+      observations:
+      - event_ref: E_ch0208_歌姫_other_滅びの竜_p7005
+        quote: 空へと舞い上がる呪文はさながら竜蛇。 神話の紀竜を再現することばの奔流が虫の王に狙いを定めた。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_歌姫_defeats_死番虫_p7006
+        quote: 形無き紀竜が、その真の力を発揮する。 時計を抱えた害虫の動きがぴたりと止まった。 腹の時計、その針の動きもまた消えている。
+        locator: {}
+        spoiler_after: ch0208
+    speech:
+      observations:
+      - event_ref: E_ch0208_歌姫_defines_滅びの呪文_p7007
+        quote: 「これこそは『滅びの呪文』。滅亡の後も響き続ける永劫の歌」
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_花獣ビテロ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_花獣ビテロ_attacks_害虫_p7004
+        quote: 射出された爪は害虫の甲殻をたやすく貫通した。花獣は爪と繋がった蔦のようなワイヤーを一瞬にして巻き取ることで害虫に急速接近、死骸を足場にすることで次の獲物への狙いを定める。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_花獣ビテロ_uses_光の玉_p7005
+        quote: 背の花が大きく開いたかと思うと、その中心からまばゆい光が放たれる。発光するエネルギー塊は空中に静止すると、回転しながら小さな光の玉を次々に全方位に撃ち出していった。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッシオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0208_アレッシオ_other_アズーリア_p7015
+        quote: 「お見事。わたくし感動いたしました。ただ強いだけでなく、敵にも憐れみの心を忘れぬ気高いあり方。アズーリア殿こそ英雄と呼ぶに相応しい」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アレッシオ_other_魔将殺し_p7016
+        quote: 「再生魔将を含めればあなたが討伐した魔将は地上最多だ。いかがでしょう、今後は『魔将殺し』という二つ名で売り出していくのは。わたくしから広報部に話を通して」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アレッシオ_reveals_シナモリアキラ_p7017
+        quote: 「そこの虹犬、過去にシナモリアキラだったようです。紀人の威を借る輩というのはどこにでもおりますが、とうとう魔将にまで現れましたか」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アレッシオ_other_第五階層_p7018
+        quote: 「第四階層でこれほど大規模な破壊活動が行われた以上、影響は隣接階層にも及ぶと考えるべきです。未来回想の遵守を優先するなら、予定外の危険因子は早期に潰しておくべきでしょう」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アレッシオ_deceives_ハルベルト_p7020
+        quote: 「いいえ彼女は誰かのお人形ですよ。平和の奴隷、相互理解の従属物。自分の歌など歌っていない」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アレッシオ_defines_歌の力_p7021
+        quote: 歌とは！ 大衆を支配するために存在する最適な手法なのです！」
+        locator: {}
+        spoiler_after: ch0208
+    action:
+      observations:
+      - event_ref: E_ch0208_アレッシオ_other_アズーリア_p7022
+        quote: 「いけない、アズーリア殿っ」 私の前に飛び出したアレッシオの手が輝く呪詛塊を受け止める。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アレッシオ_uses_オルゴーの滅びの呪文_p7027
+        quote: アレッシオの術は呪文使いの目から見ると発展性が無く構造的に低い詠唱段階で頭打ちになる粗悪品だった。最大まで強化しても燃費が悪く時間がかかる中位呪術の『爆撃』にしかならない。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_アレッシオ_other_アズーリア_p7029
+        quote: 『虻』の大口に飲み込まれる寸前だった私を救ったのはアレッシオの神働術だった。『行進』という言葉が鍵であったのか、私が進もうとする意思を概念的に保護してくれているのを感じる。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_虫飼い]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0208_虫飼い_appears_アズーリア_p7023
+        quote: 『虫飼い』という呼び名の通り、虫と草を融合させた姿の異獣は周囲の害虫たちを完璧に手懐けていた。
+        locator: {}
+        spoiler_after: ch0208
+    speech:
+      observations:
+      - event_ref: E_ch0208_虫飼い_other_葬儀屋_p7025
+        quote: 「変わり者だよねー。顕花のくせにあちしらの味方しちゃってさー」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_虫飼い_other_虫_p7026
+        quote: 「行け、虫ちゃんたち」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_虫飼い_threatens_葬儀屋_p7026
+        quote: 「足ひっぱんなっつーか邪魔すっとてめーも殺すぞ『葬儀屋』」
+        locator: {}
+        spoiler_after: ch0208
+    action:
+      observations:
+      - event_ref: E_ch0208_虫飼い_other_虻_p7028
+        quote: 「やらせるか！ 起きろ、あちしの可愛い『虻』ちゃん！」 私が翼を広げて飛び立ち、『虫飼い』が叫ぶのと同時、大地を割って超巨大な害虫が出現した。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_葬儀屋]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0208_葬儀屋_appears_アズーリア_p7024
+        quote: 奇怪な虫草の隣で冷静に言葉を紡ぐ男性の姿は霊長類に近い直立二足歩行型だ。体色は白銀、その頭はうつむきがちな筒型の花。
+        locator: {}
+        spoiler_after: ch0208
+    action:
+      observations:
+      - event_ref: E_ch0208_葬儀屋_other_アレッシオ_p7024
+        quote: 聖なる意味を付与された死霊払いの簡易儀礼。 それを白銀の男が片手で防ぎ、不意打ちで炸裂した衝撃音を亡霊たちが壁を作って受け止める。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_葬儀屋_helps_死者_p7024
+        quote: すると『葬儀屋』はキノコまみれの死者たちを助け起こそうとする。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_葬儀屋_other_アレッシオ_p7025
+        quote: 銀の男が片手で防ぎ、不意打ちで炸裂した衝撃音を亡霊たちが壁を作って受け止める。アレッシオが瞠目する。「今のを防ぐとは」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_葬儀屋_other_アズーリア_p7025
+        quote: 呪力が爆ぜる。私の影が押し負けて、アレッシオが詠唱していた呪文が崩壊した。会話の片手間で圧倒されている。敵の呪力は魔将に匹敵するかそれ以上だ。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_葬儀屋_appears_虻_p7029
+        quote: 巨大な『虻』の口の中からのそりと大柄な体躯の男が出現する。害虫に喰われた者だろうか。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_葬儀屋_other_アズーリア_p7029
+        quote: 『葬儀屋』の声が耳障りな雑音となって私の頭の中で響く行進曲を妨げた。
+        locator: {}
+        spoiler_after: ch0208
+    speech:
+      observations:
+      - event_ref: E_ch0208_葬儀屋_other_自身_p7025
+        quote: 『葬儀屋』はこともなげに返す。「そんな奴がひとりくらいは居てもいいだろう」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_葬儀屋_names_自身_p7025
+        quote: 「私は葬礼を取り仕切る祭司の末裔だ。そもそも死体の扱いを忌み仕事とお前たちに任せきりにしていること自体が間違いの元。この道を選んだ以上、お前たちと同じようにするのが道理というもの」
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_葬儀屋_other_死者_p7026
+        quote: 「頼むぞ、敵兵の屍を骨までしゃぶり尽くしてやれ」
+        locator: {}
+        spoiler_after: ch0208
+    symbolic:
+      observations:
+      - event_ref: E_ch0208_葬儀屋_has_property_人間性_p7025
+        quote: 私は相手が見せた『人間性』をとっかかりにして呪文の準備を始めたが、あえて茶番を演じるタイプの罠という可能性も否定できない。
+        locator: {}
+        spoiler_after: ch0208
+    relationship:
+      observations:
+      - event_ref: E_ch0208_葬儀屋_other_プリエステラ_p7025
+        quote: 何故だろう。呪力の感触がエストに似ている？ 正確に言えば、プリエステラがティリビナの巫女として『アルラウネ断章』という血に眠る力を振るった時に感じる気配がこの二人からも感じられるのだ。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_汚物屋]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0208_汚物屋_appears_虫飼い_p7026
+        quote: その時、二人の間に緑色に発光する球体が出現した。「『虫飼い』、『葬儀屋』、やめておくれ」
+        locator: {}
+        spoiler_after: ch0208
+    symbolic:
+      observations:
+      - event_ref: E_ch0208_汚物屋_has_property_神聖な力_p7026
+        quote: ぼんやりと浮遊する緑色の光。それは穢れを浄化する神聖な力だ。死霊や死体たちは崇めるようにひざまずいて祈りを捧げている。
+        locator: {}
+        spoiler_after: ch0208
+    speech:
+      observations:
+      - event_ref: E_ch0208_汚物屋_says_同胞の死_p7026
+        quote: 「『薬屋』は死番虫にその身を捧げた。僕の胸は同胞の死に張り裂けそうになっている。どうか仲間割れはやめて欲しい」
+        locator: {}
+        spoiler_after: ch0208
+    action:
+      observations:
+      - event_ref: E_ch0208_汚物屋_other_足止め_p7027
+        quote: あの緑の光を操っている『汚物屋』の本体がどこかに向かおうとしていること。この二人は足止め役であること。
+        locator: {}
+        spoiler_after: ch0208
+      - event_ref: E_ch0208_汚物屋_uses_相殺_p7027
+        quote: 「僕の分け身で相殺する！ 二人とも、無事でいてくれ！」 緑色の光が飛び出して、大きく口を開いた呪文竜に突撃、全ての力を使って対抗呪文を構築、アレッシオを弾き飛ばしながら消滅した。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_虻]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0208_虻_has_property_致命傷_p7028
+        quote: 身体のあちこちがひび割れ、どう見ても致命傷としか思えない大穴が頭部に開いているが、そこから無数のキノコが生えているのが見えた。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーズガン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_カーズガン_arrives_第四階層_p7032
+        quote: 空に大穴を開けて突入してきた草の民を中心とした次元騎兵隊、その先頭で騎兵たちを率いているのは九槍が第四位、カーズガンの勇姿。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_レイシズム変数]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_レイシズム変数_transforms_世界_p7032
+        quote: 大地の風景はたちまち変貌し、鬱蒼と生い茂るのは濃い色の密林。 その森に道は無く、緑の葉は無く、黒ずんだ葉が茂る。 節くれて曲がりくねった枝、果実は実らず腐り堕ち、毒を含んだ棘が生えている。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_森]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0208_森_stops_カーズガン_p7032
+        quote: 荒れた大地から伸び上がる禍々しい『世界』が天かける騎兵隊の歩みを止めた。たとえ空を飛び空間の亀裂から異なる次元を踏破しようとも、それが騎兵であるならば『森』という象徴はその動きを妨げる。
+        locator: {}
+        spoiler_after: ch0208
+  first_appearance_candidate: true

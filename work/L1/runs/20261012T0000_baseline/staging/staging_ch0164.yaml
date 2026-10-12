@@ -1,0 +1,230 @@
+episode: ch0164
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0164_ミルーニャ_names_ヒュドラボルテージ_p5527
+        quote: マネージャー体験をさせてもらう相手は他でもない現二位のアイドル『ヒュドラボルテージ』――ここで礼を失するような真似はできない。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_ミルーニャ_names_ミルーニャ・アルタネイフ_p5527
+        quote: 眼鏡を外して翼と尾を広げて派手にアピールしたところで本物の光には届かない、それがやせっぽちで貧相な私、ミルーニャ・アルタネイフの限界だ。
+        locator: {}
+        spoiler_after: ch0164
+    speech:
+      observations:
+      - event_ref: E_ch0164_ミルーニャ_says_一日マネージャー_p5527
+        quote: 「ちょっと一日マネージャーをやってきます」　そう言って下の階層へと向かおうとした私を、リーナとセリアック＝ニアは必死で引き留めた。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_ミルーニャ_other_呼ぶ声_p5528
+        quote: 私にはランキング二位のアイドル『ヒュドラボルテージ』の名に聞き覚えがあったのだ。――呼ばれている。音にならない声を聴いたような気がした。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_ミルーニャ_other_クレイ_p5531
+        quote: 「それでも、これを大切なものとして届けてくれた人がいるから。それに一度は母が愛した人です。どうしようもないクズの父でも、ただ切り捨ててしまえば母の心まで傷付けてしまう。それは、少し嫌です」
+        locator: {}
+        spoiler_after: ch0164
+    relationship:
+      observations:
+      - event_ref: E_ch0164_ミルーニャ_has_property_メクセトの血_p5528
+        quote: この身に流れる『血』にまつわるとある与太話は正直眉唾ものだが、どうやら私とリーナは古の覇王メクセトの血を引いている、らしいのだ。
+        locator: {}
+        spoiler_after: ch0164
+    action:
+      observations:
+      - event_ref: E_ch0164_ミルーニャ_uses_富の断章_p5528
+        quote: 念のため主観記憶を『断章』に書き込んでいる。もしもの時には仲間にこちらの状況が把握できるようにしてあるが、どうしても不穏な予感はぬぐえない。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_ミルーニャ_fights_再生者_p5529
+        quote: 甲冑を纏った戦士の突撃を回避してから隙だらけの胴体に蹴りをぶち込み、風を操る呪術師を呪石弾で倒す。発生した気流の渦によって引っ張られるがお陰で背後から迫り来る氷の亜竜から距離を置くことができた。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_ミルーニャ_travels_地下_p5529
+        quote: 予感に突き動かされるまま、私は単身地下に向かった。階層が深まるにつれ激しくなるビート、苛烈に湧き続ける敵対的再生者、凶悪なトラップの数々、ＢＧＭはハードロックそしてヘヴィメタル。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_ミルーニャ_other_ライブ_p5534
+        quote: 重力制御と『空圧』の複合呪術を翼から展開しながら長い尾をマイクスタンド代わりにして私は単独ライブを開始する。
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0164_リーナ_stops_ミルーニャ_p5527
+        quote: 一人で迷宮区に潜るのは危ないし『空組』の主要メンバーが抜けると活動に差し障りが出るという理由だったが、私は二人に頭を下げて強引に自分の意思を押し通した。
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_空組]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0164_空組_has_property_人気_p5527
+        quote: 『空組』の人気はリーナの生来の朗らかさとアピール時だけ元の姿に戻るセリアック＝ニアの聖性すら感じさせる美貌によって成り立っている。私は二人のプロデュースとマネージメント、それと保険としてニッチ層をカバーする意味合いで脇に立っているにすぎない。
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_富の断章]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0164_富の断章_has_property_紫紺の光_p5528
+        quote: 宙に浮き、併走する黒い魔導書『富の断章』が妖しげな紫紺の光を放っていた。
+        locator: {}
+        spoiler_after: ch0164
+    action:
+      observations:
+      - event_ref: E_ch0164_富の断章_activates_炎_p5539
+        quote: 直後、灼熱が迷宮を焼いた。階段の奥から溢れ出した炎が私とクレイの目の前に壁を作り出したのだ。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_富の断章_other_物語_p5540
+        quote: 腕の中で『断章』が熱を持つ。ひとりでに記録を綴る呪われた書物が、『物語』を記し始めたのだ。誰かを主人公にした、壮大な叙事詩のはじまりを。
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_星見の塔]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0164_星見の塔_defines_神滅具_p5528
+        quote: 黒の槍、成し得ぬ盾、血色の戦場旗、氷血のコルセスカ、そして炎冠のヒュドラボルテージ――かつて私は現存する神滅具の『真作』のうち、『星見の塔』が保有する五つの破滅的アーティファクトの名を知り得る立場にあった。
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0164_クレイ_appears_ミルーニャ_p5529
+        quote: 大変に見目麗しい若い男だった。少年とも青年ともつかない曖昧な年頃だが、何故か上半身が裸なせいで妙な野性味が出てしまっている。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_クレイ_transforms_右半身_p5538
+        quote: 美しいかんばせもまたその表情を変えており、右半分はおぞましい髑髏のものになっている。
+        locator: {}
+        spoiler_after: ch0164
+    speech:
+      observations:
+      - event_ref: E_ch0164_クレイ_threatens_ミルーニャ_p5530
+        quote: 男は私の真横に浮遊している黒い魔導書を指差し、鋭く言い放った。「女、その『断章』をどこで手に入れた」
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_クレイ_other_ミルーニャ_p5535
+        quote: 得意げに相手の男を見ると、ぽかんとしていた。しばらくして我に帰ったのか、ぽつりと呟く。「ダ――ダサい」
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_クレイ_other_ミルーニャ_p5537
+        quote: 「見事な演奏ではあったが――お前では力不足だ。下がれ女、この先で『未熟』は通用しない。最下層にいる『奴』は次元が違う。今の俺ではまだ届かない。だが『断章』があれば、あるいは――」
+        locator: {}
+        spoiler_after: ch0164
+    action:
+      observations:
+      - event_ref: E_ch0164_クレイ_takes_富の断章_p5532
+        quote: 「そちらにも譲れない事情があるのはわかった。だが俺はここで『断章』を見逃すわけにはいかない。恨むなら恨め――それは貰っていく」
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_クレイ_defeats_ミルーニャ_p5536
+        quote: そして、『舞い』が始まる。――私は大差をつけられて完敗した。
+        locator: {}
+        spoiler_after: ch0164
+    name:
+      observations:
+      - event_ref: E_ch0164_クレイ_names_クレイ_p5536
+        quote: 「『クレイ』だ。しばし、場を借りる」　重力を感じさせない足運びで空間の中央へと進み出る。
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_再生者]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0164_再生者_names_ライブ対決_p5532
+        quote: 何やら『いいぞ』『野良勝負か』『やっちまえ』『あれミルーニャちゃんじゃね？』『普通の探索じゃなくてライブ対決か』『相手のコすごいイケメン！』などと騒いでいる様子だが、どうも雲行きがあやしい。
+        locator: {}
+        spoiler_after: ch0164
+    relationship:
+      observations:
+      - event_ref: E_ch0164_再生者_other_クレイ_p5537
+        quote: 『王子』『殿下』と漏れ聞こえる声は感極まったものであり、からかい混じりに発せられる黄色い声とは根本的に性質が異なる。彼らは目の前に現れた再生者の貴種に心からの崇敬を捧げていた。
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_炎冠]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0164_炎冠_names_炎冠_p5539
+        quote: 光が震え、言葉を発した。「我が名は『炎冠』。覇王メクセトの遺産にしてその権威を受け継ぎし器なり」
+        locator: {}
+        spoiler_after: ch0164
+    speech:
+      observations:
+      - event_ref: E_ch0164_炎冠_other_ミルーニャ_p5540
+        quote: 「おお、その姿、その気配、その呪力――見間違いようもない。まさしくあなたこそ『白の娘』。忌み人の王女よ、この時をどれだけ待ち焦がれたことか」
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0164_アキラ_carries_リールエルバ_p5541
+        quote: 暗い迷宮を、軽い少女とはいえひとり分の重みを背負って進むのは確かにそれなりに骨だ。それが長時間、それも何日か続けば互いに気が滅入りもする。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_アキラ_fights_隻腕の男_p5545
+        quote: 隻腕の死角から攻め続けて態勢を崩し、渾身の掌底を叩きつける。最後は足払いであっさりと床に倒れた。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_アキラ_other_隻腕の男_p5545
+        quote: 普段なら冷たい機械の女王トリシューラに仕える第一の部下である俺はこの相手を躊躇いなく始末するところだったが、血でこの手を濡らし、殺戮のあとの強張った表情を見せればきっとリールエルバは怯えてしまうだろう。
+        locator: {}
+        spoiler_after: ch0164
+    relationship:
+      observations:
+      - event_ref: E_ch0164_アキラ_bonds_リールエルバ_p5542
+        quote: 曰く、トリシューラが用意してくれた俺の義体もまた『塔』の技術の産物だから、俺たちは同系統の技術によって生み出されていると言えなくもないとのこと。兄弟や姉妹のようなもの、そういうことをほのめかされている。
+        locator: {}
+        spoiler_after: ch0164
+      - event_ref: E_ch0164_アキラ_other_リールエルバ_p5546
+        quote: 俺はこの男からリールエルバを守らなければならない。たとえ俺に最も大切な主がいるとしても、今この瞬間に彼女を救えるのは俺だけなのだから。
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0164_リールエルバ_names_リールエルバ_p5542
+        quote: 『塔』の技術によって誕生したドラトリア王女のクローン。トリシューラの形式上の姉とも言えるトリシルシリーズ一号機にして、同型機たちの中でも最も実験的な手法で生み出された人造姉妹。それがリールエルバだ。
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_隻腕の男]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0164_隻腕の男_attacks_アキラ_p5546
+        quote: 怒りの込められた声が通路の奥から響いてくる。「は－。ねーわ。ほんっとキツイって。マジねーわ。とどめ無しとかもう冒涜っしょ。ありえねえ、死ねよお前マジでよお。つか殺す」
+        locator: {}
+        spoiler_after: ch0164
+  first_appearance_candidate: true

@@ -1,0 +1,398 @@
+episode: ch0219
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アゥルメイア]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0219_アゥルメイア_other_赤蜥蜴人たち_p7290
+        quote: 赤蜥蜴人たちを統べる竜血公。ディスケイム家の頂点に立つ長老たちのひとり。
+        locator: {}
+        spoiler_after: ch0219
+    name:
+      observations:
+      - event_ref: E_ch0219_アゥルメイア_names_金爪_p7290
+        quote: 城主である『金爪』のアゥルメイアからしてかつて第三位の巫女を務めていた古竜だ。
+        locator: {}
+        spoiler_after: ch0219
+    action:
+      observations:
+      - event_ref: E_ch0219_アゥルメイア_teaches_エレクトラ_p7290
+        quote: 『エレクトラ』に竜覚を叩き込んだ師。血統魔術師の祖。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_アゥルメイア_helps_ユディーア_p7306
+        quote: 師アゥルメイアはすぐさま本格的な竜導師としての修行をユディーアに始めさせたし、双子たちとの縁がここで十分に活かされたからだ。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ディスケイム家]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0219_ディスケイム家_has_property_全土への影響力_p7290
+        quote: ディスケイム家の影響力は『下』の全土に及ぶ。
+        locator: {}
+        spoiler_after: ch0219
+    relationship:
+      observations:
+      - event_ref: E_ch0219_ディスケイム家_other_ユディーア_p7294
+        quote: ディスケイム家は多分だけどアンタを信用してないよ。だから私を監視役に選んだ。
+        locator: {}
+        spoiler_after: ch0219
+    action:
+      observations:
+      - event_ref: E_ch0219_ディスケイム家_teaches_思考技術_p7298
+        quote: ホラーを生み出したディスケイム家は、そういう認識や意識を上手に顕在化させない思考技術を幼いキニスに教え込んだ。奉竜山で身に着けた『内傷七情』の技も心を制御するにはうってつけ。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ディスケイム家_loses_権威_p7303
+        quote: いずれにせよディスケイム家の発言力は大幅に低下した。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ディスケイム家_other_ホラー_p7304
+        quote: かつての大悪レストロオセと聖妃レストロオセを分離し、ホラーという異獣を生み出したのはほかならぬディスケイムだ。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ノゴルオゴルオ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0219_ノゴルオゴルオ_bonds_マルガリータ_p7290
+        quote: ノゴルオゴルオ・ディスケイムと威力竜の巫女マルガリータが手を結んでいた。
+        locator: {}
+        spoiler_after: ch0219
+    action:
+      observations:
+      - event_ref: E_ch0219_ノゴルオゴルオ_defeats_ベフォニス_p7292
+        quote: ノゴルオゴルオは既に一戦交えてベフォニスを奪還したんだって。
+        locator: {}
+        spoiler_after: ch0219
+    speech:
+      observations:
+      - event_ref: E_ch0219_ノゴルオゴルオ_names_ペラティア王の再来_p7298
+        quote: 「ノゴルオゴルオはアンタを『ペラティア王の再来』って言ってたよ。そしてここはガロアンディアン。ねえ、本当に何も感じてないわけじゃないでしょ？」
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マルガリータ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0219_マルガリータ_says_威風_p7290
+        quote: 私の箒、見たでしょ？　あれこそ工神工房の最新作。ディスケイム家の『オルゴーオルガノン』と協力して開発した最新鋭の紀竜翼機。その名も『威風』よ
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_マルガリータ_asks_魔道派の後継_p7293
+        quote: それと魔道派の後継、勧誘は上手くいってる？　ほぼ寝たきりのプラータおばばに穢れ封じはもう無理でしょ。相応しい穢れの担い手が見つかったんだから、引退させてやらんと。早めに動かないと継承が間に合わない。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_マルガリータ_says_パーン潰し_p7293
+        quote: 他の本選参加枠もクロウサー家の息がかかってるから、結託して『パーン潰し』ができる。むしろ『緑』の陣営を警戒した方がいいくらい
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_マルガリータ_reveals_ユディーアの経歴_p7294
+        quote: ディスケイム家の調整体、優れた血統の寄せ集めであるアンタは四十四士の正統でありながら竜神信教に鞍替えせざるを得なかった。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_マルガリータ_suspects_ユディーア_p7294
+        quote: 「結局、才能あるだけで守護竜を信じてないでしょ」
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_マルガリータ_asks_ペラティア王_p7297
+        quote: 「ふーん。そうなんだ。じゃあ初代ユディーアと契ったぺラティア王のことは？　未練とかないわけ、亜竜人として。『王宮』の血統国宝として」
+        locator: {}
+        spoiler_after: ch0219
+    action:
+      observations:
+      - event_ref: E_ch0219_マルガリータ_other_敵の死_p7291
+        quote: 今だって敵とはいえ反撃で殺めてしまった命に対して瞑目し祈りを捧げている。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_マルガリータ_observes_ユディーア_p7312
+        quote: その変貌を、現在のマルガリータは冷ややかな目で観察していた。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0219_ユディーア_is_located_セインディア_p7290
+        quote: 生家であるセインディアの博物城と竜神信教の繋がりは深い。
+        locator: {}
+        spoiler_after: ch0219
+    speech:
+      observations:
+      - event_ref: E_ch0219_ユディーア_fears_実家_p7292
+        quote: うわあ。うわあ。うっわあ。　ユディーアは色々な感情に苛まれた。　どうあっても逃げられない。こんな風に生まれついたからには、死ぬまでこうだ。　生まれ変わりたい。できれば特にしがらみとかがない普通の家庭に。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_other_星見の塔_p7295
+        quote: 「『星見の塔』を信じてないわけじゃない。ルスクォミーズ様やホルケナウ様には私もお世話になってるし、英雄メギンジェル卿を疑うジャッフハリム人なんていない。女神たちはより巨視的な世界のバランスを考えて動いてくれている。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_fears_決断_p7296
+        quote: ディスケイムを裏切るのか。血統の道具として作られたものが。　ティエポロスのこと。全ての責任を放り出して逃げてもいいの？　どうしよう。どうすればいい。どれに決めてどれを捨てる？　わからない。絞れない。決断できない。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_thinks_秘密_p7296
+        quote: ユディーアの一番深いところにある秘密。　『王宮』での再会。長い髪の人形。最後の獅子。未来の記憶。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_other_無信仰_p7297
+        quote: 自覚したら全てがおしまいになるようなユディーアの本質。　あたしは、もしかして。　何も信じてないんじゃないかって。　全てがどうでもいいと思っている、この上なくひどい人間。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_other_シナモリアキラ_p7297
+        quote: 「アンタさ。シナモリアキラに興味ある？」「いやそれは全然ないけど」　唐突な質問だったが、考えるまでもなく即答した。　迷う余地のない正解で、条件反射の嫌悪感。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_other_マルガリータの恐れ_p7302
+        quote: マルガリータの不信と疑念。猜疑の視線と警戒の態度。　試しと確認の言葉が意味する相手の感情。　その正体は、恐れだ。（あたしが恐いんだな、マルガさん）
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_remembers_約束_p7305
+        quote: いつか二人が天主になれたら、きっと魔将になって協力するという約束もした。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_other_血の叫び_p7309
+        quote: ああ、それならば。　血が叫ぶ。血が求める。　どくん、どくんと心臓が鼓動を早めていく。　取り戻してしまえばいいじゃないか。　だってあたしには、その権利があるんだから。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_confesses_誇り_p7310
+        quote: 「ごめん嘘ついたかも。やっぱり歴史のあるペラティアの血はあたしの誇りだし、ガロアンディアンにも思い入れがあるから、祝祭ではなんとしても竜母様を真っ先に抱き上げる役目を担いたいな。今から気合入れるぞー！」
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_other_作戦_p7310
+        quote: その間にノゴルオゴルオさんがスーリウムを、あたしが王殺しを倒す。理想の流れはこんな感じで」
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_other_天才_p7311
+        quote: 才能。恩寵。呪縛。運命。あたしっギフトギフトギフトギフトてほら、竜と神に愛された天才だから。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_other_呪術リソース_p7311
+        quote: 与えられた選択肢の数、限りある呪術リソースを順番に数える。『天眼』『竜覚』『灰燼回帰の吐息』『竜騎兵禁止議定書』『剥落の鉤爪』『七情爪法』『報復』『空圧』『安らぎ』『生命吸収』『殺戮』『凍視』『藍神干渉』『祖霊憑依』『先祖返り』『灰神干渉』『過去視』『言理の妖精』それから『正しい解釈の融血呪』も。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_threatens_マルガリータ_p7312
+        quote: 紀竜の巫女たちは王の花嫁だ。　あたしのモノになるんだから、ちゃんと弁えてもらわないと。
+        locator: {}
+        spoiler_after: ch0219
+    action:
+      observations:
+      - event_ref: E_ch0219_ユディーア_loses_未来_p7305
+        quote: 『四十四士ユディーア』が聖妃レストロオセに仕えてジャッフハリムを守護する未来も、『魔将ユディーア』が天主セレクティフィレクティに仕えて十字槍軍の侵略を退ける未来も消えてなくなった。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_other_運命の補正_p7307
+        quote: 怠惰や自堕落や意図的な失敗がユディーアの立場を悪化させても必ず誰かがフォローしてくれた。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_uses_プロットアーマー_p7311
+        quote: 「暗殺者の目星はついてるの？」「いや全然ついてない。でも今晩中には見つけるよ。大丈夫、心配しないで。だってあたし、失敗してもなんとかなっちゃうから」
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_ユディーア_other_マルガリータ_p7312
+        quote: 灰色の空虚さを知らない少女の無邪気さで、ユディーアは新しい巫女仲間に笑顔を向けた。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_オルゴーオルガノン]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0219_オルゴーオルガノン_functions_as_呪石兵器メーカー_p7291
+        quote: 『オルゴーオルガノン』と言えば、確か時代遅れの『非自律型オルガンローデ』を開発研究している呪石兵器メーカーの名だ。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ベフォニス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0219_ベフォニス_uses_オルゴーオルガノンの呪石_p7291
+        quote: 歴代の四十四士ベフォニスたちは『初代のような破壊力』を求めて『オルゴーオルガノン』の呪石を使い続けているとか。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_工神工房]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0219_工神工房_has_property_岩肌人との繋がり_p7291
+        quote: 元々、工神工房は北部の岩肌人たちとの繋がりがあった。ノゴルオゴルオとの付き合いだって昨日今日の話じゃないの
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_竜神信教]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0219_竜神信教_defines_殺生禁止_p7291
+        quote: 竜神信教は殺生を禁じている。たとえ正当防衛であっても、マルガリータは敵の死に真正面から向き合っていた。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ディスケイム]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0219_ディスケイム_has_property_交配実験_p7292
+        quote: あの厄介な実家ときたら、星辰国と洞窟国に挟まれた片田舎、東ジャンザビオンの僻地でこそこそ交配実験ばかりやっている偏屈者集団のくせに、色々な勢力に取り入る手腕だけは一流だから手に負えない。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_スーリウム]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0219_スーリウム_attacks_ユディーア_p7293
+        quote: 彼が放った刺客、暗殺者シェボリズとレース参加者ロードデンドロン。　レースの裏と表を同時に攻めているスーリウムこそがユディーアにとっての敵だ。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セレクティ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0219_セレクティ_promises_魔将の席_p7296
+        quote: セレクティ＝ベアトリーチェは『あなたのためであれば魔将の席はいつでも用意できます』と言ってくれた。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_フィレクティ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0219_フィレクティ_promises_守護者_p7296
+        quote: フィレクティ＝ラズリは『竜母様の守護者はあなたにしかできないことです』と断言した。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_セインディア]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0219_セインディア_teaches_王族意識_p7297
+        quote: 嘘だ。セインディアの博物城は幼いキニスに王族としての意識を植え付けた。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ジャッフハリム]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0219_ジャッフハリム_defines_ホラー_p7298
+        quote: 心に罪を抱いた者はやがてホラーに成り果てる。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0219_アルト王_other_クエスドレム_p7299
+        quote: 亜竜王はまず東方で覇を唱える祭祀国家の神官君主であったクエスドレムと和議を結び、幾つかの盟約を取り交わすことで竜帝ガドカレクの加護を授かった。
+        locator: {}
+        spoiler_after: ch0219
+      - event_ref: E_ch0219_アルト王_other_紀竜信仰_p7299
+        quote: 超多種族国家として成長と拡大を続けるために、ガロアンディアンは『紀竜』という世界の全てを司る存在を支柱に選び、目論見は成功した。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ぺラティア]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0219_ぺラティア_is_located_聖域_p7300
+        quote: ぺラティアだけは紀竜信仰を守るための聖域として不可侵であり続けた。　この地だけは守らなくてはならない。
+        locator: {}
+        spoiler_after: ch0219
+    relationship:
+      observations:
+      - event_ref: E_ch0219_ぺラティア_other_庇護_p7301
+        quote: 『塔』の竜騎士ディシルキュトスの逆鱗城砦、ディスケイム家の接近、山岳王ベフォニスの庇護、至高天主との盟約、クエスドレム大公の援助、太陽炉の供儀、極天主の宣言、ディスカレイル王との約定、戦乙女の求婚、灰竜王国の成立、ジャッフハリムの解放、保護されるべき呪的資源としての特別王族区認定。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_大断絶]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0219_大断絶_other_ぺラティア_p7301
+        quote: 『大断絶』という名の世界の変容によって。　世界は天地に引き裂かれ、多くの空間が歪み、幾つかの大地が永久に消えた。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セレクティフィレクティ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0219_セレクティフィレクティ_other_彩域の試し_p7303
+        quote: 優秀なディスケイムの作品たちが『彩域の試し』で軒並み失格というのは前例のない事態だった。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ジャッフハリム人]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0219_ジャッフハリム人_fears_ホラー化_p7304
+        quote: 穢れの管理者は穢れと見なされる。原始的な、しかし理性をもってしても抗いがたい忌避感情。『ホラー化するかもしれない』ことをジャッフハリム人は何よりも恐れている。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クルエクローキ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0219_クルエクローキ_other_ユディーア_p7307
+        quote: 過酷な訓練で命を落とすような重傷を負っても不思議と死ぬことはなかった。　守護竜クルエクローキの加護。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_脳]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0219_脳_other_希望_p7308
+        quote: 不快極まりない悪運の紀竜が求めているのが『竜母』の誕生であるなら、目的の達成と同時にユディーアは運命の呪縛から逃れることができるかもしれない。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_髪]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0219_髪_reveals_虚しさ_p7308
+        quote: きらきらの世界。虹色の夢。未来への期待。全ては上位次元のおままごと。
+        locator: {}
+        spoiler_after: ch0219
+  first_appearance_candidate: true

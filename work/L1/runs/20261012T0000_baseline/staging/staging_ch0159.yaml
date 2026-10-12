@@ -1,0 +1,254 @@
+episode: ch0159
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ルウテト]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0159_ルウテト_is_located_王城_p5388
+        quote: 死せる者どもの偉大なる女神にして上王、その名をルウテト。そして彼女に仕える騎士にして古き時代を知る六王たち。その地は最も冥府に近い暗がりだった。
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0159_ヴァージル_says_似ている_p5388
+        quote: 「ねえ、パーンさん。僕たちって似ていると思わない？」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_ヴァージル_says_器_p5390
+        quote: 「ううん。パーンさんがどうしてクロウサーの当主に選ばれなかったのか、よく分かったってだけ。どれだけ才気に溢れていても、そんなに我が強かったら『器』じゃないよね。」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_ヴァージル_says_生を与える権力_p5392
+        quote: 「『死を与える』権力じゃなくて、『生を与える』権力が僕が望む統治の在り方だよ。その最終形こそが肉体無き亡霊たち。冥道と直接魂を繋ぎ、霊体化された人格は仮想使い魔としてアーカイブされる。次世代の再生者たちだよ」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_ヴァージル_says_統治_p5392
+        quote: 警察と福祉。それから都市の衛生も含めた公共サービス。そして、民草の魂に働きかけるメディアとマスコミュニケーション。ざっくり言うと、僕は国民の健康をより良い状態に保ちたいのさ。生命と意思を全て管理することでね」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_ヴァージル_says_弑逆_p5393
+        quote: 「腐敗した王国を弑逆し、父なる王権を簒奪する。そう、僕たちは抗う者。僕は下らない月王を殺して太陰を綺麗な世界にしたかった。
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_ヴァージル_reveals_優生学_p5412
+        quote: 現体制に反旗を翻したヴァージルは自らの思想に賛同する者たちを率いて王宮を占拠、妖精たちを一箇所に集めて恐るべき呪術儀式を行おうと試みた。
+        locator: {}
+        spoiler_after: ch0159
+    action:
+      observations:
+      - event_ref: E_ch0159_ヴァージル_asks_インターフェイス開発_p5393
+        quote: ヴァージルの用向きは一つ。この亡霊たちが実世界に干渉する為のインターフェイスを開発して欲しいという要請である。
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_ヴァージル_uses_水晶柱_p5397
+        quote: 少年が操る水晶柱は形を持たぬ死者が現世に干渉するためのインターフェース、すなわち墓石である。アストラル体からの入力を呪力に変換して出力する演算機械が、今はパーンの幻肢を封じるための枷として機能していた。
+        locator: {}
+        spoiler_after: ch0159
+    visual:
+      observations:
+      - event_ref: E_ch0159_ヴァージル_other_呪い_p5414
+        quote: 真っ白な肌に、うっすらと浮かぶ黒い血管。
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0159_パーン_has_property_再生者_p5389
+        quote: 古代の『杖文明』の遺産によって機械化された再生者たちの軍勢は独特な硬質さを備えている。
+        locator: {}
+        spoiler_after: ch0159
+    speech:
+      observations:
+      - event_ref: E_ch0159_パーン_says_共通点_p5389
+        quote: 「俺とお前に似ている点があるとすれば、それは再生者であるというただ一点のみだ。なぜそんな下らない思いつきを口にする気になった？」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_says_女王の許可_p5393
+        quote: 「なるほど。そういう腹か――回りくどい奴だ。どうせ女王の許可フェロニアも取り付けてあるのだろうが。やってやるから今は失せろ。」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_says_予定調和_p5394
+        quote: 「無駄だ。女王の剣がそれを許さず、俺たちは絶対遵守の契約で縛られている。その上、この王国で起きるあらゆる叛逆は予定調和の死と再生という形で無害化される――オルヴァがいる限りな」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_says_敗北の受容_p5395
+        quote: 「お前は心の深い部分で既に敗北を受け入れてしまっている。独力ではオルヴァには勝つことができないとな。叛逆に失敗した負け犬としての在り方が身に染みついているぞ、ヴァージル。臭くてかなわん。近くに寄るな」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_says_叡智の独占_p5405
+        quote: 「俺が司る権力の形は『技能』――すなわち叡智の独占！ あらゆる知識と技術は俺が使う為だけに存在し、俺の許可無しに使われることがあってはならない」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_says_レストロオセ_p5424
+        quote: 「レストロオセだと？ あの穢れた化け物に仕えるとはどういう了見だ、とうとう知能がバグったのかお前は？」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_other_第五階層の戦い_p5426
+        quote: 「いいや。今回は俺の負けだ。『断章』を奪われたのだから潔く負けを認めて引き下がるのが勝負のルールというもの。しばらく高みの見物と洒落込むつもりだ」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_hopes_歌姫の来訪_p5427
+        quote: 「こんな茶番よりもっとふさわしい舞台で暴れたいものだ。たとえばだ。近々、第五階層の外部まで巻き込んだ派手な祭りがあると聞いた」「歌姫の来訪か」
+        locator: {}
+        spoiler_after: ch0159
+    action:
+      observations:
+      - event_ref: E_ch0159_パーン_fights_ヴァージル_p5396
+        quote: だから殺し合いは恒例だった。顔を合わせて、言葉を交わし、用向きを伝えた後には必ずその呪術と武力の全てをもって相手を殺害する。
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_other_ラクルラール_p5398
+        quote: パーンの右腕が、ラクルラールを喰っているのだ。人形は噛み砕かれ、消化され、全身の部品をバラバラにされて幻影の右腕の血肉となっていく。
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_uses_氷血呪_p5400
+        quote: 「これが氷血呪の本来の使い方というわけだ――断片ではあるが『覚えた』ぞ」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_uses_オルガンローデ_p5401
+        quote: 「語られざる端役、死せる設定、無価値の資料集、ここに集いて瓦礫の竜となれ」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_uses_キーロガー_p5402
+        quote: とある幻姿霊が生み出したその術は、パスワードやソフトウェアのスペクタープロダクトキーなどを盗み出すことが目的のキーロガーなどと呼ばれる打鍵記録プログラムの一種である。
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_uses_蛇腹拳_p5403
+        quote: 「蛇腹拳、と言うらしい。これはとあるインドアユーザーの技術者と腕を失った武芸者が共同で開発したものだが――まあいい、『それはまた別の話』だ」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_uses_静謐_p5404
+        quote: パーンの背後で輝く黒い魔導書が、対抗呪文『静謐』によって人工の紀竜を解体していた。
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_パーン_stops_重力制御_p5405
+        quote: 兎が得意とする重力制御による大跳躍呪術が消滅。軽やかに跳ねていたヴァージルは鈍重な肉体の重みに呪縛され、窮屈な重力の手
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0159_コルセスカ_appears_氷塊_p5399
+        quote: ひび割れが次第に大きくなり、その隙間から白銀の光が漏れ出す。
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イアテム]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0159_イアテム_betrays_ヴァージル_p5406
+        quote: 「我に貴様を助けろだと？ 馬鹿を言え。貴様が劣勢に置かれた今こそ千載一遇の好機。忌まわしい支配を断ち切り、弱った貴様の首を討ち取らせて貰う」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_イアテム_kills_マイカールの家族_p5410
+        quote: 族誅呪術が三親等以内の血縁へと触手を伸ばし、イアテムの呪力が『地上』と『槍神教』という絶対的加護を突破してマイカールの家族を虐殺する。
+        locator: {}
+        spoiler_after: ch0159
+    symbolic:
+      observations:
+      - event_ref: E_ch0159_イアテム_uses_男根_p5409
+        quote: 仲間たちからの男根コールにより存在しない男根が世界に幻視され、『雄々しい』『立派』『見事』と褒めそやされる度にイアテムは男性としての自信を取り戻していく。
+        locator: {}
+        spoiler_after: ch0159
+    speech:
+      observations:
+      - event_ref: E_ch0159_イアテム_asks_ファル_p5419
+        quote: 「癪に障るがやむを得まい。そこの中傷者、セージを頼むぞ」
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マイカール]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0159_マイカール_attacks_イアテム_p5407
+        quote: 「強がりはよせ。無理をする必要は無い。勇者だ何だと言ってもお前は可哀相な傷病者でしかないのだ。跪き、媚びを売り、我が贖罪に感激してこの罪深き身を許すがいい。」
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファルファレロ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0159_ファルファレロ_uses_解体呪文_p5411
+        quote: 「言理の妖精語りて曰く――チャンスは逃さない。君を単純化したまま解体する」
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト・イヴニル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0159_アルト・イヴニル_kills_パーン_p5415
+        quote: 幼い胸が血を吹き出し、細い手が心臓ごとパーンの魂を貫き砕いた。
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_アルト・イヴニル_takes_断章_p5416
+        quote: 「断章は得た。門番の権能もまたこの手に――これで冥道は私のもの」
+        locator: {}
+        spoiler_after: ch0159
+      - event_ref: E_ch0159_アルト・イヴニル_other_青い糸_p5422
+        quote: 出し抜けに骨剣が振るわれた。青い糸が切断され、束の間だけ人形は糸から解放される。
+        locator: {}
+        spoiler_after: ch0159
+    visual:
+      observations:
+      - event_ref: E_ch0159_アルト・イヴニル_transforms_右腕_p5417
+        quote: 人形の腕を『創造』のクラフト光が覆い、機械的な鎧のような装甲が追加されていく。変化は構造そのものにも及び、アルトの右腕は関節を無数に持つ長い義肢へと作り替えられた。
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガルラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0159_ガルラ_kills_海の民_p5418
+        quote: ガルラと呼ばれた呪術師が放った絶大な呪力は無数の光線となって中空を走り、海の民たちを次々と殺戮していった。
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レミルス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0159_レミルス_escapes_ヴァージルの遺体_p5420
+        quote: レミルスは訪れたときと同じように稲妻の如き速度で疾走。ヴァージルの屍を抱いたままその場から離脱した。
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミシャルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0159_ミシャルヒ_appears_パーン_p5423
+        quote: 「動けるか、パーン」「気配は感じていたが、まさか本当にお前だったとは。変わらないな、ミシャルヒ」
+        locator: {}
+        spoiler_after: ch0159
+    speech:
+      observations:
+      - event_ref: E_ch0159_ミシャルヒ_other_二重存在_p5424
+        quote: 「完全に同一だからな。実際の所、奴の目的が『六王を取り込む』ことであるとすればそれを達成されている。もう一人のお前は確かに死に、奪われたのだ」
+        locator: {}
+        spoiler_after: ch0159
+  first_appearance_candidate: true

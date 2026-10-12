@@ -1,0 +1,249 @@
+episode: ch0129
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_トリシューラ_asks_セージ_p4456
+        quote: 「いなくなった？」 意識を取り戻すと、トリシューラが端末に向かって怪訝そうな声を出していた。
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_トリシューラ_thinks_セージの能力_p4456
+        quote: 「んー。あのコ、あれでも私と互角ぐらいの言語魔術師だからなあ。公社が保有する情報インフラとか監視警戒網の管理責任者だし、本気で潜伏されたら見つけるのは骨かも」
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_トリシューラ_thinks_セージの離反_p4457
+        quote: 「レオ好き好きオーラ出してたし、離反は無いかなって思ってたけど。まあ、やっぱり同胞の方が大事ってことかな？」
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_トリシューラ_other_ブウテト_p4467
+        quote: 「だから裏面と郊外の自然区画と地下を国立公園に指定してあげるからそれで満足しろって言ってるよね？ 何度言っても理解できないのは脳が腐ってるから？
+          それとも老化のせいかなブウテトおばあちゃん？」
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_トリシューラ_reveals_アキラの存在価値_p4475
+        quote: 「とにかくダメダメでクズでだらしなくて惚れっぽいどうしようもないアキラくんのまま私に踏みつけられて興奮する変態として惨めに生きてって言ってるだけ！
+          本っ当に存在価値が無いよね、死ねばいいのに。いやむしろ今すぐ死んで？」
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_レオ_says_セージの失踪_p4456
+        quote: 「そうなんです。昨日からセージと連絡がつかなくって。ちょうどトリシューラ先生に伝えようとしてた所だったんですけど、間が悪くてごめんなさい」
+        locator: {}
+        spoiler_after: ch0129
+    action:
+      observations:
+      - event_ref: E_ch0129_レオ_finds_セージの発信器_p4457
+        quote: 「あ、今ドローンが見つけた。とりあえずティリビナ自然公園の公共トイレに発信器があったよ。追跡呪術を欺瞞するための儀式の痕跡と、加速符で現場の時間を進めて過去視を困難にしてるね」
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_レオ_helps_地域住民_p4470
+        quote: 公社は各種インフラの管理だけでなく、細かな地域社会のトラブルを防ぐ為に尽力している。というか、主にレオが直接赴いて人々と話し合い、調停を行っているのだ。
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_アキラ_thinks_レオの選択_p4457
+        quote: 彼なら、そうではない道を選ぶような気がするし、実際に選べてしまうような気がする。その上で、全てを元通りにしてくれるのではないか。
+        locator: {}
+        spoiler_after: ch0129
+    action:
+      observations:
+      - event_ref: E_ch0129_アキラ_other_一対一の試合_p4479
+        quote: 『しまった』と『やられた』という思考が同時に脳裏を駆け巡り、何か対抗策を練ろうとするより先に、俺という生まれたての紀人の『本質』が疼き、【サイバーカラテ道場】としての性質が自動的に身体を操縦していく。
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_コルセスカ_says_アルマの到着_p4457
+        quote: 「じゃあ、私は午後の準備をしようと思います。久々にアルマと合流するので、色々と整備用の呪具を買い込んでおかないといけないのです。迷宮で連戦を続けると神滅具の箍が緩んでしまうので、再封印しないと」
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_コルセスカ_other_改造サービス_p4458
+        quote: 「そういうときは私にちょうだい。改造してウィッチオーダーに組み込むから」
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルマ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0129_アルマ_fights_五大巨人_p4458
+        quote: 仲間のサリアがリールエルバ救出の為に単独でスキリシアに向かった後、影の中を移動できないアルマはえっちらおっちら徒歩で迷宮から帰還しようとしたのだが、折悪しく迷宮の守護者である五大巨人に遭遇して今まで昼夜問わず戦っていたらしい。
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_六王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0129_六王_travels_ガロアンディアン_p4459
+        quote: 六王はブウテトの中から飛び出して、それぞれアストラル体のままガロアンディアンを視察中だ。本人たちたっての希望であり、断る理由は無かったので承諾した。
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イアテム]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_イアテム_other_グレンデルヒ_p4460
+        quote: 「先代グレンデルヒは、愚物であった」 イアテムは、端的に英雄を侮蔑した。 敗北者は無能であり不要。組織全体の名誉を守るため、グレンデルヒという英雄を切り捨てたのである。
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_イアテム_names_眠れる三頭_p4460
+        quote: 「聞け！ 我こそはイアテム、邪悪な魔女の支配に抗う闘士、その一番槍！ かの邪知暴虐の化身を打ち倒さんが為、ここに【変異の三手】改め、ハザーリャを奉じる【眠れる三頭】の結成を宣言する！」
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_イアテム_promises_二代目グレンデルヒ_p4461
+        quote: 「我は今こそグレンデルヒを襲名する！ 悪しき魔女トリシューラと悪魔シナモリアキラを討伐し、第五階層の覇権を地上に取り戻すのだ！ 二代目グレンデルヒとして、失墜した我々の権威を回復すると父なる海に誓おうではないか！」
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_イアテム_names_男根_p4481
+        quote: 「――【男根】のイアテム！」
+        locator: {}
+        spoiler_after: ch0129
+    visual:
+      observations:
+      - event_ref: E_ch0129_イアテム_appears_as_ダモクレスの剣_p4462
+        quote: 「見よ、天に浮かぶ【ダモクレスの剣】はこのイアテム＝グレンデルヒを選んだぞ！ 今こそ出陣の時。いざ往かん戦いの地へ！ 勇士たちよ、我に続け！」
+        locator: {}
+        spoiler_after: ch0129
+    action:
+      observations:
+      - event_ref: E_ch0129_イアテム_appears_中央庁舎_p4477
+        quote: 白眉のイアテム。 その男は真正面から庁舎の玄関に現れた。 背後に配下と思しき男たちを引き連れている。
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_イアテム_attacks_アキラ_p4478
+        quote: すう、と息を吸い込み、「たのもう！」 と力強い叫びが響いた。 その言葉は、はっきりと俺に向けられていた。
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_イアテム_uses_融血呪_p4480
+        quote: イアテムが操る白濁した流体が背後の男たちに飛沫として降りかかる。シャワーを浴びたように濡れた男たちは、液体が触れた箇所をどろりと融解させて呻き声を上げた。
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ミヒトネッセ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_ミヒトネッセ_says_乗っ取りの成功_p4462
+        quote: 「乗っ取りは成功した。あとは私たちの勢力が第五階層を掌握するだけ」
+        locator: {}
+        spoiler_after: ch0129
+    action:
+      observations:
+      - event_ref: E_ch0129_ミヒトネッセ_uses_アヴロニア_p4464
+        quote: 「邪眼円環――【アヴロニア】」 サテライトオーブ 直後、朱と藍が斑になった球体が少女の右の踵に開いた穴から飛び出すと、足の周囲で衛星のように軌道を描き始めた。
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_ミヒトネッセ_uses_疑似英雄詩_p4464
+        quote: 「口寄せ降霊――【疑似英雄詩】」 モックヒロイック
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_ミヒトネッセ_transforms_イアテム_p4466
+        quote: 「我が名は白眉のイアテム。南東海きっての勇士マアテムの子にして魔女殺しの剣を担う者である！ 貴殿ら、いずれも劣らぬ勇士とお見受けした。いざ尋常に、部族の誇りを賭けて勝負といこうではないか！」
+          途端、激流のような宣名圧が発生する。 それは紛れもなく本物の宣名。 少女の姿が光に包まれ、一瞬のうちに変貌する。
+        locator: {}
+        spoiler_after: ch0129
+      - event_ref: E_ch0129_ミヒトネッセ_uses_アナロギア_p4467
+        quote: 『それらは同じものである』と叫びながら零落の呪術を演じるのだ。 粗雑に短絡的に、似たようなものを結びつける呪術によって。 アナロギア
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ブウテト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_ブウテト_says_元に戻る方法_p4468
+        quote: 「呪力が詰まった真珠をいっぱい集めたら元に戻れるかも。九百個くらい？」 「そんなの無理でぶう！」
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_アルト_other_両女王_p4469
+        quote: 「双方に理はあろう。しかしそこで互いの感情を逆撫でして如何にする。どうか一度落ち着き、譲歩可能な点から検討してみてはどうか」 厳かに告げたのはアルトだ。
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0129_マラード_arrives_会議室_p4471
+        quote: 「いやあ、すっかり遅れてしまったな。俺の美しさに免じて許せ」 「我が王、まずは両女王陛下に遅参の説明を――」 ちびシューラと俺、トリシューラとブウテトの間にあった重苦しい空気を破壊しながらマラードとルバーブがやってくる。
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0129_オルヴァ_arrives_会議室_p4472
+        quote: 目を閉じて円柱機械の上に立つ姿はどこか聖性のようなものを感じさせた。 純白の清廉なローブ、デフォルメされていても端整なままの顔立ち、ゆっくりと開いた瞳にはカシュラム十字の煌めき。
+        locator: {}
+        spoiler_after: ch0129
+    speech:
+      observations:
+      - event_ref: E_ch0129_オルヴァ_says_ブレイスヴァ_p4473
+        quote: 「何と、恐るべき御名の終端さえも自ら喰らうというのか。カシュラムの諺に言う、『ブレイスヴァを喰らうことができるのはブレイスヴァをおいて他に無し』とはまさしくこのことよ。おお、ブレイスヴァ！」
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_ちびシューラ_other_アキラ_p4475
+        quote: 「アキラくん。お願いだから、できるだけそのままでいようとしてね。成長しようとか、より良い自分になろうとか、そういうことだけは考えないで」
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_カーティス_arrives_会議室_p4476
+        quote: 「秒とは何のことかな？」 古い夜の民であるカーティスにとって、昼の世界の単位は理解の外にあるらしい。
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ヴァージル]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0129_ヴァージル_uses_光格子時計_p4477
+        quote: 「どうでも良いですけどー。それは古い時代の話で、今は天青石を セレスタイト 利用した光格子時計で一秒を定めているらしいですよー」
+        locator: {}
+        spoiler_after: ch0129
+  first_appearance_candidate: true

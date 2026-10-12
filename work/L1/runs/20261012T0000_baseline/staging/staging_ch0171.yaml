@@ -1,0 +1,112 @@
+episode: ch0171
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0171_クレイ_names_王子様_p5686
+        quote: 「見事な舞い姿の王子様、きっと心まで綺麗なのでしょう」「あの流麗な剣さばきと言ったら！ ヒュールサスの浄罪は彼に任せておけば間違い無いだろう。流石は我らのクレイ様だ」
+        locator: {}
+        spoiler_after: ch0171
+      - event_ref: E_ch0171_クレイ_asks_衣装_p5688
+        quote: 「女、俺の衣装を作れ。勝つための力が必要だ」
+        locator: {}
+        spoiler_after: ch0171
+      - event_ref: E_ch0171_クレイ_asks_カード_p5694
+        quote: 「衣装を封じたカードはどこだ。その小屋の中か」
+        locator: {}
+        spoiler_after: ch0171
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_少女]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0171_少女_fears_永遠の暗闇_p5686
+        quote: ひと目見た瞬間、少女は心を呪縛された。熱病にうなされ、来る日も来る日も雷光のような光景を目蓋の裏で想起するばかり。しまいには加熱した瞳は盲いて曇り、永遠の暗闇に舞い手の姿を幻視するようになった。
+        locator: {}
+        spoiler_after: ch0171
+      - event_ref: E_ch0171_少女_makes_新興宗教_p5687
+        quote: 厳しい母が寂滅した後、それらの秘蹟を惜しむことなく民草に分け与え続けた少女はいつしか『羊飼い』として人々に崇められるようになっていった。
+          すなわち、新興宗教の始まりである。
+        locator: {}
+        spoiler_after: ch0171
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少年]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0171_少年_appears_as_呪われた踊り_p5686
+        quote: 少年の舞う姿はこの世のものとは思えないほどに美しかった。 事実、それは冥府に連なる呪われた踊り。
+        locator: {}
+        spoiler_after: ch0171
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0171_女王_saves_少女_p5687
+        quote: 王国を蝕む邪悪として羊飼いとしての彼女は断罪された。 だが『死人の森』に住まう彼女が簡単に死ねるはずもなく、その身柄は偉大なる女王の御前に引っ立てられた。
+        locator: {}
+        spoiler_after: ch0171
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファウナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0171_ファウナ_thinks_失望_p5688
+        quote: 少女が恋したのは剣としての彼だった。 だというのに、今の彼は。 死んでしまいたい、なんて。 そう思えない再生者の身体が憎らしい。
+        locator: {}
+        spoiler_after: ch0171
+      - event_ref: E_ch0171_ファウナ_other_クレイ_p5689
+        quote: 「そして、あなたの心のありようが許せません。私の『コルヌー・コピアイ』が織りなす衣装は祝福の願いを込めたものです。憎悪に塗れたあなたには相応しくありません――みにくい王子様」
+        locator: {}
+        spoiler_after: ch0171
+      - event_ref: E_ch0171_ファウナ_other_サイバーカラテ_p5695
+        quote: 「忌まわしい呪いを異界から持ち込み、個人の暴力を加速させたあの『サイバーカラテ道場』は、この世界で新たな可能性を見つけようとしている」
+        locator: {}
+        spoiler_after: ch0171
+      - event_ref: E_ch0171_ファウナ_defines_幻想_p5696
+        quote: 「私が導く仔羊たちの中にも『サイバーカラテ道場』をインストールしているかたがいるわ。あれはつまり、幻想なのね。誰だって強く在れる。英雄に、アイドルにだってなれるんだっていう、本当は成立しない夢。だってそうでしょう。みんなが特別になったら、英雄もアイドルも滑稽なだけだわ」
+        locator: {}
+        spoiler_after: ch0171
+      - event_ref: E_ch0171_ファウナ_other_試練_p5696
+        quote: 「――機会を差し上げましょう、王子様。私が持つ最も美しく完璧なドレスは、それに相応しい心が備わっていなければ触れることすらできぬ聖なる衣。そしてこの衣装を欲する者はまず六つの試練を受けなければならないという言い伝えがある」
+        locator: {}
+        spoiler_after: ch0171
+      - event_ref: E_ch0171_ファウナ_names_敗者たち_p5697
+        quote: 「盗賊王ゼド、アマランサス、ミルーニャ・メートリアン・アルネタイフ、うずめ、ラリスキャニア、ロウ・カーイン、オルヴァ・スマダルツォン――」
+        locator: {}
+        spoiler_after: ch0171
+      - event_ref: E_ch0171_ファウナ_other_クレイ_p5702
+        quote: 「しかしまだ足りない。あなたの舞いとその手の剣には曇りがあります。目を開かずともわかる――いいえ、今のあなたごときには開くまでも無い。あなたは憎しみによって己の切れ味を鈍らせている。なんという堕落。」
+        locator: {}
+        spoiler_after: ch0171
+    action:
+      observations:
+      - event_ref: E_ch0171_ファウナ_other_再生者_p5692
+        quote: 一族が受け継いできた秘蹟を甦らせるだけで人心は簡単に掌握出来た。 羊飼いの仕事には慣れている。『仔羊さんたち』と呼びかければたちまち熱狂するものたちを従えて、少女は再生者たちを束ね上げた。
+        locator: {}
+        spoiler_after: ch0171
+      - event_ref: E_ch0171_ファウナ_fights_クレイ_p5705
+        quote: クレイはこう思っていることだろう。なぜファウナの舞いにはクレイのそれと同質の呪力が宿っているのかと。 逆だ。ファウナたち一族が守り伝えてきた古き神秘が平地の民に伝わり、ハザーリャ崇拝時代のヒュールサスで巫女たちの儀式として用いられるようになった。
+        locator: {}
+        spoiler_after: ch0171
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_母]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0171_母_other_死人の舞い_p5691
+        quote: 「祝祭が始まったらすぐに目を閉じなさい。死人の舞いは黄泉の喜び。私たち生者がそれを直視してしまえば魂は奈落へと引き摺られ、瞳は二度と現世を映すことはなくなるでしょう。いいですね？
+          絶対に、絶対に、どれだけ見たくなっても死人の舞いを直接見てはなりませんよ」
+        locator: {}
+        spoiler_after: ch0171
+  first_appearance_candidate: true

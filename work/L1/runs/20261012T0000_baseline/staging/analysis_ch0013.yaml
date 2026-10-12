@@ -1,0 +1,249 @@
+chapter: ch0013
+created: '2026-09-30'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 5
+  themes: 1
+  quotes_verified: 18
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0013_トリシューラ_reveals_襲撃映像の公開_p592]]'
+  object: '[[ME_YouTube_編集動画]]'
+  claim: トリシューラが戦闘映像を「無駄な所をカットし、プライベートに配慮した編集」でアップロードする行為は、現代のSNSや動画共有サイトにおけるインフルエンサーのコンテンツ制作・炎上回避戦略を模倣している。
+  quote: こないだの戦いは私がばっちり撮影してアップロードしといたよ。あ、ちゃんと無駄な所とかカットして、プライベートに配慮した編集してるから大丈夫だよ
+  paragraph: p592
+  confidence: strong
+  quotes:
+  - quote: こないだの戦いは私がばっちり撮影してアップロードしといたよ。あ、ちゃんと無駄な所とかカットして、プライベートに配慮した編集してるから大丈夫だよ
+    paragraph: p592
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0013_ライブラリ_defines_四十枚一組の端末形式_p602]]'
+  object: '[[ME_カードゲーム_デッキ構築]]'
+  claim: カード型端末を40枚一組の「ライブラリ」として構成し、魔導書に劣らない性能を発揮させる仕組みは、トレーディングカードゲーム（TCG）におけるデッキ構築の概念と、拡張性のあるモジュール式デバイス（カードスロット）のメタファーである。
+  quote: このように、四十枚一組の【図書館】と呼ばれる形式にすれば魔導書に劣らない性能を発揮することが可能なんですよ
+  paragraph: p602
+  confidence: moderate
+  quotes:
+  - quote: このように、四十枚一組の【図書館】と呼ばれる形式にすれば魔導書に劣らない性能を発揮することが可能なんですよ
+    paragraph: p602
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0013_ロドウィ_other_住宅サービス_p621]]'
+  object: '[[ME_脱法ハウス]]'
+  claim: ロドウィが提案する「低価格で住居を貸し出す」サービスは、実質的に弱者から創造能力を奪い住居を失わせた上で、その住居を貸し出して利益を得る「マッチポンプ」であり、現代の「脱法ハウス」や「家賃搾取」の構造を批判的に描いている。
+  quote: 略取によって需要を創出する、それは極めつけに下劣な商売だった。脱法ハウス。
+  paragraph: p621
+  confidence: explicit
+  quotes:
+  - quote: 略取によって需要を創出する、それは極めつけに下劣な商売だった。脱法ハウス。
+    paragraph: p621
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0013_治癒符_appears_空からの散布_p625]]'
+  object: '[[ME_ヘリコプターマネー]]'
+  claim: 無人の回転翼機が大量の治癒符（通貨）を階層にばらまく様子は、経済危機時の「ヘリコプターマネー」政策や、ゲーム内でのアイテム配布イベントを想起させ、通貨価値の暴落とインフレを意図的に引き起こす経済テロリズムを象徴している。
+  quote: 階層の天蓋すれすれを飛行する無人の回転翼機が、ぶら下げた大きなコンテナから大量の治癒符をばらまいているのだ。
+  paragraph: p625
+  confidence: strong
+  quotes:
+  - quote: 階層の天蓋すれすれを飛行する無人の回転翼機が、ぶら下げた大きなコンテナから大量の治癒符をばらまいているのだ。
+    paragraph: p625
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0013_店員_other_古代語_p599]]'
+  object: '[[ME_言語魔術師]]'
+  claim: 店員がレオの古代語を流暢に話せることは、単なる語学能力ではなく、この世界における「言語魔術」や「翻訳呪術」の高度な実装を示唆しており、言語そのものが魔法の媒体であることを暗示している。
+  quote: 店員さんの口から滑らかに滑り出す、少年と同じ言語。彼の言葉が理解できるためか、俺にもそれが聞き取れた。
+  paragraph: p599
+  confidence: moderate
+  quotes:
+  - quote: 店員さんの口から滑らかに滑り出す、少年と同じ言語。彼の言葉が理解できるためか、俺にもそれが聞き取れた。
+    paragraph: p599
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0013_アキラ_wears_急場凌ぎの義肢_p596]]'
+  object: '[[ME_サイバーパンク_義肢]]'
+  claim: アキラが装着する「動かすことのできない装飾用の急場凌ぎの義肢」は、サイバーパンク作品における義体化の過渡期や、機能不全なサイバーウェアの描写を踏襲し、主人公の脆弱性と技術への依存を可視化している。
+  quote: これはただ腕の形をしているだけの急場凌ぎの装飾用義肢で、動かしたりは出来ないタイプの物だ。
+  paragraph: p596
+  confidence: strong
+  quotes:
+  - quote: これはただ腕の形をしているだけの急場凌ぎの装飾用義肢で、動かしたりは出来ないタイプの物だ。
+    paragraph: p596
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0013_ロドウィ_asks_アニスとの結婚_p619]]'
+  object: '[[ME_マフィア映画_娘との結婚]]'
+  claim: マフィアの首領が主人公に娘との結婚を提案し、組織への組み込みを図る展開は、『ゴッドファーザー』などのマフィア映画における「家族への組み込み」プロットのパロディであり、血族による支配の強化を意図している。
+  quote: ははは、仲がいいじゃないか。どうかね、アキラ。娘を嫁に貰ってはくれんだろうか。
+  paragraph: p619
+  confidence: moderate
+  quotes:
+  - quote: ははは、仲がいいじゃないか。どうかね、アキラ。娘を嫁に貰ってはくれんだろうか。
+    paragraph: p619
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0013_Speaer_other_エスニック・ポリフォニー_p611]]'
+  object: '[[ME_ワールドミュージック]]'
+  claim: 歌姫Speaerの音楽が「無国籍」「エスニック風」「背景の見えない軽薄さ」と多様な解釈を生むことは、現代のグローバル化された音楽市場における「ワールドミュージック」の消費構造と、異文化接触によるアイデンティティの流動性を反映している。
+  quote: 聴く人によって受ける印象が全く異なる点だ。エスニック風でワールドミュージックの色合いが感じられると言う人がいる一方で、無国籍さを感じている人がいる。
+  paragraph: p610
+  confidence: moderate
+  quotes:
+  - quote: 聴く人によって受ける印象が全く異なる点だ。エスニック風でワールドミュージックの色合いが感じられると言う人がいる一方で、無国籍さを感じている人がいる。
+    paragraph: p610
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_レオの素性と地獄
+  note: レオが「地獄からやって来た」とちびシューラが推測しており、その素性（記憶喪失の原因、猫耳の意味）が今後の展開で明かされる可能性が高い。
+  quotes:
+  - quote: だから、多分地獄からやって来たレオのことは知らないと思うよ
+    paragraph: p612
+    quote_verified: true
+  expected_payoff: レオの正体が第五階層の構造（地獄）と関連する存在であることが判明し、アキラとの関係性が変化する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_店員の正体と古グラナリア語
+  note: 店員がレオの古代語を流暢に話せること、および「正規の言語魔術師」である可能性が示唆されている。彼女が単なる店員ではなく、特定の組織や歴史的背景を持つ人物である伏線。
+  quotes:
+  - quote: たまたま古グラナリア語に通じていただけの呪術師さんじゃない？ 正規の言語魔術師だとしたら、狭い業界だから私でも知ってるかも。
+    paragraph: p599
+    quote_verified: true
+  expected_payoff: 店員がアキラやレオの過去、あるいは第五階層の隠された歴史に関する重要な情報源となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ちびシューラの複雑な感情
+  note: ちびシューラがSpeaerの歌を聴く際、「立場上、ちょっと複雑」と言い、言葉を途切れさせた。ちびシューラとSpeaer、あるいはその音楽の背景に何らかの因縁がある。
+  quotes:
+  - quote: 別に【Ｓｐｅａｒ】の歌がどうこうっていうわけじゃなくて、立場上、ちょっと複雑っていうか
+    paragraph: p611
+    quote_verified: true
+  expected_payoff: ちびシューラの過去、トリシューラとの関係、または第五階層の文化・政治的背景に関する秘密が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アニスのトンファーと戦闘能力
+  note: アニスがトンファーを隠し持ち、優れた武人であることが描写されている。ロドウィの娘としてだけでなく、戦闘面での重要な役割を果たす可能性。
+  quotes:
+  - quote: だぼっとした袖口の内側に、旋棍型の呪具が隠されている事を俺はトンファー知っている。
+    paragraph: p619
+    quote_verified: true
+  expected_payoff: ロドウィとの対決時、アニスがアキラの敵として、あるいは複雑な立場で戦闘に関与する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_治癒符のインフレと社会崩壊
+  note: トリシューラによる治癒符の大量散布は、第五階層の経済システム（治癒符＝通貨）を崩壊させるための計画。この経済テロがもたらす社会的混乱と、それに対する【公社】の対応が今後の焦点となる。
+  quotes:
+  - quote: 降り注ぎ続ける治癒符は、しばらくすればもはやその価値を失ってしまう。
+    paragraph: p625
+    quote_verified: true
+  expected_payoff: 第五階層の経済崩壊、浮浪者の増加、そして迷宮への強制送還というトリシューラの計画が実行され、社会構造が大きく変化する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 恩義と裏切りの倫理的葛藤
+  weight: 0.9
+  quotes:
+  - quote: この世界に来てからの半年間、なんだかんだと仕事や生活面で世話になり、コルセスカと出会わせてくれたいわば間接的な恩人に対して、その信頼を裏切るような真似をしなくてはならないのだ。
+    paragraph: p616
+    quote_verified: true
+  - quote: 誰かを殺すのに理由は要らない。それが恩人であったとしても。
+    paragraph: p623
+    quote_verified: true
+  note: アキラがトリシューラへの忠誠と、ロドウィ・コルセスカへの恩義の間で引き裂かれ、最終的に「殺人鬼」としての自己認識により恩義を切り捨てる過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 技術と社会の寄生構造
+  weight: 0.8
+  quotes:
+  - quote: 【公社】は確かに第五階層のインフラストラクチャを握っている。しかしその実体は、他者から奪った生活基盤で利益を得る、マッチポンプの寄生虫なのだ。
+    paragraph: p622
+    quote_verified: true
+  note: 第五階層の社会システムが、創造能力の略奪と住居の貸し出しという「マッチポンプ」によって維持されている腐敗した構造の暴露。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: メディアによる現実の編集と操作
+  weight: 0.7
+  quotes:
+  - quote: こないだの戦いは私がばっちり撮影してアップロードしといたよ。あ、ちゃんと無駄な所とかカットして、プライベートに配慮した編集してるから大丈夫だよ
+    paragraph: p592
+    quote_verified: true
+  - quote: 降り注ぐ金、狂乱する人々、天からの銃撃によってゴミのように散る命。
+    paragraph: p626
+    quote_verified: true
+  note: トリシューラが映像編集や情報操作を通じて第五階層の世論や経済をコントロールし、現実を「演出」する行為。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: アイデンティティの付与と受容
+  weight: 0.6
+  quotes:
+  - quote: レオ、レオ、レオ――僕の名前は、レオ。わ、なんだかしっくり来るような気がする。
+    paragraph: p604
+    quote_verified: true
+  note: 記憶喪失のレオがアキラによって名前を与えられ、それを受容することで自己の輪郭を得る過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

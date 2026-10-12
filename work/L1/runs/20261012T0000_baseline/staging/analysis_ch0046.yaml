@@ -1,0 +1,243 @@
+chapter: ch0046
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0046_ハルベルト_other_哲学的ゾンビの手法_p1882]]'
+  object: '[[ME_philosophical_zombie_concept]]'
+  claim: 「哲学的ゾンビ」という現代哲学の思考実験（意識を持たないが人間と区別がつかない存在）を、呪術による肉体複製と霊体憑依というSF的・ファンタジー的な技術として実装し、その倫理的・技術的難易度を「クローニング」という用語で補強している。
+  quote: 使役した哲学的ゾンビに疑似霊体だけ憑依させて、正常な人間に見せかける手法。明らかに死霊使いの手口だけど、普通ならまず不可能
+  paragraph: p1882
+  confidence: strong
+  quotes:
+  - quote: 使役した哲学的ゾンビに疑似霊体だけ憑依させて、正常な人間に見せかける手法。明らかに死霊使いの手口だけど、普通ならまず不可能
+    paragraph: p1882
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0046_計画_uses_研究名目_p1893]]'
+  object: '[[ME_bureaucratic_euphemism]]'
+  claim: 非人道的な強制移住や人体実験を正当化するために、「開発研究」や「実験」といった行政用語・科学用語を盾にする官僚的な隠蔽手法（ euphemism
+    ）を風刺している。
+  quote: 「新型の使役型寄生異獣の開発研究」と、「非槍神教系神働術を既存の神働術の中に取り入れる為の実験」――この名目でティリビナの民の安全を確保する
+  paragraph: p1893
+  confidence: strong
+  quotes:
+  - quote: 「新型の使役型寄生異獣の開発研究」と、「非槍神教系神働術を既存の神働術の中に取り入れる為の実験」――この名目でティリビナの民の安全を確保する
+    paragraph: p1893
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0046_ハルベルト_names_チョコレートリリー_p1900]]'
+  object: '[[ME_black_lily_symbolism]]'
+  claim: 「チョコレートリリー（黒百合）」という名称は、西洋において「死」「悲しみ」「復活」を象徴する花である黒百合（Black Lily）を指しており、集団の結成が死と再生の予兆であることを示唆している。
+  quote: 【心話】の呪術がその場にいる全員の胸に染み渡った。 異界の言語である英語で紡がれたその言葉が、重なり合う意味を持っている事を全員が理解し、やがて静寂が訪れる。
+  paragraph: p1900
+  confidence: explicit
+  quotes:
+  - quote: 【心話】の呪術がその場にいる全員の胸に染み渡った。 異界の言語である英語で紡がれたその言葉が、重なり合う意味を持っている事を全員が理解し、やがて静寂が訪れる。
+    paragraph: p1900
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0046_六人_other_黒百合_p1901]]'
+  object: '[[ME_rpg_party_structure]]'
+  claim: 探索者集団の構成人数（6人）や、リーダーの選出、名前付けといったプロセスは、TRPGやMMORPGにおけるパーティ結成のクリシェ（定型）を模倣・引用している。
+  quote: 迷宮に挑む探索者や修道騎士たちは、少なくとも三人、多くても九人、普通は六人で分隊を組む。
+  paragraph: p1898
+  confidence: moderate
+  quotes:
+  - quote: 迷宮に挑む探索者や修道騎士たちは、少なくとも三人、多くても九人、普通は六人で分隊を組む。
+    paragraph: p1898
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0046_ミルーニャ_other_情報の封鎖_p1890]]'
+  object: '[[ME_corporate_coverup]]'
+  claim: 巨大企業（クロウサー社）が自社の醜聞を隠蔽するために権力（大神院）を動かし情報を封鎖する様子は、現代の企業不祥事における情報操作やメディア規制を連想させる。
+  quote: 醜聞を内々で揉み消しておきたいクロウサー家が裏から手を回して情報を止めさせているわけです。あの巨大な血族の影響力は大神院にも及びますからね
+  paragraph: p1890
+  confidence: strong
+  quotes:
+  - quote: 醜聞を内々で揉み消しておきたいクロウサー家が裏から手を回して情報を止めさせているわけです。あの巨大な血族の影響力は大神院にも及びますからね
+    paragraph: p1890
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0046_リーナ_reveals_当事者であること_p1887]]'
+  object: '[[ME_heroic_narrative_trope]]'
+  claim: 通常、主人公のサポート役として登場するキャラクター（リーナ）が、実は事件の「当事者」であり強い個人的動機（復讐・救済）を持つことで、主人公中心の物語構造を逆転させ、彼女を主役級の存在へと昇格させている。
+  quote: 「えっとね、その件に関しては私、わりと当事者だったりするんだけど」
+  paragraph: p1887
+  confidence: moderate
+  quotes:
+  - quote: 「えっとね、その件に関しては私、わりと当事者だったりするんだけど」
+    paragraph: p1887
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0046_アキラ_remembers_キール隊_p1902]]'
+  object: '[[ME_past_trauma]]'
+  claim: 現在の楽しい食事の場が、過去の仲間（キール隊）との思い出と対比されることで、現在の幸福が「儚い幻」であることを強調し、未来の悲劇（死）を予感させる対比構造を作っている。
+  quote: この場所で、こうして六人で楽しい時間を過ごしていることが、ひどく儚い幻のような、そんな気がして。
+  paragraph: p1903
+  confidence: strong
+  quotes:
+  - quote: この場所で、こうして六人で楽しい時間を過ごしていることが、ひどく儚い幻のような、そんな気がして。
+    paragraph: p1903
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_黒百合の真の意味
+  note: ハルベルトが提案した「チョコレートリリー（黒百合）」という名前の真の意味。アキラは「怖くて問いかけられない」と述べており、ハルベルトの過去（英雄としての堕落や死）と深く関連している可能性が高い。
+  quotes:
+  - quote: 黒百合――その言葉の裏に、どれだけの意味が隠されているのか。 チョコレートリリー 私はまだ、その全てを知らない。 怖くて、ハルベルトに問いかけることができないでいた。
+    paragraph: p1901
+    quote_verified: true
+  expected_payoff: ハルベルトの過去（英雄としての経歴、死、またはアキラとの関係）が明かされる際、この名前が象徴する悲劇的な運命が回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ガルズの目的の不明確さ
+  note: ガルズがなぜクロウサー家全員を殺そうとしているのか、その「本来の目的」が不明。単なる復讐なのか、何かの儀式のためなのか。
+  quotes:
+  - quote: 「関係者を皆殺しにしようってこと？ 何のために」「わからない。それも捕まえて問い詰める。
+    paragraph: p1891
+    quote_verified: true
+  expected_payoff: ガルズとの対決時、または捕縛後にその動機（迷宮での経験、イェレイドとの関係など）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_パレルノ山の更新日
+  note: 護送計画が「明後日」に決行されるが、その日が「裏面の更新日（世界が消滅し再構成される日）」であるという時間的制約。
+  quotes:
+  - quote: 「その明後日がまさに更新日なんですけどね。ギリギリにも程があるでしょう」
+    paragraph: p1896
+    quote_verified: true
+  expected_payoff: 護送中に世界が更新（消滅・再構成）されることで、地形の変化やモンスターの出現など、計画が破綻する危機が発生する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_痕跡神話の再登場
+  note: 四英雄コルセスカの仲間であるアルマとサリアが、閉店間際に店へ現れる。彼らがガルズ事件や護送計画にどう関わるか。
+  quotes:
+  - quote: 四英雄の一人、冬の魔女コルセスカの仲間達。【痕跡神話】の構成員二人と、私はそうして意外な再会を果たしたのだった。
+    paragraph: p1905
+    quote_verified: true
+  expected_payoff: 彼らがガルズを追っている、あるいはアキラたちを監視している、もしくは護送計画への介入者として登場する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_蛙の呪詛
+  note: ハルベルトがラーゼフ（大神院関係者？）にかけた「蛙になる呪詛」。これが本当に効力を持つのか、あるいはハルベルトの権力の象徴なのか。
+  quotes:
+  - quote: 破ったら親類縁者含めて蛙になる呪詛をかけておいたので、裏切りは無いと思っていい
+    paragraph: p1893
+    quote_verified: true
+  expected_payoff: 計画が裏切られた際、この呪詛が発動し、ラーゼフが蛙になることで計画の正当性やハルベルトの冷酷さが証明される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「英雄」の虚構性と重荷
+  weight: 0.8
+  quotes:
+  - quote: 「英雄になれなかった男」という呼び名が、ガルズにはあった。
+    paragraph: p1887
+    quote_verified: false
+  - quote: たとえ虚名であっても――英雄として振る舞える。
+    paragraph: p1903
+    quote_verified: true
+  note: ガルズが「英雄になれなかった」ことで狂気に至ったのに対し、アキラは「虚名」の英雄として振る舞うことで仲間を守ろうとする。英雄という称号が持つ社会的圧力と、それに対する個人の応答の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族・血族の崩壊と再構築
+  weight: 0.7
+  quotes:
+  - quote: 屋敷に入ったら、みんなが殺し合ってた。
+    paragraph: p1889
+    quote_verified: false
+  - quote: 私たち六人の名前は【黒百合】として記録され、
+    paragraph: p1901
+    quote_verified: true
+  note: ガルズによるマウザ家（血族）の殺し合いという「家族の崩壊」に対し、アキラたちが「黒百合」という新たな擬似家族（パーティ）を結成する。血の絆の破壊と、意志による絆の構築の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 官僚的暴力と倫理的葛藤
+  weight: 0.6
+  quotes:
+  - quote: 「新型の使役型寄生異獣の開発研究」と、「非槍神教系神働術を既存の神働術の中に取り入れる為の実験」――この名目でティリビナの民の安全を確保する
+    paragraph: p1893
+    quote_verified: false
+  - quote: 「何度も念を押すけど、それって無茶な人体実験とかをされたりはしないんだよね？」
+    paragraph: p1893
+    quote_verified: true
+  note: ティリビナの民の保護という「善い目的」のために、人体実験や強制移住といった「悪」を官僚的な名目で正当化するハルベルトの手法。目的と手段の倫理的なズレ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死の予感と生の祝祭
+  weight: 0.9
+  quotes:
+  - quote: 決戦は明後日。 必ずティリビナの民を守りきる。必ず生き延びて、ガルズを捕らえる。
+    paragraph: p1901
+    quote_verified: true
+  - quote: この場所で、こうして六人で楽しい時間を過ごしていることが、ひどく儚い幻のような、そんな気がして。
+    paragraph: p1903
+    quote_verified: true
+  note: 壮行会という「生」の祝祭が、迫りくる「死」（ガルズとの戦い、世界更新）の直前に行われている。幸福感が死の影によって強調される、典型的な悲劇的アイロニー。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

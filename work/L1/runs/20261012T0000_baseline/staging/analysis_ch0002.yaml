@@ -1,0 +1,304 @@
+chapter: ch0002
+created: '2026-09-30'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 5
+  themes: 1
+  quotes_verified: 24
+  quotes_total: 26
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0002_アキラ_activates_Doppler_p127]]'
+  object: '[[ME_smartphone_apps]]'
+  claim: アキラが脳内にインストールされたアプリを起動・管理し、メモリ不足でアプリを切り替える様子は、現代のスマートフォンにおけるアプリの並列起動とメモリ管理を模している。
+  quote: 並列して四つ以上の動作制御系アプリを起動すると処理が遅くなり、義肢の動きに遅延が生じてしまう為、一つを選んで終了させる必要がある。
+  paragraph: p133
+  confidence: strong
+  quotes:
+  - quote: 並列して四つ以上の動作制御系アプリを起動すると処理が遅くなり、義肢の動きに遅延が生じてしまう為、一つを選んで終了させる必要がある。
+    paragraph: p133
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0002_金鎖_requires_ネットワーク接続_p121]]'
+  object: '[[ME_cloud_security]]'
+  claim: 魔導書の使用許可を『金鎖のフラベウファ』という上位管理者がネットワーク経由でチェックする仕組みは、クラウドベースのセキュリティ認証やDRM（デジタル著作権管理）を指喩している。
+  quote: 『金鎖』がネットワーク経由でサーバにアクセスして、より上位の管理者である『金鎖のフラベウファ』が違法製造された魔導書を使用可能かどうか、チェックしているのだ。
+  paragraph: p120
+  confidence: strong
+  quotes:
+  - quote: 『金鎖』がネットワーク経由でサーバにアクセスして、より上位の管理者である『金鎖のフラベウファ』が違法製造された魔導書を使用可能かどうか、チェックしているのだ。
+    paragraph: p120
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0002_アキラ_uses_聴勁_p128]]'
+  object: '[[ME_active_sonar]]'
+  claim: 音響処理アプリを用いて周囲の音から攻撃の意思を抽出する聴勁は、アクティブソナーおよびパッシブソナーの技術原理を異世界に移植したものである。
+  quote: 独特な発声によるアクティブソナーと、サイバネ技術をフル活用したパッシブソナー。
+  paragraph: p128
+  confidence: explicit
+  quotes:
+  - quote: 独特な発声によるアクティブソナーと、サイバネ技術をフル活用したパッシブソナー。
+    paragraph: p128
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0002_アキラ_uses_震脚_p129]]'
+  object: '[[ME_martial_arts]]'
+  claim: サイバーカラテにおける震脚は、伝統的な武術（空手など）の技法をサイバネティクス技術で補完・強化した格闘技術体系を指している。
+  quote: サイバーカラテにおいては、義足の運用を前提に組み立てられている技術体系だが、俺はそれを生身の脚で実践した。
+  paragraph: p129
+  confidence: strong
+  quotes:
+  - quote: サイバーカラテにおいては、義足の運用を前提に組み立てられている技術体系だが、俺はそれを生身の脚で実践した。
+    paragraph: p129
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0002_多世界連合_defines_審判役の目的_p166]]'
+  object: '[[ME_un_security_council]]'
+  claim: 多世界連合安全保障理事会が審判役を派遣し、世界間の戦争を管理・仲裁する構造は、現実の国際連合安全保障理事会の機能と介入政策を模している。
+  quote: 多世界連合、安全保障理事会より任命された調査使節団の代表を務めております。
+  paragraph: p166
+  confidence: explicit
+  quotes:
+  - quote: 多世界連合、安全保障理事会より任命された調査使節団の代表を務めております。
+    paragraph: p166
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0002_アキラ_learns_誤転生_p167]]'
+  object: '[[ME_isekai_isekai]]'
+  claim: アキラが「事故」によって意図しない世界に転生したという設定は、異世界転生ジャンルにおける「チート能力」や「意図的な転生」のクリシェを逆転させ、技術的なバグや事故による不条理な転生を提示している。
+  quote: 通常、異世界転生は死亡後すぐに行われるわけではない。その人が死亡したと確認され、諸々の手続きなどで転生が死亡から一年後になることなどざらだ。
+  paragraph: p167
+  confidence: moderate
+  quotes:
+  - quote: 通常、異世界転生は死亡後すぐに行われるわけではない。その人が死亡したと確認され、諸々の手続きなどで転生が死亡から一年後になることなどざらだ。
+    paragraph: p167
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0002_アズーリア_uses_死者を代弁する者_p114]]'
+  object: '[[ME_mediumship]]'
+  claim: アズーリアが死者（カイン）の意思を仮構し、言葉によってアキラの罪悪感を癒やす行為は、シャーマニズムや霊媒による死者の代弁をメタファーとして用いている。
+  quote: 生者を慰めるために、私は霊魂を仮構する。呪文が完成していく。『死者を代弁すること』。それこそが呪文の本質。呪いの頌歌。
+  paragraph: p114
+  confidence: strong
+  quotes:
+  - quote: 生者を慰めるために、私は霊魂を仮構する。呪文が完成していく。『死者を代弁すること』。それこそが呪文の本質。呪いの頌歌。
+    paragraph: p114
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0002_世界槍_defines_階層構造_p158]]'
+  object: '[[ME_dungeon_structure]]'
+  claim: 世界槍が地上と地獄を繋ぎ、内部に空間を折り畳み、掌握者のイメージで構造が決まるという設定は、ゲーム的な「迷宮（ダンジョン）」の構造を物理法則と呪術で再定義したものである。
+  quote: 『世界槍』は内側に広大な空間を折り畳んでいる。外から見た以上に内部は広い。そして、その空間の具体的な広さや構造は、各階層の掌握者がイメージによって決定する。
+  paragraph: p158
+  confidence: strong
+  quotes:
+  - quote: 『世界槍』は内側に広大な空間を折り畳んでいる。外から見た以上に内部は広い。そして、その空間の具体的な広さや構造は、各階層の掌握者がイメージによって決定する。
+    paragraph: p158
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0002_アキラ_promises_階層の留守番_p163]]'
+  object: '[[ME_abandonment]]'
+  claim: アズーリアがアキラを一人残して地上へ去り、結果としてアキラが敵に襲われる展開は、異世界転生者に対する「保護者（ガイド）」の不在と、その結果としての孤立・被害を象徴している。
+  quote: アキラを一人だけ地上に戻したとして、地上の言葉を喋れない彼が『心話』無しで状況を正確に説明できるとは思えない。
+  paragraph: p163
+  confidence: moderate
+  quotes:
+  - quote: アキラを一人だけ地上に戻したとして、地上の言葉を喋れない彼が『心話』無しで状況を正確に説明できるとは思えない。
+    paragraph: p163
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0002_アズーリア_confesses_捨て石_p118]]'
+  object: '[[ME_utilitarianism]]'
+  claim: アズーリアが仲間の死を「捨て石」として許容し、責任を自覚しつつも任務を遂行する姿勢は、功利主義的な軍事的判断と、その倫理的葛藤を描いている。
+  quote: 私は、仲間の命を捨て石にしたの。だからカインが死んだことで責められるべきは私
+  paragraph: p118
+  confidence: strong
+  quotes:
+  - quote: 私は、仲間の命を捨て石にしたの。だからカインが死んだことで責められるべきは私
+    paragraph: p118
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの左手の正体
+  note: アキラの左手が「空白」であり、エスフェイルの脚と印象が似ていると指摘されている。アズーリアの左手（寄生異獣）との関連性、およびアキラが左手を失った経緯が未解決。
+  quotes:
+  - quote: 空白の左手と鎧の右腕を持つシナモリ・アキラ
+    paragraph: p108
+    quote_verified: true
+  - quote: その左手ってなんかエスフェイルの脚と印象が似てるんだけど、何か関係あったりするのか？
+    paragraph: p123
+    quote_verified: true
+  expected_payoff: アキラの左手がエスフェイルの核や呪術と関連し、最終決戦でのキーアイテムとなる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの元の世界とリンカーン
+  note: ヲルヲーラがアキラの出身世界（合衆国）に知己がおり、尊敬する偉人がエイブラハム・リンカーンだと述べている。アキラの出身世界が地球（米国）であることの確証と、多世界連合との関係の深さ。
+  quotes:
+  - quote: 個人的な知己が、合衆国におります。私、これでも合衆国の国籍を有しておりまして。尊敬する地球の偉人はエイブラハム・リンカーンです
+    paragraph: p165
+    quote_verified: true
+  expected_payoff: アキラが地球（米国）出身であることが確定し、多世界連合との政治的・軍事的な関与が深まる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アズーリアの背信行為と罪
+  note: アズーリアが第四階層の防衛戦を放棄して第五階層攻略に参加した事実を隠蔽し、アキラにぼかして伝えている。この「背信行為」が地上で発覚し、アズーリアが処刑されるリスクがある。
+  quotes:
+  - quote: 第四階層は、たった今エスフェイルを倒すまで、異獣の侵攻を食い止めるための防衛戦を行っていた筈だ。私を含むキール隊もそこに配置されていたのだが、それを放り出して第五階層の攻略に参加していた、などと聞けば、アキラも私に対する視線を仲間から犯罪者へ向けるそれへと変えるかも知れない。
+    paragraph: p161
+    quote_verified: true
+  expected_payoff: アズーリアが地上で軍法会議にかけられる、またはアキラがその事実を知り対立する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの意識喪失と生存
+  note: アキラが敵の襲撃を受け意識を失うが、殺害されたとは明言されていない。ヲルヲーラが「殺害するために襲ってきます」と言っているため、生存の可否が不明。
+  quotes:
+  - quote: 反撃の一撃が俺の全身に激しい衝撃をもたらし、それきり俺の意識は闇に包まれた。
+    paragraph: p170
+    quote_verified: true
+  expected_payoff: アキラが捕虜となる、またはアズーリアが一年後に戻った際にアキラが生存している（または変貌している）展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_呪祖フィリスの力
+  note: アズーリアが「遡って、フィリス」と呪文を唱え、金鎖を砕き、呪術の構造を解体する。フィリスが「紀生型異獣」であり、呪術の起源に関わる存在であることが示唆される。
+  quotes:
+  - quote: 現存する唯一の『紀生型異獣』、最古の魔将である『呪祖フィリス』はそれが呪術に関係するものであるならば、どんなものであってもその来歴と構造を解き明かせる――呪術そのものをバラバラに解体してしまうのだ。
+    paragraph: p151
+    quote_verified: true
+  expected_payoff: フィリスの正体（アズーリアの左手の源？）が明かされ、呪術の起源に関する大きな秘密が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と呪術の境界の溶解
+  weight: 0.9
+  quotes:
+  - quote: 魔導書は半自律的に術を使用し、利用者のサポートをする外部機器だ。利用するには上位の管理者である私（つまりホストＯＳ）がゲストＯＳである魔導書をエミュレーションすればいい。
+    paragraph: p120
+    quote_verified: true
+  - quote: サイバーカラテは足りない精神力をツールによって補うことを本質とする。
+    paragraph: p134
+    quote_verified: false
+  note: アキラのサイバー技術（アプリ、義肢）とアズーリアの呪術（魔導書、OS metaphor）が、どちらも「ツールによる能力補完」という同じ構造で描かれ、SFとファンタジーの境界が意図的に曖昧にされている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 異世界転生の不条理と事故
+  weight: 0.8
+  quotes:
+  - quote: 原因不明の事故があって間違ってこの世界に来てしまったんです。
+    paragraph: p116
+    quote_verified: true
+  - quote: 世界と世界が接触した時の物理的、あるいは情報的な衝撃や混乱によって、俺が本来希望していた異世界に転生できないという事故が発生したのかもしれなかった。
+    paragraph: p167
+    quote_verified: true
+  note: 主人公（アキラ）が「選ばれた存在」ではなく、技術的な事故による「誤転生者」であるという設定が、転生ジャンルの英雄主義を解体し、不条理な運命を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 罪悪感の解体と代弁
+  weight: 0.7
+  quotes:
+  - quote: 筋違いの責任や罪悪感を背負わせるのは、本意ではない。それは本来私たちに返ってくるものだ。
+    paragraph: p111
+    quote_verified: true
+  - quote: 生者を慰めるために、私は霊魂を仮構する。呪文が完成していく。『死者を代弁すること』。それこそが呪文の本質。呪いの頌歌。
+    paragraph: p114
+    quote_verified: true
+  note: アキラの殺人への罪悪感を、アズーリアが「死者の代弁」という呪術（物語）によって解体するプロセスが、心理的救済と倫理的責任の所在を問うている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 管理された戦争と審判
+  weight: 0.6
+  quotes:
+  - quote: 多世界連合は世界同士の接触による災厄や代理戦争を危惧し、戦争の早期終結と統一世界政府樹立を目指すために審判役を派遣してい
+    paragraph: p166
+    quote_verified: false
+  - quote: 規則は規則ですので。破った場合、上方勢力への罰則が科せられます
+    paragraph: p162
+    quote_verified: true
+  note: 異世界での戦争が、多世界連合という上位権力によって「管理・審判」されている構造が、植民地支配や国際政治のメタファーとして機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 幻と実体の対立
+  weight: 0.5
+  quotes:
+  - quote: その『紀源』は『幻』。うつろい、不確かで、形のない、そして本当はなにものでもない、それこそがエスフェイル。
+    paragraph: p154
+    quote_verified: true
+  - quote: 世界が、砕け散る。夜が、森が、大地が、空気が、かすかな虫や小動物の息吹といった一切合切が、幻であったかの如く雲散霧消する。
+    paragraph: p155
+    quote_verified: true
+  note: エスフェイルの正体が「幻」であり、世界そのものが掌握者のイメージで構成されるという設定が、現実の虚構性（シミュレーション仮説）を暗示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

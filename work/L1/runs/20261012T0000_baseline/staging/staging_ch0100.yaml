@@ -1,0 +1,280 @@
+episode: ch0100
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0100_アルト_has_property_屈強な肉体_p3616
+        quote: 身に纏っているのは詰め襟の白い軍服だが、隠しても隠しきれない屈強な肉体は折り目正しい布をきつそうに盛り上げている。
+        locator: {}
+        spoiler_after: ch0100
+    action:
+      observations:
+      - event_ref: E_ch0100_アルト_observes_戦術地図_p3616
+        quote: 霊長類の男が卓上に広げられた戦術地図を睨み付けている。
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_アルト_takes_言葉_p3627
+        quote: 「一体、今あなたは何をしたのです？」「見ての通りだ。『言葉』を奪った」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_アルト_fights_ダエモデク_p3634
+        quote: 戦いは熾烈を極めたが、アルトの卓絶した武技に加え、稀に見るほどの名物であるディーテの前には、黒き亜竜と『断章』の力も無意味だった。
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_アルト_takes_言葉_p3635
+        quote: アルトは、ダエモデクから大量の『力ある言葉』を奪いながら、静かに身体を震わせた。ただひとつの眼から雫がこぼれ落ちた。ダエモデクの『言葉』すなわち『想い』がアルトに流れ込んだことにより、アルトは半身が何を考えていたのかを理解したのだ。
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_アルト_gives_鱗_p3637
+        quote: まずは鱗を兎に手渡して、「これを太陰の【神々の図書館】に届けるのだ。そしてどうか、世に秩序をもたらす為の枠組みを作り上げて欲しい」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_アルト_kills_自身_p3637
+        quote: アルトは慟哭し、激情のままに自らの肉体を掻き毟り、引き裂いた。堅牢な鱗の鎧を失ったアルトは、その剛腕で己の身に致命傷を負わせると、そのままダエモデクと重なり合うようにして倒れた。
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_アルト_dies_null_p3638
+        quote: アルトは微かな笑みを浮かべ、ダエモデクの腕の中で安らかに息絶えた。
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_アルト_other_null_p3641
+        quote: アルトが起き上がると、ダエモデクの目に残っていた悲しみの涙は引っ込んで、うれし涙が溢れた。
+        locator: {}
+        spoiler_after: ch0100
+    speech:
+      observations:
+      - event_ref: E_ch0100_アルト_says_怪物たち_p3617
+        quote: 「あのおぞましい怪物たちが、亡きダーカンシェル様と同じ言語支配者によって生み出されているというのか」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_アルト_names_グレンデルヒ_p3620
+        quote: 「ほざけ、グレンデルヒ。この身から血を抜いて何をするかと思えば、あのような紛い物を作り出すとは」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_アルト_other_罰_p3628
+        quote: 「今後、我が王国の秩序を揺るがすような『悪しき言葉』を発した者からは、『言葉』の全てを剥奪する。罰神の力が衰えている今、この王たる身が直々に裁きを下そう。咎人はみな秩序から爪弾きにされ、あらゆる平和の恩恵を喪失すると知れ」
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_砲弾]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0100_砲弾_attacks_軍勢_p3616
+        quote: 高台から降り注ぐ無数の砲弾は、坂道を駆け上がってくる軍勢を容易く吹き散らしていく。粉砕された肉と骨が絶叫と共に空を舞った。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ジャッフハリム]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0100_ジャッフハリム_appears_as_第三の勢力_p3617
+        quote: そこに現れたのが第三の勢力、ジャッフハリムであった。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ビシャマル]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0100_ビシャマル_has_property_悪名_p3617
+        quote: 暴君ビシャマルの悪名は大陸中に轟いている。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レストロオセ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0100_レストロオセ_has_property_言語支配者_p3617
+        quote: 「忌むべき呪妃、レストロオセ。聞くところによると、言語支配者と呼ばれる卓越した神秘の担い手であるとか」
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_異形の怪物]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0100_異形の怪物_appears_as_醜悪さの精髄_p3617
+        quote: ありとあらゆる生物を滅茶苦茶に混ぜ合わせ、融かして固めたかのような異形。固体とも液体ともつかない肉腫が流動しながら蠢き、破壊と殺戮を撒き散らし、見る者を恐怖に陥れる。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_五色の騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0100_五色の騎士団_fights_異形の軍勢_p3618
+        quote: 竜王国が誇る【五色の騎士団】はいずれも劣らぬ英傑揃いだが、彼らの力をもってしてもジャッフハリムの異形の軍勢は難敵と認めざるを得ないのが現状だった。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クルエクローキ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch0100_クルエクローキ_hates_火器_p3619
+        quote: 秩序を重んじる真竜クルエクローキはこの火器をことさらに嫌っており、使えばかの竜の怒りを買い、呪いを受けるというのだ。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_火器]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0100_火器_defines_不名誉_p3619
+        quote: 正々堂々たる勇士と勇士の戦いを穢す卑怯者の武器。あるべき秩序をねじ曲げ、徒に屍を生み出すだけのものなどあってはならぬ。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハタラドゥール]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0100_ハタラドゥール_says_呪い避け_p3620
+        quote: 「そのような事を仰いますな、王よ。杖のわざとて馬鹿にしたものではございませぬ。それに、このハタラドゥールめが考案した『呪い避け』は有効に機能しているようですぞ」
+        locator: {}
+        spoiler_after: ch0100
+    action:
+      observations:
+      - event_ref: E_ch0100_ハタラドゥール_transforms_グレンデルヒ_p3620
+        quote: 王がハタラドゥールを異なる名で呼んだ途端、美貌の呪術師の全身に亀裂が入り、内側から全く別の容姿を持った『誰か』が現れようとする。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_単眼巨人]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0100_単眼巨人_appears_as_アルトの紛い物_p3621
+        quote: ずんぐりとした身体に巨大な単眼。それらの特徴はすべて、アルト王の武威を誇張したもの。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0100_グレンデルヒ_says_使い捨て_p3622
+        quote: 「まあ、当然ながら使い捨てになりますが――所詮は偉大なるアルト王に言葉を賜ることが叶わぬ畜生風情です。あれらは消費されるべくして消費されるのですから、使い終わったら新しいものを用意すれば良い」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_グレンデルヒ_other_ディーテ_p3624
+        quote: 「その呪われた槍の言葉こそ耳を貸してはなりません、王よ。それは持ち主を誑かし、腑抜けにさせる魔性の槍。男を堕落させる女の声で誘っているのがその証拠。もしかすると、それこそは使い手の命を啜るメクセトの神滅具ということもありえまする」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_グレンデルヒ_other_格差是正_p3631
+        quote: 「あらゆる民に機会は均等に与えられているはずですよ。だというのに落伍し、貧乏人に落ちぶれるということは、その者はできることをやらなかっただけのこと。より多く努力している者から当然得られるべき富を奪い、怠け者どもにそれを与えるなど、なんと愚かしい。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ディーテ]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0100_ディーテ_other_アルト_p3623
+        quote: 世の中には意思を持ち、口をきく呪具というものも存在する。ダエモデクの宝物庫の奥深くで眠っていた槍は銘を『ディーテ』といい、アルト王を主として認めていた。
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_ディーテ_other_アルト_2_p3623
+        quote: 「その佞臣の言葉に耳を貸してはいけません。アルトよ、それは暴君の道。そのようにして勝ち得た未来は、ジャッフハリムと同じ歪んだものとなりましょう。あの異形の怪物は、竜王国の未来の姿を暗示していると思って下さい」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_ディーテ_other_内なる法_p3629
+        quote: 「けれど、自らが自らを律することができるようになれば、それに勝ることは無いと私は思います。実際に罰や看守がいる必要は無く、架空の規律を誰もが心に抱き、『内なる法』に従って善く生きる。それが理想です。でも、それを為し遂げるためには長い時間がかかるでしょう」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_ディーテ_other_アキラ_p3642
+        quote: 「ねえ、アキラ様。あなたの『内なる法』は、今もあなたを裁いているのかしら。律しているのかしら。苦しめているのかしら。ああ、けれど、『外なる法』で歪めてしまっているその形を、私はとても愛おしいと、そう思っているんですよ」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_ディーテ_other_過去改変_p3643
+        quote: 「さあ、また遡りましょう。この破局はそもそも何が原因なのだったかしら。それは人の不和、『言葉』の乱れによるもの。そしてそれを未然に防ぐ【神々の図書館】を壊した何者かのせい。では、過去に遡って【図書館】を守れば、もっといい未来が実現できるのではないかしら」
+        locator: {}
+        spoiler_after: ch0100
+    action:
+      observations:
+      - event_ref: E_ch0100_ディーテ_other_死者_p3640
+        quote: 「やっともとの姿に戻れました。ありがとう、すべて、『断章』を取り戻してくれた貴方たちのお陰です。お礼に、今まで命を落としてきた全ての人を甦らせてあげましょう」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_ディーテ_transforms_少女_p3640
+        quote: 光がおさまったとき、槍は影も形もなくなっており、代わりに幼い少女がそこに立っていた。蜂蜜色の髪と灰色の瞳の少女が喋る三叉槍ディーテであると、不思議と誰もが理解できた。
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_ディーテ_attacks_グレンデルヒ_p3641
+        quote: 灰色の瞳が強く輝くと、グレンデルヒが突風に吹かれたかのようにたたらを踏み、後退していく。その全身がぶれたかと思うと、次の瞬間には破裂して、無数のがらくたとなって四方八方に散らばっていった。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_黄獣騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0100_黄獣騎士団_fights_黒蟲騎士団_p3624
+        quote: 「ほう。またしても【黄獣騎士団】は【黒蟲騎士団】と揉めているのですか。全く、困った連中ですな」
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダエモデク]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0100_ダエモデク_promises_言葉_p3629
+        quote: 「ジャッフハリムで再起を図ろうと画策しているダエモデクですが、配下となり、功績を上げた者に更なる『言葉』を与え、知恵と力を授けると公言していると、潜伏させている『虫』たちから連絡が入りました」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_ダエモデク_confesses_半身_p3636
+        quote: 「ばかだなあ、おれさまは、おまえのはんしんなんだぞ？」
+        locator: {}
+        spoiler_after: ch0100
+      - event_ref: E_ch0100_ダエモデク_names_理想郷_p3639
+        quote: 「新しく、より広大で、より完全な国を作らなければならない。その国はこう名付けよう。【理想郷】と。『力ある言葉』であるこのガロアンディアン呪文は、必ずや現実を塗り替える。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_断章]]'
+  entity_type: item
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch0100_断章_has_property_道徳_p3630
+        quote: 「前回が『愛情』でしたから、恐らくあちらの手にあるのは『道徳』です。あれには正義の原理を示し、『内なる法』を人の心に根付かせる力があります。
+        locator: {}
+        spoiler_after: ch0100
+    action:
+      observations:
+      - event_ref: E_ch0100_断章_activates_時空移動_p3643
+        quote: ディーテの言葉に呼応するように、浮遊する『断章』が光を放つ。時を追う事に強くなっていく輝きがある閾値を超えた時、閃光が爆発したように広がって、やがて世界を埋め尽くした。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_世界]]'
+  entity_type: motif
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0100_世界_transforms_廃墟_p3642
+        quote: 途端、辺り一帯は廃墟と荒野、暗雲の立ちこめる死の世界へと変貌し、屍の積み上がった寒々しい光景が広がるばかりとなった。
+        locator: {}
+        spoiler_after: ch0100
+  first_appearance_candidate: true

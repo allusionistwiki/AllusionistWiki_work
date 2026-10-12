@@ -1,0 +1,217 @@
+episode: ch0136
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_ミルーニャ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0136_ミルーニャ_travels_回廊_p4656
+        quote: 月齢によって閉じたり開いたりする気紛れな天地直通の軌道昇降ターエレベー機に、私たちは滑り込むようにして突入する。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_ミルーニャ_uses_スリングショット_p4656
+        quote: 私は左手の投石器をスリングショット前に突き出した。腰に巻いた白とピンクのアウトドアポーチから赤色の呪石を取り出す。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_ミルーニャ_uses_魔導書_p4657
+        quote: 私の意志に応えて黒い装丁の魔導書が目の前に出現。自動的に呪文を紡ぐ。溢れ出した黒い文字列が停滞の邪視を破壊して、箒が僅かに加速し始めた。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_ミルーニャ_uses_呪石弾_p4658
+        quote: 炸裂した呪石弾が光り輝く帯を展開し、護衛の双子人形を束縛する。アズーリア様が封じ込めた【陥穽】が威力を発揮していた。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_ミルーニャ_other_セリアック＝ニア_p4659
+        quote: 「にあ！」とても小さな猫耳の少女になる。掌に乗るほどのサイズだが、それは紛れもなく聖姫セリアック＝ニアだった。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_ミルーニャ_makes_ネイル_p4667
+        quote: 私はポーチから速乾塗料や筆、ブラシなどを取り出して小さなセリアック＝ニアの左の爪に呪紋を描いていった。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_ミルーニャ_other_盲目の守護者像_p4673
+        quote: 「良い機会です。ここで全軍叩き潰してやりましょう――右手親指、解錠！ 【盲目の守護者像】！」
+        locator: {}
+        spoiler_after: ch0136
+    name:
+      observations:
+      - event_ref: E_ch0136_ミルーニャ_names_断章富_p4657
+        quote: 【死人の森の断章】――その第七。名を【富】。トラスト
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_ミルーニャ_other_ソムワムン_p4672
+        quote: 「【毒吐き喇叭のソムワムン】――魔戦人形師団のゲテモノ隊長が、よりによってここで来ますか」
+        locator: {}
+        spoiler_after: ch0136
+    speech:
+      observations:
+      - event_ref: E_ch0136_ミルーニャ_other_リーナ_p4661
+        quote: 「どうせ粗悪な呪石しか持ってませんよ！ ごめんなさいねニアを完全体で復活させてあげられなくて！ ていうか呪宝石とか消耗品として使えるのは貴方たちみたいな大金持ちだけです！
+          そんなことしたら破産しますよ私！」
+        locator: {}
+        spoiler_after: ch0136
+    visual:
+      observations:
+      - event_ref: E_ch0136_ミルーニャ_arrives_内世界_p4662
+        quote: 紅紫の夕焼け空、薄汚れた霧に包まれた世界、遙か彼方に細長い塔。眼下に広がるのは途方もなく広大な霊園で、朽ち果てた墓石が並んでいる。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_ミルーニャ_observes_霊園_p4670
+        quote: 飛び回るのは片側だけに複眼が付いた奇形の羽虫。そして大地を這い回り、墓石を溶解させる緑色の液体を吐き出す長虫。いずれも身体のどこかに霊長類の顔が浮かび上がっているのが異様だった。
+        locator: {}
+        spoiler_after: ch0136
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0136_リーナ_says_合流の急ぎ_p4656
+        quote: 急ぎますよ、見失う前に片を付けてアズーリア様と合流します！
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_リーナ_names_ニア姫弾_p4659
+        quote: 名付けてニア姫弾！ ドルネスタンルフ系の加護持ちは死ぬ！
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_リーナ_other_呪石の質_p4660
+        quote: 「先輩のばかー！ また時間切れじゃん！ ちゃんとした石用意してあげてよ、ニアちゃんまだ本調子じゃないんだから！」
+        locator: {}
+        spoiler_after: ch0136
+    action:
+      observations:
+      - event_ref: E_ch0136_リーナ_other_セリアック＝ニア_p4665
+        quote: リーナがセリアック＝ニアの顎の下を撫でると、気持ちよさそうに目を細めていた。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_リーナ_uses_旋風_p4670
+        quote: リーナは大学ノートの項を千切ってばらまいた。途端、私たちを中心にして風が巻き起こる。空の民が得意とする大気操作の呪術、【旋風】が辺りの霧を吹き散らしていった。
+        locator: {}
+        spoiler_after: ch0136
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アレッテ・イヴニル]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch0136_アレッテ・イヴニル_has_property_減速の邪視_p4657
+        quote: 諦観に満ちた世界観が空間そのものに干渉して全てを減速させていく。
+        locator: {}
+        spoiler_after: ch0136
+    action:
+      observations:
+      - event_ref: E_ch0136_アレッテ・イヴニル_other_双子人形_p4658
+        quote: 人形姫の左右から玩具の鉄槌を持った騎士人形と爪楊枝のような杖を持った呪術師人形が飛び出してくる。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_アレッテ・イヴニル_escapes_ミルーニャたち_p4661
+        quote: そうしている間に肝心の人形姫はいつの間にか遙か彼方へと逃げ去ってしまっている。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_アレッテ・イヴニル_other_ミルーニャたち_p4662
+        quote: どうにか猫姫を引き剥がした私は、箒の端に長い髪が巻き付いているのを確かに見た。紅紫の長い長い糸を。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_アレッテ・イヴニル_other_エントラグイシュ_p4684
+        quote: 「よろしくお願いするわ、【扉の向こうのエントラグイシュ】、それに【棘の王カルメダージ】――まあ、カシュラム王の相手なんて適当でいいけれど」
+        locator: {}
+        spoiler_after: ch0136
+    speech:
+      observations:
+      - event_ref: E_ch0136_アレッテ・イヴニル_other_敗北_p4660
+        quote: 「ああ、そう。『私の方』はここで終わるのね」人形姫の瞳に諦めが浮かんだ。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_アレッテ・イヴニル_appears_ミルーニャたち_p4669
+        quote: 「安易に殺すより、尋問した方がいいかもしれません」「あら、簡単に言ってくれるのね」どこからともなく響く声。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_アレッテ・イヴニル_reveals_正体_p4686
+        quote: 「号は瞳の紅紫、性質は塔のお姫様、起源は冥道の模造品。アレッテ・イヴニル・ラプンシエル・ディルトーワ＝ベルラクルラールは、マラード・ディルトーワ・アム＝ドーレスタ・エフ＝ラフディ陛下にお力添えすべく推参致しました」
+        locator: {}
+        spoiler_after: ch0136
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0136_セリアック＝ニア_defeats_アレッテ・イヴニル_p4659
+        quote: 人形姫の邪視は一撃で粉砕され、堅牢で知られる球神障壁が紙のように引き裂かれてしまう。あらゆる球体は【猫】にとって掌で弄ぶ玩具でしかない。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_セリアック＝ニア_disappears_呪石_p4660
+        quote: 小さな猫姫が、粉々に砕け散った。直後、腰のポーチの中でがさごそと動く気配。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_セリアック＝ニア_attacks_ミルーニャ_p4661
+        quote: セリアック＝ニアが私の顔に張り付いているのだ。「にゃあ、りーにゃ、わるくない！ みるーにゃ、きらい！」
+        locator: {}
+        spoiler_after: ch0136
+    symbolic:
+      observations:
+      - event_ref: E_ch0136_セリアック＝ニア_has_property_曖昧な生死_p4665
+        quote: 完全に復活させると『生きている』ことが確定してしまい本国に捕捉されてしまうため、生死が曖昧なまま必要に応じて呪石弾で召喚する形で利用させてもらっている。
+        locator: {}
+        spoiler_after: ch0136
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード陛下]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0136_マラード陛下_other_流星群_p4675
+        quote: 天に散らばる無数の隕石たちが、次々と大地に降り注ぐ。流星群の大半は我が王の下に辿り着く前に燃え尽きるが、せめて少しでも役に立とうと奮起した愛の奴隷たちはその身を擲って陛下の敵へ突撃を敢行し、その速度と質量で恐るべき破壊をもたらすのである。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_マラード陛下_other_ルバーブ_p4683
+        quote: 陛下が大地に命じて、私を全力で支援させているのだ。陛下を背にして負けるわけにはいかぬ。
+        locator: {}
+        spoiler_after: ch0136
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルバーブ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0136_ルバーブ_other_マラード陛下_p4675
+        quote: 王の道を見届け、王の歩みを助け、王の身を守り、王の物語を紡ぐ。その役割を担う私――ルバーブは、漆黒の書物を手に陛下の偉業を確かに記録していった。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_ルバーブ_fights_オルヴァ王_p4680
+        quote: ラフディ相撲――古流サイバーカラテ。その真髄をここに示す。
+        locator: {}
+        spoiler_after: ch0136
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_カシュラム人]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0136_カシュラム人_betrays_カシュラム_p4676
+        quote: カシュラムの領地が、炎上している。こちらの兵が火をつけたのではない。内側から、カシュラム人たちが自ら放火したのである。
+        locator: {}
+        spoiler_after: ch0136
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オルヴァ王]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0136_オルヴァ王_appears_戦場_p4678
+        quote: 輝く十字の瞳。ノーグの血脈が伝える恐るべき眼光。大賢者オルヴァの眼差しが、全てを見通すようにこちらを貫いていた。
+        locator: {}
+        spoiler_after: ch0136
+    action:
+      observations:
+      - event_ref: E_ch0136_オルヴァ王_uses_ブレイスヴァカラテ_p4682
+        quote: サイバーカラテはブレイスヴァであり、ブレイスヴァとはオルヴァ王にとって唯一無二の武芸となっている。もはや発声すら必要としない呪的発勁が巨大な幻の顎を出現させる。
+        locator: {}
+        spoiler_after: ch0136
+      - event_ref: E_ch0136_オルヴァ王_dies_カシュラム_p4684
+        quote: 十字の眼球が、内側から破裂した。そればかりではなく、細身の身体の内部から無数の棘が突き出て、その命と共に鮮血が流れていく。
+        locator: {}
+        spoiler_after: ch0136
+  first_appearance_candidate: true

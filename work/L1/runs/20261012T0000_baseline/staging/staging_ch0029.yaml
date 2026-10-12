@@ -1,0 +1,172 @@
+episode: ch0029
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0029_アキラ_observes_青い空_p1241
+        quote: 美しいとかそういう価値基準を超えて、ただそこに広がっているあの綺麗な空が、私はたまらなく好きだ。
+        locator: {}
+        spoiler_after: ch0029
+    speech:
+      observations:
+      - event_ref: E_ch0029_アキラ_asks_空が青い理由_p1242
+        quote: 『色彩』を知ってからしばらくの間、私は子供の無邪気さで周囲の人々に様々な質問を投げかけた。「どうして空は青いの？」
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_アキラ_thinks_神話への不満_p1242
+        quote: 初めて大人からそれを教えられた時、私は大いに不満だった。それでは空がどうして『青』なのかという説明にはなっていないではないか。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_アキラ_fears_孤独_p1249
+        quote: 辺りの闇が残らず氷になってしまったかのような寒気がして、強く唇を噛みしめた。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_アキラ_fears_精神書き換え_p1252
+        quote: いいや、もっと悪くすれば、精神構造を書き換えられて今とは違う存在になってしまうかも知れない。そうしたら私はこの襲撃者の都合のいい存在に改変されて、意思を持たない奉仕種族のようになってしまうことだってあり得る。
+        locator: {}
+        spoiler_after: ch0029
+    action:
+      observations:
+      - event_ref: E_ch0029_アキラ_uses_GUI_p1245
+        quote: 私はまだ呪術についての理解が浅いから、視覚的、感覚的に捉えやすいＧＵＩを用いてこの曖昧な世界を泳いでいる。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_アキラ_uses_アストラル投射_p1245
+        quote: 魔将との戦闘を経て呪術の適性が上昇した私は、新たにアストラル投射の技能を獲得していたからだ。階梯を昇り、新たな目と耳、手足を得た私は、監視の目を潜り抜けてこっそりと世界を広げていたりする。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_アキラ_makes_蒼穹_p1246
+        quote: あの談話室の蒼穹も、私の好みが反映されたものだ。他の人達にも好評で、私の唯一自慢できる感覚再現の技術があの抜けるような空の表現なのだった。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_アキラ_makes_談話室_p1246
+        quote: 呪的に隔離された『部屋』を作り、知り合いの呪術師たちがアストラル体を投射し合って密やかに会話を楽しむ架空のサロン。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_アキラ_makes_投げ槍_p1252
+        quote: 言葉が文字に変換されて、文字が視覚化されて槍に変ずる。投げ槍のイメージと共に、呪文を敵対者に投げ放つ。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_アキラ_uses_ファイヤーウォール_p1252
+        quote: 正体不明の霊的侵入に対して、自動的に作動したファイヤーウォールが通信を遮断する。受動で発動・維持されるこの防壁は、不正なアクセスを逆にトレースして侵入者に対して反撃を行う機能も有している。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_アキラ_attacks_ハル_p1263
+        quote: 大地を踏みしめ、右手を大きく振りかぶってから後方に愛用の槌矛を再現。そして殺意たっぷりのフルスイング。手応えは無い、どころか、小さな身体では重さを支えきれずに手から槌矛が離れていく。
+        locator: {}
+        spoiler_after: ch0029
+    name:
+      observations:
+      - event_ref: E_ch0029_アキラ_names_アズーリア・ヘレゼクシュ_p1260
+        quote: 「ア、アズーリア・ヘレゼクシュです！　助けてくれて本当にありがとうございました！」
+        locator: {}
+        spoiler_after: ch0029
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_呪術師]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0029_呪術師_says_青の定義_p1242
+        quote: そして、とある呪術師はこう語る。「青は青じゃないものによって規定される」
+        locator: {}
+        spoiler_after: ch0029
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_神話]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0029_神話_defines_空が青い理由_p1242
+        quote: だから昼の間は彼女の目を自分に向けられるように、青い絵の具で星々の輝きを覆い隠してしまったのだ、と。
+        locator: {}
+        spoiler_after: ch0029
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_狂姫]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0029_狂姫_says_青の定義_p1243
+        quote: 「青くないものを全て列挙していけば、残ったモノが『青』じゃない？　違う？」
+        locator: {}
+        spoiler_after: ch0029
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_襲撃者]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch0029_襲撃者_appears_金眼_p1250
+        quote: ざああっと風の音が吹き、寒々とした夜の中に、それは現れた。金眼。爛々と光るその眼差しは、まるで視線のみでこちらを食らい尽くそうとする獣のよう。
+        locator: {}
+        spoiler_after: ch0029
+    action:
+      observations:
+      - event_ref: E_ch0029_襲撃者_attacks_アキラ_p1251
+        quote: 視線の色が攻撃性の呪力を帯びているのだ。私はさっきから、低級の地縛霊くらいならば消滅する程の邪視攻撃に抵抗し続けている。つまり既に交戦は始まっているということに他ならない。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_襲撃者_defeats_アキラ_p1252
+        quote: 金眼が極大の熱を放つ太陽の如く輝き、私の稚拙な呪術を一瞬で焼き尽くす。ダメだ、力量差がありすぎる。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_襲撃者_uses_エーテル体_p1252
+        quote: 侵掠する性質、すなわち『火』の形態を取るエーテル体が、私をクラッキングしようと無数の触手を伸ばす。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_襲撃者_captures_アキラ_p1253
+        quote: 射出された骨の欠片がローブの端に突き刺さって、何も無い空間に縫い止められる。金色の視線の先に形成されているのは、冷たい石の壁。邪悪な意思に従って、私の周囲に石の牢獄が形作られていく。
+        locator: {}
+        spoiler_after: ch0029
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0029_ハル_appears_歌声_p1254
+        quote: 私の恐怖を根こそぎにして、私と襲撃者の間に降り立つ人影があった。胸に手を当てて、口を大きく開いたその姿は、紛れもなく歌声の主。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_ハル_reveals_襲撃者の正体_p1259
+        quote: 「あれは幽霊――死霊系統の使い魔。本体の死霊使いがデータを収集するための端末」
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_ハル_says_空が青い理由_p1261
+        quote: 「――空が青い理由、知りたいの」
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_ハル_defines_青_p1262
+        quote: 「雲が白いから」「太陽が黄色いから」「草木が緑に茂っているから」「夕焼けが赤いから」「つまり『青』とは構造の中にある。色とは連関のこと」
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_ハル_says_アキラの変態性_p1263
+        quote: 「初対面の相手に口づけされて興奮するような変態――恥ずかしい」
+        locator: {}
+        spoiler_after: ch0029
+    action:
+      observations:
+      - event_ref: E_ch0029_ハル_makes_斧槍_p1256
+        quote: くるくると旋回する、言の葉の長柄。シャープな単語が韻を踏みながら刃と化す。歌声を呪文に、流れるような言霊がアストラルの世界で物質として振る舞いだしたのだ。その姿は槍。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_ハル_saves_アキラ_p1256
+        quote: そこまで考えて気付く。彼女は、私を襲撃者の邪視から守るために目の前に立ちはだかってくれたのだ。
+        locator: {}
+        spoiler_after: ch0029
+      - event_ref: E_ch0029_ハル_defeats_襲撃者_p1257
+        quote: 世界を震わせるような歌声と共に、横一直線に振り抜かれた斧の斬撃。それだけで、骨の花は粉々に砕け散り、そのまま霧散して消え去った。
+        locator: {}
+        spoiler_after: ch0029
+    name:
+      observations:
+      - event_ref: E_ch0029_ハル_names_ハルベルト_p1260
+        quote: 「ハルベルト。そういう名前。ハルでいい」
+        locator: {}
+        spoiler_after: ch0029
+  first_appearance_candidate: true

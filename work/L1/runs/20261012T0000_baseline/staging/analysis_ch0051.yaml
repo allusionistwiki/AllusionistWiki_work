@@ -1,0 +1,258 @@
+chapter: ch0051
+created: '2026-10-01'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 5
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0051_古き神_says_プリエステラの死]]'
+  object: '[[ME_ゲームの強制イベント]]'
+  claim: 世界の修正力によるプリエステラの死は、プレイヤーの介入を許さないゲームシナリオの強制イベント（デスゲーム）に似ている。
+  quote: 大抵の不運というやつは、そういう運命の帳尻合わせが露骨過ぎて可視化された結果なんだな。
+  paragraph: p2006
+  confidence: strong
+  quotes:
+  - quote: 大抵の不運というやつは、そういう運命の帳尻合わせが露骨過ぎて可視化された結果なんだな。
+    paragraph: p2006
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0051_アズーリア_uses_フィリス_p2005]]'
+  object: '[[ME_管理者権限]]'
+  claim: フィリスを用いた古き神との直接会話や世界の上位構造へのアクセスは、ゲーム開発者や管理者が持つデバッグモードやコンソールへのアクセスに類似する。
+  quote: 世界の上位構造をここまで明確に『翻訳』して意味や言葉の形にできるのは、君が呪文使い――語り直す力を持った人だからだよ。
+  paragraph: p2005
+  confidence: moderate
+  quotes:
+  - quote: 世界の上位構造をここまで明確に『翻訳』して意味や言葉の形にできるのは、君が呪文使い――語り直す力を持った人だからだよ。
+    paragraph: p2005
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0051_アズーリア_uses_万色彩星_p2013]]'
+  object: '[[ME_セーブ&ロード]]'
+  claim: サリアの時間遡行能力を複製して同じ距離だけ遡行し、失敗を繰り返す行為は、ゲームにおけるセーブポイントからのリトライ（セーブ＆ロード）のメタファーである。
+  quote: 【万色彩星】でサリアの時間遡行能力を複製して同じ『距離』だけ遡れる
+  paragraph: p2013
+  confidence: strong
+  quotes:
+  - quote: 【万色彩星】でサリアの時間遡行能力を複製して同じ『距離』だけ遡れる
+    paragraph: p2013
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch0051_サリア_confesses_コアとの喧嘩_p2015]]'
+  object: '[[ME_通信障害]]'
+  claim: コアとの『繋がり』が切れている状態は、オンラインゲームにおけるサーバーとの通信断絶や、パートナーとのマッチング切断に比喩される。
+  quote: その――今、ちょっと喧嘩してて『繋がり』切っちゃってるの。
+  paragraph: p2015
+  confidence: moderate
+  quotes:
+  - quote: その――今、ちょっと喧嘩してて『繋がり』切っちゃってるの。
+    paragraph: p2015
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch0051_古き神_says_あり得ない手_p2009]]'
+  object: '[[ME_攻略法]]'
+  claim: 「危険を恐れず、今までやらなかった事をやってみなさい」という忠告は、詰み状態のゲームにおける「あり得ない攻略法（バグ技や裏技）」の発見を促すメタ的な指示である。
+  quote: 危険を恐れず、今までやらなかった事をやってみなさい。
+  paragraph: p2008
+  confidence: strong
+  quotes:
+  - quote: 危険を恐れず、今までやらなかった事をやってみなさい。
+    paragraph: p2008
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch0051_古き神_names_アズーリア_p2010]]'
+  object: '[[ME_メシア]]'
+  claim: アズーリアが「依巫（いより）」であり、世界の修正力すら押しのける存在であるという記述は、宗教的なメシア（救世主）の概念を逆転させた「世界を破壊する救世主」を指す。
+  quote: 世界の修正力すら押しのけてしまう、君という世界観の修正力。
+  paragraph: p2010
+  confidence: moderate
+  quotes:
+  - quote: 世界の修正力すら押しのけてしまう、君という世界観の修正力。
+    paragraph: p2010
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch0051_古き神_says_身代わりの死_p2007]]'
+  object: '[[ME_身代わり]]'
+  claim: 「同じだけの強い運命を保有する誰かが代わりに死ねばいい」という条件は、古典的な物語における「身代わり」のモチーフと構造が一致する。
+  quote: 同じだけの強い運命を保有する誰かが代わりに死ねばいい。
+  paragraph: p2007
+  confidence: strong
+  quotes:
+  - quote: 同じだけの強い運命を保有する誰かが代わりに死ねばいい。
+    paragraph: p2007
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch0051_サリア_says_古き神_p2018]]'
+  object: '[[ME_神託]]'
+  claim: サリアが古き神の言葉を「話半分に聞くべき」「人間を手駒にして世界をねじ曲げたいだけ」と批判するのは、伝統的なファンタジーにおける「神託は絶対的真理である」というクリシェの逆転である。
+  quote: 古き神の言うことなんて話半分に聞いておいた方がいいわよ。
+  paragraph: p2018
+  confidence: strong
+  quotes:
+  - quote: 古き神の言うことなんて話半分に聞いておいた方がいいわよ。
+    paragraph: p2018
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第五階層の言震
+  note: 古き神がアズーリアの左手で解体すべきものとして言及した「第五階層の言震」。これがプリエステラを救うことで生じる時間流の果てにある災厄の正体。
+  quotes:
+  - quote: 君がプリエステラを救うことで定められてしまう時間流――その果てに待つ第五階層の言震を、見事その左手で解体してみせるがいい。
+    paragraph: p2009
+    quote_verified: true
+  expected_payoff: アズーリアがプリエステラを救った後、第五階層で遭遇する巨大な敵や現象として登場し、アズーリアの左手（フィリス関連の能力）によって解決される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ガルズ・マウザ・クロウサーとマリー
+  note: アズーリアが提案した「あり得ない手」の相手。彼らが倒される前に接触し協力する必要がある。
+  quotes:
+  - quote: 「ガルズ・マウザ・クロウサーとマリー。あの二人が倒される前に接触して、協力を仰ぐ」
+    paragraph: p2019
+    quote_verified: true
+  expected_payoff: カタルマリーナとビークレットの亡霊を撃破するためのキーアイテム、または彼らを制御する鍵となる存在として登場する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アズーリアの依巫覚醒
+  note: 古き神がアズーリアが「依巫」であることを明かし、覚醒が遅れていると指摘した。
+  quotes:
+  - quote: 君は紛れもなく、僕の依巫だ。
+    paragraph: p2010
+    quote_verified: true
+  expected_payoff: アズーリアが古き神の力をより深く行使できるようになる、あるいは古き神との関係性が変化する転機となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コアとの喧嘩の解決
+  note: サリアとコア（魔女）の喧嘩により『繋がり』が切れている状態。
+  quotes:
+  - quote: その――今、ちょっと喧嘩してて『繋がり』切っちゃってるの。
+    paragraph: p2015
+    quote_verified: true
+  expected_payoff: アズーリアがサリアとコアの仲直りを手伝うイベントが発生し、コアの助力を得て戦況が有利になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_フィリスの浸食の代償
+  note: フィリスに浸食された分は巻き戻らず、特異点としての性質が強まるが、他の神格からの干渉も受けやすくなる。
+  quotes:
+  - quote: フィリスに浸食されたぶんは巻き戻らないんだから。
+    paragraph: p2008
+    quote_verified: true
+  expected_payoff: アズーリアが他の神格（敵対する神々）から狙われる理由となり、物語後半の主要な脅威となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命の決定論と自由意志の対立
+  weight: 0.9
+  quotes:
+  - quote: プリエステラを見捨てるんだ。
+    paragraph: p2006
+    quote_verified: true
+  - quote: 世界の修正力すら押しのけてしまう、君という世界観の修正力。
+    paragraph: p2010
+    quote_verified: true
+  note: 古き神が説く「必然的な死」に対し、アズーリアが「諦めない必然性」で対抗する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メタ構造（リトライと攻略）
+  weight: 0.8
+  quotes:
+  - quote: 【万色彩星】でサリアの時間遡行能力を複製して同じ『距離』だけ遡れる
+    paragraph: p2013
+    quote_verified: false
+  - quote: 危険を恐れず、今までやらなかった事をやってみなさい。
+    paragraph: p2008
+    quote_verified: true
+  note: 時間遡行を「リトライ」、古き神の忠告を「攻略法」として読み解くメタフィクション的側面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 共感による連鎖と責任
+  weight: 0.7
+  quotes:
+  - quote: 人の子は似たものに共感を覚えてしまう。
+    paragraph: p2010
+    quote_verified: true
+  - quote: 関わったからには最後まで責任を持ちなさい。
+    paragraph: p2009
+    quote_verified: true
+  note: アズーリアがプリエステラに共感し、サリアがコアに共感し、古き神がアズーリアに共感する「共感の連鎖」が物語を駆動させる原動力。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 神々の不道徳性と人間の主体性
+  weight: 0.6
+  quotes:
+  - quote: 古き神の言うことなんて話半分に聞いておいた方がいいわよ。
+    paragraph: p2018
+    quote_verified: true
+  - quote: あいつらは結局、人間を手駒にして自分の都合のいいように世界をねじ曲げたいだけ。
+    paragraph: p2018
+    quote_verified: true
+  note: サリアによる古き神批判を通じて、神の啓示を盲信せず人間が自らの意志で運命を切り開くことの重要性を提示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

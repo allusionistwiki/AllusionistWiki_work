@@ -1,0 +1,231 @@
+episode: ch0010
+created: '2026-10-10'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_カッサリオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0010_カッサリオ_breaks_泉の壁_p435
+        quote: 本来は大部屋であったはずのそこは、現在カッサリオの放った衝撃波によって壁が全て破壊され、瓦礫だらけの廃墟じみた空間になってしまっている。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_カッサリオ_transforms_牙の伸張_p462
+        quote: カッサリオの短い方の牙が急激に伸張する。 非現実的な光景。しかしここは呪術の世界だ。何が起こっても不思議ではない。
+        locator: {}
+        spoiler_after: ch0010
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0010_コルセスカ_makes_呪術準備_p436
+        quote: 見ると、なにやら床に文字や模様を描いている。例の指輪から取り出した血液を塗料にしているようだが、あの小さな氷の指輪にどれだけの血液が詰まっているのだろう。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_コルセスカ_activates_凍結呪術_p455
+        quote: 「始めます――凍れ」  コルセスカが命じると共に、背後の泉、その大量の水が完全に氷結する。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_コルセスカ_activates_シャルマキヒュの凍視_p459
+        quote: 「無駄です。【シャルマキヒュの凍視】は受動型呪術。行動を終えた貴方たちに、回避の権利はありません」
+        locator: {}
+        spoiler_after: ch0010
+    speech:
+      observations:
+      - event_ref: E_ch0010_コルセスカ_observes_アキラの表情_p442
+        quote: 「いえ。ただ、随分と楽しそうな顔をするなと思いまして。私が、見たことのない表情です」
+        locator: {}
+        spoiler_after: ch0010
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0010_トリシューラ_says_専門分野の違い_p437
+        quote: 対して私は『杖』の魔女。この分野は基本的に呪具を事前に作って、戦闘時にはそれを運用することしかできないの。つまり手持ちの呪具が何にも無い、材料も無いこの状況じゃ役立たずってわけ
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_トリシューラ_confesses_不安と謝罪_p439
+        quote: あの、ちょっと私も混乱してて。予想してた状況と今が全然違ってて――なんか、不安で。でも、考えたらアキラくんはもっと不安だよね。そういうこと考えられなくて、その、ごめんなさい
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_トリシューラ_promises_有用性の証明_p441
+        quote: 私は、何度だって自らの有用性を証明する。だから私にもう一度機会を頂戴。私の人格が信用できないっていうのならそれは構わない、自分の性能を証明して、それを信用してもらうだけ
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_トリシューラ_confesses_マッチポンプへの対抗_p444
+        quote: 「私は、セスカの裏をかいてアキラくんを使い魔にしようって思ってた。セスカが地上の組織を利用してアキラくん獲得に動いて、他の勢力もアキラくんを狙い始めたから、これはセスカが全部仕組んだことなんだ、私も手を打たないとアキラくんをとられちゃうって思ったの。私だってアキラくんに目を付けてたのに」
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_トリシューラ_says_アキラの性的指向_p453
+        quote: 「めんどくさーい。女子二人がちやほやしてるのにめんどくさい――はっ、もしやアキラくんはホモセクシャル？！」
+        locator: {}
+        spoiler_after: ch0010
+    action:
+      observations:
+      - event_ref: E_ch0010_トリシューラ_attacks_アキラ_p440
+        quote: 「ポンコツって言うなぁっ」  いきなり立ち上がったトリシューラが勢いよく俺に掴み掛かってきた。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_トリシューラ_breaks_泉の装置_p456
+        quote: トリシューラが起爆の呪符を発動させ、背後の泉を破壊したのだ。底に設置された『泉』の機能を維持する装置が壊れ、融合体の侵入を妨げていた隔たりが消えて無くなる。
+        locator: {}
+        spoiler_after: ch0010
+    visual:
+      observations:
+      - event_ref: E_ch0010_トリシューラ_wounds_自身_p466
+        quote: 既にぼろぼろだった衣服は完全に引き裂かれ、内側に隠されていた金属質の膚までもが深く損傷していた。 肩から腹部にかけて、深々とした傷。大量の鮮血が流れ、床を染め上げていく。
+        locator: {}
+        spoiler_after: ch0010
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0010_アキラ_says_不信の限界_p438
+        quote: このままだとお前の信用が失われるより先に、お前への不信が限界に達しそう
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_says_殺意の定義_p439
+        quote: 信用が失われれば俺はそいつをクズだと認識して無視するが、不信が蓄積すれば敵だと認識して殺す
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_thinks_価値の相対性_p441
+        quote: 価値とは相対的な関係性の中で創出されるもの――換言すればでっち上げられるものだからだ。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_says_力の貸与条件_p447
+        quote: 「大まかな状況はわかった。お前らはその競争相手に嵌められて、揃って攻撃を受けている、と。ついでに俺の立ち位置もそれなりに見定められた。状況次第で協調できるのは俺も同じだ。お前らが俺に敵対しないことを条件に、俺の力を『貸してやる』。さあ『力を貸して欲しい』と言え」
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_asks_カーインの治療_p449
+        quote: 「俺が頼みたいのはトリシューラじゃなくて、お前の治療だよ、ロウ・カーイン。できるんだろう？ 何しろ技をかけた本人だ」
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_threatens_カーインの誇り_p451
+        quote: 「それとも、『六淫操手』とかいう二つ名は虚名だったのかな。唾を油まみれにするのが関の山の大道芸か。全く、お里が知れる」
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_says_性的指向への反論_p453
+        quote: 「俺は別に単性愛者でも幼児性愛者でもないし、仮にそうだったとしても個人の性的指向や性的嗜好に関して他人に文句を付けられる筋合いはない。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_remembers_カインの死_p470
+        quote: その光景は、半年前にエスフェイルに取り込まれ、同化させられたカインの姿を思い起こさせずにはいられなかった。 かつて俺は、懇願する彼の願いを聞き届け、その生命を終わらせた。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_thinks_怒りの変換_p470
+        quote: 『悲しみではなく、怒りを抱くこと。そして怒りは闘志に変えること。怒りや憎しみをそうして使ってやれば、遺された者は感情に溺れること無く戦い続けられる』
+        locator: {}
+        spoiler_after: ch0010
+    action:
+      observations:
+      - event_ref: E_ch0010_アキラ_attacks_トリシューラ_p443
+        quote: 「許可もなく人をトロフィーにして競争のダシにしてんじゃねえ不快だ殴るぞ」
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_loses_意識_p448
+        quote: ぐらりと視界が傾いで、身体が完全に横倒しになる。吐き出す吐息は熱い。意識が朦朧とし始める。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_observes_融合体の音_p454
+        quote: 最後に残ったひとつ、最も特徴的な音を捉え、発生源までの距離を測定する。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_finds_カッサリオの位置_p460
+        quote: そもそも、あれほどの巨体だというのに、融合体の表面にはそれとわかるようにカッサリオの姿が現れていない。そうやって隠されている時点でもう弱点であると宣言しているようなものだ。
+          しかし俺の耳、音響処理アプリ『Ｄｏｐｐｌｅｒ』はその位置を正確に捉えている。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_attacks_カッサリオ_p461
+        quote: 「発勁用意」の文字が輝きを放ち、太く巨大な左義肢の先端に、右足から伝達された力が最適な効率で収束、融合体と接する一点で炸裂する。「ＤＯＳＵＫＯＩ！」
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_breaks_カッサリオの角_p462
+        quote: 右手が凄まじい速度で空中打鍵、操作に従って左の義肢が角の振動数と全く同じ振動を発生させる。『聴勁』による共振。 カッサリオの長大な角が、軋むような音を立て、砕け散る。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_activates_空間断層_p463
+        quote: 文字通り、通常モードの左手を反転させ、空間断層を生み出す戦闘モードに切り替えたのである。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_finds_斧_p464
+        quote: 直感に従い、辛うじて残った二本の指でその何かを掴んだ。 それは斧だった。 俺がこの巨獣にとどめを刺すために投げ放ち、仕留め損なったまま体内に残されていた、この義肢にとっての本当の武器だ。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_kills_カッサリオ_p464
+        quote: 赤熱した義肢と刃が内側から外側に抜けた。空間の断層が刃となって内臓、筋骨、脂肪、皮膚をまとめて両断。血飛沫が上がった。 左義肢の決定的な損壊と同時に、融合体は絶叫を上げ、全身を痙攣させると、最後に大きく跳ね上がり、そのまま力を失っていった。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_アキラ_attacks_融合体_p471
+        quote: これは、殺意だ。 周囲の声を全て無視して、触手を蠢かせる巨大な融合体へと肉薄する。
+        locator: {}
+        spoiler_after: ch0010
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トライデント]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0010_トライデント_attacks_アキラたち_p445
+        quote: 「あの青い血液による異質な生命同士の融合現象。あれは間違いなくトライデントの禁戒呪法『融血呪』です。つまり、私達は今、トライデントの攻撃を受けていると見てまず間違いありません」
+        locator: {}
+        spoiler_after: ch0010
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_星見の塔]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch0010_星見の塔_defines_最後の魔女の席_p446
+        quote: 「同じ組織に属しているからこそ競争するの。私達は『星見の塔』の『最後の魔女』の席を賭けて争っているんだ。その席はたった一つつきりで、四人いる候補者のうち一人しかそこには座れない。
+        locator: {}
+        spoiler_after: ch0010
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロウ・カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0010_ロウ・カーイン_captures_泉への侵入禁止_p450
+        quote: 先程まで悪鬼、つまり異獣たちの仲間であったカーインは『下』勢力であると『世界槍』に認識されている。恐らく審判のヲルヲーラの裁定だろうが、その為『上』の拠点である『泉』に侵入することができなかったのだ。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_ロウ・カーイン_other_探索者パーティ_p450
+        quote: 果断にも雇い主を裏切る決断を下したカーインは暫定的にコルセスカの仲間として探索者パーティに加入したのだった。
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_ロウ・カーイン_other_アキラ_p452
+        quote: 「経絡秘孔を突き、任脈に気を充溢させた。一時的に肉体の活力が平常時の三倍にまで高まっているはずだ。見たかシナモリ・アキラ！ これが『六淫操手』が虚名ではないという確たる証拠！」
+        locator: {}
+        spoiler_after: ch0010
+      - event_ref: E_ch0010_ロウ・カーイン_attacks_融合体_p468
+        quote: カーインが鋭く脚を踏みだし、貫手を融合体に繰り出していく。右、左と様々な箇所にその毒手が突き込まれるが、しかし融合体はまるで意に介さない。
+        locator: {}
+        spoiler_after: ch0010
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少年]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0010_少年_captures_触手_p467
+        quote: 猫耳の少年が、無数の触手に捕らわれていた。 トリシューラの腕から奪われた小柄な体躯が、青黒い触手の群れに拘束され、宙に浮いている。
+        locator: {}
+        spoiler_after: ch0010
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_融合体]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch0010_融合体_other_少年_p469
+        quote: 本体中央が口を開くように大きく窪んだかと思うと、その中に少年を一気に飲み込んでしまったのだ。 一瞬の出来事。止めることすらできず、右手を中途半端に上げたまま動きが静止する。
+        locator: {}
+        spoiler_after: ch0010
+  first_appearance_candidate: true
