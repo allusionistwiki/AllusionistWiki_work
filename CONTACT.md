@@ -2,6 +2,9 @@
 
 Wiki 側（AllusionistWiki_obsidian / Quartz 公開系）で行った変更のうち、LLM2 側の作業に影響する事項の連絡。
 
+> **L0〜L7 層設計はアリュージョニスト Wiki 2（『幻想再帰のアリュージョニスト』解析 Wiki）専用設計。**
+> スキーマ・命名規則・来歴チェーン・公開層はすべて Wiki 2 前提。他 Wiki への一般再利用は想定しない（詳細は README.md）。
+
 ## 1. Repo の所在が変更になった
 
 | 用途 | 現在（正） | 旧（archive 済み・読み取り専用） |
@@ -26,7 +29,8 @@ Wiki 側（AllusionistWiki_obsidian / Quartz 公開系）で行った変更の�
 
 - 旧サイト `allusionistwiki.github.io/AllusionistLLMWiki2/` は archive（URL は生存するが更新停止）。**新 URL: `https://allusionistwiki.github.io/AllusionistWiki/l1/`**。外部への案内は新 URL へ。
 - 公開コンテンツの変更 = `AllusionistLLMWiki2_Obsidian` の `wiki/` を push すれば、本家 Quartz デプロイが自動で取り込む（毎時 schedule / `repository_dispatch: vault-updated` / Quartz main push）。デプロイマーカーは **vault SHA + L1 SHA の連合キー（v3）** — L1 側の push だけで再ビルドされる。
-- L1 内リンク規約: 層内は相対 markdown（`./claims/`）か wikilink（層内で解決）。**本家 wiki へのリンクはサイト URL `/AllusionistWiki/...`**（wikilink 不可・層を跨げない）。index.md は 2026-10-13 にこの規約へ更新済み（旧 wiki 相対リンクの `../` 脱出 7 件を解消）。他ページも markdown リンクを書く場合は同規約に合わせる。
+- L1 内リンク規約（2026-10-13 確定・v3）: 層内は相対 markdown（`./claims/`）か wikilink（層内で解決）。**節インデックス・層跨ぎリンクは完全修飾 URL `https://allusionistwiki.github.io/AllusionistWiki/l1/...` のみ安全**（root-absolute `/AllusionistWiki/...` は Quartz が層相対へ書き換えて層外脱出 404 化、相対 `../X/index.md` は basename `index` 曖昧で 404 化。完全修飾 URL は Quartz の書き換え対象外）。
+- Quartz FolderNotes 仕様: 全サブフォルダに `index.md` が必要（欠くと breadcrumb リンクが 404）。新サブフォルダ作成時は `AllusionistLLMWiki2/scripts/build_folder_indexes.py` の対象に追加すること。公開検証の基準: 300 ページサンプルクロール broken 0（2026-10-13 達成、commit `99124536`）。
 
 ## 4. L2（名前統合）の初 run 設計が確定している
 
