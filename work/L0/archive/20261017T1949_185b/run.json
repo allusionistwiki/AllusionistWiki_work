@@ -1,0 +1,23 @@
+{
+ "run_id": "20261017T1949_185b",
+ "layer": "L0",
+ "kind": "quote-map",
+ "created": "2026-10-17T19:49:00",
+ "derived_from": {
+  "l1_run": "20261012T0000_baseline",
+  "raw_ledger_syosetu": "AllusionistWiki_raw/raw/novel/syosetu/n9073ca_幻想再帰のアリュージョニスト",
+  "raw_ledger_kakuyomu": "AllusionistWiki_raw/raw/novel/kakuyomu/16816927859268545348_幻想再帰のアリュージョニスト"
+ },
+ "policy": "カクヨム参照は ¶N 原生（URL #pN 対応）。引用全文一致で ¶ 対応を確定、不一致は再解析。",
+ "tool": "scripts/build_quote_map.py",
+ "stats": {
+  "total": 38288,
+  "hit": 18447,
+  "miss": 3459,
+  "no_episode_map": 16347,
+  "syosetu_chapters": 272,
+  "kakuyomu_episodes": 589,
+  "kakuyomu_only": 254,
+  "chapters_needing_review": 117
+ }
+}

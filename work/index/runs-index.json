@@ -1,11 +1,23 @@
 {
-  "L1": {
-    "20261012T0000_baseline": {
-      "path": "work/L1/runs/20261012T0000_baseline",
-      "status": "active",
-      "kind": "baseline",
-      "derived_from": "AllusionistLLMWiki2_Work@054f7a2a"
-    }
-  },
-  "L2": {}, "L3": {}, "L4": {}, "L5": {}, "L6": {}
+ "L1": {
+  "20261012T0000_baseline": {
+   "path": "work/L1/runs/20261012T0000_baseline",
+   "status": "active",
+   "kind": "baseline",
+   "derived_from": "AllusionistLLMWiki2_Work@054f7a2a"
+  }
+ },
+ "L2": {},
+ "L3": {},
+ "L4": {},
+ "L5": {},
+ "L6": {},
+ "L0": {
+  "20261017T2011_f863": {
+   "path": "work/L0/runs/20261017T2011_f863",
+   "status": "active",
+   "kind": "quote-map",
+   "derived_from": "20261012T0000_baseline"
+  }
+ }
 }
