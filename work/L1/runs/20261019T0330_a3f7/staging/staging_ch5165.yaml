@@ -1,0 +1,368 @@
+episode: ch5165
+created: '2026-10-19'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ダイロくん少年]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5165_ダイロくん少年_says_決意_p102
+        quote: '「お前のせいじゃない。お前のお陰で、俺はお前やみんなを守れる。見ていてくれクィ。俺はこの力であいつらを倒す。戦って俺達の居場所を勝ち取るんだ」
+
+          悲壮な決意。大量の呪石が捧げられた儀式場の中央で蹲る巨大な機竜。その角に少年が血を垂らすと、背中が開いていく。内側に入っていく少年が小さく何かを呟いた。少女が涙を流しながら儀式の最終工程を終わらせる。そうして、鋼鉄の蜥蜴は立ち上がった。一人の少年の命を捧げることによって。'
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_大機竜オルガンローデ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5165_大機竜オルガンローデ_requires_一人の少年の命_p104
+        quote: そうして、鋼鉄の蜥蜴は立ち上がった。一人の少年の命を捧げることによって。
+        locator: {}
+        spoiler_after: ch5165
+    visual:
+      observations:
+      - event_ref: E_ch5165_大機竜オルガンローデ_appears_as_巨大な鋼の蜥蜴_p34
+        quote: 竜神信教が怪しげな呪術儀式によって起動させたそれを、どう形容すればいいだろう。一番近いのは、巨大な鋼の蜥蜴といったところだろうか。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_大機竜オルガンローデ_has_property_機械的な構造_p37
+        quote: それは機械。鎧のような鱗、無機的でありながら有機的なしなやかさを併せ持つ高度な杖の技術。
+        locator: {}
+        spoiler_after: ch5165
+    name:
+      observations:
+      - event_ref: E_ch5165_大機竜オルガンローデ_defines_呪術によって創造可能な竜_p41
+        quote: 大機竜オルガンローデ。九体存在する創世の竜、その中で唯一架空の存在であるこの竜は、呪術によって創造することが可能な呪術竜なのである。四大系統に一つずつ存在するオルガンローデの秘術のうち、物質的に機械の竜を再現しようとする杖のオルガンローデは現在の技術では再現不可能とまで言われている。
+        locator: {}
+        spoiler_after: ch5165
+    action:
+      observations:
+      - event_ref: E_ch5165_大機竜オルガンローデ_has_property_呪術障壁_p53
+        quote: 凄まじい衝撃と呪力が大機竜の装甲から全方位に放たれて、拘束が全て弾き飛ばされていく。アルスタは骨の鞭を手に戻して再び攻撃を行うが、風を切り裂いていく穂先は不可視の障壁に弾かれてしまう。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_大機竜オルガンローデ_attacks_溶けた金属_p59
+        quote: 更に機竜は口から細長い筒を伸張させる。吐き出されたのはどろどろに溶けた赤熱する金属。液体となった金属が蒸気を上げながら少年に襲いかかる。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_大機竜オルガンローデ_attacks_雷撃文字列_p60
+        quote: 続いて、前足の付け根、肩の部分から複雑な呪文が展開され、追尾する文字列が少年の身を打ち据える。文字が雷撃に変じて少年の身を灼いた。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_アキラ私]]'
+  entity_type: motif
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5165_アキラ私_activates_静謐_p107
+        quote: 【静謐】が発動して呪術障壁を破壊した。大量の金鎖が今度こそ大機竜の前進を止めた。拘束された鋼の蜥蜴は身体を左右に振って金鎖を振り解いていく。その鬼気迫る様子に、思わず私は叫ぶ。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_アキラ私_uses_静謐_p172
+        quote: 少女は無事だった。金鎖に巻かれながら呆然としている。咄嗟に【静謐】を発動させて、少女に襲いかかった熱だけを打ち消すことができた。衝撃の方はフラベウファがいなければどうにもならなかっただろう。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_アキラ私_uses_方形盾_p4
+        quote: 私は左手の方形盾を構えて見張りの一人に突進し、全力で体当たりをくらわせた。いかに体格で劣っていても、呪動装甲のような硬い重量物が高速でぶつかってくれば転倒は不可避である。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_アキラ私_uses_対抗呪文静謐_p83
+        quote: 本来ならば到底不可能な凄まじいまでの情報解析。左手に宿る寄生異獣の力があってはじめて可能になる大呪術――対抗呪文、【静謐】。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_アキラ私_observes_過去少年と少女_p90
+        quote: 最初に見えたのは、シャベルを担いだ少年。同胞の墓を掘り終えて、どこかに向かおうとしている。その背後で少女が哀切な叫びを上げる。
+        locator: {}
+        spoiler_after: ch5165
+    speech:
+      observations:
+      - event_ref: E_ch5165_アキラ私_thinks_左手の使用_p62
+        quote: 金鎖の解放。『左手』の使用。実戦で使うのは初めてだが、ここでやらなければいつやるというのだろう。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_アキラ私_says_遡って、フィリス_p86
+        quote: '私は大機竜の過去へと精神を沈み込ませながら、その言葉を口にした。
+
+
+          「遡って、【フィリス】」'
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_フラベウファ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5165_フラベウファ_says_鎖せ_p11
+        quote: '「鎖（とざ）せ」
+
+
+          冷淡な声。フラベウファの金鎖が竜神信教の信者たちを次々と拘束し、一繋がりにしていく。最後にまとめて締め上げる。ご丁寧に、アルスタが切り裂いた足までも縛り上げて血を止めていた。'
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_フラベウファ_says_非戦闘員の男_p24
+        quote: '「いえ、確かにいましたが――申し訳ありません、この男、非戦闘員として数えておりましたが」
+
+          言ってフラベウファは一人の男を示す。顔面は蒼白で息は荒い。よく見れば片腕を失っているようだ。怪我をしているにも関わらず仲間を守るために前線に出てきたのだろう。'
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_フラベウファ_says_時間の稼ぎ_p65
+        quote: 「わたくしが時間を稼ぎます。その間に、解析と解体の準備を」
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_フラベウファ_says_零番目の金鎖_p76
+        quote: '「いぐにす・あうるむ・ぷろばっと――キュトスの姉妹が『零』番目、金鎖のフラベウファ、参ります」
+
+          この世のものとはおもえぬ奇怪な意味を内包した呪文が宣名と共に唱えられ、さらにありえない称号が現実そのものをねじ曲げる。'
+        locator: {}
+        spoiler_after: ch5165
+    action:
+      observations:
+      - event_ref: E_ch5165_フラベウファ_activates_寄生異獣_p68
+        quote: 私の左手の金鎖が砕けるのと、フラベウファの首の金鎖が砕けるのは全く同時だった。金鎖解放。それは寄生異獣の活性化を許可するということ。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_フラベウファ_uses_金鎖_p7
+        quote: それはフラベウファが操る金色の細長い鎖だ。彼女の両の掌から伸びた金鎖が自在に動いて、呪術を発動する前に封じ込めているのだ。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_フラベウファ_other_アルスタ_p74
+        quote: 掌の口から吐き出される金鎖の数が次々に増え、彼女の周囲を取り巻いていく。伸びた金鎖は主である少年の周囲を壁のように覆い、大機竜の攻撃から守る。
+        locator: {}
+        spoiler_after: ch5165
+    name:
+      observations:
+      - event_ref: E_ch5165_フラベウファ_defines_モルゾワーネスの万能細胞_p73
+        quote: 第二魔将変異獣モルゾワーネスの万能細胞によって再現された、とある神話の登場人物。聖人、天使、古い神話では伴神とも呼ばれた彼女は、常に偉大なものの従者であったと伝えられている。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_アルスタソルダ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5165_アルスタソルダ_says_悲劇を笑い飛ばす_p115
+        quote: 「愛や絆が引き裂かれるのを見るのは、いつだって辛い――だから、ここからは僕の戦いだ。僕という存在は、全ての悲劇を笑い飛ばす為にこの地上に降りてきたんだから」
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_アルスタソルダ_says_聖遺物の解放申請_p120
+        quote: '「フラベウファ。松明の騎士団総団長の名に於いて聖遺物の解放を申請する」
+
+          「承りました、わがあるじ。緊急時における聖遺物の使用に関する規則第一条第四項に基づき、大神院の認可無しでの自動承認を行います。申請者の責任において聖槍の制限を解除」'
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_アルスタソルダ_names_松明の騎士_p136
+        quote: 「第八位の天使ピュクティエトに誓い、ここに宣名を行う！ 我が名はソルダ＝ルセス・アルスタ＝アーニスタ！ 闇を照らし、希望を掲げる【松明の騎士】！！」
+        locator: {}
+        spoiler_after: ch5165
+    action:
+      observations:
+      - event_ref: E_ch5165_アルスタソルダ_transforms_呪動装甲_p127
+        quote: '炎の中から現れたのは、赤と黄金の装甲を輝かせた、燃えるような全身甲冑。
+
+          呪動装甲。修道騎士の証。'
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_アルスタソルダ_uses_炎天使_p138
+        quote: 背中から広がる炎の翼。最高位の呪術――神働術である【炎天使】を発動させて、少年は空高く跳躍し、そのまま飛翔した。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_聖槍アルスタの槍]]'
+  entity_type: item
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5165_聖槍アルスタの槍_is_made_of_第三魔将ヴェイフレイのアストラル体_p133
+        quote: '第三魔将ヴェイフレイの燃えるアストラル体を憑依させたとある聖遺物――聖なる骨。槍に擬態していたそれが、呪動装甲としての真の姿を露わにしていた。
+
+          いや、それは【神働装甲】とでも呼ぶべきものであるのかもしれない。'
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ソルダ・アーニスタ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5165_ソルダ・アーニスタ_defines_最弱にして常勝_p147
+        quote: 最弱という二つ名には続きがある。すなわち、最弱にして常勝。曰く、地上にとっての無限の希望であり地獄にとっての真なる絶望。彼こそは至高の聖騎士。
+        locator: {}
+        spoiler_after: ch5165
+    action:
+      observations:
+      - event_ref: E_ch5165_ソルダ・アーニスタ_uses_引喩アリュージョン系神働術_p149
+        quote: 「初代松明の騎士である大フォグラントの存在を参照し、その威光を纏って戦う引喩（アリュージョン）系神働術――たった300秒ですが、彼はその間だけ真の英雄となる。空想（おとぎばなし）の勇士を現代に甦らせる聖なる祭祀」
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_ソルダ・アーニスタ_attacks_大機竜オルガンローデ_p153
+        quote: アルスタ――否、ソルダ・アーニスタは炎の翼を燃え立たせながら飛翔する。呪文による文字の雷撃を手の一振りで打ち払い、口から吐き出される高熱の液体金属を軽々と避ける。飛翔の勢いのまま繰り出された拳が爆炎を放出して大機竜の頭部を弾き飛ばした。
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_ソルダ・アーニスタ_saves_ダイロくん少年_p184
+        quote: 'そっと差し出された少女の焼けただれた手が、ひんやりとした氷に触れる。
+
+
+          氷の障壁に守られて、生き永らえた少年の姿がそこにあった。'
+        locator: {}
+        spoiler_after: ch5165
+    speech:
+      observations:
+      - event_ref: E_ch5165_ソルダ・アーニスタ_uses_神火明光ロウォイラス_p166
+        quote: '「貫け、神火明光（ロウォイラス）！！」
+
+          灼熱の輝きが槍となって天から突き下ろされそうになったその時、離れた場所で固まっていた竜神信教の信者たちの中から一人の少女が飛び出す。真っ直ぐに駆け出して、大機竜に近付いていく。'
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_ソルダ・アーニスタ_says_愛する者同士の引き裂き防止_p187
+        quote: 「最初から【氷槍】を発動して彼の命は守るつもりだった。愛する者同士が引き裂かれるのは、見ていられない」
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_ソルダ・アーニスタ_says_遠くの誰かへの想い_p194
+        quote: '彼は愛おしげにその箇所を撫でると、そっと呟く。
+
+
+          「きっと君ならこうするはずだ。そうだろう？」
+
+          遠くにいる誰かを想うように、彼は囁く。'
+        locator: {}
+        spoiler_after: ch5165
+    visual:
+      observations:
+      - event_ref: E_ch5165_ソルダ・アーニスタ_has_property_首筋の噛み痕孔_p191
+        quote: その首筋から微かな呪力が漏れていることに気がつく。どこに繋がっているのか、虚空のある一点で消失するか細い呪力の糸。まるで噛み痕のように淡く光る、首筋の二つの点。しかし、彼の首筋には実際には孔などは存在しない。まるでずっと昔に孔を空けられて、霊体だけにその痕跡が残されているかのようだと、何とはなしに思った。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_少女クィ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5165_少女クィ_travels_大機竜_p168
+        quote: 灼熱の輝きが槍となって天から突き下ろされそうになったその時、離れた場所で固まっていた竜神信教の信者たちの中から一人の少女が飛び出す。真っ直ぐに駆け出して、大機竜に近付いていく。
+        locator: {}
+        spoiler_after: ch5165
+    speech:
+      observations:
+      - event_ref: E_ch5165_少女クィ_other_ダイロくん_p179
+        quote: '「そんな、ダイロくん、ダイロくんっ」
+
+          少女は緩んだ金鎖から抜け出すと、目尻から雫をこぼしながら走った。熱を持った大機竜にとりつくと、皮膚が熱で焼けていくのも構わずに背中に這い上がっていく。掌、腕、膝を火傷しながらも、少女は懸命に大機竜の残骸にとりつく。そして、その内側を見た。瞳から止め処なく涙が溢れた。幼い顔がくしゃりと歪む。'
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルスタ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5165_アルスタ_says_巫女の不在_p18
+        quote: 「おかしい――戦闘員の中に巫女が入っていない」
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_アルスタ_says_大機竜オルガンローデの正体_p39
+        quote: 「まさか大機竜オルガンローデとはね――墓標船の奥深くで誰にも気付かれずに眠っていたのか。竜神信教の巫女がその感応力で呼び覚ましたのかな」
+        locator: {}
+        spoiler_after: ch5165
+      - event_ref: E_ch5165_アルスタ_says_転ばせる計画_p46
+        quote: '「やるしかないっ。フー、アズーリア、援護を頼む！ 転ばせてみる！」
+
+          少年は意を決したように宣言し、恐るべき巨大な機械に正面から立ち向かっていく。'
+        locator: {}
+        spoiler_after: ch5165
+    action:
+      observations:
+      - event_ref: E_ch5165_アルスタ_wounds_見張り_p5
+        quote: アルスタは長槍を振るって一人の足を切り裂いて行動不能にしていた。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_主人公達]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5165_主人公達_attacks_見張り_p2
+        quote: 一、二、三と聖なる数字が数えられ、私たち三人はほとんど同時に飛び出した。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_巫女]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5165_巫女_defines_高次元存在との交信者_p20
+        quote: 巫女というのは宗教体のほとんどで見られる特殊な神官のことだ。槍神教においては聖女がそれに相当する。最も神に近しいもの。呪的もしくは霊的な素養が高い、高次元存在と交信できるもの。竜神信教にもそうした存在がいるはずだった。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_見張り四人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5165_見張り四人_defeats_null_p3
+        quote: 突然の奇襲に対応しきれずに見張りの四人が次々と倒されていく。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_墓標船]]'
+  entity_type: terminology
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5165_墓標船_enables_大機竜の再現_p43
+        quote: 異世界の知識が詰め込まれた墓標船を利用すれば、可能性はあるのだ。
+        locator: {}
+        spoiler_after: ch5165
+    action:
+      observations:
+      - event_ref: E_ch5165_墓標船_appears_as_増援_p6
+        quote: 墓標船の内部から次々と増援が現れてくる。彼らは次々に呪符や巻物を取り出して呪術を発動させようとするが、それらの呪具に素早く巻き付くものがあった。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_アルスタの槍]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5165_アルスタの槍_is_made_of_骨_p5
+        quote: 奇妙な槍だった。骨張ったというか、骨そのもの。長大な生き物の背骨をそのまま槍にしたような異形の得物。無骨を通り越して原始的な武器を縦横無尽に振るって瞬く間に貫頭衣を纏った竜神信教の信者たちを倒していく。
+        locator: {}
+        spoiler_after: ch5165
+    action:
+      observations:
+      - event_ref: E_ch5165_アルスタの槍_transforms_鞭多節棍_p50
+        quote: 後ろ手に槍を引き抜いて、最高点に到達した彼は槍を伸張させた。背骨がばらばらに分解し、複数の節を金鎖が繋ぐ多節棍――否、鞭となって大機竜の首に巻き付いた。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルスタ・アキラ・フラベウファ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5165_アルスタ・アキラ・フラベウファ_fights_大機竜オルガンローデ_p51
+        quote: アルスタは鞭の反対側を墓標船の突起に食い込ませ、勢い余った大機竜はそのまま転倒しそうになる。寸前で踏みとどまった巨大質量の足を、私とフラベウファの拘束呪術と金鎖が引っ張った。たまらず大機竜は転倒する。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_フラベウファの掌]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5165_フラベウファの掌_has_property_口_p9
+        quote: フラベウファの左右の掌に、口があった。唇は無い。亀裂が走り、ぎざぎざの牙が剥き出しになった簡素な出入り口。そこから金色の鎖が伸びているのだった。
+        locator: {}
+        spoiler_after: ch5165
+  first_appearance_candidate: true

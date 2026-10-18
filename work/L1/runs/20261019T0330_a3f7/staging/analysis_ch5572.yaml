@@ -1,0 +1,121 @@
+chapter: ch5572
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_sanburu_lovers_fusion_secrets
+  note: サンブル家の二人が融合して巨人化する過程で、ピュクシスの中で二重の記録が再生され、「本来ならあり得ない世界構築」が行われた。この「融け合う」状態が、彼らの個人としての意識（一目惚れ）を消去・上書きしている可能性を示唆する伏線。
+  quotes:
+  - quote: 霊媒たるピュクシスの中で二重の記録が同時再生され、巨人となって世界を捩じる。混ぜる。混濁の果てに新たな景色を映し出す。
+    paragraph: p100
+    quote_verified: true
+  - quote: 常に対であった二人は、いまはじめて個となって互いを発見した。
+    paragraph: p223
+    quote_verified: true
+  expected_payoff: 融合状態が解けた後の精神的な欠損、またはリーナが見せた「断絶」の影響による恒久的な人格変化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_garuzu_incomplete_understanding
+  note: リーナはガルズの世界を完全には理解しておらず、「しょせんは他者の世界」とされている。この「断絶」が、ガルズ号（機甲箒）の性能制限や、将来の悲劇的な裏切りの要因となる可能性。
+  quotes:
+  - quote: 彼女がガルズの力を借りて展開した世界は完全ではない。しょせんは他者の世界。リーナが見たガルズの世界は、理解には程遠い。
+    paragraph: p130-p132
+    quote_verified: true
+  expected_payoff: ガルズの魂の完全なサルベージ失敗、あるいは機甲箒暴走・機能不全のトリガー。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_sanburu_business_expansion
+  note: サンブル家がリーナを認めた理由として「機械女王トリシューラと空使いリーナの二人と顔を繋いでおく」という政治的・経済的な布石が明かされた。この「茶番」のような同盟関係が、後の勢力図でどのように機能するか。
+  quotes:
+  - quote: 機械女王トリシューラと空使いリーナの二人と顔を繋いでおくことはサンブル家の利益となるの
+    paragraph: p250
+    quote_verified: true
+  expected_payoff: クロウサー家内部での派閥抗争、またはガロアンディアンへの介入計画。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_vanitas_world_fragility
+  note: リーナが構築した「白と黒の対立」による世界は、「不可能性の可能性」として成立したが、サンブル家の圧倒的な力によって破壊された。この「矛盾を織り込んで成立する」世界構造が、次章以降でどう応用されるか。
+  quotes:
+  - quote: せめぎあう白と黒。世界の境界部分が、突如として輝く。まるで衝突それ自体のエネルギーが新たなエネルギーを生み出すかのように。
+    paragraph: p166-p167
+    quote_verified: true
+  expected_payoff: リーナ独自の「矛盾」を力とする新浄界術の開発、または敵対勢力への対抗手段。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 愛はビジネスであり、感情の交換価値が権力構造を決定する
+  weight: 0.8
+  quotes:
+  - quote: 冥婚式、っていうのはどうかな
+    paragraph: p68
+    quote_verified: true
+  - quote: 再生者社会、転生社会の新常識として『冥婚事業』が成立し得るかもしれない。
+    paragraph: p75
+    quote_verified: true
+  note: リーナが死者との結婚（冥婚）を「ビジネススキーム」として提案し、サンブル家がその経済的・政治的メリット（市場拡大、布石）で評価した構造。愛の純粋性よりも、それがもたらすネットワークと利益が主題となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「断絶」こそが他者との関係を成立させる本質的な条件である
+  weight: 0.7
+  quotes:
+  - quote: その断絶を内包しながら二者の世界が矛盾を織り込んで成立する
+    paragraph: p165
+    quote_verified: true
+  - quote: 常に対であった二人は、いまはじめて個となって互いを発見した。
+    paragraph: p223
+    quote_verified: true
+  note: サンブル家が「融け合う」ことで一体化し、リーナとガルズが「断絶」を維持することで対立する構図。完全な融合（調和）ではなく、理解できない他者との距離感（断絶）が、新しい世界（浄界）を生む原動力であることが示唆されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 伝統的な死の概念（ヴァニタス）は、現代的な技術（アプリ・機甲）によって再構成される
+  weight: 0.6
+  quotes:
+  - quote: 『死を超越する愛』という文言がロマンティックにデコレーションされて、美辞麗句による不吉なイメージの刷新が試みられる。
+    paragraph: p52
+    quote_verified: true
+  - quote: 超絶リーナちゃん式強化装甲！　名付けてガルズ号！
+    paragraph: p196
+    quote_verified: true
+  note: 古き良き「死の美しさ」を現代的なマーケティング用語やガジェット（機甲箒）でパッケージ化し、権力者に受け入れさせるプロセス。文化のアップデートが戦闘力の向上に直結している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 支配者は「茶番」を演じながら、常に利益計算を行っている
+  weight: 0.5
+  quotes:
+  - quote: 俺たちはクロウサー家の一部であり、サンブル家そのものでもある。茶番と言われればそれまでだがな。
+    paragraph: p252
+    quote_verified: true
+  - quote: 上の方でぐるぐる回しているだけに見えても、これはこれで大変だってことが
+    paragraph: p252
+    quote_verified: true
+  note: サンブル家の二人が、熱血な戦いを「茶番」と冷徹に分析し、政治的布石（トリシューラとの繋がり）を確保する姿。若者の理想主義的な熱狂と、老練な権力者の計算高い現実主義の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

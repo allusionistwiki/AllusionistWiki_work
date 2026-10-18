@@ -1,0 +1,229 @@
+chapter: ch5164
+created: '2026-10-18'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{p7}]]'
+  object: '[[ME_{Divine_Comedy_Inferno}]]'
+  claim: 転移門の文言はダンテ『神曲』地獄篇の有名な一節「汝、ここに入る者一切の望みを捨てよ」を引用している。
+  quote: 「『汝らこの門をくぐる者は一切の望みを捨てよ』――かぁ」
+  paragraph: p7
+  confidence: explicit
+  quotes:
+  - quote: 「『汝らこの門をくぐる者は一切の望みを捨てよ』――かぁ」
+    paragraph: p7
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p19}]]'
+  object: '[[ME_{Terraforming_Terminology}]]'
+  claim: 異界の記憶による世界改変は、SF用語である「テラフォーミング（地球化）」をファンタジー的に読み替えたものである。
+  quote: 無秩序な世界改変（テラフォーミング）を開始して生まれたのがこの竜骨の森の起源であると言われている。
+  paragraph: p19
+  confidence: strong
+  quotes:
+  - quote: 無秩序な世界改変（テラフォーミング）を開始して生まれたのがこの竜骨の森の起源であると言われている。
+    paragraph: p19
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{p193}]]'
+  object: '[[ME_{Modern_App_Safety_Features}]]'
+  claim: 修道騎士の通報システムは、現代のスマホアプリにおける緊急通報やセーフティ機能（位置情報共有）を模倣したものである。
+  quote: 私は即座に呪動装甲の内部機能を起動させて松明の騎士団本部に通報した。場所は世界槍第一階層、第一裏面竜骨の森、女児に侍女の格好をさせて「あるじ様」などと呼ばせている怪しい少年を発見。
+  paragraph: p193
+  confidence: moderate
+  quotes:
+  - quote: 私は即座に呪動装甲の内部機能を起動させて松明の騎士団本部に通報した。場所は世界槍第一階層、第一裏面竜骨の森、女児に侍女の格好をさせて「あるじ様」などと呼ばせている怪しい少年を発見。
+    paragraph: p193
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{p170}]]'
+  object: '[[ME_{Religious_Duality_MarozeLondo_vs_SpearGod}]]'
+  claim: マロゾロンド（月/夜/女神系）と槍神（太陽/昼/父系）の対比は、宗教における二元論的構造や特定の神話体系への言及を示唆する。
+  quote: 「祈る――それは、マロゾロンドにかい？」
+  paragraph: p170
+  confidence: moderate
+  quotes:
+  - quote: 「祈る――それは、マロゾロンドにかい？」
+    paragraph: p170
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_{p39}]]'
+  object: '[[ME_{RPG_Item_Cooldowns}]]'
+  claim: 「左手」の三つの環は、ゲーム的なアイテム使用回数制限（クールダウンやチャージ）をメタフィクシカルに表現している。
+  quote: 三つの環。三回きりの切り札。使い切ってしまえば後が無い。
+  paragraph: p39
+  confidence: strong
+  quotes:
+  - quote: 三つの環。三回きりの切り札。使い切ってしまえば後が無い。
+    paragraph: p39
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_{p163}]]'
+  object: '[[ME_{Time_Manipulation_Narrative_Trope}]]'
+  claim: アルスタが「手放してしまった」大切な人を取り戻すという望みは、時間遡行や記憶改変といった高度なファンタジー的解決への伏線である。
+  quote: 最愛の人を取り戻す可能性が残されている
+  paragraph: p163
+  confidence: moderate
+  quotes:
+  - quote: 最愛の人を取り戻す可能性が残されている
+    paragraph: p163
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Arsta_TrueIdentity
+  note: アルスタが「ひとまずは」と名乗っていること、そしてフラベウファが彼を「あるじ様」と呼ぶことから、彼の真の身分（槍神教高位者、王族、あるいは超越的存在）は隠されている。
+  quotes:
+  - quote: 「まずは自己紹介と行こうか。僕は――そうだな。ひとまずはアルスタとでも名乗っておこうか。」
+    paragraph: p67
+    quote_verified: false
+  - quote: 「申し遅れましたが、わたくし金鎖のフラベウファと申します。以後お見知りおき下さい、アズーリア様」
+    paragraph: p203
+    quote_verified: true
+  expected_payoff: アルスタの正体が明かされ、アズーリアとの関係性が権力的な上下関係や運命的な交わりに変わる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_LostLovedOne_Arsta
+  note: アルスタが失い、取り戻そうとしている「大切な人（彼女）」の正体と、その喪失の経緯。
+  quotes:
+  - quote: 大切なひとを、僕は手放してしまった。離さなければ良かったのに。
+    paragraph: p163
+    quote_verified: true
+  expected_payoff: その人物が物語の主要キャラクター（アズーリアの妹ビーチェ、あるいは過去の重要キャラ）であることが判明する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_LeftHand_Secret
+  note: ラーゼフから教わった「左手」の力（三つの環）の具体的な効果と、なぜ「小さな呪術」に向かないのかというルール。
+  quotes:
+  - quote: そしてどうしても対処しきれないと思ったなら『左手』を使えと。
+    paragraph: p38
+    quote_verified: true
+  - quote: そもそも、小さな呪術を連続で使用されているこの状況はこの『左手』向きではない。
+    paragraph: p39
+    quote_verified: true
+  expected_payoff: 後年の大規模な戦闘で、アズーリアが窮地に立たされた際に「左手」の真の力が発動する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_MarozeLondo_Conflict
+  note: アルスタが「マロゾロンドに祈るのか」と質問し、アズーリアが槍神に祈ると答えると大笑いした理由。
+  quotes:
+  - quote: 「祈る――それは、マロゾロンドにかい？」
+    paragraph: p170
+    quote_verified: true
+  - quote: 「いいえ、大いなる槍神に」
+    paragraph: p174
+    quote_verified: true
+  expected_payoff: アルスタとマロゾロンド（またはその側近）に深い因縁があり、アズーリアの信仰との対立が物語の軸になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_DragonGod_Ritual
+  note: 竜神信教の拠点で行われている「大規模な儀式呪術」の内容と目的。
+  quotes:
+  - quote: なにやら内部で大規模な儀式呪術を準備しておりました
+    paragraph: p209
+    quote_verified: true
+  expected_payoff: 儀式が成功し、地獄の竜や異界の存在が現世に干渉する事件の引き金となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 復讐と愛の不可分性：憎悪は失われた愛の証明であるという逆説的肯定
+  weight: 0.8
+  quotes:
+  - quote: だから復讐心はね、愛の証明なんだ
+    paragraph: p149
+    quote_verified: true
+  - quote: 愛する気持ちを抱いて復讐を遂げること。自分自身が大切なものを想うその唯一無二の気持ちの為に怒りと憎しみを仇にぶつけるんだ。
+    paragraph: p153
+    quote_verified: true
+  note: アルスタがアズーリアの復讐心を肯定する論理であり、本作の倫理的基盤を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 環境との調和と恐怖の相対性：自然（森）そのものに悪意はなく、人の解釈が脅威を生む
+  weight: 0.6
+  quotes:
+  - quote: 森はただそこにあるだけだよ。恐ろしいかどうかを定めるのは人だ
+    paragraph: p104
+    quote_verified: true
+  note: アルスタの成熟した精神状態を示す一方で、アズーリアが抱く「世界槍」への畏怖との対比を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクシカルな自己紹介と役割の仮面：キャラクターが自らのロールを演じていることへの自覚
+  weight: 0.5
+  quotes:
+  - quote: 「まずは自己紹介と行こうか。僕は――そうだな。ひとまずはアルスタとでも名乗っておこうか。」
+    paragraph: p67
+    quote_verified: false
+  note: 「ひとまずは」という言葉が、アルスタの正体隠蔽だけでなく、異世界転生における「名前」の仮構性を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と信仰の混交：呪動装甲というテクノロジーと宗教的祈りが共存する世界観
+  weight: 0.4
+  quotes:
+  - quote: 私は即座に呪動装甲の内部機能を起動させて松明の騎士団本部に通報した。
+    paragraph: p193
+    quote_verified: true
+  - quote: 「いいえ、大いなる槍神に」
+    paragraph: p174
+    quote_verified: true
+  note: 合理的なガジェット（装甲・通信）と非合理な信仰（祈り）が並列して機能する世界の奇妙さを提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

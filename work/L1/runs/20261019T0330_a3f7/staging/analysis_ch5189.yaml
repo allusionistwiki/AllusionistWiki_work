@@ -1,0 +1,130 @@
+chapter: ch5189
+created: '2026-10-18'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 8
+  quotes_total: 10
+items:
+- kind: mystery
+  name: MY_fate_correction_mechanism
+  note: ハルベルトの禁呪に対する『世界の免疫系』としての苦痛が、ミルーニャやプリエステラの死の記憶とリンクしている。この修正力の正体（誰が設計したのか、神なのか法則なのか）が今後の展開で明かされる可能性が高い。
+  quotes:
+  - quote: 世界には、『その現象』に抗う為の修正力が存在する。運命の修正力。世界の免疫系。
+    paragraph: p39, p43
+    quote_verified: false
+  expected_payoff: 後の章で、この『免疫系』を攻略・無効化する手段、あるいはその設計者（四魔女や神々）との対峙において回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_vergilia_harbert_identity
+  note: 回想の中で『ヴァージリアはハルベルトとなった』とあり、二人が同一人物、あるいは深い契約関係にあることが示唆されている。この経緯の詳細と、それが現在の禁呪発動にどう影響するかが伏線。
+  quotes:
+  - quote: 忌まわしい契約――その果てに、ヴァージリアはハルベルトとなった。
+    paragraph: p86
+    quote_verified: true
+  expected_payoff: 過去編の完全な解明、または現在の危機を脱出するための鍵（取引の対価など）として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_rabbit_transcendence
+  note: 四魔女にしか見えない白黒の兎が『意味の間隙に潜む超越者』と呼ばれ、警告を発している。この兎の正体と、なぜ警告を無視したハルベルトへの反応が今後重要になる可能性がある。
+  quotes:
+  - quote: おそらくは四魔女とその使い魔にしか見えない白黒の兎。意味の間隙に潜む超越者。
+    paragraph: p3-4
+    quote_verified: true
+  expected_payoff: 物語のメタ構造（作者やナレーションとの関係）を明かす存在として、あるいは世界の崩壊を防ぐキーパーソンとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_wordquake_scale_impact
+  note: 『言震（ワードクェイク）』という現象が、単なる地域紛争を超えて『世界そのものの終焉』に繋がる可能性を秘めていることが示唆されている。この災厄の真の影響範囲が明かされる。
+  quotes:
+  - quote: 言震（ワードクェイク）。北ドラトリアで『引き起こされた』取り返しのつかない災厄。世界そのものの終焉、唯一絶対たる個の喪失、交換不可能なものを生贄に――
+    paragraph: p187, p184
+    quote_verified: false
+  expected_payoff: ドラトリアの混乱が世界規模の破滅イベントへと発展するトリガーとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_harbert_speech_promise
+  note: ハルベルトが『言うべき言葉を間違えたくない』『発すべき言葉が紡げない苦しみは味わいたくない』と決意し、フィリスの力で意味を届けている。この『正しい言葉』による救済（アズーリア・マリーの取り戻し）が成功するのか、その代償は何かが焦点となる。
+  quotes:
+  - quote: もう二度と、言うべき言葉を間違えたりしたくない。もう二度と、発すべき言葉が紡げないなんて苦しみは味わいたくない。
+    paragraph: p60-61
+    quote_verified: true
+  expected_payoff: アズーリアが目覚めた際、ハルベルトが語った『奇跡の言葉』の内容と、それによって失われたもの（代償）として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語は現実を構成する基盤であり、その崩壊は物理的な暴力と同質の破壊をもたらす。
+  weight: 0.9
+  quotes:
+  - quote: それは、この世界において情報というものがあまりにも容易に実世界を書き換えてしまうがゆえに不可避的に発生する天災である。言語が揺れ、情報が歪曲し、空間に満ちる呪力が蠢き、地脈が悲鳴を上げる。
+    paragraph: p147-148
+    quote_verified: true
+  note: デモ中の言葉の不通から始まり、杖の暴発、殺傷、そして国家分裂に至る因果関係が、すべて『言語』の機能不全に帰着している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 歴史の改変には、個人では抗えないほどの巨大な『世界の免疫』という反動が伴う。
+  weight: 0.8
+  quotes:
+  - quote: それだけは絶対に起こしてはならないと、世界がそれを阻止しようと動き出す。それは免疫だった。世界に記憶された致命的な痛み――天と地を二つに分かつほどの極大の痛みを繰り返してはならないと、呪波汚染が黒い少女を灼いて苛む。
+    paragraph: p46-48
+    quote_verified: true
+  note: ハルベルトの個人的な救済願望（マリーの取り戻し）に対し、世界全体の歴史的正義（免疫系）が物理的な苦痛という形で対抗している構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 正義や秩序の欠如した混沌は、現代社会の構造的暴力（差別・排外主義）を再生産する。
+  weight: 0.7
+  quotes:
+  - quote: 押しつけられた秩序に叛逆せよ。誇りある北ドラトリアは本国から独立すべきである。槍神教、太陰、下らない異国文化を排斥し均質な民族だけの純粋な国家を確立し、劣等民族たる移民どもを強制隔離し、二等国民として管理すべし。
+    paragraph: p175-177
+    quote_verified: true
+  note: 言語秩序の崩壊が、単なる混乱ではなく、具体的で現実的なナショナリズム・排外主義を喚起し、『ありふれた』悲劇を生み出している点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 『ほんとう』は交換可能な現実の中に存在せず、唯一無二の神秘（代償）によってのみ創造される。
+  weight: 0.6
+  quotes:
+  - quote: 交換可能な現実を、交換不可能な神秘へと。あらゆる価値から隔絶した、唯一無二の『ほんとう』を――けっして確かには存在できない、有り得ざる幻想を創造する。
+    paragraph: p35-36
+    quote_verified: true
+  note: ハルベルトが行った禁呪の本質は、現実の論理（交換可能性）を超越した、個人的で非合理的な『真実』の構築であり、その代償として世界に傷を残す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 謝罪は許されるために行われるのではなく、取り返しのつかない罪に対する人間の応答形態である。
+  weight: 0.5
+  quotes:
+  - quote: ごめんなさい、ごめんなさい、ごめんなさい――許される事など無いと知っていても、口に出さずにはいられないというように。何度も何度も、終わりのない謝罪が繰り返される。
+    paragraph: p197-198
+    quote_verified: true
+  note: ハルベルトの行為の結果（ドラトリアの惨劇）に対し、彼自身も被害者であり加害者でもあるという複雑な倫理状態を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

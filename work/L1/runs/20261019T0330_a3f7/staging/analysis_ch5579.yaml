@@ -1,0 +1,143 @@
+chapter: ch5579
+created: '2026-10-18'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 10
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_Cain_Carin_Identity_Paradox
+  note: 『上』の守護者カインと『下』の勇士カーインが同一人物（または同一家系）であることの矛盾。ロードデンドロンはこれをティリビナ人の血統とクロウサー家の隠蔽工作で説明しようとしているが、クラウビューラは「守護者カインがティリビナ人とは思えない」と反論している。この正体（誰が本当のカーインなのか）が今後の核心となる。
+  quotes:
+  - quote: カインは『上』の守護者であり、カーインは『下』の勇士である。
+    paragraph: p97
+    quote_verified: true
+  - quote: 「カイン」と『カーイン』が同一の存在だとすれば、クロウサーの守護者という言い伝えのみが伝わるカインがティリビナ人とは思えぬが？」
+    paragraph: p133
+    quote_verified: false
+  expected_payoff: 両者の同一性が証明されるか、あるいは「名前の継承」や「転生」といったメタ物理的な説明により解決され、クロウサー家とティリビナ人の隠された同盟関係が露呈する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Karin_Assassination_Conspiracy
+  note: 四十四士カーインによる聖妃レストロオセ暗殺未遂（実行？）事件。マルガリータはこれを情報封鎖下の秘密として暴露し、パーンの精神的動揺を誘うための武器として使用している。この事件の真相（誰が仕掛け、なぜ起きたか）と、カーインの逃亡先（第五階層）の関連性が未解明。
+  quotes:
+  - quote: その事件とは四十四士がひとり、『芸術道化』カーインの裏切り。彼には聖妃レストロオセ暗殺の嫌疑がかけられており、現在は逃亡中です。
+    paragraph: p62
+    quote_verified: true
+  expected_payoff: 暗殺事件はロードデンドロンとマルガリータの結託による政治工作である可能性が高い。パーンの盟友カーインがこの計画のどこに関与していたか、あるいは無実であるかの証明が行われる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Marguerita_Loadedron_Collusion
+  note: リーナが疑った「二人の結託」。選定レースという過酷な状況下で、竜神信教派（下側）の巫女とティリビナ人代表が連携してクロウサー家（上側・義国圏の権威）を揺さぶるための謀略である可能性。
+  quotes:
+  - quote: '（この二人、裏で結託しているの？）
+
+      レースの最中や乱入してきた時点ではそんなふうには見えなかったが、こっそりと密約を交わしていることは十分にあり得る。'
+    paragraph: p107-p109
+    quote_verified: true
+  expected_payoff: 二人の共同作業により、クロウサー家の歴史的権威が崩壊し、ティリビナ人の地位向上または特定の政治的利得（ロードデンドロンの緑天主就任など）が実現する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Chisse_Ecosystem_Origin
+  note: チッセ・ディパーシュ・クロウサーが内包する生態系（植物）の種由来。「企業ひみつ」として隠蔽されているが、ロードデンドロンはテテリビナとの血縁を主張する根拠としてこれを問いただしている。
+  quotes:
+  - quote: '「チッセ・ディパーシュ・クロウサー。あなたが内包する生態系の中には植物も含まれているはず。その種は、どこから来たものですか？」
+
+      「ん～、企業ひみつ～」'
+    paragraph: p140-p142
+    quote_verified: true
+  expected_payoff: チッセの生態系がティリビナ原初の植物（アルラウネ関連）であることが判明し、クロウサー家とティリビナ人の生物学的・呪術的な一体性が証明されるトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Cain_Pars_Klaus_Spell_Effect
+  note: ロードデンドロンが最後に唱えた「カーイン・パーシュ・クロウサー」という名前（呪文）。これが単なる宣言なのか、空間を制圧する真の魔法（名前による支配権）なのかが不明。
+  quotes:
+  - quote: '「カーイン・パーシュ・クロウサー」
+
+      時間が停止したかのような、重い沈黙。
+
+      端的な発言ひとつでしかない。だがその名前の連なりには、その場を一気に制圧するほどの威力が込められていた。'
+    paragraph: p204-p207
+    quote_verified: true
+  expected_payoff: この呪文により、クロウサー家当主の権限（パーシュ・クロウサー）とカーインの名が結合し、ロードデンドロン側に「正統性」が移転するか、あるいはパーン側の守護者が強制発動する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 歴史の書き換えと正統性の簒奪：勝者が書く歴史（クロウサー家の隠蔽）に対し、敗者・異邦人（ティリビナ人）が神話的根拠を用いて対抗し、現在の権力構造を再編しようとする闘争。
+  weight: 0.85
+  quotes:
+  - quote: この奇妙な混乱の原因を、私は異獣と認定したティリビナ人との関係性を隠蔽したかったクロウサー家による歴史操作によるものだと断定します。
+    paragraph: p190
+    quote_verified: false
+  - quote: 「カイン」と『カーイン』が同一の存在だとすれば、クロウサーの守護者という言い伝えのみが伝わるカインがティリビナ人とは思えぬが？」
+    paragraph: p133
+    quote_verified: false
+  note: リーナの歴史整理から始まり、ロードデンドロンの主張へと収束する。歴史的記述の真偽が現在の政治的利害に直結している点が主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言葉（テキスト）による現実改変：天の御殿というテキストベース空間において、罵倒や証明（名前を叫ぶこと）が物理的な攻撃力・支配力を持つという、言語の実質化。
+  weight: 0.75
+  quotes:
+  - quote: テキストベース・サーキットならばなおさらだ。言葉は文字となり、文字はこの空間においては現実になるのだから。精神攻撃は物理攻撃に等しい。
+    paragraph: p118
+    quote_verified: true
+  - quote: '「カーイン・パーシュ・クロウサー」
+
+      ...その名前の連なりには、その場を一気に制圧するほどの威力が込められていた。'
+    paragraph: p204-p207
+    quote_verified: false
+  note: マルガリータの精神攻撃とロードデンドロンの最後の宣言は、同じ「言葉による干渉」というメカニクスで貫かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 分断された世界における『異獣』認定の政治性：上（義国）と下（鈴国）が相互に相手を非人間的な敵（異獣）と見なす構造は、歴史的経緯（魔王討伐）から固定化されており、現在は政治的ツールとして利用されている。
+  weight: 0.6
+  quotes:
+  - quote: 上方勢力である義国圏アルセミットと下方勢力である鈴国圏ジャッフハリムによる慢性化した戦争が続き、その中でお互いを『異獣』として否定し合うようになった。
+    paragraph: p28
+    quote_verified: true
+  - quote: ティリビナ人は、どちらの陣営にも馴染むことができなかった異邦人であり、現在は中間地点である世界槍という名の煉獄に流れ着いた漂白民たちだ。
+    paragraph: p99
+    quote_verified: true
+  note: 「異獣」という概念が、単なる生物学的分類ではなく、政治的排除のレッテルとして機能していることへの批判・分析。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 同盟と裏切りの境界の曖昧さ：パーン（上側の英雄）とカーイン（下側の勇士）の友情は、派閥の対立の中で「スパイ」「裏切り者」として再解釈される。個人の絆が政治的陰謀に汚染される様。
+  weight: 0.5
+  quotes:
+  - quote: 「貴様、俺の盟友をよりにもよってクロウサー側に位置付けようとするとはな」
+    paragraph: p113
+    quote_verified: true
+  - quote: 盟友の子孫と思しき者たちへの侮辱だ。パーンにしてみれば友人を疑われているような気持ちになっているのかもしれない。
+    paragraph: p82
+    quote_verified: true
+  note: ロードデンドロンの主張は、パーンにとって「盟友カーインはティリビナ人（下側）である」というアイデンティティの否定であり、友情の破壊を狙っている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

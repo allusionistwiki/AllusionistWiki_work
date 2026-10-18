@@ -1,0 +1,244 @@
+chapter: ch5569
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 18
+  quotes_total: 22
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5569_映像_other_セレブ男と女たち_p179]]'
+  object: '[[ME_恋愛リアリティショー]]'
+  claim: 天の御殿での神話的試練が、現代のテレビ番組『テラスハウス』や『あいのり』のような商業的な恋愛リアリティショーとして構造化され、観客（リーナ）に消費されている。
+  quote: それは数十人の女たちがひとりのセレブ男性を巡って旅をしながら熾烈な争いを繰り広げるという内容で人気を博している大人気恋愛リアリティショーだった。
+  paragraph: p179
+  confidence: explicit
+  quotes:
+  - quote: それは数十人の女たちがひとりのセレブ男性を巡って旅をしながら熾烈な争いを繰り広げるという内容で人気を博している大人気恋愛リアリティショーだった。
+    paragraph: p179
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5569_リーナ_other_理想の相手_p151]]'
+  object: '[[ME_婚活アプリ・スペック検索]]'
+  claim: リーナが挙げるパートナー要件（スペック、即レス、美的センス）は、現代のマッチングアプリにおける効率的な人間選別プロセスのパロディであり、愛の非合理性を暴露している。
+  quote: あと既読無視とか悲しくなるから連絡したら即反応が基本で
+  paragraph: p151
+  confidence: strong
+  quotes:
+  - quote: あと既読無視とか悲しくなるから連絡したら即反応が基本で
+    paragraph: p151
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5569_ダウザール_transforms_エンハドーラの骸_p9]]'
+  object: '[[ME_労働の搾取・過労死]]'
+  claim: 死後に箒として仕え続けるエンハドーラは、社会制度から解放されず死後も働き続ける労働者（過労死・ゾンビ的労働）のメタファーである。
+  quote: 死後もクロウサーに仕え続けることを命じた。かの古老が扱う箒の正体とは、かつて空使いを目指した男の成れの果てである。
+  paragraph: p9
+  confidence: moderate
+  quotes:
+  - quote: 死後もクロウサーに仕え続けることを命じた。かの古老が扱う箒の正体とは、かつて空使いを目指した男の成れの果てである。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5569_世界の擬人化_defines_言語魔術_p231]]'
+  object: '[[ME_WiFi_SAP・世界観のコード化]]'
+  claim: 世界の擬人化による神性の分割と個への貶めは、複雑な現象を簡易なインターフェース（アイコン）へ変換するUI/UX設計の原理と一致する。
+  quote: 超越的な神性に名付けを行うとそれは認識可能な『個』へと貶められた。
+  paragraph: p228
+  confidence: moderate
+  quotes:
+  - quote: 超越的な神性に名付けを行うとそれは認識可能な『個』へと貶められた。
+    paragraph: p228
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5569_サンブル家幻像_defines_結婚の目的_p293]]'
+  object: '[[ME_子作り・生殖義務]]'
+  claim: 愛を「種の存続」という生物学的・社会的義務として定義するサンブル家の論理は、ロマン主義的な愛観念を植民地的な管理目的へ転倒させたものである。
+  quote: 結婚。生殖。種の存続。祝福されるべき生命の目的。
+  paragraph: p293
+  confidence: strong
+  quotes:
+  - quote: 結婚。生殖。種の存続。祝福されるべき生命の目的。
+    paragraph: p293
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5569_リーナ_observes_恋人たちの茶番_p87]]'
+  object: '[[ME_SNS上のカップル・公共の愛]]'
+  claim: 予定調和的な恋人たちのやりとりは、SNS等で「見せ物」として消費される陳腐なカップルの姿を風刺し、自由意志の欠如を指摘している。
+  quote: 茶番じみた恋人たちの語らいはどこにでもあるような陳腐なやりとりだ。それゆえに客観視したときにその滑稽さが際立つ。
+  paragraph: p85-86
+  confidence: strong
+  quotes:
+  - quote: 茶番じみた恋人たちの語らいはどこにでもあるような陳腐なやりとりだ。それゆえに客観視したときにその滑稽さが際立つ。
+    paragraph: p85-86
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_エンハドーラの箒の正体
+  note: クァヒート家の祖先であり、七つ風の一人であった男が死霊術によって箒化されている。彼の残した「記録」や遺志が後の展開で重要になる可能性が高い。
+  quotes:
+  - quote: 偉大なるミブリナの背を追い続けた男は...更にはダウザールの側近である七つ風として認められた。
+    paragraph: p4
+    quote_verified: false
+  - quote: 死霊術師に命じてエンハドーラの骸を箒に変え、死後もクロウサーに仕え続けることを命じた。
+    paragraph: p9
+    quote_verified: true
+  expected_payoff: リーナがこの箒を使い、またはその記憶（レコードゴースト）を通じて過去の真相やクァヒート家の悲劇を知る鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_イヴァ・ダストの存在
+  note: 空に浮かぶ「二つ目の月」であり、来訪者たちの故郷（地球/元の世界）を示唆する天体。帰還願望の象徴。
+  quotes:
+  - quote: 真昼の青空に浮かぶ二つ目の月。幽かな輪郭が揺らぐイヴァ・ダスト。来訪者たちの故郷。遠い世界が、ひどく恋しい。
+    paragraph: p253-254
+    quote_verified: true
+  expected_payoff: 異世界転生者としてのアイデンティティの揺らぎ、および元の世界への帰還（または断絶）に関する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_選定レース乱入者エンハとナックス
+  note: リーナが開いた道を辿って現れた「真なる選定レース」の挑戦者。彼らはエンハドーラの末裔である可能性が高い（p355参照）。
+  quotes:
+  - quote: 男たちの名はエンハとナックス。先頭に追い付いた箒乗りたちが、血族の悲願に手を届かせようとしていた。
+    paragraph: p364-365
+    quote_verified: true
+  expected_payoff: リーナとの対立、またはクァヒート家とサンブル家の対立構図の中核を担うキャラクターとしての登場。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ピュクシスの頭部モニタ化
+  note: 死霊術師ピュクシス（あるいはその幻像）が頭部を四角いモニタに変え、遠隔地の映像を流している。技術的な接続と情報の操作の象徴。
+  quotes:
+  - quote: モニタと化したピュクシスの四角形の頭部からガルズ、ルラーマ、カルパオッソが消えて遠隔地の風景が映し出される。
+    paragraph: p171
+    quote_verified: true
+  expected_payoff: 情報の真偽の曖昧さ（フェイクニュース/編集）を象徴し、リーナが「真実」を見抜くための試練となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_神話の『解釈』と歪み
+  note: サンブル家が見せる映像はクロウサー視点の「解釈」であり、歪みや誇張が含まれていることが明示されている。
+  quotes:
+  - quote: 永劫線上で再現された遠い過去は真実とは限らない。クロウサー視点での『解釈』である以上、歪みや誇張が必ずある。
+    paragraph: p209-210
+    quote_verified: true
+  expected_payoff: リーナが神話の「裏」やサンブル家が隠蔽している真実（クァヒート家の立場など）に気づくきっかけとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 愛と生殖は支配のためのシステムとして機能し、個人の感情を管理・搾取する装置である
+  weight: 0.9
+  quotes:
+  - quote: 恋をしろ。愛をこなせ。それはクロウサーの義務であるのだからと。
+    paragraph: p125
+    quote_verified: true
+  - quote: 血族の当主は使命を継承する必要がある。...それゆえの播種。だからこそ血の存続が至上価値となった。
+    paragraph: p273-266
+    quote_verified: false
+  note: サンブル家が愛を「義務」として定義し、リーナに結婚相手を選定させる構図。植民地支配や家父長制のメタファー。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 過去のトラウマと記憶は「美化（エンバーミング）」によって上書きされ、現在の行動を無意識に支配する
+  weight: 0.8
+  quotes:
+  - quote: 美しい記憶は死体に施すエンバーミングだ。虚飾が剝がれてしまえば、残るのは無残な記録（むくろ）のみ。
+    paragraph: p104-105
+    quote_verified: true
+  - quote: ガルズ・マウザ・クロウサーを殺したのはリーナ自身だ。...ダウザールが僕を殺した瞬間のことを、思い出したんだろう？
+    paragraph: p40-42
+    quote_verified: false
+  note: 死者（ガルズ）の幻像を通じて過去を処理しようとする試み。記憶の改変とPTSD的な葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 神話や歴史は「娯楽コンテンツ」として消費され、残酷な現実（殺害・死）が茶番へと矮小化される
+  weight: 0.7
+  quotes:
+  - quote: 天界の真実は俗界のゴシップに置き換えられ、リーナの瞳に映し出されるものは愚かしい見世物に堕ちたあとの成れの果て。
+    paragraph: p199
+    quote_verified: true
+  - quote: 効果音と仰々しいテロップはそれが茶番であることを示していた。
+    paragraph: p172
+    quote_verified: true
+  note: メタフィクション的な構造。世界の成り立ちが「リアリティショー」というメディア形式で提示されることへの批評。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自由意志の不在：予定調和の中で演じられる「個」の虚構性
+  weight: 0.6
+  quotes:
+  - quote: 正解を正解と分かった上で幸福を演じるなら、そこに自由意志はあるのだろうか？
+    paragraph: p93
+    quote_verified: true
+  - quote: 独りきりの二人。その相似形は、ひどく醜い。
+    paragraph: p97-98
+    quote_verified: true
+  note: 恋人たちのやりとりが「ひとり芝居」と呼ばれることへの哲学的問いかけ。リーナ自身もまた「人形（操り糸）」であることの自覚。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死は摩耗であり、超越者は老いによって敗北し道具へと転落する
+  weight: 0.5
+  quotes:
+  - quote: 超越者でさえ抗えぬ老いと衰え...彼はかつて目指したミブリナの高みに届かぬままその生を終えた。
+    paragraph: p7-8
+    quote_verified: false
+  - quote: 今のエンハドーラは単なるダウザールの道具に過ぎない。
+    paragraph: p12
+    quote_verified: true
+  note: エンハドーラの悲劇。英雄叙事詩の逆転。権力者に使い捨てられる英雄的な存在の末路。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

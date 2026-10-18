@@ -1,0 +1,233 @@
+chapter: ch5573
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p47]]'
+  object: '[[ME_text_based_game_mechanics]]'
+  claim: 魔法による攻撃が「テキストベース・サーキット」における情報の飽和と記述によって実現されることは、ゲームエンジンやテキストアドベンチャーのメカニクスを物理現象として描くメタフィクション的パロディである。
+  quote: それはテキストベース・サーキットゆえに発生する情報の飽和。膨大な文字の群れ。
+  paragraph: p47
+  confidence: explicit
+  quotes:
+  - quote: それはテキストベース・サーキットゆえに発生する情報の飽和。膨大な文字の群れ。
+    paragraph: p47
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p38]]'
+  object: '[[ME_modern_messaging_apps]]'
+  claim: 異世界の試練中に現代的な通信ツール（心話/メッセージ）による干渉が行われることは、ゲーム内チャットやSNS通知が没入を阻害する現実の体験を反映している。
+  quote: 「ごめんね。さっき変な心話（メッセージ）が来てたんだけど」
+  paragraph: p38
+  confidence: strong
+  quotes:
+  - quote: 「ごめんね。さっき変な心話（メッセージ）が来てたんだけど」
+    paragraph: p38
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p45]]'
+  object: '[[ME_game_gacha_summon]]'
+  claim: リーナが「交代しろ」というメッセージを受け取り、即座に強力なキャラクター（パーン）を召喚して問題を解決するのは、ガチャやサポートキャラの即時召喚を模したゲーム的メカニクスである。
+  quote: 「『クガルヤイムのゴーストを見つけたら、俺と交代しろ』だってさ」
+  paragraph: p45
+  confidence: moderate
+  quotes:
+  - quote: 「『クガルヤイムのゴーストを見つけたら、俺と交代しろ』だってさ」
+    paragraph: p45
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p103]]'
+  object: '[[ME_shonen_one_shot_trope]]'
+  claim: 最強の敵（クガルヤイム）が現れてから一瞬で撃破される展開は、少年漫画やアクションゲームにおける「ワンパン（一発必殺）」のカタルシスを提供するクリシェに構造として一致している。
+  quote: ミブレルの愛弟子パーンもまた、一瞬でクガルヤイムの亡霊を蹴散らした。
+  paragraph: p103
+  confidence: strong
+  quotes:
+  - quote: ミブレルの愛弟子パーンもまた、一瞬でクガルヤイムの亡霊を蹴散らした。
+    paragraph: p103
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p152]]'
+  object: '[[ME_digital_narrative_logic]]'
+  claim: 「万物の全ては文字で記述される」という設定により、物理的な戦闘が「回想シーンの挿入」や「データの書き換え」といったデジタル的な文脈操作によって決定づけられる。
+  quote: テキストベースサーキットにおいて万物の全ては文字で記述される。
+  paragraph: p152
+  confidence: explicit
+  quotes:
+  - quote: テキストベースサーキットにおいて万物の全ては文字で記述される。
+    paragraph: p152
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p196]]'
+  object: '[[ME_game_loot_collection]]'
+  claim: 勝利条件を満たす前に「トロフィー（蹄鉄）」を回収し、それを武器に転用する行為は、ゲームにおけるアイテム回収と合成・変換システムを模している。
+  quote: 悪いが、勝利より先にトロフィーを貰っておく
+  paragraph: p196
+  confidence: moderate
+  quotes:
+  - quote: 悪いが、勝利より先にトロフィーを貰っておく
+    paragraph: p196
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p75]]'
+  object: '[[ME_norse_mythology]]'
+  claim: ヨトゥン（氷柱巨人）、ティリビナ（樹木/世界樹）、シェデク（大地）などの名称は北欧神話の概念を明示的に引用し、クロウサー家の「邪神」定義が特定の宗教的・文化的背景に基づくことを示唆している。
+  quote: 北方極地に封じられた氷柱巨人（ヨトゥン）の神々。
+  paragraph: p78
+  confidence: strong
+  quotes:
+  - quote: 北方極地に封じられた氷柱巨人（ヨトゥン）の神々。
+    paragraph: p78
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_parn_physical_location
+  note: パーンの肉体がどこにあるのか、また「片手間で天上の援護」が可能である物理的・呪術的なメカニズム。
+  quotes:
+  - quote: 果たして、パーン本人はどこにいるのだろう？
+    paragraph: p115
+    quote_verified: true
+  - quote: 「片手間で天上の援護か。随分と余裕だな、パーン」
+    paragraph: p126
+    quote_verified: true
+  expected_payoff: 彼の肉体が別の場所（奈落の下層、あるいは外部）にあることが明かされ、その位置を利用した戦略的な勝利への布石となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ghost_of_garenis_identity
+  note: クガルヤイムのゴースト（レコードゴースト）が、なぜパーンに「交代」を許し、またそのデータが如何にして巨大な機構として動作したのか。
+  quotes:
+  - quote: 『設定群』が鋼で組んだ骨格となって、巨大な機構を形作っていく。
+    paragraph: p82
+    quote_verified: true
+  expected_payoff: ゴースト単体ではなく、クロウサー家の歴史的データ全体（オルガンローデ）がパーンの操作によって意図的に再構成されたことが判明し、彼の「再演」能力の本質が明らかになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trophy_fusion_mechanic
+  note: 蹄鉄（トロフィー）が融解し、「幻肢痛の腕」として再構築されるプロセスの詳細。
+  quotes:
+  - quote: 幻視した痛みから、幻肢痛の腕が逆算された。
+    paragraph: p190
+    quote_verified: true
+  expected_payoff: パーンの失われた右腕（物理的欠損）と魔法的な「腕」の関係性が解明され、彼が完全な力を取り戻すか、あるいは代償を払う展開へ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_douzal_reaction_to_flashback
+  note: ダウザールが「見え透いた餌」である回想シーンに手を伸ばす理由と、その結末。
+  quotes:
+  - quote: 見え透いた餌だとしても、追わねばならない。
+    paragraph: p155
+    quote_verified: true
+  expected_payoff: ダウザールが回想データに触れたことで何らかの弱点や秘密を露呈し、パーンの「再演」戦略によって致命的なダメージを受ける展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力と歴史の記録が融合し、「データとしての亡霊」が現実を侵食する恐怖
+  weight: 0.8
+  quotes:
+  - quote: 降り積もる歴史の闇。血の沁み込んだ大地の痛み。それらが一斉に牙を剥く。
+    paragraph: p71
+    quote_verified: true
+  - quote: 『設定群』が鋼で組んだ骨格となって、巨大な機構を形作っていく。
+    paragraph: p82
+    quote_verified: true
+  note: 単なる敵対者としての亡霊ではなく、血族の歴史そのものがデータ化され、物理的な暴力装置として機能するテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ルール（試練）の解釈権を奪い取る「メタ的」な支配
+  weight: 0.9
+  quotes:
+  - quote: 勝者に与えられるトロフィーもまた、ここで再現される。
+    paragraph: p179
+    quote_verified: true
+  - quote: 悪いが、勝利より先にトロフィーを貰っておく
+    paragraph: p196
+    quote_verified: true
+  note: パーンがレースの勝敗条件（神話の再演）そのものを先取りし、ゲームのルールを書き換える行為は、メタフィクション的な支配を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 欠損（幻肢痛・失われた腕）を補完するための技術的・魔術的工夫
+  weight: 0.7
+  quotes:
+  - quote: 機甲箒が纏った雷光の呪力は全て加速のために注がれている。
+    paragraph: p128
+    quote_verified: true
+  - quote: 幻視した痛みから、幻肢痛の腕が逆算された。
+    paragraph: p190
+    quote_verified: true
+  note: パーンの身体的な欠損（右腕）と精神的な補完（幻肢痛）が、彼の戦闘スタイルや魔法行使の根幹にあるテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報飽和による現実の崩壊と、文字による世界操作
+  weight: 0.6
+  quotes:
+  - quote: それはテキストベース・サーキットゆえに発生する情報の飽和。膨大な文字の群れ。
+    paragraph: p47
+    quote_verified: true
+  - quote: テキストベースサーキットにおいて万物の全ては文字で記述される。
+    paragraph: p152
+    quote_verified: true
+  note: 世界が物理法則ではなく「テキスト」によって支配されていることが露呈し、戦闘がデータ操作へと変質するメタ的なテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

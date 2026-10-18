@@ -1,0 +1,428 @@
+episode: ch5230
+created: '2026-10-19'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ドラトリア系夜の民ヴァンパイア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_ドラトリア系夜の民ヴァンパイア_activates_街の騒音_p10
+        quote: 夜になれば、今までの倍以上に増えた『ドラトリア系夜の民（ヴァンパイア）』たちが活発に動き出し、街は眠らず、ただ騒がしくなるばかり。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_アズーリア_other_無視_p100
+        quote: 聞かなかったことにしよう。うん、そうしよう。
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_アズーリア_other_ハルベルト_p176
+        quote: '沈みそうになっているハルを引き上げるのは私の役目だ。
+
+          今まで沢山、その逆をしてもらった。
+
+          だから私たちは、そうやってお互いを引っ張り合い続けるのだと思う。
+
+          手を差し出して、最近浮かべるのに慣れてきた笑顔を作って見せる。'
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_アズーリア_observes_サリア_p4
+        quote: 私は無事に正気を取り戻したサリアと買い物などをしているのだった。
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_アズーリア_other_メイファーラ_p75
+        quote: メイファーラに愚痴ると、珍しく即座に反応が無い。忙しいのかな。休日とはいえ智神の盾は仕事があったりするのかもしれない。
+        locator: {}
+        spoiler_after: ch5230
+    speech:
+      observations:
+      - event_ref: E_ch5230_アズーリア_other_マロゾロンドの力_p12
+        quote: 「いい？　もう金輪際マロゾロンドの力を引き出さないこと。助言にも耳を貸しちゃ駄目。守護天使――古き神の力を直接参照する引喩（アリュージョン）は危険過ぎる。引喩っていうのは誰よりも先にそれを行った本人に意味が伝わってしまう。諸刃どころか柄まで刃の危険物。自分を純粋に道具だとか媒介物だと確信しきってるような狂人じゃないと自我が崩壊してしまう」
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_アズーリア_reveals_サリアの過去_p18
+        quote: 「サリア、ズタークスタークと戦った時、狂戦士状態になりながら鎧にマロゾロンドの力を降ろしたらしいじゃない？」
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_アズーリア_promises_呪術儀式の成功_p185
+        quote: 「もう、とっくに覚悟はできてるよ。残り二つの呪術儀式、必ず成功させようね。煉獄でも地獄でも、私は貴方をどこまでだって連れて行くから」
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_アズーリア_thinks_自己の性格_p26
+        quote: 'うーん、どうだろう。
+
+          色々混ざりすぎてみんなの影響をちょっとずつ受けているせいかもしれない。
+
+          だとしても、これが今の私だ。'
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_アズーリア_fears_自己同一性の危機_p34
+        quote: うーん、考えてもみればズタークスタークという先例がいたわけだし、私って思ったよりも特別な存在ではないのかもしれない。自己同一性の危機だ。
+        locator: {}
+        spoiler_after: ch5230
+    name:
+      observations:
+      - event_ref: E_ch5230_アズーリア_defines_仮想使い魔_p30
+        quote: 呪文（ことば）によって編まれた、仮想使い魔。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_ハルベルト_other_アズーリア_p106
+        quote: '「こんなところにいた」
+
+          呼びかけると、ハルベルトは振り向いて、ちょっとだけ眉尻を下げた。'
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_ハルベルト_hides_顔_p138
+        quote: 頬を膨らませたかと思えば、フードを深々と被って顔を隠してしまう。
+        locator: {}
+        spoiler_after: ch5230
+    speech:
+      observations:
+      - event_ref: E_ch5230_ハルベルト_other_アズーリアへの嫉妬_p132
+        quote: 「結局、ハルはお話どころか会うことすらできなかった。アズだけずるい」
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_ハルベルト_other_変革の限界_p172
+        quote: 「結局、形を変えただけで、やっていることは変わらない。ハルは何も変える事はできていないのかも」
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サリア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5230_サリア_asks_狂人の定義_p14
+        quote: 「へー。狂人って、たとえばサリアみたいな？」
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_サリア_observes_アズーリアの存在_p31
+        quote: その事を知っても、サリアの反応は「ふーん」という程度で、ちょっと拍子抜けしてしまった。
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_サリア_thinks_人工魔女の構図_p39
+        quote: 「ま、考えてもみれば、わりと順当ではあるのよね。多分ハルベルトってのは主従の二人一組で、従の方が魔女と使い魔を兼任する、っていう構図なんでしょ。あと、曲と詩っていう組み合わせ？　してみると、四魔女ってのは全員が全員、きっちり例外なく人工魔女になるように仕組まれてたってことかしら」
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_サリア_thinks_人工使い魔の定義_p46
+        quote: 「というか、そもそも人工的じゃない使い魔なんてありえないはず。関係性や社会性って、人間や動物、それこそ昆虫だって形成するけど、そこに意味を見出すのは人の意思でしょう」
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_サリア_asks_人工の魔女の本質_p52
+        quote: では、関係性を拡張することによって生まれる人工の魔女とは、一体何の魔女なのだろうか。
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_サリア_names_組織の魔女_p54
+        quote: 「組織の魔女？」
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_サリア_thinks_トライデントの総体_p58
+        quote: 「なら、やっぱり使い魔たちが人工的に作り出す総体そのものがトライデント、っていう結論でいいのかな。なんだか、誰と戦えばいいのかもよくわからないけど」
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_サリア_other_嫉妬と不安の独白_p96
+        quote: 「私だけって言ってくれたのにずっと一緒ってずっと私が一番だって一日一回言ってくれてたのに最近は全然言ってくれないし照れてるんだとしてもやっぱりちゃんと言葉にして欲しいし寂しいからううん私はもちろんそういうことを気にしてるわけじゃなくて別に重いって思われたくないとかじゃなくてむしろ気持ちがちゃんと全部伝わったら重いじゃ済まないだろうからこうやって少しだけ言葉で伝えたいって言うかつまり私はこんなにコアのこと大切なんだよってわかってほしいのなのにコアはもう私のことどうでもよくなっちゃったのそれとも私といるのなんてつまらないのかな飽きちゃったのかなこんな女なんてもううんざりしちゃったのかなしつこいよねおかしいよねわかってるんだよだって延々と諦め悪く付きまとって本当は何の関係も無いのに使い魔気取りなんて笑っちゃうよねでもやっぱり私コアの使い魔でいたいしそういうこと一人で決められるのは悲しいよアルマは家族みたいなものだから例外で仲間を増やすときにはちゃんと私に相談してって言ったよね約束したよね離れて行動する時は毎晩連絡してって言ったのにずっと無視するし返信したって言わないよね一言だけの素っ気ない返事なんて機械でもできるでしょ私はコアの言葉がちゃんと聞きたいのコアが私だけ見てくれないと嫌なの心から吸いたいって思えたのは私が初めてだって言ったのは嘘だったのねえ答えてよ黙ってないでそれからそいつ今そこにいるのいるんだよねいるんでしょ隠してもわかるんだよ待っててね大丈夫コアは優しいからきっとそいつがどんなに屑でも放っておけなかったんだよね安心して第五階層は色々環境が悪いでしょこれから行って綺麗にしてあげるからね何をするつもりですかって決まってるじゃない――害虫駆除だよ」
+        locator: {}
+        spoiler_after: ch5230
+    action:
+      observations:
+      - event_ref: E_ch5230_サリア_gives_新しい眼帯_p2
+        quote: 贈り物は新しい眼帯にするらしい。
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_サリア_other_贈り物_p63
+        quote: 最終的に、サリアから冬の魔女コルセスカへの仲直りの贈り物はアルタネイフ百貨店で購入することになったのだが。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_リーナ_other_アズーリアとハルベルト_p145
+        quote: '私とハルベルト――というより歌姫Spearはエルネトモランの救世主として持て囃されることになった。
+
+          槍神教はその事実を最大限利用しようとして、そして各種巨大企業も広告塔にするべく動き出したのだけれど、その点に関してはほぼクロウサー社の独占状態。'
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_リーナ_other_当主_p148
+        quote: 新しく当主になったリーナは大学を一時休学し、あちらこちらを忙しく飛び回っている。速度制限違反で捕まって前代未聞の不祥事を起こすまでが彼女の『らしさ』ではあったけれど、おおむね当主としては上手くやっているらしい。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マリーアズーリア内]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_マリーアズーリア内_other_ガルズからの報告メール_p151
+        quote: 昨日も、ガルズにこんな助言を受けた、ガルズとこんなことを話した、と報告のメールが沢山届いた。私の中にいるマリーは少しだけ複雑そうに――けれど嬉しそうにそれを受け止めていた。私たちの関係性が『こういう風』になったのは、みんなで話し合った結果なので、多分、これでいいんだと思う。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_食用奉仕種族]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_食用奉仕種族_other_処遇議論_p157
+        quote: 食用奉仕種族――新たな眷族種名の案は幾つか出ているが、決定は先送りになったままだ。彼らの処遇についての議論は紛糾し、難航している。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トントロポロロンズやパンケーキガメ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5230_トントロポロロンズやパンケーキガメ_other_食べられること_p162
+        quote: けれど、トントロポロロンズやパンケーキガメといった単純な思考しかできないものたちは、愛玩動物（ペット）として可愛がられる道よりは、今まで通り食べられることを望む者が多かった。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_食葬を主張する一派]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5230_食葬を主張する一派_other_マロゾロンド_p168
+        quote: 『食葬』という独自文化を有することを主張するその一派は、どうしてかマロゾロンドに深い崇敬や信仰心を向けているらしい。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリアの身体]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5230_アズーリアの身体_has_property_間接性_p190
+        quote: '私の身体は呪文によって疑似細菌に『命令』を書き込んで強制的に実体として動かしている『ぎこちない』ものだ。
+
+          その在り方は間接的で、言葉も行動も何もかもとても遅い。'
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリアとハルベルト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_アズーリアとハルベルト_other_掌を通じた意思伝達_p193
+        quote: 'けれど、誰かを介する時だけはとても素早く意思が伝わるのだ。
+
+          それは私だけじゃなくて、相手の意思でもあるから。
+
+          双方向の呪力が掌を通じ合って、確かな手の感触をしっかりと握りしめる。'
+        locator: {}
+        spoiler_after: ch5230
+    speech:
+      observations:
+      - event_ref: E_ch5230_アズーリアとハルベルト_other_二重スリット実験の描写_p246
+        quote: '私の場合、電子ビームの振る舞いは――うーんと、そうだなあ。
+
+          電子レンジでチンされた、お手軽お菓子の出来上がり、とかどうでしょう。
+
+          「ばかなの。死ぬの」
+
+          「ひどい！」'
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_子供たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_子供たち_uses_言理の妖精の呪文_p207
+        quote: '「言理の妖精語りて曰く！」
+
+          と呪文を唱え、建材をお菓子に変えるという悪戯を繰り返しては叱られている。'
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_作業員]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_作業員_other_建材_p214
+        quote: '「言理の妖精語りて曰く」
+
+          と呟くと建材は元通り――いや、一部がお菓子のままだ。
+
+          子供の独創性には敵わないと言う事なのか、壮年の作業員は近くにいた若者を呼んでもう一度呪文を唱えて建材を元に戻してもらう。'
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_新呪文]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5230_新呪文_has_property_不安定な効果_p218
+        quote: 実のところ、その人の心の在り方や適性によって何も出来なかったり、凄い事ができたりといまひとつ効果が安定しない呪術だった。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_槍神教とアルセミット政府]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_槍神教とアルセミット政府_other_安全な使い方の普及_p224
+        quote: 槍神教やアルセミット政府は新呪文の使用に関して制限を設けようとしているみたいだけれど、審議案が提出される度にその内容が出鱈目に悪戯されてしまうので、どちらかというと『安全な使い方』を広める方針に切り替えたらしい。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージリアジル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5230_ヴァージリアジル_other_使い魔の不要性_p260
+        quote: '必須とされる使い魔なんて自分には不要だと信じた。
+
+          幸い、自分には仮想使い魔を構築する優れた才能がある。
+
+          使い魔なんてそれで十分だ。'
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_ヴァージリアジル_other_アクスとしての活動_p290
+        quote: アクスとしての活動は、なんだか俗っぽいという以上に――『下品』な感じがして嫌だった。自分が消費されていく感覚。世に出た以上、あらゆる人がコンテンツ化することは避けられない。けどそれにしたって。
+        locator: {}
+        spoiler_after: ch5230
+    action:
+      observations:
+      - event_ref: E_ch5230_ヴァージリアジル_other_ハルベルト襲名_p269
+        quote: このまま順調に進めば、最終予選で『ハルベルト』を襲名して本選に出られるはずだ。何も問題は無い。
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_ヴァージリアジル_other_アクス活動_p296
+        quote: '「水着も嫌！　ごめんなさい、でも今日限りで止めるから！」
+
+          担当のマネージャーもプロデューサーも悪い人ではなかったし、とても良くしてくれたけれど、これはもう『合わなかった』としか言いようがない。
+
+          迷惑をかけたのは申し訳無いけれど、それきり『アクス』は死んだ。'
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_ヴァージリアジル_other_歌うこと_p313
+        quote: '歌うことしかできない。それしか知らない。愚直に積み重ねて、成果が、報酬が、賞賛が、自己の承認が得られなくても、続けることでしか生きられない。
+
+          毎日、毎日、時間を無理矢理作ってやる。'
+        locator: {}
+        spoiler_after: ch5230
+      - event_ref: E_ch5230_ヴァージリアジル_other_ファンレター_p329
+        quote: 悪戯かどうかを考えるより先に、内容を見るより先に、家宝にしようとそう決めた。まず花を生けて、便箋を添えて念写して、それから違法な光学写真でも撮影して、拙いスケッチで保存し、すうっと息を大きく吸って、ペーパーナイフで丁寧に手紙を取り出した。
+        locator: {}
+        spoiler_after: ch5230
+    visual:
+      observations:
+      - event_ref: E_ch5230_ヴァージリアジル_other_手紙への反応_p336
+        quote: ヴァージリアは浮き立つ心で、手紙に記された綺麗な、それでいてどこか懐かしい筆致を受け止めて、普段は鋭く機嫌の悪そうな目を柔らかく緩ませて、そして小さな子供のように笑った。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_大企業]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_大企業_names_アクス_p275
+        quote: その才能に目を付けたとある大企業が『アクス』という名前で売り出させてくれたが（もちろん素性は秘密だ）、どうにも俗な感じでいけない。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ファンレターsender]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_ファンレターsender_other_白い梔と手紙_p328
+        quote: 白い梔（ガーデニア）と共に、手書きのファンレターが送られてきた時。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_トライデント]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5230_トライデント_is_made_of_使い魔のネットワーク_p44
+        quote: 'トライデント。
+
+          細胞と呼ばれる使い魔のネットワークによって構成された、【使い魔の魔女】の全容は、未だ明らかになっていない。'
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_クロウサー社建設部門]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_クロウサー社建設部門_functions_as_復旧作業_p6
+        quote: 復旧作業は恐ろしい速さで行われていた。槍神教の力というよりも、これはクロウサー社の建設部門が長年の間蓄積してきた復興事業に関する方法論が傑出しているということなのだろう。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバとセリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5230_リールエルバとセリアック＝ニア_other_サリア_p66
+        quote: 夜間区画の吸血鬼氏族たちの戸籍移動やドラトリアへの移住に関する煩雑な手続きでエルネトモランに残ったままのリールエルバとセリアック＝ニアから名前が被っていると一方的な難癖を付けられてサリアが暴れ出しかけたり。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5230_コルセスカ_saves_サリアの正気_p71
+        quote: 彼女は狂気を主人である冬の魔女に吸い取って貰うことで正気を保っているらしいので、考えてもみれば正常に戻ったと言う事はあちらで異常に気付いてくれたということで、それはとりもなおさず彼女が気にかけられているということでもある。つまり、わざわざ仲直りに贈り物、なんて考える意味はなかったのだ。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_エルネトモラン]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5230_エルネトモラン_transforms_繁栄_p8
+        quote: 積層樹状都市エルネトモランは、かつてと同じ――いや、少しだけその姿を変えて繁栄を取り戻していた。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5230_コア_other_新しい仲間男_p81
+        quote: 「はい、コア。そっちも首尾良くトライデントの細胞を撃退できたみたいね――え？　紹介？　新しい仲間？　どういうことそれ聞いてない。【氷腕】と【氷鏡】の使い手が見つかったのは良かったけど、そいつ信用でき、る――――男？」
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_新居留区]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5230_新居留区_appears_as_枝_p9
+        quote: 建設中の新居留区が幾つか伸びかけの枝となって世界槍から生えている。
+        locator: {}
+        spoiler_after: ch5230
+  first_appearance_candidate: true
