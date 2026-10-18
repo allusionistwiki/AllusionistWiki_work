@@ -10,15 +10,20 @@
  "tool": "scripts/reanchor_quotes.py",
  "model": "swift-1.5-iq3_xxs",
  "stats": {
-  "queue": 4528,
-  "reanchored_total": 3322,
-  "review_total": 714,
-  "not_found": 714,
-  "unique_keys": 4036,
+  "queue_unique": 4036,
+  "reanchored_total": 3665,
+  "review_total": 371,
+  "verify_failed": 29,
+  "not_found": 342,
+  "methods": {
+   "null": 3354,
+   "punct": 311
+  },
   "passes": [
    "20261018T0040_588c",
    "20261018T0835_1f78",
-   "20261018T0908_e24f"
+   "20261018T0908_e24f",
+   "20261018T1013_9d0c"
   ]
  },
  "outputs": {
