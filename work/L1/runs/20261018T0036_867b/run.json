@@ -1,0 +1,17 @@
+{
+ "run_id": "20261018T0036_867b",
+ "layer": "L1",
+ "kind": "reanchor",
+ "created": "2026-10-18T00:36:41",
+ "derived_from": {
+  "l1_run": "20261012T0000_baseline",
+  "l0_run": "20261017T2011_f863"
+ },
+ "tool": "scripts/reanchor_quotes.py",
+ "model": "swift-1.5-iq3_xxs",
+ "stats": {
+  "queue": 4528,
+  "processed": 13,
+  "reanchored": 11
+ }
+}
