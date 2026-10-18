@@ -11,23 +11,21 @@
  "model": "swift-1.5-iq3_xxs",
  "stats": {
   "queue_unique": 4036,
-  "reanchored_total": 3665,
-  "review_total": 371,
-  "verify_failed": 29,
-  "not_found": 342,
-  "methods": {
-   "null": 3354,
-   "punct": 311
-  },
-  "passes": [
-   "20261018T0040_588c",
-   "20261018T0835_1f78",
-   "20261018T0908_e24f",
-   "20261018T1013_9d0c"
-  ]
+  "reanchored_total": 3693,
+  "deleted_total": 343,
+  "deleted_by_reason": {
+   "interlude_narou_only": 87,
+   "appendix": 160,
+   "interlude_shortened": 16,
+   "scene_removed": 73,
+   "verify_failed": 3,
+   "structure_meta": 2,
+   "interlude_title": 1,
+   "author_note": 1
+  }
  },
  "outputs": {
   "reanchored_final": "reanchored-final.jsonl",
-  "review_queue": "review-queue.jsonl"
+  "deleted_ledger": "deleted-ledger.jsonl"
  }
 }
