@@ -14,12 +14,13 @@
  "pipeline": "run_analysis_parallel 5001-5589 + kaku_events.py wrapper（schema 機械補正: episode/event_id/spoiler_after, KAKU_NOS/KAKU_CHUNK=3000）×2 pass で events 589話完全 + kaku3_finalize 仕上げチェーン（aggregate→autopilot 589→merge_all→reorganize→shorten→entities→relationship→public_index）+ placeholder 修復 v4/v4b/v4c/v4d + ME 配置下位層 + lint 0",
  "promoted_vault_commit": "AllusionistLLMWiki2_Obsidian@952d6910",
  "promoted_stats": {
-  "claims": 2702,
-  "mysteries": 3103,
-  "nav_episodes": 589,
-  "me_pages": "~2700 (references/mythology|culture 下位層含む)",
+  "claims": 2598,
+  "mysteries": 3094,
+  "nav_pages": 862,
+  "nav_episodes_new": 589,
   "lint_errors": 0
  },
  "events_repair": "Phase1 抽出の schema 落ちで 319話 events 空 → wrapper 再抽出 2 pass で 589話完全（教訓: events 空は章単位で機械検出、zero-byte 検出）",
- "notes": "chapter_map 589件 = vault_ch→カクヨム ep URL/公開日/段落数。版対応台帳は L0 20261017T2011_f863 + L1 20261018T0040_588c（引用 ¶ 対応 3693/削除台帳 343）が来歴基盤"
+ "notes": "chapter_map 589件 = vault_ch→カクヨム ep URL/公開日/段落数。版対応台帳は L0 20261017T2011_f863 + L1 20261018T0040_588c（引用 ¶ 対応 3693/削除台帳 343）が来歴基盤",
+ "episode_meta": "data/episodes.json に 5xxx メタ 589 件登録（chapter はラベル数値 or 0）。build_public_index は 5xxx を『第N（カクヨム版）』表示へ（disp_no）"
 }

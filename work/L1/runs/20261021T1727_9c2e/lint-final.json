@@ -1,0 +1,432 @@
+{
+  "date": "2026-10-22",
+  "summary": {
+    "total": 46,
+    "by_severity": {
+      "error": 0,
+      "warn": 4,
+      "info": 42
+    },
+    "by_category": {
+      "semantic": 46
+    },
+    "files_checked": 15098,
+    "files_with_errors": 46
+  },
+  "errors": [
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\claims\\A_ch5407_alludes_to_E_clay_demand_myth_of_aphrodite.md",
+      "category": "semantic",
+      "code": "SEM001",
+      "severity": "warn",
+      "message": "同一subject-predicate-objectの重複A_が2件あります: A_ch5407_alludes_to_E_fauna_blindness_myth_of_aphrodite.md",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\claims\\A_ch5407_alludes_to_E_fauna_blindness_myth_of_aphrodite.md",
+      "category": "semantic",
+      "code": "SEM001",
+      "severity": "warn",
+      "message": "同一subject-predicate-objectの重複A_が2件あります: A_ch5407_alludes_to_E_clay_demand_myth_of_aphrodite.md",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\claims\\A_ch5407_analogous_to_E_clay_demand_metaphor_of_obsession.md",
+      "category": "semantic",
+      "code": "SEM001",
+      "severity": "warn",
+      "message": "同一subject-predicate-objectの重複A_が2件あります: A_ch5407_analogous_to_E_fauna_blindness_metaphor_of_obsession.md",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\claims\\A_ch5407_analogous_to_E_fauna_blindness_metaphor_of_obsession.md",
+      "category": "semantic",
+      "code": "SEM001",
+      "severity": "warn",
+      "message": "同一subject-predicate-objectの重複A_が2件あります: A_ch5407_analogous_to_E_clay_demand_metaphor_of_obsession.md",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_archetype_naruto_hokage_death.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_childhood_marriage_declaration.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_competitive_ranking_season.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_competitive_sports_ethics.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_concept_bio_weapons_living_artifact.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_concept_resonance_doppler_effect.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_corporate_internship.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_cosmic_entropy_heat_death.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_data_labeling_task.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_dune_prescience.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_EroticGame_Trope.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_gacha_game_beta_test.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_Galge_Protagonist_Complex.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_game_design_anti_cheat.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_game_mechanic_gacha_limit_break.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_game_over_screen.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_GameCharacterAsLover.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_genetic_essentialism.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_genre_cliche_tsundere_assistant.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_heroic_irony_fate.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_information_overload_paradox.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_Kigurumi_Mecha_Trope.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_laboratory_experiment_subject.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_mass_media_hysteria.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_Mythological_Trident.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_mythology_laus_and_grant.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_non_linear_time_narrative.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_NTR_Cliche.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_pet_owner_bond.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_player_addiction_mechanic.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_Powered_Exoskeleton_Mecha.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_RatingSystem_Metaphor.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_Renmei_Magic_System.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_ShockTherapy_MediaConsumption.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_Skill_Grinding_vs_Narrative.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_social_hierarchy_anxiety.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_social_media_distance.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_speedrun_farming_exploit.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_tragic_hero_archetype.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_trojan_horse_myth.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_valhalla_ascension.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    },
+    {
+      "file": "C:\\Users\\d5dx\\Downloads\\Code\\AllusionistLLMWiki2\\wiki\\references\\ME_主人公補正・ヒトノコリレオ.md",
+      "category": "semantic",
+      "code": "SEM006",
+      "severity": "info",
+      "message": "どのA_からも参照されていません（孤立した外部参照）",
+      "line": null,
+      "suggestion": null
+    }
+  ]
+}
