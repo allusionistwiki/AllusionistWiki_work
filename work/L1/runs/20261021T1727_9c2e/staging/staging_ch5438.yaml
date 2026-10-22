@@ -1,0 +1,156 @@
+episode: ch5438
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_コズエ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5438_コズエ_names_シナモリアキラ_p10
+        quote: 「俺はツールだ、コズエ。役割に意思を乗せる教導者だ」
+        locator: {}
+        spoiler_after: ch5438
+    action:
+      observations:
+      - event_ref: E_ch5438_コズエ_activates_ちびアキラ_p17
+        quote: 誰にも聞こえないほど小さく、コズエは見知らぬ違法アプリに搭載されたナビゲーター・『ちびアキラ』に話しかけた。小さな立体幻像が音声入力に反応する。
+        locator: {}
+        spoiler_after: ch5438
+      - event_ref: E_ch5438_コズエ_fights_父兄_p185
+        quote: 'コズエはいつの間にか手にしていたライフルを構え、牽制の射撃を行う。
+
+          「『弾道予報』だ、コズエ。カルカブリーナ・メソッドを使って、本当の身体的記憶を思い出すんだ！」
+
+          コズエの射撃は狙い違わず敵を撃ち抜いた。'
+        locator: {}
+        spoiler_after: ch5438
+      - event_ref: E_ch5438_コズエ_fights_クルミ_p271
+        quote: '「絶対に嫌。がらくたに触れたいのなら、力で私を押し退けてみせなさい」
+
+          「望むところだ！」
+
+          コズエは自分が何を言っているのかもわかっていない。
+
+          ただ、訓練によって修得した激情のままに前進しているだけだ。'
+        locator: {}
+        spoiler_after: ch5438
+      - event_ref: E_ch5438_コズエ_learns_表情筋トレーニング_p71
+        quote: '文句を垂れつつも、コズエは『道場』の指導を受け入れる。シナモリアキラの教えは彼女の感性に合っていた。
+
+          そうしてコズエは徐々にアイドルとしての才能を開花させていった。'
+        locator: {}
+        spoiler_after: ch5438
+    visual:
+      observations:
+      - event_ref: E_ch5438_コズエ_observes_見知らぬ幻像_p2
+        quote: 'その幻からは知らない血の香りがした。
+
+          コズエと同じ、がらくたの腐臭だ。'
+        locator: {}
+        spoiler_after: ch5438
+    speech:
+      observations:
+      - event_ref: E_ch5438_コズエ_other_決戦_p291
+        quote: 「望むところだよ。やってやろうじゃない、アキラくん！」
+        locator: {}
+        spoiler_after: ch5438
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トウコ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5438_トウコ_loses_ヒユナとの対決_p108
+        quote: 意外だったのは女子部第二の『星（エトワール）』ことトウコの敗北で、彼女は親友にしてライバルと目される紫鶏頭（ムラサキケイトウ）ヒユナとのライブ対決を前にして戦意を喪失、競技会を放棄してどこかに消えてしまったのだ。
+        locator: {}
+        spoiler_after: ch5438
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5438_シナモリアキラ_conceals_専門知識_p121
+        quote: '「身体性に関わる技術は認めますが、古典的呪術に関する理解は乏しいのですね」
+
+          「俺にだってオカルト知識はあるぞ。エーテルだろ、フロギストンだろ、カロリックだろ、あとクオリアに――」'
+        locator: {}
+        spoiler_after: ch5438
+      - event_ref: E_ch5438_シナモリアキラ_defines_ユーザー登録_p23
+        quote: 「シナモリアキラ。さあこちらの宣名は済んだぞ。あとはコズエが宣名をすればユーザー登録が完了する」
+        locator: {}
+        spoiler_after: ch5438
+      - event_ref: E_ch5438_シナモリアキラ_reveals_介入の余地_p287
+        quote: 「ここに介入の余地がある。王権を巡る戦いはただの内乱ではなく諸外国も介入する百年戦争――否、千年紀戦争だ。終末の乱世を走り抜けるぞ、コズエ」
+        locator: {}
+        spoiler_after: ch5438
+      - event_ref: E_ch5438_シナモリアキラ_other_無料お試しキャンペーン_p42
+        quote: 「無料お試しキャンペーン実施中だ。体験してから判断するのも悪くないだろう？　安心して欲しい、期間終了時に継続の手続きをしなければ自動的に退会する仕組みになっている。悪質な請求なんかは一切なしだ」
+        locator: {}
+        spoiler_after: ch5438
+      - event_ref: E_ch5438_シナモリアキラ_teaches_外形の技術_p61
+        quote: 「形式と反復。技術にとって重要なのは中じゃなくて外だ。それっぽい形があれば、笑顔には喜びがついてくる」
+        locator: {}
+        spoiler_after: ch5438
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヒメ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5438_ヒメ_other_ゼルディーオの求婚_p207
+        quote: '「人違いです。私はあなたの恋人ではありません」
+
+          突然の求婚を、ヒメはすげなく断った。'
+        locator: {}
+        spoiler_after: ch5438
+    action:
+      observations:
+      - event_ref: E_ch5438_ヒメ_dies_ゼルディーオとの相打ち_p228
+        quote: 'ついに大魚の悪魔が投擲した長大な槍が、氷の少女の胸を貫いたのだ。
+
+          「死んだ！　愛すべき生徒、守られるべき子供、幼き姫君は冥道をくぐることなく眠りについたのだ！」'
+        locator: {}
+        spoiler_after: ch5438
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラクルラール]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5438_ラクルラール_other_遺体の禁止_p254
+        quote: 「これは学院からの命令だ。幼き姫の死を嘆くことは許されない。その遺骸に触れて葬ること、弔うことの一切を禁止する。野晒しにして捨て置き、野犬や鳥の餌食となるがままに任せ、世の見せしめとするのだ！　これは校則である！」
+        locator: {}
+        spoiler_after: ch5438
+      - event_ref: E_ch5438_ラクルラール_names_六王_p281
+        quote: '空席となった生徒会に新たな人形が補充される。
+
+          形を似せた再演の道具。
+
+          六王を繰り返すための英雄たちだ。'
+        locator: {}
+        spoiler_after: ch5438
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_学院]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5438_学院_defines_生徒管理_p32
+        quote: 「お前たちの自我は脆く未成熟だ。社会に砕かれて心臓が止まってしまわないように、学院という殻で守る必要がある」
+        locator: {}
+        spoiler_after: ch5438
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クルミ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5438_クルミ_appears_as_王子_p87
+        quote: '男装して男子部の競技に混ざっているのは、ずっとコズエをいじめてきたクルミだった。
+
+          演技と舞踏において女子部随一の男子役適性を有するクルミは、尊敬と憧れを込めて『王子』と呼ばれていた。'
+        locator: {}
+        spoiler_after: ch5438
+  first_appearance_candidate: true

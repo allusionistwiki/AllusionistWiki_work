@@ -1,0 +1,232 @@
+chapter: ch5090
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 21
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5090_コルセスカ_says_迷宮踏破と火竜殺し_p4]]'
+  object: '[[ME_speedrun]]'
+  claim: 異世界での冒険を「最速で踏破（クリア）」というゲーム用語で定義することで、物語の目的が生存ではなく攻略・記録更新にあることを示唆している。
+  quote: 「――私はこの迷宮（ゲーム）を最速で踏破（クリア）して、火竜メルトバーズを今度こそ殺してみせる」
+  paragraph: p4
+  confidence: explicit
+  quotes:
+  - quote: 「――私はこの迷宮（ゲーム）を最速で踏破（クリア）して、火竜メルトバーズを今度こそ殺してみせる」
+    paragraph: p4
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5090_コルセスカ_defines_フルコンプ主義_p59]]'
+  object: '[[ME_completionist_mindset]]'
+  claim: 仲間やアイテムを「全て回収」する行為を、ゲームのコンプリート要素への執着として説明し、人間関係すら収集対象とみなす価値観を描く。
+  quote: 可能な限りやり込んで、アイテムも仲間も全て回収。トレードオフの関係にあるものは一回性の体験として潔く諦めますが、これは私の譲れないプレイスタイルです
+  paragraph: p59
+  confidence: explicit
+  quotes:
+  - quote: 可能な限りやり込んで、アイテムも仲間も全て回収。トレードオフの関係にあるものは一回性の体験として潔く諦めますが、これは私の譲れないプレイスタイルです
+    paragraph: p59
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5090_コルセスカ_names_アキラを仲間キャラと定義_p63]]'
+  object: '[[ME_party_member_event]]'
+  claim: アキラという人間を「中盤加入の暗い過去を持つ武術家クラス仲間キャラ」というゲーム内のキャラクター分類に当てはめ、イベント発生フラグとして認識している。
+  quote: 私は貴方が、中盤に加入する暗い過去を背負った武術家クラスの仲間キャラだと確信しています。丁度、前衛も強化したかった所ですし。更には私と似て非なる転生者。これは間違い無く新しい仲間のイベント開始のフラグだと私の経験が告げていました
+  paragraph: p63
+  confidence: explicit
+  quotes:
+  - quote: 私は貴方が、中盤に加入する暗い過去を背負った武術家クラスの仲間キャラだと確信しています。丁度、前衛も強化したかった所ですし。更には私と似て非なる転生者。これは間違い無く新しい仲間のイベント開始のフラグだと私の経験が告げていました
+    paragraph: p63
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5090_コルセスカ_reveals_男性攻略の履歴_p79]]'
+  object: '[[ME_otome_game_endings]]'
+  claim: 複数の男性との結婚を「エンディング」と呼び、同時並行で攻略・囲い込みを行う様子は、乙女ゲームや恋愛シミュレーションゲームのマルチエンド収集行為のメタファーである。
+  quote: 男性と結婚（エンディング）を迎えたことも十や二十ではきかず、果ては九人同時に攻略して全員を囲ったことまであります
+  paragraph: p79
+  confidence: explicit
+  quotes:
+  - quote: 男性と結婚（エンディング）を迎えたことも十や二十ではきかず、果ては九人同時に攻略して全員を囲ったことまであります
+    paragraph: p79
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5090_ちびシューラ_is_made_of_脳細胞への呪術式刻印_p31]]'
+  object: '[[ME_neural_interface_software]]'
+  claim: マイクロチップではなく脳細胞そのものに刻印された電気的パターンとして存在するという設定は、ハードウェア依存ではないソフトウェア（AI/アバター）の存在形態を連想させる。
+  quote: よりにもよって脳細胞そのものに刻印された呪術式が電気的な情報のパターンを形成することで生起される存在だということ。
+  paragraph: p31
+  confidence: strong
+  quotes:
+  - quote: よりにもよって脳細胞そのものに刻印された呪術式が電気的な情報のパターンを形成することで生起される存在だということ。
+    paragraph: p31
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5090_読心能力_has_property_過度な情報化の弊害_p53]]'
+  object: '[[ME_information_overload_trauma]]'
+  claim: 思考を読める能力が「知りたくない事」まで明らかにし使用者を傷つけるという描写は、SNSや情報技術によるプライバシー侵害・メンタルヘルス悪化への批判的メタファーである。
+  quote: 過度の情報化は知りたくない事、知る必要のない事までも明らかにしてしまう。幻の涙を流して夫の浮気を知ってしまった妻のように泣き崩れる二頭身の身体。
+  paragraph: p53
+  confidence: moderate
+  quotes:
+  - quote: 過度の情報化は知りたくない事、知る必要のない事までも明らかにしてしまう。幻の涙を流して夫の浮気を知ってしまった妻のように泣き崩れる二頭身の身体。
+    paragraph: p53
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの隠された両腕
+  note: 外見描写で「隠された両腕」とあり、p107で「両腕を失っても」と言及されている。失われた理由と、回復・代用手段に関する伏線。
+  quotes:
+  - quote: 隠された両腕を、その身を包む黒と白の衣服を、光沢を湛えた氷の靴を、氷細工のように煌めく姿を
+    paragraph: p18
+    quote_verified: true
+  - quote: 両腕を失っても、まだ脚だけは残っている。それならば、進むべき場所、立つべき位置くらいは、自分で決めることができるはずだった。
+    paragraph: p107
+    quote_verified: true
+  expected_payoff: コルセスカの過去の悲劇（切断・呪いなど）の背景が明かされる、あるいはアキラとの関係性の中で腕の喪失が象徴的な意味を持つ展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_火竜メルトバーズ殺しへの執着
+  note: 「今度こそ」という言葉から、過去に失敗・死亡した経験があることを示唆する。なぜ彼女が火竜を殺すことに固執するのか、その因果関係。
+  quotes:
+  - quote: 「――私はこの迷宮（ゲーム）を最速で踏破（クリア）して、火竜メルトバーズを今度こそ殺してみせる」
+    paragraph: p4
+    quote_verified: true
+  expected_payoff: 過去の死亡フラグやループの解明、火竜との具体的な因縁（復讐・使命など）の開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ちびシューラの存在形態と監視
+  note: 脳細胞に刻印され、思考を監視し続けているという設定。この情報が外部へ漏洩するリスクや、キロンの攻撃との関連性が未解決。
+  quotes:
+  - quote: そしてずっと俺の思考を監視していたこと。
+    paragraph: p29
+    quote_verified: true
+  - quote: キロンの攻撃によってマイクロチップは破壊されたが、彼女は生存していられたのはそれが理由だった。
+    paragraph: p33
+    quote_verified: true
+  expected_payoff: 脳内の情報漏洩による危機（敵への位置情報送信など）、あるいはちびシューラ自身の制御不能化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トリシューラの横殴りと競合関係
+  note: コルセスカが「横殴りは想定外だった」と分析しており、アキラを巡る争いがゲーム的な対戦構造として描かれている。今後の三角関係の結末。
+  quotes:
+  - quote: 対戦では私が勝ち越してきましたが、このジャンルはいつも一人でプレイしていたので横殴りは想定外だったのです
+    paragraph: p83
+    quote_verified: true
+  expected_payoff: コルセスカとトリシューラ（およびアキラ）による最終的な決着、あるいは共同戦線への転換。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_吸血鬼としての咬傷行動
+  note: 最後に「いただきます！」と言って首に噛みつく行動は、単なる攻撃ではなく契約・従属・吸血の儀式を示唆する。
+  quotes:
+  - quote: 鋭利な牙を伸ばした魔女にして吸血鬼という少女が、勢いよく俺の首に齧り付いてきたのであった。
+    paragraph: p113
+    quote_verified: true
+  expected_payoff: アキラがコルセスカの「使い魔」または眷属として扱われる展開、吸血による能力獲得や支配関係の確立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人生をゲーム的な攻略対象として捉える極端なメタ意識と、その滑稽さ・面白さ
+  weight: 0.9
+  quotes:
+  - quote: 「すると俺は何か。仲間キャラだから加入イベントの為に必死に助けようとしている、と？」
+    paragraph: p61
+    quote_verified: true
+  - quote: 引きこもりとクソオタをこじらせた果てに主人公として覚醒するとか一体どういうことだ。何だこいつ面白すぎる。
+    paragraph: p71
+    quote_verified: true
+  note: コルセスカの行動原理が全てゲーム用語（クリア、フルコンプ、フラグ、エンディング）で構成されており、それがアキラにとって「異常」かつ「魅力的」な存在として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 過度な情報アクセスによる精神侵食と、他者理解の困難さ
+  weight: 0.7
+  quotes:
+  - quote: 他人の思考を読める、というのは普通に考えればこの上なく巨大なアドバンテージだ。しかし人の技術や英知は時にこうして使い手にその牙を剥く。
+    paragraph: p53
+    quote_verified: true
+  - quote: （知りたくなかった。こんな残酷な真実を知ってしまうくらいなら、人の心の中なんて覗くんじゃなかったよう）
+    paragraph: p51
+    quote_verified: true
+  note: ちびシューラを通じた内省と読心能力の弊害が描かれ、「知る」ことが必ずしも幸福ではないという主題が浮き彫りになっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 喪失（両腕）を抱えつつも、限られた身体で自立し運命に抗う意志
+  weight: 0.6
+  quotes:
+  - quote: 過酷な運命を乗り越えようとするその力強い抗戦を。
+    paragraph: p18
+    quote_verified: true
+  - quote: 両腕を失っても、まだ脚だけは残っている。それならば、進むべき場所、立つべき位置くらいは、自分で決めることができるはずだった。
+    paragraph: p107
+    quote_verified: true
+  note: コルセスカの物理的な欠損と、アキラの受動的な状態が対比され、完全でない中で如何に主体性を取り戻すかが問われている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 現実を「更新」し神話を追従させるという、自己中心的な世界観の肯定
+  weight: 0.5
+  quotes:
+  - quote: 「そうして私は、現実を更新する。神話なんて、私の後ろを追いかけてくればそれでいい」
+    paragraph: p12
+    quote_verified: true
+  - quote: 荒ぶる竜を討ち滅ぼし、猛る世界の残酷を、人の摂理に基づきまつろわせる
+    paragraph: p8
+    quote_verified: true
+  note: コルセスカの宣言は非常に傲慢だが、アキラがこれを「運命」として受け入れ、敬意を示すことで、物語上の正当性が担保されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

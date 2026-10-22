@@ -1,0 +1,208 @@
+chapter: ch5127
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 3
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5127_アキラ_travels_第六区_p3]]'
+  object: '[[ME_insurance_and_labor_union]]'
+  claim: 探索者協会の機能は、現代における労働組合および社会保険制度の異世界版として描かれている。
+  quote: 探索者協会に所属していれば傷害・死亡保険などに加入できるし、行方不明になった際には優先して捜索が行われる。
+  paragraph: p9
+  confidence: strong
+  quotes:
+  - quote: 探索者協会に所属していれば傷害・死亡保険などに加入できるし、行方不明になった際には優先して捜索が行われる。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5127_アキラ_travels_第六区_p3]]'
+  object: '[[ME_gig_economy_platform]]'
+  claim: 掲示板と端末を用いた依頼の受注システムは、現代のギグエコノミー（クラウドソーシング・求職アプリ）を模倣している。
+  quote: 掲示板の表面を軽く触れて情報を検索。立体投影された仮想の依頼書が次々と切り替わっていく。
+  paragraph: p30
+  confidence: strong
+  quotes:
+  - quote: 掲示板の表面を軽く触れて情報を検索。立体投影された仮想の依頼書が次々と切り替わっていく。
+    paragraph: p30
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5127_アキラ_travels_第六区_p3]]'
+  object: '[[ME_hero_squad_archetype]]'
+  claim: 「四英雄」と呼ばれる存在は、RPGにおける「最強パーティ」のクリシェを解体し、組織間の政治的対立構造へと変換している。
+  quote: 人々の期待は【騎士団】よりも【四英雄】にかけられがちであり、上層部が英雄を欲しがっているのも自然な成り行きと言えた。
+  paragraph: p67
+  confidence: moderate
+  quotes:
+  - quote: 人々の期待は【騎士団】よりも【四英雄】にかけられがちであり、上層部が英雄を欲しがっているのも自然な成り行きと言えた。
+    paragraph: p67
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5127_アキラ_travels_第六区_p3]]'
+  object: '[[ME_catoblepas_mythology]]'
+  claim: 討伐対象の「凝視水牛（カトブレパス）」は、古代ギリシャ・ローマ神話に伝わる邪視を持つ怪物の直接引用である。
+  quote: 第四階層の第一裏面に生息する固有種（ユニーク）、凝視水牛（カトブレパス）は確かに私達が討伐しましたので、ご確認ください
+  paragraph: p42
+  confidence: explicit
+  quotes:
+  - quote: 第四階層の第一裏面に生息する固有種（ユニーク）、凝視水牛（カトブレパス）は確かに私達が討伐しましたので、ご確認ください
+    paragraph: p42
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5127_アキラ_travels_第六区_p3]]'
+  object: '[[ME_professional_certification_system]]'
+  claim: 「言語魔術師」という称号は、現代の国家資格や国際標準規格による専門職認定制度のアナロジーとして機能している。
+  quote: 応募資格は国際共通規格における一級言語魔術師資格をお持ちの方。
+  paragraph: p103
+  confidence: strong
+  quotes:
+  - quote: 応募資格は国際共通規格における一級言語魔術師資格をお持ちの方。
+    paragraph: p103
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5127_アキラ_travels_第六区_p3]]'
+  object: '[[ME_squad_trope_rpg]]'
+  claim: 冬の魔女、アルマ、サリアの三人組は、ロールプレイングゲームにおける「戦士・魔法使い・盗賊」などの固定された役割分担（パーティ構成）を体現している。
+  quote: 「じゃあ私はサリアちゃんを止めるー♪」軽やかに言いながら、長身の女性が栗色の頭に顎を乗せた。がくんと膝が曲がり頭が下がる。
+  paragraph: p213
+  confidence: moderate
+  quotes:
+  - quote: 「じゃあ私はサリアちゃんを止めるー♪」軽やかに言いながら、長身の女性が栗色の頭に顎を乗せた。がくんと膝が曲がり頭が下がる。
+    paragraph: p213
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_p5127_kobold_thief
+  note: 掲示板システム障害の直後に現れた「泥棒カササギ」「吸血鬼」と呼ばれる人物。アキラの獲物（依頼）を奪う行為への対抗意識を示唆しており、後の展開での直接対決や、この人物が誰かの仲間である可能性が高い。
+  quotes:
+  - quote: 隙あらば無自覚で人の獲物を横から掻っ攫おうとする泥棒カササギ。略奪が得意な探索者――吸血鬼らしいけれど。こっちだってそんなに甘くない
+    paragraph: p272
+    quote_verified: true
+  - quote: 掲示板の裏側から、だろうか。どこかで聞き覚えがあるような、囁くような綺麗な呟きだった。幻聴のようにかき消えて、そのままどこかにいなくなる。
+    paragraph: p274
+    quote_verified: true
+  expected_payoff: アキラが冬の魔女を追って第五階層へ向かう際、または地上での依頼争奪戦において、この人物が敵対的・競合的な存在として再登場し、システム障害の真犯人あるいは「略奪者」としての役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_p5127_coral_sister
+  note: 冬の魔女（コア/コルセスカ）が第五階層へ向かう最大の動機である「妹さん」。サリアはこの人物を「信用できない」「会わせたくない」と強く拒絶しており、姉妹間の深刻な対立関係が存在する。
+  quotes:
+  - quote: 「ひょっとして、妹さん絡み？」長身の女性はぱっと表情を華やがせて言った。冬の魔女には妹がいたというのは初耳だった。
+    paragraph: p168
+    quote_verified: true
+  - quote: 「反対。あいつは信用できない――いや、行くにしてもそれなら尚のこと私達がいる方が安全でしょう」
+    paragraph: p174
+    quote_verified: true
+  expected_payoff: 第五階層での探索中に「妹」との再会シーンが描かれ、アキラの「妹への後悔」というテーマと重なり合う形で、この姉妹関係がアキラ自身の家族問題（フィリスや行方不明の妹）に対する鏡像として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_p5127_board_glitch
+  note: 依頼検索システムの大規模な不具合と、掲示板裏側からの囁き。単なる技術トラブルではなく、意図的な妨害または監視行為の痕跡である可能性。
+  quotes:
+  - quote: ぶつり、と掲示板から全ての映像が消失する。依頼を探そうとしていた探索者達が騒然となるが、協会の事務員が説明するところによればシステムの予期せぬ不具合らしく、復旧に時間がかかるとのこと。
+    paragraph: p270
+    quote_verified: true
+  expected_payoff: システム障害がアキラの行動（第五階層への追跡）を遅延させる障壁として作用するか、あるいはこの障害自体が「泥棒カササギ」による情報統制・誘い込みの罠であったことが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄崇拝の虚構性：組織（騎士団）と個人（四英雄）の権威の相対化
+  weight: 0.8
+  quotes:
+  - quote: 【騎士団】の実質的な権威なんて高が知れているのだから。
+    paragraph: p19
+    quote_verified: true
+  - quote: 人々の期待は【騎士団】よりも【四英雄】にかけられがちであり、上層部が英雄を欲しがっているのも自然な成り行きと言えた。
+    paragraph: p67
+    quote_verified: true
+  note: アキラは公式組織の権威を軽視し、実力主義的な「英雄」への憧れを抱いているが、それは同時に騎士団上層部の政治的計算（四英雄による権威の相対化）に基づいている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 後悔の転移と自己救済：他者の家族問題を自身のトラウマに重ねる行為
+  weight: 0.9
+  quotes:
+  - quote: 私ずっと前に、妹に何も言えないまま、それっきり離ればなれになってしまって、とても後悔しているんです。それからずっと妹を捜し続けていて――だから、他人事だと思えなくて。
+    paragraph: p192
+    quote_verified: true
+  - quote: 自分本位なお願いなんです。ただ、後悔が繰り返されるのが、見たくないから
+    paragraph: p203
+    quote_verified: true
+  note: アキラは冬の魔女の妹問題を「他人事」として片付けず、自身の妹への罪悪感を投影することで介入する。これは自己中心的な行為であるが、結果的に冬の魔女を後押しし、「後悔のない選択」の重要性を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 種族的決定論と個人の実力主義の衝突
+  weight: 0.6
+  quotes:
+  - quote: 私達の種族が後衛向きだというのは偏見というかただの事実である。大神院が定める眷族種の位階は、高位になるほど霊的な性質が強く、逆に物質的な性質が弱くなるので後衛の呪術師に向いている。
+    paragraph: p123
+    quote_verified: true
+  - quote: 私が前衛もやれているのはひとえに呪動装甲とフィリスによる全能力の底上げがあるからに他ならない。
+    paragraph: p127
+    quote_verified: true
+  note: 冬の魔女との会話で「夜の民＝後衛」というステレオタイプを突きつけられるが、アキラは装備とパートナー（フィリス）によってその決定論を打破している。社会の偏見に対する個人の抗弁が主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 信頼の非対称性とプロフェッショナリズム
+  weight: 0.5
+  quotes:
+  - quote: 親密圏とかそういう概念を根刮ぎにするような、全身全霊の信頼感が当たり前の様にそこにあった。命を預け合う分隊としてはキール隊の結束は盤石だったと思いたいけれど、この三人はちょっと突き抜け過ぎてて別の薫りがしなくもない。
+    paragraph: p158
+    quote_verified: true
+  - quote: どうせコアちゃんなら何があっても一人で乗り切れるもの
+    paragraph: p253
+    quote_verified: true
+  note: 四英雄パーティの結束はアキラにとって「異質」で、その圧倒的な信頼関係（サリアがアルマに止められる程度に強い）が描かれる。これはアキラが持つ孤独な探索者としての性質との対比を際立たせる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

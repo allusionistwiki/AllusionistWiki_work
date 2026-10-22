@@ -1,0 +1,130 @@
+chapter: ch5289
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 16
+items:
+- kind: mystery
+  name: MY_Geratio's_Plan
+  note: 骨相士ゲラティウスがミシャルヒの長期的な存在（未来の幽鬼）に関心を示した真の意図。単なる観察でなく、末永い付き合いを望む理由は不明。
+  quotes:
+  - quote: ただの一度も代替わりせず、遙か未来までジャッフハリムの四十四士で在り続ける貴方にね。
+    paragraph: p68
+    quote_verified: true
+  - quote: そう、遠い未来までね
+    paragraph: p68
+    quote_verified: true
+  expected_payoff: ゲラティウスの研究（脳機能局在論）とミシャルヒの存在が、後の展開で何らかの呪術的・メタ的なキーとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rose_Source
+  note: 天井の食虫植物から現れたカーインが投げた赤薔薇の性質。巨人の腕を物理的に押し退ける重みを持つ理由。
+  quotes:
+  - quote: あの薔薇、古き神の加護でも宿っているの？
+    paragraph: p315
+    quote_verified: true
+  - quote: 天井から逆さまに咲いた巨大な食虫植物の中から現れたカーイン
+    paragraph: p315
+    quote_verified: true
+  expected_payoff: カーインの能力の本質、あるいは繁茂の神オーファとの関係性、またはラクルラールの支配に対する対抗手段の一部が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rows_Vein_Integration
+  note: ラウス＝ベフォニスの頭部から生えた青い毛と大地への一体化。カーインの髪色との関連性が疑われている。
+  quotes:
+  - quote: どろどろに融けた毛先が闇色の大地と一体化している。
+    paragraph: p307
+    quote_verified: true
+  - quote: パーンが俺に気づかないうちに融血呪を破壊したのだろうか？
+    paragraph: p315
+    quote_verified: true
+  expected_payoff: ラウス＝ベフォニスが単なる山賊ではなく、この洞窟の環境（大地）と融合する存在であること、およびカーインとの血縁的・呪術的な繋がり。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Ofa's_Broom
+  note: パーンが使用した箒はオーファから預かった貴重な呪具であり、破壊されたことで天罰が下る可能性が示唆されている。
+  quotes:
+  - quote: 「そのうち繁茂の神から天罰が下るぞ？」
+    paragraph: p317
+    quote_verified: false
+  - quote: 半ばから真っ二つに折れた木の柄が落下していく。使い手の無茶に箒の方が耐えられなくなったのだ。
+    paragraph: p305
+    quote_verified: true
+  expected_payoff: オーファという存在の介入、または繁茂の神の権能によるペナルティと、その解決プロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションにおける『作者』と『登場人物』の境界崩壊：物語外からの介入（アプリ、作者の声）が物語内の物理法則を凌駕する。
+  weight: 0.9
+  quotes:
+  - quote: この世の全てが劇場、というわけだ。ならば、もはや神だろうが語り部だろうが作者だろうが全て舞台の上の登場人物に過ぎないのだ。
+    paragraph: p70
+    quote_verified: true
+  - quote: ちびシューラが持つ電子ボードには「そこでボケて」と表示されているが、お前はそこでボケんでいい。真面目にやれ。
+    paragraph: p153
+    quote_verified: true
+  note: アキラ（主人公）がメタ的な視点を持ち、アプリや作者の指示を劇中の力として利用する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体性と意識の分離：幻肢・幻脳という錯覚によって構成される『自己』と、物理的実体の間の葛藤と優位性。
+  weight: 0.8
+  quotes:
+  - quote: 存在しない脳そのものが脳という構造をあると勘違いするという壮大な喜劇。幻肢ならぬ『幻脳』が俺の意識をあやふやな土台の上で継続させる。
+    paragraph: p79
+    quote_verified: true
+  - quote: 空想を打撃力に変換することでパーンへ渾身の一撃を見舞う。
+    paragraph: p134
+    quote_verified: true
+  note: 肉体を持たない（幻肢化）アキラが、錯覚と信念によって実体を持つ敵と対等に渡り合う能力の探求。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 疑似科学・代替医療の体系化：気功、オルゴン、整骨操手、波動などが、この世界では厳密な『呪術体系』として機能していることへの皮肉と肯定。
+  weight: 0.7
+  quotes:
+  - quote: 脳機能局在論は現代における杖という呪術基盤を確立させる上で極めて重要な役割を果たした呪術観。
+    paragraph: p33
+    quote_verified: true
+  - quote: 多分、整骨操手（オステオパシー）系統、カーインみたいな生体系呪術の使い手だと思うんだけど――ごめん、まだわかんない！
+    paragraph: p98
+    quote_verified: true
+  note: 現代科学では否定される概念が、ファンタジー世界で最強の武器として描かれることによるメタフィクショナルな逆転。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 権力構造の転換：過去の英雄（パーン）を『試験』し、未来の天才（リーナ）のために協力者として組み込むという、時間軸を超えた権力の再編成。
+  weight: 0.6
+  quotes:
+  - quote: 俺はあのお方の同盟者として、お前が挑戦者として相応しいかどうかテストしなければならない
+    paragraph: p191
+    quote_verified: true
+  - quote: 未来のクロウサー家当主であるリーナ・ゾラ・クロウサー様はな、地上ではその名を知らぬ者がいないほどの傑物。
+    paragraph: p191
+    quote_verified: true
+  note: アキラが過去の存在を支配下に置こうとする試みと、それがパーンの承認によって成立する過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

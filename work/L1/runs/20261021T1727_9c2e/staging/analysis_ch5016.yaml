@@ -1,0 +1,242 @@
+chapter: ch5016
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 16
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{app_activation}]]'
+  object: '[[ME_{smartphone_game_management}]]'
+  claim: 主人公が複数のアプリ（能力）をメモリ制限の中で切り替える描写は、スマホゲームのガチャや編成管理、リソース最適化を連想させる。
+  quote: 並列して四つ以上の動作制御系アプリを起動すると処理が遅くなり、義肢の動きに遅延が生じてしまう為、一つを選んで終了させる必要がある。
+  paragraph: p174
+  confidence: strong
+  quotes:
+  - quote: 並列して四つ以上の動作制御系アプリを起動すると処理が遅くなり、義肢の動きに遅延が生じてしまう為、一つを選んで終了させる必要がある。
+    paragraph: p174
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{doppler_app}]]'
+  object: '[[ME_{audio_editing_software}]]'
+  claim: 戦闘用の聴覚強化アプリ『Doppler』が、元は音楽編集用であり「無用の長物」と化していたという設定は、実在するオーディオ編集ソフト（DAW等）の過剰な機能や使われないプラグインを皮肉っている。
+  quote: 音響処理アプリ『Doppler』は本来は脳内音楽用に開発されたものだ。しかし吹奏楽やDTMなどに親しんでいた家族の中で俺一人だけが音楽的素養が無かったせいで、幼少期にインストールしたまま無用の長物と化していた。
+  paragraph: p80
+  confidence: explicit
+  quotes:
+  - quote: 音響処理アプリ『Doppler』は本来は脳内音楽用に開発されたものだ。しかし吹奏楽やDTMなどに親しんでいた家族の中で俺一人だけが音楽的素養が無かったせいで、幼少期にインストールしたまま無用の長物と化していた。
+    paragraph: p80
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_{app_selection}]]'
+  object: '[[ME_{rpg_build_theory}]]'
+  claim: 「サイバーカラテ道場」を削除し、「Doppler」を残す選択は、RPGにおける「ステータス振りの最適化」や「ビルド理論」のメタファである。
+  quote: 戦闘時に俺が使うのは主に五つ。格闘動作制御アプリ『サイバーカラテ道場』。弾道予測計算アプリ『弾道予報Ver2.0』。遅延動作設定アプリ『残心プリセット』はその性質上、優先度が低いので除外。そして感覚・感情制御アプリ『E-E』。
+  paragraph: p176
+  confidence: moderate
+  quotes:
+  - quote: 戦闘時に俺が使うのは主に五つ。格闘動作制御アプリ『サイバーカラテ道場』。弾道予測計算アプリ『弾道予報Ver2.0』。遅延動作設定アプリ『残心プリセット』はその性質上、優先度が低いので除外。そして感覚・感情制御アプリ『E-E』。
+    paragraph: p176
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{silent_step}]]'
+  object: '[[ME_{ninja_stealth_tradition}]]'
+  claim: 「無音の震脚」は、忍者や隠密の足音消しの技術、あるいは格闘技における「間（ま）」をデジタル技術で再現・拡張したものである。
+  quote: 運足だけは誰にも負けたくないと決意した小学校四年生の時から毎日、無駄な音が一切しなくなるまで、音響処理アプリまで使用して『無音の震脚』を完成させたのだ。
+  paragraph: p104
+  confidence: moderate
+  quotes:
+  - quote: 運足だけは誰にも負けたくないと決意した小学校四年生の時から毎日、無駄な音が一切しなくなるまで、音響処理アプリまで使用して『無音の震脚』を完成させたのだ。
+    paragraph: p104
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_{akira_communication}]]'
+  object: '[[ME_{online_game_voice_chat}]]'
+  claim: アキラが「心話」ではなく「音響処理アプリ」を用いて指示を出すのは、オンラインゲームでのボイスチャットやPing（遅延）を伴う通信の比喩である。
+  quote: 『心話』でもちょっと意味が分かりづらい。体内に集音器と演算装置でも積んでいるのか？
+  paragraph: p61
+  confidence: weak
+  quotes:
+  - quote: 『心話』でもちょっと意味が分かりづらい。体内に集音器と演算装置でも積んでいるのか？
+    paragraph: p61
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{timer_countdown}]]'
+  object: '[[ME_{battle_royale_zone_shrink}]]'
+  claim: 残り時間が減り、安全な場所（広場）へ移動を強要される状況は、バトルロイヤルゲームのエリア縮小メカニクスと構造的に一致する。
+  quote: 視界の隅にセットしたタイマーを見て、アズーリアに確認を取る。「残り時間、あと700秒だよな？！」
+  paragraph: p150-p152
+  confidence: moderate
+  quotes:
+  - quote: 視界の隅にセットしたタイマーを見て、アズーリアに確認を取る。「残り時間、あと700秒だよな？！」
+    paragraph: p150-p152
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_{cyber_karate}]]'
+  object: '[[ME_{transhumanism_in_sports}]]'
+  claim: 義肢前提の技術を生身の足で行うという「サイバーカラテ」の定義は、トランスヒューマニズムにおける身体拡張と生体の限界への挑戦を象徴する。
+  quote: サイバーカラテにおいては、義足の運用を前提に組み立てられている技術体系だが、俺はそれを生身の脚で実践した。
+  paragraph: p104
+  confidence: strong
+  quotes:
+  - quote: サイバーカラテにおいては、義足の運用を前提に組み立てられている技術体系だが、俺はそれを生身の脚で実践した。
+    paragraph: p104
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Cain_Remains_Useful
+  note: 主人公がカインの死体（異獣化後の抜け殻）が何かの役に立つかもしれないと考えている。
+  quotes:
+  - quote: 視線を異獣と化したカインの死体に向けて心の中で呟く。あのエスフェイルの抜け殻が、何かの役に立つかも知れない。アキラの心情を考えて、口には出さないが。
+    paragraph: p38
+    quote_verified: true
+  expected_payoff: カインの死体を用いた呪術的な儀式、またはその死体を素材としたアイテム作成・兵器転用が発生する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Doppler_Origin_Event
+  note: 主人公が幼少期にインストールした『Doppler』を「ある事」で使用していたと記述している。
+  quotes:
+  - quote: アンインストールしても良かったのだが、『ある事』に使用していたら、聴覚の補助に使うことによって索敵の精度を上げることが出来ることを偶然発見し、それから俺はこのアプリに何度も助けられてきた。
+    paragraph: p82
+    quote_verified: true
+  expected_payoff: 「ある事」とは何か（犯罪行為、隠蔽工作、過去の事件など）が明かされ、主人公の過去や倫理的な背景に関わる重要エピソードとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Weight_Magic
+  note: アズーリアが体重を軽くする呪術を使っていることが明かされているが、その代償や詳細なメカニクスは不明。
+  quotes:
+  - quote: 「言っておくけれど、速度を上げるために体重を軽くする呪術を使っているだけだから。骨密度も筋肉もちゃんと意識して鍛えてる。私は本来もっと重いから――！」
+    paragraph: p125
+    quote_verified: true
+  expected_payoff: アズーリアの「重さ」が物理的な攻撃力や防御力、あるいは呪術の対価に関わる重要な要素として後で登場する（例：重い状態での必殺技）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Esfeil_Legs_Structure
+  note: エスフェイルの黒い棘が「脚そのもの」であり、同時に4本までしか攻撃できないという推測。
+  quotes:
+  - quote: 「――最初みたいに連射が、できないはず。推測だけど、あれはエスフェイルの脚そのもの。立ち上がった時、両手を剣みたいにしていたでしょう？」
+    paragraph: p145
+    quote_verified: true
+  expected_payoff: エスフェイルの弱点（脚を攻撃すると移動不能になる等）として、最終決戦での戦術の鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Silence_Comfort
+  note: アキラが沈黙を苦痛と感じず、目を瞑って呼吸を整えている描写。彼の性格や過去の訓練の背景を示唆する。
+  quotes:
+  - quote: アキラはというと、意外と言うべきか、沈黙を苦痛とは感じていないようだった。静かに目を瞑り、呼吸を整えている。来るべき戦いに備えているのだろう。
+    paragraph: p43-p44
+    quote_verified: true
+  expected_payoff: アキラが戦闘において「無音」や「静寂」を武器とする能力、あるいは精神統一による特殊な効果を持つことが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術の過剰適応と人間性の残存（サイバーカラテにおける生身の脚）
+  weight: 0.8
+  quotes:
+  - quote: サイバーカラテにおいては、義足の運用を前提に組み立てられている技術体系だが、俺はそれを生身の脚で実践した。運足だけは誰にも負けたくないと決意した小学校四年生の時から毎日、無駄な音が一切しなくなるまで、音響処理アプリまで使用して『無音の震脚』を完成させたのだ。
+    paragraph: p104
+    quote_verified: true
+  note: 義肢前提の世界で生身の身体にこだわる姿は、技術進歩に対する人間の意地やアイデンティティを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 資源（メモリ）の希少性と選択の重み（アプリ取捨選択）
+  weight: 0.7
+  quotes:
+  - quote: 並列して四つ以上の動作制御系アプリを起動すると処理が遅くなり、義肢の動きに遅延が生じてしまう為、一つを選んで終了させる必要がある。取捨選択の結果。俺が選んだのは、『サイバーカラテ道場』だった。
+    paragraph: p174-p182
+    quote_verified: false
+  note: リソース制限下での最適化行為は、現代のゲームプレイや仕事の効率化における「切り捨て」の倫理を反映している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 沈黙と信頼（言語コミュニケーションの限界）
+  weight: 0.6
+  quotes:
+  - quote: それきり言葉が途切れて、沈黙が辺りを包み込んだ。私は必要が無ければ喋らないので、誰かといるとこういう瞬間がよく訪れる。私はこういう時間を苦とは思わないのだが、人によっては長い沈黙はストレスになるらしい。
+    paragraph: p40-p41
+    quote_verified: true
+  note: アキラとの間に流れる「言葉のない信頼」が、戦闘準備における重要な要素として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: データ化された感覚と現実の乖離（アプリによる知覚補正）
+  weight: 0.5
+  quotes:
+  - quote: 反響する風、虫、小動物、さまざまなものが発する音が木々に反響して複雑な流れとなって聞こえてくる。その中から、『攻撃の意思』だけを抽出して反応する。
+    paragraph: p85-p87
+    quote_verified: true
+  note: ノイズからシグナルを抽出するアルゴリズム的思考が、人間の直感（第六感）をデジタル的に再現・超越している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死者の遺物への非情な実用性（カインの死体）
+  weight: 0.4
+  quotes:
+  - quote: 視線を異獣と化したカインの死体に向けて心の中で呟く。あのエスフェイルの抜け殻が、何かの役に立つかも知れない。アキラの心情を考えて、口には出さないが。
+    paragraph: p38
+    quote_verified: true
+  note: 仲間の死を悼む感情を抑え、戦力として再定義する冷徹な合理主義が提示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

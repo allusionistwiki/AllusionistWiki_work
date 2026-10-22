@@ -1,0 +1,287 @@
+chapter: ch5315
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 4
+  themes: 4
+  quotes_verified: 23
+  quotes_total: 25
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5315_異世界転生業_defines_市場の論理_p16]]'
+  object: '[[ME_insurance_industry]]'
+  claim: 異世界転生を、法遵守と利益確保（採算性）を前提とする保険・ビジネスとして定義し、主人公の存在意義を赤字債務として処理している。
+  quote: それを肯定する市場の論理――異世界転生業も、法を遵守し、利益が出せる範囲で、という但し書きを付けた上で成立している。
+  paragraph: p16
+  confidence: strong
+  quotes:
+  - quote: それを肯定する市場の論理――異世界転生業も、法を遵守し、利益が出せる範囲で、という但し書きを付けた上で成立している。
+    paragraph: p16
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5315_異世界転生業_defines_市場の論理_p16]]'
+  object: '[[ME_human_worth_as_debt]]'
+  claim: 人間としての価値を「値札」として経済指標化し、前提喪失による負債（赤字）として死ぬことを肯定する自己責任論の極致。
+  quote: 前提が失われた俺の命は違法で赤字。ゆえに死ぬ。人間には価値があり、俺の値札はマイナスだということ。
+  paragraph: p18
+  confidence: strong
+  quotes:
+  - quote: 前提が失われた俺の命は違法で赤字。ゆえに死ぬ。人間には価値があり、俺の値札はマイナスだということ。
+    paragraph: p18
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5315_青く煌めく蝶_transforms_茶器_p52]]'
+  object: '[[ME_surrealism]]'
+  claim: 超現実主義の絵画のような変容を描き、夢と現実の境界を意図的に溶解させる視覚演出。
+  quote: 翅を畳むとその姿が超現実主義（シュルレアリスム）の絵画のように歪み、卓上に一揃いの茶器が現れた。
+  paragraph: p52
+  confidence: explicit
+  quotes:
+  - quote: 翅を畳むとその姿が超現実主義（シュルレアリスム）の絵画のように歪み、卓上に一揃いの茶器が現れた。
+    paragraph: p52
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5315_アーザノエル_names_品森晶_p50]]'
+  object: '[[ME_real_name_identity]]'
+  claim: 転生後の名ではなく、生前の戸籍名「品森晶」で呼ぶことで、物語的な仮面を剥がし主体性を喚起する行為。
+  quote: 「私の棲み家（レア）にようこそ。歓迎する、品森晶」
+  paragraph: p50
+  confidence: strong
+  quotes:
+  - quote: 「私の棲み家（レア）にようこそ。歓迎する、品森晶」
+    paragraph: p50
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5315_アーザノエル_says_想像力による補完_p65]]'
+  object: '[[ME_prosthetics_augmentation]]'
+  claim: 欠落した身体機能（味覚）を「パッチワーク」「補綴」によって外部から補うというサイバネティクス的な思想の提示。
+  quote: 継ぎ接ぎ（パッチワーク）のように、補綴（ほてつ）すること。それが身体性の拡張という視座に根ざした思考の枠組みである以上
+  paragraph: p67
+  confidence: strong
+  quotes:
+  - quote: 継ぎ接ぎ（パッチワーク）のように、補綴（ほてつ）すること。それが身体性の拡張という視座に根ざした思考の枠組みである以上
+    paragraph: p67
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5315_六王_names_サイバーカラテの起源_p169]]'
+  object: '[[ME_sports_marketing]]'
+  claim: 歴史的権威を借りて新規コンテンツの正当性を確保する、現代のプロモーション（ステマ）手法のパロディ。
+  quote: 誰もが知る、ステルスマーケティングという無様な工作によってその本質が露呈したがらくたを体現する言葉を。
+  paragraph: p153
+  confidence: explicit
+  quotes:
+  - quote: 誰もが知る、ステルスマーケティングという無様な工作によってその本質が露呈したがらくたを体現する言葉を。
+    paragraph: p153
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5315_サイバーカラテ道場_defines_集合知の最適解_p188]]'
+  object: '[[ME_internet_memes]]'
+  claim: 意味の取捨選択を停止し、雑多な要素を内包する混沌そのものを「最適解」とするネット上のミーム拡散現象。
+  quote: とりあえず似ているものは何でもかんでもサイバーカラテに放り込んでおくという雑な思考が広がっていった。
+  paragraph: p186
+  confidence: strong
+  quotes:
+  - quote: とりあえず似ているものは何でもかんでもサイバーカラテに放り込んでおくという雑な思考が広がっていった。
+    paragraph: p186
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5315_ゾーイデルヒ_loses_ミームへの抗い_p232]]'
+  object: '[[ME_viral_trends]]'
+  claim: 個々の呪術（情報発信）が、加速する情報の渦（炎上・トレンド）に飲み込まれて消滅する現代SNSの力学。
+  quote: ゾーイデルヒの呪術は渦を巻くミームに飲み込まれて消えていく。炎上の火種すら取り込んで己の燃料とするのが加速した情報の流れというものだ。
+  paragraph: p232
+  confidence: strong
+  quotes:
+  - quote: ゾーイデルヒの呪術は渦を巻くミームに飲み込まれて消えていく。炎上の火種すら取り込んで己の燃料とするのが加速した情報の流れというものだ。
+    paragraph: p232
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5315_ルウテト_gives_アキラの頭部_p264]]'
+  object: '[[ME_modular_manufacturing]]'
+  claim: 生首を「共通規格の交換部品」として扱い、設計図（輪郭）に基づいて人間を再構築する工業的な生産モデル。
+  quote: 幻の輪郭が設計図なら、鮮血の軌跡を宙に描きながら放り投げられた生首は共通規格の交換部品。
+  paragraph: p264
+  confidence: strong
+  quotes:
+  - quote: 幻の輪郭が設計図なら、鮮血の軌跡を宙に描きながら放り投げられた生首は共通規格の交換部品。
+    paragraph: p264
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5315_シナモリアキラ_defines_杖の紀人_p271]]'
+  object: '[[ME_cybernetics]]'
+  claim: 人間を「身体性の拡張（サイバネティクス）」として定義し、義肢・技術・流派を包含する記号として再定義する。
+  quote: トリシューラとシナモリアキラは身体性の拡張（サイバネティクス）に宿る杖の紀人だ。
+  paragraph: p271
+  confidence: explicit
+  quotes:
+  - quote: トリシューラとシナモリアキラは身体性の拡張（サイバネティクス）に宿る杖の紀人だ。
+    paragraph: p271
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Arzanovel_identity
+  note: トリシューラとルウテトの双方に似ているが「どちらでもない」存在アーザノエルの正体。
+  quotes:
+  - quote: 赤い髪、緑の瞳、黒銀の躯体、そして良く観察すれば半身たる氷の少女に似ているとわかる顔の造作。
+    paragraph: p44
+    quote_verified: true
+  - quote: それでも、彼女は二人の主のどちらでもないと直感が告げている。
+    paragraph: p45
+    quote_verified: true
+  expected_payoff: 物語終盤における「神話」そのものの体現者、あるいは世界を管理するメタ視点の持ち主としての登場。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Death_Logic
+  note: 異世界転生業の市場論理により「赤字」と判定されたアキラの死が、後にどのように「上書き」されるのか。
+  quotes:
+  - quote: 前提が失われた俺の命は違法で赤字。ゆえに死ぬ。
+    paragraph: p18
+    quote_verified: true
+  - quote: グレンデルヒによって上書きされたアキラという存在を凌駕する。
+    paragraph: p221
+    quote_verified: false
+  expected_payoff: 経済的合理性（赤字）を超える「物語的・歴史的権威」による救済のメカニズムの提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Six_Kings_CyberKarate
+  note: 六王が記憶し、世界に波及した「元祖サイバーカラテ」の全貌と、それがアキラをどう変えるか。
+  quotes:
+  - quote: 起源にして終端！　それこそがブレイスヴァカラテ！
+    paragraph: p173
+    quote_verified: true
+  - quote: 世界中に、サイバーカラテ本来の在り方が波及していく。
+    paragraph: p223
+    quote_verified: true
+  expected_payoff: アキラが「サイバーカラテそのもの」として覚醒し、物語上の最強能力（権威）を手にするプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mareblanche_Akira_Head
+  note: トリシューラが所有する「マレブランケ」と名付けられた生首集団の中に、アキラの頭部が含まれることの意味。
+  quotes:
+  - quote: 【マレブランケ】と名付けた彼女の私兵集団、その生首。血の滴る頭を、握りしめるための宝珠に、首飾りに、浮遊する衛星にして
+    paragraph: p256
+    quote_verified: true
+  expected_payoff: アキラが「所有されるもの（部品）」から「主体（人間）」へ戻るための素材としての回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 経済的合理性（市場論理）による生殺与奪の否定と、物語的・歴史的権威による再生。
+  weight: 0.8
+  quotes:
+  - quote: 前提が失われた俺の命は違法で赤字。ゆえに死ぬ。
+    paragraph: p18
+    quote_verified: true
+  - quote: グレンデルヒによって上書きされたアキラという存在を凌駕する。
+    paragraph: p221
+    quote_verified: false
+  note: 主人公が「市場の論理」で死を迎えるが、「六王の権威（歴史・文化）」によってその赤字状態が上書きされ、物語的な生を取り戻す構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体性の拡張（サイバネティクス）による欠落の補完と自己の再定義。
+  weight: 0.7
+  quotes:
+  - quote: 継ぎ接ぎ（パッチワーク）のように、補綴（ほてつ）すること。
+    paragraph: p67
+    quote_verified: true
+  - quote: シナモリアキラは身体性の拡張（サイバネティクス）に宿る杖の紀人だ。
+    paragraph: p271
+    quote_verified: true
+  note: 失われた頭部（欠落）を「技術と流派」として外部から補綴し、記号化された自己として再構成するテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 二項対立の否定と「選ばない」という選択による混沌の受容。
+  weight: 0.6
+  quotes:
+  - quote: 押しつけられた二択。そんなものは否定すると俺は叫ぶ。選ばない。決定しない。
+    paragraph: p6
+    quote_verified: true
+  - quote: その可能性の全てを受け止めるということ。それこそが、彼女が望んだ原初の混沌なのだと彼は正確に理解している。
+    paragraph: p106
+    quote_verified: true
+  note: 生/死、正/誤といった二択を拒否し、曖昧さや混沌そのものを受容する態度の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ミームと神話の加速による「物語」の民主化・拡散。
+  weight: 0.5
+  quotes:
+  - quote: 現代の神話とは、加速し続ける混沌の中で生まれて消える泡にも似た幻想だ。
+    paragraph: p238
+    quote_verified: true
+  - quote: ゾーイデルヒの呪術は渦を巻くミームに飲み込まれて消えていく。
+    paragraph: p232
+    quote_verified: true
+  note: SNS的な拡散（ミーム）によって、特定の権威が解体され、多様な解釈が並立する「神話2.0」の到来。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

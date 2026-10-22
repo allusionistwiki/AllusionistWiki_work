@@ -1,0 +1,130 @@
+chapter: ch5296
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 9
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_9th_Book_Content
+  note: 九冊目が世界構築の上位呪術として機能するが、その具体的な内容や「雪華掌」との関係が明示されていない。後の展開で世界の構造変更に関与する可能性が高い。
+  quotes:
+  - quote: 冥道の幼姫が遺した九冊の本とは、すなわち私が有する紀元槍の制御盤、雪華掌の分割体である九氷晶の翻案にして異説。
+    paragraph: p44
+    quote_verified: true
+  expected_payoff: 世界創造や物語の改変に直接関わる重要なキーアイテムとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kassario_Evolution
+  note: 幼獣カッサリオがセレクティから「考える事を止めた時、貴方は意思無き機械人形に成り下がる」と戒められ、悔しさをバネにするよう指示されている。未来の完全体への進化や精神成長の伏線。
+  quotes:
+  - quote: 悔しいですか。ならばそれをばねに更なる高みを目指しなさい。考える事を止めた時、貴方は意思無き機械人形に成り下がる。自ら決定し、自ら最善を模索する、賢明なしもべをわたくしは欲します
+    paragraph: p198
+    quote_verified: true
+  expected_payoff: カッサリオが知性を得て強敵として再登場するか、セレクティとの関係性が深化する展開で回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mishalhi_Division
+  note: 幽鬼ミシャルヒがカーティス側に立ちながら迷いを抱えている描写があり、パーンによって「お前を奪う」と宣言されている。彼女の所属と運命の分岐が未確定である。
+  quotes:
+  - quote: カーティスの傍で迷いを抱えた表情のまま、目を伏せる幽鬼（レイス）が一人...ならば、その自由を縛る神を打ち倒し、お前を奪うだけだ。そこで待っていろ。今、お前が誰のものかを教えてやる
+    paragraph: p175-p178
+    quote_verified: false
+  expected_payoff: パーンとの決着時にミシャルヒの選択が描かれ、勢力図の変動要因となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Mediation_Promise
+  note: 「届かない手を繋がせてくれた、私たちの媒介者」という記述と、「彼はそれを約束してくれたのだ」という記憶の回収。アキラがコルセスカとトリシューラ（または前世）を仲介する具体的なメカニズムに関する伏線。
+  quotes:
+  - quote: 届かない手を繋がせてくれた、私たちの媒介者...彼はそれを約束してくれたのだ。
+    paragraph: p97-p99
+    quote_verified: false
+  expected_payoff: 二重憑依（デュアルポゼッション）の安定化、または三人の意思統合の鍵となる記憶や能力として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Future_Akira_Answer
+  note: 「かつての私に対する答えはまだ出せませんけれど」という発言は、未来のアキラ（または別の人格）との接触・対決を示唆している。
+  quotes:
+  - quote: 俺はカインと話してくるよ。かつての私に対する答えはまだ出せませんけれど、現代を生きる者たちと折り合うことは、どうにかできそうですから。
+    paragraph: p202
+    quote_verified: true
+  expected_payoff: 後の章で「カイン」との対話、または過去・未来のアキラとの決着シーンとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己受容と統合：分裂した自我（俺/私）の合意形成による存在確立
+  weight: 0.9
+  quotes:
+  - quote: 受け入れがたいと私は恐れて、向こうの方も私を邪魔だと疎ましがって、それでも私たちは一つなのだと理解していたから、一つになっても迷い続けていた。
+    paragraph: p16
+    quote_verified: true
+  - quote: 俺/私の腕の中で、少女が柔らかく微笑んだ...俺たちはひどく曖昧な存在で、だからこそ重なり合うことだって可能だ。
+    paragraph: p108
+    quote_verified: false
+  note: 主人公の「俺（プレイヤー）」と「私（キャラ）」という二重性、および前世記憶との対立が、「共闘」「合意」を通じて統合され、一つの意思として機能し始める過程が主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションによる世界改変：ゲームシステムとしての神話構造の破壊と創造
+  weight: 0.8
+  quotes:
+  - quote: 浄界とは、己の世界観を世界に押しつけて、思うとおりの世界を構築する邪視の奥義だ。それは天地を創造し、果ては人を生み出すという神の業に他ならない。
+    paragraph: p114
+    quote_verified: true
+  - quote: さあ、それでは私の舞台（ゲーム）を始めよう。
+    paragraph: p221
+    quote_verified: true
+  note: 世界を「ゲーム」として認識し、プレイヤーとして介入することで運命（竜の秩序）を書き換える行為そのものが主題。物語構造の書き換えが物理的な勝利に直結するメタ的展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 愛と義務：他者（妹・前世）を代理で受け止めることによる生存の意味
+  weight: 0.7
+  quotes:
+  - quote: その苦しみを、その懊悩を愛するのなら、それは私が全て代わりに受け持とう。
+    paragraph: p29
+    quote_verified: true
+  - quote: あらゆる感情を凍らせて、心を静謐で満たすことが彼の望み。たとえその在り方が歪んでいても、それを受け入れると私は決めている。
+    paragraph: p22-p23
+    quote_verified: true
+  note: アキラ（彼）の苦痛を引き受け、コルセスカ（彼女）が望む「凍結された安寧」を維持するという自己犠牲的な構造が、戦闘の動機付けとなっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 対立の超越：冬（停滞/死）と春（流動/生）の統合による新秩序の創出
+  weight: 0.6
+  quotes:
+  - quote: 私は望む新しい世界は、前へと進む春だけでもその場に留まり続ける冬だけでも駄目なのだと、そう思うのだ。
+    paragraph: p79
+    quote_verified: false
+  - quote: もしも誰かが間に入って両方の手を繋いでくれたのなら、不可能は可能になると、いつか私はそんな都合のいい予感を抱いたはずだ。
+    paragraph: p93
+    quote_verified: true
+  note: コルセスカの「氷（冬）」とシナモリ・アキラ/前世の「火/流動性（春）」という対立概念を、主人公自身が媒介者として統合しようとする試み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

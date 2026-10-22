@@ -1,0 +1,247 @@
+chapter: ch5349
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 18
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p10_糸による拘束]]'
+  object: '[[ME_medusa_myth]]'
+  claim: アレッテの髪が糸として機能し、敵を石化・破壊するのは、ギリシャ神話のメデューサ（蛇髪と石化の視線）および織物/蜘蛛の巣のイメージの融合である。
+  quote: 文字通り、足を引っ張られたのだ。アレッテの手指から、細い糸が伸びている。糸が貴賓席の端にある柱を経由して私の足に絡みついていたのだ。
+  paragraph: p10
+  confidence: strong
+  quotes:
+  - quote: 文字通り、足を引っ張られたのだ。アレッテの手指から、細い糸が伸びている。糸が貴賓席の端にある柱を経由して私の足に絡みついていたのだ。
+    paragraph: p10
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p60_国土交通シューラの宣言]]'
+  object: '[[ME_public_infrastructure_management]]'
+  claim: 「国土交通シューラ」という名称と「棺桶への改築」「呪力エネルギーへの還元」という説明は、現代の公共インフラ整備や廃棄物処理を、ファンタジー的な資源循環としてパロディ化している。
+  quote: 「国土交通シューラがみんなにお知らせだよ－！　この競技場は、これからみんなの棺桶に大改築しまーす！　再生者の増大は大問題！　なので、お墓や棺桶でみんなの数をいっぱい減らして、呪力エネルギーに還元します！」
+  paragraph: p60
+  confidence: explicit
+  quotes:
+  - quote: 「国土交通シューラがみんなにお知らせだよ－！　この競技場は、これからみんなの棺桶に大改築しまーす！　再生者の増大は大問題！　なので、お墓や棺桶でみんなの数をいっぱい減らして、呪力エネルギーに還元します！」
+    paragraph: p60
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p180_アクタント理論の引用]]'
+  object: '[[ME_greimas_actantial_model]]'
+  claim: p180の「行為項（アクタント）」という用語は、記号学者A.J.グレイマスの「物語文法」における6つのアクタントモデルを直接引用し、世界の構造が物語論的構造によって支配されていることを示している。
+  quote: 「物語の深層構造レヴェルに於いては基本的な役割が存在する。それが行為項（アクタント）――世界を規定する物語の中で、登場人物はその括りから逃れる事はできない――決して、だ。全ては類型化できるのだ」
+  paragraph: p180
+  confidence: explicit
+  quotes:
+  - quote: 「物語の深層構造レヴェルに於いては基本的な役割が存在する。それが行為項（アクタント）――世界を規定する物語の中で、登場人物はその括りから逃れる事はできない――決して、だ。全ては類型化できるのだ」
+    paragraph: p180
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p276_代替王権]]'
+  object: '[[ME_agathotene_ritual]]'
+  claim: ラクルラールがパーンの腕を「猫の国」における「代替王権（アガートラーム）」と呼ぶのは、ジェームズ・フレイザー『金枝篇』で言及される古代エジプト等の王権儀礼（王が死に、代替者が殺される儀式）への直接的な引用である。
+  quote: 「なるほど、巨人殺しの冒険者と援助者たち――その銀の腕は【猫の国】で言うところの【代替王権（アガートラーム）】というわけだ」
+  paragraph: p276
+  confidence: explicit
+  quotes:
+  - quote: 「なるほど、巨人殺しの冒険者と援助者たち――その銀の腕は【猫の国】で言うところの【代替王権（アガートラーム）】というわけだ」
+    paragraph: p276
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p151_最古のラフディーボール]]'
+  object: '[[ME_aztec_ball_game]]'
+  claim: 「最古のラフディーボール」と呼ばれる野蛮な儀式は、中米文明のアステカの球技（トゥチトリ）における、試合が宗教的犠牲（生贄）と直結していた構造をパロディ化している。
+  quote: 私ですら伝承でしか知らない、最古のラフディーボール。野蛮の極致。だが、これこそが真の呪術だ。
+  paragraph: p151
+  confidence: moderate
+  quotes:
+  - quote: 私ですら伝承でしか知らない、最古のラフディーボール。野蛮の極致。だが、これこそが真の呪術だ。
+    paragraph: p151
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p260_レトロフューチャーの義肢]]'
+  object: '[[ME_retro_future_design]]'
+  claim: パーンの義肢が「古い時代に空想だけで思い描かれた『時代遅れの未来の光景』」と描写されるのは、SFにおけるレトロフューチャー美学（20世紀初頭の近未来予測デザイン）への言及である。
+  quote: しかし、それはどこか空想的な『未来感』をただよわせており、たとえるなら古い時代に空想だけで思い描かれた『時代遅れの未来の光景』といったものに雰囲気が似ている。『レトロフューチャーの義肢』とでも言おうか。
+  paragraph: p261
+  confidence: explicit
+  quotes:
+  - quote: しかし、それはどこか空想的な『未来感』をただよわせており、たとえるなら古い時代に空想だけで思い描かれた『時代遅れの未来の光景』といったものに雰囲気が似ている。『レトロフューチャーの義肢』とでも言おうか。
+    paragraph: p261
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_球神ドルネスタンルフの正体と目的
+  note: 競技場を「血の祭壇」とし、観客を犠牲にする巨大な塔（柱）が落下する現象。この神の真意は純粋な破壊なのか、それとも再生者社会への批判的メタファーなのか。
+  quotes:
+  - quote: ここは淫らな大釜。艶やかなる花弁。開いて閉じる淫蕩の出入り口。生命の坩堝と化したこの儀式場は、血を神に捧げるための祭壇に他ならない
+    paragraph: p96
+    quote_verified: true
+  - quote: 球神ドルネスタンルフが歓喜しているのだ。
+    paragraph: p155
+    quote_verified: true
+  expected_payoff: 球神が「物語の構造」そのものを維持するためのエネルギー源であることが判明し、犠牲を払うことで世界の存続（物語の継続）が担保されるシステムである可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ワルシューラと本物の関係
+  note: トリシューラの「偽物」を名乗るちびシューラ（ワルシューラ）。彼女がなぜ悪辣な性格を持ち、なぜ「国土交通」という現代的・官僚的な語彙を使っているのか。
+  quotes:
+  - quote: 「そいつはワルシューラ！　私の偽物だよ！　みんな騙されないで！」
+    paragraph: p65
+    quote_verified: true
+  - quote: 「国土交通シューラがみんなにお知らせだよ－！　この競技場は、これからみんなの棺桶に大改築しまーす！」
+    paragraph: p60
+    quote_verified: false
+  expected_payoff: ワルシューラがシステム管理者（トリシューラ）の「権限の一部」や「不要な感情」を切り捨てた存在であり、世界の管理システムに欠陥があることを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ルバーブの自我と呪縛
+  note: ルバーブが「見えない糸に絡め取られている」と自覚しながらも突撃を止められない描写。彼の行動は自由意志か、物語構造（アクタント）による強制か。
+  quotes:
+  - quote: ああ、私もまた、見えない糸に絡め取られているのかもしれない。
+    paragraph: p159
+    quote_verified: true
+  - quote: 気付けば私は突撃を開始していた。
+    paragraph: p168
+    quote_verified: true
+  expected_payoff: ルバーブが「物語の深層構造」によって「忠臣」という役割を強制的に演じさせられていることが確定的になり、パーンによる「構造からの脱出（解放）」が重要テーマとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ラクルラールの「前髪」の意味
+  note: ラクルラールという名前が「バング（前髪）」を意味し、彼自身も長い前髪を持つ。この身体的特徴が物語の構造においてどのような記号的機能を持つのか。
+  quotes:
+  - quote: その名の通り長い前髪をかき上げるその手が不意に止まる。
+    paragraph: p200
+    quote_verified: true
+  expected_payoff: 「前髪」が視界を遮る（隠す）機能として、物語の真実や高次の構造を「見せない」ための仕掛け、あるいはパーンの視線（突破）を阻む象徴であること。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アガートラームとパーンの腕
+  note: パーンの銀の腕が「代替王権」と呼ばれることの意味。彼が英雄（ヒーロー）であると同時に、生贄となる王の代替者でもあるという逆説的な役割。
+  quotes:
+  - quote: その銀の腕は【猫の国】で言うところの【代替王権（アガートラーム）】というわけだ
+    paragraph: p276
+    quote_verified: true
+  expected_payoff: パーンが「王を決める戦い」を制覇した後に、自らも犠牲（死）を求められる運命にあることの伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語構造の決定論と自由意志の対立
+  weight: 0.9
+  quotes:
+  - quote: 「物語の深層構造レヴェルに於いては基本的な役割が存在する。それが行為項（アクタント）――世界を規定する物語の中で、登場人物はその括りから逃れる事はできない――決して、だ。」
+    paragraph: p180
+    quote_verified: false
+  - quote: 「――悪いが、そんな呪術に縛られてやるほど大人しい俺ではないぞ！」
+    paragraph: p243
+    quote_verified: true
+  note: グレイマスのアクタント理論を引き合いに出し、キャラクターが「役割」によって強制されていることを明示する一方、主人公パーンがその構造（呪術）を力によって破壊・超越しようとするメタフィクション的な対立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会の自己破壊的循環と管理の暴力
+  weight: 0.7
+  quotes:
+  - quote: 「再生者の増大は大問題！　なので、お墓や棺桶でみんなの数をいっぱい減らして、呪力エネルギーに還元します！」
+    paragraph: p60
+    quote_verified: false
+  - quote: ここは淫らな大釜。艶やかなる花弁。開いて閉じる淫蕩の出入り口。生命の坩堝と化したこの儀式場は、血を神に捧げるための祭壇に他ならない
+    paragraph: p96
+    quote_verified: true
+  note: 「国土交通」という現代的な管理用語を使いながら、実際に行われているのは生贄による人口削減（殺戮）という残酷な比喩。社会システム維持のための犠牲を正当化する構造への批判。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 高次の視点と下界の矮小化
+  weight: 0.8
+  quotes:
+  - quote: 世界を薄いガラスで隔てた高み。高次の世界から下界を見下ろして、一人の男が呟いている。
+    paragraph: p182
+    quote_verified: true
+  - quote: 「御前（オマエ）、如何（ドウ）にして此処に？　このレイヤーに下界の只人が到達することは不可能な筈だが？」
+    paragraph: p211
+    quote_verified: false
+  note: ラクルラールがガラス越しに下界を観察する描写は、メタフィクションにおける「作者/神」の視点。パーンがその境界を物理的に破ることで、物語の枠組みそのものへの挑戦を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と構造による支配（記号論的暴力）
+  weight: 0.6
+  quotes:
+  - quote: 「表層構造におけるミシャルヒやカーインといったアクターは構造上はアクタントの複数の現れであるに過ぎない。お前という構造はどうしようもなく貧困だ。邪魔、邪魔だ。機能不全をおこしているよその冒険譚は」
+    paragraph: p236
+    quote_verified: true
+  note: ラクルラールがパーンを「構造上貧困」と評し、物語の記号論的構造に組み込もうとする試み。パーンの「存在」を「記号」へと還元しようとする言語暴力。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: レトロフューチャーと失われた未来
+  weight: 0.4
+  quotes:
+  - quote: 「墓の下から甦れ、失われた未来の亡霊よ。Attribute――[Silver]No.18」
+    paragraph: p257
+    quote_verified: true
+  - quote: 死に絶えた未来、その亡霊。
+    paragraph: p264
+    quote_verified: true
+  note: パーンの能力が「失われた未来（レトロフューチャー）」を象徴する銀の腕であること。進歩的な未来ではなく、過去に構想された破綻した未来を武器とする逆説性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

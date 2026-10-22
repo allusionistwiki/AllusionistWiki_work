@@ -1,0 +1,154 @@
+chapter: ch5517
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 6
+  themes: 5
+  quotes_verified: 11
+  quotes_total: 15
+items:
+- kind: mystery
+  name: MY_Erika_Brother_Terrorism
+  note: エリカの兄が実行した「短絡的な暴挙」の具体的内容と、その死因（テロリストとしての結末）に関する詳細。
+  quotes:
+  - quote: その『活動』は次第に過激さを増していき、周囲の不理解と反発に疲れ始めた彼が短絡的な暴挙に辿り着くまでにそう時間はかからなかった。
+    paragraph: p11
+    quote_verified: true
+  expected_payoff: 物語の動機付けとして、兄の行動の詳細（自爆テロ、暗殺未遂など）が明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Erika_Motivation_Priestess
+  note: エリカが「ティリビナの巫女プリエステラ」に瓜二つの姿に変貌し、その力を使う理由。過去の夢との関連。
+  quotes:
+  - quote: いつか見た夢は、たったひとりのために。王の神官（ビショップ）として、彼を緑天主にする。そのためならなんだってやってみせる。
+    paragraph: p97-p98
+    quote_verified: true
+  expected_payoff: 「ロードデンドロン様」への忠誠が単なる信仰か、個人的な愛・執着なのか、そしてその正体（王）との関係性に関する明かされること。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Nogorogoro_Agency
+  note: 方言術師ノゴルオゴルオがエリカの兄を扇動した意図と、現在の「入知恵」の内容。
+  quotes:
+  - quote: ノゴルオゴルオの入れ知恵だろう。もはや休戦協定など無効だ。奴への本格的な対処が必要だな
+    paragraph: p37
+    quote_verified: true
+  expected_payoff: スーリウムとノゴルオゴルオの直接的対立、およびエリカが「黒幕」を罰する結末への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Thibina_Gun_Production
+  note: 「ティリビナの銃」の構造と、「木製の鋼鉄」という矛盾した物質の生産技術。第五階層での普及状況。
+  quotes:
+  - quote: ティリビナ人の若いもんには火薬や拳銃が流行りってかぁ？
+    paragraph: p382
+    quote_verified: true
+  expected_payoff: 第五階層（サイバー空間）における技術革新と、それがティリビナ社会の軍事バランスに与える影響。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Yudia_Escape_Method
+  note: ユディーアが「尾（サイドテール）」を用いた身代わり死を演じた具体的な手順と、本体の行方。
+  quotes:
+  - quote: 尾は自切してからしばらくは自律的に動く身代わりになる。……これによって彼女は『死』という状態を獲得した。本体がどうなろうと、尾は死亡状態なのだからね。
+    paragraph: p68
+    quote_verified: false
+  expected_payoff: ユディーア（時間樹からの逃走者）が次の章で再登場し、エリカやスーリウムの計画に干渉する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Roadendron_Dream
+  note: 「ロードデンドロン様」が誰を指すのか、およびエリカが見た「夢」の全貌。
+  quotes:
+  - quote: 本当に恐ろしいのは、大きすぎるそれらの運命に押しつぶされてしまうこと。……私は、ロードデンドロン様のために全てを捧げる
+    paragraph: p90-p93
+    quote_verified: false
+  expected_payoff: 「王（ロディ）」とロードデンドロンの同一視、およびエリカが王に仕える運命の確定。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語（ナラティブ）は権力者によって設計・剪定され、登場人物はその脚本に従うことを強要される
+  weight: 0.9
+  quotes:
+  - quote: スーリウムはそれを望み、添木を用意し、不要な枝を剪定した。エリカもそれを受け入れ、その運命を歩むことを了承している。
+    paragraph: p28-p29
+    quote_verified: true
+  - quote: 薄っぺらな復讐譚。分かりやすくてちょうどいい。
+    paragraph: p81
+    quote_verified: true
+  note: スーリウムによる「物語」の定義と、エリカがそれに従う受動的構造。自由意志と運命操作の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 文化（言語・芸）は「不可解さ」として機能し、他者の理解を拒むことで武器となる
+  weight: 0.8
+  quotes:
+  - quote: 耳慣れない響きへの戸惑い。意味が分からないからこその異国情緒。理解できない言葉は未知の異文化が持つ神秘性を高めることができる。
+    paragraph: p114-p115
+    quote_verified: true
+  - quote: 何故ならエキゾチックさとは不可解さでもあるからだ。……それが閉ざされた文明圏ゆえの優位性。
+    paragraph: p205-p207
+    quote_verified: false
+  note: 「異国情緒」や「反意味の呪文」が、論理理解を拒絶することで敵（岩肌人）に干渉し得るというメタ言語的な戦闘論。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ステレオタイプ（偏見・記号）を利用し、戦いの「ルール（レギュレーション）」を書き換えることで勝機を見出す
+  weight: 0.8
+  quotes:
+  - quote: 戦うべき相手を別に設定し、異なる勝利条件を満たす。ルールの中で勝てないのなら、レギュレーションを変更するのが呪術師の戦いだ。
+    paragraph: p290-p291
+    quote_verified: true
+  - quote: ステレオタイプを利用するのは呪術師にとっての定石のひとつ。偏見や差別は方言使いだけの専売特許ではない。
+    paragraph: p324-p325
+    quote_verified: true
+  note: 力（物理的優位）ではなく、記号の対置と文脈の操作によって戦況を支配する戦略。社会学的な偏見の利用。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「家族・同胞」への裏切りと、それに伴う罪悪感（灼熱）が行動原理の核である
+  weight: 0.7
+  quotes:
+  - quote: いっこうに慣れないのは、己の内側で燃え盛る灼熱だけ。……身内からそのような者を出してしまったという事実。その家族に向けられる非難のまなざし。
+    paragraph: p3, p15-p16
+    quote_verified: false
+  note: エリカの動機はスーリウムへの忠誠だけでなく、一族への贖罪意識（同胞殺しの恐怖）に根ざしている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体と記憶（血）の継承によって、「個人の技」ではなく「民族・種族の総体」として戦う
+  weight: 0.6
+  quotes:
+  - quote: エリカの身体に眠る蔦鞭の技は血の記憶からもたらされたものだ。血が呼び起こすティリビナの記憶。無尽蔵にあふれる緑の繁茂。
+    paragraph: p278-p279
+    quote_verified: true
+  - quote: エリカは歌に込めた空想を呪文に変えて、巨大な竜を作り出そうとしていた。彼女なら、きっとこう戦うはずだ。最も重要な責務を担う仲間のことを思いながら呪文を紡ぐ。
+    paragraph: p311-p313
+    quote_verified: true
+  note: 個の身体能力ではなく、祖先（血）や仲間（ヘレネの教え）の集合的記憶を召喚・参照することで戦闘を成立させる構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

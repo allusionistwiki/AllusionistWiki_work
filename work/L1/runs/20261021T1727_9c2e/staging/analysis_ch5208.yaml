@@ -1,0 +1,133 @@
+chapter: ch5208
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 10
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_セレクティ派の不和と撤退理由
+  note: p10-13で「先程盗聴した時にはエスフェイルらに同調していた」が、なぜ突然「セレクティ派」として分断・撤退するのか、その背後にある政治的・魔力的な力学が不明確。
+  quotes:
+  - quote: 確か先程盗聴した時にはエスフェイルらに同調していた。
+    paragraph: p10
+    quote_verified: true
+  - quote: 『セレクティ派』という言葉から察するに、恐らくこの三体は妹の身体を奪った魔元帥セレクティフィレクティ直属の魔将なのだろう。
+    paragraph: p11
+    quote_verified: true
+  expected_payoff: 今後の展開で、セレクティフィレクティとエスフェイル（またはその背後の勢力）との間の巨大な対立構造、あるいは「妹の身体」を巡る政治的取引の詳細が明かされ、敵陣営の内部崩壊が描かれる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_四英雄タマの所在と正体
+  note: p151でソルダ（バル）が「四英雄」を報告する際、グレンデルヒ、コルセスカ、ゼドは所在が判明しているが、「タ、タマ」と言い淀み記憶を曖昧にしている。この人物の行方不明は重大な伏線である。
+  quotes:
+  - quote: 「ええと、四英雄はグレンデルヒ、コルセスカ、ゼドの探索馬鹿がそれぞれ第五階層の【死人の森】、【暗黒街】、【風の吹く丘】に向かったきり音信不通ですぜ。ええと、あとは――タ、タマ――あれ、なんだったかな。
+    paragraph: p151
+    quote_verified: true
+  expected_payoff: 「タマ」が重要なキーパーソン（主人公の仲間、敵の協力者、あるいは別世界の存在）であることが判明し、その所在が物語の転換点（特に第五階層関連や主人公の過去）に関わると推測される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アルマの「イェレイドかヌウォン」への言及
+  note: p116-118でアルマがアインノーラに対し「イェレイドかヌウォンでも連れてこい」と挑発する。この2名の存在意義と、なぜ彼らがアインノーラより上位に位置づけられるかが未回収。
+  quotes:
+  - quote: 「今は輝血（かがち）のアルマって名乗ってるんだ。あとさ、お前じゃもう相手にならないからさっさと消えてくれる？　私を正面から倒したければイェレイドかヌウォンでも連れてこい」
+    paragraph: p116
+    quote_verified: true
+  expected_payoff: 「イェレイド」「ヌウォン」が上位の魔将、あるいは古き強者として登場し、アルマの真の能力（神滅具との相性、血統）と対比して描かれる。アインノーラ単体では決着がつかない戦いへの布石。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_フィリスの歌声途絶え後のメイファーラの状況
+  note: p189で「絶えず鳴り響いていた歌声は途切れてしまう」とあり、p184でメイファーラが奈落に飲まれた直後である。歌姫（フィリス）の歌の消滅とメイファーラの敗北の因果関係、および歌そのものの機能（バフ/防御）が失われた後の戦闘様式の変化。
+  quotes:
+  - quote: 今まで絶大な能力で私を勝利に導いてきたフィリスの解体が真っ向から両断され、絶えず鳴り響いていた歌声は途切れてしまう。
+    paragraph: p189
+    quote_verified: true
+  expected_payoff: 歌の消滅によるパーティ全体の能力低下（デバフ）、あるいは「沈黙」をテーマにした新たな戦い方（静寂、無音の呪術など）への移行が示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アインノーラの甲羅内引きこもり癖
+  note: p208で「攻撃を受けると甲羅の中に引きこもっちゃうそうです」と後書きにあるが、本編（p109-118）では甲羅を使わず斧と炎雷の刃のみで戦っている。この癖が本編中どこかで発動するのか、あるいは弱点として突かれるのか。
+  quotes:
+  - quote: ちなみに攻撃を受けると甲羅の中に引きこもっちゃうそうです。可愛いですね♪
+    paragraph: p208
+    quote_verified: true
+  expected_payoff: 激戦の最中、アルマなどの猛攻によってアインノーラが甲羅に引っ込み、その防御力と「可愛い」ギャップで戦闘の流れが一変する、あるいは甲羅の隙を突く戦略が提示される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「絶対的強さ」に対する「最適化された回避と隔離」による対抗（技術的・軍事的解決）
+  weight: 0.9
+  quotes:
+  - quote: ズタークスタークの雷撃でソルダは即死。... 甦ってから体勢を立て直す間もなく殺され続けるソルダにかまけて大魔将が動けないその瞬間が最大の隙だった。
+    paragraph: p83-p87
+    quote_verified: false
+  - quote: 豆粒よりも小さくなった球状空間はそのまま極限まで圧縮され、そして消失した。... いずれにせよその瞬間から大魔将という絶対的な存在の脅威はその場所から失われたのだった。
+    paragraph: p168-p170
+    quote_verified: false
+  note: 正面からの対決（ソルダ、ネドラド）では破られるが、「即死ループによる足止め」や「空間圧縮による隔離」という手段で脅威を無効化する戦略の優位性を描いている。力vs知略/技術の構図。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メカニクス（蘇生、ボス戦のクリシェ）の物語内での物理化と代償
+  weight: 0.8
+  quotes:
+  - quote: クイックセーブしたその場所で即座に蘇生した彼は骨の槍を構えるが、一撃で蒸発してまた蘇生。
+    paragraph: p84
+    quote_verified: true
+  - quote: 地上のゲームで牛頭の怪物がボスモンスターの定番なのは彼に由来しているそうです。コルセスカが教えてくれました。
+    paragraph: p207
+    quote_verified: true
+  note: 「クイックセーブ」「蘇生」「ボスの定番」といったゲーム用語・概念が、作中の物理現象や歴史的事実として組み込まれており、メタフィクションとしての構造を強化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「感染」による不可逆な社会崩壊（パンデミックの隐喻）
+  weight: 0.7
+  quotes:
+  - quote: 大量の死人が蠢きながら人々を襲い、それに噛み付かれた者たちは汚染された呪力を注ぎ込まれて『感染者』となってしまう。
+    paragraph: p192
+    quote_verified: true
+  - quote: 浸食し、拡大し続ける浄界によって会場の外に這いだした死人たちは第一区を、そしてエルネトモランを覆い尽くしていく。
+    paragraph: p190
+    quote_verified: true
+  note: 単なる戦闘の敗北ではなく、「感染者」という概念を通じて都市全体が汚染・崩壊していく様子は、現代社会におけるパンデミックや情報汚染の恐怖を反映している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 過剰なまでの自己犠牲と軽薄さの共存（ネドラドとアルマの対比）
+  weight: 0.6
+  quotes:
+  - quote: 「あー、これは死んだかな」... 己の拳のみを頼みとする霊長類... 天使から与えられる加護の徹底した拒絶によって強靱な実体を獲得した鉄願の民。
+    paragraph: p57-p59
+    quote_verified: false
+  - quote: 「姐さん、そりゃちょっと無理な相談じゃないですかね」... 「つべこべ言わないでやる。」
+    paragraph: p145-p149
+    quote_verified: false
+  note: ネドラドの自嘲的な軽薄さと、アルマの過剰なまでの強引さ（ソルダを囮に使うなど）が対比され、シリアスな状況下でのキャラクターたちの「人間臭い」反応を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

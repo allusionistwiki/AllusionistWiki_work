@@ -1,0 +1,142 @@
+chapter: ch5443
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 6
+  themes: 4
+  quotes_verified: 6
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_Ray_Parents_Fate
+  note: レイが「父は故郷にいる」と叫んだことと、物語前半の父殺しの神話との関連。レイの家族は既に死んでいるか、何かの呪いに関わっている可能性。
+  quotes:
+  - quote: 去れ！　俺の父は故郷にいるただ一人、お前たちなど顔も知らぬ！
+    paragraph: p45
+    quote_verified: true
+  expected_payoff: レイが父を殺す（または父に殺される）運命にあることの示唆。物語全体の「親殺し」のテーマへの伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tremie_Zipper
+  note: トレミーが口をジッパーで閉じて消えた現象。彼女が単なる人間ではなく、舞台の仕組み（メタレベル）そのものに関与する存在であることの暗示。
+  quotes:
+  - quote: トレミーは口の端に着いていたジッパーを閉めてすうっと背景に溶けていった。
+    paragraph: p65
+    quote_verified: true
+  expected_payoff: 世界が演劇/ゲーム的な構造であることを裏付けるメタ要素の露出、またはトレミーの正体（脚本家/観測者）に関する回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Past_Life_Self
+  note: ゼド（アダス）が「シナモリアキラ」の前世（殺し屋）を知っており、「欲望は同じ」と主張する点。主人公の過去の罪やトラウマ。
+  quotes:
+  - quote: 脳裏に浮かぶのは無限に死に続ける男の顔。美貌を苦悶に歪め、『介錯』を待つばかりの『俺が切り捨てたもの』だ。
+    paragraph: p254
+    quote_verified: true
+  expected_payoff: 主人公の前世が「安楽死」や「殺人」に関わる者であり、それが現在の行動原理（自傷的な英雄性）を規定していることの明かされる瞬間。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Nora_Identity
+  note: クレイを守った「謎の少年（ノラ）」の正体。宇宙的光景を広げる能力はゼドに対抗しうる特異な存在である可能性が高い。
+  quotes:
+  - quote: どこか女のようにも見える、男子用制服を着た少年がクレイのそばで星の海を広げている。... 何らかの呪術だろうが、そもそもこいつは誰だ、こんな役者いたか？
+    paragraph: p150
+    quote_verified: false
+  expected_payoff: ゼド（盗賊王）の権能を超える存在、あるいは「世界槍」の支配権に関わる第三者勢力（神格）の登場。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Fly_Noise_Source
+  note: 物語の冒頭から繰り返される「蝿、ハエ」の羽音。誰も気づかないがセリアック＝ニア（猫）だけが対抗できる。この音の正体は「腐臭」や「死」と関連している。
+  quotes:
+  - quote: 暗転した舞台に、蝿の羽音がいつまでも響く。... 猫だけがそれに対抗できる。宝石の爪がぶんぶんうるさい音を一気に吹き散らし... 世界を塗り替えた。
+    paragraph: p88-p137
+    quote_verified: false
+  expected_payoff: 「腐敗」や「死者の干渉」としてのメタファー。ゼドが「死」を操る存在であることの物理的・感覚的な表現であり、最終決戦での重要なヒントになる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kurumi_Puppet_Eye
+  note: クルミの人形としての瞳がレイの背中を「じっと追い続けていた」という描写。人形に宿る意識、またはクルミ本人の強い執着。
+  quotes:
+  - quote: その背中を、人形の瞳がじっと追い続けていた。
+    paragraph: p87
+    quote_verified: true
+  expected_payoff: クルミが単なる被害者（花嫁）ではなく、レイの行動を監視・誘導する主体であること、または彼女自身の「人形化」による自我喪失の兆候。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 親殺しと英雄生成：父権的権威（神・王）を殺すことで、母性的庇護（大地・舞台）の中にある自我が成立する。
+  weight: 0.9
+  quotes:
+  - quote: 大きくなったら、きっとお父さんを殺して、お母さんをお嫁さんにしてあげる。そうして子は自らの父を、そして兄弟を殺すことを決意したのです。
+    paragraph: p24-p25
+    quote_verified: true
+  - quote: 王権の象徴である花嫁を父に渡すがいい、息子よ... 俺の父は故郷にいるただ一人、お前たちなど顔も知らぬ！
+    paragraph: p49-p45
+    quote_verified: false
+  note: カイン・アベル神話からエジプス的構造への転換、レイと六王の対立（父役への拒絶）、ゼドとの対決（アダスが守るという逆説的な父性）が一貫して「父殺し」を主題としている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 演劇と現実の境界侵食：世界は「舞台」であり、役者は脚本（運命）に従うことを強いられるが、その枠組みを壊すことが自由意志である。
+  weight: 0.8
+  quotes:
+  - quote: かくして六王との戦い、既視感に満ちた再演劇が始まる。... 世界は暗転し、舞台が一瞬で切り替わる。ここは途方も無く深い洞窟の奧だ。
+    paragraph: p90-p167
+    quote_verified: false
+  - quote: 世界が『演劇』という枠の中に嵌め込まれていく。空間が歪み、認識が書き換えられていく中... 主役の意識は今もまだ劇中にある。
+    paragraph: p359
+    quote_verified: false
+  note: 六王による舞台演出、ゼドによるミヒトネッセ内への空間改変（舞台転換）、世界そのものが脚本通りに動こうとする圧力と、それに抗う試み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死の消費と英雄性：死を「取引」や「事故」として消費し、他者の死（肉・記憶）を取り込むことで自己を拡張する。
+  weight: 0.7
+  quotes:
+  - quote: 殺し、奪い、勝ち取る！　これぞ盗賊の掟、英雄の性ってな。... 人生はそれだけだ。他の紀人どもはぜんぶ紛い物
+    paragraph: p236
+    quote_verified: false
+  - quote: お前も望んでいるのだろう。殺した相手に幻想の赦しを語らせ、託された力として身に纏う。... 傷を抉り出し、死を指向して生を実感する、大いなる欺瞞
+    paragraph: p257
+    quote_verified: false
+  note: ゼド（アダス）の思想は、安楽死や殺人を通じた「死の価値」の交換と、その力（英雄性）への渇望に集約されている。これは主人公の前世の罪とも共鳴する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命論と観測の力学：「現在」しか存在せず、観測者の意志が未来（可能性）を固定・排除する。
+  weight: 0.6
+  quotes:
+  - quote: 本質的には『現在』しか無いんだよぉ。観測者がいる『今ここ』だけが過去と未来の広がりを認識できる。... 『現在』の祭壇こそがこの世界槍の中心なんだぁ
+    paragraph: p173
+    quote_verified: false
+  - quote: 未来の観測ってのは邪視だ。望む未来を引き寄せるんじゃねえ、観測者の紀源に根ざした世界を押し広げる。
+    paragraph: p169
+    quote_verified: true
+  note: ゼド（レナリア）が「事故」として死を確定させる能力は、量子力学的な観測問題のメタファーであり、運命を強制する権能として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

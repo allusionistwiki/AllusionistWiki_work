@@ -1,0 +1,142 @@
+episode: ch5265
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_マラード]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5265_マラード_fears_退屈_p114
+        quote: 「満たされぬ。ああ、まるで満たされぬ」
+        locator: {}
+        spoiler_after: ch5265
+      - event_ref: E_ch5265_マラード_names_ルバーブ_p167
+        quote: 「ルバーブ！　ルバーブはいるか！」
+        locator: {}
+        spoiler_after: ch5265
+    visual:
+      observations:
+      - event_ref: E_ch5265_マラード_has_property_美しい髪_p121
+        quote: 腰まで流れ落ちる艶やかな頭髪には丹念に櫛が通され、毛根から毛先までは青から白銀へと移り変わる緩やかな勾配が美しい。さらには輝かんばかりの光沢、誰もが羨むような艶。国民の誰もが頭髪を伸ばすという慣習があるからこそ、その図抜けた髪の美しさは誰の目にも明らかだった。
+        locator: {}
+        spoiler_after: ch5265
+    name:
+      observations:
+      - event_ref: E_ch5265_マラード_has_property_恋の病マラード_p128
+        quote: その二つ名は【恋の病（マラード）】。この時代の貴人の常として、まことの名ではなく通称が公に用いられ、それが事実上の名となっていた。
+        locator: {}
+        spoiler_after: ch5265
+    action:
+      observations:
+      - event_ref: E_ch5265_マラード_makes_都市_p226
+        quote: それは、ただ一人の男が心のままに土の上に描いた結果として出来上がった、偶然の産物。
+        locator: {}
+        spoiler_after: ch5265
+      - event_ref: E_ch5265_マラード_stops_外出_p262
+        quote: マラードは渋い顔で低く唸ったが、やがてその音も絶えた。
+        locator: {}
+        spoiler_after: ch5265
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_劇団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5265_劇団_makes_台本_p12
+        quote: 仕事柄そうした伝承をよく知っていた劇団は即座に台本を仕上げ、演出を決定し、有り合わせの道具と材料でちょっとした小道具まで作ってしまった。
+        locator: {}
+        spoiler_after: ch5265
+      - event_ref: E_ch5265_劇団_helps_少女_p9
+        quote: 任せてくれ、と請け負ったのは、旅路で一緒になった流れの劇団である。
+        locator: {}
+        spoiler_after: ch5265
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルバーブ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5265_ルバーブ_has_property_醜い外見_p170
+        quote: だらしなく丸々と太った体型。顎は首の肉に埋まり、目尻は垂れ下がっており鼻は大きい。なにより乱れた黄色の髪が不潔であり、それはこの国においては最も醜悪と見なされる要因だった。
+        locator: {}
+        spoiler_after: ch5265
+    speech:
+      observations:
+      - event_ref: E_ch5265_ルバーブ_other_王の言葉_p188
+        quote: 「陛下が次に仰せになるのはこうです。『ルバーブよ、今日もまた、街に新たな出会いを探しに行きたい。口うるさいじじいどもの目を誤魔化す為に、俺と入れ替わるがよい。髪をくれてやるから明日まで幻影のまじないで周囲を上手く誤魔化すのだぞ』といった所でしょうか」
+        locator: {}
+        spoiler_after: ch5265
+      - event_ref: E_ch5265_ルバーブ_says_醜さへの絶望_p237
+        quote: 「王よ。それでも私は、醜さからは逃れられませんでした」
+        locator: {}
+        spoiler_after: ch5265
+      - event_ref: E_ch5265_ルバーブ_threatens_王_p248
+        quote: 「お言葉ですが、陛下をお諫めしていた筈の私が、なにゆえ逆に諭されているのでございましょうか」
+        locator: {}
+        spoiler_after: ch5265
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_少女]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5265_少女_names_牙猪_p20
+        quote: 「あなたが一番身体が大きくて立派なんですもの。だから、王様役はあなた」
+        locator: {}
+        spoiler_after: ch5265
+      - event_ref: E_ch5265_少女_thinks_時間の書き換え_p3
+        quote: 過去の出来事を再演することで時間の流れを書き換える。
+        locator: {}
+        spoiler_after: ch5265
+      - event_ref: E_ch5265_少女_says_危険性_p36
+        quote: 「お芝居だけど、実際に過去へ行くのと同じこと。だから、失敗したらお芝居の世界から帰ってくることができなくなったりするかもしれない」
+        locator: {}
+        spoiler_after: ch5265
+    action:
+      observations:
+      - event_ref: E_ch5265_少女_bonds_牙猪_p46
+        quote: '「これはきっと、神様から私たちへの試練なのだと思う。だから一緒に乗り越えましょう。そうすればきっと、かわいそうな狼さんを助けることができるから」
+
+          当初の目的を口にして、少女は牙猪の左手をそっと握った。'
+        locator: {}
+        spoiler_after: ch5265
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_牙猪]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5265_牙猪_wears_きぐるみ_p30
+        quote: 中に人が入れる大きさの、人の皮だ。死体から剥いだ皮をつなぎ合わせて作ったその呪具には、ひとたび中に入ればたとえ種族が違えども外からは本物そっくりに見えてしまうという神秘的な力が働いている。
+        locator: {}
+        spoiler_after: ch5265
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_周囲]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5265_周囲_trusts_少女_p4
+        quote: そんな途方もない試みは、しかしごく当たり前のこととして受け入れられた。少女の自信に満ちあふれた佇まいに、誰もが一つの確信を得ていたからだ。
+        locator: {}
+        spoiler_after: ch5265
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ラフディ]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5265_ラフディ_is_located_小世界_p62
+        quote: 'その国の名はラフディ。
+
+          球神ドルネスタンルフに守られた、大地と共に生きる人々が暮らす土地。'
+        locator: {}
+        spoiler_after: ch5265
+    visual:
+      observations:
+      - event_ref: E_ch5265_ラフディ_has_property_曲線・球形_p67
+        quote: どころか、中心部に存在する王宮は大小の球体を組み合わせたような作りをしていた。球体と円形、それによってラフディという国は成立している。都市は外壁に守られた綺麗な円であり、整えられた街路もまた曲線の組み合わせによって円を描いている。
+        locator: {}
+        spoiler_after: ch5265
+  first_appearance_candidate: true

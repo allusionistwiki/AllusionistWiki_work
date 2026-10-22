@@ -1,0 +1,220 @@
+chapter: ch5091
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{注釈の存在}]]'
+  object: '[[ME_{法的免責事項・保証人制度}]]'
+  claim: アズーリアによる注釈は、現実世界の契約における「保証人」や「連帯責任」を魔法的に可視化し、主人公が法外な行為を行っても恩人が身代わりになるという倫理的担保の構造を持つ。
+  quote: 『この者、シナモリ・アキラの世界槍内部における行動の全責任を、アズーリア・ヘレゼクシュが負うものとする』という、免責事項に関する注釈です。
+  paragraph: p27
+  confidence: strong
+  quotes:
+  - quote: 『この者、シナモリ・アキラの世界槍内部における行動の全責任を、アズーリア・ヘレゼクシュが負うものとする』という、免責事項に関する注釈です。
+    paragraph: p27
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{感情の凍結と流出}]]'
+  object: '[[ME_{麻酔・精神安定剤による副作用管理}]]'
+  claim: 痛みや恐怖をコルセスカに流すことで「不動の心」を得る仕組みは、医療における麻酔や精神薬による感情の抑制（苦痛の遮断）と、それに伴う主体性の喪失（依存）のアナロジーである。
+  quote: 成功すれば、貴方はあらゆるストレスに対して眉一つ動かさない、不動の心を持った戦士となる。
+  paragraph: p122
+  confidence: moderate
+  quotes:
+  - quote: 成功すれば、貴方はあらゆるストレスに対して眉一つ動かさない、不動の心を持った戦士となる。
+    paragraph: p122
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{トリシューラの義眼作成}]]'
+  object: '[[ME_{技術者・職人の試行錯誤と挫折}]]'
+  claim: 天才呪具師であるトリシューラが、苦手分野（邪視再現）で失敗し続ける姿は、専門家が自分の領域外に挑戦した際の典型的な「スランプ」や「過剰な努力の徒労」を描いている。
+  quote: 何度も失敗して、その度に項垂れて、最後にはぐったりとして、まあちょっと見るに堪えない状態に陥ってしまいました
+  paragraph: p85
+  confidence: moderate
+  quotes:
+  - quote: 何度も失敗して、その度に項垂れて、最後にはぐったりとして、まあちょっと見るに堪えない状態に陥ってしまいました
+    paragraph: p85
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{共感のハッキング}]]'
+  object: '[[ME_{心理操作・ガスライティング}]]'
+  claim: 「善悪を問わない利用（ハッキング）」という表現は、相手の感情や意識を技術的・魔法的に操作し支配する行為を、サイバーセキュリティ用語を用いて倫理的に中立化して描いている。
+  quote: 悪意を持って共感作用を利用（クラッキング）することができるなら、善悪を問わない利用（ハッキング）だって、可能なはずです
+  paragraph: p114
+  confidence: strong
+  quotes:
+  - quote: 悪意を持って共感作用を利用（クラッキング）することができるなら、善悪を問わない利用（ハッキング）だって、可能なはずです
+    paragraph: p114
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_{吸血による感情共有}]]'
+  object: '[[ME_{依存症・共依存的関係性}]]'
+  claim: アキラが全ての負荷をコルセスカに委ね、彼女がその代償としてアキラの存在を「自分のもの」として管理し続ける状態は、相互依存（コードペンデンシー）における支配と被支配の関係に構造的に一致する。
+  quote: 貴方の存在はもう貴方一人だけのものではないのですから
+  paragraph: p158
+  confidence: moderate
+  quotes:
+  - quote: 貴方の存在はもう貴方一人だけのものではないのですから
+    paragraph: p158
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{義眼と邪視}]]'
+  object: '[[ME_{メデューサの呪い・目撃者の恐怖}]]'
+  claim: 右目を抉るという行為および「邪視」への恐怖は、ギリシャ神話におけるメデューサなど、「見る/見られる」ことの暴力性と、その傷跡（義眼）が二人を繋ぐ媒介となる変換を暗示している。
+  quote: 私の本物の右目は、昔トリシューラに抉られたのです
+  paragraph: p69
+  confidence: weak
+  quotes:
+  - quote: 私の本物の右目は、昔トリシューラに抉られたのです
+    paragraph: p69
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_注釈の二重構造とトリシューラの意図
+  note: アズーリアの「責任引き受け」に対し、トリシューラの「わたしの」という所有欲のみを記した注釈が対比されている。この二つの注釈が後の展開でどのように作用するか（保護と支配の両輪）。
+  quotes:
+  - quote: 『わたしの』という一言だけです。所有代名詞のみ。
+    paragraph: p37
+    quote_verified: true
+  - quote: トリシューラという存在が、俺には未だに理解できていないのだろう。
+    paragraph: p59
+    quote_verified: true
+  expected_payoff: トリシューラの行動原理（所有欲・保護）とアキラへの干渉の理由が明かされる、あるいは注釈自体が呪術的な効果を持つことが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_感情凍結の代償と副作用
+  note: 感情をコルセスカに流すことで「不動の心」を手に入れたが、それが長期的に人間としての感性や判断力をどう蝕むか。特に「感情の虫喰い」のような感覚の喪失の行方。
+  quotes:
+  - quote: その理解が端から食べられて虫喰いになっているような気分。
+    paragraph: p154
+    quote_verified: true
+  - quote: 俺は全てを捧げ、それを対価にして揺るぎない冷たさを得たのだと理解した。
+    paragraph: p141
+    quote_verified: true
+  expected_payoff: アキラが人間性を失いかけたり、コルセスカへの依存が極端化して破綻する展開、あるいは感情の回復過程での苦悩。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_キロンとの再戦と「私のゲーム」
+  note: コルセスカが「私のゲームだから」と言い切り、アキラを巻き込まず（あるいは巻き込み方を変えて）キロンと戦う決意をした。この「ゲーム」の定義と勝敗条件。
+  quotes:
+  - quote: 私は、もう一度キロンと戦います。偏執的な拘りだと分かっていても――私がやらなくては駄目なんです。この戦いは、私のゲームだから
+    paragraph: p102
+    quote_verified: true
+  expected_payoff: キロンとの決着がコルセスカの個人レベルの葛藤解決として描かれるのか、世界槍全体のイベントに波及するかの帰趨。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの羞恥と距離感の変動
+  note: 吸血直後の異常な羞恥心（p152, p166）と、その直後の攻撃的接近（p174-180）。感情の共有による影響か、吸血鬼としての本能か。
+  quotes:
+  - quote: ひゃぅ？！
+    paragraph: p152
+    quote_verified: true
+  - quote: 貴方が、貴方がいけないんですからね！
+    paragraph: p176
+    quote_verified: true
+  expected_payoff: 共感呪術による境界線の侵食が、コルセスカの精神的混乱や行動の予測不能性（狂気）として現れる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「保護」と「所有」は表裏一体であり、他者の全責任を引き受けることは彼を自由にする反面、彼を完全に支配することでもある。
+  weight: 0.9
+  quotes:
+  - quote: この人は芯から善人です。貴方に対して呪術を使った時、何かあれば貴方を丸ごと引き受けるという気でいたのでしょう
+    paragraph: p27
+    quote_verified: true
+  - quote: アキラは私専用の孔なんですから黙って吸われなさい
+    paragraph: p180
+    quote_verified: true
+  note: アズーリアの保護（責任引き受け）とコルセスカの所有（感情引き受け）が、主人公の主体性を奪うという点で同型である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 共感とは、相手の苦痛を「代償」として受け取ることで初めて成立する相互依存契約である。
+  weight: 0.8
+  quotes:
+  - quote: 成功すれば、貴方はあらゆるストレスに対して眉一つ動かさない、不動の心を持った戦士となる。
+    paragraph: p122
+    quote_verified: true
+  - quote: 貴方が私に対して全てを委ねてくれること。心を開いて、私を受け入れてくれること。
+    paragraph: p128
+    quote_verified: true
+  note: 共感を「脳の誤作動」から「価値ある交換行為」へ昇華させ、痛みを媒介とした深い結びつきを描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 過去の傷（右目の喪失）は、加害者との協力関係（義眼の作成）によって初めて「愛おしさ」へと変換される。
+  weight: 0.6
+  quotes:
+  - quote: そこでようやく、私の恐怖も消え去りました。その時のトリシューラは、私にとって恐怖の対象ではなく、庇護すべき対象に思えたのです。
+    paragraph: p89
+    quote_verified: true
+  note: 暴力の記憶が、共同制作というプロセスを通じて和解と親密さの源になるという逆説的テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「不動の心」を得ることは、人間としての熱（感情）を完全に外部化・客体化することと同義であり、それは安楽死に近い精神状態である。
+  weight: 0.5
+  quotes:
+  - quote: 残るのはぞっとするほどの寒さ。俺は全てを捧げ、それを対価にして揺るぎない冷たさを得たのだと理解した。
+    paragraph: p141
+    quote_verified: true
+  - quote: 世界槍における審判役ヲルヲーラにつけられた【上下双方の敵】という理不尽なレッテル
+    paragraph: p9
+    quote_verified: true
+  note: 恐怖や痛みからの解放が、同時に「生」の感覚（熱）を奪うというメタファー。世界槍での生存戦略としての側面と、人間性の喪失という倫理的側面の対立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

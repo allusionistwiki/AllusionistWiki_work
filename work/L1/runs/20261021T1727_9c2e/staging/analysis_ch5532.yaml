@@ -1,0 +1,272 @@
+chapter: ch5532
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 23
+  quotes_total: 27
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p143]]'
+  object: '[[ME_game_stat_screen]]'
+  claim: キャラクターの生死を確率（ステータス）として可視化し、ゲーム的な死生観を皮肉っている。
+  quote: 「うぎゃあああ！ 何これ何これ、誰かー！ 僕の勝利確率はただいま揺るぎない三パーセントでーす！！ 死にたくないよー！」
+  paragraph: p143
+  confidence: strong
+  quotes:
+  - quote: 「うぎゃあああ！ 何これ何これ、誰かー！ 僕の勝利確率はただいま揺るぎない三パーセントでーす！！ 死にたくないよー！」
+    paragraph: p143
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p158]]'
+  object: '[[ME_labeling_and_stereotyping]]'
+  claim: 集団を「悪鬼」と呼ぶ行為が、レッテル貼りによる呪力（社会的偏見）の具現化であることを示唆する。
+  quote: 『奴らは悪鬼のような連中だ』と誰かが指差すとき、その集団にはレッテルという呪力が纏わりつく。
+  paragraph: p158
+  confidence: strong
+  quotes:
+  - quote: 『奴らは悪鬼のような連中だ』と誰かが指差すとき、その集団にはレッテルという呪力が纏わりつく。
+    paragraph: p158
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p236]]'
+  object: '[[ME_narrative_cleanup_and_erasures]]'
+  claim: 襲撃事件を「花火の打ち上げ」と称し、痕跡を残さず消去する仕組みは、物語の舞台裏処理（メタフィクション的な改変）への比喩である。
+  quote: 施設そのものが『花火の打ち上げ』により『打ち上げ用の空き地』になるまでのタイムリミットが示される。最終的には『ここには何もなかった』ということにするつもりらしい。
+  paragraph: p236
+  confidence: moderate
+  quotes:
+  - quote: 施設そのものが『花火の打ち上げ』により『打ち上げ用の空き地』になるまでのタイムリミットが示される。最終的には『ここには何もなかった』ということにするつもりらしい。
+    paragraph: p236
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p180]]'
+  object: '[[ME_background_music_in_gaming]]'
+  claim: 戦闘中に「趣味的な背景音楽」が流れ、それに乗って攻撃が行われる描写は、ゲームにおけるBGMとアクションの同期を模倣している。
+  quote: 趣味的な背景音楽に運ばれて、強大な呪力がその姿を現した。
+  paragraph: p180
+  confidence: moderate
+  quotes:
+  - quote: 趣味的な背景音楽に運ばれて、強大な呪力がその姿を現した。
+    paragraph: p180
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p372]]'
+  object: '[[ME_parallel_worlds_trope]]'
+  claim: 「もしもの歴史」が現実に干渉し、主人公たちの精神を支配するという構造は、並行世界ものの常套句を逆転させている。
+  quote: 確かに存在した『もしもの歴史』だ。友情が実在していたからこそ、エレクトラの過去視は呪いに変わる。
+  paragraph: p372
+  confidence: strong
+  quotes:
+  - quote: 確かに存在した『もしもの歴史』だ。友情が実在していたからこそ、エレクトラの過去視は呪いに変わる。
+    paragraph: p372
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p401]]'
+  object: '[[ME_emotional_suppression_mechanics]]'
+  claim: 感情を「点穴」で抑制し、価値観を低下させる描写は、ゲーム的なバフ/デバフによる心理状態のコントロールを表している。
+  quote: 点穴による感情抑制は劇的な効果をもたらした。世界が色褪せて、あらゆるものの価値が低下していく。
+  paragraph: p401
+  confidence: moderate
+  quotes:
+  - quote: 点穴による感情抑制は劇的な効果をもたらした。世界が色褪せて、あらゆるものの価値が低下していく。
+    paragraph: p401
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p203]]'
+  object: '[[ME_analog_media_nostalgia]]'
+  claim: 「レコード」という旧メディアへの言及と、それを通じた親密さの共有は、デジタル時代におけるノスタルジーやアナログ媒体の特権性を戯画化している。
+  quote: 「古いものがいっぱいある実家だったんだよー。今でもたまに聴いて、生きてた頃のこと思い返したりするんだ。」
+  paragraph: p203
+  confidence: weak
+  quotes:
+  - quote: 「古いものがいっぱいある実家だったんだよー。今でもたまに聴いて、生きてた頃のこと思い返したりするんだ。」
+    paragraph: p203
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_moryu_past_identity
+  note: モーリュの過去視で見た「見てはならないもの」と、エレクトラとの「塔」での友情（並行矛盾史）の真実。
+  quotes:
+  - quote: 「なに、これ」
+    paragraph: p341
+    quote_verified: true
+  - quote: 確かに存在した『もしもの歴史』だ。
+    paragraph: p372
+    quote_verified: true
+  expected_payoff: モーリュがエレクトラの親友（エスト？）であり、ティリビナ人の敵対勢力であることが明かされる、あるいはその因縁の決着。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_queen_surrender_logic
+  note: 機械女王が「名無しの王」を囮（おとり）として使い、転生アプリによる死生観を軽視する合理性の真意。
+  quotes:
+  - quote: 最悪の場合、『転生アプリがあるから死んでもいい』くらいのことは考えていそうな気配さえある。
+    paragraph: p242
+    quote_verified: true
+  - quote: 「重要な護衛対象は『名無しの王』だけってこと？」
+    paragraph: p228
+    quote_verified: true
+  expected_payoff: 機械女王の計画が、転生者たちの死をコストとして計算した冷徹な戦略であることの露見。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_duo_synergy_breakdown
+  note: エレクトラとメートリアンの共感率低下、感情の亀裂が戦力に与える影響。
+  quotes:
+  - quote: 共感（シンクロ）率の低下によって波長の異なる呪力は乱れに乱れ、心身不一致からのパワーダウンによりコンディションは最悪の一言。
+    paragraph: p429
+    quote_verified: true
+  - quote: 関係修復の打開策は皆無。相性が良いという幻想は砕け散り、二人の間にはただ嫌悪と隔意が横たわる。
+    paragraph: p454
+    quote_verified: true
+  expected_payoff: この亀裂が決定的な敗因となるか、あるいは別の手段（モーリュの策略への対抗）で強制的に修復させられる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_moryu_third_eye_origin
+  note: モーリュが持つ第三の目の起源と、ティリビナ人の天眼との違い。
+  quotes:
+  - quote: 「なるほど。第三の目はティリビナ式の天眼か。こちらの妨害と限定空間に対する干渉、三眼瞬知とはロジックが違うのかな」
+    paragraph: p409
+    quote_verified: true
+  - quote: 左右の目が細くなった柔らかい笑顔の中で、中央上部に位置する目だけがこちらを凝視し続けていた。
+    paragraph: p311
+    quote_verified: true
+  expected_payoff: モーリュが通常のティリビナ人ではない（例：上位存在の器、特殊な変異種）ことの証明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_saint_quenata_prophecy
+  note: 聖女クナータが見た「二重螺旋」の鎖と、その意味する未来。
+  quotes:
+  - quote: 二本の鎖が一対となった二重螺旋の形をしていたのだ。片方は煌めくような金。もう片方は融けるような青。
+    paragraph: p102
+    quote_verified: true
+  - quote: 意味を持たない奇妙な記号は、ゆっくりと少女が目を見開くと手のひらから忽然と消えていた。
+    paragraph: p104
+    quote_verified: true
+  expected_payoff: クナータが未来で重要な役割（救世主の誕生、あるいは敵との融合）を果たす伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「転生」による死生の希薄化と、それがもたらす倫理的な軽さ
+  weight: 0.8
+  quotes:
+  - quote: 安上りな転生は生と死の価値をどこまでも貶めるということだ。
+    paragraph: p242
+    quote_verified: true
+  - quote: 「僕の勝利確率はただいま揺るぎない三パーセントでーす！！ 死にたくないよー！」
+    paragraph: p143
+    quote_verified: false
+  note: 転生システムが存在することで、キャラクターの生死がゲーム的なステータスや確率として処理され、その重み（価値）が貶められている現状への批判。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「友情」という概念の呪い：記憶と関係性が戦いを阻害する構造
+  weight: 0.9
+  quotes:
+  - quote: 刃を振り上げて殺そうとしていた敵が実は友達だった時のような後悔。友情がもたらす苦痛。二人は、もうこの敵と戦えない。
+    paragraph: p394
+    quote_verified: true
+  - quote: 「『塔』の並行矛盾史。あなたは、エストの」
+    paragraph: p375
+    quote_verified: true
+  note: 過去の友情（記憶）が、敵対する者への殺意を消滅させ、戦闘不能にするという、感情と機能性の相反を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: レッテル貼り（呪術）による集団の固定化と、その解体の試み
+  weight: 0.7
+  quotes:
+  - quote: 「あたしとしては効果的な分断策を提案したつもりだったのだが……仲間への忌避感情をすぐさま理性が取り繕うが、反論はどこか非難するようなニュアンスを含んでいた。」
+    paragraph: p165
+    quote_verified: false
+  - quote: 「下のモロレクが仲間に混じってる」って半数のラベル上書きすれば同士討ち狙えるかも
+    paragraph: p161
+    quote_verified: false
+  note: 悪鬼というレッテル（呪術）で構成された軍勢に対し、個別の属性（ラベル）を上書きして分断を図る戦術が、社会分類の固定化へのメタファー。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情のツール化：点穴と強制制御による人間性の剥奪
+  weight: 0.6
+  quotes:
+  - quote: 「最低。自分が信じられません。よくもまあ、こんな裏切り者と共闘しようだなんて」
+    paragraph: p418
+    quote_verified: true
+  - quote: 世界が色褪せて、あらゆるものの価値が低下していく。ばかばかしい。いったい、これまで何をやっていたのか。
+    paragraph: p402
+    quote_verified: true
+  note: 感情を操作（点穴）して戦うことを余儀なくされる状況において、自己の尊厳や過去の行為が「色褪せ」て意味を失う虚無感。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 演劇的構造：観客（黒檀の民）と舞台装置（病院）としての世界
+  weight: 0.5
+  quotes:
+  - quote: 「お手並み拝見ってとこか。せいぜい暴れてくれよ？ あんまショボいと『正義の味方』がやりづれえからよ」
+    paragraph: p11
+    quote_verified: true
+  - quote: 施設そのものが『花火の打ち上げ』により『打ち上げ用の空き地』になるまでのタイムリミットが示される。
+    paragraph: p236
+    quote_verified: true
+  note: 戦闘が観客によって監視され、舞台装置が後片付け（消去）される予定であること。世界全体がゲーム的・演劇的な構造で支配されていることへの指摘。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

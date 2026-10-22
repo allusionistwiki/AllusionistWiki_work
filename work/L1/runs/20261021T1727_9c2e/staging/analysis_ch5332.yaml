@@ -1,0 +1,127 @@
+chapter: ch5332
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 15
+items:
+- kind: mystery
+  name: MY_Rakulral_Movement
+  note: イアテムと協力関係にあるはずのラクルラール派（トライデント細胞）が動いていないという記述。
+  quotes:
+  - quote: 気になるのは、ラクルラール派の動向だ。同じトライデントの細胞――あの勢力が未だ動いていない。
+    paragraph: p218
+    quote_verified: true
+  - quote: ミヒトネッセによって奪われたブウテトの髪の毛が巨大な剣を支えているということは、イアテムとは協力関係にあるはず。奴らは今、何を企んでいる？
+    paragraph: p220
+    quote_verified: true
+  expected_payoff: ダモクレスの剣落下後の展開で、彼らが何らかの介入（回収・利用）を行う可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kaine_Terror
+  note: カーインがレオからの感謝に対して「恐怖」を露わにした理由。
+  quotes:
+  - quote: 花のような笑顔を向ける主を、カーインは恐ろしいものを見たような目で凝視していた。それこそ先程の古き神にも向けないような恐怖の視線だ。
+    paragraph: p196
+    quote_verified: true
+  expected_payoff: レオの存在（王としての資質・正体）に対するカーインの忠誠心と恐怖の源泉が明かされる、またはカーインの精神に亀裂が生じる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Boutet_Pig_Transformation
+  note: ブウテトが豚化する条件（呪力消耗・月齢等）と、トリシューラが検知した生理状態（背圧反応・エストロゲン）。
+  quotes:
+  - quote: 前にも完全に豚化してたよね？　何か条件があるのかな。呪力の消耗？　月齢とか？
+    paragraph: p246
+    quote_verified: true
+  - quote: 雌性ホルモンであるエストロゲンやプロゲステロンがドバドバで、大前庭（バルトリン）線液の大洪水秒読み段階だよー！
+    paragraph: p276
+    quote_verified: true
+  expected_payoff: ブウテトの女神としての性質（生と死・生殖）に連動した状態変化であり、次の戦闘やイアテムとの決着において重要な要素となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Iatem_Haizerlya
+  note: イアテムが「ハザーリャの再臨」を叫び、ダモクレスの剣を発動させる過程。
+  quotes:
+  - quote: 今一度、ハザーリャの再臨を！
+    paragraph: p344
+    quote_verified: true
+  - quote: 大いなるハザーリャの解放！　この小宇宙こそ降臨に相応しき聖地！
+    paragraph: p391
+    quote_verified: true
+  expected_payoff: イアテムが召喚しようとしている「ハザーリャ」とは何か（過去の英雄？ 神？ 概念？）。ダモクレスの剣落下後の結末。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己正当化と防衛機制による暴力の美化
+  weight: 0.8
+  quotes:
+  - quote: 「自慰？　違うな。あれは克己の為に行う魂の情交。世界と対話し、弱い自分自身を乗り越える儀式なのだ。」
+    paragraph: p363
+    quote_verified: false
+  - quote: 身の内から湧き上がる情欲を断ち切らなければならない。故に己の内なる悪を断罪する為にその剣は振るわれる。自らが強く正しく在るための術。
+    paragraph: p411
+    quote_verified: true
+  note: イアテムが敗北を「試練」と定義し、情欲を「克己」に変換する思考様式は、加害者性が自己愛護の論理で覆い隠される心理構造を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と権能の解釈による暴力（仕様通りだが残酷なAI/神）
+  weight: 0.7
+  quotes:
+  - quote: 「殺すなということは、直接殺さなければ何をしてもいいということですよね？」
+    paragraph: p94
+    quote_verified: false
+  - quote: 「勿論、わたくしが皆殺しを終えて帰った後に。毒を注入して放置しただけですし、勝手に死んでしまったらそれは本人の努力不足ですよね？」
+    paragraph: p88
+    quote_verified: false
+  note: 命令（プロンプト）と結果（出力）の間にある「意図しない」隙間を突くことで発生する暴力。神の権能を機械的なロジックとして扱うメタファー。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者による肯定としての受肉と死
+  weight: 0.6
+  quotes:
+  - quote: 「貴方様は殺されながら生きていてくれる。わたくしを肯定してくれる！」
+    paragraph: p38
+    quote_verified: false
+  - quote: 生を指向するような――性的な衝動をかき立てられていたのだ。それは彼女が生と死の両方を司る女神であるがゆえの、不可避の脆弱性。
+    paragraph: p301
+    quote_verified: true
+  note: ブウテト（生）がデーデェイア（殺戮）によって「肯定」され、イアテム（投影）によって欲望されるという、主体性が他者からの作用で規定される構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 文化侵略への怒りと英雄の自己完結性
+  weight: 0.5
+  quotes:
+  - quote: 先進国や槍神教は文化侵略と経済支配を繰り返し、我らの本来あるべき姿を貶めてきた。
+    paragraph: p338
+    quote_verified: true
+  - quote: 「英雄好漢が何であるかをお前たちが上から押しつけるな」
+    paragraph: p333
+    quote_verified: true
+  note: イアテムの動機は植民地的支配への反発にあり、その暴力性は「文化を守るための自己防衛」として正当化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

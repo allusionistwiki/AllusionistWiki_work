@@ -1,0 +1,394 @@
+episode: ch5115
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5115_アキラ_activates_鮮血呪_p10
+        quote: （アキラくんの死によって【鮮血呪】をトリガー。呪力を通せ、価値を否定せよ！）
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_アキラ_flees_攻撃の回避と打撃_p111
+        quote: その全てを赤く光り輝く軌跡を残しながら回避し、すれ違う瞬間に打撃を加え、確実にダメージを与えていく。
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_アキラ_fights_キロンへの逆回転打撃_p135141
+        quote: 更には右から放った一撃が次の瞬間には左からの打撃に入れ替わり、それを放った直後には既に右拳を振り終わっているという異様な連撃。
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_アキラ_wears_トリシューラ_p38
+        quote: 俺はトリシューラを着る。全身が彼女に包まれ、一体となっていく。その体構造は隅から隅までこの目に焼き付けている。彼女を知り、そしてこの全身で体感する。
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_アキラ_uses_ヘリステラエミュレート_p7478
+        quote: '（No.1【ヘリステラ】エミュレート！）
+
+          そして、脳裏に一つのイメージが想起されていく。彼女は女王だった。'
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_アキラ_travels_飛翔_p80
+        quote: そのイメージを、確かに左手で掴み取ったという実感がある。強く拳を握りしめて、俺は床を蹴って飛翔する。背中の噴射口から爆発的な呪力の炎が解き放たれて推進力となる。
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_アキラ_attacks_キロン_p84
+        quote: 次々と撃ち放たれる呪術と閃光の矢を縦横無尽な機動で回避して一瞬で間合いを詰め、その勢いのまま左拳を叩きつける。
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_アキラ_defeats_キロンの反撃_p88
+        quote: キロンはそれを完璧に回避しながら反撃の刺突を放つが、今の俺達の反射速度は大幅に上昇している。右腕でキロンを減速させるまでも無く正確に弾いてみせる。更に腰部分の噴射角度を変えて制動をかけながら方向転換。側面に鮮血の足場を形成し、真横に蹴り出しながら今度は足から腰、胴、腕という正道を行く運動エネルギー伝達経路でキロンに渾身のカウンターを叩き込む。
+        locator: {}
+        spoiler_after: ch5115
+    speech:
+      observations:
+      - event_ref: E_ch5115_アキラ_says_婚ガモス_p1921
+        quote: '「――婚（ガモス）」
+
+          俺が受け入れる。'
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_アキラ_says_引き離されないことへの決意_p5
+        quote: （ありふれた死なんかで、引き離されたりしないんだからっ――！）
+        locator: {}
+        spoiler_after: ch5115
+    visual:
+      observations:
+      - event_ref: E_ch5115_アキラ_transforms_身体強化_p31
+        quote: 頭部から流れる深紅の微細放熱フィンがたなびき、テクスチャの消去によって肌色が黒銀となる。緑色の光学素子に俺の瞳孔が重なり、背中と腰に噴射口が形成されていく。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_強制拒絶リフューズ]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5115_強制拒絶リフューズ_requires_時間経過_p103
+        quote: （強制拒絶（リフューズ）まであと270秒！　なんか異物感すごいねこれ。うええってなる――アキラくん気持ち悪いから早く済ませちゃって！　ただでさえ持続時間短いんだから）
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5115_トリシューラ_carries_維持コストと被弾負担_p105
+        quote: 実際の所、呪力による維持コストを支払うのは主にトリシューラで、外側で攻撃を受け止めるのもまたトリシューラだ。負担は一方的にトリシューラにだけのし掛かる。
+        locator: {}
+        spoiler_after: ch5115
+    speech:
+      observations:
+      - event_ref: E_ch5115_トリシューラ_says_最適効率の原理_p149
+        quote: （類似点が僅かでもあれば、そこに連続性を見出す能力。アキラくんの動作は、全てが最適効率になる）
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_トリシューラ_says_聖ヒエロス_p15
+        quote: 「聖（ヒエロス）――」
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_トリシューラ_says_アキラの感覚_p40
+        quote: （感じるよ、私の中に、アキラくんが入ってくる。なんか変なの。すっごくごつごつしてて硬いのに、柔らかいような気もするんだ。アキラくんらしいと言えばらしいのかな）
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_トリシューラ_says_左手の象徴性_p49
+        quote: （シューラはアキラくんになり、アキラくんは私になる。新しい左手はその象徴なんだ。それはアキラくんの左手でありトリシューラの左手でもある）
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_トリシューラ_says_無意味な誓い_p7
+        quote: 死が二人を別つまで――それは無意味な誓いだと、死を弄ぶ魔女が叫ぶ。
+        locator: {}
+        spoiler_after: ch5115
+    name:
+      observations:
+      - event_ref: E_ch5115_トリシューラ_reveals_魔女の属性_p24
+        quote: 鮮血（スレッショルド）のトリシューラ。【春の魔女】、【きぐるみの魔女】、【アンドロイドの魔女】。それらの名前に宿る呪力が、その本質を明らかにしていく。
+        locator: {}
+        spoiler_after: ch5115
+    visual:
+      observations:
+      - event_ref: E_ch5115_トリシューラ_appears_赤い光と稲妻_p26
+        quote: 血のような色の髪をなびかせて、魔女の全身が赤い光に包まれる。爆発的に膨れあがっていく呪力が可視化されて稲妻となって迸る。
+        locator: {}
+        spoiler_after: ch5115
+    action:
+      observations:
+      - event_ref: E_ch5115_トリシューラ_transforms_肉体の分離と展開_p2729
+        quote: '俺の傍らで、トリシューラの肉体が内側から弾け飛んだ。
+
+          それは破壊ではない。定められたように分離と展開を繰り返し、その内側に詰まった精密呪具の数々が圧縮されて異なる空間に格納されていく。'
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_トリシューラ_wears_きぐるみ_p29
+        quote: 残ったのは空洞のトリシューラ。まるできぐるみのようになった彼女の全身が薄く広がっていき、ばらばらの各部位が対応する俺の身体の各所に装着されていく。
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_トリシューラ_uses_輪廻_p3
+        quote: その特性【輪廻】の呪力が極限まで引き出され、俺という存在をトリシューラが繋ぎ止める。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キロン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5115_キロン_attacks_視界遮断と散弾_p109
+        quote: 上から剥離した天蓋の破片が降り注ぎ、とりわけ大きな照明光の残骸が俺の視界を一瞬だけ遮る。残骸ごと撃ち抜く閃光の矢。出力を弱められた破壊光は残骸を無数の散弾に変えた。拡散して襲いかかる衝撃によってこちらの動きが停止する。
+        locator: {}
+        spoiler_after: ch5115
+    relationship:
+      observations:
+      - event_ref: E_ch5115_キロン_fights_不屈の闘志_p159162
+        quote: 'それでもなおその目には諦めの色が宿らない。不屈の闘志を燃やし、積み重ねてきた修練のみを頼りに正確無比な射撃と雷光のような刺突を繰り出す。
+
+          その姿勢はどこまでも正しい。'
+        locator: {}
+        spoiler_after: ch5115
+    speech:
+      observations:
+      - event_ref: E_ch5115_キロン_says_機械仕掛けの炎天使への評価とコスト懸念_p90
+        quote: 「装備の更新で能力が大幅に上昇している――体力、神経反射、知性、そして打撃力。全て底上げとはな。さしずめ機械仕掛けの【炎天使】とでも言ったところか――だが、それほどの強化、維持するだけでも容易くはあるまい。コストはさぞ重かろう。果たしていつまで支払い続けられるかな！？」
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ウィッチオーダー]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5115_ウィッチオーダー_defines_上位九形態と下位六十二形態の差_p115120
+        quote: その全てを貫くイメージの核心を抽出して鋳型に流し込む事で、絶対に揺るがない呪的強度を獲得する神話（ミシック）級の超呪術兵装。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_屍]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5115_屍_gives_生贄_p12
+        quote: 背後の屍を生贄に捧げて、鮮血の呪術が発動する。閾値（スレッショルド）を超えた価値の変動が超常の神秘を再現可能な現象に置き換えていく。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_紀元槍]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5115_紀元槍_activates_アカシックレコードリンク_p123
+        quote: （紀元槍――アカシックレコードとのダイレクトリンク形成完了。追加コンバージョン、タイプ【車輪の女王】いくよ！）
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_左腕]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5115_左腕_transforms_歯車の追加_p125
+        quote: トリシューラの外装と同化した左腕に光の粒子が集まっていく。手の甲の部位に車輪、あるいは歯車のようなパーツが追加され、それが高速で回転し始める。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ヘリステラ]]'
+  entity_type: item
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5115_ヘリステラ_defines_輪廻転生の能力特性_p127131
+        quote: （キュトスの姉妹No.1【ヘリステラ】、またの名を【車輪の女王】――私達キュトスの姉妹の頂点に立つ、一番上のお姉様。呪装機巧【アーザノエルの御手】が参照し、引用する能力特性は【輪廻】。
+        locator: {}
+        spoiler_after: ch5115
+    action:
+      observations:
+      - event_ref: E_ch5115_ヘリステラ_activates_出力上昇_p72
+        quote: （アキラくん、新しい力を掌握できているのがわかる？　さっきので制限状態だった【ヘリステラ】の出力が三割から十割にまで上昇してる。やっぱり、私達がトリシューラというシステムを知っていくことで、ウィッチオーダーの上位機能がアンロックされていく仕組みなんだ）
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_アキラとトリシューラ]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5115_アキラとトリシューラ_says_誓約の文言_p13
+        quote: お互いがお互いに、定められた誓約の文言を口にする。打ち合わせるまでもなく、そうすればそうなると、俺達には確信があった。
+        locator: {}
+        spoiler_after: ch5115
+    action:
+      observations:
+      - event_ref: E_ch5115_アキラとトリシューラ_attacks_キロンへの総力戦_p155157
+        quote: '「――廻れぇっ！」
+
+          叫び、トリシューラから送られてくる呪力の全てを左手の歯車で回転させていく。'
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_アキラとトリシューラ_observes_外界_p42
+        quote: 暖かな感覚に包まれているという、圧倒的な安心感があった。いつまでも包まれていたいという甘やかな欲求を、しかし首筋から広がる冷たさが拒絶する。取り戻した理性で、外へと意識を傾ける。完全に同一となった俺とトリシューラの瞳が外界を高精度に捉えていく。
+        locator: {}
+        spoiler_after: ch5115
+    visual:
+      observations:
+      - event_ref: E_ch5115_アキラとトリシューラ_appears_炎天使のような姿_p6870
+        quote: 'その装甲は漆黒と銀、重なった眼光は緑、女性的なラインと男性的な力強さ、そして機械的な硬質さを複合させたシルエット。その背中から、後光のような呪力の光が放射されている。
+
+          燃え立つ翼を広げたその姿は、炎を纏った天からの御使いを思わせた。'
+        locator: {}
+        spoiler_after: ch5115
+    symbolic:
+      observations:
+      - event_ref: E_ch5115_アキラとトリシューラ_transforms_転生による強化_p8
+        quote: もはや死は俺達の別離や敗北を意味しない。望む限り転生し、意志ある限り挑み続け、死ぬ度に強くなる。敵が転生力とやらで上回るというのなら、こちらは二人分の転生力でそれを凌駕するのみ。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_義肢]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5115_義肢_functions_as_エネルギー変換装置_p133
+        quote: 入力されたエネルギーが義肢に内蔵された魔法円の集合体――呪術円陣によって変換されていく。各運動器系人工器官（オーガニック・エンジン）が唸りを上げて、骨（シャフト）とその周囲の人工筋肉繊維に送電を開始。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラの打撃]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5115_アキラの打撃_has_property_不規則な加減速とギアチェンジ_p139
+        quote: 普通に拳を振った場合、初速から最高速に達した瞬間に相手に命中するのが理想的である。しかし今の俺の打撃は最高速に達するまでの間に不規則に加減速が繰り返されるという常識を越えたものである。文字通りのギアチェンジによる増速。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_運動エネルギー]]'
+  entity_type: motif
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5115_運動エネルギー_transforms_再生_p143147
+        quote: 無駄になった運動エネルギー、断絶してしまった威力が、一つの流れの中に纏まって拳に集約された。信じがたいが、そうとしか思えない。つまりこういうことだ。死んだ運動エネルギーが、生まれ変わって再生した。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_機巧曼荼羅]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5115_機巧曼荼羅_activates_巨大な図像_p151153
+        quote: 幾何学的な模様が重ね合わさっていき、手の甲の歯車を中心として巨大な図像が完成する。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_左手]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5115_左手_appears_円環_p2
+        quote: 左手で回転する円環が、強烈な輝きを放つ。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_鮮血呪]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5115_鮮血呪_defines_新たな力_p22
+        quote: そうして、鮮血呪はその使い手に新たな力をもたらしていく。
+        locator: {}
+        spoiler_after: ch5115
+      - event_ref: E_ch5115_鮮血呪_has_property_自己放棄の代償_p9399
+        quote: この状態は鮮血呪の代償によって俺達双方が【自己】を放棄したことによる副産物だ。欠落した自己同一性をお互いが補完することでその精神的な死を辛うじて防止するという窮余の策。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_左義肢]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5115_左義肢_transforms_ウィッチオーダー_p33
+        quote: 更に左の義肢が軸たる骨格部分だけを残し、光の粒子となって雲散する。その上からトリシューラの左腕が覆い被さり、外側から光が収束して再び【ウィッチオーダー】がその姿を現す。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_きぐるみの魔女]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5115_きぐるみの魔女_defines_強化外骨格化能力_p36
+        quote: きぐるみの魔女の真なる能力とは、彼女自身が強化外骨格（きぐるみ）になることだ。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_聖婚]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5115_聖婚_defines_相互補完_p44
+        quote: （地母神キュトスの【杖】性の欠片である最後の魔女トリシューラと、純粋な【杖】のゼノグラシアであるアキラくんが【聖婚】を行うということ。それは両者の相互補完を意味している）
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5115_サイバーカラテ_defines_人機一体の極意_p46
+        quote: 人機一体の境地。此則ちサイバーカラテの極意也。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_アダム・カドモン]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5115_アダム・カドモン_defines_完全者の創造_p5357
+        quote: （二者の合一。今はまだ不完全で、機能もあと八つロックされているけれど、この段階を経ていずれアキラくんは【アダム・カドモン】に至る）
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_私達]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5115_私達_names_主体の融合_p6166
+        quote: '答えはどちらでもない。
+
+          「私達が、だよ。アキラくん」'
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_車輪の女王]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5115_車輪の女王_appears_ヘリステラのイメージ_p78
+        quote: 勇壮な面差し、輝く両の眼、そして充溢する圧倒的な呪力のオーラ。その背には途方もなく大きな車輪が乗せられ、上方には禍々しい竜、下方には極彩色の猫、左右にはそれぞれ鴉と兎が鎮座していた。その身体を押し潰さんばかりに巨大な車輪を担ぎながらも、強靱な山羊脚で大地を踏みしめ、踏みとどまり続ける女性。彼女が押しつぶされずにいるのは何故か。その足下に、沢山の妹たちがいるからだ。彼女は長姉。七十一に分かたれた不死女神、その最初の一欠片。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ道場]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5115_サイバーカラテ道場_functions_as_変則的な伝達経路の対応_p86
+        quote: 脚からではなく噴射孔から伝わるエネルギー。変則的な伝達経路に、トリシューラの【サイバーカラテ道場】は完璧に対応して見せた。視界隅の疑似身体が、背中から腕先へと伝わっていくモデルを表示している。
+        locator: {}
+        spoiler_after: ch5115
+  first_appearance_candidate: true

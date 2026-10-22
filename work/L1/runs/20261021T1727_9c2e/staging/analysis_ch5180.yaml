@@ -1,0 +1,268 @@
+chapter: ch5180
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 21
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5180_time_loop_mechanic]]'
+  object: '[[ME_video_game_save_point]]'
+  claim: 時間遡行とリスタートは、ゲームにおけるセーブポイントからのやり直し（Save Scumming）のメタファーである。
+  quote: '「過去遡行という手段に溺れないこと」
+
+    「溺れる？」'
+  paragraph: p5-p7
+  confidence: moderate
+  quotes:
+  - quote: '「過去遡行という手段に溺れないこと」
+
+      「溺れる？」'
+    paragraph: p5-p7
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5180_saria_mental_state]]'
+  object: '[[ME_player_addiction_mechanic]]'
+  claim: 時間遡行の濫用による精神崩壊は、過剰なリトライ（周回）に対するプレイヤー側の疲労・燃え尽き症候群を象徴している。
+  quote: 完璧な未来に辿り着くより先に頭がお花畑に旅立っちゃうの。これ、経験者からの忠告ね
+  paragraph: p31
+  confidence: strong
+  quotes:
+  - quote: 完璧な未来に辿り着くより先に頭がお花畑に旅立っちゃうの。これ、経験者からの忠告ね
+    paragraph: p31
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5180_saria_warning]]'
+  object: '[[ME_game_design_anti_cheat]]'
+  claim: 「万能の力ではない」という警告は、チート能力や最強クラスキャラクターによる物語の破綻（ゲームバランス崩壊）を防止するためのメタ的戒めである。
+  quote: ――これは万能の力なんかじゃない。
+  paragraph: p2
+  confidence: moderate
+  quotes:
+  - quote: ――これは万能の力なんかじゃない。
+    paragraph: p2
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5180_white_flame]]'
+  object: '[[ME_cosmic_entropy_heat_death]]'
+  claim: 白焔による「何も無い空白」への消滅は、熱的死（エントロピー増大）および存在論的な虚無化を視覚化したものである。
+  quote: 'そこは世界が終わってしまった何も無い空白だ。
+
+    視覚的な白い焔として翻訳された虚無――私たちが固まっている場所を除けば、この周辺は完全に虚無に覆われてしまっていた。'
+  paragraph: p93-p94
+  confidence: strong
+  quotes:
+  - quote: 'そこは世界が終わってしまった何も無い空白だ。
+
+      視覚的な白い焔として翻訳された虚無――私たちが固まっている場所を除けば、この周辺は完全に虚無に覆われてしまっていた。'
+    paragraph: p93-p94
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5180_future_flashback_failure]]'
+  object: '[[ME_information_overload_paradox]]'
+  claim: 「未来回想」による情報送信の失敗は、タイムパラドックスにおける情報の非局所性や、多量の予知が精神を破壊するSF的 trope（情報過負荷）に準拠している。
+  quote: それは過去の私を無数の未来記憶で混乱させ、精神に負担をかける結果となっていたのだとか。
+  paragraph: p181
+  confidence: moderate
+  quotes:
+  - quote: それは過去の私を無数の未来記憶で混乱させ、精神に負担をかける結果となっていたのだとか。
+    paragraph: p181
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5180_time_fly_mechanic]]'
+  object: '[[ME_dune_prescience]]'
+  claim: 「時蝿」による時間の巻き戻しと、追撃の焔を回避する行動は、因果律の逆転を利用した戦闘（『デューン』におけるポール・アトレイデスの時間予知と回避）に構造的に類似する。
+  quote: '長針と短針がめまぐるしく逆回転し、時間がぐるぐると巻き戻っていく。
+
+    私たちは矢のように遡る。'
+  paragraph: p159-p160
+  confidence: weak
+  quotes:
+  - quote: '長針と短針がめまぐるしく逆回転し、時間がぐるぐると巻き戻っていく。
+
+      私たちは矢のように遡る。'
+    paragraph: p159-p160
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5180_heroic_sacrifice]]'
+  object: '[[ME_tragic_hero_archetype]]'
+  claim: プリエステラの犠牲が「無駄」に終わるという記述は、英雄の犠牲が勝利を生むというクリシェを、ループによる救済によって無意味化（逆転）している。
+  quote: 仲間を守るためにその命を擲った彼女の行為は、私が彼女を諦めなかったがゆえに無駄に終わってしまう。
+  paragraph: p133
+  confidence: strong
+  quotes:
+  - quote: 仲間を守るためにその命を擲った彼女の行為は、私が彼女を諦めなかったがゆえに無駄に終わってしまう。
+    paragraph: p133
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_aphasia_past_lives
+  note: サリアがアズーリアを「コアと同じ匂いがする」と評し、過去に経験者（狂気を持つ者）であることを示唆している。これは主人公フィリスとアズーリア、あるいはコルセスカとの前世の因縁を示す伏線。
+  quotes:
+  - quote: それにアズーリアはコアと同じ匂いがする。止めても馬鹿が治らない人種
+    paragraph: p13
+    quote_verified: true
+  - quote: 今も元気に発狂中。ご主人サマから狂気を定期的に吸って貰わないとそのうちまともに会話できなくなる。
+    paragraph: p35
+    quote_verified: true
+  expected_payoff: アズーリアの正体（コアとの関係性）およびフィリスが過去に経験した「狂気」の詳細が明かされる展開へ繋がる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_body_deterioration
+  note: 霊長類体（人間形態）への固定がつらくなっているという記述。ループ回数の増加に伴う肉体・精神の摩耗、または「実世界」に戻る際のリスクを示唆している。
+  quotes:
+  - quote: もう霊長類体に変身するのが大分つらくなってきていることを誤魔化した。
+    paragraph: p74
+    quote_verified: true
+  - quote: '下半身が丸ごと塵になってしまっていて、存在しないのだ。
+
+      そればかりではない。あどけない童顔は皺が増えてまるで老婆のようになってしまっている。'
+    paragraph: p97-p98
+    quote_verified: true
+  expected_payoff: 時間遡行の代償としての「老化」や「存在消滅」が主人公自身にも迫っており、解決手段の枯渇または限界突破の必要性を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_future_gift_promise
+  note: サリアとの「買い物」の約束。これは単なる日常の約束ではなく、サリアの精神安定（狂気の吸い取り・贈り物）と直結しており、ループ脱出後の生活や関係修復の重要なキーワードとなる。
+  quotes:
+  - quote: 「――買い物、付き合うって約束、ちゃんと果たして貰うからね」
+    paragraph: p77
+    quote_verified: true
+  - quote: なるべく早くこの苦境を脱して仲直り用の贈り物を見繕わなければ、サリアの精神状態が大変な事になるのか。
+    paragraph: p37
+    quote_verified: true
+  expected_payoff: ループ終了後、あるいはループ内で「買い物」が重要なアイテム入手イベント（例：狂気を鎮めるための呪物）として描かれる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_time_fly_origin
+  note: 「時蝿」が半透明の蝿であり、腹に巨大な時計を抱えているという描写。その正体は？ 守護天使マロゾロンドとの関係は？
+  quotes:
+  - quote: 影の甲冑ではなく軽装の背後に浮かぶのは半透明の蝿だ。腹に巨大な時計を抱えた、不気味だがどことなく愛嬌のある虫。
+    paragraph: p144
+    quote_verified: true
+  - quote: 自らの守護天使マロゾロンドから借り受けた呪力を束ねていく。
+    paragraph: p146
+    quote_verified: true
+  expected_payoff: 時蝿が単なる召喚獣ではなく、サリアの「狂気」や「コア」と結びついた存在（あるいは時間神話上の概念具現）であることが明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 最適化された世界を救うことと、個々の命を救うことの非両立性（功利主義の限界）
+  weight: 0.8
+  quotes:
+  - quote: '全員を護送する事だけを優先すれば、プリエステラ一人の犠牲で済むのに。
+
+      私はそれを、決して選べない。'
+    paragraph: p134-p136
+    quote_verified: false
+  - quote: '世界の危機と目の前で困っている人の危機、どっちが重い？
+
+      「ほらね」'
+    paragraph: p21-p27
+    quote_verified: false
+  note: サリアの忠告とフィリスの行動を通じて、「世界を救う（ループ脱出）」ために必要な合理的な犠牲（プリエステラ）を受け入れられない主人公の倫理的葛藤が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「やり直し」の無限回帰による精神摩耗と、完璧主義への拒絶
+  weight: 0.7
+  quotes:
+  - quote: どこかで妥協しないと、完璧な未来に辿り着くより先に頭がお花畑に旅立っちゃうの。
+    paragraph: p31
+    quote_verified: true
+  - quote: 'ぐるぐると思考が過去に沈んでいく。伸ばしても届かない左手。伝えられなかった言葉。去っていく妹の背中。
+
+      あの暗い森で死んでいった仲間達。犠牲を許容したこと。'
+    paragraph: p55-p56
+    quote_verified: true
+  note: 時間遡行という「チート」が、精神の崩壊（発狂・狂気）と直結している点に焦点を当てている。救済への過程が地獄であるという逆説的テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 虚無（白焔）と生身（実体）の対比、存在の脆さ
+  weight: 0.6
+  quotes:
+  - quote: '実感する。
+
+      ああ、これが『生身』であるということだ――。'
+    paragraph: p84-p85
+    quote_verified: true
+  - quote: 'そこは世界が終わってしまった何も無い空白だ。
+
+      視覚的な白い焔として翻訳された虚無――私たちが固まっている場所を除けば、この周辺は完全に虚無に覆われてしまっていた。'
+    paragraph: p93-p94
+    quote_verified: true
+  note: 世界が虚無化していく中での「生身」への回帰（アストラル体からの復帰）が、命の重さと世界の消滅を対比させている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者による救済の不可能性と自己責任の放棄
+  weight: 0.5
+  quotes:
+  - quote: 'サリアはしばらく沈黙する。漆黒の兜の中で、切れ長の目が眇められているような気がした。
+
+      「――買い物、付き合うって約束、ちゃんと果たして貰うからね」'
+    paragraph: p75-p77
+    quote_verified: true
+  - quote: 「いいから、フィリスは温存しといて。それにあれは錯乱の危険性があるから止めることにしたの」
+    paragraph: p179
+    quote_verified: true
+  note: サリアがフィリスを「説得」「引き延ばす」と約束することで、主人公が抱える過剰な責任感（自己犠牲）を他者が分担する構造が示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

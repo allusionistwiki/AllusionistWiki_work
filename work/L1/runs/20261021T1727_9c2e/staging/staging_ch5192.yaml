@@ -1,0 +1,276 @@
+episode: ch5192
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5192_リーナ_says_哲学への拒絶_p11
+        quote: 『えっなにそれ意味分かんない。どういう質問？　テツガクとかさっぱりですよ。ていうか私に質問とかすんなや！　質問するのは頭悪い方である私！　私ですよ優等生のマリーさん！』
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_リーナ_names_アズーリア_p304
+        quote: 『色号をいじって、アズーリアってのはどうよ！　アズールのアズーリア！　おお、なんかいい感じじゃない？』
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_リーナ_says_自由の欠乏_p49
+        quote: 「自由だ。ここには自由が足りない」
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_リーナ_says_空が青い理由_p7
+        quote: 『空がどうして青いかって？　それはあれだよ、飛んだ時に気持ちいいからだよ』
+        locator: {}
+        spoiler_after: ch5192
+    relationship:
+      observations:
+      - event_ref: E_ch5192_リーナ_thinks_居場所の不在_p110
+        quote: '余り意識はしないようにしてきたが――最年長で最劣等生というのは、中々居心地が悪い。
+
+          居場所が無いからこそ落ち着きが無いのか。
+
+          それとも居心地の悪さを忘れる為にふわふわと漂っているのか。'
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_リーナ_fears_強制された仲_p392
+        quote: '嫌いな訳ではない。
+
+          ただ、強制されて仲良くするのは嫌だった。
+
+          『ほんとう』の仲の良さだと思っていたものを、何かの窮屈な枠に押し込められてしまうのが、たまらなく苦痛だった。'
+        locator: {}
+        spoiler_after: ch5192
+    action:
+      observations:
+      - event_ref: E_ch5192_リーナ_uses_重力操作の邪視_p176
+        quote: '空の民であるため邪視の適性もあり、重力を操作する邪視と併用することでリーナは飛行することができる。
+
+          リーナの邪視は耳内部で発動する。'
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_リーナ_hides_授業_p18
+        quote: 'その日、リーナ・ゾラ・クロウサーは裏庭にいた。
+
+          生垣の上でふよふよと浮遊しながら、リーナはぼんやりと空を眺めていたのだ。
+
+          そんなところで何をしていたのかと言えば、授業を放棄して現実逃避しているのであった。'
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_リーナ_other_悪口_p195
+        quote: '『当然でしょ、なんたって空使いの飛翔術だもの！　この青空でなら、私は自由だー！　私を叱れるものなら叱ってみろー！　課題が何だ！　将来が何だ！　そんなもん知るかー！　一生働かないでふわふわしてやるー！！』
+
+          雲が巨大な文字の形に変化して、更には実の姉への悪口や、師としての『お姉様』への悪口を空に書き連ねていく。'
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_リーナ_travels_蒼穹_p3
+        quote: '限界まで高く、遙かな空へと真っ直ぐに。
+
+          リーナとマリーは、どこまでも飛んでいく。'
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_リーナ_other_マリーの声_p321
+        quote: そもそも声が違う。リーナの発している声とは異なる、清澄な響きの音。
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_リーナ_loses_意識_p348
+        quote: '間違い無い、左手にいる。
+
+          そう思考した次の瞬間、握りしめた掌から伝わってきた闇がリーナの視界を覆い尽くし、意識が消失した。'
+        locator: {}
+        spoiler_after: ch5192
+    visual:
+      observations:
+      - event_ref: E_ch5192_リーナ_observes_左手の異常_p343
+        quote: '近付いていく黒百合宮の姿に焦りつつも、リーナは握りしめたアズーリアの左手の異常に気がついた。
+
+          色が無い。
+
+          黒、影、闇――それともこれは灰色や白なのか？
+
+          見方によって変化する、奇怪な左手。'
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_リーナ_observes_マリー_p80
+        quote: '仰向けのまま、首を仰け反らせる。
+
+          生垣の上に、小さな黒衣がちょこんと乗っていた。
+
+          マリー・スー。小さな夜の民。'
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マリー]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5192_マリー_says_授業からの逃亡_p124
+        quote: 『逃げてきた。呪術生命のお勉強って言って、引っ張ったりつついたり変な薬をかけられたりするの。今まではお菓子くれるから我慢してたけど、もう騙されない』
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_マリー_other_上下への逃亡_p138
+        quote: 『じゃあ上か下に逃げてみるとか』
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_マリー_confesses_色の実感の欠如_p233
+        quote: 『あのね――光の散乱とか、そういう杖の説明は勉強したからわかるの。異世界や死者といった青が象徴する事柄に関しての呪文とか邪視の説明も知ってる。でも、なんて言うのかな。それが本当に青なんだっていう実感が無いの』
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_マリー_remembers_色無しマリー_p241
+        quote: 『最初の頃は色がわからなかった。ダーシェンカお姉様は私に色無しマリーって渾名を付けた。その意味すらわからなかったけど、ジルに呪文を教えてもらって、みんなと仲良くなっていく内に、だんだん私は色の区別が付くようになっていった』
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_マリー_confesses_名前喪失の恐怖_p265
+        quote: 『でも、万色に選ばれなかったら？　結果はまだわからないし、パープルとかに追い越されたら、私、名前を無くしちゃうよ？』
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_マリー_says_声と名前の喪失_p274
+        quote: 『声と一緒に、無くしちゃった。ダーシェンカお姉様は、きっとすぐ近くにあるから、お友達と一緒に探してごらんなさいって。でも、最初の頃はお友達なんていなかったし、どうしたらいいかわからなくて』
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_マリー_says_アズーリアの発見_p317
+        quote: 「アズーリア！　そう、私の名前はアズーリアだったんだ！」
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_マリー_says_シアンの飛翔_p73
+        quote: 『でも、飛んでるときのシアンはとっても伸び伸びとしてるよ。ヴァーミリオンとかフルブライトも凄い飛び方するけど、あんなに楽しそうに飛んでるのはシアンだけだと思う』
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_マリー_asks_青と心地よさの関係_p9
+        quote: 『なんで青いと気持ちいいの？　それとも気持ちいいのが青なの？』
+        locator: {}
+        spoiler_after: ch5192
+    visual:
+      observations:
+      - event_ref: E_ch5192_マリー_transforms_有翼の牡鹿_p166
+        quote: 'マリーは黒衣を膨らませて小さな有翼の牡鹿に変身した。
+
+          まだ幼いからか、枝角の分岐は三本までだ。'
+        locator: {}
+        spoiler_after: ch5192
+    action:
+      observations:
+      - event_ref: E_ch5192_マリー_gives_呪力共有_p183
+        quote: 'すぐ近くにいるマリーから送られてくる呪力は、その小さな体躯と反比例するかのように頼りがいのある大きなものだ。
+
+          リーナはまるで引っ張り上げられているかのようだと感じた。'
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_マリー_appears_帳面_p57
+        quote: '寝転んだリーナの目の前に、四角い帳面がぬっと突き出される。
+
+          『そんなにつまんない？』'
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ゾラ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5192_ゾラ_defines_飛翔術_p175
+        quote: 'リーナ・ゾラ・クロウサーは呪文によって空を飛ぶ。
+
+          『空』という言葉を呪文によって掌握し、自在に飛翔するのがゾラの血族。'
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミブレル]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5192_ミブレル_has_property_いいかげんな性格_p23
+        quote: 指導を直接担当している『妹分』が来ないことに気付かないなどということはあり得ないようにも思えるが、ミブレルはリーナの師だけあって割といいかげんな性格をしている。
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_黒百合宮]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5192_黒百合宮_has_property_時間巻き戻し機能_p31
+        quote: 何が怖いって、気絶して寝室に運び込まれたとかではなくて、抜け出そうとしたこと自体が夢の中の出来事で、目が醒めたら時間が巻き戻っていることが怖い。
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_黒百合宮_is_located_朝夜混在の上空_p5
+        quote: 朝と夜が混在した黒百合宮の上空で、二人は周囲に漂う雲を千切っては呪術で形を変えて、雲の筆談を行う。
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5192_アズーリア_transforms_霊長類_p336
+        quote: '無彩色――漠然とした、けれど圧倒的な呪的質感を有したそれが、有翼の牡鹿であるアズーリアの形態を変異させていく。
+
+          一瞬にして背の低い霊長類になると、翼という飛翔のための器官を失ったアズーリアは見る間に落下していく。'
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_母]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5192_母_teaches_自由の探求_p355
+        quote: '息苦しい不自由の中で、ひとつでもいいから何か自由を見つけなさい。
+
+          そう教えられたリーナは、飛翔術にその自由を見出した。'
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_母_says_花嫁捜し_p368
+        quote: 「ミルーニャの万能細胞を用いれば、同性間で子供を作ることが可能よ。たとえ性別がない相手であったとしてもね。リーナ、貴方は己の花嫁を捜すといいわ」
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_クロウサー家]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5192_クロウサー家_has_property_血統の呪い_p382
+        quote: というより、クロウサー家と血縁関係が全く無い貴族など地上には存在しないと言っても過言ではないのだ。それほどまでにクロウサー家の婚姻にかける執念――あるいは妄念は凄まじいものがあった。外交戦略という以上に、呪術的な『血統』をより強く、混沌としたものにしたいという、始祖から連綿と続く壮大な呪い。
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_エル・ア・フィリス]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5192_エル・ア・フィリス_appears_夢の世界_p410
+        quote: アズーリアの姿をしたエル・ア・フィリスは、透明に微笑んで、それから世界そのものを震わせるように呪文を紡ぎ出す。
+        locator: {}
+        spoiler_after: ch5192
+      - event_ref: E_ch5192_エル・ア・フィリス_defines_言理の妖精_p417
+        quote: 『さあリーナ。貴方の過去に遡って、私に物語を語らせて？　私はその為に存在する、言理の妖精なのだから』
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シアン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5192_シアン_has_property_雲そのもの_p46
+        quote: 'フォービットデーモンのナンバーセブン、シアンとしての姿は雲そのものなのに、リーナの身体はふわふわ度が足りない。
+
+          リーナは欠乏していた。'
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_彩石の儀]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5192_彩石の儀_has_property_閉塞感_p61
+        quote: 「ううん？　ただ楽しくてもさ、ずっと同じような日々だと飽きるって事。彩石の儀もだけどさー、最終的に勝つデーモンがほとんど固定されてきてんじゃん？　なんか閉塞感あるなーって」
+        locator: {}
+        spoiler_after: ch5192
+  first_appearance_candidate: true

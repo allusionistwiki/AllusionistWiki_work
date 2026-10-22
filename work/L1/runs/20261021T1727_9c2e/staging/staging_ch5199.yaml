@@ -1,0 +1,478 @@
+episode: ch5199
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5199_ミルーニャ_other_アキラの意図_p100
+        quote: 『恐らく、アズーリア様にわかりやすいように、以前のままの姿を見せようという狙いがあったんでしょうね。あのきぐるみ女なら義肢くらい間に合わせでもすぐに用意できるはずですし』
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_ミルーニャ_other_カッサリオの不死性_p162
+        quote: 『ま、あの怪物は殺しても死なないので心配するだけ無駄だと思いますけどね』
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_ミルーニャ_says_第五階層の状況_p17
+        quote: 『第五階層は今ちょっと面倒なことになってるんですよ』
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_ミルーニャ_other_アキラがトリシューラの使い魔である可能性_p170
+        quote: 『それに、推測ですけど多分あれ、きぐるみ女が召喚した使い魔じゃないかと思います。行動を共にしていたことから考えても十分にあり得る可能性です』
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_ミルーニャ_promises_末妹選定の公正さ_p30
+        quote: 『それはもちろん。そこで人質を利用してトライデントを勝たせる、などという下らない真似をすることに意味はありません。ラクルラールとて仮にも呪術師の端くれなのですから、そのくらいの誇りは有しているはず』
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_ミルーニャ_reveals_トリシューラとの内通_p54
+        quote: 『もうひとつ面倒な事実をお伝えすると、実はトリシューラは私の師であるベル・ペリグランティアお姉様から呪術医としての手ほどきを受けてます。その繋がりでちょっと相互に内通してまして』
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_ミルーニャ_says_アズーリア様の連絡停止_p9
+        quote: 『いえ、ティリビナの民に危険がある、ということではありません。ただ、アズーリア様が連絡するのはやめた方がいいということです』
+        locator: {}
+        spoiler_after: ch5199
+    relationship:
+      observations:
+      - event_ref: E_ch5199_ミルーニャ_other_私の要望_p11
+        quote: プリエステラの疑問に対して答えたミルーニャは、私の要望に対して難色を示した。ハルベルトらも同意見の模様だ。
+        locator: {}
+        spoiler_after: ch5199
+    action:
+      observations:
+      - event_ref: E_ch5199_ミルーニャ_other_ペリグランティア派_p59
+        quote: 『ラクルラール派の情報を流す替わりに、こちらからもペリグランティア派の情報を送ったりしています。当然、表向きは敵同士ですが』
+        locator: {}
+        spoiler_after: ch5199
+    visual:
+      observations:
+      - event_ref: E_ch5199_ミルーニャ_functions_as_連絡係_p63
+        quote: 『はい。仰る通り、私は末妹候補たちの支援者でもあるので、所在が掴めないトライデント以外とは連絡係として接触することが多いのです。その際に、色々と情報交換したり内部工作の約束を取り付けたりと、色々です』
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5199_アキラ_kills_修道騎士たち_p107
+        quote: アキラの左手に装着されている手斧は異常な切れ味で修道騎士たちを斬殺していく。両断される呪動装甲、飛び散る血飛沫。絶叫に次ぐ絶叫。
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_アキラ_fights_多対一_p109
+        quote: 多対一という不利をものともせず、縦横無尽に動き回り包囲されることを避け、殺傷力の高い武器で牽制しつつ有利な距離を保ち続ける。
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_アキラ_fights_トリギス_p118
+        quote: アキラは次々と修道騎士を殺害していき、序列二十八位の修道騎士、トリギスと交戦する。
+        locator: {}
+        spoiler_after: ch5199
+    relationship:
+      observations:
+      - event_ref: E_ch5199_アキラ_other_松明の騎士団_p168
+        quote: 『話が逸れた。兎に角、そのアキラとかいう外世界人は明確に松明の騎士団と敵対している。公然と連絡をとるわけにはいかない』
+        locator: {}
+        spoiler_after: ch5199
+    visual:
+      observations:
+      - event_ref: E_ch5199_アキラ_wears_手斧付き義肢_p98
+        quote: 先程【サイバーカラテ道場第五階層支部（仮）】で見た時とは異なり、円筒形の左腕がある。先端には単純な形状の手斧。
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_きぐるみの魔女]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5199_きぐるみの魔女_has_property_奇妙な怪我_p110
+        quote: そこにひどく奇妙な怪我（言い回しがそれしか思いつかない。引き裂かれた顔や胴体から除く金属質の肌や臓器は何だろう。肉体に呪具を埋め込んでいるのだろうか）をしたきぐるみの魔女がいることや、
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_私]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5199_私_other_アキラの敵対_p110
+        quote: 第六階層特有の異形の壁面が何故か崩壊していることも気になったが、私はアキラが修道騎士と――私たちと敵対しているということにひどく衝撃を受けていた。
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_other_見捨てた事実_p112
+        quote: '私たちは彼を見捨てた。
+
+          見殺しにして、異獣に殺されることを容認した。'
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_remembers_カインを殺したこと_p115
+        quote: 仲間であるカインを殺してしまい、苦しんでいたアキラを思い出す。
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_other_アキラがゼノグラシアの使い魔である可能性_p174
+        quote: 'アキラは外世界人だから、四魔女の使い魔としての資格を有している。
+
+          なら彼は、杖の座のゼノグラシア――トリシューラの使い魔なのかもしれない。'
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_other_アキラとの関係_p187
+        quote: 'アキラはもう敵なんだ。
+
+          だから、全部、切り捨てないと。'
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_other_恋愛感情_p213
+        quote: 「それはない」
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_has_property_顔の見分けの不得手_p226
+        quote: 「生憎、私は霊長類の顔を見分けるのがあんまり得意じゃないの。美醜は直観としてある程度わかるけど、個性はわからない。みんなの事はわかるし、最近は少しずつ慣れてきてるけど」
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_other_アキラへの態度_p242
+        quote: 'リーナの言葉に動揺を覚えてしまって、私は自分のどうしようもなさが嫌になった。割り切ると決意したばかりなのに。
+
+          駄目だ私。まだ彼の仲間のつもりでいる。'
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_thinks_ラクルラール派の目的_p32
+        quote: 私はラクルラールという第六位の代理には会ったことがないが、彼女もまた星見の塔の一員だ。派閥争いにかまけて本来の目的――神聖不可侵なる呪術儀式を妨げるようなことはしない、ということのようだ。
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_other_奇妙な実感_p36
+        quote: '文面からは奇妙な実感が感じられた。
+
+          多分、杖の座を巡る争いで色々あったんだろうなあ、と私は思う。'
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_remembers_葉っぱの伝言板_p5
+        quote: 次々と表示されていく文字列を見ていると、かつて『葉っぱの伝言板』で連絡し合っていた時の事を思い出す。
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_other_敵味方の区別_p50
+        quote: 'ハルベルトがまとめてくれたが、まとめたはずなのにさっぱりわからない。
+
+          それは敵なんだろうか味方なんだろうか。'
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_私_other_情報の非通知_p93
+        quote: だがその重要かどうかの尺度はあくまでも松明の騎士団全体にとって、というものであり、私にとって重要かどうかは関係が無い事を忘れていた。
+        locator: {}
+        spoiler_after: ch5199
+    action:
+      observations:
+      - event_ref: E_ch5199_私_other_サイバーカラテ道場とアキラからの連絡_p12
+        quote: リーナが発見した【サイバーカラテ道場】とシナモリ・アキラから私への連絡を請う文面について皆に相談したところ、ほぼ満場一致でやめておけと言われた。
+        locator: {}
+        spoiler_after: ch5199
+    relationship:
+      observations:
+      - event_ref: E_ch5199_私_hates_カッサリオ_p126
+        quote: 私にとっては、仇の一体だ。
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリギス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5199_トリギス_attacks_アキラ_p119
+        quote: トリギスの異獣憑きとしての能力――尻尾に擬態した寄生異獣が槍のようにアキラを襲うが、
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_王獣カッサリオ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5199_王獣カッサリオ_appears_戦闘現場_p121
+        quote: 'その時凄まじい破壊の渦が両者の間を貫く。
+
+          「王獣カッサリオ、なんでこんなところに？！」'
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5199_コルセスカ_uses_九体の召喚獣_p124
+        quote: 妹を奪い去った古代の魔女が使役する九体の召喚獣。
+        locator: {}
+        spoiler_after: ch5199
+    visual:
+      observations:
+      - event_ref: E_ch5199_コルセスカ_has_property_直感的にわかりやすい不死_p166
+        quote: 映像の中でも致命傷を受けた直後に蘇生していた。ハルベルトの『比喩としての不死』とは違う、『直感的にわかりやすい不死』だ。
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_謎の男性]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5199_謎の男性_saves_アキラ_p128
+        quote: 見知らぬ長身の男性がカッサリオを攻撃してアキラの窮地を救ったり、
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_映像]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5199_映像_other_アキラと謎の男性_p130
+        quote: 映像は、アキラと謎の男性が二人でトリギスを打撃した直後に途切れている。
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_映像_other_アキラ_p97
+        quote: 映像に映し出されていたのは、紛れもなくあの外世界人だった。
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メイファーラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5199_メイファーラ_other_野菜ジュースの紙パック_p133
+        quote: その時、何故かメイファーラが飲んでいた野菜ジュースの紙パックをべこっと握りつぶす。
+        locator: {}
+        spoiler_after: ch5199
+    relationship:
+      observations:
+      - event_ref: E_ch5199_メイファーラ_other_トリギス_p138
+        quote: 「え？　ああ、うん。ちょっと話したことがあるくらいかな」
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラの存在]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5199_アキラの存在_threatens_新たな英雄としての地位_p14
+        quote: 彼の存在は、槍神教が仕立て上げた私という『新たな英雄』の存在を揺るがしかねない。
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ソルダ・アーニスタ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5199_ソルダ・アーニスタ_other_コルセスカ_p158
+        quote: 松明の騎士団の頂点に立つソルダ・アーニスタが、前世からの運命の恋人である冬の魔女コルセスカの事になると度を失う事は有名だったからだ。
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5199_リーナ_other_寝台_p189
+        quote: 一緒に帰ってきたリーナはミルーニャが開発した新型呪具の試運転で疲れ切って寝台にばたんと倒れ込む。
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_リーナ_other_部屋_p264
+        quote: 'それだけ言って、リーナは勢いよく立ち上がると部屋を出て行った。
+
+          寝台の上に、三角帽子が所在なく載っている。'
+        locator: {}
+        spoiler_after: ch5199
+    speech:
+      observations:
+      - event_ref: E_ch5199_リーナ_other_アキラとの関係_p211
+        quote: 「この人は何、あれなの。アズーリアさんのいわゆるそういうあれなのっ？」
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_リーナ_other_アキラが殺した悪者であること_p238
+        quote: 「何か色々事情があるのは聞いたけどさ、結局このアキラって人、たくさん人を殺してる悪者なんでしょ？　杖の座の使い魔ってことは敵なわけだし」
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_リーナ_other_悪事の全てが否定されること_p252
+        quote: 「それはさ。悪い事をしたら悪いって言われるのは当たり前だし、罰せられるのも当然だとおもうけど。でも、だからってそのせいで、その人がしたこと、全部が悪いってことになっちゃうのかな」
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_リーナ_other_ガルズ_p254
+        quote: 'いつの間にか、リーナが言及している対象はアキラではなくなっていた。
+
+          彼女は、ガルズの事を言っているのだ。'
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_リーナ_other_ガルズへの対応_p257
+        quote: 「パレルノ山でさ、ガルズに色々聞いたじゃん？　で、思ったんだ。何で私、その時すぐ近くにいなかったんだろうって。何で平然と大学行ったり遊んだりバイトで探索してたんだろうって――ううん、それはいいんだ。エストとまた会えたのはそのお陰だし。そうじゃなくて、なんて言うか」
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_リーナ_other_窮屈な感じ_p262
+        quote: 「ごめん、全然上手く言えない。頭悪くてごめんね。けどさ、私、こういう窮屈な感じ、凄く嫌」
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_リーナ_other_怒り_p69
+        quote: 「うがああああなんでこんなぐちゃぐちゃしてるの！　普通によーいどんで四人で殴り合えばいいじゃん！　いいじゃん！」
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_談話室]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5199_談話室_functions_as_話し合いの場_p2
+        quote: 談話室は皆で話し合うのに便利だけれど、作業をしながら話すのには不向きだ。
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5199_トリシューラ_is_located_第五階層_p21
+        quote: 面倒な事にきぐるみの魔女トリシューラの活動拠点でもありまして』
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_トリシューラ_has_property_逆襲能力_p34
+        quote: 『それにあのきぐるみの魔女には人質は通じません。いえ、通じることは通じるんですが、ある段階を踏み越えて追い詰め過ぎると人質ごと反撃されます。相手が絶対に譲れないものまで要求すれば必ず反撃される。他ならぬクレアノーズお姉様がそういう教育をしているのです』
+        locator: {}
+        spoiler_after: ch5199
+    name:
+      observations:
+      - event_ref: E_ch5199_トリシューラ_has_property_寄生異獣の生みの親_p23
+        quote: きぐるみの魔女――ハルベルトの前任者にして寄生異獣の生みの親、そして槍神教の裏切り者。
+        locator: {}
+        spoiler_after: ch5199
+      - event_ref: E_ch5199_トリシューラ_other_杖の座_p24
+        quote: 更には、杖の座の候補者であるという人物だ。
+        locator: {}
+        spoiler_after: ch5199
+    relationship:
+      observations:
+      - event_ref: E_ch5199_トリシューラ_other_ラクルラール派_p26
+        quote: 『トリシューラは派閥としては使い魔と杖の派閥――ラクルラール派に属しています。つまりトライデントと同じ勢力なんです。』
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ペリグランティア製薬の探索事業部門公社]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5199_ペリグランティア製薬の探索事業部門公社_is_located_第五階層_p21
+        quote: 『あそこは、うちの――ペリグランティア製薬の探索事業部門である【公社】が進出して勢力を伸ばしているのですが』
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレアノーズ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5199_クレアノーズ_other_トリシューラ_p26
+        quote: これは彼女の庇護者である中立派のクレアノーズお姉様を人質に取られているために、やむを得ずにそういう選択をしているだけに過ぎませんが』
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_私たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5199_私たち_other_呪術儀式ライブ_p3
+        quote: 呪術儀式（ライブ）の準備で色々と忙しくしている私たちは、端末を片手に相談をしていた。
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5199_プリエステラ_uses_新型機種_p4
+        quote: 端末を持っていなかったプリエステラは、先日ミルーニャと一緒に買いに行ったという新型機種をややおぼつかない手付きで操作している。
+        locator: {}
+        spoiler_after: ch5199
+    speech:
+      observations:
+      - event_ref: E_ch5199_プリエステラ_asks_第五階層への関与_p7
+        quote: 『第五階層には関わらない方がいいってどういうこと？　みんなは大丈夫なの？』
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_七十一姉妹]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5199_七十一姉妹_has_property_複雑な関係性_p41
+        quote: 『まあ、七十一姉妹ですからね。要するに、トリシューラとトライデントは選定では競争相手で、その裏で行われている派閥抗争では同勢力というややこしいことになっています』
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ペリグランティア派]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5199_ペリグランティア派_other_カタルマリーナ派_p46
+        quote: 『そして、私が所属するペリグランティア派とアズーリア様方が所属するカタルマリーナ派はラクルラール派と敵対しています』
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5199_ハルベルト_other_敵味方の関係_p48
+        quote: 『まとめると、派閥抗争ではトリシューラはラクルラール派という敵。でも末妹選定ではトライデントに対抗する為に一時的な共闘が可能』
+        locator: {}
+        spoiler_after: ch5199
+    action:
+      observations:
+      - event_ref: E_ch5199_ハルベルト_other_映像_p80
+        quote: 『補足すると、三日前に丁度こんな映像が第六階層から送られてきた』
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_第五階層]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5199_第五階層_is_located_敵勢力の中心_p73
+        quote: 'つまり、第五階層は非常にややこしいことになっているらしい。
+
+          私たちからすれば、敵勢力のど真ん中だ。'
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロドウィ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5199_ロドウィ_has_property_暴走傾向_p76
+        quote: 『【公社】、つまりうちの探索事業部門の部長代理であるロドウィは、少し暴走しがちな所があります。』
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_トリギス率いる分隊]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5199_トリギス率いる分隊_disappears_消息不明_p86
+        quote: 『きぐるみの魔女を捜索していた修道騎士トリギス率いる分隊が消息不明になった。トリギスが最後に共有記憶に上げた映像がこれ』
+        locator: {}
+        spoiler_after: ch5199
+  first_appearance_candidate: true

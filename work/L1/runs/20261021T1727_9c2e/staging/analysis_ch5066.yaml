@@ -1,0 +1,136 @@
+chapter: ch5066
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 15
+items:
+- kind: mystery
+  name: MY_コルセスカの包帯の正体
+  note: コルセスカの腕に巻かれた暗紫色の包帯には「蚯蚓のような紋様」や「血液を思わせる赤い文字」が記されており、アキラの霊感（センサーではない直感）で最大の脅威として検知されている。これは単なる装飾品ではなく、呪術的な封印、あるいは危険な契約の証である可能性が高い。
+  quotes:
+  - quote: 枕を掴んだ手から腕、肘にかけて、肌が見えなくなる程にびっしりと暗色の帯が巻き付けられていたのである。包帯には蚯蚓がのたくったような不可思議な紋様、あるいは文字のようなものが血液を思わせる赤い塗料で記されていた。
+    paragraph: p131
+    quote_verified: true
+  - quote: 異様な光景だった。それは暗紫の包帯であった。
+    paragraph: p131
+    quote_verified: false
+  expected_payoff: コルセスカの呪術の源、あるいは彼女が「プレヒューマン」または危険な存在であることの視覚的証明として回収される。アキラの霊感が何を検知したかが明かされる場面での重要なキーアイテムとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トリシューラの日本語使用理由
+  note: コルセスカが「さっきから何故わざわざ日本語で？」と疑問を呈している。これは、言語が単なる翻訳ではなく、特定の文脈や権力構造（あるいはアキラへのサービス）に基づいて選択されていることを示唆する。
+  quotes:
+  - quote: おや、そういえば先程、ここにいるはずのないアキラの声が聞こえたような。それとトリシューラ、さっきから何故わざわざ日本語で？
+    paragraph: p84
+    quote_verified: true
+  expected_payoff: 異世界における言語システム（翻訳魔法等）の仕組み、あるいはトリシューラがアキラに対してのみ日本語を用いる特殊な関係性・監視構造の解明に繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの義眼と共同開発者
+  note: トリシューラがコルセスカの義眼の「共同開発者」であることが明かされている。この技術的な紐帯は、単なる知り合い以上の深い関係（過去、共犯関係、依存関係）を示唆する。
+  quotes:
+  - quote: 私の義眼はこの程度で機能が低下したりはしませんよ。そんなこと、共同開発者である貴方が一番良く知っているでしょうに
+    paragraph: p56
+    quote_verified: true
+  expected_payoff: トリシューラとコルセスカがどのようにして知り合い、なぜ「姉妹」のような関係に至ったかの背景描写。義眼の機能制限（左目は生身）が戦闘能力や弱点に関わる伏線となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_レオの沈黙と先程の光景
+  note: レオが「先程の光景に感じるところがあったのか、言葉少なに何事かを考え続けている」と描写されている。彼が何を見た（または見たことをどう解釈した）かが不明確であり、彼の精神的動揺は今後の行動選択に影響する。
+  quotes:
+  - quote: 背後からはレオも着いてきている。先程の光景に感じるところがあったのか、言葉少なに何事かを考え続けているようだった。
+    paragraph: p9
+    quote_verified: true
+  expected_payoff: レオがトリシューラやコルセスカの「人間離れしたスペック」に対し、どのような倫理的葛藤や恐怖を抱いているか、彼のキャラクターアークの転換点となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの性格が呪術の源
+  note: 「私の呪的性質が優秀なのは私がこういう人間だからです」「文句があるなら私のような性格になることですね」という発言は、性格（メンタル状態）が物理法則や呪術効率を直接規定する可能性を示唆する。
+  quotes:
+  - quote: 私の呪的性質が優秀なのは私がこういう人間だからですー！ 文句があるなら私のような性格になることですね！
+    paragraph: p113
+    quote_verified: true
+  - quote: ひょっとして物体を凍らせたり超高速移動したりといった超呪術はそんなしょうもない動機で生み出されてたの？
+    paragraph: p117
+    quote_verified: true
+  expected_payoff: コルセスカが引きこもり状態から脱却した際、その能力がどのように変化（増幅・減衰）するかの検証。性格とパワーの相関関係がシステムとして提示される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ポストヒューマン/プレヒューマンの定義と人間性の境界
+  weight: 0.8
+  quotes:
+  - quote: 「トリシューラはなんか、ポストヒューマンっていうよりプレヒューマンって感じだよな」
+    paragraph: p2
+    quote_verified: true
+  - quote: この女は明らかに並の人間から逸脱したスペックを有しているのだった。
+    paragraph: p17
+    quote_verified: true
+  note: トリシューラやコルセスカの能力が、単なるチートではなく「人間性の欠如」や「機械との融合（プレヒューマン）」に由来することを強調し、人間とは何かを問い直す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 逃避と現実直視の葛藤
+  weight: 0.7
+  quotes:
+  - quote: 「ちょっと休んだだけであっというまにいろんな事が私を置き去りにしていく。私以外の時間が止まってしまえば、こんなに苦しまなくて済むのに」
+    paragraph: p109
+    quote_verified: false
+  - quote: 「ああ、どうして世界は私に過酷な現実を直視させようとするのでしょう。」
+    paragraph: p109
+    quote_verified: false
+  note: コルセスカの引きこもり行動が単なる怠惰ではなく、「時間停止」への希求という形而上学的な逃避として描かれ、異世界での生存と精神的疲労の対比を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会システム（経済・通信）の脆弱性と支配構造
+  weight: 0.6
+  quotes:
+  - quote: 第五階層には公的な送金システムが無いからね。規制のための法律が無いから非正規のルートが成立しやすいわけ。
+    paragraph: p11
+    quote_verified: true
+  - quote: 現在の最前線である第五階層に人が集まるのは送金の効率がいいからっていう理由もあるんだよ。
+    paragraph: p11
+    quote_verified: true
+  note: 冒険者の生活がファンタジー的な魔法ではなく、非正規金融ルートや公社による搾取といった現実的な経済メカニズムに依存していることを露呈させる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションとしての「キャラ崩壊」の演出
+  weight: 0.5
+  quotes:
+  - quote: 普段の凛とした面影は皆無だった。温度の低い声はただ怠そうな声にしか聞こえないし
+    paragraph: p68
+    quote_verified: true
+  - quote: キャラを崩壊させながら絶叫するコルセスカの姿態が白日の下に晒される。
+    paragraph: p127
+    quote_verified: true
+  note: 「凛とした面影」からの落差や「キャラを崩壊させながら」というナレーションの語彙が、キャラクターが物語上の記号であることを自覚させるメタ的な演出として機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

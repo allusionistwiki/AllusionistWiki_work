@@ -1,0 +1,154 @@
+chapter: ch5475
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 17
+  quotes_total: 18
+items:
+- kind: mystery
+  name: MY_artemisia_identity
+  note: 双頭トロルが「素体」として組み込もうとしている「アルテミシア」の正体と、彼女が不在である理由。
+  quotes:
+  - quote: どこさ行ったアルテミシア。もう素体がおめえしかいねえだよ。あの娘っこを組み込んで、今度こそ完璧なベフォニス王をこさえるだ。
+    paragraph: p85
+    quote_verified: true
+  expected_payoff: アルテミシアがクナータの親族、あるいは別世界線からの転生者である可能性。ユディーアとの関係性が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_artius_origin
+  note: アルティウスが名乗った「ガロアンディアンを破壊する新しい亜竜王」という称号の由来と、彼の顔にある「一枚の鱗」の正体。
+  quotes:
+  - quote: 俺の名はアルティウス。ガロアンディアンを破壊スる、新シい亜竜王の名前だ
+    paragraph: p260
+    quote_verified: true
+  - quote: ただ一枚の鱗、それが顔の肉と完全に一体化して頭部を形作っている。
+    paragraph: p270
+    quote_verified: true
+  expected_payoff: アルティウスがユディーアの親族（ディスケイム家）であること、あるいは亜竜族の変異種であることの確認。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cain_truth
+  note: カーインの正体と、「テテリビナ」の名を継承した真の人物との関係。麗人が「正しい結末」と呼んだ行動の意味。
+  quotes:
+  - quote: それはどちらかと言えば『正しい』結末で、ユディーアにとってみれば望ましいとさえ言える結果だと言えた。
+    paragraph: p205
+    quote_verified: true
+  - quote: その名、私が貰い受けよう
+    paragraph: p173
+    quote_verified: true
+  expected_payoff: カーインが偽物であり、麗人が真の血族であること。カーインが消滅（または再生）した後の展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_future_recollection_change
+  note: 敵勢力が「未来回想」をどのように改変し、この刺客たちを集めたのかという謎。
+  quotes:
+  - quote: 敵勢力がどのような手段で未来回想を改変したのか、その正体とは、この恐るべき刺客たちをどのようにして集めたのか。何もかもがわからないまま、自分はここで敗北するだろう。
+    paragraph: p240
+    quote_verified: true
+  expected_payoff: 物語の根幹である「時間改変」のメカニズムと敵の戦略の解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kunata_fate
+  note: 聖女クナータが攫われたことによる「確かな未来の喪失」と、ユディーアに降りかかる「死より苛酷な呪い」の内容。
+  quotes:
+  - quote: そして恐らく、死よりも苛酷な呪いをその身に受けることになるのだ。
+    paragraph: p244
+    quote_verified: true
+  - quote: こうして聖女クナータは攫われた。確かな未来は、この瞬間に失われたのだ。
+    paragraph: p273-274
+    quote_verified: true
+  expected_payoff: クナータ救出のための長期の探求、ユディーアへの呪い（追放、記憶喪失など）の詳細と対応策。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 王権と支配者の自己定義に対する批判
+  weight: 0.8
+  quotes:
+  - quote: 当主はあんたが好き勝手に改造できる人形じゃないんだぜ。
+    paragraph: p41
+    quote_verified: true
+  - quote: おらの意のままにならねえもんはあっちゃならねえ！
+    paragraph: p43
+    quote_verified: true
+  note: トロル王ベフォニスの暴虐な支配観と、それに対するトロメリアの批判を通じて、「王」という存在の本質が問われている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家畜としての受容と序列の肯定
+  weight: 0.7
+  quotes:
+  - quote: 我ら虹犬は生まれながらに神の飼育動物。家畜種族の在るべき規範を、この愚かな都に示しましょう
+    paragraph: p130
+    quote_verified: true
+  - quote: 忠義を知らぬ猫風情が
+    paragraph: p144
+    quote_verified: true
+  note: 虹犬の貴婦人が「家畜」であることに誇りを持ち、他者を序列化・管理しようとする思想と、それに対するセリアック＝ニアの抵抗。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 正統性の継承と名乗りの暴力
+  weight: 0.6
+  quotes:
+  - quote: その名、私が貰い受けよう
+    paragraph: p173
+    quote_verified: true
+  - quote: 不出来なものは美しい花の養分となるために存在している。
+    paragraph: p201
+    quote_verified: true
+  note: テテリビナの麗人がカーインから「名」を奪い、彼の存在を「養分」として消費する過程における、正統性による暴力の正当化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 敗北と屈辱、そして次への希望
+  weight: 0.5
+  quotes:
+  - quote: ユディーアは負けながらおめおめと逃げおおせるが、護衛すべき聖女を守り切れずに生き恥を晒すことになる。
+    paragraph: p243
+    quote_verified: true
+  - quote: これで『次』の目算が立てられる。
+    paragraph: p264
+    quote_verified: true
+  note: 圧倒的な敗北と屈辱の中にありながら、敵の正体を知ったことで得られた「次」への展望を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 神話の圧縮と兵器化
+  weight: 0.4
+  quotes:
+  - quote: 宣名が神話を引き寄せる。... 『英雄を示す象徴的な記号』の銘を唱えることでただの一語に圧縮されて膨大な情報を参照する。
+    paragraph: p71
+    quote_verified: false
+  - quote: 宣名が呼び起こしたのはやはり神話の時代だった。
+    paragraph: p178
+    quote_verified: true
+  note: 物語内で「宣名」によって武器や能力が発動するメカニクスは、神話・伝承を情報資源として兵器化する世界観を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

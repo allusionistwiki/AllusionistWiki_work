@@ -1,0 +1,223 @@
+chapter: ch5009
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p6-p9}]]'
+  object: '[[ME_{modern_urban_sanitation_and_looting}]]'
+  claim: 冒険者による遺体の処理は、現代の衛生管理と資源回収を効率的に行うための実務的なルーティンとして描かれている。
+  quote: 祈祷が終わると、小さく謝罪の言葉をつぶやいて遺体から使えそうな持ち物をとり、身なりを簡単に整えて通路の脇に安置していた。
+  paragraph: p9
+  confidence: strong
+  quotes:
+  - quote: 祈祷が終わると、小さく謝罪の言葉をつぶやいて遺体から使えそうな持ち物をとり、身なりを簡単に整えて通路の脇に安置していた。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{p12}]]'
+  object: '[[ME_{video_game_magic_systems}]]'
+  claim: アズーリアによる遺体の火葬は、ゲーム的な即時効果を持つ魔法システム（アイテム消費による即座の処理）を連想させる。
+  quote: 一纏めにした遺体の上に数枚の札を置いて左手を振ると、勢いよく火の手が上がる。炎は瞬く間に遺体を覆い尽くす。
+  paragraph: p12
+  confidence: moderate
+  quotes:
+  - quote: 一纏めにした遺体の上に数枚の札を置いて左手を振ると、勢いよく火の手が上がる。炎は瞬く間に遺体を覆い尽くす。
+    paragraph: p12
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_{p45-p49}]]'
+  object: '[[ME_{reincarnation_power_fantasy}]]'
+  claim: 転生者が通常享受するはずの『異世界での自由』は、社会規範からの解放ではなく、法的・倫理的な保護を失ったことによる暴力的な自己防衛への退化として逆説的に描かれている。
+  quote: 元世界では社会に帰属しているという意識が邪魔をしたが、この世界ではまだそれがない。
+  paragraph: p46
+  confidence: strong
+  quotes:
+  - quote: 元世界では社会に帰属しているという意識が邪魔をしたが、この世界ではまだそれがない。
+    paragraph: p46
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_{p53-p59}]]'
+  object: '[[ME_{team_bonding_rituals}]]'
+  claim: 言語の壁を超えた拳を合わせる行為は、スポーツや軍隊におけるチーム内の結束確認（ハイファイブ等）と構造的に一致する。
+  quote: カインが拳を握り、俺と右手の甲同士を打ち合わせる。正確な意味は不明だが、なにかポジティブな意味の符丁、挨拶なのだろうと思う。
+  paragraph: p39
+  confidence: strong
+  quotes:
+  - quote: カインが拳を握り、俺と右手の甲同士を打ち合わせる。正確な意味は不明だが、なにかポジティブな意味の符丁、挨拶なのだろうと思う。
+    paragraph: p39
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p112-p115}]]'
+  object: '[[ME_{dungeon_master_sandbox_control}]]'
+  claim: 迷宮が突然森や処刑場のような空間に変貌し、退路が消える現象は、ゲームにおけるボス戦前の『アリーナ転送』メカニクスに酷似している。
+  quote: 気がつけば退路が消えていた。一面の闇の中、空にはかすかな光を放つたったひとつの巨大な満月と、緑色を揺らす広葉樹の枝。
+  paragraph: p114-p115
+  confidence: strong
+  quotes:
+  - quote: 気がつけば退路が消えていた。一面の闇の中、空にはかすかな光を放つたったひとつの巨大な満月と、緑色を揺らす広葉樹の枝。
+    paragraph: p114-p115
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_{p37}]]'
+  object: '[[ME_{translation_gap_theme}]]'
+  claim: 主人公が異文化との言語的摩擦を『翻訳の誤差』として軽視する態度は、後の意思疎通の破綻や悲劇的な誤解の伏線となる。
+  quote: どうもあだ名を付けてもらったようだ。……まあ大意としては間違っていないはずだ。多分。翻訳の誤差レベルだ。
+  paragraph: p35-p37
+  confidence: moderate
+  quotes:
+  - quote: どうもあだ名を付けてもらったようだ。……まあ大意としては間違っていないはずだ。多分。翻訳の誤差レベルだ。
+    paragraph: p35-p37
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_{kale_and_tail_kinship}
+  note: キールとテールが遺体（首を串刺しにされた者）を親族と認識し、激しい怒りを見せた。その死因の壮絶さから二人との類似点は不明確だが、血縁関係が存在する。
+  quotes:
+  - quote: 共通の知り合いだったのだろう。二人は兄弟、ないしは親族関係にあるのだと、カインが説明していた。その遺体もやはり親族なのだと。
+    paragraph: p17
+    quote_verified: true
+  expected_payoff: キールとテールの過去の悲劇や、迷宮内の特定の敵（人狼）との因果関係、あるいはテールの暴走の原因として回収される可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_{small_wolf_vs_giant_wolf}
+  note: 巨大な狼に慣れていた主人公にとって、三人組と戦う狼は『小さい』と感じられたが、その実力は圧倒的だった。この体格差と実力差のギャップには何か秘密がある。
+  quotes:
+  - quote: 小さい。というのが、その狼に対する俺の印象だった。実際には大型犬並、というか前世にも存在していた狼と同じくらいの大きさだ。
+    paragraph: p84-p87
+    quote_verified: true
+  expected_payoff: この狼が単なるモンスターではなく、特殊な個体（狼王など）であること、または迷宮の深層に近づくにつれて敵の性質が変わることを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_{shadow_erosion}
+  note: 狼の影が床下を浸食し、壁や天井を覆い尽くして空間を書き換える現象。これは単なる幻覚か、実体のある能力か不明確。
+  quotes:
+  - quote: その黒い闇が、脚の下に伸びる影と完全に同化して見えたこと。更にはその影がうねうねと蠢き、広大な部屋の床下を浸食するかのように拡大していき、ついには壁、天井に至るまで完全に覆い尽くし
+    paragraph: p110-p112
+    quote_verified: true
+  expected_payoff: 迷宮の構造そのものが敵の一部であること、または空間を支配する強力な魔法・権能の存在を示す。後の戦闘でこの影が攻撃手段として機能する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_{king_of_the_wolves}
+  note: 狼が『王』と呼ばれ、遠吠えを上げた。通常の個体とは格が違う存在であることが示唆される。
+  quotes:
+  - quote: 闇色の脚を蠢かせて、狼の王が遠吠えをあげた。
+    paragraph: p121
+    quote_verified: true
+  expected_payoff: この章のボス戦の主役として登場し、主人公たちの運命を変える重大なイベント（処刑場の設定など）と関連する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_{execution_ground_setting}
+  note: 迷宮の奥が『王が用意した処刑場』であり、戦士たちが串刺しにされている描写がある。これは単なる戦闘場所ではなく、意図的な罠や儀式の場である可能性を示す。
+  quotes:
+  - quote: そこは深い森の空白地帯。ここは王が用意した処刑場だ。高くそびえる木々の枝に、朽ち果てた『なにか』が百舌鳥の早贄のように串刺しにされていた。
+    paragraph: p116-p119
+    quote_verified: true
+  expected_payoff: 迷宮が単なる探索場所ではなく、誰かの意図によって設計された殺戮装置であるという真相の一部として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語の不在と身体性によるコミュニケーション
+  weight: 0.8
+  quotes:
+  - quote: 俺はなんと言えばいいのか分からず、頼るようにカインを見た。目が合う。意を汲んでくれたようで、カインがキールに働きかけた結果、通路の中だが小休止をすることになった。
+    paragraph: p28
+    quote_verified: true
+  - quote: 「あと少しだ」とだけ言って、スリットの奥に隠れた彼の目を見た。しばらくして、テールは軽く俺の手の甲に触れて
+    paragraph: p56-p59
+    quote_verified: true
+  note: 主人公が言語を話せない状況下で、身振り（拳合わせ）や短い言葉、視線を通じて仲間と信頼関係を構築し、危機を共有する過程が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生者としての疎外感と暴力への回帰
+  weight: 0.7
+  quotes:
+  - quote: それはつまり、俺は転生したにも関わらず、未だにこの世界を自分の世界だと認識できていないということだった。記憶や人格を保持したまま異世界へ転生するというのは、外国に移住するようなものだと気付く。同化や帰化は元世界に置いても困難を極める。俺は余所者でしかないのだ。
+    paragraph: p49-p51
+    quote_verified: true
+  - quote: いざとなれば暴力で片を付けようという短絡的な思考が根幹にあると思われた。元世界では社会に帰属しているという意識が邪魔をしたが、この世界ではまだそれがない。
+    paragraph: p45-p46
+    quote_verified: true
+  note: 主人公が異世界を『自分の世界』として内面化できず、社会的な制約を失ったことで暴力的な防衛本能に依拠せざるを得ない心理状態が主題となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死の日常化と実務的処理
+  weight: 0.5
+  quotes:
+  - quote: 祈祷が終わると、小さく謝罪の言葉をつぶやいて遺体から使えそうな持ち物をとり、身なりを簡単に整えて通路の脇に安置していた。対処したのはアズーリアだった。一纏めにした遺体の上に数枚の札を置いて左手を振ると、勢いよく火の手が上がる。
+    paragraph: p9-p12
+    quote_verified: false
+  note: 冒険者たちが死体を恐怖の対象ではなく、資源（装備）と衛生問題として処理する姿は、異世界転生における『日常』の残酷な側面を強調している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 迷宮の擬人化・空間支配
+  weight: 0.4
+  quotes:
+  - quote: その影がうねうねと蠢き、広大な部屋の床下を浸食するかのように拡大していき、ついには壁、天井に至るまで完全に覆い尽くし、闇に覆われた天地から漆黒の棘が次々と生じ
+    paragraph: p112
+    quote_verified: true
+  - quote: ここは王が用意した処刑場だ。
+    paragraph: p118
+    quote_verified: true
+  note: 迷宮が単なる背景ではなく、敵（狼の王）によって意図的に変質・支配される空間として描かれ、探索者たちの主体性を奪う構造になっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

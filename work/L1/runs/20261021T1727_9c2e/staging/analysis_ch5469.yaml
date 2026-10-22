@@ -1,0 +1,287 @@
+chapter: ch5469
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 21
+  quotes_total: 26
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5469_シナモリアキラ_uses_ロケットパンチ_p164]]'
+  object: '[[ME_マジンガーZ_ロケットパング]]'
+  claim: 義体腕による「ロケットパンチ」の命名と、その直後の自動音声アプリ起動という描写は、スーパーロボットアニメにおける必殺技演出をSF的ガジェットへ変換したパロディである。
+  quote: '「ロ、ロケットパンチ殺人事件！　実在したの？！」
+
+    二本の腕が、断面から火を噴き出しながら飛んでいる。
+
+    それらは曲線を描きながらターンしてこちらを追尾。腕から聞こえる自動音声が「弾道予測計算アプリ『弾道予報Ver3.0』を起動します」と宣言、直後に腕の軌道が変化を見せる。'
+  paragraph: p162-p165
+  confidence: strong
+  quotes:
+  - quote: '「ロ、ロケットパンチ殺人事件！　実在したの？！」
+
+      二本の腕が、断面から火を噴き出しながら飛んでいる。
+
+      それらは曲線を描きながらターンしてこちらを追尾。腕から聞こえる自動音声が「弾道予測計算アプリ『弾道予報Ver3.0』を起動します」と宣言、直後に腕の軌道が変化を見せる。'
+    paragraph: p162-p165
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5469_野次馬_observes_大穴_p6]]'
+  object: '[[ME_現代の災害コンテンツ消費_SNS]]'
+  claim: 巨大生物による破壊を「大穴」と呼んで賭けの対象とし、端末で撮影してSNSに投稿するかのように消費する住民の姿は、現代における災害や事件の娯楽化・情報化された受容構造を風刺している。
+  quote: 店外では通行人が、店内では怪我をした客たちが泣き叫び、端末で撮影し、大穴に賭けた者が快哉を叫ぶ。
+  paragraph: p6
+  confidence: strong
+  quotes:
+  - quote: 店外では通行人が、店内では怪我をした客たちが泣き叫び、端末で撮影し、大穴に賭けた者が快哉を叫ぶ。
+    paragraph: p6
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5469_ユディーア_thinks_第五階層_p62]]'
+  object: '[[ME_異世界転生者の視点]]'
+  claim: 「シナモリアキラの本場である第五階層でこう思うユディーアのほうがおかしいのだ。きっとよそに行くべきは自分の方なのだろう」という独白は、異世界という舞台そのものへの違和感と、自分がそこにいることの不自然さを自覚するメタ的な転生者意識を示している。
+  quote: こういう衝動を解消してやるための弁論大会でも開いたら治安も少しは良くなるのでは？　とユディーアは思わずにいられなかった。心底からよそでやって欲しいが、シナモリアキラの本場である第五階層でこう思うユディーアのほうがおかしいのだ。きっとよそに行くべきは自分の方なのだろう。
+  paragraph: p62
+  confidence: strong
+  quotes:
+  - quote: こういう衝動を解消してやるための弁論大会でも開いたら治安も少しは良くなるのでは？　とユディーアは思わずにいられなかった。心底からよそでやって欲しいが、シナモリアキラの本場である第五階層でこう思うユディーアのほうがおかしいのだ。きっとよそに行くべきは自分の方なのだろう。
+    paragraph: p62
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5469_シナモリアキラ_says_ペラティア_p96]]'
+  object: '[[ME_ユダヤ教の戒律_偶像崇拝の禁止]]'
+  claim: 「我らが大亜竜、真の王者の尊き名は奪われたままだ」という叫びと、「アルト」を簒奪者として排斥する構造は、唯一神の名が汚されたという宗教的禁忌（偶像崇拝への忌避）を、ドラゴニアン特有の種族・政治問題に翻訳したアナロジーである。
+  quote: 我らが大亜竜、真の王者の尊き名は奪われたままだ！　我らは今こそ立ち上がり、第六階層に居座る簒奪者、偽物のアルトを倒すべきだ！
+  paragraph: p76
+  confidence: moderate
+  quotes:
+  - quote: 我らが大亜竜、真の王者の尊き名は奪われたままだ！　我らは今こそ立ち上がり、第六階層に居座る簒奪者、偽物のアルトを倒すべきだ！
+    paragraph: p76
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5469_ユディーア_uses_彩域_p210]]'
+  object: '[[ME_VRゲームのタイムスリップ・データ参照]]'
+  claim: 「彩域の窓」を開き、対象の過去を動画のように眺めて戦術材料を探すという描写は、VR技術やデータベース検索を用いて戦闘シミュレーションを行う近未来的なインターフェース操作と構造的に一致する。
+  quote: 打撃と接触。それと前後して彩域の窓が開く。語られる過去は現在よりも前であるがゆえにこの瞬間から先に時間が進む事は無い。彼女は長い物語を端から端まで眺めて使えそうな材料を探していく。
+  paragraph: p210
+  confidence: moderate
+  quotes:
+  - quote: 打撃と接触。それと前後して彩域の窓が開く。語られる過去は現在よりも前であるがゆえにこの瞬間から先に時間が進む事は無い。彼女は長い物語を端から端まで眺めて使えそうな材料を探していく。
+    paragraph: p210
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5469_ユディーア_names_メイファーラ_p38]]'
+  object: '[[ME_MF_Maker_Fiction]]'
+  claim: 「リトの戦乙女が遠き娘」という語源を持つ「メイファーラ」という偽名は、「MF（Maker/Fiction）」、すなわち創作されたキャラクター/作者としての自己定義を暗示しており、物語の虚構性を主題化している。
+  quote: '「失礼しました。リトの戦乙女が遠き娘、メイファーラと申します」
+
+    メイファーラという『三つ目の名前』は、天眼の民としてはありふれた女性名である。'
+  paragraph: p38-p40
+  confidence: weak
+  quotes:
+  - quote: '「失礼しました。リトの戦乙女が遠き娘、メイファーラと申します」
+
+      メイファーラという『三つ目の名前』は、天眼の民としてはありふれた女性名である。'
+    paragraph: p38-p40
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5469_ユディーア_thinks_サイバーカラテ_p83]]'
+  object: '[[ME_原子力技術の危険性]]'
+  claim: 「サイバーカラテ」を「悪しき技術」と呼び、銃や化学兵器と同列に規制すべきだと考える視点は、核分裂エネルギーのような「管理不能な強力な技術」に対する社会的・倫理的警戒（脱炭素化前の原子力論争など）を想起させる。
+  quote: ユディーアはどんな角度から見ても『サイバーカラテ』は人を暴力に駆り立てるための邪悪な装置にしか思えなかった。『そういう側面がある』どころの話ではない。これは純然たる『悪しき技術』だ。銃や汚染呪詛、化学兵器のように規制されるべきなのでは？
+  paragraph: p83
+  confidence: moderate
+  quotes:
+  - quote: ユディーアはどんな角度から見ても『サイバーカラテ』は人を暴力に駆り立てるための邪悪な装置にしか思えなかった。『そういう側面がある』どころの話ではない。これは純然たる『悪しき技術』だ。銃や汚染呪詛、化学兵器のように規制されるべきなのでは？
+    paragraph: p83
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_右角の喪失と由来
+  note: ユディーアの右側の竜角が根本から折れている事実。彼女自身は「不運を呼ぶ俗信」として隠しているが、亜竜に「勇者の証」と言われている。この角がいつ、誰との戦いで失われたのか（または意図的に切られたのか）が不明。
+  quotes:
+  - quote: 対であるはずの竜角は、髪房がある右側だけが根本から折れていた。
+    paragraph: p27
+    quote_verified: true
+  - quote: 「ふん、『上』のやりそうな抑圧だが、我が一族には『欠け角は勇者の証』という諺がある。」
+    paragraph: p33
+    quote_verified: false
+  expected_payoff: ユディーアの過去（ペラティア崩壊時の戦いなど）や、彼女が「上」から逃れてきた経緯の鍵として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アルトへの反応とペラティアの血
+  note: 亜竜が第六階層の簒奪者「アルト」を名乗った瞬間、ユディーアは息を止めて反応した。これは彼女の中に流れる「ペラティアの血」によるもの。アルトとは誰であり、なぜユディーアの因縁と結びつくのか。
+  quotes:
+  - quote: 『アルト』の名前が出た瞬間、ユディーアはわずかに息を止めた。
+    paragraph: p78
+    quote_verified: true
+  - quote: たとえ自分の中に流れるペラティアの血が遠い因縁を感じているのだとしても、それを悟られてはならない。
+    paragraph: p79
+    quote_verified: true
+  expected_payoff: 第六階層の支配者アルトと、滅びた王国ペラティア（ユディーアの故郷）との関係性、およびユディーアが追われている理由の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第七世界槍での修行
+  note: 亜竜に「第七世界槍で磨いたもの」と技を見破られている。第五階層（シナモリアキラの地）ではなく、より上位の階層で修練を積んだ事実。なぜ彼女がそこへ行ったのか。
+  quotes:
+  - quote: 「点穴、情勁、いや七情掌法か。さては娘、その技は第七世界槍で磨いたものだな」
+    paragraph: p252
+    quote_verified: true
+  expected_payoff: ユディーアの修行遍歴や、「塔」以外の勢力との接触の示唆。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_銀貨を握らせた意味
+  note: ロケットパンチ（カニャッツォの残骸）の中に「硬い金属」＝銀貨を2枚握らせて「よろしく。いってらっしゃい」と送り出した行為の意味が不明確。「即席呪文のコスト程度ならこれで足りる」と述べているが、これは単なる支払いなのか、呪詛に対する供物・契約なのか。
+  quotes:
+  - quote: ユディーアの手は飛んできた拳を下から包み込んでおり、その手の中に何かを握らせていた。硬い、金属が触れ合うような音。
+    paragraph: p187
+    quote_verified: true
+  - quote: 左手指に銀貨を挟む。奇術のように出現した硬貨はたったの二枚、がっかりな低価格だが即席呪文のコスト程度ならこれで足りるはず。
+    paragraph: p197
+    quote_verified: true
+  expected_payoff: 「カニャッツォ」やシナモリアキラ（死者・亡霊）に対するユディーアの処理方法、あるいは彼女が用いる呪術の対価システムの詳細。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_感情の消去と灰色化
+  note: 戦闘後、ユディーアは「熱」を失い世界が灰色に染まり、感情が遠ざかっていく。「これは禁忌だ。制御しなくてはならない」「異獣になってしまう」という記述から、彼女自身の感情制御能力（またはその代償）に関する異常な現象が示唆される。
+  quotes:
+  - quote: 'ユディーアの目の前で、全ての景色は色褪せていく。
+
+      いつものように。'
+    paragraph: p267-p268
+    quote_verified: true
+  - quote: '「これは熱だ。怒り、正義感、悪しきものに対する攻撃的意思。
+
+      知っている。これは禁忌だ。制御しなくてはならない。」'
+    paragraph: p113-p114
+    quote_verified: false
+  expected_payoff: ユディーアが「異獣」化（怪物化）を避けるために自らの感情を殺すという代償、あるいは彼女特有の呪術的な副作用。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力はより強い暴力によってのみ抑制される（力による平和）
+  weight: 0.9
+  quotes:
+  - quote: 暴力はそれを上回る破壊によって淘汰された。
+    paragraph: p4
+    quote_verified: true
+  - quote: そのルールに則って全てねじ伏せてしまえば解決だ。
+    paragraph: p126
+    quote_verified: true
+  note: 章の冒頭で提示された「暴力淘汰」の法則を、ユディーアが実戦（ロケットパンチの相殺、発勁）によって証明・適用している。理想論ではなく物理的な力関係による解決が主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語（ナラティブ）の強引な再構成による他者の支配
+  weight: 0.8
+  quotes:
+  - quote: 理解不能な怪物である異獣を、わかりやすいストーリーでありふれた弱者へと貶める。
+    paragraph: p209
+    quote_verified: true
+  - quote: 仮に当人の心に合致しないフレームを強引に当て嵌めてしまっているのだとしても、戦闘で機能させるのならこのやり方が効率的だ。
+    paragraph: p229
+    quote_verified: true
+  note: 亜竜の過去（物語）を「雑に組んだ」「当人の心に合致しないフレーム」で上書きし、「しょんぼりパンチ」で無力化させる行為は、他者のアイデンティティやトラウマを物語の力によって強制的に改変・支配する暴力性を示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情の禁欲と技術化（人間性の喪失）
+  weight: 0.7
+  quotes:
+  - quote: ユディーアはどんな角度から見ても『サイバーカラテ』は人を暴力に駆り立てるための邪悪な装置にしか思えなかった。
+    paragraph: p83
+    quote_verified: true
+  - quote: 'ユディーアの目の前で、全ての景色は色褪せていく。
+
+      いつものように。'
+    paragraph: p267-p268
+    quote_verified: true
+  note: 暴力装置（サイバーカラテ）への嫌悪と対比される形で、ユディーア自身が感情（熱・怒り）を「禁忌」として制御し、世界を灰色（無機質）に染める結末が描かれる。感情の技術的処理がもたらす虚脱。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 階層構造と辺境への疎外
+  weight: 0.6
+  quotes:
+  - quote: 「ここは『中央』ではない。『都市たるシナモリアキラ』の外側として位置付けられたこの区画は『辺境』として機械女王から放置、黙認されている。」
+    paragraph: p71
+    quote_verified: false
+  - quote: ユディーアはどんな角度から見ても……きっとよそに行くべきは自分の方なのだろう。
+    paragraph: p62
+    quote_verified: false
+  note: シナモリアキラの怒りの背景にある「中央 vs 辺境」「上 vs 下」の政治的・空間的な階層構造。ユディーア自身もこの構造（第五階層）を異質なものとして忌避しており、社会の分断が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による身体改変とアイデンティティの希薄化
+  weight: 0.5
+  quotes:
+  - quote: クラフトされた翼が空を覆うように広がり……質量が誤魔化される。
+    paragraph: p155
+    quote_verified: false
+  - quote: ロケットパンチ殺人事件！　実在したの？！
+    paragraph: p162
+    quote_verified: true
+  note: 翼を失った亜竜が義体で空を飛ぶ、腕を切り離して遠隔操作するといった「身体改変」が戦闘の中心にある。生身ではなく技術的な補綴によって存在を維持する者たちの姿。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,115 @@
+chapter: ch5581
+created: '2026-10-18'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 9
+  quotes_total: 10
+items:
+- kind: mystery
+  name: MY_Virgil_Identity_and_Crystal
+  note: パーンの背後に現れたグロートニオン結晶の中の少年「ヴァージル」。パーンとは旧知の間柄（「また遊べるね？」）であり、機械腕と激突している。その正体、目的、そしてなぜリーナを放置してパーンを狙うのかという動機が未解明。
+  quotes:
+  - quote: 水晶だ。それも、占術情報端末によく用いられるグロートニオン結晶。太陰（イルディアンサ）で高度に発達した呪術素材とその関連技術だが、奇妙なことにその内側に何かが入っている。少年の生首だった。「ひっ」息を呑むリーナの目の前で、少年が目を見開いた。
+    paragraph: p161-p167
+    quote_verified: true
+  - quote: 「あは、パーンさん、みっけ。また遊べるね？」
+    paragraph: p172
+    quote_verified: true
+  expected_payoff: ヴァージルの正体（パーンの過去の関係者、敵対組織の兵器など）と、この介入が試練全体のどの部分に関与するのかの明かされること。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Zero_and_Loadendron_Conspiracy
+  note: リーナが「最初からジーゼロとロードデンドロンがこの状況を狙っていた」と察した件。ジーゼロ（無人機/端末）をリーナの帽子に仕掛け、レイシズム呪文を撃つことで空の民を弱体化させ、ロードデンドロンが戦いを有利に進めるための布石だった可能性が高い。この共犯関係の全貌と目的。
+  quotes:
+  - quote: （苦しい。身体から力が抜けてく。でもこれ、このタイミングってことはつまり、最初からジーゼロとロードデンドロンはこの状況を狙ってたってこと？）
+    paragraph: p98
+    quote_verified: true
+  - quote: 「レイシズム変数（ヴァリアブル）――『中身すかすかの間抜け雲』」リーナが唱えた呪文によって。
+    paragraph: p72-p74
+    quote_verified: true
+  expected_payoff: ジーゼロの真の所属先、ロードデンドロンの最終目標（植物想フローラの奪取？）、およびこの計画が試練の「公式ルール」をどう歪めたかの露見。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Record_Ghost_Lerplea
+  note: ロードデンドロンとチッセの呪術共鳴により現れたレコードゴースト「緑天主、レルプレア」。エストに似ているが本人ではない可能性。この亡霊が提示する「新たな試練」とは何か。
+  quotes:
+  - quote: 幼馴染にしてティリビナの巫女エストとそっくりな面差し。だが、状況から推測すると、あれは。「緑天主、レルプレア？」乗り越えるための大いなる記録。新たな試練が、その場に現れようとしていた。
+    paragraph: p202-p208
+    quote_verified: true
+  expected_payoff: レルプレアの正体（過去の名前、別人格）、そしてこの亡霊がリーナたちに対して要求する具体的な試練の内容と通過条件。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Crowser_Ability_Disparity
+  note: リーナは次期当主でありながらクロウサーの必殺技（ビリビリ）が使えないことに困惑している。対するロードデンドロン、パーン、クラウビューラらは高位呪術を扱っている。この能力格差の理由と、リーナが「テキストを読む」ことでいかにして対抗するか。
+  quotes:
+  - quote: （なにこれなにこれ？！ 嘘でしょ、あの詠唱って神話で魔王ネビロンを倒したっていうクロウサーの奥義ってやつ？！ もしも私の以外みんな使えるの？！
+      私、次期当主なのにクロウサーの必殺技みたいなビリビリできないんですけど？！）
+    paragraph: p124
+    quote_verified: false
+  expected_payoff: リーナが独自の解法（テキスト解析やガルズとの連携）でこの格差を埋め、試練を突破する具体的な手段の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と情報の暴力：呪文としてのヘイトスピーチが物理的な害として作用する世界
+  weight: 0.8
+  quotes:
+  - quote: 「レイシズム変数（ヴァリアブル）――『中身すかすかの間抜け雲』」リーナが唱えた呪文によって。透明な、世界を伝播する悪意のような呪文が空間に浸透していく。（え、ええ？
+      なになに？）何が起きているのかわからない。だが、今の『空の民全般を侮蔑する悪口』は確かにリーナの口から発せられたものだ。
+    paragraph: p72-p80
+    quote_verified: true
+  note: 差別用語が「変数」としてコード化され、空間を浸透して特定の種族（空の民）を弱体化させるという構造は、言語の社会的暴力性が物理法則として実装されていることを示唆する。リーナ自身がその悪意の伝播者となることの倫理的葛藤も含まれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクション的な自己認識：ゲーム世界としてのテキストを読むことによる攻略
+  weight: 0.7
+  quotes:
+  - quote: （学び取れ。ノートにメモを取れ。世界に記されたテキストを読め。この世界は、きっとそれができるように作られている）なぜかリーナは、それが自分にとっての正しい道だと確信していた。
+    paragraph: p139-p141
+    quote_verified: true
+  note: 戦闘能力で劣る主人公が、世界を「テキスト」として捉え直し、メモを取り情報を整理することで対抗しようとする姿勢は、読者（プレイヤー）としての視点とリンクしている。この世界が「作られている」ことへの自覚と利用。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と魔法の融合：スパイ端末による呪術工作
+  weight: 0.6
+  quotes:
+  - quote: いつの間にかリーナの三角帽子の中から現れた単眼宝珠が小さな機械端子を節足のように動かして、魔女の肩に移動。静かに呪文を紡ぎながらリーナの口を借りて呪いを撒き散らす。（これ、無人機ジーゼロの？！
+      小型端末を仕掛けられてた？！）
+    paragraph: p81-p83
+    quote_verified: true
+  note: 魔女の装束の中に隠された機械端子（無人機ジーゼロ）が呪文を代行する様子は、魔法世界における監視技術・工作技術の浸透を示す。純粋な魔法勝負ではなく、情報戦・技術戦としての側面が強調されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 力の格差と試練の本質：実力不足のまま介入する主人公の孤立
+  weight: 0.5
+  quotes:
+  - quote: ぽつんと取り残されたリーナは小さく呟いた。もはや何が起きているのかさっぱりわからない。介入しようにも、最低でも浄界などの奥義が使える第六階梯の呪術師でもないとこの戦場には入っていくことができない。
+    paragraph: p180-p182
+    quote_verified: true
+  note: 英雄級・巨人級の存在による熾烈な戦いに対し、第四～五階梯のリーナが「レースに来たのであって戦いに来たのではない」という戸惑いと実力差に直面している。試練を通過するための条件が単純な戦闘能力ではないことへの示唆。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

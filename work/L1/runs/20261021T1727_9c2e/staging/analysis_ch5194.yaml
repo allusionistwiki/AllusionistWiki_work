@@ -1,0 +1,171 @@
+chapter: ch5194
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 12
+  quotes_total: 16
+items:
+- kind: mystery
+  name: MY_white_gardenia_identity
+  note: Spearが青嶺瑠璃のファンレターと白いガーデニアを認識しており、青嶺瑠璃が単なる転生者ではなく「観測者/ファン」としての特異性を持つことを示唆する。
+  quotes:
+  - quote: 「白いガーデニア、覚えてる？」
+    paragraph: p247
+    quote_verified: true
+  - quote: '予感はあった。そうではないかと思っていた。
+
+      けれど、それは余りにも自分にとって都合が良すぎて――夢見がちに過ぎて、知らない振りをずっとし続けてきた。'
+    paragraph: p251-p252
+    quote_verified: true
+  expected_payoff: 青嶺瑠璃の「使い魔」としての真の能力（観測による世界固定）が解放され、Spearとの関係性が対等なパートナーシップへ転換する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_azuria_prison
+  note: 「アズーリア」が心の奥底に封じ込められるという記述は、ループの根源にあるトラウマや封印された真実を示す。
+  quotes:
+  - quote: 「アズーリアはこのまま心の奥底に封じ込められる運命なんだよ。こうして、幸せな夢を永遠に見続けながらね。」
+    paragraph: p149
+    quote_verified: false
+  expected_payoff: ループの真の原因が「アズーリア」の存在であり、彼女を解放することが世界の修復条件であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_shadow_shadows_dialogue
+  note: 影が喋り出し森のように伸びる描写は、青嶺瑠璃の潜在意識や「交換可能性」による無数の人格候補（パラレル）を可視化したものである。
+  quotes:
+  - quote: '私の足下で、なんと影が喋り出しました。
+
+      ざわざわと沢山の影が森のように伸び上がっていきます。'
+    paragraph: p65-p66
+    quote_verified: true
+  expected_payoff: 最終決戦において、青嶺瑠璃が自身の「影（無数の可能性）」を統合し、唯一の存在として決定することで世界を書き換える。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_krouser_family_factor
+  note: クロウサー家が転生者の因子を持つという設定は、青嶺瑠璃の自己否定（使い魔に相応しくない）に対する対抗軸として機能する。
+  quotes:
+  - quote: 'クロウサー家の人間は転生者の因子を有する。
+
+      特別なグロソラリアとかゼノグラシアとか言ったって、リーナでも別に構わないはず。'
+    paragraph: p237-p238
+    quote_verified: true
+  expected_payoff: 青嶺瑠璃が「使い魔」としての適格性を問われた際、クロウサー家との関係性やリーナとの対比を通じて、独自の存在意義（ファンの視点からの世界補正）を証明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_halbert_name_succession
+  note: 「ハルベルトの名を受け継ぎ、存在基盤を確立する」という決闘の勝敗条件は、単なる戦闘ではなく「物語の主役（主人公）」としての地位の獲得を意味する。
+  quotes:
+  - quote: 「ハルと――ううん、ジルと存在をかけて決闘して。勝った方が、ハルベルトの名を受け継ぎ、存在基盤を確立する。」
+    paragraph: p293
+    quote_verified: false
+  expected_payoff: 決闘の結果として「ハルベルト」という名前が世界の根幹に関わるキーワード（鍵）であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 主体性の剥奪と所有権の暴力性
+  weight: 0.8
+  quotes:
+  - quote: '「どっちにしても『あたしの』であることにかわりは無いわけだし」
+
+
+      そういって軽く私の髪を撫でる。'
+    paragraph: p90-p92
+    quote_verified: false
+  - quote: '「ルリ、お手」
+
+
+      「わんっ」'
+    paragraph: p30-p32
+    quote_verified: true
+  note: マネージャーやSpearによる主人公の扱いが、人間としての尊厳を奪い「所有物」「ペット」へと貶める構造を描き、転生者としてのアイデンティティの危機を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 交換可能性に対する存在論的恐怖
+  weight: 0.9
+  quotes:
+  - quote: '「君はファン――つまり沢山いる内の一人だ。『特別』じゃない」
+
+
+      小さな子供の声――生まれる前から知っているような、私の根本に存在するような力強い声。
+
+      その致命的な指摘で、私の存在に亀裂が入っていく。'
+    paragraph: p274-p277
+    quote_verified: true
+  - quote: 「交換可能性に、人は耐えられない」
+    paragraph: p242
+    quote_verified: true
+  note: 主人公が「ファン＝多数の中の一人」として扱われることへの絶望は、現代のSNS文化における匿名性と存在希薄化のメタファーであり、ループ脱出のための核心的な葛藤となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 依存関係による共依存の牢獄
+  weight: 0.7
+  quotes:
+  - quote: 中卒で芸能事務所に就職し、共に同じ世界で支え合って行こうと誓い合った私たちは、依存にも似た関係のまま事務所の方針に逆らうことができず、そのままずるずると不本意な仕事を続けていく。
+    paragraph: p110
+    quote_verified: true
+  - quote: '「ハルを守って」
+
+
+      「やめて！」'
+    paragraph: p176-p178
+    quote_verified: true
+  note: 青嶺瑠璃とSpear（ハル）の間の、守る/守られるという役割分担が、両者を自由から遠ざける呪縛として機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語構造へのメタ的抵抗
+  weight: 0.6
+  quotes:
+  - quote: '「何度やっても同じさ。僕が無限に複製し続ける夢からは絶対に逃れられない」
+
+
+      「だとしても、諦めるわけにはいかない」'
+    paragraph: p145-p147
+    quote_verified: true
+  - quote: だって、ずっと憧れていた人が自分を迎えに来てくれるだなんて、下手な筋書き過ぎて私でも摸倣先に選ばない。
+    paragraph: p254
+    quote_verified: true
+  note: 主人公が「模倣先」という語彙を用いて自らの運命を「物語（クリシェ）」として相対化しており、ループというメタ構造への気づきを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己存在の定義権の奪還
+  weight: 0.85
+  quotes:
+  - quote: 「そんな言葉に惑わされないで。あなたの存在はあなた自身で定めるの。」
+    paragraph: p286
+    quote_verified: false
+  - quote: 「だいたい、私は最初から貴方に釣り合わない。こんな化け物――こんな、知能が無い――脳すら存在しない下等な生き物、貴方の使い魔に相応しくない」
+    paragraph: p233
+    quote_verified: true
+  note: 「交換可能」「ペット」「ファン」といった他者からの定義を拒絶し、「あなた自身で定める」という内発的な存在確立へ向かう過程が主題の中心にある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

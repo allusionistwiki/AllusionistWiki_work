@@ -1,0 +1,118 @@
+chapter: ch5538
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 7
+  quotes_total: 11
+items:
+- kind: mystery
+  name: MY_kinis_parental_role
+  note: ティシリアがキニス（男の子）の「父親役」を自称し、その母（アゥルメイア？）との関係性の中で異質な親族関係を構築しようとしている。この『父』の役割が、キニスの覚醒や選定レースにおいてどのような影響を持つかが未確定。
+  quotes:
+  - quote: 「恋人（パートナー）の娘なんですもの。ああ、そう考えるとざわざわしますね！　私、キニスちゃんの父親役をやってあげたいとずっと思っていたのです！」
+    paragraph: p109
+    quote_verified: false
+  expected_payoff: キニスが亜竜王として覚醒する際、ティシリアが実父不在の補完者として機能するか、あるいはこの擬似親子関係が権力闘争の新しいカードとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_discalim_merger_event
+  note: 第六階層（地底冥府）が強引に第五階層へ持ち上げられ、境界面が侵食・融合しようとしている。これにより「選定レース」の舞台が劇的に変化する可能性がある。
+  quotes:
+  - quote: 第六階層は世界槍を満たす次元の泡を通過し、その境界面を侵食して第五階層とひとつになろうとしていた。通常ならば大規模な儀式を準備しなければ不可能な芸当だが、ディスケイム家が誇る最高傑作にはそれができた。
+    paragraph: p169
+    quote_verified: true
+  expected_payoff: 階層の融合により、クロウサー（選定レース主宰）への介入が可能になり、ノゴルオゴルオが「勝つ」ための戦場が形成される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_artemisia_awakening
+  note: ノゴルオゴルオが深地の老人アルテミシアを呼び出し、「起きろい」と命じている。彼女が目覚めた際の能力や立ち位置が未知数。
+  quotes:
+  - quote: 「勝つのはおらだ。いや、おらたつだな。そろそろ起きろい、アルテミシア」
+    paragraph: p182
+    quote_verified: true
+  expected_payoff: アルテミシアの覚醒が、ノゴルオゴルオの「おらたつ（我々）」を構成する要素となり、ディスケイム側の最終決戦への参戦となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_galra_last_message
+  note: ガルラ・クオールが滅び行く中でノゴルオゴルオに「勝者を気取る者に、それが間違いだと教えてやる」と宣言している。この警告の中身（何が間違いなのか）が未回収。
+  quotes:
+  - quote: 'だが、ひとつだけ示せるものがあった。
+
+
+      勝者を気取る者に、それが間違いだと教えてやることができるのだ。'
+    paragraph: p145-p146
+    quote_verified: true
+  expected_payoff: ノゴルオゴルオが勝利を確信した瞬間に、ガルラの指摘した「間違い」（構造の欠陥や隠された敵）が発動し、事態がひっくり返る伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 『支配』の多様化と権力構造の転換：直接的な恐怖（ノゴルオゴルオ）による支配から、間接的・心理的な共依存的支配（ティシリア）への移行。
+  weight: 0.8
+  quotes:
+  - quote: 博物城とは、ディスケイムの次代を担う者たちを作り出すための揺り籠でもある。その影響力は各長老たちにも及び、『下』の各地に送り込まれた血族たちは博物城出身者としての同族意識を持ちながら要職を担うようになる。トロル民族と国家を丸ごと掌握するノゴルオゴルオとは全く違った権力の形がそこにはあった。
+    paragraph: p63
+    quote_verified: true
+  - quote: 伝播する感情は、支配のためのとっかかりでしかない。
+    paragraph: p33
+    quote_verified: true
+  note: ティシリアが武力ではなく「感情」や「家族意識」を武器に権力を拡張し、ノゴルオゴルオの直接的支配構造を内側から変質させようとしている様子が主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家父長制・神権政治の解体と、自由意志に基づく継承（アルト・イヴニル）への肯定。
+  weight: 0.7
+  quotes:
+  - quote: 「背後から王を操る意味なんてない。老いては子に従うのが世の自然なありようだ。僕はレッテに、アルト・イヴニルに彼という可能性を託した。ただ寄生するだけのお前とは違う」
+    paragraph: p148
+    quote_verified: false
+  note: ガルラが「王を操る（支配する）」ことの無意味さを説き、ノゴルオゴルオの古い支配観（神権・操作）との決別を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクション的な『ゲーム的』世界改変：物理法則や階層構造を、ユーザーインターフェース的な操作感で書き換える暴力性。
+  weight: 0.6
+  quotes:
+  - quote: 「軽く、ほんとにかるーく、ちょびーっとだけでいいので……ちょっと世界を持ち上げてもらえます？」
+    paragraph: p56
+    quote_verified: false
+  - quote: 第六階層は、いま強引に持ち上げられて第五階層に押し付けられているのだ。たったひとりの、比類なき腕力によって。
+    paragraph: p173-p174
+    quote_verified: true
+  note: 世界（階層）そのものをガチャやアプリの操作のように軽々と扱えるクドラカーンの存在と、それを利用するティシリアの視点により、世界の法則が『仕様変更』されるメタ構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 擬似家族の構築による新たな絆（連帯）の生成：血縁を超えた『親戚ごっこ』を通じた勢力結集。
+  weight: 0.5
+  quotes:
+  - quote: 「私は、キニスちゃんの父親役をやってあげたいとずっと思っていたのです！」
+    paragraph: p109
+    quote_verified: false
+  - quote: 和やかに変質した空気は透き通り、ほぐれた空気に毒を流し込む余地はない。
+    paragraph: p116
+    quote_verified: true
+  note: 敵対的勢力（ノゴルオゴルオ側）との緊張を、あえて「家族ごっこ」的な戯れで緩和し、共闘への足掛かりとするティシリアの戦略。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,127 @@
+chapter: ch5474
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 15
+items:
+- kind: mystery
+  name: MY_kunata_memory_corruption
+  note: クナータの記憶における「母」の書き換え。これは彼女の転生先である救世主の存在そのものが変質したことを意味する。
+  quotes:
+  - quote: お母様は、違う人よ！
+    paragraph: p112
+    quote_verified: true
+  - quote: 聖女の記憶に存在する『母』の姿が書き換わったということは、彼女の子であり転生先である救世主の存在が変質したということだ。
+    paragraph: p114
+    quote_verified: true
+  expected_payoff: クナータの記憶の完全な破綻、あるいは「本物の」母/救世主との再会、または敵側によるシミュレーション改変の核心へ繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_sharmakihu_specific_warning
+  note: 神シャルマキヒュが珍しく具体的な脅威（イヴァ＝ダストの夢からの暗黒）と対抗手段（悪夢、炎、まなざし）を提示している。この抽象的な指示が後にどう実装されるか。
+  quotes:
+  - quote: 異界の理に尋常な手段で対抗してはならぬ。夢には悪夢。灰には炎。氷にはまなざし。邪神どもに力で勝つことはできぬものと深く心に刻め
+    paragraph: p49
+    quote_verified: true
+  expected_payoff: ユディーアや仲間たちが、力技ではなく「悪夢」「炎」「まなざし」といった象徴的な手段を用いて敵を撃破する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_red_dragon_mask_identity
+  note: 赤亜竜の仮面を被った三叉槍使い。過去にユディーアを観察していた記憶があり、正体は不明だが「魔槍使い」として高リスク戦闘能力を持つ。
+  quotes:
+  - quote: 記憶にひっかかるものがあった。赤亜竜の仮面。雑踏の中で一度だけ見かけた、透明な雰囲気の男だ。この人物は亜竜と戦う自分を観察していたのか。
+    paragraph: p214
+    quote_verified: true
+  - quote: この男は魔槍使いなのだ。
+    paragraph: p234
+    quote_verified: true
+  expected_payoff: 正体の明かされる場面、または彼がユディーアを「監視者」として追跡し続ける理由の判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cain_kray_status
+  note: カーインとクレイが満身創痍で登場し、新たな敵（双頭トロル、薔薇麗人）を「裏の魔将」と呼んでいる。彼らが誰と戦っていたのか、その敗北の原因。
+  quotes:
+  - quote: んだども、こいつらが裏の魔将だってのに間違いはねえべ。
+    paragraph: p175
+    quote_verified: true
+  - quote: 露骨に嫌そうな態度をとってしまった自分こそ不覚、と自省しつつユディーアは次にどんな顔をするべきか判断を迷っていた。カーインが全身に裂傷だらけで血塗れな上に息も絶え絶えの満身創痍であったからだ。
+    paragraph: p168
+    quote_verified: true
+  expected_payoff: 「裏の魔将」たちの所属組織や目的の判明、カーインたちの戦いの背景が語られることによる勢力図の拡大。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命の決定論に対するメタフィクショナルな諦念と反逆の萌芽
+  weight: 0.8
+  quotes:
+  - quote: 聖女の未来回想は確定した運命を残酷に突きつけてくる。恐れも覚悟も通り越した。ただ唇を噛みしめて耐える時間だって不毛と切り捨てて久しい。
+    paragraph: p38
+    quote_verified: true
+  - quote: だがその運命が歪められようとしている。今回ばかりは心して聞け、私を信じぬ娘。神話の英雄たちと嵐の如き宿命が裏切り者たちの前に立ちはだかるであろう。
+    paragraph: p40
+    quote_verified: true
+  note: ユディーアは「裏切り者」として運命に抗う姿勢を見せていたが、神の介入によってその運命自体が「歪められる（＝物語の展開が変わる）」ことを示唆されている。これはシナリオ改変に対するメタ的な恐怖と覚悟を主題化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 現実の書き換えによるアイデンティティの解体
+  weight: 0.7
+  quotes:
+  - quote: お母様は、違う人よ！
+    paragraph: p112
+    quote_verified: true
+  - quote: 聖女の記憶に存在する『母』の姿が書き換わったということは、彼女の子であり転生先である救世主の存在が変質したということだ。
+    paragraph: p114
+    quote_verified: true
+  note: 単なる物理的な攻撃ではなく、「記憶」や「因果」といった形而上学的な要素が直接改変されることで、キャラクターの核（家族関係、存在意義）が侵食されている恐怖を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美と醜の対比を通じた暴力の本質
+  weight: 0.6
+  quotes:
+  - quote: 華やかじゃない、君は全く美しくない！ これが本当に当代のカーインなのかい？
+    paragraph: p175
+    quote_verified: true
+  - quote: 私はね、不格好な君の中で唯一その石化術だけは評価に値すると思っている。華やかじゃない有象無象を石像という美の形式に押し込めることができるからね。
+    paragraph: p195
+    quote_verified: true
+  note: 敵対者たちが「美しさ」や「様式」を戦闘能力や世界支配の基準として語っている。暴力が「美的秩序」によって正当化・制御される構造を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情の工学的管理と人間性の消失
+  weight: 0.5
+  quotes:
+  - quote: こちらの心拍と血圧を闘争に最適化した領域まで高めつつ、相手には度を超した怒りをもたらして冷静さを失わせ臓器に負荷をかける。
+    paragraph: p224
+    quote_verified: true
+  - quote: 不自然な唐突さで激情が停止し、吐き出されようとしていた怒りが鎮火されていた。
+    paragraph: p229
+    quote_verified: true
+  note: ユディーアが感情を戦闘効率の向上（バフ）として利用し、敵がそれを物理的に消去する。感情が「資源」または「ノイズ」として扱われる、人間性の工学的処理を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,109 @@
+chapter: ch5243
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 3
+  quotes_verified: 8
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_Black_Lily_Mama
+  note: 黒百合館の主人であり、ゼドの情報にあった『森の奥でママが待ってる』の存在。アキラの過去（p604-617）との関連性が示唆される。
+  quotes:
+  - quote: ゼドの情報にあった、『森の奥でママが待ってる』という言葉を思い出す。
+    paragraph: p488
+    quote_verified: true
+  - quote: 「当館では、物事は始まりから終わりへと進むのではなく、終わりから始まりへと進むからです――貴方は、出口には、辿り着けない」
+    paragraph: p587-589
+    quote_verified: true
+  expected_payoff: アキラが過去の罪（狼の死体）と対面する場面へ移行し、この『ママ』の正体が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Peryton_Azuria_Connection
+  note: 青い鳥（ペリュトン）とアズーリアの同種族設定、および変身能力の詳細。アキラがアズーリアを『本物』として意識している伏線。
+  quotes:
+  - quote: 「どうせ偽物の人狼や偽物の吸血鬼なんかじゃなくて、本物の夜の民である青い鳥がいい、とか思ってるんでしょう。触手ですか。そんなに触手がいいんですか」
+    paragraph: p146-148
+    quote_verified: true
+  - quote: 「まさかあのアズールがアキラの恩人のアズーリアでおまけにあの時地上で出会った夜の民の方で知らない間にサリアの友人になっていて最終的にはハルベルトの使い魔になるとは」
+    paragraph: p211
+    quote_verified: false
+  expected_payoff: コルセスカの嫉妬と、アキラがアズーリアに対して抱く複雑な感情（本物への渇望）の回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Wolf_Corpse_Trauma
+  note: p604以降に現れる腐乱した狼の死体と「鎧の腕」。アキラの過去のトラウマと、黒百合館の幻術/呪術の関連。
+  quotes:
+  - quote: その声を、その光景を、俺は確かに知っている。今はもう存在しない『鎧の腕』が、血に濡れて悲鳴を上げているようだった。
+    paragraph: p617
+    quote_verified: true
+  expected_payoff: アキラが過去に殺した（または見捨てた）狼に関する罪悪感の正体と、それがこの館の仕掛けの一部であることの明かされる場面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Krenaliza_Puppetry
+  note: クレナリーザが「代理」であり、主人は「お母様」であること。彼女自身の身体（腐乱）と役割の乖離。
+  quotes:
+  - quote: 「馬鹿ね、私は代理。この黒百合館の主人は『お母様』よ」
+    paragraph: p484-486
+    quote_verified: true
+  expected_payoff: クレナリーザが完全な自律存在ではないこと、そして館全体の構造が「家族ごっこ」という偽装で覆われている真相。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 性行為は死（殺戮）と同義であるという逆説的肯定と、その先にある母への回帰
+  weight: 0.9
+  quotes:
+  - quote: ここでは、死とは性的な欲求を満たすことと同義。性行為とは、すなわち殺戮である。それらは転倒し、一体となる。
+    paragraph: p564-566
+    quote_verified: true
+  - quote: 断末魔の言葉は、どうしてか決まってこうだ。「ママ！　ママ！」
+    paragraph: p569-571
+    quote_verified: true
+  note: 黒百合館のコンセプトが「性＝死」であり、最終的に主人公が過去のトラウマ（母性/罪）と対面する構成から。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者による管理・所有（調教）を通じた自己の存在確認と、その倫理的歪み
+  weight: 0.7
+  quotes:
+  - quote: 「今の鍵だけでは不十分ですね。もっと厳密な、生理的なレベルでの管理が必要です。今まではやり過ぎかと思って容赦していましたが、視界のフィルタリングも実行しましょう。」
+    paragraph: p114
+    quote_verified: false
+  - quote: 「いいこと？　まずこの館のコンセプトは母娘と姉妹による歓待というものよ。家族関係を擬した私たちはお客さまを持てなす――家族の一員としてね。」
+    paragraph: p415
+    quote_verified: false
+  note: コルセスカによるアキラへの支配欲、および娼館での擬似家族ごっこが、自己を他者の所有物・役割として定義しようとする構造を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 偽物（人工的/模倣）と本物（自然/原初の恐怖）の境界崩壊
+  weight: 0.6
+  quotes:
+  - quote: 「私はこの場所の長女であり、貴方たちは末の妹たち。常にそれを意識して振る舞うこと。」
+    paragraph: p420
+    quote_verified: false
+  - quote: その声を、その光景を、俺は確かに知っている。今はもう存在しない『鎧の腕』が、血に濡れて悲鳴を上げているようだった。
+    paragraph: p617
+    quote_verified: true
+  note: コルセスカの「私は偽物」という自己認識と、黒百合館における「死体による擬似家族」の虚構性が、アキラの本物のトラウマ（狼）によって侵食される展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

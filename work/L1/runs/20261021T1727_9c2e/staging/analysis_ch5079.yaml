@@ -1,0 +1,266 @@
+chapter: ch5079
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 16
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p2-p3]]'
+  object: '[[ME_video_game_save_point]]'
+  claim: 迷宮の基点である浮遊する眼球は、ゲームにおけるセーブポイントや敵のスポーン制御装置をパロディ化している。
+  quote: 忘れもしない、第六階層で俺達の前に現れ、巨獣カッサリオを召喚した奇怪な目玉が、迷宮の隅で俺と同じように超人たちの戦いを監視しているのだ。
+  paragraph: p3
+  confidence: moderate
+  quotes:
+  - quote: 忘れもしない、第六階層で俺達の前に現れ、巨獣カッサリオを召喚した奇怪な目玉が、迷宮の隅で俺と同じように超人たちの戦いを監視しているのだ。
+    paragraph: p3
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p15-p18]]'
+  object: '[[ME_madoka_magica_homura]]'
+  claim: コルセスカの白い衣装、氷の右目（左目の欠損/変異）、そして「冬の魔女」という称号は、『魔法少女まどか☆マギカ』における暁美ほむらのビジュアルおよび属性に対する強い引喩である。
+  quote: 白い袖無しのワンピース。極端に短いスカートから、黒のタイツに包まれたすらりとした脚が伸びている。いつも通りの白い長手袋は二の腕までを覆い、ノースリーブの肩と首から上だけが白い肌色を晒していた。
+  paragraph: p15
+  confidence: strong
+  quotes:
+  - quote: 白い袖無しのワンピース。極端に短いスカートから、黒のタイツに包まれたすらりとした脚が伸びている。いつも通りの白い長手袋は二の腕までを覆い、ノースリーブの肩と首から上だけが白い肌色を晒していた。
+    paragraph: p15
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p44]]'
+  object: '[[ME_tsundere_support_role]]'
+  claim: 敵対関係にありながら陰ながら主人公を支援し、照れ隠しで「野暮用」と誤魔化すコルセスカの行動パターンは、ツンデレや隠し味方的なヒロインのクリシェに構造が一致する。
+  quote: で、陰ながら支援しようと思っていたら、この事態です
+  paragraph: p44
+  confidence: strong
+  quotes:
+  - quote: で、陰ながら支援しようと思っていたら、この事態です
+    paragraph: p44
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p63]]'
+  object: '[[ME_game_mechanics_weakness]]'
+  claim: 邪視に対する物理防御の低さという弱点設定は、TRPGやRPGにおける属性相性・ステータス設計のゲーム的メカニクスを反映している。
+  quote: 邪視に強い抵抗力を持っています。消耗した今の私が即座に凍らせるのは無理ですが、アブロニクレスは物理防御能力が低いので打撃が有効。つまり貴方の出番です
+  paragraph: p63
+  confidence: moderate
+  quotes:
+  - quote: 邪視に強い抵抗力を持っています。消耗した今の私が即座に凍らせるのは無理ですが、アブロニクレスは物理防御能力が低いので打撃が有効。つまり貴方の出番です
+    paragraph: p63
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p109]]'
+  object: '[[ME_medusa_mythology]]'
+  claim: 「自らへの確信を失った邪視者」という台詞は、ギリシャ神話のメデューサや日本のペトライズム（石に化ける）における「見られることによる石化」の逆転、すなわち自己認識の喪失が防御力の低下に直結する現象を示唆している。
+  quote: 自らへの確信を失った邪視者ほど脆弱な存在もない。格付けは済みました。貴方はどうやっても私に勝てない
+  paragraph: p109
+  confidence: moderate
+  quotes:
+  - quote: 自らへの確信を失った邪視者ほど脆弱な存在もない。格付けは済みました。貴方はどうやっても私に勝てない
+    paragraph: p109
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_p166-p168]]'
+  object: '[[ME_stoicism]]'
+  claim: 感情を制御していても意思は消えず、敵意は判断であるとする主人公の論理は、キリスト教の禁欲主義やストア派哲学における「感情の排除と理性による行動決定」を現代SF的に昇華させている。
+  quote: '感情を制御していても、意思は消えない。
+
+    敵意は判断だ。
+
+    ゆえに、俺はこの状態でもキロンを殺すことを躊躇ったりはしない。それが俺の正しさだからだ。'
+  paragraph: p166-p168
+  confidence: strong
+  quotes:
+  - quote: '感情を制御していても、意思は消えない。
+
+      敵意は判断だ。
+
+      ゆえに、俺はこの状態でもキロンを殺すことを躊躇ったりはしない。それが俺の正しさだからだ。'
+    paragraph: p166-p168
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p195-p197]]'
+  object: '[[ME_fate_series_archer]]'
+  claim: 生きた人間（少年）を武器（弓）へと擬人化・変換し、その上で矢を番えずに撃つという演出は、『Fate/stay night』のアーチャーにおける投影魔術や、人体を弾として扱うダークヒーロー的クリシェと強く共鳴する。
+  quote: '曲線を描くシルエット。弧の両端を繋ぐ、燐光を放つ細い弦。
+
+    白い、弓？
+
+    黒い槍はいつの間にか姿を消し、キロンの手には純白の弓が握られていた。'
+  paragraph: p195-p197
+  confidence: moderate
+  quotes:
+  - quote: '曲線を描くシルエット。弧の両端を繋ぐ、燐光を放つ細い弦。
+
+      白い、弓？
+
+      黒い槍はいつの間にか姿を消し、キロンの手には純白の弓が握られていた。'
+    paragraph: p195-p197
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_colcesca_ice_eye
+  note: コルセスカの巨大な氷の右目。これが単なる外見上の装飾か、それとも「冬の魔女」としての権能（世界改変）の源であるか。トリシューラとの対比で言及されている。
+  quotes:
+  - quote: 'そして相変わらず感情表現に乏しい表情と、巨大な氷の右目。
+
+      トリシューラと対をなす、冬の魔女がそこにいた。'
+    paragraph: p17-p18
+    quote_verified: true
+  expected_payoff: コルセスカの過去や、彼女がなぜ「敵」であるのか、その力の代償に関する真実の明かされる場面での回収が期待される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_mexet_curse_weapon_humanization
+  note: キロンが少年を弓に変換した現象に対し、コルセスカが「メクセトの禁呪に連なるもの」と反応している。この禁呪の詳細と、コルセスカとの関係性（同属であること）が未解明。
+  quotes:
+  - quote: '「武器の擬人化――私と同じ、メクセトの禁呪に連なるもの」
+
+      コルセスカが何か妙な事を言い出した。
+
+      視線はキロンの手に握られた白弓に向けられている。普段の冷淡な表情が嘘のように気色ばんで、動揺、あるいは興奮を隠し切れていない。'
+    paragraph: p205-p207
+    quote_verified: true
+  expected_payoff: キロンとコルセスカの共通の起源、または彼らを操る組織（メクセト）の存在に関する伏線として回収される可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_emotion_control_EE
+  note: 「【E-E】」という記号で示される感情制御装置（または状態）。これがないと冷静さを失うことが示唆されており、その正体と限界が今後の戦局を左右する。
+  quotes:
+  - quote: 'もし【E-E】が無くなったとしたら、冷静な判断力を失った俺は奴らに対してどんな感情を抱くのか、正直なところ想像もつかない。だが確かなことがひとつだけある。
+
+      感情を制御していても、意思は消えない。'
+    paragraph: p164-p166
+    quote_verified: true
+  expected_payoff: 【E-E】の機能停止やオーバーヒートによる主人公の暴走、または制御不能な憎しみの解放がクライマックスでの劇的変化として描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kiron_boy_shield
+  note: キロンを守るために凍結を受け止め、腕を石化させた少年。この少年はキロンの「弓」の素材（人間）なのか、単なる護衛か。キロンの少年に対する態度（頭を撫でる）に注目。
+  quotes:
+  - quote: '対するキロンは、観念したかのように瞑目し、左手をそっと、傍らの少年の頭に置いた。
+
+      「――？」
+
+      奇妙な動きだった。何の意味があるのか理解できない動作。'
+    paragraph: p180-p184
+    quote_verified: true
+  expected_payoff: キロンが弓を撃つ際、この少年の運命（犠牲となるか、救出されるか）がキロンの人間性や彼の「正しさ」を問う重要なシーンで回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_labyrinth_collapse_5th_floor
+  note: 迷宮結界の基点（眼球）が破壊されたことで、第五階層の「街」空間に戻りつつある。この空間の変化が地上との境界線にどう影響するか。
+  quotes:
+  - quote: '俺が眼球を握りつぶした結果なのか、周囲から迷宮の壁が消え始める。
+
+      以前の第五階層、曲がりなりにも街であった空間に戻っていく。'
+    paragraph: p122-p123
+    quote_verified: true
+  expected_payoff: 第五階層が地上と接続するゲートになるか、あるいは迷宮自体の崩壊が始まり、大規模な脱出劇・防衛戦へと展開するトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情の制御と意思の独立性（理性的な暴力）
+  weight: 0.8
+  quotes:
+  - quote: '感情を制御していても、意思は消えない。
+
+      敵意は判断だ。'
+    paragraph: p166-p167
+    quote_verified: true
+  note: 主人公アキラが「無感情」であることが単なる弱さや欠陥ではなく、「正しい殺し合い」を遂行するための論理的基盤として提示されている。感情がないからこそ、組織の敵意（判断）に従い躊躇なく行動できるというテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 信頼の崩壊と自己責任による孤立
+  weight: 0.7
+  quotes:
+  - quote: '【松明の騎士団】は信用に値しない。
+
+      故に、俺が悩んだのはどのようにして彼らを打倒するか、どのようにして騙し、陥れ、裏切り、殺害するかという事だけだ。'
+    paragraph: p144-p146
+    quote_verified: true
+  note: 地上勢力（騎士団）への信頼が完全に失われたことで、主人公は「裏切り者」ではなく「敵」としての自覚を確立する。社会性からの離脱と、それに伴う暴力の正当化が主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人間性の道具化（武器としての人間）
+  weight: 0.6
+  quotes:
+  - quote: 'キロンの手の中で、少年が裸身を光り輝かせている。
+
+      その全身が黄金の煌めきに満たされたかと思うと、その輪郭が不意に歪み、異なる形状へと変化していく。'
+    paragraph: p192-p193
+    quote_verified: true
+  note: 聖騎士キロンによる「武器の擬人化」は、人間を道具として扱う異世界の残酷さ、および聖職者（騎士）が用いる呪術の倫理的側面（生贄的な性質）を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世界改変合戦としての戦闘（メタ・フィクション的破壊）
+  weight: 0.5
+  quotes:
+  - quote: 視認するだけで世界を書き換える能力を持つ両者が相対した時、その戦いは世界の改変合戦の様相を呈する。一瞬ごとに景色が塗り替えられていく。
+    paragraph: p88
+    quote_verified: true
+  note: 物理的な衝突ではなく、「世界を書き換える」邪視同士の戦い。これは物語空間そのものが変質していく様を表しており、異世界転生ものにおける「世界の法則」の書き換えというメタテーマと接続する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

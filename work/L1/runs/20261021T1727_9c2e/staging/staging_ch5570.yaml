@@ -1,0 +1,30 @@
+episode: ch5570
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_エンハとナックス]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5570_エンハとナックス_other_血の呪い_p180
+        quote: この瞬間、エンハとナックスは血の呪いを心から肯定できたのだ。
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5570_エンハとナックス_fights_伝説_p82
+        quote: 必死の形相で兄弟は伝説に食らいつく。エーテルの風を切って進み、霊魂の雲を搔い潜り、歴史と神話が織りなす過去の絵画を踏破していく。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5570_リーナ_observes_男たち_p2
+        quote: リーナは、突如として現れた男たちの姿に目を奪われた。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true

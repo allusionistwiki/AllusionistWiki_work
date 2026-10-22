@@ -1,0 +1,202 @@
+chapter: ch5043
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 14
+  quotes_total: 14
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{カーインの戦術分析}}]]'
+  object: '[[ME_{SNSによるプロファイリング・行動誘導}}]]'
+  claim: カーインが相手の欠点を言語化し意識させることで行動を誘導する様子は、SNSやアルゴリズムによる情報提示を通じたユーザーの行動制限・誘導に構造的に一致する。
+  quote: 情報の提示によって相手の思考に一定の指向性を与えようとする。アレは言葉によるフェイクだ。
+  paragraph: p36
+  confidence: moderate
+  quotes:
+  - quote: 情報の提示によって相手の思考に一定の指向性を与えようとする。アレは言葉によるフェイクだ。
+    paragraph: p36
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{サイバーカラテ道場の無視}}]]'
+  object: '[[ME_{ガジェット依存症からの離脱・自己責任論}}]]'
+  claim: アプリのアラート音（最適化された戦術指示）を無視し、非合理的なフェイントを行う行為は、効率性を追求する現代の技術的監視から逃れ、人間の直感や自己決定権を取り戻す試みとして読める。
+  quote: 『サイバーカラテ道場』がアラート音をがなり立てているが無視。無意味で非合理的な行動だが、この空虚な一撃はフェイントとしての意味がある。
+  paragraph: p13
+  confidence: strong
+  quotes:
+  - quote: 『サイバーカラテ道場』がアラート音をがなり立てているが無視。無意味で非合理的な行動だが、この空虚な一撃はフェイントとしての意味がある。
+    paragraph: p13
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_{残心プリセットの安全機能解除}}]]'
+  object: '[[ME_{日本のアプリ規制とユーザーによるセーフティ・バイパス}}]]'
+  claim: 身体を壊すリスクを承知でアプリの安全装置（セーフティ）を手動で解除する描写は、現代日本で「安全性優先」の社会通念が個人の自己決定権を侵害しているという批判と、それへの逆襲を示唆している。
+  quote: 安全性を優先することによって不可避的に発生するセキュリティホールを塞ぐために、現代の日本では使用するアプリケーションはほとんどのセーフティをマニュアルで解除できるようになってるんだよ。
+  paragraph: p139
+  confidence: explicit
+  quotes:
+  - quote: 安全性を優先することによって不可避的に発生するセキュリティホールを塞ぐために、現代の日本では使用するアプリケーションはほとんどのセーフティをマニュアルで解除できるようになってるんだよ。
+    paragraph: p139
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{モロレク（悪鬼）の性質}}]]'
+  object: '[[ME_{古代日本の怨霊信仰・呪詛}}]]'
+  claim: 血族単位で復讐を誓い、肉体が腐り落ちても動き続ける「悪鬼」は、現代的な個人主義的恨みではなく、家制度や血縁による集団的呪詛という前近代的な恐怖の原型である。
+  quote: その身を呪詛によって異形と変貌せしめる。無力な幼子であろうが枯れ木のような老人であろうが、その全てが復讐の鬼となるのだ
+  paragraph: p84
+  confidence: strong
+  quotes:
+  - quote: その身を呪詛によって異形と変貌せしめる。無力な幼子であろうが枯れ木のような老人であろうが、その全てが復讐の鬼となるのだ
+    paragraph: p84
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_{ロウ・カーイン}}]]'
+  object: '[[ME_{植民地支配者／観察者としての「野蛮人」研究}}]]'
+  claim: 相手を「獣」「悪鬼」として分類し、その精神を折り砕くことを目的として実験的に戦わせるカーインの態度は、非文明圏の人々を観察対象・実験動物として扱う植民地主義的な権力構造と重なる。
+  quote: まずその精神を折り砕いてみたいのだよ。彼らは痛みと怖れを知らぬ悪鬼の群れ。死を厭わずに迫り来る彼らを前にして、君の心はいかなる有り様を見せてくれるかな
+  paragraph: p60
+  confidence: moderate
+  quotes:
+  - quote: まずその精神を折り砕いてみたいのだよ。彼らは痛みと怖れを知らぬ悪鬼の群れ。死を厭わずに迫り来る彼らを前にして、君の心はいかなる有り様を見せてくれるかな
+    paragraph: p60
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{主人公の「経済的」な発言}}]]'
+  object: '[[ME_{冷徹な合理性を演じるアニメ主人公（例：『コードギアス』等）}}]]'
+  claim: 戦闘において「殺し合いは経済行為である」と主張する主人公の理屈は、異世界転生物のチート能力や英雄譚が前提とする「感情」を意図的に排除した、極端な功利主義的パロディとして機能している。
+  quote: 無傷で俺を殺せるならともかく、相打ち覚悟の俺に殺されたら俺とお前の実力差分だけの損失が生まれる。俺を瞬殺できるくらいの圧倒的な格上が用意できないなら、やや格上程度の奴をぶつけるのが一番経済的だ
+  paragraph: p155
+  confidence: moderate
+  quotes:
+  - quote: 無傷で俺を殺せるならともかく、相打ち覚悟の俺に殺されたら俺とお前の実力差分だけの損失が生まれる。俺を瞬殺できるくらいの圧倒的な格上が用意できないなら、やや格上程度の奴をぶつけるのが一番経済的だ
+    paragraph: p155
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カーインの真意と世界観
+  note: カーインが主人公の「経済的」な理屈を聞いて「世界観」と呼んだ点。彼の戦闘目的（勝つことより相手を理解すること、精神を折ること）と、主人公との認識のズレが今後の展開の鍵となる。
+  quotes:
+  - quote: 『そっかそっか、それが君の『世界観』なんだねえ』
+    paragraph: p163
+    quote_verified: true
+  expected_payoff: カーインが主人公を「仲間」や「同類」として認定し、敵対関係から何らかの協力・観察対象へ転換する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アプリの安全機能と自己破壊
+  note: 『残心プリセット』のセーフティを解除して自壊を前提とした攻撃を行う描写。アプリが「安全性」を管理している事実と、主人公がそれを越え出る能力を持つことの示唆。
+  quotes:
+  - quote: 自分が致命傷を負う事を前提にして戦術を組み立てる。まともな攻撃が通らないなら、死後の攻撃によって相手を打ち倒せばいい。
+    paragraph: p135
+    quote_verified: true
+  expected_payoff: 主人公が「死」や「肉体の限界」をゲーム的な資源として扱う特異な能力（あるいは呪い）の開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_モロレクの起源と血族の呪い
+  note: 悪鬼が単なるモンスターではなく「血族」であり、主人公の過去の行い（殺害）に対する復讐として構成されている事実。
+  quotes:
+  - quote: つまりこいつらは一つの血族。家族の仇である俺を殺す為、血のつながりで結束しているのか。
+    paragraph: p86
+    quote_verified: true
+  expected_payoff: 主人公が過去に犯した罪（第五階層での虐殺等）の詳細や、その影響で巻き込まれた人々の運命に関する回想・暴露。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カーインの回避行動の意味
+  note: 主人公が「死に体」のはずなのにカーインが攻撃を中断して回避した点。カーインは主人公の「自壊前提の戦術」を見抜いていたのか、別の要因か。
+  quotes:
+  - quote: 唐突な回避行動は、前後の状況から考えれば意味が通らない。俺は完全な死に体だった『筈』だ。
+    paragraph: p128
+    quote_verified: true
+  expected_payoff: カーインが主人公の「残心プリセット」の挙動を完全に解析していたことの証明、または彼自身の「内功」に関する隠された弱点の露呈。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による人間性の管理と逸脱
+  weight: 0.9
+  quotes:
+  - quote: 安全性を優先することによって不可避的に発生するセキュリティホールを塞ぐために、現代の日本では使用するアプリケーションはほとんどのセーフティをマニュアルで解除できるようになってるんだよ。
+    paragraph: p139
+    quote_verified: true
+  note: アプリ（技術）が与える「安全」と「効率」の束縛から逃れ、身体を犠牲にしてでも自己決定権を取り戻す行為が主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語による暴力と認識の支配
+  weight: 0.8
+  quotes:
+  - quote: 事実、普段の俺なら『サイバーカラテ道場』に従った戦術を選択する筈だったが、『相手に知り尽くされた戦法では勝てない』と無意識に思い込んで、まんまと相手の思い通りに動いてしまった。
+    paragraph: p38
+    quote_verified: true
+  note: 戦闘が物理的な拳だけでなく、言語による情報操作（ナラティブ）によって支配されている構造。言葉が武器であるというメタフィクション的側面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 復讐の連鎖と極端な自己責任論
+  weight: 0.7
+  quotes:
+  - quote: 一族郎党皆殺しだ。俺の敵は流れる血ごと根絶やしにしてやる
+    paragraph: p108
+    quote_verified: true
+  note: 復讐を「経済的・合理的な処理」として捉え、倫理的な連鎖を断ち切るための徹底した暴力（ジェノサイド）を正当化する冷徹さ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異世界における「生」の希薄さと死受容
+  weight: 0.6
+  quotes:
+  - quote: 感情を制御しているからに決まっている。死の恐怖を度外視して、相手を殺す為の最適を実行できるのはそのためだ
+    paragraph: p149
+    quote_verified: true
+  note: 悪鬼のような非人間性と主人公の人間性の境界線が曖昧になり、「感情制御」が恐怖克服の手段ではなく、死を軽視する非合理性へと転化している点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

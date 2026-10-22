@@ -1,0 +1,272 @@
+chapter: ch5080
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 27
+  quotes_total: 27
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p5]]'
+  object: '[[ME_myth_sacrifice_arrow]]'
+  claim: レメスの伝説は、被害を最小限に抑えるための自己犠牲的な射撃（対空防御の限界）を象徴するが、キロンの使用はそれを一方的な殲滅兵器として歪曲している。
+  quote: 若きレメスは僅かに残された希望を矢に変えて、その身が災厄に砕かれる事を厭わずに矢を天空の果てへと放ったという――聖人レメスの偉業を再現した宗教画には必ず矢のない弓が描かれる。
+  paragraph: p5
+  confidence: strong
+  quotes:
+  - quote: 若きレメスは僅かに残された希望を矢に変えて、その身が災厄に砕かれる事を厭わずに矢を天空の果てへと放ったという――聖人レメスの偉業を再現した宗教画には必ず矢のない弓が描かれる。
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p10]]'
+  object: '[[ME_game_human_shield]]'
+  claim: 主人公が少年を盾にする行動は、MMORPG等でプレイヤーがNPCや低レベルキャラを囮・盾として利用するメタ的な戦術の暗喩である。
+  quote: 咄嗟にすぐ傍にいた少年の一人を頭上に掲げて盾にした俺は難を逃れたものの、その他の者は悲惨な末路を迎えた。
+  paragraph: p10
+  confidence: moderate
+  quotes:
+  - quote: 咄嗟にすぐ傍にいた少年の一人を頭上に掲げて盾にした俺は難を逃れたものの、その他の者は悲惨な末路を迎えた。
+    paragraph: p10
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p123]]'
+  object: '[[ME_game_mechanic_reflect_damage]]'
+  claim: 「水鏡の盾」による攻撃属性から反撃属性への転換は、ゲーム的な「ダメージ反射・変換メカニクス」を物語内で論理的に解説し、その理不尽さを提示している。
+  quote: この呪術で【攻撃】属性を【反撃】属性に転換してしまえばダメージが通るはず
+  paragraph: p123
+  confidence: explicit
+  quotes:
+  - quote: この呪術で【攻撃】属性を【反撃】属性に転換してしまえばダメージが通るはず
+    paragraph: p123
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p174]]'
+  object: '[[ME_real_world_industrial_waste]]'
+  claim: 「神滅具」が撒き散らす呪波汚染は、現代の産業廃棄物や放射性物質による環境・人体への不可逆的な汚染（レガシー効果）を指喩している。
+  quote: 使い手だけではなく周囲の環境全てに呪波汚染を撒き散らす、神話時代の産業廃棄物です！　長時間の呪力線被曝は心身に害をもたらし、土地に毒を残す。
+  paragraph: p174
+  confidence: strong
+  quotes:
+  - quote: 使い手だけではなく周囲の環境全てに呪波汚染を撒き散らす、神話時代の産業廃棄物です！　長時間の呪力線被曝は心身に害をもたらし、土地に毒を残す。
+    paragraph: p174
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p57]]'
+  object: '[[ME_ethics_dehumanization]]'
+  claim: 「異獣は人では無い」という定義付けは、植民地支配や全体主義において見られる「非人間化（dehumanization）」による暴力の正当化を模倣・批判している。
+  quote: 異獣は人では無い
+  paragraph: p57
+  confidence: strong
+  quotes:
+  - quote: 異獣は人では無い
+    paragraph: p57
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p148]]'
+  object: '[[ME_tech_doppler_effect]]'
+  claim: 【Doppler】という名前と、列車通過のような感覚での回避描写は、音響工学のドップラー効果（周波数変化による位置推定）を戦闘の知覚技術として擬人化・実装している。
+  quote: 駅のホームを列車が通過していった時のような感覚。轢殺や圧殺を予感させる速度と質量の暴力を、俺は辛うじて回避したのだとわかった。
+  paragraph: p151
+  confidence: moderate
+  quotes:
+  - quote: 駅のホームを列車が通過していった時のような感覚。轢殺や圧殺を予感させる速度と質量の暴力を、俺は辛うじて回避したのだとわかった。
+    paragraph: p151
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p237]]'
+  object: '[[ME_myth_mirror_witch]]'
+  claim: コルセスカの「鏡の魔女」の奥義は、西洋神話やファンタジーにおける「鏡を通じた呪術・真実の反映」のクリシェを引用し、その原理（アナロジー）を明示している。
+  quote: いにしえの【鏡の魔女】が遺した奥義のひとつ。私の氷はそれをほぼ完全に再現する
+  paragraph: p237
+  confidence: strong
+  quotes:
+  - quote: いにしえの【鏡の魔女】が遺した奥義のひとつ。私の氷はそれをほぼ完全に再現する
+    paragraph: p237
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_remeche_mourning_artifact_nature
+  note: 「翼無きレメスの苦悶」という名称と、矢のない弓の宗教画の描写。聖遺物の真の効果や代償（キロン自身の炭化・欠損）が伏線として残されている。
+  quotes:
+  - quote: 「射影聖遺物（アトリビュート）・第七番――翼無きレメスの苦悶」
+    paragraph: p1
+    quote_verified: true
+  - quote: 聖人レメスの偉業を再現した宗教画には必ず矢のない弓が描かれる。まさにこのような
+    paragraph: p5
+    quote_verified: true
+  expected_payoff: キロンが使用する白き弓の真の名前、効果範囲の広さ（味方も巻き込む）、およびレメスという聖人の悲劇的な結末との対比によるキロンの運命の暗示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kiron_child_symbiosis_mechanism
+  note: 少年達を武器（槍・馬）に変化させるプロセスと、触れるだけで動きが良くなる現象。これらが「宿主」と呼ばれることとの関連。
+  quotes:
+  - quote: 素早く残り二人の少年に隣接、順番にその頭に触れる。――何だ？　今、目に見えて動きが良くなったような。
+    paragraph: p134
+    quote_verified: true
+  - quote: アルテミシアと戦っていた時に用いていた黒い槍に、コールタールを塗りたくったように黒い馬。おそらくはその二つがあの少年達の変化したものなのだろう。
+    paragraph: p159
+    quote_verified: true
+  expected_payoff: 少年達の真の姿（異獣としての種族特性）、キロンと彼らの契約関係、および変化した武器が「宿主」を殺すことによる暴走リスクの詳細。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_meixeto_weapons_curse_scope
+  note: メクセトの武具（黒槍・蹄鉄）が「宿主」だけでなく「周囲」「親類友人恋人」に及ぶ累（呪波汚染）の範囲。コルセスカの封印宣言の実現性。
+  quotes:
+  - quote: その上災いが呪術的に感染する為、このまま使い続ければ彼の親類、友人、恋人などにも累が及ぶであろう最悪の兵器です
+    paragraph: p174
+    quote_verified: true
+  - quote: メクセトの武具は、私が全て封印します
+    paragraph: p206
+    quote_verified: true
+  expected_payoff: コルセスカがなぜこれほどまでにメクセトの武器に執着し、封印に拘るのか（過去との因縁）、およびキロン自身の家族・仲間への被害発生の予兆。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kiron_last_stand_miesliva
+  note: キロンの絶叫と共に発動した「ミエスリヴァ」の名前と、世界がモノクロに染まる現象。これが彼自身の最後の奥義か、聖遺物の暴走のトリガーか。
+  quotes:
+  - quote: 「死んでいった仲間達の為にも、俺はもう一度立ち上がらなくては。たとえ、憎い仇の力を使ってでも――我が価値を問え、【ミエスリヴァ】」
+    paragraph: p280
+    quote_verified: true
+  - quote: そして世界が、モノクロに染まる。
+    paragraph: p282
+    quote_verified: true
+  expected_payoff: キロンの真の目的（憎い仇とは誰か）、【ミエスリヴァ】の効果（時間停止？ 空間崩壊？）、およびモノクロ化が戦闘の勝敗にどう影響するか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_colceska_essential_nature_hint
+  note: コルセスカが「使い魔になれ」と言った時、「火竜を倒す」と言った時に似ていると主人公が確信した部分。彼女の「本質」の断片。
+  quotes:
+  - quote: いや、一度だけ似た雰囲気になったことがあった。あれは確か、俺に向かって使い魔になれと告げた一幕。
+    paragraph: p30
+    quote_verified: true
+  - quote: 火竜を倒さなくてはならないと、自分の目的を明かした時と同じ雰囲気なのだ。であれば、【これ】は彼女にとって真に譲れないことなのだ。そう確信した。
+    paragraph: p32
+    quote_verified: true
+  expected_payoff: コルセスカが主人公に対して求めている関係性（使い魔としての契約の深層）、および「火竜を倒す」以外の彼女の隠された真の目的との関連性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 定義による暴力の正当化と、その論理の脆さ
+  weight: 0.9
+  quotes:
+  - quote: 「異獣は人では無い」文法の不備を正すように、聖騎士は人とその他を峻別した。
+    paragraph: p57
+    quote_verified: true
+  - quote: 案の定、という回答で面白みの欠片も無い。ああ、どうせそういう手合いだと思ったよ。
+    paragraph: p59
+    quote_verified: true
+  note: キロンが「異獣は人ではない」という定義だけで大量虐殺を正当化する姿と、主人公の冷笑的な反応。「人間」の定義が変わるだけで倫理観が崩壊する現代社会の縮図。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術（聖遺物）の不可逆的な汚染と環境負荷
+  weight: 0.8
+  quotes:
+  - quote: 使い手だけではなく周囲の環境全てに呪波汚染を撒き散らす、神話時代の産業廃棄物です！
+    paragraph: p174
+    quote_verified: true
+  - quote: 肺を病みます
+    paragraph: p198
+    quote_verified: true
+  note: 強力な武器の使用が、使用者だけでなく環境と未来（子孫・周囲）に深刻なダメージを残すという「技術の代償」主題。核兵器や化学物質の比喩。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 戦場の非情さと勝者の傲慢さ（弱者切り捨て）
+  weight: 0.7
+  quotes:
+  - quote: 負傷した者を狙うとは、卑劣なっ
+    paragraph: p105
+    quote_verified: true
+  - quote: 最適な戦略はそれだと俺は思ったのだが、生憎とコルセスカの方はそうじゃないらしい。残念だが、狙いはお前だ。
+    paragraph: p106
+    quote_verified: true
+  note: 集団戦の鉄則（弱者から削る）を実行する主人公の合理的冷徹さと、それに対するコルセスカの「美徳」に基づく批判の対立。戦争における倫理と効率の葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクション的な自己認識（探索者としての資質）
+  weight: 0.6
+  quotes:
+  - quote: 「やはり貴方は、探索者に向いていると思います」「はあ？」文脈が繋がってない発言をされて困惑する。
+    paragraph: p90
+    quote_verified: true
+  - quote: 俺にとってもそれは同じだ。同じなのだが、しかし。「俺が言えたことじゃねえけどさ、お前クソだわ」本当に、俺にだけは言われたくはないだろうが。
+    paragraph: p79
+    quote_verified: true
+  note: 主人公がキロンと同じ「利益度外視で暴力を振るう存在」であることを自覚し、コルセスカがそれを「探索者（ゲームのプレイヤーズ）」として評価するメタ視点。自己の悪性の受容。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 恐怖と死の予感（奈落への落下）
+  weight: 0.5
+  quotes:
+  - quote: ふと、自分が奈落の蓋を踏み抜いたような錯覚を覚えた。
+    paragraph: p262
+    quote_verified: true
+  - quote: 割れてしまった氷の下が、息もできないような底無しの深淵であると、その時になってようやく理解する。
+    paragraph: p274
+    quote_verified: true
+  note: 戦闘勝利直後に訪れる「奈落」のイメージ。キロンの最後の抵抗（ミエスリヴァ）がもたらす世界の変化に対する、本能的な恐怖と絶望感。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

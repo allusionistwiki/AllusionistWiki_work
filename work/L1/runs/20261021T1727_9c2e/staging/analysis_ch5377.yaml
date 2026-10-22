@@ -1,0 +1,278 @@
+chapter: ch5377
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 6
+  themes: 5
+  quotes_verified: 16
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5377_レオ_other_優しい呪文_p94]]'
+  object: '[[ME_SNS_Empathy_Burnout]]'
+  claim: 小鬼の物理的損傷を労働者のメンタルヘルス問題（バーンアウト・振動障害）として再解釈し、共感によって対話を成立させる現代的管理技法のメタファー。
+  quote: 振動障害、あるいは白蝋病。そこから派生したストレス性の精神疾患。狂的な振る舞いの原因を病に見出したのは、トリシューラという呪術医の下で働いているためだろうか。
+  paragraph: p93
+  confidence: strong
+  quotes:
+  - quote: 振動障害、あるいは白蝋病。そこから派生したストレス性の精神疾患。狂的な振る舞いの原因を病に見出したのは、トリシューラという呪術医の下で働いているためだろうか。
+    paragraph: p93
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5377_レオ_other_伐採の意義_p139]]'
+  object: '[[ME_Sustainable_Development]]'
+  claim: 自然破壊（伐採）と文明開発の対立を、両者の肯定と共生によって解消しようとする持続可能性の思想。
+  quote: 「斧も、チェーンソーも。あなたの痛みも苦しみも、決して無駄じゃない」
+  paragraph: p139
+  confidence: moderate
+  quotes:
+  - quote: 「斧も、チェーンソーも。あなたの痛みも苦しみも、決して無駄じゃない」
+    paragraph: p139
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5377_レオ_other_仲良しへの呼びかけ_p163]]'
+  object: '[[ME_Anime_Kodomo_no_Majime]]'
+  claim: 少年が大人たちを説得する展開は、日本のアニメ・漫画における「子供の声が世界を変える」というクリシェの自己言及的昇華。
+  quote: '「だからみんな、仲良くしましょう？」
+
+    その呪文が完成すると同時に、『鵺』の呪いが、『火車』の力が、『絡新婦』の汚染が、その他ありとあらゆる敵意が毒気と共に雲散霧消していった。'
+  paragraph: p163-p165
+  confidence: strong
+  quotes:
+  - quote: '「だからみんな、仲良くしましょう？」
+
+      その呪文が完成すると同時に、『鵺』の呪いが、『火車』の力が、『絡新婦』の汚染が、その他ありとあらゆる敵意が毒気と共に雲散霧消していった。'
+    paragraph: p163-p165
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5377_トリシューラ_other_小鬼化_p210]]'
+  object: '[[ME_Burnout_Empathy]]'
+  claim: 万能感（邪視）への依存が人格を矮小化（小鬼化）させる過程は、共感の枯渇による人間性の喪失を描く。
+  quote: '「そういう後出し無敵発言ばっかりしてると、小鬼になっちゃうよ？」
+
+    トリシューラは典型的な邪視者への戒めを口にした。
+
+    大成して巨人に至るか、全能感を制御しきれずに小鬼に堕ちるか。'
+  paragraph: p210-p211
+  confidence: moderate
+  quotes:
+  - quote: '「そういう後出し無敵発言ばっかりしてると、小鬼になっちゃうよ？」
+
+      トリシューラは典型的な邪視者への戒めを口にした。
+
+      大成して巨人に至るか、全能感を制御しきれずに小鬼に堕ちるか。'
+    paragraph: p210-p211
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_ch5377_レオ_other_完全な勝利_p190]]'
+  object: '[[ME_Paradox_of_Non-Violence]]'
+  claim: 暴力を行使せず、他者の感情に浸透することで勝つという「非暴力の圧力」のパラドックス。
+  quote: 'レオは危険など感じていないかのように『絡新婦』に歩み寄り、目の前で立ち止まる。そっと手を差し伸べて、ぼろぼろに朽ちた頬に手を添えた。
+
+    望むのは混沌。'
+  paragraph: p142-p143
+  confidence: strong
+  quotes:
+  - quote: 'レオは危険など感じていないかのように『絡新婦』に歩み寄り、目の前で立ち止まる。そっと手を差し伸べて、ぼろぼろに朽ちた頬に手を添えた。
+
+      望むのは混沌。'
+    paragraph: p142-p143
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5377_トリシューラ_other_セスカの存在_p262]]'
+  object: '[[ME_Psychological_Anchoring]]'
+  claim: 幻想的な存在（セスカ）を現実の精神安定の錨（アンカー）として機能させる心理的構造。
+  quote: 「あなたはいつも私を『セスカという幻想に逃げている』ってお説教するけれど、その重みを否定できる？　セスカはいるよ。私が向き合う大事なものを、否定なんかさせない」
+  paragraph: p262
+  confidence: moderate
+  quotes:
+  - quote: 「あなたはいつも私を『セスカという幻想に逃げている』ってお説教するけれど、その重みを否定できる？　セスカはいるよ。私が向き合う大事なものを、否定なんかさせない」
+    paragraph: p262
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_氷燭台の行方
+  note: 敵が奪った「火を灯さない無意味な飾り」である9本の蝋燭を持つ氷の燭台。これは単なる戦利品か、何らかの儀式・召喚に必要な祭具か。
+  quotes:
+  - quote: 'それは中心となる幹と八つの枝に分かれた氷の燭台。
+
+      立てられているのは九つの蝋燭型の氷柱。
+
+      冷たい細工に炎が灯ることはなく、ただ無意味な飾りとして存在している。'
+    paragraph: p45-p47
+    quote_verified: true
+  expected_payoff: 敵陣営での儀式の完了、あるいはアルマ等の対抗手段としての再登場。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_扉の彼方の正体
+  note: 幾何学的な紋様で開かれた「扉」から現れようとした巨大な存在（黒々とした憎悪）。その正体は明言されていない。
+  quotes:
+  - quote: '向こう側から『何か』が現れようとしている。
+
+      それは、はっきりとレオを見ていた。
+
+      小鬼よりも遙かに強大な存在は次元の向こうから黒々とした憎悪を放つ。'
+    paragraph: p14-p20
+    quote_verified: false
+  expected_payoff: 敵の最終兵器、あるいは物語の真のラスボスとの関連性（イェレイド、NH-Sスレイマン等）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_氷球とセスカの呪縛
+  note: トリシューラがミヒトネッセに渡した「コルセスカの氷球（制御盤）」。「セスカへの呪縛」として機能するらしい。
+  quotes:
+  - quote: 'コルセスカの『氷球』――貴重な『制御盤』だ。
+
+      無造作に投擲されたそれはミヒトネッセの手の中に収まる。'
+    paragraph: p257-p258
+    quote_verified: true
+  expected_payoff: ミヒトネッセの行動制限、セスカ（コルセスカ）との直接的な干渉能力の開花、あるいは反転した裏切り。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_NH-Sスレイマン
+  note: トリシューラが言及した「イェレイドだけじゃなくて、彼まで動き出した」という存在。
+  quotes:
+  - quote: 「Ｎ・Ｇ・Ｈ・Ｓ・スレイマン――イェレイドだけじゃなくて、彼まで動き出したわけだね。めんどくさーい。分かっていたことだけど」
+    paragraph: p220
+    quote_verified: true
+  expected_payoff: 第5階層の支配構造を揺るがす第三勢力としての登場、またはトリシューラの計画への介入。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_紀元槍の制御盤喪失
+  note: グレンデルヒが「紀元槍の制御盤を奪われる」と嘆いた事象。これは「杖」のオルガンローデ（シナモリアキラ）に関わる重大なリソース喪失。
+  quotes:
+  - quote: （紀元槍の制御盤を奪われるとは！　なりふり構わず使える人材を流れに引き込んだのが失敗だったか――いや、それも含めて相手の計画の一部か？）
+    paragraph: p55
+    quote_verified: true
+  expected_payoff: シナモリアキラの制御不能化、あるいはグレンデルヒ陣営の戦力低下と戦略の転換。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ミヒトネッセの逃走
+  note: トリシューラに呪縛され影の中に逃げたミヒトネッセが、氷球を持ってどこへ向かうのか。
+  quotes:
+  - quote: まっすぐな緑色の瞳から目を逸らし、耐えきれなくなったかのように影の中に沈んで逃走する。
+    paragraph: p265
+    quote_verified: true
+  expected_payoff: ラクルラール勢力（オルヴァ側）への帰還と報告、または氷球を用いた独自行動の開始。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力による支配ではなく、共感（エンパシー）を武器とした受容が対立を解決する「優しさの暴力」
+  weight: 0.9
+  quotes:
+  - quote: 'レオは語り続ける。
+
+      「お仕事、きっといっぱい頑張ったんでしょうね。最初は斧、それからもっと人の役に立つために愛用の道具をチェーンソーに持ち替えて。でも、あの機械は振動が凄いから――そんなふうに手が真っ白になってしまって、きっと大変な思いをしたんでしょう？」'
+    paragraph: p89-p91
+    quote_verified: true
+  - quote: 「可愛らしさの暴力、か。なるほど、確かにあれにシナモリアキラは抗えまい」
+    paragraph: p187
+    quote_verified: true
+  note: 物理的な戦闘能力では劣るレオが、相手の苦悩を言語化し肯定することで勝利する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 拒絶された者たちの共存と「理想」の効力（ユートピア主義）
+  weight: 0.8
+  quotes:
+  - quote: '第五階層は森であり、自然のままの混沌と共生する文明である。
+
+      制御されない伐採は現在の第五階層の在り方を根本から否定する行為だ。'
+    paragraph: p132-p133
+    quote_verified: true
+  - quote: 「僕らが立ち向かうべきは、憎しみと拒絶。不寛容と誤解」
+    paragraph: p155
+    quote_verified: true
+  note: 多様性を許容する社会システムとしての第五階層の理念と、それを守るためのレオの行動。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 万能感（邪視）への依存がもたらす人間性の矮小化（小鬼化）
+  weight: 0.7
+  quotes:
+  - quote: '「そういう後出し無敵発言ばっかりしてると、小鬼になっちゃうよ？」
+
+      トリシューラは典型的な邪視者への戒めを口にした。
+
+      大成して巨人に至るか、全能感を制御しきれずに小鬼に堕ちるか。'
+    paragraph: p210-p211
+    quote_verified: true
+  note: 強力な力を持つがゆえに他者を「物」として扱い、結果的に存在を縮小させてしまう危険性（グレンデルヒへの警告）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語（ナラティブ）の創造による現実の書き換え
+  weight: 0.6
+  quotes:
+  - quote: （状況と目の前の材料から遡って、物語性を『創造（クラフト）』したのか！　しかも上から目線の慈しみと憐み――なんという鮮やかな呪文の操作！）
+    paragraph: p96
+    quote_verified: true
+  note: 小鬼に歴史がないことを逆手に取り、レオが「来歴」を捏造・付与することで存在を規定し直すメタフィクション的な力。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 幻想と現実の境界、そして精神の錨（アンカー）としての役割
+  weight: 0.5
+  quotes:
+  - quote: 「あなたはいつも私を『セスカという幻想に逃げている』ってお説教するけれど、その重みを否定できる？　セスカはいるよ。私が向き合う大事なものを、否定なんかさせない」
+    paragraph: p262
+    quote_verified: false
+  note: トリシューラが「セスカ」という架空の存在を精神的支柱として利用し、ミヒトネッセを束縛する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

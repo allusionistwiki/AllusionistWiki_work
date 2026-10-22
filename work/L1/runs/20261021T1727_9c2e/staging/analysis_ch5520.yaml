@@ -1,0 +1,235 @@
+chapter: ch5520
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 22
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p3]]'
+  object: '[[ME_amaranthus_mythology]]'
+  claim: キャラクター名『アマランサス』は、ギリシャ神話における不死の象徴である植物への引用であり、転生と不死性という主題を暗に示している。
+  quote: 誰も使わないが、食用竜花（アマランサス）のダエモデク・イヴニルという名もある。
+  paragraph: p3
+  confidence: strong
+  quotes:
+  - quote: 誰も使わないが、食用竜花（アマランサス）のダエモデク・イヴニルという名もある。
+    paragraph: p3
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p69]]'
+  object: '[[ME_classical_virtue_politics]]'
+  claim: 『徳（アレテー）』の定義が男性性や名誉と結び付けられ、現代の道徳観との断絶が語られる箇所は、古典的共和主義的美徳観への批判的言及である。
+  quote: 基幹参照世界において、亜竜王の名は徳（アレテー）に通じる。古代における徳とは、男らしさや原始的名誉という側面を強く表象していた。
+  paragraph: p69
+  confidence: strong
+  quotes:
+  - quote: 基幹参照世界において、亜竜王の名は徳（アレテー）に通じる。古代における徳とは、男らしさや原始的名誉という側面を強く表象していた。
+    paragraph: p69
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p78]]'
+  object: '[[ME_japan_pop_culture_stereotypes]]'
+  claim: 日本文化の記号（ブシドー、スシマイスター等）を無作為に羅列し『適当』と片付ける描写は、海外作品におけるステレオタイプな日本像のパロディであり、メタ的な自虐を含んでいる。
+  quote: あー、うんそうそう。そんな感じ。ブシドーとスモーレスラーとサイバーカラテとスシマイスターがフジヤマゲイシャみたいな
+  paragraph: p78
+  confidence: explicit
+  quotes:
+  - quote: あー、うんそうそう。そんな感じ。ブシドーとスモーレスラーとサイバーカラテとスシマイスターがフジヤマゲイシャみたいな
+    paragraph: p78
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p206]]'
+  object: '[[ME_life_insurance_product]]'
+  claim: 転生を『保険』と呼ぶ比喩は、死後の再生可能性を金融商品・リスクヘッジとして捉える現代的な視点の投影である。
+  quote: この第五階層には、転生という保険が用意されている。
+  paragraph: p206
+  confidence: strong
+  quotes:
+  - quote: この第五階層には、転生という保険が用意されている。
+    paragraph: p206
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p95]]'
+  object: '[[ME_game_gacha_system]]'
+  claim: マレブランケの枠を『空席』や『残弾』として管理し、メンバーの格付けを行う構造は、ガチャシステムの排出率管理および限定ユニットの運用メタファーに似ている。
+  quote: 現在、マレブランケの空席はカニャッツォ、リビコッコ、ドラギニャッツォ、ルビカンテの四つ。ここしばらく新メンバーが追加されたという話は聞かない。
+  paragraph: p97
+  confidence: moderate
+  quotes:
+  - quote: 現在、マレブランケの空席はカニャッツォ、リビコッコ、ドラギニャッツォ、ルビカンテの四つ。ここしばらく新メンバーが追加されたという話は聞かない。
+    paragraph: p97
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p24]]'
+  object: '[[ME_graph_theory_nodes]]'
+  claim: 「仲間の仲間」「友人の友人」という関係性の記述は、社会ネットワーク理論における間接的なノード接続（弱い絆）を指している。
+  quote: 仲間というより仲間の仲間。友人というより友人の友人。
+  paragraph: p25
+  confidence: weak
+  quotes:
+  - quote: 仲間というより仲間の仲間。友人というより友人の友人。
+    paragraph: p25
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_rapunshiel_name_origin
+  note: 人形に『ラプンシエル』という名前が付けられた経緯と、その名が示唆する運命（塔の姫？）との関連性。
+  quotes:
+  - quote: 人形の新たな名はラプンシエル。古い名はTSX-07、あるいはトリシル七号。
+    paragraph: p2
+    quote_verified: true
+  expected_payoff: 彼女のアイデンティティ確立と、既存の物語構造からの脱却。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_dragon_king_seal_risk
+  note: 『名無し』をシナモリアキラに取り込む計画が、トリシューラの意図するところと真逆の効果（暴走など）を生む可能性。
+  quotes:
+  - quote: 「あれをシナモリアキラに取り込もうとする計画があるって話、聞いた？」
+    paragraph: p62
+    quote_verified: true
+  - quote: 「嘘でしょ。正気？」
+    paragraph: p64
+    quote_verified: true
+  expected_payoff: 第六階層以降での巨大な脅威の顕現、または政治的バランスの崩壊。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_rubicante_identity
+  note: マレブランケ最後の空席『ルビカンテ』が指す具体的な人物（ラープ人、火精使い、叡智の民など）と、『狂気・怒り』という属性。
+  quotes:
+  - quote: 「素直に解釈すれば虹犬、亜大陸人、亜竜人って感じだけど。最後のは、ええと何？　ラープ人？　それとも火精使いの格闘家あたり？」
+    paragraph: p124
+    quote_verified: true
+  expected_payoff: 中盤での強力な敵対者、あるいは共闘者の登場。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_alto_death_prediction
+  note: アルト・イヴニルが負けて存在の危機に立たされるという不吉な予想。これは単なる懸念でなく確定した未来か？
+  quotes:
+  - quote: 「アルト・イヴニルが負けて存在の危機に立たされた時。私たちは」
+    paragraph: p143
+    quote_verified: true
+  - quote: 「縁起でもないこと言わないでくれる？！」
+    paragraph: p145
+    quote_verified: true
+  expected_payoff: 物語のクライマックスにおけるアルトの敗北と、姉妹の選択。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_reincarnation_insurance_condition
+  note: 第五階層に用意されている『転生という保険』が、誰に対してどのように機能するのか。条件は？
+  quotes:
+  - quote: 「もしも大切な人が最悪の結末を迎えた時。」
+    paragraph: p205
+    quote_verified: false
+  - quote: 「この第五階層には、転生という保険が用意されている。」
+    paragraph: p206
+    quote_verified: false
+  expected_payoff: 最終決戦後のエピローグにおける、アルトまたは姉妹の再登場。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命を『保険』として商品化し、死後の希望を確保するための冷徹な実用主義。
+  weight: 0.8
+  quotes:
+  - quote: 「ドラギニャッツォが亜竜王のために温存されている封印なら」
+    paragraph: p199
+    quote_verified: true
+  - quote: 「それは『アレッテ』にだって使えるはず」
+    paragraph: p203
+    quote_verified: true
+  note: 感情を排除し、死後再生のメカニズム（転生）を戦略的リソースとして利用する姿勢。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語構造（シナリオ）そのものへの不信と、キャラクターの自律性の希求。
+  weight: 0.7
+  quotes:
+  - quote: 「レッテはガロアンディアンとラフディの王権の継承者として作られたお人形。でもそれって結局、既知の神話でしょう？」
+    paragraph: p157
+    quote_verified: false
+  - quote: 「未知なる末妹に到達するためのアプローチというより、その前提に見えない？」
+    paragraph: p157
+    quote_verified: false
+  note: メタフィクション的な視点から、主人公（アルト）が作者の意図通りの『英雄』であることへの疑念。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「生」か「死」かの二項対立を越え、「共に在る」ための手段としての受動的な存在肯定。
+  weight: 0.6
+  quotes:
+  - quote: 「私たち、あの子と一緒に死ぬべき？　傷だらけでも生きるべき？」
+    paragraph: p172
+    quote_verified: true
+  - quote: 「たとえ異なる存在になってしまっても、生まれ変わってそこにいてくれるなら。それはきっと、希望になる。」
+    paragraph: p207-p208
+    quote_verified: false
+  note: 愛する人の死を拒絶し、記憶と関係性の継続を優先する切実な願望。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記号（名前・シンボル）の権力と、それを用いた世界支配の試み。
+  weight: 0.4
+  quotes:
+  - quote: 「名無しに名を与えると言えばそれらしく聞こえるが、それがいい結果を生むとはとても思えなかった。」
+    paragraph: p92
+    quote_verified: false
+  - quote: 言葉遊びでしかないが、それこそが呪術の本質だ。
+    paragraph: p23
+    quote_verified: true
+  note: 命名行為が現実を規定する力を持つという魔術的・言語哲学的テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

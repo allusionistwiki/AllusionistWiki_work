@@ -1,0 +1,232 @@
+chapter: ch5119
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 21
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p35]]'
+  object: '[[ME_Rayleigh_Scattering]]'
+  claim: 呪術師の「青は青じゃないものによって規定される」という定義は、物理的なレイリー散乱（波長が短い光ほど散乱する）を、記号論的・構造主義的な言語ゲームへ置き換えたメタファーである。
+  quote: 'そして、とある呪術師はこう語る。
+
+    「青は青じゃないものによって規定される」'
+  paragraph: p33-p35
+  confidence: strong
+  quotes:
+  - quote: 'そして、とある呪術師はこう語る。
+
+      「青は青じゃないものによって規定される」'
+    paragraph: p33-p35
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p184]]'
+  object: '[[ME_Firewall]]'
+  claim: 霊体同士の通信遮断を「ファイヤーウォール」や「不正なアクセスのトレース」と呼ぶことで、魔法的な防壁を現代の情報セキュリティ技術（ネットワークセキュリティ）に直結させ、異世界をサイバー空間として捉えている。
+  quote: 正体不明の霊的侵入に対して、自動的に作動したファイヤーウォールが通信を遮断する。受動で発動・維持されるこの防壁は、不正なアクセスを逆にトレースして侵入者に対して反撃を行う機能も有している。
+  paragraph: p184
+  confidence: explicit
+  quotes:
+  - quote: 正体不明の霊的侵入に対して、自動的に作動したファイヤーウォールが通信を遮断する。受動で発動・維持されるこの防壁は、不正なアクセスを逆にトレースして侵入者に対して反撃を行う機能も有している。
+    paragraph: p184
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p246]]'
+  object: '[[ME_Moe_Avatar_Trope]]'
+  claim: アバター（虚拟形象）の造形に対する「顔以外完全防御」「下半身が扇情的」というツッコミは、現代のスマホゲームやVTuber文化における「キャラデザと物理法則の乖離」および「萌え要素への過剰反応」をパロディ化している。
+  quote: 'び、美少女！
+
+    顔以外完全防御の上半身とは打って変わって、防御力弱すぎな下半身はあれ一体どういうことなの。ちょっと扇情的に過ぎないだろうか。'
+  paragraph: p246-p248
+  confidence: strong
+  quotes:
+  - quote: 'び、美少女！
+
+      顔以外完全防御の上半身とは打って変わって、防御力弱すぎな下半身はあれ一体どういうことなの。ちょっと扇情的に過ぎないだろうか。'
+    paragraph: p246-p248
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p78]]'
+  object: '[[ME_GUI_Metaphor]]'
+  claim: アストラル界の知覚を「グラフィカルユーザーインターフェース（GUI）」に喩えることで、世界認識の深さや情報量の問題を、現代のOS操作やゲームUIの概念を用いて解説している。
+  quote: 私はまだ呪術についての理解が浅いから、視覚的、感覚的に捉えやすいグラフィカルユーザーインターフェースを用いてこの曖昧な世界を泳いでいる。
+  paragraph: p78
+  confidence: explicit
+  quotes:
+  - quote: 私はまだ呪術についての理解が浅いから、視覚的、感覚的に捉えやすいグラフィカルユーザーインターフェースを用いてこの曖昧な世界を泳いでいる。
+    paragraph: p78
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p424]]'
+  object: '[[ME_Tritshula_Neurology]]'
+  claim: 口づけに対する反応の鈍さを「トリシューラ（Trichotillomania? No, likely referencing neurological
+    thresholds/aphasia）」のような現象と評するのは、感情を神経学的な閾値や入力処理の問題として客観視する冷笑的視点を示唆する。
+  quote: 「入力された感覚が閾値を超えなかったとか。トリシューラみたい」
+  paragraph: p424
+  confidence: moderate
+  quotes:
+  - quote: 「入力された感覚が閾値を超えなかったとか。トリシューラみたい」
+    paragraph: p424
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_p395]]'
+  object: '[[ME_Structuralism]]'
+  claim: 「色とは連関のこと」という結論は、言語学者ソシュールの構造主義（意味は差異の体系で決まる）を視覚知覚に適用し、「青」という概念を絶対的な色から相対的な関係性へ再定義する。
+  quote: つまり『青』とは構造の中にある。色とは連関のこと
+  paragraph: p395
+  confidence: strong
+  quotes:
+  - quote: つまり『青』とは構造の中にある。色とは連関のこと
+    paragraph: p395
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Harbert_Identity
+  note: ハル（ハルベルト）の正体。槍神との関連、三叉の槍の意味、そして「ハルのもの」という発言が意味する支配関係・契約の有無。
+  quotes:
+  - quote: 「ハルはハル。三叉の槍――ちょっと変則的だけれど」
+    paragraph: p338
+    quote_verified: true
+  - quote: 「アズは、今からハルのものだから」
+    paragraph: p442
+    quote_verified: true
+  expected_payoff: ハルベルトがキール隊の青年（主人公）と同一人物であるか、あるいは彼を操る存在・保護者であることが明かされる。アズーリアの「所有」宣言が呪術的な束縛か愛情表現かの回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Name_Roots
+  note: アズーリアという名の由来と、故郷における「引用」という習慣の背景。
+  quotes:
+  - quote: 故郷では名前を異世界から『引用』するという習慣がある。
+    paragraph: p102
+    quote_verified: true
+  - quote: アズーリアという名前の意味と来歴を、私は知らないのだ。
+    paragraph: p104
+    quote_verified: true
+  expected_payoff: アズーリアが異世界からの転生者・引用された存在であることの決定的証拠、またはその「引用元」への帰還要求。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Ghost_Usage
+  note: 死霊使い（幽霊）によるデータ収集と通報の仕組み。ハルが「通報しておく」と言ったことで、アズーリアへの監視体制がどう変化するのか。
+  quotes:
+  - quote: あれは幽霊――死霊系統の使い魔。本体の死霊使いがデータを収集するための端末
+    paragraph: p323
+    quote_verified: true
+  - quote: 「そう大それた犯罪に使えるような情報じゃないから、あなたは気にしなくていい――ハルが通報しておく」
+    paragraph: p334
+    quote_verified: true
+  expected_payoff: 大神院や監視組織との対立におけるハルの政治的立ち位置、またはアズーリアの「処刑」回避への布石。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Faceless_Nature
+  note: 鏡に映らないという特性が単なる呪術的防御なのか、存在そのものの欠損を意味するのか。
+  quotes:
+  - quote: 私は自分で自分の顔を見たことが無い。鏡も窓も水たまりも、光を反射するようなものに私は映らない。
+    paragraph: p107
+    quote_verified: true
+  expected_payoff: アズーリアが実体を持たない「概念」の存在であること、またはハルにのみ見える理由（認識者としての特権）の解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「青」という記号を介した知覚の相対化と、他者との関係性による自己定義
+  weight: 0.9
+  quotes:
+  - quote: 「青は青じゃないものによって規定される」
+    paragraph: p35
+    quote_verified: true
+  - quote: つまり『青』とは構造の中にある。色とは連関のこと
+    paragraph: p395
+    quote_verified: true
+  note: 物理現象としての青から、言語・関係性による定義へのシフト。ハルの登場により、アズーリアの孤独な知覚が「他者との差異」によって補完される過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: デジタル空間（アストラル）におけるアイデンティティの脆弱性と監視社会化
+  weight: 0.8
+  quotes:
+  - quote: アバターイメージとネーム、それから総呪力量、アクセスした地域、あと会話内容と談話室での呪術行使履歴――多分、アレにも同じだけの情報を盗られたと思っていい
+    paragraph: p319
+    quote_verified: true
+  - quote: 昼夜問わず監視付きっていうのが少し疲れるけれど
+    paragraph: p57
+    quote_verified: true
+  note: メタバース的な空間でのプライバシー侵害、データの盗難、そしてそれが現実の処刑・社会的不利益に直結する恐怖。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力と愛着の境界線が曖昧な、歪んだ関係性の形成
+  weight: 0.7
+  quotes:
+  - quote: 「アズは、今からハルのものだから」
+    paragraph: p442
+    quote_verified: true
+  - quote: 頂点から底へ、落下する距離が今までで最大だから、これほどまでに衝撃を受けているのだと思う。
+    paragraph: p439
+    quote_verified: true
+  note: ハルの一方的な支配・所有宣言と、アズーリアの激しい反発（暴力）が交錯する中で、「所有」という概念を通じた新たな絆（あるいは呪縛）が形成される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「名前の不在」による自己喪失と、名前を掌握されたことによる救済
+  weight: 0.6
+  quotes:
+  - quote: 自らもそれを知らないが故に他者に名前を掌握される危険性が減る。
+    paragraph: p105
+    quote_verified: true
+  - quote: ハルベルト。そういう名前。ハルでいい
+    paragraph: p344
+    quote_verified: true
+  note: 自分自身の本名を知らないアズーリアが、相手（ハル）の本名を知り、名乗り合うことで「関係性の中で定義された存在」へと変容する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

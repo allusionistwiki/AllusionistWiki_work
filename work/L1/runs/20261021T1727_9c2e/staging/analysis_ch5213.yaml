@@ -1,0 +1,245 @@
+chapter: ch5213
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 4
+  quotes_verified: 10
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p318]]'
+  object: '[[ME_social_media_troll_abuse]]'
+  claim: p318のコメント群は、SNSや動画サイトにおける匿名の悪意あるコメント（誹謗中傷・炎上）の構造そのものを描き、歌姫を殺害する手段として『情報拡散による精神的圧迫』を用いている。
+  quote: 「つーか誰」「これ念写？」「ゴリ押し死ね」「なにあれ、気持ち悪」「っつーか異獣じゃねえの？」
+  paragraph: p318
+  confidence: strong
+  quotes:
+  - quote: 「つーか誰」「これ念写？」「ゴリ押し死ね」「なにあれ、気持ち悪」「っつーか異獣じゃねえの？」
+    paragraph: p318
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p201]]'
+  object: '[[ME_game_character_interchangeability]]'
+  claim: ユネクティアの「君は交換可能な存在だ」という発言は、ゲームにおけるキャラクターのデータとしての可換性や、物語における主人公の代替可能性を暗示するメタフィクション的な言明である。
+  quote: 「君は交換可能な存在だということだよ、アズーリア。そしてフィリスも同じだ。唯一無二の存在なんてこの世にはいやしないということさ。」
+  paragraph: p201
+  confidence: strong
+  quotes:
+  - quote: 「君は交換可能な存在だということだよ、アズーリア。そしてフィリスも同じだ。唯一無二の存在なんてこの世にはいやしないということさ。」
+    paragraph: p201
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p355]]'
+  object: '[[ME_illusionist_magician]]'
+  claim: エスフェイルがアズーリアを「三流以下の手品師（イリュージョニスト）」と呼ぶのは、この作品タイトル『幻想再帰のアリュージョニスト』への直接的な自己言及であり、敵対者としてのミラー構造を示す。
+  quote: 「一体どれだけ予断と油断を重ねれば気が済むのだ？　ええ？　三流以下の手品師（イリュージョニスト）が！！」
+  paragraph: p355
+  confidence: explicit
+  quotes:
+  - quote: 「一体どれだけ予断と油断を重ねれば気が済むのだ？　ええ？　三流以下の手品師（イリュージョニスト）が！！」
+    paragraph: p355
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p247]]'
+  object: '[[ME_parallel_processing_multithreading]]'
+  claim: エスフェイルが「四つ脚」を分離して同時並行で戦闘を行う様子は、コンピュータのマルチスレッド処理や分散コンピューティングにおける並列実行のアナロジーとして読める。
+  quote: エスフェイルは、自分の名前が『闇の脚』であることと、『狼の脚は四つ』であるという二つの事実を関連付けして、自らを四分割しても自我を強固に維持することに成功していたのだ。
+  paragraph: p247
+  confidence: moderate
+  quotes:
+  - quote: エスフェイルは、自分の名前が『闇の脚』であることと、『狼の脚は四つ』であるという二つの事実を関連付けして、自らを四分割しても自我を強固に維持することに成功していたのだ。
+    paragraph: p247
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p316]]'
+  object: '[[ME_meme_propagation_viral]]'
+  claim: エーラマーンの加護による「風説が一気に膨れあがり」は、ネットミームやフェイクニュースのバイラル拡散（病毒のように広がる現象）を物理的な攻撃力として可視化したものである。
+  quote: 噂を司る天使、囁きのエーラマーンの加護を引き出した神働術によって全世界に流布した風説が一気に膨れあがり、刃となって歌姫をずたずたに引き裂いていく。
+  paragraph: p316
+  confidence: strong
+  quotes:
+  - quote: 噂を司る天使、囁きのエーラマーンの加護を引き出した神働術によって全世界に流布した風説が一気に膨れあがり、刃となって歌姫をずたずたに引き裂いていく。
+    paragraph: p316
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p401]]'
+  object: '[[ME_sunk_cost_and_justification]]'
+  claim: アズーリアが殺してきた同胞への罪悪感とエスフェイルの復讐は、「地獄への道行きは、屍で舗装されている」という句を通じて、過去の行為を正当化し続ける心理的構造（サンクコストの呪縛）を描写している。
+  quote: 地獄への道行きは、屍で舗装されている。ただひたすらに殺し続けてきた結果。その果ての景色がこれだった。
+  paragraph: p401-403
+  confidence: moderate
+  quotes:
+  - quote: 地獄への道行きは、屍で舗装されている。ただひたすらに殺し続けてきた結果。その果ての景色がこれだった。
+    paragraph: p401-403
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p179]]'
+  object: '[[ME_cosmic_horror_indifference]]'
+  claim: ユネクティアの巨大すぎる「影」が理解不能であるという描写は、ラブクラフト的な宇宙恐怖における「人間の認知能力を超えた存在の不可知性」を指喩している。
+  quote: 広大に拡散した、光、像、景色。それは影。視覚的に理解できる世界の全てがユネクティアなのだ。余りにも巨大すぎる怪物の中の怪物。
+  paragraph: p181-185
+  confidence: moderate
+  quotes:
+  - quote: 広大に拡散した、光、像、景色。それは影。視覚的に理解できる世界の全てがユネクティアなのだ。余りにも巨大すぎる怪物の中の怪物。
+    paragraph: p181-185
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Starting_Ending_Pair
+  note: ユネクティアが「始まりの魔将は終わりの魔将と一揃い」と発言。これは序盤の魔将（1番？）と終盤の魔将（15番エスフェイルなど）がペアであることを示唆し、物語の構造（対称性・循環）に関わる重要伏線。
+  quotes:
+  - quote: 始まりの魔将は終わりの魔将と一揃いになっているはずだ。つまりこれは――全く、あの方の気紛れにも困ったものだ。
+    paragraph: p193
+    quote_verified: true
+  expected_payoff: 序盤に登場した魔将（例：エスフェイル以前の大魔将や1番目の魔将）と、終盤の敵がペアであることが判明し、彼らの能力や運命が相互に関連していることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Yunekia_Original_Name
+  note: ユネクティアの旧名が「アズーリア」に似ており、「ヒントは3-28の中に隠されている」と後書きで言及。これは作品内世界（ch5213）と外部世界（読者の視点、あるいは過去章）の接続を示唆するメタ的伏線。
+  quotes:
+  - quote: 実は誕生した当時はアズーリアみたいな別の名前があったみたいです。ヒントは3-28の中に隠されています。探してみてくださいね♪
+    paragraph: p467
+    quote_verified: true
+  expected_payoff: 第3章のどこかにユネクティア（または関連する存在）の真名、あるいは「アズーリア」という名前がなぜ現在の主人公に使われているかの起源が記されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Esfail_Four_Legs_Split
+  note: エスフェイルが「四つ脚」を分離し、本体の一部がアズーリアの目の前に現れた（p239）。この分割状態がどの程度持続し、完全な合体時に何が変わるのか、また「意識分散の仇」という弱点がどう克服されるかが鍵。
+  quotes:
+  - quote: 馬鹿めが。私は最初から四つ脚だ。
+    paragraph: p237
+    quote_verified: false
+  - quote: 意識を色々な場所に分散させていたせいで一カ所に集中できなかったのが仇になった。
+    paragraph: p249
+    quote_verified: true
+  expected_payoff: エスフェイルの「四分割」状態が弱点として突かれるシーン、または逆に完全合体によって最強形態になるシーンでの対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tamara_Death_Catalyst
+  note: タマラ（使い魔・情報収集役）の死がアズーリアの敗北と絶望の引き金となった。彼女が残した情報、または彼女の死がもたらす「観測者の死」が物語の進行（アキラへの影響など）にどう作用するか。
+  quotes:
+  - quote: 私のために、戦場を俯瞰して情報を集めてくれていた私のもう一人の先生にして使い魔。...その彼女が、目を瞑ったまま静かに息絶えていた。
+    paragraph: p344-347
+    quote_verified: false
+  expected_payoff: アキラがタマラの死を知り、復讐を誓う、あるいはタマラが仕掛けていた最後の防御・情報転送が発動する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Ernetomoran_Corpses
+  note: エスフェイルがエルネトモランを「死人で溢れかえっておる」と宣言。この街の状況が後の展開（探索者たちの到着、クエスドレムの支配確立など）にどう影響するか。
+  quotes:
+  - quote: 「既に死人で溢れかえっておるわ！...狂乱の渦に飲まれたこの地はじきに滅ぶ。」
+    paragraph: p414-416
+    quote_verified: false
+  expected_payoff: 街が完全に死霊の巣窟となり、生存者が極端に減ることで探索者側の補給や支援が断たれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と情報による暴力（言霊・誹謗中傷）の物理的破壊力
+  weight: 0.9
+  quotes:
+  - quote: 「つーか誰」「これ念写？」「ゴリ押し死ね」...あらゆるフィルタリングを突破して、無数の悪意と嘲笑が歌姫に降り注ぐ。
+    paragraph: p318-320
+    quote_verified: false
+  - quote: 邪視は呪文より速く、呪文より強い。...ユネクティアの幻姿が映す『影』に負けてしまう。
+    paragraph: p189-191
+    quote_verified: false
+  note: 現代社会のネット炎上やSNS上の暴力をファンタジーの呪術（言霊・噂の天使）として実体化させ、言葉が肉体を殺す様子を強調している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 存在の希薄性と交換可能性（自己の喪失）
+  weight: 0.8
+  quotes:
+  - quote: 「君は交換可能な存在だということだよ、アズーリア。そしてフィリスも同じだ。唯一無二の存在なんてこの世にはいやしないということさ。」
+    paragraph: p201
+    quote_verified: false
+  - quote: 私はガルズの金眼が信じる『空虚』に負け...ユネクティアの幻姿が映す『影』に負けてしまう。
+    paragraph: p191
+    quote_verified: false
+  note: 主人公アズーリアのアイデンティティが「名前」や「個体」としての確固たるものではなく、世界にとって代わりのきく「記号」に過ぎないという虚無感。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 復讐と同胞殺しの連鎖（業の重さ）
+  weight: 0.7
+  quotes:
+  - quote: エスフェイルには、私を憎み、殺す正当な理由がある。...地獄への道行きは、屍で舗装されている。
+    paragraph: p405-401
+    quote_verified: false
+  - quote: 同胞を殺されて憎いか、青い鳥の狂信者。ところでここにいる貴様の同胞、名は何というのだ？
+    paragraph: p384
+    quote_verified: true
+  note: 敵（エスフェイル）が味方（夜の民修道騎士）を殺し、主人公も敵を殺してきたという「相互の加害」が描かれ、単純な善悪を超えた悲劇的な対称性を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 認知と実体の乖離（不可視性・幻影）
+  weight: 0.6
+  quotes:
+  - quote: その気になれば幻姿霊はどのような姿にもなれる。...相手の存在が掴めない。
+    paragraph: p77-80
+    quote_verified: false
+  - quote: 視覚的に理解できる世界の全てがユネクティアなのだ。余りにも巨大すぎる怪物の中の怪物。
+    paragraph: p183-185
+    quote_verified: true
+  note: 敵の正体（影＝光）を認知できず、巨大な存在を「見えない」と思い込むことで敗北する、「見る」ことの限界と恐怖。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

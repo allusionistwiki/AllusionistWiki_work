@@ -1,0 +1,226 @@
+chapter: ch5364
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 21
+  quotes_total: 22
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5364_疑似餌]]'
+  object: '[[ME_ゲームの敵キャラ・NPC]]'
+  claim: 物語内の戦闘において、敵キャラクターが「疑似餌」と呼ばれる模倣体を用いて罠を仕掛ける構造は、現代のオンラインゲームやシミュレーションにおけるAI/NPCの挙動（囮行動）と構造的に一致している。
+  quote: 「馬鹿め、かかったな！　お前の腕の中にいるリールエルバはボクの触手が模倣した疑似餌だ！　『影』として育てられたボクの模倣は完璧――始祖王であっても見破ることはできなかったというわけだ！」
+  paragraph: p66
+  confidence: strong
+  quotes:
+  - quote: 「馬鹿め、かかったな！　お前の腕の中にいるリールエルバはボクの触手が模倣した疑似餌だ！　『影』として育てられたボクの模倣は完璧――始祖王であっても見破ることはできなかったというわけだ！」
+    paragraph: p66
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5364_聖マローズ教団]]'
+  object: '[[ME_現代の社会不安・炎上・SNS]]'
+  claim: 聖マローズ教団が崇拝する「災い」のリストに「ネットバトル」「なりすまし」「情報漏洩」など現代特有の社会的混乱が並べられており、宗教的終末論が現代のデジタル社会病理を風刺している。
+  quote: すなわち、天変地異、悪疫病魔、不作、戦争、虐殺、人心の荒廃、炎上、ネットバトル、なりすまし、ソーシャルエンジニアリング、情報漏洩、デマゴギー、サーバーダウン、マテリアル界とアストラル界の転倒――。
+  paragraph: p21
+  confidence: strong
+  quotes:
+  - quote: すなわち、天変地異、悪疫病魔、不作、戦争、虐殺、人心の荒廃、炎上、ネットバトル、なりすまし、ソーシャルエンジニアリング、情報漏洩、デマゴギー、サーバーダウン、マテリアル界とアストラル界の転倒――。
+    paragraph: p21
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5364_サリア]]'
+  object: '[[ME_ゲームの難易度調整・リトライ]]'
+  claim: サリアが「7回試した」「このルートでいいな」と語る発言は、プレイヤーが高難度ステージを何度もリトライして最適解（攻略ルート）を見つける行為のメタファーである。
+  quote: 「とりあえず七回試したけど。うん、やっぱ最速で駆けつければこのタイミングで割り込んで面倒なカシュラムを処理できる。ラリスキャニア経由で取り込まれたカーティスからのブレイスヴァとマロゾロンドの同時降臨はもうやりたくないし、このルートでいいな」
+  paragraph: p163
+  confidence: strong
+  quotes:
+  - quote: 「とりあえず七回試したけど。うん、やっぱ最速で駆けつければこのタイミングで割り込んで面倒なカシュラムを処理できる。ラリスキャニア経由で取り込まれたカーティスからのブレイスヴァとマロゾロンドの同時降臨はもうやりたくないし、このルートでいいな」
+    paragraph: p163
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5364_ブレイスヴァカラテ]]'
+  object: '[[ME_形意拳・実在武術の融合]]'
+  claim: 架空の武術「ブレイスヴァカラテ」の起源として「形意拳」や「サイバーカラテ道場」が言及されており、異世界の武術体系が実在する中国武術と近未来SF的要素（データベース化）を混交させて構築されている。
+  quote: そのルーツはカシュラムの古武術とサイバーカラテ道場のデータベースに蓄積されていた形意拳と呼ばれる武術まで遡れるという。同じものから違う成果を得ていたカーティスはそれを知っていた。
+  paragraph: p117
+  confidence: explicit
+  quotes:
+  - quote: そのルーツはカシュラムの古武術とサイバーカラテ道場のデータベースに蓄積されていた形意拳と呼ばれる武術まで遡れるという。同じものから違う成果を得ていたカーティスはそれを知っていた。
+    paragraph: p117
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5364_ドラトリアの埋葬]]'
+  object: '[[ME_現代の病院・ICU・延命治療]]'
+  claim: 神殿地下が「蘇生能力の低い者」を一時的に預かり、「半ば病院の寝台として機能する」という記述は、宗教施設が現代医療システム（特に集中治療やコールドスリープ的待機）の代替機能を担っていることを示唆している。
+  quote: 各地の宗教施設の地下は納骨堂や地下墓所となっており、半ば病院の寝台として機能していた。
+  paragraph: p6
+  confidence: strong
+  quotes:
+  - quote: 各地の宗教施設の地下は納骨堂や地下墓所となっており、半ば病院の寝台として機能していた。
+    paragraph: p6
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_ch5364_カーティスの信奉者]]'
+  object: '[[ME_コピーの倫理・クローン論争]]'
+  claim: 模倣品（疑似餌）であっても「リールエルバであることに変わりはない」「どの彼女も尊重してやりたい」と肯定するカーティスの論理は、オリジナルとコピーの区別を無効化し、個体の尊厳を拡張する哲学的立場を取っている。
+  quote: 「真似を本物と区別しない」「それが私たちの流儀」「クローンでも」「疑似餌でも」「演じられた役でも」「リールエルバであることに変わりはないよ」「どの彼女も尊重してやりたい」
+  paragraph: p79
+  confidence: strong
+  quotes:
+  - quote: 「真似を本物と区別しない」「それが私たちの流儀」「クローンでも」「疑似餌でも」「演じられた役でも」「リールエルバであることに変わりはないよ」「どの彼女も尊重してやりたい」
+    paragraph: p79
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_サリアの試行回数とループ
+  note: サリアが「7回試した」「パターン化してある」と述べており、彼女が時間ループやシミュレーションによってこの瞬間を最適化していることが示唆される。彼女の背後にいる「時計を抱えた半透明の蝿」は時間の管理者・観測者である可能性が高い。
+  quotes:
+  - quote: 「とりあえず七回試したけど。うん、やっぱ最速で駆けつければこのタイミングで割り込んで面倒なカシュラムを処理できる。
+    paragraph: p163
+    quote_verified: true
+  - quote: 背後には時計を抱えた半透明の蝿。
+    paragraph: p165
+    quote_verified: true
+  expected_payoff: サリアが時空をループ・管理する存在であることの確証、または彼女自身も誰かのシミュレーション下にあるというメタ構造の明かされる場面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ラクルラールの真意と『塔』
+  note: ラリスキャニアが「ラクルラール先生」に拾われたこと、そして「塔の愚かな長老たち」を追い落とすという野望を持つ。ラクルラールがなぜラリスキャニアを利用し、カーティスとぶつけようとしているのか（「裏で糸を引いている」）が不明。
+  quotes:
+  - quote: 選定序盤でリールエルバに敗れたあと――ラクルラール先生に拾われなければ今のボクは無かった。
+    paragraph: p55
+    quote_verified: true
+  - quote: 「こんな所にまで現れるとは。裏で糸を引いているラクルラールとやらは、ここで我々（カーティス）と君をぶつけてどちらかを潰したいのかな」
+    paragraph: p116
+    quote_verified: true
+  expected_payoff: ラクルラールというキャラクターの登場、および『塔』という組織・施設が世界システムにどう関与しているかの解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カシュラム十字とオルヴァの正体
+  note: ラリスキャニアのフード内で「紫色の十字」が輝き、オルヴァが「ブレイスヴァカラテ」を用いて時空を操る。聖マローズ教団（虚無・終末）とカシュラム武術（実在する形意拳由来）がどう接続しているのか。「広義の終末思想」を持つ者がカシュラム人となる定義の深層。
+  quotes:
+  - quote: フードの内側で紫色の十字が輝いたかと思うと、目に見えない『何か』がカーティスの触手を上下から強引に挟み、千切り潰した。
+    paragraph: p99
+    quote_verified: true
+  - quote: 「聖マローズ教団とカシュラム人の共通点――広義の終末思想か」
+    paragraph: p129
+    quote_verified: true
+  expected_payoff: オルヴァが単なる六王の一人ではなく、カシュラム（あるいはその概念）を代表する存在であることの証明、および彼とラリスキャニアの深い関係性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_『自分』たちの制御不能な増殖
+  note: カーティスが「鼠の大群」として出現し、「偏在し、密集し、分散し、溢れ出して止まらない」と記述される。彼らがなぜここまで数で勝るのか、その生態学的・魔法的なメカニズム（吸血鬼の増殖特性？）が問われる。
+  quotes:
+  - quote: それは偏在し、密集し、分散し、溢れ出して止まらない。
+    paragraph: p61
+    quote_verified: true
+  - quote: こちらには、圧倒的な数の力があるのだから。
+    paragraph: p88
+    quote_verified: true
+  expected_payoff: カーティスという存在の生態系としての危険性、または彼らが「総体」として振る舞うためのリソース管理システムの詳細。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: シミュレーションと最適化された暴力
+  weight: 0.9
+  quotes:
+  - quote: 「とりあえず七回試したけど。うん、やっぱ最速で駆けつければこのタイミングで割り込んで面倒なカシュラムを処理できる。
+    paragraph: p163
+    quote_verified: true
+  - quote: パターン化してあるから足掻いても無駄だけど、せいぜいなんか珍しい断末魔台詞とか捻り出して死ね」
+    paragraph: p171
+    quote_verified: true
+  note: 戦闘が「試行回数」や「ルート」で語られ、死さえも「パターン化された演出」として消費される構造は、ゲーム的・シミュレーション的な世界観における暴力の陳腐化と最適化を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 模倣とコピーのアイデンティティ肯定
+  weight: 0.8
+  quotes:
+  - quote: 「リールエルバであることに変わりはないよ」「どの彼女も尊重してやりたい」「カーティス（わたし）は子孫の助けになりたい」
+    paragraph: p79
+    quote_verified: true
+  - quote: 疑似餌をリールエルバとして…すっかりリールエルバのファンになってしまったらしい。
+    paragraph: p81
+    quote_verified: false
+  note: オリジナルとコピー（疑似餌）の区別を意図的に抹消し、模倣品に対して愛着（祖父母の孫への愛）を抱くカーティスの姿は、ポスト・ヒューマンやクローンにおけるアイデンティティの拡張を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 終末思想と文明批判の混交
+  weight: 0.7
+  quotes:
+  - quote: 「聖マローズ教団とカシュラム人の共通点――広義の終末思想か」
+    paragraph: p129
+    quote_verified: true
+  - quote: 文明は堕落。発展は邪悪。機械による統治など以ての外。
+    paragraph: p25
+    quote_verified: true
+  note: 自然災害や社会病理を神聖視する教団と、時空を操る武術家が「終末思想」で結ばれている描写は、技術文明の限界と破滅への回帰をテーマとする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 数の暴力に対する個人（天才）の超越
+  weight: 0.6
+  quotes:
+  - quote: 答えは単純で、数で上回ればいい。戦いは数だ。当然の帰結である。
+    paragraph: p141
+    quote_verified: true
+  - quote: 外界を減速、自己を加速させることで事実上の時間停止を実現して攻め立てるオルヴァに、多さだけで攻めていたカーティスは次第に追い込まれていった。
+    paragraph: p150
+    quote_verified: true
+  note: 圧倒的な「数（カーティス）」を、「時空操作」という個の極限能力（オルヴァ）が凌駕する展開は、集団的暴力と個人の超越的能力の対比を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

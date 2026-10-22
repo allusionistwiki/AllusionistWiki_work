@@ -1,0 +1,151 @@
+chapter: ch5115
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 15
+  quotes_total: 15
+items:
+- kind: mystery
+  name: MY_locked_forms_8
+  note: ウィッチオーダーの上位9形態のうち、既に1つ（ヘリステラ）が解放されたため、残りの8つのロック解除条件と能力内容。
+  quotes:
+  - quote: 今はまだ不完全で、機能もあと八つロックされているけれど
+    paragraph: p53
+    quote_verified: true
+  - quote: なるほど、ってことは後八つか。早速行くぞ、射影三昧耶形（アトリビュート）・一番！
+    paragraph: p74
+    quote_verified: true
+  expected_payoff: 今後の戦闘や物語の進展で、残りの8形態が順次アンロックされ、各々が異なる神話的起源を持つことが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_refusal_countdown_270s
+  note: 合一状態の持続限界と「強制拒絶」発動までの残り時間。
+  quotes:
+  - quote: （強制拒絶（リフューズ）まであと270秒！　なんか異物感すごいねこれ。うええってなる――アキラくん気持ち悪いから早く済ませちゃって！　ただでさえ持続時間短いんだから）
+    paragraph: p103
+    quote_verified: true
+  expected_payoff: 270秒以内に決着がつかなかった場合、強制拒絶による分離と精神的・肉体的な代償（反動）が発生する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_acashic_record_link
+  note: 紀元槍がアカシックレコードとダイレクトリンクを形成した事象の深層。
+  quotes:
+  - quote: （紀元槍――アカシックレコードとのダイレクトリンク形成完了。追加コンバージョン、タイプ【車輪の女王】いくよ！）
+    paragraph: p123
+    quote_verified: true
+  expected_payoff: 世界全体の情報基盤であるアカシックレコードへのアクセスが、物語の結末や世界の構造理解に重要な役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_symmetry_of_burden
+  note: トリシューラが維持コストと被弾負担を一方的に担っているという非対称性。
+  quotes:
+  - quote: 実際の所、呪力による維持コストを支払うのは主にトリシューラで、外側で攻撃を受け止めるのもまたトリシューラだ。負担は一方的にトリシューラにだけのし掛かる。ここからは一切のミスが許されない。
+    paragraph: p105
+    quote_verified: true
+  expected_payoff: トリシューラの消耗や限界、あるいはアキラへの依存度が高まり、後の展開でトリシューラの存在意義や犠牲に関するドラマが生じる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_self_identity_damage_recovery
+  note: 自己認識の損傷を互いで補完するメカニズムの詳細と限界。
+  quotes:
+  - quote: 俺の傷に『トリシューラが思い描くシナモリ・アキラ』が流れ込み、トリシューラの傷に『俺が思い描くトリシューラ』が流れ込んでいく。二人の合一は傷の埋め合いなのである。
+    paragraph: p99
+    quote_verified: true
+  expected_payoff: 自己認識の侵食が進んだ際、アキラとトリシューラの個としての境界が曖昧になり、アイデンティティ崩壊や融合の危機に至る可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による宗教的儀礼（聖婚）の再現と機能化
+  weight: 0.8
+  quotes:
+  - quote: '「聖（ヒエロス）――」
+
+      トリシューラが望み。
+
+      「――婚（ガモス）」
+
+      俺が受け入れる。'
+    paragraph: p15
+    quote_verified: true
+  - quote: 鮮血呪はその使い手に新たな力をもたらしていく。
+    paragraph: p22
+    quote_verified: true
+  note: ヒエロスガモス（聖婚）というキリスト教的神秘主義の用語を、システムアンロックと能力向上のトリガーとして工学的に処理している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己同一性の喪失と相互補完による生存戦略
+  weight: 0.9
+  quotes:
+  - quote: 俺達二人はキロンとの戦いで『俺がシナモリ・アキラであること』『私がトリシューラであること』という自己認識をそれぞれ傷つけられ、一時的に戦闘不能に陥った。
+    paragraph: p95
+    quote_verified: true
+  - quote: どちらかあるいは双方の自己認識が損なわれた時は、その欠落を片方が埋めると。
+    paragraph: p97
+    quote_verified: true
+  note: 強力な合体能力（きぐるみ）は、完全な個の放棄と相互依存を前提としており、強さの裏側にあるアイデンティティの脆弱性を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生をエネルギー保存則的な工学プロセスとして再定義する
+  weight: 0.7
+  quotes:
+  - quote: 輪廻転生の能力特性は、エネルギーの移転。消滅し、直後に出現したエネルギーをアナロジーに基づいて同一のものであると画定することができる。
+    paragraph: p131
+    quote_verified: true
+  - quote: 死んだ運動エネルギーが、生まれ変わって再生した。
+    paragraph: p147
+    quote_verified: true
+  note: 神秘的な「転生」や「不死」を、ギミック的な魔法ではなく、エネルギーの最適化と連続性確保というサイエンティフィックな原理として提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人機一体における非対称な負担と関係性
+  weight: 0.6
+  quotes:
+  - quote: 俺の方は安心感とか多幸感に包まれて心地良いのだが。個人差というか、非対称性みたいなものを感じる。実際の所、呪力による維持コストを支払うのは主にトリシューラで
+    paragraph: p105
+    quote_verified: true
+  note: 一体化の理想（相互補完）と現実（負担の偏り・非対称性）との間に緊張関係があり、これが関係性の力学として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 機械仕掛けの身体に宿る神話的原型
+  weight: 0.5
+  quotes:
+  - quote: 前世、現世、来世を問わず、あらゆる世界に共通する神話のモチーフ、幻想の原型。無数の異世界において共通点が見いだせるものの、ディティールが定まらないゆらぎの神話。
+    paragraph: p118
+    quote_verified: true
+  - quote: その全てを貫くイメージの核心を抽出して鋳型に流し込む事で、絶対に揺るがない呪的強度を獲得する神話（ミシック）級の超呪術兵装。
+    paragraph: p120
+    quote_verified: true
+  note: サイバー空間や機械の義肢を通じて、普遍的神話（アーキタイプ）を兵器として実体化させるというテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

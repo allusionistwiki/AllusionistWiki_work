@@ -1,0 +1,238 @@
+chapter: ch5171
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 23
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_Garzs_Introduction]]'
+  object: '[[ME_Nihilism_Philosophy]]'
+  claim: ガルズの「生も死も等しく空虚」「あらゆることに意味などない」という台詞は、虚無主義的ニヒリズムの古典的な表現をパロディ化し、それを邪視というファンタジー要素で実体化している。
+  quote: あらゆることに意味などない。君たちの殺意も、僕の抵抗も、全てが無意味で無価値だ
+  paragraph: p17
+  confidence: strong
+  quotes:
+  - quote: あらゆることに意味などない。君たちの殺意も、僕の抵抗も、全てが無意味で無価値だ
+    paragraph: p17
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Garzs_Skill_Name]]'
+  object: '[[ME_Biblical_Vanity_Vanity]]'
+  claim: ガルズの奥義名「ヴァニタス・ヴァニタートゥム」は、聖書『コヘレトの言葉』の冒頭にある有名な句を引用し、「虚無」を世界改変の力として再定義している。
+  quote: 【浄界（エリュシオン）】――ヴァニタス・ヴァニタートゥム
+  paragraph: p111
+  confidence: explicit
+  quotes:
+  - quote: 【浄界（エリュシオン）】――ヴァニタス・ヴァニタートゥム
+    paragraph: p111
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_Garzs_Plan]]'
+  object: '[[ME_Terrorism_Technique]]'
+  claim: ガルズによる「十三日後に十三人を殺す」という予告は、現代のテロリストが犯行予告を行い社会的混乱を意図的に引き起こす手口と構造が一致している。
+  quote: 僕はそれまでに十三人を殺す。僕の家には内々で処刑する死刑囚が上る階段を十三段にするという下らない慣習があってね。それへのあてこすりだよ。
+  paragraph: p55
+  confidence: strong
+  quotes:
+  - quote: 僕はそれまでに十三人を殺す。僕の家には内々で処刑する死刑囚が上る階段を十三段にするという下らない慣習があってね。それへのあてこすりだよ。
+    paragraph: p55
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_Lina_Appearance]]'
+  object: '[[ME_Magic_Witch_Standard]]'
+  claim: リーナが箒で空を飛び、紙片（ノート）から呪文を撒き散らす様子は、古典的な魔女のイメージを「掃除」や「整理」という現代的・実用的な行為へと反転させている。
+  quote: 黒い三角帽子が光の軌跡を描きながら空を舞い、手にした螺旋閉じのノートから次々と項を千切り取ってはばらまいていく。
+  paragraph: p138
+  confidence: moderate
+  quotes:
+  - quote: 黒い三角帽子が光の軌跡を描きながら空を舞い、手にした螺旋閉じのノートから次々と項を千切り取ってはばらまいていく。
+    paragraph: p138
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Triad_Naming]]'
+  object: '[[ME_Biological_Organs_Metaphor]]'
+  claim: トライデントの使い魔たちが「右目」「左目」といった器官名で呼ばれることは、組織全体を一つの巨大な生物（魔女）と見なし、構成員をその機能部位として扱う比喩構造を持つ。
+  quote: まことの名はガルズ・マウザ・クロウサー。つい最近加えてもらったばかりの新参者だけれど、心は立派にトライデントの一員のつもりだよ
+  paragraph: p28
+  confidence: strong
+  quotes:
+  - quote: まことの名はガルズ・マウザ・クロウサー。つい最近加えてもらったばかりの新参者だけれど、心は立派にトライデントの一員のつもりだよ
+    paragraph: p28
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Garzs_Eye]]'
+  object: '[[ME_Odins_Eye]]'
+  claim: ガルズの「金色の瞳」が世界を改変する力を持つという設定は、北欧神話におけるオーディンの片眼（智慧と視界の象徴）や、邪視（Medusa/Periaptos）の伝承を想起させる。
+  quote: 底無しの闇に引き摺り込まれるような気がした。輝かんばかりに美しい金眼の中央で、黒目があらゆる光を飲み込もうとして口を開いている。
+  paragraph: p20
+  confidence: moderate
+  quotes:
+  - quote: 底無しの闇に引き摺り込まれるような気がした。輝かんばかりに美しい金眼の中央で、黒目があらゆる光を飲み込もうとして口を開いている。
+    paragraph: p20
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Garzs_Kinship_Lina
+  note: ガルズ・マウザ・クロウサーとリーナ・ゾラ・クロウサーの姓「クロウサー」の関連性。ミルーニャとの関係（腹違いの妹）も含め、一族全体の背景が不明確。
+  quotes:
+  - quote: そして、ガルズ・マウザ・クロウサーと同じ姓を持つ少女。
+    paragraph: p166
+    quote_verified: true
+  - quote: 「くっそ逃げられた。もう少し早く来てればぶっ飛ばせたのにあのやろー」
+    paragraph: p154
+    quote_verified: true
+  expected_payoff: クロウサー一族の成り立ち、トライデントとの関係、リーナが敵対者であるガルズをどう捉えているかの真意が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Lina_Scrambling_Note
+  note: リーナが使用している「螺旋閉じのノート」から紙片を撒き散らす魔法の原理。単なる呪文詠唱ではなく、「掃除」という概念で世界を書き換えるメカニズムの詳細。
+  quotes:
+  - quote: 手にした螺旋閉じのノートから次々と項を千切り取ってはばらまいていく。
+    paragraph: p138
+    quote_verified: true
+  - quote: それはまるで、不浄に満ちた世界を掃除するかのように。
+    paragraph: p147
+    quote_verified: true
+  expected_payoff: リーナの魔法体系が「編集」「削除」「上書き」などの情報操作型であることが判明し、アズーリアの能力との相関が語られる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Triad_Trident_Members
+  note: トライデント（魔女）の使い魔としての「右目」「左目」以外のメンバー（三叉戟なので3つ目、またはそれ以上の構成員）。ガルズとマリーが2人であるため、残りの1人の存在や役割。
+  quotes:
+  - quote: 僕はトライデントの細胞が一人。与えられた器官名は『右目』。
+    paragraph: p28
+    quote_verified: true
+  - quote: 私は『左目』のマリー。力作を何度も壊されて傷付きました。つらいのであなたたちを殺して私も死にます
+    paragraph: p82
+    quote_verified: true
+  expected_payoff: 「口」や「喉」「心臓」など、トライデントの構成要素に対応する他の使い魔が登場し、魔女の全体像が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Rejection_Triad
+  note: アズーリアが「同じグロソラリア（使い魔）」であることを強く拒絶する理由。単なる性格の問題なのか、過去に魔女の使い魔として経験したトラウマや、自身の力の源との関連があるのか。
+  quotes:
+  - quote: 確かに、魔女の使い魔としての資格を有するという点では共通している。それでも、この不吉な男と同じにされるのはどうしようもなく嫌だった。理屈ではなく、感覚がそれを拒絶する。
+    paragraph: p64-p65
+    quote_verified: true
+  expected_payoff: アズーリアの出生や力の起源に関する秘密が明かされ、彼女と魔女トライデントの深遠な因縁が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Marie_Hammer_Chisel
+  note: マリーが「槌」と「鑿（のみ）」を使い分け、立体彫刻を専門とするという設定。彼女の杖魔法と物理的攻撃の融合、および「壊された力作」の正体。
+  quotes:
+  - quote: 長い黒髪を振り乱しながら驚くべき速度で間合いを詰めると、どこからともなく取り出した槌で私の攻撃を止めたのだ。
+    paragraph: p73
+    quote_verified: true
+  - quote: それは鑿（のみ）だった。刃先は平たく、無骨そのもの。
+    paragraph: p75
+    quote_verified: true
+  expected_payoff: マリーの「作品」とは何か、なぜ破壊されたのかという物語が語られ、彼女が死を望む理由の深層が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 虚無主義（ニヒリズム）と意味の再構築の対立
+  weight: 0.9
+  quotes:
+  - quote: あらゆることに意味などない。君たちの殺意も、僕の抵抗も、全てが無意味で無価値だ
+    paragraph: p17
+    quote_verified: true
+  - quote: 目覚めとはすなわち生のあかしなり！
+    paragraph: p142
+    quote_verified: true
+  note: ガルズの「全てが無意味」という世界観と、リーナの「生を肯定する」呪文が対峙し、物語の倫理的軸を形成している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 視覚（邪視）による世界の支配と認識の改変
+  weight: 0.8
+  quotes:
+  - quote: 事象を改変する魔性の瞳が、向けられた敵意を悉く無効化していく。
+    paragraph: p22
+    quote_verified: true
+  - quote: 彼は邪視――世界観を拡張させることによって、己の認識を世界に押しつけたのだ。
+    paragraph: p116
+    quote_verified: true
+  note: 見る者が世界を決めるという主観的唯心論が、戦闘メカニクスとして具現化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族・血縁の影とアイデンティティの葛藤
+  weight: 0.7
+  quotes:
+  - quote: 二人のクロウサー。
+    paragraph: p169
+    quote_verified: true
+  - quote: 「くっそ逃げられた。もう少し早く来てればぶっ飛ばせたのにあのやろー」
+    paragraph: p154
+    quote_verified: true
+  note: 敵（ガルズ）と味方（リーナ）が同じ姓を共有することで、善悪の境界線が血縁によって曖昧になる不安定さを描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: テロリズムと都市空間の侵食
+  weight: 0.6
+  quotes:
+  - quote: エルネトモランで最も堅牢な時の尖塔を、爆破した――？
+    paragraph: p47
+    quote_verified: true
+  - quote: つまりは槍神教に対する宣戦布告。
+    paragraph: p57
+    quote_verified: true
+  note: ファンタジー世界における個人による大規模テロ行為が、社会秩序と宗教的権威をどう揺るがすかが主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

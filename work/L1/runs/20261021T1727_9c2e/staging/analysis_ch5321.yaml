@@ -1,0 +1,184 @@
+chapter: ch5321
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 9
+  themes: 5
+  quotes_verified: 7
+  quotes_total: 16
+items:
+- kind: mystery
+  name: MY_clay_hostility
+  note: クレイが六王に対して殺意・敵意を抱いている理由とその結末。
+  quotes:
+  - quote: そして何より気になることがもうひとつ。彼のあまりにも鋭い視線。気のせいでなければ、あれは殺意や敵意に類するものだ。そして、それは六王たちに向けられてはいなかったか。
+    paragraph: p143
+    quote_verified: true
+  expected_payoff: クレイの過去（グレンデルヒ戦など）と六王との間に歴史的な確執があり、将来の衝突や裏切りの引き金になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trident_heart
+  note: トライデント最上位細胞「心臓」の生誕とそれがもたらす脅威。
+  quotes:
+  - quote: 強力な上位細胞はまだ本格的に動かない筈よ。少なくとも、最上位細胞の【心臓】が生誕するまでは
+    paragraph: p218
+    quote_verified: true
+  expected_payoff: 物語中盤以降、「心臓」が覚醒し、トライデント勢力が統一された強大な力として主人公たちに襲い掛かる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_yomir_death_impact
+  note: ヨミル・バーンステインの死による松明の騎士団の混乱と、コルセスカとの因縁。
+  quotes:
+  - quote: 人形師といえばバーンステイン！... 例の事件で殉職しちゃったみたい。... コルセスカにとっての運命の恋人。いずれ戦わなくてはならないような気がするが、その辺も含めてルウテトに訊いておきたいんだよな
+    paragraph: p276
+    quote_verified: false
+  expected_payoff: コルセスカの「運命の恋人」として登場したヨミルの死（あるいは生存）に関する真相が明かされ、コルセスカの過去や能力の制御に関わる重要な伏線となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_saria_core_emergency
+  note: サリアの暴走とコアとの通信不能という緊急事態。
+  quotes:
+  - quote: サリアちゃんがスキリシアに飛び込んで行っちゃった。かなり暴走気味で、正直やばいかも。ごめん、止められなかった。あと、コアちゃんと連絡とれないんだけどそっちで何かあった？
+    paragraph: p251
+    quote_verified: true
+  expected_payoff: サリアの暴走がスキリシアでの新たな事件（聖マローズ教団関連？）を呼び込み、主人公たちの行動を強制的に変化させるトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_rail_elva_kidnapping
+  note: リールエルバの誘拐とセリアック・ニアの変貌、カーティスとの交換要求。
+  quotes:
+  - quote: ドラトリアの王女にしてガロアンディアンの支援者、リールエルバの誘拐。更にその妹であるセリアック＝ニアの無惨な姿。そして、六王が一人カーティスと人質との交換要求。
+    paragraph: p263
+    quote_verified: true
+  expected_payoff: 聖マローズ教団という新勢力との交渉決裂により、ガロアンディアン内部での政治的混乱や戦闘が発生する。カーティスの過去も関連する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_leo_surname_origin
+  note: レオの姓「ウィーナー」が行政により強制的に付与された事実。
+  quotes:
+  - quote: 法務シューラ直轄のお役所シューラが命名しといたよ。姓とはいえ、名付け親の権力も行使できて一石二鳥だし
+    paragraph: p124
+    quote_verified: true
+  expected_payoff: レオの出自や過去の所属（クロウサー家など）との関連性、あるいは行政組織「法務シューラ」が物語後半で重要な役割を果たす伏線となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trisshula_evaluation
+  note: トリシューラが未来においてどのように評価されるかというアキラの不安。
+  quotes:
+  - quote: トリシューラは、果たしてどのように評価されることになるのだろうか。たとえ未来の彼女がどうなろうと、俺は主に付き従うのだろう。
+    paragraph: p73
+    quote_verified: true
+  expected_payoff: 物語終盤でトリシューラの行動が「暴君」や「破壊者」として歴史的に評価されるような結末を迎える予兆。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_lazur_identity_blue
+  note: 店員（ラズリ）がトライデント細胞「フィレクティ」であり、ブルーというハンドルで動いていること。
+  quotes:
+  - quote: 実は、下方勢力とシューラのパイプ役がブルーだったりするんだ... 店員のハンドルネームが「ブルー」、トリシューラのハンドルネームが「ノーレイ」であることを明かす。
+    paragraph: p176
+    quote_verified: false
+  expected_payoff: トライデント内部の派閥闘争（ラクルラール対フィレクティ）が表面化し、ブルー（店員）が主人公側に協力する決定的な瞬間が訪れる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ray_spear_one
+  note: 松明の騎士団一位とコルセスカの関係、およびルウテトのはぐらかし。
+  quotes:
+  - quote: 一位。コルセスカにとっての運命の恋人。... というか、未来のことを追求しようとしたら露骨にはぐらかされたのはまさか一位関係で何かあったからじゃないのか？
+    paragraph: p283
+    quote_verified: false
+  expected_payoff: コルセスカの「運命の恋人」が敵として立ちはだかる悲劇的な展開、またはその存在自体が物語の核心に関わる秘密であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 秩序と混沌の対比：トリシューラによる強引な「和気藹々」の強制と、その裏側で進行する深刻な危機（クレイの殺意、サリア暴走、誘拐）の並存。
+  weight: 0.8
+  quotes:
+  - quote: 「ちゅうもーく！　これから戦勝祝賀会と星見の塔トーナメント表彰式とガロアンディアンと死人の森同盟の親睦会を開催しまーす！」... 波乱の予感じみたものを感じつつ、俺は周囲に流されるように移動する。
+    paragraph: p127
+    quote_verified: false
+  - quote: ドラトリアの王女にしてガロアンディアンの支援者、リールエルバの誘拐。... 聖マローズ教団という新たな勢力が現れた事で、穏やかだった空気が一変していくのだった。
+    paragraph: p263
+    quote_verified: false
+  note: 表向きのお祭り騒ぎと、裏で進む戦争の準備や陰謀との落差を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 組織力学のメタファー：トライデントという巨大な多様性を持つ組織が、その柔軟性ゆえに内部対立を生み、一枚岩にならないという構造的特質。
+  weight: 0.7
+  quotes:
+  - quote: 数が多く、多様性があり、複数の意思を内包しているが故に、一枚岩じゃないという、ね。... トライデントもまたその宿命からは逃れられない。
+    paragraph: p192
+    quote_verified: false
+  note: 敵対勢力（トライデント）の弱点分析を通じて、多様性と統一性のジレンマを描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: アイデンティティの構築：アキラの外見変更、レオへの命名など、キャラクターが「記号」としての自己を再定義・管理される過程。
+  weight: 0.6
+  quotes:
+  - quote: 義体にはコルセスカのテクスチャ呪術によって現実同然の質感が張り付けられている。... どんな外見にするかはルウテトの裏に引っ込んでいるコルセスカに決定権があるらしい。
+    paragraph: p19
+    quote_verified: false
+  - quote: 法務シューラ直轄のお役所シューラが命名しといたよ。
+    paragraph: p124
+    quote_verified: true
+  note: 転生者としての身体や名前が、他者（コルセスカ、行政）によって決定・管理される現象を提示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的コミュニティの描写：トーナメント後のクレーム処理や報酬配布を通じて、この世界が「プレイヤー参加型コンテンツ」として機能していることの明示。
+  weight: 0.5
+  quotes:
+  - quote: 「補填しろオラァ！」「慰謝料よこせ！」... 「星見の塔トーナメント参加者のみんなに、【頑張ったで賞】をあげます。
+    paragraph: p151
+    quote_verified: false
+  note: 住民たちが「ユーザー」として振る舞い、トリシューラが「運営者」として振る舞う構図。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 忠誠と評価の相対性：マラードという「暗君」に対するルバーブの絶対的忠誠と、その王の実像（美意識・文化）との乖離。
+  weight: 0.4
+  quotes:
+  - quote: 陛下は素晴らしいお方だ。愛情深く、美しいものを尊ぶその気質はラフディの華やかな文化をより一層精錬させた。... ちびシューラの検索情報によると、マラードは決して評価の高い王ではない。むしろ暗君の代表格として取り上げられることが多い君主だ。
+    paragraph: p66
+    quote_verified: false
+  note: 歴史的評価（暗君）と個人への忠誠（臣下の視点）とのギャップを描き、歴史の解釈の多様性を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

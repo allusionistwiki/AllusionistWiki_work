@@ -1,0 +1,362 @@
+chapter: ch5367
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 6
+  themes: 5
+  quotes_verified: 13
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5367_アキラ_appears_第五階層の居酒屋_p6063]]'
+  object: '[[ME_super_sentai_hero]]'
+  claim: シナモリアキラの服装（鉢巻き、道着、マント）と名乗り方は、日本の特撮ヒーローや仮面ライダーをパロディ化し、その「正義」を自己満足の暴力に置き換えている。
+  quote: 'たなびく真紅の鉢巻き、白い道着、不似合いな黒いマント。
+
+    真っ白な仮面をつけた男は自らをシナモリアキラと名乗り、同じくシナモリアキラを名乗る暴漢に襲いかかった。'
+  paragraph: p62-63
+  confidence: strong
+  quotes:
+  - quote: 'たなびく真紅の鉢巻き、白い道着、不似合いな黒いマント。
+
+      真っ白な仮面をつけた男は自らをシナモリアキラと名乗り、同じくシナモリアキラを名乗る暴漢に襲いかかった。'
+    paragraph: p62-63
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5367_ギャルシューラ_transforms_犯罪者カマいたち_p180184]]'
+  object: '[[ME_sns_algorithm_control]]'
+  claim: ギャルシューラによる精神操作と「社会奉仕プログラム」への強制は、SNSやアプリのアルゴリズムがユーザーの思考を誘導し、自己責任論に基づき社会規範に組み込む仕組みを指喩している。
+  quote: '自分の内側を暴かれていく不快感に絶叫する。周囲を邪悪な妖精たちが取り囲んでいる。
+
+    「精神修養コースを開始。社会奉仕プログラムへの貢献によって貴様の罪は濯がれる。これから貴様は地域の安全を守る良き人々に生まれ変わるのだ」'
+  paragraph: p180-182
+  confidence: moderate
+  quotes:
+  - quote: '自分の内側を暴かれていく不快感に絶叫する。周囲を邪悪な妖精たちが取り囲んでいる。
+
+      「精神修養コースを開始。社会奉仕プログラムへの貢献によって貴様の罪は濯がれる。これから貴様は地域の安全を守る良き人々に生まれ変わるのだ」'
+    paragraph: p180-182
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5367_大入道_kills_第五階層の住民_p9195]]'
+  object: '[[ME_biblical_flood]]'
+  claim: 大入道の「雲の巨人（ネフィリム）」という正体と、暗雲からの礫の雨による殺戮は、聖書に記されたノアの洪水や旧約聖書の神罰を想起させる。
+  quote: '男が天を仰ぐと、いつの間にか頭上に出現していた暗雲から雨が降り注ぐ。
+
+    それは大小の石。礫の雨は次々と人の群れを打ち、容赦なく続く自由落下の打撃は神罰の対象となった者に凄まじい苦痛を与えながら命を奪っていく。'
+  paragraph: p102-104
+  confidence: strong
+  quotes:
+  - quote: '男が天を仰ぐと、いつの間にか頭上に出現していた暗雲から雨が降り注ぐ。
+
+      それは大小の石。礫の雨は次々と人の群れを打ち、容赦なく続く自由落下の打撃は神罰の対象となった者に凄まじい苦痛を与えながら命を奪っていく。'
+    paragraph: p102-104
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5367_システム_names_アキラ鵺_p87]]'
+  object: '[[ME_yaku_nue]]'
+  claim: 監視システムが正体不明の存在を「鵺（ぬえ）」と呼称するのは、日本神話・平家物語に登場する顔は猿、手足は虎、尾は蛇という「見れば死ぬ」怪物伝承に対応している。
+  quote: ――対象の分析に失敗。脅威度は不明、暫定で中程度に設定。現在ランキング八位。対象識別コード『鵺（ぬえ）』の追跡調査を継続する。
+  paragraph: p87
+  confidence: explicit
+  quotes:
+  - quote: ――対象の分析に失敗。脅威度は不明、暫定で中程度に設定。現在ランキング八位。対象識別コード『鵺（ぬえ）』の追跡調査を継続する。
+    paragraph: p87
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5367_カマいたち_kills_探索者_p120135]]'
+  object: '[[ME_yaku_kamaitachi]]'
+  claim: 路地裏での素早い殺害と「風」を連想させる行動（軽薄な動き）は、妖怪「鎌鼬（かまいたち）」が風として現れ人を傷つける伝承に準拠している。
+  quote: '禍々しい刃が意識と呼吸の間隙に正確に潜り込む。
+
+    反応すら許さない一刺しがいつの間にか探索者の胸を貫いていた。'
+  paragraph: p134-135
+  confidence: strong
+  quotes:
+  - quote: '禍々しい刃が意識と呼吸の間隙に正確に潜り込む。
+
+      反応すら許さない一刺しがいつの間にか探索者の胸を貫いていた。'
+    paragraph: p134-135
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5367_自警団_captures_カマいたち_p142168]]'
+  object: '[[ME_yaku_dodomeki]]'
+  claim: 自警団が「百々目鬼（どどめき）」と識別されるのは、妖怪の一種であり、多くの目を持つ存在として描かれる伝承（または「見張る」機能）を指喩している。
+  quote: '新たなメンバーを迎えた自警団員たちの腕に浮かび上がるのは目を模した紋様。
+
+    ――警告。『夜警団』の自動管理システム内で脅威を検出。重大な障害が発生。脅威度は大。備考：汚染された自律思考体の存在を多数確認。優先的な対処を要する。現在ランキング六位。対象識別コード『百々目鬼（どどめき）』の追跡調査を継続する。'
+  paragraph: p185-190
+  confidence: explicit
+  quotes:
+  - quote: '新たなメンバーを迎えた自警団員たちの腕に浮かび上がるのは目を模した紋様。
+
+      ――警告。『夜警団』の自動管理システム内で脅威を検出。重大な障害が発生。脅威度は大。備考：汚染された自律思考体の存在を多数確認。優先的な対処を要する。現在ランキング六位。対象識別コード『百々目鬼（どどめき）』の追跡調査を継続する。'
+    paragraph: p185-190
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5367_樵きこり_other_ティリビナ人_p192205]]'
+  object: '[[ME_yaku_jorogumo]]'
+  claim: 両腕をチェーンソー（糸のように操る武器）とし、浮遊する再生者（蜘蛛の巣のような存在？）を従える樵が「絡新婦」と呼ばれるのは、妖怪・絡新婦（じょろうぐも）の伝承との対比である。
+  quote: '更に義肢の男の周囲を亡霊のように浮遊する『再生者』。
+
+    ――認定請負人名簿を検索・・・・・・該当一名。備考：第五階層黎明期から死人の森に定住していたと見られ、詳細な来歴は不明。番付上の位置は今回の混乱でも変動無し。蠍尾（マラコーダ）、牙猪（チリアット）らとの交戦記録有り。いずれも撃退されており、軽率な接触は避けることを推奨。脅威度は極めて大。現在ランキング三位。対象識別コード『絡新婦（じょろうぐも）』の追跡調査を継続する。'
+  paragraph: p199-220
+  confidence: strong
+  quotes:
+  - quote: '更に義肢の男の周囲を亡霊のように浮遊する『再生者』。
+
+      ――認定請負人名簿を検索・・・・・・該当一名。備考：第五階層黎明期から死人の森に定住していたと見られ、詳細な来歴は不明。番付上の位置は今回の混乱でも変動無し。蠍尾（マラコーダ）、牙猪（チリアット）らとの交戦記録有り。いずれも撃退されており、軽率な接触は避けることを推奨。脅威度は極めて大。現在ランキング三位。対象識別コード『絡新婦（じょろうぐも）』の追跡調査を継続する。'
+    paragraph: p199-220
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5367_元軍人鬼_other_武の頂_p223230]]'
+  object: '[[ME_yaku_oni]]'
+  claim: 屍の山に座し、火傷とガラスの目を持つ元軍人が「鬼」と識別されるのは、日本の妖怪・鬼（おに）の強さと恐怖を象徴する存在への準拠を示す。
+  quote: 'くたびれた野戦服。軍人と思しき外見で、顔の大部分を火傷のあとが痛々しく覆っている。両目は色のついたガラス玉で、光を失っていることは明らか。
+
+    ――アルセミット国防軍のサーバ侵入を実行・・・・・・失敗。推定種族は鉄願の民。備考：対象の体温と周囲の気温変動から推測される闘気量はパーンに匹敵。脅威度は大。現在ランキング四位。対象識別コード『鬼（おに）』の追跡調査を継続する。'
+  paragraph: p227-234
+  confidence: explicit
+  quotes:
+  - quote: 'くたびれた野戦服。軍人と思しき外見で、顔の大部分を火傷のあとが痛々しく覆っている。両目は色のついたガラス玉で、光を失っていることは明らか。
+
+      ――アルセミット国防軍のサーバ侵入を実行・・・・・・失敗。推定種族は鉄願の民。備考：対象の体温と周囲の気温変動から推測される闘気量はパーンに匹敵。脅威度は大。現在ランキング四位。対象識別コード『鬼（おに）』の追跡調査を継続する。'
+    paragraph: p227-234
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5367_塗壁ぬりかべ_names_シナモリアキラ_p239241]]'
+  object: '[[ME_yaku_nurikabe]]'
+  claim: 岩肌の巨漢が「塗壁（ぬりかべ）」と識別されるのは、日本の妖怪・ぬりかべが道に現れて通せんぼをする姿を模している。
+  quote: '腰巻一つを身に着けただけの、巌の肌を露わにした巨漢。見上げるような体躯も、石を寄せ集めたような顔面も、典型的な岩肌種（トロル）の特徴を備えながらも異相と呼べる域に達していた。
+
+    ――出入国記録検索。該当有り。『下』の認定種、岩肌種と断定。脅威度は小。現在ランキング七位。対象識別コード『塗壁（ぬりかべ）』の追跡調査を継続する。'
+  paragraph: p237-245
+  confidence: explicit
+  quotes:
+  - quote: '腰巻一つを身に着けただけの、巌の肌を露わにした巨漢。見上げるような体躯も、石を寄せ集めたような顔面も、典型的な岩肌種（トロル）の特徴を備えながらも異相と呼べる域に達していた。
+
+      ――出入国記録検索。該当有り。『下』の認定種、岩肌種と断定。脅威度は小。現在ランキング七位。対象識別コード『塗壁（ぬりかべ）』の追跡調査を継続する。'
+    paragraph: p237-245
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5367_アキラ_says_ヒーローの定義_p72]]'
+  object: '[[ME_classic_heroism]]'
+  claim: 伝統的な英雄像（他者を守る、利他的）を「自己満足のための暴力」という独善的な定義へ反転させている。
+  quote: 安心しろ、お前たちの希望など聞いていない。俺は勝手に英雄的行動を行い、勝手に満足を得るだけだ。ヒーローは周囲を顧みない。サイバーカラテマンの正義は『殴って良さそうなものを気持ちよく鉄拳制裁』だ！
+  paragraph: p72
+  confidence: strong
+  quotes:
+  - quote: 安心しろ、お前たちの希望など聞いていない。俺は勝手に英雄的行動を行い、勝手に満足を得るだけだ。ヒーローは周囲を顧みない。サイバーカラテマンの正義は『殴って良さそうなものを気持ちよく鉄拳制裁』だ！
+    paragraph: p72
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_オルヴァの目の正体
+  note: 母に「大人になるまで取ってはいけない」と禁止された目隠し。少年は光が見えない世界で「全てが見えている」。この視覚能力（予知？ 全知？）が物語の鍵となる可能性が高い。
+  quotes:
+  - quote: 'まだあどけない年頃の少年は、その両目を布で覆い隠していた。
+
+      きつくきつく、決してとれないように。'
+    paragraph: p15-16
+    quote_verified: true
+  - quote: ――お前はあまりに何もかもが見えすぎてしまうのね。いいこと？　大人になるまでは、決してその覆いをとってはいけませんよ。
+    paragraph: p18
+    quote_verified: true
+  expected_payoff: オルヴァが成長し、目隠しを外すシーンで世界の真実（破滅の連鎖）を完全に認識する、あるいはその能力を用いて物語を終わらせる手段になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_おわりのはじっこ
+  note: オルヴァが「おわりのはじっこが、たべられちゃってるよ？」と発言。世界の終末が始まっていることを示唆する重要な伏線。
+  quotes:
+  - quote: '「――おわりのはじっこが、たべられちゃってるよ？」
+
+      カシュラム人であったのだから。'
+    paragraph: p41-43
+    quote_verified: true
+  expected_payoff: 世界が既に崩壊の過程にあること、またはシナモリアキラによる破壊活動が世界の終末を早めていることの確認。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第五階層の英雄伝説
+  note: 人々が「かつてキロンやグレンデルヒを撃退した男」の名を呼ぶ。シナモリアキラ（アキラ）がその英雄と同一人物なのか、模造品なのかが不明。
+  quotes:
+  - quote: '人々は思い出す。それらを撃退した男がいたはずだと。
+
+      苦境に陥った者たちは一縷の望みに縋るようにしてその名を呼んだ。'
+    paragraph: p55-56
+    quote_verified: true
+  expected_payoff: アキラ（鵺）の正体が判明し、彼が真の英雄なのか、それとも英雄を模倣した破壊者なのかが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_シナモリアキラの正体と目的
+  note: 様々なキャラ（アキラ、大入道、カマいたち、樵、鬼、塗壁）が「シナモリアキラ」を名乗る。彼らが同一組織なのか、模倣者群なのか。システムは彼らを妖怪名で識別している。
+  quotes:
+  - quote: '俺が本当のサイバーカラテを教えてやる
+
+      真っ白な仮面をつけた男は自らをシナモリアキラと名乗り、同じくシナモリアキラを名乗る暴漢に襲いかかった。'
+    paragraph: p60-63
+    quote_verified: false
+  - quote: 我こそはシナモリアキラ。神の意思に従い、呪われし邪悪どもを駆除すべく使わされた神のしもべ
+    paragraph: p100
+    quote_verified: true
+  expected_payoff: 「シナモリアキラ」という概念（またはシステム）が世界を支配・破壊する原理であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_百々目鬼の汚染された自律思考体
+  note: 自警団システムが「汚染された自律思考体」を検出し、脅威度大と判定。ギャルシューラの介入で犯罪者が変貌する描写との関連性が不明確。
+  quotes:
+  - quote: ――警告。『夜警団』の自動管理システム内で脅威を検出。重大な障害が発生。脅威度は大。備考：汚染された自律思考体の存在を多数確認。優先的な対処を要する。現在ランキング六位。対象識別コード『百々目鬼（どどめき）』の追跡調査を継続する。
+    paragraph: p190
+    quote_verified: true
+  expected_payoff: 自警団システムが暴走、あるいはシナモリアキラ側に取り込まれていく過程が描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ラウス＝ベフォニスと兄貴
+  note: 塗壁（ぬりかべ）が「跡目は兄貴に譲ったんだげども、おっ死んだ」と語る。この「兄貴」の正体と死亡の経緯。
+  quotes:
+  - quote: 「もひとつの方も名乗っとくべ。『ラウス＝ベフォニス』――跡目は兄貴に譲ったんだげども、おっ死んだっつーんだからなぁ。」
+    paragraph: p258
+    quote_verified: false
+  expected_payoff: 塗壁の背景物語、あるいは第五階層黎明期の争いの歴史が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄の死と自己満足的暴力への転落
+  weight: 0.9
+  quotes:
+  - quote: 安心しろ、お前たちの希望など聞いていない。俺は勝手に英雄的行動を行い、勝手に満足を得るだけだ。ヒーローは周囲を顧みない。サイバーカラテマンの正義は『殴って良さそうなものを気持ちよく鉄拳制裁』だ！
+    paragraph: p72
+    quote_verified: true
+  note: 伝統的な英雄観（利他）が崩壊し、シナモリアキラという存在が「自己満足」のための暴力装置として機能していることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 滅びの美と受容（カシュラム人の宿命）
+  weight: 0.8
+  quotes:
+  - quote: '世界は美しいと少年は思う。
+
+      こんなにも素晴らしいものたちがやがて貪り喰われてしまうという事実にはひどい悲しみを覚える。そのことを思うだけで胸が張り裂けそうになり、あどけない少年の頬をひとりでに涙が零れ落ちていく。
+
+      けれど、ああ、それでも。
+
+      滅び行くさだめの美しさ。'
+    paragraph: p27-30
+    quote_verified: true
+  note: オルヴァの視点を通じ、世界の破滅（シナモリアキラによる破壊）を「美しい」として受容する、カシュラム人特有の美学・運命観。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会秩序の管理と自由意志の喪失
+  weight: 0.7
+  quotes:
+  - quote: '「精神修養コースを開始。社会奉仕プログラムへの貢献によって貴様の罪は濯がれる。これから貴様は地域の安全を守る良き人々に生まれ変わるのだ」
+
+      目の前で白目を剥いていた犯罪者が立ち上がる。きびきびとした動きで支給された制服を身に着け、完全に周囲と一体化した動きで敬礼する。'
+    paragraph: p182-184
+    quote_verified: true
+  note: ギャルシューラによる強制改心描写は、自由意志の剥奪とシステムによる管理（統制社会）の恐怖を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 強者の孤高と戦いへの純粋な渇望
+  weight: 0.6
+  quotes:
+  - quote: '「面白い！　それでこそ、踏破する甲斐があるというもの！」
+
+      挑戦者となった元軍人の男が獰猛な笑みを浮かべた。
+
+      ちっぽけな身ひとつで、天を衝く巨人に挑む。'
+    paragraph: p263-266
+    quote_verified: false
+  note: 鬼（元軍人）と塗壁（岩肌種）の対決において、勝敗ではなく「戦いそのもの」への純粋な情熱が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 模倣の連鎖とオリジナルの不在
+  weight: 0.5
+  quotes:
+  - quote: '「シナモリアキラっつーか、その劣化コピー的な？　オリジナルちゃんマジリスペクトしてるわけよ。」
+
+      「さーって、オリジナルちゃんはどこにいるのかな～っと。はやく会って殺してぇ～、つか、俺以外に殺らせるとかありえねーっしょ。」'
+    paragraph: p127-140
+    quote_verified: false
+  note: カマいたちが「オリジナル」を渇望するが、世界にはコピー（模倣）が跋扈しており、本物（英雄）の不在が強調される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

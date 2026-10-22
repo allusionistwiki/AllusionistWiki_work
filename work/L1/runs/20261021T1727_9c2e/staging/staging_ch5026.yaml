@@ -1,0 +1,196 @@
+episode: ch5026
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_コルセスカ]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5026_コルセスカ_promises_翻訳継続_p10
+        quote: 「翻訳は随時続けていきます。アップロードにも時間がかかるので、一週間ほどはご一緒させていただくことになりますが、よろしくお願いします」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_other_敬語使用継続_p140
+        quote: 「ええどうぞ。あと敬称は結構ですよ。丁寧語は敬語表現のサンプルを取りたいのでしばらく使っていて下さい。明日くらいには丁寧語を止めてくださると捗ります」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_other_介入理由_p154
+        quote: 「依頼者であるアキラの命に危険が及んだ場合には、依頼が遂行できなくなるのでさすがに介入させていただくつもりですが。ロドウィがアキラは手練れだと保証していたので、傍観していた次第です。しかし」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_reveals_報酬支払い済み_p16
+        quote: 「報酬の方は既にロドウィから振り込まれていますので心配はけっこうです。貴方の行動を特に制限することはありませんが、基本的にずっと側にいる必要があります。その間貴方はひたすら私に話しかけてください」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_asks_冷たさの印象_p183
+        quote: 「貴方も、そう思われますか？」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_other_母語の規則説明能力_p28
+        quote: 「そうしていただけるのなら大変助かりますが、母語の文法規則を正確に説明できますか」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_names_アキラ_p4
+        quote: 「シナモリ・アキラですか。わかりました、アキラとお呼びすればいいですか」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_reveals_アキラの文字を読めない理由_p44
+        quote: 「つまり、貴方が文字を読めないのは、貴方がこの世界のどこにも居場所を持っていないからです」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_other_文化圏への根付き_p48
+        quote: 「あなたがどこか特定の文化圏に『根付く』ことができれば、あなたは自然に音声としての言語も、文字としての言語も習得できるはずです。もっとも、こうして世界にあなたの言語を定着させれば、自然と文字は『日本語』の形になって貴方の目の前に表れてくるはずですが」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_other_宿の確保_p63
+        quote: 「とりあえず、今夜の宿を確保しませんか。お宅はどちらでしょう」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_other_宿の構築意図_p67
+        quote: 「いえ、隣に自分の宿を構築するつもりですが」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_other_自由行動_p70
+        quote: コルセスカは「では夕食まで自由行動ということで」と言った。
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5026_コルセスカ_stops_棍棒_p151
+        quote: 正確には浮遊している透明な球体にぶつかり、動きを止められているのだ。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_other_呪術使い_p160
+        quote: 間違いない、コルセスカは呪術の使い手なのだ。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_other_刺客の腕_p169
+        quote: その指先から肩までが分厚い氷に覆われている。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_コルセスカ_kills_刺客_p185
+        quote: 問いが発せられると共に、男の全身が音もなく氷に包まれた。
+        locator: {}
+        spoiler_after: ch0000
+    visual:
+      observations:
+      - event_ref: E_ch5026_コルセスカ_uses_三角形の端末_p8
+        quote: コルセスカは手で三角形の端末を操作していた。薄型で、宙にいくつもの窓が立体投射されていた。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_刺客]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5026_刺客_appears_灰色岩肌の男性_p102
+        quote: 容姿もごく普通で、灰色で硬質な岩肌の一般的な『下』出身の男性だ。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_刺客_has_property_岩のような肌_p116
+        quote: 見た目通り肌が岩のように硬い。初撃の抜き手も次の肘打ちも相手に与えたダメージは小さいようだ。
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5026_刺客_attacks_アキラ_p112
+        quote: 高々と跳躍して俺に棍棒を振り下ろしてくる。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_刺客_attacks_コルセスカ_p147
+        quote: 男が懐から投げつけた小さな鉄球が巨大な砲弾となって襲いかかってきた
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_刺客_other_氷像_p201
+        quote: その背後で、氷結した人体が粉々に砕け散った。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5026_アキラ_other_棍棒攻撃_p112
+        quote: 軽く横にずれて回避。横合いからの肘打ち。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_fears_コルセスカ_p192
+        quote: 確信する。コルセスカは、エスフェイルよりも更に得体が知れない。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_says_日本語_p2
+        quote: 日本語を俺が喋れば喋るほど解析が進んでいくというから、意味があるのか判断できなくとも話し続けるしかない。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_other_自身の能力不足_p32
+        quote: たとえば俺は日本語学習者が受けるような日本語検定で一級をとれるだろうか？
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_other_胸を刺す言葉_p46
+        quote: 胸を刺し貫くような一言だった。それは、俺の現状を的確に表していたからだ。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_other_移動制限の理由_p50
+        quote: 俺がこの階層から一階ぶんしか移動できないのも、きっと同じ理由だった。俺は一度『上』に味方し『下』と敵対したが、それは偶然でしかない。なにかの意思や信念によって自分の立ち位置を定めたわけではないのだ。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_other_日本語定着_p55
+        quote: このまま日本語を定着させれば、この世界に俺という存在が属する『日本という文化圏』の情報が定着する。それで、俺のちっぽけな居場所ができあがる。それをやめるつもりはない。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_other_外出_p80
+        quote: まだ文字は読めないが、表通りを歩きつつ端末選びなどの相談をすれば、会話と目的を両方こなせていいのではないだろうか。提案してみると、異論はなかったようだ。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_activates_サイバーカラテ道場_p88
+        quote: 自らの迂闊さを呪いつつ、『サイバーカラテ道場』と『弾道予報』を起動。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_other_刺客_p88
+        quote: 何故、今まで気づけなかったのか。ごく近い場所に、俺とコルセスカ以外の誰かが潜んでいる。おそらくどこかの組織の刺客。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_other_コルセスカ_p90
+        quote: 今はすぐ後ろにコルセスカがいる。首領が紹介してきた人物とはいえ、迂闊に危険に巻き込むわけにも行かない。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_attacks_木箱の陰の敵_p96
+        quote: 床を踏み抜いて疾走し、木箱の陰に隠れている敵へ向かう。右の抜き手が槍のように伸びて、木箱を貫いて反対側に突き抜ける。
+        locator: {}
+        spoiler_after: ch0000
+    speech:
+      observations:
+      - event_ref: E_ch5026_アキラ_asks_文法解説による短縮_p26
+        quote: 「あれ、でもそれなら俺が日本語文法の規則とか解説したらもっと早く済みませんか？」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_asks_行くべき場所_p59
+        quote: 「俺は、何処に行くべきなんだ――」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_other_呼び方_p6
+        quote: 「ええ、それでお願いします」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_asks_苦痛の有無_p74
+        quote: 「あの、頼んでおいてこういうこと言うのも何ですけど、苦痛じゃないですか？」
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5026_アキラ_asks_待機_p94
+        quote: 「コルセスカさん、少し待っててください」
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_世界]]'
+  entity_type: motif
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5026_世界_other_アキラ_p53
+        quote: この世界そのものに、『どこにもいない』と見なされているのだ。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true

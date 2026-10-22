@@ -1,0 +1,229 @@
+chapter: ch5232
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 3
+  quotes_verified: 16
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p20-p21]]'
+  object: '[[ME_AR_game_companion_app]]'
+  claim: ちびシューラによる戦術のサジェストと視界への表示は、スマホゲームにおけるAR機能付きサポートキャラクターやUIアシスタントの機能を模倣している。
+  quote: 最も蓋然性の高い一つをサジェストするちびシューラのアシストに従って鋭い貫手の連撃を回避。
+  paragraph: p21
+  confidence: strong
+  quotes:
+  - quote: 最も蓋然性の高い一つをサジェストするちびシューラのアシストに従って鋭い貫手の連撃を回避。
+    paragraph: p21
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p32-p36]]'
+  object: '[[ME_Metaphysical_Agates]]'
+  claim: カーインの髪に埋め込まれた天眼石（アイアゲート）は、実在の天然石であるアガットの魔除け・視覚強化効果という伝承を引用し、戦闘能力としての『気』の流路として機能させている。
+  quote: （天眼石（アイアゲート）だね。強力な魔除けでこっちの世界だと知覚を強化するって効果もあるよ。多分、頭髪に疑似神経を通して『気』を流してる）
+  paragraph: p34
+  confidence: explicit
+  quotes:
+  - quote: （天眼石（アイアゲート）だね。強力な魔除けでこっちの世界だと知覚を強化するって効果もあるよ。多分、頭髪に疑似神経を通して『気』を流してる）
+    paragraph: p34
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p80]]'
+  object: '[[ME_Monster_Hunt_Rank_Icons]]'
+  claim: 仮想人体に『GOOD！』と『CHAIN！』が表示される演出は、『モンスターハンター』シリーズにおける武器の切れ味ゲージ（青・白・黄）および連続攻撃の判定システムをパロディ化している。
+  quote: 新生してもきっちりと再現されたままの「GOOD！」と「CHAIN！」の文字が交差して、お馴染みの文字が仮想人体の胸部分に表示される。
+  paragraph: p80
+  confidence: strong
+  quotes:
+  - quote: 新生してもきっちりと再現されたままの「GOOD！」と「CHAIN！」の文字が交差して、お馴染みの文字が仮想人体の胸部分に表示される。
+    paragraph: p80
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p107-p113]]'
+  object: '[[ME_Fitness_App_Data_Economy]]'
+  claim: インドアユーザー（シミュレーションのみ）がデータを提供し、アウトドアユーザー（実践者）が実験台となるというサイバーカラテの生態系は、現代のフィットネスアプリにおけるユーザー生成データとAI学習モデルの関係性を反映している。
+  quote: 大まかに二極化したサイバーカラテユーザーは、俺のようなアウトドアユーザーが彼らインドアユーザーの実験台となりデータを提供することで助け合っているのだ。
+  paragraph: p111
+  confidence: moderate
+  quotes:
+  - quote: 大まかに二極化したサイバーカラテユーザーは、俺のようなアウトドアユーザーが彼らインドアユーザーの実験台となりデータを提供することで助け合っているのだ。
+    paragraph: p111
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p128-p130]]'
+  object: '[[ME_Traditional_Martial_Arts_Culture]]'
+  claim: 道場に暴力に伴う血の臭いがなく「平和」であることは、伝統的な武道場が持つ『稽古とは生死を賭けた戦いの予行演習である』という緊迫した雰囲気や、格闘技特有の生々しい暴力性を意図的に排除した商業的・娯楽的な空間への変容を示している。
+  quote: 'そこに、暴力に伴う血の臭いは無い。
+
+    「平和だな」'
+  paragraph: p128-p130
+  confidence: strong
+  quotes:
+  - quote: 'そこに、暴力に伴う血の臭いは無い。
+
+      「平和だな」'
+    paragraph: p128-p130
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p156]]'
+  object: '[[ME_Familiar_Mage_Trope]]'
+  claim: 主人公が自身を「使い魔」と称し、魔女であるトリシューラ（ちびシューラ）との主従関係を明言することは、ファンタジー作品における魔法使いと使い魔のクリシェな関係構造を自己意識的に引用している。
+  quote: 「俺はあいつの使い魔だからな」
+  paragraph: p156
+  confidence: explicit
+  quotes:
+  - quote: 「俺はあいつの使い魔だからな」
+    paragraph: p156
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p181]]'
+  object: '[[ME_Sports_Arena_Advertising]]'
+  claim: 幻像掛け軸が動的に変化し観客を誘導する仕組みは、現代のプロスポーツ会場におけるデジタルサイネージによる広告・告知・観客誘導のメカニズムと構造的に一致している。
+  quote: 幻像掛け軸に描かれた『誰でも明鏡止水』が『他流派試合熱烈歓迎』に変化して、道場の入り口から中央へと誘導光が点滅していく。
+  paragraph: p181
+  confidence: moderate
+  quotes:
+  - quote: 幻像掛け軸に描かれた『誰でも明鏡止水』が『他流派試合熱烈歓迎』に変化して、道場の入り口から中央へと誘導光が点滅していく。
+    paragraph: p181
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kain_Win_Rate_12_Percent
+  note: ファルがカーインとの戦闘で勝利確率12%と宣言し、即座に敗北している。この数値の算出根拠（AI予測の精度）や、なぜ如此にも低い確率を自信満々に語ったのかという点、およびその後のデータ改良への影響が伏線となる可能性がある。
+  quotes:
+  - quote: 「先程の師範代との戦闘データから戦闘プログラムに改良を施しました。現在の予測精度は完璧。僕の勝利確率は揺るぎない十二パーセントです」
+    paragraph: p100
+    quote_verified: false
+  expected_payoff: 後の章でファルのAIがカーインの動きを完全に解析・攻略する展開、またはこの数値計算の誤差が重大な局面で効いてくる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tritshura_Agenda
+  note: 主人公がトリシューラと約束があること、彼女を「ご主人様」と呼び使い魔を自認している点。この関係性の本質（契約の内容、魔力の供給源など）や、彼女がなぜ道場設立に関与しているかの動機が未開示であり、物語の核心に関わる伏線である。
+  quotes:
+  - quote: 「晩メシくらいなら付き合うが、その後はトリシューラと約束があるな」
+    paragraph: p152
+    quote_verified: true
+  - quote: 視界の隅で俺に選択肢を提示し続けるデフォルメされた二頭身の魔女が、片目を閉じて愛嬌を振りまく。
+    paragraph: p196
+    quote_verified: true
+  expected_payoff: トリシューラとの契約の裏側（代償）、彼女が主人公を支配している真意、または世界改変への介入能力の発動。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Marakoda_Identity
+  note: マラコーダは美形の男性でありながら女性のような物腰で、「彼女」と呼ばれている。性別、出自、なぜ武術指導に優れているのか（ミアスカ流の継承者か）、そして「お嬢さんたち」を指導する意図が不透明である。
+  quotes:
+  - quote: さらさらの髪に女性的な物腰、うっすらとメイクされた艶のある美貌。
+    paragraph: p135
+    quote_verified: true
+  - quote: 「彼女」の長い脚から繰り出されるミアスカ流脚撃術の流れを汲んだ蹴りは、カーインの蹴り技すら凌駕している。
+    paragraph: p136
+    quote_verified: false
+  expected_payoff: マラコーダの性別の真相（トランスジェンダー、魔物、異種族など）、彼女が指導する女性たちへの特別な目的、ミアスカ流との深い因縁。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Doujou_Fifth_Layer_Scope
+  note: 「サイバーカラテ道場第五階層支部」という名称が提示されている。これは空間の多層構造（ダンジョン的な階層）を示唆しており、上位階層や他の支部の存在、この空間全体を支配するシステムについて伏線となる。
+  quotes:
+  - quote: 「ようこそ、サイバーカラテ道場第五階層支部へ。俺が師範代のシナモリ・アキラだ。」
+    paragraph: p185
+    quote_verified: false
+  expected_payoff: 第6階層以降の存在、空間全体の管理者との対立、またはこの「階層」構造が世界改変の一部であることの判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による戦闘の脱身体化とデータ経済への収斂
+  weight: 0.8
+  quotes:
+  - quote: サイバーカラテはその性質上、実際に手足を動かすのではなく観戦やシミュレーションだけを室内で行い、最適な戦術プランを提示したり効率的な動作プログラムを構築したりといったユーザーが重宝される。
+    paragraph: p107
+    quote_verified: true
+  - quote: 俺のようなアウトドアユーザーが彼らインドアユーザーの実験台となりデータを提供することで助け合っているのだ。
+    paragraph: p111
+    quote_verified: true
+  note: 戦闘が肉体的な格闘から、AR・AIによるシミュレーションとデータの交換システムへと変質し、人間の身体性がデータ提供のための資源として消費されている構造を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力の浄化と日常への回帰（メタフィクション的和解）
+  weight: 0.7
+  quotes:
+  - quote: 'そこに、暴力に伴う血の臭いは無い。
+
+      「平和だな」'
+    paragraph: p128-p130
+    quote_verified: true
+  - quote: すっかり日常と化しつつある新しい生活。環境。拡大していく人間関係。
+    paragraph: p159
+    quote_verified: true
+  note: 異世界転生ものの典型的な『戦い』が、血の臭いを消した平和な商業施設としての道場に収斂し、主人公が非日常的な冒険者から日常を送る経営者・師範として安定していく過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者の視線による自己の客体化とゲーム的実存
+  weight: 0.6
+  quotes:
+  - quote: 視界隅で二頭身のキャラクターが予測精度の低下を告げていた。
+    paragraph: p6
+    quote_verified: true
+  - quote: '視界の隅で俺に選択肢を提示し続けるデフォルメされた二頭身の魔女が、片目を閉じて愛嬌を振りまく。
+
+      はいはい、全部ご主人様のお陰ですよ。'
+    paragraph: p196-p197
+    quote_verified: true
+  note: 主人公の行動が常にUIキャラクター（ちびシューラ）によって監視・誘導・評価されており、自分がゲーム内のアバターとして他者（読者/システム）に消費されていることを自覚した上で、その『使い魔』としての立場を受け入れている実存。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

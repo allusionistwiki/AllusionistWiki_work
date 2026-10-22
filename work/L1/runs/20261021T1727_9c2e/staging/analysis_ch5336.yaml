@@ -1,0 +1,208 @@
+chapter: ch5336
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 16
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_garoandian_statement]]'
+  object: '[[ME_corporate_crisis_management]]'
+  claim: ガロアンディアンの公式声明は、企業の不祥事に対するプレスリリースにおける責任回避と現状維持の修辞を模倣している。
+  quote: 現在起きている騒動は、秩序を乱す犯罪組織や過激派、錯乱した暴漢らによる暴動でしかない。既に治安維持部隊が鎮圧の為に動いており、早期の事態終結を図るべく尽力している
+  paragraph: p3
+  confidence: strong
+  quotes:
+  - quote: 現在起きている騒動は、秩序を乱す犯罪組織や過激派、錯乱した暴漢らによる暴動でしかない。既に治安維持部隊が鎮圧の為に動いており、早期の事態終結を図るべく尽力している
+    paragraph: p3
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_phallus_castle]]'
+  object: '[[ME_nature_preservation_society]]'
+  claim: イアテムが建造した『男根城ファルス』は、自然保護団体（Nature Preserve Society）のシンボルマークであるアンモナイト状のロゴを建築構造として物理化し、生態学的な優位性を権力の象徴に転換している。
+  quote: 先端は丸く膨らみ、全体的に反り返ってあちこちに青い血管が浮き上がっているような模様があった。一階部分には二つの球体が並び、入り口に入ろうとする者を威圧する。
+  paragraph: p25
+  confidence: moderate
+  quotes:
+  - quote: 先端は丸く膨らみ、全体的に反り返ってあちこちに青い血管が浮き上がっているような模様があった。一階部分には二つの球体が並び、入り口に入ろうとする者を威圧する。
+    paragraph: p25
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_virgil_intervention]]'
+  object: '[[ME_game_master_gm]]'
+  claim: ヴァージルの介入は、TRPGにおけるゲームマスター（GM）がプレイヤーの暴走を抑制し、シナリオのバランスを保つために意図的にNPCを蘇生・支配するメタ的な操作に構造が一致する。
+  quote: 困るなあ、そういうことされると。今ここが陥落すると、勢力の均衡が崩れてしまうんだよね。
+  paragraph: p193
+  confidence: strong
+  quotes:
+  - quote: 困るなあ、そういうことされると。今ここが陥落すると、勢力の均衡が崩れてしまうんだよね。
+    paragraph: p193
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_zeno_side]]'
+  object: '[[ME_biological_taxonomy]]'
+  claim: ヴァージルによる『異戮（ゼノサイド）』と幻獣生成は、既存の生物分類体系を超え、ゲームシステム内での「オリジナルキャラ」作成機能（カスタムコンテンツ）を指喩している。
+  quote: うん、そうだよ。どんな資料にも出てこない、僕が作り出した下等な獣
+  paragraph: p345
+  confidence: strong
+  quotes:
+  - quote: うん、そうだよ。どんな資料にも出てこない、僕が作り出した下等な獣
+    paragraph: p345
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_mare_blanche_rubric]]'
+  object: '[[ME_gacha_game_banner]]'
+  claim: マレブランケのメンバー構成とループごとの変化は、ガチャゲームにおける排出キャラのランダム性と「限定復刻」や「恒常排出」によるメタプレイヤーへの認知負荷管理を模倣している。
+  quote: ループごとに微妙にメンバー違ったりしますしね
+  paragraph: p385
+  confidence: explicit
+  quotes:
+  - quote: ループごとに微妙にメンバー違ったりしますしね
+    paragraph: p385
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_family_cursing]]'
+  object: '[[ME_social_media_influencer]]'
+  claim: 中傷者（ファルファレロ）の感染呪術は、SNSにおけるインフルエンサーがフォロワー（家族/弟子）を動員して攻撃力を最大化する構造を、血縁・所属関係を呪力の媒体として物理的に逆転させたものである。
+  quote: 三親等くらい捕捉できればまずまず使い物になる。九親等いけたら弟子にしてあげてもいいかなって感じだよね
+  paragraph: p305
+  confidence: moderate
+  quotes:
+  - quote: 三親等くらい捕捉できればまずまず使い物になる。九親等いけたら弟子にしてあげてもいいかなって感じだよね
+    paragraph: p305
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Heart_of_Trydent
+  note: ヴァージルが「トライデントの【心臓】」を生むための地母神・ハザーリャについて言及。この「心臓」とは何か、またそれが誰の転生体か。
+  quotes:
+  - quote: 本質的にはこの闘争は末妹選定の一部に過ぎない――重要なのはトライデントの【心臓】がいつ、どこで、どうやって生まれるか。その為の地母神、その為のハザーリャ。ねえ、そうなんでしょ？
+    paragraph: p197
+    quote_verified: true
+  expected_payoff: 後の展開で、心臓が特定のキャラクター（おそらくコルセスカやアキラ関連）の核であることが判明し、戦争の本質がその奪い合いへシフトする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Virgil_Father_Request
+  note: ヴァージルがイアテムに「お父さんになってくれる？」と強制的な要求をしている。これは単なる戯れか、何かの呪術的・運命的な必要条件か。
+  quotes:
+  - quote: 出産には立ち会ってくれるでしょう？ 幸せな家族ってそういうものだよね、お父さん、お父さん、お父さん、お父さん、僕の正しいお父さん？
+    paragraph: p297
+    quote_verified: true
+  expected_payoff: イアテムがヴァージルの「父」となることで何かが生成される、あるいはイアテムの権威が完全に簒奪される展開へつながる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mare_Blanche_Rotation
+  note: コルセスカが「ループごとに微妙にメンバー違ったりします」と明言。マレブランケの固定メンバーが存在しない可能性を示唆する。
+  quotes:
+  - quote: ループごとに微妙にメンバー違ったりしますしね
+    paragraph: p385
+    quote_verified: true
+  expected_payoff: 物語の進行においてマレブランケの構成員が予測不可能に入れ替わり、戦略的な安定性を欠くことが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ZenoSide_Effect
+  note: ヴァージルが「異戮（ゼノサイド）」を発動したが「何も起きなかった」と記述。しかし直後に幻獣が出現している。この因果の欠如は、概念の消去か、存在の書き換えを暗示する。
+  quotes:
+  - quote: 何も起きなかった。イアテムたちは呆然と虚空を見つめていたが、ヴァージルが詠唱する声に気付いてそちらを向く。兎の少年は新たな仮想使い魔を構築していた。
+    paragraph: p328
+    quote_verified: true
+  expected_payoff: 「何も起きなかった」のは、既存の歴史軸から消去されたためであり、幻獣は「存在しなかったもの」として世界に現れる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的ルール（メタ構造）による暴力の正規化と政治的正当性の喪失
+  weight: 0.8
+  quotes:
+  - quote: 【コキュートス】がゲームという形式に落とし込んでしまったこの『戦争』は、決められたルールに則ったものであるため『無法』とは受け取られない。ゆえに、第五階層の物質創造能力はルールに従って戦う限り剥奪されず、各勢力は分割された掌握者権限を駆使して速やかに『建国』を開始すると、築城や軍備増強を開始した。
+    paragraph: p18
+    quote_verified: true
+  note: 戦争がゲームとして定義されることで、倫理的な葛藤（無法地帯の解決など）がシステム的な機能不全に置き換わり、キャラクターたちがメタ的な枠組みの中で行動を強制されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族・血縁という呪術的ネットワークによる支配と恐怖
+  weight: 0.7
+  quotes:
+  - quote: 感染呪術は切り離した自己に働く遠隔作用――血族同士で繋がるお前たちの結束は武器であり同時に弱点だ。アストラル体ごと狂い死ね。
+    paragraph: p165
+    quote_verified: false
+  - quote: 感染呪術でさ、家族を本人の切り離された一部として捉える術があるじゃない。三親等くらい捕捉できればまずまず使い物になる。九親等いけたら弟子にしてあげてもいいかなって感じだよね
+    paragraph: p305
+    quote_verified: true
+  note: イアテムの「息子」クレイ、セージの家族再生、ファルファレロの感染呪術など、物語全体が「血縁/擬似血縁」による支配構造と、そこから逃げられない恐怖を主題としている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタプレイヤー（神）によるシナリオ強制とキャラクターの自律性の剥奪
+  weight: 0.9
+  quotes:
+  - quote: 困るなあ、そういうことされると。今ここが陥落すると、勢力の均衡が崩れてしまうんだよね。僕としてはテスモポリス姫――っていうか冬の魔女にはしばらく眠っていて欲しいんだ
+    paragraph: p193
+    quote_verified: true
+  - quote: 王を決める戦いなんて表向きの構図に過ぎないよね。本質的にはこの闘争は末妹選定の一部に過ぎない――重要なのはトライデントの【心臓】がいつ、どこで、どうやって生まれるか。
+    paragraph: p197
+    quote_verified: true
+  note: ヴァージルの台詞が示す通り、キャラクターたちの戦い（王決定戦）は「表向きの構図」に過ぎず、真の目的（心臓生成/末妹選定）のためにメタ的な存在が介入し、キャラクターを駒として動かしている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: カオス・モブの管理と「記号」としてのキャラ化
+  weight: 0.6
+  quotes:
+  - quote: 今回から、ちょっと【マレブランケ】の表記方法変更しようかなって。モブではないけど準主要キャラくらいの位置で、微妙な出番と印象だから覚えづらいと思うんだ。
+    paragraph: p364
+    quote_verified: true
+  note: 後半の会話パートにおいて、キャラクターが「ルビ」や「番号」で管理され、「ループごとにメンバーが違う」と語られることで、彼らが物語の記号・データとして存在していることが露呈する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

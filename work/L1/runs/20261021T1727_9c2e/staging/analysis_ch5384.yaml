@@ -1,0 +1,139 @@
+chapter: ch5384
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 14
+  quotes_total: 16
+items:
+- kind: mystery
+  name: MY_ヴァージルの本体位置
+  note: ヴァージルはアストラル体を展開しているが、パーンの攻撃や挟撃を避けるため『無防備な本体』を晒すことを拒み、何処かへ消えた。本体がどこに隠されているのか、あるいは彼自身が人形（ラクルラール）そのものではないかの示唆。
+  quotes:
+  - quote: 狂王子ヴァージルと言えど、アストラル体をこちらに集中させたままパーンの前に無防備な本体を晒す気にはなれないようだった。何より、確保しておくべき『女王』があの場所に眠っている。
+    paragraph: p155
+    quote_verified: true
+  expected_payoff: 次章以降での本体の発見、あるいは彼が既に死んでいる/人形であることの判明による戦局の決着。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_フェロニア（女王）の正体と場所
+  note: パーンが「女王（フェロニア）は俺が頂く」と宣言し、ヴァージルも「確保しておくべき『女王』」を気にしている。その女王がどこに眠っているのか、それが何者なのか。
+  quotes:
+  - quote: 「ハ！　隙だらけだぞヴァージル！　女王（フェロニア）は俺が頂く！！」
+    paragraph: p129
+    quote_verified: true
+  - quote: 何より、確保しておくべき『女王』があの場所に眠っている。
+    paragraph: p155
+    quote_verified: true
+  expected_payoff: 第五階層の塔（男根城）の地下や深層に封じられている存在の解放と、それによる王権の正当性の争奪。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_イアテムの復讐の完結
+  note: マイカールとの戦闘で「何度夢にまで許さぬ」と叫ぶイアテム。過去の虐殺の詳細（54名、250名の犠牲）が語られるが、この個人的な恨みの連鎖がどう収束するか、あるいはダモクレスの剣によって強制的に断たれるか。
+  quotes:
+  - quote: 「何度――夢にまで――許さぬ、許さぬ、貴様だけは――」
+    paragraph: p305
+    quote_verified: true
+  expected_payoff: 両者の決着と、その死が第五階層の崩壊（ダモクレスの剣落下）をトリガーにするかどうか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_マイカールの赦しへの依存
+  note: 機械女王（トリシューラ）から「あなたは赦されています」と繰り返され、それを求めることで思考が停止したマイカール。彼が本当に『戦いの中で正否を見つける』のか、それとも単なる破壊兵器として機能するだけなのか。
+  quotes:
+  - quote: 「父なる槍神により全ては赦されています。……あなたは赦されています」
+    paragraph: p249
+    quote_verified: false
+  - quote: 気付けば、両耳を義肢で押さえながら蹲っていた。
+    paragraph: p261
+    quote_verified: true
+  expected_payoff: マイカールが自我を取り戻して選択を行うのか、それとも『大入道』として暴走し続けるかの分岐。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ラズリの自傷と観測者
+  note: 魔女ラズリはダモクレスの剣を観測し、「自傷」として感情を消費している。彼女が観測者であることで世界（第五階層）に何らかの影響（確定的な破滅）を与えている可能性。
+  quotes:
+  - quote: 「ダモクレスの剣。終わりが始まるのですね」
+    paragraph: p322
+    quote_verified: true
+  - quote: つまりは自傷です、と目を伏せる。
+    paragraph: p334
+    quote_verified: true
+  expected_payoff: 魔女の視点による世界改変、または彼女自身が次の敵/キーパーソンとなる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲームと現実の境界溶解：トラウマ処理におけるシミュレーションの暴力性
+  weight: 0.9
+  quotes:
+  - quote: 敵を倒せば経験値が手に入り、ポイントに応じて報酬が獲得できる。……ゲームも現実も同じだ。限られたリソースを運用してより良い結果を目指す。最適な手段は最善の結果を生むに決まっているのだから。
+    paragraph: p191-p196
+    quote_verified: false
+  - quote: 私は、私は正しかったのでしょうか？　我らの聖戦とは、無慈悲な虐殺だったのですか？
+    paragraph: p225
+    quote_verified: true
+  note: マイカールの回想パートが中心。戦争体験をゲーム的な最適化プロセス（ルーチン）として処理することで罪悪感を麻痺させ、機械的な『赦し』で補完しようとする構造。人間性がゲームロジックに侵食される恐怖と救済の両義性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ネットワーク社会における共同体の崩壊と『使い魔』による擬似連帯
+  weight: 0.8
+  quotes:
+  - quote: アストラルネットの海がこんなにも広がった現代では、制度としての王国はもう古いんだよ。個人はどこまでも分断され、『使い魔』が繋げている共同体は瓦解と再構築を不毛に繰り返すばかり。
+    paragraph: p41
+    quote_verified: true
+  - quote: 国家への帰属意識が薄れた現代人に求められているのは「ブレイスヴァ！」利便性、ツールとしての共同体
+    paragraph: p45
+    quote_verified: true
+  note: ヴァージルの独白に現れる社会論。伝統的な所属（国家・王国）の解体と、それに代わる私的ネットワーク（使い魔）の脆弱性。現代のSNS依存や分断された共同体批判がファンタジー設定へ転換されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 権力の不安定さと観測される破滅：ダモクレスの剣の象徴性
+  weight: 0.7
+  quotes:
+  - quote: 終わりを待つ二つの巨剣。王国に破滅をもたらすため、第五階層にその姿を現した。
+    paragraph: p319-p320
+    quote_verified: true
+  - quote: 誰かの敵であることは、なんと残酷なのでしょう。平凡な人が悪役として生きるのは、とても息苦しいもの。
+    paragraph: p327
+    quote_verified: true
+  note: 王座（塔）の上に現れる剣と、それを見上げる魔女の視点。権力闘争が常に破滅のリスク（観測される死）を孕んでいること、そしてその残酷さを消費する傍観者（魔女/観客）の存在への批判。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 赦しのメカニズム：他者による肯定は自己救済になり得るか
+  weight: 0.6
+  quotes:
+  - quote: 「あなたは戦いの中で生きてきた。戦いの正否は、戦いの中で見つけるんだよ」
+    paragraph: p277
+    quote_verified: true
+  - quote: 求めていた救いは、やはり想定していた通りの救いでしかなかった。マイカールにはどうしようもない予定調和しかない。
+    paragraph: p267-p268
+    quote_verified: true
+  note: トリシューラとマイカールの対話。機械的な『赦し』の言葉は本物の赦しではなく、自己肯定への渇望を投影した鏡像に過ぎないという主題。他者の言葉では埋められない内面の空洞。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,74 @@
+episode: ch5001
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5001_アキラ_fears_重罪_p106
+        quote: 重罪を犯した可能性がある。
+        locator: {}
+        spoiler_after: ch5001
+      - event_ref: E_ch5001_アキラ_thinks_自身の過ち_p15
+        quote: ――俺がそうだ。
+        locator: {}
+        spoiler_after: ch5001
+      - event_ref: E_ch5001_アキラ_says_キツイ異世界_p3
+        quote: 「出来るだけキツイ異世界がいい。とびっきり悲惨で、とびっきりハードなやつが」
+        locator: {}
+        spoiler_after: ch5001
+      - event_ref: E_ch5001_アキラ_other_オプションの省略_p44
+        quote: オプションにあった異能も、魔法も、強靱な肉体も、頼れる仲間やペットなども一切インストールしなかった。
+        locator: {}
+        spoiler_after: ch5001
+    action:
+      observations:
+      - event_ref: E_ch5001_アキラ_activates_サイバーカラテ道場_p118
+        quote: ――格闘動作制御アプリ【サイバーカラテ道場】を起動、網膜にデフォルメされたAR人体が投影され、図像の足部分が赤く発光する。
+        locator: {}
+        spoiler_after: ch5001
+      - event_ref: E_ch5001_アキラ_attacks_人狼_p131
+        quote: という怪しげな発音の日本語めいた脳内サウンドを合図に、体重の乗った肘打ちが人狼に直撃。表示される「HIT！」の文字。
+        locator: {}
+        spoiler_after: ch5001
+      - event_ref: E_ch5001_アキラ_activates_サポートセンター_p61
+        quote: 『非常用回線をお繋ぎします。異世界転生に関するトラブルなどに関してはAを、ご契約内容の――』
+        locator: {}
+        spoiler_after: ch5001
+    visual:
+      observations:
+      - event_ref: E_ch5001_アキラ_wounds_左腕_p24
+        quote: 左腕が肘半ばで千切り取られ、盛大に血が噴き出している状況なのだから。
+        locator: {}
+        spoiler_after: ch5001
+      - event_ref: E_ch5001_アキラ_other_義肢の存在_p96
+        quote: 俺の右腕の肘から先は、現在の地球における最先端の電子制御技術によって作られたサイバネ義肢だ。表皮は特注のチタン合金製。
+        locator: {}
+        spoiler_after: ch5001
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_人狼]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5001_人狼_appears_as_怪物_p34
+        quote: いわゆる人狼というのか、直立二足歩行で人のような手を持つ狼が、俺の腕を生のまま喰らっていた。
+        locator: {}
+        spoiler_after: ch5001
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_転生保険]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5001_転生保険_defines_一回性_p49
+        quote: なにせ、一度転生したらその後が無い。転生先で死んだらそこでアウトだ。
+        locator: {}
+        spoiler_after: ch5001
+      - event_ref: E_ch5001_転生保険_defines_顧客の傾向_p6
+        quote: およそ七割が安全や安心を求める一方で、残り三割は「ほどよくバランス調整された人生の厳しさ」を欲するのだという。
+        locator: {}
+        spoiler_after: ch5001
+  first_appearance_candidate: true

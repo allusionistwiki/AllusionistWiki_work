@@ -1,0 +1,334 @@
+chapter: ch5231
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 6
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5231_Sumou]]'
+  object: '[[ME_RealWorld_Sumoy]]'
+  claim: 登場人物の戦闘スタイル「スモーレスラー」および掛け声は、現実の相撲（Sumo）を直接的に模倣・変換したものである。
+  quote: '「それと、サイバーカラテなんて一時の流行と一緒にしないで欲しいね。僕たちのはもっと古くて伝統的な、【スモー】なんだから」
+
+    「スモウ？」'
+  paragraph: p199-p203
+  confidence: explicit
+  quotes:
+  - quote: '「それと、サイバーカラテなんて一時の流行と一緒にしないで欲しいね。僕たちのはもっと古くて伝統的な、【スモー】なんだから」
+
+      「スモウ？」'
+    paragraph: p199-p203
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5231_Gallon]]'
+  object: '[[ME_Folklore_Werewolf]]'
+  claim: 不死の狼（人狼）は、死んでいるのに生きているという矛盾した状態を示しており、伝承におけるウェアウルフ（狼人間）の呪い・不死性を反映している。
+  quote: '人狼は、死にながら生きている。
+
+    あるいは、生きながら死んでいるのか。'
+  paragraph: p383-p384
+  confidence: strong
+  quotes:
+  - quote: '人狼は、死にながら生きている。
+
+      あるいは、生きながら死んでいるのか。'
+    paragraph: p383-p384
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5231_Sumou]]'
+  object: '[[ME_Folklore_Kobito_Tale]]'
+  claim: 相撲を模した「スモー」は、日本神話の大国主命が名付けたとされる相撲の起源説（気絶させる・殺し合う）の暴力的本質を強調する形で再構成されている。
+  quote: '「発気、よぉぉぉぉぉい」
+
+    …骨と内臓が丸ごと拉げて破壊されたという結果だけが誰の目にも明らかであり、勝負は一瞬で着いた――かに思われた。'
+  paragraph: p121-p135
+  confidence: moderate
+  quotes:
+  - quote: '「発気、よぉぉぉぉぉい」
+
+      …骨と内臓が丸ごと拉げて破壊されたという結果だけが誰の目にも明らかであり、勝負は一瞬で着いた――かに思われた。'
+    paragraph: p121-p135
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5231_MonsterGirl]]'
+  object: '[[ME_Fantasy_Elf]]'
+  claim: 「光妖精（リョースアールヴ）」は、その美しさが人間の知覚を超えているため「耳が尖っている」という記号的なステレオタイプとして現実化するという、メタフィクショナルなエルフ観を提示している。
+  quote: そして、その『光妖精は耳が尖っている』という認識は広く共有されるにつれて確かな『常識』となって現実化していく。
+  paragraph: p499
+  confidence: strong
+  quotes:
+  - quote: そして、その『光妖精は耳が尖っている』という認識は広く共有されるにつれて確かな『常識』となって現実化していく。
+    paragraph: p499
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5231_MonsterGirl]]'
+  object: '[[ME_Biological_Parasite]]'
+  claim: 男性の右腕に付いた「人面疽」は、寄生生物が宿主の神経系を支配し行動を操作する現象（例：コガネムシを操るキノコ菌）を模倣した魔術的装置である。
+  quote: '開いた掌には複製、縮小された男自身の顔が張り付いている。
+
+    奇形化した欲望を成就させるためだけに顔面の細胞を掌に移植し、顔を増やしているのであった。'
+  paragraph: p576-p577
+  confidence: moderate
+  quotes:
+  - quote: '開いた掌には複製、縮小された男自身の顔が張り付いている。
+
+      奇形化した欲望を成就させるためだけに顔面の細胞を掌に移植し、顔を増やしているのであった。'
+    paragraph: p576-p577
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5231_Gallon]]'
+  object: '[[ME_Religion_Buddhism_Shakujin]]'
+  claim: 「三つの報い」の刺青を持つ男や、暴力による解決を信仰とする組織は、仏教の因果応報や修羅場の概念を歪めた宗教的狂信さを表象している。
+  quote: 'その頬には、特徴的な刺青――『三つの報い』を象徴する図像が燐光と呪術的意味を放射して周囲を威圧する。
+
+    …更なる報復で返せば全て丸く収まるというのが彼らの信仰なのだ。'
+  paragraph: p79-p102
+  confidence: weak
+  quotes:
+  - quote: 'その頬には、特徴的な刺青――『三つの報い』を象徴する図像が燐光と呪術的意味を放射して周囲を威圧する。
+
+      …更なる報復で返せば全て丸く収まるというのが彼らの信仰なのだ。'
+    paragraph: p79-p102
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5231_Queen]]'
+  object: '[[ME_History_Medieval_Queen_Rule]]'
+  claim: 女王による支配は、服従すれば手厚い庇護が得られ逆らえば殺されるという、中世の絶対王政的な「恐怖と恩恵」の政治構造を反映している。
+  quote: 'その一方で、服従を示せば寛大にして手厚い庇護を受けられる。
+
+    ガロアンディアンとその統治者たる女王は、次第に支持を集めつつあった。'
+  paragraph: p225-p227
+  confidence: moderate
+  quotes:
+  - quote: 'その一方で、服従を示せば寛大にして手厚い庇護を受けられる。
+
+      ガロアンディアンとその統治者たる女王は、次第に支持を集めつつあった。'
+    paragraph: p225-p227
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5231_Company]]'
+  object: '[[ME_Organized_Crime_Yakuza]]'
+  claim: 「公社」の歴史的起源は、民間宗教を装い家族制度を模倣した秘密結社（幇/パン）であり、現実のヤクザ組織やマフィアの成り立ちに酷似している。
+  quote: それは呪力を高める為に民間宗教という形式をとり、首領と呼ばれる頭目を頂点とした疑似家族的な犯罪組織を形成しており、現在もその名残がある。
+  paragraph: p265
+  confidence: strong
+  quotes:
+  - quote: それは呪力を高める為に民間宗教という形式をとり、首領と呼ばれる頭目を頂点とした疑似家族的な犯罪組織を形成しており、現在もその名残がある。
+    paragraph: p265
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5231_MonsterGirl]]'
+  object: '[[ME_Literature_FairyTale]]'
+  claim: ウィクトーリアの「おいたはしない」という約束と、破られた結果（腕の切断）は、童話における「禁を破る」メタファーとして機能し、読者への警告でもある。
+  quote: 「一つだけ、約束です。この中では決して『おいた』はしないこと。一夜の夢は、儚く優しく、そして醒めれば何事も無く当たり前の生活に帰るために――」
+  paragraph: p470
+  confidence: moderate
+  quotes:
+  - quote: 「一つだけ、約束です。この中では決して『おいた』はしないこと。一夜の夢は、儚く優しく、そして醒めれば何事も無く当たり前の生活に帰るために――」
+    paragraph: p470
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5231_MonsterGirl]]'
+  object: '[[ME_Biology_Vagina_Dentata]]'
+  claim: 女性の体内に「世界（森）」が存在し、男性の腕を切断する描写は、性的接触が生命維持活動（咀嚼・消化）へと変換される生物学的メタファーである。
+  quote: '引き抜いた腕の先には、何も無かった。
+
+    ただ鋭利な断面を晒した腕が血を吹き出して震えるだけ。'
+  paragraph: p627-p628
+  confidence: moderate
+  quotes:
+  - quote: '引き抜いた腕の先には、何も無かった。
+
+      ただ鋭利な断面を晒した腕が血を吹き出して震えるだけ。'
+    paragraph: p627-p628
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Zoe_Akira_Identity
+  note: 「シナモリ・アキラ」という名前を持つ男性と、巨大な女性ゾーイ・アキラが同一人物（または関係者）である可能性。彼女が「仕事」として殺し屋を殺しに来たと言っている点。
+  quotes:
+  - quote: '「ああうん、そうそう。私はアキラ。間違い無くそれとおんなじ名前だよ。名前は、だけど」
+
+      「いやあ、ここまで辿り着くのに難儀したけど、ようやくそれらしい情報源に巡り会えたね。ようやく仕事が出来そうじゃないか、アキラ？」'
+    paragraph: p186-p188
+    quote_verified: true
+  expected_payoff: アキラ（男性）が追われている理由、ゾーイ・アキラとの関係性、そして彼女が殺し屋を殺す目的の判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Changeling_Origin
+  note: 「猫の取り替え子（チェンジリング）」という不吉な存在が公社の頂点に立っているという情報。その正体と背景。
+  quotes:
+  - quote: '【猫の取り替え子（チェンジリング）】が公社の頂点に立っているという。
+
+      あまりの不吉さ、おぞましさに誰もがガロアンディアンと公社に道を譲る。'
+    paragraph: p213-p214
+    quote_verified: true
+  expected_payoff: 女王との関係、チェンジリングがなぜ「不吉」なのかの解明、および第五階層支配の核心的要因。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rosemary_Fate
+  note: 失踪したローズマリー（四兄弟姉妹第三席）を探しているカインが、ウィクトーリアを「本物の男」の基準で評価し、最終的に殺される展開。ローズマリーとの関係や安否は？
+  quotes:
+  - quote: '三ヶ月前の動乱から行方の知れない彼女を、男は捜し続けていた。
+
+      自分は彼女の忠実な下僕だが、他の『豚』どもとは違う。'
+    paragraph: p291-p292
+    quote_verified: true
+  expected_payoff: ローズマリーの生存確認、カインの死が彼女にもたらす影響（またはカインが彼女に与えた「情報」の行方）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Victoria_InnerWorld
+  note: ウィクトーリアの体内にある「死人の森」。これは幻覚か、実体のある異空間か。人面疽が見た光景が事実である証拠（腕が切断された）。
+  quotes:
+  - quote: '闇をも見通す人面疽の邪視――それが見せているのは、人の体内ではない。
+
+      暗く深い、静かな森。'
+    paragraph: p610-p611
+    quote_verified: true
+  expected_payoff: ウィクトーリア（光妖精）の能力の本質、および第五階層の「森」と彼女がどう繋がっているかの解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mutation_ThreeHands_Return
+  note: 探索者集団【変異の三手】が帰還し、新秩序を築こうとしているという記述。彼らが「権威を貸し出している」相手（ローズマリー？）との関係。
+  quotes:
+  - quote: 企業所属の探索者集団としては最大手――どころか、複数企業の探索事業部門を束ね上げた複雑怪奇な組織である【変異の三手】の勢力は、ガロアンディアンにも決して劣らない。
+    paragraph: p313
+    quote_verified: true
+  expected_payoff: 第五階層の勢力図の変動、女王との対立構図、および彼らが「第五階層の裏面」で何を見つけたか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kate_Hologram
+  note: ゾーイ・アキラと共にいる幻像（ケイト）。「残った」と言い続け、勝利を宣言する謎の存在。彼は何者で、なぜ存在するのか。
+  quotes:
+  - quote: 「【力士（スモーレスラー）】のゾーイ・アキラだ。こっちはケイト。さ、『アキラ』について知ってることを教えてよ。」
+    paragraph: p206
+    quote_verified: false
+  expected_payoff: ケイトの正体（AI、霊体、別世界の住人など）、ゾーイとの関係性、および「残った」の真の意味。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力と支配構造の再生産：女王（女性権力）に対する男性的な屈辱と復讐の願望が、新たな暴力装置（ゾーイ・アキラ）によって回収される構図。
+  weight: 0.8
+  quotes:
+  - quote: '「へっ、女王気取りのメスが、いつかぶちこんで躾けてやるぜ」
+
+      どいつもこいつも、女ごときにいいようにされて情けない。'
+    paragraph: p248-p249
+    quote_verified: true
+  note: カインの独白はジェンダーによる支配関係の転倒を希求しており、それはゾーイ・アキラ（圧倒的な女性力）によって即座に破壊されることで、物語内での権力構造の残酷さを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 知覚と現実のズレ：「美しさ」や「常識」という概念的なものが、観測者の期待によって実体（魔術）として具現化されるメタフィクション的性質。
+  weight: 0.9
+  quotes:
+  - quote: 'そして、その『光妖精は耳が尖っている』という認識は広く共有されるにつれて確かな『常識』となって現実化していく。
+
+      形良く通った鼻梁、滑らかな頬、流麗な耳――人間の限りある知覚能力ではその圧倒的な『美』を見た瞬間の衝撃を表現することは難しい。'
+    paragraph: p499-p501
+    quote_verified: true
+  note: ウィクトーリアの外見描写は、読者の持つステレオタイプ（エルフ＝尖った耳）を物語内で「常識」として肯定し、知覚が現実を構築する仕組みを示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 消費と廃棄の循環：人間（カイン）が欲望を満たすために消費され、その結果として「残った」ものが処理される産業的・生態系的プロセス。
+  weight: 0.7
+  quotes:
+  - quote: '利潤。
+
+      それを収奪するためだけに呪侠たちは生かされ、公社は大企業の走狗と成り果てている。'
+    paragraph: p281-p282
+    quote_verified: true
+  note: カインの死は単なる惨劇ではなく、「おいた」をした者への処理であり、第五階層という巨大な産業システムにおける廃棄物処理の一環として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 内なる法と苦しみ：他者の苦しみ（カインの狂気）を肯定し受け止める行為が、愛や秩序の維持に不可欠であるという倫理的葛藤。
+  weight: 0.6
+  quotes:
+  - quote: '決まっている。人が苦しむのは、いつだって『内なる法』に背いたとき。
+
+      その苦しみこそ、貴方の秩序の正しさなのだと糾弾し、弾劾し、その行動と人格と欺瞞にあらん限りの罵声を浴びせたい。'
+    paragraph: p3-p10
+    quote_verified: false
+  note: 冒頭の独白は、カインの行動を「内なる法」への背反（おいた）として断罪し、その苦痛が彼の存在証明であることを肯定する視点を提供している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

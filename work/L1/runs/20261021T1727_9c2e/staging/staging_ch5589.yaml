@@ -1,0 +1,486 @@
+episode: ch5589
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_チッセ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5589_チッセ_appears_as_内世界大地_p10
+        quote: リーナの目の前に、拡大と暴走を続けるチッセの内世界が大地となって広がる。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_ショウ]]'
+  entity_type: relationship
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5589_ショウ_has_property_異世界童貞と劣等感_p105106
+        quote: '全人類が異世界に行ける書架世界で、飯田橋ショウは高校生にもなって転移未経験の異世界童貞。
+
+          優秀な兄の存在を重荷に感じながら、劣等感に苛まれる日々。'
+        locator: {}
+        spoiler_after: ch5589
+    action:
+      observations:
+      - event_ref: E_ch5589_ショウ_learns_日常への引き戻し力_p114
+        quote: ミズキを助けたショウは、自分に怪物と化した異形を『日常に引き戻す力』があることを知る。
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_ショウ_bonds_ミズキとの共闘_p117119
+        quote: 兄の仇を討ち、更なる犠牲者を出さないため、ショウとミズキは共闘を決意。だが、異世界を回遊する人魚を追うには、水着網タイツの装いが必要だという。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_兄]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5589_兄_dies_原因不明の死_p107
+        quote: そんな時、兄が原因不明の死を遂げる。
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_兄_dies_フリークス退治中の殉職_p116
+        quote: 兄の助手だったミズキによれば、兄は密かにフリークス退治をしており、人喰いの人魚であるユウヒと戦う中で殉職したという。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユウヒ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5589_ユウヒ_says_殺害の約束_p108110
+        quote: '更には幼馴染だと名乗る少女ユウヒが現れてこう囁いた。
+
+          「ショウくん、だいすき。きみをいじめるひとは、みんなころしてあげるからね」'
+        locator: {}
+        spoiler_after: ch5589
+    action:
+      observations:
+      - event_ref: E_ch5589_ユウヒ_transforms_人魚とフリークス化_p112
+        quote: 美しい人魚に変身して空を泳ぐユウヒは、心を侵すキスによってショウの周囲の人間を次々と異形の怪物（フリークス）に変えていく。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_矛盾史]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5589_矛盾史_functions_as_獣の衝動_p11
+        quote: チッセに突き立つ無数の矛盾史は、何度も牙を突き立てる獣の貪欲な衝動。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミズキ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5589_ミズキ_appears_博愛主義の敬語系ギャル_p112
+        quote: それを阻止するために現れたのは、亡き兄の恋人だった『博愛主義の敬語系ギャル』ミズキだった。
+        locator: {}
+        spoiler_after: ch5589
+    visual:
+      observations:
+      - event_ref: E_ch5589_ミズキ_wears_水着網タイツ_p114
+        quote: 彼女はユウヒを追うため特異な装備、すなわち人魚を模倣した水着網タイツで戦いに挑む。
+        locator: {}
+        spoiler_after: ch5589
+    speech:
+      observations:
+      - event_ref: E_ch5589_ミズキ_asks_接触と禁止事項_p119120
+        quote: '「あまり見ないで、けどもっと近くに来て手を握って下さい。あ、ドキドキするのは禁止です！」
+
+          「無茶だろ！」'
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_矛盾史浄界の森]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5589_矛盾史浄界の森_functions_as_排他的な淘汰圧_p12
+        quote: 行く手を阻む矛盾史浄界の森は、際限なく生存を望む排他的な淘汰圧。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_物語]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5589_物語_other_愛と人喰いと異世界の旅_p122124
+        quote: 'かくして、ショウの運命を大きく変える愛と人喰いと異世界の物語が始まった。
+
+          恋して壊すか。愛して喰らうか。人魚が突きつける問いは儚く泡に消えていく。
+
+          選ぶのは、ひとりの少年。そのキスが、世界を殺す。'
+        locator: {}
+        spoiler_after: ch5589
+    symbolic:
+      observations:
+      - event_ref: E_ch5589_物語_has_property_悪意と愛の内包_p13
+        quote: それは悪意であり、欲望であり、それでいて限りない愛を内包した物語。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5589_リーナ_says_文脈の完成_p128130
+        quote: '「届け文脈っ、完成して物語！！」
+
+          なりふり構わぬ懇願が響き渡る。
+
+          勝つための必死さと貪欲さ。'
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_says_愉快な仲間たちの時間_p38
+        quote: 「こっから先は、リーナちゃんと愉快な仲間たちの時間だ」
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_remembers_エストとの戦闘経験_p49
+        quote: 「うん、森の中で戦うのはムリムリ。エストと森フィールドで戦うとほぼ毎回やられてたし。おハルさんですら苦戦してたもん」
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_learns_対エスト戦闘の定石_p5254
+        quote: 'リーナは黒百合宮時代を思い出しながら、対エスト戦闘の定石をなぞった。
+
+          基本は森の外への誘い出し。
+
+          出来ない場合、環境を強引に変えたり、あるいは相手の属性そのものを強引に読み換えて、『樹木系のティリビナ人』という前提をひっくり返したり。'
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_thinks_テキストベース・サーキットの解決策_p56
+        quote: 「でもまず呪文が使えないんだよねここ。テキストベース・サーキットが支配されてるなら、呪文はその外側で唱える？
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_says_フィールドの塗り替え_p79
+        quote: 「テキストにはテキストを。物語には物語を。フィールドが大地と森なら、空と海に塗り替えて。ここで歌えないなら、外から手っ取り早く引っ張ってくればいい」
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_says_前提の紡ぎ_p87
+        quote: 「読者の誰もが知ってる前提は、今から紡ぐ。あるいは、もう紡いだ」
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_threatens_物語の破壊_p94
+        quote: 「この物語の外を参照して！ 文脈引っ張ってドッカンしてやる！ 物語は人を傷つける道具じゃねー！ 私たちと、新連載バトルで勝負だ！」
+        locator: {}
+        spoiler_after: ch5589
+    action:
+      observations:
+      - event_ref: E_ch5589_リーナ_observes_融血天主の心情_p27
+        quote: 少しだけ理解できるような気がして、リーナの胸が痛んだ。
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_stops_恐れと不安_p36
+        quote: リーナは息を吸い込んで、恐れや不安ごと吐き出した。
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_learns_ひらめき電撃_p6062
+        quote: 'その時だった。リーナに電流が走る。
+
+          「よっし！ ひらめき電撃リーナちゃんだ。テセト、SNSとか使って宣伝がんばって。ルラーマとカルパオッソにはアドバイザーになって欲しい」'
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_makes_即興の構想_p6465
+        quote: '作戦を話し合いながら、構想を即興で組み立てていく。
+
+          時間はない。だがその問題を解決する速度があったなら？'
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_リーナ_fights_敵意の風_p8992
+        quote: '加速していく世界の中で、敵意の風を骨の風防で引き裂いていく。
+
+          金の瞳が輝いて、ガルズと共にこの世の彼方に目を向けた。
+
+          視界は良好。四方は絶望。
+
+          尽きせぬ悲願が阻むなら、この世ならざる彼岸へ飛んでいこう。'
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_意思の結実]]'
+  entity_type: motif
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5589_意思の結実_conceals_未確定の答え_p132134
+        quote: 'その意思が結実するか否か。
+
+          答えは未確定のまま、藍と緑の奥に秘されている。
+
+          今は、まだ。'
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_融血天主]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5589_融血天主_says_魔王化と虐殺の受容_p15
+        quote: 『たとえ魔王となり、虐殺の歴史を繰り返すのだとしても』
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_融血天主_promises_穢れの受容_p16
+        quote: 『私は穢れることをためらいはしない。美しいあなたを咲かせるためなら』
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_融血天主_reveals_核の想い_p19
+        quote: 融血天主の核にある想いが、呪文から伝わってくる。
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_融血天主_says_報復の権利_p2
+        quote: 『弱者には全てに報復する権利がある』
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_融血天主_hates_クロウサー家とティリビナ人の運命_p2021
+        quote: 'ティリビナ人の運命に対する怒り。
+
+          クロウサー家の傲慢に対する憎悪。'
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_融血天主_loves_愛おしい誰か_p22
+        quote: それを遥かに上回る、愛おしい誰かに対する献身と情愛。
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_融血天主_thinks_遠い情景への恋慕_p2526
+        quote: '完結した世界で、遠い情景に焦がれるように恋い慕う。
+
+          憧れのような恋。'
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_融血天主_promises_永遠の絆と殺害の約束_p2931
+        quote: '『ええ、きっとよ。いまここで、かわらぬえいえんを』
+
+          『あいしてる』『あいしてる』『ずっといっしょ』
+
+          『あなたのために、じゃまなやつはみんなころしてあげるね』'
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_融血天主_says_世界否定の愛_p3
+        quote: 『私の愛は全てを壊す。たとえ世界があなたを否定しても、世界を否定すればいい』
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_融血天主_defines_世界殺しのキス_p4
+        quote: 『これは世界を殺すキス』
+        locator: {}
+        spoiler_after: ch5589
+      - event_ref: E_ch5589_融血天主_gives_視界奪う傷_p5
+        quote: 『あなたに捧げる、視界すべてを奪う傷』
+        locator: {}
+        spoiler_after: ch5589
+    action:
+      observations:
+      - event_ref: E_ch5589_融血天主_makes_小規模浄界強度の矛盾史_p8
+        quote: その強度が巨人の位階を超え、紀人の高みに達した今、融血天主が生み出す矛盾史の強度は小規模浄界のそれだ。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_正統史]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5589_正統史_dies_途絶_p17
+        quote: 『この正統史は途絶した。新たな宇宙の中で、幾千幾万の矛盾史が生まれる』
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_小鬼化したチッセ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5589_小鬼化したチッセ_has_property_危険な寄生対象_p33
+        quote: 小鬼化していくチッセへの寄生は、融け合うロードデンドロンにとっても危険な行為でもあった。ただでさえ危ういその思考が、一気に暗がりへと落ちていく。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_天主至った者]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5589_天主至った者_defines_小鬼化時の未知の脅威_p3435
+        quote: '天主に至った者が小鬼化した時、何が起きるのか。
+
+          考えたくもないその脅威に、今さら震えることはしない。'
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_呪文戦]]'
+  entity_type: terminology
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5589_呪文戦_has_property_リーナへの不利_p4043
+        quote: '問題は、呪文戦では明らかに不利だということ。
+
+          超高精度な物語呪文の森は堅牢な防火壁と番人を備えた城砦に等しい。
+
+          文字世界を埋め尽くすような物量の暴力を、単純な対抗呪文でひっくり返すことは難しい。'
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5589_ハルベルト_requires_森の打ち破り_p45
+        quote: 幼馴染にして呪文の座の主、太陰の王女ハルベルトでも連れてこなければ真っ向からあの森を打ち破ることは不可能だろう。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_愛と殺意]]'
+  entity_type: motif
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5589_愛と殺意_fights_調和_p4647
+        quote: '眼前で、生い茂る愛が殺意を高らかに歌い上げる。
+
+          相反するようで、それは矛盾せず自然の中で調和していた。'
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_森]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5589_森_functions_as_ティリビナ人の呪術的優位場_p51
+        quote: ティリビナ人にとって『森』という象徴は呪術的に優位な場を意味する。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_記述]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5589_記述_has_property_強度の優先権_p58
+        quote: だが文字情報が支配する世界では強度のある記述が最も強い。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_呪文]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5589_呪文_has_property_詠唱時間の弱点_p59
+        quote: それがところ狭しと林立しているせいで、こちらが呪文を紡ぐ猶予時間がまったくないのだ。呪文は詠唱時間が必要になる『遅さ』が最大の弱点だが、ティリビナ人は
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ・ゾラ・クロウサー]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5589_リーナ・ゾラ・クロウサー_has_property_黒百合の子供たちとしての経歴_p66
+        quote: リーナ・ゾラ・クロウサーはかつて『星見の塔』の姉妹候補であり、『黒百合の子供たち』として偉大な魔女を目指す過程で幼馴染たちとの絆を結んできた。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5589_アズーリア_uses_射影即興喜劇アトリビュート_p6970
+        quote: '呪文の座の末妹候補ハルベルトと、その使い魔にして『黒百合の子供たち（チョコレートリリー）』の共同幻想であるアズーリアのことを思い出した。
+
+          アズーリアが使う『射影即興喜劇（アトリビュート）』の呪術は、仲間たちを参照することで迅速かつ強力な『絆パワー』を扱うことが可能だ。'
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_歌]]'
+  entity_type: motif
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5589_歌_appears_悪意と愛の連鎖_p7
+        quote: 歌が広がる。悪意が連なる。愛が生まれる。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_引喩アリュージョン]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5589_引喩アリュージョン_defines_高速呪文修辞作法_p7173
+        quote: 「引喩（アリュージョン）。呪文は森に阻害されない程度のシンプルさで。誰もが知ってる前提を利用して、高速で意味と文脈を引っ張って対抗できるだけの呪力を用意する」
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_消防斧オープンセサミ]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5589_消防斧オープンセサミ_requires_知識共有の鍵_p7677
+        quote: '故事、ことわざ、ステレオタイプ、持物、教養、流行り、ミーム、モンタージュ、なんでもいいから即座に通じる『消防斧（オープンセサミ）』が必要だ。
+
+          なければ用意してやろう。クロウサーならそれが可能だ。'
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_テキストベース・サーキット]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5589_テキストベース・サーキット_defines_記述による世界構成_p8
+        quote: 記述によって世界が構成されているテキストベース・サーキットにおいて、矛盾史は小さな宇宙に等しい。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_対抗呪文]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5589_対抗呪文_requires_オルガンローデと最高速度_p8183
+        quote: '強い物語じゃなきゃ意味がない。
+
+          即座に詠唱できて、それでいて長大で強固なオルガンローデ。
+
+          融血天主が構築する巨大な愛の森を越えて行ける、最高速度の対抗呪文。'
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_読者のデータベースへのアクセス]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5589_読者のデータベースへのアクセス_defines_第八階梯紀への到達_p85
+        quote: このテキストベース・サーキットという地の文に併走する神なる視点、すなわち想定される読者のデータベースにアクセスすることは、そのまま第八階梯たる『紀』への到達にも等しい偉業だ。だとすれば、それは時間と空間を超越する。
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true
+- canonical_target: '[[E_phrase_魔女]]'
+  entity_type: phrase
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5589_魔女_names_水着網タイツは人魚のなごり_p97100
+        quote: 'その名、その題名を、空使いに至らんとする魔女は高らかに叫んだ。
+
+          ※※※『水着網タイツは人魚のなごり』※※※'
+        locator: {}
+        spoiler_after: ch5589
+  first_appearance_candidate: true

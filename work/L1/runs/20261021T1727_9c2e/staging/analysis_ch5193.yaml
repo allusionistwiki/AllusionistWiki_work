@@ -1,0 +1,130 @@
+chapter: ch5193
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 4
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_変態の正体と改竄の主体
+  note: エスフェイル討伐報告を改竄し、全裸の変態を「英雄」から除外しようとした勢力（カタルマリーナ？）の意図。この男がなぜ全裸で現れたのか、その経緯。
+  quotes:
+  - quote: 魔将エスフェイルを討伐した時のアズーリアの報告。そこには、何者かによって改竄されたと思しき痕跡が残っていたのだ
+    paragraph: p206
+    quote_verified: true
+  - quote: 全裸の変態でメンヘラ...駄目だ、どうやっても英雄譚にならない
+    paragraph: p213-p214
+    quote_verified: false
+  expected_payoff: この変態が誰なのか（過去作のキャラ？）、そして報告を改竄した「カタルマリーナ」側の政治的動機（英雄のプロパガンダ維持のため）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ハルベルトの不死性の条件
+  note: 「末妹になることのみ」という解呪条件と、母との運命共同体（殺されれば母も死ぬ）の詳細。この「末妹」の定義が物語の終盤でどう回収されるか。
+  quotes:
+  - quote: 魂を蝕む呪いを解呪する条件――それは紀元槍に至り末妹になることのみ
+    paragraph: p82
+    quote_verified: true
+  - quote: いずれ、自分は母の強大な呪いによって殺される...母もまた娘と運命を共にするのだ
+    paragraph: p78-p79
+    quote_verified: false
+  expected_payoff: ハルベルトが最終的に「末妹」として位置づけられるイベント（転生、結婚、地位の獲得など）が発生し、呪いとの対決に至る。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_クリア先生の真意と存在形態
+  note: 影世界で触手をお菓子に変換する「クリア先生」の正体。彼女は既に死亡しているはずだが、なぜ干渉できるのか（アズーリアの記憶？幽霊？）。
+  quotes:
+  - quote: いかにサリアが冬の魔女コルセスカの使い魔だとしても、古き神による侵攻をただ一人で阻止し続けられるはずもない...ありがとうございます、クリア先生
+    paragraph: p105-p107
+    quote_verified: false
+  - quote: 遠く、世界に広がる触手を片端からお菓子に変えていく垂れ耳兎の特徴を持つ女性の姿が一瞬だけ見えた
+    paragraph: p110
+    quote_verified: true
+  expected_payoff: クリア先生のアストラル体への介入メカニクスが説明され、彼女との和解や別れのシーンが描かれる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_サリアの狂気とトリシューラの関係
+  note: サリアが「狂犬」と化している状態と、コルセスカ（冬魔女）およびトリシューラとの因縁。サリア救出後にハルベルトが彼女と対峙する必要がある理由。
+  quotes:
+  - quote: いつかあれと対峙しなくてはならないのかと思うとぞっとする...自分には優れた使い魔の力が必要不可欠だ
+    paragraph: p126-p127
+    quote_verified: false
+  - quote: それが、かつてサリアがコルセスカと共に挑んだ始祖吸血鬼の成れの果てであり、それを生ける呪動装甲にしたのがトリシューラであることまでハルベルトは知っていた
+    paragraph: p123
+    quote_verified: true
+  expected_payoff: サリア救出後の戦闘で、狂気に支配されたサリアを鎮めるためにトリシューラ（またはコルセスカ関連の存在）との対決・和解が必要になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_悪夢の最後の変態の生存結末
+  note: アズーリアが想像する「変態が生きていて憎悪している」結末。これが単なる恐怖か、それとも何らかの予知・因果律の反映か。
+  quotes:
+  - quote: 未だにその変態が生きているという結末もあった...裏切ったアズーリアへの殺意に染め上げられている
+    paragraph: p232-p233
+    quote_verified: false
+  expected_payoff: この悪夢が現実になる、あるいはハルベルトが変態の生存を確認してアズーリアを安心させる展開へ繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「愛」は最も強力な「呪い（制御・支配）」として機能し、それは自己犠牲によってのみ解放される。
+  weight: 0.9
+  quotes:
+  - quote: ハルベルトにとって全身にかけられた呪いは母と師からの愛だった...あらゆる悪意を上回る、母から向けられた絶対の呪い。それこそが愛の証明なのだと
+    paragraph: p38-p88
+    quote_verified: false
+  note: ハルベルトの不死性と防御力は、母の「娘を殺す」という究極の自己犠牲的愛（呪い）に由来する。愛と呪いの境界が曖昧になるテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄譚（ナラティブ）の構築は、理不尽な現実を「改竄」し「英雄像」へ整形することによってのみ成立する。
+  weight: 0.8
+  quotes:
+  - quote: 魔将エスフェイルを討伐した時のアズーリアの報告...何者かによって改竄されたと思しき痕跡...全裸の変態でメンヘラ...英雄譚に相応しいとはとても思えない
+    paragraph: p206-p214
+    quote_verified: false
+  note: カタルマリーナによる報告改竄と、ハルベルトの「変態」に対する嫌悪が、歴史記述（英雄譚）がいかに事実を都合よく編集しているかを皮肉っている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: トラウマ（傷）は「記憶の再構成（ナラティブ・セラピー）」によってのみ克服可能であり、それは嘘（捏造された過去）を含む許容性を持つ。
+  weight: 0.7
+  quotes:
+  - quote: 不安定なものとして固定されたアズーリアの自我を強制的に上書きし、不安定では無かったことにする...『信用できない時制と語り手の解決』を利用した過去遡及的な心療治癒呪術
+    paragraph: p248-p249
+    quote_verified: false
+  note: 現実を直視するのではなく、語りの技術によって意味づけを変えることで精神を修復しようとする試み。真実性よりも「機能性」が優先される倫理観。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 狂気と秩序の境界は脆く、「使い魔（ツール）」としての存在は、主の精神崩壊に伴い兵器化し暴走する。
+  weight: 0.6
+  quotes:
+  - quote: もはや意味を為さない絶叫は理性を失った狂人のそれだ...誰彼構わず噛み付くだけの狂犬...狂乱しながら戦うサリアは、古き神相手に一歩も退いていない
+    paragraph: p116-p125
+    quote_verified: false
+  note: サリアの描写を通じて、忠実な部下・使い魔が主の苦難に共鳴し狂気に転じる危険性（共依存的構造）を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,124 @@
+chapter: ch5430
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 14
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_レオの正体とプトレマイオス計画
+  note: レオがカーインに「答えは既にそこにある」と告げ、アンとユディの完成を約束した。彼が「プトレマイオス」と呼ばれることの意味と、「祭壇の準備」の内容が不明。
+  quotes:
+  - quote: 「今回は順調です。じきにアンとユディも完成する。そうしたらみんなが揃うね、カーイン」
+    paragraph: p119
+    quote_verified: true
+  - quote: 「本当の王（ジャッジ）であれば。生まれついての造物主（アルコーン）であれば、そんな視点を外部に置いたりしない。だって王は自分が見ていればそれでいいのだから」
+    paragraph: p91
+    quote_verified: true
+  expected_payoff: レオが世界観を書き換える「造物主」として機能し、アンとユディとの合流で物語のメタ構造（祭壇）が完成する展開への回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_シナモリアキラの内面化
+  note: カーインが「答えは自分の中にある」と気づき、自身の中にシナモリアキラ性を発見して自己攻撃を行う。この「内なる敵」の正体と、サイバーカラテの因果制御の完全な解明。
+  quotes:
+  - quote: 答えは既にそこにある、最初からここにあったのだ。
+    paragraph: p161
+    quote_verified: true
+  - quote: カーインが穿つべき紀命点は、関係性の狭間にあったのだ。
+    paragraph: p165
+    quote_verified: true
+  expected_payoff: 外敵との戦いではなく、自己の概念（シナモリアキラ）との統合または超越による決着への回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_単眼竜の理性の喪失と制御不能
+  note: 「理性という名の枷」を外した単眼竜が、文化や秩序を無視する混沌として暴走。レオによって強制的に眠らされたが、その「睡眠」の状態と覚醒時の影響が未知。
+  quotes:
+  - quote: この暴力を統御していたのは理性という名の枷だった。
+    paragraph: p84
+    quote_verified: true
+  - quote: お眠り、暴虐の王。今はまだその時ではない
+    paragraph: p112
+    quote_verified: true
+  expected_payoff: 竜の覚醒が世界観崩壊のトリガーとなるか、レオの介入によって完全に封じられるかの結末への回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_E-Eの因果改変能力（ネズミによる矢印破壊）
+  note: トリシューラの解説図において、魔竜レーレンタークが因果の矢印を噛み砕き、「因アキラ」と「果アキラ」をずらす描写。これが単眼竜の行動原理とどう接続するのか。
+  quotes:
+  - quote: 図に示された『因アキラ』と『果アキラ』を結ぶ矢印を、ネズミがくわえてどこかに持って行ってしまった。矢印をかじってバラバラにしたネズミが、因果のアキラに残飯をぶちまけてしまう。
+    paragraph: p187
+    quote_verified: true
+  expected_payoff: シナモリアキラ（アキラ）の存在自体が「因果の歪み」そのものであり、カーインがその歪みを「礼」として受け入れることで決着がつくメタ物理的な回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 名前（定義）を失った暴力の純粋性と恐怖
+  weight: 0.8
+  quotes:
+  - quote: 存在するだけで全てを脅かすこの魔獣に名前は無い。野生の暴威には本来呼び名が無いからだ。
+    paragraph: p12
+    quote_verified: true
+  - quote: 力はただ存在しているだけで周囲を傷つける。この暴力を統御していたのは理性という名の枷だった。
+    paragraph: p84
+    quote_verified: true
+  note: 単眼竜が「名前」を持たないことで、既存の社会規範や物語的役割（悪役・王）から自由になり、純粋な破壊力として描かれている。命名とは制御であり、未定義の暴力は秩序を解体する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族関係の経済的物象化と孝行の解体
+  weight: 0.7
+  quotes:
+  - quote: 「俺様の財ならば俺様の役に立て。子などそのための道具だろうが」
+    paragraph: p49
+    quote_verified: true
+  - quote: 吐き捨てると共に、少年の両足が強引にむしられた。
+    paragraph: p35
+    quote_verified: true
+  note: 伝統的な「孝行」や「親愛」という倫理観を、「所有物としての家族」「道具としての子ども」という極端な資本主義的・獣道的視点で破壊する過程が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 認識のメカニズム（尋）と現実の書き換え
+  weight: 0.9
+  quotes:
+  - quote: 無意識後の『気付き（アウェアネス）』が表層意識に浮かび上がらせた『言葉』はいわば呪文で、それが呪力を生起させるんだ
+    paragraph: p180
+    quote_verified: true
+  - quote: カーインが穿つべき紀命点は、関係性の狭間にあったのだ。
+    paragraph: p165
+    quote_verified: true
+  note: 世界は客观的な物理法則ではなく、「名前と結びつける」認知プロセス（尋）によって構成されるという観念論的・情報科学的なテーマ。カーインの勝利は、この認識構造を内部から操作することによって達成される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 王権の虚構性と自己立法者としての人間
+  weight: 0.6
+  quotes:
+  - quote: 「王（ジャッジ）の器などという虚構（もの）がもしあるとすれば、その持ち主はきっと罪人に違いありません。誰もが社会という物語の中で正しさの秤に試され続けている。それを拒絶して自分だけの法を定めようとする異端者が無法者でなくてなんだというのでしょう」
+    paragraph: p124
+    quote_verified: true
+  note: レオの演説により、王権が「社会の物語」という虚構であることが明かされる。これに対し、外部からの評価を拒絶し自己の法を定めること（異端・無法）を肯定的な「美しさ」として描くことで、既存の秩序への挑戦を主題化する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

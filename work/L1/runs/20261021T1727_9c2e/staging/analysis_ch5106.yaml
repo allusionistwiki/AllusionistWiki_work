@@ -1,0 +1,224 @@
+chapter: ch5106
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5106_p37]]'
+  object: '[[ME_pharmaceutical_blister_pack]]'
+  claim: 戦闘前に服用するカプセル剤が、医療用ブリスターパック（PTP）そのものの形状と運用で提供されている。
+  quote: そう言って、カプセル薬が入ったプラスチックの成形シートをまとめて渡してくる。戦う前に一錠服用することで肉体を戦闘モードに切り替える、いわば安全装置のようなものらしい。
+  paragraph: p37
+  confidence: explicit
+  quotes:
+  - quote: そう言って、カプセル薬が入ったプラスチックの成形シートをまとめて渡してくる。戦う前に一錠服用することで肉体を戦闘モードに切り替える、いわば安全装置のようなものらしい。
+    paragraph: p37
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5106_p13]]'
+  object: '[[ME_metabolic_conversion_mechanism]]'
+  claim: トリシューラの体内呪力変換装置は、食品添加物や加工過程を栄養素として吸収する生体工学のプロセスに似ている。
+  quote: 人の手が加えられていればいるほど含有される意味の量が増えるので効率が良いとか何とか。
+  paragraph: p13
+  confidence: moderate
+  quotes:
+  - quote: 人の手が加えられていればいるほど含有される意味の量が増えるので効率が良いとか何とか。
+    paragraph: p13
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_5106_p47]]'
+  object: '[[ME_rpg_status_screen]]'
+  claim: 敵が転生者のステータスやスキル構成を瞬時に解析する描写は、ゲーム的なUI（ステータス参照能力）のメタ的表現である。
+  quote: 「スキルと装備が更新されているようだな？ 一瞬だけ別人かと思った。凄まじい程に能力が上昇している」
+  paragraph: p47
+  confidence: strong
+  quotes:
+  - quote: 「スキルと装備が更新されているようだな？ 一瞬だけ別人かと思った。凄まじい程に能力が上昇している」
+    paragraph: p47
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5106_p87]]'
+  object: '[[ME_procedural_memory_theory]]'
+  claim: 記憶喪失後も身体技術が維持される理由として、エピソード記憶と手続き記憶の区別という神経科学的概念が引用されている。
+  quote: 「エピソード記憶は削れても、手続き記憶は削れないみたいだな。試してないが、泳いだり自転車乗ったりはできるはずだ」
+  paragraph: p87
+  confidence: explicit
+  quotes:
+  - quote: 「エピソード記憶は削れても、手続き記憶は削れないみたいだな。試してないが、泳いだり自転車乗ったりはできるはずだ」
+    paragraph: p87
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5106_p103]]'
+  object: '[[ME_phantom_limb_mirror_therapy]]'
+  claim: 幻肢を実体化させる呪術の原理は、鏡を用いて脳に錯覚を起こし幻肢痛を緩和するミラーセラピーの逆転応用に見える。
+  quote: '「凍れ」
+
+    俺の意思に従って、手の周囲に複数の鏡が展開される。幾何学的な形状の、多面の結晶。形成された氷の鏡に映し出されているのは半透明で輪郭の不確かな幻影のような腕だった。'
+  paragraph: p99-p101
+  confidence: moderate
+  quotes:
+  - quote: '「凍れ」
+
+      俺の意思に従って、手の周囲に複数の鏡が展開される。幾何学的な形状の、多面の結晶。形成された氷の鏡に映し出されているのは半透明で輪郭の不確かな幻影のような腕だった。'
+    paragraph: p99-p101
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5106_p78]]'
+  object: '[[ME_mechanical_gear_system]]'
+  claim: 義肢の手の甲にある歯車が回転し駆動する描写は、機械仕掛けの自動機構（オートマトン）やエンジン的な増幅構造を想起させる。
+  quote: 激突の瞬間、手の甲に取り付けられた『歯車』が急速に回転し始める。途端、左腕全体に力が漲り、俺が強く踏み込むまでもなく自動的に義肢そのものが駆動、その場で打撃力を増大させていく。
+  paragraph: p78
+  confidence: strong
+  quotes:
+  - quote: 激突の瞬間、手の甲に取り付けられた『歯車』が急速に回転し始める。途端、左腕全体に力が漲り、俺が強く踏み込むまでもなく自動的に義肢そのものが駆動、その場で打撃力を増大させていく。
+    paragraph: p78
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_pharmaceutical_requirements
+  note: カプセル剤の成分と補充システム。特に「転生者の細胞」が含まれている点と、無くなったら戦えないという制約が後の資源不足や敵との関連で回収される可能性。
+  quotes:
+  - quote: 王獣カッサリオの骨を砕いて粉末にしたものと、鴉の鰓と兎の角、岩の吐息と転生者の細胞とか色々混ぜたお薬。その腕で戦う為に必要だから、幾つかセットで持ち歩いてて。無くなったらまた作って補充するから
+    paragraph: p35
+    quote_verified: true
+  - quote: そう言って、カプセル薬が入ったプラスチックの成形シートをまとめて渡してくる。戦う前に一錠服用することで肉体を戦闘モードに切り替える、いわば安全装置のようなものらしい。つまり無くしたら戦えないわけだ。大切にしまっておくとしよう。
+    paragraph: p37
+    quote_verified: true
+  expected_payoff: 戦闘の長期化による薬切れ、成分である「転生者の細胞」が敵キロンとの関係（同じ転生者資源？）で判明する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_mirror_phantom_arm_mechanism
+  note: コルセスカの義肢の仕様。「幻肢を実体として操作する」「鏡の中の空間を高速で飛行」という記述が、物理法則を超えた呪術のルール（反射、虚像の実体化）を示唆しており、戦闘後の検証や改変で重要になる。
+  quotes:
+  - quote: 新たな右の義肢――コルセスカが生み出した呪術の義肢は、俺の幻肢を実体として操作する。
+    paragraph: p103
+    quote_verified: true
+  - quote: 鏡の中の空間を高速で飛行していく右手が、掌を拡大させ、そのまま三つの火球をまとめて握りつぶす。それに従って、現実の世界では前触れもなくいきなり火球が消失。右腕の感覚を手元に引き戻すと、その周囲で氷が砕けていく。
+    paragraph: p107
+    quote_verified: true
+  expected_payoff: この「鏡像空間」を利用した更なる応用攻撃や防御、あるいは鏡破壊による義肢機能停止リスクの顕在化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kiron_status_reference
+  note: キロンが持つ「ステータス参照能力」の詳細と限界。「想像もつかない」とあるが、彼がどこまで読めるのか、隠蔽できるのかが今後の戦術の鍵となる。
+  quotes:
+  - quote: ステータス参照能力。転生者から奪ったと思われる、キロンの持つスキルの一つだ。多様なスキルを自在に習得していくことが可能であり、現在どんなスキル構成であるのか、想像もつかない。なにしろ階層の狭間に追放されている間、空間操作のスキルに習熟するための特訓をひたすらしていたはずなのだ。戦いに備えて、その他のスキルも上げている可能性がある。
+    paragraph: p49
+    quote_verified: true
+  expected_payoff: キロンがアキラの「隠された能力（例：サイバーカラテの深層、呪術への耐性の秘密）」を読みきれず敗北する、あるいは読み切った上で対策してくる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_resistance_inversion
+  note: アキラが「抵抗力皆無」でありながらキロンの術を打ち破った理由。「肉体が急に強くなったわけではない」と明言されており、義肢の封印や鏡の力を使った「概念操作」であることが伏線。
+  quotes:
+  - quote: 両腕以外は呪術に対する抵抗力を持たないはずの俺の身体が、キロンの術を打ち破った。ありえない事態だが、これは俺の肉体が急に呪術に対して強くなったということを意味していない。
+    paragraph: p128
+    quote_verified: true
+  expected_payoff: この「打ち破り」のメカニズム（幻肢の鏡像干渉？）が解説され、アキラ固有の戦い方の確立に繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美観と道徳の融合：「醜さ」を即座に「悪」と定義する権威主義的な正義観の提示
+  weight: 0.8
+  quotes:
+  - quote: 「――そして弱さであり、醜さでもある。君は醜いなアキラ。見るに堪えない、美観を損ねる。醜いというのはただそれだけで悪だ」
+    paragraph: p59
+    quote_verified: true
+  - quote: 「君は邪悪だ、アキラ。邪悪な者は排除せねばならない。この胸に燃える正義の炎にかけて」
+    paragraph: p63
+    quote_verified: true
+  note: キロンが美醜を倫理基準（善悪）と直結させている。これはアキラの外見や境遇（醜い＝邪悪）に対する偏見を戦いの動機にしていることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体性の拡張：義肢・薬品・幻肢による「肉体」の定義の逸脱と強化
+  weight: 0.7
+  quotes:
+  - quote: 俺は彼女たちから一つずつ義肢を与えられている。この左右の腕はそれぞれが極めて高度な呪術によって作られた特殊な義肢だ。そのような強力な呪具を肉体と繋げるということが可能となったのも、俺に呪術に対する抵抗がほとんどないからということらしい。
+    paragraph: p27
+    quote_verified: true
+  - quote: 新たな右の義肢――コルセスカが生み出した呪術の義肢は、俺の幻肢を実体として操作する。
+    paragraph: p103
+    quote_verified: true
+  note: 人間のアキラが「使い魔」として機能するために、生身の肉体から呪具・幻肢へと身体を拡張している。技術と魔法の融合による超人化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶とスキル：喪失した自己（エピソード）と残る技（手続き）の対比
+  weight: 0.6
+  quotes:
+  - quote: 「さすがは元サイバーカラテの使い手。肉体に刻み込まれた修練の成果はそう簡単には消えないらしい」
+    paragraph: p85
+    quote_verified: true
+  - quote: 「エピソード記憶は削れても、手続き記憶は削れないみたいだな。試してないが、泳いだり自転車乗ったりはできるはずだ」
+    paragraph: p87
+    quote_verified: true
+  note: 転生者としてのアイデンティティ（記憶）を失っても、鍛え上げた身体技術（スキル）は残るという、人間性のコアに関する考察。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己決定の倫理：他人に決断を預けることへの批判と自覚
+  weight: 0.5
+  quotes:
+  - quote: 「なぜ逃げなかった？ この期に及んで俺と戦う理由は？ 俺は【きぐるみの魔女】と全ての異獣を討伐できればそれでいい。あえて君と戦う理由はないのだ。まして抜け殻となった今の君とは」
+    paragraph: p51
+    quote_verified: true
+  - quote: 「決断を他人に預けるな。それは怠惰さだ」
+    paragraph: p55
+    quote_verified: true
+  note: キロンがアキラの戦う理由（魔女のため）を「他人への依存・怠惰」と批判しており、アキラの主体性が問われている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

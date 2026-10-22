@@ -1,0 +1,254 @@
+chapter: ch5236
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 6
+  themes: 4
+  quotes_verified: 21
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p107]]'
+  object: '[[ME_finger_missiles_game_feature]]'
+  claim: トリシューラの指がミサイル化して攻撃する描写は、ゲームやアニメにおける『必殺技』『新機能追加』のメタ的なパロディである。
+  quote: 「新機能！　かっこいいでしょ！」
+  paragraph: p109
+  confidence: explicit
+  quotes:
+  - quote: 「新機能！　かっこいいでしょ！」
+    paragraph: p109
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p270]]'
+  object: '[[ME_sword_of_damocles]]'
+  claim: イアテムの殺意と連動してトリシューラの頭上に現れる巨大な剣は、古代ギリシャの逸話「ダモクレスの剣」を指している。
+  quote: その上から、半透明の巨大な剣が吊り下げられていた。今にも彼女の頭の上に落ちてきそうな不安定な質量体。女王を脅かす刃は、まるでイアテムの殺意と連動するように揺れ動く。
+  paragraph: p270-p272
+  confidence: explicit
+  quotes:
+  - quote: その上から、半透明の巨大な剣が吊り下げられていた。今にも彼女の頭の上に落ちてきそうな不安定な質量体。女王を脅かす刃は、まるでイアテムの殺意と連動するように揺れ動く。
+    paragraph: p270-p272
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p196]]'
+  object: '[[ME_fluid_computing_analogy]]'
+  claim: 水流が論理回路を形成し演算を行う描写は、現代のコンピュータ科学における「流体計算」や「アナログコンピュータ」の概念をファンタジー用語で置換したものである。
+  quote: 電流のアナロジーとして機能する水流が論理回路を形成。それらは『大河』あるいは『大海』のアナロジーとして作用し、並列で超大規模な演算を実行。
+  paragraph: p196
+  confidence: strong
+  quotes:
+  - quote: 電流のアナロジーとして機能する水流が論理回路を形成。それらは『大河』あるいは『大海』のアナロジーとして作用し、並列で超大規模な演算を実行。
+    paragraph: p196
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p288]]'
+  object: '[[ME_satanic_emblem]]'
+  claim: 燃える翼を象ったエンブレムは、サタン（堕天使）の意匠であり、中世ヨーロッパで異端審問によって「焼かれた」罪人たちの視覚的記号を想起させる。
+  quote: イアテムの周囲に、燃える翼を象ったエンブレムが次々と表示されていく。視界を埋め尽くし動作を妨害する幻覚ウィルスだ。
+  paragraph: p288
+  confidence: moderate
+  quotes:
+  - quote: イアテムの周囲に、燃える翼を象ったエンブレムが次々と表示されていく。視界を埋め尽くし動作を妨害する幻覚ウィルスだ。
+    paragraph: p288
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p319]]'
+  object: '[[ME_lizard_tail_dropping]]'
+  claim: イアテムが肉体の一部を切り捨てて逃げる様子は、トカゲ（蜥蜴）が捕食者から逃れるために尻尾を自切する生物学的現象の比喩である。
+  quote: 本当の肉体はどこかに隠れてて、アストラル体も一部だけ囮として残してどっか逃げてったと思う」
+  paragraph: p319-p321
+  confidence: strong
+  quotes:
+  - quote: 本当の肉体はどこかに隠れてて、アストラル体も一部だけ囮として残してどっか逃げてったと思う」
+    paragraph: p319-p321
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p26]]'
+  object: '[[ME_martial_artist_salesman_archetype]]'
+  claim: 師範代が「営業」と称して他流試合を仕掛け、後から仕事を処理する描写は、現代の格闘家やビジネスパーソンが見せる「名目と実利のズレ」を風刺している。
+  quote: 適当に気晴らしをした後で営業と称して競合する道場や民間警備会社、呪具店に殴り込みをかけてはサイバーカラテの力を売り込んで後から仕事をしていたことにするのがいつものやり方だ。
+  paragraph: p26
+  confidence: moderate
+  quotes:
+  - quote: 適当に気晴らしをした後で営業と称して競合する道場や民間警備会社、呪具店に殴り込みをかけてはサイバーカラテの力を売り込んで後から仕事をしていたことにするのがいつものやり方だ。
+    paragraph: p26
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p378]]'
+  object: '[[ME_lolita_complex]]'
+  claim: 生後9ヶ月の赤子との年齢差を「鬼畜外道」と表現するのは、フィクションにおけるロリコン傾向や年の差カップルへのメタ的な自虐的ジョークである。
+  quote: （例えば、生後九ヶ月の赤ちゃんとかねー）それだけ聞くと最悪な鬼畜外道だな。
+  paragraph: p378-p379
+  confidence: explicit
+  quotes:
+  - quote: （例えば、生後九ヶ月の赤ちゃんとかねー）それだけ聞くと最悪な鬼畜外道だな。
+    paragraph: p378-p379
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_iaitem_survival
+  note: イアテムが頭部を爆発四散させた後、「逃げられた」とトリシューラが呟き、セージがアバター説を解説する。
+  quotes:
+  - quote: 「逃げられた」トリシューラが不満そうに呟く。え、マジで？　あれでまだ倒せてないとか冗談だろ？
+    paragraph: p315-p316
+    quote_verified: true
+  expected_payoff: イアテムの本体は無傷であり、次回の襲撃や【変異の三手】との本格的な戦争で再登場する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_iaitem_affiliation
+  note: イアテムが「白眉」と名乗り、「【変異の三手】」の副長であると宣言した。
+  quotes:
+  - quote: 我が名は白眉のイアテム！　【変異の三手】が右副肢にして副長である！
+    paragraph: p179
+    quote_verified: true
+  expected_payoff: 四英雄グレンデルヒ率いる敵勢力「変異の三手」との対立構図の確定。今後の戦争の主戦力としての登場。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_sage_past_identity
+  note: イアテムがセージを「師匠」と呼び、過去の師弟関係や勝敗の記録について言及している。
+  quotes:
+  - quote: 俺が不在の間、留守を任せた筈だがな――負けただけでは飽きたらず、敵に膝を屈したか、セージよ
+    paragraph: p165
+    quote_verified: true
+  expected_payoff: セージの過去（公社の残党としての経歴）や、イアテムとの因縁の詳細が明かされる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_fal_and_sage_romance
+  note: ファルがセージへの愛を告白し、セージも「キモい」と言いながらも頬を染めるなど、両者の関係に変化が生じている。
+  quotes:
+  - quote: 「ドライで辛辣なセージさんにどうでも良さそうに罵倒される――これだ、これこそが僕に本当に必要なものだったんだ！」
+    paragraph: p353
+    quote_verified: true
+  expected_payoff: ファルとセージのカップリング成立（バッドエンド・コメディ的な結末）への進展。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_war_declaration
+  note: イアテムの襲撃が「【変異の三手】それ自体の宣戦布告」と分析されている。
+  quotes:
+  - quote: それはとりもなおさず、【変異の三手】それ自体の宣戦布告を意味していると考えて間違いないと思われる。
+    paragraph: p329
+    quote_verified: true
+  expected_payoff: 第五階層（ガロアンディアン）と四英雄連合軍との全面戦争の勃発。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_leo_age_secret
+  note: トリシューラがセージの実年齢（憑依による肉体の若さ）を隠す発言をしている。
+  quotes:
+  - quote: ていうか、セージって確かアストラル体を若い肉体に憑依させ続けてるから、実年齢がそれなりのそこそこだったはずなんだけど
+    paragraph: p368
+    quote_verified: true
+  expected_payoff: ファルとセージの交際における「年の差」問題がシリアスな障害として浮上する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術（サイバーカラテ・水流コンピュータ）と生身（魔法・肉体）の融合による新戦力形成
+  weight: 0.9
+  quotes:
+  - quote: 元からあった情報的浸透勁をこの世界用に調整しただけのものだが、ファルのような本来インドアユーザーであった者が使えばその威力は破格となる。
+    paragraph: p230
+    quote_verified: true
+  - quote: 電流のアナロジーとして機能する水流が論理回路を形成。それらは『大河』あるいは『大海』のアナロジーとして作用し、並列で超大規模な演算を実行。
+    paragraph: p196
+    quote_verified: true
+  note: 主人公側がイアテム（純粋な魔法使い）に対抗する手段として、異世界転生者特有の「技術的知見」を異世界の呪術体系と接続し、独自のハイブリッド戦法を確立した瞬間。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 愛と狂気（オタク的偏愛）による世界認識の歪曲と共鳴
+  weight: 0.8
+  quotes:
+  - quote: 「うがあああ羨ましい、僕も彼女といちゃいちゃしたい同棲したい人目を憚らない恥ずかしい言動で周囲を引かせたいいいいい」
+    paragraph: p75
+    quote_verified: true
+  - quote: 「脳を焼き切っちゃえば叱られる心配ゼロ！　レオくんのために頑張るし！」
+    paragraph: p192
+    quote_verified: true
+  note: 戦闘の動機が「恋する乙女（セージ）」や「愛しい対象への執着（ファル）」であり、シリアスな殺し合いの中でオタク的・思春期的な歪んだ愛情表現が戦場の支配原理として機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 王権の正当性と「砂上の楼閣」への脅威（ダモクレスの剣）
+  weight: 0.7
+  quotes:
+  - quote: 「【ダモクレスの剣】は貴様の死と共にこの偽りの王国を滅ぼす。何もかも、砂上の楼閣であったと知るがいい」
+    paragraph: p274
+    quote_verified: true
+  - quote: 正しい道を外れたこのガロアンディアンという王国は、当たり前の方法では崩壊したりはしない。
+    paragraph: p384
+    quote_verified: true
+  note: 敵（イアテム）がトリシューラの王権を「偽り」「砂上の楼閣」と断じ、その滅亡を予告する。これに対し主人公側は「正しさ」ではなく「強さ（爪牙）」によって王国の存続を担保するというニヒルな決意が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会適合の失敗とコミュニティによる救済
+  weight: 0.6
+  quotes:
+  - quote: （うん、やっぱりアキラくんが真っ当な社会人やるのは不可能だね。社会っていうかまず人が無理）
+    paragraph: p33
+    quote_verified: true
+  - quote: 「貴方がそれを言う？」
+    paragraph: p360
+    quote_verified: true
+  note: 主人公アキラの「社会人としての不適格」が自覚される一方で、同じく社会不適合者（レオ、ファル、セージ）が集まり、互いの欠点（変態性、暴力性）を肯定し合う疑似家族・コミュニティが成立している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

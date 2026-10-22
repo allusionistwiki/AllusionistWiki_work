@@ -1,0 +1,136 @@
+chapter: ch5312
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 15
+items:
+- kind: mystery
+  name: MY_青い髪の正体と干渉
+  note: 冥道から蘇った魂に絡みついていた「粘り気のある青い髪」が何の象徴であり、グレンデルヒ以外の誰（または何）からの干渉であるか。
+  quotes:
+  - quote: 太陰に用意されていた冥道の裏門――そこから現代に甦った六つの魂には、粘り気のある青い髪の毛がびっしりと絡みついていた。
+    paragraph: p28
+    quote_verified: true
+  expected_payoff: 物語終盤での「第三勢力」の登場、あるいは世界法則を歪める根源的な呪いの正体への伏線として回収される可能性がある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ステュクス（生死の誓言）の本質
+  note: ヴィヴィ＝イヴロスを喰らって得た「絶対遵守」が、剣としてのステュクスを通じて「約束された勝利」を確定させるメカニズム。
+  quotes:
+  - quote: 彼女の誓いは絶対だ。ゆえに勝利を誓えば栄光の未来が確定する。
+    paragraph: p172
+    quote_verified: true
+  - quote: この剣に誓って、私は必ず勝利する
+    paragraph: p169
+    quote_verified: true
+  expected_payoff: 「絶対遵守」の権能が、後にシナリオを強制し、キャラクターの自由意志を剥奪する悲劇的結末（運命の確定）を引き起こすトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_男根（ファルス）の戒め
+  note: ルウテトが女神化する過程で「男根という権威がかけた戒め」を砕いたとある。これは単なる性別の話か、それとも特定の権力構造や支配関係の象徴か。
+  quotes:
+  - quote: 男根（ファルス）という権威がかけた戒めを砕き、人を超えた女神へと変わっていく。
+    paragraph: p63
+    quote_verified: true
+  expected_payoff: ルウテトが完全な神格化・超越を果たすための最後の枷（父性的権威や支配の象徴）を断ち切る行為として、彼女の完全自由化を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラ生存の罪悪
+  note: 冒頭で「シナモリアキラの生存は間違っている」と断じられ、「全てはアキラが生きているという罪悪を赦すために」と語られる。世界法則において彼の存在自体がエラー（バグ）であることの理由。
+  quotes:
+  - quote: すべてはアキラが生きているという罪悪を赦すために。
+    paragraph: p35
+    quote_verified: true
+  - quote: そう、シナモリアキラの生存は間違っている。
+    paragraph: p2
+    quote_verified: true
+  expected_payoff: 物語全体を貫く「世界修正」の中心テーマ。アキラの存在がなぜ罪悪なのか、その救済（赦し）とは何かという終盤の回収へ向かう。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_本物の金錐神の修復
+  note: ルウテトが「本物は修復中で役立たず」と呟く。偽りの神（天形）と対比される「本物」の存在とその状態。
+  quotes:
+  - quote: ――まあ、本物は修復中で役立たずですしね
+    paragraph: p120
+    quote_verified: true
+  expected_payoff: 物語後半で「本物の金錐神」が起動し、事態を大きく変転させるキーアイテムとしての回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 存在の肯定のための「悪」の遂行（エゴイズムの正当化）
+  weight: 0.9
+  quotes:
+  - quote: 彼女はその理を貫くための存在。それゆえに悪を為さねばならない。
+    paragraph: p4
+    quote_verified: true
+  - quote: 私にはたったひとり、彼だけがいればいい
+    paragraph: p7
+    quote_verified: true
+  note: 主人公（ルウテト）が世界全体の正しさよりも、特定一人の生存（アキラ）を優先し、そのために世界法則に逆らう「悪」を担うというエゴイズム。これは転生ものの「ヒロイン救済」動機の究極形であり、道徳的葛藤の中心にある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 相互参照の否定と物語の自己言及性
+  weight: 0.8
+  quotes:
+  - quote: 相互参照の幻想など都合の良い妄想に過ぎない。子供の頃に見た小さな妖精はいつかは卒業しなければいけない。
+    paragraph: p10
+    quote_verified: true
+  - quote: 遙か遠くの舌戦、その微かな音を光妖精の長い耳で掴まえながら、死人の森の女王は心の中でそれを認めた。
+    paragraph: p3
+    quote_verified: true
+  note: 物語構造（ハーレム的共存）の不可能性を自覚し、「読者」や「他作品」への参照を断ち切ることで、自身の物語の必然性（悲劇）を受け入れるメタフィクション的テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美と醜の共存による超越（グロテスク・サブライム）
+  weight: 0.6
+  quotes:
+  - quote: 人知を超越した左半身の美しさが可視光となって第五階層の天を照らし上げる。
+    paragraph: p69
+    quote_verified: true
+  - quote: 右半身の直視に耐えない醜さを視界に入れてしまい、あまりの衝撃に蹲って嘔吐を始める。
+    paragraph: p71
+    quote_verified: true
+  note: 神聖なる美と耐え難い醜（死・腐敗）が一つの身体に統合されることで、「人知を超越した」存在になる過程。これは人間を超克するための必要条件として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 魂の道具化と支配権の暴力性
+  weight: 0.5
+  quotes:
+  - quote: 絶対遵守の権能は使い魔への究極の支配権である。
+    paragraph: p32
+    quote_verified: true
+  - quote: 自分の配下を、強引に人柱にしているの？ 趣味の悪い真似を
+    paragraph: p92
+    quote_verified: true
+  note: 主人公側（絶対遵守）と敵側（人柱化）が対照的に描かれ、どちらも「魂」を支配・利用する暴力性を持つ。この章は「誰の魂を、誰が、何のために支配するのか」という権力闘争として読める。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

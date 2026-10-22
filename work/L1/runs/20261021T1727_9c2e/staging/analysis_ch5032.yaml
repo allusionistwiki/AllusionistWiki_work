@@ -1,0 +1,121 @@
+chapter: ch5032
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_colcesca_obsession
+  note: コルセスカが主人公を「異獣」「獣」と定義し、監視・調教対象として見なしている点。
+  quotes:
+  - quote: 「暴力への依存。人間に値札を付けることへの忌避。義理や借りなどといった特定傾向に偏った社会性。そして贈与への無批判な信仰。ああ、これは確かに『獣』と言うほか無い」
+    paragraph: p169
+    quote_verified: true
+  - quote: 「躾けて馴らして――調教してあげなくては」
+    paragraph: p177
+    quote_verified: true
+  expected_payoff: コルセスカが主人公の精神構造を分析し、コントロールまたは育成を試みる展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_analogy_power
+  note: この世界ではアナロジー（比喩）が物理法則を上書きする力を持つという設定。主人公の言語や思考自体が魔法的な効果を持つ可能性を示唆。
+  quotes:
+  - quote: ここはアナロジーの誤謬が物理法則を屈服させる呪術の世界。貴方のそうしたあり方は、それ自体が神秘を有している、ということです
+    paragraph: p105
+    quote_verified: true
+  expected_payoff: 主人公の「日本語（異言）」やメタ思考が、この世界のルールを破綻させるトリガーになる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_empathy_gap
+  note: 主人公が「共感の基準」がこの世界とズレており、反射的に行動してしまったという仮説。
+  quotes:
+  - quote: いつもなら無視できる事態でも、想定していたより共感の幅が広がってしまっていたため、貴方は反射的に動いてしまった
+    paragraph: p157
+    quote_verified: true
+  expected_payoff: 主人公の感情制御アプリの限界や、精神崩壊・暴走の兆候。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cain_azuria_memory
+  note: カインとアズーリアに関する整理できない記憶が、主人公の「おかしい」状態の原因として登場する。
+  quotes:
+  - quote: カイン。そしてアズーリア。未だに整理できない記憶が、頭の中にわだかまっていた。
+    paragraph: p140
+    quote_verified: true
+  expected_payoff: 過去のトラウマや転生時の事象の再定義、および主人公のアイデンティティの根源的謎。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 共感の物理化と自己境界の溶解
+  weight: 0.8
+  quotes:
+  - quote: 人間は『自己』を感覚・想像できる範囲まで拡張してしまう生き物だ。
+    paragraph: p124
+    quote_verified: true
+  - quote: 共感しやすい社会だからこそ人はより冷淡になる
+    paragraph: p153
+    quote_verified: true
+  note: 主人公の倫理観（利己的自衛）とコルセスカの分析（共感の強制）が交差する地点。自己と他者の境界が曖昧になり、苦痛が伝播する世界の力学を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と存在の異質性（バベル的隔絶）
+  weight: 0.7
+  quotes:
+  - quote: 貴方がこの世界にとって他者であるということです
+    paragraph: p97
+    quote_verified: true
+  - quote: 貴方はこの世界とは異なる文脈で生きています。言語、思考、世界観、文化様式、人格、技術体系。
+    paragraph: p105
+    quote_verified: true
+  note: 主人公が「異獣」と呼ばれる理由が、単なる人種や生物学的差異ではなく、文化的・言語的コンテキストの断絶にあることを示す。転生者としての孤独の本質を定義する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 倫理の虚無と気まぐれの自己正当化
+  weight: 0.6
+  quotes:
+  - quote: 善行も悪行も、特別なことではない。誰でもやっていることで、そこには大した価値は無いのだと俺は語った。
+    paragraph: p40
+    quote_verified: true
+  - quote: 強いて言えば、気紛れ、運、乱数。なにか一本筋の通った意思とか信念とか、そういう特別なものは俺には無いよ。
+    paragraph: p64
+    quote_verified: true
+  note: 主人公が善行を「自衛」「脳内のストレス回避」として矮小化し、責任を引き受けることを拒否する姿勢。ニヒリズム的な倫理観の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 観察者による被験者の客体化（調教）
+  weight: 0.9
+  quotes:
+  - quote: 「躾けて馴らして――調教してあげなくては」
+    paragraph: p177
+    quote_verified: true
+  - quote: 氷のような。
+    paragraph: p175
+    quote_verified: true
+  note: コルセスカが主人公の行動原理を分析し、「獣」として定義した上で支配・管理の対象として見なす視点。人間関係における権力構造や実験者効果の暗喩。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

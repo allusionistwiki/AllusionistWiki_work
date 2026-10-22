@@ -1,0 +1,118 @@
+chapter: ch5405
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 9
+  quotes_total: 9
+items:
+- kind: mystery
+  name: MY_lilaelva_nature
+  note: リールエルバが「地下アイドル迷宮」の浄界（世界そのもの）である可能性。彼女個人の意志と世界の法則が融合している。
+  quotes:
+  - quote: 私はそれを疑っています。というより、セリアック＝ニアは最初からその確信を持っているようでした
+    paragraph: p197
+    quote_verified: true
+  expected_payoff: ミルーニャがリールエルバを救出・和解させることで、世界（迷宮）の構造自体が変わる展開へ回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_root_sorcery_origin
+  note: 「根源者（ソーサラー）」や「イネクシュネ原体」の正体。人類以前からの存在であり、完全者の創造に関わる核心。
+  quotes:
+  - quote: いのちが人類（ロマンカインド）や精霊（テテリビナ）、空の民や夜の民などに分化するよりずっとずっと古い、根源獣パンゲオンの眷族種。すなわち、『根源者（ソーサラー）』
+    paragraph: p151
+    quote_verified: true
+  expected_payoff: アルト・イヴニルの目的が単なる権力闘争ではなく、世界の起源や生命の定義に関わる壮大なテーマへと昇華する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cain_abel_lineage
+  note: 「アベルの末裔」と呼ばれる成功例（人工始祖）と、現在のキャラクター（リールエルバ、レッテ等）との血縁的・概念的な繋がり。
+  quotes:
+  - quote: 完成した人工始祖は『アベルの末裔』と呼ばれていたと、前にウチのベルお姉様から聞いたことがあります。幾つかの成功例があると――ええ、金錐神が手ずから泥を捏ね上げて創った私を含めてね
+    paragraph: p158
+    quote_verified: true
+  expected_payoff: キャラクター間の対立が、神話的な兄弟殺し（カインとアベル）の再演として描かれる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_lina_stalker_identity
+  note: リーナを追いかけている「ストーカー、あるいは厄介なファン」の正体。
+  quotes:
+  - quote: どうやらストーカー、あるいは厄介なファンに悩まされているようだ
+    paragraph: p266
+    quote_verified: true
+  expected_payoff: この存在が敵か味方か不明確であり、リーナとミルーニャの仲直りのプロセスを複雑にする障害として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_alt_ivnil_resignation
+  note: アルト・イヴニルが「諦め」の中に本気（根源への回帰）を秘めているのか、完全者としての運命に囚われているのか。
+  quotes:
+  - quote: レッテの、アルトの抗いが密やかに燃える本気なのか、諦めに彩られた惰性なのか、本人でさえわかっていないのかも
+    paragraph: p186
+    quote_verified: true
+  expected_payoff: 彼女が敵として戦うのか、あるいは根源への帰還を遂げる悲劇的な存在として描かれるかの分岐。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 完璧な存在（閉じた世界）は創造性を持たず、不完全さこそが未来を開く
+  weight: 0.9
+  quotes:
+  - quote: 完成した『トリシル一号』は純粋無垢な完成品だった。しかし、純粋すぎたがゆえにそれには先が無かった。当然だろう。始まりから完結している閉じた世界などに可能性は無い。
+    paragraph: p132-p134
+    quote_verified: true
+  note: リールエルバが「最初の失敗作」とされることと、彼女が求めているネット上の自由（不完全な自己の解放）を対比させる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 光と闇、善と悪は表裏一体であり、それらを融合させた混沌こそが真実である
+  weight: 0.8
+  quotes:
+  - quote: 互いに触れ合い、融け合い、ひとつの混沌として完成してしまったから。それはとても不幸な巡り合わせだ。
+    paragraph: p88-p89
+    quote_verified: true
+  note: 冒頭の神学的記述と、獣（リールエルバ）との接触による「穢し合い」が、二元論の解体を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人工的な生命（人形）は創造行為を通じて人間性（またはそれ以上）へと変容する
+  weight: 0.7
+  quotes:
+  - quote: つくられたものがつくるものになる、その転倒が不完全なお前たちをヒトに、そしてヒト以上のものに変容させるでしょう
+    paragraph: p109
+    quote_verified: true
+  note: アマランサスの言葉。アイドル活動という「創造行為」が、被造物としてのアイデンティティ形成に不可欠であるとする思想。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命（操り糸）への諦めと抗い
+  weight: 0.6
+  quotes:
+  - quote: アルト・イヴニルの諦めは完璧な存在だからこそ揺るがない――その運命すら、操り糸によって定められてしまっている。
+    paragraph: p177
+    quote_verified: true
+  note: 完全者としての宿命を背負った者たちが、過去の根源へ遡行することで運命から逃れようとする葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

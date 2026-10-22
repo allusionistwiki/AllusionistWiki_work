@@ -1,0 +1,221 @@
+chapter: ch5311
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 3
+  quotes_verified: 14
+  quotes_total: 15
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5311_力士の四股踏み_p6]]'
+  object: '[[ME_地震・地盤崩壊]]'
+  claim: 力士の四股踏みが、現実の大地震や地盤沈下のような物理現象として描写され、戦闘行為が自然災害レベルの破壊力としてメタファー化されている。
+  quote: 「これが、力士の本気の四股踏みか」
+  paragraph: p6
+  confidence: strong
+  quotes:
+  - quote: 「これが、力士の本気の四股踏みか」
+    paragraph: p6
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5311_ケイトの無人機操作_p27]]'
+  object: '[[ME_テセウスの船（哲学）]]'
+  claim: 意識を電子化したケイトが機械体に乗ることで「テセウスの船型サイボーグ」と呼称され、同一性や身体性を巡る哲学的概念がSF的定義として引用されている。
+  quote: 意識を電子化した情報的人類であるケイトが宿った無人戦闘機械（アンドロイド）は、その瞬間に定義上、肉体を全て機械化した『テセウスの船型サイボーグ』となる。
+  paragraph: p35
+  confidence: explicit
+  quotes:
+  - quote: 意識を電子化した情報的人類であるケイトが宿った無人戦闘機械（アンドロイド）は、その瞬間に定義上、肉体を全て機械化した『テセウスの船型サイボーグ』となる。
+    paragraph: p35
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5311_リニアモーターカーの登場_p58]]'
+  object: '[[ME_現代の交通インフラ（リニア・磁気浮上）]]'
+  claim: 戦闘兵器としてリニアモーターカー（マグネティックレビテーション型）が投入され、現実の高度な交通技術が武器システムとして機能する世界観を示している。
+  quote: 電磁誘導方式の磁気浮上（マグネティックレビテーション）型リニアモーターカーが、先行して空中に仮想構築された円筒状の磁界のチューブの中を弾丸のように駆け抜けた。
+  paragraph: p58
+  confidence: strong
+  quotes:
+  - quote: 電磁誘導方式の磁気浮上（マグネティックレビテーション）型リニアモーターカーが、先行して空中に仮想構築された円筒状の磁界のチューブの中を弾丸のように駆け抜けた。
+    paragraph: p58
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5311_力士による転生批判_p130]]'
+  object: '[[ME_医療資源の配分・保険制度]]'
+  claim: 「二重転生」が予算オーバーであり、他の死者の機会を奪うコストの問題として描かれ、医療や生命維持のための資源配分における倫理的ジレンマ（トリアージ）がメタファーとして提示されている。
+  quote: 転生には金がかかる。様々な苦労を重ねた末、転生技術は保険という形態に組み込まれているが、二重転生は明らかに予算をオーバーしている。食い潰した資源はどうするのか。他の転生待ちの死者たちの機会を奪っているのは誰なのか。
+  paragraph: p130
+  confidence: strong
+  quotes:
+  - quote: 転生には金がかかる。様々な苦労を重ねた末、転生技術は保険という形態に組み込まれているが、二重転生は明らかに予算をオーバーしている。食い潰した資源はどうするのか。他の転生待ちの死者たちの機会を奪っているのは誰なのか。
+    paragraph: p130
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5311_トバルカインの命名_p191]]'
+  object: '[[ME.聖書・創世記（トバルカイン）]]'
+  claim: アキラが纏う新型外骨格の名前「トバルカイン」は、旧約聖書に登場する青銅と鉄の鍛冶の名人を指しており、その出自や能力（武器を作る者）との対応関係が明示されている。
+  quote: '第五義肢が形成した新型強化外骨格、その名は。
+
+    「吠えろ、【錬鉄者（トバルカイン）】！」
+
+    其れこそは全ての黒金を鍛える者。'
+  paragraph: p191-p193
+  confidence: explicit
+  quotes:
+  - quote: '第五義肢が形成した新型強化外骨格、その名は。
+
+      「吠えろ、【錬鉄者（トバルカイン）】！」
+
+      其れこそは全ての黒金を鍛える者。'
+    paragraph: p191-p193
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5311_コルセスカの宣言_p147]]'
+  object: '[[ME.対戦格闘ゲーム（ストリートファイター等）]]'
+  claim: 「ROUND1 FIGHT!」というテキスト出現や体力ゲージの表示など、対戦格闘ゲームのUIが世界の一部として実体化し、戦闘の儀式的・ゲーム的な構造を強調している。
+  quote: 上空には装飾された二つの『体力ゲージ』が出現し、対峙する両者の中心地点で『ROUND1 FIGHT!』の文字が光り輝いた。
+  paragraph: p149
+  confidence: strong
+  quotes:
+  - quote: 上空には装飾された二つの『体力ゲージ』が出現し、対峙する両者の中心地点で『ROUND1 FIGHT!』の文字が光り輝いた。
+    paragraph: p149
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5311.ゾーイ・アキラの存在_p126]]'
+  object: '[[ME.自己否定・前世の呪い]]'
+  claim: 「シナモリアキラの生存は間違っている」という力士の言葉は、主人公に対する根源的な存在否定であり、転生ものにおける「前世との対決」や「生き延びることへの罪悪感」というクリシェを体現している。
+  quote: この相手は、力士ゾーイ・アキラだけは、自分が倒すべき相手なのだ。前世からの刺客。自分を否定する存在。間違った状態を正そうとする意思。シナモリアキラの生存は間違っている。
+  paragraph: p126
+  confidence: strong
+  quotes:
+  - quote: この相手は、力士ゾーイ・アキラだけは、自分が倒すべき相手なのだ。前世からの刺客。自分を否定する存在。間違った状態を正そうとする意思。シナモリアキラの生存は間違っている。
+    paragraph: p126
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カインの意思と共鳴
+  note: 白骨の狼カインがアキラの危機に反応し、最終的に外骨格の一部として融合した。その「意思」の正体や、生前のカインとの関係性が今後の物語で重要になる可能性が高い。
+  quotes:
+  - quote: 構えをとると、鎧は滑らかに従った。むしろ鎧の方がアキラを導くかのように息を合わせてくれている。それは意思を持った生ける鎧（リビングアーマー）だった。
+    paragraph: p177
+    quote_verified: true
+  expected_payoff: カインの生前の記憶や、彼がなぜアキラに憑依し続けたかの真相、あるいは彼の魂の行方に関する回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_力士ゾーイ・アキラの正体と目的
+  note: 「シナモリアキラ」と同名を持つ力士が、「転生コスト」を理由にアキラを殺そうとしている。彼が単なる敵なのか、システム上の代行者なのか、その背景にある「転生技術」の闇が掘り下げられる伏線。
+  quotes:
+  - quote: 人の死を踏みつけながら生きるお前に価値は無いとグレンデルヒは言い放つ。
+    paragraph: p130
+    quote_verified: true
+  expected_payoff: 転生システムの裏側、二重転生を許容した組織や人物への批判、あるいはゾーイ・アキラ自身の悲劇的な背景の明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY.第五階層の物質創造能力と死者の森
+  note: 「死人の森を土台に、ガロアンディアンが構築する神秘の結晶」として外骨格が生成された。第五階層特有の法則（死者のエネルギー利用）が物語の根幹に関わる可能性を示唆している。
+  quotes:
+  - quote: 再生者の骨はあくまでも骨組みでしかない。第五階層の物質創造能力が左手の制御下で限界を超えて駆使されて、狼の骨を基点にして装甲を形作っていく。
+    paragraph: p170
+    quote_verified: true
+  expected_payoff: 第五階層の性質（死者の記憶・エネルギーを利用する世界）の詳細な解説、およびそれを利用した他のキャラクターの変身や戦い方への波及。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY.トリシューラの「人間上がり」への執着
+  note: ケイトに「人間上がり」と呼ばれたトリシューラが、その称号をアキラのために拒絶した。彼女自身の出自（異界人・機械？）とアイデンティティに関する重要な示唆。
+  quotes:
+  - quote: 「『人間上がり』に認めてもらえるのは嬉しいけど、私にはアキラくんがいるからもういらないよっ」
+    paragraph: p39
+    quote_verified: true
+  expected_payoff: トリシューラの生い立ち、彼女が「人間」と見なされることを拒む理由、およびアキラとの関係の深まり。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生存のコストと正当性（利己的生存肯定）
+  weight: 0.9
+  quotes:
+  - quote: 「たとえ誰かのことを踏みつけていたとしても、私たちは今、ここに生きている。罪深くても、傲慢でも、私は大人しく死を待つのなんて嫌です。だってこの世界は、こんなに楽しいじゃないですか！」
+    paragraph: p147
+    quote_verified: false
+  note: 主人公が「他者の機会を奪って生きている」という罪悪感（功利主義的なコスト計算）に対し、「楽しみのため」「傲慢さ」を肯定することで、利己的な生存の正当性を宣言する。これは転生ものにおける典型的な「生き延びる理由」の探求に対する答えの一つである。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死者との共生・継承（再生者としてのアイデンティティ）
+  weight: 0.8
+  quotes:
+  - quote: 'ある女王はアキラが生きているという罪悪を赦した。
+
+      生きている罪深さ、それ自体が尊いのだと、優しく肯定する為に。'
+    paragraph: p143-p144
+    quote_verified: true
+  - quote: '死者を踏み越えた果てに叡智を築き上げる原初の鍛冶師。
+
+      罪と死を踏破して、アキラは鋼鉄を纏い戦場を駆け抜けていく。'
+    paragraph: p196-p197
+    quote_verified: true
+  note: 死者（カイン、グレンデルヒの加護など）を利用し、彼らと共鳴することで力を得る構造。「死人の森」「再生者」という用語が示す通り、死を克服するのではなく「内包・利用」することで強くなるという主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術的合理性 vs 感覚的直感（ゲームとしての世界）
+  weight: 0.6
+  quotes:
+  - quote: 「楽しさの為に戦う――いいね、そういうの好きだよ私。ずっと忘れてた感覚だけど、あんたたちと戦って久々に思い出したよ。生きてるのは楽しむ為だ。なら戦いも目一杯楽しまなくちゃ損ってもんだろ！」
+    paragraph: p151
+    quote_verified: true
+  note: ケイトや力士が論理的・コスト的にアキラを排除しようとするのに対し、コルセスカは「楽しさ」という非合理的な動機で戦う。世界がゲーム的なUI（体力ゲージ）を持つ中で、そのルールを超えた直感的・感情的な選択が勝利をもたらす構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

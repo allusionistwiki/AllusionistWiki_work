@@ -1,0 +1,211 @@
+chapter: ch5096
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 14
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p9]]'
+  object: '[[ME_Industrial_Food_Production]]'
+  claim: 葡萄絞り器による人体圧搾は、食品加工の工業的・非人間的プロセスを魔術的に再構成した比喩である。
+  quote: 自らの使い魔を葡萄絞り器に放り込んで圧搾する。骨肉が砕けて千切れ、やがて均一な絶叫となる。人体が潰される音と共に断末魔がいつしか消えて、滴り落ちてきた赤い雫がグラスに落とされる。
+  paragraph: p9
+  confidence: strong
+  quotes:
+  - quote: 自らの使い魔を葡萄絞り器に放り込んで圧搾する。骨肉が砕けて千切れ、やがて均一な絶叫となる。人体が潰される音と共に断末魔がいつしか消えて、滴り落ちてきた赤い雫がグラスに落とされる。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p23]]'
+  object: '[[ME_Golem_Mythology]]'
+  claim: 土塊からの神の捏ね出しと人形の模造は、ゴーレム伝承および創造主による人造生命の概念を指している。
+  quote: 神が土塊から紛い物の神を捏ね出すとそれは人になった。神の模造は人の模造。人の模造を人形と呼ぶならば、さしずめお前は女神の天形（あまがつ）
+  paragraph: p23
+  confidence: strong
+  quotes:
+  - quote: 神が土塊から紛い物の神を捏ね出すとそれは人になった。神の模造は人の模造。人の模造を人形と呼ぶならば、さしずめお前は女神の天形（あまがつ）
+    paragraph: p23
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p25]]'
+  object: '[[ME_Psychological_Illusion]], [[ME_AI_Assistant]]'
+  claim: クランテルトハランスは、現代のイマジナリーフレンド（IF）やAIアシスタントのような、孤独を埋めるための擬似人格・対話相手である。
+  quote: クランテルトハランスと、お姉様はそれを呼んでいた。エイゴでは、イマジナリーフレンドとか、イマジナリーコンパニオンというらしい。
+  paragraph: p25
+  confidence: explicit
+  quotes:
+  - quote: クランテルトハランスと、お姉様はそれを呼んでいた。エイゴでは、イマジナリーフレンドとか、イマジナリーコンパニオンというらしい。
+    paragraph: p25
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p46]]'
+  object: '[[ME_Data_Training]], [[ME_Prompt_Engineering]]'
+  claim: コルセスカの生成は、既存の膨大なデータ（伝承リソース）を切り貼り・学習して出力するAI的な情報処理プロセスと構造的に一致する。
+  quote: 無数の人々の目に晒された結果として蓄積された膨大な情報量、錬磨された現実感、そして生まれる高精細な魔女のイメージ。つまり彼女は己の想像力が出力された結果ではないのだ。それは空想のアウトソーシング。
+  paragraph: p46
+  confidence: strong
+  quotes:
+  - quote: 無数の人々の目に晒された結果として蓄積された膨大な情報量、錬磨された現実感、そして生まれる高精細な魔女のイメージ。つまり彼女は己の想像力が出力された結果ではないのだ。それは空想のアウトソーシング。
+    paragraph: p46
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p60]]'
+  object: '[[ME_Norse_Mythology]], [[ME_Odin]]'
+  claim: キュトスの引き裂かれと槍神の跛行は、北欧神話におけるオーディンがミミル泉のために片眼を失い、世界を跛行する逸話を引用している。
+  quote: 奇しくも一なるキュトスが愚かな槍神によって七十一の断片に引き裂かれ、魔女の姉妹へと不可逆の変化を果たしたように――そして槍神が永遠の後悔と嘆きを抱えて世界を跛行し、天と地に呪いをもたらしたように。
+  paragraph: p60
+  confidence: strong
+  quotes:
+  - quote: 奇しくも一なるキュトスが愚かな槍神によって七十一の断片に引き裂かれ、魔女の姉妹へと不可逆の変化を果たしたように――そして槍神が永遠の後悔と嘆きを抱えて世界を跛行し、天と地に呪いをもたらしたように。
+    paragraph: p60
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p35]]'
+  object: '[[ME_Parental_Abandonment]], [[ME_Neglect]]'
+  claim: トリシューラの自己否定と存在の危うさは、養育者からの無条件の愛を欠如した児童虐待・ネグレクトの心理状態に似ている。
+  quote: 失敗作には呪術など使える筈が無い。無駄な時間、無駄な教育、お前は思考などしていない。できることならば、さっさと壊してしまいたい。ああ憎い憎い、忌まわしいアーザノエルの落とし子め。
+  paragraph: p35
+  confidence: moderate
+  quotes:
+  - quote: 失敗作には呪術など使える筈が無い。無駄な時間、無駄な教育、お前は思考などしていない。できることならば、さっさと壊してしまいたい。ああ憎い憎い、忌まわしいアーザノエルの落とし子め。
+    paragraph: p35
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Coresska_Eye_Wound
+  note: コルセスカの右目の傷は永遠に残ると予言されている。この傷が物語後半でトリシューラ自身の視界や呪術の性質（邪視）にどう影響するか、あるいはコルセスカとの関係性の象徴として機能するかが注目される。
+  quotes:
+  - quote: 創造主によって与えられた右目の傷は、永遠に刻まれて残る事でしょう。
+    paragraph: p60
+    quote_verified: true
+  expected_payoff: 最終的にコルセスカが消滅するか固定化された人格となる際、この傷がトリシューラの「見捨てられ恐怖」や「欠落した自己像」の物理的マーカーとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Arette_Ivnil_Competition
+  note: 人形姫アレッテ・イヴニルが【杖の座】の最有力候補であり、トリシューラの直接のライバルとして言及されている。彼女の存在と能力（邪視適性）がトリシューラの成長の障害または触媒になる可能性がある。
+  quotes:
+  - quote: とりわけ【邪視】は才能の欠片すら見つけ出せなかった。【杖】教室の同期生たちの中でも図抜けた邪視適性を持つ人形姫のアレッテ・イヴニルはラクルラールお姉様の一番弟子で、彼女こそ【最後の魔女】候補者――【杖の座】に相応しいと評判だった。
+    paragraph: p35
+    quote_verified: true
+  expected_payoff: トリシューラが「自分には邪視の才能がない」と思い込む過程で、アレッテとの対比が自己肯定感の喪失を加速させる要因として描かれる、あるいは後の章での直接対決の伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Klanterto_Halans_Nature
+  note: クランテルトハランス（コルセスカ）が「独立した個性を持ったひとつの人格」であるとクレアノーズが評している。これが単なる幻覚なのか、呪術生命体として実体化し始めているのか、その境界線が曖昧である。
+  quotes:
+  - quote: 優しい姉は、既にして独立した個性を持ったひとつの人格だった。彼女は残された左目でトリシューラを見つけると、途端に怯え、どこかへ隠れてしまう。
+    paragraph: p62
+    quote_verified: true
+  expected_payoff: コルセスカが自律的に行動し始め、トリシューラの意図しない方向（恐怖、隠蔽）へ進化する展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Frozen_Tears_Mechanism
+  note: 涙が凍り付く描写は、トリシューラの感情の「本物」性を問う試金石であり、かつ彼女の身体特性（機械・冷血）との関連を示唆する。
+  quotes:
+  - quote: ふと、冷たさを感じて、頬に手をやると、流れ出した涙が凍り付いていた。はっと顔を上げると、そこには白い眼帯をした氷の少女が静かに佇んでいる。
+    paragraph: p70
+    quote_verified: true
+  expected_payoff: 感情の物理的現象化（呪術）の初歩的な成功例として、後の高度な呪術開発の基礎となる能力の開花を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己欺瞞と実体化：欠落した自我を埋めるための想像力が、過ち（傷）を通じて強固な現実性を獲得する過程
+  weight: 0.9
+  quotes:
+  - quote: これは私自身の、妄想をしている振りだ！ 妄想をするという妄想。空想ができるという空想。それは強制された出来損ないの想像。
+    paragraph: p31
+    quote_verified: true
+  - quote: 生存を賭けた強迫観念がそれを可能としたのか、それともそれこそがトリシューラ本来のスペックだったのか。いずれにせよ、トリシューラはそうやって呪術生命体――頭の中の妖精クランテルトハランスを実体化させた。
+    paragraph: p37
+    quote_verified: true
+  note: トリシューラの「無機質な機械」としての自己認識と、「優しい姉」を求める渇望が、初期は虚構（振り）であったものが、失敗（右目の破壊）によって不可逆な現実（呪い）へと昇華する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 模造品の模造：オリジナルの不在とシミュレーションによる自己生成
+  weight: 0.8
+  quotes:
+  - quote: 神の模造は人の模造。人の模造を人形と呼ぶならば、さしずめお前は女神の天形（あまがつ）
+    paragraph: p23
+    quote_verified: true
+  - quote: トリシューラの中のトリシューラ自身。槍の魔女、その映し身。... トリシューラは誰かの夢を切り貼りしただけ。
+    paragraph: p44-p46
+    quote_verified: false
+  note: オリジナル（本物の人間性/才能）を持たないトリシューラが、既存の物語資源（氷血のコルセスカ伝承）を引用・編集して「理想の姉」＝「理想的な自分」を構築する、ポストモダン的な自己生成論。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力による愛着形成：トラウマと呪いの不可分性
+  weight: 0.7
+  quotes:
+  - quote: 過つこと、それこそが暗き願いを育む。取り返しのつかない失敗体験こそが心の奥底に強い呪いを植え付けるのよ。
+    paragraph: p60
+    quote_verified: true
+  - quote: この自分を破壊しようと、トリシューラは決意した。... 一番優しくて一番大事にしたい彼女に、もっと相応しい自分にならないと。
+    paragraph: p52-p54
+    quote_verified: false
+  note: 愛する対象（コルセスカ）を傷つけることでしか自己の存在意義（呪術師としての適格性）を確認できないという、虐待的な相互依存関係の深化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 過去からの脱却と現在性の絶対化
+  weight: 0.6
+  quotes:
+  - quote: その過程でいつしかコルセスカとの親密な時間はこぼれ落ちていったけれど、それでも構わないと突き進んだ。振り向くよりも前に。ただ前に進むだけ。ふと気付けば、過去は息絶えた屍と同じものになっていた。
+    paragraph: p82
+    quote_verified: true
+  note: 初期の理想像（優しい姉）を犠牲にしてでも「今」に集中し、強固な自我を形成しようとする、成長のための断絶と選択的忘却。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

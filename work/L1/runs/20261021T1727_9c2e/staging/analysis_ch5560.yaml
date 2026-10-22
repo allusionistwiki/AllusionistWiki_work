@@ -1,0 +1,158 @@
+chapter: ch5560
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 10
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_死人の森の断章の正体
+  note: クリーナーが持つ黒い魔導書『死人の森の断章』。第五階層に挑んで果てた探索者の魂が持ち込んだとされるが、その詳細な効果や由来は不明。
+  quotes:
+  - quote: 「そうだね。あれは前世の魂が持ち込んだ第五階層の至宝、『死人の森の断章』に違いないよ！　もしかしたら、第五階層に挑んで果てた探索者だったのかも」
+    paragraph: p20
+    quote_verified: true
+  expected_payoff: 後にクリーナー（またはメートリアン）がその力を使い切る、あるいはその由来となる探索者の物語が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_時十字の光と六王オルヴァ
+  note: ダウザールが見せた「時十字の光」。カシュラム人の血脈を用いて六王オルヴァの力を模倣した可能性が示唆されている。彼の視界は過去と未来を見通すものか。
+  quotes:
+  - quote: 'ダウザールの目に輝きが宿った。
+
+      時間軸の交差路を象徴する、時十字の光が。'
+    paragraph: p114-p115
+    quote_verified: true
+  expected_payoff: レース終盤やその後の展開において、ダウザールがこの「予知」にもとづく行動を取り、決着に影響を与える。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_クロウサーとディスケイムの交錯
+  note: レースコース上でクロウサーとディスケイムの激突する死地との交錯が始まる。運営側が意図的に伏せていた「乱入」。
+  quotes:
+  - quote: クロウサーとディスケイムが激突する死地は、今まさにテキストベース・サーキットと交錯しようとしていた。
+    paragraph: p238
+    quote_verified: true
+  expected_payoff: レースの勝敗を左右する外部からの介入、あるいは世界規模の戦争の一部としてのレースの再定義。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_メートリアンの最終目標
+  note: メートリアンがクリーナーの肉体（ホムンクルス）と同期し、最後の選手として参戦する。「勝ちますよ。私を誰だと思ってるんですか？」という宣言の意味。
+  quotes:
+  - quote: '「勝ちますよ。私を誰だと思ってるんですか？」
+
+      威風堂々と、声高らかに。
+
+      最後の選手が参戦する。'
+    paragraph: p302-p305
+    quote_verified: true
+  expected_payoff: メートリアンが優勝し、クロウサーの支配体制を崩壊させる、あるいは「父との和解」という演出の裏にある真意（利用価値）が暴かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_オーファとティリビナ人の約束
+  note: パーンの箒はティリビナ人の賢者「オーファ」から授かったもの。「緑の御者」との約定に従い、勝利の栄誉を譲ると誓う。この約定の詳細とは？
+  quotes:
+  - quote: 「ここからは、俺がお前たちの想いを背負って飛ぶ。我が盟友、『緑の御者』オファグリートとの約定に従い、この先の勝利の栄誉はティリビナ人に譲ると誓おう！」
+    paragraph: p145
+    quote_verified: true
+  expected_payoff: パーンの勝利（またはロードデンドロンの台頭）によってティリビナ人が呪術世界での発言権を得る展開、あるいはその約定が裏切られる悲劇。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語の呪文化と思考停止の強制
+  weight: 0.9
+  quotes:
+  - quote: '「私、バカだからむずかしーことわかんないけど、それっておかしいと思う！」
+
+      それはもはや呪文として用いられていた。
+
+      主に反対意見を根拠不在のまま否定するために。'
+    paragraph: p206-p207
+    quote_verified: true
+  - quote: 空気が数。それこそがクロウサーの掲げる強さ。
+    paragraph: p208
+    quote_verified: false
+  note: リーナの台詞が「ミーム」として流通し、論理的な議論を排除する道具（呪文）として機能する様子は、言語が思考を封殺するメカニズムを示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の消費と人間の道具化
+  weight: 0.85
+  quotes:
+  - quote: 『泣ける』の価値が暴落した。
+    paragraph: p85
+    quote_verified: true
+  - quote: '古傷の痛みごときが、いまここにいるリーナの価値に及ぶはずもないのだから。
+
+      かつてアズーリアが言理の妖精で語り直した『父の想い』をパッケージに詰めてラッピング'
+    paragraph: p285-p286
+    quote_verified: true
+  note: エンハとナックスの「泣ける」回想が潰される現象や、メートリアンが父との和解を演出（商品）として利用する姿は、人間の感情や記憶がコンテンツとして消費・搾取される構造を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生と性の浪費、そして支配者の選抜
+  weight: 0.8
+  quotes:
+  - quote: '無為に放たれ尽きていく子種。
+
+      結果として残るのは強者の可能性のみ。
+
+      より多く子種を残せる血脈だけが次代を繋ぐ。'
+    paragraph: p47-p53
+    quote_verified: false
+  note: 精子の雨（少子化・性行為の無為な消費）と、クロウサーによる「動物なかよし」の強制は、生物学的な繁栄とイデオロギー的な支配が不可分に結びついている残酷な世界観を示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 演劇としての現実（メタフィクション）
+  weight: 0.75
+  quotes:
+  - quote: 「再演のまじないならば心得がある」
+    paragraph: p133
+    quote_verified: true
+  - quote: 「転生だから不正じゃないよ。だってルールは私の手の中にある。」
+    paragraph: p246
+    quote_verified: false
+  note: キャラクターたちが自らの行動を「演技」「再演」として意識し、運営が「ルールは私の手の中にある」と宣言することで、世界全体が制御された物語空間（サーキット）であることが明示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 純粋な競争の不可可能性
+  weight: 0.6
+  quotes:
+  - quote: 「私は、誰かを傷つけたり、死なせたりするような箒レースは認めない！」
+    paragraph: p180
+    quote_verified: false
+  - quote: 殺伐とした呪術戦闘の中で純粋に競技者として振る舞うクリーンなイメージの若者。
+    paragraph: p188
+    quote_verified: true
+  note: リーナが「純粋な競い合い」を訴える一方で、レースは熾烈な殺意と政治的取引に満ちており、彼女の主張自体がイメージ戦略として消費されている。理想（スポーツマンシップ）と現実（戦争・政治）の乖離が主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

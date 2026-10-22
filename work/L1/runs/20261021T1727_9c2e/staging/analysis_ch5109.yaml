@@ -1,0 +1,282 @@
+chapter: ch5109
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 5
+  themes: 5
+  quotes_verified: 23
+  quotes_total: 24
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p15]]'
+  object: '[[ME_game_mechanic_inventory_switch]]'
+  claim: 戦闘中の武器・義肢の即時換装は、MMORPGやアクションゲームにおけるインベントリ操作やホットバー切り替えを想起させる。
+  quote: 即座に新しい兵装に換装を行う。瞬時に出現したチェーンソーを突き入れた時には既にキロンの姿はそこから消えている。
+  paragraph: p15
+  confidence: moderate
+  quotes:
+  - quote: 即座に新しい兵装に換装を行う。瞬時に出現したチェーンソーを突き入れた時には既にキロンの姿はそこから消えている。
+    paragraph: p15
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p31]]'
+  object: '[[ME_game_mechanic_cooldown_crafting]]'
+  claim: 破壊された義肢の再使用不可と製造コストは、ゲームにおけるクールタイムやクラフト素材の消費を象徴する。
+  quote: 一度破壊された形態の義肢はトリシューラが自らの工房で再生のための儀式を行うまでは再使用ができなくなってしまう。
+  paragraph: p31
+  confidence: strong
+  quotes:
+  - quote: 一度破壊された形態の義肢はトリシューラが自らの工房で再生のための儀式を行うまでは再使用ができなくなってしまう。
+    paragraph: p31
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p8]]'
+  object: '[[ME_myth_faust_bargain]]'
+  claim: 「我が価値を問え」という台詞は、魂や存在の価値を取引・測定するファウスト的な契約概念への引喩である。
+  quote: 「我が価値を問え――ミエスリヴァ」
+  paragraph: p8
+  confidence: moderate
+  quotes:
+  - quote: 「我が価値を問え――ミエスリヴァ」
+    paragraph: p8
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p153]]'
+  object: '[[ME_computer_backup_restore]]'
+  claim: 第五階層の迷宮化解除は、コンピュータシステムにおけるバックアップからのデータ復元（ロールバック）に構造が一致する。
+  quote: 巡槍艦の内部には、一定期間ごとに記録していた第五階層のバックアップが存在する。
+  paragraph: p153
+  confidence: strong
+  quotes:
+  - quote: 巡槍艦の内部には、一定期間ごとに記録していた第五階層のバックアップが存在する。
+    paragraph: p153
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p146]]'
+  object: '[[ME_media_propaganda_fake_news]]'
+  claim: キロンの声を合成して無差別攻撃の責任を被せる行為は、メディア操作やフェイクニュースによる世論誘導を模倣している。
+  quote: 合成された音声は、キロンのものと寸分違わぬ響きでそれらしさを演出する。
+  paragraph: p146
+  confidence: strong
+  quotes:
+  - quote: 合成された音声は、キロンのものと寸分違わぬ響きでそれらしさを演出する。
+    paragraph: p146
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p159]]'
+  object: '[[ME_war_crime_collateral_damage]]'
+  claim: 死者を出さず負傷者のみを量産する計算された爆撃は、国際法上の「比例原則」を悪用した戦争犯罪の構造を持つ。
+  quote: 意図的に殺傷力を抑えて、多くの負傷者を出すために調整された爆撃。大規模な被害にも関わらず、驚くべき事に死者が存在しない。
+  paragraph: p159
+  confidence: strong
+  quotes:
+  - quote: 意図的に殺傷力を抑えて、多くの負傷者を出すために調整された爆撃。大規模な被害にも関わらず、驚くべき事に死者が存在しない。
+    paragraph: p159
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p62]]'
+  object: '[[ME_telepathy_sci_fi_concept]]'
+  claim: レオの「心話」は、SF作品におけるテレパシーや直接脳内通信の概念を用いた心理戦である。
+  quote: 遅れて気付いた。レオは【心話】の術を使っている。彼の言葉は、キロンに届いている。
+  paragraph: p62
+  confidence: moderate
+  quotes:
+  - quote: 遅れて気付いた。レオは【心話】の術を使っている。彼の言葉は、キロンに届いている。
+    paragraph: p62
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p105]]'
+  object: '[[ME_superhero_narrative_trope]]'
+  claim: 「正義の味方」という言葉が、魔女（悪役）と主人公による欺瞞的な計画に対して逆説的に使用されている。
+  quote: 'さあ、正義の味方をやっつけようか！）
+
+    ああ。邪悪な魔女とその使い魔の、ここからが本領発揮だ。'
+  paragraph: p105
+  confidence: strong
+  quotes:
+  - quote: 'さあ、正義の味方をやっつけようか！）
+
+      ああ。邪悪な魔女とその使い魔の、ここからが本領発揮だ。'
+    paragraph: p105
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kiron_Self_Hatred
+  note: キロンがレオの言葉に激しく動揺し「自分が弱いことを責めないで」への反応を示した背景にある、彼の自罰的な過去や自己認識の深層。
+  quotes:
+  - quote: キロンの様子が、明らかに急変していた。聞き慣れない周波数の音を無理矢理耳元で鳴らされたような、不快感と戸惑いの入り交じった表情。
+    paragraph: p60
+    quote_verified: true
+  - quote: 「あなたは可哀想だ。どうか、自分が弱いことを責めないで」
+    paragraph: p66
+    quote_verified: true
+  expected_payoff: キロンの内面崩壊、あるいは彼を操る上位存在との対決における心理的弱点として回収される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Labyrinth_System_Admin
+  note: 迷宮化を仕掛けている「裏で動いている何者か（高位の呪術師）」の正体と目的。
+  quotes:
+  - quote: 当然、迷宮化を行っている何者かは妨害に動くが、コルセスカとレオの仲間になった少女の力によって再び迷宮化が始まることは無いようだった。裏で動いている何者かは恐らく高位の呪術師らしい
+    paragraph: p155
+    quote_verified: true
+  expected_payoff: 第五階層の真の管理者、またはアキラたちの計画を阻止しようとする敵勢力との対立として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Moral_Dilemma
+  note: 無辜の民を犠牲（負傷）に世論操作を行うアキラの倫理的葛藤と、その行為がもたらす長期的な影響。
+  quotes:
+  - quote: 己の成果を無にしてでも無辜の民を守ろうとするキロンの行為は正しく、英雄的ですらある。だが、彼の意思は関係が無い。重要なのはどう見えるかということ。
+    paragraph: p165
+    quote_verified: true
+  expected_payoff: アキラの「悪役」化の確定、または後にこの欺瞞が露見し信頼を失う展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Lewo_Influence
+  note: レオが短時間で少女たちから好意と忠誠を集める希有な才能の正体（単なる魅力か、呪術的な支配力か）。
+  quotes:
+  - quote: こんな短期間で異性の心を奪うとは、ちょっと信じがたい事をする少年である。
+    paragraph: p136
+    quote_verified: true
+  - quote: レオが無意識に心話を使って周囲をまとめ上げている事が判明し、計画を変更したのだった。
+    paragraph: p175
+    quote_verified: true
+  expected_payoff: レオがパーティの精神的支柱となるか、その力が暴走・悪用されるリスクとしての回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Carwin_Death_Status
+  note: カーインが槍に貫かれた際の「内功」による防御と、その後の状態（本当に死んだのか、重体か）。
+  quotes:
+  - quote: 漆黒の槍は分厚い背筋に阻まれてその侵入を一瞬停止させる。しかし。
+    paragraph: p87
+    quote_verified: true
+  - quote: 勢いよく槍が引き抜かれ、傷口から勢いよく血が噴き出していく。悲痛な叫びを上げるレオ。倒れ伏していくカーイン。
+    paragraph: p91
+    quote_verified: true
+  expected_payoff: カーインの死亡によるアキラへの罪悪感、あるいは彼の復活と敵対・協力関係の変化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 真実より風説が支配する世界における、倫理の相対化と操作
+  weight: 0.9
+  quotes:
+  - quote: 重要なのはどう見えるかということ。周囲がどのような認識を共有するかという一点だ。真実よりも速く、それらしい風説は流布されていく。
+    paragraph: p165
+    quote_verified: true
+  note: アキラがキロンの英雄的行為を悪行に見せかけ、レオの保護も計算の一部として扱う冷徹な合理主義が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 弱者への暴力と「慈悲」の逆説的な使用
+  weight: 0.8
+  quotes:
+  - quote: 忌み人であっても滅私と慈悲の心を持ち合わせていたか。見事――しかし、見逃す理由にはならん
+    paragraph: p46
+    quote_verified: true
+  - quote: 「あなたは可哀想だ。どうか、自分が弱いことを責めないで」
+    paragraph: p66
+    quote_verified: true
+  note: キロンが弱者を殺す動機（浄化）と、レオがその暴力性を解体する言葉（慈悲・同情）の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メカニクスによる死の脱構築と再構成
+  weight: 0.7
+  quotes:
+  - quote: 意図的に殺傷力を抑えて、多くの負傷者を出すために調整された爆撃。大規模な被害にも関わらず、驚くべき事に死者が存在しない。
+    paragraph: p159
+    quote_verified: true
+  note: ゲーム的な調整（ダメージ計算）によって「死」という不可逆な現実を回避し、物語的な勝敗に持ち込む技術が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄像の解体と「正義」の偽装
+  weight: 0.6
+  quotes:
+  - quote: 'さあ、正義の味方をやっつけようか！）
+
+      ああ。邪悪な魔女とその使い魔の、ここからが本領発揮だ。'
+    paragraph: p105
+    quote_verified: true
+  - quote: アキラさんは僕のことも助けてくれました――僕は、あの人を助けてあげたい、味方でありたいんです
+    paragraph: p179
+    quote_verified: true
+  note: 表向きは悪役（魔女・邪悪）だが実質的に住民を守るという逆転構造。レオの純粋な信頼がその構造を補強している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と呪術の境界消失
+  weight: 0.5
+  quotes:
+  - quote: 巻き上げ機が高速回転し、移動能力に優れたワイヤーアンカー搭載義肢が俺を壁面の上へと運んでいく
+    paragraph: p17
+    quote_verified: false
+  - quote: 巡槍艦の制御システムに侵入し、絶妙なタイミングで作戦を実行に移す。
+    paragraph: p151
+    quote_verified: true
+  note: サイバーパンク的な義肢・機械とファンタジー的な呪術・迷宮がシームレスに接続され、世界観のハイブリッド性を強調している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

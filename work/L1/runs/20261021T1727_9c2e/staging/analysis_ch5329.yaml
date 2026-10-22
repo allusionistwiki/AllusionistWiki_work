@@ -1,0 +1,241 @@
+chapter: ch5329
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 20
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_Sage_Disappearance]]'
+  object: '[[ME_Gacha_Gaming_Mechanic]]'
+  claim: セージの失踪は、ゲームにおけるガチャ演出（出現確率操作）やイベントトリガーの遅延を模倣しており、情報収集という目的がメタ的に中断される構造を持つ。
+  quote: ちょうどトリシューラ先生に伝えようとしてた所だったんですけど、間が悪くてごめんなさい
+  paragraph: p6
+  confidence: moderate
+  quotes:
+  - quote: ちょうどトリシューラ先生に伝えようとしてた所だったんですけど、間が悪くてごめんなさい
+    paragraph: p6
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Damocles_Sword]]'
+  object: '[[ME_Mythology_Damocles]]'
+  claim: イアテムの頭上に現れる剣は、権力の危うさを示す「ダモクレスの剣」の引用であり、同時に「僣主を殺し、王国に滅びを与える」という運命論的な破滅の象徴として機能している。
+  quote: 見よ、天に浮かぶ【ダモクレスの剣】はこのイアテム＝グレンデルヒを選んだぞ！
+  paragraph: p106
+  confidence: explicit
+  quotes:
+  - quote: 見よ、天に浮かぶ【ダモクレスの剣】はこのイアテム＝グレンデルヒを選んだぞ！
+    paragraph: p106
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Iatemu_Speech]]'
+  object: '[[ME_Fascist_Populism]]'
+  claim: イアテムの演説は、敗北を否定し過去の栄光（英雄）を継承することで現状を変革しようとするポピュリズム的政治修辞であり、歴史修正主義的なナショナリズムを連想させる。
+  quote: 二代目グレンデルヒとして、失墜した我々の権威を回復すると父なる海に誓おうではないか！
+  paragraph: p87
+  confidence: strong
+  quotes:
+  - quote: 二代目グレンデルヒとして、失墜した我々の権威を回復すると父なる海に誓おうではないか！
+    paragraph: p87
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_Mihitonesse_Dance]]'
+  object: '[[ME_Performance_Art]]'
+  claim: ミヒトネッセの動きは、単なる戦闘行為ではなく「演劇的パフォーマンス」であり、観客（男たち）を魅了し操るというメディア論的な支配構造を示している。
+  quote: 大仰な芝居のように。人形や機械の類とは思えないほど情熱的に、人間的な振る舞いで観客の心を揺さぶろうとする。
+  paragraph: p153
+  confidence: strong
+  quotes:
+  - quote: 大仰な芝居のように。人形や機械の類とは思えないほど情熱的に、人間的な振る舞いで観客の心を揺さぶろうとする。
+    paragraph: p153
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_Declaration_of_Name]]'
+  object: '[[ME_RPG_Party_System]]'
+  claim: 「宣名」によって呪力を向上させる仕組みは、TRPGやMMOにおけるパーティ結成時のバフ付与システムをメタファーとして使用し、物語的な所属が物理的な力に変換される構造を示す。
+  quote: 口々に組織への所属を『宣名』して、『使い魔的な権威』によって呪力を向上させる男たち。
+  paragraph: p174
+  confidence: strong
+  quotes:
+  - quote: 口々に組織への所属を『宣名』して、『使い魔的な権威』によって呪力を向上させる男たち。
+    paragraph: p174
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Satellite_Orb]]'
+  object: '[[ME_Astronomy_Magic]]'
+  claim: 「邪眼円環（サテライトオーブ）」という呪文名は、天文学的な衛星軌道と魔術の融合を示唆し、宇宙規模の物理法則を個人の呪力として利用する科学と魔法の境界線の曖昧さを描く。
+  quote: 朱と藍が斑になった球体が少女の右の踵に開いた穴から飛び出すと、足の周囲で衛星のように軌道を描き始めた。
+  paragraph: p152
+  confidence: moderate
+  quotes:
+  - quote: 朱と藍が斑になった球体が少女の右の踵に開いた穴から飛び出すと、足の周囲で衛星のように軌道を描き始めた。
+    paragraph: p152
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Sage_Motivation
+  note: セージがなぜ意図的に姿を眩ませ、追跡を欺瞞する儀式を行ったのか。その動機（裏切り、脅迫、自発的隠匿）が未確定であり、物語の推進力となる。
+  quotes:
+  - quote: それが確かなら、セージは自ら姿を眩ませた可能性が高い。だが、理由は何だ？
+    paragraph: p17
+    quote_verified: true
+  expected_payoff: セージがイアテム陣営と接触し、主人公たちへの裏切り者として登場するか、あるいは独自の情報源として再登場する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mihitonesse_Master
+  note: ミヒトネッセが「お師匠様」と呼ぶ相手は誰か。イアテムへの態度から見て、彼女自身は高位の存在に従属している可能性が高い。
+  quotes:
+  - quote: 「はい。お師匠様」
+    paragraph: p132
+    quote_verified: true
+  expected_payoff: ミヒトネッセを操る真の黒幕、または第五階層の支配者層との関連性が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mock_Heroic_Poem
+  note: 「疑似英雄詩（モックヒロイック）」という呪文が、イアテムの人格をミヒトネッセに投影させる。この「乗っ取り」がどこまで制御可能で、誰が行っているのか。
+  quotes:
+  - quote: 少女の姿が光に包まれ、一瞬のうちに変貌する。そこにいるのはもはや侍女人形ではない。名乗った通り、イアテム本人がそこに立っていた。
+    paragraph: p182
+    quote_verified: true
+  expected_payoff: ミヒトネッセの身体能力とイアテムの戦闘技術の融合による戦力の詳細、およびこの術の代償や制限。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Alma_Arrival
+  note: アルマがガロアンディアンに到着し、「風の吹く丘」から持ち帰った秘宝・巨人の遺物。これが戦力増強だけでなく、物語の鍵となる情報を含む可能性。
+  quotes:
+  - quote: 迷宮から持ち帰った秘宝とか巨人が落とした呪石や武器なんかがとってもいいものらしいので、戦力の増強も期待できます。
+    paragraph: p37
+    quote_verified: true
+  expected_payoff: コルセスカの装備更新による戦闘力アップ、および第五階層の構造に関する新情報の入手。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Damocles_Sword_Mechanic
+  note: 「ダモクレスの剣」がイアテムに現れたのは偶然か、意図的な召喚か。この剣が実体として存在するのか、象徴的な幻覚なのか。
+  quotes:
+  - quote: 暗闇の天に巨大な幻影が出現する。それは剣。僣主を殺し、王国に滅びを与える絶対なる異界の法則。
+    paragraph: p102
+    quote_verified: true
+  expected_payoff: イアテムが「僣主」（主人公やトリシューラ）を殺すために使用する決定的な武器、あるいはその破滅的な運命の発動条件。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 敗北の美学と英雄の再定義
+  weight: 0.9
+  quotes:
+  - quote: 今のまま敗者と嘲笑され続けるより、勝者として栄光を手にしたくはないか！
+    paragraph: p87
+    quote_verified: true
+  - quote: 先代グレンデルヒは、愚物であった。
+    paragraph: p75
+    quote_verified: false
+  note: イアテムの演説に顕著な、「過去の敗北を否定し、名前（アイデンティティ）を継承することで新しい英雄像を構築する」テーマ。歴史の書き換えと自己正当化の暴力性が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 演劇性による支配（ペルソナと本質）
+  weight: 0.8
+  quotes:
+  - quote: ミヒトネッセは馬鹿にしている。滑稽に踊り、演じ、嘲っている。目の前にいる男たちを。
+    paragraph: p198
+    quote_verified: true
+  - quote: 『それらは同じものである』と叫びながら零落の呪術を演じるのだ。
+    paragraph: p204
+    quote_verified: true
+  note: ミヒトネッセが踊りと演技を通じて男性たちを操り、彼らの「英雄譚」を滑稽な模倣（パロディ）として貶める構造。「演じる者」と「演じられる者」の権力関係が主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 名前の権力と所属による呪力化
+  weight: 0.7
+  quotes:
+  - quote: 口々に組織への所属を『宣名』して、『使い魔的な権威』によって呪力を向上させる男たち。
+    paragraph: p174
+    quote_verified: true
+  - quote: 新たに名前を付けられた組織が新生し、呪力の質が変異していく。
+    paragraph: p73
+    quote_verified: true
+  note: この世界における魔法の原理として、「所属宣言（宣名）」が物理的なエネルギー源となる社会構造。個人ではなく集団の「物語」が力を持つというメタフィクション的側面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命の不可避性と権力の危うさ
+  weight: 0.6
+  quotes:
+  - quote: 僣主を殺し、王国に滅びを与える絶対なる異界の法則。
+    paragraph: p104
+    quote_verified: true
+  - quote: 天に浮かぶ【ダモクレスの剣】はこのイアテム＝グレンデルヒを選んだぞ！
+    paragraph: p106
+    quote_verified: true
+  note: 「ダモクレスの剣」の引用を通じて、権力を手にした者（イアテム）にも破滅が約束されているという運命論。英雄への叙任と死の宣告が同時に行われる逆説。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報管理と監視社会の限界
+  weight: 0.4
+  quotes:
+  - quote: 公社が保有する情報インフラとか監視警戒網の管理責任者だし、本気で潜伏されたら見つけるのは骨かも
+    paragraph: p11
+    quote_verified: true
+  - quote: 追跡呪術を欺瞞するための儀式の痕跡と、加速符で現場の時間を進めて過去視を困難にしてるね
+    paragraph: p15
+    quote_verified: true
+  note: トリシューラ側の高度な監視システム（ドローン、情報インフラ）が、個人の魔術的な隠匿技術によって欺瞞される構造。ビッグデータ的支配と個人の自由の対立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

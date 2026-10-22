@@ -1,0 +1,142 @@
+chapter: ch5577
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_聖絶の史実と教科書改変
+  note: ロードデンドロンが指摘した『美しい教科書を作る会』による自虐史観削除の動きは、クロウサー家とティリビナ人の関係悪化、およびリーナの政治的立場を揺るがす重大な伏線。
+  quotes:
+  - quote: 現在、地上の『美しい教科書を作る会』では多数のメンバーからこのような意見が出ているそうですね。聖絶関連の記述から『自虐史観』を取り除くべきだと
+    paragraph: p130
+    quote_verified: true
+  - quote: ティリビナ人虐殺の史実に関する認識を歪めようとすることは、新たな『並行矛盾史』の誕生すら意味する。これは将来の我らの友好関係に必ずや禍根を残すでしょう。
+    paragraph: p144
+    quote_verified: true
+  expected_payoff: リーナがクロウサー家当主としてこの歴史問題にどう向き合い、ティリビナ同胞団との同盟を維持・強化するかの政治劇へ回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カーインの並行矛盾史
+  note: マルガリータが提起した、鈴国圏と義国圏におけるカーイン（パーンの盟友）の神話的矛盾は、パーンの出自や世界観の根幹に関わる秘密を暴く可能性がある。
+  quotes:
+  - quote: 具体的には、鈴国と義国の二大勢力間で神話がゆらぎを持つカーインという人物の並行矛盾史について、クロウサー側の公式見解を問います
+    paragraph: p173
+    quote_verified: true
+  - quote: 我が鈴国圏において、カーインとは聖妃レストロオセに仕える四十四士のひとりですが、そちらの義国圏では違いますね？ クロウサーの守護者カイン。あるいは、そこにいるパーンの盟友。この矛盾についてお答え下さい
+    paragraph: p179
+    quote_verified: true
+  expected_payoff: パーンの正体、カーインという存在が複数世界間でどう定義されているかのメタフィクショナルな真相の暴露。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_試験官の裁量と基準ずらし
+  note: リーナが疑った「一位でなかったことによる合格基準の変更」は、クラウビューラがロードデンドロンへの対抗策としてルールを操作した可能性を示唆する。
+  quotes:
+  - quote: （もしかして、私が一位じゃなかったから、合格の基準をずらした？）
+    paragraph: p109
+    quote_verified: true
+  - quote: 試験官側の思惑としては、外部勢力や反逆者に合格してもらっては困るというのが本音だろう。極端なことを言ってしまえば、リーナが相応の実力を示すまで延々と追加の試験を行い続けたって構わないのだ。
+    paragraph: p112
+    quote_verified: true
+  expected_payoff: 二次試験での「公平性」を巡る駆け引き、または試験官側の隠された意図（特定人物の排除・保護）が露呈する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_マルガリータの攻撃意図とパーンの反応
+  note: マルガリータがパーンを名指しで攻撃した事象は、単なる試験の議題ではなく、彼女個人の過去の恨みや派閥闘争を示唆する。
+  quotes:
+  - quote: パーンとその周囲に対する、苛烈な攻撃の意思である。
+    paragraph: p183
+    quote_verified: true
+  - quote: リーナにとって、それはやや関心の外側にある内容だ。大雑把な知識として聞いたことがある程度。だが、パーンにとっては違う。
+    paragraph: p175-p177
+    quote_verified: true
+  expected_payoff: マルガリータとパーン（およびカーイン）の過去の確執が判明し、四人の同盟関係が破綻するか再編される契機となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_チッセの現代知識不足指摘
+  note: パーンに対する「ガロアンディアンにいると入ってくる知識が機工術とか創造術に偏っちゃう」という指摘は、世界内の技術体系（古代vs現代）の断絶を示す伏線。
+  quotes:
+  - quote: てかパーンちゃん、現代知識アップデートできてないのぉ～？ ガロアンディアンにいると入ってくる知識が機工術とか創造術に偏っちゃうのかな？
+    paragraph: p34
+    quote_verified: true
+  expected_payoff: パーンの「古代の反逆者」としての能力の限界、または現代技術との相克が戦闘や議論で不利な要因として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 教育と試験は、血統・階層・文明圏の格差を「能力」という名の下に正当化し固定化するイデオロギー装置である。
+  weight: 0.9
+  quotes:
+  - quote: 積み重ねられた歴史。連綿と受け継がれてきた血より生を受けた者は、望まずともただ存在しているだけで特権を得る。それがクロウサーという権力だ
+    paragraph: p40
+    quote_verified: true
+  - quote: 見よ。これも権力だ。学力という基準であれば、あらゆる出自と属性を問わず横並びの基準でその実力と資格を問うことができる。建前上はな
+    paragraph: p46
+    quote_verified: true
+  note: クラウビューラの説教が中心にあり、リーナの「学びの機会」リストやティリビナ人の現状分析がこの主題を補強している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 歴史認識（教科書）の支配権は政治的権力そのものであり、真実とは勝利者によって記述されるテクストである。
+  weight: 0.85
+  quotes:
+  - quote: 聖絶関連の記述から『自虐史観』を取り除くべきだと
+    paragraph: p130
+    quote_verified: true
+  - quote: ティリビナ人虐殺の史実に関する認識を歪めようとすることは、新たな『並行矛盾史』の誕生すら意味する。
+    paragraph: p144
+    quote_verified: true
+  note: ロードデンドロンの攻撃とマルガリータの介入が、歴史叙述を巡る権力闘争としての主題を浮き彫りにしている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「血の宿命」を超えて自由意志で行動する者の存在は、既存の権力構造（クロウサー）に対する決定的な挑戦となる。
+  weight: 0.7
+  quotes:
+  - quote: ある意味では、これも血の宿命と呼べるものかもしれない。だが、青年の佇まいからは決然とした意志が感じられる。彼は血族の代表者ではあるが、同時に『同胞を守りたい』という自由意志によってこの場所にいるのだ
+    paragraph: p86-p88
+    quote_verified: true
+  - quote: ルールに則った堂々たる勝利。クラウビューラはロードデンドロンの挑むような視線に応じるしかなかった。
+    paragraph: p91-p92
+    quote_verified: true
+  note: リーナが「血の恩恵」で上位を取ったことと対比され、ロードデンドロンの努力と意志が権力者（巨人）を黙らせるという構造がある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世界は記述（テクスト）そのものであり、記述されることで存在が定義・判定され、権力が行使される。
+  weight: 0.6
+  quotes:
+  - quote: 全てが文字として記述される世界では、存在するもの全てがインクとなりペンにもなりうる。
+    paragraph: p2
+    quote_verified: true
+  - quote: 答案用紙がクラウビューラという記述から切り出されたテクストそのものである以上、四人の受験者は試験官と口頭で問答していたに等しい。
+    paragraph: p11
+    quote_verified: true
+  note: 世界設定（メタフィクション）としての一貫性。試験という行為が単なる知識確認ではなく、「記述による存在証明・判定」であることの主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,244 @@
+chapter: ch5342
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p2-p6]]'
+  object: '[[ME_metaphor_of_love_as_physical_phenomenon]]'
+  claim: 流星の物理的落下・燃焼・衝突を、抗えない重力に惹かれ破滅へ向かう恋の力学として寓喩している。
+  quote: '流星は恋に似ている。
+
+    抗いようのない重力に惹かれて墜ちて、激しさに耐えかねて燃え尽きる。'
+  paragraph: p2-p3
+  confidence: strong
+  quotes:
+  - quote: '流星は恋に似ている。
+
+      抗いようのない重力に惹かれて墜ちて、激しさに耐えかねて燃え尽きる。'
+    paragraph: p2-p3
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p10-p13]]'
+  object: '[[ME_world_as_background_for_protagonist]]'
+  claim: 世界全体を「王という人物画の主役を引き立たせる為の背景」と定義し、物語構造における主人公中心主義（ナラティブの自己言及性）をメタ的に示唆している。
+  quote: '最も美しき彼という根源が踏みしめる大地も流れる髪の真上に広がる夜空も、全ては王という人物画の主役を引き立たせる為の背景でしかない。
+
+    世界という絵画の主題は既に決まっている。'
+  paragraph: p12-p13
+  confidence: strong
+  quotes:
+  - quote: '最も美しき彼という根源が踏みしめる大地も流れる髪の真上に広がる夜空も、全ては王という人物画の主役を引き立たせる為の背景でしかない。
+
+      世界という絵画の主題は既に決まっている。'
+    paragraph: p12-p13
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p56-p58]]'
+  object: '[[ME_civil_war_from_within]]'
+  claim: 外部からの攻撃（流星）よりも、内部での愛の裏切りと内戦がカシュラム滅亡の決定要因となっており、国家崩壊の古典的モデル（内乱による自滅）を反映している。
+  quote: 'かの国は、内部からの裏切りによって滅んでいくのだった。
+
+    「相容れぬ立場、敵味方に引き裂かれた恋人たち――あらゆる物語にあるように、苦難こそが恋を燃え上がらせる」'
+  paragraph: p50-p64
+  confidence: strong
+  quotes:
+  - quote: 'かの国は、内部からの裏切りによって滅んでいくのだった。
+
+      「相容れぬ立場、敵味方に引き裂かれた恋人たち――あらゆる物語にあるように、苦難こそが恋を燃え上がらせる」'
+    paragraph: p50-p64
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p123-p173]]'
+  object: '[[ME_cyber_karate_as_magic_system]]'
+  claim: 「サイバーカラテ」「発勁」「NOKOTTA」といった近代的・SF的な格闘術用語を、呪術詠唱や魔法戦闘のメカニズムとして昇華させ、ジャンル横断的なパロディを展開している。
+  quote: 'ラフディ相撲――古流サイバーカラテ。
+
+    その真髄をここに示す。
+
+    「NOKOTTA!」
+
+    詠唱と共に呪力を解放し、足裏から大地に呪力を流し込む。'
+  paragraph: p123-p131
+  confidence: explicit
+  quotes:
+  - quote: 'ラフディ相撲――古流サイバーカラテ。
+
+      その真髄をここに示す。
+
+      「NOKOTTA!」
+
+      詠唱と共に呪力を解放し、足裏から大地に呪力を流し込む。'
+    paragraph: p123-p131
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p222]]'
+  object: '[[ME_hedgehog_dilemma]]'
+  claim: 愛する者同士が近づきすぎると傷つけ合うという関係性を、ショーペンハウアーの「ハリネズミのジレンマ」に直接言及して比喩的に表現している。
+  quote: 「僕たちは、傷つけ合わずにはいられないんだ。ハリネズミのジレンマ。そう、壊れやすいハートを抱えた繊細な硝子人形、それが僕たち――」
+  paragraph: p222
+  confidence: explicit
+  quotes:
+  - quote: 「僕たちは、傷つけ合わずにはいられないんだ。ハリネズミのジレンマ。そう、壊れやすいハートを抱えた繊細な硝子人形、それが僕たち――」
+    paragraph: p222
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p241-p253]]'
+  object: '[[ME_reincarnation_meeting_past_self]]'
+  claim: 主人公（マラード陛下）が、未来から来た自身の末裔である少女と出会うという構図を通じて、典型的な「転生者による過去改変」または「ループ」の逆説的な出会いを描いている。
+  quote: '「偉大なる我が父祖、マラード陛下」
+
+    アレッテ・イヴニル・ラプンシエル・ディルトーワ＝ベルラクルラールは、マラード・ディルトーワ・アム＝ドーレスタ・エフ＝ラフディ陛下にお力添えすべく推参致しました'
+  paragraph: p245-p253
+  confidence: strong
+  quotes:
+  - quote: '「偉大なる我が父祖、マラード陛下」
+
+      アレッテ・イヴニル・ラプンシエル・ディルトーワ＝ベルラクルラールは、マラード・ディルトーワ・アム＝ドーレスタ・エフ＝ラフディ陛下にお力添えすべく推参致しました'
+    paragraph: p245-p253
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Book_of_Lubberb_Context
+  note: ルバーブが「漆黒の書物」で王の物語を記録し、その意志が力ある言葉となる描写。この記録行為が世界改変能力やメタ的なナラティブ操作に関与する伏線か？
+  quotes:
+  - quote: 私の意志が力ある言葉として形をとり、空白の項を埋めていく。
+    paragraph: p24
+    quote_verified: true
+  expected_payoff: 物語の結末がルバーブの筆によって決定される、あるいは記録された事象が現実に影響を与える展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Arlette_Origin_Mimicry
+  note: アレッテの名乗りにおける「起源は冥道の模造品」という自己定義。「冥道」の正体と、「模造品」という言葉が示す彼女の本質（人工物？ 転生者？ 複製？）に関する謎。
+  quotes:
+  - quote: 起源は冥道の模造品。
+    paragraph: p253
+    quote_verified: true
+  expected_payoff: アレッテが単なる人間ではなく、何らかの技術・魔法的複製であり、その起源が物語の核心（マラードとの関係性）に関わる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Lubberb_Deadly_Feeling
+  note: ルバーブがアレッテを「滅びを招く傾国の魔女」と予感し、「私と同じ悪臭」を感じている点。ルバーブ自身の本質（再生者？）とアレッテの間に共通する「欠陥」や「運命」が存在するのか？
+  quotes:
+  - quote: 本質から美しくない者は、どのように偽ってもどこかから醜悪さを溢れさせてしまうもの――この『魔女』からは、私と同じ悪臭がする。
+    paragraph: p265
+    quote_verified: true
+  expected_payoff: ルバーブとアレッテが共犯者である、あるいは互いに補完し合う「呪い」を共有していることが明かされる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Breysva_Concept
+  note: オルヴァ王の戦法が「ブレイスヴァカラテ」と呼ばれ、「全てを飲み込む」「自らの伝承を利用すれば滅ぼせる」と説明される。この概念と、ルバーブのサイバーカラテ（NOKOTTA）の関係性。
+  quotes:
+  - quote: 「発勁用意」の終端は喰らわれたのだ――そう、ブレイスヴァによって。
+    paragraph: p162
+    quote_verified: false
+  expected_payoff: 「ブレイスヴァ」という概念が、世界を消費・消失させる根本的な呪術原理であり、マラードとの対決で鍵となる能力である可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美しさとは他者を犠牲にして成立する物語の中心軸（世界は王を輝かせるための背景に過ぎない）
+  weight: 0.8
+  quotes:
+  - quote: 全ては王という人物画の主役を引き立たせる為の背景でしかない。
+    paragraph: p12
+    quote_verified: true
+  - quote: 「見損なうな。お前を見捨てて逃げる王を、美しいと誰が認める？」
+    paragraph: p182
+    quote_verified: true
+  note: マラードの美しさは自己中心的であり、周囲（ルバーブや敵対者）の死や犠牲によって初めて完成する。この章ではその「残酷な美学」が強調されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 愛と破壊は不可分であり、強い感情は物理的な暴力（流星・内戦）として現れる
+  weight: 0.7
+  quotes:
+  - quote: 故に、流星（こい）の運命とは常に残酷さと隣り合わせだ。
+    paragraph: p6
+    quote_verified: true
+  - quote: 彼らは最悪の裏切りと知りつつも、邪恋の暗い炎を燃え上がらせてしまうのだ。
+    paragraph: p54
+    quote_verified: true
+  note: カシュラムの滅亡が「愛」によって引き起こされた内乱と、天からの「愛の流星」によって達成される。愛は創造ではなく破壊として描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 忠義と自己犠牲による物語の記録（ルバーブの視点）
+  weight: 0.6
+  quotes:
+  - quote: 王の道を見届け、王の歩みを助け、王の身を守り、王の物語を紡ぐ。
+    paragraph: p23
+    quote_verified: true
+  - quote: '陛下を背にして負けるわけにはいかぬ。
+
+      再生者としての生が終わりを迎えようとも、必ずや食らいついてみせる。'
+    paragraph: p200-p201
+    quote_verified: true
+  note: ルバーブの視点を通じて、「王を輝かせるための下僕」としての忠義が描かれ、その自我の喪失（記録者としての役割）が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 時間と運命のループ（未来からの干渉による過去の改変・補完）
+  weight: 0.5
+  quotes:
+  - quote: 「偉大なる我が父祖、マラード陛下」
+    paragraph: p245
+    quote_verified: false
+  - quote: 研究の進んだ後世の私たちがそれを言うのは卑怯かしら
+    paragraph: p233
+    quote_verified: true
+  note: 未来からの介入者（アレッテ）が現れ、マラードを支援することで運命を変えようとする構造。メタフィクションとしての「転生」の側面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

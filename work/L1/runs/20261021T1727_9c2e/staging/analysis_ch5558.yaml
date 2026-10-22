@@ -1,0 +1,103 @@
+chapter: ch5558
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 3
+  quotes_verified: 9
+  quotes_total: 10
+items:
+- kind: mystery
+  name: MY_Three_Legged_Connection
+  note: 「三本足」との結びつきが手淫に等しいとされ、獣愛神レメスの浄界でのみ有効化された。この『三本足』とは誰を指すのか（クリーナー？ レーサー？ 馬？）不明確であり、後の展開でその正体や関係性が明かされる可能性が高い。
+  quotes:
+  - quote: 「三本足」との結びつきなど手淫に等しく誉れは皆無。
+    paragraph: p43
+    quote_verified: false
+  expected_payoff: クリーナーとファーガスト、そしてチェダラーテの三者関係の深層（三角関係的な力学）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Cleaner_Real_Name
+  note: クリーナーの正体について「トントロシューラ」「ポロロンセスカ」という誤答が流布しており、彼の真のアイデンティティ（特に父親としての顔）は隠されている。p194の呟きが伏線となる。
+  quotes:
+  - quote: 「待っていてくれ、リーナ。お父さんが、お前を自由にしてやるからな」
+    paragraph: p194
+    quote_verified: true
+  expected_payoff: クリーナーがリーナの父親であること、あるいはそれに準ずる保護者関係が判明し、レースの勝敗に影響を与える。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Galloandian_Wood_Secret
+  note: 「死人の森」におけるクリーナー地の利は、「断章」という魔導書の力によるものだが、この森がガロアンディアンと隣接しているという地理的・歴史的な背景が未解明であり、クリーナーとの関連を示唆する。
+  quotes:
+  - quote: 隣接異界から第五階層へと帰還した選手たちを待つのはガロアンディアンと隣り合う深い森。古き『死人の森』の試練である。
+    paragraph: p96
+    quote_verified: true
+  expected_payoff: クリーナーがガロアンディアン（またはその関連組織）出身であること、および「断章」が特定の歴史的記録であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Road_Dendron_Parents
+  note: ロードデンドロンが「上の世界のティリビナ人」と接触し、長老たちを動かそうとしている。彼の背景にある「街路樹の民」運動や、「上の世界」との関係が今後の展開で重要な役割を果たす可能性がある。
+  quotes:
+  - quote: そんな中、『街路樹の民』という運動を主導している『上の世界のティリビナ人』がいるという知らせがロードデンドロンの心に希望を灯した。
+    paragraph: p110
+    quote_verified: true
+  expected_payoff: 「上の世界」の存在や、「街路樹の民」の正体が明かされ、ティリビナ人の問題解決の鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の消費構造と読者（観客）の責任の分断
+  weight: 0.9
+  quotes:
+  - quote: 俺も含めてモブキャラの過去なんてみんな真面目に読んでねーよ。まとめ動画で把握すりゃいいだろそんなもん。ざっと台詞だけさらっとけ
+    paragraph: p148
+    quote_verified: true
+  - quote: テキストベース・サーキットは長すぎる。結果が出たら後でまとめて読む。それが許されるのが文字情報というものだ。
+    paragraph: p173-p174
+    quote_verified: true
+  note: 深刻なテーマ（少数民族の苦難）を扱うロードデンドロンと、それを『斜め読み』して無視するクリーナー（および多くの観客）の対比を通じ、現代のメディア消費における文脈の軽視と感情の消費を批判的に描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 血統とアイデンティティの再定義：純粋性の虚構
+  weight: 0.8
+  quotes:
+  - quote: 青い血が四人の中に入り込むと、彼らの身体には始祖クロウサーの象徴とされる四つの記号（アトリビュート）が顕れたという。
+    paragraph: p11
+    quote_verified: true
+  - quote: ゆえに草の民はクロウサーを受け入れるしかない。
+    paragraph: p80
+    quote_verified: true
+  note: 「蹄鉄の四血族」の起源が、死後の世界からの贈与と混血によるものであること。草の民が拒否できないのは『半身を拒絶することなど自殺同然』という自己同一性の不可分性に基づくものであり、純粋な血統主義の虚構性を暴いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 政治的動員と感情の風化
+  weight: 0.7
+  quotes:
+  - quote: その感情は、既存秩序を変えていこうとするリーナへの若者たちの共感に近い。
+    paragraph: p83
+    quote_verified: true
+  - quote: 観客に伝わるものはあった。逆に劣勢だからこそ健闘を称える声が増えていく。
+    paragraph: p120-p121
+    quote_verified: true
+  note: 草の民のナショナリズムとティリビナ人の被害者性が、レースという娯楽空間の中で『風』＝エネルギーとして消費され、選手を加速させる原動力になる。政治的な問題がエンタメの燃料として変換される過程を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

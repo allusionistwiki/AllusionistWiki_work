@@ -1,0 +1,118 @@
+chapter: ch5123
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_妹の相談相手選定ミステリー
+  note: なぜベアトリーチェは、自分の倫理的葛藤（転生の罪）を「愚かで未熟」なアズにだけ相談したのか。その心理的意図と、アズの返答が彼女の運命を決定づけた因果関係の全貌。
+  quotes:
+  - quote: その事を理由も無く直感して、私はその悲しさを想って泣いた。
+    paragraph: p40
+    quote_verified: true
+  - quote: どうして私でなければならなかったんだろう。愚かで未熟で、ものの道理などまるでわからない私なんかに。
+    paragraph: p59
+    quote_verified: true
+  expected_payoff: 後年、ベアトリーチェがアズにしか救いを求められなかった理由（アズの純粋さ、またはアズへの執着・依存）が明かされ、アズの罪悪感がより深いレベルで掘り下げられる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_遺跡での不可視の手と九体の異形
+  note: 氷の封印内の「形の無い光の偏り」がなぜベアトリーチェを器として選び、彼女を犠牲にしてまで現世に出ようとしたのか。その目的と背景にある「最悪の魔女」との関係。
+  quotes:
+  - quote: 『それ』は不可視の手を伸ばし、感応の呪力でより自分が乗り移るのに適した器を探しているようだった。
+    paragraph: p89
+    quote_verified: true
+  - quote: 過去の英雄が封じた九体の異形。それらを従える最悪の魔女。
+    paragraph: p117
+    quote_verified: true
+  expected_payoff: この「光の偏り」が後に主人公アズに憑依する伏線、あるいはベアトリーチェの魂がその一部として吸収されたことの回収（復讐劇や対峙）へ繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_天青石を散りばめた喩えの意味
+  note: ベアトリーチェが遺跡の光を「天青石（ラピスラズリ）を散りばめたような」と表現した意図。この比喩が単なる装飾でなく、魔法体系や世界観における重要なシンボルである可能性。
+  quotes:
+  - quote: 天青石を散りばめたような、という妹の喩えを、色彩を知らなかったあの頃の私は理解できなかった
+    paragraph: p78
+    quote_verified: true
+  expected_payoff: 「天青石」が世界における魔力源、またはベアトリーチェの呪力の象徴として後で重要視される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アズの「取り返しがつかない過ち」の本質
+  note: アズが妹を遺跡に連れ出したのが単なる思いつきなのか、それとも「不可視の手」の誘導（運命）によるものだったのか。
+  quotes:
+  - quote: 探検しようと子供の思いつきで妹を連れ出す愚かな私。
+    paragraph: p75
+    quote_verified: true
+  - quote: 私の犯してしまった、取り返しのつかない過ち。
+    paragraph: p87
+    quote_verified: true
+  expected_payoff: アズが妹を連れて行った行為自体が「運命の罠」であり、転生者としてのベアトリーチェを「器」として献上する結果となったことが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 保護者の逆転と相互依存の悲劇：守るべき者（妹）が守る側となり、守られる側（姉/兄）が罪を背負う構造。
+  weight: 0.9
+  quotes:
+  - quote: 私が妹を妹として守ってあげられる最後の瞬間はそうして失われ、ベアトリーチェは私の代わりに犠牲になった。怯える私を守るために。
+    paragraph: p91
+    quote_verified: true
+  note: 一般的な兄妹の役割（兄姉が弟妹を守る）が崩壊し、弱者である主人公が他者の犠牲によって生かされているという「生き残りの罪」を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生の倫理的正当性の否定：既存の人生（席）を奪う行為としての転生への批判と、その犠牲の上に立つ主人公の存在証明。
+  weight: 0.8
+  quotes:
+  - quote: 誰かの人生を犠牲にしてまで生きるなんて、私だったら耐えられない
+    paragraph: p66
+    quote_verified: true
+  - quote: どうせ、誰かを踏みつけにして手に入れた人生だもの
+    paragraph: p94
+    quote_verified: true
+  note: メタフィクションとしての転生ジャンルへの自己言及的批判。主人公の存在そのものが倫理的に不正であることを妹が代弁し、断罪している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 完璧な存在（ベアトリーチェ）の内面の孤独と破綻：社会から崇められる「偶像」の裏にある個人としての葛藤と自己犠牲。
+  weight: 0.7
+  quotes:
+  - quote: 隠し事は誰にも共有できないもので、彼女はその完璧さゆえにそれを一人きりで胸にしまい込んでいくことしかできないのだ。
+    paragraph: p38
+    quote_verified: true
+  note: 天才・転生者として社会に組み込まれたベアトリーチェが、人間としての苦悩を吐き出せる場所が主人公（愚かで純粋なアズ）以外になかった悲劇性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶の残響と不可逆的な喪失：過去は変えられないという現実の受容、そして「夢」として繰り返されるトラウマ。
+  weight: 0.6
+  quotes:
+  - quote: これは夢。失った過去の虚しい残響。だから私の愚かさは、ずっと取り返しがつかないまま。
+    paragraph: p63-p64
+    quote_verified: true
+  note: 異世界転生ものの「やり直し」や「チートによる救済」を否定し、失われた命の重さを受け入れるシリアスなトーン。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

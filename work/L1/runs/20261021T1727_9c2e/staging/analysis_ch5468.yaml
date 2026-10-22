@@ -1,0 +1,172 @@
+chapter: ch5468
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 10
+  quotes_total: 18
+items:
+- kind: mystery
+  name: MY_Kanatszzo_Arm_Secret
+  note: 黒檀の民（カニャッツォ）が隠そうとしている腕の秘密。シナモリアキラは義肢・仕掛けを疑うが、ユディーアは「恥ずかしいタトゥー」と推測する。実際の正体は？
+  quotes:
+  - quote: 「ダメだ、これだけは見せられねえ。だが神に誓う、本当に俺じゃねえ。この腕は生身だし、まじないの仕掛けとかもねえ。この殺しとは関係無く、事情があるんだよ」
+    paragraph: p189
+    quote_verified: true
+  - quote: '「恥ずかしいタトゥー」
+
+      ...
+
+      「失敗すること、よくあるらしいよね。かっこよさそうな古代言語を入れたら実は変な意味だったとか、後から見直したらデザインがダサかったとか。そういうのは見せたくないよね」'
+    paragraph: p339-p343
+    quote_verified: false
+  expected_payoff: 後の展開で腕の正体（タトゥーの真の意味、あるいは隠された呪術的刻印など）が明かされ、シナモリアキラ間の権力闘争に絡む伏線として回収される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_CyberKarate_True_Nature
+  note: シナモリアキラ（本物）が「サイバーカラテ観が十二人のカス妖怪共が争っていた辺りで止まってる」と述べている。12人という数字と、その技術の真の起源・制限。
+  quotes:
+  - quote: 「悪い。質の低いシナモリアキラが滑稽な茶番やってんのに耐えられなくて。ああ、お前ら雑魚は潰し合ってろ。残った方を俺が潰してやる。サイバーカラテ観が十二人のカス妖怪共が争っていた辺りで止まってる低次元のシナモリアキラはもういらねえんだよ」
+    paragraph: p383
+    quote_verified: true
+  expected_payoff: 「12人」という数字は、ガロアンディアンの支配構造やシナモリアキラの起源（神話的・歴史的）に関わる重大な秘密を示唆しており、後の物語の核心に関わる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Malebranche_Kanatszzo_Position
+  note: シナモリアキラ（本物）が「マレブランケ」の中核であり「カニャッツォ」の位を手に入れたと宣言。この組織・階級の真意と、その直後の死亡との因果関係。
+  quotes:
+  - quote: 「俺はそこらにいる名前だけの木っ端アキラじゃねえ。中核である『マレブランケ』、その中でも『カニャッツォ』の位を手に入れた最も新しいシナモリアキラだ！」
+    paragraph: p394
+    quote_verified: true
+  - quote: '直後に遠雷のような轟音、そして叫び声。
+
+      酒場の天井が崩落し、叩きつけられた巨大な足によって名乗りを上げた男は踏み潰された。'
+    paragraph: p397-p398
+    quote_verified: true
+  expected_payoff: 「カニャッツォ」の位とは何か、マレブランケとは何者か、そしてなぜその宣言が即座に物理的抹殺（巨大な足）を招いたのか。この組織とシナモリアキラ間の関係性が今後の物語の鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Fire_Bee_Mastermind
+  note: 事件を引き起こした「火蜂」の使い魔を操作していた真犯人（暗殺呪術師）の正体と目的。
+  quotes:
+  - quote: '十中八九、暗殺呪術師が使役する使い魔だろう。
+
+      ...
+
+      「火蜂っつったら『松明の騎士団』だろ？」「いいやイカレた過激派の槍神教信者に決まってる。教会の奴らが『街路樹の民』って口にする時の苦虫を噛み潰したようなツラ、見たことないか？」'
+    paragraph: p314-p325
+    quote_verified: false
+  expected_payoff: この暗殺は単なる事件の引き金ではなく、「松明の騎士団」や「槍神教」といった組織による意図的な行動（テロリズム、宗教的対立の煽動）である可能性。真犯人の動機と所属が後の対立構図を形成する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Yudiaa_Sister_Teaching
+  note: ユディーアが「お姉様」から教わった「己を知り、適切に使え」という教えと、その能力（彩域・過去視）の制御。
+  quotes:
+  - quote: 己を知り、適切に使えというのが『お姉様』の教えだった。
+    paragraph: p237
+    quote_verified: true
+  - quote: 「ユディーア」を心の奥深くに押し込めて、自分が誰なのかを忘れた愚か者は余計なトラブルに首を突っ込んでいった。
+    paragraph: p265
+    quote_verified: false
+  expected_payoff: ユディーアの能力使用の制限や代償、「お姉様」とは誰か、そして「自分が誰なのかを忘れる」状態が物語の重要な転換点（精神崩壊、覚醒など）に関わる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術（サイバーカラテ）と魔法（呪術/過去視）の対立を通じた、「真実」発見プロセスの権威主義への批判
+  weight: 0.8
+  quotes:
+  - quote: '「そんな胡散臭いもんよりまともな呪術捜査の方が信用できるに決まってんだろ」
+
+      「推測だの再現だのって要するにてめえの想像だろ。過去を再生した方が手っ取り早い」'
+    paragraph: p258-p260
+    quote_verified: true
+  - quote: この街の真実は誰が決める？　アプリによる推理？　呪術による追跡？　立体幻像と物理演算シミュレーション？　過去視の異能？
+    paragraph: p363
+    quote_verified: true
+  note: 科学捜査（論理・データ） vs 魔法（直感・超越的知覚） vs 暴力（力）。どの方法が「真実」を決める権限を持つのか、その過程で発生する権力闘争を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: シナモリアキラ（転生者）間の権力構造と、「物語の主人公性」を巡るメタフィクショナルな淘汰圧
+  weight: 0.9
+  quotes:
+  - quote: 「おおかたお前らも『シナモリアキラ選』に出馬するつもりでちまちまクエストこなしてんだろが。木っ端シナモリアキラが手っ取り早く名を挙げようとすれば手段は限られる。既存の『マレブランケ』と被らない、メインが張れるタイプのキャラ立てだ。」
+    paragraph: p375
+    quote_verified: false
+  - quote: 「進化したポストヒューマンであるこの俺と、旧態依然とした在り方に捕らわれた劣等人類とでは存在としての格が違う。お前たち旧型のシナモリアキラじゃあこれから始まる『新時代』にはついて行けねえだろうさ。」
+    paragraph: p389
+    quote_verified: false
+  note: 転生者同士の競争が、単なる戦闘だけでなく「キャラ設定（キャラクター・デザイン）」や「物語上の地位（メイン/サブ）」の争いとして描かれており、物語構造そのものが暴力装置化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会における「正義」や「怒り」が扇動され、マイノリティ（黒檀の民）がスケープゴート化されるプロセスの描写
+  weight: 0.7
+  quotes:
+  - quote: '『黒檀の民とティリビナ人は仲が悪い』というのは人々の共通認識だ。
+
+      ...
+
+      「てめえら『ハルムシオンの風』は先週も『同胞団』のヤツを殴ってたって聞いたぞ」'
+    paragraph: p202-p206
+    quote_verified: false
+  - quote: 「差別主義者ってのは『自分たちが差別されてる』って主張するもんなんだよ！」
+    paragraph: p220
+    quote_verified: true
+  note: 事実（使い魔による殺害）が判明するまでの過程で、人種的偏見と集団の怒りがいかにして特定の個人を「犯人」へと仕立て上げ、社会的暴力を生み出すかを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「辺境」という法的・空間的余白における、既存秩序（ガロアンディアン/教会）の不在と無法の自由
+  weight: 0.6
+  quotes:
+  - quote: 中途半端な無法地帯。その場の都合で『どんな扱いにもできる』という便利な空間。意図的に作られた余白だからこそ、ユディーアたちのような者でも紛れ込める。
+    paragraph: p6
+    quote_verified: true
+  - quote: この自由と共存の第五階層で差別主義者がのさばっていやがる！
+    paragraph: p228
+    quote_verified: true
+  note: 中央支配から切り離された空間が、既存の社会規範（人種対立、宗教的対立）を再燃させ、同時に「シナモリアキラ選」のような異質なイベントを受け入れる器として機能する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 真実を解明する行為の無意味さ（メタゲーム的視点）と、物語への介入に対する自己省察
+  weight: 0.5
+  quotes:
+  - quote: '「調査、真実、それに何の価値がある？　こんな茶番クエストにわざわざ付き合うか普通？」
+
+      どうせ報酬はしょぼい経験値。金や物は戦闘後に奪えば同じ事だ。'
+    paragraph: p357-p358
+    quote_verified: false
+  - quote: 「ユディーア」を心の奥深くに押し込めて、自分が誰なのかを忘れた愚か者は余計なトラブルに首を突っ込んでいった。
+    paragraph: p265
+    quote_verified: false
+  note: 事件解決がゲーム的な報酬（経験値）の観点から「茶番」として退けられる一方、主人公側もその介入を自己のアイデンティティ喪失（忘れられた者としての行為）と捉えるメタ的視点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

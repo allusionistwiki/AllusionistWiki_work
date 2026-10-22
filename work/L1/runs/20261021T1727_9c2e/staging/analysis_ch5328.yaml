@@ -1,0 +1,232 @@
+chapter: ch5328
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 9
+  quotes_total: 15
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_public_infrastructure]]'
+  object: '[[ME_government_taxation]]'
+  claim: 第五階層の公共施設維持のための強制徴収は、現代国家における税制および公共財供給の仕組みを模倣し、その正当性を神権的な権力（女王）で担保している。
+  quote: 公共物を構築するために必要なリソースは市民から『徴税』して賄っている。トリシューラ曰く「ちょっとずつ強制徴収してもみんな大して困らないよねっ」だそうだ。強制徴収できるのかよ。どちらかと言えばトリシューラの権力が怖かった。ガロアンディアン女王の称号は伊達ではない。
+  paragraph: p6
+  confidence: strong
+  quotes:
+  - quote: 公共物を構築するために必要なリソースは市民から『徴税』して賄っている。トリシューラ曰く「ちょっとずつ強制徴収してもみんな大して困らないよねっ」だそうだ。強制徴収できるのかよ。どちらかと言えばトリシューラの権力が怖かった。ガロアンディアン女王の称号は伊達ではない。
+    paragraph: p6
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_akira_body_maintenance]]'
+  object: '[[ME_cyborg_ship_of_theseus]]'
+  claim: アキラの身体が機械で構成されているにもかかわらず、機能と関係性によって自己同一性が定義される描写は、「テセウスの船」のパラドクスに対する哲学的な回答を示唆している。
+  quote: 八割がた機械だろうが、俺は俺のままだ。たとえ十割置き換えられたとしても俺の位置に部品があればそれは俺と定義可能だ。そこに至る流れと周囲との関係性が俺の役割を規定する。
+  paragraph: p22
+  confidence: strong
+  quotes:
+  - quote: 八割がた機械だろうが、俺は俺のままだ。たとえ十割置き換えられたとしても俺の位置に部品があればそれは俺と定義可能だ。そこに至る流れと周囲との関係性が俺の役割を規定する。
+    paragraph: p22
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_colceska_kabedon]]'
+  object: '[[ME_shoujo_manga_trope]]'
+  claim: コルセスカによる壁ドンと台詞回しは、少女漫画や乙女ゲームにおける定番の演出（クリシェ）を明示的に引用・模倣したメタフィクション的なジョークである。
+  quote: '「いい加減、この俺のものになるがいい。お前がこの美貌に屈したがっているのは分かっている」
+
+    「ああ、ゲームでマラードがやってた奴だ」'
+  paragraph: p126-p128
+  confidence: explicit
+  quotes:
+  - quote: '「いい加減、この俺のものになるがいい。お前がこの美貌に屈したがっているのは分かっている」
+
+      「ああ、ゲームでマラードがやってた奴だ」'
+    paragraph: p126-p128
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_colceska_magic_explanation]]'
+  object: '[[ME_semiotic_chinesification]]'
+  claim: コルセスカが説明する「陳腐化」の呪術は、記号論における記号の意味の変質（コンテキスト操作）や、芸術理論における既存様式の引用による意味転換を魔法として実装したものである。
+  quote: この現象を利用して微妙な差異から別の意味を生み出したり、前後の文脈を操作して陳腐な場面それ自体の意味を変えたりといったことが可能になります。今の場面が『滑稽である』とするのも一つの陳腐化の呪術ですね
+  paragraph: p132
+  confidence: moderate
+  quotes:
+  - quote: この現象を利用して微妙な差異から別の意味を生み出したり、前後の文脈を操作して陳腐な場面それ自体の意味を変えたりといったことが可能になります。今の場面が『滑稽である』とするのも一つの陳腐化の呪術ですね
+    paragraph: p132
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_mihitonezze_design]]'
+  object: '[[ME_gynoid_vs_android_concept]]'
+  claim: ミヒトネッセが「ガイノイド」と名乗り、トリシューラが「アンドロイド」を自称する対比は、SF作品における人造人間の性別規定や自己定義の政治性を参照している。
+  quote: ガイノイドと名乗ったあの球体間接人形と、アンドロイドであると自己を規定するトリシューラは明確に異なる。トリシューラの女性としての性自認は女神として、魔女として己を規定する為のもの。
+  paragraph: p185
+  confidence: strong
+  quotes:
+  - quote: ガイノイドと名乗ったあの球体間接人形と、アンドロイドであると自己を規定するトリシューラは明確に異なる。トリシューラの女性としての性自認は女神として、魔女として己を規定する為のもの。
+    paragraph: p185
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_eye_contact_harm]]'
+  object: '[[ME_evil_eye_folklore]]'
+  claim: コルセスカが指摘する「視線による呪力発生」は、古来より伝わる邪視（エヴィル・アイ）信仰や、監視権力としての社会的圧力を呪術的メカニズムとして描いている。
+  quote: そんなつもりは無くとも『そう見られる』こと自体が誰かを傷つけることがあるのです。邪視（まなざし）というのは、意志によって制御されずとも呪力を持ってしまう。アキラは今、視線でトリシューラを殴りつけたのです
+  paragraph: p207
+  confidence: strong
+  quotes:
+  - quote: そんなつもりは無くとも『そう見られる』こと自体が誰かを傷つけることがあるのです。邪視（まなざし）というのは、意志によって制御されずとも呪力を持ってしまう。アキラは今、視線でトリシューラを殴りつけたのです
+    paragraph: p207
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_iatemu_legend]]'
+  object: '[[ME_generic_hero_mythology]]'
+  claim: イアテムという人物が特定の偉業（呪術基盤）のみで記憶され、人格は消失している現象は、歴史上の英雄伝説が物語化・記号化する過程を模倣している。
+  quote: 一つの偉業を成し遂げたから。それが【イアテムの呪いの剣】という呪術基盤……しかし呪術の名前と共にイアテムという記号だけが拡散し、詳しい人物像は謎に包まれている、ということのようだ。
+  paragraph: p291-p294
+  confidence: strong
+  quotes:
+  - quote: 一つの偉業を成し遂げたから。それが【イアテムの呪いの剣】という呪術基盤……しかし呪術の名前と共にイアテムという記号だけが拡散し、詳しい人物像は謎に包まれている、ということのようだ。
+    paragraph: p291-p294
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mihitonezze_Dungeon_Search_Failure
+  note: ミヒトネッセの捜索と髪の検知が失敗しており、彼女が第五階層内に潜伏している可能性を示唆する。
+  quotes:
+  - quote: トリシューラが部下に命じてミヒトネッセの捜索を行っているが、成果は無し。第五階層から外に繋がる門や階段には検問が設置され、ブウテトの髪を検知しようとしているがこれも成果無しだ。
+    paragraph: p89
+    quote_verified: true
+  expected_payoff: ミヒトネッセは第五階層内に潜み、アキラたちの周辺で呪術的干渉（演劇魔術）を開始していることの伏線となる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mihitonezze_Theatrical_Sorcery_Active
+  note: トリシューラが「もうされてるっぽい」と言い淀むのは、敵の呪術による干渉が既に始まっていることを示す。
+  quotes:
+  - quote: '「っていうか、その、もうされてるっぽいっていうか」
+
+      「何？」
+
+      聞き捨てならない情報だった。'
+    paragraph: p143-p147
+    quote_verified: true
+  expected_payoff: 第五階層で起きている治安悪化やアキラの性的欲求の異常は、ミヒトネッセによる「演劇魔術（未来変更）」の一部であることが明かされる展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Iatemu_Identity_Mystery
+  note: イアテムがループのイレギュラーであり、海の民という閉鎖的なコミュニティ出身であるため、詳細な背景情報が欠落している。
+  quotes:
+  - quote: グレンデルヒの部下で海の民の英雄、以上の詳しい経歴が今一つ見えなくて。海の民って閉鎖的で独自のコミュニティに籠もってるから情報が入手しづらいんだよ
+    paragraph: p268
+    quote_verified: true
+  expected_payoff: 公社でのセージへの尋問や、イアテム本人との遭遇を通じて、その正体（魔女殺しの剣の使い手としての真意）が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Sexual_Appetite_Cause
+  note: アキラの制御されたはずの欲求がトリガーした原因（第五階層の異変）について、具体的なメカニズムが未解明。
+  quotes:
+  - quote: 「だというのに、アキラは興奮してしまった。些細な事のように思えるかもしれませんが――実は現在、第五階層で異変が起きています」
+    paragraph: p243
+    quote_verified: true
+  expected_payoff: この異常な欲求の喚起が、敵の「男性性復権」を狙った呪術の直接的な効果であり、アキラがその呪術の受け手（被害者）であることを示す手がかりになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己同一性は物質的構成要素ではなく、他者との関係性や社会的役割によって規定される。
+  weight: 0.8
+  quotes:
+  - quote: 'そこに至る流れと周囲との関係性が俺の役割を規定する。
+
+      「うん。あなたは間違いなく私の使い魔のアキラくんだよ」
+
+      笑顔で承認されて、自己を再定義する。'
+    paragraph: p22-p26
+    quote_verified: true
+  note: サイボーグ化された身体におけるアイデンティティの維持が、トリシューラによる「承認」という関係性の言語化によって担保されている描写が中心となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 視線（まなざし）は単なる知覚ではなく、対象を規定・侵害する権力として機能する。
+  weight: 0.7
+  quotes:
+  - quote: '「キモイキモイキモイめっちゃキモイ！　そんなところジロジロ見るなんてサイテーだよ！」
+
+      「邪視（まなざし）というのは、意志によって制御されずとも呪力を持ってしまう。アキラは今、視線でトリシューラを殴りつけたのです」'
+    paragraph: p196-p207
+    quote_verified: false
+  note: アキラの無意識な視線がトリシューラの尊厳を傷つけ、「視姦（レイプ）」という強い言葉で批判される場面。視線の非対称性と暴力性が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 陳腐化（クリシェ）の活用により、記号の意味を操作・転換することが可能である。
+  weight: 0.6
+  quotes:
+  - quote: 「このように、使い古された強引な迫り方は傍目には滑稽に映ってしまうことがあります。陳腐化というやつですね。この現象を利用して微妙な差異から別の意味を生み出したり、前後の文脈を操作して陳腐な場面それ自体の意味を変えたりといったことが可能になります。」
+    paragraph: p132
+    quote_verified: false
+  note: コルセスカによる壁ドンのパロディを通じて、「虚構」や「記号」の運用が現実改変（呪術）の基礎原理であることを示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄伝説は人格を喪失し、記号としてのみ世界に拡散・定着する。
+  weight: 0.5
+  quotes:
+  - quote: イアテムという名の英雄は存在します。というのも彼は一つの偉業を成し遂げたから……呪術の名前と共にイアテムという記号だけが拡散し、詳しい人物像は謎に包まれている
+    paragraph: p291-p294
+    quote_verified: false
+  note: イアテムの正体に関する考察を通じて、物語における「伝説化」のメカニズムと、それがもたらす情報の欠落（ミステリ要素）が主題として提示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

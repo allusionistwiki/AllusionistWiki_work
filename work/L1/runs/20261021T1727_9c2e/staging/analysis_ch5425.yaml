@@ -1,0 +1,218 @@
+chapter: ch5425
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_香水戦闘]]'
+  object: '[[ME_Perfume_Notes]]'
+  claim: 呪力と瘴気の攻防が、香りのトップノート・ミドルノート・ラストノートという調香の技術で解説されている。
+  quote: 時間経過による呪力量の変化――三段階の香調（ノート）だな
+  paragraph: p88
+  confidence: explicit
+  quotes:
+  - quote: 時間経過による呪力量の変化――三段階の香調（ノート）だな
+    paragraph: p88
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_シナモリアキラ]]'
+  object: '[[ME_Cyber_Karate_Dojo]]'
+  claim: 球体関節人形が「サイバーカラテ」という武術流派を修得し、道場アラートや検索機能を用いて戦闘解析を行う。
+  quote: サイバーカラテ道場から鳴るアラート。勁道が通っていない。
+  paragraph: p73
+  confidence: strong
+  quotes:
+  - quote: サイバーカラテ道場から鳴るアラート。勁道が通っていない。
+    paragraph: p73
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_セリアック]]'
+  object: '[[ME_Celiac_Disease]]'
+  claim: 主人公の名前「セリアック」は、実在の自己免疫疾患であるセリアック病（グルテン不耐症）に由来し、その症状が戦闘能力（栄養吸収不可＝ネズミを喰らう）として設定されている。
+  quote: セリアが司る『セリアック病』は小麦などに含まれるグルテンに対する免疫反応が原因で小腸機能を損ない、栄養の吸収ができなくなる自己免疫疾患です。
+  paragraph: p191
+  confidence: explicit
+  quotes:
+  - quote: セリアが司る『セリアック病』は小麦などに含まれるグルテンに対する免疫反応が原因で小腸機能を損ない、栄養の吸収ができなくなる自己免疫疾患です。
+    paragraph: p191
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_階段]]'
+  object: '[[ME_Number_13]]'
+  claim: 壁を越えるための階段の段数が「13」であり、異界において死や不吉さを意味する数として機能している。
+  quote: 行く手を阻む壁の向こうに繋がる階段の段数は、合計で十三。異界の文脈において、死を意味する不吉な数。
+  paragraph: p208
+  confidence: explicit
+  quotes:
+  - quote: 行く手を阻む壁の向こうに繋がる階段の段数は、合計で十三。異界の文脈において、死を意味する不吉な数。
+    paragraph: p208
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_猫騎士]]'
+  object: '[[ME_King_of_Beasts]]'
+  claim: 「猫は竜の敵対者である」という言説が提示され、ドラゴンキラーとしての猫（虎・猫科動物）の象徴性が物語の根底にある。
+  quote: 曰く。猫とは、竜の敵対者であるという。
+  paragraph: p258
+  confidence: explicit
+  quotes:
+  - quote: 曰く。猫とは、竜の敵対者であるという。
+    paragraph: p258
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_青い糸]]'
+  object: '[[ME_Fate_Thread]]'
+  claim: セリアック＝ニアの手足に絡みつく「青い糸」は、運命や呪縛を視覚化し、彼女が「誰の駒」であるかを規定する装置として描かれている。
+  quote: 『星見の塔』から送られてくる教材、教師、悪夢じみた課題を次々とこなしながら、猫姫の手足にはいつの間にか青い糸がからみつくようになっていた。
+  paragraph: p226
+  confidence: moderate
+  quotes:
+  - quote: 『星見の塔』から送られてくる教材、教師、悪夢じみた課題を次々とこなしながら、猫姫の手足にはいつの間にか青い糸がからみつくようになっていた。
+    paragraph: p226
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_青い糸の正体
+  note: セリアック＝ニアの手足に絡みつき、解けない呪縛として描かれる「青い糸」。これが誰によって仕掛けられ、彼女を何者（駒）として規定しているのか。
+  quotes:
+  - quote: だからセリアック＝ニアはわかっていたのだ。自分がこの盤面において、誰の駒であるのかを。
+    paragraph: p234
+    quote_verified: true
+  - quote: 手足に絡みつく不快な青い糸を力任せにふりほどこうとするが、解けない。
+    paragraph: p229
+    quote_verified: true
+  expected_payoff: この糸の支配者（おそらくリールエルバや始祖王）との対決、または糸を切断することによる自由の獲得と代償が描かれる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_姉様の正体と憎しみ
+  note: セリアック＝ニアが「姉様」と呼ぶ存在（ディスペータ？）への複雑な感情（尊敬・親愛・怒り・憎しみ）とその出所。
+  quotes:
+  - quote: だからセリア、わかってしまいました。姉様の怒りと憎しみの出所がどこなのか。いつからそれが準備されていたのか。ほんとうは、誰と誰が戦っていたのか
+    paragraph: p242
+    quote_verified: true
+  expected_payoff: 「姉様」が敵として立ちはだかるか、あるいはセリアック＝ニアを駒として利用した張本人であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リールエルバの意図
+  note: シナモリアキラ（使い魔）が「リールエルバがこの致命的な相性を把握していなかったはずがない」と述べ、あえてセリアック＝ニアを戦わせる選択をした理由。
+  quotes:
+  - quote: リールエルバがこの致命的な相性を把握していなかったはずがない。つまりは、そうか。これでいいんだな、シナモリアキラは
+    paragraph: p206
+    quote_verified: true
+  expected_payoff: リールエルバがセリアック＝ニアを「壁越え」に利用する目的（竜の討伐、あるいは何かの破壊）が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ファナハード家の真実
+  note: ドラトリアで「最強の吸血鬼狩人」とされる家系だが、その技術（一点凝縮）が「大地を穢す技術」であると定義されている。
+  quotes:
+  - quote: 瘴気、穢れ、呪いの加圧――すなわちこれは、純粋な大地を穢す技術
+    paragraph: p147
+    quote_verified: true
+  expected_payoff: セリアック＝ニアの攻撃が世界そのものを汚染・破壊する代償を持つことが示唆されており、後の展開でこの力による弊害や制御不能化への伏線となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「駒」としての自己受容と運命の自覚
+  weight: 0.9
+  quotes:
+  - quote: だからセリアック＝ニアはわかっていたのだ。自分がこの盤面において、誰の駒であるのかを。
+    paragraph: p234
+    quote_verified: true
+  - quote: 最初から、彼女に選択肢など無かったのだから。
+    paragraph: p213
+    quote_verified: true
+  note: セリアック＝ニアが自身の存在意義（吸血鬼狩人としての機能）を「教育された結果」として受け入れ、盤面の駒として戦う決意を固める過程。自由意志の欠如と、その中での行動の純度。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体性による超越（技術 vs 野生）
+  weight: 0.8
+  quotes:
+  - quote: 彼らは理解できていなかった。目の前にいるのが呪術師ではないことを。山野を駆ける獣が持つ論理の異質さを。
+    paragraph: p63-65
+    quote_verified: true
+  - quote: ここは猫の間合い。技術や武芸が入り込む余地のない、野生が支配する刹那の攻防。
+    paragraph: p79
+    quote_verified: true
+  note: 論理・解析・呪文構築という「知性」による防御を、「獣の直感・身体感覚・香りの操作」という非論理的な「身体性」が凌駕する構図。文明（人形・サイバーカラテ）対
+    自然（猫・野生）の対立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 病と狩りの不可分性（セリアック＝ニアの本質）
+  weight: 0.7
+  quotes:
+  - quote: セリアックとは常時外破型の災厄でありながら封じ込めに成功した病の象徴。すなわちドラトリアの宝剣（レガリア）なのです。
+    paragraph: p182
+    quote_verified: false
+  - quote: セリアは、ネズミを――あなたたち瘴気を喰らうものだから
+    paragraph: p195
+    quote_verified: true
+  note: 主人公が「病（欠損・飢餓）」を抱えているからこそ、その特異な生態（瘴気＝ネズミを喰らう）によって強敵に勝てるという逆説。弱点こそが武器であるというテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美と穢れの転換（香水の暴力性）
+  weight: 0.6
+  quotes:
+  - quote: 愛と官能の秘薬――ベルガモット、アイリス、バニラ、ジュエリーアンバー、そして霊猫香（シベット）を調合した幻想香水『星の絨毯』。
+    paragraph: p92
+    quote_verified: true
+  - quote: 汚染された空気を押し退けていく『意味付けされた香り』は呪文と杖で整えられた『嗅覚に訴えかける邪視』だった。
+    paragraph: p102
+    quote_verified: true
+  note: 「香り」が単なる装飾ではなく、空間を支配し敵を圧倒する暴力装置（呪力）として機能する。「美しさ」が武器となり、「穢れ（瘴気）」を駆逐する戦い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

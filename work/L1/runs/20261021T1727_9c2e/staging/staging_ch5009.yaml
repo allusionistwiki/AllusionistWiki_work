@@ -1,0 +1,328 @@
+episode: ch5009
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_巨漢]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5009_巨漢_transforms_身体強化_p100
+        quote: 雄叫びに呼応するかのように上半身の赤いペイントが淡く発光し、筋肉が盛り上がり、肌は鋼鉄のように輝く。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_巨漢_dies_内臓損傷_p102
+        quote: '腹部を貫通する無数の棘は明らかに内蔵を傷つけているし、袴にも似た下履きは血を吸ってなお雫を床にこぼし続けており、足元の血は明らかに手遅れな量に達している。
+
+          【p103】
+
+          あれはもう何かの間違いで動き続けているだけの死体だ。'
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5009_巨漢_other_仲間_p99
+        quote: 黒い肌の巨漢は、負傷した二人を庇うように前に出て、攻撃を一身に受け止めていた。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_青年]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5009_青年_loses_両足_p105
+        quote: 巨大な剣の青年には、両足が無かった。
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5009_青年_uses_治癒シール_p106
+        quote: 今は小さくなった剣を咥えながら、取り出した治癒のシールを必死に両足の付け根に貼り付けて止血を試みているが、あれではどう考えてもこれ以上戦うのは無理だ。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_狼の王]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5009_狼の王_has_property_闇色の脚_p109
+        quote: '異様だったのは、その四本の脚が、闇のように濃い黒色だったこと。
+
+          【p110】
+
+          その黒い闇が、脚の下に伸びる影と完全に同化して見えたこと。'
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_狼の王_appears_as_小型の狼_p87
+        quote: '実際には大型犬並、というか前世にも存在していた狼と同じくらいの大きさだ。
+
+          【p88】
+
+          しかし、さきほど戦った見上げるような巨大狼に比べるとあまりにも小さすぎる。'
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5009_狼の王_other_闇_p112
+        quote: 更にはその影がうねうねと蠢き、広大な部屋の床下を浸食するかのように拡大していき、ついには壁、天井に至るまで完全に覆い尽くし、闇に覆われた天地から漆黒の棘が次々と生じ、伸びては天へ、落ちては地へ行き来するようになるともはや事態は何が異様かというよりも何が異様でないのかを確かめる段階へと移行する。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_狼の王_says_遠吠え_p121
+        quote: 闇色の脚を蠢かせて、狼の王が遠吠えをあげた。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5009_アキラ_loses_退路_p114
+        quote: 気がつけば退路が消えていた。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_アキラ_observes_人狼の死骸_p2
+        quote: 俺たちの往くところ、人狼の死骸が積み上がるという具合で快進撃が続く一方
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_アキラ_finds_人間の遺体_p3
+        quote: '人狼以外の死体も目に付くようになってきた。
+
+          【p3】
+
+          人間の遺体である。'
+        locator: {}
+        spoiler_after: ch0000
+    speech:
+      observations:
+      - event_ref: E_ch5009_アキラ_says_あと少しだ_p56
+        quote: '差し出された拳に、困惑する気配が感じられる。俺は短く、
+
+          【p56】
+
+          「あと少しだ」'
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5009_アキラ_travels_迷宮の奥_p66
+        quote: 小休止からは罠に引っかかることも敵に遭遇することも無く、俺たちは順調に迷宮を進むことができた。やがて道の分岐が少なくなり、ついにはこれまでよりも広い一本道が続くのみとなった。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_環境]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5009_環境_appears_as_森の空白地帯_p116
+        quote: '一面の闇の中、空にはかすかな光を放つたったひとつの巨大な満月と、緑色を揺らす広葉樹の枝。
+
+          【p116】
+
+          そこは深い森の空白地帯。'
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_王]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5009_王_defines_処刑場_p118
+        quote: ここは王が用意した処刑場だ。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_戦士たち]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5009_戦士たち_appears_as_串刺し_p119
+        quote: 高くそびえる木々の枝に、朽ち果てた『なにか』が百舌鳥の早贄のように串刺しにされていた。地獄に辿り着いてしまった哀れな戦士たちの、それが末路だった。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5009_アズーリア_uses_火魔法_p12
+        quote: 対処したのはアズーリアだった。一纏めにした遺体の上に数枚の札を置いて左手を振ると、勢いよく火の手が上がる。
+        locator: {}
+        spoiler_after: ch0000
+    visual:
+      observations:
+      - event_ref: E_ch5009_アズーリア_makes_火の粉_p14
+        quote: 薄暗い迷宮に、仄かな熱と明かりが広がって、暫くして消えていった。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_アズーリア_appears_as_不安定な状態_p25
+        quote: そのせいか、疲労と共に不安定になっていくアズーリアと合わせて前線がやや崩れがちになってきた。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_phrase_キール]]'
+  entity_type: phrase
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5009_キール_observes_親族の遺体_p15
+        quote: 一度、キールとテールがある遺体を見て激しく動揺した事があった。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_キール_other_遺体_p19
+        quote: キールは沈痛な表情で瞑目し、テールは一度だけ激しく怒鳴りながら床を踏みならし、それきり黙り込んだ。
+        locator: {}
+        spoiler_after: ch0000
+    speech:
+      observations:
+      - event_ref: E_ch5009_キール_says_ありがとう_p22
+        quote: キールは小さく「ありがとう」と呟いた。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_phrase_カイン]]'
+  entity_type: phrase
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5009_カイン_other_兄弟関係_p17
+        quote: 共通の知り合いだったのだろう。二人は兄弟、ないしは親族関係にあるのだと、カインが説明していた。その遺体もやはり親族なのだと。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_カイン_teaches_少ない_p33
+        quote: 俺の考えを理解しての事かどうかはわからないが、カインが俺に「少ない」という単語を何度も言い続ける。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_カイン_says_あと少しだ_p71
+        quote: 'カインが床を探りながら、
+
+          【p71】
+
+          「あと少しだ」
+
+          【p73】
+
+          と自分を鼓舞するように呟く。'
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5009_カイン_helps_アキラ_p28
+        quote: 目が合う。意を汲んでくれたようで、カインがキールに働きかけた結果、通路の中だが小休止をすることになった。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_カイン_bonds_アキラ_p39
+        quote: カインが拳を握り、俺と右手の甲同士を打ち合わせる。正確な意味は不明だが、なにかポジティブな意味の符丁、挨拶なのだろうと思う。
+        locator: {}
+        spoiler_after: ch0000
+    name:
+      observations:
+      - event_ref: E_ch5009_カイン_names_鎧の腕_p35
+        quote: 俺の義肢をカインは『鎧の腕』と呼んでいる。きまぐれに『鎧の腕を持つ男』とか呼称を変化させているせいか、キールやトッドなんかも戦闘の後に俺をそう呼ぶことがある。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_phrase_トッド]]'
+  entity_type: phrase
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5009_トッド_gives_装具_p20
+        quote: トッドはそれを背嚢に入れるのではなくキールに手渡した。
+        locator: {}
+        spoiler_after: ch0000
+    speech:
+      observations:
+      - event_ref: E_ch5009_トッド_says_祈祷の言葉_p6
+        quote: 遺体に遭遇すると、トッドとマフスが前に出て槍で床を音楽的なリズムで叩きながら何かを唱え出す。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5009_トッド_says_謝罪の言葉_p9
+        quote: 祈祷が終わると、小さく謝罪の言葉をつぶやいて遺体から使えそうな持ち物をとり、身なりを簡単に整えて通路の脇に安置していた。
+        locator: {}
+        spoiler_after: ch0000
+    relationship:
+      observations:
+      - event_ref: E_ch5009_トッド_names_従軍神官_p8
+        quote: 祈祷のたぐいだと思われた。彼ら二人は荷物持ちと後方支援だけでなく、従軍神官でもあるのだろうか。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_テール]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5009_テール_appears_as_精彩を欠く状態_p24
+        quote: テールの戦い方が、どこか精彩を欠いている。
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5009_テール_other_精神_p59
+        quote: しばらくして、テールは軽く俺の手の甲に触れて、兜を外して水筒の中身を一気に喉に流し込んだ。大きく息を吐いて、目を深く瞑ると、次の瞬間には彼の表情にはわずかに張りが戻っている、ような気がした。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キール達]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5009_キール達_appears_as_甲冑の戦士_p5
+        quote: あるいはキール達の仲間らしき甲冑に身を包んだ戦士たちでもあった。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_三人組]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5009_三人組_appears_as_ばらばらの服装の集団_p5
+        quote: それは例の三人組のようにばらばらの服装をした集団や個人であったり
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5009_三人組_fights_狼の王_p83
+        quote: 果たして、早足で迷宮の最奥へと辿り着いた俺たちを待っていたのは、三人と怪物との死闘の光景だった。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マフス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5009_マフス_other_前方の異変_p74
+        quote: 'そのとき、マフスが何かを知らせた。
+
+          【p75】
+
+          敵襲かとも思ったが、少し違うようだ。彼は進行方向を指さして何かを言っている。'
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_魔法使い]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5009_魔法使い_wounds_顔面_p96
+        quote: 大量の血液を口から垂れ流し、片目と鼻が完全に潰されていた。意識すら定かではないだろうに、それでも立ち続けているのはいかなる意思と訓練の結果だろうか。
+        locator: {}
+        spoiler_after: ch0000
+    action:
+      observations:
+      - event_ref: E_ch5009_魔法使い_uses_浮遊する本_p97
+        quote: 浮遊する黒い装丁の本だけが勢いよく項をはためかせ、解き放たれた文字が火の玉を射出し続ける。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true

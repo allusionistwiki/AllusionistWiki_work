@@ -1,0 +1,260 @@
+chapter: ch5015
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 23
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_OS_Mounting]]'
+  object: '[[ME_Computer_Operating_System]]'
+  claim: 魔導書の使用開始をOSのマウント・エミュレーションに喩え、主人公の肉体をホストOSとして定義するメタファー。
+  quote: 私の体を動かしてるOS（つまり脳や脊髄、神経を含む肉体の制御系といった物理的実体上で動作する、『私』を管理する命令の記述など）はやや特殊なので、魔導書をまず手動でマウントしてからじゃないと使えない。
+  paragraph: p47
+  confidence: explicit
+  quotes:
+  - quote: 私の体を動かしてるOS（つまり脳や脊髄、神経を含む肉体の制御系といった物理的実体上で動作する、『私』を管理する命令の記述など）はやや特殊なので、魔導書をまず手動でマウントしてからじゃないと使えない。
+    paragraph: p47
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Security_Check]]'
+  object: '[[ME_IT_Security_Audit]]'
+  claim: 違法に製造された魔導書の使用を、企業ネットワークにおけるセキュリティソフトによる管理者権限チェックとウイルス感染リスク管理のメタファーとして描く。
+  quote: 我々が使用するセキュリティ『金鎖』は、これ自体が私自身より上位の管理者権限を有している。『金鎖』がネットワーク経由でサーバにアクセスして、より上位の管理者である『金鎖のフラベウファ』が違法製造された魔導書を使用可能かどうか、チェックしているのだ。
+  paragraph: p51
+  confidence: explicit
+  quotes:
+  - quote: 我々が使用するセキュリティ『金鎖』は、これ自体が私自身より上位の管理者権限を有している。『金鎖』がネットワーク経由でサーバにアクセスして、より上位の管理者である『金鎖のフラベウファ』が違法製造された魔導書を使用可能かどうか、チェックしているのだ。
+    paragraph: p51
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Left_Hand_Virus]]'
+  object: '[[ME_Computer_Virus]]'
+  claim: 寄生異獣『左手』の自己複製・乗っ取りを、コンピュータウイルスによるホストシステムのゾンビ化（Bot化）に喩える。
+  quote: 私は既に『左手』を下位のホストOSとして動作させているのだが、これは自己を複製し続け私を乗っ取ろうとするウィルスのようなものだ。乗っ取られてしまったが最後、私は敵に利用される『ゾンビ』と化す。
+  paragraph: p55
+  confidence: explicit
+  quotes:
+  - quote: 私は既に『左手』を下位のホストOSとして動作させているのだが、これは自己を複製し続け私を乗っ取ろうとするウィルスのようなものだ。乗っ取られてしまったが最後、私は敵に利用される『ゾンビ』と化す。
+    paragraph: p55
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Akira_Reaction]]'
+  object: '[[ME_Gamer_Mental_Model]]'
+  claim: 異世界転生者アキラが、魔法・セキュリティ・寄生という概念をIT用語（アドミニストレータ、社内ネットワーク）で解釈し、ゲーム的なシステム論理として受け入れる反応。
+  quote: 「ていうか今、わりと聞き逃せないことを言っていたんだけど、アズーリアの管理者権限はアズーリアのものじゃないのか？　つまりその社内ネットワーク、じゃなかった、えっと、その『金鎖のフラベウファ』だっけ？　それがアドミニストレータなわけ？」
+  paragraph: p76
+  confidence: strong
+  quotes:
+  - quote: 「ていうか今、わりと聞き逃せないことを言っていたんだけど、アズーリアの管理者権限はアズーリアのものじゃないのか？　つまりその社内ネットワーク、じゃなかった、えっと、その『金鎖のフラベウファ』だっけ？　それがアドミニストレータなわけ？」
+    paragraph: p76
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_Responsibility_Sharing]]'
+  object: '[[ME_Japanese_Corporate_Bureaucracy]]'
+  claim: キールやソルダ卿による責任の所在明確化と遺族対応を、日本の企業組織における階層的な責任分担システム（報告・連絡・相談、上司への責任追及）に喩える。
+  quote: 正確に言えば、私が発案しキールが承認した。アキラ以外の全員が納得済みだ。部隊行動の責任者であるキールの方がこういう時には責任が重く、更に言えばその上位者である『松明の騎士団』総団長ソルダ・アーニスタ卿が責任を持って遺族に対応する、というのが我々のやり方だ。
+  paragraph: p10
+  confidence: strong
+  quotes:
+  - quote: 正確に言えば、私が発案しキールが承認した。アキラ以外の全員が納得済みだ。部隊行動の責任者であるキールの方がこういう時には責任が重く、更に言えばその上位者である『松明の騎士団』総団長ソルダ・アーニスタ卿が責任を持って遺族に対応する、というのが我々のやり方だ。
+    paragraph: p10
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Anger_Transformation]]'
+  object: '[[ME_Bushido_Honor]]'
+  claim: 悲しみを怒りに変え、敵にぶつけるというカインへの弔い合戦の精神を、武士道や騎士道における名誉回復・仇討ちの倫理に結びつける。
+  quote: 戦って殺された者の悲しみは、怒りに換えて敵にぶつけるものだ。仇は討つ。エスフェイルを殺し、カインの墓前でそれを報告する。
+  paragraph: p25-p28
+  confidence: moderate
+  quotes:
+  - quote: 戦って殺された者の悲しみは、怒りに換えて敵にぶつけるものだ。仇は討つ。エスフェイルを殺し、カインの墓前でそれを報告する。
+    paragraph: p25-p28
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Parasitic_Monster]]'
+  object: '[[ME_Grafting_Technology]]'
+  claim: 異獣の細胞移植による能力獲得を、生体義肢や臓器移植などの医療技術、およびそれに伴う拒絶反応（感染呪術）に喩える。
+  quote: 肉体の部位をそのまま生体義肢として使っている人もいる。けど、基本的には感染呪術の応用
+  paragraph: p90
+  confidence: strong
+  quotes:
+  - quote: 肉体の部位をそのまま生体義肢として使っている人もいる。けど、基本的には感染呪術の応用
+    paragraph: p90
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_LeftHand_Esfeil_Link
+  note: 主人公の『左手』（寄生異獣）と敵エスフェイルの脚（呪術源）の類似性。同じ魔将級個体である可能性、あるいは同一の起源を持つ可能性。
+  quotes:
+  - quote: 「あと失礼なこと訊くけど、その左手ってなんかエスフェイルの脚と印象が似てるんだけど、何か関係あったりするのか？」
+    paragraph: p102
+    quote_verified: true
+  - quote: 彼の疑問はもっともだろう。エスフェイルの闇色の、というか闇そのものの脚と、同じように漆黒の闇そのものな私の『左手』には、私も共通するものを感じる。
+    paragraph: p104
+    quote_verified: true
+  expected_payoff: 最終決戦において、エスフェイルを倒すために左手が暴走する、または左手のエスフェイル側の因子がエスフェイルの支配権を奪取する展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_First_General_Adapter
+  note: 主人公が「第一魔将の適合者」として測られているという記述。第十五魔将を倒すことが、第一魔将との関係（支配・対抗）にどう影響するか。
+  quotes:
+  - quote: 同時に第一魔将の適合者として、その力を測られているというのが大きい。結果で私の有用性を証明しなくては、私は地上でも生き残れない。
+    paragraph: p117-p118
+    quote_verified: true
+  expected_payoff: エスフェイルを倒すことで第一魔将からの評価が変わる、または第一魔将が直接介入してくる展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Golden_Chain_SelfDestruct
+  note: 『金鎖』がネットワーク切断時に自壊し、主人公と左手を道連れに爆散する設定。このセキュリティシステムの真意と、敵によるハッキング・遮断の可能性。
+  quotes:
+  - quote: 人類にとって最重要の機密である『金鎖』はネットワークとの接続を切られれば私と『左手』を道連れに自壊するように設定されている。
+    paragraph: p59
+    quote_verified: true
+  expected_payoff: 敵が通信網を遮断する、または主人公が通信を切って左手の暴走を防ぐ（犠牲になる）という究極のジレンマへの回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Esfeil_Rule_Logic
+  note: エスフェイルの呪術が「脚だけが無かった」という現象から逆算されるルール。その論理を暴くことが勝利の鍵。
+  quotes:
+  - quote: 脚だけが無かった、というアキラの報告は、その裏付けになる。奴のルールを暴き、確実に存在ごと解体してやる。
+    paragraph: p38-p39
+    quote_verified: true
+  expected_payoff: 魔導書による解析でエスフェイルの呪術システム（ソースコード）が特定され、弱点を突く展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Impression
+  note: アキラが「どんな世界だと思っていたんだろうか」と呟き顔を引きつらせる描写。彼の前世の記憶や転生前の知識とのギャップ、またはこの世界のシステムに対する恐怖。
+  quotes:
+  - quote: 何故か顔がひきつっていた。どうしたんだろう。小さく「そっかーそう言う世界だったかー」と呟いている。どんな世界だと思っていたんだろうか。
+    paragraph: p67
+    quote_verified: true
+  expected_payoff: アキラの転生前の記憶（現代IT知識）がこの世界の呪術システムと結びつき、特異な能力開花や精神的苦悩へと繋がる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生命のセキュリティ化：人体と精神がITインフラとして管理・監視されるディストピア的構造
+  weight: 0.9
+  quotes:
+  - quote: 私の体を動かしてるOS（つまり脳や脊髄、神経を含む肉体の制御系といった物理的実体上で動作する、『私』を管理する命令の記述など）はやや特殊なので
+    paragraph: p47
+    quote_verified: true
+  - quote: 『金鎖』はネットワークとの接続を切られれば私と『左手』を道連れに自壊するように設定されている。
+    paragraph: p59
+    quote_verified: true
+  note: 主人公の存在自体が組織のセキュリティシステム（金鎖）によって管理され、ネットワーク接続が生死を分けるという構造。生命の機械化・情報化が進んだ世界観。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 怒りの制度化：悲しみを排し、闘争エネルギーとしての怒りを倫理的に正当化する騎士団の美学
+  weight: 0.8
+  quotes:
+  - quote: 「悲しみではなく、怒りを抱くこと。そして怒りは闘志に変えること。怒りや憎しみをそうして使ってやれば、遺された者は感情に溺れること無く戦い続けられる」
+    paragraph: p31
+    quote_verified: true
+  - quote: 松明の騎士団は、怒りと憎しみを否定しない。それは乗りこなし、制御すべき友なのだから。
+    paragraph: p33
+    quote_verified: true
+  note: カインの死に対する感情処理を「説教」として行い、怒りを組織的な戦闘力へ転換する思想。感情のコントロールが生存と勝利の条件となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 責任の階層構造：個人の罪悪感と組織的責任分担の乖離
+  weight: 0.7
+  quotes:
+  - quote: 「私は、仲間の命を捨て石にしたの。だからカインが死んだことで責められるべきは私」
+    paragraph: p8
+    quote_verified: true
+  - quote: 部隊行動の責任者であるキールの方がこういう時には責任が重く、更に言えばその上位者である『松明の騎士団』総団長ソルダ・アーニスタ卿が責任を持って遺族に対応する、というのが我々のやり方だ。
+    paragraph: p10
+    quote_verified: true
+  note: 主人公の個人的な罪悪感（捨て石）と、騎士団の公式な責任フロー（キール→ソルダ卿）との間にズレがあり、アキラの怒りの行方が組織論理で封じられている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異獣移植という科学技術の倫理：敵の力を宿主として利用する自己犠牲と兵器化
+  weight: 0.6
+  quotes:
+  - quote: 『松明の騎士団』は異獣の細胞を人間に移植して、異獣の力によって異獣を滅ぼすことを思いついた。それが寄生異獣。
+    paragraph: p86
+    quote_verified: true
+  - quote: 人類にとって最重要の機密である『金鎖』はネットワークとの接続を切られれば私と『左手』を道連れに自壊するように設定されている。
+    paragraph: p59
+    quote_verified: true
+  note: 敵（異獣）の力を得るために人間が「兵器」として改造され、その暴走リスクをセキュリティで封じ込めるという冷徹な技術倫理。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタ的相互理解：ゲーム的知識を持つ転生者とシステム論理的な異世界人の齟齬と共鳴
+  weight: 0.5
+  quotes:
+  - quote: 「いや、うん。セキュリティソフトとの相性が悪い事ってよくあるよね。俺も覚えがあるよ」
+    paragraph: p72
+    quote_verified: true
+  - quote: 小さく「そっかーそう言う世界だったかー」と呟いている。どんな世界だと思っていたんだろうか。
+    paragraph: p67
+    quote_verified: true
+  note: アキラの現代IT知識が異世界の魔法システムとアナロジーで結びつき、双方が「ゲーム的なルール」を共有する瞬間。転生者特有の適応プロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

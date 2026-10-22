@@ -1,0 +1,239 @@
+chapter: ch5132
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p46]]'
+  object: '[[ME_Microwave_Oven]]'
+  claim: 魔法の詠唱が「電子レンジ内のレトルト食品のごとくチンせしめん」という現代的な家電製品の機能に比喩されており、SF的な科学技術とファンタジーの呪術体系が融合している。
+  quote: その憤激によりて我が怨敵を電子レンジ内のレトルト食品のごとくチンせしめん！
+  paragraph: p44
+  confidence: explicit
+  quotes:
+  - quote: その憤激によりて我が怨敵を電子レンジ内のレトルト食品のごとくチンせしめん！
+    paragraph: p44
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p162]]'
+  object: '[[ME_UV_Protection_Products]]'
+  claim: 紫外線操作呪術が、現実世界の「遮光カーテン」や「日焼け止めクリーム」といったUVカット製品に機能として類似しており、魔法が日常の生活防衛技術として実装されていることを示唆する。
+  quote: 日常空間でもゴミ捨て場や遮光カーテン、皮膚を保護する為のクリームなどによく使用されており
+  paragraph: p163
+  confidence: strong
+  quotes:
+  - quote: 日常空間でもゴミ捨て場や遮光カーテン、皮膚を保護する為のクリームなどによく使用されており
+    paragraph: p163
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p53]]'
+  object: '[[ME_Academic_Exam_Grading]]'
+  claim: 魔法試験の評価基準が「ぎりぎり及第点」という現代的な教育制度の成績評価用語で表されており、ファンタジー世界の修行過程が学校制度のような官僚的な枠組みに組み込まれている。
+  quote: 「ぎりぎり及第点。そのレベルでチャネリングが出来るのなら、最初からやって欲しかった」
+  paragraph: p53
+  confidence: strong
+  quotes:
+  - quote: 「ぎりぎり及第点。そのレベルでチャネリングが出来るのなら、最初からやって欲しかった」
+    paragraph: p53
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p119]]'
+  object: '[[ME_Sling_Physics]]'
+  claim: ミルーニャの攻撃が「投石器（スリングショット）」と明示され、物理的な弾性エネルギーから運動エネルギーへの変換という力学原理が呪術発動のメカニズムとして記述されている。
+  quote: '蓄えられた弾性エネルギーが運動エネルギーに変換される。
+
+
+    投石器（スリングショット）。'
+  paragraph: p118-p119
+  confidence: strong
+  quotes:
+  - quote: '蓄えられた弾性エネルギーが運動エネルギーに変換される。
+
+
+      投石器（スリングショット）。'
+    paragraph: p118-p119
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p169]]'
+  object: '[[ME_Pygmy_Culture]]'
+  claim: 鴉の祖先に関する記述に「ピュクティエト」というアフリカの民族集団（ピグミー）を想起させる名称が含まれており、神話的な鳥類起源説が人類学的な文脈と接続されている。
+  quote: 曰く松明を掲げし者ピュクティエトの子ら。
+  paragraph: p169
+  confidence: moderate
+  quotes:
+  - quote: 曰く松明を掲げし者ピュクティエトの子ら。
+    paragraph: p169
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p170]]'
+  object: '[[ME_Alchemy_Angel]]'
+  claim: 錬金術の守護天使「ペレケテンヌル」への言及があり、中世のオカルト思想や宗教的図像学が世界の歴史的背景として引用されている。
+  quote: 曰く錬金術の守護天使ペレケテンヌルの下僕たち。
+  paragraph: p170
+  confidence: moderate
+  quotes:
+  - quote: 曰く錬金術の守護天使ペレケテンヌルの下僕たち。
+    paragraph: p170
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p209]]'
+  object: '[[ME_Moral_Injury]]'
+  claim: 主人公が仲間を犠牲にする判断を下したことに対するナトの敵意は、「道徳的外傷（モラル・インジュリー）」にも似た倫理的葛藤を描き、戦闘行為における心理的負担をテーマ化している。
+  quote: 仲間を切り捨てた――犠牲にすることを選んだ私への嫌悪と敵意。
+  paragraph: p209
+  confidence: moderate
+  quotes:
+  - quote: 仲間を切り捨てた――犠牲にすることを選んだ私への嫌悪と敵意。
+    paragraph: p209
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Harbert_Motivation
+  note: ハルベルトの呪文テストの真意（嫌がらせか教育か）と、主人公への態度の矛盾。
+  quotes:
+  - quote: 「まあほんとは嫌がらせだけど」
+    paragraph: p83
+    quote_verified: true
+  - quote: 「出来の悪い弟子は嫌い」
+    paragraph: p87
+    quote_verified: true
+  expected_payoff: ハルベルトが主人公の才能を認めているのか、それとも単に性格が悪いだけなのか、師弟関係の真の性質が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Nato_Psyche
+  note: ナトが「使い魔」を手足とみなす【三本足の民】としての特性と、その過剰な執着の起源。
+  quotes:
+  - quote: 【三本足の民】にとって使い魔とは文字通り三本目の手足に等しい。
+    paragraph: p213
+    quote_verified: true
+  - quote: 「言わせておけば貴様っ、アズーリア・ヘレゼクシュ！　その良く喋る口を閉じろ、ぶち殺してやるっ！」
+    paragraph: p199
+    quote_verified: true
+  expected_payoff: ナトの狂気的な怒りの背景にある文化的・精神的なトラウマや、使い魔との共生関係の異常さが解明される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azura_Face_Recognition
+  note: 主人公が顔識別能力を持ちながら、特定人物（外世界人）の顔のみ曖昧である理由。
+  quotes:
+  - quote: あのとびきり奇妙な外世界人の記憶は今も鮮明だが、その顔の詳細はどのようなものだったかと問われると、どうにも曖昧模糊とした印象しか残っていない。
+    paragraph: p7
+    quote_verified: true
+  expected_payoff: 「外世界人」の正体や、主人公の認知能力が干渉されている仕組み（記憶操作など）が発覚する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Nato_Last_Struggle
+  note: ナトが敗色濃厚な中で発動した「ルールを無視した」呪文【トルレーズ】【ザナーティア】の正体。
+  quotes:
+  - quote: 「舞い降りろ【トルレーズ】、伸びろ【ザナーティア】！！」
+    paragraph: p235
+    quote_verified: false
+  expected_payoff: ナトの奥の手がチームを壊滅させるほどの威力を持つのか、それとも自爆的な最期となるのか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術の脱神秘化と日常への浸透
+  weight: 0.8
+  quotes:
+  - quote: 効果そのものはありふれた音響子の誘導放出による微波増幅なのだが、詠唱の内容が珍妙に過ぎる。
+    paragraph: p49
+    quote_verified: true
+  - quote: 日常空間でもゴミ捨て場や遮光カーテン、皮膚を保護する為のクリームなどによく使用されており
+    paragraph: p163
+    quote_verified: true
+  note: 魔法が「電子レンジ」や「UVカット」といった現代的・科学的用語で記述され、ファンタジー世界が技術文明として機能していることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 認識の相対性と他者理解の困難
+  weight: 0.7
+  quotes:
+  - quote: この世界には多様な種族、無数の生き物が存在し、それぞれが異なる視野を有している。ただの色に対する認識でさえ、こんなにも異なるのだ。
+    paragraph: p173
+    quote_verified: true
+  - quote: 私は自分の顔が分からないだけでなく、他人の顔を覚えるのが苦手だ。
+    paragraph: p2
+    quote_verified: true
+  note: 主人公の顔識別障害と、鴉や天眼の民の視覚特性の違いを通じ、「見る」ことの主観性と他者理解の壁が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情の道具化と自己欺瞞
+  weight: 0.6
+  quotes:
+  - quote: 「焼き鳥」などと口にして彼の不安を煽ったのである。本当はそんなことをするつもりは無い。
+    paragraph: p211
+    quote_verified: true
+  - quote: 私達は怒りによって共感している。
+    paragraph: p16
+    quote_verified: true
+  note: 主人公が敵の感情（使い魔への愛着）を計算し、挑発作为一种として利用する冷徹さと、自身の感情制御の下手さとの対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 師弟関係における承認欲求
+  weight: 0.5
+  quotes:
+  - quote: 辛辣な口調だが、それが師ハルベルトから贈られた初めての賛辞だったから、私は思わず跳び上がりそうなほど喜んでしまい、彼女を引かせてしまった。
+    paragraph: p57
+    quote_verified: true
+  note: ハルベルトの「嫌い」という言葉を受け取りながら、「及第点」という最小限の承認に過剰な喜びを見出す主人公の心理的依存性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

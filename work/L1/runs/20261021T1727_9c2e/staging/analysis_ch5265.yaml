@@ -1,0 +1,261 @@
+chapter: ch5265
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5265_牙猪_wears_きぐるみ_p30]]'
+  object: '[[ME_cosplay_ar]]'
+  claim: 死体から剥いだ皮をつなぎ合わせた呪具を用いて種族の違いを隠し、外からは本物そっくりに見せるという仕組みは、現代のAR技術やコスプレにおける仮面・被り物によるアイデンティティの脱構築と再構成に類似している。
+  quote: 中に人が入れる大きさの、人の皮だ。死体から剥いだ皮をつなぎ合わせて作ったその呪具には、ひとたび中に入ればたとえ種族が違えども外からは本物そっくりに見えてしまうという神秘的な力が働いている。
+  paragraph: p30
+  confidence: moderate
+  quotes:
+  - quote: 中に人が入れる大きさの、人の皮だ。死体から剥いだ皮をつなぎ合わせて作ったその呪具には、ひとたび中に入ればたとえ種族が違えども外からは本物そっくりに見えてしまうという神秘的な力が働いている。
+    paragraph: p30
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5265_少女_thinks_時間の書き換え_p3]]'
+  object: '[ME_speedrun_history_manipulation]'
+  claim: 過去の出来事を再演することで時間の流れを書き換えるという試みは、ゲームにおける「リプレイ」や「タイムトラベルもの」のクリシェであり、物語の決定をプレイヤー（または参加者）が操作できるメカニクスを示唆している。
+  quote: 過去の出来事を再演することで時間の流れを書き換える。
+  paragraph: p3
+  confidence: strong
+  quotes:
+  - quote: 過去の出来事を再演することで時間の流れを書き換える。
+    paragraph: p3
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5265_マラード_has_property_恋の病マラード_p128]]'
+  object: '[ME_gacha_addiction]'
+  claim: 王が尽きることのない熱情と飽食を繰り返し、常に「次」を探し続ける姿は、ガチャにおける「次の当たり」への依存症（ギャンブル依存）および消費の無限反復に構造的同型性を持つ。
+  quote: この身の内から溢れ出す熱情は尽きることを知らぬ
+  paragraph: p108
+  confidence: weak
+  quotes:
+  - quote: この身の内から溢れ出す熱情は尽きることを知らぬ
+    paragraph: p108
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5265_マラード_makes_都市_p226]]'
+  object: '[ME_procedural_generation]'
+  claim: 意図を持たず、ただ一人の男が心のままに土の上に描いた結果として出来上がった美しい都市は、アルゴリズムによるプロシージャル生成（自動生成）における偶発的な美しさや「創作者の不在」を想起させる。
+  quote: それは、ただ一人の男が心のままに土の上に描いた結果として出来上がった、偶然の産物。
+  paragraph: p226
+  confidence: moderate
+  quotes:
+  - quote: それは、ただ一人の男が心のままに土の上に描いた結果として出来上がった、偶然の産物。
+    paragraph: p226
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5265_マラード_has_property_美しい髪_p121]]'
+  object: '[ME_heroine_archetype]'
+  claim: 顔や体つきは平凡であるが、髪のみが絶世の美しさを持つという設定は、伝統的な英雄譚における「唯一の特異な才能（チート）」を逆転させ、美しさそのものが呪力（魔力）の源となるファンタジー的な権力構造を風刺している。
+  quote: '顔かたち、体つきはあくまでもありふれた範囲での美しさである。
+
+    非凡だったのは、その髪の毛だ。'
+  paragraph: p118-p119
+  confidence: strong
+  quotes:
+  - quote: '顔かたち、体つきはあくまでもありふれた範囲での美しさである。
+
+      非凡だったのは、その髪の毛だ。'
+    paragraph: p118-p119
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5265_劇団_makes_台本_p12]]'
+  object: '[ME_scripted_event_in_game]'
+  claim: 伝承に基づき即座に台本を仕上げ、小道具を作り上げる劇団の迅速な準備は、MMORPGにおける即時生成イベントや、シナリオ主導型のゲーム進行において、プレイヤーが「演じる」ことで世界が構成される様式に対応している。
+  quote: 仕事柄そうした伝承をよく知っていた劇団は即座に台本を仕上げ、演出を決定し、有り合わせの道具と材料でちょっとした小道具まで作ってしまった。
+  paragraph: p12
+  confidence: weak
+  quotes:
+  - quote: 仕事柄そうした伝承をよく知っていた劇団は即座に台本を仕上げ、演出を決定し、有り合わせの道具と材料でちょっとした小道具まで作ってしまった。
+    paragraph: p12
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5265_少女_says_危険性_p36]]'
+  object: '[ME_permadeath]'
+  claim: 芝居が失敗すると現実に帰れなくなるという警告は、ゲームにおける「永続的死亡（Permadeath）」や「セーブ不可な分岐」のリスクをメタフィクシカルに提示している。
+  quote: お芝居だけど、実際に過去へ行くのと同じこと。だから、失敗したらお芝居の世界から帰ってくることができなくなったりするかもしれない
+  paragraph: p36
+  confidence: strong
+  quotes:
+  - quote: お芝居だけど、実際に過去へ行くのと同じこと。だから、失敗したらお芝居の世界から帰ってくることができなくなったりするかもしれない
+    paragraph: p36
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5265_ラフディ_has_property_曲線・球形_p67]]'
+  object: '[ME_low_poly_aesthetics]'
+  claim: 直線を排し、曲線と円形で構成された都市空間は、ポリゴン数制限や描画技術の制約の中で意図的に「丸み」を持たせることで美的価値を最大化する低ポリゴンアート（ローポリ）の美学に構造的同型性を持つ。
+  quote: 球体と円形、それによってラフディという国は成立している。都市は外壁に守られた綺麗な円であり、整えられた街路もまた曲線の組み合わせによって円を描いている。
+  paragraph: p67
+  confidence: weak
+  quotes:
+  - quote: 球体と円形、それによってラフディという国は成立している。都市は外壁に守られた綺麗な円であり、整えられた街路もまた曲線の組み合わせによって円を描いている。
+    paragraph: p67
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Marad_Hair_Curse
+  note: マラードの髪が単なる装飾ではなく、国を繁栄させる呪力の源であるという記述。髪の美しさそのものが政治的・経済的資源になっている点が後の展開でどのように利用され、また「再演」によって書き換えられるかが焦点となる。
+  quotes:
+  - quote: 腰まで流れ落ちる艶やかな頭髪には丹念に櫛が通され、毛根から毛先までは青から白銀へと移り変わる緩やかな勾配が美しい。
+    paragraph: p121
+    quote_verified: true
+  - quote: 美観はそれ自体が呪力を生み出し、また観光資源として王国を富ませていた。
+    paragraph: p229
+    quote_verified: true
+  expected_payoff: 再演劇において「髪」の描写や演出が重要なトリガーとなり、その美しさ（呪力）が消失したり変化したりすることで国家の崩壊、あるいは救済が発生する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rubarb_Identity
+  note: ルバーブは醜い外見を持つが、王の言葉や思考を完全に予言できるほどの深い関係性がある。「針モグラ」と呼ばれる出自と、王との「入れ替わり」の慣習が何を意味するか。
+  quotes:
+  - quote: 陛下が次に仰せになるのはこうです。『ルバーブよ、今日もまた、街に新たな出会いを探しに行きたい。口うるさいじじいどもの目を誤魔化す為に、俺と入れ替わるがよい。』
+    paragraph: p188
+    quote_verified: false
+  - quote: あの掃き溜めからこの醜い『針モグラ』めを拾い上げて下さった陛下に報いること。それのみが私の生き甲斐にございます。
+    paragraph: p212
+    quote_verified: false
+  expected_payoff: ルバーブとマラードの間に隠された「契約」や「呪い」、あるいはルバーブこそが真の支配者であるという反転、もしくは二人の関係が再演劇の中で解きほぐされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Play_Perilous_Return
+  note: 少女が「失敗したらお芝居の世界から帰ってくることができなくなったりする」と明言している。この「帰還不能」のリスクが誰に降りかかるか、またその代償として何が発生するか。
+  quotes:
+  - quote: 失敗したらお芝居の世界から帰ってくることができなくなったりするかもしれない
+    paragraph: p36
+    quote_verified: true
+  expected_payoff: 牙猪（きぐるみの中の人）または少女が、物語の登場人物として固定化される（メタフィクシカルな閉じ込め）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Round_God_Domestication
+  note: 球神ドルネスタンルフに守られているという設定。その信仰の形態と、国が「丸い」形状をしていることの因果関係。
+  quotes:
+  - quote: 球神ドルネスタンルフに守られた、大地と共に生きる人々が暮らす土地。
+    paragraph: p63
+    quote_verified: true
+  - quote: 我らが神の丸さに誓って、常に自らに正直に生きているとも。
+    paragraph: p96
+    quote_verified: true
+  expected_payoff: 「丸さ」が完全性・閉鎖性を象徴しており、その神の性質（円環論理）が時間の再演劇を可能にする仕組みの一部であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語（フィクション）は現実を模倣するのではなく、物語そのものが現実の因果律を侵食し書き換える主体となる。
+  weight: 0.9
+  quotes:
+  - quote: 過去の出来事を再演することで時間の流れを書き換える。
+    paragraph: p3
+    quote_verified: true
+  - quote: お芝居だけど、実際に過去へ行くのと同じこと。
+    paragraph: p36
+    quote_verified: true
+  note: 演劇が単なる娯楽ではなく、世界の改変装置として機能している点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 外見（記号）と本質（実体）の乖離：皮一枚で世界は欺かれ、権力も美しさも「中身」を伴わない空疎な記号として機能する。
+  weight: 0.8
+  quotes:
+  - quote: ひとたび中に入ればたとえ種族が違えども外からは本物そっくりに見えてしまうという神秘的な力が働いている。
+    paragraph: p30
+    quote_verified: true
+  - quote: こんなもの、皮一枚、まやかし一つでどうとでもなるのだ。お前の価値はそんな所には無い
+    paragraph: p239
+    quote_verified: true
+  note: 牙猪のきぐるみとマラード/ルバーブの関係が、「見た目が全て」の世界構造を批判し、同時に肯定している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 創造者の不在による自律的秩序：意図なき行為（王の髪型や都市計画）が生み出す偶然性が、社会を維持する機能を持つ。
+  weight: 0.7
+  quotes:
+  - quote: それは、ただ一人の男が心のままに土の上に描いた結果として出来上がった、偶然の産物。
+    paragraph: p226
+    quote_verified: true
+  - quote: 明確な意図を持った都市計画がこれを可能にしたのだろう、と誰もが最初に推測する。しかし、実態はまるで異なっていた。
+    paragraph: p224-p226
+    quote_verified: true
+  note: 合理的設計ではなく、美（髪）の自己顕示欲が生んだ副産物が社会の基盤となっている皮肉。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 相互依存による支配構造：王と従僕の間に成立する「諫言と受容」の閉ループは、自由意志を剥奪された共生的な牢獄である。
+  weight: 0.6
+  quotes:
+  - quote: 陛下をお諫めしていた筈の私が、なにゆえ逆に諭されているのでございましょうか
+    paragraph: p248
+    quote_verified: true
+  - quote: 'それでは謁見の間へ
+
+      いや、俺はこれから街にだな'
+    paragraph: p255-p257
+    quote_verified: false
+  note: マラードがルバーブに依存し、ルバーブがマラードに縛られる構造。再演劇がこのループを断ち切るか強化するかがテーマになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

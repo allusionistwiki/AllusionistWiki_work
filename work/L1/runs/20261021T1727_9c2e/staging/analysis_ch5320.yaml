@@ -1,0 +1,154 @@
+chapter: ch5320
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 18
+  quotes_total: 18
+items:
+- kind: mystery
+  name: MY_LaKulRar_Motive
+  note: ラクルラールの目的が不明確であり、主人公たちを「いいように操ろうとしている」とされる。その真意と、星見の塔最大派閥との関係性が今後の展開で明かされる可能性が高い。
+  quotes:
+  - quote: 目的がよく分からないが、どうも俺たち全員をいいように操ろうとしているのは間違い無い。
+    paragraph: p132
+    quote_verified: true
+  expected_payoff: ラクルラールがトライデントの「細胞」であるというトリシューラの発言と関連付けられ、組織内部での権力闘争や隠された計画（末妹選定への介入）として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Trichula_Silence_Mihitoneesse
+  note: トリシューラが「ミヒトネッセ」という人物（TSX-8型番）について、感情を露わにして話題を避け、資料のアップロードで済ませようとする。この人物はトリシューラの過去や身体制作に関わる重要なキーパーソンである可能性が高い。
+  quotes:
+  - quote: 「あーあー聞こえない聞きたくないー！　はい終わり終わりー！　次の話題！」
+    paragraph: p259
+    quote_verified: true
+  - quote: よっぽどこの人物についての話題が嫌らしい。
+    paragraph: p261
+    quote_verified: true
+  expected_payoff: ミヒトネッセがトリシューラの創造主、または彼女の「原形」を損なう改変（魔改造）に関与した張本人として登場し、対立や再会が生じる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Luteeto_Memory_Gap
+  note: ルウテトがノイマン型やDNAコンピュータなどの基礎知識を知らない様子（「のいまん？」「でぃーえぬえー？」）。これは転生による記憶欠落か、あるいは彼女自身の性質に起因する特異な状態である。
+  quotes:
+  - quote: ルウテトが「のいまん？」と首を傾げている。妙だな。前世がコルセスカなら知っていそうなものだが。
+    paragraph: p152
+    quote_verified: true
+  - quote: 転生したせいで知識が欠落したとかだろうか。
+    paragraph: p152
+    quote_verified: true
+  expected_payoff: ルウテトの「前世＝コルセスカ」という情報の信頼性が揺らぐ、あるいは彼女が意図的に情報を隠蔽していることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Future_Defeat_Nature
+  note: ルウテト（未来のコルセスカ）が「取り返しのつかない失敗」を回避するために過去に干渉してきたことが示唆されている。その失敗の内容と、現在の行動がそれを本当に回避できるのかどうかが核心となる。
+  quotes:
+  - quote: ルウテトの存在が示唆するのは、俺たちの未来に待ち受ける決定的な敗北だ。取り返しのつかない失敗。それゆえにルウテトは転生を行った。
+    paragraph: p36-p37
+    quote_verified: true
+  expected_payoff: 「決定的な敗北」が何か（例：主人公の死、世界滅亡、特定のキャラクターの消滅）が明かされ、その因果律との戦いが描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rafti_Diltoowa_School_Conflict
+  note: ラクルラール（ディルトーワ流）とトリシューラ（魔改造された原形留めない存在）の間の技術的・思想的対立。心を持つ人形 vs 機械/義体 という構図が深掘りされる。
+  quotes:
+  - quote: バーンステイン流は心の存在を否定するんだけど、ラフディ系統のディルトーワ流は心や意思を人形に込めることを重視するの。アストラル体を兼ね備えた人形っていうのが基本コンセプト
+    paragraph: p181
+    quote_verified: true
+  - quote: ベースとなる素体はラクルラール派だけど、内蔵機械はアーザノエルお姉様やクレアノーズお姉様がもの凄く手を加えたせいで別物なんだって。魔改造っていうか、原形留めてないとかなんとか
+    paragraph: p185
+    quote_verified: true
+  expected_payoff: 「心」の定義や魂の本質に関する哲学的対決、あるいはラクルラールがトリシューラを「歪んだ作品」として破壊・回収しようとする試みとして展開する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄譚の娯楽化と自己目的性
+  weight: 0.8
+  quotes:
+  - quote: 英雄物語という娯楽、人助けという享楽、正義の戦いという遊戯。存分に、ツールとしての本懐を果たすのみ。
+    paragraph: p6-p7
+    quote_verified: true
+  - quote: シナモリアキラが誰かを助けるのは徹頭徹尾自分の為だ。
+    paragraph: p2
+    quote_verified: true
+  note: 主人公が正義や利他性を「自己の安寧」のためのツール（遊戯）として開き直ることで、伝統的な英雄物語の道徳的義務を解体し、ゲームプレイヤーとしてのメタ視点（娯楽消費）を肯定する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生による因果の循環と自己受容の欠如
+  weight: 0.7
+  quotes:
+  - quote: 受け入れられない事を受け入れない為の過去への干渉――俺たちが過去の再演を行ったように、コルセスカ＝ルウテトも同じ事をしたのだ。
+    paragraph: p38
+    quote_verified: true
+  - quote: だが、今の俺たちは未来の失敗を受け入れることはできない。
+    paragraph: p40
+    quote_verified: true
+  note: 未来の敗北を回避するための時間軸操作（転生）が、「受け入れられないこと」への拒絶として描かれており、宿命との戦いというよりも、受容の失敗によるループ構造が主題となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人工物としての身体とアイデンティティの不安定さ
+  weight: 0.6
+  quotes:
+  - quote: 現在の俺はトリシューラが作り上げた『アキラくん人形』を全身義体として活動している『テセウスの船型サイボーグ』だが、宙に映し出されているのは『俺たち』――つまり多種多様な姿のシナモリアキラである。
+    paragraph: p14
+    quote_verified: true
+  - quote: 幻肢アプリを起動して一瞬だけ幽体離脱。火花を散らし合っている二人の間に幻の手刀を落として、架空の視線を切断した。
+    paragraph: p101
+    quote_verified: true
+  note: 義体（アキラくん人形）の使用と幻肢アプリによる幽体離脱という技術的展開が、身体が固定された実体ではなく流動的なデータ/情報として存在することを示唆し、「私」の境界を曖昧にする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 組織力学と同盟の脆弱さ
+  weight: 0.5
+  quotes:
+  - quote: そんなわけで、ガロアンディアンと死人の森は一時的な同盟を結ぶことになった。
+    paragraph: p271
+    quote_verified: true
+  - quote: 一致団結したつもりになっていたのは俺だけだった。
+    paragraph: p277
+    quote_verified: true
+  note: 外敵（ラクルラール）に対する共闘という表面的な結束の裏で、内部での世代間対立（ババア発言）、キャラクター演技の暴露、個人的な隠蔽事項（ミヒトネッセ）が存在し、「一致団結」が幻想に過ぎないことを皮肉る。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 知識格差による疎外とコミュニケーション不全
+  weight: 0.4
+  quotes:
+  - quote: ルウテトが「のいまん？」と首を傾げている。妙だな。前世がコルセスカなら知っていそうなものだが。
+    paragraph: p152
+    quote_verified: true
+  - quote: 話に加われなくてなんだか悲しそうな顔をしている。小さな罪悪感。
+    paragraph: p159
+    quote_verified: true
+  note: 高度な技術知識（ノイマン型等）を持つトリシューラと主人公、それを知り得ないルウテトとの間に生じる会話の断絶が、転生者同士の共感の限界や、知識による権力格差を浮き彫りにしている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

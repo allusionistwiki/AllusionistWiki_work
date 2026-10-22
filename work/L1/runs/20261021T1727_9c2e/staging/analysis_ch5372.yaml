@@ -1,0 +1,235 @@
+chapter: ch5372
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 22
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p10]]'
+  object: '[[ME_infantile_omnivore_metaphor]]'
+  claim: 乳首を噛み切る行為は、愛着対象への完全な占有と一体化（ブレイスヴァとの同一化）を求める幼児期の全能感の比喩である。
+  quote: 幼い王子が王妃の乳首を噛み切り、飲み込んでしまったからだ。
+  paragraph: p10
+  confidence: strong
+  quotes:
+  - quote: 幼い王子が王妃の乳首を噛み切り、飲み込んでしまったからだ。
+    paragraph: p10
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p43]]'
+  object: '[[ME_impostor_syndrome_identity_theft]]'
+  claim: 触手を切り離して他人を模倣する能力は、アイデンティティの借用や偽物（ impostor ）による身代わり戦略のパロディである。
+  quote: 夜の民で、触手を切り離して他人を模倣するのが得意技。
+  paragraph: p43
+  confidence: moderate
+  quotes:
+  - quote: 夜の民で、触手を切り離して他人を模倣するのが得意技。
+    paragraph: p43
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p96]]'
+  object: '[[ME_slapstick_violence_comedy]]'
+  claim: セリアック=ニアのチェーンソーによる引き裂きは、コメディにおける「死なない暴力」やスラップスティック的破壊の常套手段を用いている。
+  quote: 不具合なのか、唐突に自動回転を始めた刃にセリアック=ニアが直撃。小さな体がバラバラに引き裂かれて四方八方に飛び散った。
+  paragraph: p96
+  confidence: strong
+  quotes:
+  - quote: 不具合なのか、唐突に自動回転を始めた刃にセリアック=ニアが直撃。小さな体がバラバラに引き裂かれて四方八方に飛び散った。
+    paragraph: p96
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p176]]'
+  object: '[[ME_pro_amateur_sports_rivalry]]'
+  claim: シナモリアキラ同士の戦いにおいて、プロレスラーとアマチュアの体格差・経験値の壁を強調する構図は、スポーツ漫画や格闘技作品の典型的な「実力差」の描写に準拠している。
+  quote: 幾らシナモリアキラを自称しても、所詮はアマチュア。プロのシナモリアキラである狆くしゃ（カニャッツォ）＝プーハニアとはレベルが違うのだ。
+  paragraph: p180
+  confidence: strong
+  quotes:
+  - quote: 幾らシナモリアキラを自称しても、所詮はアマチュア。プロのシナモリアキラである狆くしゃ（カニャッツォ）＝プーハニアとはレベルが違うのだ。
+    paragraph: p180
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p277]]'
+  object: '[[ME_social_stigma_and_status_loss]]'
+  claim: 肉体の強さを保ちながらも社会的地位を失うという描写は、現代社会における「資格剥奪」や「社会的制裁（cancel culture）」が個人のアイデンティティに与える影響を反映している。
+  quote: 傷ついているのは肉体ではなく足場だった。
+  paragraph: p278
+  confidence: strong
+  quotes:
+  - quote: 傷ついているのは肉体ではなく足場だった。
+    paragraph: p278
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p304]]'
+  object: '[[ME_jealousy_and_grief_conversion]]'
+  claim: 恋人の美徳を褒め称える女性への「殺してえ」という衝動は、愛する者を失う恐怖と嫉妬が暴力へと転化することを示唆している。
+  quote: 「殺してえ」
+  paragraph: p304
+  confidence: moderate
+  quotes:
+  - quote: 「殺してえ」
+    paragraph: p304
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Riereelba_Alias_Lariscania
+  note: リールエルバの身代わりとしてドラトリア貴族ラリスキャニアが関与している可能性。
+  quotes:
+  - quote: 「塔」の末妹候補にラリスキャニアってドラトリア人がいたみたいなんです。夜の民で、触手を切り離して他人を模倣するのが得意技。
+    paragraph: p43
+    quote_verified: false
+  - quote: ドラトリア貴族でリールエルバの身代わり王族？
+    paragraph: p45
+    quote_verified: true
+  expected_payoff: リールエルバ救出作戦において、偽物と本物の区別や敵対勢力との交渉にこの名前が鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Cyberkarate_Symmetria_Azuria
+  note: シナモリアキラ（サイバーカラテ）の拡散現象と、アズーリア様の「神秘性の囲い込み」の対比。
+  quotes:
+  - quote: その点、アズーリア様は私たちでしっかり神秘性を囲っているから安心です。幼馴染という強固な文脈はそうそう崩れたりしませんから
+    paragraph: p90
+    quote_verified: true
+  - quote: サイバーカラテユーザーなんですよね。似てるところなんて全く無いので影響はありませんけど――これ、場合によっては使いようがあるかもしれません
+    paragraph: p121
+    quote_verified: true
+  expected_payoff: ミルーニャがシナモリアキラの「分散」特性を利用した戦術（憑依や再演改竄）を用いる展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Pomeranian_Girl_and_Nine_Tails
+  note: 九本の尻尾を持つ狐系虹犬の恋人を探すポメラニアン少女。この男性が「無貌の民」やシナモリアキラの変身と関係している可能性。
+  quotes:
+  - quote: 彼、珍しい狐系の虹犬で。とってもかっこよくて、色々な変身ができるからどんな種族からも人気があってー。尻尾も九本あってふっさふさなのー。
+    paragraph: p288
+    quote_verified: false
+  - quote: 突然「愛され過ぎてつらい」と言い残して彼女の下を立ち去ってしまったらしい。
+    paragraph: p291
+    quote_verified: true
+  expected_payoff: プーハニアとこの女性の共同行動が、シナモリアキラの正体や変身能力に関するヒントを提供する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Serial_Kingdom_White_Lily_Connection
+  note: 六王の半数が黒百合の子供たちと関係性があるというミルーニャの分析。
+  quotes:
+  - quote: 来たるべきパーンとの戦い、そしてリールエルバ救出に関わってくるであろうカーティス。そして、太陰の王族であるヴァージル。実に六王の半数が黒百合の子供たちと何かしらの関係性がある。
+    paragraph: p134
+    quote_verified: true
+  expected_payoff: パーン戦やカーティスとの対決において、この血縁的・政治的な繋がりが敵味方の行動原理を決定づける。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Masked_Man_NoFace_Mob
+  note: 仮面を剥がれたシナモリアキラの正体が「無貌の民」であり、上級種族の下位存在であるという情報。
+  quotes:
+  - quote: 無貌の民――『上』の眷属種ってやつか。へぇ、随分と序列が低いんだな――あ？　島に外壁に山間部に――隔離？　特別区っておい、なんだこりゃあ
+    paragraph: p210
+    quote_verified: true
+  expected_payoff: シナモリアキラという存在の起源や、「上」と「下」の階級闘争、隔离された空間の秘密への手がかり。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: アイデンティティの分散と統合：シナモリアキラの拡散現象は、自己を「名乗る」ことの脆さと、「名前」による社会的束縛を示唆する。
+  weight: 0.9
+  quotes:
+  - quote: サイバーカラテの拡散に伴って、本人も分散されたとか
+    paragraph: p82
+    quote_verified: true
+  - quote: 傷ついているのは肉体ではなく足場だった。
+    paragraph: p278
+    quote_verified: true
+  note: シナモリアキラという「名前」を騙ることで得られる力と、その名前が剥奪された際に失われる社会的地位の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力と愛着の境界：幼児期の破壊的な愛情（乳首噛み切り）から、成人の社会的制裁、そして恋愛への嫉妬に至るまで、愛は常に破壊・支配・喪失と隣り合わせである。
+  weight: 0.8
+  quotes:
+  - quote: 幼い王子が王妃の乳首を噛み切り、飲み込んでしまったからだ。
+    paragraph: p10
+    quote_verified: true
+  - quote: 殺してえ
+    paragraph: p304
+    quote_verified: true
+  note: オルヴァの幼児性からプーハニアの恋愛感情に至るまでの一貫した「所有したい」「支配したい」という欲動。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 偽物と本物の弁別：リールエルバの身代わり、シナモリアキラのアマチュア/プロ区別、そして変身能力を持つ人物。物語は「何が真実か」を問う構造を持っている。
+  weight: 0.7
+  quotes:
+  - quote: リールエルバがどうも偽物らしいということがわかっている。
+    paragraph: p31
+    quote_verified: true
+  - quote: 所詮はアマチュア。プロのシナモリアキラである狆くしゃ（カニャッツォ）＝プーハニアとはレベルが違うのだ。
+    paragraph: p180
+    quote_verified: true
+  note: 探偵劇としての「偽物探し」と、格闘劇としての「本物の強さ」への渇望が並走する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会階層と隔离：無貌の民の隔離区、上級種族と下級種族の序列、レスラー協会の除籍など、個体の行動は常に巨大な社会構造（足場）に規定されている。
+  weight: 0.6
+  quotes:
+  - quote: 島に外壁に山間部に――隔離？　特別区っておい、なんだこりゃあ
+    paragraph: p210
+    quote_verified: true
+  - quote: 自分がレスラー協会を除籍となり、裁かれるべき悪党がのうのうと暮らしているのは我慢がならない。
+    paragraph: p190
+    quote_verified: true
+  note: 個人の実力（肉体）では埋められない「社会的格差」や「制度による罰」の描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,271 @@
+chapter: ch5229
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 5
+  themes: 4
+  quotes_verified: 22
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p3-p4]]'
+  object: '[[ME_game_achievements]]'
+  claim: 99勝50敗の記録と100戦目の保留は、ゲームにおける実績解除やマイルストーン達成を模倣している。
+  quote: '九十九戦して五十勝四十九敗。
+
+    百戦目はお預けのまま、別れの時がやってくる。'
+  paragraph: p3-p4
+  confidence: moderate
+  quotes:
+  - quote: '九十九戦して五十勝四十九敗。
+
+      百戦目はお預けのまま、別れの時がやってくる。'
+    paragraph: p3-p4
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p5-p8]]'
+  object: '[[ME_wuxia_sect]]'
+  claim: 奉竜山と内家拳の記述は、武侠小説における少林や武当などの武術門派の総本山を連想させる。
+  quote: '外力無双で知られる西とは異なり、そこは内力を極めんとする武術家たちにとっての総本山であった。
+
+    内家拳の極致と称される青海の教えを受けんが為に、胸に大志を抱いた様々な者達が集う武術の聖地。'
+  paragraph: p7-p8
+  confidence: strong
+  quotes:
+  - quote: '外力無双で知られる西とは異なり、そこは内力を極めんとする武術家たちにとっての総本山であった。
+
+      内家拳の極致と称される青海の教えを受けんが為に、胸に大志を抱いた様々な者達が集う武術の聖地。'
+    paragraph: p7-p8
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p196-p205]]'
+  object: '[[ME_hyperlink_web]]'
+  claim: 【扉】（ハイパーリンク）による移動は、ウェブブラウザでのページ遷移やゲーム内のファストトラベルを比喩として用いている。
+  quote: '便利なもので、大陸の西端から東端まで【扉】や【門】があればひとっ飛び。
+
+    ――とは必ずしも行かず、呪波汚染によって高密度の呪力が渦巻いている場所や地脈が乱れている場所などにはそうした儀式呪術で移動することはできない。'
+  paragraph: p196-p197
+  confidence: explicit
+  quotes:
+  - quote: '便利なもので、大陸の西端から東端まで【扉】や【門】があればひとっ飛び。
+
+      ――とは必ずしも行かず、呪波汚染によって高密度の呪力が渦巻いている場所や地脈が乱れている場所などにはそうした儀式呪術で移動することはできない。'
+    paragraph: p196-p197
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p240-p245]]'
+  object: '[[ME_corporate_structure]]'
+  claim: トライデントの細胞という構造は、企業組織における部署や役割分担（司令塔、足場など）を人体に投影したものである。
+  quote: 'トライデントの細胞――その司令塔にして最も不要な存在。
+
+    十九番目の細胞である【脳】のルーシメアは、メイファーラに『それ』を授け、植え付け、宿した。'
+  paragraph: p244-p245
+  confidence: moderate
+  quotes:
+  - quote: 'トライデントの細胞――その司令塔にして最も不要な存在。
+
+      十九番目の細胞である【脳】のルーシメアは、メイファーラに『それ』を授け、植え付け、宿した。'
+    paragraph: p244-p245
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p350-p378]]'
+  object: '[[ME_rpg_manual]]'
+  claim: ディスペータによる魔将紹介は、TRPGやゲームの公式ガイドブックにおける敵キャラクターのステータス解説を模している。
+  quote: '「第十三魔将、朱大公クエスドレム。
+
+    四十枚一組のカード型端末で様々な呪術や現象、人物や生き物を参照することでその力を行使する使い魔系の呪術師、支配者です。」'
+  paragraph: p350-p353
+  confidence: explicit
+  quotes:
+  - quote: '「第十三魔将、朱大公クエスドレム。
+
+      四十枚一組のカード型端末で様々な呪術や現象、人物や生き物を参照することでその力を行使する使い魔系の呪術師、支配者です。」'
+    paragraph: p350-p353
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_100th_Battle_Fate
+  note: 百戦目が血塗られたものにならないようにと願われているが、後に敵同士として戦う可能性が示唆されている。この願いが叶うのか、あるいは皮肉な結末を迎えるかが重要になる。
+  quotes:
+  - quote: '悪運の竜クルエクローキが気紛れを起こしたならば、二人はいずれ戦場で相まみえることにもなり得るだろう。
+
+      同じジャッフハリムの勇士でありながら、敵同士として。'
+    paragraph: p192-p193
+    quote_verified: true
+  - quote: だから願った。百戦目が血塗られたものにならないように。
+    paragraph: p194
+    quote_verified: true
+  expected_payoff: カーインとユディーアが敵対勢力として交戦するシーンで、この『百戦目』が実現し、過去の約束との対比が描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mayfela_True_Form
+  note: メイファーラが「存在を秘された真の第九魔将」であるとされるが、その正体や力の全貌は不明。無彩色の妖精としての資質と「過去に遡る力」の関係が未解明。
+  quotes:
+  - quote: それがメイファーラ・リト＝ユディーアというジャッフハリム四十四士にして存在を秘された真の第九魔将の本質だ。
+    paragraph: p335
+    quote_verified: true
+  - quote: '無彩色の妖精は使えない。けれど、使う為には絶対に必要な存在。
+
+      メイファーラ・リト＝ユディーアは、その為に生まれたのだ。'
+    paragraph: p263-p264
+    quote_verified: true
+  expected_payoff: 物語終盤での覚醒や、真の魔将としての力の解放、あるいは彼女自身の存在定義の変容につながる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Dispensata_Promise_Consequence
+  note: ディスペータとの「絶対遵守の誓い」があり、破った場合は行動の報いを受けるとされる。メイファーラは既に「裏切りながら約束を守っている」と記述されており、この矛盾がどのような罰や代償として顕現するかが伏線。
+  quotes:
+  - quote: 「決して、みんなに危害を加えるような『おいた』は駄目ですよ。これは絶対の約束です。もし破ったなら、私はあなたを許しはしないでしょう――何があっても、貴方は行動の報いを受けることになる」
+    paragraph: p293
+    quote_verified: true
+  - quote: 'だから、メイファーラは裏切りながら約束を守った。
+
+      『おいた』をするのは、自分じゃなくて妖精だから。そんな言い訳は通用しなかったけれど。'
+    paragraph: p303-p304
+    quote_verified: true
+  expected_payoff: ディスペータによる直接的な制裁、あるいは契約違反による魔力の暴走や呪いの発動。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Twins_Black_Lily_Kingdom
+  note: 黒百合宮の双子（両足）との関係、そして「黒衣の小さな子供」への関心。メイファーラが秘密裏に情報を伝えている状況が、後にバレて衝突を引き起こす可能性がある。
+  quotes:
+  - quote: 'その『定期報告』は、黒百合宮を出てからも密かに続くことになる。
+
+      当の本人は、何も知らないまま。'
+    paragraph: p283-p284
+    quote_verified: true
+  - quote: 自分が間諜に向いていない事に気付いた時には、もうなにもかもが遅すぎた。
+    paragraph: p289
+    quote_verified: true
+  expected_payoff: 双子との信頼関係の崩壊、または「黒衣の子」に関する真実が明かされた際の人間ドラマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rusimera_Sound
+  note: ルーシメア（脳）が「少年の声」で語るとされ、メイファーラに恐怖を抱かせている。この声の正体や、ルーシメアの真意は不明。
+  quotes:
+  - quote: 'ルーシメアは、少年の声で柔らかく言うだけ。
+
+      「僕の大切なひとを、よろしくね」'
+    paragraph: p265-p267
+    quote_verified: true
+  - quote: 優しく微笑む【脳】のことが、どうしてかメイファーラは無性に怖くてたまらない。
+    paragraph: p269
+    quote_verified: true
+  expected_payoff: ルーシメアの正体（過去の存在や別世界の人物との関連）の明覚、およびメイファーラの恐怖の理由の解説。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 義務と自己決定の葛藤：社会から与えられた役割（四十四士、魔将）を全うすることと、自身の本当の感情や欲求との板挟み。
+  weight: 0.8
+  quotes:
+  - quote: '「貴様は天蓋の上に向かうらしいではないか」
+
+      「すぐには行かないよ。ポルガーお姉様の下で三年は呪術の修行かなあ。難しそうだけど――っていうか、あんまり大声で言わないでよ」'
+    paragraph: p23-p25
+    quote_verified: true
+  - quote: 'メイファーラにとっての『ほんとう』は、きっと夜の民の幼馴染みが親友であるということだけ。
+
+      それが偽りと裏切りに彩られていたとしても。'
+    paragraph: p317-p318
+    quote_verified: true
+  note: カーイン家の名誉回復とユディーアの潜入任務、そしてメイファーラの魔将としての運命が、個人の幸福や自由を犠牲にしている構造を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 嘘と真実の境界：間諜としての活動において、嘘で固められた世界の中で「ほんとう」の居場所や仲間を見出そうとする苦悩。
+  weight: 0.9
+  quotes:
+  - quote: '嘘を嘘でないと偽りの証明をし続ける為に。
+
+      偽りの故郷、偽りの信仰、偽りの仲間たちを守り続ける。'
+    paragraph: p308-p309
+    quote_verified: true
+  - quote: '何も信じてなどいない。
+
+      一番最初から、メイファーラは地獄も天獄も信じられなかった。この中途半端でどうしようもない状況は、それを考えれば当然の結果なのかもしれない。'
+    paragraph: p327-p328
+    quote_verified: true
+  note: メイファーラの心理描写の大部分が、「嘘」と「真実」の区別不能性とその苦痛に焦点を当てている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 共生社会の構造的欠陥：理想とされる『共生』が、個々の内面の葛藤や多様性を抑圧し、いじめや差別といった宿痾を解決できていない現実。
+  weight: 0.7
+  quotes:
+  - quote: 'ジャッフハリムは未だ『国家』という枠組み――使い魔の大規模呪術に依存している呪術共同体である。
+
+      『いじめ』という人類の宿痾を根治させるには至っていない。'
+    paragraph: p60-p61
+    quote_verified: true
+  - quote: '「ね、それって窮屈じゃないの？」
+
+      問いに、少年は黙りこくった。'
+    paragraph: p85-p87
+    quote_verified: true
+  note: ユディーアとカーインの会話を通じて、ジャッフハリムの社会制度が抱える倫理的な限界を指摘する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 組織の歯車としての個：巨大なシステム（トライデント、国家）において、個人は「機能」であり「存在」としての意味を見失う危険性。
+  weight: 0.6
+  quotes:
+  - quote: 'トライデントの細胞――その司令塔にして最も不要な存在。
+
+      十九番目の細胞である【脳】のルーシメアは、メイファーラに『それ』を授け、植え付け、宿した。'
+    paragraph: p244-p245
+    quote_verified: true
+  - quote: '清浄な【上】はとても怖くて。
+
+      【髪】に雁字搦めに縛られて、【脳】の善良な言葉はどこまでも追ってきて、ディスペータお姉様の呪いが心をちくちくと刺して'
+    paragraph: p342-p343
+    quote_verified: true
+  note: 細胞や魔将という役割が、個人の意思を拘束し、恐怖と義務感で支配する構造を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

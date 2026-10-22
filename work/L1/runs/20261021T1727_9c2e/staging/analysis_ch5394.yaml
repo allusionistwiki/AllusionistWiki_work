@@ -1,0 +1,257 @@
+chapter: ch5394
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 21
+  quotes_total: 22
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5394_詩_defines_名声の虚栄_p26]]'
+  object: '[[ME_Dante_Inferno_Canto11]]'
+  claim: 冒頭の詩はダンテ『神曲』煉獄篇第十一歌の引用であり、名声の儚さを主題とする。
+  quote: 草や葉の色のように、外へ出たとみるまにまた消える。葉が大地からのびるのは太陽のおかげだが、その太陽に照らされて色もあせる
+  paragraph: p2-p6
+  confidence: explicit
+  quotes:
+  - quote: 草や葉の色のように、外へ出たとみるまにまた消える。葉が大地からのびるのは太陽のおかげだが、その太陽に照らされて色もあせる
+    paragraph: p2-p6
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5394_ラリスキャニア_appears_as_地下アイドル_p275281]]'
+  object: '[[ME_Japanese_Underground_Idol_Culture]]'
+  claim: 死霊や怪物が地下アイドルとして振る舞い、触手で握手する様子は日本の地下アイドル文化の過剰なパロディである。
+  quote: ラリスキャニアさまー！　ぶひー！
+  paragraph: p281-p285
+  confidence: strong
+  quotes:
+  - quote: ラリスキャニアさまー！　ぶひー！
+    paragraph: p281-p285
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5394_トリシューラ_observes_音ゲー要素_p289291]]'
+  object: '[[ME_Rhythm_Game_Mechanics]]'
+  claim: 迷宮の進行条件がリズムゲーム（音ゲー）のクリアであることは、ゲーム的メカニクスへの自己言及的な構造を持つ。
+  quote: それとなんかこの迷宮、音ゲーが混じってる！
+  paragraph: p291
+  confidence: strong
+  quotes:
+  - quote: それとなんかこの迷宮、音ゲーが混じってる！
+    paragraph: p291
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5394_トリシューラ_names_パンデミック_p175183]]'
+  object: '[[ME_SARS_Virus]]'
+  claim: パンデミックの元ネタとしてSARS（変異種）が明示されており、現実の感染症危機がファンタジーの呪いに変換されている。
+  quote: SARSが変異したものと考えてもらって問題ないけど――最悪なのはこれが呪的なミアズマでもあること。
+  paragraph: p181
+  confidence: explicit
+  quotes:
+  - quote: SARSが変異したものと考えてもらって問題ないけど――最悪なのはこれが呪的なミアズマでもあること。
+    paragraph: p181
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5394_オルヴァ_confesses_女神への執着と嫉妬_p235261]]'
+  object: '[[ME_Oedipus_Complex_Trauma]]'
+  claim: オルヴァの「寝取られ王」としての性癖は、母親が父以外の男の上で腰を振ったというトラウマに基づき、エディプスコンプレックス的な歪みを持つ。
+  quote: 何も知らぬ父上が遠方へ会議に赴いている間、母上は別の男の上で腰を振って――ううう
+  paragraph: p258-p260
+  confidence: strong
+  quotes:
+  - quote: 何も知らぬ父上が遠方へ会議に赴いている間、母上は別の男の上で腰を振って――ううう
+    paragraph: p258-p260
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5394_イツノ_bonds_アキラ_p107109]]'
+  object: '[[ME_Robotics_Safety_Protocols]]'
+  claim: 義体が危険人物判定で拒否反応を起こす描写は、AIの安全プロトコルやロボットの防衛機能をパロディ化している。
+  quote: トリシューラが用意してくれたばかりの義体が自動的に拒否反応を起こして仰け反った。『サイバーカラテ道場』に危険人物判定されている。
+  paragraph: p109
+  confidence: moderate
+  quotes:
+  - quote: トリシューラが用意してくれたばかりの義体が自動的に拒否反応を起こして仰け反った。『サイバーカラテ道場』に危険人物判定されている。
+    paragraph: p109
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5394_詩_defines_名声の虚栄_p26]]'
+  object: '[[ME_Solomon_Ecclesiastes_Vanity]]'
+  claim: 「虚栄に縋る哀れな者たち」という表現は、聖書コヘレトの言葉における「空（むな）しさ」の概念と共鳴する。
+  quote: これは憐憫だ。虚栄に縋る哀れな者たちへの、な
+  paragraph: p15
+  confidence: moderate
+  quotes:
+  - quote: これは憐憫だ。虚栄に縋る哀れな者たちへの、な
+    paragraph: p15
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Body_Missing_WitchOrder
+  note: アキラの身体からウィッチオーダーと氷の腕が消えており、生身の肌のみとなっている。この変化の原因と意味が未解決。
+  quotes:
+  - quote: ウィッチオーダーも氷の腕も無い。ただ生身の真っ白い肌だけが左右についている。
+    paragraph: p54-p55
+    quote_verified: true
+  expected_payoff: アキラの「人間性」の回復、あるいは何らかの代償として力を失ったことが判明する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Alt_Ivnil_Surveillance_Blackout
+  note: アルト・イヴニルの監視使い魔が通信障害で機能停止した直後、アキラが目覚めるという因果的な近接性がある。
+  quotes:
+  - quote: 瘴気が濃くなりすぎて通信障害が発生してるんだ。もうこっちの情報が届いてないよアルト。
+    paragraph: p26
+    quote_verified: true
+  expected_payoff: この遮断がアキラの目覚め（または意識の切り替え）をトリガーにしたことが明かされる、あるいはアルトの策略である可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Lariscania_Resurrection_Mechanism
+  note: ラリスキャニアが「奇跡の復活」を果たし地下アイドルとして君臨している。その復活のプロセスと目的が不明。
+  quotes:
+  - quote: 奇跡の復活を果たしたこのラリスキャニアちゃんが、惨めな子豚ちゃんたちと触手で握手してあげる！
+    paragraph: p281
+    quote_verified: true
+  expected_payoff: 彼女の復活がパンデミック（呪い）と関連している、あるいは彼女自身が感染源・制御者である可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rhythm_Game_Labyrinth_Rule
+  note: 白骨迷宮が音ゲー化しており、ランクを上げないと進めないというゲーム的ルールが存在する。
+  quotes:
+  - quote: ここで地下アイドルランクを上げないとこれより先のフロアには進めないみたい！
+    paragraph: p291
+    quote_verified: true
+  expected_payoff: この迷宮が「ゲーム世界」そのものである、あるいはメタフィクショナルな構造を持つことの証拠となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Cocytus_Activation
+  note: アキラの氷の腕（不在のはず）が共鳴し、コルセスカの浄界コキュートスが活性化する気配がある。
+  quotes:
+  - quote: かすかに、氷の右腕が共鳴しているのを感じた。彼女の浄界、『コキュートス』が活性化している気配も。
+    paragraph: p293-p294
+    quote_verified: true
+  expected_payoff: アキラとコルセスカの深層心理的なリンク、あるいは氷の腕の消失が単なる欠損ではないことの示唆。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 名声の虚栄と存在の無意味さ（ダンテ的煉獄）
+  weight: 0.8
+  quotes:
+  - quote: 草や葉の色のように、外へ出たとみるまにまた消える。
+    paragraph: p3-p4
+    quote_verified: true
+  - quote: これは憐憫だ。虚栄に縋る哀れな者たちへの、な
+    paragraph: p15
+    quote_verified: true
+  note: 冒頭の詩とアルトの発言が主題を提示し、続く地下アイドルの滑稽な姿（名声を求める無意味さ）へと接続されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メカニクスへの侵食と現実の崩壊
+  weight: 0.7
+  quotes:
+  - quote: それとなんかこの迷宮、音ゲーが混じってる！
+    paragraph: p291
+    quote_verified: true
+  - quote: 地下アイドルランクを上げないとこれより先のフロアには進めないみたい！
+    paragraph: p291
+    quote_verified: true
+  note: シリアスな冒険（パンデミック阻止）が、突如として音ゲー・アイドルというゲーム的ルールに支配される異様さを描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: トラウマと欲望の滑稽な可視化（オルヴァの性癖）
+  weight: 0.6
+  quotes:
+  - quote: 母上は別の男の上で腰を振って――ううう
+    paragraph: p258
+    quote_verified: true
+  - quote: 悲しい逸話を揶揄されたんじゃなくて、特殊な性癖だったから付けられたの？
+    paragraph: p265-p267
+    quote_verified: true
+  note: ダークファンタジーの戦士であるオルヴァが、エロティックなトラウマによって解体され、滑稽な存在として描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体性の喪失と再定義（アキラの目覚め）
+  weight: 0.5
+  quotes:
+  - quote: ウィッチオーダーも氷の腕も無い。ただ生身の真っ白い肌だけが左右についている。
+    paragraph: p54-p55
+    quote_verified: true
+  - quote: 俺の名は――。シナモリ、アキラ――？
+    paragraph: p43-p45
+    quote_verified: false
+  note: 機械的な身体（ウィッチオーダー）を失い「生身」を取り戻す過程で、自己のアイデンティティ（名前）を再確認する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 管理されたカオス（パンデミックと防疫体制）
+  weight: 0.4
+  quotes:
+  - quote: 防疫・公衆衛生ドローンの指揮権をレオに預けて第五階層の対処は一任してある。
+    paragraph: p186
+    quote_verified: true
+  - quote: SARSが変異したものと考えてもらって問題ないけど――最悪なのはこれが呪的なミアズマでもあること。
+    paragraph: p181
+    quote_verified: true
+  note: ファンタジー的な「呪い」の脅威に対して、ドローンや公衆衛生といった現代的な管理技術が適用される構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

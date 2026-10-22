@@ -1,0 +1,151 @@
+chapter: ch5441
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 15
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_black_rubber_origin
+  note: 少年が髪を結ぶために使用した「黒いゴム」の入手経路が不明確であること。これは彼が過去の記憶や出自を欠落させている（＝転生者・創られた存在）ことの伏線。
+  quotes:
+  - quote: しっくりとくる。これでいい。けれど、黒いゴムをどこで手に入れたのかは思い出せない。彼にはわからないことだらけだ。
+    paragraph: p12
+    quote_verified: true
+  expected_payoff: 彼の記憶が捏造されている事実や、彼が「道具」として創られた存在であることの証明として回収される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_dog_parent_truth
+  note: ブルドッグのような父（p7）と、イアテムやグレンデルヒが言及する「父の性暴力・宿業」（p83-88）との関係。父が実際に何をしたのか、あるいはその記憶がレイに植え付けられた嘘なのか。
+  quotes:
+  - quote: 大いびきをかく父はたったひとりで我が子を養うために夜遅くまで働き、疲れ果てて寝台に倒れ込んでいる。
+    paragraph: p7
+    quote_verified: true
+  - quote: 「貴様の父親も過去に少年に性暴力をはたらいていたのかもしれんな。その忌まわしい宿業と呪いが父の招いた因果なら、貴様が怒りを抱くのは滑稽な必然だ」
+    paragraph: p83
+    quote_verified: true
+  expected_payoff: レイが父を殺害する運命（オイディプス的悲劇）への伏線、または父の真の姿（怪物化）の発覚。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_tremy_absence_reason
+  note: トレミーが「実家の仔ライオンの成長」「カーくんの顔が見たかった」と言って不在だった理由（p169）。彼が外部のメタ領域（作者・運営側）と接触していた可能性。
+  quotes:
+  - quote: 「いやー、ちょっと久しぶりに実家の仔ライオンの成長ぶりを確認しに帰省をね。あとオトモダチのカーくんの顔が見たかったんさ」
+    paragraph: p169
+    quote_verified: true
+  expected_payoff: トレミーが物語の構造を知りうる存在（賢者・メタキャラ）であることの確認。仔ライオン＝レイの成長監視への関与。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kain_medical_role
+  note: 保険医カーインが「秘孔を刺激」し、深層意識に情報を刻む行為（p207, p249）。これが単なる治療なのか、レイの記憶や人格への書き換え（洗脳・上書き）なのか。
+  quotes:
+  - quote: 「一応、疲労回復の秘孔を刺激はしたが、しばらく舞いは控えたほうがいい」
+    paragraph: p207
+    quote_verified: false
+  - quote: 言葉と同時にカーインの指先がクレイの眉間、こめかみ、顎下を刺激していく。呆然とするクレイは一切の言葉が聞こえないかのようだったが、指先によって与えられた刺激によって小刻みに震え、短く吐息を吐いていった。
+    paragraph: p249
+    quote_verified: true
+  expected_payoff: レイの「栄光の手クレイ」という役割への強制変換、または物語の強制進行への介入手段としての回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_zed_thief_king
+  note: カーインが言及した「ミヒトネッセに潜む盗賊王ゼド」が黒幕である可能性（p238）。彼がレイの運命を操っているという示唆。
+  quotes:
+  - quote: 「やはりミヒトネッセに潜む盗賊王ゼド、あの無法者の英雄が黒幕なのか？」
+    paragraph: p238
+    quote_verified: true
+  expected_payoff: 物語の真の敵（ラスボス）としてゼドが登場し、レイとの決着がつく展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションにおける「脚本」からの逸脱と、キャラクターの自律性の獲得
+  weight: 0.9
+  quotes:
+  - quote: 台本をなぞるだけでは操り人形と変わらない。その視座で事態を暴き、己が解釈で舞台をものにしろ。
+    paragraph: p247
+    quote_verified: true
+  - quote: 演劇空間の経絡秘孔を突いた。一時的に浄界の掌握権限を乗っ取り、筋書きから逸脱した領域を作っている。
+    paragraph: p227
+    quote_verified: true
+  note: カーインの台詞が示す通り、物語の構造（脚本）を知りながらいかに「役」として振る舞うか、あるいはそこから逃れるかが主題となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄譚の虚構性と、観客による評価への依存
+  weight: 0.8
+  quotes:
+  - quote: 舞い手は拍手と声援に応えなければならない。そうしなければ舞いが止まってしまうからだ。踊り続けるため、彼は王の役目を引き受けた。
+    paragraph: p39
+    quote_verified: true
+  - quote: 名も無き刃を宝剣と称える声は際限なく高まり、拍手喝采が巻き起こる。
+    paragraph: p35
+    quote_verified: true
+  note: レイの王権や英雄性は、実力そのものよりも「観客（民衆・読者）」の支持と承認によって維持されている構造を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美少年を巡る性暴力・消費の循環とその批判
+  weight: 0.7
+  quotes:
+  - quote: 「美少年を犯して喰らって愛でたい気持ちに時代も国境も種族も関係ないし。エロスとタナトス、破滅的な少年愛は人類の普遍的欲求。」
+    paragraph: p70
+    quote_verified: false
+  - quote: 旧来の常識で考えればこの上無く正しい行為は、王の治世下では許されぬ悪徳とされた。
+    paragraph: p72
+    quote_verified: true
+  note: グレンデルヒやセージが示す「少年愛」を巡る暴力（殺し・食す）を、レイ（王）が裁き否定することで、従来の少年愛文学のクリシェへのアンチテーゼを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: アイデンティティの不安定さと「器」としての身体性
+  weight: 0.6
+  quotes:
+  - quote: 俺は肉の器を持った形じゃない。お前が泥であるように、俺は息吹なのだから
+    paragraph: p157
+    quote_verified: true
+  - quote: いつの間にやら、ごく自然なことのようにレイもまた可憐な美少女へと変貌を遂げていた。
+    paragraph: p128
+    quote_verified: true
+  note: トレミーが肉体を持たず、レイやクルミが性別を自在に変えることは、キャラクターの自己同一性が固定的な「肉」ではなく、演じる「形」であることを強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 忘却からの逃避と、運命（オイディプス）の不可避性
+  weight: 0.5
+  quotes:
+  - quote: とても大切なことを忘れている気がして、旅に出ようと少年は思い立った。
+    paragraph: p2
+    quote_verified: true
+  - quote: 「まだ信じられません、先輩。俺が実の父を殺し、母を陵辱するようなあさましい怪物になってしまうだなんて」
+    paragraph: p21
+    quote_verified: true
+  note: 「忘れていること（＝自らの出自・運命）」を捜す旅が、結果的に予言された破滅へと向かう古典的悲劇の構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

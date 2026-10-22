@@ -1,0 +1,217 @@
+chapter: ch5545
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p20]]'
+  object: '[[ME_narrative_mechanics_fatigue]]'
+  claim: ゲーム内の「減速」現象が、小説の「描写の陳腐化（マンネリ）」による読者の離脱というメタファーとして機能している。
+  quote: テキストベース・サーキットでは『描写の陳腐化』は減速に繋がります。
+  paragraph: p30
+  confidence: explicit
+  quotes:
+  - quote: テキストベース・サーキットでは『描写の陳腐化』は減速に繋がります。
+    paragraph: p30
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p218]]'
+  object: '[[ME_gacha_game_mechanics]]'
+  claim: クリーナーの「卜占（ランダム性）」に基づく操縦は、現代のスマホゲームにおけるガチャ演出や運ゲー戦略のメタファーである。
+  quote: くじ引きとガチャガチャ、パチンコとスロット、サイコロ博打とルーレット。突き詰めると数字の変動を睨みつけるだけの単純極まりない乱数の奴隷。
+  paragraph: p220
+  confidence: strong
+  quotes:
+  - quote: くじ引きとガチャガチャ、パチンコとスロット、サイコロ博打とルーレット。突き詰めると数字の変動を睨みつけるだけの単純極まりない乱数の奴隷。
+    paragraph: p220
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p43]]'
+  object: '[[ME_technological_progress_paradigm]]'
+  claim: 「新世代が旧世代の伝説を教科書として習得し記録を更新する」構造は、現実の技術革新（OS更新やAPI進化）のパラダイムシフトを描いている。
+  quote: 空使いダウザールの天才性も、箒乗りパーンの革新性も、それらの偉業を大前提とした次の世代にとっては『教科書の要点』として認識、習得される。
+  paragraph: p46
+  confidence: strong
+  quotes:
+  - quote: 空使いダウザールの天才性も、箒乗りパーンの革新性も、それらの偉業を大前提とした次の世代にとっては『教科書の要点』として認識、習得される。
+    paragraph: p46
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p110]]'
+  object: '[[ME_isekai_transfer_trope]]'
+  claim: 異世界からの転生者（ファーガスト）が「上級」のデータとして扱われ、現地出身者が「下級」とされる構造は、異世界転生ジャンルの階級社会のメタである。
+  quote: 探索者から競技選手に転向したファーガスト選手は『上』の皆さんにはお馴染みですが、『下』のマルガリータ選手はこちらにもあまり資料が無いんですよね
+  paragraph: p110
+  confidence: moderate
+  quotes:
+  - quote: 探索者から競技選手に転向したファーガスト選手は『上』の皆さんにはお馴染みですが、『下』のマルガリータ選手はこちらにもあまり資料が無いんですよね
+    paragraph: p110
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p73]]'
+  object: '[[ME_drafted_race_strategy]]'
+  claim: トップを走ること（先頭）が物語的な「逆転の布石」として不利になり、後方につけることが戦略的優位になる構造は、レースにおけるドラフティング（空気抵抗の回避）の物理法則に準拠している。
+  quote: プロレーサーにとってトップ選手を風除けに使うドラフティング技術は基本中の基本。しかし物語展開においてはここに逆転現象が生じる。
+  paragraph: p73
+  confidence: strong
+  quotes:
+  - quote: プロレーサーにとってトップ選手を風除けに使うドラフティング技術は基本中の基本。しかし物語展開においてはここに逆転現象が生じる。
+    paragraph: p73
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p245]]'
+  object: '[[ME_esports_commentary_slang]]'
+  claim: 観客のブーイングに含まれる「パチンカス」「八百長」「運営側の介入」などの罵声は、現代eスポーツやギャンブル競技における陰謀論的批評の模倣である。
+  quote: 「引っ込めレース荒らすな」「パチンカス呪術師は死ね」「レースしながら酒飲んでんじゃねえぞカス」
+  paragraph: p245
+  confidence: moderate
+  quotes:
+  - quote: 「引っ込めレース荒らすな」「パチンカス呪術師は死ね」「レースしながら酒飲んでんじゃねえぞカス」
+    paragraph: p245
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cleaner_identity_and_debt
+  note: クリーナーの素性不明と「魂を勝利にベットする」という過剰な賭け。彼が単なる博徒ではなく、運営側や裏組織（暗殺、八百長）と結託している可能性、あるいは巨大な負債・契約の存在を示唆。
+  quotes:
+  - quote: 「大いなる槍と我が祖たるペレケテンヌル、そして偶然を司るミクニーに誓って！　俺の魂を勝利にベットしてやるぜ！」
+    paragraph: p209
+    quote_verified: true
+  - quote: 暗殺が全部失敗しやがる、歓声と支持者も仕込みだなこりゃ
+    paragraph: p245
+    quote_verified: true
+  expected_payoff: クリーナーの正体（運営側の工作員か、裏社会のボスか）の判明。レース結果が偶然ではなく仕組まれたものであることの露見。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_birmeiya_last_lesson
+  note: 老指導者ビルメーヤが「最後の授業」と称して行う行動。体力の限界を悟った彼女が、リーナに何を伝え、自身の引退（または死）をどう迎えるのか。
+  quotes:
+  - quote: 「今から、それを教えて差し上げましょう。私の魂をかけて、最後の授業を始めます」
+    paragraph: p286
+    quote_verified: true
+  expected_payoff: ビルメーヤの壮絶なリタイア演出、またはリーナが彼女から継承する「真の空使い」としての心得。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_dust_mechanism
+  note: クリーナーの機体「ダスト」に内蔵されている「ミニチュアの遊戯盤」「双六」。これが単なる演出なのか、実際に世界改変レベルの呪術（ゲーム化）を発動させる触媒なのか。
+  quotes:
+  - quote: 嘴と鶏冠をイメージした白と赤の巨大な風防と一体化したガラスの中に収められていたのはミニチュアの遊戯盤。箒レースを戯画化したような、おもちゃのからくり。
+    paragraph: p225
+    quote_verified: true
+  expected_payoff: 「双六」による現実改変（ゲーム化）能力の詳細な発動条件と、それがもたらす異常現象。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_daouzaru_power_ceiling
+  note: ダウザールが「空使いの枠組み」に留まっている理由。彼が本気を出せば障害を全て破壊できる（p155）とされるため、なぜ制限をかけているのか。
+  quotes:
+  - quote: あくまでも空使いとして挑まれたからこそ基本的には競技と言う枠組みの中で相手をすることを選んでいるのだ。
+    paragraph: p156
+    quote_verified: true
+  expected_payoff: ダウザールの目的（誰かとの勝負、隠された試練）の露見、または彼が「勝つ」ために必要な唯一の条件（レース形式の完遂）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションとしてのゲームと物語の融合
+  weight: 0.9
+  quotes:
+  - quote: テキストベース・サーキットでは『描写の陳腐化』は減速に繋がります。
+    paragraph: p30
+    quote_verified: true
+  - quote: そう、競技者ではない観戦者の多くにとって、それはひとつの真理だった。誰もがその瞬間に理解した。クリーナーは競技者ではなく、博徒なのだ。
+    paragraph: p230
+    quote_verified: true
+  note: 「描写」がゲームの物理法則（速度）に影響し、「観客の評価」が世界を構成する要素になるという、メタ構造が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世代交代と技術の継承による進化論
+  weight: 0.7
+  quotes:
+  - quote: 空使いダウザールの天才性も、箒乗りパーンの革新性も、それらの偉業を大前提とした次の世代にとっては『教科書の要点』として認識、習得される。
+    paragraph: p46
+    quote_verified: true
+  - quote: ゆえに、伝説の乗り手であるダウザールやパーンよりも、そして数世代前の老選手ビルメーヤよりも、この場ではエンハとナックスが最も優れた箒乗りなのだ。
+    paragraph: p48
+    quote_verified: true
+  note: 個人の英雄伝説ではなく、体系化された技術の蓄積が最強を生むという構造（文明の進化）を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命論（博打）と自己決定（修行）の対立
+  weight: 0.6
+  quotes:
+  - quote: 戦略なき無謀は無意味です。怒りや焦りといった激情が、意思と選択に結び付いて初めて意味を持つように。
+    paragraph: p263
+    quote_verified: false
+  - quote: 「今日の俺は最高にツイてる」... 彼が見ているのは競い合う相手ではない。... 更に言えば、空使い選定レースそのものでもなかった。
+    paragraph: p184
+    quote_verified: false
+  note: ビルメーヤの「己の中の選択肢との対話」という主体性の重視と、クリーナーの「運（乱数）への投降」が対比されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 老いによる衰退と尊厳
+  weight: 0.5
+  quotes:
+  - quote: 操縦桿を握る老婆の細い手は震えている。疲労と苦痛が衰えた肉体に限界を伝えているのだ。
+    paragraph: p281
+    quote_verified: true
+  - quote: 「この世界では遅い者の姿は無様に映ります。... 先を往く者たちのあの浅ましさを」
+    paragraph: p268
+    quote_verified: false
+  note: 若者の栄光（技術の向上）と対照的に、老いた指導者が肉体の限界の中で「最後の授業」として何を遺すかという悲劇的テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,249 @@
+chapter: ch5186
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p3-p5]]'
+  object: '[[ME_CharacterCreation_RPG]]'
+  claim: ダーシェンカによる命名と形態付与は、ゲームにおけるキャラクター作成・クラス決定のプロセスを模している。
+  quote: '――貴方の名前は今日からマリー・スー。
+
+    突然村に現れた、とてもきらきらした女性。
+
+    彼女はダーシェンカと名乗ると、そう言って『かたち』を与えてくれた。'
+  paragraph: p3-p5
+  confidence: strong
+  quotes:
+  - quote: '――貴方の名前は今日からマリー・スー。
+
+      突然村に現れた、とてもきらきらした女性。
+
+      彼女はダーシェンカと名乗ると、そう言って『かたち』を与えてくれた。'
+    paragraph: p3-p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p21]]'
+  object: '[[ME_Bullying_School]]'
+  claim: 「真似っこしかできない馬鹿生物」という罵倒は、学校いじめにおける「模倣者（コピペ）」や「チート能力の正当性」への攻撃を反映している。
+  quote: 人里に降りた時、同じくらいの子供たちに『真似っこしかできない馬鹿生物』ってからかわれたのを思い出す。
+  paragraph: p21
+  confidence: moderate
+  quotes:
+  - quote: 人里に降りた時、同じくらいの子供たちに『真似っこしかできない馬鹿生物』ってからかわれたのを思い出す。
+    paragraph: p21
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p59]]'
+  object: '[[ME_School_System_Magic]]'
+  claim: 「候補（生徒）」と「姉妹（先生）」という構造は、魔法学校における上級生・教師が下級生を指導するシステムに似ている。
+  quote: 『候補』と『姉妹』――末妹候補が生徒で、キュトスの姉妹が先生だった。
+  paragraph: p59
+  confidence: strong
+  quotes:
+  - quote: 『候補』と『姉妹』――末妹候補が生徒で、キュトスの姉妹が先生だった。
+    paragraph: p59
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p64]]'
+  object: '[[ME_AR_Filter]]'
+  claim: 「流行ミーム」や「デザインミーム」が視覚的に現れる描写は、ARフィルターによる装飾やSNS上のトレンドの可視化を連想させる。
+  quote: 高級な服を着ていると、『流行ミーム』や『デザインミーム』が運動するらしい。不思議だと感じたのは、他の三人にはそういうものが私ほどはっきりと見えていないらしいと知った時だ。
+  paragraph: p64
+  confidence: moderate
+  quotes:
+  - quote: 高級な服を着ていると、『流行ミーム』や『デザインミーム』が運動するらしい。不思議だと感じたのは、他の三人にはそういうものが私ほどはっきりと見えていないらしいと知った時だ。
+    paragraph: p64
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p141]]'
+  object: '[[ME_Chat_Interface]]'
+  claim: 立体投影による文字入力と表示は、チャットアプリやSNSのタイムライン機能のメタファーである。
+  quote: 'つまり、端末に文字を打ち込んで立体投影するということだ。
+
+    私やジルがいるとき、話す時は文字を使う。'
+  paragraph: p141-p142
+  confidence: strong
+  quotes:
+  - quote: 'つまり、端末に文字を打ち込んで立体投影するということだ。
+
+      私やジルがいるとき、話す時は文字を使う。'
+    paragraph: p141-p142
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p131]]'
+  object: '[[ME_Gaming_Trolling]]'
+  claim: ホワイトの「全員でシメてやる」発言は、ゲームコミュニティにおける煽りや団結を促すチャット文化のパロディである。
+  quote: 『ホワイトから全員へ。ていうかホルケナウ組の奴ら絶対結託してやがりますぅ。こっちも全員でシメてやるのがいいと思いまーす』
+  paragraph: p131
+  confidence: strong
+  quotes:
+  - quote: 『ホワイトから全員へ。ていうかホルケナウ組の奴ら絶対結託してやがりますぅ。こっちも全員でシメてやるのがいいと思いまーす』
+    paragraph: p131
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p186]]'
+  object: '[[ME_Party_Formation]]'
+  claim: 「黒百合の子供たち」という集団名の結成と呪力上昇は、MMORPGにおけるパーティ編成とバフ効果の概念に該当する。
+  quote: 名前はもちろん『黒百合の子供たち』だ。集団名があった方が呪力が高まるのだと、使い魔の呪術に詳しいティールが教えてくれた。
+  paragraph: p186
+  confidence: strong
+  quotes:
+  - quote: 名前はもちろん『黒百合の子供たち』だ。集団名があった方が呪力が高まるのだと、使い魔の呪術に詳しいティールが教えてくれた。
+    paragraph: p186
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Gray_Gloves
+  note: グレーが両手にしている手袋は「風」や「波」を遮る素材で、マリーの黒衣と似ているが仲間ではない。その正体と目的が不明。
+  quotes:
+  - quote: どうしてか両手に手袋をしているのが不思議だった。私が着ている黒衣みたいに『風』や『波』を遮る素材でできているみたいで、もしかしたら私の仲間なのかなと思ったけど違うみたい。
+    paragraph: p117
+    quote_verified: true
+  expected_payoff: 手袋の真の用途（遮断装置か増幅器か）が明かされ、グレーの立場や過去との関連性が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Purple_Future_Prediction
+  note: パープル（ティエポロス）の未来予知能力が「時間操作呪術」に基づいていることが示唆されている。この能力の対抗策や制限条件が今後の鍵となる。
+  quotes:
+  - quote: よくホルケナウから星見の塔に行って、ビークレットお姉様のところで時間操作呪術を教わってるって
+    paragraph: p151
+    quote_verified: true
+  expected_payoff: ブラックやグレーなどが時系列干渉に対抗する手段を発見し、パープル戦の勝敗を分ける。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Virgil_Self_Destruct
+  note: クリア先生が「腐れヴァージリアは自爆でもしててください」と発言している。ヴァージリア（フルブライト？）の自爆能力とその危険性に関する伏線。
+  quotes:
+  - quote: あ、ヴァージリアは自爆でもしててください
+    paragraph: p182
+    quote_verified: true
+  expected_payoff: ヴァージリアの暴走や自己犠牲的な攻撃が物語の危機を招くか、解決のキーになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mary_Name_Marie_Soo
+  note: ダーシェンカによって「マリー・スー」という名前を与えられた意味と、その名の由来（魔女の影、卵）が今後のアイデンティティ確立に関わる。
+  quotes:
+  - quote: ――貴方の名前は今日からマリー・スー。
+    paragraph: p3
+    quote_verified: true
+  - quote: 魔女の影、その卵なのだと彼女は教えてくれた。
+    paragraph: p7
+    quote_verified: true
+  expected_payoff: 「マリー・スー」が真の魔女としての覚醒を促すトリガーとなるか、敵対勢力に狙われる理由になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語による社会統合とコミュニティ形成
+  weight: 0.9
+  quotes:
+  - quote: '名前を付けること。
+
+      それが一番はじめに人が覚える呪文なのだと、私はそうして学んだのだ。'
+    paragraph: p103-p104
+    quote_verified: true
+  - quote: '私やジルがいるとき、話す時は文字を使う。
+
+      ティールの『葉っぱの伝言板』と同時期にできた、私たちのルールだった。'
+    paragraph: p142-p143
+    quote_verified: true
+  note: 名前（号）によるアイデンティティの付与と、チャット的な文字コミュニケーションが孤立した個を「黒百合の子供たち」という集団へ変容させる過程を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 模倣と個性の確立（自我の形成）
+  weight: 0.8
+  quotes:
+  - quote: 自分ではよくわからないけれど、摸倣先が二つに増えて『個我』が強固になったとかなんとか。
+    paragraph: p9
+    quote_verified: true
+  - quote: 「真似っこしかできない馬鹿生物」ってからかわれたのを思い出す。
+    paragraph: p21
+    quote_verified: false
+  note: 他者の模倣（ミーム）から始まった存在が、集団内での役割分担や独自の名前を得ることで「個我」を確立していく成長の物語。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的競争と協力（パーティプレイのメタファー）
+  weight: 0.7
+  quotes:
+  - quote: 黒百合の子供たち」という集団名があった方が呪力が高まる
+    paragraph: p186
+    quote_verified: false
+  - quote: その時、同じくそれまで息をひそめていた黒き兎が、無防備になった攻撃の瞬間を狙って必殺の一撃をお見舞いした。
+    paragraph: p191
+    quote_verified: true
+  note: 単独行動から戦略的連携（タンク、アタッカー、索敵）への移行と、裏切りを含む勝敗通過が、マルチプレイゲームの体験構造に重なる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 喪失からの再生（ベアトリーチェとの関係修復）
+  weight: 0.6
+  quotes:
+  - quote: 貴方が失った何かを取り戻す為に
+    paragraph: p34
+    quote_verified: true
+  - quote: ビーチェともう会えないのはもっと怖かった。
+    paragraph: p48
+    quote_verified: true
+  note: マリーが「妹（ベアトリーチェ）」との喪失した関係を取り戻すために学校へ通う動機と、ブラックへの依存（妹の代償）が主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

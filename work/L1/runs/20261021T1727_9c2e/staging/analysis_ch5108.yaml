@@ -1,0 +1,254 @@
+chapter: ch5108
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 6
+  themes: 4
+  quotes_verified: 21
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5108_キロン_teleports_アキラ_p8]]'
+  object: '[[ME_game_bug_glitch]]'
+  claim: キロンの空間操作による移動不能は、ゲームにおける位置情報バグ（テレポート失敗や壁に埋まる現象）をメタファーとして描いている。
+  quote: 俺は同じ地点から同じ地点へと跳躍していた。
+  paragraph: p8
+  confidence: moderate
+  quotes:
+  - quote: 俺は同じ地点から同じ地点へと跳躍していた。
+    paragraph: p8
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5108_神働術_defines_聖人のエピソード摸倣_p72]]'
+  object: '[[ME_nft_metadata_speculation]]'
+  claim: 聖人のエピソードを模倣して力を得る行為は、デジタルな属性（アトリビュート）やNFTのメタデータに基づいて価値や権限を付与する現代的な構造に似ている。
+  quote: 過去の聖人のエピソードを摸倣し、その性質を自らに重ねて自己を強化する術なのだと二人の魔女は説明していた。
+  paragraph: p72
+  confidence: weak
+  quotes:
+  - quote: 過去の聖人のエピソードを摸倣し、その性質を自らに重ねて自己を強化する術なのだと二人の魔女は説明していた。
+    paragraph: p72
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5108_ウィッチオーダー_functions_as_神話摸倣者_p113]]'
+  object: '[[ME_ai_learning_model]]'
+  claim: ウィッチオーダーが既存の伝承をエミュレートし、外装を変換して機能させる様子は、大量のデータから学習・模倣して出力するAIモデル（LLM等）のアナロジーである。
+  quote: 伝承を再現する為のエミュレーターにしてコンバージョンキット。幾多の神話を内包したオールインワン
+  paragraph: p111
+  confidence: strong
+  quotes:
+  - quote: 伝承を再現する為のエミュレーターにしてコンバージョンキット。幾多の神話を内包したオールインワン
+    paragraph: p111
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5108_ウィッチ_order_functions_as_神話摸倣者_p113]]'
+  object: '[[ME_digital_manufacturing_resin_printing]]'
+  claim: 「合成樹脂」「硬化剤」「模型のキットを成型する」といった記述は、現代的な光造形（SLA）や樹脂3Dプリント技術による製造プロセスを指している。
+  quote: 掌握者権限という名の合成樹脂が俺の意思という硬化剤と混合され、化学反応を起こして固体となっていく。
+  paragraph: p106
+  confidence: strong
+  quotes:
+  - quote: 掌握者権限という名の合成樹脂が俺の意思という硬化剤と混合され、化学反応を起こして固体となっていく。
+    paragraph: p106
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5108_アキラ_other_キロン_p125]]'
+  object: '[[ME_fps_game_hitbox_mechanics]]'
+  claim: 距離を短縮して攻撃を命中させる「縮地」は、オンラインゲームにおけるラグ補完やヒットボックスの歪み（ラガー・ヒトラー）の物理的再現に見える。
+  quote: 左手の能力が発動し、キロンと俺の間にあった距離を短縮してあたかも近距離の相手を殴るように攻撃を命中させたのである。
+  paragraph: p127
+  confidence: moderate
+  quotes:
+  - quote: 左手の能力が発動し、キロンと俺の間にあった距離を短縮してあたかも近距離の相手を殴るように攻撃を命中させたのである。
+    paragraph: p127
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5108_ウィッチオーダー_defines_七十一姉妹の能力参照_p98]]'
+  object: '[[ME_smartphone_app_ecosystem]]'
+  claim: 71種類の能力を個別に参照し、状況に応じて機能を切り替えるウィッチオーダーは、スマホにおけるアプリのインストール・実行（API呼び出し）と構造的に一致する。
+  quote: キュトスの七十一姉妹全ての能力を個別に参照し、それに応じた能力を発動させるというものである。
+  paragraph: p98
+  confidence: moderate
+  quotes:
+  - quote: キュトスの七十一姉妹全ての能力を個別に参照し、それに応じた能力を発動させるというものである。
+    paragraph: p98
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5108_ウィッチ_order_functions_as_神話摸倣者_p113]]'
+  object: '[[ME_open_source_license_viral_infection]]'
+  claim: 「手段を選ばぬ最悪の盗作者」としてあらゆる形態を駆逐する様子は、既存コード（伝承）を利用しつつ派生を作るオープンソースライセンスやウイルス的拡散の構造を想起させる。
+  quote: ありとあらゆる形態で敵対者を駆逐する、手段を選ばぬ最悪の盗作者。その手数は、総計七十一本。
+  paragraph: p113
+  confidence: weak
+  quotes:
+  - quote: ありとあらゆる形態で敵対者を駆逐する、手段を選ばぬ最悪の盗作者。その手数は、総計七十一本。
+    paragraph: p113
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_divine_relic_auto_recovery
+  note: コルセスカ戦で破壊されたはずの神滅具が、少年達（コルセスカ）の姿を取らずにキロンの下に完全な状態で集結した。自動修復機能か、別の修復手段があるのか不明。
+  quotes:
+  - quote: コルセスカとの戦闘で確かに破壊されたはずだが、修復する手段があったのか、それともあの呪具は自動で修復する機能を有していたのか。
+    paragraph: p6
+    quote_verified: true
+  expected_payoff: 神滅具の再生原理が明かされ、キロンの不死性や世界槍システムとの関連性が判明する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_unconscious_ability
+  note: アキラは「機能が多すぎて全部把握し切れてない」と述べ、キロンに「何をしたのか」を聞かれている。彼自身が認識していない無意識の能力（右腕や左手の一部機能）が戦闘を有利に進めている。
+  quotes:
+  - quote: さあ、何をしたんだと思う？　なにしろ機能が多すぎてな。俺もまだ全部把握し切れてない
+    paragraph: p61
+    quote_verified: true
+  expected_payoff: アキラの能力の本質（世界槍との接続方法や制御限界）が後々明かされ、暴走リスクや制約条件として描かれる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kiron_space_mastery_speed
+  note: キロンの空間操作能力は「たった一晩で熟練の域に達していた」とされる。転生者としての適応速度が異常に早い理由や、彼が何を学習したのかの伏線。
+  quotes:
+  - quote: キロンの空間操作はたった一晩で熟練の域に達していた。
+    paragraph: p26
+    quote_verified: true
+  expected_payoff: キロンがアキラや魔女たちの能力を解析・学習したプロセス（ハッキング的な要素）が明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_witch_order_emulator_limit
+  note: ウィッチオーダーは71人の魔女の能力をエミュレートするが、アキラ自身が「見知らぬ世界の見知らぬ神話から幻想を引喩して力に変える」と述べている。この「引喩（アリュージョン）」プロセスのリスクや限界。
+  quotes:
+  - quote: 俺は見知らぬ世界の見知らぬ神話から、未知なる幻想を引喩（アリュージョン）して自らの力に変える。
+    paragraph: p115
+    quote_verified: true
+  expected_payoff: エミュレートした魔女の人格や記憶の影響を受ける、あるいは「引喩」の失敗による精神汚染・暴走が発生する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kiron_teleport_recovery_limit
+  note: キロンは致命的な爆発を受けても瞬間移動と超回復で無傷になり、余裕を見せない。「余裕ではない」という表情の裏にある制限や代償。
+  quotes:
+  - quote: 瞬間移動と超回復、その二つの絶技を同時にこなしておきながら、その表情に浮かぶのは余裕ではない。
+    paragraph: p55
+    quote_verified: true
+  expected_payoff: キロンの回復能力が無限ではなく、回数制限や精神力消耗などによる限界が存在する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_shakthi_prediction_limit
+  note: 64番「漆黒のシャクティ」はあらゆる時空を見透かす能力だが、キロンはそれを「容易く先読み」して戦輪を破壊した。予測不能な動きへの耐性を持つキロンの正体（転生者としての知識）。
+  quotes:
+  - quote: 高速で自動回避を行う戦輪の動きを容易く先読みしたのだ。俺の額を、嫌な汗が伝っていく。
+    paragraph: p153
+    quote_verified: true
+  expected_payoff: キロンがアキラのウィッチオーダーの仕様（データ）を事前に知っている、あるいはより上位の視座を持つことが示唆される伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「模倣」と「オリジナル」の境界の消失
+  weight: 0.9
+  quotes:
+  - quote: 俺は見知らぬ世界の見知らぬ神話から、未知なる幻想を引喩（アリュージョン）して自らの力に変える。
+    paragraph: p115
+    quote_verified: true
+  - quote: 合成樹脂の神話摸倣者（レジンキャストエピゴーネン）。ありとあらゆる形態で敵対者を駆逐する、手段を選ばぬ最悪の盗作者。
+    paragraph: p113
+    quote_verified: true
+  note: ウィッチオーダーが既存の伝承を「エミュレート」し、「コンバージョン」して機能させる様子は、現代のデジタル文化におけるコピー・リミックス・パロディの本質を突いている。オリジナルが存在しない（すべてが引用である）世界での戦い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的抽象化と物理法則の無効化
+  weight: 0.8
+  quotes:
+  - quote: それはさながらトリックアートの戦場だった。一瞬で距離を詰め、直後に逃げられてしまうという繰り返し。
+    paragraph: p135
+    quote_verified: true
+  - quote: 間合いの概念は消失する。高速の突撃と離脱、零距離からの寸打と遠間からの刺突が交錯していく。
+    paragraph: p133
+    quote_verified: true
+  note: 空間操作（縮地）により、物理的な距離・慣性・重力といった現実の法則がゲーム的な「ヒットボックス判定」や「瞬間移動」に置き換わっている。戦闘が肉体勝負から情報処理勝負へ変質している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 資源としての世界（リソースマイニング）
+  weight: 0.7
+  quotes:
+  - quote: 第五階層に住まう者に例外なく与えられる、共通のリソース。物質の創造能力――正確には、世界槍という小世界を掌握し、改変する能力である。
+    paragraph: p104
+    quote_verified: true
+  - quote: 今や第五階層そのものが俺の左手を再現する材料だった。
+    paragraph: p105
+    quote_verified: true
+  note: アキラが世界（迷宮・地面）を分解して自分の武器（左手）に変換する描写は、デジタル空間におけるデータ抽出や生成AIによる素材利用のメタファーであり、「世界そのものが資源」というテーマを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 知識の不足と能力の過剰
+  weight: 0.6
+  quotes:
+  - quote: さあ、何をしたんだと思う？　なにしろ機能が多すぎてな。俺もまだ全部把握し切れてない
+    paragraph: p61
+    quote_verified: true
+  - quote: 現状は単に予想外のこちらの奮闘にキロンが攻めあぐねているだけであって、決して俺が優位というわけではない。
+    paragraph: p155
+    quote_verified: true
+  note: 圧倒的な力を手にしながらも、その全容を把握しきれていない主人公の不安定さ。「使いこなせていないチート能力」という転生ジャンル特有の葛藤が、冷徹な戦闘分析によって浮き彫りになっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

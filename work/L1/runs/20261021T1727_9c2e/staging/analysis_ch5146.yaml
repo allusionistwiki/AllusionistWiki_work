@@ -1,0 +1,214 @@
+chapter: ch5146
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_mirunya_ability]]'
+  object: '[[ME_gacha_game_self_harm]]'
+  claim: ミルーニャが自ら爪を剥ぐ行為は、ガチャの演出（自傷や苦痛を伴う召喚）をメタ的に風刺し、その代償の過激さを強調する。
+  quote: ミルーニャが、自ら左手中指の爪を剥がしていたのである。べりべりと引き剥がされていく生爪から血が滴り、生み出される壮絶な痛みがミルーニャの額に汗を浮かばせ、歯を軋らせている。
+  paragraph: p156
+  confidence: strong
+  quotes:
+  - quote: ミルーニャが、自ら左手中指の爪を剥がしていたのである。べりべりと引き剥がされていく生爪から血が滴り、生み出される壮絶な痛みがミルーニャの額に汗を浮かばせ、歯を軋らせている。
+    paragraph: p156
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_mirunya_ability]]'
+  object: '[[ME_inventory_management_game]]'
+  claim: ミルーニャの能力は、RPGにおける「インベントリからアイテムを取り出す」動作を、物理的な身体損傷を伴う儀式として再構成している。
+  quote: これがミルーニャに使える唯一の邪視――痛覚を引き金にして内的宇宙と接続する、変則的な【扉（ハイパーリンク）】の呪術。ミルーニャの工房（アトリエ）にして大倉庫、そして【アルタネイフ呪具百貨】の品揃え、ご覧あれ！
+  paragraph: p184
+  confidence: explicit
+  quotes:
+  - quote: これがミルーニャに使える唯一の邪視――痛覚を引き金にして内的宇宙と接続する、変則的な【扉（ハイパーリンク）】の呪術。ミルーニャの工房（アトリエ）にして大倉庫、そして【アルタネイフ呪具百貨】の品揃え、ご覧あれ！
+    paragraph: p184
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_priestera_killing]]'
+  object: '[[ME_shonen_rage_trope]]'
+  claim: プリエステラの執拗な止め刺しは、少年漫画やアニメにおける「復讐の遂行」や「怒りの爆発」というクリシェを、現実的な暴力の残虐性として描き直している。
+  quote: それはもう、死体を不必要なまでに痛めつけるような打撃の嵐。恨みの発散、復讐の遂行、喪の儀礼――それは合理的な死亡確認を超えた、儀式的な殺戮と言えた。
+  paragraph: p230
+  confidence: moderate
+  quotes:
+  - quote: それはもう、死体を不必要なまでに痛めつけるような打撃の嵐。恨みの発散、復讐の遂行、喪の儀礼――それは合理的な死亡確認を超えた、儀式的な殺戮と言えた。
+    paragraph: p230
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_monster_design]]'
+  object: '[[ME_sense_of_vision]]'
+  claim: 一般的な「邪視（見られることで発動する呪い）」の概念を、「触れる・味わう」という味覚/触覚へと置換し、視覚中心の恐怖を解体している。
+  quote: 舌獣、あるいは舐舌獣イキュー。イキューというのはリクシャマーの言葉で『舌』を意味する。奴の舌は目であり手でありそして脳でもある。イキューは舌で知覚し舌で思考する。
+  paragraph: p34
+  confidence: strong
+  quotes:
+  - quote: 舌獣、あるいは舐舌獣イキュー。イキューというのはリクシャマーの言葉で『舌』を意味する。奴の舌は目であり手でありそして脳でもある。イキューは舌で知覚し舌で思考する。
+    paragraph: p34
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_battle_phase_1]]'
+  object: '[[ME_trash_mob_defeat]]'
+  claim: 序盤の修道騎士たちの惨敗は、主人公パーティが到着する前に既存勢力（NPC/下位者）が全滅することで、主人公たちの優位性およびモンスターの危険度を底上げする典型的な導入構造を持つ。
+  quote: 三人の修道騎士たちに、戦う力はもはや残されていない。待つのは死のみ。この場に、誰も介入しなければ。
+  paragraph: p72-p73
+  confidence: moderate
+  quotes:
+  - quote: 三人の修道騎士たちに、戦う力はもはや残されていない。待つのは死のみ。この場に、誰も介入しなければ。
+    paragraph: p72-p73
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_mirunya_sadism]]'
+  object: '[[ME_masochism_trope]]'
+  claim: ミルーニャの自傷と被虐趣味は、異世界転生作品における「変態キャラ」や「マゾヒズム」という属性を、戦闘システム（リソース管理）と結びつけて機能させている。
+  quote: 「アズーリア様の侮蔑の視線が辛気持ちいいですぅ♪　もっとミルーニャを蔑んで！　ああ、でも駄目、嫌いになって欲しくないですー！！」
+  paragraph: p194
+  confidence: strong
+  quotes:
+  - quote: 「アズーリア様の侮蔑の視線が辛気持ちいいですぅ♪　もっとミルーニャを蔑んで！　ああ、でも駄目、嫌いになって欲しくないですー！！」
+    paragraph: p194
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ikyu_true_form
+  note: イキューの「舌」が本体なのか、寄生生物との共生関係なのかという生態的不明点。
+  quotes:
+  - quote: それ自体がイキューの本体だったのか。それとも、あれは寄生生物のようなものであの白い胴体と共生関係にあったのか。正確な事はわからない。
+    paragraph: p236
+    quote_verified: true
+  expected_payoff: 今後の戦闘でイキューの真の弱点（舌の分離性など）を突く展開、あるいはより巨大な個体の出現による恐怖の増幅に使用される可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_mirunya_finger_cost
+  note: ミルーニャが爪を剥ぐ行為の代償（永続的な損傷、魔力の枯渇、精神汚染）が明示されていない。
+  quotes:
+  - quote: 自ら左手中指の爪を剥がしていたのである。べりべりと引き剥がされていく生爪から血が滴り、生み出される壮絶な痛みがミルーニャの額に汗を浮かばせ、歯を軋らせている。
+    paragraph: p156
+    quote_verified: true
+  expected_payoff: ミルーニャが戦闘後に重度の後遺症を負うか、この能力使用頻度の上昇により彼女の精神的安定性が崩壊する伏線となる可能性がある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ikyu_survival
+  note: 死体から舌が分離・再生し反撃に出る「油断」の構造。
+  quotes:
+  - quote: 完全に動かなくなった筈の死体の中から、長く太いものが蛇のようにしなやかに、それでいて素早く這いだしたかと思うと、一瞬にして高く飛び上がった。
+    paragraph: p234
+    quote_verified: true
+  expected_payoff: イキューが「殺されたはずの個体」から分裂して逃走・再生する能力を持ち、主人公パーティを分断・各個撃破する展開への転換点となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_harbert_role
+  note: ハルベルトが「手出ししない」という姿勢を保ちながら回復役として機能していることの不自然さ。
+  quotes:
+  - quote: 基本的に手出ししないという姿勢は徹底しているが、仮想の使い魔を呼び出して負傷した三人の修道騎士たちを離れた場所に避難させようとしていた。
+    paragraph: p82
+    quote_verified: true
+  expected_payoff: ハルベルトの「見守る」スタンスが、最終的な裏切りや、彼自身の隠された目的（イキューとの関係性など）の発覚に繋がる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メカニクス（インベントリ・召喚）を、身体的苦痛と倫理的逸脱という「現実的な代償」へ翻訳するメタフィクション。
+  weight: 0.9
+  quotes:
+  - quote: これがミルーニャに使える唯一の邪視――痛覚を引き金にして内的宇宙と接続する、変則的な【扉（ハイパーリンク）】の呪術。
+    paragraph: p184
+    quote_verified: true
+  - quote: 「アズーリア様の侮蔑の視線が辛気持ちいいですぅ♪　もっとミルーニャを蔑んで！」
+    paragraph: p194
+    quote_verified: false
+  note: 通常の異世界作品では簡易化される「アイテム取り出し」を、グロテスクな自傷と被虐のセットで描くことで、ジャンルへの批判的視点（リソースの代償）を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「勝利」の定義に対する問いかけ：合理的な殲滅と感情的な殺戮の境界線が、致命的な油断を招く構造的欠陥。
+  weight: 0.8
+  quotes:
+  - quote: プリエステラは、執拗なまでに止めを刺し続けた。念には念を入れて何度も何度も。それはもう、死体を不必要なまでに痛めつけるような打撃の嵐。
+    paragraph: p230
+    quote_verified: true
+  - quote: だから、それが油断だなんて、その時の私には微塵も思えなかった。
+    paragraph: p232
+    quote_verified: true
+  note: プリエステラの復讐的動機が「勝利」を定義しきれず、結果としてパーティの壊滅（ミルーニャの死）を招くという、感情論と生存戦略の衝突を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 知覚の暴力：視覚中心の世界観に対する「味覚/触覚」による侵食と恐怖。
+  weight: 0.7
+  quotes:
+  - quote: イキューは舌で知覚し舌で思考する。脳は退化し、殆ど舌と同化しているのだ。胃袋に直接繋がっているというが、実のところ消化というプロセスさえ味を感じるという欲求の前には些事でしかない。
+    paragraph: p34
+    quote_verified: true
+  - quote: 異形の生物は、歓喜するように宙を踊りながらその味を舌で受け止めた。
+    paragraph: p245
+    quote_verified: true
+  note: 「見る」ことによる支配（邪視）ではなく、「触れる・味わう」ことによる支配という、より原始的で生理的な恐怖のメタファー。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 集団の崩壊と個人主義の対比：プリエステラの感情優先行動がパーティ全体を破綻させるプロセス。
+  weight: 0.6
+  quotes:
+  - quote: 「くらえ、父の仇っ」旋回する杖先が、十分な加速をつけてイキューの胴体に叩きつけられる。
+    paragraph: p93-p95
+    quote_verified: true
+  - quote: 五人が集まって喜びを分かち合おうとしたその時。完全に動かなくなった筈の死体の中から、長く太いものが蛇のようにしなやかに、それでいて素早く這いだしたかと思うと、一瞬にして高く飛び上がった。
+    paragraph: p233-p234
+    quote_verified: true
+  note: プリエステラの個人的な恨み（父の仇）が戦闘を有利に進めた一方、その感情的な過剰さが最終的な敗北要因となる皮肉。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

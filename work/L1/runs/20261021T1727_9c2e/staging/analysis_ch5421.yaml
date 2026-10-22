@@ -1,0 +1,272 @@
+chapter: ch5421
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 6
+  themes: 5
+  quotes_verified: 22
+  quotes_total: 24
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_3600秒後の開戦]]'
+  object: '[[ME_real_time_game_mechanic]]'
+  claim: 現実の時間経過を厳密に管理し、指定時刻にイベントが発生する仕組みは、リアルタイム戦略ゲームやMMORPGのサーバーイベントに近い。
+  quote: 戦いが始まったのは、それからきっかり3600秒（一時間）後のことだった。
+  paragraph: p2
+  confidence: moderate
+  quotes:
+  - quote: 戦いが始まったのは、それからきっかり3600秒（一時間）後のことだった。
+    paragraph: p2
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_第七識と末那識の覚醒]]'
+  object: '[[ME_buddhist_yogacara_philosophy]]'
+  claim: 「第七識」「末那識」という用語は仏教の瑜伽行派（唯識思想）における八識説を直接参照しており、自我の根源としての我執を戦闘能力の源泉として再定義している。
+  quote: 紀人に至るとは、すなわち末那識（セブンス・センス）に目覚めた証。自己を規定する我執と煩悩、すなわち生きるという苦痛と欲望を煮詰めた自我そのもの。
+  paragraph: p58-p59
+  confidence: explicit
+  quotes:
+  - quote: 紀人に至るとは、すなわち末那識（セブンス・センス）に目覚めた証。自己を規定する我執と煩悩、すなわち生きるという苦痛と欲望を煮詰めた自我そのもの。
+    paragraph: p58-p59
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_地下アイドルリールエルバへの崇拝]]'
+  object: '[[ME_idol_wotagee_culture]]'
+  claim: ファンの光る棒（サイリウム）と熱狂的な推し行為が、宗教的信仰や欲望の燃料電池として機能する構造は、現代のアイドルオタク文化を異世界の魔力システムへ転換した風刺である。
+  quote: 中級のシナモリアキラ吸血鬼たちは地下アイドルリールエルバのファンとして、光る棒きれを手に熱狂する豚だった。
+  paragraph: p55
+  confidence: strong
+  quotes:
+  - quote: 中級のシナモリアキラ吸血鬼たちは地下アイドルリールエルバのファンとして、光る棒きれを手に熱狂する豚だった。
+    paragraph: p55
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_カーインの六人分裂]]'
+  object: '[[ME_traditional_chinese_medicine_theory]]'
+  claim: 「天人相応」「経絡臓腑の小宇宙」という概念は、東洋医学における人体と自然界の対応関係（五運六気・六淫）を物理的な分身生成能力として実装している。
+  quote: 天人相応。経絡臓腑の小宇宙に六気が通じれば、天の六候は人の六淫に転ず――ならばその逆も然り。
+  paragraph: p161
+  confidence: explicit
+  quotes:
+  - quote: 天人相応。経絡臓腑の小宇宙に六気が通じれば、天の六候は人の六淫に転ず――ならばその逆も然り。
+    paragraph: p161
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_シナモリアキラのフェイクニュースによる転向]]'
+  object: '[[ME_social_media_cancel_culture]]'
+  claim: 捏造されたゴシップ（フェイクニュース）によって即座に信仰が反転しアンチ化するという現象は、SNSにおける炎上やキャンセル文化のメカニズムをゲーム的戦闘戦略として利用している。
+  quote: カーインは指先からフェイクニュースを伝達させ、捏造したリールエルバのゴシップを豚アキラの脳に刻み込んだのだった。欲望に塗れた信仰心は裏返り、一瞬にして彼らはリールエルバのアンチと化す。
+  paragraph: p71
+  confidence: strong
+  quotes:
+  - quote: カーインは指先からフェイクニュースを伝達させ、捏造したリールエルバのゴシップを豚アキラの脳に刻み込んだのだった。欲望に塗れた信仰心は裏返り、一瞬にして彼らはリールエルバのアンチと化す。
+    paragraph: p71
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_魔竜の正体]]'
+  object: '[[ME_cholera_epidemic_history]]'
+  claim: 「黄火疫（コレラ）」という宣名と、下痢・脱水による死を象徴する怪物性は、歴史的なパンデミックをモンスターデザインとして具現化している。
+  quote: 我が名は『黄火疫（コレラ）』。熱と乾きの王、黄色胆汁の悪夢、荒々しき黄炎の死。糞便を手足に塗りたくる古のサイバーカラテが相手をしてやるよ、ロウ・カーイン。下痢発勁による脱水で死ね
+  paragraph: p113
+  confidence: explicit
+  quotes:
+  - quote: 我が名は『黄火疫（コレラ）』。熱と乾きの王、黄色胆汁の悪夢、荒々しき黄炎の死。糞便を手足に塗りたくる古のサイバーカラテが相手をしてやるよ、ロウ・カーイン。下痢発勁による脱水で死ね
+    paragraph: p113
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ミヒトネッセのカード具現化]]'
+  object: '[[ME_mobile_game_gacha_system]]'
+  claim: カードから光の粒子が飛び出し装備（ブーツ）が具現化する描写は、スマホゲームにおけるガチャ演出やカードバトルシステムのUI/UXを物理現象として描写したものである。
+  quote: 人形の手にはカードが一枚。『足』を飾るためのカードからブーツの情報が光の粒子となって飛び出して、ミヒトネッセの足を覆いながら具現化した。
+  paragraph: p218
+  confidence: strong
+  quotes:
+  - quote: 人形の手にはカードが一枚。『足』を飾るためのカードからブーツの情報が光の粒子となって飛び出して、ミヒトネッセの足を覆いながら具現化した。
+    paragraph: p218
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Jaffarim_Yelaid_Policy
+  note: トリシューラが非戦闘員を第六階層（イェレイドの傍）へ逃がした論理。ジャッフハリムやイェレイドが人道支援を拒否できない構造が、後の政治的展開でどう機能するか。
+  quotes:
+  - quote: 伝染病の流行と武力抗争による難民の発生。人道支援と難民救援の名目があればジャッフハリムはそれを拒否することはできない。とりわけジャッフハリムそのものであるイェレイドはね。
+    paragraph: p29
+    quote_verified: true
+  expected_payoff: イェレイド側の介入や、ジャッフハリムの政治的圧力による停戦交渉の引き金になる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Carain_Six_Divisions_Stability
+  note: カーインが六人の分身（風、寒、暑、湿、燥、火）に分裂し戦う。この状態が維持されるのか、それとも一つの個体に戻るか、あるいは代償を払うか。
+  quotes:
+  - quote: 「天人相応。経絡臓腑の小宇宙に六気が通じれば、天の六候は人の六淫に転ず――ならばその逆も然り。さて、よもや今更これを卑怯とは言うまいな？」
+    paragraph: p161
+    quote_verified: true
+  expected_payoff: カーイン自身の身体への負担（熱中症、低体温症等）による戦闘不能化、または「燥」のカーインが本体と融合する過程でのドラマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Milunya_Neara_Absence
+  note: リーナが「ニアちゃんが突っ走っていっちゃった」と言及しており、猫姫ニアの行方が不明。彼女が魔竜やシナモリアキラの弱点（ネズミ捕り？）に関わる可能性。
+  quotes:
+  - quote: てゆーかその、ニアちゃんが突っ走っていっちゃったから追いかけるの手伝って欲しいなーって。
+    paragraph: p194
+    quote_verified: true
+  expected_payoff: ニアが魔竜の急所（ネズミ捕りの罠など）を破壊する、またはシナモリアキラにさらわれた救援劇。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Lacrarul_Cradle_Summoning
+  note: コルセスカとちびシューラの会話で、ラクルラールが第五階層を「祭壇（クレイドル）」として準備しており、決着直後に「三番目」がトライデント降臨する計画が語られている。
+  quotes:
+  - quote: この戦いを囮にしてまず間違いなくラクルラールが裏で動いてるだろうね。どちらが勝っても、決着直後に『三番目』がトライデント降臨を仕掛けてくるはず
+    paragraph: p261
+    quote_verified: true
+  expected_payoff: 魔竜戦の勝利直後、または敗北直後に「三番目」の巨大な敵対勢力が出現する展開への移行。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rlelba_Card_Design
+  note: ミヒトネッセがトリシューラのカード「鉄のスリッパ」を奪って装備した。「手癖の悪い女」と呼ばれるほどの盗み方。このカードの効果（魔竜への有効性）は？
+  quotes:
+  - quote: 対魔竜用の決戦兵装『鉄のスリッパ』――『鉄』の位階にある装甲板を仕込んだ砂色のコンバットブーツは、侍女のエプロンドレスと奇妙に噛み合っていた。
+    paragraph: p220
+    quote_verified: true
+  expected_payoff: 魔竜（ネズミ）を物理的に踏み潰す演出、またはカードの所有権をめぐるトリシューラとミヒトネッセの対立が解決へ向かう過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Koleska_Dream_Slipper
+  note: コルセスカが巨大スリッパで夢界を飛んでいる。この「スリッパ」がシナモリアキラ（ネズミ）の巣窟である夢界においてどのような意味を持つ武器となるか。
+  quotes:
+  - quote: そのさまはさながら汚いネズミを叩き殺す為に投げつけられたスリッパのように勇壮だった。
+    paragraph: p268
+    quote_verified: true
+  expected_payoff: シナモリアキラの頂点に立つ存在（コウモリの少女）への一撃、または夢界のルールを書き換えるキーアイテム。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 欲望と信仰の脆弱性：自己愛（我執）に基づくアイデンティティは外部からの些細な刺激（フェイクニュース、ゴシップ）で容易に崩壊し、敵対化しうる。
+  weight: 0.85
+  quotes:
+  - quote: 欲望に塗れた信仰心は裏返り、一瞬にして彼らはリールエルバのアンチと化す。女王を支持する呪力はその名誉を貶める怨嗟に反転した。
+    paragraph: p71
+    quote_verified: true
+  - quote: 自己を規定する我執と煩悩、すなわち生きるという苦痛と欲望を煮詰めた自我そのもの。紀人を、意識の先に至ってなお人のままの存在たらしめる弱さ。
+    paragraph: p59
+    quote_verified: true
+  note: シナモリアキラの弱点が「我執」であり、カーインがそれを情報操作で突く戦法は、アイデンティティ政治やネット世論の脆さを象徴する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人体と宇宙の照応：内なる小宇宙（臓腑・経絡）と外なる大宇宙（自然現象・季節）は同型であり、その制御が戦闘力の源泉となる。
+  weight: 0.75
+  quotes:
+  - quote: 天人相応。経絡臓腑の小宇宙に六気が通じれば、天の六候は人の六淫に転ず――ならばその逆も然り。
+    paragraph: p161
+    quote_verified: true
+  - quote: なるほど、錬金術師や占星術師の理屈と同じなんだね。自然界の摂理と人体の摂理は同じもの。体内の小宇宙で変容させた瘴気を外宇宙と照応させているんだ
+    paragraph: p168
+    quote_verified: true
+  note: 東洋医学・錬金術・占星術の「天人相応」思想を、魔法システムとして実装するメタフィクション的側面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 消費文化と偶像の暴力：アイドル崇拝はファンを燃料電池（豚）として搾取し、その欲望のエネルギーが怪物化・魔竜化のトリガーとなる。
+  weight: 0.8
+  quotes:
+  - quote: 中級のシナモリアキラ吸血鬼たちは地下アイドルリールエルバのファンとして、光る棒きれを手に熱狂する豚だった。アキラは踊り、荒ぶることでその信仰を女王に捧げる、欲望の燃料電池である。
+    paragraph: p55
+    quote_verified: false
+  - quote: 私たち三百三十三人が相手よ、新人アイドルさん。私たちの頂点に立つあのお方に挑みたければ、私たちシナモリアキラとライブバトルをしてランキングを駆け上がることね！
+    paragraph: p278
+    quote_verified: true
+  note: 推し活やオタク文化が、個人を消費対象（燃料）へ退化させ、集団的狂気へと昇華させる構造への批判的視座。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 災厄の擬人化と公衆衛生：コレラのような疫病は「竜」や「魔」として描かれるが、その実体は脱水と下痢という生理現象であり、神話的恐怖は医学的現実によって解体される。
+  weight: 0.6
+  quotes:
+  - quote: 我が名は『黄火疫（コレラ）』。熱と乾きの王、黄色胆汁の悪夢、荒々しき黄炎の死。糞便を手足に塗りたくる古のサイバーカラテが相手をしてやるよ、ロウ・カーイン。下痢発勁による脱水で死ね
+    paragraph: p113
+    quote_verified: true
+  - quote: 失禁したのは尿ではない。大量の白い下痢だった。
+    paragraph: p84
+    quote_verified: true
+  note: ファンタジー的な「魔竜」が、実は伝染病（コレラ）の擬人化であり、医療的・衛生学的知識が対抗手段（カーインの六淫操作）となる構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メカニクスの世界実装：カード、ガチャ、リアルタイムイベント、ランキングバトルといったゲームUI/UXが、世界の物理法則や社会システムとして統合されている。
+  weight: 0.9
+  quotes:
+  - quote: 戦いが始まったのは、それからきっかり3600秒（一時間）後のことだった。
+    paragraph: p2
+    quote_verified: true
+  - quote: 人形の手にはカードが一枚。『足』を飾るためのカードからブーツの情報が光の粒子となって飛び出して、ミヒトネッセの足を覆いながら具現化した。
+    paragraph: p218
+    quote_verified: true
+  - quote: ランキングを駆け上がることね！
+    paragraph: p278
+    quote_verified: true
+  note: この世界が「ゲームのルール」で構成されていることを示唆する連続的な描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

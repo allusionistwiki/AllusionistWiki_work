@@ -1,0 +1,386 @@
+episode: ch5508
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_機械女王]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5508_機械女王_other_対竜族兵器としての魔獣_p101
+        quote: '恐らく、この都市は亜竜と戦うことを想定して設計されているのだ。
+
+          古い言語支配者たちが猫科として創造した古代の魔獣はリーグシル神話体系では聖獣とされているが、その実態は対竜族用の兵器でしかない。'
+        locator: {}
+        spoiler_after: ch5508
+      - event_ref: E_ch5508_機械女王_makes_封印区画_p52
+        quote: '機械女王はその中で『瘴気』と『穢れ』という暗い過去を封印することに成功した。
+
+          その『封印』というのがこの区画。'
+        locator: {}
+        spoiler_after: ch5508
+      - event_ref: E_ch5508_機械女王_loses_管理の手回し_p70
+        quote: '機械女王がその危険性に気付いていないとは思えないから、これは単純に手が回っていないのだろう。
+
+          突貫工事で形だけ整えたのはいいが細部の調整は行われないまま祝祭が始まってしまった'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_獅子炎の鬣を持つ獣]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5508_獅子炎の鬣を持つ獣_is_made_of_太陽の擬獣化_p105
+        quote: '墓標船由来の『炎の鬣を持つ獣』という短い文字情報から再現されたた古代の人造魔獣で、燃える鬣に包まれた浮遊する獣の頭部、という異形の魔獣だ。
+
+          狼に似た頭部というのはユディーアの知識に無いから、機械女王のオリジナルである可能性が高い。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_虎マンティコア]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5508_虎マンティコア_functions_as_時空転移・復元・腐朽の呪術行使_p108
+        quote: 'カシュラムの聖獣でもあるこの魔獣の姿は四足歩行の虎人（マンティコア）とでも呼ぶのがふさわしい。
+
+          紫の体毛を持つ個体は時空を嚙み砕く力を持ち、転移・復元・腐朽といった呪術を行使できる。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_豹モルズ型]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5508_豹モルズ型_appears_as_牙持つ光球群_p113
+        quote: 'この魔獣は定まった姿を持たず、瞬きの間に消失と出現を繰り返す。
+
+          モルズ型の魔獣としても異質な牙持つ光球群。現れたかと思えば何かに豹変し、そこにいて当然の存在として環境に紛れてしまう天性の間諜にして暗殺者。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アサブ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5508_アサブ_asks_パレードの行先_p120
+        quote: 「なあ、このパレードってやつはどこに向かってんだ？」
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロードデンドロン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5508_ロードデンドロン_says_本選コースの下見_p125
+        quote: 「この吸血鬼地区に続く新区画らしい。そして明日の本選で最初に通過するコースのお披露目でもある。私にとっては貴重な下見の機会となるわけだ」
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_本選レース]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5508_本選レース_defines_次元を巡る流れ_p127
+        quote: '本選のコースは予選とは異なり、世界の壁を突き抜けてより大きな次元を巡る。
+
+          第五階層の中心であるガロアンディアンだけでなく、裏面や隣界などと呼ばれる異なる法則や神の摂理に守られた世界を通過しながらこの場所に帰還するという流れらしい。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_トランクケース]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5508_トランクケース_has_property_異常な軽さ_p14
+        quote: 驚くほど軽い。というか中身の存在をまるで感じない。
+        locator: {}
+        spoiler_after: ch5508
+    action:
+      observations:
+      - event_ref: E_ch5508_トランクケース_requires_呪文鍵_p26
+        quote: そもそも解錠のために必要な『四桁の数字に見える呪文鍵』の構造がわからない。
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5508_カルカブリーナ_names_マレブランケの一員_p141
+        quote: 'もうひとりは槍や杖、弓など無数の武器を背負った物々しいシルエットの青年。
+
+          少年がファルファレロ、青年がカルカブリーナと言うらしい。'
+        locator: {}
+        spoiler_after: ch5508
+    speech:
+      observations:
+      - event_ref: E_ch5508_カルカブリーナ_says_新世界の案内_p145
+        quote: '「これより、明日のレースで使用される新世界をご案内します」
+
+          男は区画ではなく世界と言った。
+
+          であれば、この先に存在している空間は実際に異界と化している可能性が高い。'
+        locator: {}
+        spoiler_after: ch5508
+    action:
+      observations:
+      - event_ref: E_ch5508_カルカブリーナ_attacks_ボウガンによる射撃_p214
+        quote: 'カルカブリーナが無造作にボウガンから矢を放ったことに少し驚かされた。
+
+          ほぼ同時に解説を詠唱に置き換えていたファルファレロが大型スクリーンを魔導書の項に見立てて呪文竜を解放。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファルファレロ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5508_ファルファレロ_names_マレブランケの一員_p141
+        quote: 'ひとりはチェックシャツの小柄な少年。
+
+          二人はシナモリアキラを構成する『マレブランケ』の一員だと名乗った。少年がファルファレロ、青年がカルカブリーナと言うらしい。'
+        locator: {}
+        spoiler_after: ch5508
+    speech:
+      observations:
+      - event_ref: E_ch5508_ファルファレロ_other_奈落コースの構造_p205
+        quote: '「つまり、空使い選定レースはもともと天国であるエクリーオベレッカに祈りを捧げる葬送式典と密接な繋がりがあったのです。
+
+          昇天を目指す儀式は、物理的には奈落へと下るレースとなるわけです」'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_地下アイドル空間]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5508_地下アイドル空間_is_located_ガロアンディアンの地下_p161
+        quote: '地下アイドル空間。
+
+          きらめくステージ、歌と踊りが彩る華やかな死者たちの世界。
+
+          足元に広がる実在する冥府である。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラプンシエル]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5508_ラプンシエル_other_あの世地下アイドル空間_p164
+        quote: '『マレブランケ』のグラッフィアカーネことキュトスの姉妹ラプンシエルが管理するガロアンディアンの『あの世』。
+
+          その力を受け継いだ彼女は再生者たちが舞い踊る地下空間の支配者でもある。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_ユディーア]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5508_ユディーア_thinks_マクガフィン_p17
+        quote: いわゆる『純粋価値（マクガフィン）』ということもあり得るが、その場合は中身を確かめてしまってもいいものか。
+        locator: {}
+        spoiler_after: ch5508
+      - event_ref: E_ch5508_ユディーア_asks_空の民の可能性_p19
+        quote: 「まさか空の民がぎゅうっと詰め込まれてる、なんてことは無いよね」
+        locator: {}
+        spoiler_after: ch5508
+      - event_ref: E_ch5508_ユディーア_observes_歴史解釈の欠如_p61
+        quote: '全体の統一感や歴史観の一貫性が欠如しているのだ。
+
+          ガロアンディアンらしいと言えば聞こえはいいが、単純に吸血鬼たちをまとめ上げることができていないのではないだろうか？'
+        locator: {}
+        spoiler_after: ch5508
+      - event_ref: E_ch5508_ユディーア_thinks_意図的な贈与_p9
+        quote: 'こんなものをうっかり忘れる人はあまりいないだろう。
+
+          つまりは意図的に残されたユディーア宛の荷物と見るべきだった。
+
+          贈り物。課題。あるいは呪い。'
+        locator: {}
+        spoiler_after: ch5508
+    action:
+      observations:
+      - event_ref: E_ch5508_ユディーア_observes_誰か_p2
+        quote: '去っていく『誰か』を見送りながら、ユディーアは沈黙の中に沈んでいく。
+
+          華やかな祝祭のただ中にあって、その表情はひどく重苦しい。'
+        locator: {}
+        spoiler_after: ch5508
+      - event_ref: E_ch5508_ユディーア_other_十戒の襲撃者_p208
+        quote: '透過邪視の感度を調整して隠形の看破に成功する。
+
+          敵の人種構成は黒肌や禿頭に長い前歯の半妖精（アヴロノ）が主で、わずかに岩肌種（トロル）やキノコ人（マイコニド）。'
+        locator: {}
+        spoiler_after: ch5508
+      - event_ref: E_ch5508_ユディーア_other_観察への徹底_p210
+        quote: '仮にこの襲撃の背後に双頭トロルのノゴルオゴルオがいた場合、ユディーアは下手に手出しをするべきではない。
+
+          むしろこの襲撃は参加選手たちの反応を見る好機。ユディーアは観察に徹することに決めた。'
+        locator: {}
+        spoiler_after: ch5508
+      - event_ref: E_ch5508_ユディーア_uses_天眼_p39
+        quote: ユディーアの天眼は自身を中心とした球状の知覚圏を展開するが、呪的に区切られた領域を跨ぐと効果が途切れてしまう。
+        locator: {}
+        spoiler_after: ch5508
+    symbolic:
+      observations:
+      - event_ref: E_ch5508_ユディーア_observes_ガロアンディアンの構造_p34
+        quote: '無秩序な辺境区とは異なり、ガロアンディアン主街区は機能別に分けられた幾つかのモジュールで構成されている。
+
+          空間で分割された性質の異なる都市機能群は、更に時間帯によっても変化するという特性を持っていた。'
+        locator: {}
+        spoiler_after: ch5508
+    visual:
+      observations:
+      - event_ref: E_ch5508_ユディーア_finds_トランクケース_p4
+        quote: ふと、ある変化に気付いた。対面に座っていた人物が置き忘れていったのだろうか、簡素なつくりのトランクケースがそのままになっている。
+        locator: {}
+        spoiler_after: ch5508
+    relationship:
+      observations:
+      - event_ref: E_ch5508_ユディーア_other_安堵と決意_p77
+        quote: 'その知らせは少しの落胆と幾らかの安堵をもたらすものだった。
+
+          次にリールエルバに会った時にはうんと優しくしてあげようと決めた。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_シナモリアキラとラプンシエル]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5508_シナモリアキラとラプンシエル_defines_王国の霊的支柱_p185
+        quote: '輪廻転生のシナモリアキラと冥府のラプンシエル。
+
+          この二大神は生と死、魂の扱いを管理するガロアンディアンの霊的支柱だ。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シード枠選手たち]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5508_シード枠選手たち_appears_予選参加組の対戦相手_p193
+        quote: '暗緑色の飛行服を纏った兄弟、背中に『喧嘩上等』と刺繍されたつなぎ姿の若者、プロペラで浮遊する鉄の杖、長身の謎めいた黒衣、細身の老婆。
+
+          ロードデンドロン、マルガリータ、ジュティアとミナを含めた予選参加組とは明日ぶつかることになるシード枠の選手たちだ。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ニアホン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5508_ニアホン_says_誘拐犯を示唆_p21
+        quote: '「にあ、誘拐犯！」
+
+          「まあ生命の気配は無さそうだからその線は薄そうだけど」'
+        locator: {}
+        spoiler_after: ch5508
+    action:
+      observations:
+      - event_ref: E_ch5508_ニアホン_other_区画情報_p47
+        quote: 「にあににに、ぴこーん！　移動式再演博物館！　魔竜事件の後に作られた特別区！　ドラトリア系夜の民が中心、にあ！」
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_第五階層の住人たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5508_第五階層の住人たち_other_襲撃への即応_p217
+        quote: '状況を把握できていない観光客や報道陣とは対照的に、第五階層の住人たちは即座に『いつものこと』として対応。
+
+          非戦闘員でさえ落ち着いて呪符などで防壁を展開している。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ジュティア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5508_ジュティア_kills_ツインテールの少女_p228
+        quote: 'ジュティアが突如として短剣を振り回し、目の前の少女の首を刎ねたのだ。
+
+          無傷で立つマルガリータの周囲で霧散したはずの呪文竜が『騒乱』の呪いに形を変え'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファルファレロとカルカブリーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5508_ファルファレロとカルカブリーナ_says_勝利宣言_p233
+        quote: '「はいおしまい。これで僕たち『十戒』の勝利確率は揺るぎない62パーセントです」
+
+          「投降をおすすめしとくよ。ハデス様は逆らわない奴には優しいからさ」'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_旧市街]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5508_旧市街_is_located_観光用区画_p41
+        quote: 'というより意図的に『古い景観』を再現した観光用の区画だった。
+
+          機械女王が好む『杖』の現代建築は姿を隠し、古臭い呪紋扉や曲がり屋根といった様式の建造物が目立つ。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_歴史学]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5508_歴史学_defines_物語との等価性_p67
+        quote: '歴史学、文献学、考古学といった杖の視座に基づく硬質な歴史は、運命や自然現象が擬人化され神が跋扈し偉人がキャラクター化する物語と等価なものとして位置付けられる。
+
+          虚構や幻想は形を持つ。それが語られることで実際に過去に息づくようになるのであれば、それもまた歴史に等しい重みを持つ正しい過去だ。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5508_セリアック＝ニア_says_姉の不在理由_p72
+        quote: 「にあ～。ほんとはこの区画の管理者、姉様にやってほしいってトリシューラに言われた。でも姉様、疲れちゃって無理だった。まだ外に出るの、大変だから」
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_天眼の民]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5508_天眼の民_fears_猫への畏怖_p95
+        quote: 'シャルマキヒュ神の征服、戦乙女たちの戦場の舞踏、屍の騎士、勇者の花嫁。
+
+          血塗られた記憶が天眼の民に刻んだのは『猫への畏怖』である。'
+        locator: {}
+        spoiler_after: ch5508
+  first_appearance_candidate: true

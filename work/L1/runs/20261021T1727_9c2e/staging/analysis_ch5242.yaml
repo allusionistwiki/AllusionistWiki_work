@@ -1,0 +1,238 @@
+chapter: ch5242
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p51}]]'
+  object: '[[ME_{real_time_streaming_service_latency}]]'
+  claim: 10,800秒前という具体的な時間指定と、監視網の記録遅延は、リアルタイム配信サービスにおけるキャッシュや伝送遅延を模倣し、情報戦の不確実性を強調する。
+  quote: つい10,800秒前のことだ。三時間前か。恐らくガロアンディアンの監視の目にもひっかかった筈だが、トリシューラは知らせるまでも無いと考えたのだろうか。
+  paragraph: p53-p54
+  confidence: moderate
+  quotes:
+  - quote: つい10,800秒前のことだ。三時間前か。恐らくガロアンディアンの監視の目にもひっかかった筈だが、トリシューラは知らせるまでも無いと考えたのだろうか。
+    paragraph: p53-p54
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p80}]]'
+  object: '[[ME_{military_robotization_and_special_forces}]]'
+  claim: 無人兵器の普及に伴う人間兵士の『超人化』要求は、現代の軍事技術における自動化と特殊部隊の高度な身体強化・サイバー化の趨勢を反映している。
+  quote: 現代だと前線に出る『訓練された』軍人は無人兵器より強くないと意味が無い。極限まで無人化が進んだ先進国にとって防衛の基本方針は原則的に少数精鋭――要するにワンマン・アーミーとしてアホみたいな軍事費を投入された怪物が生まれるわけだ。
+  paragraph: p80
+  confidence: strong
+  quotes:
+  - quote: 現代だと前線に出る『訓練された』軍人は無人兵器より強くないと意味が無い。極限まで無人化が進んだ先進国にとって防衛の基本方針は原則的に少数精鋭――要するにワンマン・アーミーとしてアホみたいな軍事費を投入された怪物が生まれるわけだ。
+    paragraph: p80
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p134}]]'
+  object: '[[ME_{cheap_illegal_drugs_addiction_crisis}]]'
+  claim: 安価で強力な依存性を持つ霊薬の蔓延と、社会の健全化（禁酒法・麻薬禁止）との対立は、現代における合法ドラッグ市場への非法医薬品の侵入やSNS依存問題の構造と同型である。
+  quote: 洒落にならない効用――そして、圧倒的な安価さだった。公的に販売している合法ドラッグを駆逐しかねないほどの危険性が、このドラッグにはある。
+  paragraph: p134-p135
+  confidence: moderate
+  quotes:
+  - quote: 洒落にならない効用――そして、圧倒的な安価さだった。公的に販売している合法ドラッグを駆逐しかねないほどの危険性が、このドラッグにはある。
+    paragraph: p134-p135
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p198}]]'
+  object: '[[ME_{viral_content_memory_decay}]]'
+  claim: 動画が消え記憶が忘却される現象は、インターネット上のコンテンツの散逸（リンク切れ）や、SNSにおける一過性のバズ文化の構造をメタファーとして用いている。
+  quote: 『満足』してしまうとその詳細なイメージは脳内から忽然と消えて全てを忘れてしまい、ネットの海に流れる動画は跡形もなく消えてしまう。
+  paragraph: p198
+  confidence: moderate
+  quotes:
+  - quote: 『満足』してしまうとその詳細なイメージは脳内から忽然と消えて全てを忘れてしまい、ネットの海に流れる動画は跡形もなく消えてしまう。
+    paragraph: p198
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p209}]]'
+  object: '[[ME_commodity_fetishism_marx]]'
+  claim: 紙幣への信仰が力を生むという記述は、資本主義における金銭の象徴的価値（交換手段としての万能性）が社会を駆動する原理そのものであり、欲望と力の転換を描く。
+  quote: 三ヶ月前、紙幣という価値への絶対的な信仰によって圧倒的な力を振るっていたキロンのことを思い出す。金は強力な欲望を引き出す源になりうる。
+  paragraph: p209-p210
+  confidence: strong
+  quotes:
+  - quote: 三ヶ月前、紙幣という価値への絶対的な信仰によって圧倒的な力を振るっていたキロンのことを思い出す。金は強力な欲望を引き出す源になりうる。
+    paragraph: p209-p210
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p268}]]'
+  object: '[[ME_jung_collective_unconscious]]'
+  claim: アストラルネットや集合無意識の海という設定は、ユング心理学における集合的無意識の概念をSF的な通信ネットワークとして実体化させたものである。
+  quote: 夢もまたある程度は共通するし、神話もまた然りだ。集合無意識の海やアストラル界といった世界にネットワークを広げられるのはこれが理由でもある。
+  paragraph: p268
+  confidence: explicit
+  quotes:
+  - quote: 夢もまたある程度は共通するし、神話もまた然りだ。集合無意識の海やアストラル界といった世界にネットワークを広げられるのはこれが理由でもある。
+    paragraph: p268
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ニセアキラの正体
+  note: 「サイバーカラテ」使いでありながら主人公（アキラ）ではない存在。その実体と目的が不明。
+  quotes:
+  - quote: 俺の偽物が？
+    paragraph: p11
+    quote_verified: true
+  - quote: サイバーカラテ特有の――『発勁用意』とかいう発声を耳にした者が何人もいる
+    paragraph: p38
+    quote_verified: true
+  expected_payoff: 主人公の代替品、または敵組織が作り出したゴースト。主人公との対決イベントへ直結する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第五位姉妹ディスペータの消失
+  note: 「生と死を司る地母神」が4年前に消滅し、その詳細な記憶（顔）が世界から削除されている。
+  quotes:
+  - quote: 誰もディスペータお姉様の詳細な顔を思い出せないの。直弟子であったリールエルバですら、詳しく思い出そうとすると記憶に靄がかかったようになるって言ってた
+    paragraph: p344
+    quote_verified: true
+  - quote: 第五位の『姉』が存在抹消に追い込まれたらしい
+    paragraph: p285
+    quote_verified: true
+  expected_payoff: 「死人の森の女王」の正体、あるいはトリシューラ/コルセスカの起源に関わる重大な伏線。記憶喪失は呪術的な禁制か、存在そのものの消去を意味する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ステュクスの正体
+  note: 顔が思い出せないポルノスター。【変異の三手】の副長候補であり、記憶を奪う能力を持つ可能性。
+  quotes:
+  - quote: 世界的に有名な、本名及び顔が不明のポルノスター、【ステュクス】がそうではないかと言われているのだ。
+    paragraph: p196
+    quote_verified: true
+  - quote: 自分の事を『ママ』と言い、相手を甘やかすかのような言動が特徴的だという話だ
+    paragraph: p203
+    quote_verified: true
+  expected_payoff: 「ママ」の呼びかけと薬による依存症（p161）との関連。記憶を奪う特性がディスペータ消失事件（p344）との共通項として機能する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_地下の組織と三本の手
+  note: 「変異の三手」が地下で活動しており、違法薬物を通じて呪力を集めている。
+  quotes:
+  - quote: 連中は互いを識別するための符号として三本の手を持った三角錐の紋章を身体のどこかに、あるいは持ち物に刻んでいる
+    paragraph: p124
+    quote_verified: true
+  - quote: 得られた証言はこうだ。『森の奥でママが待ってる』
+    paragraph: p161
+    quote_verified: true
+  expected_payoff: 地下迷宮での探索、および「死人の森」の女王復活イベントへの導線。薬物依存者を通じて女王の場所（森の奥）を特定する展開が予想される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ゼドの過去の闇
+  note: ゼドが博士号を持ちながら探索者になった理由、および「地上世界の闇」。
+  quotes:
+  - quote: 過去について詳しく訊ねたことはないが、何か地上世界の闇っぽいものを覗いてしまいそうで恐ろしかった。
+    paragraph: p225
+    quote_verified: true
+  expected_payoff: ゼドが主人公の「ニセ」に関与している可能性、または外世界（現代日本）との接続点としての役割を担う伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 欲望（性欲・金銭欲）の経済学と呪力の生成
+  weight: 0.8
+  quotes:
+  - quote: ポルノスターってのは一種の偶像にもなり得る。つまり、信仰を――原始的な性欲のエネルギーを一身に集めるその対象は、極まれば凄まじい呪力を宿しうるということだ。
+    paragraph: p207
+    quote_verified: true
+  - quote: 三ヶ月前、紙幣という価値への絶対的な信仰によって圧倒的な力を振るっていたキロンのことを思い出す。金は強力な欲望を引き出す源になりうる。
+    paragraph: p209
+    quote_verified: true
+  note: この世界において「力（呪力）」は、信仰や欲望という心理的エネルギーが物質化・集中したものであるという設定を提示し、経済活動と宗教/魔法が地続きであることを示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 集合的無意識による文化の収斂進化
+  weight: 0.7
+  quotes:
+  - quote: 人間の脳はだいたい同じ構造をしているし、想像力などというのは有限なものでしかない。
+    paragraph: p258
+    quote_verified: true
+  - quote: 人間が人間であるがゆえに、あるいは自然環境の共通点ゆえに、想像力は一定のパターンに収斂進化する。
+    paragraph: p268
+    quote_verified: true
+  note: 異世界間の神話の類似性（元型論）を解説し、物語の構造が「人間の脳」の共通仕様に基づいていることをメタ的に分析している。これは作品自体が「異世界転生」というジャンルの定型化に対する自覚を持っていることの反映でもある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生と死の地母神、その不在による世界の歪み
+  weight: 0.6
+  quotes:
+  - quote: 現在生と死の地母神は『不在』ということになる。その信仰も失われたままだ。
+    paragraph: p294
+    quote_verified: true
+  - quote: 【死人の森の女王】と呼ばれる存在は、俺は失われた地母神そのものか、その巫女ではないかと見ている。
+    paragraph: p302
+    quote_verified: true
+  note: 世界の根幹を成す二元論（生/死）が欠落したことで「死人の森」という異常な領域が生まれているというテーマ。秩序の回復と破壊の均衡についての考察。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記録の消失と存在の抹消
+  weight: 0.5
+  quotes:
+  - quote: 誰もディスペータお姉様の詳細な顔を思い出せないの。
+    paragraph: p344
+    quote_verified: true
+  - quote: 動画は跡形もなく消えてしまう。
+    paragraph: p198
+    quote_verified: true
+  note: 「記憶から消える」ことが、単なる忘却ではなく「存在の抹消（権能の簒奪）」と結びつけられている。デジタル的な消去が物理的・霊的な消去を意味する世界観。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

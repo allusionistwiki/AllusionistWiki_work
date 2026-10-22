@@ -1,0 +1,229 @@
+chapter: ch5085
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 15
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5085_紙幣強度]]'
+  object: '[[ME_Crypto_Asset_Lock]]'
+  claim: 物理的に破壊不可能な紙幣は、デジタル暗号資産やNFTの改変不能性（イミュータビリティ）と、価値を保証するメカニズムが構造上一致している。
+  quote: 一見すると何の変哲もないその紙切れは、機械仕掛けの腕であっても傷一つつけられないほどの強度を誇っているのだった。
+  paragraph: p58
+  confidence: strong
+  quotes:
+  - quote: 一見すると何の変哲もないその紙切れは、機械仕掛けの腕であっても傷一つつけられないほどの強度を誇っているのだった。
+    paragraph: p58
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5085_キロンによるコピー]]'
+  object: '[[ME_Open_Source_Governance_Fork]]'
+  claim: トリシューラの禁呪をキロンがコピーし、独自の流通システム（公社・騎士団）に統合する過程は、オープンソースプロジェクトのフォークとガバナンス乗っ取りの構造に似ている。
+  quote: 聖騎士キロンは私の禁呪を応用して、【一定の価値】を保ち続ける呪的通貨を生み出した。こっちが気付かないうちに、【公社】と手を組んでいたんだろうね。
+  paragraph: p60
+  confidence: moderate
+  quotes:
+  - quote: 聖騎士キロンは私の禁呪を応用して、【一定の価値】を保ち続ける呪的通貨を生み出した。こっちが気付かないうちに、【公社】と手を組んでいたんだろうね。
+    paragraph: p60
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5085_トリシューラの存在価値]]'
+  object: '[[ME_Gig_Economy_Precarity]]'
+  claim: 「候補者としての有用性」が証明されなければ即座に廃棄（解雇・死亡）されるトリシューラの状況は、契約更新を前提としたギグエコノミーにおける労働者の不安定性と自己責任論の極限形態である。
+  quote: もし候補者の資格を剥奪されて、『お前は換えの効く存在でしかない』って言われたら、私は本当にこの世界から消えて、私の存在は死んで本当の無価値になる。
+  paragraph: p112
+  confidence: strong
+  quotes:
+  - quote: もし候補者の資格を剥奪されて、『お前は換えの効く存在でしかない』って言われたら、私は本当にこの世界から消えて、私の存在は死んで本当の無価値になる。
+    paragraph: p112
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5085_コルセスカの邪視]]'
+  object: '[[ME_Media_Consumer_Gaze]]'
+  claim: 「消費されて値札をつけられる」という男の発言は、メディアコンテンツ（アニメ・ゲーム）の視聴者＝消費者の視線と、作品内キャラクターの自己商品化をメタ的に風刺している。
+  quote: どうせ誰かに消費されて値札をつけられるんだ。ならせめて、自分でその価値をありったけ吊り上げてやればいい
+  paragraph: p129
+  confidence: explicit
+  quotes:
+  - quote: どうせ誰かに消費されて値札をつけられるんだ。ならせめて、自分でその価値をありったけ吊り上げてやればいい
+    paragraph: p129
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5085_鮮血呪]]'
+  object: '[[ME_Central_Bank_Reserve]]'
+  claim: 術者の「鮮血（最も大切なもの）」を担保として通貨の価値を保証する仕組みは、信用創造における準備金や中央銀行の最終貸し手機能を魔術的に変換したものである。
+  quote: 鮮血――それは術者にとって最も大切なものの比喩だ――を捧げるおぞましき呪術はあらゆる事を可能にする。
+  paragraph: p97
+  confidence: moderate
+  quotes:
+  - quote: 鮮血――それは術者にとって最も大切なものの比喩だ――を捧げるおぞましき呪術はあらゆる事を可能にする。
+    paragraph: p97
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5085_第五階層の支配権]]'
+  object: '[[ME_Territorial_Dispute_Colonialism]]'
+  claim: 「不干渉」を前提とした中間空間（第五階層）に、他勢力が通貨システムを通じて実効支配を確立する過程は、植民地支配における経済的浸透と領有権の争奪構造に一致する。
+  quote: どちらのものでもない空間は、今までのルールのようにどちらか一方のものになってしまうのだ。そしてそれは、トリシューラの思惑と真っ向から衝突する。
+  paragraph: p85
+  confidence: strong
+  quotes:
+  - quote: どちらのものでもない空間は、今までのルールのようにどちらか一方のものになってしまうのだ。そしてそれは、トリシューラの思惑と真っ向から衝突する。
+    paragraph: p85
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Triusula_WebMagazine_Task
+  note: トリシューラが戦闘準備の最中に「ウェブマガジンの配信準備」「サイト更新」を口実として部屋を出た。これが単なる回避行動か、あるいはこの世界における情報伝達・心理戦の重要な伏線（SNS操作など）なのか。
+  quotes:
+  - quote: 「ウェブマガジンの配信準備しなきゃ。あとサイト更新しないといけないし、色々タスクが停滞してるの。忙しいから後にしてくれないかな」
+    paragraph: p150
+    quote_verified: true
+  expected_payoff: この「タスク」が第五階層での情報統制や世論形成に利用されるか、トリシューラの精神安定剤としての役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Triusula_Fresh_Blood_Definition
+  note: 「鮮血」を「最も大切なものの比喩」と定義しているが、具体的にトリシューラにとっての「最も大切なもの（生贄）」が何であるか（記憶？ 感情？ コルセスカとの絆？）が明示されていない。
+  quotes:
+  - quote: 鮮血――それは術者にとって最も大切なものの比喩だ――を捧げるおぞましき呪術はあらゆる事を可能にする。
+    paragraph: p97
+    quote_verified: true
+  expected_payoff: 禁呪発動時にトリシューラが「最も大切なもの」を失う描写が来る可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kilon_Coin_Loop
+  note: キロンがコピーした通貨が「価値が回路みたいに循環」し、機械仕掛けの腕でも破れない強度を持つ理由（構造）が解明されていない。
+  quotes:
+  - quote: 「気付いた？ その中で、価値が回路みたいに循環してる」
+    paragraph: p48
+    quote_verified: true
+  - quote: 一見すると何の変哲もないその紙切れは、機械仕掛けの腕であっても傷一つつけられないほどの強度を誇っているのだった。
+    paragraph: p58
+    quote_verified: true
+  expected_payoff: この「回路」の弱点（バグ）を突くことで通貨システムが崩壊する展開が示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rodwin_Destruction_Timing
+  note: トリシューラが「ロドウィの窮状につけ込んで」と言及しており、キロン派遣の背景にある【公社】（ロドウィ）の現状とタイミングが詳細に語られていない。
+  quotes:
+  - quote: 「ですが、結局はロドウィの窮状につけ込んで第五階層での影響力を伸ばそうとした【騎士団】がキロンを派遣した、という状況なのでしょう？ 」
+    paragraph: p83
+    quote_verified: false
+  expected_payoff: ロドウィ（公社）側の内部事情や、彼らが「窮状」に陥った具体的な事件の回想。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Colcesca_Limb_Prosthesis
+  note: 男（元転生者？）が「義肢を作ってくれるって話が有効なら」と述べており、コルセスカやトリシューラが彼の身体を修復する技術的・魔術的な可能性が示唆されている。
+  quotes:
+  - quote: もし、まだ義肢を作ってくれるって話が有効ならさ。俺に、もう一度戦うための力をくれないか。
+    paragraph: p137
+    quote_verified: true
+  expected_payoff: 彼の義肢作成プロセスが物語の転換点となり、彼が再び戦闘に参加する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 存在価値の証明と社会的抹殺（アパルトヘイト）の恐怖
+  weight: 0.9
+  quotes:
+  - quote: もし候補者の資格を剥奪されて、『お前は換えの効く存在でしかない』って言われたら、私は本当にこの世界から消えて、私の存在は死んで本当の無価値になる。
+    paragraph: p112
+    quote_verified: true
+  note: トリシューラの動機は単純な生存ではなく、「社会的有用性」による存在の担保であり、排除された瞬間に物理的消滅を意味する過酷なルールが主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 価値の虚構性と自己商品化（メタフィクション）
+  weight: 0.8
+  quotes:
+  - quote: 「あらゆる人間は全てそうだろ。どうせ誰かに消費されて値札をつけられるんだ。ならせめて、自分でその価値をありったけ吊り上げてやればいい」
+    paragraph: p129
+    quote_verified: true
+  note: キャラクターが自らの存在をコンテンツ（商品）として認識し、その価値操作を行うという自己言及的な構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 経済システムによる実効支配の侵食
+  weight: 0.7
+  quotes:
+  - quote: 今や第五階層における通貨の価値を保証しているのは【公社】では無くキロン――そしてその背後にいる【松明の騎士団】だ。
+    paragraph: p85
+    quote_verified: true
+  note: 軍事力ではなく「通貨価値の保証」という経済的権力を通じて、空間（第五階層）が他勢力に簒奪される構造的政治闘争。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自尊心を維持するための虚勢と孤立
+  weight: 0.6
+  quotes:
+  - quote: 「私は無価値な存在じゃない。」…（中略）…「ウェブマガジンの配信準備しなきゃ。」
+    paragraph: p112-p150
+    quote_verified: false
+  note: 絶望的な状況下で、トリシューラが自尊心を保つために見せる傲慢さや無機質さ（サイト更新を口実にする）は、彼女の内面の脆弱さを逆説的に描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 観測者の無力さと主体性の欠如
+  weight: 0.5
+  quotes:
+  - quote: 邪視者の常として、語り手や視点（カメラ）にはなり得ても、主体的な【主人公】としての性質に乏しいという欠点。
+    paragraph: p28
+    quote_verified: true
+  note: コルセスカが「観測者」であり「主人公」ではないという設定が、彼女が敵の動きを止めるだけで決着をつけられないジレンマを生んでいる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

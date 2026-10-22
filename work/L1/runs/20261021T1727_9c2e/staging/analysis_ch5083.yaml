@@ -1,0 +1,241 @@
+chapter: ch5083
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5083_アキラ_dies_断絶_p11]]'
+  object: '[[ME_game_save_corruption]]'
+  claim: 主人公の死と記憶消失は、ゲームにおけるデータ破損・セーブデータの書き換え（リセット）をメタ的に表現している。
+  quote: 意識が消滅していく瞬間を、引き延ばされた死の瞬間の中でなによりも濃密に感じる。ああ、俺はこの瞬間を、前にも体験したことが
+  paragraph: p11
+  confidence: moderate
+  quotes:
+  - quote: 意識が消滅していく瞬間を、引き延ばされた死の瞬間の中でなによりも濃密に感じる。ああ、俺はこの瞬間を、前にも体験したことが
+    paragraph: p11
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5083_蛇_other_アプリケーション群_p34]]'
+  object: '[[ME_smartphone_app_list]]'
+  claim: 破壊される能力一覧は、スマートフォンアプリのアンインストール（削除）プロセスに構造が一致しており、転生者の「チート」をOS機能として定義している。
+  quote: '【サイバネ義肢の制御OS】を。
+
+    【サイバーカラテ道場】を。
+
+    【弾道予報Ver2.0】を。
+
+    【ノーペイン】を。'
+  paragraph: p34-p37
+  confidence: strong
+  quotes:
+  - quote: '【サイバネ義肢の制御OS】を。
+
+      【サイバーカラテ道場】を。
+
+      【弾道予報Ver2.0】を。
+
+      【ノーペイン】を。'
+    paragraph: p34-p37
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5083_氷細工の義手_has_property_時間軸改変_p26]]'
+  object: '[[ME_time_stop_ability]]'
+  claim: コルセスカの左腕による時間停止は、ゲームにおける「タイムストップ」や「リセット権」というメカニクスへの言及であり、死亡イベントの回避手段として機能している。
+  quote: それが、少女が頑なに守り隠していた最後の神秘。時間軸すら改変する、邪視の向こう側。
+  paragraph: p26
+  confidence: moderate
+  quotes:
+  - quote: それが、少女が頑なに守り隠していた最後の神秘。時間軸すら改変する、邪視の向こう側。
+    paragraph: p26
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_ch5083_コルセスカ_attacks_首筋咬傷_p75]]'
+  object: '[[ME_vampire_drain]]'
+  claim: 吸血行為が単なる栄養摂取ではなく、敵（蛇）から情報を奪い返す「データ転送/バックアップ」行動として再定義されている。
+  quote: '吸われているのは俺自身だった。
+
+    先程から蛇が喰らおうとしていた記憶情報、その断片を片端から横取りして、更には蛇そのものすらもまとめて取り込もうとする、貪欲な食欲。'
+  paragraph: p77-p78
+  confidence: strong
+  quotes:
+  - quote: '吸われているのは俺自身だった。
+
+      先程から蛇が喰らおうとしていた記憶情報、その断片を片端から横取りして、更には蛇そのものすらもまとめて取り込もうとする、貪欲な食欲。'
+    paragraph: p77-p78
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5083_アキラ_thinks_慣性と停止_p187]]'
+  object: '[[ME_physics_law_inertia]]'
+  claim: 死後の意識の持続を「慣性」として記述し、物理法則（ニュートン力学）を用いて超常現象（時間停止下での生存）を説明するSF的ロジックを取っている。
+  quote: 今の俺は慣性に従って辛うじて進んでいるだけだ。摩擦抵抗の少ない氷の上だから、その時間が少々長引いているというだけで、本来なら既に停止しているはずのもの。
+  paragraph: p187
+  confidence: strong
+  quotes:
+  - quote: 今の俺は慣性に従って辛うじて進んでいるだけだ。摩擦抵抗の少ない氷の上だから、その時間が少々長引いているというだけで、本来なら既に停止しているはずのもの。
+    paragraph: p187
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5083_E-E_defines_精神の装具_p172]]'
+  object: '[[ME_psychological_prosthesis]]'
+  claim: 感情制御装置（Emotional-Emulator）を「義肢」や「鎧」と呼称し、メンタルヘルスの問題（PTSD等）をサイバーパンク的な身体拡張技術として外注化・道具化する。
+  quote: 脆い精神を保護し、外圧を受け止め、どんな困難な状況でも心が折れるという最悪の事態だけは回避し続けた、俺にとっては右の義肢よりも更に頼りにしていた、いわば精神の装具。
+  paragraph: p172
+  confidence: strong
+  quotes:
+  - quote: 脆い精神を保護し、外圧を受け止め、どんな困難な状況でも心が折れるという最悪の事態だけは回避し続けた、俺にとっては右の義肢よりも更に頼りにしていた、いわば精神の装具。
+    paragraph: p172
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kiron_defeat_condition
+  note: キロンを倒すことが因果改竄（生存）の唯一条件だが、右腕と脳内機器の損傷により戦闘能力が著しく低下している状況での攻略法。
+  quotes:
+  - quote: 生き延びる方法はただ一つ、死因であるキロンを倒して因果を改竄すること
+    paragraph: p145
+    quote_verified: true
+  - quote: 大半が物理的に破損しており、私ではどうにも――トリシューラなら、あるいは
+    paragraph: p128
+    quote_verified: true
+  expected_payoff: コルセスカやトリシューラの協力、または残された機能（E-Eの代替等）を用いた逆転劇への布石。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_e-e_replacement_method
+  note: 感情制御装置Emotional-Emulatorを失い、感情が溢れ出す（堤防が決壊する）状態への対処法。
+  quotes:
+  - quote: 今まで制御し、押さえ込み続けてきた、無数の感情。孔の空いた堤防のように、一気に決壊するのは時間の問題だろう。
+    paragraph: p189
+    quote_verified: true
+  expected_payoff: アキラがパニック状態に陥る危機、またはコルセスカの魔力・トリシューラの技術による精神補装具の再構築。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kilon_past_encounter
+  note: p11で「前にも体験した」と言及されている死の瞬間の正体。過去のループ、または前世での死？
+  quotes:
+  - quote: ああ、俺はこの瞬間を、前にも体験したことが
+    paragraph: p11
+    quote_verified: true
+  expected_payoff: 物語全体の構造（ループ転生、タイムスリップ）の核心に関わる伏線。キロンとの因縁の深さを示唆。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_corseca_ice_arm_origin
+  note: コルセスカが隠していた左腕の氷細工（義手）の由来と、その「邪視」の正体。
+  quotes:
+  - quote: それが、少女が頑なに守り隠していた最後の神秘。時間軸すら改変する、邪視の向こう側。
+    paragraph: p26
+    quote_verified: true
+  expected_payoff: コルセスカの背景設定（魔女としての出自）、または彼女自身の「死」に関する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cassario_blood_effect
+  note: トリシューラによる食事療法（カッサリオの血肉）が呪術抵抗を上げた件。カッサリオとは何者か？
+  quotes:
+  - quote: 貴方の取り込んだカッサリオの血肉が、零に近かった貴方の呪術抵抗をかなり上昇させていたようです。
+    paragraph: p116
+    quote_verified: true
+  expected_payoff: トリシューラの行動目的、および敵勢力（キロン側）との対抗手段としての「食」のシステム。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生者というアイデンティティは記憶と機能（アプリ）によって構成されており、それらの喪失は存在の消滅と同義である。
+  weight: 0.9
+  quotes:
+  - quote: そして、俺を転生者たらしめているのは前世の記憶だ。
+    paragraph: p50
+    quote_verified: true
+  - quote: 情報。記憶。そして意思。
+    paragraph: p55
+    quote_verified: true
+  note: 身体機能（義肢）と精神機能（E-E）、および前世の記憶が「転生者」の定義要素として解体される過程を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情の制御を外部装置に依存していた主人公が、その装置を失うことで直面する「素の恐怖」と脆弱性。
+  weight: 0.8
+  quotes:
+  - quote: '感情制御ができないことが、ただそれだけで怖い。
+
+      生きていくことそれ自体が恐ろしくて仕方無い。'
+    paragraph: p177-p179
+    quote_verified: true
+  note: サイバー義肢的な精神保護の喪失による心理的崩壊の予兆。人間としての脆さへの回帰。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「死」を物理現象（熱・慣性）として捉え、それを「略奪」や「凍結」という魔女の権能によって先送りするメタ物理学的世界観。
+  weight: 0.7
+  quotes:
+  - quote: 今の俺は慣性に従って辛うじて進んでいるだけだ。摩擦抵抗の少ない氷の上だから、その時間が少々長引いているというだけで、本来なら既に停止しているはずのもの。
+    paragraph: p187
+    quote_verified: true
+  note: 超常現象を科学的用語（慣性、熱、凍結）で記述することで、異世界を「ルールのあるゲーム/シミュレーション」として提示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 探索者（コルセスカ）の本質は保護や停止ではなく、「略奪（データの回収）」にあるという逆説的な救済の構造。
+  weight: 0.6
+  quotes:
+  - quote: 探索者である彼女の本質は【停止】では無く【略奪】なのだ。
+    paragraph: p72
+    quote_verified: true
+  - quote: 私のものにして奪ってしまえばいい
+    paragraph: p69
+    quote_verified: true
+  note: 吸血という攻撃行為が、実は主人公の存在維持（データバックアップ）という救済行為として機能している逆転。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,257 @@
+chapter: ch5446
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 19
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5446_アキラ_other_ゲーム的展開の欠如_p23]]'
+  object: '[[ME_otome_game_trope_fate_completion]]'
+  claim: 乙女ゲームにおける「悪役からの好感度逆転」や「イベント回収」というメカニズムが、現実的な因果律（嫌がらせは恨みを生むだけ）によって破綻し、プレイヤーの期待を裏切るメタ構造を示している。
+  quote: 嫌がらせをしようとして空回りしたり、高慢に見えて根っこの庶民らしさや人の良さが滲み出て結局ヒロインと仲良くなったり、何だかんだで王子様にも好感を持たれたりするはずじゃなかった？
+  paragraph: p23
+  confidence: explicit
+  quotes:
+  - quote: 嫌がらせをしようとして空回りしたり、高慢に見えて根っこの庶民らしさや人の良さが滲み出て結局ヒロインと仲良くなったり、何だかんだで王子様にも好感を持たれたりするはずじゃなかった？
+    paragraph: p23
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5446_レイ_other_死者の埋葬_p58]]'
+  object: '[[ME_sophocles_antigone_burial_conflict]]'
+  claim: 「生ける屍（または死者）を埋めるな」という王権と、家族としての埋葬義務という内なる法の衝突は、ソポクレスの悲劇『アンティゴネ』の主題構造そのものである。
+  quote: 君は彼女を死者として扱った。机に花瓶を置き、いないものとして扱い、土の下に埋め、墓石を用意し、祈りすら捧げようとした。
+  paragraph: p58
+  confidence: strong
+  quotes:
+  - quote: 君は彼女を死者として扱った。机に花瓶を置き、いないものとして扱い、土の下に埋め、墓石を用意し、祈りすら捧げようとした。
+    paragraph: p58
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5446_ヒロイン白のメートリアン_appears_as_名前のない女_p51]]'
+  object: '[[ME_player_character_void_avatary]]'
+  claim: 名前を持たず、特徴がぼんやりしており、他者からの呼称も欠落しているヒロインは、読者/プレイヤーの自己投影を促すための「空白（アバター）」としての機能を持つ。
+  quote: 彼女にはこの舞台特有の役名が無い。空白――名前が無い女。顔や声などの特徴もどこかぼんやりして感じられる。
+  paragraph: p51-p52
+  confidence: strong
+  quotes:
+  - quote: 彼女にはこの舞台特有の役名が無い。空白――名前が無い女。顔や声などの特徴もどこかぼんやりして感じられる。
+    paragraph: p51-p52
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5446_HUDキャラクター_appears_as_お下げの二頭身キャラクター_p27]]'
+  object: '[[ME_game_ui_companion_avatar]]'
+  claim: 視界の隅（HUD）に現れ、主人公の失敗を「言わんこっちゃない」と見下す二頭身キャラクターは、ゲームにおけるナビゲーション・アバターやチュートリアルガイドのメタファーである。
+  quote: 視界の隅っこ――ヘッドアップディスプレイ表示の端でお下げの二頭身キャラクターが『言わんこっちゃない』という表情をする。
+  paragraph: p27
+  confidence: explicit
+  quotes:
+  - quote: 視界の隅っこ――ヘッドアップディスプレイ表示の端でお下げの二頭身キャラクターが『言わんこっちゃない』という表情をする。
+    paragraph: p27
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5446_アキラ_defines_悪役としての運命_p15]]'
+  object: '[[ME_narrative_determinism_script]]'
+  claim: 「私は悪役」という自覚は、単なる性格描写ではなく、「物語の法則（Script）」に従って退場を強要される存在であることを意味し、自由意志の否定として機能している。
+  quote: 'この流れは必然で、お話としては正常。
+
+    だって私は悪役。舞台からの退場を期待されている。'
+  paragraph: p14-p15
+  confidence: strong
+  quotes:
+  - quote: 'この流れは必然で、お話としては正常。
+
+      だって私は悪役。舞台からの退場を期待されている。'
+    paragraph: p14-p15
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_ch5446_アキラ_defines_がらくたのアレッテ_p43]]'
+  object: '[[ME_golem_artificial_life]]'
+  claim: 完全者（アルト）に至れなかった「がらくた」としての自己定義は、人工生命体やクローンにおける「欠陥品・廃棄対象」という概念を、魂の継承というファンタジー要素で昇華させている。
+  quote: もうひとつの邪眼。完全なアルトになれない、がらくたのアレッテだ。
+  paragraph: p43
+  confidence: moderate
+  quotes:
+  - quote: もうひとつの邪眼。完全なアルトになれない、がらくたのアレッテだ。
+    paragraph: p43
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_レイの正体とゼド統合
+  note: 無花果レイが「新しく創造されたクレイ」であり、「紀人ゼドと同一存在」とされる記述。六人分の魂を内包する点が後の展開でどう作用するか不明。
+  quotes:
+  - quote: 'あれは、新しく創造されたクレイだ。
+
+      レイの影が蠢く。複数の光源に照らされて分かれていく影法師が、それぞれ異なる姿をとる。六人分の魂を内包した新たなレイは、今や紀人ゼドと同一存在だ。'
+    paragraph: p78-p79
+    quote_verified: true
+  expected_payoff: レイの行動原理の謎解き、または主人公との因縁の完結（ゼドとの関係性の清算）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_クルミの運命の分岐
+  note: クルミが「自分の運命は冥府にあり、トウコの運命は舞台にある」と区別し、単独で罪を被って地下牢へ連行された。この分離が後の脱出劇や浄界での再会への伏線か。
+  quotes:
+  - quote: 「いいえ。私の運命は冥府にあり、トウコの運命は舞台にある。それだけのこと」
+    paragraph: p88
+    quote_verified: true
+  expected_payoff: クルミの救出、または冥府（浄界）側のシナリオ進行による主人公への介入。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第五階層の古典劇テーマ
+  note: 「内なる法と外なる法の対立」がこの階層で繰り返される儀式の基本的なテーマだと明言されている。これが物語全体の構造的特徴なのか、特定の敵との戦闘に利用されるのか。
+  quotes:
+  - quote: 'その基本的なテーマは『内なる法と外なる法の対立』だ。
+
+      王による埋葬の禁止と、その法を破らんとする者の叛逆がこの茶番を支える本当の筋書きだろう。'
+    paragraph: p61-p62
+    quote_verified: true
+  expected_payoff: 主人公が「内なる法」に従い、物語の強制（外なる法）に逆らうための理論的根拠となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_裏切りの定義と頬への口づけ
+  note: アレッテが説いた「頬への口づけ（異なる世界観を拒絶と共に愛すること）」という概念。主人公はこれに届かなかったと悔いているが、将来この行為を実行する可能性を示唆している。
+  quotes:
+  - quote: 'もうひとつは頬への口づけ。異なる世界観を拒絶と共に愛すること。
+
+      この裏切りは、きっと頬には届かない。'
+    paragraph: p105-p107
+    quote_verified: false
+  expected_payoff: 主人公がクルミや他者に対し、「同化」ではなく「受容」の愛を見せる瞬間（クライマックス）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_シナモリアキラの補填
+  note: 主人公がシナモリアキラの不足分を埋めるために存在すると推測されている。これは単なる自己欺瞞か、真実か。
+  quotes:
+  - quote: 前世の多くを欠落させたシナモリアキラでは足りない。だからその不足分を埋めるためにこの私がシナモリアキラに補填された。多分、そういうことだ。
+    paragraph: p63
+    quote_verified: true
+  expected_payoff: 主人公の存在意義や、シナモリアキラとの関係性の再定義。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の強制（Script）に対する主体性の喪失と、その内側での葛藤
+  weight: 0.9
+  quotes:
+  - quote: 'この流れは必然で、お話としては正常。
+
+      だって私は悪役。舞台からの退場を期待されている。'
+    paragraph: p14-p15
+    quote_verified: true
+  - quote: 大切なことは常に私の外側にある。
+    paragraph: p39
+    quote_verified: true
+  note: 主人公が「悪役」としての運命を受け入れつつも、その理不尽さ（ゲーム的展開の欠如）に不平を漏らす構造。物語の決定論と個人の感情の対立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 同化による愛と、境界線（頬への口づけ）を持つ愛の対比
+  weight: 0.8
+  quotes:
+  - quote: 'ひとつは偽証。呪文を紡ぎ、誰かの世界観に反する物語を創造すること。
+
+      もうひとつは頬への口づけ。異なる世界観を拒絶と共に愛すること。'
+    paragraph: p104-p105
+    quote_verified: true
+  - quote: 私たちは、血を融かすようにして同化する愛しか教わらなかったのだから。
+    paragraph: p108
+    quote_verified: true
+  note: 主人公がミヒトネッセ（クルミ）を見捨てた行為を「偽証」と捉え、「同化」以外の愛の形態を模索している。倫理的な葛藤の核心。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 欠損と補填による存在論：がらくたとしての自己肯定への試み
+  weight: 0.7
+  quotes:
+  - quote: もうひとつの邪眼。完全なアルトになれない、がらくたのアレッテだ。
+    paragraph: p43
+    quote_verified: true
+  - quote: 'これは、そんながらくたが無様に落ちぶれていく物語――。
+
+      ――になっては困るのだけれど。'
+    paragraph: p44-p46
+    quote_verified: true
+  note: 完全者（アルト）になれなかった欠損品としての自己認識。しかし「落ちていくだけ」の物語を拒否する意志が示唆されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクション的自覚：ゲームシステムと現実因果の断絶
+  weight: 0.6
+  quotes:
+  - quote: 嫌がらせをしようとして空回りしたり、高慢に見えて根っこの庶民らしさや人の良さが滲み出て結局ヒロインと仲良くなったり、何だかんだで王子様にも好感を持たれたりするはずじゃなかった？
+    paragraph: p23
+    quote_verified: true
+  - quote: 実体験として言うけど、嫌がらせしたら普通に恨まれて終わりだと思うよ
+    paragraph: p25
+    quote_verified: true
+  note: 乙女ゲームのテンプレ（好感度イベント）と現実の因果応報のギャップを指摘し、システム外からの批判的視点を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 匿名性と普遍性：名前を持たないヒロインと観客としての自己
+  weight: 0.5
+  quotes:
+  - quote: 彼女にはこの舞台特有の役名が無い。空白――名前が無い女。顔や声などの特徴もどこかぼんやりして感じられる。
+    paragraph: p51-p52
+    quote_verified: true
+  - quote: 个性の薄い主人公（ヒロイン）
+    paragraph: p54
+    quote_verified: false
+  note: ヒロインが「空白」であることにより、物語への没入（観客・プレイヤーとしての自己投影）を促す構造。悪役である主人公との対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

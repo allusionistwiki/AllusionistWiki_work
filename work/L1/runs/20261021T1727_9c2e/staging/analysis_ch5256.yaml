@@ -1,0 +1,121 @@
+chapter: ch5256
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_Grendel_History_Rewrite
+  note: グレンデルヒによる過去改竄がどこまで遡り、最終的に世界全体をどう書き換えるのか。ちびセスカ（主人公）の記憶と存在は完全上書きされるのか、それとも抵抗し続けるか。
+  quotes:
+  - quote: 超高位言語魔術と浄界の複合干渉によって、記憶の中のアキラの顔が歪み、曖昧になり、グレンデルヒのものに変わっていく。もはや、本当のアキラがどんな人物でどんな容姿だったのか思い出せない。
+    paragraph: p155
+    quote_verified: true
+  - quote: アキラが穢され、浸食されていく。そんな事実は耐えられないと、必死に邪視で抵抗するが、グレンデルヒの世界観は余りにも強固だった。
+    paragraph: p158-p159
+    quote_verified: true
+  expected_payoff: ちびセスカが記憶喪失や人格崩壊の危機に瀕するか、あるいはその抵抗（邪視）が決定的な対抗手段として機能する展開への布石。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kate_Infiltration
+  note: 外世界人のケイトが「トーナメントという呪術儀式を利用した」「罠のつもりだった」と語っている。彼女は最初からグレンデルヒ側についたスパイなのか、それとも状況適応型か。彼女の真意と所属勢力。
+  quotes:
+  - quote: （簡単なことさ。このトーナメントという呪術儀式を利用させて貰った。即興の作戦だったけど、思いの外上手く行くものだね。全く、こちらに有利になるようなことをしてくれてお礼を言いたいくらいだよ。まあ罠のつもりだったんだろうけど、こちらの戦力を見誤ったね）
+    paragraph: p126
+    quote_verified: true
+  expected_payoff: ケイトが物語の黒幕あるいはキーパーソンであることの確定、または彼女による主人公側への裏切り・助力の回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Febulus_True_Name
+  note: フェブルウス（ニケ）が「カロン」「フェブルウス」と名乗りを変える現象。名前が変わるたびに呪力が増幅している。「本質を示す最も力のある御名」が完全に解放された場合、世界に何が起きるか。
+  quotes:
+  - quote: 死人の森の女王フェブルウス――その名前は偽名でも数ある異名の一つでもない。彼女の本質を示す、最も力のある御名。宣名によって放出される呪力の莫大さが、使い捨てられていく名前の全てが本物だと告げている。
+    paragraph: p43
+    quote_verified: true
+  expected_payoff: フェブルウスの真名（あるいは完全な権能）の解放による世界の崩壊、またはグレンデルヒとの対決の決着。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Circus_Society_Resistance
+  note: クロウサー社が「猛烈な反発と抗議」をしているが、「決定的な証拠か言語魔術でもなければ動かない」とされている。クロウサー社（主人公側の支援組織？）はこの改竄をどう覆す手段を持つのか。
+  quotes:
+  - quote: クロウサー社が猛烈な反発と抗議を行うが、一度形成された世論は決定的な証拠か言語魔術でもなければ動かない。
+    paragraph: p145
+    quote_verified: true
+  expected_payoff: クロウサー社の持つ技術や資源（言語魔術の対抗手段）を用いた逆転劇。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の所有権とナラティブの暴力性：誰が物語を語っているのかという問いは、そのままその存在の生存権に関わる。
+  weight: 0.9
+  quotes:
+  - quote: 過去の物語が語り直され、『主人公グレンデルヒ』が立ち上がってくる。言理の妖精語りて曰く、大量の描写こそが言語魔術師の力である。
+    paragraph: p187-p188
+    quote_verified: true
+  - quote: シナモリ・アキラという存在が否定、あるいは上書きされていく。過去に遡って書き換えられていく今までの出来事。
+    paragraph: p148-p149
+    quote_verified: true
+  note: 言語魔術による改竄は、単なる幻覚ではなく「物語の主人公を乗っ取る」という存在論的な攻撃として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 評価経済の虚構性：SNSや市場における評価（レビュー）が、実は全て操作された虚栄に過ぎないという批判と、その破壊力。
+  weight: 0.8
+  quotes:
+  - quote: サイバーカラテ道場の力は数の力。その全てはシナモリ・アキラによるステルスマーケティング、つまりは自作自演の宣伝と評価でしかない虚栄の力だったというのだ。
+    paragraph: p214-p215
+    quote_verified: true
+  - quote: 「大した事が無い」という言説によって、実際に『大した事が無くなっていく』――それが数が力となるサイバーカラテの弱所だった。
+    paragraph: p223
+    quote_verified: false
+  note: 現代のインターネット社会における評価システムの脆さ（自作自演による価値の虚構性）を、呪術的な物理現象として可視化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己と他者の境界の侵食：他者からの定義や視線によって、自分の記憶・容姿・アイデンティティが書き換えられる恐怖。
+  weight: 0.7
+  quotes:
+  - quote: ちびセスカにはこの相手が自分の前世であり参照元であるという事実が、ひどく遠く感じられた。...記憶の中のアキラの顔が歪み、曖昧になり、グレンデルヒのものに変わっていく。
+    paragraph: p46-p155
+    quote_verified: false
+  - quote: 奪う――？ 黙りなさい、誰が、貴方などに！
+    paragraph: p166
+    quote_verified: true
+  note: グレンデルヒの「交換可能性」の主張に対し、ちびセスカが自分の記憶と存在を保持しようとする戦い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 陰謀論による現実支配：論理の飛躍（難癖）が世界法則となる恐怖。
+  weight: 0.6
+  quotes:
+  - quote: とりあえず難癖を吹っ掛けてみることが言語魔術【陰謀論】の基本である。
+    paragraph: p258
+    quote_verified: true
+  - quote: 「私は正しかった！ 正義の執行は達成された！」
+    paragraph: p264
+    quote_verified: true
+  note: 根拠のない論理（陰謀論）が権力と結合し、現実を歪める様子をグロテスクに描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

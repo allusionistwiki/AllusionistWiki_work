@@ -1,0 +1,211 @@
+chapter: ch5074
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p31-p35]]'
+  object: '[[ME_hacking_trope_videogame]]'
+  claim: 異世界でのハッキング描写が、90年代のビデオゲームやサイバーパンク作品のステレオタイプ（ヘッドギア、高速打鍵、ポリゴン）をパロディ化している。
+  quote: 頭部をすっぽりと覆う巨大なヘッドギア。無数のコードが据え置きの端末に繋がり、室内にはファンの回転する音がBGMとして響いている。
+  paragraph: p31
+  confidence: explicit
+  quotes:
+  - quote: 頭部をすっぽりと覆う巨大なヘッドギア。無数のコードが据え置きの端末に繋がり、室内にはファンの回転する音がBGMとして響いている。
+    paragraph: p31
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p52-p54]]'
+  object: '[[ME_super_smash_bros_platforming]]'
+  claim: アストラル界での戦闘が、ちびキャラによるポリゴン通路飛行という『大乱闘スマッシュブラザーズ』的なプラットフォームゲームの視覚イメージを引用している。
+  quote: 表示されたのは、盾と銃で武装したちびシューラだ。ポリゴンで構成された通路を飛行して進んでいく様は、旧時代のビデオゲームのようである。
+  paragraph: p52-p54
+  confidence: strong
+  quotes:
+  - quote: 表示されたのは、盾と銃で武装したちびシューラだ。ポリゴンで構成された通路を飛行して進んでいく様は、旧時代のビデオゲームのようである。
+    paragraph: p52-p54
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p139]]'
+  object: '[[ME_ice_acronym_hacking_history]]'
+  claim: トリシューラが説明する『ICE』という用語は、現実のコンピュータセキュリティ用語であるIntrusion Countermeasures Electronics（侵入対策電子機器）に由来し、それを魔法用語へ翻訳している。
+  quote: アイス――つまりIntrusion Countermeasure Entrancementの頭文字をとってICEってことなんだけど
+  paragraph: p139
+  confidence: explicit
+  quotes:
+  - quote: アイス――つまりIntrusion Countermeasure Entrancementの頭文字をとってICEってことなんだけど
+    paragraph: p139
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p188-p208]]'
+  object: '[[ME_modern_osint_forensics]]'
+  claim: SNS上の工作特定プロセスが、現代のOSINT（オープンソース・インテリジェンス）手法、特にメタデータ解析や文体論によるプロファイリングを魔法技術へ換骨奪胎している。
+  quote: プロクシ通そうが端末変えようが、記述の筆致から個人を特定するのなんて言語魔術師にとっては朝飯前なんだから。あらゆるテクストには『筆致』や『文体』という呪術的痕跡が必ず残る。
+  paragraph: p202
+  confidence: strong
+  quotes:
+  - quote: プロクシ通そうが端末変えようが、記述の筆致から個人を特定するのなんて言語魔術師にとっては朝飯前なんだから。あらゆるテクストには『筆致』や『文体』という呪術的痕跡が必ず残る。
+    paragraph: p202
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_p49]]'
+  object: '[[ME_placebo_effect_ritual]]'
+  claim: 『仰々しさは儀式に繋がる』という説明は、心理的なプラセボ効果や自己暗示が、論理的な魔法の効力を実際に増幅させるメカニズムを提示している。
+  quote: 仰々しさは儀式に繋がるし、直観に則した外観が科学性の外――すなわち呪術の力を強固にする
+  paragraph: p49
+  confidence: moderate
+  quotes:
+  - quote: 仰々しさは儀式に繋がるし、直観に則した外観が科学性の外――すなわち呪術の力を強固にする
+    paragraph: p49
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p213]]'
+  object: '[[ME_real_name_influencer_debunking]]'
+  claim: リーナ・ゾラ・クロウサーによる実名での工作暴きと、それに続く世論の急転直下は、現代SNSにおけるインフルエンサーによるファクトチェックや炎上鎮静化のプロセスを反映している。
+  quote: それが匿名ではなく、実名を明かしての意見の発信であったことも大きかった。身元の確かな探索者で、名前はリーナ・ゾラ・クロウサーという女性らしい。
+  paragraph: p213
+  confidence: strong
+  quotes:
+  - quote: それが匿名ではなく、実名を明かしての意見の発信であったことも大きかった。身元の確かな探索者で、名前はリーナ・ゾラ・クロウサーという女性らしい。
+    paragraph: p213
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_colcesca_true_affiliation
+  note: コルセスカが【公社】に付いているという疑惑と、実際の行動（氷による援護）の間に矛盾がある。彼女の真意は敵対でも味方でもない何かである可能性が高い。
+  quotes:
+  - quote: 一時は俺に仲間になることを求めてきたコルセスカが【公社】に付いているのではないか、という疑惑も浮上。その行方は杳として知れない。
+    paragraph: p4
+    quote_verified: true
+  - quote: 「これ、セスカの【氷】だ」
+    paragraph: p127
+    quote_verified: true
+  expected_payoff: コルセスカが独自のアジェンダ（第三勢力）を持っていることの示唆。彼女が最終的に誰の味方をするか、あるいは独自のルールで戦うかの伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kilorn_proposal
+  note: キロンからの『トリシューラを裏切れば地上に迎え入れる』という誘いが未解決のまま残っている。この誘いが今後の展開で再度提示される、または利用される可能性。
+  quotes:
+  - quote: 加えて、【松明の騎士団】のキロンという男が現れ、俺にトリシューラを裏切れば地上に迎え入れるという誘いをかけてきた。
+    paragraph: p6
+    quote_verified: true
+  expected_payoff: アキラとトリシューラの信頼関係に対する試金石。あるいは地上側の介入の端緒。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_rina_zola_crowser_connection
+  note: リーナ・ゾラ・クロウサーがエスフェイル戦に関わった探索者と知り合いであるという詳細な背景設定。彼女が単なる通行人でない可能性。
+  quotes:
+  - quote: 彼女は半年前にエスフェイルに敗れた三人の探索者のうち一人と知り合いだったらしく、彼は実力的に魔将に勝利できるレベルになく、探索者協会の抗議はただの言いがかりであると主張。
+    paragraph: p213
+    quote_verified: true
+  expected_payoff: リーナが今後の情報戦で重要なキーパーソンになる、あるいはエスフェイル戦の真実を語るカギとなる人物である可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_astral_physical_manifestation
+  note: アストラル界の水呪術師が画面から飛び出し物理的な実体を持つ現象。この境界の曖昧さが今後さらに激化する伏線。
+  quotes:
+  - quote: 水流はそのまま画面から飛び出し、物理的な実体を獲得、そのまま等身大の少女の形をとる。水によって形作られた瞳がこちらを視認。どろりとした口が言葉を紡ぎ出す。
+    paragraph: p102
+    quote_verified: true
+  expected_payoff: アストラル界と現実世界の干渉度が増し、より直接的で危険な呪術戦が発生する基盤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 形式主義の効力：『それっぽさ』や演出が、現実的な論理を超えて実体（魔法の効果）を強化するという逆説的リアリズム。
+  weight: 0.9
+  quotes:
+  - quote: 仰々しさは儀式に繋がるし、直観に則した外観が科学性の外――すなわち呪術の力を強固にする
+    paragraph: p49
+    quote_verified: true
+  - quote: 確かに、実際にはこんな『それっぽさ』は必要ないんだけどね
+    paragraph: p45
+    quote_verified: true
+  note: メタフィクション的なツッコミを物語内の物理法則として正当化する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語の権力と文体論：テキストの『筆致』が個人の魂（呪術的痕跡）であり、情報戦の本質は技術ではなく言語学的な特定にある。
+  weight: 0.8
+  quotes:
+  - quote: あらゆるテクストには『筆致』や『文体』という呪術的痕跡が必ず残る。情報量が多くなればなるほど、統計に基づいた文体論的推定は容易になるの
+    paragraph: p202
+    quote_verified: true
+  note: デジタルな匿名性が魔法世界では成立しにくいというテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人間関係の非二項対立：敵味方の境界が流動的であり、感情や過去の恩義が冷徹な戦略判断（トリシューラの勝利）と衝突する葛藤。
+  weight: 0.7
+  quotes:
+  - quote: コルセスカに対してこの右手を振り下ろせるかと問われれば、幾ばくかの迷いが生じる。彼女は恩人だ。何の躊躇もなく敵対できるかと言えばそれは否である。
+    paragraph: p71-p73
+    quote_verified: true
+  - quote: 「わからない。けど、もしセスカが私と戦う事を選んだのだとしたら――私は、勝ちたい」
+    paragraph: p83
+    quote_verified: true
+  note: アキラの『覚悟』とトリシューラの『意志』の対比を通じた倫理的テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世論の可塑性：直観が支配する世界では、論理より強い感情（同情）によって急速に現実（評判）が書き換えられる。
+  weight: 0.6
+  quotes:
+  - quote: 一度現れた世論は極端に膨れ上がり急速に固まっていく。裏を返せば、壊れる時も急速である。
+    paragraph: p198-p200
+    quote_verified: true
+  note: 炎上と鎮静化のメカニズムが、この世界の魔法的性質（直観優位）によって規定されている点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

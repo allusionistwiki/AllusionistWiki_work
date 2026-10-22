@@ -1,0 +1,258 @@
+episode: ch5389
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5389_パーン_says_叛逆は無害化される_p104
+        quote: 「無駄だ。女王の剣がそれを許さず、俺たちは絶対遵守の契約で縛られている。その上、この王国で起きるあらゆる叛逆は予定調和の死と再生という形で無害化される――オルヴァがいる限りな」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_says_敗北の受け入れ_p119
+        quote: 「お前は心の深い部分で既に敗北を受け入れてしまっている。独力ではオルヴァには勝つことができないとな。叛逆に失敗した負け犬としての在り方が身に染みついているぞ、ヴァージル。臭くてかなわん。近くに寄るな」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_says_リビドーとデストルドーの不一致_p128
+        quote: 「それは貴様だけだ馬鹿め。そういう話はそれこそオルヴァにでも持ちかけるがいい。俺の望みはクロウサーの打倒と過去の克服だ。自己の更新（アップデート）による、な。俺のリビドーとお前のデストルドーは噛み合わん」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_says_再生者である点のみ_p16
+        quote: 「俺とお前に似ている点があるとすれば、それは再生者であるというただ一点のみだ。なぜそんな下らない思いつきを口にする気になった？」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_says_支配は不可能_p164
+        quote: 「この俺を支配する、だと――？」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_says_クロウサーの秘術を教えない_p23
+        quote: 「クロウサーの秘術が目当てなら余所を当たれ、ヴァージル。俺はお前が欲しがるような知識は持っていないし、たとえ知っていたとしても教えない」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_says_可能性は自分次第_p40
+        quote: 「俺の器をお前が量るな。俺の可能性は俺自身が定める」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_asks_統治の形態_p66
+        quote: 「お前はどうなんだ。俺は力で全てをねじ伏せる覇王だ。だがヴァージル、お前はそうではないのだろう。ならば一体、どんな時代遅れな政体で自らの『王国』を統治するつもりでいる？」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_other_開発依頼_p90
+        quote: 「なるほど。そういう腹か――回りくどい奴だ。どうせ女王（フェロニア）の許可も取り付けてあるのだろうが。やってやるから今は失せろ。お前の厚かましい面をこれ以上見ていると殺したくなる」
+        locator: {}
+        spoiler_after: ch5389
+    action:
+      observations:
+      - event_ref: E_ch5389_パーン_observes_ヴァージル_p11
+        quote: パーンと呼ばれた男はつまらなさそうに相手を一瞥する。
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_repairs_義肢_p14
+        quote: 麗しいかんばせに笑みを浮かべた兎耳の少年は、無骨な義肢を黙々と整備する男に気安く近付いていく
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_fights_ヴァージル_p141
+        quote: 顔を合わせて、言葉を交わし、用向きを伝えた後には必ずその呪術と武力の全てをもって相手を殺害する。暴力を取り交わし、相手を破壊する。
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_activates_第六義肢ラクルラール_p173
+        quote: 「お前が俺に支配されるのだ――第六義肢ラクルラール！！」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_other_ラクルラール_p181
+        quote: パーンの右腕が、ラクルラールを喰っているのだ。
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_パーン_other_左腕_p222
+        quote: 全ての拘束を振り解いて飛び上がったパーンは失われた左腕を瞬時に『創造（クラフト）』すると新たな呪術を行使した。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_鉄屍たち]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5389_鉄屍たち_functions_as_守り手_p12
+        quote: 無骨な鋼鉄の浮遊建築物は物々しい鎧と絡繰りで身を固めた鉄屍たちが休み無く守り続ける最も堅牢な砦のひとつ。古代の『杖文明』の遺産によって機械化された再生者たちの軍勢は独特な硬質さを備えている。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_巨大な白骨の手]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5389_巨大な白骨の手_captures_両者_p142
+        quote: 壮絶な戦いは互いの肉体が三度滅びても続き、最後には地面を突き破って現れた巨大な白骨の手が両者を鷲掴みにして、
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_女王の庇護]]'
+  entity_type: relationship
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5389_女王の庇護_enables_じゃれ合い_p147
+        quote: 結局の所、殺し合いはじゃれ合いでしかなく、二人の間では因縁も決着も果てしなく先延ばしにされるものでしかない。女王の庇護の下にある限り、あらゆる危険な叛意も『可愛い子供の反抗期』以上のものにはなりようがない。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5389_ヴァージル_transforms_パーンを少年姿へ_p157
+        quote: 呪文が、髪の毛が、パーンの全身を覆い尽くしていく。青年は今や子供のサイズにまで縮んでおり、その身に充溢していた闘気は見る影も無く消え失せている。最後まで抗おうとしていた幻肢が力を失い、存在を希薄化させて消えていった。
+        locator: {}
+        spoiler_after: ch5389
+    speech:
+      observations:
+      - event_ref: E_ch5389_ヴァージル_says_仲良くしよう_p18
+        quote: 「共通点から話題を広げようっていう僕なりの歩み寄りなんだけどな。仲良くしようよ、同じ『森』の仲間なんだから」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_ヴァージル_says_器ではない理由_p32
+        quote: 「ううん。パーンさんがどうしてクロウサーの当主に選ばれなかったのか、よく分かったってだけ。どれだけ才気に溢れていても、そんなに我が強かったら『器』じゃないよね。もっと繊細で感受性が強ければわからなかったけど」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_ヴァージル_says_そのままで幸せ_p42
+        quote: 「根本的な誤解があるし、そういう所が本当に疎まれる原因だと思うけど――面白いし、パーンさんにとってもお母様にとってもそのままでいてくれた方が幸せっぽいからまあいいか」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_ヴァージル_says_ラフディ組の方が向いている_p49
+        quote: 「どっちかっていうとラフディ組あたりの方がクロウサー向きだと思うよ。アルトおじさんにしてもカーティスさんにしても、『使い魔』っぽく周りを見過ぎちゃう所があるし。僕やパーンさんはほら、まず最初に『自分』があるじゃない」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_ヴァージル_says_再生者の王としてそのまま_p56
+        quote: 「そうだね。だからこそパーンさんは、『死人の森』が内包する『滅びた王国』の中でも野蛮で荒々しい死を司っている。再生者の王であるあなたは、そのままでいいんだと思うよ」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_ヴァージル_says_管理する王国_p76
+        quote: 「僕はね、王国とは管理するものだと考えている。オルヴァさんはその権能で民草の地位を定めた。僕はそこから更に進んで、より踏み込んだ制御と統御を行う」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_ヴァージル_says_生を与える権力_p86
+        quote: 「『死を与える』権力じゃなくて、『生を与える』権力が僕が望む統治の在り方だよ。その最終形こそが肉体無き亡霊たち。冥道と直接魂を繋ぎ、霊体化された人格は仮想使い魔としてアーカイブされる。次世代の再生者たちだよ」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_ヴァージル_asks_インターフェイス開発_p88
+        quote: 自らの理想を述べた後、少年は訪問の真意を語った。ヴァージルの用向きは一つ。この亡霊たちが実世界に干渉する為のインターフェイスを開発して欲しいという要請である。
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_ヴァージル_asks_似ていること_p9
+        quote: 「ねえ、パーンさん。僕たちって似ていると思わない？」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_ヴァージル_says_親友だと思っている_p92
+        quote: 「やった！　ありがとうパーンさん、とても嬉しいよ。持つべきものは友達だね。昔から僕たちって本当の親友になれると思っていたんだ。ほら、僕たちって似ているじゃない？　親しみを感じるっていうか」
+        locator: {}
+        spoiler_after: ch5389
+      - event_ref: E_ch5389_ヴァージル_says_抗う者_p97
+        quote: 「腐敗した王国を弑逆し、父なる王権を簒奪する。そう、僕たちは抗う者。僕は下らない月王を殺して太陰を綺麗な世界にしたかった。パーンさんは堕落したクロウサーを殺して完全な空の王になりたかった。けれど僕たちは共に敗残者。だからこそ再起しなくてはならない――そう、たとえこの森に完璧な女王がいるとしても」
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ラクルラール]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5389_ラクルラール_bonds_パーンの身体を責め苛む_p162
+        quote: 加えてラクルラールの髪の毛が呪縛となってか細い体躯を責め苛んでおり、パーンがヴァージルの支配下に置かれるのにそう時間はかからないであろうことをその場の誰もが確信していた
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5389_コルセスカ_appears_氷塊の亀裂_p192
+        quote: コルセスカが封じられた氷塊に亀裂が走っている。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_骨の剣]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5389_骨の剣_other_氷塊_p193
+        quote: 飛び出した剣は飛翔して氷塊の中に飛び込み、そのまま亀裂に突き刺さった。閃光が迸り、刃は氷に深々と突き刺さった。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_技能の断章]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5389_技能の断章_other_コルセスカの呪力_p199
+        quote: いつの間にか、パーンの背後に浮かび上がった『技能の断章』がコルセスカの呪力に呼応して光輝いていた。支配の呪詛は停滞し、義肢と化したラクルラールとパーンの肉体を融合させていた青い血液は凍結してその流れを止めている。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_死者たちの王国]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5389_死者たちの王国_is_located_薄暗い森_p2
+        quote: 永い忘却の彼方、薄暗い森の中に死者たちの王国があった。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_冥府と繋がる洞穴]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5389_冥府と繋がる洞穴_is_located_森の中心部_p3
+        quote: 木々を分け入った先、冥府と繋がる暗い洞穴が口を開いて、暗黒から吐き出される清流が森を真っ二つに分断する。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_六つの城砦]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5389_六つの城砦_is_located_川を取り囲む場所_p4
+        quote: 川を取り囲むようにして建つのは六つの城砦。堅牢に守られた森の中心部、川の真上にそれは浮遊している。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_王城]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5389_王城_has_property_実体の無さ_p6
+        quote: 死人たちの『王城』は一見すると堅牢そうな石造りの城だが、近付いて見ればその異様さは明白だった。城には確かな形が無い。明確な実体と質感を持たない亡霊の巣であり、幻影も同然。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルウテト]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5389_ルウテト_names_上王_p7
+        quote: 死せる者どもの偉大なる女神にして上王、その名をルウテト。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_六王たち]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5389_六王たち_bonds_ルウテト_p7
+        quote: そして彼女に仕える騎士にして古き時代を知る六王たち。その地は最も冥府に近い暗がりだった。
+        locator: {}
+        spoiler_after: ch5389
+  first_appearance_candidate: true

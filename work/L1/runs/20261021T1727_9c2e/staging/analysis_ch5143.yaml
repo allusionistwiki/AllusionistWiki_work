@@ -1,0 +1,238 @@
+chapter: ch5143
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5143_ティリビナ人_has_property_漂泊の呪的性質_p77]]'
+  object: '[[ME_Romani_people]]'
+  claim: 家屋を持たず移動を続けるティリビナ人の生活様式は、歴史的なロマ（ジプシー）の遊牧・漂泊文化およびその偏見との闘いを反映している。
+  quote: 私達は家屋を作って生活しない。だから『自分が立っているここが居場所だ』っていう強い確信があるんだ。
+  paragraph: p75
+  confidence: strong
+  quotes:
+  - quote: 私達は家屋を作って生活しない。だから『自分が立っているここが居場所だ』っていう強い確信があるんだ。
+    paragraph: p75
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5143_プリエステラ_says_秘密の交易_p12]]'
+  object: '[[ME_Black_Market_Trade]]'
+  claim: 探索者や研究者と原住民の間で行われる秘密裏の物資交換は、正規の市場経済から除外された場所における闇市や非公式な物々交換の構造を模している。
+  quote: 友好的な探索者の人とか、私達のこと研究したい大学の研究員の人とかがこっそりとね。木彫りの呪具とか祝福祈祷とかと物々交換したり呪術交換したり――あ、これ内緒ね。
+  paragraph: p12
+  confidence: moderate
+  quotes:
+  - quote: 友好的な探索者の人とか、私達のこと研究したい大学の研究員の人とかがこっそりとね。木彫りの呪具とか祝福祈祷とかと物々交換したり呪術交換したり――あ、これ内緒ね。
+    paragraph: p12
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5143_プリエステラ_confesses_父の死と手首_p83]]'
+  object: '[[ME_Religious_Martyrdom]]'
+  claim: 聖なる遺物として崇められるべき宗教的殉教や聖人伝における「切断された肢体」のモチーフが、ここでは残酷な事故死の痕跡（握りしめた手）として現れ、神聖さの剥奪を示唆する。
+  quote: 死体が原型留めて無くてさ、私があげたお守りを握りしめた手だけが見つかったの。効果、無かったみたいだけど
+  paragraph: p83
+  confidence: weak
+  quotes:
+  - quote: 死体が原型留めて無くてさ、私があげたお守りを握りしめた手だけが見つかったの。効果、無かったみたいだけど
+    paragraph: p83
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5143_ミルーニャ_says_実利主義的な思想_p39]]'
+  object: '[[ME_Machiavellian_Realpolitik]]'
+  claim: 理想を口にするために金・力・名声が必要だと説くミルーニャの論理は、マキャヴェリスムや現実政治における権力基盤なしには理念が実現不能であるという見地に一致する。
+  quote: お金と力、そして名声。それが全てではないにせよ、それが無いと理想を口にすることすらできない。
+  paragraph: p39
+  confidence: moderate
+  quotes:
+  - quote: お金と力、そして名声。それが全てではないにせよ、それが無いと理想を口にすることすらできない。
+    paragraph: p39
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5143_ティリビナ人_gives_バジリスクの死体_p106]]'
+  object: '[[ME_Mythical_Basilisk]]'
+  claim: 「蛇の王」と呼ばれる怪物が石像化能力を持つという設定は、ヨーロッパ中世伝承におけるバジリスク（コカトリス）の視線で石にするという神話的属性を直接的に引用している。
+  quote: 長大な体躯、緑色の硬質な鱗、半ば融解した頭部は失われ、その恐るべき両の目は存在しない。
+  paragraph: p107
+  confidence: explicit
+  quotes:
+  - quote: 長大な体躯、緑色の硬質な鱗、半ば融解した頭部は失われ、その恐るべき両の目は存在しない。
+    paragraph: p107
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5143_プリエステラ_confesses_生い立ちと虐待_p71]]'
+  object: '[[ME_Castrati_System]]'
+  claim: 親に疎まれ、専門的な修行（巫女・呪術）のみに明け暮れたプリエステラの生い立ちは、家族から隔離され機能特化を強要される歴史的なカストラートや宮廷召使の構造と類似する。
+  quote: だから私、小さい頃はみんなと一緒には生活できなかった。ずーっと呪術の勉強して、レルプレア様と交信する巫女の修行に明け暮れてた。
+  paragraph: p71
+  confidence: weak
+  quotes:
+  - quote: だから私、小さい頃はみんなと一緒には生活できなかった。ずーっと呪術の勉強して、レルプレア様と交信する巫女の修行に明け暮れてた。
+    paragraph: p71
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ミルーニャの父への恨みと秘密交易の関連
+  note: プリエステラが秘密の交易について語った際、ミルーニャは「あの馬鹿」と呟き忌々しげに舌打ちした。これはミルーニャの父（故人）がこの交易に関与していた、あるいはこの取引のルールを破って問題を起こした可能性を示唆する。
+  quotes:
+  - quote: ミルーニャは得心のいったように「そういうことか、あの馬鹿」と呟いて、忌々しげに舌打ちをしていた。
+    paragraph: p16
+    quote_verified: true
+  expected_payoff: 後の展開で、ミルーニャの父が探索者や研究者との間でどのような取引を行い、それがどのような悲劇（死亡原因など）を招いたかが明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_殺意の方向転換とハルベルトへの警戒
+  note: ミルーニャはプリエステラに対して殺意を持っていたが、プリエステラの態度を見て殺意を失い、代わりにハルベルトに対して強い殺意（敵意）を抱くようになった。アキラはこの変化を「殺意に関してはミルーニャからハルベルトへのものを警戒した方が良さそう」と記録している。
+  quotes:
+  - quote: どうやら殺意に関してはミルーニャからハルベルトへのものを警戒した方が良さそうだ。
+    paragraph: p49
+    quote_verified: true
+  expected_payoff: 戦闘中や緊迫した状況で、ミルーニャがハルベルトに対して裏切り行動や妨害行為を行う可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_イキューの「甘味」追求とプリエステラの復讐計画
+  note: ミルーニャはイキューを「高い呪力を宿した存在を『甘い』と認識し、どこまでも心震わせる甘味を追求する獰猛な美食家」と説明した。プリエステラはイキューの倒害を依頼したが、イキューを倒すための具体的な戦略や、イキューがなぜプリエステラの父を殺したのか（父が高い呪力を持っていたか等）の詳細が未解決である。
+  quotes:
+  - quote: 高い呪力を宿した存在を『甘い』と認識し、どこまでも心震わせる甘味を追求する獰猛な美食家。
+    paragraph: p120
+    quote_verified: true
+  expected_payoff: イキューを倒すための戦いにおいて、「甘味（呪力）」が餌や罠として利用される展開、あるいはイキューの生態に基づいた特殊な攻略法が必要になる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_プリエステラの父が残した「お守り」の効果
+  note: プリエステラは父に渡したお守りを握りしめた手が見つかったと述べ、「効果、無かったみたいだけど」と語った。このお守りが本当に無効だったのか、それともイキューの能力（溶かす/舐める）によって破られたのか、あるいは別の意味があるのか不明。
+  quotes:
+  - quote: 私があげたお守りを握りしめた手だけが見つかったの。効果、無かったみたいだけど
+    paragraph: p83
+    quote_verified: true
+  expected_payoff: 戦闘中に同種のお守りが登場し、イキューに対して何らかの防御・対抗手段として機能する、あるいはその製造技術が重要な鍵となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ミルーニャの「仮面」とアキラへの信頼
+  note: アキラはミルーニャの明るさを「仮面」と見抜き、その裏側が乾いていると推測した。しかしミルーニャはアキラに対して「許せるって自分で思えるなら、もうどんなことだって！」と極端な信頼（あるいは依存）を示した。この関係性がどこまで深まるか、また「変態」と呼ばれるほどの親密さが今後の行動制限や判断にどう影響するか。
+  quotes:
+  - quote: ミルーニャのこうした態度は彼女の本来の顔ではないのだろう。人と接する為の仮面。
+    paragraph: p68
+    quote_verified: true
+  expected_payoff: アキラとミルーニャの連携が戦闘の勝敗を左右する、あるいはミルーニャがアキラに対してのみ見せる真の顔（弱さや計画）が重要な情報を開示する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家父長制と家族暴力からの解放、およびその後の虚無感
+  weight: 0.8
+  quotes:
+  - quote: どうしてお前はそうなんだって父親には怒られたよ。巫女としての仕事はちゃんとやったのにって思った。
+    paragraph: p79
+    quote_verified: true
+  - quote: うん。私も、正直胸がすっとした部分があったよ。やった、これであのクソ親父から解放されるってね。
+    paragraph: p91
+    quote_verified: true
+  note: プリエステラの生い立ちと父の死に対する反応は、抑圧的な家族構造からの解放が主題であることを強く示唆している。ミルーニャの共感もこれに基づく。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 実利主義による理想の解体と権力基盤の必要性
+  weight: 0.7
+  quotes:
+  - quote: お金と力、そして名声。それが全てではないにせよ、それが無いと理想を口にすることすらできない。
+    paragraph: p39
+    quote_verified: true
+  - quote: 金箒花の群生地、その場所を教えてあげる。その対価として、あんた達には私の復讐に手を貸して欲しい。
+    paragraph: p126
+    quote_verified: true
+  note: ミルーニャの発言とプリエステラの取引（情報と武力の交換）は、道徳や理想よりも物質的・軍事的な力関係が行動を決定づける世界観を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 漂泊の民としてのアイデンティティと居場所の不在
+  weight: 0.6
+  quotes:
+  - quote: 地上を追い出されて、地獄にも居着けなくて、色んな場所を行ったり来たりする放浪生活。私達は家屋を作って生活しない。
+    paragraph: p75
+    quote_verified: true
+  - quote: まあ、居場所が無いってことでもあるんだけど
+    paragraph: p75
+    quote_verified: true
+  note: ティリビナ人の特殊な性質（翼猫ラベリング無効化）が、彼らの「家屋を持たない＝居場所がない」という存在論的な不安定さと表裏一体であることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会規範の解体と人間関係の流動性（仮面・媚態・殺意）
+  weight: 0.5
+  quotes:
+  - quote: ミルーニャのこうした態度は彼女の本来の顔ではないのだろう。人と接する為の仮面。
+    paragraph: p68
+    quote_verified: true
+  - quote: どうやら殺意に関してはミルーニャからハルベルトへのものを警戒した方が良さそうだ。
+    paragraph: p49
+    quote_verified: true
+  note: パーティ内での関係性が固定されておらず、表面的な親密さ（抱きしめる等）と本質的な敵意（殺意）が入り混じっている。ミルーニャの「仮面」論がこれを象徴する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 地下生活における光と娯楽の希少性による価値転倒
+  weight: 0.4
+  quotes:
+  - quote: なにせ日光浴が最大の娯楽で贅沢って状況だからさ。それでどうにか生きて行けてるわけだから、私達はまだ恵まれてるんだろうけどね
+    paragraph: p6
+    quote_verified: true
+  note: 地上では当たり前のものが地下では最大級の贅沢となるという環境設定が、ティリビナ人の生活の質と精神状態を規定している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

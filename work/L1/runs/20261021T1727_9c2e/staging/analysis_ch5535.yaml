@@ -1,0 +1,144 @@
+chapter: ch5535
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_long_man_identity_and_origin
+  note: 長身の男（道服、黒髪、六本の腕）が誰なのか、そしてなぜ彼にとって矛盾史の改変が無意味なのか。エレクトラとの過去の関係（カーイン？）について。
+  quotes:
+  - quote: 「悪いが、私に矛盾史の改変は無意味だ」
+    paragraph: p101
+    quote_verified: true
+  - quote: 本物の殺意を滲ませながら呪いを吐き捨て、見たくないものに背を向ける。
+    paragraph: p118
+    quote_verified: true
+  expected_payoff: この男が時十字の瞳の創設者や過去の英雄（カーイン）そのもの、あるいは高位存在であることが明かされ、エレクトラの過去との和解または決定的な対立に至る。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_nameless_king_target
+  note: 護送中の『名無しの王』が敵の最優先標的である理由と、その正体（六王との関連）。
+  quotes:
+  - quote: '一番重要な標的は『名無しの王』だろう。
+
+      ガロアンディアンの王権にも繋がる、かつて六王だったもの。'
+    paragraph: p75-p76
+    quote_verified: true
+  expected_payoff: 王の奪取が政治的・呪術的な支配権の移行を意味し、物語の終盤における王権回復または崩壊のキーアイテムとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_fire_dragon_general_configuration
+  note: 現在の敵対勢力の配置が、かつて世界を焼いた火竜メルトバーズの召喚に関わった五将の配置と一致するという情報の真偽と、それが招く『紀竜の降臨』という災厄の詳細。
+  quotes:
+  - quote: 紀竜の巫女と、三人の将、そして仮面の槍士。この配置はおそらく見立てのまじない。あるいは再演儀式だと考えられる。かつて世界を焼き尽くした火竜メルトバーズ。その召喚に関わった炎帝の五将が、これとほぼ同じ配置だから
+    paragraph: p168
+    quote_verified: true
+  expected_payoff: 単なる戦闘ではなく、世界の終焉（リセット）を引き起こす大規模な再演儀式が始まることが示唆され、ヒロインたちの戦いが世界存亡レベルへスケールアップする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kunata_free_will_and_lie
+  note: クナータが『大嘘』を吐き、支配者たちに安心を与え続けている行為の真意。彼女が本当に自由意志を持てる瞬間（『いま』）と、最終的に誰に勝つのか。
+  quotes:
+  - quote: '己を呪縛する全員に同じ言葉を送ると、クナータ・ノーグは曖昧に微笑んだ。
+
+      回想によって幻視した未来の記憶。
+
+      それとはまるで一致しない大嘘を、いつものように臆面もなく口にしながら。'
+    paragraph: p299-p301
+    quote_verified: true
+  expected_payoff: クナータが支配者たち全員を欺き、最終的に独立した存在として救世主の座に就く、あるいは全滅させるための伏線（裏切り）となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_electra_betrayal_path
+  note: エレクトラがハルベルトに情報を与える『布石』と、その後でさらに裏切る可能性（使い魔の座を棄て呪文の座へ）。
+  quotes:
+  - quote: もちろん、その後でまた裏切ることさえあり得ると冷ややかな疑念をメートリアンが抱いていることもわかっている。だが、エレクトラにはこういう生き方しかできない。
+    paragraph: p138
+    quote_verified: true
+  expected_payoff: エレクトラが最終的にどの陣営に属するのか、あるいは第三勢力として自立するかの葛藤と決断。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 支配構造における『自由』の不在と、与えられた役割（聖女）を通じた逆転の企み
+  weight: 0.9
+  quotes:
+  - quote: クナータは上位者によって支配される操り人形だ。
+    paragraph: p238
+    quote_verified: true
+  - quote: 望む言葉を望むだけ施し与える。それが聖女の役割だから。
+    paragraph: p295
+    quote_verified: true
+  note: クナータは完全な支配下にあるが、その支配者たちの欲求（安心）を満たすことで、互いの信頼を欠如させ、隙を作っている。これは『操り人形』でありながら構造を利用する主体性の萌芽を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メカニクス（転生・ガチャ）の倫理的裏面：データとしての人間と操作
+  weight: 0.8
+  quotes:
+  - quote: 開発中の転生アプリのテスターとなる代わりに各種プランが安くなるという条件は彼らにとって悪い取引ではなかったし、敗北後に再起するため、他の探索者集団と合併するというのは比較的よくある流れだったのだ。
+    paragraph: p20
+    quote_verified: true
+  - quote: ティリビナ人の世界に霊や死後はないけどー、種はあるよねえ。転生保険に加入して意気揚々と第六階層に挑んだ探索者たちにー、種を植え付けておくことはできるよー
+    paragraph: p41
+    quote_verified: true
+  note: 転生保険やテスター契約が『取引』として語られ、人間の魂がデータ（経験値・呪力）として増幅・改変され、敵側によって『種』として利用される。ゲームのシステム化された存在論と、その残酷な運用。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 信頼と裏切りの境界線：友情を断ち切るための利敌行為と自己保身
+  weight: 0.7
+  quotes:
+  - quote: 'これは使い魔の座として、明確な利敵行為だ。
+
+      モーリュとの友情を断ち切るために感情が冷え切らせたエレクトラがこんな真似をしたのはもちろん情にほだされたからではない。'
+    paragraph: p132-p133
+    quote_verified: false
+  - quote: 'どんな糾弾よりも、その気高さが鋭く胸を穿つ。
+
+      敵対せざるをえなかった親友、モーリュの気持ちがよくわかった。'
+    paragraph: p210-p211
+    quote_verified: true
+  note: エレクトラはハルベルトへの情報提供という『裏切り（利敌）』を行い、その結果としてハルベルトから受けた『優しさ』がモーリュとの断絶を正当化する感情を生む。友情と戦略的合理性の交錯。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: テロリズムの定義と民衆の無辜性：敵味方の区別不能な戦場
+  weight: 0.6
+  quotes:
+  - quote: '良いティリビナ人と悪いティリビナ人。
+
+      善良でか弱い市民の中に紛れ込んだ民兵ゲリラ。
+
+      そんなもの、区別などできるわけがない。'
+    paragraph: p65-p67
+    quote_verified: true
+  note: 敵味方の区別が破綻し、無辜の民が戦力として使役される状況は、近代以降の戦争やテロリズムにおける『民間人の戦闘員化』とそれに伴う倫理的葛藤を反映している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

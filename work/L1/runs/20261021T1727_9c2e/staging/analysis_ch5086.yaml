@@ -1,0 +1,220 @@
+chapter: ch5086
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5086_コルセスカ_observes_アキラの変質_p23]]'
+  object: '[[ME_zombie_apocalypse_survival]]'
+  claim: 外見の正常性と内面の変質が不気味なほど一致しているという描写は、喪失された自我を持ちながら生存し続ける『行ける者』への恐怖を想起させる。
+  quote: あまりにも以前と変化がなさ過ぎて、いっそ不気味になるほどだった。男は変質してしまった。それは間違いのない事実だ。しかし変わらない部分もある。
+  paragraph: p23
+  confidence: moderate
+  quotes:
+  - quote: あまりにも以前と変化がなさ過ぎて、いっそ不気味になるほどだった。男は変質してしまった。それは間違いのない事実だ。しかし変わらない部分もある。
+    paragraph: p23
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5086_コルセスカ_remembers_吸血の瞬間_p5]]'
+  object: '[[ME_vampire_romance_trope]]'
+  claim: 吸血行為を性的な快楽やロマンチックな結合としてではなく、羞恥心と「気まずさ」を伴う生理現象・弱所として描写し、定番の吸血鬼ラブコメ要素を逆転させている。
+  quote: 一度「して」しまえばそうなるのは分かっていたのに、あの瞬間はそれしかないと必死だったから後のことまでは深く考えられなかったのだ。後悔は無いが、気まずい思いはある。
+  paragraph: p5
+  confidence: strong
+  quotes:
+  - quote: 一度「して」しまえばそうなるのは分かっていたのに、あの瞬間はそれしかないと必死だったから後のことまでは深く考えられなかったのだ。後悔は無いが、気まずい思いはある。
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5086_コルセスカ_other_激辛粥_p49]]'
+  object: '[[ME_food_as_medicine_pharmacology]]'
+  claim: 味覚ではなく痛覚として機能する辛味（カプサイシン等）を用い、感覚制御不能な患者に「生きている実感」を強制注入するという試みは、医療行為としての苦痛利用のメタファーである。
+  quote: 生理学的には、辛みとはその他の甘味、酸味、塩味、苦味、旨味などとは異なり、味覚ではなく痛覚に分類される。
+  paragraph: p106
+  confidence: explicit
+  quotes:
+  - quote: 生理学的には、辛みとはその他の甘味、酸味、塩味、苦味、旨味などとは異なり、味覚ではなく痛覚に分類される。
+    paragraph: p106
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5086_コルセスка_other_凍結行為_p113]]'
+  object: '[[ME_narrative_catharsis_emotional_release]]'
+  claim: 感情の決壊（涙）を物語的なカタルシスとして許容せず、物理的な冷気（氷）で強制的に堰き止める行為は、感傷主義に対する暴力による検閲を示唆する。
+  quote: 流れる涙を凍結させ、痛みと冷たさで感情の決壊を物理的に止める。
+  paragraph: p109
+  confidence: strong
+  quotes:
+  - quote: 流れる涙を凍結させ、痛みと冷たさで感情の決壊を物理的に止める。
+    paragraph: p109
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5086_コルセスカ_other_アキラとの共有_p130]]'
+  object: '[[ME_data_synchronization_upload]]'
+  claim: 体液交換による意思共有の欲求は、物理的な距離を越えたデータ（記憶・人格）の同期試行であり、ネットワーキングにおけるプライバシー侵害への恐怖に類似する。
+  quote: 血を啜り、自らの唾液を流し込み、体液を交換して互いの意思を共有したい。
+  paragraph: p130
+  confidence: moderate
+  quotes:
+  - quote: 血を啜り、自らの唾液を流し込み、体液を交換して互いの意思を共有したい。
+    paragraph: p130
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5086_アキラ_other_参戦許可_p158]]'
+  object: '[[ME_shonen_hero_monologue]]'
+  claim: 主人公が「ヒロイック」な決意を語る展開に対し、トリシューラがそれを「誰にでも言える正論」として即座に解体するのは、少年漫画的ヒーロー像へのメタフィクショナルな批判である。
+  quote: そんなこと、誰にでも言えるんだよねえ
+  paragraph: p167
+  confidence: explicit
+  quotes:
+  - quote: そんなこと、誰にでも言えるんだよねえ
+    paragraph: p167
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Identity_of_the_New_Akira
+  note: トリシューラがアキラを「誰？」と問いただす。外見は同じだが中身が不明確であるという伏線。
+  quotes:
+  - quote: 貴方、誰？
+    paragraph: p172
+    quote_verified: true
+  expected_payoff: アキラの人格が完全に別物（乗り移り・再構築）であることの確認、あるいはトリシューラによる殺害実行。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Leo_location_maze5
+  note: レオの所在が第五階層で見つからないこと、および「探せる状況にない」ことの意味。
+  quotes:
+  - quote: 第五階層は今、探せるような状況になくて
+    paragraph: p152
+    quote_verified: true
+  expected_payoff: 第五階層の特殊な迷宮構造、あるいはレオが敵に捕らわれている/変質している可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Colesca's_Instinct_Control
+  note: コルセスカの吸血衝動（食欲・排泄欲・睡眠欲のような複合欲求）が、アキラの存在によって暴走し始めている。
+  quotes:
+  - quote: 吸いたい。齧り付きたい。あの首筋に、もう一度口を付けたい。
+    paragraph: p39
+    quote_verified: true
+  expected_payoff: コルセスカがアキラを食料として認識し、最終的に殺害・捕食する展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Trichula's_Clothing_Symbolism
+  note: コルセスカがトリシューラの服（黒セーター）を着ていることの意味と、アキラの「似合っている」という評価への不快感。
+  quotes:
+  - quote: これはトリシューラのを借りました。さっきまで着ていた服や格納していた予備の衣類が全て駄目になってしまったので
+    paragraph: p27
+    quote_verified: true
+  expected_payoff: トリシューラへの同化、またはアキラにとってのコルセスカ像の崩壊（トリシューラの影を見る）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Pain_as_Evidence_of_Soul
+  note: 激辛粥による痛覚で「自分の身体ではない」と実感する描写。感覚制御の喪失が何を意味するか。
+  quotes:
+  - quote: 俺の身体は、感覚は、感情は、もう俺のものじゃないんだな、って
+    paragraph: p104
+    quote_verified: true
+  expected_payoff: アキラの魂/自我が欠損していることの証明。戦闘不能状態への移行。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己同一性の喪失と他者による検証の不可能性
+  weight: 0.9
+  quotes:
+  - quote: どこからどこまでが【彼】なのか、その境界線を画定することが、絶対的な他者であるコルセスカにはどうしてもできない。
+    paragraph: p33
+    quote_verified: true
+  - quote: 貴方、誰？
+    paragraph: p172
+    quote_verified: true
+  note: アキラの人格が変質していることへの恐怖と、その検証を試みるコルセスカ・トリシューラの葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情の物理的検閲と暴力による管理
+  weight: 0.8
+  quotes:
+  - quote: 流れる涙を凍結させ、痛みと冷たさで感情の決壊を物理的に止める。
+    paragraph: p109
+    quote_verified: false
+  - quote: 慰める？ 私はただ泣かれると面倒だなーと思っただけですけど
+    paragraph: p117
+    quote_verified: true
+  note: トリシューラ/コルセスカ側の「感情は非生産的であり管理すべきもの」という価値観が、アキラの人間性（涙）を攻撃する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ヒロイズムの解体と現実の残酷さ
+  weight: 0.7
+  quotes:
+  - quote: 超ヒロイックー、すっごい正論――でもさあ。そんなこと、誰にでも言えるんだよねえ
+    paragraph: p167
+    quote_verified: true
+  note: アキラの「見捨てない」という熱血的な決意が、トリシューラによって空虚な言葉として処理され、殺意へ転化されるプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 吸血衝動＝情報共有への渇望と恐怖
+  weight: 0.6
+  quotes:
+  - quote: 自らの情報と熱量を相手に注ぎ込む為の排泄欲であり、起きながらにして記憶を再構成する為の睡眠欲にも近く
+    paragraph: p39
+    quote_verified: true
+  note: コルセスカにとっての吸血が単なる食糧補給ではなく、「他者との完全な融合（自我の消失）」への欲望であること。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,221 @@
+chapter: ch5541
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 5
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Tchiliat_Fight]]'
+  object: '[[ME_Risk_Management_Self_Insurance]]'
+  claim: チリアットの『天寿値』システムは、保険の自己負担額や生命保険の契約期間を消費して戦闘能力（リスク回避）を得る金融工学的手法のメタファーである。
+  quote: 自らの天寿を200巡節（100年分）と仮定し、使用のたびに寿命が短くなっていく。この寿命を消費しても生命力の減衰や老化などが伴うことはない。
+  paragraph: p63
+  confidence: strong
+  quotes:
+  - quote: 自らの天寿を200巡節（100年分）と仮定し、使用のたびに寿命が短くなっていく。この寿命を消費しても生命力の減衰や老化などが伴うことはない。
+    paragraph: p63
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Kinis_Memory]]'
+  object: '[[ME_Medical_Diagnosis_Trauma]]'
+  claim: キニスの指導教官アテンプレクの言葉は、PTSD（心的外傷後ストレス障害）を持つ兵士に対するトラウマ・インフォームド・コンセントに基づく心理療法の対話構造に酷似している。
+  quote: 「歴代の勇士ユディーアたちという過去の記録を順番に辿り、その全てを丁寧に学ぶのです。あなたの過去視は、きっとそのような『学び』に役立てるための力ではないでしょうか」
+  paragraph: p175
+  confidence: moderate
+  quotes:
+  - quote: 「歴代の勇士ユディーアたちという過去の記録を順番に辿り、その全てを丁寧に学ぶのです。あなたの過去視は、きっとそのような『学び』に役立てるための力ではないでしょうか」
+    paragraph: p175
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_Renaria_Vanquish]]'
+  object: '[[ME_Gacha_Game_Metagame]]'
+  claim: レナリアが「用済み」として使い魔の餌にされる展開は、ガチャゲームにおける低レアリティキャラの素材化（経験値・進化素材）というメタゲーム的な消費構造のパロディである。
+  quote: '「適当に処理しといていいよ」
+
+    「わかりました。使い魔の餌でいいですよね」'
+  paragraph: p205-p207
+  confidence: strong
+  quotes:
+  - quote: '「適当に処理しといていいよ」
+
+      「わかりました。使い魔の餌でいいですよね」'
+    paragraph: p205-p207
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_Renaria_Vanquish]]'
+  object: '[[ME_Astrology_Doppler_Shift]]'
+  claim: レナリアとエレクトラの能力相殺は、天文学のドップラー効果（光の波長変化）を呪術的な「世界の色」として可視化し、物理法則を魔術体系へ翻訳したSF的メタファーである。
+  quote: 「自動機械の類なら赤方偏移じゃないですか。残留してるあなたの呪術基盤をなぞっているだけの劣化版でしょうから、突き崩すならあそこからですね」
+  paragraph: p135-p137
+  confidence: explicit
+  quotes:
+  - quote: 「自動機械の類なら赤方偏移じゃないですか。残留してるあなたの呪術基盤をなぞっているだけの劣化版でしょうから、突き崩すならあそこからですね」
+    paragraph: p135-p137
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_Renaria_Marshmallow]]'
+  object: '[[ME_Survival_Horror_Trope]]'
+  claim: レナリアの降参と即座の「仲間化」は、ホラー作品で描かれる恐怖の対象が実は味方（または被害者）であるというオチを持つサバイバルホローストーリーの逆転構造を示している。
+  quote: 「本気で敵対したって思った？　全部うそでーす！　ごめんね、ちょっとしがらみがあって仕方なくやらされてただけで、ほんとは心苦しかったの、信じて！」
+  paragraph: p203
+  confidence: strong
+  quotes:
+  - quote: 「本気で敵対したって思った？　全部うそでーす！　ごめんね、ちょっとしがらみがあって仕方なくやらされてただけで、ほんとは心苦しかったの、信じて！」
+    paragraph: p203
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Atenprek_Identity
+  note: チリアットがキニスの旧指導教官アテンプレクであることの確認と、その後の関係性の修復。
+  quotes:
+  - quote: 「アテンプレク先生？」
+    paragraph: p224
+    quote_verified: true
+  - quote: マレブランケ構成員のひとりチリアットは、キニス・ペラティアと同じ博物城の出身であり、ディスケイム家の血統作品（アート）である。
+    paragraph: p227
+    quote_verified: true
+  expected_payoff: キニスが父を越えるためにチリアットを利用する展開、またはチリアットの寿命枯渇に対する救済劇が始まる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Teaardue_Vessel
+  note: レナリアが欲していた「ティーアードゥの器」とは何か、その目的と上意の正体。
+  quotes:
+  - quote: 「欲しいのはティーアードゥの器。格はちょっと足りないけど、まあ強引な降霊でも間に合わせの戦力にはなるでしょう」
+    paragraph: p107
+    quote_verified: false
+  expected_payoff: ティーアードゥ神格の復活、あるいは「罰則」システムを用いた世界全体のルール改変への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Chiliat_Lifespan_Crisis
+  note: 残り寿命30年を切ったチリアットが、いかにして寿命の枯渇（死）に対処するか。
+  quotes:
+  - quote: '現在、チリアットの天寿値は72歳。
+
+      42歳であるチリアットに残された天寿値は30歳ぶんとなる。'
+    paragraph: p70-p71
+    quote_verified: true
+  expected_payoff: 「機械女王」の言及にある転生、または寿命を拡張する新しい契約（ガロアンディアン側の介入）が必要になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Renaria_Servant_Terminal
+  note: レナリアが「本体じゃなくて端末」と自称する点の真相と、本体の所在。
+  quotes:
+  - quote: 「待って消去やめて私は本体じゃなくて端末だから情報引き出すために捕縛して尋問したほうがお得だと思う痛い痛い痛い！」
+    paragraph: p209
+    quote_verified: false
+  expected_payoff: レナリアの本体（本物の暗殺者）との対峙、または「端末」であるちびレナリアがメートリアンの使い魔として定着するコメディ的展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Yudia_Name_Value
+  note: ユディーアという宣名（名前）の価値が「銀貨」や「贋金」として扱われるメカニズムと、キニスへの影響。
+  quotes:
+  - quote: たったひとつの『ユディーア』という宣名価値が銀貨となってエレクトラの手に収まる。
+    paragraph: p151
+    quote_verified: true
+  expected_payoff: 「ユディーア」の名前を巡る政治的・呪術的な争奪戦（名前の所有権）の激化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 恐怖と逃避は、人を極限まで加速させる燃料となる
+  weight: 0.9
+  quotes:
+  - quote: 「死にたくない死にたくない死にたくない死にたくない」
+    paragraph: p9
+    quote_verified: true
+  - quote: 臨死加速・三眼瞬知。
+    paragraph: p47
+    quote_verified: true
+  note: チリアットの戦闘能力の源泉は「恐怖」そのものであり、それは正統な修行（エレクトラの過去）とは異なる、切実な生存本能の結晶として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 才能なき者は「広範な知識の吸収」によって勝つ
+  weight: 0.8
+  quotes:
+  - quote: 「『広く浅い三眼瞬知』に突出した強みはない。しかし、多くの技を吸収し、ものにする覚えの良さだけは誰よりも秀でていると言えるでしょう。」
+    paragraph: p175
+    quote_verified: false
+  - quote: 潤沢な手札。選択肢の多さ。そのアドバンテージを最大限に活かして打ち勝つ。
+    paragraph: p178
+    quote_verified: true
+  note: 主人公側の「天才」対抗軸として、チート能力ではなく学習能力と技術の複合（メタ的知識）が勝利の鍵であることを強調する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生命は数値化され、消費される資源である
+  weight: 0.7
+  quotes:
+  - quote: 自らの天寿を200巡節（100年分）と仮定し、使用のたびに寿命が短くなっていく。
+    paragraph: p63
+    quote_verified: true
+  - quote: '「適当に処理しといていいよ」
+
+      「わかりました。使い魔の餌でいいですよね」'
+    paragraph: p205-p207
+    quote_verified: false
+  note: チリアットの寿命消費とレナリアの素材化を通じて、この世界における命・存在価値がゲーム的なリソースとして管理・消費される冷徹な構造を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 真実（本物）は、偽りの恐怖と戦うことで呼び覚まされる
+  weight: 0.6
+  quotes:
+  - quote: 「本物」がそこにいた。
+    paragraph: p121
+    quote_verified: false
+  - quote: 遠い記憶。キニスとしての思い出。
+    paragraph: p221
+    quote_verified: true
+  note: エレクトラ（偽ユディーア）が本物の力を使い、チリアットとの邂逅によってキニス（過去の自分/真の姿）の記憶が蘇るという、アイデンティティの再帰的探求。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,231 @@
+chapter: ch5308
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Azuria_Healing]]'
+  object: '[[ME_ARPG_Gacha_MobileGame]], [[ME_SNS_Influencer]]'
+  claim: アズーリアの『射影即興喜劇（アトリビュート）』による治癒と、ミルーニャとの連携は、現代のスマホゲームにおけるガチャ産キャラのサポート能力や、SNS上のインフルエンサー同士の相互言及・コラボレーションを模倣している。
+  quote: 「射影即興喜劇（アトリビュート）――」 九つ連なった金鎖が、一つ砕けて散った。 「――真紅玉髄（カーネリアン）！」
+  paragraph: p139-p141
+  confidence: moderate
+  quotes:
+  - quote: 「射影即興喜劇（アトリビュート）――」 九つ連なった金鎖が、一つ砕けて散った。 「――真紅玉髄（カーネリアン）！」
+    paragraph: p139-p141
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_Triushula_Identity]]'
+  object: '[[ME_Mechanical_Humanism]], [[ME_Singularity]]'
+  claim: 機械であるトリシューラが生命の光で治癒される描写は、技術と生命の境界を曖昧にする特異点論や、「機械も生命である」という前提に立つポストヒューマニズムの逆説的な肯定（または擬似）を示唆している。
+  quote: それは、機械も生命であるという前提に立った癒しの術。 修理でも補修でもなく、命が循環する摂理に基づいて機械が回復するという、超現実の光景を実現する力。
+  paragraph: p155-p156
+  confidence: strong
+  quotes:
+  - quote: それは、機械も生命であるという前提に立った癒しの術。 修理でも補修でもなく、命が循環する摂理に基づいて機械が回復するという、超現実の光景を実現する力。
+    paragraph: p155-p156
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Azuria_Dialogue]], [[E_Harbert_Comms]]'
+  object: '[[ME_Metaverse_SocialMedia]], [[ME_Streaming_Community]]'
+  claim: アズーリアとハルベルト（およびファルファレロ）のやり取りは、メタバースやライブ配信プラットフォームにおける「管理された人格」や「バーチャルな関係性」、そして運営者からの干渉を模した構造を持つ。
+  quote: 「師兄の頼みとあらばこの位はお安いご用です。……それより、これ本当に大丈夫なんでしょうか。僕、あの人に泳がされている気がしてならないんですけど」
+    「ばれたならばれたで構わないってハルは言ってたよ？」
+  paragraph: p264-p266
+  confidence: moderate
+  quotes:
+  - quote: 「師兄の頼みとあらばこの位はお安いご用です。……それより、これ本当に大丈夫なんでしょうか。僕、あの人に泳がされている気がしてならないんですけど」
+      「ばれたならばれたで構わないってハルは言ってたよ？」
+    paragraph: p264-p266
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_Triushula_Statement]]'
+  object: '[[ME_Mobius_Self]], [[ME_Digital_Avatar]]'
+  claim: 「わたしはみんなであってみんなじゃない」というトリシューラの言葉は、インターネット上のアバターが持つ集合的・分散的な自己定義（モービウス・セルフ）や、SNSにおける人格の多重性を指している。
+  quote: 『わたしはみんなであってみんなじゃない。みんなはわたしであってわたしじゃない』
+  paragraph: p239
+  confidence: strong
+  quotes:
+  - quote: 『わたしはみんなであってみんなじゃない。みんなはわたしであってわたしじゃない』
+    paragraph: p239
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Azuria_Taunt]]'
+  object: '[[ME_MMO_Tank_Class]], [[ME_Provocation_Mechanic]]'
+  claim: アズーリアが「挑発」呪文を多用する理由は、MMOゲームにおけるタンククラスが敵のヘイト（敵意）を集めて戦場を制御するメカニクスそのものである。
+  quote: 基礎中の基礎であり、前衛が敵意を集めるためにも使う。 アズーリアが戦いの時に荒っぽい言葉遣いをするのはこのためだ。
+  paragraph: p304-p305
+  confidence: explicit
+  quotes:
+  - quote: 基礎中の基礎であり、前衛が敵意を集めるためにも使う。 アズーリアが戦いの時に荒っぽい言葉遣いをするのはこのためだ。
+    paragraph: p304-p305
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Azuria_Colors]], [[E_Seria_Naming]]'
+  object: '[[ME_Occultism_Gemology]], [[ME_Marketing_Branding]]'
+  claim: 宝石（パワーストーン）の命名規則や効果は、オカルティズムの体系化を装いながら、実際には現代のジュエリー市場におけるブランド戦略やマーケティング的記号論（色＝意味の固定化）を模倣している。
+  quote: それはオカルティズムを体系化して宝石（パワーストーン）の形で表現したもの。 ……細かい『命名規則』はセリアと相談して決めてるんだけどね
+  paragraph: p170-p167
+  confidence: moderate
+  quotes:
+  - quote: それはオカルティズムを体系化して宝石（パワーストーン）の形で表現したもの。 ……細かい『命名規則』はセリアと相談して決めてるんだけどね
+    paragraph: p170-p167
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Triushula_Fake_Moon_Witch
+  note: 月にいる「きぐるみ女（トリシューラ）」が偽物であり、マゼンタの動きと裏にラクルラール派が動いていることがミルーニャによって確認された。
+  quotes:
+  - quote: 月にいるきぐるみ女、あれやっぱり偽物です。マゼンタの奴が動いてるってことは、高い確率で裏にラクルラール派が動いてますよ。敵はトライデントです
+    paragraph: p109
+    quote_verified: true
+  expected_payoff: この「偽物」トリシューラと本物の関係性、およびマゼンタを操る勢力（トライデント/ラクルラール派）の真の意図が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Triushula_Origin_Color
+  note: トリシューラの「かつての号は、暗い陰の黒だった」という記述と、アズーリアによる赤（カーネリアン）への再定義。彼女がなぜ色を変えたのか、その歴史的経緯。
+  quotes:
+  - quote: この赤が私の色なの？ 私のかつての号は、暗い陰の黒だったんだよ？
+    paragraph: p158
+    quote_verified: true
+  expected_payoff: トリシューラの過去（リールエルバとしての敗北等）と現在の「ノーレイ」としての存在の連続性/断絶に関する真相。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Falferaro_Spying
+  note: ファルファレロ（少年）がアズーリアに「泳がされている」と自覚しており、ハルベルトの配下として間諜活動をしている。
+  quotes:
+  - quote: 僕、あの人に泳がされている気がしてならないんですけど
+    paragraph: p264
+    quote_verified: true
+  expected_payoff: ファルファレロが第五階層で収集した情報と、それがハルベルトの計画（ライブ）にどう反映されるか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Rabbit_Presence
+  note: アズーリアの影から現れた兎（アルミラージ先生？）が録音や分身のリソースを要求し、幻獣たちが援護に参加している。この「みんな」の実体と役割。
+  quotes:
+  - quote: タマちゃん先生まで何なの？ 録音？ いきなりそんなこと言われても
+    paragraph: p226
+    quote_verified: true
+  - quote: 角の生えた兎を始めとした幻獣たちが影から飛び出してくると、わっと歓喜の声が上がった。
+    paragraph: p282
+    quote_verified: true
+  expected_payoff: アズーリアが「一人芝居」でなく複数存在（集合知）であることの具体的なメカニクスと、彼女がハルベルトの計画において占める位置。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Nedrad_Civilization_Destruction
+  note: ネドラドが「女王の理想に従って戦う」「ガロアンディアンを破壊する」と宣言している。女王（ハルベルト？）の理想と文明破壊の関連性。
+  quotes:
+  - quote: 僕は女王の手足として、人を不幸にする行き過ぎた文明社会、ガロアンディアンを破壊するんだ
+    paragraph: p309
+    quote_verified: true
+  expected_payoff: ネドラドが守る「理想」とアズーリア/ハルベルトの「ライブ」が目指すものの対立構造の明確化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記号論的再定義による自己の解放と受容
+  weight: 0.8
+  quotes:
+  - quote: 私は、貴方のあるがままの姿を語っただけだよ。……杖の叡智だからこそ貴方の『ほんとう』を照らし出せるんだ
+    paragraph: p163
+    quote_verified: false
+  - quote: それはそれとして、やっぱり私、貴方が嫌いみたい ……そう。私は、貴方のこと嫌いじゃないよ。だって私たちって、形は違うけど似てると思うから
+    paragraph: p204-p209
+    quote_verified: false
+  note: トリシューラが他者（アズーリア）の言葉によって自身の「黒」を「赤」と再定義され、機械としての存在を肯定される過程。嫌悪と好意が入り混じる複雑な自己認識の更新。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: バーチャルな連帯と集合的自己の政治学
+  weight: 0.7
+  quotes:
+  - quote: 『わたしはみんなであってみんなじゃない。みんなはわたしであってわたしじゃない』
+    paragraph: p239
+    quote_verified: true
+  - quote: 共通の敵に対抗する為の同盟。綺麗事ばかりではなくとも、今この瞬間だけは異なる派閥同士で手を取り合える。
+    paragraph: p293
+    quote_verified: true
+  note: 個と集合の境界を曖昧にする「きぐるみ/アバター」的な存在が、仮想的な同盟（ハルベルトの計画）を通じて実体としての力を発揮する構造。孤独な個の限界と集合知の力。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メカニクスへの自己自覚と物語の操作
+  weight: 0.6
+  quotes:
+  - quote: 基礎中の基礎であり、前衛が敵意を集めるためにも使う。 アズーリアが戦いの時に荒っぽい言葉遣いをするのはこのためだ。
+    paragraph: p304-p305
+    quote_verified: true
+  - quote: この段階で上位の私が介入しなければならないケースは想定外。計画の修正が必要？ それとも、コルセスカが頑張っている影響が出ている？
+    paragraph: p28
+    quote_verified: true
+  note: キャラクター自身が「挑発（ヘイト管理）」や「介入」といったゲーム的・物語的な機能を自覚し、それを利用しているメタ構造。運命をゲームのルールとして捉える視点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と生命の境界における倫理的葛藤
+  weight: 0.5
+  quotes:
+  - quote: でもこんなのは言葉遊びだよ。私は、どんなにごまかしても生き物じゃない
+    paragraph: p182
+    quote_verified: true
+  - quote: それは、機械も生命であるという前提に立った癒しの術。 ……命が循環する摂理に基づいて機械が回復するという、超現実の光景を実現する力。
+    paragraph: p155-p156
+    quote_verified: false
+  note: トリシューラの自己否定（非生物）と、アズーリアによる強制的な生命付与（擬似治癒）との対立。技術移転における倫理的な「越境」の是非。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

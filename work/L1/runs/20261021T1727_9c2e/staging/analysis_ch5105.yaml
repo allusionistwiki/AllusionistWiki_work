@@ -1,0 +1,242 @@
+chapter: ch5105
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 13
+  quotes_total: 16
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_memory_reconstruction]]'
+  object: '[[ME_external_hard_drive]]'
+  claim: コルセスカによる記憶の再構築は、破損したデータ（人格）を外部ストレージから復元する作業に相当する。
+  quote: 呪術的な力による外部記憶装置。この悪夢の泡を利用して、貴方が『アキラである』という事実を再構築します
+  paragraph: p32
+  confidence: strong
+  quotes:
+  - quote: 呪術的な力による外部記憶装置。この悪夢の泡を利用して、貴方が『アキラである』という事実を再構築します
+    paragraph: p32
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_memory_erasure]]'
+  object: '[[ME_narrative_formatting]]'
+  claim: 転生前の記憶の抹消は、個々の人生を物語（エピソード）として体系化し、その文脈を削除する行為として描かれている。
+  quote: 系統立てられた一回性の『物語（エピソード）』の繋がりを奪う。技能や知識、手続き的記憶などは残りますし、貴方の中の『アキラらしさ』はある程度残りますが、前世での思い出はほぼ全て消えてなくなり、不確かな物になってしまう
+  paragraph: p40
+  confidence: moderate
+  quotes:
+  - quote: 系統立てられた一回性の『物語（エピソード）』の繋がりを奪う。技能や知識、手続き的記憶などは残りますし、貴方の中の『アキラらしさ』はある程度残りますが、前世での思い出はほぼ全て消えてなくなり、不確かな物になってしまう
+    paragraph: p40
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_lucid_dream]]'
+  object: '[[ME_virtual_reality_simulation]]'
+  claim: 第五階層の迷宮が脳内の記憶だけで構成されたシミュレーション空間として機能し、ログ参照というIT用語で説明される。
+  quote: 貴方はずっと、第五階層そのものに刻まれたログを参照し続けていたんです。ただし悪意によって歪められた、悪夢の泡としての記憶を
+  paragraph: p22
+  confidence: strong
+  quotes:
+  - quote: 貴方はずっと、第五階層そのものに刻まれたログを参照し続けていたんです。ただし悪意によって歪められた、悪夢の泡としての記憶を
+    paragraph: p22
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_relationship_definition]]'
+  object: '[[ME_marriage_vows]]'
+  claim: アキラとトリシューラの関係は、死別を前提とした伝統的な結婚の誓い（そしてその逆転）によって定義されている。
+  quote: '「何があってもトリシューラの傍にいる。死が二人を別つまで」
+
+    「――ううん。貴方に拒絶されるまで、だよ」'
+  paragraph: p131-p133
+  confidence: explicit
+  quotes:
+  - quote: '「何があってもトリシューラの傍にいる。死が二人を別つまで」
+
+      「――ううん。貴方に拒絶されるまで、だよ」'
+    paragraph: p131-p133
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_kilon_defeat]]'
+  object: '[[ME_cyberpunk_action]]'
+  claim: 最終決戦への宣言において、サイバーパンク的な武術の名称が用いられ、技術と肉体の融合を象徴する。
+  quote: 「来い、キロン。お前に、本当のサイバーカラテを教えてやる」
+  paragraph: p208
+  confidence: explicit
+  quotes:
+  - quote: 「来い、キロン。お前に、本当のサイバーカラテを教えてやる」
+    paragraph: p208
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_app_reference]]'
+  object: '[[ME_ui_design]]'
+  claim: 失われた記憶（アプリ）の再構築過程で、ユーザーインターフェース的な直感から新しい愛称（UI要素）が生成される。
+  quote: どんな情報からの閃きかはわからないが、なんとなく失ったアプリを弄くっていた時に思いついた略称である気がした
+  paragraph: p157
+  confidence: moderate
+  quotes:
+  - quote: どんな情報からの閃きかはわからないが、なんとなく失ったアプリを弄くっていた時に思いついた略称である気がした
+    paragraph: p157
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_layer5_secret
+  note: 第五階層の裏側に刻まれた『世界槍』の記憶と、アキラを囚えた悪意の正体。
+  quotes:
+  - quote: どうやらこの階層には何か私達の知らない秘密が隠されているようですね。おそらく関係しているのは第五階層の裏側。古き時代に世界槍そのものに刻まれた過去の記憶たち。冷たい石の迷宮と終わり無き草原、そして死人の森
+    paragraph: p26
+    quote_verified: true
+  expected_payoff: キロンとの対決や世界槍の真相解明時に、第五階層の起源やアキラが囚われた理由として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_core_nickname_origin
+  note: コルセスカの仲間も呼ぶ愛称『コア』を、記憶喪失中のアキラがなぜ知っていたのか。
+  quotes:
+  - quote: 「それ、私の仲間たちも呼んでくれている愛称なんです。どうして知っているんだろう、トリシューラが教えたのかな、と思いましたけど、あの子はこの愛称を知らないですし、違いますよね」
+    paragraph: p163
+    quote_verified: true
+  expected_payoff: アキラの失われた前世の記憶、あるいはコルセスカとアキラ（前世の人間）の間に存在した隠された縁として明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_secret_blood_pact
+  note: トリシューラに内緒で交わされた、アキラとコルセスカ間の血の契約と秘密。
+  quotes:
+  - quote: '「この事、トリシューラには言わないで下さいね」
+
+      ――二人だけの、秘密です。'
+    paragraph: p188-p190
+    quote_verified: true
+  expected_payoff: 三人の関係が崩壊するイベント、あるいはキロンとの戦いにおいてこの秘密が鍵となる展開（裏切りや協力）で回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_meaning_of_rejection
+  note: トリシューラが語った『貴方に拒絶されるまで』という誓いの真意と、それに対するアキラの無知による痛み。
+  quotes:
+  - quote: その意味をきちんと問えなかった事が、どれだけの痛みを彼女にもたらすのか。それを知る機会を、遠くに失ったまま。
+    paragraph: p137
+    quote_verified: true
+  expected_payoff: トリシューラの存在意義や自己崩壊の危機、アキラとの別れのフラグとして終盤で回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kilon_reaction
+  note: キロンがアキラの変貌（両腕と確信）に対して見せた『判別し損なう』ほどの驚きの詳細。
+  quotes:
+  - quote: '彼の驚きは恐らく二つ。
+
+      こちらの腕が、左右揃った状態にあること。
+
+      そしてもう一つは、俺の目に、勝利の確信が宿っていること。'
+    paragraph: p203-p205
+    quote_verified: true
+  expected_payoff: キロンがアキラの『転生者としての性質』をどのように定義し、なぜ両腕と確信がそれを覆すのかという戦闘ロジックで回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: アイデンティティの再構築は、過去の物語（文脈）の喪失を代償とする。
+  weight: 0.9
+  quotes:
+  - quote: 転生者でありながら転生前の記憶を持たない、不完全な存在となる。その意味は、キロンと対峙すれば理解できる筈です
+    paragraph: p40
+    quote_verified: true
+  note: 単なる記憶喪失ではなく、物語としての連続性を断ち切ることで初めて完全な現存在（アキラ）が定義されるという逆説。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者への依存と所有は、相互の束縛によって成立する。
+  weight: 0.8
+  quotes:
+  - quote: '俺はもうお前のものだ
+
+      「――ううん。貴方に拒絶されるまで、だよ」'
+    paragraph: p127-p133
+    quote_verified: false
+  note: アキラの自己放棄とトリシューラの受容が、伝統的な結婚像を逆転させつつも強い絆で結ばれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術（サイバー）と肉体（カラテ/血）の融合が勝利への鍵となる。
+  weight: 0.7
+  quotes:
+  - quote: 「来い、キロン。お前に、本当のサイバーカラテを教えてやる」
+    paragraph: p208
+    quote_verified: true
+  note: 義肢による身体拡張と、吸血による生命維持/感情操作が組み合わさった状態での決戦宣言。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族の解体は、新しい擬似家族（トリシューラ・コルセスカ）への移行を促す。
+  weight: 0.6
+  quotes:
+  - quote: '貴方の生前に関わりがあった人との繋がり、絆、そういったものを全て取り除く。
+
+      「結婚したみたいだよね」'
+    paragraph: p40-p111
+    quote_verified: false
+  note: 前世の家族との縁を切られたことが、現在の三人の共同生活（擬似家族）の正当化と深化につながっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶は個人の所有物ではなく、他者によって共有・保存される資産である。
+  weight: 0.5
+  quotes:
+  - quote: '俺の記憶は、コルセスカが覚えていてくれるんだろう？
+
+      「貴方から前世の全てを奪ってしまえば、貴方の大切なものは私とトリシューラだけになる」'
+    paragraph: p53-p60
+    quote_verified: false
+  note: アキラの自我は、彼自身の脳内だけでなく、コルセスカやトリシューラという外部の記憶装置によって維持されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

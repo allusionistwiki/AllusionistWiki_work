@@ -1,0 +1,233 @@
+chapter: ch5100
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5100_アキラ_thinks_人間の感情の複雑さ_p8]]'
+  object: '[[ME_database_management]]'
+  claim: 人間の感情の混沌を、タグ付けされたデータベースの管理不能性に喩えている。
+  quote: 好意と嫌悪すら同時に存在できる人間の精神は、単純なデータの形式をしていない。無数のタグにまみれて混沌としたデータベースは、正確な管理を心がけないとすぐにその元の形がわからなくなってしまう。
+  paragraph: p8
+  confidence: strong
+  quotes:
+  - quote: 好意と嫌悪すら同時に存在できる人間の精神は、単純なデータの形式をしていない。無数のタグにまみれて混沌としたデータベースは、正確な管理を心がけないとすぐにその元の形がわからなくなってしまう。
+    paragraph: p8
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5100_コルセスカ_says_アキラへの評価戦力以外_p37]]'
+  object: '[[ME_gacha_game_mechanics]]'
+  claim: 攻略対象を『クリア』し、飽きたら手放すという心理は、ガチャゲームにおけるキャラクターの消費とスクラップ化を模倣している。
+  quote: 単にクリアできる攻略対象は攻略しておこう、という心理が働いただけで。正直、一回落としてしまったのでもういいかなって。すぐ飽きそうですし
+  paragraph: p37
+  confidence: strong
+  quotes:
+  - quote: 単にクリアできる攻略対象は攻略しておこう、という心理が働いただけで。正直、一回落としてしまったのでもういいかなって。すぐ飽きそうですし
+    paragraph: p37
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5100_トリシューラ_says_勝負の本質_p49]]'
+  object: '[[ME_shogi_game_pieces]]'
+  claim: アキラを『点棒』や『ゲームコイン』に喩え、対戦ゲームにおける勝敗の象徴物としての地位を明示している。
+  quote: 『これ』はなんか、何だろうね、点棒とかゲームコインのやりとり？
+  paragraph: p49
+  confidence: strong
+  quotes:
+  - quote: 『これ』はなんか、何だろうね、点棒とかゲームコインのやりとり？
+    paragraph: p49
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5100_コルセスカ_remembers_幼い頃の独り遊び_p90]]'
+  object: '[[ME_imaginary_friend_concept]]'
+  claim: クランテルトハランスを『妄想の妹』として生み出すエピソードは、心理学におけるイマジナリーフレンド（空想の友だち）の概念を指している。
+  quote: 独り遊びに飽きた彼女が求めた、同年代の女の子。それは末の妹になるべく育てられてきた反動だったのかもしれない。おぼろげな記憶では、一緒に遊んでいたのは妹のような存在だったはず。妄想の妹――クランテルトハランスを自力で生み出してしまうほどに、彼女は一人だった。
+  paragraph: p90
+  confidence: explicit
+  quotes:
+  - quote: 独り遊びに飽きた彼女が求めた、同年代の女の子。それは末の妹になるべく育てられてきた反動だったのかもしれない。おぼろげな記憶では、一緒に遊んでいたのは妹のような存在だったはず。妄想の妹――クランテルトハランスを自力で生み出してしまうほどに、彼女は一人だった。
+    paragraph: p90
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5100_コルセスカ_thinks_三人構成の安定性_p114]]'
+  object: '[[ME_rpg_party_structure]]'
+  claim: 探索者集団の最小単位を『三人』とし、その安定性を主張するのはRPGにおける標準的なパーティ編成（タンク・アタッカー・ヒーラーなど）の構造に符合する。
+  quote: この三人でならどんな困難も乗り越えられそうな、根拠のない自信が湧いてくる。そういえば、地上に置いてきた仲間達と居る時もこんな気持ちにさせられたものだった。探索者集団の最小構成単位は三人だ。人はその数字に安定を見出す。
+  paragraph: p114
+  confidence: moderate
+  quotes:
+  - quote: この三人でならどんな困難も乗り越えられそうな、根拠のない自信が湧いてくる。そういえば、地上に置いてきた仲間達と居る時もこんな気持ちにさせられたものだった。探索者集団の最小構成単位は三人だ。人はその数字に安定を見出す。
+    paragraph: p114
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5100_アキラ_thinks_媒体としての役割_p55]]'
+  object: '[[ME_data_transmission_medium]]'
+  claim: 主人公を『運送屋（非物理）』や『ツール』と呼び、情報伝達の媒体（プロトコル/インターフェース）として機能させる構造。
+  quote: 生まれ変わったら何か色々なものを運ぶための媒体になっていた俺の事をどうか忘れないであげてください。木馬の次は点数計算用のツールでトロフィー。一体次は何を運べばいいのだろう。気分はすっかり運送屋（非物理）である。
+  paragraph: p55
+  confidence: strong
+  quotes:
+  - quote: 生まれ変わったら何か色々なものを運ぶための媒体になっていた俺の事をどうか忘れないであげてください。木馬の次は点数計算用のツールでトロフィー。一体次は何を運べばいいのだろう。気分はすっかり運送屋（非物理）である。
+    paragraph: p55
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5100_コルセスカ_remembers_トリシューラの愛称_p95]]'
+  object: '[[ME_lacanian_mirror_stage]]'
+  claim: 鏡の破片に映る姿や、相互参照による自意識の確立（『私』という一人称）は、ラカンの鏡像段階における自我形成のプロセスを想起させる。
+  quote: その習慣は、彼女が自意識を確立しようとして、『私』という一人称を使うようになって以来廃れてしまったけれど。
+  paragraph: p95
+  confidence: moderate
+  quotes:
+  - quote: その習慣は、彼女が自意識を確立しようとして、『私』という一人称を使うようになって以来廃れてしまったけれど。
+    paragraph: p95
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの呪術的適性
+  note: コルセスカが「彼こそが最も呪術の才に恵まれている」と結論付けた根拠と、それが今後の戦闘や物語展開でどう機能するか。
+  quotes:
+  - quote: まるで呪術を知らず、呪力を持たない彼だけれど、本当は彼こそが最も呪術の才に恵まれていると言えるのかもしれない。
+    paragraph: p112
+    quote_verified: true
+  expected_payoff: アキラの存在自体が強力なバフ効果を持つ、あるいは敵対者にとってアキラの奪い合いが重要な勝敗要因になる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_パズルのピース（色彩反転）
+  note: p94で言及された「白は黒に、青は赤に」の反転とパズルの嵌合が、具体的な能力の補完関係や合体技として発現するか。
+  quotes:
+  - quote: 白は黒に。青は赤に。色彩が反転して、性質が逆転する。二人の手を合わせれば、あつらえたパズルのピースのように、それはきっとぴたりと嵌る。
+    paragraph: p94
+    quote_verified: true
+  expected_payoff: 姉妹の呪術が単体では不完全であり、アキラ（媒介者）を通じて合体・補完される仕組みの明示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_最初のシューラとセスカ
+  note: 「瞳の中のお友達」「ご本の中のお友達」という定義が、魔女姉妹の起源（創作物質？ 観測者？）を示唆している。
+  quotes:
+  - quote: 最初のシューラ。瞳の中のお友達。元気で小さな、妖精さん。
+    paragraph: p97
+    quote_verified: true
+  - quote: 最初のセスカ。ご本の中のお友達。強くて綺麗な、お姉さん。
+    paragraph: p98
+    quote_verified: true
+  expected_payoff: 二人が現実の人間ではなく、物語のメタ構造（読者・作者）を擬人化した存在であることの確証。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラを介した結末の変化
+  note: 「彼といると...自分たちは違う未来、想像もしなかった結末へと行ける」という予言が、姉妹間の決定的な対立（二者択一）を回避する鍵になるか。
+  quotes:
+  - quote: 今だって姉妹の間にはどうしようもない二者択一の運命が立ちはだかっている。二人だけだったなら、きっとどちらかが、あるいは二人とも消えて終わっていたような気がする。けれど彼といると、どうしてか自分たちは違う未来、想像もしなかった結末へと行けるのではないかと思えてくる。
+    paragraph: p106
+    quote_verified: true
+  expected_payoff: アキラを軸とした三角関係の成立が、運命的な悲劇（どちらかの消滅）を回避する解決策となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 相互参照による存在論：他者との鏡像関係が自我を規定し、安定させる。
+  weight: 0.9
+  quotes:
+  - quote: お互いが、お互いにとっての鏡になるように。二人でいることがなによりの存在証明であり、お互いを認め合うことこそが本当に必要とされていた承認だったのだと、俺はそう確信している。
+    paragraph: p22
+    quote_verified: true
+  - quote: 相互再帰のイマジナリーフレンド。双方向の参照関係。入れ子（ネスト）構造の魔女姉妹。
+    paragraph: p100
+    quote_verified: true
+  note: トリシューラとコルセスカが互いを競争相手かつ唯一の承認者として規定し合う構造を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 媒介者の無価値さと必然性：主人公は単体で意味を持たず、他者間の結合剤としてのみ機能する。
+  weight: 0.8
+  quotes:
+  - quote: 媒体ですか。確かに、それ単体では意味を為さず価値を持たないですけれど
+    paragraph: p61
+    quote_verified: true
+  - quote: きっと、彼一人では意味が無いのだ。彼を介して、その両端で自分たちが繋がっているから安定した意味を構成できる。異なる性質の呪術を扱う魔女達が摸倣子（ミーム）を共有し交換し合い、その間で仲立ちとなる使い魔が三者を強く結合させる。
+    paragraph: p108
+    quote_verified: true
+  note: 主人公のアキラを「道具」「媒体」として客体化し、その存在意義を関係性の構築に限定するメタフィクショナルな視点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的消費と感情のデータベース化：人間の複雑な感情をデータ・リソースとして処理し、管理しようとする試み。
+  weight: 0.6
+  quotes:
+  - quote: 好意と嫌悪すら同時に存在できる人間の精神は、単純なデータの形式をしていない。無数のタグにまみれて混沌としたデータベースは、正確な管理を心がけないとすぐにその元の形がわからなくなってしまう。
+    paragraph: p8
+    quote_verified: true
+  - quote: 単にクリアできる攻略対象は攻略しておこう、という心理が働いただけで。正直、一回落としてしまったのでもういいかなって。すぐ飽きそうですし
+    paragraph: p37
+    quote_verified: true
+  note: 感情をタグ付けされたデータとして捉える視点と、異性（主人公）をクリア可能なゲーム要素として消費する态度の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 安定のための三角構造：二項対立（姉妹）は第三項（使い魔）の介入によって初めて解決・安定化する。
+  weight: 0.7
+  quotes:
+  - quote: 探索者集団の最小構成単位は三人だ。人はその数字に安定を見出す。
+    paragraph: p114
+    quote_verified: true
+  - quote: それでは今この時より、アキラは私達共通の使い魔です
+    paragraph: p67
+    quote_verified: true
+  note: 姉妹間の緊張（競争・愛憎）が、共通の所有物（主人公）を得ることで緩和され、三人組としての安定性が生まれる過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

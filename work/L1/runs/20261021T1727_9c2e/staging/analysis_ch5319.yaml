@@ -1,0 +1,157 @@
+chapter: ch5319
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 22
+items:
+- kind: mystery
+  name: Blue_Hair_Motif_Connection
+  note: 青い髪は、広告の人形、マゼンタの少女（レッテ）、ゼドの隠れた髪色、ネドラドの頭部、夜の民の影など、複数のキャラクターや物体に現れる共通モチーフである。これは彼らが「青い糸」によって操られている、あるいは同一の起源・支配構造を持つことを示唆する伏線。
+  quotes:
+  - quote: 床一面をバラバラになった人形や機械の部品が埋め尽くしており足の踏み場もない。大小のケーブルと絡み合うようにして伸びるのは、青い糸――いや、髪だ。
+    paragraph: p35-p36
+    quote_verified: true
+  - quote: 青い糸が、少女の紅紫の髪の中に一房だけ混じっていた。
+    paragraph: p108
+    quote_verified: true
+  - quote: 抜け落ちた毛の一本が石畳に青く融けて、消えた。
+    paragraph: p167
+    quote_verified: true
+  - quote: ぎこちない動きで歩く男の頭部に、一房の青い髪が混じっていた。
+    paragraph: p270
+    quote_verified: true
+  expected_payoff: 青い髪を持つ者たちが最終的に「糸」によって回収・支配される展開、あるいは「青」が物語の根源的な制御システム（作者や上位存在）のシンボルであることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: Glendelhi_Identity_Mask
+  note: グレンデルヒの遺体が見つからず、「最後のグレンデルヒ中枢を演じていたのが誰であるのかも不明」と記述されている。黄褐色のスーツを着た個体が存在し、後に「私の、トリシューラ（がらくた）」と呼ぶ少女が登場するなど、正体に関する混乱と隠蔽工作が伏線として仕込まれている。
+  quotes:
+  - quote: それどころか、最後のグレンデルヒ中枢を演じていたのが誰であるのかも不明なままだ。
+    paragraph: p409
+    quote_verified: true
+  - quote: 第五階層北東部、工場や生産プラントが並ぶガロアンディアンにとって重要な区画に突如として黄褐色のスーツを着たグレンデルヒが出現。
+    paragraph: p413
+    quote_verified: true
+  - quote: 「そうでしょう？　――私の、トリシューラ（がらくた）」
+    paragraph: p435
+    quote_verified: true
+  expected_payoff: グレンデルヒが特定のキャラクター（例：シナモリアキラやトリシューラ関連の存在）の変装・寄生体であることが判明し、その動機が復讐や支配欲から来ていることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: Night_People_Origin_Duality
+  note: 夜の民（幻姿霊）が「地獄からやって来た」と自称し、ジャッフハリムを裏切ったと問われている。彼らの出自や目的が不明確であり、「セレクティ派の思惑」への対抗意識を持つことが語られている。
+  quotes:
+  - quote: 「何故、ジャッフハリムを裏切った――」
+    paragraph: p315
+    quote_verified: true
+  - quote: 地獄からやって来た幻姿霊が、決意を込めて前に進んでいく。
+    paragraph: p325
+    quote_verified: true
+  - quote: 「セレクティ派の思惑はわからぬが――私は私の役目を果たす」
+    paragraph: p323
+    quote_verified: true
+  expected_payoff: 夜の民が物語外の存在（地獄＝他世界・作者の意図など）からの介入者であることが判明し、メインストーリーの構造を崩壊させる役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: Kashram_Magic_Saints_Restoration
+  note: 魔教が「オルヴァ・スマダルツォンの聖骸」を発見し、「終端は弑された」と叫びながら「転生の儀」を行おうとしている。この宗教儀式の成功と、その結果としての力（権能）の回復が今後の戦況を大きく変える可能性を示唆している。
+  quotes:
+  - quote: 「これなるはキャカール十二賢者が第一位、オルヴァ・スマダルツォンの聖骸である。皆、喜べ！　時は満ちた。古き予言は成就された！　偉大なる十字王の予言はまことであったのだ！」
+    paragraph: p233
+    quote_verified: true
+  - quote: 「いざ参ろう。今こそ転生の儀を執り行う時。ここに集いし我神十二限界が、新たなる終端を食らい尽くすのだ！」
+    paragraph: p246
+    quote_verified: true
+  expected_payoff: 魔教の儀式成功により、ハザーリャやその他の古代の守護神が復活・干渉し、トリシューラらの支配構造に対抗する第三勢力として台頭する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: Azuria_Power_Control
+  note: アズーリアが「大魔将の力を完全に制御しきれていない」「暴走しかけた所を抑え込むだけで精一杯」と描写されている。この制御不能な力の暴発、または完全な解放が今後の主要な脅威となる伏線。
+  quotes:
+  - quote: アズーリア・ヘレゼクシュは大魔将の力を完全に制御しきれていない。圧倒的な威力に振り回され、暴走しかけた所を抑え込むだけで精一杯という所だった。
+    paragraph: p258
+    quote_verified: true
+  expected_payoff: アズーリアが制御を失い暴走するイベントが発生し、味方敵関係なく破壊の嵐を起こすか、あるいはネドラドらによって強制的に「封印」される展開へつながる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人間は物語（シナリオ）を演じるための道具（人形）であり、自由意志や感情は操作・設計された機能に過ぎないという「存在の道具化」
+  weight: 0.85
+  quotes:
+  - quote: 全ては操り糸が導くままに――どうせ、なるようにしかならないの
+    paragraph: p78
+    quote_verified: true
+  - quote: 道具は使われてこそ。そこに疑問を差し挟む余地など皆無。... 傷付く心（ハート）など、存在しないのだから。
+    paragraph: p432-p443
+    quote_verified: false
+  note: マゼンタの少女や「がらくた」と呼ばれるキャラクターによる独白は、自己を物語上の機能として定義し、感情の不在（または操作された感情）を肯定している。これはメタフィクションとしての「登場人物＝作者の意図に従う記号」であることを主題化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と制度が人間の生活・死生観を支配する構造への依存と、そこから逃げ出そうとする者たちの孤立（非正規探索者・異端集団）
+  weight: 0.75
+  quotes:
+  - quote: 機械に仕事を奪われた分だけ、その機械に関連した仕事が必要になってくるのだという理屈が述べられる。... 男は上を向いて力強く一歩を踏み出す。
+    paragraph: p12-p13
+    quote_verified: false
+  - quote: 彼らはサイバーカラテ道場に足を踏み入れることを、所属してしまうことを選んでいない。過酷な戦いと競争の中で培った探索者としての嗅覚が、早計だと告げていたからだ。
+    paragraph: p148
+    quote_verified: true
+  - quote: 地上では大神院が定めた九大眷族種の他にも... 徹底した隔離政策。特定居住区での窮屈な生活の中で、ただブレイスヴァの名を呼び、恐れ続ける。
+    paragraph: p215
+    quote_verified: false
+  note: 広告に見られる社会制度への順応（リスキリング）と、それに属することを拒み「嗅覚」に頼る盗賊たち、隔離された異端者たちの対比が描かれている。これは技術的・制度的な支配構造に対する服従と抵抗の両義性を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 復讐と憎悪の連鎖が、「個」を消去し「構造（敵）」を無限に拡散させる暴力のメカニズム
+  weight: 0.7
+  quotes:
+  - quote: 友を殺したのが個人ではなく構造であるのなら、それを生んだ地上全体こそが諸悪の根源なのではないか。... 憎悪が膨れあがる。
+    paragraph: p183-p179
+    quote_verified: false
+  - quote: 殺意の行き先は一つではない。際限なく拡散していく。
+    paragraph: p188
+    quote_verified: true
+  note: グラッフィアカーネの怒りが個人から企業全体へ拡大する過程は、憎悪が対象を限定できず世界全体へ波及する「連鎖」のメカニズムを示す。これは物語の衝突を不可逆な破滅へ導く原動力としての暴力を主題化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 信仰・宗教が恐怖と絶望を基盤に成立し、「救い」は狂気的な儀礼（生贄・切断）を通じた過剰な演出として現れる
+  weight: 0.65
+  quotes:
+  - quote: 魔教のおぞましき呪術が瀕死の生贄を生き長らえさせている。... 「終端は弑されたのだ！」 ... 熱狂する集団。
+    paragraph: p227-p243
+    quote_verified: false
+  - quote: 酸鼻極まる、人体の断面図。... それすらも扇情的な広告代わり。性と死に彩られた情報が、世界に広がっていく。
+    paragraph: p373-p381
+    quote_verified: false
+  note: カシュラム人の魔教とドラトリアの新興宗教団体が、生贄や残酷な画像を伴う形で現れ、「救い」が美しさや安らぎではなく恐怖・狂気・過剰さとして提示されている。これは宗教的体験がメタフィクショナルな演出（広告映像）として消費される構造を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

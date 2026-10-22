@@ -1,0 +1,273 @@
+chapter: ch5417
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 5
+  themes: 4
+  quotes_verified: 22
+  quotes_total: 24
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p12]]'
+  object: '[[ME_RPG_Party_Mechanic]]'
+  claim: 盗賊の「6人で奪い尽くす」という台詞は、MMORPGにおけるパーティ編成と loot 分配システムをメタ的に示唆している。
+  quote: 「全ての財貨を盗賊が奪う。俺たち六人で奪い尽くす」
+  paragraph: p12
+  confidence: strong
+  quotes:
+  - quote: 「全ての財貨を盗賊が奪う。俺たち六人で奪い尽くす」
+    paragraph: p12
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p36]]'
+  object: '[[ME_Monster_Treasure_Drop]]'
+  claim: 迷宮の敵（森）が探索者に報酬を与える存在として定義されることは、ゲームにおける敵からのドロップアイテム取得メカニクスを直接的に引用している。
+  quote: 「お前たち『森』は打倒されるために出現し、我々に報酬を与え続ける――今やシナモリアキラですらそうなのだ。」
+  paragraph: p36
+  confidence: explicit
+  quotes:
+  - quote: 「お前たち『森』は打倒されるために出現し、我々に報酬を与え続ける――今やシナモリアキラですらそうなのだ。」
+    paragraph: p36
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p25]]'
+  object: '[[ME_Rare_Item_Card]]'
+  claim: 「黄金のコーデ」がカードとして封じられている描写は、トレーディングカードゲームやガチャにおけるレアアイテム（SR/UR）の物理的実体化を模倣している。
+  quote: 亡き師ファウナより受け継いだ『黄金』のコーデ――至上の偶像のみが手にすることを許されたレガリア――を封じたカードは、今ゼドの手中に収められていた。
+  paragraph: p25
+  confidence: strong
+  quotes:
+  - quote: 亡き師ファウナより受け継いだ『黄金』のコーデ――至上の偶像のみが手にすることを許されたレガリア――を封じたカードは、今ゼドの手中に収められていた。
+    paragraph: p25
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p143]]'
+  object: '[[ME_Rock_Band_Metaphor]]'
+  claim: ゼドの仲間たちがギター、ベース、ドラムなどの楽器を武器として携えている描写は、音楽バンドの構成と戦闘パーティの構成を重ね合わせる比喩である。
+  quote: 火工術師のギター兼ボーカルの青年、斧型ベースを担いだ巨漢、竪琴じみた長弓を構えた小柄な少女、地面から姿を現す白と黒の鍵盤が刻まれた影、ドラムセットの中央に座る老人――五つの戦意がミルーニャの足を釘付けにする。
+  paragraph: p143
+  confidence: explicit
+  quotes:
+  - quote: 火工術師のギター兼ボーカルの青年、斧型ベースを担いだ巨漢、竪琴じみた長弓を構えた小柄な少女、地面から姿を現す白と黒の鍵盤が刻まれた影、ドラムセットの中央に座る老人――五つの戦意がミルーニャの足を釘付けにする。
+    paragraph: p143
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p157]]'
+  object: '[[ME_Performance_Gender]]'
+  claim: ゼドが女装を「完璧な変装」として行い、周囲を欺く行為は、性別の流動性や演劇的仮面（ペルソナ）に関する文化的概念を示唆している。
+  quote: 『女』の所作には照れが無い。淀みが無い。完璧な変装、比類無き女装をしているのだから自分は女に決まっている。
+  paragraph: p157
+  confidence: moderate
+  quotes:
+  - quote: 『女』の所作には照れが無い。淀みが無い。完璧な変装、比類無き女装をしているのだから自分は女に決まっている。
+    paragraph: p157
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p34]]'
+  object: '[[ME_Killing_Loot_Loop]]'
+  claim: 殺戮ではなく「略奪」による結果であると明言することで、通常RPGの「倒して loot 取る」ループを、「存在そのものの奪取」という哲学的な侵害に反転させている。
+  quote: 'だがそれは殺戮や破壊による結果ではない。
+
+    略奪によるものだ。'
+  paragraph: p34
+  confidence: strong
+  quotes:
+  - quote: 'だがそれは殺戮や破壊による結果ではない。
+
+      略奪によるものだ。'
+    paragraph: p34
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p105]]'
+  object: '[[ME_Pet_Mechanic]]'
+  claim: 鶏を腕に留まらせて「ヒュドラボルテージ」がいななく描写は、ゲームにおけるペット・使い魔の召喚とステータス連動メカニクスを模している。
+  quote: ミルーニャは鞄を開き、中から飛び出した鶏を片腕に留まらせた。燃えさかる羽ばたきと共に『ヒュドラボルテージ』が一声いななく。
+  paragraph: p105
+  confidence: moderate
+  quotes:
+  - quote: ミルーニャは鞄を開き、中から飛び出した鶏を片腕に留まらせた。燃えさかる羽ばたきと共に『ヒュドラボルテージ』が一声いななく。
+    paragraph: p105
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p237]]'
+  object: '[[ME_Cultural_Taboo_Saliva]]'
+  claim: ミヒトネッセとの口づけによる肉体変化に対し、クレイが「人の純潔」を問うのは、唾液交換（キス）に対する文化的な禁忌や衛生観念の衝突を示している。
+  quote: 「人の純潔を何だと思って」
+  paragraph: p237
+  confidence: weak
+  quotes:
+  - quote: 「人の純潔を何だと思って」
+    paragraph: p237
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Zedo_Second_Regalia
+  note: ゼドがクレイから奪ったものとは別に、「もう一つの『黄金』位コーデ」を所有していた事実。このコーデの由来や、なぜ彼が「盗賊王」でありながら「アイドル」として機能しているかの背景。
+  quotes:
+  - quote: つまり――ゼドははじめから『黄金』位のコーデを所有するアイドルだった。
+    paragraph: p155
+    quote_verified: true
+  expected_payoff: ゼドの真の能力、彼のパーティメンバーとの関係性、そして「盗賊王」という称号が単なる略奪者ではなく、「魅了」や「偶像化」に基づくものであることが明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Milunya_Dark_Thread_Control
+  note: ミルーニャがゼドの「青い糸」（呪い/因果律操作）を防御できた理由。彼女が持つ「断章」や使い魔との関連性。
+  quotes:
+  - quote: 「お前たち――何故、防げる？」
+    paragraph: p86
+    quote_verified: true
+  - quote: 「そちらこそ。何故、使えるんですか？」
+    paragraph: p88
+    quote_verified: true
+  expected_payoff: ミルーニャの出自（アルタネイフの娘）、彼女の魔法体系、およびゼドの糸が「因果」を司るものである場合、彼女がそれに抗える特殊な耐性を持つことが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mihitonesse_Identity_Shift
+  note: ミヒトネッセがクレイの姿に完全に変化し、ゼドを欺いた「紀門遁行」の技術的詳細と、この偽装がもたらす長期的な影響（クレイの名前の消失リスク）。
+  quotes:
+  - quote: リビドーの摂取による肉体の変化を済ませたミヒトネッセは影の下から這い上がろうとして、唇を強く擦り続けるクレイに怪訝な目を向けた。
+    paragraph: p233
+    quote_verified: true
+  - quote: その姿が霞のように消え去ると同時、ミルーニャたちは別の気配に包囲されていることに気付く。虚空を引き裂くようにして現れたのは五人。
+    paragraph: p135
+    quote_verified: true
+  expected_payoff: クレイが「改名」や呪的保護を受けずに放置される場合、彼の存在が世界から完全抹消される危険性。また、ミヒトネッセがゼドと寝ることで得た情報が物語を動かす伏線となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kray_Lost_Arm_Regeneration
+  note: クレイの右腕（王国の剣）がゼドに融合され、その後に彼が「医者呼んだ」という謎の声によって救われるプロセス。腕は二度と戻らないのか、あるいは呪力の一部として再生されるのか。
+  quotes:
+  - quote: 『王国の剣』と化したゼドの右腕が莫大な呪力を宿して灼熱を打ち払った。
+    paragraph: p120
+    quote_verified: true
+  - quote: 「おい、こっちだ！　医者呼んだからな、もう大丈夫だ、あと少し我慢してくれよ――ったく、ホントなにやってんだ俺は」
+    paragraph: p270
+    quote_verified: true
+  expected_payoff: クレイの戦力低下と精神崩壊の引き金。この腕がゼドの中でどう機能するか（クレイの記憶や呪詛が含まれている可能性）の回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Fragment_Complete_Set
+  note: 「死人の森の断章」を9つ揃えた者が冥府全ての支配者となるというルールと、現在の保有状況（ゼドがクレイから奪ったカードを含む）。
+  quotes:
+  - quote: 『死人の森の断章』を九つ全て揃えた者が冥府全ての支配者となる――六王たちが次々と脱落する中、戦いの主役は『星見の塔』の魔女たちに移ろうとしていたのだが、ここにきて新たな参加者が現れた。
+    paragraph: p96
+    quote_verified: true
+  expected_payoff: ミルーニャやゼドが断章を収集する過程で、冥府支配権の争奪戦が激化し、彼らが「六王」を超える存在へと変貌する展開への導入。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メカニクスの内的論理と、キャラクターの肉体的・精神的苦痛との対比
+  weight: 0.8
+  quotes:
+  - quote: 「お前たち『森』は打倒されるために出現し、我々に報酬を与え続ける――今やシナモリアキラですらそうなのだ。六王という神話級の『装備品（マレブランケ）』を手に入れて自己を強化し続ける、まさしく理想的な遊戯盤だよ、『死人の森』は」
+    paragraph: p36
+    quote_verified: false
+  - quote: 再生者は肉体より先に、心から死んでいく。
+    paragraph: p265
+    quote_verified: true
+  note: ゼドが世界を「遊戯盤」として冷徹に定義する一方、クレイはその論理の中で「心から死ぬ」ほどの苦痛を味わう。「ゲームの勝者」の欲望と「敗者」の人間性が衝突している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 所有と略奪を通じた自己の拡張（ゼド）と、喪失による自己の解体（クレイ）
+  weight: 0.7
+  quotes:
+  - quote: 「全ての財貨を盗賊が奪う。俺たち六人で奪い尽くす」
+    paragraph: p12
+    quote_verified: true
+  - quote: 女王への忠誠、王国の剣としての誇り、そんなものは片腕と共に失われた。微かに記憶を刺激する血と継承の感触も、身を苛む無力感に押し潰されてしまっている。
+    paragraph: p263
+    quote_verified: true
+  note: ゼドは他者の象徴的価値（腕、カード、姿）を奪うことで自己を「黄金」へと昇華させるが、クレイはそれらを失うことで社会的・肉体的アイデンティティを完全に崩壊させている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 演劇的仮面（ペルソナ）による真実の隠蔽と欺瞞
+  weight: 0.6
+  quotes:
+  - quote: '彼の役割は、盗賊。
+
+      実のところ舞台こそがもっとも似合いの、時代遅れの遺物である。'
+    paragraph: p9
+    quote_verified: true
+  - quote: 彼女はクレイを見事に演じ切るだろう。その未来が信じられるからこそ、クレイは悔しさに震える身を抑えることができなかった。
+    paragraph: p246
+    quote_verified: true
+  note: ゼドの女装、ミヒトネッセの変装、そして「舞台」というメタファー。キャラクターが「役割」を演じることが現実を改変する力を持つ世界観を示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生と死の境界における他者との融合（キスによる侵食）
+  weight: 0.5
+  quotes:
+  - quote: 儀式としての結婚、略奪としての誓い。喰らい、貪るような口づけ。
+    paragraph: p164
+    quote_verified: true
+  - quote: 肉（ことば）がじわりと侵入し、ひとつになって融け合った。
+    paragraph: p229
+    quote_verified: true
+  note: ゼドのクレイへの口づけ、ミヒトネッセのクレイへの口づけ。「奪う」行為が「食べる」「融合する」という生物的・性的なイメージと結びつき、人格の侵食を表現している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

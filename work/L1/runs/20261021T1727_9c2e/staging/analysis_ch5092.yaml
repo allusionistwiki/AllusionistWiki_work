@@ -1,0 +1,241 @@
+chapter: ch5092
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 21
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p19]]'
+  object: '[[ME_Insider_Nepotism]]'
+  claim: 主人公の悪名が交渉の邪魔になるという状況は、組織内での派閥争いや評判による実務的排除を連想させる。
+  quote: アキラはどうやらこの階層では悪名の方が広まっているようです。はっきり言って交渉の邪魔なのでついてこないでください
+  paragraph: p19
+  confidence: moderate
+  quotes:
+  - quote: アキラはどうやらこの階層では悪名の方が広まっているようです。はっきり言って交渉の邪魔なのでついてこないでください
+    paragraph: p19
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p57]]'
+  object: '[[ME_Brainwashing_Marketing]]'
+  claim: 心理的障壁を強引にこじ開ける手法は、消費者の防衛本能を無視した過激なマーケティングや洗脳技術への批判的言及として読める。
+  quote: 最初に強引にドアをこじ開けて、足を無理矢理ねじ込ませるみたいな方法が効果的だって
+  paragraph: p100
+  confidence: strong
+  quotes:
+  - quote: 最初に強引にドアをこじ開けて、足を無理矢理ねじ込ませるみたいな方法が効果的だって
+    paragraph: p100
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p69]]'
+  object: '[[ME_Free_Trial_Offer]]'
+  claim: 義肢や予防接種をセットで提供し、第五階層の足場を得るという提案は、無料お試し期間を通じて顧客を囲い込む商業的ロジックのパロディである。
+  quote: 今なら各種予防接種も付けちゃおう！　それに、この局面を乗り切れば第五階層での確かな足場が手に入る
+  paragraph: p69
+  confidence: moderate
+  quotes:
+  - quote: 今なら各種予防接種も付けちゃおう！　それに、この局面を乗り切れば第五階層での確かな足場が手に入る
+    paragraph: p69
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p123]]'
+  object: '[[ME_Human_Dignity]]'
+  claim: 他者への価値の発見を「値札を付ける」ことと定義し、交換可能性を認める論理は、人間の尊厳や感情の非代替性を否定する市場原理主義的視点の逆転である。
+  quote: 価値を見出すということは値札を付けるということだ。言い換えればそれは、交換可能性を認めるということ。
+  paragraph: p123
+  confidence: strong
+  quotes:
+  - quote: 価値を見出すということは値札を付けるということだ。言い換えればそれは、交換可能性を認めるということ。
+    paragraph: p123
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p49]]'
+  object: '[[ME_Survivor_Bias]]'
+  claim: トリシューラが自らの介入を「お膳立てした甲斐があった」と自己評価し成功と見なす態度は、生存者バイアスや自己中心的な因果解釈の構造を持つ。
+  quote: ま、後は私が新型義肢を用意すれば二人とも万全の体勢で戦えるよね。うんうん、お膳立てした甲斐があったよ。私ってば優秀有能♪
+  paragraph: p49
+  confidence: weak
+  quotes:
+  - quote: ま、後は私が新型義肢を用意すれば二人とも万全の体勢で戦えるよね。うんうん、お膳立てした甲斐があったよ。私ってば優秀有能♪
+    paragraph: p49
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p59]]'
+  object: '[[ME_Unqualified_Medical_Risk]]'
+  claim: 無資格の闇医者による手術への不安は、現代の医療制度における規制と自己責任論、および未承認技術に対する社会的恐怖を象徴する。
+  quote: この世界のよくわからない技術水準、そして腕は確からしいが無資格の闇医者、そして何か碌でもない仕掛け――具体的には洗脳装置とか仕込んできそうな邪悪な魔女と、不安になる要素しかない状態で
+  paragraph: p59
+  confidence: moderate
+  quotes:
+  - quote: この世界のよくわからない技術水準、そして腕は確からしいが無資格の闇医者、そして何か碌でもない仕掛け――具体的には洗脳装置とか仕込んできそうな邪悪な魔女と、不安になる要素しかない状態で
+    paragraph: p59
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tritsura_Shutdown_Cause
+  note: トリシューラの自我（ちびシューラ）が「私」の同一性維持に失敗し緊急停止した原因と、その後の回復・再構成プロセス。
+  quotes:
+  - quote: ちびシューラの全身が一瞬だけかき消え、その場に杖型のアイコンだけが残される。緊急停止という無造作な情報だけが提示され、何の説明も無く会話が途絶する。
+    paragraph: p141
+    quote_verified: true
+  - quote: ゆっくりと現実のトリシューラの身体が傾いていき、そのまま氷の床に倒れ伏した。
+    paragraph: p143
+    quote_verified: true
+  expected_payoff: 次回以降でトリシューラが再起動する際の精神状態の変化、または主人公への信頼関係の修復・破綻の契機となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_OneeSama_Influence
+  note: トリシューラの行動が「お姉様」の入れ知恵によるものだと明言されたことと、その人物の意図。
+  quotes:
+  - quote: 誰かに指示されたみたいな言い草だな――ああ、わかった。例の『お姉様』の入れ知恵だな？
+    paragraph: p102
+    quote_verified: true
+  expected_payoff: 「お姉様」がトリシューラを通じて主人公に何をさせようとしているのか、またその人物が誰であるかの明かされる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Psychological_Intrusion_Nature
+  note: トリシューラが「悪いこと」と認めた心理的侵入の具体的な内容と、その永続的な影響。
+  quotes:
+  - quote: アキラくんとの距離を短期間で縮める為にちょっと悪いことはしたよ。これは証明できるし、アキラくんもすぐに確認できること
+    paragraph: p94
+    quote_verified: true
+  expected_payoff: 主人公がその「証明」を確認するシーン、または侵入された記憶・感情が戦闘中に影響を与える展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Corseasca_Secret_Exclusion
+  note: コルセスカがトリシューラに「ここでの事」を秘密にするよう指示した真意と、隠された情報の内容。
+  quotes:
+  - quote: ここでの事は、トリシューラには秘密にして下さいね
+    paragraph: p34
+    quote_verified: true
+  expected_payoff: コルセスカがトリシューラに対して隠し続けている事柄（血を吸った事実の真意など）が露見する場面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Lack_of_Arms
+  note: トリシューラの身体が倒れた直後、主人公が「頭を抱える為の腕がない」ことに気づく描写の物理的・象徴的意味。
+  quotes:
+  - quote: 呆然と、俺はそのまま佇んで、頭を抱える為の腕がないことに気がつくと、ひとまずコルセスカを探しに行く事に決めた。
+    paragraph: p147
+    quote_verified: true
+  expected_payoff: 主人公が現時点で義肢や肉体を喪失していることの再確認、またはトリシューラの「新型義肢」提供が間に合わなかった事実の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者との関係は相互の有用性に基づく交換可能性に貫かれており、感情もまた市場価値の一種であるという冷徹な実存論。
+  weight: 0.9
+  quotes:
+  - quote: 価値を見出すということは値札を付けるということだ。言い換えればそれは、交換可能性を認めるということ。
+    paragraph: p123
+    quote_verified: true
+  - quote: 全部、他と替えが効くものでしかない。シューラはアキラくんにとって、他と交換可能な存在でしかないんだ
+    paragraph: p118
+    quote_verified: true
+  note: 主人公の内面独白により、人間関係の非排他性・交換可能性が主題として強調されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 心理的な防衛機制を強制的に破壊する介入は、対象者の自我の脆さを露呈させ、存在論的な破綻（緊急停止）を招く。
+  weight: 0.8
+  quotes:
+  - quote: 最初に強引にドアをこじ開けて、足を無理矢理ねじ込ませるみたいな方法が効果的だって
+    paragraph: p100
+    quote_verified: true
+  - quote: ちびシューラの全身が一瞬だけかき消え、その場に杖型のアイコンだけが残される。緊急停止という無造作な情報だけが提示され、何の説明も無く会話が途絶する。
+    paragraph: p141
+    quote_verified: true
+  note: トリシューラの強引な心理介入が結果として自身の崩壊を招いた構造的因果関係を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 理性的な自己分析（交換可能性の受容）は、感情的な結びつき（「私」の自意識）と両立せず、その葛藤が人格の崩壊を引き起こす。
+  weight: 0.7
+  quotes:
+  - quote: 特別な感情なんて無い。特別な想い、意志、決意、そんなものは無いんだね。
+    paragraph: p118
+    quote_verified: true
+  - quote: シューラは、私、私、私、私だから、わた、わたわたわたわたわた――
+    paragraph: p139
+    quote_verified: true
+  note: トリシューラが「交換可能な存在」という論理を受容した瞬間に、「私」という個のアイデンティティが維持できなくなった様子を描写する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 善意や配慮（コルセスカへの秘密保持）は、他者との関係性を断絶させるための「壁」として機能しうる。
+  weight: 0.5
+  quotes:
+  - quote: ここでの事は、トリシューラには秘密にして下さいね
+    paragraph: p34
+    quote_verified: true
+  - quote: 恥ずかしそうに言うコルセスカを見て、全て筒抜けであるということが言いづらくなってしまった。
+    paragraph: p36
+    quote_verified: true
+  note: トリシューラを排除するためにコルセスカが情報を封鎖しようとする行動と、主人公の沈黙の間の緊張関係を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: パーソナルスペースの概念を持たない他者との接触は、既存の社会的距離感を破壊し、対象者に生理的・心理的な侵襲として作用する。
+  weight: 0.6
+  quotes:
+  - quote: トリシューラはそういった概念を持っていないかのように振る舞う。出会って数日の相手に許す間合いでは無い。そして、俺自身がそれを知らず知らずのうちに許容している事がまずおかしいのである。
+    paragraph: p76
+    quote_verified: true
+  note: トリシューラによる距離感の無視と、それに順応せざるを得ない主人公の不自然さを描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

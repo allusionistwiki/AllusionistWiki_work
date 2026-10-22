@@ -1,0 +1,241 @@
+chapter: ch5011
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 23
+  quotes_total: 24
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p5_telepathy]]'
+  object: '[[ME_smartphone_notifications]]'
+  claim: 狼王のテレパシーによる名乗りは、スマホの通知音やプッシュ通知が脳内に直接響く現代のデジタル通信環境の比喩である。
+  quote: 意味が直接頭の中に響いてきた。しかもエスフェイルという名前が彼らの古い言葉で『闇の脚』を意味すること、そして彼らが現在使用している言語においては意味のない音の連なりにしか聞こえないので自分の名前って古語でこういう意味なんだって、一応括弧付けて補足しておくよ、みたいな微妙なニュアンスまで完璧に伝わってきた！
+  paragraph: p5
+  confidence: moderate
+  quotes:
+  - quote: 意味が直接頭の中に響いてきた。しかもエスフェイルという名前が彼らの古い言葉で『闇の脚』を意味すること、そして彼らが現在使用している言語においては意味のない音の連なりにしか聞こえないので自分の名前って古語でこういう意味なんだって、一応括弧付けて補足しておくよ、みたいな微妙なニュアンスまで完璧に伝わってきた！
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p39_name_power]]'
+  object: '[[ME_gacha_game_terms_of_service]]'
+  claim: 「名前」が呪いの本体であり、それを理解せず形だけを真似る者を「手品師」と呼ぶ構造は、複雑な規約や隠しパラメータを持つガチャゲームのシステムを素人が操作しようとして失敗する様子をパロディ化している。
+  quote: 我が名はいにしえの力ある言葉で編まれておる。それ自体が一つの呪いであるぞ。呪術の本質を理解せず、形ばかりを真似ている貴様ごとき手品師に掌握できるものではないわ！
+  paragraph: p39
+  confidence: strong
+  quotes:
+  - quote: 我が名はいにしえの力ある言葉で編まれておる。それ自体が一つの呪いであるぞ。呪術の本質を理解せず、形ばかりを真似ている貴様ごとき手品師に掌握できるものではないわ！
+    paragraph: p39
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p51_chain_count]]'
+  object: '[[ME_mobile_game_daily_stamina]]'
+  claim: アズーリアの左手首にある金鎖の環が減少し、尽きると死に至るという設定は、スマホゲームにおける「スタミナ消費」とその枯渇による行動不能（またはアカウント停止/死亡）をメタファーとしている。
+  quote: 視線の先は、アズーリアの左手首から下がっている金鎖だ。いつの間にか、環の数がふたつになっている。
+  paragraph: p51
+  confidence: moderate
+  quotes:
+  - quote: 視線の先は、アズーリアの左手首から下がっている金鎖だ。いつの間にか、環の数がふたつになっている。
+    paragraph: p51
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p110_explosion_escape]]'
+  object: '[[ME_emergency_evacuation_protocol]]'
+  claim: 手品師の自爆をトリガーに、仲間が分散して強制テレポートされる様子は、災害時の避難計画における「リスク分散」および「強制避難指示」の論理（生存率最大化のための個体分離）と構造的に一致する。
+  quote: 射出された勢いや方向は全員ばらばらで、同じ場所に落ちたりはしないようだ。なんでわざわざそんなことを、と思ったが、全員ばらばらに逃げることで全体の生存率を上げる狙いがあるのだろうか？
+  paragraph: p126
+  confidence: moderate
+  quotes:
+  - quote: 射出された勢いや方向は全員ばらばらで、同じ場所に落ちたりはしないようだ。なんでわざわざそんなことを、と思ったが、全員ばらばらに逃げることで全体の生存率を上げる狙いがあるのだろうか？
+    paragraph: p126
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p143_application]]'
+  object: '[[ME_augmented_reality_apps]]'
+  claim: 主人公が脳内で「アプリケーション」を起動して索敵を行う描写は、AR（拡張現実）技術を用いたナビゲーションアプリや、ゲーム内のミニマップ機能を想起させる。
+  quote: アズーリアを捜索するために、俺は新たなアプリケーションを脳内で起動した。
+  paragraph: p143
+  confidence: explicit
+  quotes:
+  - quote: アズーリアを捜索するために、俺は新たなアプリケーションを脳内で起動した。
+    paragraph: p143
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p15_name_theft]]'
+  object: '[[ME_privacy_data_leak]]'
+  claim: 「名前を奪われる」というファンタジー上の脅威は、現代における個人情報漏洩やSNS上での特定による社会的死（キャンセル文化）という倫理的恐怖の逆転した表象である。
+  quote: 「答えてはいけない！　名前を奪われるぞ！」
+  paragraph: p15
+  confidence: weak
+  quotes:
+  - quote: 「答えてはいけない！　名前を奪われるぞ！」
+    paragraph: p15
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Chain_Mechanism
+  note: 金鎖の環が尽きた際にアズーリアが死ぬとカインが明言している。この「死」が物理的消滅なのか、存在の抹消（名前消失）なのか、またその条件の詳細が未解明。
+  quotes:
+  - quote: あの鎖が無くなってしまったとき、一体アズーリアはどうなってしまうのだろう？
+    paragraph: p54
+    quote_verified: true
+  - quote: 「アズーリアが死ぬ」
+    paragraph: p58
+    quote_verified: true
+  expected_payoff: 鎖の数が0になった瞬間のアズーリアの結末、および主人公がそのプロセスをどう認識するか（視覚的・概念的な変化）の描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Black_Book_Content
+  note: 手品師が死に際にアズーリアへ渡した「黒い本」の中身、特に最終ページに書かれていた魔法（転移・分離の呪文）の真の性質。単なる移動術なのか、より深い代償を伴うものか。
+  quotes:
+  - quote: 手品師に渡された黒い本の最後のページを開いて何かをしようとしていた。
+    paragraph: p99
+    quote_verified: true
+  - quote: アズーリアは小さく頷いて、左手で黒い本を手に取った。
+    paragraph: p78
+    quote_verified: true
+  expected_payoff: アズーリアが本書を用いてエスフェイルに対抗する手段の提示、またはその代償（鎖の消費加速など）の発覚。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Esfeil_Name_Defense
+  note: エスフェイルは自らの名前が「呪い」であると語った。この名前を掌握するために必要な「本質」の条件は何なのか、またアズーリアが対抗できる根拠（黒い左手との関係）。
+  quotes:
+  - quote: 我が名はいにしえの力ある言葉で編まれておる。それ自体が一つの呪いであるぞ。
+    paragraph: p39
+    quote_verified: true
+  - quote: エスフェイルもその瞳を爛々と輝かせる。両者はにらみ合ったまま動かず、時間だけが過ぎていく。
+    paragraph: p21-p22
+    quote_verified: true
+  expected_payoff: アズーリアがエスフェイルの名前に対する対抗手段（真名呼び出しや封印）を発動する場面での説明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Dispersal_Strategy_Logic
+  note: アズーリアがなぜ「バラバラに逃げる」作戦を採ったのか。エスフェイルの狩猟能力（森での追跡）に対する具体的な勝算・対策が示されていない。
+  quotes:
+  - quote: そもそもアズーリアが何を考えてこんな作戦を実行したのか分からない。
+    paragraph: p135
+    quote_verified: true
+  - quote: 全員バラバラに逃げたことによって一気に全滅という最悪のケースは無くなるが、個々の戦闘能力がエスフェイルより低い以上、逃げ回っていてもじり貧になるだけじゃないだろうか。
+    paragraph: p133
+    quote_verified: true
+  expected_payoff: アズーリアと合流した後の作戦会議で明かされる、分散状態を利用した包囲網や罠の計画。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Handpalmer_Motivation
+  note: 手品師が致命傷を負いながら自爆を遂げた動機。アズーリアとの「やりとり」で何を約束したのか、あるいは個人的な恨み・義務感によるものか。
+  quotes:
+  - quote: 何がこの男をここまで駆り立てるのだろう。
+    paragraph: p71
+    quote_verified: true
+  - quote: 手品師がエスフェイルを道連れに自爆する。
+    paragraph: p113
+    quote_verified: true
+  expected_payoff: アズーリアの口から語られる手品師との過去、または彼の最期の言葉の意味解釈。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報優位性とコミュニケーション断絶による弱者（主人公）の孤立
+  weight: 0.8
+  quotes:
+  - quote: 魔法使いの声に正気を取り戻したのか...（中略）ちなみに後者の台詞は俺の想像や補完を多く含んでいますが多分これであってるんじゃないかと思います。
+    paragraph: p17
+    quote_verified: false
+  - quote: 多分、俺以外の全員が状況をちゃんと把握しているんだろうな。カインとかキールが何かを言っていた気がするが正直よく分からなかったし。
+    paragraph: p137
+    quote_verified: true
+  note: 主人公は他者（アズーリア、カイン等）の言語や意図を理解できず、「想像・補完」でしか状況を把握できない。この情報の非対称性が、彼の無力感と「足手まとい」意識を強化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 名前（アイデンティティ）の所有権と魔法的権力
+  weight: 0.7
+  quotes:
+  - quote: 「答えてはいけない！　名前を奪われるぞ！」
+    paragraph: p15
+    quote_verified: true
+  - quote: 名前を知られるなとか奪うとか掌握するとか、俺にはいまひとつぴんと来ない話ではあるが、知られてしまったが最後、致命的な事態が訪れるであろう事は想像がつく。
+    paragraph: p45
+    quote_verified: true
+  note: 名前を単なる記号ではなく「呪い」「力」の本体として扱う世界観。主人公はそれを「怖い」と抽象的に認識するに留まり、その権力的な本質（支配と被支配）を体現していない。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己犠牲による戦略的撤退（資源の最適化）
+  weight: 0.6
+  quotes:
+  - quote: 全員ばらばらに逃げることで全体の生存率を上げる狙いがあるのだろうか？
+    paragraph: p126
+    quote_verified: true
+  - quote: 手品師がエスフェイルを道連れに自爆する。閃光が走り、熱や爆風が伝わる寸前、俺たちを包む文字が高速で回転を始め――。
+    paragraph: p113
+    quote_verified: true
+  note: 手品師の死（リソースの消費）とアズーリアの鎖の減少（リソースの枯渇）が、パーティ全体の生存確率を最大化するための合理的なコストとして描かれている。感情移入より論理が優先される世界。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メカニクスへのメタ意識と「アプリ」による世界操作
+  weight: 0.5
+  quotes:
+  - quote: アズーリアを捜索するために、俺は新たなアプリケーションを脳内で起動した。
+    paragraph: p143
+    quote_verified: true
+  - quote: 完璧な方針だ。何もおかしいところは無い。
+    paragraph: p141
+    quote_verified: true
+  note: 主人公が世界を「アプリ」や「方針」といったゲーム的なインターフェースで捉え、それを遂行しようとする姿勢。異世界への適応ではなく、ゲームシステムとしての受容が進んでいることを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

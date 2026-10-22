@@ -1,0 +1,106 @@
+chapter: ch5465
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 7
+  quotes_total: 8
+items:
+- kind: mystery
+  name: MY_Vitis_Envy_Renamed_Azuria
+  note: ヴィティス特任司教閣下の名前が「アズーリア勇者団」の口を通じて引用され、その理念が歪められて利用されている。この名前自体が物語内でどう変質・回収されるかが焦点。
+  quotes:
+  - quote: 魔将どもを引き裂いた黒騎士アズーリアのように！ いざ叫べ、発勁用意！
+    paragraph: p109
+    quote_verified: true
+  expected_payoff: ヴィティスの真意や過去との関連が明かされる場面での対決、または「アズーリア」の名を騙る存在への応答。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Ribuer_05_Riviere_Treatment
+  note: 白騎士（リビュエー05）がウネムに回収され「機体の修理と貴様の治療」を受ける指示が出る。彼女の状態、正体、そしてウネムとの関係性が未解明。
+  quotes:
+  - quote: 状況を報告せよ、リビュエー05――いや、速やかに帰投し、機体の修理と貴様の治療を行うべきだな。
+    paragraph: p220
+    quote_verified: true
+  expected_payoff: 白騎士の正体（人間性・過去の経歴）や、ウネムとの因縁の詳細が明かされる回での再登場。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Unem_Ribuer_Betrayal
+  note: ウネム・リビュエーは「守護の九槍」第七位であり、かつてアキラ（キール隊）を裏切り壊滅に追い込んだ張本人である。この再会が今後の戦いにどう影響するか。
+  quotes:
+  - quote: かつて私たちキール斑を、否、より正確には小隊規模であったキール隊を敵側に売り、故意に壊滅に追い込んだ最悪の裏切り者。
+    paragraph: p261
+    quote_verified: true
+  expected_payoff: アキラとウネムの直接的な対決、過去の裏切りの真実の暴露、あるいは和解へのプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Filis_Spell_Usage
+  note: アキラが「フィリス」を使うためにここにいると決意したが、白騎士の介入で実行されなかった。この呪文の効果と必要性は何か。
+  quotes:
+  - quote: きっと、今この時にフィリスを使うために私はここにいる。決意を込めて金鎖を砕こうと意識を集中し呪文を構築、魂を影の中へと沈ませていった。
+    paragraph: p41
+    quote_verified: true
+  expected_payoff: フィリスの真の効果（救済・改変）が発動する決定的な瞬間、またはその代償に関する描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 法と正義の狭間における手段の正しさ：目的が正当でも、プロセスを省略した暴力は倫理的に許容されるか？
+  weight: 0.9
+  quotes:
+  - quote: 犯罪者を法廷に立たせることなく殺害することは間違っている。そして、白騎士がどれだけ正しい目的を指向していたとしても、手段の正しさは別の問題。
+    paragraph: p86
+    quote_verified: false
+  note: アキラ（手続的正义）と白騎士（実体的正义/功利主義）の対立が主題の中核にある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ステレオタイプとアイデンティティの暴力：他者から与えられた定義（レイシズム変数等）は、個人をどのように歪め、強化し、そして破壊するか？
+  weight: 0.8
+  quotes:
+  - quote: レイシズム変数（ヴァリアブル）――『エキゾチックな黒い肌』『野性的かつパワフル』
+    paragraph: p176
+    quote_verified: true
+  note: 白騎士がステレオタイプ的な呪文によって「獣」化し、本来の理性を失う過程は、社会的バイアスの暴力的側面を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 調和と仲立ちの可能性：対立する要素（甘さと苦さ/敵と味方）を緩衝材（ナッツ/言葉）でつなぐことは可能か？
+  weight: 0.7
+  quotes:
+  - quote: こういうイベントが、また人の環を繋げて行ければいいと思わない？
+    paragraph: p304
+    quote_verified: true
+  note: お菓子のレシピを通じた対比で、社会の分断を埋める試みが描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 名前の盗用と自己の喪失：自分の名前や像が他者によって利用され、自分自身の存在意義を脅かす恐怖。
+  weight: 0.6
+  quotes:
+  - quote: 私の名前が、姿が、行いが、あんな風に使われていることに。
+    paragraph: p112
+    quote_verified: true
+  note: 「アズーリア勇者団」という偽物の存在に対する恐怖と、アイデンティティの危機。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

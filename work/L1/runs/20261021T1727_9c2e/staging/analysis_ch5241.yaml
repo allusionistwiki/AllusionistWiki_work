@@ -1,0 +1,254 @@
+chapter: ch5241
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 5
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p3-p15]]'
+  object: '[[ME_android_romance_trope]]'
+  claim: 機械の身体を持つアンドロイドが、寝ている間に人間らしい振る舞いを模倣し、主人公の寝室に侵入するという展開は、SF作品における『機械と人間の境界』および『擬似恋愛』のクリシェを逆説的に用いている。
+  quote: 艶のない黒を基調とした金属製の肌。所々に走る銀のラインは、彼女が機械の身体であるということを強調している。寝ている間は質感を再現するテクスチャの呪術が働かないらしい。安らかな寝息を立てる――という自動的な振る舞いを適度な乱数を加えてそれらしく実行するトリシューラは、寝ている間であっても人らしくあろうとしているようだった。
+  paragraph: p4-p8
+  confidence: strong
+  quotes:
+  - quote: 艶のない黒を基調とした金属製の肌。所々に走る銀のラインは、彼女が機械の身体であるということを強調している。寝ている間は質感を再現するテクスチャの呪術が働かないらしい。安らかな寝息を立てる――という自動的な振る舞いを適度な乱数を加えてそれらしく実行するトリシューラは、寝ている間であっても人らしくあろうとしているようだった。
+    paragraph: p4-p8
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p54-p60]]'
+  object: '[[ME_tsundere_comedy]]'
+  claim: トリシューラが「すっぴん」を隠し、主人公の接触に絶叫してツッコミを入れる展開は、日本のラブコメにおける典型的な「ツンデレ」および「照れ隠し」の演技構造を模倣・引用している。
+  quote: 「いやあああああすっぴん見られたあああああ」「それすっぴんなのか」その状態はその状態でわりと好きだけどな。まあ本人が見られたくないというのならあまりじろじろ見るのも良くない。「アキラくんの馬鹿！
+    責任とって！」
+  paragraph: p47-p54
+  confidence: strong
+  quotes:
+  - quote: 「いやあああああすっぴん見られたあああああ」「それすっぴんなのか」その状態はその状態でわりと好きだけどな。まあ本人が見られたくないというのならあまりじろじろ見るのも良くない。「アキラくんの馬鹿！
+      責任とって！」
+    paragraph: p47-p54
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p101]]'
+  object: '[[ME_territorial_marking]]'
+  claim: トリシューラが不在中に襲撃への対策として行った行為を「マーキング」「匂い付け」と表現するのは、動物のテリトリーマーキングやマーカー行為という生物学的本能行動の比喩を用いた心理的安定化装置（安心材料）の提供である。
+  quote: 「んー、マーキングみたいな？ 私のものだーっていう匂い付け。ほら、襲撃来るとしたら今日かなーって思ったから」
+  paragraph: p101
+  confidence: strong
+  quotes:
+  - quote: 「んー、マーキングみたいな？ 私のものだーっていう匂い付け。ほら、襲撃来るとしたら今日かなーって思ったから」
+    paragraph: p101
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p187]]'
+  object: '[[ME_spam_mail_ad]]'
+  claim: リールエルバからのメールは、怪しげなURLリンクをクリックさせる形式や、王族が出稼ぎに行くという非論理的な設定により、現代のスパムメールやワンクリック詐欺広告のパロディとして機能している。
+  quote: 「毎晩疼いて止まらないこのいけない身体を、どうか貴方様が鎮めて下さいませんか？ もし興味を持っていただけたなら、こちらのURLをクリック♪」ひどい。あらゆる意味でひどい。ドラトリアの王族の主人って多分その人も王族なのに何故出稼ぎに行くのかとか
+  paragraph: p187-p190
+  confidence: strong
+  quotes:
+  - quote: 「毎晩疼いて止まらないこのいけない身体を、どうか貴方様が鎮めて下さいませんか？ もし興味を持っていただけたなら、こちらのURLをクリック♪」ひどい。あらゆる意味でひどい。ドラトリアの王族の主人って多分その人も王族なのに何故出稼ぎに行くのかとか
+    paragraph: p187-p190
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p286-p303]]'
+  object: '[[ME_red_light_district_regulation]]'
+  claim: 花街における犯罪組織の駆逐、公営化された娼館、健康診断の義務化などは、現実世界における風俗営業法の改正や都市再開発に伴う「红灯区（歓楽街）」の管理・治安維持政策の構造と一致している。
+  quote: 取り仕切っていた犯罪組織は一切の慈悲無く物理的に駆逐され、夥しい量の血が流れた結果として、そこには一定の平和が訪れていた。国家がその過酷な労働環境を管理することで、犯罪組織が入り込む隙間を無くすという国策。
+  paragraph: p289-p290
+  confidence: moderate
+  quotes:
+  - quote: 取り仕切っていた犯罪組織は一切の慈悲無く物理的に駆逐され、夥しい量の血が流れた結果として、そこには一定の平和が訪れていた。国家がその過酷な労働環境を管理することで、犯罪組織が入り込む隙間を無くすという国策。
+    paragraph: p289-p290
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p309]]'
+  object: '[[ME_desire_as_power_source]]'
+  claim: 「ポルノスター」を偶像として崇め、欲望そのものを呪力の発電機と見なす思想は、性的エネルギーを文化的・経済的価値へ転換する資本主義的な消費文化や、ファンタジーにおける信仰心を電力源とする魔法設定の類推である。
+  quote: 『ポルノスター』として名が売れれば、高い社会的ステータスと収入を得ることだってできる。あらゆる原始的な欲望が向かう先であるポルノスターは一種の偶像であり、呪力の発電機であるとも言えた。
+  paragraph: p307-p309
+  confidence: moderate
+  quotes:
+  - quote: 『ポルノスター』として名が売れれば、高い社会的ステータスと収入を得ることだってできる。あらゆる原始的な欲望が向かう先であるポルノスターは一種の偶像であり、呪力の発電機であるとも言えた。
+    paragraph: p307-p309
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p327]]'
+  object: '[[ME_cyberpunk_body_modification]]'
+  claim: 人工乳房がミサイル射出装置や装甲として機能し、戦闘用ウェアラブル機器と融合している描写は、サイバーパンク作品における身体改造（サイボーグ化）の技術的過剰性とその日常化をパロディ化している。
+  quote: 男性がファッションで身につける人工乳房なんかは店頭に当たり前のように陳列してある。戦闘用に内部装甲が仕込んであるものとか、ミサイルのように射出していざという時に攻撃できるものとか、もうわけがわからない。
+  paragraph: p327
+  confidence: strong
+  quotes:
+  - quote: 男性がファッションで身につける人工乳房なんかは店頭に当たり前のように陳列してある。戦闘用に内部装甲が仕込んであるものとか、ミサイルのように射出していざという時に攻撃できるものとか、もうわけがわからない。
+    paragraph: p327
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p380]]'
+  object: '[[ME_anarchist_individualism]]'
+  claim: ゼドの「俺の王は俺だけだ」「自由に気ままに束縛されずに」という信条は、無政府主義や個人主義、および無法者（アウトロー）の自己統治を理想とする思想に呼応している。
+  quote: その時はその時さ。俺はお前みたいに何から何まで管理されんのは勘弁願いたいんでね。自由に気ままに束縛されずに――俺の王は俺だけだ。だからこそ、ガロアンディアンの中にあってさえ、『ここ』だけは俺の王国だ
+  paragraph: p380
+  confidence: strong
+  quotes:
+  - quote: その時はその時さ。俺はお前みたいに何から何まで管理されんのは勘弁願いたいんでね。自由に気ままに束縛されずに――俺の王は俺だけだ。だからこそ、ガロアンディアンの中にあってさえ、『ここ』だけは俺の王国だ
+    paragraph: p380
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_gruendelhi_language_threat
+  note: 敵のリーダーであるグレンデルヒが日本語データベースにアクセスし、言震（ワードクェイク）を引き起こす可能性。主人公の言語的基盤を狙った攻撃の予兆。
+  quotes:
+  - quote: （そのレベルの改竄ができる言語魔術師なんて、それこそ上級言語魔術師くらいだけど――英雄たるグレンデルヒは数少ないその一人。そしてついさっき、彼が太陰のデータベースにアクセスして日本語の言語情報を参照していた事が明らかになったの。気をつけて）
+    paragraph: p233
+    quote_verified: true
+  expected_payoff: 主人公の思考言語（日本語）を基盤としたガロアンディアン語への干渉能力が、敵によって逆利用され、世界崩壊の危機となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_raclular_disciples
+  note: ラクルラール派の弟子であるアレッテ・イヴニルとミヒトネッセがアルセミットに入国し、エルネトモラン方面へ移動した事。彼らが主人公側へ干渉する可能性。
+  quotes:
+  - quote: （第六位全権代理、人形師ラクルラールの弟子にして被造物――紅紫（マゼンタ）のアレッテ・イヴニルと砂茶（オーカー）のミヒトネッセが星見の塔を出てアルセミットに入国したわ。その後の足取りは不明だけど、多分エルネトモランに向かったはず。そのままこっちに干渉してくるか、そっちに干渉してくるかは不明。気をつけて）
+    paragraph: p247
+    quote_verified: true
+  expected_payoff: 主人公不在中の留守宅への襲撃、あるいは試験会場で遭遇する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_lina_mail_contact
+  note: リーナ（黒百合組）へ「余分な気兼ね」を避けるためメールを送らなかったが、後に彼女からの連絡や接触がトラブルの種になる可能性。
+  quotes:
+  - quote: 「あー、そうだな――やっぱりいい。それは多分、余分だろ。相手にとっても余計な気兼ねになると悪いし」とりあえず同じくあっち側らしいリーナには頑張れとでもメールしとこう。
+    paragraph: p113-p115
+    quote_verified: true
+  expected_payoff: リーナが何らかの理由で主人公に干渉してくる、または彼女の動向が敵対勢力の動きを誘発する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_zedo_exploration
+  note: ゼドが徹夜で呪文を詰め込み「死人の森」の探索に出る準備をしている事。彼が不在中に敵襲があれば主人公側は防衛力が低下する。
+  quotes:
+  - quote: 「ああ。もう二徹目だよ。そのぶんかなりストックできたけどな。このあと【死人の森】の探索だ。とはいえ、あまり期待はしないでくれ」
+    paragraph: p369
+    quote_verified: true
+  expected_payoff: ゼド不在中の防御力低下による襲撃成功、または探索先の情報（敵の拠点など）が物語に反映される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_chibi_shura_instinct
+  note: トリシューラが「いってきますのちゅー」として主人公の義肢を噛む行動を見せ、主人公が「記憶の底で刺激されるもの」を感じている事。過去の類似体験や呪術的紐帯に関する伏線。
+  quotes:
+  - quote: （いってきますのちゅー）などと言っているが、どこまで本気なのやら。意外に強く噛み付かれている。何か、記憶の底で刺激されるものがあった。
+    paragraph: p173-p176
+    quote_verified: true
+  expected_payoff: 主人公の過去（転生前または初期）におけるトリシューラとの関係性、あるいは「噛む」行為が持つ呪術的意味（契約やマーキングの強化）の発覚。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人工的な身体と自然な欲望の融合による社会の再構築
+  weight: 0.8
+  quotes:
+  - quote: 公営化された賭博場や娼館。取り仕切っていた犯罪組織は一切の慈悲無く物理的に駆逐され、夥しい量の血が流れた結果として、そこには一定の平和が訪れていた。国家がその過酷な労働環境を管理することで、犯罪組織が入り込む隙間を無くすという国策。
+    paragraph: p289-p290
+    quote_verified: true
+  - quote: 男性がファッションで身につける人工乳房なんかは店頭に当たり前のように陳列してある。戦闘用に内部装甲が仕込んであるものとか、ミサイルのように射出していざという時に攻撃できるものとか、もうわけがわからない。
+    paragraph: p327
+    quote_verified: true
+  note: トリシューラの技術と政策によって「花街」が整備され、性や欲望が国家管理・産業化されている様子が描かれる。身体改造の日常化も伴い、人間性の定義が変容する社会を提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語の不安定性と世界存亡の危機
+  weight: 0.9
+  quotes:
+  - quote: （今のガロアンディアンはかなり危うい。言震――ワードクェイクのリスクが世界トップだって事はご存じかしら）...ガロアンディアン語は言語秩序を安定させている太陰――イルディアンサの管理下に置かれていない『混沌』の言語よ。
+    paragraph: p211-p216
+    quote_verified: false
+  - quote: （そのレベルの改竄ができる言語魔術師なんて、それこそ上級言語魔術師くらいだけど――英雄たるグレンデルヒは数少ないその一人。そしてついさっき、彼が太陰のデータベースにアクセスして日本語の言語情報を参照していた事が明らかになったの。気をつけて）
+    paragraph: p233
+    quote_verified: true
+  note: ガロアンディアン語という「混沌」の言語と、主人公の思考基盤である日本語との相互作用が世界を崩壊させるリスク（言震）として描かれ、言語そのものが戦場となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 演技としての親密さと感情制御
+  weight: 0.6
+  quotes:
+  - quote: トリシューラは振る舞いによって俺の精神を安定させようとする。それが演技だと理解できてはいても、そう意図して行動をしてくれたという事実は単純な人間の脳に安らぎを与えるからだ。...振る舞いを行う人物が内心で何を考えているかは関係が無い。
+    paragraph: p83-p88
+    quote_verified: false
+  note: アンドロイドの機械的な動作（マーキング、寝顔）が、主人公の精神的安定に寄与する構造を描く。感情の真偽より「振る舞い」の効用を問うテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 無法と秩序の共存（自由の王国）
+  weight: 0.4
+  quotes:
+  - quote: その時はその時さ。俺はお前みたいに何から何まで管理されんのは勘弁願いたいんでね。自由に気ままに束縛されずに――俺の王は俺だけだ。だからこそ、ガロアンディアンの中にあってさえ、『ここ』だけは俺の王国だ
+    paragraph: p380
+    quote_verified: true
+  note: ゼドというキャラクターを通じて、国家管理下の秩序（花街の整備）とは対極にある「自己統治・自由」の価値観が提示され、物語内の政治的緊張を形成する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

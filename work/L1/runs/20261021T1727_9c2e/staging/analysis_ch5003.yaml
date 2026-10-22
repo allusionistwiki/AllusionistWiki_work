@@ -1,0 +1,242 @@
+chapter: ch5003
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5003_アキラ_observes_迷宮スタート地点_p2]]'
+  object: '[[ME_video_game_start_location_selection]]'
+  claim: 異世界転生における「希望したスタート地点」の指定と、その結果としての迷宮配置は、RPGやMMOなどのゲームにおけるキャラクター生成時のステージ選択機能に構造的に対応している。
+  quote: 俺が高難度の異世界を希望したことは既に述べたが、その時に希望したスタート地点は確か迷宮だった。この点に関してだけは問題なく成功したわけだ。
+  paragraph: p2
+  confidence: strong
+  quotes:
+  - quote: 俺が高難度の異世界を希望したことは既に述べたが、その時に希望したスタート地点は確か迷宮だった。この点に関してだけは問題なく成功したわけだ。
+    paragraph: p2
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5003_アキラ_internal_state_control_p7]]'
+  object: '[[ME_brain_computer_interface_emotion_suppression]]'
+  claim: 脳内インプラントによる偏桃核への情動制御割り込みは、サイバーパンクや近未来SFにおける感情抑制チップや、現代の精神科治療・薬剤（SSRI等）による感情平準化の技術的拡張を指している。
+  quote: 脳内にインプラントされたマイクロコンピュータによって偏桃核の情動制御に割り込みをかけられる俺だからこそ不安や恐怖、羞恥に押しつぶされずにいるが、素のままの俺だったら最初にあの人狼に襲われた時点で動けなくなって死んでいたのではないだろうか。
+  paragraph: p7
+  confidence: strong
+  quotes:
+  - quote: 脳内にインプラントされたマイクロコンピュータによって偏桃核の情動制御に割り込みをかけられる俺だからこそ不安や恐怖、羞恥に押しつぶされずにいるが、素のままの俺だったら最初にあの人狼に襲われた時点で動けなくなって死んでいたのではないだろうか。
+    paragraph: p7
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5003_アkira_walks_maze_mapping_p12]]'
+  object: '[[ME_ar_navigation_app_functionality]]'
+  claim: 視界端への地図描画と周囲警戒の並行処理は、スマートフォン等のARナビゲーションアプリやHUD（ヘッドアップディスプレイ）による戦闘支援システムの機能を実世界で再現したものである。
+  quote: 迷宮を歩きつつ視界の端に地図を描き、周囲を警戒するということが問題なく行えるのも、感情を制御し、左腕を失った痛みを遮断しているからだ。
+  paragraph: p12
+  confidence: moderate
+  quotes:
+  - quote: 迷宮を歩きつつ視界の端に地図を描き、周囲を警戒するということが問題なく行えるのも、感情を制御し、左腕を失った痛みを遮断しているからだ。
+    paragraph: p12
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5003_アkira_exits_to_open_field_p35]]'
+  object: '[[ME_dungeon_crawl_exit_trope]]'
+  claim: 迷宮の出口が地下空間から地表へ出るものではなく、突然の草原という「非連続な外空間」へ接続している点は、通常のダンジョン攻略における地中からの脱出というクリシェを逆転させ、空間の幾何学的整合性を崩壊させている。
+  quote: っていうか外だこれ。
+  paragraph: p35
+  confidence: strong
+  quotes:
+  - quote: っていうか外だこれ。
+    paragraph: p35
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5003_アkira_senses_virtual_world_p71]]'
+  object: '[[ME_augmented_reality_simulation]]'
+  claim: 海底都市や宇宙ステーションでのAR技術による環境再現への言及は、現在のVR/AR技術の社会実装を背景に、主人公が異世界の知覚的現実性を疑うメタ認知の基盤となっている。
+  quote: 海底都市や宇宙ステーションでは拡張現実技術を使って人工的に地上の環境を再現したりするというが、俺はひょっとして感覚を欺瞞されているのだろうか。
+  paragraph: p71
+  confidence: explicit
+  quotes:
+  - quote: 海底都市や宇宙ステーションでは拡張現実技術を使って人工的に地上の環境を再現したりするというが、俺はひょっとして感覚を欺瞞されているのだろうか。
+    paragraph: p71
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5003_アkira_observes_boomerang_claws_p106]]'
+  object: '[[ME_physics_defying_video_game_mechanics]]'
+  claim: 投擲された刃が不自然な軌道で戻ってくる現象は、物理法則に反するゲーム内の「自動回収機能」や「ブーメラン型武器のコード的な挙動」を思わせ、世界の物理規則がプログラミングされている可能性を示唆している。
+  quote: 俺の右腕に弾かれた刃は上空に浮き上がったと思うと、不自然な軌道を描いて巨大狼の手元に戻り、また元の三枚刃の状態に収まったのだ。
+  paragraph: p106
+  confidence: strong
+  quotes:
+  - quote: 俺の右腕に弾かれた刃は上空に浮き上がったと思うと、不自然な軌道を描いて巨大狼の手元に戻り、また元の三枚刃の状態に収まったのだ。
+    paragraph: p106
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_ch5003_アkira_strategy_no_special_ability_p91]]'
+  object: '[[ME_cheat_power_dependency_critique]]'
+  claim: 「勝ちたい」ために「特殊能力（チート）」を欲しがる心理は、異世界転生ジャンルで頻出する「無双系・最強系」の願望を自己批判的に内面化しており、能力依存への自覚的な逆説を含んでいる。
+  quote: こんなことならやっぱり何か特殊能力とか付けてもらえばよかったな。義肢は生身より頑丈ではあるが、それだけだ。
+  paragraph: p93
+  confidence: moderate
+  quotes:
+  - quote: こんなことならやっぱり何か特殊能力とか付けてもらえばよかったな。義肢は生身より頑丈ではあるが、それだけだ。
+    paragraph: p93
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_exit_disappearance
+  note: 草原へ出た直後に迷宮の出口跡地が完全に消失した現象。空間の不安定さ、あるいは世界が「生成・破棄」されていることの証左。
+  quotes:
+  - quote: まばたきの間に、出口が消失していた。そこに迷宮への出入り口があったという痕跡は無い。まるではじめからここは何も存在しない草原だったと言わんばかりの光景だった。
+    paragraph: p74-p75
+    quote_verified: true
+  expected_payoff: 後の展開で、世界がシミュレーションであること、あるいは主人公の認知能力（AR/インプラント）による操作であることが明かされる伏線として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_boomerang_claws_mechanism
+  note: 巨大狼の前足の刃が物理的にありえない軌道で戻ってくる現象。「魔法」か「高度な技術（ワイヤー等）」か、はたまたゲーム的な挙動かの真相。
+  quotes:
+  - quote: 俺の右腕に弾かれた刃は上空に浮き上がったと思うと、不自然な軌道を描いて巨大狼の手元に戻り、また元の三枚刃の状態に収まったのだ。
+    paragraph: p106
+    quote_verified: true
+  expected_payoff: 主人公の解析能力やインプラントによるスローモーション観察などでメカニズムが暴かれ、対戦戦略の鍵となるか、世界の「不自然さ」の証拠として提示される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_unknown_language_shout
+  note: 巨大狼側から聞こえた三音節ほどの叫び声。言語体系の不在と、そこから読み取れる「危険」の直感。
+  quotes:
+  - quote: そして立て続けに、甲高い叫び。三音節ほどの高めの声。何かの言語のようにも聞こえるが、あいにく俺の知るどんな言語にも該当しないようだった。ただ、意味の見当は付く。右方向から危険が迫っている。
+    paragraph: p77-p79
+    quote_verified: true
+  expected_payoff: 後の章で主人公が言語学習能力を得て解読されるか、あるいはインプラントの翻訳機能が起動し、世界に存在する知性体との接触の第一歩となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_armor_knights_identity
+  note: 全身鎧で顔が見えない四人の戦士。人間かどうかも不明という記述。
+  quotes:
+  - quote: 兜で面相が見えないので実は人間かどうかも分からない。
+    paragraph: p86
+    quote_verified: true
+  expected_payoff: 彼らがNPC（非プレイヤーキャラクター）であることの示唆、あるいは主人公と同様の転生者・別種族である可能性の伏線として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_maze_geometry_anomaly
+  note: 迷宮から出た直後に左方向に建造物がなく、出口が草原に浮かぶだけの現象。地図アプリの信頼性への疑念。
+  quotes:
+  - quote: 何かしら巨大な建造物があると思ったのだが、俺の出てきた出口がただ何も無い草原に浮かんでいるだけで、その上にも横にも何も無い。
+    paragraph: p68
+    quote_verified: true
+  expected_payoff: 迷宮構造の非ユークリッド性や、空間生成アルゴリズムの不具合を示すものとして、後の世界解明に資するデータとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による感情・痛覚の遮断がもたらす生存優位と、それによって失われる「素の人間」の脆弱性の対比
+  weight: 0.9
+  quotes:
+  - quote: 脳内にインプラントされたマイクロコンピュータによって偏桃核の情動制御に割り込みをかけられる俺だからこそ不安や恐怖、羞恥に押しつぶされずにいるが、素のままの俺だったら最初にあの人狼に襲われた時点で動けなくなって死んでいたのではないだろうか。
+    paragraph: p7
+    quote_verified: true
+  - quote: 今考えると何の能力も無しに異世界に転生とか無謀も良いところだった。せめて痛覚遮断が無いと動けなくて死ぬ。
+    paragraph: p9
+    quote_verified: true
+  note: サイボーグ化された身体が異世界適応の鍵であり、同時に「素のまま」では生き延びられないという技術依存のテーマを提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 知覚と現実の乖離による存在論的不安（シミュレーション仮説）
+  weight: 0.85
+  quotes:
+  - quote: 海底都市や宇宙ステーションでは拡張現実技術を使って人工的に地上の環境を再現したりするというが、俺はひょっとして感覚を欺瞞されているのだろうか。
+    paragraph: p71
+    quote_verified: true
+  - quote: まばたきの間に、出口が消失していた。そこに迷宮への出入り口があったという痕跡は無い。まるではじめからここは何も存在しない草原だったと言わんばかりの光景だった。
+    paragraph: p74-p75
+    quote_verified: true
+  note: AR技術への言及と出口消失現象により、世界が「作られたもの」である可能性、または主人公の知覚が改変されている可能性を強く示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「勝ちたい」という欲望と「能力不足」の葛藤、ゲーム的合理性の限界
+  weight: 0.75
+  quotes:
+  - quote: 俺は戦いたいのではなく、勝ちたいのだ。
+    paragraph: p91
+    quote_verified: true
+  - quote: こんなことならやっぱり何か特殊能力とか付けてもらえばよかったな。義肢は生身より頑丈ではあるが、それだけだ。
+    paragraph: p93
+    quote_verified: true
+  note: 転生者としての「最強」願望と、現状の物理的・能力的制約との間で揺れる心理描写から、チート能力への批判的視線と戦略的合理性の追求が読み取れる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 迷宮からの脱出というクリシェの解体と空間の不連続性
+  weight: 0.6
+  quotes:
+  - quote: っていうか外だこれ。
+    paragraph: p35
+    quote_verified: true
+  - quote: 曲がりくねった通路の果てに、俺がこの迷宮を彷徨い出してから初めて見る、部屋と言える空間が開けていた。...天井は透き通るような青で、輝く太陽と白い雲がまぶしいほどに高い。
+    paragraph: p32-p33
+    quote_verified: false
+  note: 地下迷宮から地上へ出るという定番構造を「突然の草原」「出口消失」で裏切り、異世界空間の不自然さ・非連続性を強調している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

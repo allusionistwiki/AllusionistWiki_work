@@ -1,0 +1,148 @@
+chapter: ch5463
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 14
+  quotes_total: 16
+items:
+- kind: mystery
+  name: MY_Solda_Identity_Shift
+  note: ソルダが「松明の騎士」としての教義的役割を否定し、「真なる邪視の座」や特定の少女（コルセスカ）への忠誠へと軸足を移す過程。彼の最終的な敵対者としての性質が未確定。
+  quotes:
+  - quote: 僕たちこそが『真なる邪視の座』だ。
+    paragraph: p154
+    quote_verified: true
+  - quote: 少年にとって譲れないものは、この少女だけなのだ。
+    paragraph: p218
+    quote_verified: true
+  expected_payoff: ソルダが敵として立ちはだかるのか、それとも共闘者なのかの真意が明かされる際、彼の信仰対象（コルセスカ）との関係性が鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Alessio_Intervention
+  note: アレッシオ特任司教による第五階層での妨害。「従軍アイドル」プロデュース経験を持つ彼が、いかにハルベルトの歌を汚染し、政治的意図で利用しようとするか。
+  quotes:
+  - quote: 彼は歌姫のライブそのものを汚染し、大神院に都合のいい視座で君たちを操ろうとするはずだ。
+    paragraph: p93
+    quote_verified: true
+  expected_payoff: 第五階層でのライブ演出戦において、アズーリアがソルダの理想（純粋な愛）とアレッシオの政治利用の間で葛藤し、解決策を見出す展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Colceska_Nature
+  note: 氷結したコルセスカが「世界の時計を支配している」とされる理由。彼女が単なる愛の対象なのか、世界構造の要（マスターキー）なのかが不明。
+  quotes:
+  - quote: 透き通る氷玉の中で世界の時計を支配している。
+    paragraph: p138
+    quote_verified: true
+  expected_payoff: コルセスカの解凍、あるいは彼女が眠り続けることがもたらす世界への影響（ハッピーエンドの成立条件）に関する真相開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Predicament
+  note: ソルダから「シナモリアキラを救う」という使命を与えられたアズーリアが、彼と敵対するシナモリアキラ（転生者）との間でどう行動するか。
+  quotes:
+  - quote: 君がシナモリアキラを救ってあげるんだ。僕は彼を打ち倒すけど、その全てを否定したいわけじゃない。
+    paragraph: p233
+    quote_verified: true
+  expected_payoff: アズーリアとシナモリアキラの対立構造における、ソルダが提示した「殺して幸福にする」という逆説的な解決法の試行錯誤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Happy_End_Definition
+  note: ソルダが言う「ハッピーエンド」の定義。「恋人同士が引き裂かれて終わりなんてあんまり」「幸福な結末」という彼の言葉は、物語構造の強制を意味しており、世界槍の終着点がどこにあるかを示唆する。
+  quotes:
+  - quote: 物語はさ、幸福な結末のほうが好きなんだ。...最後にはめでたく再会して結婚式を挙げて、二人は末長く幸せに暮らしました、で終わった方がいい。
+    paragraph: p164
+    quote_verified: false
+  expected_payoff: 物語の終盤、ソルダの望む「固定的な視座」による世界固定と、キャラクターたちの自由意志（ゆらぎ）との衝突による結末の確定。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 原作主義と二次創作（解釈の自由）に対する激しい対立
+  weight: 0.9
+  quotes:
+  - quote: ヘイト創作だの陵辱だの寝取られだのマジでぶち殺すぞ...お前らのクソまみれの世界観を美しいものに押し付けて汚すな価値が損なわれるだろうが原作への尊敬が無いんだよ
+    paragraph: p181
+    quote_verified: false
+  - quote: 雑多な編纂で曲げられた神話像なんかでもない。ありのまま、最初のままの純粋なコルセスカはこの原典を凍らせた世界にしかいないんだ
+    paragraph: p145
+    quote_verified: true
+  note: ソルダの「寛容」の否定と、原作（正典）への絶対的忠誠が本章の感情的核となっている。これはメタフィクションにおける作者/ファン間の対立を物語内で描く主題である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 愛の本質としての「固定」と「唯一性」
+  weight: 0.8
+  quotes:
+  - quote: 唯一無二の固定された視座、不変の関係性。愛はひとつ、ひとつだからこそ愛なんだ。最果ての二人は対であるからこそ美しい。
+    paragraph: p241
+    quote_verified: true
+  - quote: そこに不安定な揺らぎなんてものはいらない。過去も現在も未来も、愛は等しく確かなんだから
+    paragraph: p241
+    quote_verified: true
+  note: ソルダの理想（ハッピーエンド）は、「ゆらぎ」や「多様性」を排除した絶対的な一対一の関係性の固定化にある。これは愛の定義に対する彼の独断的な哲学を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 芸術表現の純粋性と政治的利用（汚染）の衝突
+  weight: 0.7
+  quotes:
+  - quote: 君の大事な歌姫が勇壮な軍歌や耳障りの良い鎮魂歌を押し付けられた挙げ句、犠牲と死を積み上げるための道具としてすり潰されていく光景は見たくないだろう？
+    paragraph: p40
+    quote_verified: true
+  - quote: 観客との闘争、どう舞台を組み立てていくかという創造。表現者として、自らの内側や運命に潜っていくだけではなく、外側や視線に対応していかなければならないのだ。
+    paragraph: p106
+    quote_verified: true
+  note: アズーリアの苦悩は、ハルベルトの「純粋な歌」を守りながら、第五階層という政治的・社会的文脈（観客/世界）に応答しなければならない表現者のジレンマにある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力と救済の非対称な共演（殺戮による幸福）
+  weight: 0.6
+  quotes:
+  - quote: 悪魔にもなりきれない敵を殺してハッピーエンドなんて、そんな結末には愛がない。異世界転生者シナモリアキラは僕に倒されてなお幸福になってもらわなければ困る。
+    paragraph: p226
+    quote_verified: true
+  - quote: 君がシナモリアキラを救ってあげるんだ。僕は彼を打ち倒すけど、その全てを否定したいわけじゃない。
+    paragraph: p233
+    quote_verified: true
+  note: ソルダが「殺す」ことで世界を守り、アズーリアが「救う」ことで調和を生むという分業体制は、暴力と慈愛が同居する複雑な倫理観を提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の強制（ハッピーエンド強要）への恐怖
+  weight: 0.5
+  quotes:
+  - quote: 暗い展開とか悲劇とか切なかったり苦かったりする結末とか泣ける要素とかやめろよ、人を殺したり別離させたりすれば楽しいのかよお前らいい加減にしろ
+    paragraph: p174
+    quote_verified: true
+  - quote: 永遠を凍らせた世界の中心で、私は惑い、祈ることにさえ怯えていた。
+    paragraph: p259
+    quote_verified: true
+  note: ソルダの「悲劇拒否」は一見希望に見えるが、アズーリアが畏怖するほどの強迫性を持つ。「物語の重力（運命）」に抗うか従うかというメタ的な恐怖が主題として存在する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

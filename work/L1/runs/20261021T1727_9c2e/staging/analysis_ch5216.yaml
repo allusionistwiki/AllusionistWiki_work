@@ -1,0 +1,232 @@
+chapter: ch5216
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5216_リーナ_other_炎上_p3]]'
+  object: '[[ME_social_media_cancellation]]'
+  claim: 薬物使用による社会的制裁は、現代のSNSにおける炎上と家族・親族からの疎外を模倣している。
+  quote: 盛大に炎上し、母親に泣かれ、親戚に馬鹿にされ、ガルズに優しく窘められて以来、もうやるまいと思っていた。
+  paragraph: p3
+  confidence: strong
+  quotes:
+  - quote: 盛大に炎上し、母親に泣かれ、親戚に馬鹿にされ、ガルズに優しく窘められて以来、もうやるまいと思っていた。
+    paragraph: p3
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5216_リーナ_other_差別発言_p1532]]'
+  object: '[[ME_racism_and_hybridity]]'
+  claim: 翼耳を持たないことへの侮辱は、純血主義と混血（合いの子）に対する偏見を反映している。
+  quote: 所詮はカラスとの『合いの子』か。
+  paragraph: p22
+  confidence: strong
+  quotes:
+  - quote: 所詮はカラスとの『合いの子』か。
+    paragraph: p22
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5216_サジェリミーナ_uses_占星術_p121125]]'
+  object: '[[ME_cosmic_engineering]]'
+  claim: 天球座標の書き換えは、現実の物理法則を支配するゲーム的なハッキングや世界改変能力のパロディである。
+  quote: 巨大な暗黒宇宙の中心たるサジェリミーナを観測者として、浄界内部の天球座標が凄まじい勢いで書き換えられていく。
+  paragraph: p123
+  confidence: moderate
+  quotes:
+  - quote: 巨大な暗黒宇宙の中心たるサジェリミーナを観測者として、浄界内部の天球座標が凄まじい勢いで書き換えられていく。
+    paragraph: p123
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5216_箒_transforms_巨大な白いカラス_p230236]]'
+  object: '[[ME_transformation_sequence]]'
+  claim: 箒から機体への形態変化は、ロボットアニメや変形兵器のトランスフォームシーンを模倣している。
+  quote: 箒が流体のように溶けて二人を包み込み、質量を増しながら全く異質な形へと瞬時に変貌していく。
+  paragraph: p228
+  confidence: strong
+  quotes:
+  - quote: 箒が流体のように溶けて二人を包み込み、質量を増しながら全く異質な形へと瞬時に変貌していく。
+    paragraph: p228
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5216_プロトプラズマ_transforms_癌細胞_p320323]]'
+  object: '[[ME_cancer_metaphor]]'
+  claim: 浄界を侵食するプロセスは、生物学的な癌細胞の増殖・転移メタファーとして機能している。
+  quote: 自己増殖、自己分化、自己再生、自己複製を繰り返す最悪の癌細胞が、サジェリミーナの宇宙を浸食していく。
+  paragraph: p323
+  confidence: strong
+  quotes:
+  - quote: 自己増殖、自己分化、自己再生、自己複製を繰り返す最悪の癌細胞が、サジェリミーナの宇宙を浸食していく。
+    paragraph: p323
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5216_リーナ_says_恐怖と叫び_p157]]'
+  object: '[[ME_game_difficulty_rage]]'
+  claim: 敵の強さに対する「罰ゲーム」という表現は、高難度ゲームにおけるプレイヤーの不満を反映している。
+  quote: 私らだけ罰ゲーム過ぎるうううう！！
+  paragraph: p157
+  confidence: moderate
+  quotes:
+  - quote: 私らだけ罰ゲーム過ぎるうううう！！
+    paragraph: p157
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_真の浄界の住人
+  note: 戦闘終結直後に現れた謎の人物が「真の浄界」に言及しており、サジェリミーナの浄界は模倣または一部に過ぎないことを示唆する。
+  quotes:
+  - quote: 『やあ、流石に驚いた。私の真の浄界にここまで肉薄する者が現れるとは』
+    paragraph: p347
+    quote_verified: true
+  expected_payoff: この人物がサジェリミーナの上位互換である魔将、あるいは浄界システムの管理者として登場し、物語のスケールを拡大する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_四魔女の資格と世界滅亡
+  note: ミルーニャが勝利したにもかかわらず、世界（ゼオーティア）がサジェリミーナと同じ運命をたどると予言し、自身の資格に疑問を抱いている。
+  quotes:
+  - quote: 『いずれ、この世界（ゼオーティア）もこうなります。予測された結末に対して、どうしようもない答えしか用意できなかった私には、はじめから四魔女の資格なんてなかったのかもしれませんね』
+    paragraph: p341
+    quote_verified: true
+  expected_payoff: 世界の終焉を回避するための「真の解決策」がミルーニャにも存在しないことが明かされ、物語の悲劇性や救済の困難性が浮き彫りになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_違法霊薬の副作用と依存
+  note: 過去に炎上した経緯があり、「もうやるまい」と思っていたが、ミルーニャの許可で再使用されている。
+  quotes:
+  - quote: 盛大に炎上し、母親に泣かれ、親戚に馬鹿にされ、ガルズに優しく窘められて以来、もうやるまいと思っていた。
+    paragraph: p3
+    quote_verified: true
+  - quote: もちろんミルーニャにも二度とやるなと厳重に注意されていた。
+    paragraph: p4
+    quote_verified: true
+  expected_payoff: 薬物使用がリーナの心身に永続的なダメージ（依存症、精神汚染など）を残し、後の展開でトラウマとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アルタネイフ家の錬金術
+  note: クロウサー家とは異なる「もうひとつの家族」アルタネイフ家が、箒の変形と戦闘機能に関与している。
+  quotes:
+  - quote: アルタネイフの錬金術と、クロウサーの呪文による質量操作の融合。
+    paragraph: p227
+    quote_verified: true
+  expected_payoff: アルタネイフ家の技術背景や、ミルーニャとリーナの血縁的・政治的な立場が明かされ、一族間の対立構図が深まる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_サジェリミーナの不滅性の限界
+  note: ミルーニャは「宇宙限定の不滅」を突く戦略を立て、プロトプラズマ収束弾で宇宙全体を殺そうとしている。
+  quotes:
+  - quote: 『その不滅っていうのは、この宇宙限定のことなんでしょう？』
+    paragraph: p307
+    quote_verified: true
+  - quote: 『なら宇宙全体を殺してしまえばいい。神話の火竜退治になぞらえて、疑似氷血呪によって貴方の呪術発動媒体は封印しました。プロトプラズマ収束弾の本領はここからですよ』
+    paragraph: p313
+    quote_verified: true
+  expected_payoff: この「宇宙を殺す」行為が、世界そのものの構造破壊や、より高次の存在（神々）への干渉として描かれ、因果律的な報いを受ける可能性を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 純血主義と混血によるアイデンティティの葛藤と受容
+  weight: 0.9
+  quotes:
+  - quote: 所詮はカラスとの『合いの子』か。
+    paragraph: p22
+    quote_verified: true
+  - quote: 空を飛んでいる時だけが自由だった。
+    paragraph: p53
+    quote_verified: true
+  note: リーナが「落ちこぼれ」と呼ばれながらも、ミルーニャとの絆と飛行（技術）によって自己の価値を見出そうとする過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 科学技術（錬金術・医学）による暴力の正当化とその倫理的ジレンマ
+  weight: 0.8
+  quotes:
+  - quote: 違法霊薬がリーナ・ゾラ・クロウサーに限界を超えた力を発揮させる。
+    paragraph: p10
+    quote_verified: true
+  - quote: 自爆覚悟の捨て身の戦術としか思えない無謀な行動。
+    paragraph: p292
+    quote_verified: true
+  note: ミルーニャが薬物や危険な技術（模造神滅具、プロトプラズマ）を駆使して勝利を収めるが、それが倫理的に「無謀」「自爆」であることを自覚している点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世界観の衝突と支配（占星術・観測者論）
+  weight: 0.7
+  quotes:
+  - quote: 天体の運行から意味を見出す占星術と己の認識で世界を書き換える邪視とが複合し、サジェリミーナの宇宙では天体は創造主に都合のいい配置に移動していく。
+    paragraph: p125
+    quote_verified: true
+  - quote: 『ふっるい球形大地の宇宙観を内面化してましたね！』
+    paragraph: p261
+    quote_verified: false
+  note: 敵が古い世界観（球形大地）に依存していることをミルーニャが分析し、その構造的要因（観測者の不在）を突くことで勝利する「知識の力」。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 不滅の代償としての機能不全と苦しみ
+  weight: 0.6
+  quotes:
+  - quote: 新陳代謝を忘れた巨大な宇宙の内部で、肥大化した機能の系同士がぶつかり合い、お互いに阻害し合う。
+    paragraph: p332
+    quote_verified: true
+  - quote: 結果として生まれるのは無限の苦しみと機能不全。
+    paragraph: p334
+    quote_verified: true
+  note: 「不滅」は祝福ではなく、システムとしての破綻（癌化）を招くという、生あるものの有限性の肯定。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,130 @@
+chapter: ch5027
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 7
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_Corseica_Eye_in_Back
+  note: コルセスカの衣服背面に瞬間的に現れた「目玉」。彼女の能力、監視装置、または呪術の発動体である可能性を示唆する。
+  quotes:
+  - quote: その姿が消える直前、衣服の背面に一瞬だけ目玉が浮かび上がったのが見えた気がした。
+    paragraph: p144
+    quote_verified: true
+  expected_payoff: 後の戦闘や追跡シーンで、この「目」が監視・索敵・呪術発動のキーとして機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Time_Synchronization_Reason
+  note: 異世界でありながら地球とほぼ同じ時間単位（24時間）で運行している理由が「偶然」か「意図的」か不明。宇宙論的なつながりや、世界の設計者による仕掛けの可能性。
+  quotes:
+  - quote: なぜかこの世界はそうした点で元の世界とそっくりなのだった。偶然の一致なのか、それともなにか理由があるのか。わからないことだらけだが、時間はそんな事情とは関係無く流れていく。
+    paragraph: p84-p86
+    quote_verified: true
+  expected_payoff: 世界の成り立ち（シミュレーション、神話的創世など）の真相が明かされる際の根拠となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Witch_Ranking_System
+  note: 「魔女として上に70人」という具体的な数字。このランキングの基準、上位者の存在、およびその政治的意味合いが未定義。
+  quotes:
+  - quote: 私はそれほどのものではありませんよ。魔女としては、上に七十人はいますし... 世界で七十番目くらいってどのへんの位置なのかも母数がわからないので何とも言えない。
+    paragraph: p58-p62
+    quote_verified: false
+  expected_payoff: コルセスカの真の力や、彼女が所属する組織・階級との関係性が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Poison_Fear_Origin
+  note: 首領への食事誘いを「毒」を警戒して断ったという過去の経緯。具体的な毒殺未遂事件、または首領の性格に関する伏線。
+  quotes:
+  - quote: あの老人には何度か食事に誘われたが、毒を警戒して断った。
+    paragraph: p128
+    quote_verified: true
+  expected_payoff: 首領との対立構図、または過去の具体的な裏切り事件の回想として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Personal_Mission
+  note: 夕食を断り1時間後と約束して向かった「個人的な用事」の内容。主人公が隠している目的（情報収集、密会、準備など）。
+  quotes:
+  - quote: 少し、個人的な用事があって、そちらを済ませたいんです。一時間後にこの場所で落ち合うということで... 余分な思考を切り捨てて、俺は目的地に向かう。
+    paragraph: p138-p146
+    quote_verified: false
+  expected_payoff: 次の章でその「用事」の内容と結果が明かされ、物語の展開に寄与する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術体系の差異（サイバー/AR vs 呪術）による相互理解の限界と翻訳
+  weight: 0.8
+  quotes:
+  - quote: 私達の世界では人間の五感を器質的に操作する技術は様々な理由から発達しませんでした... 拡張現実や仮想現実の技術はその存在のみが示唆されていましたが、実現には至っていません。
+    paragraph: p105
+    quote_verified: false
+  - quote: この世界は、元世界とよく似ている。文明の発達度合いもそう変わらないようでもある。しかしその技術的な基盤は大きく異なっていた。呪術という、未知の力が働いているからだ。
+    paragraph: p115-p116
+    quote_verified: true
+  note: 現代科学と魔法が同じ機能（AR、投影）を異なる原理で実現しており、その違いがキャラクター間の認識のズレを生んでいる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異世界生活の日常化と「異常」への慣れ
+  weight: 0.7
+  quotes:
+  - quote: 最初の頃はちょっとした現実感の喪失を感じたものだった。今ではもう慣れたものだ。ごく自然に、雑踏の中に埋没していく。
+    paragraph: p76-p78
+    quote_verified: true
+  - quote: すれ違う人々の半分は俺と似たような『上』系の人種で差異は肌の色や顔立ち、体格程度のものだ。だが『下』系の人種はその形態からして多種多様である。
+    paragraph: p70
+    quote_verified: true
+  note: 非人間的な生物が存在する世界において、主人公の警戒心が徐々に「日常」へ溶け込み、異物感が薄れている心理的変化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 信頼と防衛のジレンマ（社会的孤立）
+  weight: 0.6
+  quotes:
+  - quote: 隙あらば薬を盛られて洗脳されかねない、くらいのことは思っている... 打てる手は打っておきたかった。
+    paragraph: p134-p136
+    quote_verified: false
+  - quote: 警戒心剥き出しの俺の態度に何かしら思うところがあるようだったが、その思考までは読めない。自分のとるべき態度はもっと別にあったのではないかと思うものの、代案がすぐに思いつかない。
+    paragraph: p146
+    quote_verified: true
+  note: 強力な仲間（コルセスカ）を得たことによる安心感と、彼女への不信感・防衛本能の板挟み。社交的行動（買い物）と孤立行動（食事拒否）の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的メタ構造への自覚（ステータスと装備の最適化）
+  weight: 0.5
+  quotes:
+  - quote: 防具はどうでしょう... 今のところ、隠していた防具を瞬時に取り出してその場で着替える技術が存在するとは聞きません。防御力が隠されているというのは、少なくとも最初の一撃が当たるまでは有利に働くことが多いです
+    paragraph: p50-p54
+    quote_verified: false
+  - quote: 使い捨ての巻物（スクロール）や呪符（シール）ならアキラにも使えるのでは... Slowを付加する補助系呪符でコストパフォーマンスに優れています。
+    paragraph: p80
+    quote_verified: false
+  note: 現実的な会話の中に、RPG的な「装備のステータス隠し」や「デバフアイテムの効率的な使用」というゲーム的ロジックが組み込まれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

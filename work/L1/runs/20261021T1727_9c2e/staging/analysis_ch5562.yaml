@@ -1,0 +1,195 @@
+chapter: ch5562
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 3
+  themes: 3
+  quotes_verified: 17
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p9]]'
+  object: '[[ME_myth_persephone_ades]]'
+  claim: メートリアンが「死者のまま生者の姿をとった」と語る構造は、ギリシャ神話のペルセポネーが冥界に滞在しながらも地上と往復する存在であること、あるいはイザナミ・イザナギの黄泉比良坂での別離を想起させる。
+  quote: あなたが生者のまま冥府に足を踏み入れたように、私は死者のまま生者の姿をとったまでのこと。
+  paragraph: p9
+  confidence: strong
+  quotes:
+  - quote: あなたが生者のまま冥府に足を踏み入れたように、私は死者のまま生者の姿をとったまでのこと。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p14]]'
+  object: '[[ME_drama_ancient_greek_tragedy_chorus]]'
+  claim: 「白布を被り、宙吊り台に乗って登場」し、悲嘆の歌を詠む合唱隊（コロス）は、古代ギリシャ悲劇における舞台装置（エクキュクレマ等）とコロスの機能を現代のファンタジー演劇形式で模倣・引用している。
+  quote: （冥府を下る大勢の精子たちからなる合唱隊、白布を被り、宙吊り台に乗って登場）
+  paragraph: p12
+  confidence: explicit
+  quotes:
+  - quote: （冥府を下る大勢の精子たちからなる合唱隊、白布を被り、宙吊り台に乗って登場）
+    paragraph: p12
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p37]]'
+  object: '[[ME_myth_sacred_marriage_zeus]]'
+  claim: ダウザールが「この雨こそは男の愛」「血脈を繋ぐ歓びを教える祝福の雨」と称し、リーナに奈落（冥界）への下降を強制する行為は、ゼウスが雨（種子）として地上の女性と結ばれるという「聖婚」の神話的メタファーを暗示している。
+  quote: 見よ、この雨こそは男の愛。お前に血脈を繋ぐ歓びを教える祝福の雨である
+  paragraph: p37
+  confidence: moderate
+  quotes:
+  - quote: 見よ、この雨こそは男の愛。お前に血脈を繋ぐ歓びを教える祝福の雨である
+    paragraph: p37
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p66]]'
+  object: '[[ME_literary_theatre_metatheatre]]'
+  claim: ガルズが「この身はまやかし」「舞台の上、芝居の台詞のひとかけら」と自らの存在をメタ的に定義し、「決闘の申し込みにて神々の裁定」を求めるのは、劇中の世界観を「演劇（フィクション）」として解体し、物語内の法則（運命）に対して作者としての介入を宣言する行為である。
+  quote: さよう、この身はまやかし。されどそらごとにも意味はある！
+  paragraph: p70
+  confidence: strong
+  quotes:
+  - quote: さよう、この身はまやかし。されどそらごとにも意味はある！
+    paragraph: p70
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p88]]'
+  object: '[[ME_concept_narrative_freedom]]'
+  claim: 「言の葉とは沈黙の中にさえ生じるもの」「台詞だけで飛べばいい」というリーナの宣言は、物理的な法則（重力・宿命）が支配する世界において、言語（物語・意味）のみによって制約から解放されるという、メタフィクションにおける「言葉による脱出」の構造を示している。
+  quote: 言の葉とは沈黙の中にさえ生じるもの。空を駆け、光のように宙を舞うもの。私はその名をよく知っている。過去より現れ、今に伝えるための妖精たちの名を！
+    言理の妖精語りて曰く、台詞だけで飛べばいいっ！
+  paragraph: p88
+  confidence: strong
+  quotes:
+  - quote: 言の葉とは沈黙の中にさえ生じるもの。空を駆け、光のように宙を舞うもの。私はその名をよく知っている。過去より現れ、今に伝えるための妖精たちの名を！
+      言理の妖精語りて曰く、台詞だけで飛べばいいっ！
+    paragraph: p88
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p23]]'
+  object: '[[ME_sociological_concept_nihilism]]'
+  claim: コロスの長が「栄光から零れ落ちた亡者」「生まれることもできぬ命」と歌い、地上の享楽と対比する構造は、近代以降のニヒリズムや、大量生産・消費社会における個の無意味さ（ソシオロジカルな疎外）への批判的暗示を含む。
+  quote: されど我らはその栄光から零れ落ちた亡者に過ぎぬ。生まれることもできぬ命は芽吹きもせずに消えゆくばかり。
+  paragraph: p23
+  confidence: weak
+  quotes:
+  - quote: されど我らはその栄光から零れ落ちた亡者に過ぎぬ。生まれることもできぬ命は芽吹きもせずに消えゆくばかり。
+    paragraph: p23
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Book_of_Dead_Snapshots
+  note: メートリアンが「死人の森の断章」「その叡智」と呼ぶ書物。これがガルズを蘇らせる呪文の源であり、後にリーナたちが「言の葉」で飛翔するためのキーアイテムとなる。その内容的な全貌や、この書を誰が・いつ記したかが未回収。
+  quotes:
+  - quote: 我が手が掴む死人の森の断章、その叡智の深きことを
+    paragraph: p53
+    quote_verified: true
+  - quote: （メートリアンがコロスに合流し、照明が当たる。断章を手に、黒布を被り、死人を率いる男を演じる）
+    paragraph: p64
+    quote_verified: true
+  expected_payoff: 「言の葉」の性質（記憶の転写か、創造か）を定義し、世界を支配するルールを書き換えるトリガーとして機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_World_Egg_Birth
+  note: ダウザールが「世界が卵を産むその時は目の前だ」「獣が孕み、花が孕み、石が孕み」と述べる。世界の再生（リセット）プロセスの直前で何が起きるのか。
+  quotes:
+  - quote: 降り注ぐ種は奈落に播かれている。獣が孕み、花が孕み、石が孕み、世界が卵を産むその時は目の前だ。
+    paragraph: p82
+    quote_verified: true
+  expected_payoff: 世界構造の転換点。物理法則や因果律が書き換えられる瞬間であり、リーナたちの「台詞による飛行」がこのイベントに干渉する可能性を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Metrianian_Death_Status
+  note: メートリアンが「死者のまま生者の姿をとった」と明言し、後に「役者なきこの闇を...私たちは飛んで往ける」と語る。彼女が完全に死んでいるのか、霊体なのか、それとも別の存在に書き換わっているのかの境界線が曖昧である。
+  quotes:
+  - quote: 私は死者のまま生者の姿をとったまでのこと。
+    paragraph: p9
+    quote_verified: true
+  - quote: 役者なきこの闇を
+    paragraph: p96
+    quote_verified: true
+  expected_payoff: 最終局面でメートリアンが物理的な存在として消滅するのか、概念（物語の語り部）として残り続けるのかの結末に関わる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の自己言及性：世界は運命によって決定されているのではなく、「台詞（ナラティブ）」によって編成・変換される虚構である。
+  weight: 0.9
+  quotes:
+  - quote: この身はまやかし。されどそらごとにも意味はある！
+    paragraph: p70
+    quote_verified: true
+  - quote: 舞台の上、芝居の台詞のひとかけらにしがみついたわずかな魂を届ける程度のまじないに過ぎないのです。
+    paragraph: p79
+    quote_verified: true
+  note: ガルズとリーナが物理法則（重力・死）を無視して「台詞」によって行動を選択する場面がクライマックスであり、物語の構造自体がテーマ化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生と死の境界の溶解：死者の記憶（過去）と生者の意志（現在）は「言葉」を介して連続しており、死は終着点ではなく対話の一部である。
+  weight: 0.8
+  quotes:
+  - quote: 私は愛する人たちを蘇らせたいと願っているけれど、望みがこうも容易く覆り、生と死の全てがまやかしだと言われては、いったい生きることや死ぬことにどんな意味があるのかと不安になってしまいます。
+    paragraph: p77
+    quote_verified: true
+  - quote: 過去は今に続き、進んでいくものです。
+    paragraph: p80
+    quote_verified: true
+  note: 冥界（黄泉路）を「舞台」として扱い、死者を登場人物として対話させることで、死の絶対性を相対化し、記憶の継承こそが生であるという主題を提示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 父祖の権威への抵抗：運命（血族の宿命）を強制する父（ダウザール）に対し、個の意志と創造性によって解放されること。
+  weight: 0.7
+  quotes:
+  - quote: クロウサーの主よ、老いた亡霊の言いなりになるばかりでは、あなたは傀儡も同然です！
+    paragraph: p10
+    quote_verified: true
+  - quote: この魂が重力の虜囚となり、この肉体が地の底に呪縛されたとしても、紡ぐ言葉まで奪うことは叶いますまい。
+    paragraph: p88
+    quote_verified: true
+  note: ダウザールが「血は宿命」「観念して」と説く父権的運命論に対し、リーナとガルズ（メートリアン）が言語の力によってその構造を破壊する過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,152 @@
+episode: ch5304
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ねずみとこうもりたちの王さま]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5304_ねずみとこうもりたちの王さま_says_さみしさの正体_p13
+        quote: それは、ひとりじゃなくなったからなのだと。
+        locator: {}
+        spoiler_after: ch5304
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女の子]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5304_女の子_other_右目からの涙_p16
+        quote: するとどうしてか、女の子の右目から涙がこぼれ落ちました。
+        locator: {}
+        spoiler_after: ch5304
+    speech:
+      observations:
+      - event_ref: E_ch5304_女の子_confesses_前世の記憶_p17
+        quote: 自分はずっと思い出が無くて、どこから自分が来たのかがわからなかったのだと。けれど、今ようやく全てを思い出したのだと。
+        locator: {}
+        spoiler_after: ch5304
+      - event_ref: E_ch5304_女の子_remembers_竜退治の使命_p49
+        quote: 生まれ変わった女の子は、いつか自分がもう一度竜退治の旅に出なければならないことを思い出します。
+        locator: {}
+        spoiler_after: ch5304
+    name:
+      observations:
+      - event_ref: E_ch5304_女の子_names_冒険者_p23
+        quote: 女の子は、冒険をする人でした。
+        locator: {}
+        spoiler_after: ch5304
+    action:
+      observations:
+      - event_ref: E_ch5304_女の子_travels_地の底_p24
+        quote: 頼りになる仲間たちと一緒に地の底を目指して旅をします。
+        locator: {}
+        spoiler_after: ch5304
+      - event_ref: E_ch5304_女の子_gives_自分の力_p30
+        quote: 女の人は自分の力を全員に分け与えて仲間たちを守ります。
+        locator: {}
+        spoiler_after: ch5304
+      - event_ref: E_ch5304_女の子_arrives_森の中_p48
+        quote: そして気がついた時、女の子は森の中にいました。
+        locator: {}
+        spoiler_after: ch5304
+      - event_ref: E_ch5304_女の子_takes_六人の王さま_p51
+        quote: 女の子は、本の中から呼び出した六人の王さまたちをお供にして旅立ちます。
+        locator: {}
+        spoiler_after: ch5304
+      - event_ref: E_ch5304_女の子_makes_柘榴の木_p56
+        quote: 女の子は自分で自分の右半身をパンのように千切って地面に埋めます。すると、そこから立派な柘榴の木が生えてきました。
+        locator: {}
+        spoiler_after: ch5304
+    symbolic:
+      observations:
+      - event_ref: E_ch5304_女の子_other_運命の断絶_p64
+        quote: 『続く』をやめて、『お終い』にするために。
+        locator: {}
+        spoiler_after: ch5304
+      - event_ref: E_ch5304_女の子_other_さみしさ_p9
+        quote: それでもさみしさは消えません。
+        locator: {}
+        spoiler_after: ch5304
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_最後の王さま]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5304_最後の王さま_appears_女の子_p2
+        quote: そうして、最後の王さまが仲間になったことで、女の子のまわりはたくさんの人々でいっぱいになったのです。
+        locator: {}
+        spoiler_after: ch5304
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_呪い]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5304_呪い_requires_仲間たちの命_p30
+        quote: 女の人が使う竜退治のための呪いを使うためには、仲間たちの命が必要なのでした。
+        locator: {}
+        spoiler_after: ch5304
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_仲間たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5304_仲間たち_dies_竜との戦い_p35
+        quote: 一人として、生き残ったものはありませんでした。
+        locator: {}
+        spoiler_after: ch5304
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_竜]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5304_竜_defines_世界そのもの_p42
+        quote: なぜなら、竜とはこの世界そのものだったからです。
+        locator: {}
+        spoiler_after: ch5304
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_狩人]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5304_狩人_says_救済の約束_p44
+        quote: あなただけでも、助けてみせると。
+        locator: {}
+        spoiler_after: ch5304
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_奇跡]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5304_奇跡_defines_冒険のやり直し_p46
+        quote: それはたった一人だけが最初から冒険をやり直しできるという奇跡でした。
+        locator: {}
+        spoiler_after: ch5304
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_柘榴の木]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5304_柘榴の木_has_property_月の満ち欠けでの実_p58
+        quote: 柘榴の木は、月が一度満ち欠けするたびに一つの実をつけました。
+        locator: {}
+        spoiler_after: ch5304
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_六人の王さま]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5304_六人の王さま_other_女の子の血肉から生まれた柘榴_p60
+        quote: 少女の血肉から生まれた柘榴。それを食べた六人は、とても強い力を手にします。この世界を視る力。言葉の力。女の子と繋がる力。そして命そのもの。
+        locator: {}
+        spoiler_after: ch5304
+  first_appearance_candidate: true

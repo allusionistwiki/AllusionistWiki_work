@@ -1,0 +1,50 @@
+episode: ch5029
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_コルセスカ]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5029_コルセスカ_reveals_家の仕様_p100
+        quote: 「ちなみにこの家は外側から内側を見ることはできませんが、内側からは外側が見えます」
+        locator: {}
+        spoiler_after: ch0000
+    visual:
+      observations:
+      - event_ref: E_ch5029_コルセスカ_makes_氷の家_p13
+        quote: 壁は分厚い氷のブロックで構成され、天井には雨除けの（それとも雪だろうか）傾斜があり、尖塔が高く伸びている。透明であるはずだが、内部は光が複雑に屈折しているからか窺い知れない。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5029_アキラ_uses_E-Eアプリ_p25
+        quote: なにしろそういう気持ちが生じる度に衝動を感覚・感情制御アプリ『E-E』で抑制していたので、そういう気分にはなりようがないのだ。俺はアプリケーションをフル活用して何も感じない夜を過ごした。
+        locator: {}
+        spoiler_after: ch0000
+    visual:
+      observations:
+      - event_ref: E_ch5029_アキラ_other_疲労_p3
+        quote: 前日の夜にあまり眠れなかったせいかあくびが出る。こんな状況でも髪を整えたり髭を剃ったり洗顔したりといったことはできる。生活用水にコストがかかることを気にしないようになりつつある俺は、この世界に少しずつ馴染んでいるのだろうか。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5029_アキラ_makes_正六面体の家_p5
+        quote: 正六面体の自宅のドアを開けて外に出る。大理石のような壁に触れると確かな質感を返してくる。しかしこれも即席の家であり、念じると幻であったかのように消失した。
+        locator: {}
+        spoiler_after: ch0000
+    speech:
+      observations:
+      - event_ref: E_ch5029_アキラ_thinks_孤立の必然性_p74
+        quote: だがどうすればこうならずにいられたのか、俺には全くわからない。言葉が分からない俺はただこの拳に頼るしか道が無かったし、暴力を振るわなければ何度でも死んでいただろう。そして俺は必然的に孤立していった。
+        locator: {}
+        spoiler_after: ch0000
+      - event_ref: E_ch5029_アキラ_fears_詐欺師_p88
+        quote: 感情制御は厚意に対する感謝や嬉しさに対してその脆弱性を露呈してしまう。本当に俺が恐れるべきは深夜に俺の家に爆薬を投げつけてくる荒事屋でも、建物の陰からナイフを投擲してくる暗殺者でも、人払いをして集団で襲いかかってくる刺客でもない。そうした襲撃に疲れた頃にやってくる、頼りになる仲間の振りをした詐欺師だ。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true

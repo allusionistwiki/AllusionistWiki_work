@@ -1,0 +1,246 @@
+episode: ch5300
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ゾーイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5300_ゾーイ_fights_アキラ_p12
+        quote: 細かく隙の少ない打撃で相手の動きを固めていくような手、このレベルの相手に通用する筈も無い。ゲームパッドの機能を駆使したターボ連射が神速の連撃を実現するが、ゾーイの防御は鉄壁の一言である。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_ゾーイ_attacks_アキラの身体_p14
+        quote: 状況は、力士がその重い腰を上げて攻めに転じた瞬間に一気にひっくり返った。言葉通り、アキラの身体が引っ繰り返されていた。土俵の上に叩きつけられ、凄まじい激痛が熱となって私の中を駆け巡る。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_ゾーイ_uses_瞬間転移能力_p16
+        quote: その秘密は、ゾーイの瞬間転移能力にあった。普段は両の脚を動かして移動しているため分かりづらいのだが、ここぞという時に小さく転移を行って間合いを微調整しているのだ。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_ゾーイ_attacks_アキラ_p18
+        quote: 高威力の張り手によって防御や回避を意識させたところに必殺の投げ狙い。ゾーイが厄介なのは、前段の張り手が既に必殺の威力を有している点である。防御してもダメージが蓄積していく。一度引いたが最後、怒濤の寄り身で一気に押し切られてしまうのだ。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_ゾーイ_attacks_アキラの頭部_p23
+        quote: 浮遊した身体がまたしても掴まれて、そのまま頭から叩き落とされる。幻影の頭部が霧のように散っていく。ちびシューラによる必死の修復作業によってアキラが再構成されていく。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_ゾーイ_other_サイザクタートの構造ルービックキューブ化_p72
+        quote: '力士の手の動きに連動して、巨大な仮想使い魔の姿が変貌する。
+
+          三首の犬サイザクタートの全身が細かく分割され、丸みを残した立方体となったのだ。三掛ける三の九個からなる色の付いた正方形。各列ごとに自由に回転させることで色を揃えるという立方体パズルと化した仮想使い魔が、全身の構造を出鱈目に入れ替えられてしまう。'
+        locator: {}
+        spoiler_after: ch5300
+    visual:
+      observations:
+      - event_ref: E_ch5300_ゾーイ_appears_無傷の状態で煙の中から_p64
+        quote: 当然のように、煙の中から無傷で現れるゾーイ。クレイの不用意な発言が無ければ、手傷くらいは負わせられた可能性があるというのに。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_ゾーイ_transforms_大関クラスの生体兵器_p9
+        quote: 何度でもその肉体を再構成できる不死身の力士は、全身を更に禍々しく変貌させていった。肩は鋭角に尖り、背中から突きだした管は排気用のものなのか陽炎が揺らめいている。しなやかな生体外骨格を太い筋肉が盛り上げて、顔のペイントが青白い稲妻を走らせた。
+        locator: {}
+        spoiler_after: ch5300
+    speech:
+      observations:
+      - event_ref: E_ch5300_ゾーイ_says_出力の向上と喜び_p7
+        quote: 「今までのは関脇クラスの出力だったけど、ここからは大関クラスだ。分かりづらいかもしれないけどね。私は今うれしいんだよ。あの時からずっと、全力で戦うことには躊躇いがあった。でも、あんたたちにならまだまだ力を出しても良さそうだ――七十パーセント」
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5300_アキラ_other_ゾーイの痛覚遮断による安堵_p14
+        quote: アキラの痛みを肩代わりしているという実感に安堵しながら、起き上がりに追撃されないようにタイミングを見計らいつつ転がってその場を離れる。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_アキラ_thinks_オルヴァ王の安否_p4
+        quote: 通り過ぎた歴史の中でオルヴァ王がどうなったのか、気になる所ではあるが、今は目の前の戦いに集中するしかない。
+        locator: {}
+        spoiler_after: ch5300
+    action:
+      observations:
+      - event_ref: E_ch5300_アキラ_attacks_ゾーイの顔面_p20
+        quote: このままでは負ける、と焦りが不用意な動きを生んだ。相手を牽制する為に放った顔面への突きは届かない筈だったが、力士の腕が一瞬だけぶれて、アキラの身体が一気に引き込まれる。吸引されるように腰を掴まれ、豪快に投げられた。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_アキラ_other_フェイクの組み付き_p39
+        quote: 力士が空気を掴もうとした瞬間、相手の腕の下にこちらの手を差し入れる。脇を上げさせて廻しを取ろうとする動きだ。無論、アキラが力士に対して組み付くのは危険過ぎるためフェイクでしかないが、突き上げるような掌底に相手の重心が一瞬だけ高くなる。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_アキラ_other_空中の足場_p43
+        quote: 真後ろにある壁に向かって。瞬間的に生成されたその構造物は、彼が得意とする足場の生成。第五階層の物体創造能力を応用したものだ。そう、これが使用できるということは、つまりこの【世界劇場】は第五階層の中に存在しているということを意味する。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_アキラ_attacks_ゾーイ上空からの跳び蹴り_p45
+        quote: 空中に足場を生成することにより、上方向に跳躍して逃れる。壁のように垂直に生成した足場も併用して跳躍の軌道を修正、三角跳びの要領で相手の頭上へと飛び上がる。上空からの強襲。兎の跳躍力と俊敏さで跳び蹴りを繰り出す。
+        locator: {}
+        spoiler_after: ch5300
+    visual:
+      observations:
+      - event_ref: E_ch5300_アキラ_appears_土俵の上_p4
+        quote: 兎と妖精の耳を半分ずつ持つという極めて特徴的な容姿を持った少年が、土俵の上に帰還する。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_世界劇場]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5300_世界劇場_appears_as_暗黒宇宙空間と石碑_p2
+        quote: 周囲の光景も、広大な暗黒の宇宙空間、そこに浮かぶ無数の石碑というものに変化している。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_古のイルディアンサ]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5300_古のイルディアンサ_defines_魔導書=石版_p2
+        quote: 古のイルディアンサでは、魔導書とはすなわち石版のことだったのだ。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_森の民]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5300_森の民_other_紙の書物_p2
+        quote: 現在のような紙の書物は、アヴロニアの大地から森の民こと妖精たちが持ち込んだものである。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_石碑]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5300_石碑_functions_as_魔導書_p2
+        quote: 文字が刻まれた滑らかな石の数々は、兎たちが用いる呪文を唱える杖――すなわち魔導書である。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5300_グレンデルヒ_other_二択の状況_p27
+        quote: グレンデルヒと力士が突きつけてくるのは二択。張り手か投げか。防御を選べばダメージは貫通して蓄積され、間合いを詰められれば一瞬で投げられる。
+        locator: {}
+        spoiler_after: ch5300
+    speech:
+      observations:
+      - event_ref: E_ch5300_グレンデルヒ_says_古典的な呪文構成への賛辞_p68
+        quote: 「流石は偉大なる狂王子の仮想使い魔。美しい呪文構成だ――古典的で無駄がない。ゆえに、手に取るように理解できるよ」
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5300_ちびシューラ_other_推奨行動リストと期待値_p31
+        quote: ちびシューラが提示する推奨行動リストには得られるリターン、すなわちどれだけこちらに有利な隙を作れるか、またその行動によってどの程度のリスクがあるかという注釈が付けられている。それぞれにこれまでに得られたデータから弾き出された行動期待値が紐付けされているが、万能の選択肢は無い。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_私主人公]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5300_私主人公_other_アキラの回避行動_p34
+        quote: それはサイバーカラテ道場というツールが行うべき判断であり、これまではちびシューラが、そして今この瞬間だけは私がやるべきことだ。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サイザクタート]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5300_サイザクタート_appears_三首の雷獣_p50
+        quote: 雷光が閃き、輝く文字列と稲妻によって構成された獣が力士に食らいついていた。青白い雷獣の頭部は三つ。呪文によって生まれた三首の犬がヴァージルの敵を猛然と攻撃していく。
+        locator: {}
+        spoiler_after: ch5300
+    action:
+      observations:
+      - event_ref: E_ch5300_サイザクタート_attacks_ヴァージルアキラ_p79
+        quote: '悲鳴を上げるヴァージルの目の前に、回転してきた犬の頭が現れる。
+
+          表情を緩めた少年に向かって、制御を奪われた使い魔による無慈悲な一撃。'
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージルアキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5300_ヴァージルアキラ_other_サイザクタート_p52
+        quote: 「ありがとうサイザクタート。君はいつでも僕の傍にいてくれるね」
+        locator: {}
+        spoiler_after: ch5300
+    action:
+      observations:
+      - event_ref: E_ch5300_ヴァージルアキラ_other_言語魔術雷撃呪文_p54
+        quote: 優しく仮想使い魔の頭を撫でるヴァージルは、赤い眼を禍々しい月のように輝かせて瞬時に呪文を構成。土俵の至る所から鋭利な剣のような水晶が迫り出して、力士の巨体をずたずたに引き裂く。さらに透明な結晶構造の内側に刻まれた膨大な情報量が文字列となって溢れ出し、雷撃呪文となってケイトの防壁を突破、ゾーイ諸共に焼き尽くしていく。
+        locator: {}
+        spoiler_after: ch5300
+      - event_ref: E_ch5300_ヴァージルアキラ_other_場外_p80
+        quote: 雷の吐息によってその身を灼かれ、兎の少年は場外へと落下していった。哀れな主従は共に姿を消していく。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_太陰]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5300_太陰_uses_ヴァージルが築いた試験の基礎_p56
+        quote: 格闘戦は不得手だが、ヴァージルは言語魔術師として信じがたい技量を有していた。現代の基準で言えば、上級言語魔術師に匹敵する程だ。そもそも、太陰が実施するあの試験の基礎はヴァージルが築いたものなのだから当然と言えば当然だった。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5300_クレイ_says_やったか早計な発言_p62
+        quote: '（やったか！？）
+
+          左腕に宿るクレイが、痛恨のミス。やったと思ったらやってないのは強敵との戦いでは当たり前に起きる出来事だ。'
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第四ラウンド]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5300_第四ラウンド_other_主人公側の敗北_p81
+        quote: 第四ラウンドはこちらの敗北。太陰の王子の物語は、グレンデルヒの手中に収められてしまった。悔しさに歯噛みする思いだ。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_大関クラス]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5300_大関クラス_defines_多脚歩行戦車並みの装甲と膂力_p9
+        quote: 大関クラスとはすなわち、多脚歩行戦車の砲撃を正面から耐え抜く装甲と重装甲の車輌を圧壊させる膂力を兼ね備えた生きた兵器のことを指し示している。
+        locator: {}
+        spoiler_after: ch5300
+  first_appearance_candidate: true

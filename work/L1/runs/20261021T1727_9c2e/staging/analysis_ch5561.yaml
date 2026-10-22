@@ -1,0 +1,118 @@
+chapter: ch5561
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 6
+  quotes_total: 12
+items:
+- kind: mystery
+  name: リーナの到達とシグナル
+  note: ミブレルが待ち焦がれている「リーナが目覚める瞬間」や「シグナル」の具体的な内容。これが物語のクライマックスへの引き金となる。
+  quotes:
+  - quote: なによりも、リーナはこの期に及んでまだ到達の兆しを見せていない。... シグナルは遠い。我々が目覚める時は果たして来るのだろうか？
+    paragraph: p7-p13
+    quote_verified: false
+  expected_payoff: 物語終盤でリーナが完全な「空使い」または主人公として覚醒し、選定レースの勝者となる瞬間に回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: パーンの杖と外側の遺志
+  note: パーンが血脈の外側に託す「杖の記録」が、後のダウザール転生やクロウサーの破綻をどのように変革するのか。
+  quotes:
+  - quote: 家の断絶を乗り越えて受け継がれる、杖の記録。... 彼の鍛錬と研究はきっと、血脈という中にいては見えないものと結び付く。その成果は普遍的な意味と価値を持ち続けるだろう。
+    paragraph: p292-p296
+    quote_verified: false
+  expected_payoff: パーンが作成した杖や研究データが、後の主人公（リーナ）の戦いや世界改変において決定的な役割を果たすアイテムとして登場する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: ミブレルの現世干渉と制約
+  note: 不死の魔女が現世に再構成して殺害を行った理由や、その行為が「物語」に対してどのようなメタ的な介入を行うのか。
+  quotes:
+  - quote: 現世に自己を再構成して最初に行ったのは自分を殺した仇を始末すること。... 唐突に現れて当主を殺害した魔女に、ガレニスの血族たちは一斉に己の杖を向けた。
+    paragraph: p241-p245
+    quote_verified: false
+  expected_payoff: ミブレルが単なる観測者ではなく、物語の障害（クガルヤイム）を物理的に排除する「デウスマキナ」的な介入者として機能し続ける可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: ダウザール転生二世の帰還
+  note: エンハドーラの血肉からダウザールが再誕し当主の座に返り咲くという未来予知の実現プロセス。
+  quotes:
+  - quote: ミブリナの死より時代が下れば、エンハドーラの血肉よりダウザール転生二世が再誕し、再び当主の座に返り咲くという未来も見えていた。
+    paragraph: p201
+    quote_verified: true
+  expected_payoff: 物語中盤で「ダウザール」が敵として復活し、パーンやリーナとの対決の軸となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語構造の強制とメタフィクション的自覚
+  weight: 0.9
+  quotes:
+  - quote: この選定レースの中で、『私』という個は不純物だ。物語における闘争とは、主人公と敵対者の一騎打ちでなくてはならない。
+    paragraph: p3-p4
+    quote_verified: true
+  - quote: ダウザールが空使いとして既に顕現している以上、パーンという男の物語を締めくくるための決着は必要だ。
+    paragraph: p5
+    quote_verified: true
+  note: キャラクターたちが自分たちの行動が「物語」の定型（主人公と敵対者の一騎打ち）に従属していることを認識しており、自由意志と脚本の強制力が葛藤している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 不死という牢獄と記録の重圧
+  weight: 0.8
+  quotes:
+  - quote: 肉体の軛から解き放たれたミブリナは、真の自由を謳歌しながら苦痛の吐息をこぼした。... 不死さえ牢獄だ。
+    paragraph: p222-p225
+    quote_verified: false
+  - quote: 記述とは残すものだ。ならば、あとに続くものが出てくるだろう。レコードの更新。その見果てぬ夢の先を、死の先に見ることができる。
+    paragraph: p117-p119
+    quote_verified: true
+  note: 記憶や魂が「記録」として残ることは永遠性をもたらすが、それは同時に個我の消失と退屈（虚無主義）を意味し、自由とは逆説的に束縛であることが示唆されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 血脈を超えた継承：熱と記録の価値
+  weight: 0.7
+  quotes:
+  - quote: パーンは血脈によらぬ外側に遺志を託すだろう。... その成果は普遍的な意味と価値を持ち続けるだろう。
+    paragraph: p295-p296
+    quote_verified: false
+  - quote: この少年が遺す熱があればそれだけでは終わらないかもしれない。血脈の外側より来る何かが未来を変えてくれるかもしれない。
+    paragraph: p300
+    quote_verified: true
+  note: 生物学的な血筋（クロウサーの呪術的継承）ではなく、意志や研究データ（杖の記録）といった文化的・精神的な遺産が、閉鎖的な運命論を打破する力を持つと肯定されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 競争を通じたアイデンティティの獲得
+  weight: 0.6
+  quotes:
+  - quote: 『空使い』は選定レースで奪い合うトロフィーにでもしておこう。実力があればいいんだから、まさか文句はないだろう？
+    paragraph: p169
+    quote_verified: true
+  - quote: 「おれは、おまえにだってまけない」... その生意気さすら愛おしい。
+    paragraph: p274-p283
+    quote_verified: false
+  note: 地位や権威は固定されたものではなく、絶えざる競争（ゲーム）を通じて更新されるべきであり、その過程にある「熱」こそが人間（キャラクター）を輝かせる原動力である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

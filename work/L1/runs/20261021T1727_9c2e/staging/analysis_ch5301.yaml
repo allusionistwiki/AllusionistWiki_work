@@ -1,0 +1,266 @@
+chapter: ch5301
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 8
+  quotes_total: 15
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p13-p15]]'
+  object: '[[ME_PuzzleGame_CubeRotation]]'
+  claim: グレンデルヒの空間操作は、ルービックキューブのような回転パズルゲームのメカニクスを戦闘に転用したものである。
+  quote: '土俵に、そして周囲の空間そのものが架空の立方体に包囲される。
+
+    空間そのものが二十七分割され、力士の手掌によって自在に動き出す。'
+  paragraph: p13-p14
+  confidence: strong
+  quotes:
+  - quote: '土俵に、そして周囲の空間そのものが架空の立方体に包囲される。
+
+      空間そのものが二十七分割され、力士の手掌によって自在に動き出す。'
+    paragraph: p13-p14
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p25]]'
+  object: '[[ME_Gaming_Keyboard_Input]]'
+  claim: 戦闘における空間制御の入力手段として、ゲーミングキーボードのマクロ実行が比喩的に描写されている。
+  quote: 'グレンデルヒが使用しているゲームコントローラーは鍵盤（キーボード）だった。
+
+    膨大な数のマクロを各キーに割り当てて、相手の動きを完璧に予測しているのだ。'
+  paragraph: p31
+  confidence: explicit
+  quotes:
+  - quote: 'グレンデルヒが使用しているゲームコントローラーは鍵盤（キーボード）だった。
+
+      膨大な数のマクロを各キーに割り当てて、相手の動きを完璧に予測しているのだ。'
+    paragraph: p31
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p50]]'
+  object: '[[ME_Fairy_Tale_Mirror_Magic]]'
+  claim: 「鏡よ鏡」という台詞は、グリム童話『白雪姫』における魔法の鏡を引用し、世界認識の中心性を問うている。
+  quote: 「鏡よ鏡、この世界の中心にいるのは誰？」
+  paragraph: p50
+  confidence: strong
+  quotes:
+  - quote: 「鏡よ鏡、この世界の中心にいるのは誰？」
+    paragraph: p50
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p44]]'
+  object: '[[ME_Literary_Concept_Center_of_Narrative]]'
+  claim: 立方体の中心が動かないという幾何学的性質は、物語や世界の構造における「変わらない核心（作者の視点）」の比喩である。
+  quote: 'そのどれにも属さない、外側から見ることのできない立方体の中心。
+
+    その位置だけは、回転によって動くことがけしてない。'
+  paragraph: p44
+  confidence: moderate
+  quotes:
+  - quote: 'そのどれにも属さない、外側から見ることのできない立方体の中心。
+
+      その位置だけは、回転によって動くことがけしてない。'
+    paragraph: p44
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p72]]'
+  object: '[[ME_Fairy_Tale_Little_Red_Riding_Hood]]'
+  claim: 竜が力士を丸呑みにして凍結させる描写は、童話における「怪物に呑まれる」モティーフの残酷な変奏である。
+  quote: '力士の巨体に噛み付いて、丸呑みにして腹の中で凍結させる。
+
+    鏡の館が砕け散ると共に、力士の氷像もまた粉々になった。'
+  paragraph: p72-p73
+  confidence: weak
+  quotes:
+  - quote: '力士の巨体に噛み付いて、丸呑みにして腹の中で凍結させる。
+
+      鏡の館が砕け散ると共に、力士の氷像もまた粉々になった。'
+    paragraph: p72-p73
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p69]]'
+  object: '[[ME_Dragon_Metaphor_Becoming_A_Dragon]]'
+  claim: 「自らが竜だと強く確信して竜に変化するというものだ」という記述は、マイケル・カニングハムのメタフィクションにおける自己変容の概念を想起させる。
+  quote: '邪視によるオルガンローデは、自らが竜だと強く確信して竜に変化するというものだ。
+
+    私は『竜を殺す者』としての自身に拘るあまりこの呪術を未だ習得できていなかったが'
+  paragraph: p69
+  confidence: moderate
+  quotes:
+  - quote: '邪視によるオルガンローデは、自らが竜だと強く確信して竜に変化するというものだ。
+
+      私は『竜を殺す者』としての自身に拘るあまりこの呪術を未だ習得できていなかったが'
+    paragraph: p69
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Daemodex_Resurrection_Pact
+  note: ダエモデクが少女（もの言う槍）との契約で復活し、アルトの従僕となる経緯。後の「四十人の勇士」や「ジャッフハリム」への伏線。
+  quotes:
+  - quote: '友を生き返らせる代わりに、死後、女王の従僕となるように要求する。
+
+      アルトは承諾し、少女から貰った柘榴をダエモデクに与えて生き返らせる。'
+    paragraph: p79
+    quote_verified: true
+  expected_payoff: ダエモデクが後の勢力（ジャッフハリムなど）として再登場し、アルトとの契約がどう履行されるかが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Alt_Old_Dream_Utopia
+  note: アルトの「理想郷」への渇望と、友の屍を越えた先の答え。彼の正義が血に塗れているという懊悩。
+  quotes:
+  - quote: '我が正義はあまりにも血に塗れている。
+
+      友の屍を踏み越えた果てに、理想郷は存在するのか――？'
+    paragraph: p77
+    quote_verified: true
+  expected_payoff: アルトが最終的に到達する「理想郷」の正体、または彼がその理想のために取った行動（六王としての結末）が描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Shura_Puzzle_Ability
+  note: シューラが「パズル系はセスカより得意」と宣言し、戦闘をゲーム的な情報処理で支配した点。
+  quotes:
+  - quote: '（シューラに任せて！　こういうパズル系はセスカより得意だよ！）
+
+      瞬時に戦場と空間が移動するパターンを分析し、そこから相手が選択しうる有効な手をピックアップ。'
+    paragraph: p21-p23
+    quote_verified: true
+  expected_payoff: シューラの「解析・最適化」能力が、後の論理パズル的な敵や複雑な魔法体系の攻略において決定的な役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Center_of_Cube_Metaphor
+  note: 立方体の中心（五番目の断章）が動かないという設定と、それが「王の座」であること。
+  quotes:
+  - quote: 'そのどれにも属さない、外側から見ることのできない立方体の中心。
+
+      その位置だけは、回転によって動くことがけしてない。
+
+      王が座すのは、常に王国の中心だ。'
+    paragraph: p44-p46
+    quote_verified: false
+  expected_payoff: 「中心」を占める者が世界を書き換える（ワールドメイク）能力を持つという法則が、後の決戦や世界の改変において重要なキーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Organlode_Dragon_Form
+  note: アキラが「竜を殺す者」から「竜そのもの」への変容を許容し、オルガンローデ（第九紀竜）となったこと。
+  quotes:
+  - quote: '私は『竜を殺す者』としての自身に拘るあまりこの呪術を未だ習得できていなかったが
+
+      ちびシューラによる『氷の竜伝承』の収集、アルトによる呪文のオルガンローデを参照することで今ようやく竜変化に成功。'
+    paragraph: p69
+    quote_verified: false
+  expected_payoff: アキラが竜として振る舞うことで得られる権能（真竜の権限）と、その代償（人間性の喪失など）が今後の展開で問われる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 視点の中心性（センター）を奪取することが、世界のルール（空間操作）に対する支配権を得る条件である。
+  weight: 0.9
+  quotes:
+  - quote: 'そのどれにも属さない、外側から見ることのできない立方体の中心。
+
+      その位置だけは、回転によって動くことがけしてない。
+
+      王が座すのは、常に王国の中心だ。'
+    paragraph: p44-p46
+    quote_verified: false
+  note: 空間を操作するパズルゲーム的な戦闘において、「動かない中心」に定位することで勝利を得るという構造。これはメタ的に「物語の視点（語り手）」が世界を定義する権限を持つことを示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己の定義（アイデンティティ）は、他者からの多様な解釈（鏡像）を受け入れ、統合することで強化される。
+  weight: 0.85
+  quotes:
+  - quote: '合わせ鏡の中に連なる無限の自己像。
+
+      その中から『唯一無二の自分』を画定し、確定させることこそが邪視の真髄。
+
+      私はこの中でなら、何にだってなれる。'
+    paragraph: p35-p64
+    quote_verified: false
+  note: 「氷鏡」による多様な自己像（魔女、竜、鬼など）の受容と、「唯一無二」の確信が力になるという、アイデンティティの可変性と固定性の弁証。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的なルール（パズル・操作）の適用により、生々しい戦乱の「血」は「氷（静止・記号）」へと浄化される。
+  weight: 0.7
+  quotes:
+  - quote: '背景が変化して行く。
+
+      広がる世界には様々な色彩が広がり、多種多様な種族が争い、血を流すという戦乱の世。
+
+      （中略）
+
+      力士の巨体に噛み付いて、丸呑みにして腹の中で凍結させる。'
+    paragraph: p2-p72
+    quote_verified: false
+  note: 冒頭の生々しい戦争描写が、シューラとグレンデルヒによる「ゲーム的な介入」を経て、氷像という無機質な成果物へと収束していくプロセス。暴力の記号化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 正義のための犠牲（友の屍）は、理想郷への通過儀礼であり、契約によって救済される。
+  weight: 0.6
+  quotes:
+  - quote: '我が正義はあまりにも血に塗れている。
+
+      友の屍を踏み越えた果てに、理想郷は存在するのか――？
+
+      （中略）
+
+      友を生き返らせる代わりに、死後、女王の従僕となるように要求する。'
+    paragraph: p77-p79
+    quote_verified: false
+  note: アルトの懊悩と、もの言う槍による「契約」を通じた復活。正義の実現には対価（従属）が必要であるという物語的構造の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

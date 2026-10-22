@@ -1,0 +1,210 @@
+chapter: ch5078
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_カード型端末の呪符使用]]'
+  object: '[[ME_スマホゲームのガチャ/スキルカード]]'
+  claim: カード型端末による一度限りの呪術使用は、現代のデジタルゲームにおけるコスト消費型スキルやガチャ要素をファンタジー世界へ移植したものである。
+  quote: 一枚につき一度の使い切り呪術で再使用の為には再ダウンロードが必要になるが、使い勝手は紙の呪符よりもずっと良い。
+  paragraph: p33
+  confidence: strong
+  quotes:
+  - quote: 一枚につき一度の使い切り呪術で再使用の為には再ダウンロードが必要になるが、使い勝手は紙の呪符よりもずっと良い。
+    paragraph: p33
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_アルテミシアの名乗り]]'
+  object: '[[ME_西洋神話の冥界/魔女]]'
+  claim: 「フレウテリス」や「レストロオセ」といった固有名詞は、ギリシャ語由来の用語を用いることで、キャラクターを古来の呪術的権威として演出している。
+  quote: まことの名を【フレウテリス】。呪祖レストロオセの呼び声を聴き、現世全てに災いを運ぶ者なり
+  paragraph: p5
+  confidence: moderate
+  quotes:
+  - quote: まことの名を【フレウテリス】。呪祖レストロオセの呼び声を聴き、現世全てに災いを運ぶ者なり
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ローズマリーの鞭とフェロモン]]'
+  object: '[[ME_SNS/メディアによる性的対象化と自己責任論]]'
+  claim: 「性的な誘惑は効かない」という主人公の防御は、技術的な感覚分離を通じて社会的なセクシュアリティの圧力から自己を守ろうとする現代的な防衛機制を反映している。
+  quote: 今の俺に、性的な誘惑は効かない
+  paragraph: p52
+  confidence: moderate
+  quotes:
+  - quote: 今の俺に、性的な誘惑は効かない
+    paragraph: p52
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_トリシューラの強化外骨格]]'
+  object: '[[ME_VRゲーム/アバター操作]]'
+  claim: 主人公が「使い魔（ペット）」と呼ぶAIトリシューラは、VR空間のアバターであり、その強制シャットダウンや制御不能化は技術的接続の切断をメタファーとしている。
+  quote: ずっと共にあった存在が、何の前触れもなく消失する。まるで、主要な骨を抜き取られたような感覚。
+  paragraph: p169-170
+  confidence: strong
+  quotes:
+  - quote: ずっと共にあった存在が、何の前触れもなく消失する。まるで、主要な骨を抜き取られたような感覚。
+    paragraph: p169-170
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_アルテミシアの石化視線]]'
+  object: '[[ME_メデューサ神話]]'
+  claim: 「睨み付けただけで対象を石にする呪術」は、ギリシャ神話におけるメデューサの能力を直接引用し、視覚情報の暴力性を示している。
+  quote: 睨み付けただけで対象を石にする呪術。まともに相対することすらできない、最悪の攻撃だった。
+  paragraph: p213-214
+  confidence: explicit
+  quotes:
+  - quote: 睨み付けただけで対象を石にする呪術。まともに相対することすらできない、最悪の攻撃だった。
+    paragraph: p213-214
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アルテミシアの正体と目的
+  note: 名乗りが詳細であり、コルセスカと同じタイプであることが示唆されている。彼女が誰によって召喚され、何を求めているのか。
+  quotes:
+  - quote: 「宣名によりて我が世界の枷を解き放つ――我が魔名はアルテミシア。まことの名を【フレウテリス】。呪祖レストロオセの呼び声を聴き、現世全てに災いを運ぶ者なり」
+    paragraph: p5
+    quote_verified: true
+  - quote: コルセスカと同じタイプの呪術師。
+    paragraph: p2
+    quote_verified: true
+  expected_payoff: 彼女が「現世全てに災いを運ぶ者」としての役割を遂行するか、あるいは主人公との対決でその真意（復讐、破壊、救出など）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_迷宮化の主犯と第三勢力
+  note: キロン側とアルテミシア側の衝突により、双方が「連絡の行き違い」を主張している。迷宮を作り、自動機銃を制御した真犯人は誰か。
+  quotes:
+  - quote: 「何のことだ、この迷宮はそちらの仕業では無いのか」
+    paragraph: p229
+    quote_verified: true
+  - quote: 自動機銃を乗っ取ったのが先程ちびシューラが倒した流体の少女ではないのなら、一体誰がそれを行ったのだろうか。
+    paragraph: p93
+    quote_verified: true
+  expected_payoff: 第三勢力（おそらくセスカ関連や別の邪視者）の登場による状況のさらに複雑な悪化、または主人公の罠への巻き込み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_キロンの盾役少年たち
+  note: キロンが「私の【盾】」を失い驚愕している。少年たちが石化の視線を受け止めるほどの耐久性や特殊な装備を持っている理由。
+  quotes:
+  - quote: 「おのれ、よくも私の【盾】をっ」
+    paragraph: p247
+    quote_verified: true
+  - quote: 少年の一人が文字通りキロンの盾となって石化の視線を受け止め、他の少年達が背後から火の玉や稲妻の呪術で支援を行っている。
+    paragraph: p250
+    quote_verified: true
+  expected_payoff: 少年たちの背景（キロンとの関係性、彼らの特殊な種族特性）が明かされ、キロンの過去や動機に繋がる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_宙を浮く音の正体
+  note: アルテミシアとキロンの激戦の中で、主人公が気づいた「風が揺らぐ音」「呼吸音なしで宙を浮いている」存在。
+  quotes:
+  - quote: それは、宙を浮いていた。
+    paragraph: p274
+    quote_verified: true
+  - quote: すぐ近くだ。呼吸音、心音、足音、いずれも無いので今まで聞き逃していたが、確かに音が聞こえた。風が揺らぐ音。
+    paragraph: p270-271
+    quote_verified: true
+  expected_payoff: この章の最後または次章で、ステルス能力を持つ敵（セスカや別の邪視者）との遭遇へと直結する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術的接続の喪失と孤独
+  weight: 0.9
+  quotes:
+  - quote: ずっと共にあった存在が、何の前触れもなく消失する。まるで、主要な骨を抜き取られたような感覚。
+    paragraph: p169-170
+    quote_verified: true
+  - quote: トリシューラのバックアップが完全に受けられなくなってしまったが、元々単独で戦うつもりだったのだ。大した事ではない。――そう思い込もうとしてはみたものの、数日間ずっと間近にいた存在が急に感じられなくなり、妙に不安に駆られているのも事実だった。
+    paragraph: p189-191
+    quote_verified: true
+  note: トリシューラの強制シャットダウンは、現代社会におけるSNSやAIアシスタントとの接続切断を象徴し、それが人間に与える心理的な欠損感を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力の連鎖と弱者の保護
+  weight: 0.7
+  quotes:
+  - quote: レオは一人の少女に寄り添っていた。...少年の周囲に、昆虫系の種族や植物系の種族、障害のある者や娼婦、物乞いといった者達が集まっていた。
+    paragraph: p137-143
+    quote_verified: false
+  - quote: 「レオ！」名を呼ぶと、不安げに曇っていた表情がぱっと華やぐ。
+    paragraph: p134-136
+    quote_verified: true
+  note: 混沌とした戦闘の中で、少年レオが弱者を庇護している描写は、主人公の行動原理（守るべきものの再確認）を強化するテーマとなっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 視覚と認識の暴力性
+  weight: 0.8
+  quotes:
+  - quote: 睨み付けただけで対象を石にする呪術。まともに相対することすらできない、最悪の攻撃だった。
+    paragraph: p213-214
+    quote_verified: true
+  - quote: 「今の俺に、性的な誘惑は効かない」...相手の客観的な魅力や価値といったものが自分とは関係の無い事のように感じられる。
+    paragraph: p52, p56
+    quote_verified: false
+  note: アルテミシアの石化視線とローズマリーの魅了呪術は、「見ること」が主体を支配・変容させる暴力であることを示唆している。主人公は感覚分離によってこれに対抗する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 組織間の不和と混乱
+  weight: 0.6
+  quotes:
+  - quote: 「聖騎士様は惚けるお顔も優雅だねえ。その面の皮、どれだけ厚いのかちょっと確かめさせてよ」...両者が交戦し始めたようだが、どうにも妙だった。
+    paragraph: p234-238
+    quote_verified: false
+  - quote: 「何のことだ、この迷宮はそちらの仕業では無いのか」
+    paragraph: p229
+    quote_verified: true
+  note: 敵対勢力同士（キロンとアルテミシア）が衝突することで生じる隙間と混乱は、主人公にとっての生存機会であり、同時に状況が誰にも制御されていないことを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

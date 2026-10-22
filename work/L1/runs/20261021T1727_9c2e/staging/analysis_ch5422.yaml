@@ -1,0 +1,169 @@
+chapter: ch5422
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 7
+  themes: 5
+  quotes_verified: 11
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_Magic_Dragon_Wings_Anti-Magic_Field
+  note: 魔竜の羽ばたきだけで呪術兵器が吹き散らされる現象。単なる風ではなく、呪力を無効化する特異なフィールドの存在を示唆する。
+  quotes:
+  - quote: 大型の無人ヘリによる火炎放射、爆撃呪術、聖水散布といった対地攻撃が、魔竜の羽が羽ばたくだけで吹き散らされていく。
+    paragraph: p2
+    quote_verified: true
+  expected_payoff: 後の戦闘で、この「吹き散らし」が結界破壊や呪力吸収能力として明文化される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rarel_Elba_Power_Origin
+  note: リールエルバが「死人の森の女王」として君臨し、運命を縛る糸を切ったと宣言。その力の源泉と「アキラ」隔離との関連。
+  quotes:
+  - quote: 『死人の森の女王』として君臨するリールエルバ＝カーティスに、もはやラクルラールの操り糸など通用しない。
+    paragraph: p7
+    quote_verified: true
+  - quote: 私はもう、私を闇の底に押し込めようとする運命には縛られない。
+    paragraph: p9
+    quote_verified: true
+  expected_payoff: リールエルバが「アキラ」隔離を支配し、「病」の概念そのものを利用した王権拡張の過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Triushula_Damocles_Sword
+  note: リールエルバがトリシューラに対し「ダモクレスの剣」の存在を問う。誰がその危機を負っているのか、あるいはトリシューラ自身がその対象か。
+  quotes:
+  - quote: ダモクレスの剣がいま誰の頭上にあるのか、正しく理解できていて？
+    paragraph: p115
+    quote_verified: true
+  expected_payoff: トリシューラの敗北条件（王権喪失や存在消滅）が、この比喩を通じて明示される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Disease_Form_Outbreak
+  note: シナモリアキラ（アキラ）が「外破」で「病の形」を解放し、歴史上の大量死と恐怖を溢れ出させる。この「病」の正体。
+  quotes:
+  - quote: 『外破（アウトブレイク）』――これこそ俺たち病気持ちのシナモリアキラが固有に持つ『病の形』を解放する特殊宣名。
+    paragraph: p284
+    quote_verified: true
+  expected_payoff: アキラ単体ではなく、「疫病・隔離・パンデミック」そのものが戦闘単位として描かれる展開への接続。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Name_Power_Mechanic
+  note: 「お腹ゴロゴロ村のゲリ便ブリブリ太郎」という名を付けられることで始祖が縮小・撃破される。命名による存在規定（言霊）の力。
+  quotes:
+  - quote: 十万の認識が宣名より早く存在を規定。灰髪の女が叫ぶ。「汝の御名にまことは非ず！...『お腹ゴロゴロ村のゲリ便ブリブリ太郎』！」
+    paragraph: p307-p311
+    quote_verified: false
+  expected_payoff: 物語後半における「名前を叫ぶ」行為が、世界改変や敵撃破の鍵となるギミックとして再登場する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mahito_Nesse_Third_Avatar
+  note: ミヒトネッセが「ツインテ黄髪メイドロボ」として「三位一体」を自称。彼女の複数の身体・存在の構造。
+  quotes:
+  - quote: ツインテ黄髪メイドロボなんて、えへへ、私と一緒で三位一体ですね
+    paragraph: p148
+    quote_verified: true
+  expected_payoff: ミヒトネッセが複数の身体を駆使した戦術、あるいは「分身」の概念を用いた魔竜対策のヒント。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Damocles_Sword_Target
+  note: リールエルバがトリシューラに投げかけた問い。この剣が誰に向けられているか。
+  quotes:
+  - quote: ダモクレスの剣がいま誰の頭上にあるのか、正しく理解できていて？
+    paragraph: p115
+    quote_verified: true
+  expected_payoff: リールエルバがトリシューラを「滅び」へと誘導する策略の一部。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報戦と認識操作による支配（メディア・ナラティブの権力化）
+  weight: 0.9
+  quotes:
+  - quote: これまでの六王たちには無かった戦略、現代では常套手段となった情報による先制攻撃。印象を微調整し、文脈を自らに引き寄せ、自陣営の正統性を主張しつつ敵対陣営の悪辣さを強調する。
+    paragraph: p50
+    quote_verified: true
+  - quote: それはリールエルバの力と恐怖が承認されていくということだ。新たなドラトリアを統べる始祖吸血鬼カーティス。情報として、噂として、実体の無い輪郭だけが存在感を増していき、ネットスペースにおける領土を瞬く間に拡大する『死人の森』。
+    paragraph: p45-p48
+    quote_verified: false
+  note: リールエルバが動画配信者やアストラルネットを用い、「事実」ではなく「認識・文脈」を操作して支配権を得る過程。現代のSNS/メディア政治のメタファー。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語構造（クリシェ）への抵抗と理不尽な暴力
+  weight: 0.8
+  quotes:
+  - quote: 試行錯誤の結果、屍が山となるまで彼らは必死に目を逸らし続けてきた事実をついに認めざるを得なくなった。つまり、魔竜には文脈を絡めた攻撃が一切通用しない。
+    paragraph: p201-p202
+    quote_verified: true
+  - quote: 見透いた挑発であり、多くの物語の筋では賢者の口車に乗せられて怪物はこのまま封じられてしまうのが常ではあるが、魔竜はそのような呪文に捕らわれたりはしなかった。
+    paragraph: p196
+    quote_verified: false
+  note: 異世界転生や冒険譚の定番（弱点狙い、賢者の知恵、名乗り）が通じない「抗メタフィクション」。物語の論理が暴力の前に崩壊する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 命名・定義による存在規定（言霊の力）
+  weight: 0.7
+  quotes:
+  - quote: 十万の認識が宣名より早く存在を規定。...『お腹ゴロゴロ村のゲリ便ブリブリ太郎』！子供の悪ふざけめいた名前を全世界に拡散されたお腹ゴロゴロ村のゲリ便ブリブリ太郎の巨体が見る間に縮小していく。
+    paragraph: p307-p311
+    quote_verified: false
+  - quote: 私はもう、私を闇の底に押し込めようとする運命には縛られない。私は私だけの意思で、望みの全てを叶えてみせる
+    paragraph: p9
+    quote_verified: true
+  note: 名前（記号）が実体（存在・大きさ）を規定する世界観。リールエルバの「女王」定義と、シナモリアキラへの「滑稽な名前」による弱体化の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 恐怖と娯楽の消費（視聴者参加型暴力）
+  weight: 0.6
+  quotes:
+  - quote: 危険な戦地の最前線に赴き、驚異的な危機回避能力で刺激的な娯楽を提供する命知らずの動画配信者。...再生数はその展開を歓迎していた。
+    paragraph: p43-p108
+    quote_verified: false
+  - quote: 「空前絶後のバイオレンス映像にみんな夢中っす！　再生数伸びまくりでマジリールエルバ様最高！　ずっと配信させて下さい！」
+    paragraph: p37
+    quote_verified: false
+  note: 生死の境がコンテンツ化・消費される現代社会のメタファー。恐怖が「再生数」という指標を通じて肯定され、支配を強化する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 非定住と帰属意識の欠如（アパライドな世界）
+  weight: 0.4
+  quotes:
+  - quote: ガロアンディアンは家を自由に創造する仮宿の街、非定住の都市だ。土地の所有と管理は公社のロドウィが失脚して以来トリシューラに委ねられ、子供も教育も伝統文化も地域社会も希薄なあやふやな国家に帰属意識を持つ者などほぼいない。人々は非愛国化していた。
+    paragraph: p213
+    quote_verified: true
+  note: 「家」や「郷土」を持たない探索者たちの流動性。リールエルバの支配が、固定された領土ではなく「情報と恐怖」で構成される理由付け。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

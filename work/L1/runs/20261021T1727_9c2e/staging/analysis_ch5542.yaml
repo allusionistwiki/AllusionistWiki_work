@@ -1,0 +1,157 @@
+chapter: ch5542
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 19
+  quotes_total: 19
+items:
+- kind: mystery
+  name: MY_Trisula_Akira_Meeting
+  note: トリシューラとマーネロアがアキラ殿と交戦・会談し協定を結んだ詳細。p206で言及されるが内容不明。
+  quotes:
+  - quote: トリシューラ様とマーネロア様は、アキラ殿がこの階層に現れた直後、二回ほど交戦と会談を行っております。その際に協定を幾つか。詳細は、ここでは申し上げられませぬ
+    paragraph: p206
+    quote_verified: true
+  expected_payoff: アキラ（主人公？）の過去の行動が現在のアテンプレクやマーネロアの立場にどう影響しているかの回収。機械女王側の戦略的布石の全貌。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Dark_Art_Royalty_Eye
+  note: アテンプレクの黒亜竜の生体義手が魔将ダエモデクの骸を利用しているという事実。p180-p184で語られるが、その真意と「誰かの操り糸」の正体。
+  quotes:
+  - quote: 魔将ダエモデクの骸を利用した寄生異獣。
+    paragraph: p180
+    quote_verified: true
+  - quote: 間違いなく、誰かの操り糸が導いた結果なのだろう。
+    paragraph: p185
+    quote_verified: true
+  expected_payoff: ダエモデク卿の遺志がどう継承されているか、機械女王の計画におけるアテンプレクの真の役割（駒としての自覚）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kinis_Daughter_Fate
+  note: p93-p117でマーネロアとアテンプレクが幼いキニス（ユディーアの過去/別人格？）にかけた呪文・予言。p140以降の再会シーンでの心理的変遷との対応。
+  quotes:
+  - quote: お前は死だ。ティシリアとお前の母は、お前に恐るべき滅びを願ってしまった。いつか正しき怒りがお前と言う灰を呪い、言祝ぐだろう。
+    paragraph: p99
+    quote_verified: true
+  - quote: 死者の言葉を探すといい。色褪せぬものは、必ずそこにある
+    paragraph: p131
+    quote_verified: true
+  expected_payoff: ユディーア（キニス）が過去の記憶を想起し、父の死の意味を再定義して戦いに臨むトリガーとなる予言の実現。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tisia_Power_Dynamics
+  note: ティシリアが城主代行として発言力を決定づけたこと、およびマーネロア派との対立構造。p49, p63で語られる今後の政治的布石（古竜ダエモデク卿、緑の御者）。
+  quotes:
+  - quote: これでティシリアの発言力は決定的なものとなってしまった。ダーカンシェル実験の成功が認められた以上、我々も次期城主に従わざるを得なくなる
+    paragraph: p49
+    quote_verified: true
+  - quote: 城主アゥルメイアに抗し得る古竜、ダエモデク卿との関係性に布石を打つこと。テテリビナ穏健派の『緑の御者』殿との同盟を今以上に強固にしておくこと。
+    paragraph: p63
+    quote_verified: true
+  expected_payoff: 博物城内部での権力闘争が、ユディーアの所属する陣営（ジャッフハリム/機械女王）にどう波及するか、派閥抗争の激化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Linguistic_Domination_Alto
+  note: p154-p158で言及される「言語支配者ダーカンシェルとその子アルト」の権能、およびユディーアが受け継ぐ傲慢な権能の詳細。
+  quotes:
+  - quote: 言語支配者ダーカンシェルとその子アルトは動物に言葉を与え人としての知性を与え、また逆にその特権を剥奪する権能を有していた。
+    paragraph: p156
+    quote_verified: true
+  - quote: ユディーアはその傲慢なまでの権能を血の中に受け継ぐ者であり。
+    paragraph: p157
+    quote_verified: true
+  expected_payoff: ユディーアが言語・概念操作能力をどう解放し、敵対勢力（言語支配者）に対して優位に立つかが物語のキーとなる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 歴史と記憶は「展示」という権力構造によって編集され、政治的動員のためのツールとして機能する。
+  weight: 0.9
+  quotes:
+  - quote: 『ユディーア』はこの場の流れを利用して多方面への繋がりを得たが、逆に言えば周囲はディスケイム家と四十四士が保全してきた『歴史という血脈』に合流することに成功した。
+    paragraph: p17
+    quote_verified: true
+  - quote: この催しを取り巻く文脈を踏まえれば、それは決起集会に近い儀式だった。
+    paragraph: p16
+    quote_verified: true
+  note: 文化の保存（博物城）が純粋な学術ではなく、派閥抗争と政治的結束のためのイデオロギー装置として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死者の価値は生者によってのみ定義され、記憶の継承とは「意味のある死」を演出する行為である。
+  weight: 0.8
+  quotes:
+  - quote: 黙して語らぬ死者の価値を決めるのは残された者の特権なのだから
+    paragraph: p111
+    quote_verified: true
+  - quote: キニス様。あなたがそう願う限り、お父上の死は無価値にはならないのです
+    paragraph: p115
+    quote_verified: true
+  note: アテンプレクとマーネロアの対話において、遺された者の責任として死者の物語を再構成することが主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体（血統・義手）は支配権力の象徴であり、それを継承することは重荷かつ武器となる。
+  weight: 0.7
+  quotes:
+  - quote: ユディーアはその傲慢なまでの権能を血の中に受け継ぐ者であり。
+    paragraph: p157
+    quote_verified: true
+  - quote: 魔将ダエモデクの骸を利用した寄生異獣。男はきっと、その遺志の代弁者としてここに立っているのだろう。
+    paragraph: p180-p181
+    quote_verified: true
+  note: ユディーアの血統的権能とアテンプレクの身体的改造（義手）が、支配構造への参加を強制する物理的・運命的な重みとして描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 真実は記憶の封印（忘却）の中にあり、意図的な無視によってしか守れない脆弱性がある。
+  weight: 0.6
+  quotes:
+  - quote: わからないふりをしていた。知っていたけれど、なにもしなかった。
+    paragraph: p151
+    quote_verified: true
+  - quote: 今の少女にできるのはそれだけ。少なくとも、彼女には時間が必要だ。
+    paragraph: p120-p121
+    quote_verified: true
+  note: ユディーアの視点において、過去のトラウマと真実を直視できない心理的防衛機制が、物語進行の阻害要因かつ保護機能として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「光」や「未来」への信仰は、非合理的な確信（欺瞞）によって支えられている。
+  weight: 0.5
+  quotes:
+  - quote: 邪視の本質がそこにあり、呪文と言う欺瞞の根拠の要はそれだった。
+    paragraph: p135
+    quote_verified: true
+  - quote: そんな虚構が実際にはないのだとしても、彼はそれを信じて行動する。
+    paragraph: p134
+    quote_verified: true
+  note: マーネロアの「光」や予言的な言葉が、客観的真実ではなく「信じる行為」そのものによって有効化されている構造を提示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

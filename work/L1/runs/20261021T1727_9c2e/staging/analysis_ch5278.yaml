@@ -1,0 +1,211 @@
+chapter: ch5278
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5278_物語の干渉]]'
+  object: '[[ME_game_modding]]'
+  claim: 複数の勢力が歴史（物語）を介入・改変し合う様子は、既存のゲームデータやシナリオにユーザーがMOD（Modifications）を適用して自分好みの結果に書き換える行為と構造的に同一である。
+  quote: この舞台は俺とグレンデルヒとテスモポリスとが『あるべき筋書き』に干渉しつつ望む結果を手に入れようとするゲームだ。
+  paragraph: p13
+  confidence: explicit
+  quotes:
+  - quote: この舞台は俺とグレンデルヒとテスモポリスとが『あるべき筋書き』に干渉しつつ望む結果を手に入れようとするゲームだ。
+    paragraph: p13
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5278_右腕の出生]]'
+  object: '[[ME_hand_pregnancy_folklore]]'
+  claim: テスモポリスが産み落とした「片腕だけの赤子」は、世界に広く存在する「手孕説話（手で触れることで妊娠させる）」という民俗学的モチーフの直接的な引用である。
+  quote: 『手孕説話』というやつだ。屍体に手で触れることによって死者の魂が妊娠する――これも感染呪術の一種ということになるのかな？
+  paragraph: p124
+  confidence: explicit
+  quotes:
+  - quote: 『手孕説話』というやつだ。屍体に手で触れることによって死者の魂が妊娠する――これも感染呪術の一種ということになるのかな？
+    paragraph: p124
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5278_ヴァージルの暴言]]'
+  object: '[[ME_narrative_power]]'
+  claim: 過去（作中人物）を未来（観測者）が恣意的に解釈し、性格を書き換える行為は、神話や歴史の伝承者が物語のキャラクターを都合よく作り替える「ナラティブ権力」のパロディである。
+  quote: それは、『未来』という特権を振りかざした『過去』への権力行使だ。
+  paragraph: p41
+  confidence: strong
+  quotes:
+  - quote: それは、『未来』という特権を振りかざした『過去』への権力行使だ。
+    paragraph: p41
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5278_六王の確保]]'
+  object: '[[ME_gacha_game_meta]]'
+  claim: 伝説の六王（強力な援軍）を各勢力が競って獲得しようとする構図は、ガチャゲームにおける限定キャラの排出争いや、MMOにおけるレイドボスの討伐権を巡るギルド間の争いと類似している。
+  quote: つまりは六王とその王国という強力な援軍を奪い合い、未来で味方になってもらおうという交渉合戦をしているとも言えるわけだ。
+  paragraph: p22
+  confidence: moderate
+  quotes:
+  - quote: つまりは六王とその王国という強力な援軍を奪い合い、未来で味方になってもらおうという交渉合戦をしているとも言えるわけだ。
+    paragraph: p22
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_ch5278_再生者の定義]]'
+  object: '[[ME_political_alignment]]'
+  claim: テスモポリスの「再生者」とグレンデルヒの「汚染された解釈」による支配は、単なる種族や所属ではなく、イデオロギー（思想・解釈）による陣営帰属を示唆しており、現実の政治的アライメントの構造を模している。
+  quote: 六王を『邪悪な解釈』によって汚染することがグレンデルヒたちの狙いだ。
+  paragraph: p169
+  confidence: strong
+  quotes:
+  - quote: 六王を『邪悪な解釈』によって汚染することがグレンデルヒたちの狙いだ。
+    paragraph: p169
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5278_右腕の受容]]'
+  object: '[[ME_parenting_disability]]'
+  claim: テスモポリスが、拒絶された不気味な「片腕」を慈しんで抱きしめる行為は、通常の規範から外れた存在（障害や異常）を持つ子を無条件に受容する親の姿のメタファーである。
+  quote: その手を撫でて、腕を抱えたまま、赤子をあやすようにゆっくりと揺らす。
+  paragraph: p220
+  confidence: moderate
+  quotes:
+  - quote: その手を撫でて、腕を抱えたまま、赤子をあやすようにゆっくりと揺らす。
+    paragraph: p220
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_片腕の赤子の運命
+  note: テスモポリスが慈しむ「右腕の赤子」が、物語においてどのような役割を果たすか。ヴァージル（父）に拒絶され、母によって守られたこの存在は、「呪い」そのものとして機能する可能性が高い。
+  quotes:
+  - quote: 右腕から緊張がとれ、弛緩した状態で母に体重を預ける。
+    paragraph: p221
+    quote_verified: true
+  expected_payoff: この赤子が「呪い」の核となり、後にテスモポリスの支配力を強化する装置となるか、ヴァージルの罪の象徴として悲劇を招く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ウォゾマの言葉による汚染
+  note: グレンデルヒ（ウォゾマ）が冥界の入口でヴァージルにかけた「決定的ではない」言葉の内容。これが後の展開で、ヴァージルの精神を崩壊させるトリガーとして回収される。
+  quotes:
+  - quote: 冥道の入り口でウォゾマ＝グレンデルヒの言葉を聞き続けたことが、追い詰められたヴァージルを変質させるきっかけとなってしまったのだ。
+    paragraph: p154
+    quote_verified: true
+  expected_payoff: その具体的な言葉が明かされ、ヴァージルの「母親への責任転嫁」という歪んだ心理の根源として提示される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラ（グラ）の介入の限界
+  note: 主人公を演じるアキラが、「役」としての制約によりサイザクタート（ケイト）に口を挟ませるだけで、直接事態を動かせない状況。この「演者としての無力さ」がどう克服されるか。
+  quotes:
+  - quote: あまりに露骨な妨害に、思わず俺は台本にない台詞を口走ってしまう。
+    paragraph: p196
+    quote_verified: true
+  expected_payoff: 台本外の即興（アドリブ）が物語の結末を決定づけるキーとなるか、あるいはその介入が逆に悲劇を加速させる結果になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_テスモポリスの受容
+  note: 不気味な産物を「とっても元気」「可愛い子」として受け入れたテスモポリスの反応。彼女がなぜこれほどまでに狂気に適合できたのか、その精神構造の秘密。
+  quotes:
+  - quote: 「とっても元気。可愛い子ですね――大きくなったら、どんな腕さんになるのかしら。いまから楽しみです」
+    paragraph: p219
+    quote_verified: true
+  expected_payoff: 彼女が既にグレンデルヒ的な「歪んだ世界観」に深く染まっていることの証明として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語（歴史）を解釈する者は、過去に対する絶対的な権力を持つが、それは暴力でもある
+  weight: 0.9
+  quotes:
+  - quote: それは、『未来』という特権を振りかざした『過去』への権力行使だ。
+    paragraph: p41
+    quote_verified: true
+  - quote: 俺は、未来人である自分が一方的に彼らを思いのままにしてしまう、そんな暴力性を意識するあまり、躊躇いを抱いていた気がする。
+    paragraph: p44
+    quote_verified: true
+  note: 主人公が「作者/観客」として過去（作中人物）を操ることの倫理的葛藤と、その権力行使がもたらす歪み（ヴァージルの崩壊）を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 産まれ・出自に対する責任は親にあるという「自己愛」の暴走が破滅を呼ぶ
+  weight: 0.7
+  quotes:
+  - quote: 僕をこんな耳で生んだのはママだもの。子供を産むのは母親の責任でしょう？　ママがちゃんとしてないからこんなふうになったんだよ。
+    paragraph: p146
+    quote_verified: true
+  note: ヴァージルが自らの不幸（異形の身体）を母の責任とし、他者への攻撃に変換する姿は、グレンデルヒ的な「被害者の加害者化」の構造を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 呪術的・物語的な「不条理」は、愛によってのみ受容されうる
+  weight: 0.6
+  quotes:
+  - quote: その手を撫でて、腕を抱えたまま、赤子をあやすようにゆっくりと揺らす。
+    paragraph: p220
+    quote_verified: true
+  - quote: 右腕から緊張がとれ、弛緩した状態で母に体重を預ける。
+    paragraph: p221
+    quote_verified: true
+  note: 論理や正史（筋書き）では説明のつかない不気味な産物に対し、テスモポリスが「母性」のみで応答することで、物語は歪みつつも継続する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 演劇における「台本（正史）」と「即興（改変）」の境界の崩壊
+  weight: 0.5
+  quotes:
+  - quote: ヴァージルが腕を振り、俺の想定していた筋書きと共に神を粉砕した。
+    paragraph: p65
+    quote_verified: true
+  - quote: 「このクソ野郎、ふざけたことをっ」
+    paragraph: p198
+    quote_verified: true
+  note: 予定された筋書き（台本）がキャラクターの暴走によって粉砕され、観客/演者も感情を剥き出しにする混沌。物語の制御不可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,249 @@
+chapter: ch5276
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 4
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5276_ウォゾマ_says_予防と優生_p332334]]'
+  object: '[[ME_優生学_eugenics]]'
+  claim: ウォゾマが主張する「後世のために病の原因を事前に取り除き、予防すること」は、歴史的な優生学政策（不妊手術強制法など）と構造的に一致している。
+  quote: 『後世のために病の原因を事前に取り除き、予防すること』――それは、まじない使いであるウォゾマがかねてより主張している、人々に健康な暮らしを送らせるための方策であった。
+  paragraph: p332
+  confidence: explicit
+  quotes:
+  - quote: 『後世のために病の原因を事前に取り除き、予防すること』――それは、まじない使いであるウォゾマがかねてより主張している、人々に健康な暮らしを送らせるための方策であった。
+    paragraph: p332
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5276_ウォゾマ_says_障害児の処分_p296298]]'
+  object: '[[ME_ASDHD支援・合理的配慮論争]]'
+  claim: 「健康に生きるごく普通の人々が、これらの忌まわしい種によって穢される」という主張は、現代社会における障害者の就労や教育の現場で起きる「健常者中心主義」的な排除のロジックを映している。
+  quote: 健康に生きるごく普通の人々が、これらの忌まわしい種によって穢されることを想像してみるがいい。なんと胸くそ悪いことか。このような不正義を許容することは断じて罷り成らん。
+  paragraph: p296
+  confidence: strong
+  quotes:
+  - quote: 健康に生きるごく普通の人々が、これらの忌まわしい種によって穢されることを想像してみるがいい。なんと胸くそ悪いことか。このような不正義を許容することは断じて罷り成らん。
+    paragraph: p296
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5276_ウォゾマ_says_石女への処罰_p115]]'
+  object: '[[ME_家父長制下的な女性蔑視・子産み装置]]'
+  claim: 子を孕めぬことを「不良品」「男に恥をかかせた罪人」として断じる行為は、歴史的・文化的な家父長制における女性の機能主義的扱いを風刺している。
+  quote: これは石女（うまずめ）だ。子を孕めぬ不良品であるゆえ、ここに連れてきた。男に恥をかかせた罪人を村で生かしておく意味は無い。
+  paragraph: p115
+  confidence: strong
+  quotes:
+  - quote: これは石女（うまずめ）だ。子を孕めぬ不良品であるゆえ、ここに連れてきた。男に恥をかかせた罪人を村で生かしておく意味は無い。
+    paragraph: p115
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5276_左の頭_other_抑圧された心_p381383]]'
+  object: '[[ME_フロイトのプロイド・エゴ・超自我/ユングのシャドウ]]'
+  claim: 三つの頭がそれぞれ「理性」「感情（抑圧された本我）」を司るという設定は、人間の精神構造を身体化し、内的葛藤を外的な対話として描く心理学的メタファーである。
+  quote: 俺はお前の奥に潜んでいた、抑圧された心の表れだ。理性を司る中央のお前が深く傷付き、耐え難いと感じた時に俺が表に出てこられるんだ。
+  paragraph: p381
+  confidence: strong
+  quotes:
+  - quote: 俺はお前の奥に潜んでいた、抑圧された心の表れだ。理性を司る中央のお前が深く傷付き、耐え難いと感じた時に俺が表に出てこられるんだ。
+    paragraph: p381
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5276_ウォゾマ_says_不健康への軽蔑_p356361]]'
+  object: '[[ME_アトピー性皮膚炎・慢性疾患患者への社会的スティグマ]]'
+  claim: 皮膚の炎症や痒みによる行動（掻き毟り、フケ）を「うるさい」「不快」として個人の問題に帰し、社会資源の配分を拒む態度は、慢性疾患を持つ人々に対する現代の無理解な社会構造を批判している。
+  quote: 少しは我慢しろというのだ、周囲がどれだけ不快になるかわからんのか
+  paragraph: p356
+  confidence: moderate
+  quotes:
+  - quote: 少しは我慢しろというのだ、周囲がどれだけ不快になるかわからんのか
+    paragraph: p356
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5276_ヒュールサス_is_located_大河の流域_p6162]]'
+  object: '[[ME_ギリシャ神話・ケルベロスと冥界への門]]'
+  claim: 三つ首の犬が「生と死の境界」を番見し、冥界への道（ヒュールサス）を守っているという設定は、ギリシャ神話における冥界の番犬ケルベロス（三頭犬）の伝承に直接的に対応している。
+  quote: ここより外は生者が暮らす世界。ここより内側は死者が暮らす冥界。……私は誰かがうっかりこの中に迷い込まないよう、ここで見張りをしているというわけだね。
+  paragraph: p202
+  confidence: explicit
+  quotes:
+  - quote: ここより外は生者が暮らす世界。ここより内側は死者が暮らす冥界。……私は誰かがうっかりこの中に迷い込まないよう、ここで見張りをしているというわけだね。
+    paragraph: p202
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5276_少年_appears_as_兎耳の美少年_p4041]]'
+  object: '[[ME_ウサギ座/月神話・異界からの使者]]'
+  claim: 月の住人であり、兎の耳を持つ美少年ヴァージルというキャラクターは、世界中に散見される「月に住むウサギ」や「月世界からの訪問者」という神話的モチーフ（竹取物語のかぐや姫など）を想起させる。
+  quote: 白皙の肌、柔らかそうな兎の耳、天与のものとしか思えぬかんばせ。
+  paragraph: p41
+  confidence: moderate
+  quotes:
+  - quote: 白皙の肌、柔らかそうな兎の耳、天与のものとしか思えぬかんばせ。
+    paragraph: p41
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5276_ウォゾマ_says_治療拒否の理由_p318325]]'
+  object: '[[ME_医療経済・Triage（トリアージ）]]'
+  claim: 「金と労力がかかる」「健常な患者を優先する」という発言は、医療資源が限られる状況下での合理的判断（トリアージ）やコストパフォーマンスを追求する現代の医療倫理の極端な形をパロディ化している。
+  quote: 治療には金と労力がかかるのだ。私には他にも診てやらねばならない健常な患者たちが沢山いるのだよ。
+  paragraph: p325
+  confidence: strong
+  quotes:
+  - quote: 治療には金と労力がかかるのだ。私には他にも診てやらねばならない健常な患者たちが沢山いるのだよ。
+    paragraph: p325
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_少年の消失
+  note: サイザクタートがウォゾマに反逆し宣言した瞬間、茂みの中の少年（ヴァージル）の寝息が消えている。これは少年の死か、異界への移動かを暗示している。
+  quotes:
+  - quote: 叫ぶような言葉に、ウォゾマがたじろぐ。そして、これは誰も気付いていないことではあったが、いつしか茂みの下からは安らかな寝息がしなくなっていた。
+    paragraph: p399
+    quote_verified: true
+  expected_payoff: 次章以降で少年の行方（死亡、脱出、さらなる変容）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_左の頭の覚醒条件
+  note: サイザクタートの左の頭は通常眠っているが、ウォゾマへの激しい怒り（抑圧された感情）を契機に覚醒し、肉体を支配した。この「多頭構造」の制御メカニズムや、他の頭との関係が今後の展開で重要になる可能性が高い。
+  quotes:
+  - quote: 今まで目を閉じて目覚めることが無かった左右の頭。それが、どうしてか目を覚まして、その上サイザクタートの意思に関係無く肉体を動かしている。
+    paragraph: p374
+    quote_verified: true
+  - quote: 理性を司る中央のお前が深く傷付き、耐え難いと感じた時に俺が表に出てこられるんだ。
+    paragraph: p381
+    quote_verified: false
+  expected_payoff: サイザクタートの人格の分裂・統合、あるいは他の頭（右側）の覚醒とそれに伴うドラマが展開する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_外なる猫
+  note: 流星（宇宙船）を「外なる猫」と呼ぶ伝承に言及している。これはこの世界における「月」や「宇宙」に関する禁忌的な神話設定を示唆しており、ヴァージルの出身地である太陰との関連が疑われる。
+  quotes:
+  - quote: 「もしやこれは噂に聞く外なる猫なのでは。それとも、神々の投げ槍か？　いやいや、そんな馬鹿な」
+    paragraph: p19
+    quote_verified: true
+  expected_payoff: 世界観の深層にある「月神話」や宇宙との接触に関する設定が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_冥界への道ヒュールサス
+  note: 村の名前であり、生と死の境界を意味する場所。ここを通る者（特に死者）は消えるか、異界へ行く。この地の物理的・魔術的な特性が物語の舞台として機能し続ける。
+  quotes:
+  - quote: その御許へと赴くと言う事はこの世での生を終えるということなんだ
+    paragraph: p217
+    quote_verified: true
+  expected_payoff: ヒュールサスという土地自体が、物語の重要なキーとなる場所（冥界へのゲート）として描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 機能主義的社会における「弱者」の選別と排除
+  weight: 0.9
+  quotes:
+  - quote: 健康に生きるごく普通の人々が、これらの忌まわしい種によって穢されることを想像してみるがいい。
+    paragraph: p296
+    quote_verified: true
+  - quote: 正しい血を守り、生きるに値しない生命を間引く。これは、共同体を維持するために必要不可欠なことだ。
+    paragraph: p361
+    quote_verified: false
+  note: ウォゾマの行動原理は完全に社会全体の効率と健全性（優生学的観点）に基づいており、個々の命の尊厳を「生産性」や「健康」という基準で測り、不要な者を排除する冷徹な論理が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己受容と他者からの承認（醜い者の美への憧憬）
+  weight: 0.7
+  quotes:
+  - quote: 「私のような醜いけだものが、あんなにも美しく愛らしいひとの目に触れてはいけないのだ」
+    paragraph: p184
+    quote_verified: true
+  - quote: 口調とは裏腹に、サイザクタートの瞳は焦がれるように茂みの奥に注がれたままであった。
+    paragraph: p187
+    quote_verified: true
+  note: 三つ首の異形（醜さ）と月の王子（美）という対比の中で、サイザクタートは自己否定を行いながらも少年を愛おしむ。この「見えない距離感」が、孤独な者同士の絆を形成する過程にある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 沈黙する権力への暴力による断絶（反逆の始まり）
+  weight: 0.8
+  quotes:
+  - quote: 「もうお前には従わない。冥界の番犬として、私はもう何人たりとも罪なき生者を背後に通さないと決めたのだ」
+    paragraph: p395
+    quote_verified: true
+  - quote: 大地が踏み抜かれ、勢い良く撃ち出された掌底がウォゾマの腹腔に直撃する。
+    paragraph: p369
+    quote_verified: true
+  note: 長年「番犬」として支配者（ウォゾマ）の命令に従順だった存在が、許容できない理不尽（病児への処遇）に対して初めて暴力と宣言によって反逆する瞬間。これは物語の転換点となる主題である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生と死の境界線における「境界人」の苦悩
+  weight: 0.6
+  quotes:
+  - quote: ここより外は生者が暮らす世界。ここより内側は死者が暮らす冥界。
+    paragraph: p202
+    quote_verified: true
+  - quote: 君をここに連れてきたのは、生と死の曖昧な境界に身を置くことで死なないようにするためでもある。
+    paragraph: p206
+    quote_verified: true
+  note: 冥界の番犬サイザクタートは生にも死にも属さない存在であり、その境界で少年を保護しようとする行為は、「中間領域」に留まることへの希望と恐怖を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

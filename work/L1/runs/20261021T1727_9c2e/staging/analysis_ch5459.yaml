@@ -1,0 +1,312 @@
+chapter: ch5459
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 8
+  themes: 6
+  quotes_verified: 24
+  quotes_total: 27
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Alt_Identity_Stabilization]]'
+  object: '[[ME_SNS_Verification_App]]'
+  claim: アルト・イヴニルが臣下からの承認によって自己の存在を維持する構造は、SNSやアプリにおける『いいね』や認証機能による自己確立（アイデンティティの外部依存）に類似している。
+  quote: 臣下たちが答えるたび、分裂しそうなアルトの存在が安定し、王の苦痛が和らいでいく。彼は承認を欲していった。それが無くてはその五体はバラバラに千切れ、彼は彼でいられなくなってしまうだろう。
+  paragraph: p29
+  confidence: strong
+  quotes:
+  - quote: 臣下たちが答えるたび、分裂しそうなアルトの存在が安定し、王の苦痛が和らいでいく。彼は承認を欲していった。それが無くてはその五体はバラバラに千切れ、彼は彼でいられなくなってしまうだろう。
+    paragraph: p29
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Seth_Name_Change]]'
+  object: '[[ME_Egyptian_Mythology_Set]]'
+  claim: シナモリアキラが『セト』を名乗ることは、エジプト神話における混沌と破壊の神セト（Seth）を指しており、彼が秩序ある世界から排除された『周辺』の存在であることを象徴している。
+  quote: 「もう俺は今の『シナモリアキラ』とは別のものだ。原初にして剥き出しの俺は――ああ、じゃあこう名乗ろう。『セト』と」
+  paragraph: p208
+  confidence: explicit
+  quotes:
+  - quote: 「もう俺は今の『シナモリアキラ』とは別のものだ。原初にして剥き出しの俺は――ああ、じゃあこう名乗ろう。『セト』と」
+    paragraph: p208
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Yered_Name_Etymology]]'
+  object: '[[ME_Medieval_Kingship_Leodegar]]'
+  claim: イェレイドという名が「猫の国から伝わった人類始祖の名前（イエレド/レオデガル）の転訛」であるという記述は、中世ヨーロッパ王権（メルヴィング朝など）の系譜学や創設神話への言及を示唆している。
+  quote: 「イェレイドという名は、ジャッフハリマータ表記で歪められたイエレド――猫の国から伝わった人類始祖の一人の名前の転訛なのですよ。」
+  paragraph: p218
+  confidence: moderate
+  quotes:
+  - quote: 「イェレイドという名は、ジャッフハリマータ表記で歪められたイエレド――猫の国から伝わった人類始祖の一人の名前の転訛なのですよ。」
+    paragraph: p218
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_Seth_Dungeon_Shop]]'
+  object: '[[ME_MMO_Game_NPCs]]'
+  claim: フィレクティ（青鹿の妹）がダンジョン至る所でショップ店員として登場し、盗むと追跡されるという記述は、MMORPGやアクションRPGにおけるNPCの仕様やステレオタイプなゲーム的クリシェのパロディである。
+  quote: 「なら知ってるよ。ダンジョンの至る所でショップ店員やってるからな。盗んだら死ぬまで追い回されたけど」
+  paragraph: p132
+  confidence: strong
+  quotes:
+  - quote: 「なら知ってるよ。ダンジョンの至る所でショップ店員やってるからな。盗んだら死ぬまで追い回されたけど」
+    paragraph: p132
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Alt_Psychological_Split]]'
+  object: '[[ME_Consciousness_Expansion_App]]'
+  claim: アルトが「再演された役」として他者の力を統合し、自己の拡張に伴う恐怖（アイデンティティの希薄化）に苛まれる様子は、SNSやメタバースでの自己投影・アバター運用における「自我の拡張と喪失」への不安を反映している。
+  quote: 気を抜くと存在を持って行かれそうになる恐怖、常に叛逆の危機に怯え続ける運命――自分の中で六人が相争い続けているからこそ均衡が保たれている。
+  paragraph: p43
+  confidence: moderate
+  quotes:
+  - quote: 気を抜くと存在を持って行かれそうになる恐怖、常に叛逆の危機に怯え続ける運命――自分の中で六人が相争い続けているからこそ均衡が保たれている。
+    paragraph: p43
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Maracoeda_Poison_Tail]]'
+  object: '[[ME_Scorpion_Kingship]]'
+  claim: マラコーダ（蠍尾）が「毒の尾」を持ち、王を導く役割を持つことは、エジプト神話におけるサソリ（Selket/セルケト）の象徴や、古代近東における王権保護者としてのサソリの寓意に関連している。
+  quote: 水流の腕が渦を巻き、毒の尾が持ち上げられる。
+  paragraph: p318
+  confidence: weak
+  quotes:
+  - quote: 水流の腕が渦を巻き、毒の尾が持ち上げられる。
+    paragraph: p318
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_Seth_Harem_Rank]]'
+  object: '[[ME_Anime_Heroine_Tropes]]'
+  claim: シナモリアキラが自分を「人気のあるサブヒロイン枠」「ハーレムの序列三位」と定義し、メインヒロイン（トリシューラ）とサブヒロイン（コルセスカ）の構図に自らを組み込むのは、アニメ・ゲームにおけるキャラクター配置のメタファーである。
+  quote: 超愛してるぜートリシューラとコルセスカの次くらいに。ハーレムの序列三位に加えてやろう。人気のあるサブヒロイン枠だぞ
+  paragraph: p162
+  confidence: strong
+  quotes:
+  - quote: 超愛してるぜートリシューラとコルセスカの次くらいに。ハーレムの序列三位に加えてやろう。人気のあるサブヒロイン枠だぞ
+    paragraph: p162
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Alt_Self_Fulfillment
+  note: アルト・イヴニルが求めている「愛の力」や「心臓の降臨」が具体的に何をもたらすのか、その実現プロセス。
+  quotes:
+  - quote: 『心臓』の降臨はその願いを成就させる。二人はその為だけに手を結んだ。
+    paragraph: p108
+    quote_verified: true
+  expected_payoff: 第6階層におけるアルトとマラード/アレッテの融合、およびそれが「心臓」や「王国」に与える影響が描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Maracoeda_Origin
+  note: マラコーダ（フィド・シュガ）がトリシューラと接触し、配下になった「不可解な」経緯。クレアノーズの指示があったのか。
+  quotes:
+  - quote: それになにより不可解なのは、最初から示し合わせていたとしか思えないほどにスムーズに配下に加わっている。
+    paragraph: p275
+    quote_verified: true
+  expected_payoff: クレアノーズの真意、あるいはマラコーダがミスカトニカの意志を越えてトリシューラを選んだ理由（愛？）が明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Yered_Past
+  note: イェレイドが「教養深く」、人類始祖の名の由来を知っている背景と、彼が第六階層を追われた真の理由。
+  quotes:
+  - quote: てかイェレ様ってなにげに教養深いっすね
+    paragraph: p226
+    quote_verified: true
+  expected_payoff: イェレイドが光の世界（上層）から追放された経緯や、彼と「塔」の過去の関係性が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Seth_Gadole_Relation
+  note: セト（シナモリアキラ）が第七階層の魔将ガドールと接触し、滞在許可を得た背景。ガドールはイェレイドをどう扱っているのか。
+  quotes:
+  - quote: 「で、結局ガドールって奴から滞在許可は貰えたんだっけ？」
+    paragraph: p128
+    quote_verified: true
+  expected_payoff: 第七階層の勢力図と、セトがそこで果たす役割（イェレイドの共犯者としての行動）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Itsuono_Anima_Fear
+  note: イツノが「男か女か曖昧な存在にうつつを抜かしている場合では無い」と叱咤激励する対象（フィド・シュガへの感情）。
+  quotes:
+  - quote: わたしにーさまを殺して『わたし』が完全になるまで、浮ついた思考は厳禁！
+    paragraph: p264
+    quote_verified: true
+  expected_payoff: イツノの「アニムス（男性性）」統合への欲求と、マラコーダとの対立・共闘の結末。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Triaina_Essence
+  note: アルトが崇める「崇高なるトリアイナ様」の本質とは何か。「愛」そのものなのか、特定の存在か。
+  quotes:
+  - quote: 「ああ、崇高なるトリアイナ様。その本質こそは『愛』に他ならない」
+    paragraph: p87
+    quote_verified: true
+  expected_payoff: 物語全体の終着点における「愛」の定義と、トリアイナ（三柱神）の正体。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Miscatnica_Influence
+  note: 死んでいるはずのミスカトニカが「過去」から干渉し、マラコーダを動かしている具体的なメカニズム。
+  quotes:
+  - quote: ミスカトニカは再演による過去干渉などでしか手出しできない時空からあなた（ラクルラール）という使い魔を送りこんできた
+    paragraph: p309
+    quote_verified: true
+  expected_payoff: 「過去の魔女」の意志が現在のゲーム盤に与える影響と、イツノやトリシューラへの干渉。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Six_Kings_Integration
+  note: アルトが六王の力を統合し「第十三の細胞」となる試みの成否と、その先にある「王国」の形。
+  quotes:
+  - quote: '「そしてアレッテ、あるいはバーガンディア」
+
+      「新たに第十三の細胞となった、『塔（ファルス）』のアルト・イヴニル」'
+    paragraph: p25-p27
+    quote_verified: true
+  expected_payoff: アルトが完全な王権を確立するか、それとも自我が崩壊し「まがいもの」として消滅するか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 存在の維持は他者による承認（ラベリング）を必要とし、孤独は自己の崩壊を招く。
+  weight: 0.9
+  quotes:
+  - quote: 臣下たちが答えるたび、分裂しそうなアルトの存在が安定し、王の苦痛が和らいでいく。彼は承認を欲していった。
+    paragraph: p29
+    quote_verified: true
+  - quote: 俺が、まがいものの私がここにいていいのだという救済が！
+    paragraph: p103
+    quote_verified: true
+  note: アルトの自己確立は臣下の「あなたは王です」という定義によってのみ維持されており、社会性（承認）がないと自我が崩壊する構造を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「愛」は究極の権力であり、家族・共同体という最小単位の聖性を回復させる力である。
+  weight: 0.8
+  quotes:
+  - quote: それは『善』。それは『正義』。それは『慈悲』。それは――『道徳』
+    paragraph: p80
+    quote_verified: true
+  - quote: 家族という、最小単位を父と母と子の三要素で構成可能な聖なる形。
+    paragraph: p73
+    quote_verified: true
+  note: 政治的・軍事的な力ではなく、「愛」こそが権力の根源（道徳・正義）であるとアルトが結論づけ、その実現（心臓の降臨）を求めている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「周辺（辺境）」に追いやられた存在は、光の世界を否定し、死と欲望による即物的な生を肯定する。
+  weight: 0.7
+  quotes:
+  - quote: 俺に相応しいのはこのくそったれな闇の底だけ。明るい方をアルト・イヴニルにくれてやったのはそういうことなんだろ
+    paragraph: p180
+    quote_verified: true
+  - quote: ぶち犯してぶち喰らってとくに意味もねーけど気まぐれに尊い命をカジュアル消費。それが俺だろ？
+    paragraph: p193
+    quote_verified: true
+  note: シナモリアキラ（セト）は、光の世界の理想や愛の叙事詩から離脱し、闇の底での快楽・破壊・死を享受する「周辺」の論理を体現している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 忠誠とは目的への合理的な適合であり、感情を伴わない「使い魔」としての冷徹さがある。
+  weight: 0.6
+  quotes:
+  - quote: 優先度の低いサブ・プランとして、あらゆる状況に適応するための代替品として、使えるものは区別せずに使う――そこに感情や誇りの介在する余地は無い。
+    paragraph: p340
+    quote_verified: true
+  - quote: 全ては、ラクルラールのために
+    paragraph: p366
+    quote_verified: true
+  note: イツノとマラコーダの対話から、主人公（トリシューラ）を「守る」ことへの忠誠が、実は目的遂行のための冷徹な計算に基づくことが示唆されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 名前は自己の本質を定義し、改名は過去の自我からの脱却（再生）を意味する。
+  weight: 0.5
+  quotes:
+  - quote: 「もう俺は今の『シナモリアキラ』とは別のものだ。原初にして剥き出しの俺は――ああ、じゃあこう名乗ろう。『セト』と」
+    paragraph: p208
+    quote_verified: true
+  - quote: '「王よ、あなたはマラード」
+
+      「王よ、あなたはアルト」'
+    paragraph: p21-p23
+    quote_verified: true
+  note: シナモリアキラが「セト」と名乗り過去を断絶しようとする行為と、アルトが名前を与えられ自己を固定しようとする行為が対比されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 歴史や神話（イェレイドの名前など）は「嘘」で彩られた虚構であり、現実はその上にある。
+  weight: 0.4
+  quotes:
+  - quote: 「いえ、こちらの与太話ですわ。イェレイドという名は、ジャッフハリマータ表記で歪められたイエレド――猫の国から伝わった人類始祖の一人の名前の転訛なのですよ。」
+    paragraph: p218
+    quote_verified: false
+  - quote: 「嘘吐けお前こないだ『イェル』が恐怖の意味とか言ってただろ」
+    paragraph: p220
+    quote_verified: true
+  note: イェレイドの由来が即座に否定されることで、物語における「権威ある歴史」や「起源」がいかに恣意的で虚構的なものであるかを皮肉っている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

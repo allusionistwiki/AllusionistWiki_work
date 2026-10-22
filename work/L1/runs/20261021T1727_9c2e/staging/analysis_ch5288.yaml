@@ -1,0 +1,230 @@
+chapter: ch5288
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5288_アキラ_activates_サイバーカラテ道場Ver2.0_p297]]'
+  object: '[[ME_Smartphone_App_Boot]]'
+  claim: 異世界の呪術システムが、現代のスマートフォンOSにおけるアプリ起動プロセス（マルチタスク・常駐起動）と構造的に一致している。
+  quote: 存在しない脳、存在しない脳侵襲機器の内部で、架空のアプリが起動する。その記憶を覚えている左腕の過去から呼び起こす。
+  paragraph: p297
+  confidence: strong
+  quotes:
+  - quote: 存在しない脳、存在しない脳侵襲機器の内部で、架空のアプリが起動する。その記憶を覚えている左腕の過去から呼び起こす。
+    paragraph: p297
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5288_カーイン_kills_生き残りの山賊たち_p149]]'
+  object: '[ME_Aesthetic_Violence]'
+  claim: 暴力の美化（血飛沫を薔薇の花に見立てる描写）は、ゲームやアニメにおける「爽快感」のための演出技法であり、現実の残酷さを消去するメタフィクション的処理である。
+  quote: 漂う血の臭いは芳しい薔薇の香りであり、凄惨な光景は目に優しいピンク色の内臓で緩和され、フェロニアは血塗られた芸術をただ美しいと感じてしまった。
+  paragraph: p149
+  confidence: strong
+  quotes:
+  - quote: 漂う血の臭いは芳しい薔薇の香りであり、凄惨な光景は目に優しいピンク色の内臓で緩和され、フェロニアは血塗られた芸術をただ美しいと感じてしまった。
+    paragraph: p149
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5288_ミシャルヒ_uses_夢幻泡影_p132]]'
+  object: '[ME_Kimono_Martial_Arts]'
+  claim: 「残像」「歩法」「魂魄への直接打撃」という技の記述は、日本の武侠小説や格闘ゲームにおける「気功」や「残像技」のクリシェを参照している。
+  quote: 私の実像を追う者は私を見失い、私の影を追う者はこの触掌の餌食となる。お前たちが見ているのは残像に過ぎない。特殊な歩法による幻惑――と言うとありきたりだがな
+  paragraph: p127
+  confidence: moderate
+  quotes:
+  - quote: 私の実像を追う者は私を見失い、私の影を追う者はこの触掌の餌食となる。お前たちが見ているのは残像に過ぎない。特殊な歩法による幻惑――と言うとありきたりだがな
+    paragraph: p127
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5288_アキラ_activates_幻肢の力・幽体リモートデスクトップ_p301]]'
+  object: '[ME_Remote_Desktop_Technology]'
+  claim: 「幽体リモートデスクトップ」という命名は、肉体（端末）が脆弱な状態でも、精神（サーバー）を遠隔操作して処理能力を補うというIT技術の比喩である。
+  quote: もいっこ追加で、架空アプリ起動！　呪術行使支援アプリ【幻肢の力】・【幽体リモートデスクトップ】起動だよっ！
+  paragraph: p301
+  confidence: explicit
+  quotes:
+  - quote: もいっこ追加で、架空アプリ起動！　呪術行使支援アプリ【幻肢の力】・【幽体リモートデスクトップ】起動だよっ！
+    paragraph: p301
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5288_岩肌種_has_property_保護色_p109]]'
+  object: '[ME_Nature_Mimicry]'
+  claim: モンスターが環境に同化して待ち伏せる描写は、生態学的な擬態（カモフラージュ）の原理を奇幻世界の生物設計に応用したものである。
+  quote: 灰色の肌はあたかも岩石のそれであり、そこら中に落ちている大きな石と遠目には区別がつかない。保護色のように、岩と同化して待ち伏せしていたのだろう。
+  paragraph: p109
+  confidence: strong
+  quotes:
+  - quote: 灰色の肌はあたかも岩石のそれであり、そこら中に落ちている大きな石と遠目には区別がつかない。保護色のように、岩と同化して待ち伏せしていたのだろう。
+    paragraph: p109
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5288_アキラ_thinks_力への渇望_p249]]'
+  object: '[ME_Power_Leveling_Mechanic]'
+  claim: 主人公が「借り物でも付け焼き刃でもいいから」圧倒的な力を渇望する心理は、RPGにおけるレベル上げや装備強化のゲーム的欲求を反映している。
+  quote: 強さが欲しい。借り物でも付け焼き刃でもいいから、今すぐに全ての困難を取り除くことができる圧倒的な力が。
+  paragraph: p249
+  confidence: moderate
+  quotes:
+  - quote: 強さが欲しい。借り物でも付け焼き刃でもいいから、今すぐに全ての困難を取り除くことができる圧倒的な力が。
+    paragraph: p249
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_パーンの幼い表情の正体
+  note: フェロニアがパーンに「驚くほどの幼さ」を見たことが、パーンの本質や過去に関わる重要なヒントとなる可能性が高い。
+  quotes:
+  - quote: '闇の中に消えていく少女。月光の下に取り残される男。
+
+      助けを求める声を飲み込んだ少女を見たパーンの表情が、一瞬だけ歪んだ。
+
+      怒りではない。他の何かの感情によって。'
+    paragraph: p179-p181
+    quote_verified: true
+  - quote: 暗闇の奥へと攫われていく途中、少女は驚くほどの幼さをパーンの表情に見たのだった。それが、どうしようもなく気になった。
+    paragraph: p183
+    quote_verified: true
+  expected_payoff: パーンの性格形成の起源、あるいは彼が「空使い」に至るまでの悲劇的な過去（ダウザールとの関係等）のフラッシュバックとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_山賊頭領とレストロオセの関係
+  note: パーンが予言した「山賊頭領がジャッフハリムに接近し呪祖レストロオセの右腕になる」という未来像。
+  quotes:
+  - quote: この山に巣くっている賊の頭領はな、不遜にも山賊の分際で王を名乗り、その類い稀な力で北方に覇を唱えることになる。そして、ジャッフハリムに接近し呪祖レストロオセの右腕となるのだ
+    paragraph: p61
+    quote_verified: true
+  expected_payoff: この章で逃げた山賊（または頭領）が、後の物語における中ボスとして再登場し、パーンの予言通り邪神の配下として行動する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ちびシューラの言語魔術の内容
+  note: ちびシューラがアキラに囁いた「準備していた言語魔術」による変換・強化の内容。
+  quotes:
+  - quote: 'あのね、アキラくん。シューラ、ちょっと思いついた事があるんだけど、今なら、こんな事もあろうかと準備していた言語魔術でアキラくんの――）
+
+      その先を聞いて、俺の呼吸は確実に止まった。'
+    paragraph: p277-p278
+    quote_verified: true
+  expected_payoff: 次の章で発動する具体的な呪文名や、アキラの霊体能力（サイバーカラテ）の大幅な強化仕様として明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_巨大幻肢の主
+  note: フェロニアを攫った「巨人の腕」の正体。パーンが「俺のものだ」と叫んだことから、パーンの知人または同族の可能性が高い。
+  quotes:
+  - quote: '「貴様、それは俺のものだっ」
+
+      パーンが叫びながら右の幻肢を伸ばす。どこまでも飛んでいく魂の身体が、裂帛の気合いを架空の掌から解き放った。
+
+      眼鏡の奥の目が愕然と見開かれた。'
+    paragraph: p169-p171
+    quote_verified: true
+  expected_payoff: 地下洞窟のボス（巨人種族）として登場し、パーンとの因縁が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 演技者（役者）と役柄の境界溶解によるアイデンティティの侵食
+  weight: 0.9
+  quotes:
+  - quote: '俺はグラを通じて彼を演じるうちに、そんなことを思い始めていた。
+
+      台本の指定ではパーンは冷酷で残忍な言動を繰り返し、人を人とも思わないような仕打ちでフェロニアを傷つける。'
+    paragraph: p231-p234
+    quote_verified: true
+  - quote: 自分の役者としての演技が役に引き摺られているという事実に愕然としつつ、俺は必死に架空の台本を振りかざして役の暴走を抑え込もうとする。全ては焼け石に水だ。パーンは余りにも自由だ。
+    paragraph: p247
+    quote_verified: true
+  note: 主人公アキラが、演じているはずのキャラクター（パーン）の精神や行動原理に同化・支配されていくメタフィクショナルな恐怖と葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術移転（未来知識）による超越的な力の獲得
+  weight: 0.8
+  quotes:
+  - quote: 俺はな、勝てない相手に勝つためには力を外付けするのが最適解だと考えている――奴の巨大な幻肢は俺のそれを上回る。ならばどうするか。答えは一つだ。俺自身の力で敵わないのなら俺以外の力を利用するまで
+    paragraph: p255
+    quote_verified: true
+  - quote: サイバーカラテにおける心技体のうち二つが揃う。だが俺の肉体はあまりにも脆弱でちっぽけな左腕ひとつ。ならば、足りない部分は呪術で補う。魔女はそれを可能とするのだ。
+    paragraph: p298
+    quote_verified: true
+  note: 「ガレニス（幻肢）」という身体能力の不足を、現代の知識（アプリ・サイバーカラテ）という「外付け」技術で補完し、異世界の論理を破壊する試み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 弱者の視点から見た絶対的権力への畏怖と憧憬
+  weight: 0.6
+  quotes:
+  - quote: '長く艶やかな黒髪を背中に流した男は、喩えようもないほどに美しく見えた。
+
+      容姿もそうなのだが、その佇まいや表情といった雰囲気が洗練されている。奴隷に身をやつして長いフェロニアには、彼の振るまいが眩しかった。'
+    paragraph: p16-p17
+    quote_verified: true
+  - quote: 'パーンの本質とは、高みから自分とは大きさが異なる虫を眺める残酷な子供にも似た何かなのでは。
+
+      我知らず震えていたフェロニアは、パーンの恐ろしさに気を取られて周囲の様子が変化していることに気付くのが遅れた。'
+    paragraph: p100-p102
+    quote_verified: true
+  note: 奴隷という立場の少女フェロニアを通じて描かれる、超常的な存在（パーン・カーイン）に対する支配と被支配の関係性。美しさと残酷さの表裏一体。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「正しさ」の再定義：自力救済と法的手続きの対立
+  weight: 0.4
+  quotes:
+  - quote: 正規の司法手続きや占有権の存在を嘲笑うように、自力救済を謳うパーン。一応、奪われた直後に追跡して奪い返すのは俺の常識に照らし合わせても合法なのだが、そんな所でアウトローっぽく振る舞われても困る。
+    paragraph: p268
+    quote_verified: true
+  note: パーンの行動原理が「力ある者の正しき振る舞い」であることに対し、現代の法理・社会通念を持つアキラが違和感を抱く倫理的な衝突。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

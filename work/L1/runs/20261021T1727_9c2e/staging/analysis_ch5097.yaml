@@ -1,0 +1,115 @@
+chapter: ch5097
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 11
+items:
+- kind: mystery
+  name: MY_sister_identity_mirror
+  note: トリシューラとクレアノーズ（姉）の鏡写し関係。p68で「本物はどちらか」と問われ、ネガポジの姿が入れ替わる描写がある。
+  quotes:
+  - quote: 裏返しになるイマジナリーフレンド。鏡写しになった姉妹のうち、本物は果たしてどちらだったのか。鏡の中で砕け散ったトリシューラの姿にノイズが走って別の姿と入れ替わる。白銀の髪と青い瞳。赤い髪と緑の瞳。ネガポジの風景の中で、誰かの想像上の妹をモデルに製造されたアンドロイドの設計図が浮かび上がる。
+    paragraph: p68
+    quote_verified: true
+  expected_payoff: トリシューラ自身もアンドロイドまたは複製であり、クレアノーズとの関係性が「コピー元とコピー」あるいは「理想と現実」の対立として描かれる展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_shura_name_origin
+  note: p66で言及される「青い瞳の貴方」と「シューラ」という名前。トリシューラの由来、およびイマジナリーフレンドとしての存在の起源を示唆する。
+  quotes:
+  - quote: 小さな私を『シューラ』と呼んで可愛がる、青い瞳の貴方はなんて名前だったっけ――？
+    paragraph: p66
+    quote_verified: true
+  expected_payoff: トリシューラの記憶喪失や人格の再構成において、この「青い瞳」の人物が彼女を形成した根源的な存在（または廃棄された原型）であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trishula_scythe_origin
+  note: p17で言及される「破壊神の持つ槍」からの名前由来と、インド神話との照応関係。p19での「愚問」という返答が意味するもの。
+  quotes:
+  - quote: その問いを投げかけたのは、自らの名前がその国の神話において屈指の知名度を誇る破壊神の持つ槍から来ていることを――厳密にはその槍の神話的位相がこの世界のものと照応関係にあることを知っていたからだ。
+    paragraph: p17
+    quote_verified: true
+  expected_payoff: インドからの候補者がいない理由（バーチャルリアリティ化していない等）と、トリシューラ自身の起源・力の本質が神話的象徴に紐付いていることの解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ideal_self_projection
+  note: p57-p60で「理想の私」として姉を崇拝し、自己の輪郭が崩れる描写。これが単なる劣等感なのか、技術的な欠陥（設計図）の問題なのか。
+  quotes:
+  - quote: だって彼女は理想の私だ。私にできないことができる、私よりも優れた私。
+    paragraph: p57
+    quote_verified: true
+  expected_payoff: トリシューラの自己崩壊（p63）が単なる心理的現象ではなく、「完全者」への道筋における構造的な欠陥として回収される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自我の希薄化と他者による補完：自らの価値観・人格を、選定した「使い魔（他者）」を通じて構築しようとする自己中心的な共依存的関係。
+  weight: 0.9
+  quotes:
+  - quote: 結局、自分には人としての『それらしさ』が生得的にそなわっておらず、経験的に獲得することすらおぼつかない出来損ないのままだった。ならば、より広範囲から『人』のモデルケースを持ってきて観察し、自らに足りないものを手に入れればいい。
+    paragraph: p27
+    quote_verified: true
+  - quote: どんな風に衝撃的な出会いを演出してやろうか。二度と忘れられない、とびきり鮮烈な体験を与えてあげたい。それでいて、自分の為にもなる合理的な意味内容を含んでいると良い。トリシューラという私らしさを最初に提示して、自己紹介に変えてしまおうと思いつく。
+    paragraph: p46
+    quote_verified: true
+  note: 主人公が他者を「素材」として消費し、自己のアイデンティティを構築しようとする動機。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 理想と現実の鏡像的破綻：姉（クレアノーズ）という「理想」への追従が、自己の存在証明を破壊し、鏡像の中の自分を見失うプロセス。
+  weight: 0.85
+  quotes:
+  - quote: だって私は、彼女みたいに立派な存在になりたいのだから。そう気付いた途端、自分が自分であると、信じられなくなった。
+    paragraph: p60-p61
+    quote_verified: true
+  - quote: 鏡写しになった姉妹のうち、本物は果たしてどちらだったのか。鏡の中で砕け散ったトリシューラの姿にノイズが走って別の姿と入れ替わる。
+    paragraph: p68
+    quote_verified: true
+  note: ミラーイメージとしての姉妹関係が、自己認識の崩壊を引き起こす核心テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生命の物象化とペット飼育の倫理：転生者（人間）を「使い魔」「模型」「人形」として扱い、その存在価値を操作・所有しようとする権力構造。
+  weight: 0.75
+  quotes:
+  - quote: これは外宇宙の生物をペットにするのにも等しい行為だ。どんな風に名前を呼んであげるのがいいだろう。呼び捨て？ それとも愛称？ 『彼』の母語は敬称が豊富だ。
+    paragraph: p35-p37
+    quote_verified: true
+  - quote: 気がつけば幾つもの着せ替え人形が出来上がり、丁度良いとばかりにそれらを相手に主従関係の予行練習を行う始末。それが幼少期に通り過ぎたはずのおままごとの延長だと気付いて、遠い記憶、『姉』と共に空想の中で戯れたことを思い出す。
+    paragraph: p40-p42
+    quote_verified: true
+  note: 人間関係が玩具（模型・人形）やペット飼育のレベルにまで矮小化・物象化されていることの描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報の漂流と存在の再構成：転生事故による「情報体」の流出を、データとして蓄積・再構成する技術的な視点から見た魂と記憶のあり方。
+  weight: 0.6
+  quotes:
+  - quote: そうして外の世界から漂着した情報構造体は古来より【墓標船】と呼ばれ、有益か無益かを問わず様々な情報をこの世界にもたらしてきた。【星見の塔】の技術をもってすれば、【墓標船】内部に蓄積されたデータから同一の存在を再構成することも不可能ではない。
+    paragraph: p21
+    quote_verified: true
+  note: 魂や人格がデジタルな情報構造として扱われ、「沼男」のような再構成された存在を生み出す基盤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

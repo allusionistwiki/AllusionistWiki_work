@@ -1,0 +1,239 @@
+chapter: ch5178
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 19
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5178_戦場小説_defines_社会的利用形態_p11]]'
+  object: '[[ME_Light_Novel_Genre_Conventions]]'
+  claim: 迷宮小説というジャンルが、内容よりも「待機中の暇つぶし」というメタ的な消費形態で定義されていることは、ライトノベルというジャンルの産業的・社会的側面（移動時間や休憩中の娯楽）を指喩している。
+  quote: 戦場小説あるいは迷宮小説と呼ばれる、その内容よりも社会的な利用形態に重きをおいて定義されるジャンルの小説である。
+  paragraph: p11
+  confidence: strong
+  quotes:
+  - quote: 戦場小説あるいは迷宮小説と呼ばれる、その内容よりも社会的な利用形態に重きをおいて定義されるジャンルの小説である。
+    paragraph: p11
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5178_リーナ_uses_幻覚呪術_p4]]'
+  object: '[[ME_EBook_vs_Physical_Book_Debate]]'
+  claim: 情報的な書籍に幻覚で「手触り」や「重さ」を付与し『本を読んでいる実感』を求めるリーナは、電子書籍普及時代における紙の書物へのノスタルジーと物理的メディアの価値を象徴している。
+  quote: 実体の存在しない純粋に情報的な書籍でも、幻覚呪術によって『手触り』を再現して重さや項をめくる際の紙の質感などを再現することができる。
+  paragraph: p4
+  confidence: moderate
+  quotes:
+  - quote: 実体の存在しない純粋に情報的な書籍でも、幻覚呪術によって『手触り』を再現して重さや項をめくる際の紙の質感などを再現することができる。
+    paragraph: p4
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5178_サリア_reveals_コルセスカとの戦闘_p185]]'
+  object: '[[ME_Power_Level_Inflation_Narrative]]'
+  claim: 「足止めして追放が精一杯だった」という結果を「負けた」と定義するサリアの感覚は、主人公が勝つことを前提とする冒険譚において、「倒せなかった敵」こそが最強であることを示す力関係のインフレ構造（Power
+    Creep）のパロディである。
+  quote: どんな固有種や魔将だって正面から倒してきた私たち三人が、足止めして追放が精一杯だったって話よ
+  paragraph: p189
+  confidence: strong
+  quotes:
+  - quote: どんな固有種や魔将だって正面から倒してきた私たち三人が、足止めして追放が精一杯だったって話よ
+    paragraph: p189
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5178_カタルマリーナ派_bonds_ペリグランティア派_p313]]'
+  object: '[[ME_Academic_Medical_Patent_Disputes]]'
+  claim: 魔女の派閥間における「技術供与」や「不戦協定」という政治的取引は、現代の製薬業界における特許権争いやアカデミア内の研究資源分配を巡る政治力学のアナロジーである。
+  quote: おそらくは呪文関連の技術供与。そして不戦協定、あるいは協力関係を結ぶといったようなものが。
+  paragraph: p314
+  confidence: moderate
+  quotes:
+  - quote: おそらくは呪文関連の技術供与。そして不戦協定、あるいは協力関係を結ぶといったようなものが。
+    paragraph: p314
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5178_ペイル_deceives_ティリビナの民_p100]]'
+  object: '[[ME_Red_Herring_Trope]]'
+  claim: ペイルの下品な行動が結果的にミルーニャへの敵意を緩和させるという展開は、物語の緊張を解くためにあえて「道化」や「外連味（Red Herring）」を利用する演劇的構造と一致する。
+  quote: 結果的に、彼の下品極まりない言動のお陰でミルーニャに対する敵意に歯止めがかかったような気もする。
+  paragraph: p100
+  confidence: moderate
+  quotes:
+  - quote: 結果的に、彼の下品極まりない言動のお陰でミルーニャに対する敵意に歯止めがかかったような気もする。
+    paragraph: p100
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5178_死の囀り_appears_無音_p423]]'
+  object: '[[ME_Anti_Monster_Trope]]'
+  claim: 「死の囀り」という名を持つ存在が「音もなく」現れるという事実は、その名前（シグニファイア）と本質（シグニフィエ）を意図的に乖離させることで、プレイヤーの予期する危険信号（音声）を無効化する逆説的なホラー演出である。
+  quote: まさかおぞましき歌声で数多くの人々を発狂させたと伝えられているかの【死の囀り】が、全くの無音で接近してきているなどと、誰が思うだろうか？
+  paragraph: p425
+  confidence: strong
+  quotes:
+  - quote: まさかおぞましき歌声で数多くの人々を発狂させたと伝えられているかの【死の囀り】が、全くの無音で接近してきているなどと、誰が思うだろうか？
+    paragraph: p425
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Missing_Left_Hand
+  note: アキラは「存在しない左手」を掲げて時間を遡行する。この欠損部位と時間の関係性が今後のカギとなる。
+  quotes:
+  - quote: 無いはずの金鎖が、砕ける音がした。
+    paragraph: p506
+    quote_verified: true
+  - quote: 存在しない左手を掲げて、言葉を紡ぐ。
+    paragraph: p505
+    quote_verified: true
+  expected_payoff: アキラが全滅した世界（または過去のループ）から戻ってきた事実と、その対価として失われた「左手」の正体（時間遡行のコストや封印の鍵など）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Meatball_Identity
+  note: 死の囀りの背後にある「成人男性と少女を雑巾絞りのようにした肉塊」の正体。襲撃者（キール隊や敵対組織）が先に殺された結果である可能性が高い。
+  quotes:
+  - quote: 成人男性と少女の二人を雑巾絞りのようにして、互いにぐるぐると縒り合わせたような――そして骨で皮を複雑に砕いて固めたようなあれは一体。
+    paragraph: p457
+    quote_verified: true
+  expected_payoff: この肉塊が誰であるか（キール隊の仲間、シナモリ・アキラの関連者など）が判明し、襲撃者が死の囀りに消滅したという因果関係が確定する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Saria_Hearing_Ability
+  note: サリアが天眼（視覚）ではなく聴覚で索敵を行い、気配を殺す方法を持っている謎。
+  quotes:
+  - quote: どうやら彼女は目ではなく耳で遠くの微かな音を拾っているらしい。
+    paragraph: p401
+    quote_verified: true
+  - quote: 気配を殺すってどうやるのかまるで見当もつかないのだけれど、彼女は一体何者なんだろうか。
+    paragraph: p405
+    quote_verified: true
+  expected_payoff: サリアの出自（第九位っぽい雰囲気という言及からして高位存在との関連？）や特殊な訓練法が明かされ、彼女の真の力と背景が語られる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Halberts_Fear_Of_Sister
+  note: ハルベルトがカタルマリーナを「挨拶してはいけない」「早い」と強く拒絶する理由。単なる師弟関係以上の秘密がある可能性。
+  quotes:
+  - quote: あ、挨拶って、お姉様に挨拶して何する気なの
+    paragraph: p339
+    quote_verified: true
+  - quote: だ、駄目。まだそんなの早い
+    paragraph: p343
+    quote_verified: true
+  expected_payoff: カタルマリーナとの接触がハルベルトの選定や運命を決定づけるイベントであることが判明し、その恐怖の真意（選択の強制、殺害の命令など）が明らかになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Pale_Motive_Deception
+  note: ペイルの「全治一晩の大怪我」という嘘と、その後のミルーニャへの接し方。彼の真意は敵意緩和のためだったのか、それとも別目的か。
+  quotes:
+  - quote: 結果的に、彼の下品極まりない言動のお陰でミルーニャに対する敵意に歯止めがかかったような気もする。
+    paragraph: p100
+    quote_verified: true
+  expected_payoff: ペイルが修道騎士としての任務（監視や保護）の一環として計算高い演技をしていたことが判明し、彼とプリエステラの関係性が深掘りされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶の残滓としての暴力は、本体不在でも世界を殺すことができる。
+  weight: 0.9
+  quotes:
+  - quote: その記憶が刻まれたこの古代世界では、時折その暴力の記憶が呼び覚まされる。まるで世界そのものが悪夢にうなされるように。
+    paragraph: p275
+    quote_verified: true
+  note: カタルマリーナやビークレットという「人」がいなくても、世界に残されたデータ（残響）が実体を持ち殺戮を行うという、情報と存在の乖離を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 不可逆な時間への抵抗としての呪術は、奇跡を要求する。
+  weight: 0.8
+  quotes:
+  - quote: 時間を加速させるのには膨大な呪力が必要だ。停止させるのも不可能に近い奇跡。遡るなど、もっとどうしようもない絵空事。
+    paragraph: p497
+    quote_verified: true
+  note: 物理法則としての時間の不可逆性と、物語として時間巻き戻し（セーブ&ロード）を行うメタ構造の対比。アキラがそれを可能にするための代償が問われる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会統合は「敵意の共有」や「道化」によって維持される。
+  weight: 0.7
+  quotes:
+  - quote: 結果的に、彼の下品極まりない言動のお陰でミルーニャに対する敵意に歯止めがかかったような気もする。
+    paragraph: p100
+    quote_verified: true
+  - quote: ペイルの顔面を殴るという行為そのものが、集団内の結束とガス抜き機能している
+    paragraph: p90
+    quote_verified: false
+  note: ティリビナの民という閉鎖社会において、外部者（ミルーニャ）への敵意をペイルという「スケープゴート」や「道化」が引き受けることでコミュニティの均衡が保たれている構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄譚は「勝てなかった戦い」によってのみ定義される。
+  weight: 0.6
+  quotes:
+  - quote: どんな固有種や魔将だって正面から倒してきた私たち三人が、足止めして追放が精一杯だったって話よ
+    paragraph: p189
+    quote_verified: true
+  note: サリアの語りが示す通り、真の脅威は「戦闘不能」ではなく「敗北（生還できない）」であり、その恐怖が英雄の格を規定する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術の移転と派閥政治は個人の運命を裏切る。
+  weight: 0.5
+  quotes:
+  - quote: カタルマリーナ派とペリグランティア派との間で、何らかの取引があったらしい。おそらくは呪文関連の技術供与。
+    paragraph: p313
+    quote_verified: true
+  note: ミルーニャの襲撃が個人の悪意ではなく、企業・派閥間の政治的取引（技術移転）の副産物であるという構造。個人の物語が巨大な組織力学に翻弄されることへの批判。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

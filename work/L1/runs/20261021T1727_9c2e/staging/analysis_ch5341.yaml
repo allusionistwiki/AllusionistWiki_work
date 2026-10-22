@@ -1,0 +1,211 @@
+chapter: ch5341
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5341_回廊_has_property_気紛れな昇降機_p3]]'
+  object: '[[ME_gacha_game_mechanics]]'
+  claim: 月齢によって開閉する『天地直通の軌道昇降機』は、ガチャやイベントの開放・閉鎖タイミングに依存するゲームシステムを連想させる。
+  quote: 月齢によって閉じたり開いたりする気紛れな天地直通の軌道昇降機（エレベーター）に、私たちは滑り込むようにして突入する。
+  paragraph: p3
+  confidence: moderate
+  quotes:
+  - quote: 月齢によって閉じたり開いたりする気紛れな天地直通の軌道昇降機（エレベーター）に、私たちは滑り込むようにして突入する。
+    paragraph: p3
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5341_アキラ_takes_赤色の呪石_p14]]'
+  object: '[[ME_outdoor_gear_branding]]'
+  claim: 戦闘用装備としての「白とピンクのアウトドアポーチ」は、実在するアウトドアブランド（スノーピーク等）やファッショナブルなギアを想起させ、シリアスな戦場に現代的な生活感を持ち込んでいる。
+  quote: 腰に巻いた白とピンクのアウトドアポーチから赤色の呪石を取り出す。
+  paragraph: p14
+  confidence: strong
+  quotes:
+  - quote: 腰に巻いた白とピンクのアウトドアポーチから赤色の呪石を取り出す。
+    paragraph: p14
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5341_アキラ_repairs_セリアック＝ニアの爪_p230]]'
+  object: '[[ME_nail_salon_service]]'
+  claim: 猫姫の爪にジェルや筆を用いて装飾を施す行為は、現代のネイルサロンにおけるマニキュア・アートサービスをそのまま異世界に転写したものである。
+  quote: 私はポーチから速乾塗料や筆、ブラシなどを取り出して小さなセリアック＝ニアの左の爪に呪紋を描いていった。
+  paragraph: p234
+  confidence: explicit
+  quotes:
+  - quote: 私はポーチから速乾塗料や筆、ブラシなどを取り出して小さなセリアック＝ニアの左の爪に呪紋を描いていった。
+    paragraph: p234
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5341_セリアック＝ニア_has_property_生死の曖昧さによる利用_p194]]'
+  object: '[[ME_schrödinger''s_cat]]'
+  claim: 公的に死亡扱いでありながら、宝石の中で遍在し召喚・再召喚を繰り返すセリアック＝ニアの状態は、量子力学の思考実験「シュレーディンガーの猫」における観測前の重ね合わせ状態を想起させる。
+  quote: 完全に復活させると『生きている』ことが確定してしまい本国に捕捉されてしまうため、生死が曖昧なまま必要に応じて呪石弾で召喚する形で利用させてもらっている。
+  paragraph: p194
+  confidence: strong
+  quotes:
+  - quote: 完全に復活させると『生きている』ことが確定してしまい本国に捕捉されてしまうため、生死が曖昧なまま必要に応じて呪石弾で召喚する形で利用させてもらっている。
+    paragraph: p194
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5341_ジンメンイナゴ_appears_空を埋め尽くす大群_p337]]'
+  object: '[[ME_biblical_plagues_egypt]]'
+  claim: 顔を持つ蝗（イナゴ）の大群による世界への襲来は、聖書出エジプト記における「十の災い」の一つである蝗の災害を連想させる。
+  quote: 蝗――それも顔や手足を備えたジンメンイナゴ。呪殺刑によって永劫に異界で苦しみ続ける生ける墓場の亡者。
+  paragraph: p337-p338
+  confidence: moderate
+  quotes:
+  - quote: 蝗――それも顔や手足を備えたジンメンイナゴ。呪殺刑によって永劫に異界で苦しみ続ける生ける墓場の亡者。
+    paragraph: p337-p338
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5341_アキラ_says_経済的理由の反論_p102]]'
+  object: '[[ME_modern_finance_class_struggle]]'
+  claim: 呪宝石（ガチャ産アイテム）を消耗品として使用することへの「破産」懸念は、現代におけるゲーム課金や高額な維持費に対する経済的格差・階級闘争のメタファーである。
+  quote: ていうか呪宝石とか消耗品として使えるのは貴方たちみたいな大金持ちだけです！ そんなことしたら破産しますよ私！
+  paragraph: p102
+  confidence: strong
+  quotes:
+  - quote: ていうか呪宝石とか消耗品として使えるのは貴方たちみたいな大金持ちだけです！ そんなことしたら破産しますよ私！
+    paragraph: p102
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アレッテ・イヴニルの太陰での目的
+  note: 人形姫が太陰各地で儀式跡を残し、あちらこちらへ移動していた理由。単なる逃走や観光ではない明確な目的が存在する。
+  quotes:
+  - quote: 太陰の各地を巡り、あちらにもこちらにも痕跡を残していたのである。各地には砕け散った岩石の山と、何らかの呪術儀式を行ったと思しき跡。
+    paragraph: p281-p282
+    quote_verified: true
+  expected_payoff: 彼女が収集した情報、または太陰のエネルギー源・封印を解くための準備であることが判明し、物語全体の脅威へとつながる可能性がある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ソムワムンの異常な外見と機能
+  note: 「毒吐き喇叭のソムワムン」という名前の由来（喇叭＝ラッパ）とその身体構造（芋虫、繭、赤子）の関係性。球体関節人形ではないため猫に勝てないという弱点の克服法。
+  quotes:
+  - quote: ほとんど禿げ上がった頭部に生えた髪の毛は全て紫色の芋虫で、伸ばされた長すぎる両腕からぼとぼとと赤い繭が落下している。
+    paragraph: p350
+    quote_verified: true
+  expected_payoff: ソムワムンが吐き出す毒や生成する怪物が、アキラたちの対抗策（猫の優位性欠如）をいかにして無効化するかが焦点となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラへのセリアック＝ニアの執着と嫉妬構造
+  note: 猫姫が「みるーにゃ（アキラ）を嫌い」と言い、リーナを好む心理的メカニズム。なぜアキラを排斥するのか。
+  quotes:
+  - quote: 「にゃあ、りーにゃ、わるくない！　みるーにゃ、きらい！」
+    paragraph: p122
+    quote_verified: true
+  expected_payoff: アキラの召喚者としての性質（粗悪な石を使う等）が原因か、あるいは猫種特有の「飼い主選び」ロジックが明かされ、戦術的連携に亀裂を生む伏線となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの正式名と出自
+  note: ミルーニャ＝メートリアン・アルタネイフというフルネームが初めて明記されたこと。これは彼女が特定の名家（メートリアン家）出身であることを示唆する。
+  quotes:
+  - quote: 本体の魔導書は私ことミルーニャ＝メートリアン・アルタネイフの手元にあるが、管理者権限は他にもアズーリア様とリールエルバが保有している。
+    paragraph: p38
+    quote_verified: true
+  expected_payoff: 彼女の背景や家族構成、魔導書の所有権をめぐる政治的・家系的な葛藤が今後浮上する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 経済格差による力の非対称性（資本主義の侵入）
+  weight: 0.85
+  quotes:
+  - quote: ていうか呪宝石とか消耗品として使えるのは貴方たちみたいな大金持ちだけです！ そんなことしたら破産しますよ私！
+    paragraph: p102
+    quote_verified: true
+  - quote: 「セリアック＝ニアと遊ぶためだけに呪宝石浪費しまくって手持ち尽きたでしょうが！ この迂闊お馬鹿リーナ！」
+    paragraph: p106
+    quote_verified: true
+  note: 戦闘能力の源泉である呪石（ガチャ産）を維持できるかどうかが経済力に依存しており、主人公たちが「貧乏」であることが戦略的制約として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ペット化された存在の管理と利用
+  weight: 0.75
+  quotes:
+  - quote: 完全に復活させると『生きている』ことが確定してしまい本国に捕捉されてしまうため、生死が曖昧なまま必要に応じて呪石弾で召喚する形で利用させてもらっている。
+    paragraph: p194
+    quote_verified: true
+  - quote: 「よしよし、ニアちゃん良い子だねー」
+    paragraph: p201
+    quote_verified: true
+  note: 聖姫セリアック＝ニアが、神格化された存在から「生死を曖昧にされ召喚されるペット/兵器」へとデグラデーション（地位低下）し、人間側による管理下に置かれている構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 諦観と殺意の対比（生への執着）
+  weight: 0.6
+  quotes:
+  - quote: 「ああ、そう。『私の方』はここで終わるのね」人形姫の瞳に諦めが浮かんだ。余りにもあっさりと絶望し、簡単に死を受け入れる。その在り方に、少しだけ苛立たされる。
+    paragraph: p84-p88
+    quote_verified: true
+  note: 敵である人形姫の「諦め（ニヒリズム）」に対する主人公側の激しい拒絶感。戦うことへの執着と、死受容の軽さとの対比が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族ごっこ/擬似家族の不和
+  weight: 0.55
+  quotes:
+  - quote: 「えー、今のは先輩も悪くない？」 「うぐ。ああもう、悪かったですからさっさと加速！」
+    paragraph: p113-p115
+    quote_verified: true
+  - quote: 「にゃあ、りーにゃ、わるくない！　みるーにゃ、きらい！」 「そーだそーだ！ 私は悪くないぞー！ 横暴なおねーちゃんの圧政に反対！」
+    paragraph: p122-p126
+    quote_verified: false
+  note: アキラ（姉/母）、リーナ（妹/父的役割）、ニア（子）の三者間における、権力闘争と甘え、嫉妬を伴う擬似家族関係が戦闘の妨げとなっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

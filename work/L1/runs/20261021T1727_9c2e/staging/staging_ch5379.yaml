@@ -1,0 +1,212 @@
+episode: ch5379
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_ラウス＝ベフォニス]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5379_ラウス＝ベフォニス_loses_存在の意味_p103
+        quote: 『ラウス＝ベフォニス』という名が人格と共に消失し、何者でもない『　』が弱々しい泣き声を上げ続ける。
+        locator: {}
+        spoiler_after: ch5379
+    action:
+      observations:
+      - event_ref: E_ch5379_ラウス＝ベフォニス_attacks_鬼_p18
+        quote: そのまま振り向かず、背中の幻肢孔から最大出力の『巨人の拳』を解き放つ。
+        locator: {}
+        spoiler_after: ch5379
+      - event_ref: E_ch5379_ラウス＝ベフォニス_has_property_感情制御アプリ_p22
+        quote: 悲しみと言う正常な心の働きを感情制御アプリが肩代わりして、代替感情を間に噛ませる。
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミシャルヒ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5379_ミシャルヒ_appears_廃屋_p118
+        quote: '一切の気配無く、影のように『それ』は佇んでいた。
+
+          「幻姿霊（スペクター）、だとぉ？」'
+        locator: {}
+        spoiler_after: ch5379
+    action:
+      observations:
+      - event_ref: E_ch5379_ミシャルヒ_takes_子泣き爺の脳/感情_p140
+        quote: '半透明になった指先が頭蓋にめり込んで、そのまま脳に侵入した。
+
+          強大な力が奪い取られて、これまで老人が蓄えてきた感情や感覚などの様々な呪力が幽鬼の中に吸収されていく。'
+        locator: {}
+        spoiler_after: ch5379
+      - event_ref: E_ch5379_ミシャルヒ_gives_巨人の力_p145
+        quote: 独り言をいいながら、『塗壁』に巨人の力を返してやる。
+        locator: {}
+        spoiler_after: ch5379
+    speech:
+      observations:
+      - event_ref: E_ch5379_ミシャルヒ_hates_カーイン_p186
+        quote: 「カーインは、全てを裏切った。私はあれを問いただし、罰を与えねばならん」
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_鬼]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5379_鬼_promises_再戦_p14
+        quote: 「決着はまたいずれ。我らの道が交わったその時に」
+        locator: {}
+        spoiler_after: ch5379
+    action:
+      observations:
+      - event_ref: E_ch5379_鬼_fights_カーイン_p219
+        quote: '「ロウ・カーインどのとお見受けした。『シナモリアキラ』の名を懸けて、我と一対一の勝負をして頂きたい！」
+
+          直後、掌から放たれた『闘気』が弾丸となってカーインを襲う。'
+        locator: {}
+        spoiler_after: ch5379
+      - event_ref: E_ch5379_鬼_has_property_杖と邪視の複合呪術_p47
+        quote: 恐ろしく込み入った『杖』と『邪視』の複合呪術が並列で起動しているものと思われた。
+        locator: {}
+        spoiler_after: ch5379
+    visual:
+      observations:
+      - event_ref: E_ch5379_鬼_has_property_角杖の産物_p51
+        quote: 機械的な作動音をさせながらくるくると回転する『角』は脳に侵襲して男の現実を改変し続けている。
+        locator: {}
+        spoiler_after: ch5379
+    relationship:
+      observations:
+      - event_ref: E_ch5379_鬼_bonds_塗壁_p8
+        quote: '肩を並べて戦った二人にはある種の連帯感が生まれていたのだ。
+
+          互いに好敵手と認め合った。'
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ジャッフハリム]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5379_ジャッフハリム_defines_レストロオセ派の役割分担_p160
+        quote: 『下』の勢力に属する二人は、片方が表舞台で暴れて注意を引き付けている間、もう片方が影に潜んで裏工作を行うという役割分担をしていた。
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロウ・カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5379_ロウ・カーイン_defeats_件と鎌鼬_p199
+        quote: 'ロウ・カーインは路地裏を疾走する。
+
+          奴隷のような襤褸と鉄球の男『件（くだん）』とナイフを持った殺人鬼『鎌鼬（かまいたち）』の『二人』が相争う場に乱入。'
+        locator: {}
+        spoiler_after: ch5379
+      - event_ref: E_ch5379_ロウ・カーイン_finds_鬼_p209
+        quote: 'やがて、カーインはその男を見つけた。
+
+          額から角のような何かを生やした無骨な男を。'
+        locator: {}
+        spoiler_after: ch5379
+      - event_ref: E_ch5379_ロウ・カーイン_transforms_瘴気_p245
+        quote: '楽しそうに独りごちたカーインの周囲に、黒々とした霧が発生した。
+
+          瘴気と呼ばれる呪いが男の全身を覆い隠し、やがて路地裏の奥、袋小路になった隘路が漆黒に染め上げられていった。'
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_戦場]]'
+  entity_type: motif
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5379_戦場_is_located_爆心地_p2
+        quote: 巨人が激突した戦場はさながら爆心地。
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レミルス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5379_レミルス_appears_百々目鬼の隊_p267
+        quote: '平坦な声で、長い棍を持ったビーグル犬頭の若者が言った。
+
+          ヴァージルの部下であり、一時的に『マレブランケ』に身を寄せていたこともある合気の達人。名をレミルスと言う。'
+        locator: {}
+        spoiler_after: ch5379
+    action:
+      observations:
+      - event_ref: E_ch5379_レミルス_attacks_カーイン_p296
+        quote: '「何のためにわざわざここまで来たと？　そっちは雑魚と後方支援を。俺は難敵と正面戦闘を。役割分担でいきましょう」
+
+          レミルスは棍に青い稲妻を纏わせる。
+
+          戦意を漲らせて監視水晶を見下ろす。狙いは『鬼』との死闘を繰り広げるカーインただひとり。'
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_百々目鬼]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5379_百々目鬼_defines_サイバーカラテ夜警国家_p279
+        quote: 「ワルシューラがいれば、我々は全ての暴力を独占・管理して最小にして必要十分なサイバーカラテ夜警国家を築き上げることができる。
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_大入道]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5379_大入道_defeats_鬼と塗壁_p4
+        quote: 元軍人と岩肌種（トロル）――『鬼』と『塗壁』は恐るべき雲の巨人『大入道』を力を合わせて撃退することに成功した。
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_シナモリアキラ性]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5379_シナモリアキラ性_defines_現実と行動の切り離し_p56
+        quote: '現実と行動を切り離す。
+
+          それが彼が有する『シナモリアキラ性』だというのか。'
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_塗壁]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5379_塗壁_flees_鬼_p69
+        quote: '『塗壁』は逃走を選んだ。
+
+          巨人の力を防御に振り分けてひたすらその場所から遠ざかる。'
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_子泣き爺]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5379_子泣き爺_takes_塗壁の感覚と巨人の力_p85
+        quote: 'それが、『塗壁』の頭部に触れて『何か』を奪っている。
+
+          「悪いなあ、ラウス＝ベフォニスさんよ。あんたの感覚、いただくぜ」'
+        locator: {}
+        spoiler_after: ch5379
+  first_appearance_candidate: true

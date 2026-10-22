@@ -1,0 +1,440 @@
+chapter: ch5295
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 12
+  mysteries: 9
+  themes: 10
+  quotes_verified: 22
+  quotes_total: 34
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5295_ガドカレク_says_シミュレーテッドリアリティ仮説_p67]]'
+  object: '[[ME_Simulation_Hypothesis]]'
+  claim: ガドカレクの「シミュレーテッドリアリティ」論は、哲学者ニック・ボストロムが提唱した「シミュレーション仮説」を直接的に引用し、物語内の世界観として実装している。
+  quote: シミュレーテッドリアリティ。上位世界が存在し、この世界はその世界によってシミュレートされた現実と区別のつかない下位世界であるという仮説。
+  paragraph: p67
+  confidence: explicit
+  quotes:
+  - quote: シミュレーテッドリアリティ。上位世界が存在し、この世界はその世界によってシミュレートされた現実と区別のつかない下位世界であるという仮説。
+    paragraph: p67
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5295_ガドカレク_says_水槽の脳_p71]]'
+  object: '[[ME_Brain_in_a_Vat]]'
+  claim: 「水槽の脳」という表現は、ヒラリー・パトナムが提示した認識論的思考実験（vat brain）を指しており、現実の不確実性を象徴している。
+  quote: 水槽の脳。考えても仕方が無いことだと知っているが、それでも脳を揺さぶるかのような呪力がその言葉には宿っていた。
+  paragraph: p71
+  confidence: explicit
+  quotes:
+  - quote: 水槽の脳。考えても仕方が無いことだと知っているが、それでも脳を揺さぶるかのような呪力がその言葉には宿っていた。
+    paragraph: p71
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5295_ガドカレク_names_幻想再帰システム_p120]]'
+  object: '[[ME_Self-Referential_System]]'
+  claim: 「幻想再帰システム」および「自己言及的に創造し続ける」という記述は、ダグラス・ホフシュタターらが提唱する「自己参照系（self-referential
+    system）」や「Strange Loop」の概念をファンタジー用語へ変換したものである。
+  quote: 世界が下位の内世界を創造（シミュレート）するのに対し、世界（ゼオーティア）が当該世界自体（ゼオーティア）そのものを自己言及的に創造（シミュレート）し続ける、ということは有り得るのかどうか、といったようなことを
+  paragraph: p100-p120
+  confidence: strong
+  quotes:
+  - quote: 世界が下位の内世界を創造（シミュレート）するのに対し、世界（ゼオーティア）が当該世界自体（ゼオーティア）そのものを自己言及的に創造（シミュレート）し続ける、ということは有り得るのかどうか、といったようなことを
+    paragraph: p100-p120
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5295_ガドカレク_says_転生植民地主義の崩壊_p132]]'
+  object: '[[ME_Postcolonialism]], [[ME_Transmigration_Genre_Tropes]]'
+  claim: 「転生植民地主義」という造語は、現代のポストコロニアル理論を異世界転生ジャンル特有のメタ構造（上位・下位世界の権力関係）へ適用した風刺である。
+  quote: 従来の転生植民地主義体制は崩壊する。……因果応報だよ、先進世界気取りの発展途上世界。全ては双方向的なのだ。お前たちは転生という権力に溺れて死んでいけ
+  paragraph: p132
+  confidence: explicit
+  quotes:
+  - quote: 従来の転生植民地主義体制は崩壊する。……因果応報だよ、先進世界気取りの発展途上世界。全ては双方向的なのだ。お前たちは転生という権力に溺れて死んでいけ
+    paragraph: p132
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5295_集い_defines_銃規制_p111]]'
+  object: '[[ME_Fundamental_Physics_Laws]]'
+  claim: 「物理法則すら歪めて……運命の修正力で銃を呪っている」という記述は、ファンタジー世界における「技術移転規制」や「魔法による科学封じ」が、実世界の物理法則そのものを支配するほどの強力な社会・自然的強制力として機能していることを示す。
+  quote: それが彼らが定めた世界の秩序。世界そのものを律する法――それが銃規制。全ては、銃社会の到来を防ぐ為。ただそれだけの為に、物理法則すら歪めて運命の修正力で銃を呪っている。それが竜の力。
+  paragraph: p110-p112
+  confidence: strong
+  quotes:
+  - quote: それが彼らが定めた世界の秩序。世界そのものを律する法――それが銃規制。全ては、銃社会の到来を防ぐ為。ただそれだけの為に、物理法則すら歪めて運命の修正力で銃を呪っている。それが竜の力。
+    paragraph: p110-p112
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5295_ゾーイ・アキラ_names_力士_p145]]'
+  object: '[[ME_Pro_Sumo]], [[ME_Mixed_Martial_Arts]]'
+  claim: 「スモーレスラー（Sumo+Wrestler）」という造語は、日本の大相撲とプロレスの興行構造を融合させたフィクションであり、「髷」「大銀杏」といった象徴的記号を用いて力士のアイデンティティを描いている。
+  quote: 彼女は企業に所属するスポーツ選手――力士（スモーレスラー）として勝ち続けていればそれで良かった。……堂々たる大銀杏（おおいちょう）――すなわち髷（まげ）。全てを失った。
+  paragraph: p145
+  confidence: strong
+  quotes:
+  - quote: 彼女は企業に所属するスポーツ選手――力士（スモーレスラー）として勝ち続けていればそれで良かった。……堂々たる大銀杏（おおいちょう）――すなわち髷（まげ）。全てを失った。
+    paragraph: p145
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5295_男_other_ゾーイ_p160]]'
+  object: '[[ME_Pro_Wrestling]], [[ME_Luchada_Arena]]'
+  claim: 「マスカラ・コントラ・カベジュラ（マスク対髪）」はプロレスにおける伝統的な高賭け試合の形式であり、ゾーイの失った「髷」と男の「マスク」を交換条件とするという構図で使われている。
+  quote: ――マスカラ・コントラ・カベジュラだ。負けたらお前はその髷を剃り落とせ。俺はマスクを捨て、土俵を降りる。
+  paragraph: p160
+  confidence: explicit
+  quotes:
+  - quote: ――マスカラ・コントラ・カベジュラだ。負けたらお前はその髷を剃り落とせ。俺はマスクを捨て、土俵を降りる。
+    paragraph: p160
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5295_男_confesses_脳腫瘍と後悔_p178]]'
+  object: '[[ME_Transhumanism]], [[ME_Mind_Uploading]]'
+  claim: 「インド人みてえにデジタルな脳にしちまう」という比喩は、トランスヒューマニズムにおける「意識のデジタル化（アップロード）」を指唆しており、「ナチュラルなままでいたい」という選択は生体主義的な倫理観を示している。
+  quote: 脳に腫瘍ができちまってよ。つってもインド人みてえにデジタルな脳にしちまうのは御免だ。俺は神を信じている。脳だけはナチュラルなままでいたいのさ。
+  paragraph: p178
+  confidence: moderate
+  quotes:
+  - quote: 脳に腫瘍ができちまってよ。つってもインド人みてえにデジタルな脳にしちまうのは御免だ。俺は神を信じている。脳だけはナチュラルなままでいたいのさ。
+    paragraph: p178
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5295_俺_other_ゲーム盤_p3]]'
+  object: '[[ME_Narrative_Metalepsis]]'
+  claim: 「盤面の上で駒を動かし、賽子を振る」という描写は、物語の構造そのもの（運命に翻弄される主人公）をボードゲームのメタファーとして可視化しており、ガドカレクがゲームマスター（神/作者）であることを示唆している。
+  quote: 盤面の上で駒を動かし、賽子を振る。対面に座る【竜帝】――ガドカレク＝クエスドレムは、俺の無駄な足掻きを鼻で嗤った。勝ち目のないゲームが続く。
+  paragraph: p3-p4
+  confidence: strong
+  quotes:
+  - quote: 盤面の上で駒を動かし、賽子を振る。対面に座る【竜帝】――ガドカレク＝クエスドレムは、俺の無駄な足掻きを鼻で嗤った。勝ち目のないゲームが続く。
+    paragraph: p3-p4
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5295_マラード_takes_ルバーブの妻と娘_p7]]'
+  object: '[[ME_Celtic_Mythology]], [[ME_Tale_of_Pwyll]]'
+  claim: マラード（Maladr）とハルハハール、そして配下の家族を虜にするという展開は、ウェールズ神話の『魔の物語』第一編「プイレアの伝説」におけるアノーン王の試練（妻や子供を奪われる話）を下敷きにした再演である可能性が高い。
+  quote: 美しき髪のマラードと麗しき翅のハルハハール。……ついにマラードは最も信頼する配下、ルバーブの妻と娘を虜にしてしまう。
+  paragraph: p7
+  confidence: moderate
+  quotes:
+  - quote: 美しき髪のマラードと麗しき翅のハルハハール。……ついにマラードは最も信頼する配下、ルバーブの妻と娘を虜にしてしまう。
+    paragraph: p7
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5295_少年_makes_冥道の封印_p29]]'
+  object: '[[ME_Dante_Inferno]], [[ME_Medieval_Hell_Map]]'
+  claim: 「海底に築き上げた石碑」「冥道を塞ぐ封印」「生と死、夢と現の境界は消滅」という描写は、ダンテ『神曲』における地獄（インフェルノ）の構造や、境界を越境するテーマを下敷きとしている。
+  quote: 海底に築き上げた石碑は、冥道を塞ぐ封印だ。鍵が差し込まれたが最後、冥府の門は開かれて、生と死、夢と現の境界は消滅してしまうことだろう。
+  paragraph: p29
+  confidence: moderate
+  quotes:
+  - quote: 海底に築き上げた石碑は、冥道を塞ぐ封印だ。鍵が差し込まれたが最後、冥府の門は開かれて、生と死、夢と現の境界は消滅してしまうことだろう。
+    paragraph: p29
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5295_アルト_says_差別しない宣言_p17]]'
+  object: '[[ME_Tolerant_Authoritarianism]]'
+  claim: 「差別しない」という高潔な理想を掲げながら、異論を排して「純粋な肯定に支えられて」存続する竜王国は、全体主義や同質性の圧力を「正義」として正当化する構造（パスティアーニの『反ユートピア』的構造）を風刺している。
+  quote: 安心しろ。俺はたとえお前たちがどんな姿かたちをしていても、差別しない……竜王国は、高潔な理想郷であるべく、純粋な肯定に支えられて在り続ける。もちろんそれは正しいのだ。そこには、正しさだけがある。
+  paragraph: p17-p23
+  confidence: strong
+  quotes:
+  - quote: 安心しろ。俺はたとえお前たちがどんな姿かたちをしていても、差別しない……竜王国は、高潔な理想郷であるべく、純粋な肯定に支えられて在り続ける。もちろんそれは正しいのだ。そこには、正しさだけがある。
+    paragraph: p17-p23
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_月の裏側の青い髪
+  note: 少年の祈りによって生じた「境界の消滅」の結果、月の裏側に現れた不可解な存在。後の展開でその正体（死者？異界の住人？）が明かされる可能性。
+  quotes:
+  - quote: 見えていなかっただけで、月の裏側にはびっしりと青い髪が張り付いていた。
+    paragraph: p31
+    quote_verified: true
+  expected_payoff: 境界の消滅によって生じた死者や異界存在の侵略、あるいは「青い髪」を持つ特定の種族との接触で回収される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ちびシューラの確信
+  note: 再演ループの終盤で、ちびシューラが「倒すべき敵」の所在を確信する。この直感が次の展開（真の敵への攻撃）にどう結びつくか。
+  quotes:
+  - quote: （わかったよ。シューラたちが倒すべき敵が、どこにいるのか！）
+    paragraph: p139
+    quote_verified: true
+  expected_payoff: ちびシューラの導きにより、主人公と仲間たちが真の敵（グレンデルヒ本体や世界構造の中枢）へ直接向かう展開で回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_右腕の凍結
+  note: 少女との接触と「アツィルト」という呪文によって右腕が凍結する現象。この身体変質が主人公にどのような力（または制約）を与えるか。
+  quotes:
+  - quote: 「アツィルト」世界が、そして右腕が凍結した。
+    paragraph: p258-p260
+    quote_verified: true
+  expected_payoff: 氷属性の獲得、あるいは封印された力の解放・代償行為として物語後半の戦闘能力変化に繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_グレンデルヒの偽装戦略
+  note: ちびシューラが暴いた「死を偽装し、ゾーイの複製を用いて竜帝を演じていた」という事実。この策略の全貌と目的。
+  quotes:
+  - quote: グレンデルヒは死を偽装したの。未来から持ってきたゲラティウス＝グレンデルヒ＝ゾーイをこのスキリシアで複製することによって。そして、あたかも自分が本当に【竜帝】ガドカレクであるかのようにふるまった。
+    paragraph: p216
+    quote_verified: true
+  expected_payoff: 主人公とちびシューラがグレンデルヒの罠を突破し、真のグレンデルヒ（またはその核）へ到達する過程で詳細が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_援軍の到着
+  note: ちびシューラが「あっちでも戦いが終わる」と予言し、主人公を励ましたこと。誰がどこで戦い、結果として何をもたらすのか。
+  quotes:
+  - quote: （アキラくん。きっともうすぐだ。あっちでも、戦いが終わるよ）
+    paragraph: p249
+    quote_verified: true
+  expected_payoff: ケイトやゾーイの別ルートでの戦勝が、主人公たちの窮地を救う（あるいは世界改変の鍵になる）形で回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_足りないもの
+  note: 主人公が勝利のために「あと一つだけ」足りないと認識している要素。これが右腕との接触（アツィルト）で補われたのか、別途入手するのか。
+  quotes:
+  - quote: 呪術によって再現された幻のアプリ群がある。あと一つ。あと一つだけ、足りないものさえ揃えば、俺は決して負けることは無い。
+    paragraph: p232-p234
+    quote_verified: true
+  expected_payoff: 少女との接触で得た力（アツィルト）がその「一つ」であった可能性が高いが、最終決戦での真の切り札として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_男の死因と約束
+  note: ゾーイを敗北させた元力士（男）が、脳腫瘍を抱えながら「ガチでやる」ことを望み死亡した経緯。彼の遺志が物語にどう影響するか。
+  quotes:
+  - quote: 脳に腫瘍ができちまってよ。……お前と、今度こそガチでやるのもいいかもなって、そう思った。それだけさ。
+    paragraph: p178
+    quote_verified: false
+  expected_payoff: ゾーイが彼の意志（純粋な戦いへの渇望）を受け継ぎ、真の決着をつける動機として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ケイトの役割
+  note: ケイトが「僕らの世界ではそういう問答は前世紀に通過して克服済み」と語ったこと。彼女の出自（外世界人）や知識の背景にある歴史・設定。
+  quotes:
+  - quote: 同様に、君たちだって創造されたものに過ぎないかもしれないだろう！　僕らの世界ではそういう問答は前世紀に通過して克服済みなんだ！
+    paragraph: p93
+    quote_verified: true
+  expected_payoff: ケイトの出身世界に関する設定（SF的な背景）が明かされ、物語のメタ構造を解析する鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_少女との接触
+  note: 大量のマロゾロンドに包囲された中で、主人公が「幻の右手」を伸ばし触れ合った少女（蜂蜜色の髪）。彼女の正体と能力。
+  quotes:
+  - quote: 幻の右手を。少女の小さな手が、あちら側からも差し伸べられた。指先が微かに触れ合った瞬間。
+    paragraph: p254-p256
+    quote_verified: true
+  expected_payoff: 彼女が物語の鍵となる存在（例：世界創造の核、失われた記憶の象徴）であり、接触によって物語の収束へ向かう契機となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世界は自己言及的なシミュレーション（幻想再帰システム）であり、登場人物は高次の存在に演じられているに過ぎないというメタフィクション的虚無。
+  weight: 0.9
+  quotes:
+  - quote: 我々はこの世界の根本言理をこう名付けている。【幻想再帰システム】――未知という幻想を、来るべき終端を食らいつくし続ける自己消失オートマトン。
+    paragraph: p120
+    quote_verified: true
+  - quote: ここはガドカレクの掌の上で、俺たちはこの竜帝に創造された幻に過ぎない。全ては、呪術によって作り出された架空世界の出来事だったのだ。
+    paragraph: p83-p84
+    quote_verified: true
+  note: ガドカレクの論理が物語の構造そのものを定義しており、物語全体がこの「シミュレーション」の枠組み内で進行していることが強く示唆されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 事実よりも「信じたこと」が力を持つ世界において、疑念を抱いた者（主人公・ゾーイ）は支配者に遠く、信念を貫く者（竜/理想郷の住人）が強いという構造。
+  weight: 0.8
+  quotes:
+  - quote: この世界では事実よりも信じたことが力を持つ。疑念を僅かでも抱いてしまったお前たちよりも、世界の在り方を俯瞰で見ているこの私こそがこの場の支配者により近いのは確かだな
+    paragraph: p95
+    quote_verified: true
+  - quote: 竜王国は、高潔な理想郷であるべく、純粋な肯定に支えられて在り続ける。もちろんそれは正しいのだ。そこには、正しさだけがある。
+    paragraph: p21-p23
+    quote_verified: true
+  note: 認識論が物理法則を支配する世界設定（魔法の理）であり、「疑念＝弱さ」というテーマが主人公たちへの圧力として機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 敗北と喪失を経験した者たちが、過去の栄光や誇りを取り戻すため、軽やかな相棒との信頼関係を武器に「勝負」へ挑み続ける意志の物語。
+  weight: 0.7
+  quotes:
+  - quote: 敗残者の余生。そんな、ひどくだるくて眠い、どうしようもない道行き。……それは、まだ見ぬ強敵と巡り会いたい。ただそれだけの、単純な欲求が身体の奥底から湧き上がってくるからだ。
+    paragraph: p182-p196
+    quote_verified: false
+  - quote: オーケー相棒。さっさと行こう、どうせろくでもない汚れ仕事だ。君が納得の行くようにやるといい。僕はそれを全力でサポートするだけさ。
+    paragraph: p201
+    quote_verified: true
+  note: ゾーイ・アキラの背景とケイトとの関係が、壮大なメタ物語の中で「個人的な動機（戦う理由）」として対置されており、人間ドラマの核となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 上位世界による支配（転生植民地主義）は固定されたものではなく、階層構造が流動化することで逆転し、双方向の関係性へと変質していく可能性。
+  weight: 0.6
+  quotes:
+  - quote: 従来の転生植民地主義体制は崩壊する。いずれこちらの世界独自の転生技術が発達すれば、今度はこちら側から向こう側に転生してくる者たちが現れるだろう。……全ては双方向的なのだ。
+    paragraph: p132
+    quote_verified: false
+  note: ガドカレクの「未来予測」を通じて提示される社会構造論であり、物語の結末（世界改変）において階層崩壊が実現する伏線となるテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術（杖/科学）は世界の本質（幻想/呪術）に勝つことは許されておらず、物理法則を歪めるほどの「運命の修正力」によって常に抑制されているという技術観。
+  weight: 0.5
+  quotes:
+  - quote: 杖は絶対に勝つことができない。勝ってはならないのだ。……全ては、銃社会の到来を防ぐ為。ただそれだけの為に、物理法則すら歪めて運命の修正力で銃を呪っている。それが竜の力。
+    paragraph: p105-p112
+    quote_verified: false
+  note: ファンタジー世界における「科学（杖）vs 魔法（呪術）」の構図を、世界の根底にある法則として提示し、主人公側の技術的優位性が通用しない理由を説明している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「他者などいない」という独我論的な極限（誇大妄想狂の与太話）に至る思考実験が、世界支配の力（邪視）となる構造。
+  weight: 0.4
+  quotes:
+  - quote: 外部参照などはじめからあり得ないに違いない。いいかね、我ら高次元の存在は思索の果てにこう考えた。『他者などいない』。……神を名乗り、自分の内側だけで全てが完結している真正の屑。ゆえにどこまでもガドカレクは強大な邪視の体現者だった。
+    paragraph: p114-p117
+    quote_verified: false
+  note: 哲学（独我論）がファンタジー的な権力（支配者の地位）へ変換されるプロセスを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の構造そのものが「再演」という拷問であり、同じ結末を繰り返すゲーム盤の上で、いかにして「変化」を作り出すかが勝利への鍵であるというメタ的攻略。
+  weight: 0.4
+  quotes:
+  - quote: 繰り返される再演は、既に拷問に近かった。……未来を知りながら、俺はただ敗北を繰り返す。何度も何度も、細部が変化し続けるもののどうにもならないゲームを繰り返しやらされ続ける。
+    paragraph: p2, p56
+    quote_verified: false
+  note: 「時間ループもの」や「無限回廊もの」における脱出条件（ルール外の行動）を求める構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「差別しない」という高潔な理想を掲げる社会（竜王国）は、異論を排除する同質性によって支えられており、そこには「正しさだけ」が存在するという全体主義の影。
+  weight: 0.3
+  quotes:
+  - quote: 高潔だと褒め称える者は竜王国の在り方に賛同し。そうでないものは、その国を去った。……そこには、正しさだけがある。
+    paragraph: p19-p23
+    quote_verified: false
+  note: 物語の舞台である世界観に対する批判的視点（反ユートピア）として機能するテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「偽物」と呼ばれることへの屈辱を晴らすため、命を賭けた純粋な勝負（ガチ）を求める、スポーツマンとしての誇りと執念。
+  weight: 0.3
+  quotes:
+  - quote: ――そら、あいつが『YOKOZUNA』だ。『YOKODSUNA』のパチモンだよ。……ああ、けれど、全てはあの敗北さえなければ。それは甘い誘惑だった。お互い、ガチでやってみたくないか。
+    paragraph: p151-p156
+    quote_verified: false
+  note: ゾーイのキャラクターの根底にある心理的テーマであり、物語の感情的な推進力となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「戦う理由に、大仰なものはいらない」という軽やかな実存主義：義務や大義ではなく、純粋な欲求と信頼関係のみによって行動する姿。
+  weight: 0.3
+  quotes:
+  - quote: 戦う理由に、大仰なものはいらない。軽やかに、重々しく一歩を踏み出す。それだけでいい。
+    paragraph: p204-p206
+    quote_verified: true
+  note: 物語のクライマックスに向けた主人公と相棒の精神的な到達点を示すテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

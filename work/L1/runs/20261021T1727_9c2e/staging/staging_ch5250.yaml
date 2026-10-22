@@ -1,0 +1,184 @@
+episode: ch5250
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_チリアット]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5250_チリアット_appears_牙猪種_p106
+        quote: 'そこにいたのは、恐ろしい牙を持つ猪の獣人であった。
+
+          それもただの猪ではなく、鹿猪（バビルサ）という極端に犬歯が発達した動物を思わせる、牙猪種という種族だ。'
+        locator: {}
+        spoiler_after: ch5250
+      - event_ref: E_ch5250_チリアット_transforms_黒亜竜人_p189
+        quote: 右腕が漆黒の鱗に覆われていき、蜥蜴人のように変化していく。
+        locator: {}
+        spoiler_after: ch5250
+    action:
+      observations:
+      - event_ref: E_ch5250_チリアット_uses_腐敗の吐息_p203
+        quote: 'そして倒れ伏して動けない黒衣の対戦相手、クレーグレンの前に立ったかと思うと、そのまま息を吐き出した。
+
+          漆黒の霧のようなものが吐き出されて、黒衣とマットに降り注いでいく。'
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カニャッツォ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5250_カニャッツォ_reveals_ビーグルの獣人の動機_p11
+        quote: '「あることになると目の色を変えるんだがなあ」
+
+          「あること？」
+
+          「ああ。こいつがウチに入った理由でもあるんだが――ま、それはトリシューラの姐さんにでも聞いてくれや」'
+        locator: {}
+        spoiler_after: ch5250
+      - event_ref: E_ch5250_カニャッツォ_names_ビーグルの獣人_p6
+        quote: 「悪いな、こういう奴なんだよ。何事にもあんまり力を入れねえ主義っつうか、それがコイツの持ち味でもあるんだが」
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_牙猪種]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5250_牙猪種_has_property_牙による自死の運命_p111
+        quote: そのまま伸びれば発達した牙が頭部に突き刺さって死に至るという呪われた宿命を持つ稀少種族であるチリアットは、ガロアンディアン屈指の実力者と言われている。
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_店員さん]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5250_店員さん_other_牙猪種の邪視_p148
+        quote: 「牙猪種は、目前に迫った死を強く意識することで擬似的な臨死体験を経て、死の瞬間を限りなく長く引き延ばそうとします。そうして発動する彼らの邪視は、主観時間の加速を可能とするのです」
+        locator: {}
+        spoiler_after: ch5250
+      - event_ref: E_ch5250_店員さん_other_再生者と牙猪の誤解_p153
+        quote: 「死を見つめる種族――冥府に近しいその性質から、滅びた眷族種、再生者（オルクス）とは牙猪のような外見なのではないかと言われ、画家たちによって再生者イコール牙猪というイメージが出来上がりました。牙猪たちのことをオルクスとか、オークとか呼ぶ言語も存在するくらいです。もちろん、全くの誤解なのですが」
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラズリ・ジャッフハリム]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5250_ラズリ・ジャッフハリム_other_感染呪術_p212
+        quote: 「あれは感染呪術――身体の一部や持ち物を分け与える事で、遠く離れていてもその呪力で誰かを守ろうとする強い力です。髪の毛の入ったお守り、死者の細胞を移植しての肉体強化。今の彼は『上』で言うところの、魔将級の異獣憑きに匹敵する危険性を秘めているかと」
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5250_レオ_arrives_カーインの傍_p22
+        quote: いつの間にか観客席を離れてカーインの傍に歩み寄っていたのは、レオだった。
+        locator: {}
+        spoiler_after: ch5250
+    speech:
+      observations:
+      - event_ref: E_ch5250_レオ_says_カーインへの罵詈雑言_p30
+        quote: '「情けないね。無様を晒すのは何度目なのかな？」
+
+          「――返す言葉もございません」
+
+          「言い訳くらいしなよ。両手両足を振るって勝つことができないのなら、もう口を動かすしかないでしょう？」'
+        locator: {}
+        spoiler_after: ch5250
+      - event_ref: E_ch5250_レオ_threatens_カーイン_p58
+        quote: 「あまり僕を失望させないでね――でないと、そのうち捨てちゃうから」
+        locator: {}
+        spoiler_after: ch5250
+      - event_ref: E_ch5250_レオ_says_カーインへのお仕置き_p71
+        quote: 「これはあとでお仕置きだね、カーイン？」
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5250_カーイン_attacks_チリアットの右腕_p232
+        quote: '「悪いが、亜竜人の弱所なら知り尽くしている」
+
+          右の貫手が黒亜竜の腕に食い込んでいた。'
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ＝ライニンサル]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5250_クレイ＝ライニンサル_reveals_正体_p241
+        quote: 勝ったにも関わらず、女性的なまでに美しい顔を悔しそうに歪める男の名は、やはりというべきか、【変異の三手】が副長の一人、クレイ＝ライニンサルだ。
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5250_クレイ_attacks_カーインの髪と頬_p261
+        quote: '「黙れ」
+
+          クレイの声が一段低くなり、物理的な圧力を伴ってカーインの長広舌を一刀両断した。それは低位の呪文である。
+
+          極限にまで薄く小さく押し固めた【空圧】の刃。
+
+          それが、カーインの髪と頬を浅く切り裂く。'
+        locator: {}
+        spoiler_after: ch5250
+    speech:
+      observations:
+      - event_ref: E_ch5250_クレイ_says_カーインへの罵倒_p263
+        quote: 「ヒュールサスの名を消し去った地獄の人間が、再生者（オルクス）を語るなっ」
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セージ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5250_セージ_says_レオへの賛辞_p37
+        quote: セージが「攻め責めなレオくんもステキ」とか寝言をぬかしているのを見ると、どうやらあの光景は公社においては特に異常事態というわけでもないようだ。
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5250_サイバーカラテ_functions_as_数の暴力_p88
+        quote: '途方もない試行回数は、多人数による分散処理によって時間的に圧縮する。
+
+          それがサイバーカラテの強み、すなわち数の暴力だ。'
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_俺]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5250_俺_thinks_カニャッツォの投げ_p9
+        quote: あの自然体、あの気質ゆえにああまで相手の動きと調和した『投げ』が行えるのだろう。
+        locator: {}
+        spoiler_after: ch5250
+  first_appearance_candidate: true

@@ -1,0 +1,254 @@
+chapter: ch5157
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 20
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p14_system_build]]'
+  object: '[[ME_smb_cheapness_misinterpretation]]'
+  claim: スキルなしで専門書を読み込みシステムを自作する行為は、現代の中小企業におけるIT外注コスト削減（ケチ）と、そのための自己学習（非正規労働者のスキルアップ）の構造に似ている。
+  quote: システムの構築を外注せずに自分でやってしまうという、見方によってはちょっとけちな人。お母さんによると、スキルもないのに専門書を読みながらうんうん唸っていたらしい。
+  paragraph: p14
+  confidence: moderate
+  quotes:
+  - quote: システムの構築を外注せずに自分でやってしまうという、見方によってはちょっとけちな人。お母さんによると、スキルもないのに専門書を読みながらうんうん唸っていたらしい。
+    paragraph: p14
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p23_labyrinth_truth]]'
+  object: '[[ME_war_of_attrition_ww1]]'
+  claim: 迷宮の第一階層が「冒険活劇」ではなく「消耗戦」として描かれることは、第一次世界大戦の塹壕戦や、現代の消耗戦を伴う代理戦争の虚構性を風刺している。
+  quote: 刺激的で胸躍るような冒険活劇ではなく、難攻不落の第一階層で無惨な屍を積み重ねるだけの消耗戦でしかないのだと知ったのもその頃。
+  paragraph: p23
+  confidence: strong
+  quotes:
+  - quote: 刺激的で胸躍るような冒険活劇ではなく、難攻不落の第一階層で無惨な屍を積み重ねるだけの消耗戦でしかないのだと知ったのもその頃。
+    paragraph: p23
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p104_cerlatris_prayer]]'
+  object: '[[ME_buddhist_attachment_aversion]]'
+  claim: 「祈らぬという祈り」は、仏教的な執着の放棄（無欲）や、キリスト教神秘主義の「暗夜の魂」を想起させるが、ここでは暴力への恐怖による防衛機制として機能している。
+  quote: 虚無に満ちたこの荒野で、我らに遺された道は祈らぬという祈りのみ
+  paragraph: p104
+  confidence: moderate
+  quotes:
+  - quote: 虚無に満ちたこの荒野で、我らに遺された道は祈らぬという祈りのみ
+    paragraph: p104
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p123_trial_procedure]]'
+  object: '[[ME_surgical_procedure_modern]]'
+  claim: ペレケテンヌルの試練における「機械腕」「切開」「麻痺」の描写は、現代の高度な外科手術や医療機器による侵襲的手技を連想させ、それが残酷な儀式として変質している。
+  quote: 無数の機械腕。異形のマニピュレータが蠢いて、複雑な形状の機器が理解を絶した数字を示す。光る刃。細く鋭く回転する螺旋状の穿孔錐。甲高くて不安をかき立てる音。注射針が刺さって身体の感覚が麻痺していく。
+  paragraph: p123
+  confidence: strong
+  quotes:
+  - quote: 無数の機械腕。異形のマニピュレータが蠢いて、複雑な形状の機器が理解を絶した数字を示す。光る刃。細く鋭く回転する螺旋状の穿孔錐。甲高くて不安をかき立てる音。注射針が刺さって身体の感覚が麻痺していく。
+    paragraph: p123
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p174_thesis_process]]'
+  object: '[[ME_academic_grading_rubric]]'
+  claim: 卒論の過程を重視する教官の発言は、現代の大学における研究倫理教育や、プロセス評価（Formative Assessment）の実態を反映している。
+  quote: 卒業論文で大切なのは結果よりも過程だと私は思いますよ。大学で学んだ事は社会で活用できないかもしれない。けれど獲得した思考の枠組みは人生を規定するのです。
+  paragraph: p174
+  confidence: strong
+  quotes:
+  - quote: 卒業論文で大切なのは結果よりも過程だと私は思いますよ。大学で学んだ事は社会で活用できないかもしれない。けれど獲得した思考の枠組みは人生を規定するのです。
+    paragraph: p174
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p168_illegitimate_status]]'
+  object: '[[ME_milf_dynamics_modern]]'
+  claim: 継母と実父の間に生まれた妹の存在により、主人公が「不義の子」として家制度から排除される構造は、現代の複雑な再婚家庭や相続問題における法的・社会的スティグマを暗示する。
+  quote: 父は籍をクロウサー家に入れて、姓を改めた。私と母はアルタネイフのままだった。強い権力が、私達を過去に遡って不義の存在に仕立て上げた。小さくなって生きた。先に生まれた不倫の子。
+  paragraph: p168
+  confidence: moderate
+  quotes:
+  - quote: 父は籍をクロウサー家に入れて、姓を改めた。私と母はアルタネイフのままだった。強い権力が、私達を過去に遡って不義の存在に仕立て上げた。小さくなって生きた。先に生まれた不倫の子。
+    paragraph: p168
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p140_nail_peeling]]'
+  object: '[[ME_trichotillomania_bexs]]'
+  claim: 爪を剥がす行為のエスカレートは、抜毛症（トリコティロマニア）などの衝動制御障害や、自傷行為の習慣化を示唆している。
+  quote: 爪を剥がすと気持ちがいい――それが気持ちがいいことなのだと、当たり前の様に繰り返して習慣のようになったある時、突然理解できた。
+  paragraph: p140
+  confidence: strong
+  quotes:
+  - quote: 爪を剥がすと気持ちがいい――それが気持ちがいいことなのだと、当たり前の様に繰り返して習慣のようになったある時、突然理解できた。
+    paragraph: p140
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_perfect_living_conditions
+  note: お父さんが主人公を追い出さず、衣食住を与え続けた理由。単純な慈愛ではない可能性（所有欲、見世物、実験など）を示唆する伏線。
+  quotes:
+  - quote: お父さんは私を家から追い出したり食事を与えないなんてことはしなかった。私の育児を放棄するような、世間で言われるような悪い親などではなかった。私は不幸になどならず、裕福に、立派な家と豪勢な食事を与えられた幸福のままだった。
+    paragraph: p91
+    quote_verified: true
+  expected_payoff: お父さんの本当の目的（呪具の素材としての利用など）が明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cerlatris_vs_peraketenul
+  note: 主人公が望んだセルラテリス（虚無・祈らぬ者）と実際に得たペレケテンヌル（非情・試練）の対比。この逆転が今後の戦闘スタイルや性格形成にどう影響するか。
+  quotes:
+  - quote: 「では、苦痛を快楽だと感じるようにしてやろう」その声は。私にしか聞こえないものだったという。
+    paragraph: p120
+    quote_verified: true
+  expected_payoff: ペレケテンヌルの加護（苦痛の快楽化）が、後の戦闘や選抜で重要な役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_leena_origin
+  note: リーナが「半分はお姉ちゃんと一緒の」と言いかけて止めたこと。リーナの守護天使選択における秘密（主人公との関連性）。
+  quotes:
+  - quote: 来年になったら大神院で正式に空の民を選ぶつもりですけど、半分はお姉ちゃんと一緒の――」
+    paragraph: p155
+    quote_verified: true
+  expected_payoff: リーナが主人公と同一守護天使を選んでいる、あるいは特殊な契約関係にあることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_mother_silent_obsession
+  note: お母さんが離婚の文字を見つけても泣かず、暴力に耐え続けた理由。彼女が守ろうとした「何か」の正体。
+  quotes:
+  - quote: 離婚。という文字を母の書斎、父の目には決して入らないであろう深い位置に見つけて、静かに息を飲んだ。心臓を握りつぶされるかと思ったのを覚えている。がさがさの足。お母さんは泣かなかった。
+    paragraph: p46
+    quote_verified: true
+  expected_payoff: 母親の過去や、父親との関係性における隠された事実（共犯関係など）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_father_colleague_woman
+  note: お父さんの同僚である女性と、その家族（リーナ）との関係性。なぜ彼女たちは主人公を「不義の子」として排除したのか。
+  quotes:
+  - quote: 乾いていく家に、新しい職場で知り合った同僚たちがやってくる。それはお父さんなりの崩壊への抵抗だったのだと、今になって思う。
+    paragraph: p144
+    quote_verified: true
+  expected_payoff: お父さんの会社の経営状況と、その女性（リーナの母？）との関係が家の崩壊に直接関与していることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「立派な人」という権威による暴力の正当化と、その権威への依存がもたらす自己肯定感の崩壊。
+  weight: 0.9
+  quotes:
+  - quote: お父さんは立派な人だ。三本足は杖の象徴。呪具製作者としての下積みを経て独立し、個人経営の呪具店で呪具を商うのが仕事。
+    paragraph: p13
+    quote_verified: true
+  - quote: 答えは一つしか許さない。それは会話じゃなくて、とてもとても高い場所から下される命令だった。三階建てという高み。お金を稼いでいるという権威。
+    paragraph: p70
+    quote_verified: true
+  note: 父の社会的地位と経済力（立派さ）が、家庭内暴力を隠蔽し、主人公を従属させる構造を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 祈りの放棄（セルラテリス）と苦痛の受容（ペレケテンヌル）という、二つの非情な美徳の間での自己喪失。
+  weight: 0.8
+  quotes:
+  - quote: 第五位の守護天使ペレケテンヌルは才無き者には非情であり、才有る者にもまた非情だと言われている。何も願わず何も求めないこと。それこそがその眷族種に求められる最大の美徳であり、かの守護天使が寛容を示してくれる唯一の素養である。
+    paragraph: p96
+    quote_verified: true
+  - quote: 「では、苦痛を快楽だと感じるようにしてやろう」
+    paragraph: p120
+    quote_verified: true
+  note: 守られることを願わず、痛みを受け入れることでしか存在できないという、過酷な生への適応を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家制度・血縁の崩壊と、「家族」の幻影（ずっと一緒）に対する絶望的な執着。
+  weight: 0.85
+  quotes:
+  - quote: ずっと一緒。それは、死んでも一緒ということ？夜も更けて、鍵は内側から開けられた。時間にしてみるとそれはそんなに長い間ではなかったのかもしれないけれど、私には永遠に牢獄に閉じ込められたのかと思うほどの暗闇だった。
+    paragraph: p41
+    quote_verified: true
+  - quote: 家には暖かい家庭があった。父と母と子、三人家族の団欒。部屋に閉じこもって、ずっと目と耳を塞いで寝台の中で蹲る。
+    paragraph: p165
+    quote_verified: true
+  note: 暴力による支配下での「幸福」なふり（共依存）が、継母の登場によって完全に破綻する過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体的異常（半不死・固定された容姿）による社会からの排除と、自己解体（自傷）への逃避。
+  weight: 0.7
+  quotes:
+  - quote: 爪を剥がすと気持ちがいい――それが気持ちがいいことなのだと、当たり前の様に繰り返して習慣のようになったある時、突然理解できた。きっかけがなんだったのかは思い出せない。ただそれが、とてもはしたないことなのだとわかってしまって、
+    paragraph: p140
+    quote_verified: true
+  - quote: 呪石弾を大量に抱えて、そのまま爆発。無数の肉片になって、ただの物でしかない私は落ちていく。空中で肉腫を蠢かせ、一つになっていく私。
+    paragraph: p186
+    quote_verified: true
+  note: 成長しない身体が社会適合を阻み、その苦痛から逃れるための自傷と、究極の逃避（落下死）への欲求。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: アカデミックな環境における「過程」の重視と、それがもたらす失敗（卒論不受理）。
+  weight: 0.6
+  quotes:
+  - quote: 「内容と努力は認めますがね、卒論演習というのは論文をゼミで他人の目に晒し、きちんと精査され、鍛え上げられていくことが重要なのですよ。その過程、思索と研究の在り方を学んでいく為にあるのです。」
+    paragraph: p174
+    quote_verified: false
+  note: 大学での挫折を通じて、主人公が「結果」ではなく「他者との関係性（過程）」の中で生きねばならないことを知る。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

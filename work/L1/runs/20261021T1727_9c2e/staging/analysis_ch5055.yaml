@@ -1,0 +1,127 @@
+chapter: ch5055
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_アキラの記憶保証
+  note: トリシューラが「アキラくんの記憶が全部無事だって保証は無い」と警告した。融合体との接触でアキラにも記憶消失や改変のリスクがある可能性を示唆する伏線。
+  quotes:
+  - quote: 「いや、アキラくんの記憶が全部無事だって保証は無いけどね？」と怖い回答が返ってきた。大丈夫なのか俺。
+    paragraph: p222
+    quote_verified: true
+  expected_payoff: 後続の章でアキラが過去の一部を忘れている、あるいは記憶が改変されていることが発覚する展開への布石。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_言語の相互理解メカニズム
+  note: カーインや少年（日本語話者でないはず）とアキラが母語で書かれた文字を読み合える現象。単なる翻訳魔法ではなく、「不定型でありながら定まった姿を持つ言葉」という特異な性質を持つ。世界槍の構造と関連する可能性がある。
+  quotes:
+  - quote: その二つは重なり合っていた。
+    paragraph: p233
+    quote_verified: true
+  expected_payoff: 言語の壁を越えるこの能力が、アキラがこの世界で「居場所」を作るための鍵となり、やがて世界の成り立ち（世界槍）との関連が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_魔女たちの共通目的と星見の塔
+  note: コルセスカとトリシューラが同時に接触してきたこと、および「地上と地獄、上と下の戦い」に関わる何か。二人の背後にある大きな陰謀や勢力図の全貌は未開示。
+  quotes:
+  - quote: コルセスカとトリシューラ。どちらの魔女についていくのかを決めるためにも。
+    paragraph: p106
+    quote_verified: true
+  expected_payoff: アキラが二人の間で板挟みになり、最終的にどちらか一方を選ぶ（あるいは第三の道を選ぶ）展開における政治的・軍事的な動機付けとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トリシューラの目的『私であること』
+  note: トリシューラが自らの目的を「シューラが、私であること」と定義する曖昧な発言。彼女の正体や過去の悲劇（ポンコツ呼ばわりへの執着）に深く関わる可能性。
+  quotes:
+  - quote: 『シューラの目的？　大した事じゃないよ。シューラが――『シューラが、私であること』。ただそれだけ』
+    paragraph: p84
+    quote_verified: true
+  expected_payoff: トリシューラのキャラクター背景（人間性を取り戻す戦いなど）の核心であり、彼女のアキラへの過剰な保護欲の理由として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_少年の正体と記憶喪失
+  note: 融合体の中で唯一目を覚まさなかった「剛の者」。記憶を完全に喪失した彼が、今後のパーティ（仲間）においてどのような役割を果たすのか。アズーリアとの接点だった可能性。
+  quotes:
+  - quote: 少年は記憶を失っていた。
+    paragraph: p219
+    quote_verified: true
+  expected_payoff: 彼の記憶が取り戻された際に、世界槍や地上/地獄の戦いに関する重要な情報（キーアイテム的役割）が発現する展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 命の軽さ（転生・不死）がもたらす道徳的インセンティブと自己犠牲の肯定
+  weight: 0.9
+  quotes:
+  - quote: 命が安くなるということは。献身行為にインセンティブを与えるということでもある。
+    paragraph: p28-p29
+    quote_verified: true
+  - quote: 転生保険に加入できる富裕層の命は、加入できない貧困層の命より相対的に軽い筈だ。
+    paragraph: p12
+    quote_verified: true
+  note: 転生という技術が死を軽くし、その結果として「他者のためなら死ぬ」ことが合理的・推奨される世界観を批判的かつ肯定的に描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 負担の分散による「仲間」という概念の再定義（ゲーム的メカニズムの倫理化）
+  weight: 0.8
+  quotes:
+  - quote: セスカは仲間に負担をかけたくないからって、仲間を一杯増やして負担を分散しようって思ってるんだよ
+    paragraph: p33
+    quote_verified: true
+  - quote: 全員で負荷を等分し、全員で生きて帰るという決意の表れなのだろう。
+    paragraph: p63
+    quote_verified: true
+  note: 単なるゲーム的なパーティ編成（人数増加）が、主人公たちの生存確率を高めるための倫理的・感情的な動機（誰も死なせないため）として昇華されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と文化の壁を超えた「居場所」の獲得可能性
+  weight: 0.7
+  quotes:
+  - quote: 彼らの書いた文字を俺が読める、俺の書いた文字を少年が読めるということは、つまり俺がこの世界で居場所を作り出せる可能性が皆無ではない、ということを意味しているらしい。
+    paragraph: p239
+    quote_verified: true
+  note: 異世界転生者が直面する「孤立」に対する解決策として、言語の壁を越える特異な能力（翻訳）と人間関係の構築が提示される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 機械（外骨格）を通じた慈母性・保護の擬制
+  weight: 0.6
+  quotes:
+  - quote: それがまるで、慈母の掌であるかのように。
+    paragraph: p195
+    quote_verified: true
+  - quote: 機械ごしの手付きがどこか優しくて、どうしてか俺は姿が見えないはずのトリシューラに抱きしめられているかのような錯覚をしてしまった。
+    paragraph: p194
+    quote_verified: true
+  note: 冷酷な戦闘マシーン（強化外骨格）が、主人公に対して保護者としての温もりを与えるという逆説的な人間性・親密さの描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

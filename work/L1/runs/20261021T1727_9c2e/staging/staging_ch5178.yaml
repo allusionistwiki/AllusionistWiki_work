@@ -1,0 +1,330 @@
+episode: ch5178
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ペイル]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5178_ペイル_deceives_ティリビナの民_p100
+        quote: ――結果的に、彼の下品極まりない言動のお陰でミルーニャに対する敵意に歯止めがかかったような気もする。
+        locator: {}
+        spoiler_after: ch5178
+    speech:
+      observations:
+      - event_ref: E_ch5178_ペイル_asks_挨拶_p341
+        quote: '「あ、挨拶って、お姉様に挨拶して何する気なの」
+
+          「へ？　何って、色々ハルにお世話になってますとか、そういう事だけど」
+
+          「だ、駄目。まだそんなの早い」'
+        locator: {}
+        spoiler_after: ch5178
+      - event_ref: E_ch5178_ペイル_threatens_ミルーニャ_p61
+        quote: 「つまりさー俺が担当してた腕の付け根あたりのお陰であの石像がぶっ壊れたわけ。まあお前もいい勉強になったんじゃね？　世界は広いし上には上がいるってことなわけよ。そう落ち込むことないさ、生きてればいいことあるって、な？」
+        locator: {}
+        spoiler_after: ch5178
+    action:
+      observations:
+      - event_ref: E_ch5178_ペイル_fights_アキラとリーナ_p90
+        quote: 私の槌矛が奴の顔面にめり込み、リーナの【空圧】が空高く巨体を舞い上げた。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_戦場小説]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5178_戦場小説_defines_社会的利用形態_p11
+        quote: 彼女が読んでいたのは、戦場小説あるいは迷宮小説と呼ばれる、その内容よりも社会的な利用形態に重きをおいて定義されるジャンルの小説である。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サリア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5178_サリア_appears_先導者_p110
+        quote: 今回の護送において先導者となる探索者サリアだった。軽装で、腰の革袋と二振りの短剣以外にはさしたる装備も身につけていない。
+        locator: {}
+        spoiler_after: ch5178
+      - event_ref: E_ch5178_サリア_has_property_超人的な聴力_p401
+        quote: '恐るべきはその索敵範囲である。
+
+          どうやら彼女は目ではなく耳で遠くの微かな音を拾っているらしい。'
+        locator: {}
+        spoiler_after: ch5178
+    speech:
+      observations:
+      - event_ref: E_ch5178_サリア_reveals_コルセスカとの戦闘_p185
+        quote: 「負けた。それはもう命からがら逃げてきた。三人で全力の凍結食らわせて時間稼ぎしてる間に空間に裂け目作って追放するので精一杯だった」
+        locator: {}
+        spoiler_after: ch5178
+      - event_ref: E_ch5178_サリア_promises_陽動_p244
+        quote: 「【死の囀り】の動きは不規則で、万が一ということもある。基本的に地上で歌ってるだけだとは思うけど、もし聞こえてきたら消音結界をお願い。私が陽動して遠ざけるから」
+        locator: {}
+        spoiler_after: ch5178
+    action:
+      observations:
+      - event_ref: E_ch5178_サリア_fights_敵_p394
+        quote: 'それからというもの、サリアは獅子奮迅の活躍を見せた。
+
+          前後から接近する敵を誰よりも早く感知し、前方の敵を先行して仕留める。'
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_隊列]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5178_隊列_other_護送隊形_p117
+        quote: その少し後ろには私とハルベルトとリーナが控え、最後尾にはプリエステラとミルーニャ、ペイルとイルスという形になる。私たち九人でティリビナの民を挟み込む隊列である。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_パレルノ山]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5178_パレルノ山_transforms_白い炎_p134
+        quote: '爆音。
+
+          禿げた岩山の各所から、白い炎が吹き上がっている。
+
+          あれは滅びの炎だ。
+
+          今まさに、パレルノ山は死に逝こうとしている。'
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_悪魔の九姉]]'
+  entity_type: organization
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5178_悪魔の九姉_defines_過去の災厄_p157
+        quote: 'キュトスの七十一姉妹。
+
+          その上位九名、悪魔の九姉と呼ばれる恐るべき魔人たちが世界に残した爪痕。
+
+          虐殺と破滅に彩られた、この世界の終わりが再現されつつあった。'
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5178_コルセスカ_has_property_複数の師匠_p199
+        quote: 「正確に言えば、他にも【七つの風の主】とか【空虚大公】とか色々師事してた相手はいるらしいけどね」
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5178_アキラ_asks_リーナ_p2
+        quote: 「何読んでるの？」
+        locator: {}
+        spoiler_after: ch5178
+      - event_ref: E_ch5178_アキラ_says_感謝_p22
+        quote: 「ありがとうございます」
+        locator: {}
+        spoiler_after: ch5178
+    action:
+      observations:
+      - event_ref: E_ch5178_アキラ_activates_時間遡行_p506
+        quote: 'だから私は、死んでしまって呪文を唱える口も無い私は、存在しない左手を掲げて、言葉を紡ぐ。
+
+          無いはずの金鎖が、砕ける音がした。
+
+          ――遡って、フィリス。'
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5178_リーナ_says_作者の作品_p20
+        quote: 「なんていうか、ふわふわしてて全体的に優しいっていうか。迷宮のお話もあるけど、そっちも殺伐としつつも穏やかな感じでさ」
+        locator: {}
+        spoiler_after: ch5178
+    action:
+      observations:
+      - event_ref: E_ch5178_リーナ_uses_幻覚呪術_p4
+        quote: 浮遊する端末から書籍テクスチャを立体投影しているリーナに問いかける。実体の存在しない純粋に情報的な書籍でも、幻覚呪術によって『手触り』を再現して重さや項をめくる際の紙の質感などを再現することができる。
+        locator: {}
+        spoiler_after: ch5178
+      - event_ref: E_ch5178_リーナ_other_背表紙_p8
+        quote: そう言ってリーナは背表紙を見せた。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_白焔]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5178_白焔_functions_as_時間流の翻訳_p203
+        quote: 「あの白い焔は、実際には燃焼という物理現象ではないの。抽象的な火の概念――ものごとの始まりと終わり。加速度的に進行していく時間的経過が理解可能な形として『翻訳』されているだけ。あの白い焔は全てを終端まで運んでいく膨大な時間流そのもの」
+        locator: {}
+        spoiler_after: ch5178
+    visual:
+      observations:
+      - event_ref: E_ch5178_白焔_appears_貴婦人_p484
+        quote: '白い火柱の中から、燃えるような貴婦人がその姿を現した。
+
+          悪魔の九姉による挟撃。
+
+          それは、逃れようのない死を意味していた。'
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5178_ハルベルト_fears_死の囀り_p241
+        quote: '「【白焔】は上で暴れてるだけだから大丈夫として。問題はもう一つの方」
+
+          サリアの言葉に、隣のハルベルトがびくりとする。'
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_呪動装甲]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5178_呪動装甲_has_property_狭さ_p29
+        quote: 間に合わせで貸与されている呪動装甲の中は少し狭いような感じがする。私が肉体のサイズを変動させれば最適化されるのだが、『私』を歪めるようで抵抗感があるのだ。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラーゼフ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5178_ラーゼフ_promises_新型呪動装甲_p31
+        quote: ラーゼフはあと一週間もあればまた新しい甲冑を用意できると言っていた。待ち遠しい。たしかきぐるみの魔女が完成させた既存の呪動装甲ではない、完全な新型だという話だったが――。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_カタルマリーナ派]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5178_カタルマリーナ派_bonds_ペリグランティア派_p313
+        quote: 'ハルベルトが所属する呪文の派閥――カタルマリーナ派とペリグランティア派との間で、何らかの取引があったらしい。
+
+          おそらくは呪文関連の技術供与。そして不戦協定、あるいは協力関係を結ぶといったようなものが。'
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5178_プリエステラ_other_点呼完了_p38
+        quote: まとめ役のプリエステラからの報告。点呼は完了し、名簿にはきちんと全員分の名前が記されている。
+        locator: {}
+        spoiler_after: ch5178
+      - event_ref: E_ch5178_プリエステラ_helps_ミルーニャ_p66
+        quote: 実のところ、こうしてここに来る前のミルーニャはかなり精神的に追い詰められていた。プリエステラは一度は敵として相対したミルーニャと和解したことをティリビナの民たちに説明してくれたらしい。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_死の囀り]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5178_死の囀り_appears_無音_p423
+        quote: 'だから、『それ』が音もなく目の前に現れたとき、私たちの誰もが愕然としたのは無理もないと言えるだろう。
+
+          『音もなく』――そう、それこそが最大の誤算。'
+        locator: {}
+        spoiler_after: ch5178
+      - event_ref: E_ch5178_死の囀り_other_呪文_p440
+        quote: '人形が両手で翅ペンを握り、燐光蜂の針から滴り落ちる自然由来のインクが帳面に文字を記していく。
+
+          それは歌。
+
+          無言で綴られる、狂乱の歌詞。'
+        locator: {}
+        spoiler_after: ch5178
+    visual:
+      observations:
+      - event_ref: E_ch5178_死の囀り_other_帳面と人形_p436
+        quote: '亡霊の如く浮遊する半透明の女性。
+
+          口には布が当てられ、右手には腹話術の人形。
+
+          左手には帳面。'
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_肉塊]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5178_肉塊_appears_ねじれた身体_p455
+        quote: 成人男性と少女の二人を雑巾絞りのようにして、互いにぐるぐると縒り合わせたような――そして骨で皮を複雑に砕いて固めたようなあれは一体。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メイファーラとリーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5178_メイファーラとリーナ_other_肉塊_p460
+        quote: 短槍と【空圧】が容易く押し返された。メイファーラとリーナが呪力の衝撃波のみで弾き飛ばされる。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5178_ミルーニャ_other_運搬用呪具_p48
+        quote: 列の後尾には、浮遊する絨毯や布などが『敷かれて』いた。その上には保護用の布に包まれた大量の荷物。子供たちが面白がって絨毯や荷物の上で跳ね回っている。列の移動と共に自動的に移動するあの呪具を用意したのはミルーニャだ。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ティリビナの民の子供たち]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5178_ティリビナの民の子供たち_bonds_ミルーニャ_p51
+        quote: そのミルーニャは、現在列の後ろで小さな子供たちに囲まれている。どうやら懐かれてしまったらしい。
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ティリビナの民]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5178_ティリビナの民_threatens_ミルーニャ_p59
+        quote: 「そうだそうだ、謝罪と賠償を要求する！」
+        locator: {}
+        spoiler_after: ch5178
+  first_appearance_candidate: true

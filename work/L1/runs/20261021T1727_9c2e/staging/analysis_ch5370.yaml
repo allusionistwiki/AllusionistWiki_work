@@ -1,0 +1,399 @@
+chapter: ch5370
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 14
+  mysteries: 7
+  themes: 5
+  quotes_verified: 24
+  quotes_total: 33
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p9]]'
+  object: '[[ME_game_design_late_game_power_creep]]'
+  claim: 一度封じられたはずの武器がいつの間にか手元に戻っている現象は、ゲームにおけるバランス調整やパッチ適用後のメタ的変化（ナーフされたはずが再ナーフされる等）を指している。
+  quote: 別の団員が取り上げていたはずのナイフがいつの間にか殺人鬼の手の中に戻っている。
+  paragraph: p9
+  confidence: moderate
+  quotes:
+  - quote: 別の団員が取り上げていたはずのナイフがいつの間にか殺人鬼の手の中に戻っている。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p14]]'
+  object: '[[ME_internet_search_engine]]'
+  claim: 「検索して調べろ」という台詞は、ゲーム内の設定集（ロア）を外部ソースに頼る現代のネットユーザー／ゲーマーの行動様式をパロディ化している。
+  quote: 「教えてやんねー。検索して調べろって。シューれカス」
+  paragraph: p14
+  confidence: strong
+  quotes:
+  - quote: 「教えてやんねー。検索して調べろって。シューれカス」
+    paragraph: p14
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p16]]'
+  object: '[[ME_crowdsourced_data_analysis]]'
+  claim: 遠隔参加する内勤によるリアルタイムの情報共有と解析は、クラウドソーシングやWikiでの共同編集によるデータ収集プロセスを模している。
+  quote: 既に事務所や自宅から遠隔参加している内勤の自警団員たちが調査と解析を行い、全体での情報共有をリアルタイムで実行中だ。
+  paragraph: p16
+  confidence: moderate
+  quotes:
+  - quote: 既に事務所や自宅から遠隔参加している内勤の自警団員たちが調査と解析を行い、全体での情報共有をリアルタイムで実行中だ。
+    paragraph: p16
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p19]]'
+  object: '[[ME_ai_counter_attack_mechanic]]'
+  claim: 攻撃を許可し、誤情報から逆探知して反撃する「知性化兵器」は、対話型AIチャットボットや敵対的生成ネットワーク（GAN）の学習・反復プロセスに類似している。
+  quote: 彼らの呪文攻撃を容易く『許可』して、誤情報に致死ウィルスを仕掛けてから逆探知と飽和攻撃を仕掛けてくる極め付きの知性化兵器（インテリジェンスウェポン）
+  paragraph: p19
+  confidence: strong
+  quotes:
+  - quote: 彼らの呪文攻撃を容易く『許可』して、誤情報に致死ウィルスを仕掛けてから逆探知と飽和攻撃を仕掛けてくる極め付きの知性化兵器（インテリジェンスウェポン）
+    paragraph: p19
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p30]]'
+  object: '[[ME_game_item_power_leveling]]'
+  claim: 自身の能力値に関係なく「強い力を持ってくればいい」という論理は、RPGにおける装備品（ギア）によるキャラクターの底上げや、「メタゲーム」での戦略選択を指す。
+  quote: 俺自身の力とか関係無いんだなこれが。俺が弱いなら強い力を持って来ればいいだけっしょ？
+  paragraph: p30
+  confidence: strong
+  quotes:
+  - quote: 俺自身の力とか関係無いんだなこれが。俺が弱いなら強い力を持って来ればいいだけっしょ？
+    paragraph: p30
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p36]]'
+  object: '[[ME_corporate_budget_constraints]]'
+  claim: 予算がないため強力な装備（外骨格）を用意できないという発言は、組織運営におけるコスト制約とリソース配分のジレンマを反映している。
+  quote: 苦手なら強化外骨格とかあるっしょ？ 予算ねえの？
+  paragraph: p36
+  confidence: moderate
+  quotes:
+  - quote: 苦手なら強化外骨格とかあるっしょ？ 予算ねえの？
+    paragraph: p36
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p42]]'
+  object: '[[ME_prophecy_in_narrative]]'
+  claim: 「予言王の御心のままに」という台詞は、物語構造におけるデウス・エクス・マキナやメタ的な作者介入を暗示している。
+  quote: 「全ては予言王の御心のままに」
+  paragraph: p42
+  confidence: strong
+  quotes:
+  - quote: 「全ては予言王の御心のままに」
+    paragraph: p42
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p51]]'
+  object: '[[ME_character_break_in_fandom]]'
+  claim: キャラクターの性格が原作設定と異なっていることを「キャラ崩壊」として批判するのは、二次創作ファンダム特有のメタ言説である。
+  quote: その方向ならせめてルウママとかコルセスカちゃんを呼べよなー。ああいうの許せねーわ。キャラ崩壊じゃん
+  paragraph: p51
+  confidence: explicit
+  quotes:
+  - quote: その方向ならせめてルウママとかコルセスカちゃんを呼べよなー。ああいうの許せねーわ。キャラ崩壊じゃん
+    paragraph: p51
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p62]]'
+  object: '[[ME_content_moderation_policy]]'
+  claim: 内心の自由は認めつつ暴力を禁止する自警団の姿勢は、インターネットコミュニティにおけるモデレーションポリシー（言論の自由と荒らし対策）に似ている。
+  quote: 「内心の自由や主義主張は否定しないが、暴力は許可できない。それは我々が正しく管理すべきだからだ」
+  paragraph: p62
+  confidence: moderate
+  quotes:
+  - quote: 「内心の自由や主義主張は否定しないが、暴力は許可できない。それは我々が正しく管理すべきだからだ」
+    paragraph: p62
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p76]]'
+  object: '[[ME_meta_level_reference]]'
+  claim: 「メタレベルに引っ込んでないで出てこい」という罵倒は、物語の構造（メタ）を認識した存在が物語内（ダイエジェティック）に介入する構造を指している。
+  quote: メタレベルに引っ込んでないで出てこいよ！ 起源から解体してやっから！
+  paragraph: p76
+  confidence: strong
+  quotes:
+  - quote: メタレベルに引っ込んでないで出てこいよ！ 起源から解体してやっから！
+    paragraph: p76
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p126]]'
+  object: '[[ME_naming_convention_change]]'
+  claim: 「ゼロ」から「晶（Akira）」への訂正は、コードネームや記号としての存在から、固有の人格・名前を持つ個人への回帰を意味する。
+  quote: ゼロと言う数字で呼ばれた少女は、首をかしげて「晶」と訂正。
+  paragraph: p126
+  confidence: strong
+  quotes:
+  - quote: ゼロと言う数字で呼ばれた少女は、首をかしげて「晶」と訂正。
+    paragraph: p126
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p146]]'
+  object: '[[ME_jungian_individuation]]'
+  claim: アニマとアニムスの統合、アダム・カドモンへの言及は、ユング心理学における自己実現（インディヴィデュエーション）のプロセスを指している。
+  quote: 私はアニマだから。アニムスを打倒し、統合することを求めている。…これは品森晶の内宇宙戦争ということよ
+  paragraph: p146
+  confidence: strong
+  quotes:
+  - quote: 私はアニマだから。アニムスを打倒し、統合することを求めている。…これは品森晶の内宇宙戦争ということよ
+    paragraph: p146
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p190]]'
+  object: '[[ME_collective_action_problem]]'
+  claim: 全体で協力しつつ個々は連携していないという構造は、集団行動理論における協調の失敗や囚人のジレンマを指している。
+  quote: 「細胞」たちが全体で協力しつつ個々には連携していないのは、本当の願いが別々だから。それがあなたたちの弱点
+  paragraph: p190
+  confidence: moderate
+  quotes:
+  - quote: 「細胞」たちが全体で協力しつつ個々には連携していないのは、本当の願いが別々だから。それがあなたたちの弱点
+    paragraph: p190
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p215]]'
+  object: '[[ME_modular_character_design]]'
+  claim: シナモリアキラを構成要素（腕、脚、心など）に分解し再検討する行為は、キャラクターのモジュール化や部品単位の分析（リバースエンジニアリング）に似ている。
+  quote: シナモリアキラという紀人は解体され、複数の要素として検討され、再解釈されていく。諸要素を遡り、回想し、ばらばらの異物を見つめ、しかしそれは確かに全体として見ればシナモリアキラに他ならない。
+  paragraph: p215
+  confidence: strong
+  quotes:
+  - quote: シナモリアキラという紀人は解体され、複数の要素として検討され、再解釈されていく。諸要素を遡り、回想し、ばらばらの異物を見つめ、しかしそれは確かに全体として見ればシナモリアキラに他ならない。
+    paragraph: p215
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_killer_night_identity
+  note: 殺人鬼が使用する「生きた意思」を持つナイフの正体。自警団は解析できず、その源（誰に属するか）が不明。
+  quotes:
+  - quote: それらとは根本的に異質な『生きた意思』を感じる。
+    paragraph: p27
+    quote_verified: true
+  - quote: 「俺にも美学とかあるわけ。カジュアルな殺しってのはさぁ、つまり命の価値を肉と一緒に解体する行為なんだよね。」
+    paragraph: p58
+    quote_verified: false
+  expected_payoff: このナイフが誰（どのメタレベルの存在）からの借用であるか、あるいは誰の概念そのものであるかが判明し、戦闘の帰趨を決める。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_forecast_king
+  note: 「予言王」と呼ばれる存在が介入を指示している。この存在の意図と正体。
+  quotes:
+  - quote: 「全ては予言王の御心のままに」
+    paragraph: p42
+    quote_verified: true
+  expected_payoff: 物語の進行を制御する上位存在（作者代理？）としての役割が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_braysva_identity
+  note: 殺人鬼が呼び出し、奴隷男が呼んでいる「ブレイスヴァ」という名前。彼らはこれに恐怖している。
+  quotes:
+  - quote: 「総員、構え！ これより正義を執行する！ 十三番、『コキューネー』！」
+    paragraph: p34
+    quote_verified: true
+  - quote: ブレイスヴァって奴。あ？ 何びびっちゃってんの？ メタレベルに引っ込んでないで出てこいよ！
+    paragraph: p76
+    quote_verified: true
+  expected_payoff: ブレイスヴァが「メタレベル」に存在する強力な概念であり、戦闘の勝敗を決定づけるキーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_tree_prisoner_escape
+  note: 緑竜騎士団長によって樹木に封じられたはずの「狂える伐採者（チェーンソー）」が脱出する。
+  quotes:
+  - quote: みしみしと揺れて、突如として内側からチェーンソーが突き出された。
+    paragraph: p112
+    quote_verified: true
+  expected_payoff: 伐採者が第五階層の戦場に合流し、「作業」としての破壊行為を開始する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_module_separation
+  note: シナモリアキラが解体され、各モジュール（腕、心など）が独立した動きを見せる。
+  quotes:
+  - quote: 各モジュールが思い思いに動き出す。たったひとつの正解を求めて。
+    paragraph: p217
+    quote_verified: true
+  expected_payoff: シナモリアキラというキャラクターの「正体」が複数存在し、それぞれが異なる物語ルート（可能性）を示すことになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_shin_motivation
+  note: 品森晶（Akira）が「わたしにーさま」を殺す、あるいは殺されることを求めている理由。「内宇宙戦争」とは何か。
+  quotes:
+  - quote: アダム・カドモンへ至るためには安定が必要。そのための内的闘争。自己の解体と再構築。これは品森晶の内宇宙戦争ということよ
+    paragraph: p146
+    quote_verified: true
+  expected_payoff: シナモリアキラ（男）を殺すことが、晶（女）の完全化や統合に必要なプロセスであることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_heart_descent
+  note: 「心臓」が降臨した後に託す願いという表現。この「心臓」とは何か。
+  quotes:
+  - quote: 「けれど『心臓』が降臨した後に託す願いは調整できる。」
+    paragraph: p190
+    quote_verified: false
+  expected_payoff: 物語の終着点、あるいは世界の再構築に関わる巨大な存在（主人公？）の到来を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタ構造による物語の解体と再構築
+  weight: 0.9
+  quotes:
+  - quote: シナモリアキラという紀人は解体され、複数の要素として検討され、再解釈されていく。
+    paragraph: p215
+    quote_verified: true
+  - quote: メタレベルに引っ込んでないで出てこいよ！
+    paragraph: p76
+    quote_verified: true
+  note: キャラクターを「シナリオ上の記号」として分析し、構成要素（モジュール）へ分解することで物語の構造そのものを解体・再定義しようとする試み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力の管理と自由意志の対立
+  weight: 0.8
+  quotes:
+  - quote: 「内心の自由や主義主張は否定しないが、暴力は許可できない。それは我々が正しく管理すべきだからだ」
+    paragraph: p62
+    quote_verified: true
+  - quote: 「クズ集団がなーにバカなこと言ってんの？ 言い訳くせーぶんだけテメエらの方がクソダサなんだよ死ね」
+    paragraph: p70
+    quote_verified: true
+  note: 秩序を維持する組織（自警団）と、自由な暴力（殺人鬼）の対立を通じて、「管理された物語」と「逸脱した物語」の緊張関係を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己の解体による統合（アニマ/アニムス）
+  weight: 0.85
+  quotes:
+  - quote: 私はアニマだから。アニムスを打倒し、統合することを求めている。…これは品森晶の内宇宙戦争ということよ
+    paragraph: p146
+    quote_verified: false
+  - quote: 「わたしにーさま！」…左拳で頭蓋を打ち砕き、右の水蛇が体内へと侵入、激流が内側から全身を破壊し尽くす。
+    paragraph: p202
+    quote_verified: false
+  note: シナモリアキラ（男性性）の殺害と解体は、品森晶（女性性）にとっての「統合」へのプロセスであり、自己完結のための必然的な暴力である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の記号的消費とメタゲーム的競争
+  weight: 0.7
+  quotes:
+  - quote: 「キャラ崩壊じゃん」
+    paragraph: p51
+    quote_verified: false
+  - quote: 「あ、こら、待ちなさい！ …ちょっとかっこいい異界ミームを取り込んだからって調子に乗って！」
+    paragraph: p211
+    quote_verified: false
+  note: キャラクターの行動が「キャラ設定」や「ミーム」として消費・評価される構造の中で、キャラクター同士がメタ的に競い合っている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 機能としての暴力と労働化された戦闘
+  weight: 0.6
+  quotes:
+  - quote: 作業。ルーチンワーク。日々の労働。伐採者は、ただ機械的に自動的に動くだけだ。
+    paragraph: p118
+    quote_verified: true
+  - quote: 「命に貴賤はねえの。異獣とか正義ヅラで言い訳してる連中とは違うんだよね」
+    paragraph: p58
+    quote_verified: false
+  note: 戦闘が英雄的行為ではなく、「伐採」や「解体」という機能・労働として描かれており、物語の崇高さを解体する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

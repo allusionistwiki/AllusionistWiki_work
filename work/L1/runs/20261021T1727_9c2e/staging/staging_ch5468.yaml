@@ -1,0 +1,52 @@
+episode: ch5468
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_第五階層辺境区画]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5468_第五階層辺境区画_is_located_ガロアンディアンの支配外_p2
+        quote: 第五階層の辺境はガロアンディアンの支配が及ばない区画ということになっている。
+        locator: {}
+        spoiler_after: ch5468
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ探偵気取り]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5468_シナモリアキラ探偵気取り_other_怒り・差別感情_p228
+        quote: 「みんな、もっと言ってやれ！　俺たちはこの状況に怒るべきだ！
+        locator: {}
+        spoiler_after: ch5468
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_機械女王]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5468_機械女王_has_property_直接統治の意図なし_p5
+        quote: つまり間接的にガロアンディアンの統治下にあると言ってもいいのだが、あくまでも機械女王はこの地を直接的に統治するつもりが無いらしい。
+        locator: {}
+        spoiler_after: ch5468
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ユディーア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5468_ユディーア_arrives_酒場_p8
+        quote: '「あったあった。この酒場だね。『公社』が手配した人員と落ち合う予定になってるの」
+
+          二人が辿り着いたのはそんな辺境区のはずれにある寂れた二階建ての建物だった。'
+        locator: {}
+        spoiler_after: ch5468
+    speech:
+      observations:
+      - event_ref: E_ch5468_ユディーア_thinks_シナモリアキラへの不信_p94
+        quote: ユディーアとも決して無関係ではないサイバーカラテだが、彼女はどうにもこの技術とそれをもたらした『シナモリアキラ』という転生者に信用を置くことができなかった。
+        locator: {}
+        spoiler_after: ch5468
+  first_appearance_candidate: true

@@ -1,0 +1,262 @@
+episode: ch5582
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_クラウビューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5582_クラウビューラ_says_天の視点と無慈悲な裁定_p109
+        quote: 「聞け、矮小なる者どもよ。小さき視点で何が理解できる？ お前たちは心が生み出す痛みを語る。個々人の生命の尊さと語る。されどその価値は全ての命にとっても同じこと。天より俯瞰すれば、裁定は無慈悲な数値によって下さねばならぬ」
+        locator: {}
+        spoiler_after: ch5582
+      - event_ref: E_ch5582_クラウビューラ_says_効率追求の責務_p124
+        quote: 「わかるか、懸命に生きる者たちよ。弱きを踏み潰し、多きを助ける。どう足掻こうが、その効率を追求することこそが天に在る者の責務となるのだ」
+        locator: {}
+        spoiler_after: ch5582
+      - event_ref: E_ch5582_クラウビューラ_says_共闘への賞賛_p51
+        quote: 「共闘か。良き連携だ。賞賛に値する」
+        locator: {}
+        spoiler_after: ch5582
+      - event_ref: E_ch5582_クラウビューラ_says_兄妹の絆と水素水_p56
+        quote: 「ならばこちらも兄妹の絆を見せる時だ、チッセ！ 雲の慈雨を見よ。お前の世界に、恵みの水素水を降らせてやろう。全ての者は水素の音を聞くがよい！！」
+        locator: {}
+        spoiler_after: ch5582
+    action:
+      observations:
+      - event_ref: E_ch5582_クラウビューラ_uses_液体金属縮退した水素_p131136
+        quote: '水に見えたそれは液体金属。
+
+          星の心臓部、超高圧の環境下に存在する特例だ。'
+        locator: {}
+        spoiler_after: ch5582
+      - event_ref: E_ch5582_クラウビューラ_attacks_超呪導パルス_p147150
+        quote: '超呪導状態での呪術行使が闇の世界を震わせた。
+
+          圧倒的な効率から繰り出される莫大な出力。
+
+          全宇宙を震撼させるほどの大呪術が、金属光沢を帯びた『重い雲』を具現化。
+
+          超呪導パルスが漆黒を裂いて走り、破滅を歌う。'
+        locator: {}
+        spoiler_after: ch5582
+      - event_ref: E_ch5582_クラウビューラ_attacks_チッセへの加勢_p3940
+        quote: '上空から響いたクラウビューラの呪文が突風をもたらした。
+
+          直後、雷鳴を轟かせながら輝く霊体の兵士がチッセに加勢。'
+        locator: {}
+        spoiler_after: ch5582
+    visual:
+      observations:
+      - event_ref: E_ch5582_クラウビューラ_appears_as_水の巨人_p54
+        quote: ごうごうと大きな質量が蠢く音がして、膨大な量の水で構築された巨人がチッセの世界に足を踏み入れた。天空の雲を全てかき集めて土砂降りの雨を降らせたような激震が緑の世界に破壊と再生をもたらしていく。
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_チッセ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5582_チッセ_says_失敗例の修正_p115
+        quote: 「これは戦争でカタストロフだから回避、これは技術的な行き止まりだから駄目、これは次元侵略で破綻するかもだから修正、こっちは環境汚染がやばいからぼくが介入して解決～チッセちゃん天才～」
+        locator: {}
+        spoiler_after: ch5582
+      - event_ref: E_ch5582_チッセ_says_参加への要望_p152
+        quote: 「クラウ兄さまばっか遊んでずるい～、チッセちゃんも色々やりた～い」
+        locator: {}
+        spoiler_after: ch5582
+      - event_ref: E_ch5582_チッセ_says_取り込み宣言_p5
+        quote: 「チッセちゃんの世界に取り込んであげるね～」
+        locator: {}
+        spoiler_after: ch5582
+    action:
+      observations:
+      - event_ref: E_ch5582_チッセ_attacks_ロードデンドロン陣営_p16
+        quote: 自陣の植物のみを爆発的に成長させつつ、敵対するロードデンドロンが率いるキノコ人たちから呪力を奪っていく。
+        locator: {}
+        spoiler_after: ch5582
+    visual:
+      observations:
+      - event_ref: E_ch5582_チッセ_appears_as_生態系_p3
+        quote: 少女の形をした生態系が地表全ての光景を混ぜこぜに展開する。
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_クラウビューラとチッセ]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5582_クラウビューラとチッセ_uses_より良い歴史の作成_p120122
+        quote: 'そこに構築されていたのはもう一つの世界、どこまでも確かな仮想現実だ。
+
+          クラウビューラとチッセは、この浄界を『より良い歴史』を作るために利用している。確信に満ちた両者の意思は、揺るがぬ正義で研ぎ澄まされている。
+
+          絶対的支配者として君臨する二柱の巨人に、この浄界内部で勝てる道理はない。'
+        locator: {}
+        spoiler_after: ch5582
+    relationship:
+      observations:
+      - event_ref: E_ch5582_クラウビューラとチッセ_bonds_青い血による融和_p6263
+        quote: '両者を取り巻く環境と、その精神が二人に流れる青い血によって深く深く融け合っていくようだった。内宇宙と外宇宙の一致は、本来ありえない奇跡を起こす。
+
+          異質な個我の共有。親密なる家族ゆえの相互理解の具現。'
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メートリアン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5582_メートリアン_teaches_理想呪導体の性質_p144
+        quote: 錬金術師メートリアン曰く、理想呪導体と呼ばれる呪術触媒には一切の呪力抵抗が存在しないため、理論上エネルギーのロスをゼロにすることが可能だという。
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_気圧調整]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5582_気圧調整_other_世界激変_p15
+        quote: ただそれだけの気圧調整。それだけで世界が激変した。
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_大河]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5582_大河_has_property_宇宙生物の生態系_p154
+        quote: 更に、世界の裂け目のように天を縦断する大河にはありとあらゆる生命が躍動していた。それはなんかこう、うにょうにょした触手を備えたタコみたいな生物で、他にもういんういんと音を鳴らす円盤とか、それを操る高度な文明を持った銀色の人型とか、珪素の生命体とか、真空に適応した嫌気性生命とか、いわゆる『宇宙生物』が織りなす見知らぬ生態系と文明の織りなす別次元だった。
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5582_リーナ_thinks_勝算なし_p157159
+        quote: '（あ、これどうあがいても勝てないやつだ）
+
+          リーナは確信した。
+
+          巨人たちが定めたルールの中では誰も勝つことができない。勝ち筋があるとすれば、それは別のルールを押し付けて負けを認めてもらうしかないだろう。'
+        locator: {}
+        spoiler_after: ch5582
+    action:
+      observations:
+      - event_ref: E_ch5582_リーナ_observes_ロードデンドロンの敗北_p160170
+        quote: 'このままではロードデンドロンは敗れ去るだろう。
+
+          入念な準備を重ね、強い信念でこの場に臨んだにもかかわらず。
+
+          絶対的な力には敵わない。その現実を思い知らされて終わるのだ。'
+        locator: {}
+        spoiler_after: ch5582
+    visual:
+      observations:
+      - event_ref: E_ch5582_リーナ_observes_クラウビューラの真の姿_p95106
+        quote: '巨体が、闇と無数の光点を内包して立ち上がる。
+
+          その全容は計り知れない。
+
+          ただ、夜空と星々を身体に映し出した『人型に見える何か』がそこにある。
+
+          （私の目が、そういう解釈をしないと理解できないんだ）
+
+          星雲の巨人。'
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_戦場]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5582_戦場_has_property_緑の衝突_p2
+        quote: 戦場の中心は緑と緑の衝突だった。
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロードデンドロン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5582_ロードデンドロン_says_窒素循環の要_p20
+        quote: 「窒素循環の要は微生物や菌類などの分解者。すなわち、チッセ・ディパーシュ・クロウサーが支配する生態系は我々抜きでは成立しない」
+        locator: {}
+        spoiler_after: ch5582
+      - event_ref: E_ch5582_ロードデンドロン_says_試練の受容_p202
+        quote: 「これが、レコードゴースト。私が乗り越えるべき、試練の形か」
+        locator: {}
+        spoiler_after: ch5582
+      - event_ref: E_ch5582_ロードデンドロン_says_予定変更と勝利宣言_p208
+        quote: 「ハチェット、予定変更。ここで出番だ。死んでも勝ち取るんじゃない。勝って奪い取る。ここで、あの緑を超えていく」
+        locator: {}
+        spoiler_after: ch5582
+      - event_ref: E_ch5582_ロードデンドロン_says_分解呪文詠唱_p2531
+        quote: '「大気に還れ～、天の稲光が暗がりを照らす～」
+
+          「大気に眠る命の糧よ、いと高き者の御言葉に従い大地に神威をもたらせ」
+
+          「風雨は根に昂ぶりを～」
+
+          「芽と実は翼を得たり。風を切る鳥たちが命をまた巡らせる」'
+        locator: {}
+        spoiler_after: ch5582
+    action:
+      observations:
+      - event_ref: E_ch5582_ロードデンドロン_uses_ラベリング呪文_p23
+        quote: チッセの世界と不可分な要素であるキノコ人を、生命の濁流に抗わせるのではなく同化させる発想。相手の得意文脈に味方を配置するラベリング呪文だった。
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_呪文の交錯]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5582_呪文の交錯_transforms_物理現象から呪術的激突へ_p34
+        quote: 循環する生態系を詩的世界として解釈し、テクスト上で物理的な自然現象を呪術的な激突に置き換える。言葉が飛び交うたび、文字情報の世界が激変して自然界を生と死が席巻した。
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ティリビナ人]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5582_ティリビナ人_has_property_天空の霊への耐性なし_p4142
+        quote: 'だが、死生観の異なるティリビナ人にとって『天空の霊』は天敵だ。
+
+          死後は養分となって世界を循環するのがロードデンドロンにとっての常識であり、宗教観である。ゆえにそのままではクラウビューラの死霊術には対抗できない。'
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_巨人たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5582_巨人たち_other_新たな世界_p64
+        quote: 巨人たちの叫びが、新たな世界を切り開いた。
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_チッセの化身]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5582_チッセの化身_has_property_混沌の生命_p7
+        quote: 彼女の『化身』は混沌の大河のように生命が溢れ、無数の眷属種の要素が混ざり合った異形の世界だ。クロウサーの貪欲な血統術の探究が、この恐るべき生命の到達点を奇跡のバランスで成立させてしまっている。
+        locator: {}
+        spoiler_after: ch5582
+  first_appearance_candidate: true

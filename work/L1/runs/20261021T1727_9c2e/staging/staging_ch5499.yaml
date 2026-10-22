@@ -1,0 +1,348 @@
+episode: ch5499
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_クァヒート家当主]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5499_クァヒート家当主_asks_ランカーシュ_p100
+        quote: 「やれやれ。言い返す気概も無いとは。これでは生まれてくる子供にもあまり期待が持てんな。種が良くても胎がこれでは。なあランカーシュ。ランカーシュ？　どうした？」
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_クァヒート家当主_says_小娘_p78
+        quote: 「この『神鳴』のクァヒート家の他にクロウサーを立て直すにふさわしい血統などあるものか。お飾りの小娘など嫁にして鳥籠に閉じ込めてしまえ」
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_クァヒート家当主_thinks_次期当主_p82
+        quote: 次期当主の座は息子のものだ、と言わんばかり。
+        locator: {}
+        spoiler_after: ch5499
+    action:
+      observations:
+      - event_ref: E_ch5499_クァヒート家当主_other_無思考_p160
+        quote: 父親は愛する息子の無惨な最期に呆然としていたが、悲しみよりも先にしなければならないことを思い出し、何も考えずに実行した。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ランカーシュ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5499_ランカーシュ_transforms_小鬼化_p103
+        quote: 稲妻を宿す肉体と虹を映す瞳。父親譲りの優れた邪視者としての美貌が、見るも無惨に朽ち果てている。一瞬で大半が抜け落ち、老人のような白に染まった頭髪。口から垂れ流される涎。皺の寄った顔は父親のそれよりも遙かに老け込み、浮遊する足を伝って床に滴り落ちているのは小便か。ぶつぶつと呟いているのは意味のわからぬ妄言だ。
+        locator: {}
+        spoiler_after: ch5499
+    speech:
+      observations:
+      - event_ref: E_ch5499_ランカーシュ_says_妄言_p105
+        quote: 「宇宙、紙片に描かれた信号機の緑色と橙色が螺旋を描く時計の距離を交互に往復して光が広がって粘膜の繋がった金色に目が目が目が死んでるはずなのにどうして生きて動けない潰してるんだもう目は潰した何度も壊したけどまだ見えて見えて見えて」
+        locator: {}
+        spoiler_after: ch5499
+    action:
+      observations:
+      - event_ref: E_ch5499_ランカーシュ_transforms_圧縮_p132
+        quote: 内部で虹が捩れ、肥大化し、内と外の境界面を突き破って破裂、引き摺り出された出鱈目な走馬燈がぼろぼろと溢れながら全身を縛り、砕き、強引にその肉体を圧縮していった。小さく、小さく、矮小に、誰にも見えなくなるように。
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_ランカーシュ_disappears_痕跡すら残さず_p158
+        quote: '次の瞬間、小鬼が消えていた。
+
+          痕跡すら残さず、なんの予兆もなしに一個の巨大な呪術生命が消滅したのだ。'
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_周囲の者たち]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5499_周囲の者たち_observes_ランカーシュ_p109
+        quote: 慌てふためく父と廃人同然の息子、狂態を演じる二人を周囲はあたたかな視線で見守っていた。失笑と歓喜。毒か呪いかは知らないが、誰かが上手くやったのだろう。これで有力な競争相手が脱落した。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5499_リーナ_says_嘆かわしい_p113
+        quote: '「嘆かわしい」
+
+          静かに、誰にも聞こえないほど小さく娘の声が沈んでいく。'
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_リーナ_thinks_空虚さ_p13
+        quote: 『頭空っぽ』なんてよく言われるけれど、実際には頭どころか心まで空っぽなのではないだろうかと時々思う。
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_リーナ_fears_自分_p28
+        quote: リーナは、自分という存在がひどく恐い。
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_リーナ_thinks_嘘_p5
+        quote: 'この気持ちよさだけを感じていられたらどんなにいいだろう。
+
+          リーナ・ゾラ・クロウサーにとって、それは嘘でしかない。'
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_リーナ_has_property_脳天気_p50
+        quote: リーナは元気で脳天気。暗い言葉は似合わない。
+        locator: {}
+        spoiler_after: ch5499
+    visual:
+      observations:
+      - event_ref: E_ch5499_リーナ_observes_ランカーシュ_p117
+        quote: リーナ・ゾラ・クロウサーは、金色に輝く瞳で英雄をまなざした。
+        locator: {}
+        spoiler_after: ch5499
+    name:
+      observations:
+      - event_ref: E_ch5499_リーナ_names_役割_p17
+        quote: 『未知なる末妹』の予備候補。クロウサー家当主。ちゃらんぽらんな大学生。
+        locator: {}
+        spoiler_after: ch5499
+    action:
+      observations:
+      - event_ref: E_ch5499_リーナ_observes_空_p2
+        quote: 空を見上げる。
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_リーナ_observes_蔑視_p97
+        quote: 子供から大人になろうとする年頃の娘は静かに俯いて周囲の蔑視と嘲弄を無言でやり過ごそうとしている。少なくとも、傍目からはそう見えた。
+        locator: {}
+        spoiler_after: ch5499
+    relationship:
+      observations:
+      - event_ref: E_ch5499_リーナ_is_located_クロウサー家当主_p24
+        quote: リーナはゼオーティア文明圏の支配者、クロウサー家の当主である。
+        locator: {}
+        spoiler_after: ch5499
+    symbolic:
+      observations:
+      - event_ref: E_ch5499_リーナ_has_property_権力_p25
+        quote: 霊性複合体を統べる強大な権力、その全てを掌握する呪術の王。
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_リーナ_has_property_仮面_p9
+        quote: 明るく脳天気なムードメーカー、そんな顔だって仮面に過ぎない。自分にとっても他人にとっても都合が良くて、なんとなく惰性で続けてしまっているだけ。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_未知の声リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5499_未知の声リーナ_says_巨人_p119
+        quote: '「巨人か。よくそこまで己を磨いた」
+
+          その場にいたほぼ全員が、その発言の主を特定できずに首を傾げた。'
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_未知の声リーナ_says_慈悲_p156
+        quote: 「耐えきれず小鬼に堕ちたか。ならば慈悲をくれてやる」
+        locator: {}
+        spoiler_after: ch5499
+    symbolic:
+      observations:
+      - event_ref: E_ch5499_未知の声リーナ_appears_as_玉体_p127
+        quote: 「優れた邪視も困りものだな。遙かなソラに、我が玉体を垣間見てしまったか」
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_空を駆ける者]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5499_空を駆ける者_thinks_太陽_p148
+        quote: '空を駆ける者であれば、太陽を直接まなざすことはしない。
+
+          それが身を滅ぼすことなど誰でも知っている。'
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_空の民]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5499_空の民_defines_雲上人_p167
+        quote: '呪術的想像力に長けた空想と夢想の浮遊生命。
+
+          呪術世界においては高い階級、地位にあることが多い生まれながらの貴族たち。
+
+          ゆえに雲上人。そう呼ばれる彼らは、ごく自然に誰かを見下ろす。'
+        locator: {}
+        spoiler_after: ch5499
+    symbolic:
+      observations:
+      - event_ref: E_ch5499_空の民_has_property_権力_p62
+        quote: そこに集った全ての者にとって、権力とは手足と同じように振るうものであり、権威とは生まれつき備わっているものであった。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ゾラ分家の老人たち]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5499_ゾラ分家の老人たち_fears_頭を垂れよ_p170
+        quote: '「頭が高い。頭を垂れよ」
+
+          彼らはこぞって競い合った。
+
+          誰が一番上手く頭を地面に擦りつけ、恭順の意を示せるのかを。'
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ当主]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5499_リーナ当主_thinks_器なし_p175
+        quote: 「やはり今のクロウサーにこれ以上の器はない。だがリーナはまだ未熟。試練が必要だ。『空使い』を成長させる華々しい物語が」
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_リーナ当主_thinks_公開処刑_p183
+        quote: 「逆賊ガレニスの公開処刑か。リーナが全ての試練を乗り越えたならば、確かにそうなるであろうな」
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_リーナ当主_names_チョコレートリリー_p188
+        quote: 「それはそれは素晴らしい成長物語を期待しているぞ。なにしろリーナ。お前はゾラの娘。そして栄えある『呪文の座』、チョコレートリリーの一員なのだから」
+        locator: {}
+        spoiler_after: ch5499
+    action:
+      observations:
+      - event_ref: E_ch5499_リーナ当主_other_端末_p179
+        quote: '細い指先が端末を操作すると、会議室の側面が透過していく。
+
+          そこは外の景色が一望できる位置で、ちょうどレース会場のスタート地点が真下に見えるようになっていた。'
+        locator: {}
+        spoiler_after: ch5499
+    visual:
+      observations:
+      - event_ref: E_ch5499_リーナ当主_appears_as_影_p186
+        quote: 瞳が金色に輝く。背後に伸びた影がいびつに歪み、広がった翼と拗くれた帽子のシルエットが壁に映し出される。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ガルズ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5499_ガルズ_other_クロウサー_p19
+        quote: 大罪人ガルズが呪ったクロウサー。
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_ガルズ_says_期待_p32
+        quote: 『君は将来、きっと大物になるね。大人になったら、いつかモデルをお願いしようかな』
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ意識]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5499_リーナ意識_other_無知_p193
+        quote: 金色の瞳が開くその裏側で、意識を閉ざしたリーナは何も知らずに眠り続けていた。
+        locator: {}
+        spoiler_after: ch5499
+    speech:
+      observations:
+      - event_ref: E_ch5499_リーナ意識_thinks_そらごと_p197
+        quote: 'ほんとうのこと？
+
+          そんなのいらない。
+
+          だってみんな、そらごとでしょう？'
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_空]]'
+  entity_type: motif
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5499_空_has_property_心地良さ_p3
+        quote: そこには綺麗な青空が広がっていて、どこまでも透き通るような単純さが心地良い。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オリヴィア]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5499_オリヴィア_says_資格_p37
+        quote: 『高みに立つ者は、常に己が邪悪さについて考えておくべきなのですわ。決して地を踏まぬ私たちの足は、けれど必ず無辜の民を踏み潰す。断罪と破滅の因果を呑み込む覚悟すらないあなたに、私と競う資格があるとでも？』
+        locator: {}
+        spoiler_after: ch5499
+    action:
+      observations:
+      - event_ref: E_ch5499_オリヴィア_dies_空使いの卵_p39
+        quote: 文句のつけようのない『空使い』の卵は、けれどあっけなく塀から落っこちて割れてしまった。王様の馬と家来の全部がかかっても元には戻らなくて、だからリーナは永遠に彼女に勝てずじまいだ。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5499_パーン_says_条件_p41
+        quote: 『ガレニスの命脈は絶えた。この箒に触れる資格を持つ者はもはやどこにもいないだろう。だが、もし仮に。ありえないことだとは思うが。クロウサーに生まれながら、空を呪ったことがある者がこの文章を読んでいるのなら』
+        locator: {}
+        spoiler_after: ch5499
+      - event_ref: E_ch5499_パーン_says_怒り_p48
+        quote: 『お前の中にあるクロウサーを憎む心が、お前に速度を与えるだろう。飛ぶのならば怒り狂え。不遇を呪え、生まれを嫌悪しろ。穢れた風を切って飛べ。その先に、お前に相応しい空があるはずだ。目を背けたくなるような汚濁の空が』
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_箒]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5499_箒_has_property_死_p44
+        quote: 彼が遺した箒は不適合者に苛烈な死をもたらす曰く付きの呪物で、そんなものに挑むのは度を超した愚か者だけだというのがクロウサー家の常識だった。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_オグリーズ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5499_オグリーズ_arrives_会議室_p66
+        quote: 薄暗い会議室に通されたオトルベイト家当主・『天嵐の主』オグリーズは退屈そうに鼻を鳴らした。あぐらをかいたまま浮遊して移動する長い白髭の老呪術師。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セイグリン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5499_セイグリン_other_雲状の足_p70
+        quote: 言葉通り、雲状の足で宙に軌跡を残して移動するのは『黒雲翁』セイグリン。クロウサー家が保有するグループ企業のひとつを前当主サイリウスに任され『軍用箒』の分野を急成長させた辣腕の持ち主だ。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_分家筋代表者たち]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5499_分家筋代表者たち_thinks_リーナ_p85
+        quote: リーナ・ゾラ・クロウサーは『空使い』としては不適格である。
+        locator: {}
+        spoiler_after: ch5499
+  first_appearance_candidate: true

@@ -1,0 +1,133 @@
+chapter: ch5344
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 14
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_ancient_rule_mortality
+  note: 古代ルール採用による死者発生リスクと、再生者側の「死は再生で済む」という感覚のズレ。
+  quotes:
+  - quote: 今回は古代ラフディのやり方に合わせるから、くれぐれも死なないでね
+    paragraph: p128
+    quote_verified: true
+  - quote: あちらとしては死んでも『神の御意思』であり『再生者にしてやる』だけなので、より『事故死させること』への敷居は低いだろう。
+    paragraph: p129
+    quote_verified: true
+  expected_payoff: 試合中にガロアンディアン側の人間が殺傷され、それが「単なる再生コスト」で済まされない深刻な事態（精神的トラウマや呪力暴走など）へ発展する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_blue_thread_ocean
+  note: トリシューラが見た「青い糸」の正体と、それが示唆するマラードの真意。
+  quotes:
+  - quote: この流れ、相手の土俵に乗せられてる気がする。シューラね、なんとなく『青い糸』が見える気がするよ
+    paragraph: p109
+    quote_verified: true
+  expected_payoff: 「青い糸」が運命の絆、呪術的な束縛、あるいはマラードの隠された目的（同化への誘い）を指しており、試合後の展開でそれが回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_marad_true_intent
+  note: マラードが「正々堂々」と見せつつも、国歌斉唱という唐突な要求をした背景にある戦略的意図。
+  quotes:
+  - quote: （誰かの入れ知恵かな）
+    paragraph: p90
+    quote_verified: true
+  - quote: 彼はきっと、正々堂々と戦って勝利するつもりなのだろう。そうした無邪気さがこの王の美質だ。
+    paragraph: p79
+    quote_verified: true
+  expected_payoff: マラードの「無邪気さ」が実は計算高く、ガロアンディアンを心理的に支配する（土俵に上げる）ための高度な外交・呪術的戦術であったことが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_rubberb_strength
+  note: マラードの代理として出場するルバーブの実力と、彼が「六王に比肩する達人」であることの意味。
+  quotes:
+  - quote: 一見して小柄で丸いあんこ型の男は、他の六王に比肩するほどの達人だ。
+    paragraph: p120
+    quote_verified: true
+  expected_payoff: ルバーブとの対決を通じて、ガロアンディアン側（特にアキラ）の技術的な限界と成長のきっかけが示される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_integration_absorption
+  note: アルトが目論む「制圧後の同化吸収」へのマラードの応答としての試合の意味。
+  quotes:
+  - quote: 問題はアルトが他勢力の殲滅じゃなくて制圧後の同化吸収を目論んでること。だからシューラたちも、今はガロアンディアンの理念である『共生』を目指す方針をとらざるをえない。
+    paragraph: p46
+    quote_verified: true
+  expected_payoff: 試合の結果が単なる勝敗ではなく、「同化」か「独立」かの分岐点となり、マラードのチームがガロアンディアンに合流する伏線となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 虚構（魔法・デジタル）と現実（物質・アナログ）の融合による新たな文化の創造
+  weight: 0.9
+  quotes:
+  - quote: 第五階層で常識とされているデジタル建築でも、古典的で物理的なアナログ建築でもない。その両方を高いレベルで融合させたのがラフディのやり方だった。
+    paragraph: p23
+    quote_verified: true
+  note: マラードが「儚い」魔法造りを拒み、物質と呪術を組み合わせる姿勢は、異世界における文化の「実体化」と「定着」を象徴する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: スポーツの儀礼化と戦争・宗教への回帰（脱近代化）
+  weight: 0.8
+  quotes:
+  - quote: スポーツというものは、古代においては呪術儀式の一つだったのだ。少なくとも、ラフディ人にとってラフディーボールという競技は『聖なるもの』に他ならない。
+    paragraph: p104
+    quote_verified: true
+  - quote: 九つの棘は一種の呪的な手榴弾であり、地面に強く叩きつけると地脈と反応して炸裂し、周囲に棘を撒き散らす。球技として形になる以前は狩猟や戦争に用いられていた呪具であり、これには殺傷力がある。
+    paragraph: p140
+    quote_verified: true
+  note: 近代スポーツの「安全化」「ルール化」を脱し、危険を伴う古代の儀礼（国歌、パイプ、殺傷）を復活させることで、異世界における「生」と「死」、そして「共同体」の定義を試みている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 支配と共生の境界線：強制された調和と自発的な参加
+  weight: 0.7
+  quotes:
+  - quote: 問題はアルトが他勢力の殲滅じゃなくて制圧後の同化吸収を目論んでること。だからシューラたちも、今はガロアンディアンの理念である『共生』を目指す方針をとらざるをえない。
+    paragraph: p46
+    quote_verified: true
+  - quote: この流れ、相手の土俵に乗せられてる気がする。
+    paragraph: p109
+    quote_verified: true
+  note: ガロアンディアン側の「共生」政策と、マラード側の「宣戦布告」が交差する場として、試合は政治的な統合のシミュレーションとなっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死者の森の価値観転換：労働と神聖性の再定義
+  weight: 0.6
+  quotes:
+  - quote: 聞けば、死人の森では木こりは聖なる職業であり、社会的地位が高いらしい。
+    paragraph: p32
+    quote_verified: true
+  - quote: ラフディでは木こりたちは大工たちに見下され、扱き使われてきた。そうした悪習は【死人の森】に組み込まれてからは無くなったのだ。
+    paragraph: p33
+    quote_verified: true
+  note: 死後の世界（再生者社会）における社会的ヒエラルキーの逆転と、労働の神聖化を通じて、死者の森が単なる墓地ではなく「新たな文明圏」であることを強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

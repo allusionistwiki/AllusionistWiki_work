@@ -1,0 +1,237 @@
+chapter: ch5358
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p4]]'
+  object: '[[ME_philosophy_of_light_travel]]'
+  claim: 星の光が遠い過去のものであるという記述は、光速の有限性に基づく天文学的・哲学的な事実（現在を見ること＝過去を見ていること）を指喩している。
+  quote: 星は遠い過去の輝きで、今はもう存在しないのだと誰かが教えてくれた。
+  paragraph: p4
+  confidence: strong
+  quotes:
+  - quote: 星は遠い過去の輝きで、今はもう存在しないのだと誰かが教えてくれた。
+    paragraph: p4
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p63]]'
+  object: '[[ME_exoskeleton_tech]]'
+  claim: トバルカインを『骨組み』とし、外部から素材（石）を追加して装甲とする様は、現代の動力補助装置であるエクソスケルトン（外骨格技術）の構造に構造的に対応している。
+  quote: 'トバルカインという『骨組み』は強化外骨格の基礎。
+
+    隙間を埋める装甲や呪術的な動力部はその時々の即興で『創造』される。'
+  paragraph: p63-p64
+  confidence: moderate
+  quotes:
+  - quote: 'トバルカインという『骨組み』は強化外骨格の基礎。
+
+      隙間を埋める装甲や呪術的な動力部はその時々の即興で『創造』される。'
+    paragraph: p63-p64
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p111]]'
+  object: '[[ME_tensegrity_architecture]]'
+  claim: 棒状のパーツが接触せず、張力のあるワイヤー（髪）のみで支える塔の構造は、建築学におけるテンセグリティ（張力統合構造）の原理を指喩している。
+  quote: '交叉する棒状のパーツが張りのある『髪の毛』によって繋がれた異形の塔。
+
+    驚くべき事に棒同士は触れ合っておらず、繋がっているのは呪力の込められた強靱なワイヤー、つまり髪だけだ。'
+  paragraph: p110-p111
+  confidence: strong
+  quotes:
+  - quote: '交叉する棒状のパーツが張りのある『髪の毛』によって繋がれた異形の塔。
+
+      驚くべき事に棒同士は触れ合っておらず、繋がっているのは呪力の込められた強靱なワイヤー、つまり髪だけだ。'
+    paragraph: p110-p111
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p147]]'
+  object: '[[ME_biomechanics_fascia]]'
+  claim: 髪を筋繊維や筋膜に見立てて負荷を分散させるという記述は、人体の力学における筋膜系による全身調和・圧力分散メカニズムの科学的知見を引用している。
+  quote: 筋肉と全身の調和・統合――要するに重要なのはバランスだ。筋繊維を覆う筋膜が発生させる圧縮と伸張のエネルギーは負荷を小さな足裏だけに集中させずに分散させる。
+  paragraph: p147
+  confidence: strong
+  quotes:
+  - quote: 筋肉と全身の調和・統合――要するに重要なのはバランスだ。筋繊維を覆う筋膜が発生させる圧縮と伸張のエネルギーは負荷を小さな足裏だけに集中させずに分散させる。
+    paragraph: p147
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p256]]'
+  object: '[[ME_gamification_of_violence]]'
+  claim: 『サイバーカラテ』という名称と、それが弱者の拳として拡散し暴力を生む様子は、現実のフィットネス・格闘技ゲーム化やSNSでのトレンド拡散（バズ）を皮肉交じりに模倣している。
+  quote: 'かくしてここに甦る、異界由来の新たな幻想。
+
+    次々と起動する『サイバーカラテ道場』。発勁用意の声が高らかに上がった。'
+  paragraph: p242-p243
+  confidence: moderate
+  quotes:
+  - quote: 'かくしてここに甦る、異界由来の新たな幻想。
+
+      次々と起動する『サイバーカラテ道場』。発勁用意の声が高らかに上がった。'
+    paragraph: p242-p243
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p331]]'
+  object: '[[ME_visual_novel_mechanics]]'
+  claim: 選択肢表示、テキスト選択式ノベルゲームの方法論への言及は、物語の構造そのものがビジュアルノベル（ゲーム）のメカニクスであることを自覚させるメタフィクションである。
+  quote: 与えられた情報から文章を構築、選択肢として表示して物語を体験させる。『コキュートス』のゲーム的世界観が彩るテキスト選択式ノベルゲームの方法論。俺はこれを知っている。
+  paragraph: p331
+  confidence: explicit
+  quotes:
+  - quote: 与えられた情報から文章を構築、選択肢として表示して物語を体験させる。『コキュートス』のゲーム的世界観が彩るテキスト選択式ノベルゲームの方法論。俺はこれを知っている。
+    paragraph: p331
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_lost_partner_identity
+  note: p15-p23における「傍らの誰か」「大地は常に自分と共にある」という記述。この存在がアキラ自身、ルバーブ、あるいは過去のマラード/トリシューラの記憶の残滓である可能性。
+  quotes:
+  - quote: 傍らに、誰かがいた気がする。踏みしめる大地のように確かな存在感。
+    paragraph: p15
+    quote_verified: true
+  - quote: '己にはそれが欠けているのだ。
+
+      飢えは満たされず、求めるままに彷徨い続ける。'
+    paragraph: p26-p27
+    quote_verified: true
+  expected_payoff: 最終的にこの「誰か」が現在の物語の対立軸（マラードvsアキラ/トリシューラ）の起源、または失われた記憶の核であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_horror_from_prejudice
+  note: p225-p230における「狂怖（ホラー）」が人間の認識・差別から生じるとされる記述。第五階層の混沌と「物質創造能力」の関連。
+  quotes:
+  - quote: '排除、差別、隔離。『異獣』とはそうした人間の認識から生み出されるもの。
+
+      ゆえにその『呪い』が一箇所に凝縮された時、あれらは世界に湧き出すのだ。'
+    paragraph: p225-p226
+    quote_verified: true
+  expected_payoff: アキラの暴力（サイバーカラテ）がさらにホラーを生み出し、最終的に「敵」を作らないことで平和を取り戻す試み（語り直し）へ移行する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_marad_truth_vs_fiction
+  note: p317の「史実関係よりも脚色、美化されたフィクションが圧倒的に多い」という記述。マラードの真の姿は何か。
+  quotes:
+  - quote: 'それも史実関係よりも脚色、美化されたフィクションが圧倒的に多い。
+
+      本来の歴史とは異なる解釈、解釈、解釈。語り直すという少女の言葉。'
+    paragraph: p317-p318
+    quote_verified: true
+  expected_payoff: 「断章」を通じた再演において、マラードが単なる暴王ではなく、愛に満ちた存在であったことが証明され、その悲劇的な最期に対する救済（和解）が行われる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_angel_language_barrier
+  note: p192-p199におけるアルマが「架空言語」で唱えられ、意味を有さない応答パターンに過ぎないという記述。
+  quotes:
+  - quote: よってあらゆることば＝呪文は通じず、呪文竜すら無意味なノイズとして無効化してしまうのだとか。
+    paragraph: p192
+    quote_verified: true
+  expected_payoff: アルマとの対話（和解）が通常の言語では不可能であり、「言理の妖精」による物語の文脈操作（メタレベルでの干渉）によってのみ解決策が導かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶と物語は事実を歪曲し美化するが、その「虚構」こそが美しさと希望の源泉となる。
+  weight: 0.8
+  quotes:
+  - quote: 全てが残酷に消えていくというのなら、せめて綺麗であってほしいと願う。
+    paragraph: p8
+    quote_verified: true
+  - quote: ただ、彼の美しさを語ること。それだけだ。
+    paragraph: p340
+    quote_verified: true
+  note: 冒頭の星の幻影から、終盤のマラードの「語り直し」に至るまで、真実より美化された物語を優先する姿勢が貫かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力は恐怖と差別を養分として自己増殖し、世界を混沌に導く。「敵」を必要とする構造の危うさ。
+  weight: 0.7
+  quotes:
+  - quote: '『敵』を倒す為に。
+
+      ならば、退治するための敵が必要だ。戦う為には相手がいなければならない。'
+    paragraph: p254-p255
+    quote_verified: true
+  - quote: 俺に何ができる？　拡散してしまった『俺』という脅威への対処はどうする？
+    paragraph: p284
+    quote_verified: true
+  note: サイバーカラテの普及が新たなホラー（敵）を生み出し、アキラ自身が暴力の連鎖を招いているという自己批判。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 構造・骨格・外骨格は機能するが、「中身（意識/愛）」がないとそれは空疎な機械に過ぎない。
+  weight: 0.6
+  quotes:
+  - quote: 今までのアルマは神聖不可侵な内的宇宙で瞑想状態にあると思う。あらゆる情報を遮断した封印状態って感じ
+    paragraph: p194
+    quote_verified: true
+  - quote: あれには本当の意味で意識が無いんだ。物凄く単純な応答パターンがあるだけ
+    paragraph: p198
+    quote_verified: true
+  note: アルマ（天使）やトバルカイン（外骨格）の描写を通じて、「形式」だけでは世界は動かないという主題を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「語り直し（リテリング）」による歴史の再構成と、それを通じた他者との和解。
+  weight: 0.9
+  quotes:
+  - quote: 「あのオルガンローデを語り直して解体します。主旋律は私が。貴方たちはそれに続けて歌ってください。」
+    paragraph: p311
+    quote_verified: false
+  - quote: そして俺たちは、もう一度過去へ遡る。
+    paragraph: p360
+    quote_verified: true
+  note: 戦闘の解決方法として物理的な破壊ではなく、物語の文脈を操作する「語り直し」が選択される点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

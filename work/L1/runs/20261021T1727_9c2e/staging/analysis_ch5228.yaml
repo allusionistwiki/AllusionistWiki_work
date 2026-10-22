@@ -1,0 +1,157 @@
+chapter: ch5228
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 15
+items:
+- kind: mystery
+  name: MY_トリアイナの不在と出現時期
+  note: クロウサーは「トリアイナ様は今はまだいない」と述べており、p357でも「この世のどこにもいない」と記される。彼女がいつ、どこで、どのような形で「生誕」または「顕現」するのか。クナータの胎内での「受胎」との関係性は？
+  quotes:
+  - quote: 「いいや、いない。いるはずがない――今は、まだ」
+    paragraph: p135
+    quote_verified: true
+  - quote: '救世は遠く、天から降り注ぐ光はまだ淡い。
+
+      彼らが主と仰ぐ【心臓】トリアイナ――未知なる末妹の第三候補、使い魔の座を占める最後の魔女はこの世のどこにもいない。'
+    paragraph: p357
+    quote_verified: true
+  expected_payoff: 物語の終盤でクナータが出産する、あるいは世界槍の頂点でのソルダとの合流によってトリアイナが顕現し、救世が完遂する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_クナータの徴と母胎としての役割
+  note: クナータの下腹部に「青く輝く三叉槍の紋章」が現れている。これが単なる妊娠の兆候なのか、それともトリアイナを生み出すための呪術的な起動条件（鍵）なのか。メイファーラがこれを見て「納得」した内容とは？
+  quotes:
+  - quote: '徴として青く輝く、三叉槍の紋章。
+
+      その場所を、クナータは愛おしげに撫でる。'
+    paragraph: p281
+    quote_verified: true
+  - quote: 言いながら、メイファーラはクナータの下腹部を見て、納得が胸に落ちるのを感じた。丁度それは、女性が子供を宿す位置――【子宮】の位置。
+    paragraph: p280
+    quote_verified: true
+  expected_payoff: クナータがトリアイナの器として機能し始めるプロセス。メイファーラが過去視で見た「真実」との一致による信頼関係の構築、あるいは利用価値の確認。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ソルダとコルセスカの聖婚の実現
+  note: ソルダは世界槍の頂点からコルセスカ（アズーリア/マリー関連？）を「終わりの花嫁」として待ち望み、救済を約束している。この「聖婚」が物理的にどのように実行され、それが世界にどのような影響（完結）をもたらすのか。
+  quotes:
+  - quote: 「もちろん、救ってあげるのさ。無限に試行錯誤を重ね、幾多の試練を乗り越え、異形の悪魔を打ち倒し、可憐な花嫁の手をとって――そうして待つのは、とても素敵な最高のハッピーエンドだ。目に浮かぶだろう？　物語はいつだって結婚で幕を閉じるのさ。いずれ必ず来たる、聖婚の日。そして世界は華やかに完結する」
+    paragraph: p387
+    quote_verified: true
+  - quote: 「楽しみだよ、コルセスカ。僕の冬。終わりの花嫁。世界の最果て――ああ、どうか待っていて欲しい。終端を弑（しい）する者すら討ち滅ぼして、きっと君に会いに行くから。そうして、二人で人類を救済してあげよう」
+    paragraph: p398
+    quote_verified: true
+  expected_payoff: ソルダが世界槍の頂点（神域）へ到達し、コルセスカ（アズーリア）との合流・同化によって世界の再構築（救世）が発生するクライマックス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ヲルヲーラの処遇と多世界連合への影響
+  note: メイファーラが「多世界連合との関係悪化は避けられない」と述べている。翼猫の殺害という「独断専行」が、上位組織（多世界連合）からの報復や介入を招くのか？
+    後任の出現は本当に予定通りなのか？
+  quotes:
+  - quote: 「多分、後任が来るんじゃないかな。さっきの勝手な独断専行もあるしね。一部の強硬派が指示した結果ってことで処理されるとは思うけど、多世界連合との関係悪化は避けられないし――まあ処分が妥当ではあるのかな。悲しいけど」
+    paragraph: p326
+    quote_verified: true
+  expected_payoff: 多世界連合からの干渉による新たな敵の出現、あるいはトライデント内部での政治的摩擦の激化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ガルズの霊魂と『空虚な瞳』の残存
+  note: ガルズは死に際、霊魂を知覚し、眼球を奪われた後の「空虚な眼窩」から金色の光を瞬かせた。この瞬間は何を示唆しているのか。彼の意識は完全に消滅したのか、それとも何らかの形でリーナや世界槍と繋がったのか？
+  quotes:
+  - quote: '自らの霊魂を知覚する。
+
+      リーナが霊媒として優れているというのなら。
+
+      この『空虚』な瞳が死を見ることができるというのなら。
+
+
+      空虚な眼窩に一瞬だけ金色の光が瞬き、消えた。'
+    paragraph: p202
+    quote_verified: true
+  expected_payoff: ガルズの霊魂が何らかの形で残存し、リーナの潜在意識への干渉、またはアズーリア/コルセスカ側への助力として機能する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 救済の非対称性と道具化される人間
+  weight: 0.9
+  quotes:
+  - quote: 「貴様らはそれなりに努力した方だが――所詮は本来不要な器官に過ぎぬ。細胞にとって真に有用な『目』は別にある。使い捨ての道具、いやゴミか――貴様は常に役に立たぬな、思えばマウザの者どもは常にそうであった」
+    paragraph: p77
+    quote_verified: true
+  - quote: '「殺してやる！　クロウサーッ！」
+
+      「ふむ。死体を再利用して生きている事にするか。リーナ自身の意識なぞどうとでも誤魔化せるが、外部から指摘されれば違和感が蓄積し、どこかで破綻するやもしれぬ――死霊術が欲しいな。ガルズよ、上を向け」'
+    paragraph: p158
+    quote_verified: true
+  note: クロウサー（古き魂）にとって人間は自由意志を持たない「細胞」の一部であり、救済は個人の幸福ではなくシステム維持のためのリソース管理として定義されている。ガルズの死もその一環として処理される冷徹さが主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 愛の双方向性と自己犠牲の構造
+  weight: 0.7
+  quotes:
+  - quote: 'マリーが守ったのはガルズの世界観で、その世界観はマリーの在り方を肯定するものだった。なら、それはマリーを守る事に繋がっていたのだ。
+
+
+      救いの向きは容易く変化する。'
+    paragraph: p12
+    quote_verified: true
+  - quote: どんなことがあっても、自分の事を諦めないでいてくれた彼女の自由を、ただ守りたいと、そう強く願った。
+    paragraph: p195
+    quote_verified: true
+  note: ガルズの独白におけるマリーとの関係分析は、一方的な保護者-被保護者の関係ではなく、互いの存在意義を補完し合う相互依存的な関係性（双方向の救済）を示唆する。最終的に彼は自分の命と引き換えに（あるいは死を通じて）その愛の純粋さを証明しようとする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語構造の自己言及：結婚による完結
+  weight: 0.6
+  quotes:
+  - quote: 「目に浮かぶだろう？　物語はいつだって結婚で幕を閉じるのさ。いずれ必ず来たる、聖婚の日。そして世界は華やかに完結する」
+    paragraph: p387
+    quote_verified: false
+  note: ソルダの台詞はファンタジー小説の定型（クリシェ）に対するメタ言及であり、「物語の終わり＝結婚」という文法そのものを世界の救済原理として組み込んでいる。これは作品内での「ハッピーエンド」への渇望と、それを実現するための構造的な必然性を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 時間軸の歪みと因果の逆転
+  weight: 0.5
+  quotes:
+  - quote: '片や未来を回想するという未来視の能力。
+
+      片や過去に遡るという過去視の能力。
+
+      真逆の性質を持つ二人。'
+    paragraph: p255
+    quote_verified: true
+  - quote: 「母胎たるわたしは、その為に『振り返る力』を授かった」
+    paragraph: p284
+    quote_verified: false
+  note: クナータ（未来視/回想）とメイファーラ（過去視/遡行）の対比は、因果律や時間的な順序が世界槍の救世計画において重要ではないこと、あるいは「結果」から「原因」へ遡及する論理（目的因）で世界が駆動していることを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

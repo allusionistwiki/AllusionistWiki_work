@@ -1,0 +1,140 @@
+chapter: ch5386
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 15
+items:
+- kind: mystery
+  name: MY_two_versions_of_virgil
+  note: レミルスが「ヴァージル様は二人いる」と明言し、正気の彼との遭遇を勧めている。現在の狂気的な姿と対比される「正気」の存在、およびその出現条件が未回収。
+  quotes:
+  - quote: 一つ、教えてあげます。『ヴァージル様は二人いる』――正気の彼と出会ったら、その機会を逃さないで
+    paragraph: p164
+    quote_verified: true
+  expected_payoff: 後の展開で「正気」のヴァージルが出現し、物語の鍵（鍵となるのは『ヴァージル自身の物語』）を解くための対話相手として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_history_manipulation_by_ritual
+  note: ファルの記憶が曖昧になり、歴史書の詳細が思い出せなくなっている。「歴史そのものが歪んで」いる疑念。これは「なぞらえ」の儀式や再演によって過去が書き換えられている可能性を示唆する。
+  quotes:
+  - quote: 何故か鮮明に思い出すことができない。記憶に靄がかかったように――。
+    paragraph: p51
+    quote_verified: true
+  - quote: これは何らかの記憶封鎖が、いや、歴史そのものが歪んで――？
+    paragraph: p53
+    quote_verified: true
+  expected_payoff: 物語が進むにつれ、太陰の歴史やヴァージルの過去が意図的に改変・削除されていたことが判明し、それが「再演」のメカニズムと接続する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_key_to_virgils_narrative
+  note: ファル（内的自我）が「鍵となるのは、きっと『ヴァージル自身の物語』だ」と分析している。彼が歴史に干渉されることを免れた特異点であるという設定。
+  quotes:
+  - quote: そうか。鍵となるのは、きっと『ヴァージル自身の物語』だ。彼一人だけが再演の舞台で歴史に干渉されることを免れた。それにはきっと意味がある――
+    paragraph: p177
+    quote_verified: true
+  expected_payoff: ファルの「言理の妖精」能力が、ヴァージルの物語を操作・解体するための手段として機能し、決着への道筋を作る。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_yell_color_code_anomaly
+  note: ヴァージルの瞳に「黄色い月の輝き」が明滅し、「黄の色号」と呼ばれる現象が起きている。これは異界や神々の呪法を示唆する未解明の異常事象。
+  quotes:
+  - quote: 血のような瞳に重なるように、黄色い月の輝きが明滅している。
+    paragraph: p35
+    quote_verified: true
+  - quote: 「黄の色号――？　異界、いや神々の呪法？」
+    paragraph: p37
+    quote_verified: true
+  expected_payoff: ヴァージルの精神崩壊のトリガー、あるいは高位存在（機械女王など）からの干渉の兆候として、物語後半で重要な役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_sword_of_judgement_choice
+  note: 広間に出現した「僣主殺しの裁きの剣」が、ヴァージルとパーンのどちらを切るか選択しようとしている。この「権力の選定者」の判断基準や結果。
+  quotes:
+  - quote: 切っ先が選ぶのは、ヴァージルか、それともパーンか。
+    paragraph: p222
+    quote_verified: true
+  expected_payoff: 戦闘の勝敗を決定づける神学的・運命的な介入として描かれ、「王になるための戦い」の結末を導く装置として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語（ナラティブ）による現実の変容と、その操作者としての呪文使いの役割
+  weight: 0.8
+  quotes:
+  - quote: '語りがて、曰く
+
+      そして少年は遡った。'
+    paragraph: p72-p73
+    quote_verified: false
+  - quote: 『王になれなかった者たちによる王になるための戦い』という物語が呪文によって実体化する。
+    paragraph: p231
+    quote_verified: true
+  note: ファルが「言理の妖精」として過去を遡行し、現在の戦いを「物語」として実体化させるプロセスが主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 忠節と自我の葛藤：主君への服従は自己を失うことか、それとも誇りか
+  weight: 0.7
+  quotes:
+  - quote: 何かを守り通す事が番犬の誇りだから、俺はそれを否定したく無い。
+    paragraph: p139
+    quote_verified: false
+  - quote: 'レミルスの述懐は続く。おそらく現実が見えていないわけではない。
+
+      それでも、虹犬の少年は機械女王と狂王子を天秤にかけて、後者に味方することに決めた'
+    paragraph: p137
+    quote_verified: false
+  note: レミルスが「正気」ではない主君（ヴァージル）に忠節を捧げる理由と、ファルがそれに共感しつつも対立する過程を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 歴史の歪みと記憶の不可靠性：過去は編集可能である
+  weight: 0.6
+  quotes:
+  - quote: 歴史書にどのような詳細が記されていたのか、何故か鮮明に思い出すことができない。
+    paragraph: p51
+    quote_verified: true
+  - quote: 歴史そのものが歪んで――？
+    paragraph: p53
+    quote_verified: true
+  note: 登場人物の記憶が欠落・改変されており、歴史が固定的な事実ではなく操作対象であることが示唆されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 王権への渇望と敗北の反復：『なぞらえ』による運命超克
+  weight: 0.5
+  quotes:
+  - quote: もう一人の『失敗した自分』がヴァージルの前に立ち塞がる。
+    paragraph: p187
+    quote_verified: true
+  - quote: 王になれなかった王子は、敗北の歴史を乗り越えるために現代で過去を否定する。
+    paragraph: p190
+    quote_verified: true
+  note: ヴァージルの狂気と戦いの本質が、「王になる」という歴史的・個人的な挫折の克服にあることが語られている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

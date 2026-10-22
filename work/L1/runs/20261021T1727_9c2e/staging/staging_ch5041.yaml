@@ -1,0 +1,24 @@
+episode: ch5041
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_減速符]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5041_減速符_functions_as_落下速度の減衰_p3
+        quote: 減速符は自分へ向かう攻撃の速度を削ぎ、ダメージを軽減する事を主な用途とする呪符だが、高所から落下している際には別の使い方も可能になる。
+        locator: {}
+        spoiler_after: ch5041
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5041_アキラ_thinks_金の力_p59
+        quote: 俺の強さとは即ち彼らの持っていない技術によるもので、換言すると金の力だ。だからこの閃光符を惜しみなく消費する戦い方は、俺のやり方として理に適っている。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true

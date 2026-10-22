@@ -1,0 +1,402 @@
+episode: ch5237
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_term_文化的営為]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_文化的営為_functions_as_呪力の発生源_p10
+        quote: 文化的営為は呪力を生む。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_工員たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5237_工員たち_other_文化的な活動_p100
+        quote: 「工員たちは、あちらの別室で絵を描いたり詩を綴ったり、工芸品を作ったりしております。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5237_アキラ_observes_転倒した光景_p103
+        quote: 機械が人間的に働いている横で人間が機械的に文化を生産している転倒した光景はたしかにガロアンディアンっぽい。
+        locator: {}
+        spoiler_after: ch5237
+    action:
+      observations:
+      - event_ref: E_ch5237_アキラ_kills_白骨死体_p265
+        quote: 「【死人の森】との戦いは、既に始まっているんだよ――それじゃみんな、今日の駆除、よろしくね」
+        locator: {}
+        spoiler_after: ch5237
+      - event_ref: E_ch5237_アキラ_other_工場街_p32
+        quote: 俺とトリシューラは、そんな工場街を訪れていた。
+        locator: {}
+        spoiler_after: ch5237
+      - event_ref: E_ch5237_アキラ_remembers_イアテムとの戦い_p42
+        quote: 【変異の三手】が放った刺客、イアテムとの戦いを思い出す。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン建国]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_ガロアンディアン建国_other_呪力の量質増大_p11
+        quote: ガロアンディアン建国以来、生活の質が底上げされたことで生み出される呪力はその量と質を増していた。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_プロゲーマー]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5237_プロゲーマー_appears_as_特別文化振興員公務員_p113
+        quote: 国家所属のプロゲーマーは特別文化振興員という正式な公務員らしい。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_トッププレイヤーのスター性]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_トッププレイヤーのスター性_functions_as_呪力の発生源_p114
+        quote: ゲームをするという行為は熱狂を生み出し、トッププレイヤーのスター性は呪力の発生源にもなる。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キロン使い]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5237_キロン使い_defeats_冬の魔女使いセスカ_p124
+        quote: 「あそこの『キロン使い』は反応速度と読みに定評があり、国内では屈指の実力者といわれております。先日の大会では『冬の魔女使い』を破って一位に。前大会の雪辱を果たした形になりますな。」
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5237_トリシューラ_uses_プロゲーマーによる防衛シミュレーション_p132
+        quote: 「自動機械ってどうしてもアストラル系統の攻撃が苦手なんだよねー。だからまあ、楽しくご協力願おうかと思って」
+        locator: {}
+        spoiler_after: ch5237
+      - event_ref: E_ch5237_トリシューラ_conceals_個人の特定_p141
+        quote: 「あと誰がどのドローンやタワーを操作しててどの敵を撃ったのか、わからないようにしてるし。個人の特定が一切できないから『殺害』は実感されない」
+        locator: {}
+        spoiler_after: ch5237
+      - event_ref: E_ch5237_トリシューラ_other_呪術的生産活動_p17
+        quote: トリシューラが国策として推し進めているのは主にそうした呪術的な生産活動で、彼女自らそれを率先して行っている。
+        locator: {}
+        spoiler_after: ch5237
+      - event_ref: E_ch5237_トリシューラ_requires_権威を示す儀式_p51
+        quote: トリシューラとしては光学映像でも送信して貰えばそれで事足りるのだが、実際に足を運んで権威を示すという『それっぽさ』の儀式はやはり必要らしい。
+        locator: {}
+        spoiler_after: ch5237
+    speech:
+      observations:
+      - event_ref: E_ch5237_トリシューラ_asks_アキラの怪我の調子_p35
+        quote: 「怪我の調子はどう？」
+        locator: {}
+        spoiler_after: ch5237
+      - event_ref: E_ch5237_トリシューラ_other_カルの選抜理由_p58
+        quote: 「マラコーダには別館任せてるからな。今はどっちかっていうとあっちの収入メインだからなるべく続けときたいんだよ」
+        locator: {}
+        spoiler_after: ch5237
+    visual:
+      observations:
+      - event_ref: E_ch5237_トリシューラ_wears_黒服と人狼毛皮付きブーツ_p38
+        quote: スカートからタイツに包まれた脚がすらりと伸び、人狼毛皮付きのブーツは相変わらずの猟奇趣味だ。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ガロアンディアン]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_ガロアンディアン_requires_外界への依存_p14
+        quote: それどころか、依存せざるをえない。
+        locator: {}
+        spoiler_after: ch5237
+      - event_ref: E_ch5237_ガロアンディアン_defines_異物である当然の根付かせ方_p145
+        quote: 「その『異物である当然』をこの世界に根付かせるのがガロアンディアンっていう呪術なわけでしょう」
+        locator: {}
+        spoiler_after: ch5237
+      - event_ref: E_ch5237_ガロアンディアン_defines_王国の形をした祭壇_p21
+        quote: それがガロアンディアンという『王国の形をした祭壇』の構造だ。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_工場内部の最深部]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_工場内部の最深部_functions_as_巨大な呪術儀式場_p156
+        quote: トリシューラの解説によると、この工場は一つの巨大な呪術の儀式場だという。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_日本語暗号化システム]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_日本語暗号化システム_has_property_文脈依存の意味変化_p168
+        quote: 三角錐（かいぞう）とか黒衣（へんか）とか猫耳（こうかん）とかこの世界の常識を知らないと理解できない暗号は、更にその文章内部での文脈――つまり配置によって意味が変化する。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_工場街]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5237_工場街_is_located_第五階層周辺部_p2
+        quote: 階層周辺部に立ち並ぶ倉庫街、そこから少し離れた位置に築き上げられつつあるのが工場街である。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_バル・ア・ムント]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5237_バル・ア・ムント_names_鬼火の吸血鬼修道騎士_p200
+        quote: 彼の名は、【鬼火】のバル・ア・ムント。
+        locator: {}
+        spoiler_after: ch5237
+    relationship:
+      observations:
+      - event_ref: E_ch5237_バル・ア・ムント_has_property_吸血鬼化による生存_p209
+        quote: いずれにせよ高位序列者には違いないが、彼は敗北した際にほとんど死んでいたらしく、吸血鬼化することでかろうじて一命を取り留めた。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5237_カルカブリーナ_bonds_バル・ア・ムント_p229
+        quote: 同様に、バルもまた彼を見て『古い名前』を口にしようとして思い直したようにやめた。二人は、修道騎士時代に縁があったのだと聞いている。
+        locator: {}
+        spoiler_after: ch5237
+    speech:
+      observations:
+      - event_ref: E_ch5237_カルカブリーナ_other_護衛任務への参加_p56
+        quote: 「というか、何で俺なんですかね。俺、近接戦闘はそこまで得意じゃないんですが。護衛任務ならマラコーダの姐さんとかでいいんじゃ」
+        locator: {}
+        spoiler_after: ch5237
+    visual:
+      observations:
+      - event_ref: E_ch5237_カルカブリーナ_wears_多数の武器と呪具_p74
+        quote: 投石器、長弓、弩、投槍、呪符、巻物、魔導書、杖、短剣、短槍――節操のないチョイス。武器と呪具の数々。カルはこの全てを使いこなす。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_ドラトリアとの関係悪化]]'
+  entity_type: relationship
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_ドラトリアとの関係悪化_requires_備蓄と生産力_p24
+        quote: ある程度――例えばドラトリアとの関係が悪化した際に、次の手立てを講じるための時間を稼げるくらいの生産力と備蓄は確保しておかなければならない。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_地下空間]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5237_地下空間_has_property_増殖する骨の壁_p248
+        quote: 増殖していく『骨の壁』によって複雑化する内部構造。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_地下の危機]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_地下の危機_threatens_ガロアンディアンの崩壊_p257
+        quote: 「いつ地下から溢れてきて三ヶ月前のエルネトモランみたいに死人だらけになるかわからない。三ヶ月前の第五階層みたいに迷宮化するかわからない。両方いっぺんに起きたら、ガロアンディアンは崩壊する」
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_空間圧縮技術]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5237_空間圧縮技術_enables_倉庫の廃止と地下・上層への建設_p26
+        quote: （そこでこの工場街。空間圧縮技術が普及しつつあるおかげで倉庫もガンガン潰せるからね。スペース有効活用して地下と上にもガシガシ作っていこうってわけ）
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イアテム]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5237_イアテム_other_狙撃の失敗_p274
+        quote: 「――言い訳はせん。敵の力量を見誤ったにせよ、俺の力量が足りなかったにせよ、『狙撃』に失敗したという結果は同じだ」
+        locator: {}
+        spoiler_after: ch5237
+    action:
+      observations:
+      - event_ref: E_ch5237_イアテム_wounds_女性クレイ側の副長_p333
+        quote: 勢い良く流れる水が赤く染まり、女性が吐血した。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_女性クレイ側の副長]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_女性クレイ側の副長_uses_女の勘複合呪術_p295
+        quote: ――それは、認知バイアスと女性の社会的立場から発生する呪力によって事後的に事象を言い当ててみせる呪文と使い魔の複合呪術。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五階層の物質創造力]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5237_第五階層の物質創造力_functions_as_建材_p3
+        quote: 第五階層の物質創造力と外から持ち込んだ建材を組み合わせた複合型の建造物群が辺り一面を灰色に染め上げていた。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5237_クレイ_threatens_イアテム_p360
+        quote: 「その薄汚い剣をどけろ。それ以上の不敬を働けば――」
+        locator: {}
+        spoiler_after: ch5237
+    name:
+      observations:
+      - event_ref: E_ch5237_クレイ_names_変異の三手の副長中央の主肢_p387
+        quote: その中央の主肢を司る、【変異の三手】の副長が戦意を膨れあがらせる。
+        locator: {}
+        spoiler_after: ch5237
+    action:
+      observations:
+      - event_ref: E_ch5237_クレイ_gives_剣と勝利_p393
+        quote: 「我が剣と勝利を、貴方に捧げます」
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ダモクレスの剣]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5237_ダモクレスの剣_appears_刺客選定の指針_p378
+        quote: ――【ダモクレスの剣】。
+        locator: {}
+        spoiler_after: ch5237
+    action:
+      observations:
+      - event_ref: E_ch5237_ダモクレスの剣_other_クレイ_p385
+        quote: 巨大な切っ先が選んだのは、部屋の中央に立つ男――クレイ。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5237_グレンデルヒ_appears_as_地上最強の男_p46
+        quote: コルセスカやゼドと並び称される、地上最強の男グレンデルヒ。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_メガコーポ]]'
+  entity_type: organization
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_メガコーポ_suspects_探索者集団の背後_p47
+        quote: その思惑は不明だが、企業に所属する探索者だというのならばその背後には巨大複合企業群（メガコーポ）の思惑が絡んでいるのかもしれない。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_生産拠点]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_生産拠点_defines_ガロアンディアン建国プロセス_p6
+        quote: それはトリシューラがガロアンディアンという王国を築き上げるために必要なプロセスの一つだ。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテユーザー]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_サイバーカラテユーザー_functions_as_最適解の模索者_p75
+        quote: 有り合わせの手段で最適解を模索する、サイバーカラテユーザーらしいこの世界の住人である。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五階層]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5237_第五階層_has_property_資源枯渇の回避_p8
+        quote: この世界特有の現象により、エネルギーという面で考えれば、人が次々と流れ込んでくる第五階層では資源が枯渇する心配はほとんど無い。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロドウィ]]'
+  entity_type: character
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5237_ロドウィ_names_公社の副首領_p86
+        quote: 待っていたのは、恰幅のいい体と四肢を持つ壮年から老年に差し掛かりつつある男性――公社の『副首領』ロドウィである。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_自動機械]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5237_自動機械_functions_as_生産工程の担い手_p93
+        quote: 流れ作業による生産、組み立て工程を自動機械が行い、要所要所の点検やどうしても精密なチェックが必要な所も機械が行い――つまり人がいない。
+        locator: {}
+        spoiler_after: ch5237
+    visual:
+      observations:
+      - event_ref: E_ch5237_自動機械_has_property_冗談や愚痴を言う能力_p97
+        quote: 相互に連絡する際には冗談を織り交ぜたり、愚痴をこぼしたりと芸が細かい。
+        locator: {}
+        spoiler_after: ch5237
+  first_appearance_candidate: true

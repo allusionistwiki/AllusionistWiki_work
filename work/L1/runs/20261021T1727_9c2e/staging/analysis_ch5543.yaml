@@ -1,0 +1,127 @@
+chapter: ch5543
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_Father_Wuzhin_Background
+  note: 父ウージン（ウーコン）が「次元移動者（プレーンシフター）」であり、影世界や妖精界を渡り歩いた理由。なぜ「境界動物解放戦線」に参加したのか。
+  quotes:
+  - quote: 何故、彼は異界を渡り歩けたのか。何のために異界を旅していたのか。そして何を思って『境界動物解放戦線』なる組織に身を置いたのか。
+    paragraph: p70
+    quote_verified: true
+  expected_payoff: 父の過去がユディーアの能力の起源、あるいは世界の成り立ち（転生都市の由来）に関わる秘密を明かす鍵となる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Triple_Covenant_Wu_Con_Wu_Nan
+  note: 父ウージン、マーネロア、アテンプレクの三人が結んだ「境界動物解放戦線」の盟約の内容。特に「断絶の壁を壊す」という目標の詳細。
+  quotes:
+  - quote: この世から異獣という呪いを取り払おう。そのために古き言語支配者たちが作り上げた『断絶の壁』を共に壊そうと。
+    paragraph: p48
+    quote_verified: true
+  expected_payoff: 「断絶の壁」が世界システムの根幹（転生システム、階層構造、神々の干渉）を指しており、その破壊が物語のクライマックスにおける主要な目標となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mechanical_Queen_Intention
+  note: 機械女王アゥルメイアが「ガロアンディアン」を名乗り、来訪者（クロウサー、ディスケイム）を手駒にしようとしている真意。彼女は「外患を引き込みかねない地雷」を好む傾向がある。
+  quotes:
+  - quote: 先ほどのファルファレロといい、機械女王は外患を引き込みかねない地雷を好んで抱えたがっているように見える。
+    paragraph: p35
+    quote_verified: true
+  expected_payoff: 機械女王の計画が、単なる支配拡大ではなく、より大きな脅威（邪神や外部勢力）に対抗するための「器」作りであることが判明し、ユディーアとの対立構造が変化する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Zed_Adas_Motive
+  note: 盗賊王ゼド＝アダスが「罪貨」を適用し、シナモリアキラ（アキラ）に執着する理由。彼の目的は単なる嫌がらせなのか、それとも特定の「価値」の回収か。
+  quotes:
+  - quote: 要するにシナモリアキラに対する気持ち悪い執着と度を超えた嫌がらせで、縁があったアズーリアが巻き込まれてそのとばっちりをユディーアが受けただけだ。
+    paragraph: p180
+    quote_verified: true
+  expected_payoff: ゼドの行動原理はシナモリアキラとの過去（ゲーム的対戦相手としての因縁）にあり、彼の「盗む」能力が物語のメカニクスそのものに関わる重要能力として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Griffin_Appearance_Trigger
+  note: 鷲獅子（グリュプス）は「仇敵が器を見出した事実」に反応して現れたとされる。なぜ今このタイミングで、そしてなぜユディーアの中で顕現したのか。
+  quotes:
+  - quote: 鷲獅子（グリュプス）は仇敵が器を見出した事実に反応して現れた。
+    paragraph: p183
+    quote_verified: true
+  expected_payoff: シナモリアキラとゼドの「決着」のための強制イベントであり、ユディーアはその舞台装置（器）として利用されていることが明確化される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記号の空洞化と理想の陳腐化：「ガロアンディアン」が名指しされた瞬間にその本質が薄まり、形式だけの権力構造へと変質していく過程。
+  weight: 0.9
+  quotes:
+  - quote: だから第五階層の新興勢力がガロアンディアンを名乗り始めたのはさほど不思議なことではない。歴史的にはよくあることで、陳腐であるがゆえに誰にでも通じる。
+    paragraph: p5
+    quote_verified: true
+  - quote: 『新たなガロアンディアンを立ち上げる』という意味が比喩ではなくなるからだ。
+    paragraph: p9
+    quote_verified: true
+  note: ユートピアという概念が、具体的な政策や倫理を伴わず、ただの「通じる言葉」として流通する社会の病理を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 父性の不在と追憶の危険：失われた父の過去への探求が、現在のユディーアの自己保身（安全圏）を脅かし、成長（再生長）による心理的退行を誘発する。
+  weight: 0.8
+  quotes:
+  - quote: 身体が幼くなったことで、心まで過去に近づいてしまったのかもしれない。この心理傾向は危険だ。表層的に協力関係だけ取り付けて、さっさとこの場を立ち去るべきだ。
+    paragraph: p77-78
+    quote_verified: true
+  note: 身体が幼体化したことで、過去のトラウマや欲求が制御不能になり、物語の進行（戦闘）を強制的に促す要因となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命論（メタフィクション）への反抗と諦念：「世界は天に愛された玩具を中心に回っていく」という自己像の固定化に対し、神々の介入がそれを揺るがそうとする葛藤。
+  weight: 0.85
+  quotes:
+  - quote: それが予定調和で構成されるユディーアの人生で、運命なのだろう。この先も同じ。世界は、天に愛された玩具（ユディーア）を中心に回っていく。
+    paragraph: p112-113
+    quote_verified: true
+  - quote: 絶対のはずの神運加護（プロットアーマー）は、対峙する神々の怒りの前ではどうしようもないほどに頼りない。
+    paragraph: p214
+    quote_verified: true
+  note: 主人公としての「安全」が保証される物語構造への疑念と、それに対する恐怖がテーマとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 境界の越境と解放：人間/動物、生/死、過去/現在といった境界を越えようとする運動（解放戦線）が、個人の内面（アストラルスペース）にも侵食し、内的な「罪」や「記憶」と対峙させる。
+  weight: 0.7
+  quotes:
+  - quote: 『境界動物解放戦線』というのはその名の通り『人と動物』の境界を定めている枠組みを解放するための団体だ。
+    paragraph: p54
+    quote_verified: true
+  - quote: ユディーアという器の中で産声を上げた。
+    paragraph: p156
+    quote_verified: true
+  note: 政治的・社会的な解放運動が、最終的には個人の精神的・霊的な内面における境界崩壊（神々の顕現）へと接続される構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

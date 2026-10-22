@@ -1,0 +1,217 @@
+chapter: ch5258
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_consciousness_fading]]'
+  object: '[[ME_dissolution_of_self]]'
+  claim: 『俺』が上書きされ変容していく感覚は、自我の解体と他者への吸収を暗示するメタフィクショナルな現象である。
+  quote: 『俺』という存在が、何か圧倒的な存在に押しのけられ、上書きされ、変容していくかのような感覚。
+  paragraph: p4
+  confidence: strong
+  quotes:
+  - quote: 『俺』という存在が、何か圧倒的な存在に押しのけられ、上書きされ、変容していくかのような感覚。
+    paragraph: p4
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_kain_memory]]'
+  object: '[[ME_euthanasia_mercy_killing]]'
+  claim: カインへの『介錯』は、安楽死や倫理的葛藤を伴う殺生（慈悲の殺害）のプロトタイプとして機能している。
+  quote: 『介錯』した――こう言って赦されるのなら、初めて出来た仲間。
+  paragraph: p14
+  confidence: strong
+  quotes:
+  - quote: 『介錯』した――こう言って赦されるのなら、初めて出来た仲間。
+    paragraph: p14
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_forgiveness_voice]]'
+  object: '[[ME_divine_absolution]]'
+  claim: 「赦します」という声は、宗教的・神話的な絶対者の慈悲を模倣しつつ、主人公の拒絶によってその権威が否定されている。
+  quote: 『赦します』
+  paragraph: p31
+  confidence: moderate
+  quotes:
+  - quote: 『赦します』
+    paragraph: p31
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_comment_world]]'
+  object: '[[ME_metafiction_layer]]'
+  claim: 「注釈の世界」は、物語の構造そのもの（メタレベル）に干渉できる特異な領域として設定されている。
+  quote: 「ここは永劫線――『注釈の世界』よ。『主人公』や『語り手』であっても、ここまでは影響力を行使できない」
+  paragraph: p72
+  confidence: explicit
+  quotes:
+  - quote: 「ここは永劫線――『注釈の世界』よ。『主人公』や『語り手』であっても、ここまでは影響力を行使できない」
+    paragraph: p72
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_time_paradox]]'
+  object: '[[ME_grandfather_paradox]]'
+  claim: 過去改変の詳細を語らないことは、タイムパラドックスによる因果の破綻を避けるためのメタ的配慮である。
+  quote: 「はい、ここで言うと未来、っていうか過去が歪むからそれ以上は駄目」
+  paragraph: p110
+  confidence: strong
+  quotes:
+  - quote: 「はい、ここで言うと未来、っていうか過去が歪むからそれ以上は駄目」
+    paragraph: p110
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_past_kill_impulse]]'
+  object: '[[ME_preemptive_strike_cliché]]'
+  claim: 幼き日の敵を殺すという「事前排除」のクリシェが、少女の懇願によって倫理的に逆転させられている。
+  quote: 一目でわかった。これは幼き日の死人の森の女王だ。ならば、過去で俺がなすべきは彼女を殺して難敵を事前に排除しておくことか。
+  paragraph: p140
+  confidence: strong
+  quotes:
+  - quote: 一目でわかった。これは幼き日の死人の森の女王だ。ならば、過去で俺がなすべきは彼女を殺して難敵を事前に排除しておくことか。
+    paragraph: p140
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_left_arm_connection
+  note: シナモリ・アキラと左腕の呪術的繋がり、および「唯一の汚染されていない貴方」という特異な状態。
+  quotes:
+  - quote: 元々一つのものであったシナモリ・アキラとその左腕。
+    paragraph: p54
+    quote_verified: true
+  - quote: 『それは、唯一の汚染されていない貴方』
+    paragraph: p48
+    quote_verified: true
+  expected_payoff: 左腕が単なる義肢ではなく、本体を補完・拡張するキーアイテムとして機能し、最終決戦での逆転の鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ancient_key
+  note: ヘリステラが語った「古代世界にある鍵」の内容と、それがもたらす具体的な能力（左腕の新機能など）。
+  quotes:
+  - quote: 「古代世界にはその鍵があるはずです。というのはつまり――」
+    paragraph: p108
+    quote_verified: true
+  - quote: 「たとえば、その左腕の新しい機能とか、勝利への布石を置いてくるとかね」
+    paragraph: p103
+    quote_verified: false
+  expected_payoff: 過去での行動が因果律を歪め、「勝つための伏線」として現在に回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_grendel_hi_role
+  note: グレンデルヒが「次元侵略者を招き入れて好き勝手にしようとしている」ことの真意と、彼が味方であるのか敵であるのかの曖昧さ。
+  quotes:
+  - quote: 「グレンデルヒがああなっているのはこちらにも責任があるし――彼がこの世界に次元侵略者を招き入れて好き勝手にしようとしているのは見逃せない」
+    paragraph: p90
+    quote_verified: false
+  expected_payoff: 敵勢力との関係性の変化、あるいはグレンデルヒ自身の裏切り・協力に関する展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_child_request
+  note: 幼いトリシューラ（の前身？）が助けてほしいと懇願した「この子」の正体。
+  quotes:
+  - quote: 「お願いです。私はどうなってもいいですから――この子を、助けてあげてください。」
+    paragraph: p150
+    quote_verified: false
+  expected_payoff: 「この子」がトリシューラ自身、あるいは重要なキーキャラクターであり、主人公の殺意を消滅させる転換点となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 罪と赦し：未来の罪に対する先制処罰の倫理的否定
+  weight: 0.9
+  quotes:
+  - quote: 未だ行われていない罪を裁くことが、一体誰にできるというのだろう。
+    paragraph: p144
+    quote_verified: true
+  note: 主人公が合理的な「予防殺し」から、少女の懇願と共感によって「赦し」へ至る過程が主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己の解体と拡張：境界の消失による力への昇華
+  weight: 0.7
+  quotes:
+  - quote: 関係性の拡張と、身体性の拡張。それらは、何を可能とするのだろう。
+    paragraph: p59
+    quote_verified: true
+  - quote: 俺という本体が上書きされても、食い千切られた左腕にその存在の痕跡は刻まれている。
+    paragraph: p56
+    quote_verified: true
+  note: 自我が消滅する恐怖の中で、他者（カイン）や身体（左腕）との繋がりを介して自己を再定義し、力を得るプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションの階層：物語の構造を利用した救済
+  weight: 0.6
+  quotes:
+  - quote: 「ここは永劫線――『注釈の世界』よ。」
+    paragraph: p72
+    quote_verified: false
+  - quote: 過去に遡ることで、後付けで勝つための伏線を用意する、ということか。
+    paragraph: p105
+    quote_verified: true
+  note: 物語の構造（注釈世界、タイムパラドックス回避）を明示的に利用し、絶望的な状況に「勝利への布石」を置くというメタ的構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 共感の回復：凍結された感情と他者の叫び
+  weight: 0.8
+  quotes:
+  - quote: 俺は共感などいらない。感傷は感情ごと凍らせて、何もかも無かったことにしてしまえ。
+    paragraph: p25
+    quote_verified: true
+  - quote: その灰色の瞳の中に、誰かの姿を見て、俺は。
+    paragraph: p154
+    quote_verified: true
+  note: 自己保身から感情を切り離そうとする主人公が、過去（カイン）と現在（少女）の叫びを通じて共感を取り戻す変遷。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

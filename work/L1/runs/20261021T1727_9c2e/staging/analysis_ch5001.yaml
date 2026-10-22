@@ -1,0 +1,118 @@
+chapter: ch5001
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 6
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_cybernetic_arm_origin
+  note: 主人公が「生身の腕が再構成されていた」と勘違いしていたサイバネ義肢が、なぜ異世界に存在するのか。これは転生時のチェック漏れなのか、意図的な仕込みか、あるいは保険会社の重大なコンプライアンス違反の証拠となる。
+  quotes:
+  - quote: 俺の右腕の肘から先は、現在の地球における最先端の電子制御技術によって作られたサイバネ義肢だ。...恥ずかしいことに、たった今存在に気付いた。さっきまで生身の腕が再構成されていたと勘違いしていたのだ。
+    paragraph: p96
+    quote_verified: false
+  expected_payoff: 後の展開で、保険会社の悪意ある実験体であったことが判明するか、法廷闘争や国際問題へと発展するトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_support_center_access
+  note: 脳内インプラント経由でのサポートセンター接続が、なぜ異世界で機能したのか。「間世界通信」の存在自体が条約違反である可能性があり、この通信経路の脆弱性や監視構造が物語の鍵となる。
+  quotes:
+  - quote: 本来は通じるはずが無いものだ。...脳内にインプラントされたマイクロマシンは思考制御や外付けのハードウェア以外にも、肉体のしぐさを読み取って動作させることが可能だ。標準機能ではないが、据え置き機のマウスジェスチャのように好みや使いやすさで使用する者もいる。
+    paragraph: p77-p83
+    quote_verified: false
+  expected_payoff: 通信が監視されている事実の発覚、あるいは通信システム自体が異世界の神々/管理者による介入手段であることの露見。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_loop_plan_elite
+  note: 「ループ+異世界転生」のプランが存在し、富裕層のみが利用可能という記述は、階級社会と時間操作（ループ）の権限が関連していることを示唆する。
+  quotes:
+  - quote: いや、超高額の、ループ+異世界転生のプランもあるらしいのだが、そこまでの金を用意できるのは一握りの富裕層だけだ。
+    paragraph: p50
+    quote_verified: true
+  expected_payoff: 物語後半で「時間遡行」や「状態保存」というチートが富裕層の専売特許であることが明かされ、主人公との格差ドラマに直結する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_scyber_karate_origin
+  note: 「ネオアメリカ発祥」とされるサイバーカラテが、なぜ異世界のモンスター戦で有効なのか。技術の普及範囲と、その戦闘スタイルが「ゲーム的」であることの不自然さ。
+  quotes:
+  - quote: ちなみにサイバーカラテはネオアメリカ発祥の機械化人体を前提とした格闘術である。
+    paragraph: p133
+    quote_verified: true
+  expected_payoff: 異世界側にも技術移転やゲーム的なシステム（ステータス操作）が存在する証拠、あるいは保険会社が顧客を「戦闘データ」として活用している構造の露見。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己責任論の崩壊とシステム依存の残酷さ
+  weight: 0.9
+  quotes:
+  - quote: 俺はあのときに間違えたのだ。...保険会社の再三に渡る勧めを「がめつい連中だな」とか思いながら突っぱねた結果がこれだ。
+    paragraph: p43-p44
+    quote_verified: false
+  - quote: 『非常用回線をお繋ぎします。...ただいま回線が大変混み合っておりますので、少々お待ち下さい』
+    paragraph: p61-p67
+    quote_verified: false
+  note: リスクを選択した対価として死を招き、最終的にシステム（保険会社）に救いを求めるが、そのシステムもまた官僚的で非情であるという構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と法による身体規制のディストピア性
+  weight: 0.8
+  quotes:
+  - quote: 元世界の技術は、原則として異世界に持ち込んではならない。...それが、何の手違いなのか、技術を異世界に持ち込んでしまっている？
+    paragraph: p89-p93
+    quote_verified: false
+  - quote: 重罪を犯した可能性がある。
+    paragraph: p106
+    quote_verified: true
+  note: 生存に必要な技術（義肢）が法的に禁止されているというパラドックス。法の支配と生存権の衝突。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人間の行動のアルゴリズム化と主体性の喪失
+  weight: 0.7
+  quotes:
+  - quote: 痛みが他人事になる。肉体から意識が切り離され、俺ではなく規定のプログラムが運動を制御する。
+    paragraph: p116
+    quote_verified: true
+  - quote: 動作アシストに従って動けば、俺のような一般人でも簡単にサイバーカラテの達人になれる。
+    paragraph: p133
+    quote_verified: true
+  note: 恐怖や痛覚を無効化し、アプリの指示通りに動くことで「達人」になる描写は、人間の自律性（主体性）が技術によって奪われていることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異世界転生というビジネスの欺瞞と搾取
+  weight: 0.6
+  quotes:
+  - quote: そうした人々の大半は、保険会社の安全調査部や転生後生活の支援活動課などのたゆまぬ努力によって転生後を楽しめているだけであって
+    paragraph: p13
+    quote_verified: true
+  - quote: 「もし不測の事態が発生したとしても、それに関して弊社は一切責任を負いかねますので」
+    paragraph: p46
+    quote_verified: false
+  note: 転生を「商品」として売り込みながら、顧客が直面する死のリスクに対しては免責条項で守るという資本主義的な搾取構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,142 @@
+chapter: ch5253
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 16
+items:
+- kind: mystery
+  name: MY_trishula_capture_reason
+  note: トリシューラがなぜ「再現性の不死」を用いて自爆・再生せず、捕縛されたままなのか。ケイトの介入（予備機体の起動不可）と何か関連があるか。
+  quotes:
+  - quote: '未だ完全な不死に辿り着く道中であるため、無制限に生き返ることはできないが、意識総体レベルにはまだ余裕があったはずだ。
+
+      つまり一回くらいなら死んでも構わない。
+
+      さっさと自爆でもした後、巡槍艦内に待機している予備の機体を起動すればいいだけの話。'
+    paragraph: p230
+    quote_verified: true
+  - quote: 残念だが、予備のアンドロイドは起動できないよ。この世界のやり方に習熟するまでに随分と時間がかかってしまったが、わかってしまえば何と言うことはない。
+    paragraph: p245
+    quote_verified: true
+  expected_payoff: ケイトによるシステム改変がトリシューラの再起動を阻害しており、これが彼女を人質として機能させるための「拘束条件」であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_shura_identity
+  note: 行司シューラが「ケイト」という男に切り替わった事実。これまでの「ちびシューラ」はすべて偽装であり、ケイトの意図（主人公への好意と対立）が今後の展開を左右する。
+  quotes:
+  - quote: '行司シューラの立体映像にラグが走り、その姿が一瞬にして切り替わる。
+
+      ウェーブがかかった黒髪。濃茶色の肌。穏やかなそうな瞳。
+
+      黒烏帽子に直垂、軍配団扇という行司の姿はそのままだが、行司シューラとは似ても似つかない、若い男性がそこにいた。'
+    paragraph: p115
+    quote_verified: true
+  - quote: こっちは相棒のケイト。そんなに睨まないでよ。こいつのお陰で、当初は存在抹消予定だったのを折衷案で落ち着かせることにできたんだからさ。
+    paragraph: p122
+    quote_verified: true
+  expected_payoff: ケイトが「多世界連」からの抹消を回避するための協力者（または監視者）として主人公と対立・共闘する関係性が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_duplicate_reincarnator
+  note: ケイトが最後に主人公を「重複転生者」と呼んだ意味。前世の記憶喪失との関連、および技術移転違反（サイバーカラテ等）の罪状と結びつくか。
+  quotes:
+  - quote: （君は重複転生者だ）
+    paragraph: p301
+    quote_verified: true
+  - quote: 君は事の重大さを理解しているのかな――異世界に文明を持ち込むということの罪深さを。
+    paragraph: p256
+    quote_verified: true
+  expected_payoff: 主人公が単なる転生者ではなく、複数回転生している（または並行世界の自分が存在する）ことが判明し、それが技術移転違反の根拠となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_queen_nike_identity
+  note: 「ニケ」と名乗る女王の正体。コルセスカの姉（銀の森の魔女）との関連性、および「国と国との権威比べ」に勝つための条件。
+  quotes:
+  - quote: 「国と国との権威比べ――僣主トリシューラは不在ですが、女王対決は私の勝ち、ということでいいのかしら」
+    paragraph: p69
+    quote_verified: true
+  - quote: 蜂蜜色の髪と灰色の瞳。眩いほどの美貌だが、その右半分が朽ち果てた死人のそれに変貌するところを目の当たりにしたばかりである。
+    paragraph: p72
+    quote_verified: true
+  expected_payoff: ニケがコルセスカの「前世」または「対となる存在」であり、コルセスカを精神的に追い詰めるために意図的に現れたことが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体性・関係性の拡張による自己定義の魔術的解体と再構築
+  weight: 0.9
+  quotes:
+  - quote: 『身体の一部』を『家族』に、『家族』を『共同体』に、『共同体』を『社会』に、果ては『世界』まで。
+    paragraph: p34
+    quote_verified: true
+  - quote: 親族や周囲の関係者を自らの身体の拡張部位として認識して呪力を働かせる。
+    paragraph: p32
+    quote_verified: true
+  note: 感染呪術の解説を通じて、個体（身体）から社会・国家までを一つの連続した「身体」とみなす視座が提示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: フィクションと現実の境界の崩壊による存在の脅威
+  weight: 0.85
+  quotes:
+  - quote: 自らが無数のフィクションの集積を参照して生み出された存在であるからこそ、そしてあらゆるフィクションを現実と等価であると見なす世界観の持ち主であるからこそ、神話の魔女に迷いは無い。
+    paragraph: p195
+    quote_verified: true
+  - quote: '似ているが決定的に違う別人に。人ならざる武器に。脅威に満ちた幻獣に。
+
+      そして――目の前で灰色の瞳を揺らめかせる、死人の森の女王に。'
+    paragraph: p207
+    quote_verified: true
+  note: コルセスカが「物語（フィクション）」として自分自身を定義し、現実と虚構の区別を無視することで敵対者を「変貌」させる現象。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術移転と文化侵略に対する倫理的葛藤（植民地主義批判）
+  weight: 0.75
+  quotes:
+  - quote: 異世界に文明を持ち込むということの罪深さを。歴史上の正しい道のりに従った発展を妨げ、既存の文化を破壊――
+    paragraph: p256
+    quote_verified: true
+  - quote: サイバーカラテもかなりギリギリだが、名前と理念が同じだけで内実は別物であると強弁すれば押し通せると俺たちは踏んでいた。
+    paragraph: p289
+    quote_verified: true
+  note: ケイトとの議論を通じて、「多世界連」からの技術・文化の流入がもたらす既存社会への影響と、それに対する主人公側の正当化（ローカライズ）の対立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 機械仕掛けの存在（アンドロイド）の尊厳と人間の認識
+  weight: 0.8
+  quotes:
+  - quote: 'どれだけガロアンディアンの女王として尊大に振る舞っていても、それは所詮作られた思考、作られた言動。
+
+      作り事の、偽りの知能ではないか。'
+    paragraph: p186
+    quote_verified: true
+  - quote: トリシューラは確かに『いる』んです！ 第一、作り事だったら何だというのですか。妄想でも現実でも、トリシューラはトリシューラです。
+    paragraph: p193
+    quote_verified: true
+  note: トリシューラの解体を契機に、「機械であること」の蔑視と、「物語としての存在肯定」の間でコルセスカが守るべきものとは何かという問い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

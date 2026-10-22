@@ -1,0 +1,396 @@
+episode: ch5202
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_草の民]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_草の民_has_property_馬専用空間_p10
+        quote: 貴賓席の端に見えるのは、中原の騎馬民族である草の民たちだろう。一人一人美しい毛並みの馬を連れており、席の横には馬専用の空間が用意されている。
+        locator: {}
+        spoiler_after: ch5202
+    name:
+      observations:
+      - event_ref: E_ch5202_草の民_is_made_of_三本足の民_p11
+        quote: 馬と共に生きる彼らは眷族種としては三本足の民に分類されるが、独立心が強く槍神教との小競り合いを繰り返してきた。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5202_リーナ_remembers_黒百合宮での言葉_p109
+        quote: 『あのね、私は翼耳が無いから、本当はあんまり高く飛べないんだ。でも、私はお姉ちゃんと一緒のこの耳が好き。おかげで箒の扱いも空の民としてはかなり得意な方だしね』
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_リーナ_says_出番の無さへの安堵_p17
+        quote: 「うへー、壮観だー。つかこれ私らの出番無くね？」
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_リーナ_threatens_ハルティール_p92
+        quote: 「っんのクソ従兄弟、調子乗んなよこの場でぶっ飛ばすぞ」
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5202_アキラ_activates_安らぎ_p118
+        quote: 私は激発しそうなセリアック＝ニアを抑え続けているメイファーラの負担を和らげるべく、彼女に【安らぎ】をかける。
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_アキラ_stops_マリー_p202
+        quote: だが、マリーの身体は私の放った拘束帯によって縛り上げられ、リーナが放った【空圧】で地に叩き落とされ、メイファーラの短槍を首に突きつけられて身動き一つとれなくなってしまう。
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_アキラ_activates_物語素体の加工配信_p262
+        quote: やや恥ずかしいが、寝ずに突貫で『加工』した物語素体。どうにか形になっているといいのだけれど。私は願う。遠く離れた場所で戦っている彼の勝利を。私たちのこの勝利が、遙かな迷宮まで届けばいいと、そう思った。
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_アキラ_helps_倒れかけた兎と駕籠_p28
+        quote: 駕籠が傾きかける。近くにいた私は咄嗟に駆け寄ってその兎と棒を支えた。
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_アキラ_other_セリアック＝ニアとリールエルバ_p7
+        quote: 特設された貴賓席にセリアック＝ニアとリールエルバを案内していく途中、ミルーニャとプリエステラから連絡が入り、準備が整っている事を確認する。
+        locator: {}
+        spoiler_after: ch5202
+    speech:
+      observations:
+      - event_ref: E_ch5202_アキラ_suspects_ガルズと地獄の連携_p146
+        quote: まるで、地獄が葬送式典に対する襲撃を支援するかのように。――逆だろうか。この時に地獄が侵攻を始める事を知っていたからこそ、ガルズは葬送式典の襲撃を計画した？
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_アキラ_thinks_油断への警戒_p19
+        quote: リーナはそう言うが、そういう油断こそが一番の敵だと思う。
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_アキラ_says_事情への理解_p43
+        quote: 「いえ。それを言うならば、私たち夜の民だって常に全身を隠しております。人にはそれぞれ事情があるものですし、それを咎める権利はこの地上の誰にもないと思います」
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_鰓耳の民]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_鰓耳の民_has_property_大蛸の紋章_p12
+        quote: その隣には魚を思わせる耳をした一団。南東海諸島からやって来た【ウィータスティカの鰓耳の民】だろう。複数の布を重ねたような服の肩に、第四位の天使デーデェイアを示す大蛸の紋章が縫い付けられている。
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_鰓耳の民_has_property_水流コンピュータ_p14
+        quote: 周囲を固める戦士たちは巨大な銛を手にしており、呪術師たちは彼らが開発した水流のコンピュータを羽衣のように身に纏っている。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_第四階層の守護九槍]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5202_第四階層の守護九槍_fights_下方勢力の侵攻_p123
+        quote: 審判ヲルヲーラは戦闘の開始を受諾し、第四階層の掌握者たる守護の九槍第七位を中心に第三位、第四位、第六位率いる修道騎士たちが防衛戦に入る。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_巨人種ネフィリム]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5202_巨人種ネフィリム_other_侵攻軍勢_p131
+        quote: 「うん。第十七魔将ガドール率いる小人種（ミゼット）の軍勢と第十八魔将マーネロアが率いる呪力兵と金毛種（ヴァナラ）の混成軍はいつも通りなんだけど、そこに巨人種が加わってて大変なことになってるって」
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_天眼の民]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_天眼の民_has_property_索敵能力_p15
+        quote: 伝統的な槍を構えて身辺を警護しているのは統制のとれた【ジャスマリシュの天眼の民】たちだ。第七位の天使シャルマキヒュの加護によって優れた索敵能力を持つ彼ら彼女らがいれば、いかなる敵だろうと敵意を露わにする前に察知可能だ。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5202_プリエステラ_makes_花と黒檀の樹_p160
+        quote: 彼女が杖を降ると、色とりどりの花々が舞台から咲き誇る。それから詠唱と共に小さな苗を舞台の中央に置くと、それはぐんぐんと成長して立派な黒檀となる。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イルス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5202_イルス_other_槍神と樹木の天使_p162
+        quote: 彼は膝を突くと槍神への祈りを捧げ、更には『樹木の天使』であるレルプレアと精霊たちへの祈りを高らかに唱えていく。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_守護の九槍第五位]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5202_守護の九槍第五位_other_浄界_p176
+        quote: 第五位が展開した浄界が会場をすっぽりと覆い尽くし、大聖堂となったその場所に神を讃える音楽が鳴り響く。
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_守護の九槍第五位_other_アストラル体霊筒鍵盤_p178
+        quote: 彼女が半透明の鍵盤を叩く度、無数のパイプに呪力を纏った風が送り込まれて荘厳な音を鳴らし、槍や槌矛の代わりに弦楽器や管楽器を手に持った修道騎士らが流麗な旋律を奏でていく。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エクリーオベレッカ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_エクリーオベレッカ_appears_as_逆さまの宮殿墓標_p188
+        quote: 第一位の天使、睥睨するエクリーオベレッカ。この日、この最も天に近い場所で、所定の儀式を行うことで出現する、建造物の天使。天を覆い尽くす逆さまの御殿にして墓所にして槍そのもの。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_骨花の使い魔]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5202_骨花の使い魔_attacks_フラベウファと通信網_p194
+        quote: それと同時に、会場の隅で情報を管理していたフラベウファが骨花によって襲撃を受け、第一区の各所に設置された呪力信号の発信塔が爆破される。この日のために運び込まれた墓石に紛れていた呪石が妨害呪術を発動したことで、あらゆる通信網が途絶していく。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_貴賓席]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5202_貴賓席_has_property_外部からの完全遮断_p198
+        quote: 貴賓席が外部から完全に切り離される。そしてそれこそが敵の狙いだった。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_葬送式典会場]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_葬送式典会場_is_located_第一区根本付近_p2
+        quote: 枝のように伸びた第一区の根本付近、分岐する枝の集まる区画。葬送式典の会場は、その中心で威容を誇っている。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マリー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5202_マリー_attacks_サイリウス・ゾラ・クロウサー_p200
+        quote: クロウサー家の一人の腹を突き破って現れたマリーは、サイリウスの背後をとるとその延髄に鑿を突き込む。必殺を期した一撃。
+        locator: {}
+        spoiler_after: ch5202
+    speech:
+      observations:
+      - event_ref: E_ch5202_マリー_other_ハルベルトの生存への絶叫_p252
+        quote: 「嘘、嘘だ！　確かに、確かに殺したのにっ！」マリーは信じられないと絶叫する。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_サイリウス・ゾラ・クロウサー]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_サイリウス・ゾラ・クロウサー_has_property_微動だにしない平然さ_p203
+        quote: サイリウスはというと、微動だにしていないどころか背後を振り返りもしない。
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_サイリウス・ゾラ・クロウサー_has_property_翼耳と威圧感_p71
+        quote: そして、霊長類ならば両耳がある場所からは長大な翼が生えている。純白の翼耳。ゾラの血族の証として有名なそれが、周囲の大気を掌握する。息が苦しい。窒息しそうだ。
+        locator: {}
+        spoiler_after: ch5202
+    speech:
+      observations:
+      - event_ref: E_ch5202_サイリウス・ゾラ・クロウサー_other_膝を突くこと_p75
+        quote: 「頭が高い。頭を垂れよ地虫ども」その場に立っている者が、全員揃って膝を突いた。すぐ傍にいた空の民たちも例外ではない。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ペイル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5202_ペイル_other_巨大な腐肉人形_p213
+        quote: リーナが指差した先にある舞台では、状況を混乱させるべく現れた巨大な腐肉人形がペイルによって粉砕されていた。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_神働装甲]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_神働装甲_functions_as_カラス型と人型の二形態変形_p218
+        quote: 更にカラスは変形を繰り返し、内部から装甲に覆われた手足を迫り出させて翼を持った騎士となる。腕に取り付けられた三つの刃を降下しながら振り下ろしていくと、巨大白骨はがらがらと崩れていった。
+        locator: {}
+        spoiler_after: ch5202
+    name:
+      observations:
+      - event_ref: E_ch5202_神働装甲_defines_守護天使関連の変形機能_p286
+        quote: 【神働装甲】：「呪動装甲と何が違うのかと言えば、それぞれの守護天使に関係のある形態に変形できる所ですね。今回使用されたのは第五位型の試作機で、その他の位階に対応した神働装甲も試作機を開発済みだそうですわ」
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ナト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5202_ナト_has_property_上昇した呪術適性_p226
+        quote: その試験運用を担当しているのはペイルの仲間としてかつて私たちと刃を交えた三本足の民、ナトだ。ミルーニャによって四肢を奪われた彼は、その凄惨な体験を経たことによって呪術の適性が大幅に上昇した。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_金鎖細胞]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5202_金鎖細胞_has_property_分散型通信機能_p239
+        quote: かといって中枢たるフラベウファをどうにかすればそれで通信ができなくなるようなシステムではない。全ての金鎖が相互に分散処理を行っているため、仮想的なフラベウファは決して死ぬことがない。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_耳長の民]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_耳長の民_carries_四角い駕籠_p24
+        quote: 棒で吊された四角い駕籠（かご）を前後で担いで運ぶ兎の集団。第六位の眷族種【イルディアンサの耳長の民】たちは、垂れた耳をぱたぱたとうごかしながらせっせと駕籠を運んでいく。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルベルトSpear]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_ハルベルトSpear_appears_as_歌姫の姿_p248
+        quote: その中央に立つ、美貌の半妖精（アヴロノ）。少しだけ尖った両耳と僅かに青みを帯びた長く美しい黒髪、黒玉の瞳、奇跡のような美貌。ゆったりと広がったスカートが綺麗な青と黒のドレス。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_駕籠]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5202_駕籠_has_property_強烈な呪力漏出_p26
+        quote: 御簾に遮られて内側はわからないが、それを見て私は思わず声を上げそうになった。信じがたいほどの強烈な呪力が駕籠の隙間から漏れ出ているのだ。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_浄界]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5202_浄界_defines_邪視者の奥義_p284
+        quote: 【浄界】：「己の心に描いた世界で現実を書き換える、邪視者の奥義です。術者によってそのかたちは変わりますが、第五位さんのものは実在のアルセミア大聖堂をそっくりそのまま再現するようです」
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_駕籠の中の女性]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5202_駕籠の中の女性_says_感謝と事情の告白_p36
+        quote: 「ありがとうございます。親切な夜の民の方」「顔も見せぬ無礼をお許し下さい。ですが、私がこの駕籠から出れば穢れを地上に振りまいてしまうのです」
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_駕籠の中の女性_other_アズーリア・ヘレゼクシュ_p53
+        quote: 「――貴方が、アズーリア・ヘレゼクシュね？」
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_客席]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_客席_has_property_二十万人収容_p4
+        quote: 擂り鉢状の客席は二十万人を収容可能だ。これは地上でも有数の規模であり、アルセミット国ではこれを上回るものは首都アルセミアの大聖堂しかない。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_映像投影鏡]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_映像投影鏡_functions_as_中央祭壇の大写し_p5
+        quote: 浮遊する積層型の映像投影鏡は今日のために運ばれてきたものであり、本番では中央の祭壇――舞台の詳細が大写しにされる。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_葬送式典]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5202_葬送式典_defines_地上全土への配信_p6
+        quote: 地上全土に配信されるこの葬送式典は、厳粛な儀式であると同時に娯楽でもあるから、多くの人が注目するのだ。現在も鏡には広告主である多数の複合企業体の名前が次々と表示されている。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_空の民]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_空の民_appears_as_エルネ＝クローザンドの眷族種_p66
+        quote: 高みから眼下を睥睨する雲上人たち。第一の眷族種【エルネ＝クローザンドの空の民】たちが厳かに登場する。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ハルティール]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5202_ハルティール_other_リーナ_p83
+        quote: 「おやおや。誰かと思えば落ちこぼれのリーナじゃないか」
+        locator: {}
+        spoiler_after: ch5202
+      - event_ref: E_ch5202_ハルティール_other_リーナの血統_p90
+        quote: 「妾種の分際で一体何を勘違いしてこの場に紛れ込んだ？　全く、ガルズといい地虫の血は碌な結果を生まんな。ほら、お帰りはあちらだぞ」
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_修道騎士たち]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5202_修道騎士たち_has_property_厳重な警戒網_p9
+        quote: 会場の周囲には修道騎士たちが厳重な警戒網を敷き、更には各国の来賓たちが連れてきている護衛はいずれも歴戦の強者揃いである。
+        locator: {}
+        spoiler_after: ch5202
+  first_appearance_candidate: true

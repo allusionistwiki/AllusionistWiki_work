@@ -1,0 +1,155 @@
+chapter: ch5525
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 6
+  quotes_total: 11
+items:
+- kind: mystery
+  name: MY_GZ0_Trigger_Conditions
+  note: ジーゼロが回想を開始した具体的なトリガー条件（「相対順位」「密集度」など）の詳細。AIの判断ロジックの完全な開示と、それが誰によって設計されたか。
+  quotes:
+  - quote: 'カウンター回想の条件設定が甘すぎかな。
+
+      集団が密集していること、回想連鎖時に相対順位が後方であること、他にもいくつかの状況が重なって暴発したんだろうね。'
+    paragraph: p70
+    quote_verified: true
+  expected_payoff: ジーゼロの設計者（トリシューラ関連？）や、意図的な操作の有無に関する真相への回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Fulgunt_Six_Pillars
+  note: ジュティアとミナが「フルグント六柱群の残り三名」と自称する事実。残りの3名（既知/未知）との関係性、および「六柱」の全容。
+  quotes:
+  - quote: 新たに『外れない矢』ジュティアと『刈り取る者』ミナを加えた、この僕たちがフルグント六柱群の残り三名だ
+    paragraph: p225
+    quote_verified: true
+  expected_payoff: 物語の中核をなす「六柱」組織の正体と、ダウザールを含む他のメンバーとの対立構造の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Incomplete_Sphere
+  note: 不完全な半球型の浄界が破綻せずに維持される現象。その力学的・呪術的な原理と、なぜ「口を開いたまま」なのか。
+  quotes:
+  - quote: 'だが、飛翔する選手たちを追う浄界はいつまでたっても口を開いたままだった。
+
+      再装填。圧縮。成型'
+    paragraph: p175-p179
+    quote_verified: false
+  expected_payoff: 第八魔弾の正体、および「閉じられない世界」が意味するメタ物理的な法則（物語の外側との境界）の解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Douzal_Intervention
+  note: ダウザールがジュティアの介入を「羽虫」として意に介さなかった理由、およびレイヤーを超えた通信の性質。
+  quotes:
+  - quote: 'そして『友』を名乗る者の介入を、老いた巨人は意に介していなかった。
+
+      この程度の妨害はダウザールにとっては羽虫が纏わりついているようなものだ。'
+    paragraph: p215-p216
+    quote_verified: true
+  expected_payoff: 上位存在（超越者）同士のルールや、レースの真の目的（神々の盤上遊戯）に関する詳細なルール開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Happy_Rament_Origin
+  note: 「喜銃」「愴銃」が女神によって作られたオーパーツである事実と、その由来（英雄の象徴）。
+  quotes:
+  - quote: 'エルネトモランの誰もが知る、とある英雄の象徴。
+
+      女神が作り出したオーパーツにして情動を射出する異能の兵器。'
+    paragraph: p148-p154
+    quote_verified: false
+  expected_payoff: 過去作の英雄（ハッピー/ラメント？）との関係性、およびこれらの兵器が現在の神話体系に与える影響。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の構造そのものがゲームシステムとして機能しており、テキスト記述（描写）が物理的な干渉力を持つメタフィクション。
+  weight: 0.9
+  quotes:
+  - quote: 'テキストベース・サーキット。
+
+      始まりの一語を記すために、選手たちが競って前へと突き進む。'
+    paragraph: p19-p20
+    quote_verified: true
+  - quote: 「進みが遅い記述」はレース展開に際限のない減速をもたらすため嫌われがちだ。
+    paragraph: p99
+    quote_verified: false
+  note: テキストの量・速度がゲームプレイのルールそのものになっている描写が多数あり、作品全体が「書かれること」自体を競技化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 陳腐なクリシェ（回想、動機付け）の濫用とその無効化。メタレベルでの自戒と批判。
+  weight: 0.8
+  quotes:
+  - quote: '勝たなければ死や喪失が待つなどの『負けられない理由』は定番であるがゆえに多用される。
+
+      内容としては他愛ない個人の記憶。
+
+      つまり、この退屈極まりない一連の回想シーンは全て無駄。'
+    paragraph: p40-p86
+    quote_verified: false
+  note: 作品内キャラクターたちが「陳腐化」を警戒し、定番展開（クリシェ）を戦略的に避ける・利用する描写を通じて、物語の形式そのものに対する批評性が現れている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: AIと人間の境界、および文脈理解の欠如による暴発。技術倫理の寓言。
+  weight: 0.6
+  quotes:
+  - quote: 'ジーゼロは『回想の意味』を理解できず、テキストベース・サーキットにおけるレース展開の流れが持つ文脈を読むことができない。
+
+      だからこんな簡単な罠に気付くことさえできなかった。'
+    paragraph: p76-p77
+    quote_verified: true
+  note: ジーゼロの行動原理が「ルール遵循」のみであり、物語的な文脈（意味）を欠いている点が強調され、AIの限界と人間の意図（罠）との対比が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム（競技）の破壊としての戦争・殺戮への回帰。スポーツマンシップの解体。
+  weight: 0.7
+  quotes:
+  - quote: '技術による競い合いではなく、無慈悲な命の潰し合い。
+
+      本業のレーサーに対抗する術などありはしない。
+
+      即座に反則認定がされ、ジュティアとミナのペアは失格を言い渡される。'
+    paragraph: p135-p138
+    quote_verified: false
+  note: 「レース」というゲーム空間のルール（反則）が、「探索者としての本領（殺し合い）」によって意図的に破壊され、物語のジャンル転換（スポーツ→戦闘）が行われている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 超越者の視点と下界のゲームの対比。高次の存在による介入の軽さ。
+  weight: 0.8
+  quotes:
+  - quote: '紀人都市によって執り行われる大規模な呪術儀式は、新しき神による盤上遊戯のひとつの形態とも解釈可能だ。
+
+      その遥か『上』のレイヤーでは、形のない闘争が始まっている。'
+    paragraph: p228
+    quote_verified: true
+  note: 地上の激しい戦いが、上位存在（神々）にとっての「盤上遊戯」や「挨拶」に過ぎないという構造が示され、物語のスケールが宇宙論的・神話的な層へ拡張されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

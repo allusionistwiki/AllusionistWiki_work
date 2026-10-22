@@ -1,0 +1,138 @@
+chapter: ch5473
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 16
+items:
+- kind: mystery
+  name: MY_ozomashii_mono_identity
+  note: ルーシメアが説明を避けた「おぞましいもの」の正体。救世主誕生のプロセスに失敗した場合に生まれる何か。
+  quotes:
+  - quote: 聖女が傷つけられたり呪われたりしたら全てが台無しになる。救世主誕生が正しい形で実行されなければ、最悪の場合おぞましいものが生まれてしまうことすらありうる
+    paragraph: p182
+    quote_verified: true
+  - quote: おぞましいもの。その正体を明確には口にせず、説明しないままルーシメアは話を続けた。彼が説明しないということは、それは説明そのものに危険性があるということだ。
+    paragraph: p184
+    quote_verified: true
+  expected_payoff: 第五階層での戦い、特に「心臓」の誕生を阻害する何らかの要因（リーヴァリオンの干渉など）によって、救世主が歪んだ存在として顕現するイベントで回収される可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_laklural_true_identity
+  note: セリアック＝ニアに絡みついた「青い因果」の源であるラクルラールの正体。第五階層で敗北したとされるが詳細不明。
+  quotes:
+  - quote: 青い因果がまだセリアに絡みついている。あなたもそうでしょう？
+    paragraph: p268
+    quote_verified: true
+  - quote: ラクルラールの正体は未だにわからないままだ。第五階層で行われた紀神や紀人たちによる超越的な戦いの果てに敗北したらしい、という不確かな噂が流れているのみで
+    paragraph: p271
+    quote_verified: true
+  expected_payoff: セリアック＝ニアの過去の行動（ディスペータとの関係）と、第五階層での「塔」派閥争いの真の黒幕として明かされる。あるいは、彼女が「髪」の細胞に関与する鍵となる人物。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kunata_swimsuit_future
+  note: ユディーアが言及したクナータの「破滅的な水着姿が全世界に晒される思い出」。これが未来予知なのか、捏造された記憶（改変対象）なのか。
+  quotes:
+  - quote: 栄光の水着審査・ガロアンディアンミスコンポリコレ炎上事件であなたの破滅的な水着姿が全世界に晒される思い出に比べたらね！
+    paragraph: p435
+    quote_verified: true
+  - quote: その未来変えよう？ その影響で世界が滅んでもいいから
+    paragraph: p437
+    quote_verified: true
+  expected_payoff: クナータが転生者として何かしらの公的イベント（ミスコンなど）に巻き込まれる展開、またはユディーアがその未来を改変する能力を持つことの暗示。コメディ的演出で回収される可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_yudia_judgment_timing
+  note: ルーシメアがユディーアに「剣を振るう」裁きの時が来ることを示唆し、「今はまだ、ね」と先延ばしにした件。
+  quotes:
+  - quote: 「僕を裁くかい、ユディーア。その時が来たと、そう思うなら剣を振るうがいい。そうでないのなら、君は至るべき場所を見つけていないだけだ。今はまだ、ね」
+    paragraph: p136
+    quote_verified: true
+  - quote: '迷い、決断できず、先送りを繰り返し、時間だけが過ぎていく。
+
+      そうしてまた、機会を逃す。'
+    paragraph: p138-p139
+    quote_verified: true
+  expected_payoff: 物語の終盤、ユディーアがルーシメアを「裏切り者」として処刑する（または剣で刺す）クライマックスシーンへの布石。その瞬間が「救世主トリアイナ」誕生後の秩序維持に不可欠な儀式として描かれる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションにおける役者（キャラクター）の自己認識と、脚本（運命）への服従による悲劇
+  weight: 0.8
+  quotes:
+  - quote: 僕もまた物語の中で生き足掻くひとりきりの役者に過ぎない。その配役が傲慢な王であるとすれば、僕は正しさの秤に試されるべきなのだろう
+    paragraph: p87
+    quote_verified: true
+  - quote: 'ユディーアという自分の存在が、この少年にとってどういう位置付けなのか。
+
+      四人の守護騎士、特別な使い魔として選ばれた自分が何と重ねられているのかを、彼女は最初に教えられている。'
+    paragraph: p117-p118
+    quote_verified: true
+  note: キャラクター自身が自分たちが物語の中の存在（役者）であることを自覚し、その配役（王、裏切り者）に従わざるを得ない運命の残酷さと、それを受け入れる苦悩が主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「善」や「愛」が持つ暴力性と、他者を支配する力としての倫理的危険性
+  weight: 0.7
+  quotes:
+  - quote: この少年の在り方はとても気持ち悪い。嫌悪感すらねじ伏せる好意の暴力、愛らしさの魔力がおぞましい。高みから見下ろされている感じがとにかくいけ好かない。
+    paragraph: p115
+    quote_verified: true
+  - quote: 民草はいつだって愛しやすいものを愛する
+    paragraph: p98
+    quote_verified: true
+  note: ルーシメアの「純粋な善」や「可愛らしさ」が、ユディーアに対して圧迫（暴力）として機能し、彼女の自由意志を奪い支配している構造を描く。美徳が権力装置になることへの批判的視点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 罪の自覚と贖いの不可能性、そして「中途半端な叛逆」という人間の弱さ
+  weight: 0.6
+  quotes:
+  - quote: つまるところ、これは中途半端ゆえの叛逆なのだった。
+    paragraph: p40
+    quote_verified: true
+  - quote: '罪は消えない。だからこそ問わずにはいられなかった。
+
+      自身の弱さゆえに。それが『間違いではない』と信じたいがゆえに。'
+    paragraph: p27-p28
+    quote_verified: true
+  note: ユディーアが完全な反逆者にも、完全な忠臣にもなれない中途半端さを持つことで苦悩し、その罪の意識が物語を駆動させる原動力となる心理的葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命論（決定論）への諦観と、限られた自由意志（レールの上での選択）による救済
+  weight: 0.5
+  quotes:
+  - quote: 新しい世界でも運命は苛酷だけれど、用意されたレールの上とはいえ幾通りかの道に触れるだけの自由は認められるのだ。それはきっと救いなのだと思う。
+    paragraph: p228
+    quote_verified: true
+  - quote: 'ユディーアは裏切り者だ。ゆえに、トライデントという運命に対して絶対の忠誠を誓っているわけではなく、純粋な信仰心を捧げているわけでもない。
+
+      逆らうほどの勇気はない。抗うほどの愚かさもない。'
+    paragraph: p37-p38
+    quote_verified: true
+  note: 世界全体の運命（トライデント）は変えられないが、個人レベルでは「レールの上での道」を選ぶ自由があり、それがユディーアにとっての救いとなるという、限定された自由論。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,229 @@
+chapter: ch5500
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 10
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_万獣祭の開催宣言]]'
+  object: '[[ME_ギグ経済・プラットフォーム契約]]'
+  claim: 祝祭期間中のルール（殺し合い禁止、戦闘推奨）は、ギグエコノミーにおけるプラットフォームの規約や労働条件の変動を模倣している。
+  quote: 殺し合いと戦争が禁止ってだけ。誓ってる対象がシナモリアキラなんだぜ？　むしろ喧嘩は推奨ってな。ほら見ろよ。ランキング上位を目指してさっそく『サイバーカラテ道場』のユーザーどもがおっぱじめてやがる
+  paragraph: p25
+  confidence: moderate
+  quotes:
+  - quote: 殺し合いと戦争が禁止ってだけ。誓ってる対象がシナモリアキラなんだぜ？　むしろ喧嘩は推奨ってな。ほら見ろよ。ランキング上位を目指してさっそく『サイバーカラテ道場』のユーザーどもがおっぱじめてやがる
+    paragraph: p25
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_予選参加者の箒]]'
+  object: '[[ME_SNSのバズ狙い・映えコンテンツ]]'
+  claim: 予選参加者の多様で奇抜な箒は、SNS上で注目を集めるための演出（映え）や、ルール無用のコンテンツ消費を模している。
+  quote: 本質的には余興に過ぎないはずだ。... 予選は何でもありの派手な展開が売りということで、宣伝目当てとか目立ちたがりの参加が半数以上なんだとか
+  paragraph: p126-p127
+  confidence: strong
+  quotes:
+  - quote: 本質的には余興に過ぎないはずだ。... 予選は何でもありの派手な展開が売りということで、宣伝目当てとか目立ちたがりの参加が半数以上なんだとか
+    paragraph: p126-p127
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_機械女王トリシューラの宣言]]'
+  object: '[[ME_社会契約論・ホブズ的な主権の創出]]'
+  claim: 多数の参加者が共同で成立させる「場」は、個人間の約束を世界への強制力に変える社会契約や、主権者の意志による法秩序の生成プロセスと構造が一致する。
+  quote: 複数人で行う約束や誓約は強固な縛りとなって世界全体に対する強制力となるのだ。
+  paragraph: p9
+  confidence: strong
+  quotes:
+  - quote: 複数人で行う約束や誓約は強固な縛りとなって世界全体に対する強制力となるのだ。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ティリビナ人の木製箒]]'
+  object: '[[ME_環境主義・脱成長論]]'
+  claim: 機械化された文明の中であえて自然由来の浄化術を用いることは、技術主導の社会へのアンチテーゼとしての環境保護思想や古来の生活様式を想起させる。
+  quote: 古典的なトランス昇天でもやるつもりなんでしょうか。... 一般的な簡易浄界方式を用いているのかは不明ですが
+  paragraph: p153-p146
+  confidence: moderate
+  quotes:
+  - quote: 古典的なトランス昇天でもやるつもりなんでしょうか。... 一般的な簡易浄界方式を用いているのかは不明ですが
+    paragraph: p153-p146
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_王殺しの暗殺]]'
+  object: '[[ME_現代のキャンセル文化・社会的抹殺]]'
+  claim: 命を絶つだけでなく「名誉、誇り、社会的評価」を損なうことが暗殺と定義されることは、物理的排除ではなく社会的存在価値の剥奪を行う現代の社会制裁を指している。
+  quote: 名誉、誇り、社会的評価。形のないものを損なうことで、不死すら実現する大呪術師に致命的な打撃を与える。相手が命に価値を見出していないのなら、本当に価値あるものに攻撃を加えればいいのだ。
+  paragraph: p45
+  confidence: strong
+  quotes:
+  - quote: 名誉、誇り、社会的評価。形のないものを損なうことで、不死すら実現する大呪術師に致命的な打撃を与える。相手が命に価値を見出していないのなら、本当に価値あるものに攻撃を加えればいいのだ。
+    paragraph: p45
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_シード枠と予選の構造]]'
+  object: '[[ME_格差社会・機会の不平等]]'
+  claim: シード枠が権力層（上）に偏り、予選に辺境や下層出身者が大量に参加する構図は、社会における機会格差と階級移動の困難さを象徴している。
+  quote: クロウサー家が主催者ですから。シード枠は自然と『上』に偏るのです
+  paragraph: p111
+  confidence: moderate
+  quotes:
+  - quote: クロウサー家が主催者ですから。シード枠は自然と『上』に偏るのです
+    paragraph: p111
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ティリビナ人の飛行術の真偽
+  note: ユディーアは侮りを持っていたが、スーリウムの存在により「常識が通用しない」状況にある。木製箒での勝利が現実のものとなる伏線。
+  quotes:
+  - quote: 正直に言えばこの時のユディーアには侮りがあった。... 常識で考えればその通り。だが既にこの祝祭では常識など通用しない。なにより『ティリビナ同胞団』の背後には、あの『王殺し』を第五階層に招いた張本人、神の如きスーリウムが控えているのだから。
+    paragraph: p157-p163
+    quote_verified: false
+  expected_payoff: 予選レースでティリビナ人が驚異的な飛行能力を見せ、ユディーアの予想を裏切る展開へ繋がる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_王殺しの変身種族
+  note: 「どんな種族に化けているか想像すらできない」とされ、予選参加者の中に紛れ込んでいると警戒されている。
+  quotes:
+  - quote: 彼の変身を見破るのはほとんど不可能。どんな種族に化けているか、想像すらできない。苛酷なレースの過程で、尻尾を出してくれればいいのだが。
+    paragraph: p115
+    quote_verified: true
+  expected_payoff: レース中、何らかの不自然な挙動や特殊な能力（例：ティリビナ人の飛行術と見せかけの類似性など）を通じて正体が露呈する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_セリアック＝ニアの「ぞくり」
+  note: ユディーアがニアの声に「ぞくり」と感じ、正気を疑う描写。単なる萌え要素ではなく、呪術的干渉や精神支配の伏線である可能性。
+  quotes:
+  - quote: 声を潜めながら身を寄せて囁く猫姫。か細く甘い響きの声に何故かぞくりと来るものを感じてユディーアは己の正気を疑った。
+    paragraph: p103
+    quote_verified: true
+  expected_payoff: ニアの声が呪術的な効果を持ち、ユディーアの判断力を鈍化させる、あるいは敵意を和らげる効果として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_スーリウムの介入意図
+  note: ティリビナ同胞団の背後にいる「神のごとき存在」スーリウムがなぜ王殺しを招いたのか、その動機が不明。
+  quotes:
+  - quote: なにより『ティリビナ同胞団』の背後には、あの『王殺し』を第五階層に招いた張本人、神の如きスーリウムが控えているのだから。
+    paragraph: p163
+    quote_verified: true
+  expected_payoff: スーリウムの目的は機械女王の暗殺そのものではなく、祝祭の破綻を通じてガロアンディアンの構造自体を変革することにあることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_マレブランケの最大戦力の変動
+  note: プーハニアが「祝祭でまた増える」「入れ替わりもあるかも」と予言しており、組織の力学変化を示唆している。
+  quotes:
+  - quote: 多分な。俺の予想じゃ、この祝祭でまた増えるね。入れ替わりもあるかもな
+    paragraph: p37
+    quote_verified: true
+  expected_payoff: レース中に新たな強力な敵（王殺しの変身を含む）がマレブランケとして登場する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ルールと権力の構造：法を「場」で創り出す力学
+  weight: 0.9
+  quotes:
+  - quote: 今の宣言に含まれていた幾つかの前提と引き継いだ文脈そのものが呪文として機能している。... 複数人で行う約束や誓約は強固な縛りとなって世界全体に対する強制力となるのだ。
+    paragraph: p7-p9
+    quote_verified: false
+  note: 機械女王の宣言が単なる命令ではなく、参加者の集合意識によって効力を持つという「権力の分散と集中」を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 階層と機会：シード枠に象徴される構造的格差
+  weight: 0.7
+  quotes:
+  - quote: クロウサー家が主催者ですから。シード枠は自然と『上』に偏るのです
+    paragraph: p111
+    quote_verified: true
+  - quote: 見た感じ、『中央』ではなく『辺境』の参加者が多い。... アンダーグラウンドの臭気が漂っていた。
+    paragraph: p63-p64
+    quote_verified: false
+  note: 予選という「前座」に集まる辺境・下層の人々に対し、シード枠が権力者に独占される構図を描く社会批評。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 常識の崩壊：技術的優位への侮りと超越的存在
+  weight: 0.6
+  quotes:
+  - quote: 正直に言えばこの時のユディーアには侮りがあった。... だが既にこの祝祭では常識など通用しない。
+    paragraph: p157-p162
+    quote_verified: false
+  note: 現代の技術（機甲箒）を基準とするユディーアの視点と、古来の術・神的存在によるパラダイムシフトの対立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会的死：命ではなく「評価」を狙う暗殺
+  weight: 0.5
+  quotes:
+  - quote: 名誉、誇り、社会的評価。形のないものを損なうことで、不死すら実現する大呪術師に致命的な打撃を与える。
+    paragraph: p45
+    quote_verified: true
+  note: 不死の存在に対する攻撃として「社会的抹殺」を定義し、現代社会におけるキャンセル文化や信用経済を反映させる主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 祝祭の暴力性：禁止された戦争と推奨される喧嘩
+  weight: 0.4
+  quotes:
+  - quote: 殺し合いと戦争が禁止ってだけ。... むしろ喧嘩は推奨ってな。ほら見ろよ。ランキング上位を目指してさっそく『サイバーカラテ道場』のユーザーどもがおっぱじめてやがる
+    paragraph: p25
+    quote_verified: false
+  note: 戦争が禁止されることで暴力がゲーム化・娯楽化し、ギグエコノミー的な競争社会へ変質していく皮肉。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

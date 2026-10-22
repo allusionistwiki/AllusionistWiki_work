@@ -1,0 +1,124 @@
+chapter: ch5478
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 3
+  quotes_verified: 5
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_Renaria_Identity
+  note: 銀髪の少女レナリア・V・オルガナの正体と目的。彼女が「紀人」でありながら踊り子たちを寄り代として使い、上位存在に準ずる力を持つ点。
+  quotes:
+  - quote: 私はレナリア・Ｖ・オルガナ。暗殺者で、いちおう紀人。よろしくね
+    paragraph: p292
+    quote_verified: true
+  - quote: 全員が別々の個人であるというのに発言者は次々と入れ替わり、継ぎ目無く一つの文章として成立している。...彼女たちは一個人、一人格の代弁をすることができる寄り代あるいは霊媒だったのだ。
+    paragraph: p220
+    quote_verified: false
+  expected_payoff: レナリアがユディーアと協力して暗殺者を追う真の動機（おそらくガロアンディアンの政治構造に関わる）や、彼女の所属組織の明かされる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Assassin_KingKiller
+  note: 「王殺し」と呼ばれる暗殺者の正体と、彼が実行するトリシューラ暗殺計画の詳細。
+  quotes:
+  - quote: その名も『王殺し』。...凄腕の暗殺者よ
+    paragraph: p287
+    quote_verified: false
+  - quote: 正確に言えば、彼が行ったのは女王暗殺を計画して依頼するところまで。実行犯は既に動き出している。あなたには過去視で暗殺者の手がかりを探って欲しい。
+    paragraph: p277
+    quote_verified: false
+  expected_payoff: ユディーアが過去視で得た情報に基づき、「王殺し」を追跡・阻止するスリラー展開の開始。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tribuna_Assassination_Plot
+  note: ティリビナ同胞団幹部が殺害された事件と、そこに隠された女王暗殺の計画との関連性。
+  quotes:
+  - quote: 調べて欲しいのはとあるティリビナ人の遺体。...あのティリビナ人にはね、女王暗殺を目論んだという疑いがあるのよ。
+    paragraph: p266-p270
+    quote_verified: false
+  expected_payoff: 過去視による情報の取得が、ガロアンディアン内部の陰謀やトリシューラの危機へと直結する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Goory_Subordination
+  note: 凶悪なギャングボスゴーリーがレナリア（姐さん）に頭が上がらない理由、およびウルムゾリムとの関係性。
+  quotes:
+  - quote: 「姐さぁん、うっうっ、来てくれるって信じてたよぉ～」
+    paragraph: p236
+    quote_verified: true
+  - quote: あの子、私には頭が上がらないの。素の性格はあんな感じだけどね
+    paragraph: p256
+    quote_verified: true
+  expected_payoff: ゴーリーやウルムゾリムがレナリア陣営としてユディーアに協力する展開、あるいは彼らの背景にある過去（牢獄街での経歴）の描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Lylas_Shortfall
+  note: ライラの浄界が「安っぽい壁紙」へと崩壊した原因と、彼女の命数（19万8千）に対する弱点・制約条件。
+  quotes:
+  - quote: まるで安っぽい室内の塗装。...これは室内の壁紙に空と虹の絵を描いただけの偽物だ。
+    paragraph: p189-p190
+    quote_verified: false
+  expected_payoff: ライラの能力の本質（信仰に基づく現実改変）が、ユディーアの「灰色」の彩域や「事実/虚構の区別」によって無効化されるメカニズムの解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 創造者による生命の物象化と、それに対する被造物側の倫理的な反抗（自己決定権）
+  weight: 0.8
+  quotes:
+  - quote: 「動物愛護など愚か。神の奴隷種族であれば、全ての命は厳正に管理されるべき資源です。それは知性種であっても同じ。」
+    paragraph: p39
+    quote_verified: false
+  - quote: 平然とそれを実行できるライラの精神性を本能が忌避しているのだ。
+    paragraph: p35
+    quote_verified: true
+  note: ライラは犬を「大恩ある祖」と称しつつも、失敗作を即座に殺処分し、命数を資源として扱う。これは神による創造の権限を絶対視する視点であり、ゴーリーやユディーアがそれに恐怖・忌避を示すことは、この世界における「生命の尊厳」をめぐる対立軸を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクション的構造：ゲーム的数値（命数）と物語的文脈（過去視/映像）の衝突
+  weight: 0.7
+  quotes:
+  - quote: ユディーアはニアホンを操作し、敵の命数を測定するアプリを起動した。...生命を『数』としてカウントする概念は猫が異界から持ち込んだという言い伝えが存在するため
+    paragraph: p83-p84
+    quote_verified: false
+  - quote: 「すごい、絵と本物の違いが理解できるんだ。犬って賢い生き物なんだね」
+    paragraph: p203
+    quote_verified: false
+  note: 命数（HP）というゲーム的指標で優位に立つライラに対し、ユディーアは「過去視（物語の文脈）」と「絵と本物の区別（メタ的な真実性）」によって対抗する。これは異世界転生ものが抱える「チート/ステータス」へのアンチテーゼとして機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と権力：名乗り（命名）がもたらす支配構造の崩壊
+  weight: 0.6
+  quotes:
+  - quote: 「動物愛護？　いいえ、私は犬の地位を向上させたいだけ。『ことば』を与えてね」
+    paragraph: p15
+    quote_verified: true
+  - quote: 全員が別々の個人であるというのに発言者は次々と入れ替わり、継ぎ目無く一つの文章として成立している。...寄り代あるいは霊媒だったのだ。
+    paragraph: p220
+    quote_verified: false
+  note: ライラは犬に「ことば」を与えることで支配しようとするが、レナリア陣営は「寄り代」という形で他者の身体を言語化・統合して用いる。言語能力（権力）の独占と分散が戦闘の勝敗や政治的交渉を左右する構造が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

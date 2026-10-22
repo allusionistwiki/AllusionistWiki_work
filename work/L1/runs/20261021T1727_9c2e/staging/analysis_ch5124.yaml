@@ -1,0 +1,127 @@
+chapter: ch5124
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 15
+items:
+- kind: mystery
+  name: MY_new_neighbor_identity
+  note: 隣室に引っ越してきた人物の正体。第零印象がよろしくないことが示唆されており、主人公との関係性（敵対者、保護者、運命共同体）が今後の展開を左右する。
+  quotes:
+  - quote: どうやら昨晩、遅い時間帯にも関わらず、大荷物が大量に運び入れられていたようなのだ。
+    paragraph: p88
+    quote_verified: true
+  - quote: まだ見も知らない人物だが、第零印象ははっきり言ってよろしくない。
+    paragraph: p93
+    quote_verified: true
+  expected_payoff: この隣人が主人公の過去の悪夢（妹事件）に関与しているか、または第五階層の戦いに関連する人物として登場し、主人公の行動を監視・介入する存在となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_lost_voice_trauma
+  note: 失声症の原因が「心因性」であることと、妹に対する罪悪感（p25-29）の関連性。フィリスが『心の声』を代弁する仕組みの詳細。
+  quotes:
+  - quote: 心因性の失声症になった私を助け、その意思を代弁してくれるのがフィリスという『心の声』だ。
+    paragraph: p61
+    quote_verified: true
+  - quote: 私は、言葉を失った。
+    paragraph: p50
+    quote_verified: true
+  expected_payoff: 主人公がトラウマを克服し、自らの声で「必要な言葉」を発することで、フィリスとの関係性に変化が生じるか、妹との再会における対話の鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_weather_manipulation_politics
+  note: 大神院による気象管理システムが「望まれる逆張り」で機能している点。このシステムの欠陥や、天候改変を悪用する勢力の存在示唆。
+  quotes:
+  - quote: 天気予報とセットで『望まれる逆張り』をする天気占いは今日も正常に機能しているようだった。逆に雨が降って欲しい時期にはそうなるように調整がされるシステムになっているので、大神院が構築した気象管理システムはおおむね市民に受け入れられている。
+    paragraph: p163
+    quote_verified: true
+  expected_payoff: このシステムを悪用した謀略（例：特定地域への災害誘引）が発生し、主人公がその検知や対応を任されるイベントの発生。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_rabbit_origin
+  note: タマ（兎）が「一番いい兎」として選ばれる経緯と、その高度な知性・立体映像投射能力の由来。使い魔系ペットショップでの購入過程。
+  quotes:
+  - quote: 第五階層の戦い以来、呪術の適性が軒並み上昇した私は、使い魔を使役する能力も新たに獲得していた。そこで使い魔系のペットショップで役に立ちそうな使い魔を見繕ってみたのだが――
+    paragraph: p119
+    quote_verified: true
+  - quote: 「一番いい兎だって聞いてたのに。このおしゃべり」
+    paragraph: p121
+    quote_verified: true
+  expected_payoff: タマが単なる使い魔ではなく、古代の魂や高位存在の欠片であることが判明し、主人公の妹（ビーチェ）と何らかの関連を持つことが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: コミュニケーションの断絶と再生
+  weight: 0.9
+  quotes:
+  - quote: 言わなくてもいい時に余計な事を口にして。言わなければならない時に必要な言葉を選べなくて。私の口は、一体何のためについているのだろう。
+    paragraph: p43-45
+    quote_verified: true
+  - quote: 私は、言葉を失った。
+    paragraph: p50
+    quote_verified: true
+  note: 過去の失敗（妹を止められなかったこと）から派生した失声症が、フィリスという技術的補完によって回復する過程を通じて、言葉の重みと責任を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己救済のための利己的利他主義
+  weight: 0.8
+  quotes:
+  - quote: 今度こそ間に合ったと安堵するための、自分の為だけの利他。
+    paragraph: p71
+    quote_verified: true
+  - quote: 誰かを犠牲にし続けながら誰かを救いたいだなんて、なんて欺瞞だろう。
+    paragraph: p79
+    quote_verified: true
+  note: 英雄願望と罪悪感の葛藤。他者救済が自己の安堵（過去のトラウマ処理）を目的としているという倫理的なジレンマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による欠落の補完とアイデンティティの不安定さ
+  weight: 0.7
+  quotes:
+  - quote: フィリスが埋めている私の欠落、それは言葉。
+    paragraph: p61
+    quote_verified: true
+  - quote: 見えている筈なのに、私は私の顔がどういうモノなのか認識できない――記憶できない。
+    paragraph: p136
+    quote_verified: true
+  note: 声（フィリス）と顔（自己像の欠如）という二つの欠落が、主人公の「人間としての輪郭」を曖昧にし、存在論的な不安を生んでいる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 監視社会におけるプライバシーの喪失
+  weight: 0.5
+  quotes:
+  - quote: 洗面所に姿見は無い。高位の呪術師にとって、鏡は格好の入り口（エントランス）になる。侵入の経路をわざわざ増やしてセキュリティを緩める理由は無かった。
+    paragraph: p104
+    quote_verified: true
+  - quote: 大神院に検閲管理された正規ネット上ではそうした地下の情報は得られない。ただでさえ監視されているから妙な動きをしないようにとラーゼフから釘を刺された直後だ。
+    paragraph: p170
+    quote_verified: true
+  note: 鏡（視覚情報）の排除とネット検閲を通じて、主人公が常に「見られている」状況にあることを示唆し、自由意志の制限を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

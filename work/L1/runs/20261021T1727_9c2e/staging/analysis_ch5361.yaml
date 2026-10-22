@@ -1,0 +1,142 @@
+chapter: ch5361
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 3
+  quotes_verified: 10
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_amnesiac_one_eyed_man_identity
+  note: 隻眼の男はアキラの記憶から名前が消去されており、「何者でもない空っぽの残骸」として存在している。彼が誰であり、なぜ記憶から削除されたのか（「設定の群れ」の一部か、意図的な抹消か）が今後の展開で重要になる可能性がある。
+  quotes:
+  - quote: 'しかし、その中から『　』の名前だけが欠落している。
+
+      そして、何度見てもこう思ってしまう。
+
+      『これは誰だ？』と。'
+    paragraph: p133-p135
+    quote_verified: true
+  - quote: '男はこちらに気付き、困惑したように呟く。
+
+      「ああ、もしや、この病院のかただろうか」'
+    paragraph: p136-p138
+    quote_verified: true
+  expected_payoff: 彼の正体が判明し、ガロアンディアンの構造に関わるキーとなるか、アキラ自身の失われた記憶の一部として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_virgil_true_story
+  note: アキラは「俺は彼の物語を知らない」と述べ、ヴァージルの焦点がぼやけていると指摘している。ヴァージルの「健康（インテグリティ）」という理想の背景にある個人的な悲劇や目的（レオとの関係性を含む）が明かされることで、彼の行動原理の真意が判明する可能性がある。
+  quotes:
+  - quote: '俺は彼の物語を知らない。
+
+      サイザクタートを通したヴァージルというフィルター越し、しかも核心となる本人の物語にはその断片に関わったに過ぎない。'
+    paragraph: p49-p50
+    quote_verified: true
+  - quote: 彼がどんな王なのか、俺は全く知らないと言っていいのだ。
+    paragraph: p53
+    quote_verified: true
+  expected_payoff: ヴァージルの「世界にふさわしいのは秩序と完全なる統合だ」という言葉の背後にある個人的な動機（過去の傷など）が明かされ、アルトとの対立の本質が理解される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_parns_prosthetic_origin
+  note: パーンの義肢が「古代と現代、呪術と異界の技術」の渾然一体であり、「紀人ラウスの右腕を強奪している」とある。この「右腕」がパーンという存在の核（自我の固定化）においてどのような役割を果たし、「中和剤（氷血呪）」との関係でどう機能するのか。
+  quotes:
+  - quote: '付け加えれば、パーンは生前にトロルの王ベフォニスを倒し、紀人ラウスの右腕を強奪している。
+
+      彼の代名詞でもある『右腕』は紀人にも届き得る。'
+    paragraph: p222-p223
+    quote_verified: true
+  - quote: 「クロウサーの奴隷、ラクルラールの奴隷、トライデントの奴隷。そんなものに甘んじる俺ではない。ならば『俺』を固定化する中和剤が必要だ――なるほど、それが氷血呪というわけか」
+    paragraph: p262
+    quote_verified: true
+  expected_payoff: パーンが「自由（フェロニア）」を勝ち取るための鍵として、この右腕と義肢の技術的特異点が重要な役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_wordquake_mechanism
+  note: 第四のラクルラールは「言震（ワードクェイク）」が「最後の救世主」を誕生させるための呼び水であると述べている。ガロアンディアンの崩壊と再生のプロセスにおいて、言語の破壊（言震）がどう機能し、誰が救世主となるのかというメカニズムが伏線として仕込まれている。
+  quotes:
+  - quote: 「終末。末世。致命的な破局――すなわち言震（ワードクェイク）。それこそが、『最後の救世主』を誕生させるための呼び水だ。わかっていような、塔の人形姫よ。諦めと絶望こそがお前が操るべき人形なのだ」
+    paragraph: p197
+    quote_verified: true
+  expected_payoff: ガロアンディアン世界の崩壊イベント（言震）が発生し、それに伴う救世主の出現が物語のクライマックスへと直結する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と記号による現実支配・世界構築
+  weight: 0.9
+  quotes:
+  - quote: 「不変なる言語」――唯一無二の呪文によって創造される王国の法。僕は、それが見たい。ヴァージル・エリーワァ・イルディアンサの望みはそれだけなんだ
+    paragraph: p61
+    quote_verified: false
+  - quote: 'ラクルラールは実験室でマウスを眺める研究者のようにそれらを眺める。
+
+      「サイバーカラテ、集合知の幻想、叡智の妖精、混沌の申し子。毒と薬は違う角度から見た別の顔に過ぎん。敵を駆逐する武力は容易く暴力に――虐殺に堕するということを、そろそろあれらも正しく理解できただろうか」'
+    paragraph: p182-p184
+    quote_verified: true
+  note: ヴァージルの「絶対言語」、アルトの「言葉の力」、ラクルラールの「文法としての虐殺」といった要素が、世界を構成・支配する根本的な力が物理的暴力ではなく言語/記号体系にあることを示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 秩序と混沌の対立、およびそれらを生み出す構造への隷属
+  weight: 0.8
+  quotes:
+  - quote: '世界にふさわしいのは秩序と完全なる統合だ
+
+      ...（アルト側）
+
+      「健康（インテグリティ）」などという幻想が、現代で通用すると思うな
+
+      ...（アキラ/トライデント側）'
+    paragraph: p38-p76
+    quote_verified: false
+  - quote: '彼は無意識のうちにトライデントという総体に奉仕している。
+
+      パーンはパーンのまま、存在を許容されながら飲み込まれつつあるのだ。'
+    paragraph: p256-p257
+    quote_verified: true
+  note: アルトの秩序主義とアキラ側の混沌受容（あるいは脱構築）が対立軸となっているが、最終的にはパーンですら「トライデント」という大きな構造に奉仕・吸収されることが示唆され、個々のイデオロギー対立は上位のシステムへの従属として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己定義の不安定性と名前/物語によるアイデンティティの脆弱さ
+  weight: 0.7
+  quotes:
+  - quote: 'しかし、その中から『　』の名前だけが欠落している。
+
+      そして、何度見てもこう思ってしまう。
+
+      『これは誰だ？』と。'
+    paragraph: p133-p135
+    quote_verified: true
+  - quote: '我が名はパーン。『全て』である者。下らん端役が、俺の覇道を妨げるな
+
+      ...（中略）
+
+      と常識的な解釈をしている。神話における万物の祖パンゲオンに由来する名前は彼の生きていた時代にはそれこそ五人に一人という割合で存在していた。
+
+      そしてその意味もおおよそ『全て』ということになっているので、特に問題は発生していない。来歴が消え、結果だけが同じものとして残っていた。'
+    paragraph: p242-p249
+    quote_verified: false
+  note: 隻眼の男の名前喪失と、パーンの名前が「普遍的な祖」由来であり個体差を失うという描写は、名前や物語（設定）がアイデンティティを支える基盤であることを示しつつ、それがいかに容易に消失・置換されうるかを主題化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

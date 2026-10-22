@@ -1,0 +1,146 @@
+chapter: ch5420
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 10
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_始まりのラクルラールの所在
+  note: イツノが暴露した「始まりのラクルラール」がトリシューラ陣営内側にいるという事実。その正体（フィド・シュガ・ハジュラフィン）と、コルセスカが既に知っていたことの意味。
+  quotes:
+  - quote: 「『始まりのラクルラール』は既にトリシューラ陣営の内側にいる」
+    paragraph: p193
+    quote_verified: true
+  - quote: 「――ええ。知ってますよ」
+    paragraph: p195
+    quote_verified: true
+  expected_payoff: この存在の暗殺計画が、トリシューラ陣営内部の裏切りや対立を招き、最終決戦への布石となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_夢界でのライブ対決
+  note: コルセスカが「夢界」へ渡り、リールエルバとの「ライブ対決」を行うという作戦。アイドルとしての能力が戦闘にどう作用するか。
+  quotes:
+  - quote: 「『夢界』は芸術やパフォーマンスなど、表現者たちに人気がある世界だと聞いています。つまり、それに乗って夢に向かうのはアイドル衣装を着た私、と言うことでいいのですね？」
+    paragraph: p254
+    quote_verified: true
+  - quote: 「リールエルバ＝カーティスは恐らく夢に対する防御手段を持っていないから、懐に潜り込みさえすれば直接ライブ対決に持ち込めると思う。」
+    paragraph: p256
+    quote_verified: false
+  expected_payoff: 次章以降でコルセスカが夢界へ侵入し、リールエルバとの精神的・芸術的な決着をつける展開へ繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_紀命点によるシナモリアキラの解放
+  note: カーインが提唱した「紀命点」を突くことでシナモリアキラの穢れ（吸血鬼化）を祓い、本来の潜在神話力を活性化させる手法。
+  quotes:
+  - quote: 「そこを突けば穢れを祓えるの？」
+    paragraph: p285
+    quote_verified: true
+  - quote: 「そうだ。曖昧に広がった神話的存在を時空を超えて貫く『紀』という運命線。これを刺激することで彼本来の潜在神話力を一時的に活性化させる。」
+    paragraph: p289
+    quote_verified: false
+  expected_payoff: シナモリアキラが一時的にリールエルバの支配から離れ、トリシューラ陣営側として戦闘に参加する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_魔竜レーレンタークへの対抗手段
+  note: トリシューラが「魔竜は私に任せて欲しい」と宣言し、完全な顕現ではない状態での弱点を見つけていると主張する。
+  quotes:
+  - quote: 「魔竜は私に任せて欲しい。あれは私に対する挑戦。完全な顕現ではない今の状態なら、付け入る隙は必ずある」
+    paragraph: p302
+    quote_verified: true
+  expected_payoff: トリシューラが機械の魔女としての技術（あるいは『朱の天主』からの技術供与）を用いて魔竜を撃破する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_交換可能性と関係性の真実
+  note: トリシューラとコルセスカが「唯一無二ではないこと」が希望であると結論づける会話。リールエルバの瞳が灰色である理由との関連。
+  quotes:
+  - quote: 「私たちとの『関係性（きずな）』すらも交換可能であること。それは希望なんだよ」
+    paragraph: p319
+    quote_verified: false
+  - quote: 「だから、あの女王の瞳は灰色なんだろうね」
+    paragraph: p337
+    quote_verified: true
+  expected_payoff: リールエルバが「唯一無二の理想郷（死人の森）」の虚しさに気づき、支配を解く鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 交換可能性と唯一無二性の弁証法
+  weight: 0.9
+  quotes:
+  - quote: 「私たちとの『関係性（きずな）』すらも交換可能であること。それは希望なんだよ」
+    paragraph: p319
+    quote_verified: false
+  - quote: 「『死人の森』は失う事の無い世界。代替可能性を必要としない唯一無二だけの優しい理想郷。けれど、それは儚いはずの価値が色褪せることを意味します」
+    paragraph: p335
+    quote_verified: true
+  note: リールエルバが追求する「唯一無二（交換不可能）」な支配は、結果として価値を色褪せさせ（灰色）、トリシューラらが受け入れる「交換可能性」こそが希望（生）であるという主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 舞台と人生のメタファー（レヴェランス）
+  weight: 0.7
+  quotes:
+  - quote: レヴェランス。すなわち、上演後に行う丁寧なお辞儀。
+    paragraph: p2
+    quote_verified: true
+  - quote: アルマが纏うのは古めかしい甲冑にサンダル、白い飾り翼という仰々しい、あまりにも演劇的な舞台衣装だ。
+    paragraph: p133
+    quote_verified: true
+  note: 戦闘や人間関係を「上演」「舞台」「ライブ」として捉える視座。登場人物たちが自らの運命を演劇的に演出し、観客（読者/世界）に対して礼儀（レヴェランス）を示す構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的消費と生の実存の融合
+  weight: 0.6
+  quotes:
+  - quote: 「今コアちゃんがアクティヴでプレイしてるゲームのアイテム課金分はだいたい含めてあるけど、食費との配分は考えてガチャガチャするんだよ？」
+    paragraph: p143
+    quote_verified: false
+  - quote: 「いいえ。これはゲームです。トロフィーは勝ち取るものでしょう？」
+    paragraph: p313
+    quote_verified: true
+  note: シリアスな戦場と生活費のやり取り、ガチャ、カードゲーム用語が同居し、「世界そのものがゲームである」というメタ視点（シナモリアキラ＝トロフィー）を強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による支配と解放の試み
+  weight: 0.5
+  quotes:
+  - quote: 「夢に意識をダイブさせる乗り物だよ。汚染された『悪夢』の領域でも安全に、かつ高速で移動できる優れもの。」
+    paragraph: p232
+    quote_verified: false
+  - quote: '「そこを突けば穢れを祓えるの？」
+
+      【p285】
+
+      「そうだ。曖昧に広がった神話的存在を時空を超えて貫く『紀』という運命線。」'
+    paragraph: p285-p289
+    quote_verified: false
+  note: リールエルバの魔法的支配に対し、トリシューラの機械技術（スリッパ）やカーインの武術・医学（紀命点）といった「技術」が介入し、呪い（運命）を操作しようとする構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

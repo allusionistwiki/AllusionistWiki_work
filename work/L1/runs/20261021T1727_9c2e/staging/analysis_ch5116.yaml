@@ -1,0 +1,242 @@
+chapter: ch5116
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p19]]'
+  object: '[[ME_android_trope]]'
+  claim: 主人公の義肢が、中身のない空虚さを補うための外装追加による無限強化を行う構造は、Androidにおけるソフトウェア更新やハードウェア拡張のメタファーである。
+  quote: 【アンドロイドの魔女】の名を冠したこの強化義肢は、外装を追加していくことによって無限に自己を強化していく特性を持つ。力が足りなければ外側に付け加えればいい。どうせ中身のない俺のこと、秘められたポテンシャルとか積み重ねた研鑚とかを当てにしても仕方がない。
+  paragraph: p19
+  confidence: strong
+  quotes:
+  - quote: 【アンドロイドの魔女】の名を冠したこの強化義肢は、外装を追加していくことによって無限に自己を強化していく特性を持つ。力が足りなければ外側に付け加えればいい。どうせ中身のない俺のこと、秘められたポテンシャルとか積み重ねた研鑚とかを当てにしても仕方がない。
+    paragraph: p19
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p70]]'
+  object: '[[ME_genetic_algorithm]]'
+  claim: 敵の体内で発生する拷問パターンの最適化は、論理演算と適者生存による進化的アルゴリズム（遺伝的アルゴリズム）の計算過程そのものである。
+  quote: 自己複製と単純な条件分岐による適応。予め定められた論理回路（プラン）の指示に従って、論理積、論理和、否定などの単純な演算を繰り返していく。それは苦痛の大小比較だった。A且つBである場合。AまたはBである場合。Aでない場合。特定の痛みを与えた時、その苦痛の度合いが1以上である場合その苦痛のパターンを継続し、そうでないならば他のパターンに変化する。
+  paragraph: p70
+  confidence: strong
+  quotes:
+  - quote: 自己複製と単純な条件分岐による適応。予め定められた論理回路（プラン）の指示に従って、論理積、論理和、否定などの単純な演算を繰り返していく。それは苦痛の大小比較だった。A且つBである場合。AまたはBである場合。Aでない場合。特定の痛みを与えた時、その苦痛の度合いが1以上である場合その苦痛のパターンを継続し、そうでないならば他のパターンに変化する。
+    paragraph: p70
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p49]]'
+  object: '[[ME_norse_mythology_triu_sla]]'
+  claim: コルセスカという存在は、北欧神話の武器トリスケラ（Triscele）と魔女を融合させた「擬人化された兵器」という概念の具現化である。
+  quote: コルセスカの本質は、神話の中の魔女であり、また伝説の武器でもある。矛盾せず同居する曖昧な存在。魔女にして武器である、擬人化の魔女。
+  paragraph: p49
+  confidence: explicit
+  quotes:
+  - quote: コルセスカの本質は、神話の中の魔女であり、また伝説の武器でもある。矛盾せず同居する曖昧な存在。魔女にして武器である、擬人化の魔女。
+    paragraph: p49
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_p122]]'
+  object: '[[ME_suicide_as_torture]]'
+  claim: 自殺を「外部からの強制による脳誤作動」と定義し、呪術的なクラッキング（hack）として位置付けることで、自己決定権の倫理概念を解体している。
+  quote: 自殺とは、己の意思によって望むものではない。外部からストレスを加え、自ずから死を選択させる。そのような脳の誤作動を強制的に引き起こす、人間の脆弱性を的確に突いた拷問。原始の時代から存在する呪術的クラッキング。
+  paragraph: p122
+  confidence: strong
+  quotes:
+  - quote: 自殺とは、己の意思によって望むものではない。外部からストレスを加え、自ずから死を選択させる。そのような脳の誤作動を強制的に引き起こす、人間の脆弱性を的確に突いた拷問。原始の時代から存在する呪術的クラッキング。
+    paragraph: p122
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p117]]'
+  object: '[[ME_infinite_loop_bug]]'
+  claim: 「自殺の黒槍」による無限ループは、参照とコピーのプロセスにおける論理矛盾（AがA'と同一になることで正常終了しない）を、プログラミングの無限ループバグとして描いている。
+  quote: 上書き処理の前に標的に傷が生まれているという異常。上書き処理を遅延させたままパラドキシカルトリアージによって負傷が修復され、それによって神滅具が正常に作動し、頭部に貫通創を上書きする。その傷を参照して、オリジナルとコピーが完全に同一である為に神滅具の処理は正常に終了できない。AとA'という結果を生み出すことがその役目であるのに、参照先は両方ともA'とA'だ。再びの修復と上書きを繰り返すが、何度やってもコピーをペーストしてそれをコピーして――その繰り返し。終わらない無限ループ。
+  paragraph: p117
+  confidence: strong
+  quotes:
+  - quote: 上書き処理の前に標的に傷が生まれているという異常。上書き処理を遅延させたままパラドキシカルトリアージによって負傷が修復され、それによって神滅具が正常に作動し、頭部に貫通創を上書きする。その傷を参照して、オリジナルとコピーが完全に同一である為に神滅具の処理は正常に終了できない。AとA'という結果を生み出すことがその役目であるのに、参照先は両方ともA'とA'だ。再びの修復と上書きを繰り返すが、何度やってもコピーをペーストしてそれをコピーして――その繰り返し。終わらない無限ループ。
+    paragraph: p117
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p21]]'
+  object: '[[ME_utilitarianism]]'
+  claim: 「勝てるなら魔女でも使う」という台詞は、手段の正当性を目的（勝利）のみで判断する功利主義的な思想を象徴している。
+  quote: 勝てるなら魔女でも使う。つまり、俺の力など必要ない。勝つのはトリシューラだ。
+  paragraph: p21
+  confidence: moderate
+  quotes:
+  - quote: 勝てるなら魔女でも使う。つまり、俺の力など必要ない。勝つのはトリシューラだ。
+    paragraph: p21
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p94]]'
+  object: '[[ME_sanctity_of_death]]'
+  claim: 死を「交換不可能な聖なるもの」から「ありふれた生への交換」として貶めることで、喪失の価値と回復能力のコスト構造を逆転させている。
+  quote: お前にとって死は聖なるもの。だから鮮血呪で変換できたんだ。ありふれた生に。自分一人だけが生き残ってしまったという、卑俗でくだらない生にな。わかっているのか？　お前がその力を使う度、自ら尊いはずの死の価値を貶めているということに！　失われた五人の死を、ありふれたものにしてしまっていることに！
+  paragraph: p94
+  confidence: strong
+  quotes:
+  - quote: お前にとって死は聖なるもの。だから鮮血呪で変換できたんだ。ありふれた生に。自分一人だけが生き残ってしまったという、卑俗でくだらない生にな。わかっているのか？　お前がその力を使う度、自ら尊いはずの死の価値を貶めているということに！　失われた五人の死を、ありふれたものにしてしまっていることに！
+    paragraph: p94
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_5_companions_identity
+  note: キロンが守ろうとした「小さな五つの光」「若者達」の正体。彼の動機付けの核だが、具体的な名前や関係性が明示されていない。
+  quotes:
+  - quote: その心の中にあったのは小さな五つの光だ。美しく、前途ある若者達。その煌めきを守りたいと思った。
+    paragraph: p82
+    quote_verified: true
+  expected_payoff: キロンの背景物語の提示、または彼が失った「聖性」の具体的な証拠として後日談で言及される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_enchanter_mexeto_philosophy
+  note: 覇王メクセトが呪具に課した「理不尽なまでの応報性と相応以上の反作用」という哲学。他の神滅具にも同様の悪意ある仕様が存在する伏線。
+  quotes:
+  - quote: 『呪具には理不尽なまでの応報性と相応以上の反作用、どちらかあるいは両方が必要である』というのが呪具製作者（エンチャンター）としての覇王メクセトの哲学であったというが、ただの悪趣味であることに疑いの余地はない。
+    paragraph: p113
+    quote_verified: true
+  expected_payoff: 他のウィッチオーダーの兵装や神滅具使用時に、同様の自己犠牲・悪意ある副作用が発動するトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_corsesca_mirror_source
+  note: コルセスカが「腕内部の鏡面空間」から現れるという構造。義肢内の鏡が、異世界（No.71改めNo.6など）への接続口である可能性。
+  quotes:
+  - quote: 腕内部の鏡面空間から現れたコルセスカの本体。
+    paragraph: p46
+    quote_verified: true
+  expected_payoff: 義肢が単なる武器庫ではなく、並行世界や記憶の貯蔵庫として機能していることの示唆。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kiron_paradoxical_triage_limit
+  note: キロンの「パラドキシカルトリアージ」が痛覚や軽傷を無効化できないという弱点の根源。なぜ不死性を持つ者が「痛覚」を保持するのか。
+  quotes:
+  - quote: 単純な物理攻撃は無意味だ。だが俺はあえてその単純な物理攻撃を選択する。キロンは軽傷や打撲を無効化できない。そしてもう一つ、おそらくはあえて無効化していないものがある。痛覚だ。
+    paragraph: p28-p30
+    quote_verified: true
+  expected_payoff: キロンの不死性が「記憶」や「精神」に依存していることの証明、または彼の能力の代償（コスト）の詳細な開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_witch_order_seat_71
+  note: コルセスカが「空席となったウィッチオーダーの七十一番目の座」に新しく加わった最強の兵装であるという記述。この座の意味と秩序。
+  quotes:
+  - quote: 空席となったウィッチオーダーの七十一番目の座に新しく加わった最強の兵装、【氷血のコルセスカ】がその封印を解き放つ。
+    paragraph: p45
+    quote_verified: true
+  expected_payoff: ウィッチオーダーの構造（No.1〜72など）の全体像、および主人公がそれらをどう管理・運用しているかの明文化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 不死性とは苦痛の永続化であり、死は慈悲（介錯）によってのみ実現される救済である。
+  weight: 0.9
+  quotes:
+  - quote: だが死ねない。己に課した呪術が自動で肉体を修復し、死にたくとも死ねないという最悪の時間を強引に引き延ばし続けている。
+    paragraph: p106
+    quote_verified: true
+  - quote: 「『介錯』だ、キロン」切腹――強いられた自死の苦痛を終わらせるための、止めの一撃。
+    paragraph: p127-p129
+    quote_verified: true
+  note: 主人公が敵に施した行為は殺害ではなく「介錯」と呼ばれており、不死者が直面する倫理的・存在論的苦悩と、死を与える行為の正当化（安楽死）が主題となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶と喪失の価値は、回復能力によって貶められることで初めて精神を破壊する武器となる。
+  weight: 0.8
+  quotes:
+  - quote: 一回性の、取り返しのつかない死。どうしようもない仲間達の死、尊い喪失があるからこそお前は何度でも立ち上がれる――にも関わらず、お前は自らその死を貶めた
+    paragraph: p90
+    quote_verified: true
+  - quote: 讃えられるべき善性が、廉施者キロンを殺す。
+    paragraph: p102
+    quote_verified: true
+  note: 敵の強み（不死性・回復）が、同時に彼らの道徳的基盤（死者への敬意）を侵食しており、その自己矛盾を突くことで精神が決壊する構造。善性が弱点になる逆説。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人間性とは中身のない器に外装（技術・兵器）を追加することで補完される擬似的な存在である。
+  weight: 0.6
+  quotes:
+  - quote: どうせ中身のない俺のこと、秘められたポテンシャルとか積み重ねた研鑚とかを当てにしても仕方がない。
+    paragraph: p19
+    quote_verified: true
+  - quote: コルセスカの本質は、神話の中の魔女であり、また伝説の武器でもある。矛盾せず同居する曖昧な存在。魔女にして武器である、擬人化の魔女。
+    paragraph: p49
+    quote_verified: true
+  note: 主人公の自己認識（中身がない）と、敵を倒すための兵器（魔女・コルセスカ）の融合が、「人間とは何か」「武器とは何か」の境界を曖昧にしている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 拷問はアルゴリズムであり、進化計算とゲーム理論による効率的な苦痛の生成プロセスである。
+  weight: 0.5
+  quotes:
+  - quote: 適者生存の進化的アルゴリズム。機械的に最も優れた戦略を求め、淘汰を重ね、ついには学習を重ねることによってゲーム理論的な協調を始める。
+    paragraph: p72
+    quote_verified: true
+  - quote: 極小の世界で、拷問官の生態系が構築されていった。それは文明などという高尚なものではない。苦痛を与えるためだけに生み出された機械細胞群が、より効率的に苦痛を与えるための次世代を作り出し、それを幾代も重ねていくのである。
+    paragraph: p76
+    quote_verified: true
+  note: 肉体の破壊・苦痛を生物学的・計算科学的なメタファー（進化、アルゴリズム、生態系）で記述しており、暴力の脱人間的・機械的な側面が強調されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

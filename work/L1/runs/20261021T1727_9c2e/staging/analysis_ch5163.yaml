@@ -1,0 +1,195 @@
+chapter: ch5163
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 4
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 16
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{black_lily_palace_setting}]]'
+  object: '[[ME_{modern_gacha_game_lobby}]]'
+  claim: 黒百合宮の非対称な時空と天体望遠鏡は、現代のスマホゲームにおける『イベントステージ』や『ガチャ演出』のメタファーであり、現実の物理法則を無視した『ゲーム内空間』として機能している。
+  quote: 日の出は夕焼けのように訪れ、四つの月は青空にかかる雲間から顔を覗かせる。月と星は青空で輝き太陽は夜空で燃えるのだ。
+  paragraph: p6
+  confidence: moderate
+  quotes:
+  - quote: 日の出は夕焼けのように訪れ、四つの月は青空にかかる雲間から顔を覗かせる。月と星は青空で輝き太陽は夜空で燃えるのだ。
+    paragraph: p6
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{marie_reading_borges}]]'
+  object: '[[ME_{jorge_luis_borges_fictions}]]'
+  claim: マリーが読んでいるボルヘスの『伝奇集』と『幻獣辞典』は、本作のメタ構造（無限・迷宮・虚構）を象徴しており、彼女が「物語の住人」であることを暗示する。
+  quote: 表紙を見ると、見知らぬ文字がそれ自体が有する呪力によって歪みながら変容していく。ホルヘ・ルイス・ボルヘスの『伝奇集』。卓上にはもう一つ本が置いてあって、こちらは同著者の『幻獣辞典』だった。
+  paragraph: p48
+  confidence: explicit
+  quotes:
+  - quote: 表紙を見ると、見知らぬ文字がそれ自体が有する呪力によって歪みながら変容していく。ホルヘ・ルイス・ボルヘスの『伝奇集』。卓上にはもう一つ本が置いてあって、こちらは同著者の『幻獣辞典』だった。
+    paragraph: p48
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{virgilias_communication_label}]]'
+  object: '[[ME_{social_media_bio_tags}]]'
+  claim: ヴァージリアが公的な個人情報を「ラベル」として貼り付ける行為は、SNSのプロフィール欄やタグ付け文化のパロディであり、対面コミュニケーションを拒否する現代人の防衛機制を描く。
+  quote: 自己紹介などしたくない。それゆえに公的な個人情報をラベルとして自分に貼り付けているのだが、ヴァージリアに話しかけてくるような大半の人物はそれを認識していながらもあえて肉声で話しかけてくるのだ。
+  paragraph: p37
+  confidence: strong
+  quotes:
+  - quote: 自己紹介などしたくない。それゆえに公的な個人情報をラベルとして自分に貼り付けているのだが、ヴァージリアに話しかけてくるような大半の人物はそれを認識していながらもあえて肉声で話しかけてくるのだ。
+    paragraph: p37
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_{marie_aphasia_colorblindness}]]'
+  object: '[[ME_{synesthesia_and_agnosia}]]'
+  claim: マリーの失声症と全色盲（色無し）は、言語と視覚という知覚の断絶を示し、彼女が「概念」のみで世界を処理するAIのような存在であることの比喩である。
+  quote: 声だけでなく、色もわからないというマリーは、世界をどのように捉えているのだろうか。...マリーは欠落を抱えている。色とは何かを充分に学んでいるが、色というものがわからない。
+  paragraph: p135-p137
+  confidence: strong
+  quotes:
+  - quote: 声だけでなく、色もわからないというマリーは、世界をどのように捉えているのだろうか。...マリーは欠落を抱えている。色とは何かを充分に学んでいるが、色というものがわからない。
+    paragraph: p135-p137
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_{marie_sweetness_attack}]]'
+  object: '[[ME_{gaming_cheat_code_exploit}]]'
+  claim: マリーの「甘さ」への接触による即死級カウンター攻撃は、ゲームにおけるチートプレイ（バグ利用）に対する厳格なペナルティ（アグリー・バン）のメタファーである。
+  quote: あまりに美味しいのでもう一度。ぺろぺろと舌を出して顔中を舐め回す。...痺れるような衝撃。顎先から脳天までを突き抜ける打撃。舌から血が溢れて、激痛にヴァージリアは悶絶した。
+  paragraph: p68-p69
+  confidence: moderate
+  quotes:
+  - quote: あまりに美味しいのでもう一度。ぺろぺろと舌を出して顔中を舐め回す。...痺れるような衝撃。顎先から脳天までを突き抜ける打撃。舌から血が溢れて、激痛にヴァージリアは悶絶した。
+    paragraph: p68-p69
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_marie_origin_void
+  note: マリーの正体が「闇そのもの」であり、夜の民としての実体がない状態。彼女の出自や能力の根源に関する伏線。
+  quotes:
+  - quote: ヴァージリアの方は、覗き込んだ黒衣の内側が、全くの闇そのものであったことに対して驚いたのである。
+    paragraph: p62
+    quote_verified: true
+  expected_payoff: マリーが「英雄」になるための真の力（虚無・概念操作）の覚醒シーンで回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_marie_language_mastery
+  note: マリーは「言語の拡張を司る」存在でありながら、自らが言葉（声・意味）を理解していないという矛盾。
+  quotes:
+  - quote: 誰よりも優れた呪文使い――言語の拡張を司るものが、自らが何を手にしているのかわからないと言う。
+    paragraph: p141
+    quote_verified: true
+  expected_payoff: ヴァージリアがマリーに「言葉」を教えることで、世界改変レベルの魔法体系が確立される過程で回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_colorless_marie_prophecy
+  note: マリーが「色無し」と呼ばれ、デーモンの区別ができないため無敵であるという事実。
+  quotes:
+  - quote: 色無しマリー。マリー・スーがそう呼ばれていることを、ヴァージリアはその時になってはじめて知ることになる。
+    paragraph: p132-p133
+    quote_verified: true
+  expected_payoff: 彩石の儀での最終決戦において、この特性が「英雄」認定のための条件として利用される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_lost_promise_future
+  note: p152で言及される「失われた約束」とは何か。過去改変や時間ループの伏線。
+  quotes:
+  - quote: いずれ言語魔術師となる幼き月の姫君と、いずれ英雄となる色のない小鳥の、失われた約束。
+    paragraph: p152
+    quote_verified: true
+  expected_payoff: 物語終盤で、この「約束」が世界を救うための鍵（または悲劇の元凶）として明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 欠落を通じた相互補完と共依存関係の形成
+  weight: 0.8
+  quotes:
+  - quote: 互いの欠落を埋めるように。
+    paragraph: p105
+    quote_verified: true
+  - quote: 原因は違えど結果は一緒。その日から、二人は声ではなく文字で言葉を伝え合うようになった。
+    paragraph: p100
+    quote_verified: true
+  note: ヴァージリアの聴覚障害とマリーの失声症・全色盲が、互いの欠点を埋め合わせることで強い絆（姉妹/主従）を形成する過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションにおける「物語の自覚」と引喩の重層性
+  weight: 0.7
+  quotes:
+  - quote: それがはじまり。過去から未来へと続いていく物語の、最初の一文。
+    paragraph: p148
+    quote_verified: true
+  - quote: 追憶の彼方に消えた、遠く色褪せた泡沫の日々。
+    paragraph: p153
+    quote_verified: true
+  note: ボルヘス文献の引用と、「物語の最初の一文」というメタ的な記述により、作品全体が虚構であることを強調する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 優越感の喪失と再生、そして「毒」のような親密さ
+  weight: 0.6
+  quotes:
+  - quote: 抱きしめる感触は甘美だった。...手放すなど、もう考えられない。
+    paragraph: p119
+    quote_verified: false
+  - quote: この関係性は、己の優越感を保つ為のものなのだろうか。だとしたら、これは毒だ。
+    paragraph: p117-p118
+    quote_verified: true
+  note: ライバルであるマリーへの劣等感から始まり、彼女を支配（甘えさせる）することで自尊心を満たすという歪んだ心理構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と知覚の断絶による存在論的危機
+  weight: 0.5
+  quotes:
+  - quote: だってそうだろう。そんなのは余りにも悲劇的過ぎて、喜劇にすらなっていない。
+    paragraph: p143
+    quote_verified: true
+  note: 言葉を使えるのに「声」を知らないマリーという存在の不可解さを通じ、言語が現実を規定する力を持つ世界観における矛盾を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

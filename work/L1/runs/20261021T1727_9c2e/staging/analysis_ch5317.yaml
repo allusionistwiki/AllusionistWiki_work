@@ -1,0 +1,236 @@
+chapter: ch5317
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_42]]'
+  object: '[[ME_Sumou_Tachiai]]'
+  claim: 力士ゾーイの四股名「沼乃花」と行司による呼び上げは、大相撲における力士名の読み上げと立合い前の儀式を模倣している。
+  quote: 「ひーがーしー、沼ー乃ー花ー、沼ー乃ー花ー」
+  paragraph: p42
+  confidence: explicit
+  quotes:
+  - quote: 「ひーがーしー、沼ー乃ー花ー、沼ー乃ー花ー」
+    paragraph: p42
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_121]]'
+  object: '[[ME_Borges_History_of_Imaginary_Beings]]'
+  claim: ゾーイの最終形態「ゴッツアンデルス」は、ボルヘスの『幻獣辞典』に登場する変幻自在な神バルトアンデルスを起源とする異神概念を指している。
+  quote: 樹状積層都市ヴェストドイチュラントに伝わる幻獣バルトアンデルスから引用されたものだ。ホルヘ・ルイス・ボルヘスの著書『幻獣辞典』において紹介されたバルトアンデルスは、様々に姿を変える神を起源としているのだという。
+  paragraph: p121-p123
+  confidence: explicit
+  quotes:
+  - quote: 樹状積層都市ヴェストドイチュラントに伝わる幻獣バルトアンデルスから引用されたものだ。ホルヘ・ルイス・ボルヘスの著書『幻獣辞典』において紹介されたバルトアンデルスは、様々に姿を変える神を起源としているのだという。
+    paragraph: p121-p123
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_157]]'
+  object: '[[ME_Mobile_Game_Event_Incentives]]'
+  claim: ちびシューラによる観客参加の呼びかけと特典ポイント、賞の付与は、スマホゲームにおけるリアルタイムイベントやコラボキャンペーンのインセンティブ設計に似ている。
+  quote: 成果に応じて特典ポイントが付くし、有効打アイデア入れた人とアシストした人には更にボーナスだからね！ 更に参加するだけで『文化多様性の確保に貢献したで賞』をプレゼント！
+  paragraph: p157
+  confidence: strong
+  quotes:
+  - quote: 成果に応じて特典ポイントが付くし、有効打アイデア入れた人とアシストした人には更にボーナスだからね！ 更に参加するだけで『文化多様性の確保に貢献したで賞』をプレゼント！
+    paragraph: p157
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_271]]'
+  object: '[[ME_High_Speed_TAS_Gaming]]'
+  claim: コルセスカによる思考の加速と、フェムト秒単位の判断・入力操作は、格闘ゲームにおける超高速フレームでの入出力を管理するツールアシステッド・スピードラン（TAS）的な処理構造を示唆している。
+  quote: 幻のゲームパッドを持ったコルセスカだ。俺の意識に憑依した冬の魔女の魂が、思考時間を高速化させていった。... 刹那（アト）の速度域。停止した時の中で指がボタンを叩く。
+  paragraph: p271-p289
+  confidence: moderate
+  quotes:
+  - quote: 幻のゲームパッドを持ったコルセスカだ。俺の意識に憑依した冬の魔女の魂が、思考時間を高速化させていった。... 刹那（アト）の速度域。停止した時の中で指がボタンを叩く。
+    paragraph: p271-p289
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_64]]'
+  object: '[[ME_Super_Robot_Transformation]]'
+  claim: ゾーイが無人機や車両を統合して巨大ロボット（強化外骨格）へと変形する様子は、スーパーロボット物の合体・変形ギミックを模倣している。
+  quote: 次元の壁を突き破ってまず現れたのは巨大な軌道船（オービタ）。... 更にはグラッフィアカーネを引き摺ってリニアモーターカーが土俵の中に侵入してくる。
+  paragraph: p67
+  confidence: strong
+  quotes:
+  - quote: 次元の壁を突き破ってまず現れたのは巨大な軌道船（オービタ）。... 更にはグラッフィアカーネを引き摺ってリニアモーターカーが土俵の中に侵入してくる。
+    paragraph: p67
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_301]]'
+  object: '[[ME_Pro_Wrestling_Masked_Wrestler]]'
+  claim: ゾーイの敗北時の台詞「千の顔（マスク）を持つ英雄（ベビーフェイス）」は、プロレスにおける覆面レスラー（マスクマン）やヒール/フェースの転換に関する用語を引用している。
+  quote: 「千の顔（マスク）を持つ英雄（ベビーフェイス）――なら、私が負けるのは望まれた台本（ブック）だったってことか」
+  paragraph: p301
+  confidence: explicit
+  quotes:
+  - quote: 「千の顔（マスク）を持つ英雄（ベビーフェイス）――なら、私が負けるのは望まれた台本（ブック）だったってことか」
+    paragraph: p301
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_237]]'
+  object: '[[ME_Self_Help_Narrative]]'
+  claim: 主人公が他者の力を借りる「他力本願」を自己の本質として肯定するのは、自立・自力を尊ぶ一般的な転生者やヒーローの物語構造に対する逆説的な肯定である。
+  quote: 外部から取り込んだ力、それは俺自身ではないのと同時に、全てが俺を構成する一部となる。俺には外部しかない。他力本願、それが俺の本質だ。
+  paragraph: p237
+  confidence: strong
+  quotes:
+  - quote: 外部から取り込んだ力、それは俺自身ではないのと同時に、全てが俺を構成する一部となる。俺には外部しかない。他力本願、それが俺の本質だ。
+    paragraph: p237
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Trydent_Holding_Connection
+  note: ゾーイが使用した兵装メーカー「アイゼルネハント社」が「トライデントホールディングス」傘下である点。四魔女の名前（トリス？）との関連や、外世界の組織構造に関する伏線。
+  quotes:
+  - quote: シナモリアキラ君がかつて使用していた右腕と同じアイゼルネハント社製の兵装だったりするんだよね
+    paragraph: p126
+    quote_verified: true
+  - quote: トライデント？ いや、偶然だよなこれ。ありふれている固有名詞だし、こっちの四魔女は前世の三叉槍から名前をとっているって聞いたし。
+    paragraph: p131-p132
+    quote_verified: true
+  expected_payoff: 外世界の企業体（トライデント）と異世界の魔女たちとの因果関係、またはゾーイ側の背景に関する情報開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Zoe_As_Akira_Vessel
+  note: ゾーイがサイバーカラテを導入し「アキラ」をその身に降ろす可能性、および名前一致の利点。
+  quotes:
+  - quote: ゾーイがサイバーカラテの黒帯レベルになれば、アキラくんをその身に直接降ろすことも可能になるでしょう？
+    paragraph: p349
+    quote_verified: true
+  - quote: 「ゾーイはいいね。特にアキラって名前が。もしかしたら、名前が同じっていう利点を生かせるかもしれないし」
+    paragraph: p345
+    quote_verified: true
+  expected_payoff: 未来の章でゾーイがサイバーカラテの使い手となり、主人公の力の一部として再登場する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Grendelhi_As_Arlecchino
+  note: 敗北したグレンデルヒが「アルレッキーノ」としてサイバーカラテ内部に再定義され、主人公の力の一部（顔）となっている状態。
+  quotes:
+  - quote: 汝の名は【アルレッキーノ】！！
+    paragraph: p260
+    quote_verified: true
+  - quote: 俺（グレンデルヒ）、それに俺（グレンデルヒ）まで！ 次々に現れる俺たち（グレンデルヒ）が、鋼鉄の頭部を上書きしていく。
+    paragraph: p247-p248
+    quote_verified: true
+  expected_payoff: グレンデルヒ（アルレッキーノ）との精神的な対話、あるいは彼の権威を利用した新たな能力解放と葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Laculraal_Anomaly
+  note: 解決すべき問題として挙げられている「暗躍するラクルラール」。
+  quotes:
+  - quote: 暗躍するラクルラール、そして死人の森の女王と六人の王。 解決すべき問題は山積みだが、ひとまずはここで勝利を喜んでおくとしよう。
+    paragraph: p364-p365
+    quote_verified: true
+  expected_payoff: 次の章以降でラクルラールに関する具体的な脅威や調査依頼が発生する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者（外側）の力を取り込み、拡張された自己によって勝利する構造
+  weight: 0.9
+  quotes:
+  - quote: 足りないものは外側から持ってくればいいんだよ。
+    paragraph: p140
+    quote_verified: true
+  - quote: 外部から取り込んだ力、それは俺自身ではないのと同時に、全てが俺を構成する一部となる。俺には外部しかない。他力本願、それが俺の本質だ。
+    paragraph: p237
+    quote_verified: true
+  note: 単独の力ではなく、観客（サイバーカラテユーザー）や敵・味方の力を集合知として統合することで巨大な壁を越えるという作品全体の核となる主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 戦闘を「興行」「娯楽」として消費するメタ構造
+  weight: 0.8
+  quotes:
+  - quote: サイバーカラテは、戦いは娯楽だ。それはもはや、興行に近い。
+    paragraph: p36
+    quote_verified: true
+  - quote: 事実、これは興行なのだった。
+    paragraph: p158
+    quote_verified: true
+  note: 生死を賭けた戦いが、ネット配信や観客参加型イベントとして機能しており、物語内世界における「コンテンツ」の消費構造を提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生者としての完全な断絶とこの世界への帰属
+  weight: 0.7
+  quotes:
+  - quote: アキラくんは完全に前世から切り離されて、この世界の――ガロアンディアンの住人になるってこと。もう前世から干渉される謂われは全く無いんだよ。
+    paragraph: p330
+    quote_verified: false
+  note: 異世界転生ものの定番である「元の世界への未練」をトリシューラによって強制的に切断し、物語の舞台を完全に異世界側に固定する決定的な瞬間。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 名前とアイデンティティの流動性（アバター化）
+  weight: 0.6
+  quotes:
+  - quote: 好きな一人称を入れてね）は鋭角の柱となった足で大地を踏みしめる。... これが今の（好きな名前を入れてね）の姿。
+    paragraph: p175
+    quote_verified: false
+  - quote: 汝の名は【アルレッキーノ】！！
+    paragraph: p260
+    quote_verified: true
+  note: 主人公の名前が「アキラ」から「好きな名前」への変換や、敵キャラ名の再定義（グレンデルヒ→アルレッキーノ）が行われ、自己定義がゲーム的なカスタマイズ要素として扱われている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

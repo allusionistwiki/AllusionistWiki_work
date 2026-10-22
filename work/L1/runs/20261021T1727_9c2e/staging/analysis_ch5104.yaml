@@ -1,0 +1,232 @@
+chapter: ch5104
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p17]]'
+  object: '[[ME_ar_app]]'
+  claim: コルセスカがアキラの服の下に入り込み、手足を動かす二人羽織の状態は、AR技術を用いた遠隔操作ロボット（テレイグジスタンス）やゲーム内のアバター操作の比喩である。
+  quote: そして俺の背後に立つと、下から服の中に潜り込んで二人羽織の状態となる。何だこいつ。
+  paragraph: p17
+  confidence: moderate
+  quotes:
+  - quote: そして俺の背後に立つと、下から服の中に潜り込んで二人羽織の状態となる。何だこいつ。
+    paragraph: p17
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p55]]'
+  object: '[[ME_android]]'
+  claim: トリシューラの裸身が「有機物ではありえない」「メタリックな銀と灰色のライン」を持つ描写は、SFにおける人造人間（アンドロイド）や機械仕掛けの人形（ゴーレム）の典型的な外見特性を示している。
+  quote: 露わになったトリシューラの裸身は、濃い黒色を基調とした素体に、複数のメタリックな銀と灰色のラインが入った無機質でありながらもどこか人間的な流線型をしたものだった。
+  paragraph: p55
+  confidence: strong
+  quotes:
+  - quote: 露わになったトリシューラの裸身は、濃い黒色を基調とした素体に、複数のメタリックな銀と灰色のラインが入った無機質でありながらもどこか人間的な流線型をしたものだった。
+    paragraph: p55
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p70]]'
+  object: '[[ME_ar_skin_filter]]'
+  claim: トリシューラが呪術によって体表に映像を浮かび上がらせ肌や皮膚の質感を獲得しているという説明は、現代のSNSフィルターやARゲームにおけるアバターの外見カスタマイズ機能（スキン）に酷似している。
+  quote: 普段は呪術によって体表に立体的な映像を浮かび上がらせ、同時に呪的なテクスチャを貼り付けることで肌や皮膚の色彩、質感を獲得しているらしい。
+  paragraph: p70
+  confidence: strong
+  quotes:
+  - quote: 普段は呪術によって体表に立体的な映像を浮かび上がらせ、同時に呪的なテクスチャを貼り付けることで肌や皮膚の色彩、質感を獲得しているらしい。
+    paragraph: p70
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p94]]'
+  object: '[[ME_game_ui]]'
+  claim: トリシューラがマニュアルを表示し、アキラに「言った通りにしていればそのうち全部終わってる」と指示する行為は、現代のゲームにおけるチュートリアルやオートプレイ機能（UIガイド）のメタファーである。
+  quote: マニュアルを表示するね。やり方はそれ見れば分かるから。だから、私に全部任せるつもりでして？ アキラくんは私の言った通りにしていれば、そのうち全部終わってるから
+  paragraph: p94
+  confidence: moderate
+  quotes:
+  - quote: マニュアルを表示するね。やり方はそれ見れば分かるから。だから、私に全部任せるつもりでして？ アキラくんは私の言った通りにしていれば、そのうち全部終わってるから
+    paragraph: p94
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p102]]'
+  object: '[[ME_gender_segregation_debate]]'
+  claim: トリシューラの「性別ごと社会を分断しないとまともな人間関係が構築できない」という主張は、現代のジェンダーレス化議論における「恋愛感情の混入による業務効率低下」や「セクハラ対策」の論理を逆転させた極端な表現である。
+  quote: 男女の間に必ず恋愛を持ち込んでいたら、性別ごと社会を分断しないとまともな人間関係が構築できないと思わない？ 貴方がそういう含みを私たちの関係に持ち込む度、いちいち純粋に目的に向かうための軌道修正をしなくちゃならないんだよ。
+  paragraph: p102
+  confidence: strong
+  quotes:
+  - quote: 男女の間に必ず恋愛を持ち込んでいたら、性別ごと社会を分断しないとまともな人間関係が構築できないと思わない？ 貴方がそういう含みを私たちの関係に持ち込む度、いちいち純粋に目的に向かうための軌道修正をしなくちゃならないんだよ。
+    paragraph: p102
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p159]]'
+  object: '[[ME_multiplayer_game_party]]'
+  claim: コルセスカとトリシューラがアキラにそれぞれ右手・左手を与えるという行為は、MMOゲームにおけるパーティメンバー同士のバフ付与や、装備の共有（ギアシェア）を象徴している。
+  quote: '「私が右手を」
+
+    そして正面から、無機質な気配が獣のような瞳を向ける。
+
+    「私は左手を」'
+  paragraph: p159
+  confidence: moderate
+  quotes:
+  - quote: '「私が右手を」
+
+      そして正面から、無機質な気配が獣のような瞳を向ける。
+
+      「私は左手を」'
+    paragraph: p159
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_core_secret_10th
+  note: トリシューラが「最後の一つは秘密」と言った、身体にあるはずの10番目のコア（心臓？）の正体。
+  quotes:
+  - quote: 私のコアは全部で九つあるの。全身に分散していて、脳に二つ、あとは脊髄、心臓、両手と両足にそれぞれ一つずつ
+    paragraph: p113
+    quote_verified: true
+  - quote: ひとつ足りないような気が
+    paragraph: p115
+    quote_verified: true
+  - quote: 最後の一つは秘密。一回身体を許したくらいで、何でもかんでも教えるとは思わないことだね
+    paragraph: p117
+    quote_verified: true
+  expected_payoff: トリシューラの真の弱点、あるいはキロンとの関係性を示す核（心臓部）が後で明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_gurimino_witch_meaning
+  note: アキラが理解した「きぐるみの魔女」の本当の意味とは何か。トリシューラの内部構造（機械）と関連している。
+  quotes:
+  - quote: そして俺は理解した。トリシューラの異称、【きぐるみの魔女】の本当の意味を。
+    paragraph: p124
+    quote_verified: true
+  expected_payoff: 「中身が空っぽ（機械/呪力）」であることへのメタファーであり、彼女がなぜ人間ではないのか、その存在論的な定義。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_arm_loss_cause
+  note: アキラの左腕（および右腕）が失われている状態と、それに対するトリシューラ・コルセスカによる「新しい力」の提供。元の腕をどうしたのか、または機械化される過程の詳細。
+  quotes:
+  - quote: その先には、俺の失われた左腕がある。断端をなぞる指先が、接触面で硬い感触を伝えてくる。対称を為すように、コルセスカが右の断端に触れた。
+    paragraph: p150
+    quote_verified: true
+  - quote: 私達の味方になってくれるアキラくんに、新しい力をあげる
+    paragraph: p154
+    quote_verified: true
+  expected_payoff: アキラがトリシューラ・コルセスカの一部（機械/呪力）と融合し、「半機械化」または「三人一体の存在」へと変貌する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kilon_connection
+  note: トリシューラがキロンとの戦いで無理をした結果、コルセスカに余力を預けざるを得なかった状況。キロンの正体や、彼ら3者の因縁の深さ。
+  quotes:
+  - quote: 第六階層でストックしてた余力は使い果たした上に、キロンと戦った時に無理して氷血呪なんて使うから、もうボロボロなはずだけど
+    paragraph: p3
+    quote_verified: true
+  expected_payoff: キロンがトリシューラ（およびコルセスカ）にとってどのような存在であるか（製造者、親、敵対者など）の明かし。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「身体」は所有物であり、他者の欲望や支配の対象となることで初めて意味を持つという、身体的・性的なオブジェ化の主題。
+  weight: 0.8
+  quotes:
+  - quote: もう限界です。刺したり抜いたり出したり吸ったりしたいので噛んでいいですか。いいですね
+    paragraph: p34
+    quote_verified: true
+  - quote: 二人一緒に手を加えてしまえば、それは二人の『もの』になるのだと、そう確信して。
+    paragraph: p165
+    quote_verified: true
+  note: トリシューラの身体整備（性的接触を伴う）とアキラへの腕の提供（所有欲・独占欲）が、キャラクター間の権力関係と欲望の構造を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人間性とは「有機的な血肉」ではなく、「機能的な役割（マニュアル）」によって定義されるという、トランスヒューマニズム的な身体観の提示。
+  weight: 0.7
+  quotes:
+  - quote: 生物的な凹凸の存在しない、男性とも女性ともつかない身体のラインは、俺には『人間的』としか形容しようがない。彼女の全身は、少なくとも生身の血肉によって構成された有機物ではありえないのだ。
+    paragraph: p57
+    quote_verified: true
+  - quote: アキラくんは私の言った通りにしていれば、そのうち全部終わってるから
+    paragraph: p94
+    quote_verified: true
+  note: トリシューラが機械であること、そしてアキラがマニュアルに従って動作する「ツール」として扱われることが、人間性の再定義を促している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情（恋愛・欲望）は業務のノイズであり、排除すべき対象であるという、効率主義的・機械論的な社会規範への皮肉。
+  weight: 0.6
+  quotes:
+  - quote: 貴方がそういう含みを私たちの関係に持ち込む度、いちいち純粋に目的に向かうための軌道修正をしなくちゃならないんだよ。それがどれだけ無駄な手間かわかる？
+    paragraph: p102
+    quote_verified: true
+  note: トリシューラの台詞は、現代のビジネスシーンにおける「感情排除」や「セクハラ防止」の議論を異世界転生という文脈で極端に戯画化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「見る/見られる」行為が、相手を物化（オブジェ化）し、支配関係を生み出す構造。
+  weight: 0.5
+  quotes:
+  - quote: ちゃんと見て。私が機械なんだって事を確かめて
+    paragraph: p65
+    quote_verified: true
+  - quote: '「見た？」
+
+      「見てない」
+
+      「嘘ですよ。超喜んでますこの人」'
+    paragraph: p80
+    quote_verified: false
+  note: アキラの視線がトリシューラの身体を「確認（検証）」し、同時にコルセスカによってその視線の欲望を暴露されることで、視覚を通じた権力関係が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

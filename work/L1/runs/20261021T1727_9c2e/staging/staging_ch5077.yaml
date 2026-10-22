@@ -1,0 +1,242 @@
+episode: ch5077
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_自走機銃]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5077_自走機銃_attacks_キロン_p102
+        quote: 街中に待機させていた自走機銃がキロンへと攻撃を仕掛けているのだ。
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_少年]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5077_少年_saves_キロン_p106
+        quote: 一方で、キロンの方はその前に進み出た少年の一人が防御することによって傷一つ無いままだった。少年がかざした手の先に、何か不可視の障壁のようなものが生み出されているようだった。
+        locator: {}
+        spoiler_after: ch5078
+    speech:
+      observations:
+      - event_ref: E_ch5077_少年_says_キロン_p27
+        quote: 「お待ち下さい、お兄様」
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_少年_says_アキラ_p35
+        quote: 「策略です。その方は嘘を吐いています」
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_少年_has_property_読心術_p43
+        quote: （読心術とかはシューラがシャットアウトしてるから多分違うよ！　多分霊感系、ううん、あれは託宣――？　あんなのデータには無かったのに！）
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5077_トリシューラ_thinks_自走機銃の暴走_p110
+        quote: （違う！　これシューラが指示したんじゃないよ！　コントロールを乗っ取られてる！）
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_トリシューラ_has_property_偽装死体作成能力_p53
+        quote: なにせ呪術医である。部屋にあった大量の人体部位からも分かるとおり、巡槍船には生体部品の備蓄があるのだという。何に使うのかはまあ、想像がつくのであえて訊ねなかったが。
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_トリシューラ_thinks_迷宮化_p77
+        quote: （何これ――信じられない、階層そのものを、局所的にとはいえ改変してるの？　そんな、私の支配を上書きしての【迷宮化】なんて！）
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5077_アキラ_says_キロン_p12
+        quote: 「悪いな、少し待たせたか」
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_アキラ_says_キロン_p18
+        quote: 「ああ。俺は【松明の騎士団】に身を寄せる事に決めた。やっぱり、恩人と――アズーリアと敵対なんて俺にはできない。それに、こんな危険極まりない場所で生活するのもいい加減しんどかったしな」
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_アキラ_thinks_白い少女_p188
+        quote: （最悪っ！　このコ、セスカと同じ邪視者だっ）
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_アキラ_thinks_読心術_p41
+        quote: 【E-E】と【七色表情筋トレーニング】を同期させての完璧な演技も、呪術による読心術までは誤魔化せなかったということらしい。【サイバーカラテ道場】と【Doppler】を即座に起動したことによって【七色表情筋トレーニング】が自動終了。戦闘態勢に移行する。
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_アキラ_thinks_第二プラン_p46
+        quote: まあ失敗したものは仕方が無い。第二プランで行こう。
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_アキラ_thinks_キロン_p62
+        quote: まるで、未だに事実を認められず、こちらを信じようとしているかのような。
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_アキラ_thinks_キロン隊の構成員_p8
+        quote: （データに無いけど、多分キロン隊の構成員だと思う。――どうする、一旦退いて作戦練り直す？）
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_アキラ_says_キロン_p95
+        quote: 「やっぱ最初からこういう手筈か」
+        locator: {}
+        spoiler_after: ch5078
+    action:
+      observations:
+      - event_ref: E_ch5077_アキラ_attacks_白い少女_p156
+        quote: '相手の身長は俺の腹部のあたりまでしかない。この体格差を生かさない理由は無い。一切の躊躇無しに頭部へと全力の蹴りを浴びせる。
+
+          殺す気で仕掛けた。'
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_アキラ_attacks_白い少女_p180
+        quote: 受け身を取りながら腰の収納に手を伸ばす。トポロジー的に圧縮された空間から投げナイフを指先で抜き取り、投擲。鋭利な刃が回転しながら少女の最も脆いと思われる急所に吸い込まれていく。
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_アキラ_finds_キロン_p3
+        quote: 待ち人を見つけた時、その場所にいたのは彼一人きりではなかった。
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_アキラ_other_地震_p68
+        quote: はじめは小さく、やがては激しく、縦にガタガタと揺れ動くその現象は、この世界に来て初めて体験する地震だった。
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アニス]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5077_アニス_attacks_アキラ_p121
+        quote: 旋回する打撃力がジェット噴射で加速されてこちらの頭部へと叩き込まれる。
+        locator: {}
+        spoiler_after: ch5078
+    speech:
+      observations:
+      - event_ref: E_ch5077_アニス_says_アキラ_p127
+        quote: 「酷い言い草だ。私はこんなにもお前に焦がれているというのに」
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ローズマリー]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5077_ローズマリー_other_用心棒達_p136
+        quote: 「さあ豚共、ご褒美の時間だっ！　あの男を、無茶苦茶にしてやりなっ」
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キロン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5077_キロン_asks_アキラ_p14
+        quote: 「いいや。それより答えを聞こうか。シナモリ・アキラ、君は俺と共に来るつもりはあるか？」
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_キロン_says_アキラ_p25
+        quote: 「そうか。――そうか！　安心したよ、アキラ。君は俺を信じてくれるのだな。よしわかった、君が決意してくれたのならば、俺は必ず君を守り抜くと約束――」
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_白い少女]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5077_白い少女_appears_アキラ_p149
+        quote: '白い少女だった。
+
+          フリルがふんだんに用いられた華やかな衣服。大きな鍔が広がる帽子も白なら、パニエで膨らんだスカートも、そこから伸びる脚を包むタイツもまた白。
+
+          流れる髪の色素は薄く、輝くような金の色。
+
+          冷ややかな瞳が、凄絶な圧力を伴ってこちらを見据えている。'
+        locator: {}
+        spoiler_after: ch5078
+    action:
+      observations:
+      - event_ref: E_ch5077_白い少女_has_property_不動の防御力_p161
+        quote: 地を割り砕く威力の蹴りをまともに側頭部に受けて、白い少女は微動だにしていなかった。
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_白い少女_attacks_アキラ_p170
+        quote: '細い、あまりに小さな繊手が、俺の腹部に突き刺さる。
+
+          「がっ」
+
+          咄嗟に後ろに跳んで衝撃を軽減する。正面から受けて耐えるという選択肢は、直感的に避けていた。
+
+          そうでなくても信じがたいほどの打撃力。俺の身体はそのまま宙に浮き、床を転がっていく。'
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_白い少女_has_property_眼球防御_p184
+        quote: '眼球に命中した刃が砕けるだと？
+
+          「馬鹿が。そこは私の最も強固な部位だ」'
+        locator: {}
+        spoiler_after: ch5078
+    speech:
+      observations:
+      - event_ref: E_ch5077_白い少女_says_アキラ_p177
+        quote: 「打撃など無意味だ。誰も、私の世界を傷つける事はできない」
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キロン隊の構成員]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5077_キロン隊の構成員_appears_五つの人影_p4
+        quote: キロンの背後に控えるようにして、五つの人影。
+        locator: {}
+        spoiler_after: ch5078
+      - event_ref: E_ch5077_キロン隊の構成員_has_property_美少年_p6
+        quote: 背丈はかなり低い。兜を後ろに跳ね上げているおかげでその容姿が露わになっているが、とんでもない美しさだった。いずれも煌めくような紅顔の美少年で、唇をきりりと引き結んで、俺を劇物か何かのようにして睨み付けている。
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_街路]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5077_街路_transforms_迷宮_p75
+        quote: 街路が鳴動し始める。床面からせり上がってくるのは、無数の障壁だ。更に周囲に乱立していた建造物が全て光の粒子となって消滅し、同じような壁となって再構成されていく。建物の中から追い出された人々や道路を歩いていた人々が困惑の声を上げながら周囲を見回していた。
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_世界槍]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5077_世界槍_has_property_あるべき姿_p81
+        quote: それは、【世界槍】にとってのあるべき姿であったのかもしれない。
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_悪鬼]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5077_悪鬼_appears_黒い影_p89
+        quote: 皺の多い矮躯。爛々と光る眼に憎悪を湛えて、仇敵を引き裂かんと唸り声を上げる大集団。
+        locator: {}
+        spoiler_after: ch5078
+  first_appearance_candidate: true

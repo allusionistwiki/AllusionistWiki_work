@@ -1,0 +1,109 @@
+chapter: ch5286
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 3
+  quotes_verified: 12
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_Pahn_Astral_Limb_Control
+  note: パーンが「アストラル投射を極めればこのように幻肢によって物質世界に干渉することも容易い」と言い、物理的な義肢を捨てて霊的な腕で行動する。これが彼の戦闘能力の底上げや、物語改変への介入手段として回収される可能性。
+  quotes:
+  - quote: アストラル投射を極めればこのように幻肢によって物質世界に干渉することも容易い。無論、これは俺が空の民でありながら物質世界への干渉に秀でたガレニスの血族であるからこそ出来る芸当だがな
+    paragraph: p254
+    quote_verified: true
+  expected_payoff: パーンが物理的な制約を越えた存在として、物語の「台本」を直接的に書き換えるキーアイテム・能力となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Feronia_Knowledge
+  note: フェロニアがパーンのメタ的な独白（台本、整合性）に対して「人として言ってはいけません」と強く制止し、恐怖を露わにする。彼女は世界の構造（シミュレーション/物語の枠組み）を知っているのか？
+  quotes:
+  - quote: 駄目です！ それ以上は、それ以上は人として言ってはいけません！
+    paragraph: p313
+    quote_verified: true
+  - quote: フェロニアはどうしてか僅かに困惑するように、何かを恐れるようにパーンを注視し続けた。
+    paragraph: p301
+    quote_verified: true
+  expected_payoff: フェロニアが「管理者」や「観測者」、あるいは物語のルールに詳しいキャラクターであることが明かされ、パーンとの対立軸となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Pahn_Future_Operation
+  note: パーンが「未来からアストラル体を投射し、俺という過去を操作して未来を改変する」と推論し、「未来人」を掴む。この「未来からの干渉」が物語の改変メカニズムそのものとして機能する可能性。
+  quotes:
+  - quote: 呪術があらゆる事を可能にするならば、たとえば未来からアストラル体を投射し、俺という過去を操作して未来を改変する、といったような事も可能だろう。とすればだ。同じ呪術の体系によってそのアストラル体に干渉し、こちらから未来を改変することも可能なのではないか？
+    paragraph: p335
+    quote_verified: true
+  expected_payoff: 物語の結末に対する「メタ的な介入」が可能であることを示唆し、最終的な展開（脱出や改変）への伏線となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Misharhi_Apathy
+  note: ミシャルヒがパーンの暴挙を「馬鹿」として流し、周囲の記憶を操作する能力を持つ。「カーイン」への言及もある。彼女の役割と目的は？
+  quotes:
+  - quote: ぶつぶつと呟くミシャルヒに、眼鏡の男は応じない。
+    paragraph: p136
+    quote_verified: true
+  - quote: まったく、余計な荷物を増やしてくれるなよ。鬱陶しいのはカーインだけで充分だというのに
+    paragraph: p134
+    quote_verified: true
+  expected_payoff: ミシャルヒが物語の「修正役」または「監視者」として機能しており、パーンの暴走を制御する鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語構造（メタフィクション）に対するキャラクターの自覚と反逆
+  weight: 0.9
+  quotes:
+  - quote: この台本は、整合性を欠いている。時代考証がなっていないのではないか？
+    paragraph: p324
+    quote_verified: true
+  - quote: 俺はこんな所で失われた栄光を悔やみ続けるような男ではない。ここは本来俺がいるべき場所ではない
+    paragraph: p308
+    quote_verified: true
+  note: パーンが物語の枠組み（台本、運命）を認識し、それに従うことを拒否して能動的に改変しようとする姿。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 絶対的力への渇望と自己神格化による倫理の破綻
+  weight: 0.7
+  quotes:
+  - quote: この俺を見下ろす事は、たとえ神であろうと許さぬ。故に俺はクロウサーを引きずり降ろし、この世の高みへと上り詰めなくてはならないのだ
+    paragraph: p352
+    quote_verified: true
+  - quote: 弱いことはそれだけで悪だ。己の運命の悲惨、降りかかった理不尽は自力救済によってのみ解消される。加害者には血の復讐を行わなくてはならない。これは義務だ。
+    paragraph: p138
+    quote_verified: true
+  note: パーンの行動原理が「弱者は死」「王への絶対服従」という残酷な論理に貫かれており、それが物語改変の原動力（欲望）となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 劇中劇における「役者」の存在論的不安と観客との境界崩壊
+  weight: 0.6
+  quotes:
+  - quote: たとえ破綻していたとしても、これは確かに劇中劇の繰り返しなんです。だって、そういうことにしておけば、順番に幕を閉じていけばいつかは元の場所にきちんと帰れるでしょう？
+    paragraph: p5
+    quote_verified: true
+  - quote: 俺たちを取り囲む敵がたったこれだけだと、どうして俺は決めてかかっていたのだろうか。『まさかこれ以上増えはしないだろう』などという甘い見通しでは足下を掬われるのは必然というもの。
+    paragraph: p22
+    quote_verified: true
+  note: レオの「幕を閉じれば帰れる」という楽観的な構造認識に対し、主人公（俺）は「劇」の論理が破綻し敵が増殖する現実への恐怖を抱えており、物語の構造そのものが危険な状態にあることを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

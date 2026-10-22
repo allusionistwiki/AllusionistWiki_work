@@ -1,0 +1,220 @@
+chapter: ch5077
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5077_少年_says_アキラ_p35]]'
+  object: '[[ME_mind_reading_tech]]'
+  claim: 異世界における読心術の発動を、ゲーム的なステータス画面（データ）による監視システムの欠陥として描き、技術的万能性を風刺している。
+  quote: 【E-E】と【七色表情筋トレーニング】を同期させての完璧な演技も、呪術による読心術までは誤魔化せなかったということらしい。
+  paragraph: p41
+  confidence: strong
+  quotes:
+  - quote: 【E-E】と【七色表情筋トレーニング】を同期させての完璧な演技も、呪術による読心術までは誤魔化せなかったということらしい。
+    paragraph: p41
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5077_アキラ_thinks_データ偏重_p45]]'
+  object: '[[ME_data_driven_society]]'
+  claim: 主人公が「データ偏重過ぎて想定外の事態に弱い」と自己分析する箇所は、現代のアルゴリズム依存社会における脆さや、ブラックボックス化されたシステムへの過信に対するメタファーである。
+  quote: あ、データ偏重過ぎて想定外の事態に弱い人だ。
+  paragraph: p45
+  confidence: moderate
+  quotes:
+  - quote: あ、データ偏重過ぎて想定外の事態に弱い人だ。
+    paragraph: p45
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5077_街路_transforms_迷宮_p75]]'
+  object: '[[ME_procedural_generation]]'
+  claim: 既存の建造物が消滅し、不規則な壁として再構成される「迷宮化」は、ゲームにおけるプロシージャル生成（ランダムマップ作成）の処理過程を物理現象として具現化したものである。
+  quote: 床面からせり上がってくるのは、無数の障壁だ。更に周囲に乱立していた建造物が全て光の粒子となって消滅し、同じような壁となって再構成されていく。
+  paragraph: p75
+  confidence: strong
+  quotes:
+  - quote: 床面からせり上がってくるのは、無数の障壁だ。更に周囲に乱立していた建造物が全て光の粒子となって消滅し、同じような壁となって再構成されていく。
+    paragraph: p75
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5077_白い少女_has_property_眼球防御_p184]]'
+  object: '[[ME_satanic_eye_myth]]'
+  claim: 通常「弱点」とされる眼球が「最も強固な部位」であるという設定は、邪視（メドゥーサ等）の神話的権能を逆転させ、視線そのものが防御・攻撃の核となる異質な身体性を提示している。
+  quote: 眼球に命中した刃が砕けるだと？「馬鹿が。そこは私の最も強固な部位だ」
+  paragraph: p184-p186
+  confidence: strong
+  quotes:
+  - quote: 眼球に命中した刃が砕けるだと？「馬鹿が。そこは私の最も強固な部位だ」
+    paragraph: p184-p186
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5077_アニス_says_アキラ_p127]]'
+  object: '[[ME_yandere_archetype]]'
+  claim: アニスの「お前に焦がれている」という台詞と破壊衝動の結合は、ヤンデレ（愛と狂気の混同）というジャンルクリシェを極端な暴力性へと昇華させたものである。
+  quote: 私はこんなにもお前に焦がれているというのに
+  paragraph: p127
+  confidence: moderate
+  quotes:
+  - quote: 私はこんなにもお前に焦がれているというのに
+    paragraph: p127
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5077_トリシューラ_thinks_偽装死体作成能力_p53]]'
+  object: '[[ME_bioethics_dilemma]]'
+  claim: 巡槍船に備蓄された「生体部品」を用いた偽装死体の言及は、医療倫理や人体利用に関するタブーを、異世界の技術として日常的な道具立てとして提示することで不気味さを醸成している。
+  quote: 部屋にあった大量の人体部位からも分かるとおり、巡槍船には生体部品の備蓄があるのだという。何に使うのかはまあ、想像がつくのであえて訊ねなかったが。
+  paragraph: p55
+  confidence: moderate
+  quotes:
+  - quote: 部屋にあった大量の人体部位からも分かるとおり、巡槍船には生体部品の備蓄があるのだという。何に使うのかはまあ、想像がつくのであえて訊ねなかったが。
+    paragraph: p55
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_少年の正体と能力
+  note: キロンの背後にいる5人の美少年のうち、一人が読心術（託宣）と不可視の障壁という高度な呪術的能力を持つ。彼らが「キロン隊」なのか、それともキロンを監視・支配する別勢力なのかが不明確。
+  quotes:
+  - quote: キロンの背後に控えるようにして、五つの人影。
+    paragraph: p4
+    quote_verified: true
+  - quote: 「策略です。その方は嘘を吐いています」
+    paragraph: p35
+    quote_verified: true
+  - quote: 少年がかざした手の先に、何か不可視の障壁のようなものが生み出されているようだった。
+    paragraph: p106
+    quote_verified: true
+  expected_payoff: 彼らがキロン自身の部下ではなく、トリシューラや魔女に対抗する「第三勢力」の使い手である可能性。あるいは、少年自身がキロンの肉体を制御しているなど。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_迷宮化の主犯
+  note: トリシューラの支配を上書きして第五階層を「世界槍のあるべき姿」である迷宮へと変貌させた存在は誰か。トリシューラ以外の高位権限者（魔女、神々、あるいはキロン側）による介入か。
+  quotes:
+  - quote: そんな、私の支配を上書きしての【迷宮化】なんて！
+    paragraph: p77
+    quote_verified: true
+  - quote: この光景を作り出した何者かは、第五階層の簒奪者たるトリシューラからあるべき迷宮の姿を取り戻したということになるのだろう。
+    paragraph: p82
+    quote_verified: true
+  expected_payoff: キロン隊の少年達による大規模呪術、あるいは世界槍そのものの意志（システム）の起動。この変貌が物語全体の戦場を「都市」から「ダンジョン」へと変質させる起点となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_白い少女の邪視能力
+  note: セスカと同じ「邪視者」と判明した白い少女。眼球が最硬部位であるという身体的特徴に加え、「誰も私の世界を傷つける事はできない」という宣言の意味（絶対防御、空間支配など）が未解明。
+  quotes:
+  - quote: 打撃など無意味だ。誰も、私の世界を傷つける事はできない
+    paragraph: p177
+    quote_verified: true
+  - quote: （最悪っ！　このコ、セスカと同じ邪視者だっ）
+    paragraph: p188
+    quote_verified: true
+  expected_payoff: 物理攻撃が完全に無効化される能力の正体。セスカの過去や系譜との関連性、そしてアキラがどう対抗するか（データ外の対策など）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_自走機銃の制御権
+  note: トリシューラの指示ではないのにキロンを攻撃し、後にアキラへも向いた自走機銃。誰が、どのような権限でこれらの呪具（監視カメラ等）を乗っ取ったのか。
+  quotes:
+  - quote: （違う！　これシューラが指示したんじゃないよ！　コントロールを乗っ取られてる！）
+    paragraph: p110
+    quote_verified: true
+  expected_payoff: 迷宮化と同時期に発生したため、迷宮化を行った存在がインフラ（監視システム）も掌握している可能性。トリシューラの「目」が敵の「手」として機能している恐怖。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 信頼と裏切りの相互不可解性：アキラとキロン双方が互いを信じていない状況下で、外部要因（迷宮化・悪鬼）によって強制的に共闘状態へ放り込まれる皮肉。
+  weight: 0.8
+  quotes:
+  - quote: 対峙していたキロンに鋭く視線を向けて言い放つ。あまり人の事を言えた立場ではないが、結局の所どちらも相手の事など信用していなかったというわけだ。
+    paragraph: p97
+    quote_verified: true
+  note: 「罠」への疑念と、実際の襲撃者（悪鬼・アニス等）が第三者であることの対比。人間同士の信頼関係の脆さが描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: データ偏重主義の破綻：ステータスや予測モデルに基づいた計画が、「読心術」や「迷宮化」といったシステム外の介入によって完全に無効化される過程。
+  weight: 0.7
+  quotes:
+  - quote: あ、データ偏重過ぎて想定外の事態に弱い人だ。
+    paragraph: p45
+    quote_verified: true
+  - quote: （データに無いけど、多分キロン隊の構成員だと思う。――どうする、一旦退いて作戦練り直す？）
+    paragraph: p8
+    quote_verified: true
+  note: ゲーム的理性（アキラ）と魔術的混沌（少年・迷宮）の衝突。知識やデータが絶対的な安全を保証しない世界観。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力としての性愛と支配：アニスの破壊衝動とローズマリーの娼館的暴力、白い少女の冷徹な打撃など、身体への侵入・破壊が性的なメタファーとして描かれ、アキラが客体化される状況。
+  weight: 0.6
+  quotes:
+  - quote: 人間を壊すことでしか発情できないイカレた女だと知ってはいたのだが、その対象にされると流石にぞっとする。
+    paragraph: p131
+    quote_verified: true
+  - quote: 「さあ豚共、ご褒美の時間だっ！　あの男を、無茶苦茶にしてやりなっ」
+    paragraph: p136
+    quote_verified: true
+  note: 敵対者たちの攻撃が単なる戦闘ではなく、「快楽」「ご褒美」「焦がれる」といった感情・欲望の表出として描かれている点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世界槍のあるべき姿（秩序の回復）：カオスな都市構造から、伝統的・構造的な「迷宮」への再構成は、トリシューラによる簒奪からの解放（あるいは別の支配者による上書き）を意味する。
+  weight: 0.5
+  quotes:
+  - quote: それは、【世界槍】にとってのあるべき姿であったのかもしれない。
+    paragraph: p81
+    quote_verified: true
+  note: 変化が単なる破壊ではなく、「あるべき姿」への回帰であるという解釈。トリシューラの支配異常性を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

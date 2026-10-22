@@ -1,0 +1,46 @@
+episode: ch5210
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_エスフェイル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5210_エスフェイル_reveals_黒の色号の力_p217
+        quote: 「『黒』の色号は言語を司る――名前さえ掌握できれば、その本質を操る事など容易い。格上、高名であればあるほど我が【大物食い（ジャイアントキリング）】の威力は増すのだよ。
+        locator: {}
+        spoiler_after: ch5210
+      - event_ref: E_ch5210_エスフェイル_other_セリアック＝ニア_p258
+        quote: 「名前を呼んでも実感が湧かぬか、所詮は偽物の姫よな。猫の取り替え子――生まれたばかりのセリアック＝ニアは異世界である【万猫殿】に攫われ、貴様と取り替えられた――猫が憑いた貴様とな。
+        locator: {}
+        spoiler_after: ch5210
+      - event_ref: E_ch5210_エスフェイル_other_リールエルバとの関係_p272
+        quote: 「自己の立ち位置すら定められず、他者に依存するばかりの脆弱な寄生精神、それが貴様だ。そしてその依存先すら極めて不安定な紛い物ときた。笑わせてくれるなあああ？　貴様の本質である名とは『トリシル＝リールエルバの付属品』よ。
+        locator: {}
+        spoiler_after: ch5210
+      - event_ref: E_ch5210_エスフェイル_says_影への沈黙_p324
+        quote: 「さらばだ。高純度の呪波汚染に曝されて姉妹揃って影に沈むがいい」
+        locator: {}
+        spoiler_after: ch5210
+    action:
+      observations:
+      - event_ref: E_ch5210_エスフェイル_other_セリアック＝ニアとリールエルバ_p322
+        quote: エスフェイルによる独自の改変が施された影による【陥穽（エンスネア）】。
+        locator: {}
+        spoiler_after: ch5210
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セリアック＝ニア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5210_セリアック＝ニア_uses_肉塊球の宝石化バグ_p303
+        quote: 対象の呪術抵抗を無視して、『球体にする』というプロセスが既に完了していると見なされるのである。
+        locator: {}
+        spoiler_after: ch5210
+      - event_ref: E_ch5210_セリアック＝ニア_attacks_エスフェイル_p308
+        quote: セリアック＝ニアごと周囲の死人を、エスフェイルを灼いていく高熱の波と衝撃波、そして無数の破片。
+        locator: {}
+        spoiler_after: ch5210
+  first_appearance_candidate: true

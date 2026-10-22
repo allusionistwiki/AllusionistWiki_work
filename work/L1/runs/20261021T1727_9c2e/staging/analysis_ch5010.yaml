@@ -1,0 +1,220 @@
+chapter: ch5010
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p45]]'
+  object: '[[ME_AR_Apps]]'
+  claim: 異世界の剣術戦において、ARアプリによる軌道予測と身体制御アシストが現実的な戦闘支援ツールとして機能している。
+  quote: 明確な敵がいない状況下では『サイバーカラテ道場』よりも回避用アプリの方が役に立つ。それでも効率的な足運びのアシスト機能を作動させ、拡張現実に表示されたとおりに体を動かして、少しでも速く進もうとする。
+  paragraph: p45
+  confidence: explicit
+  quotes:
+  - quote: 明確な敵がいない状況下では『サイバーカラテ道場』よりも回避用アプリの方が役に立つ。それでも効率的な足運びのアシスト機能を作動させ、拡張現実に表示されたとおりに体を動かして、少しでも速く進もうとする。
+    paragraph: p45
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p81]]'
+  object: '[[ME_Martial_Arts_Rankings]]'
+  claim: 主人公の武術レベルは「黒帯」から「赤帯」、さらに数少ない「マスタークラス」という現代格闘技の階級制度でメタ的に定義されている。
+  quote: 俺はサイバーカラテ道場で黒帯認定を受けているが、その遙か上の段位、赤帯を締める資格のある者の、さらにほんの一握りだけが、サイバーカラテマスターを名乗ることが許される。現在地球上にマスタークラスの達人は数えるほどしかいない。
+  paragraph: p81
+  confidence: explicit
+  quotes:
+  - quote: 俺はサイバーカラテ道場で黒帯認定を受けているが、その遙か上の段位、赤帯を締める資格のある者の、さらにほんの一握りだけが、サイバーカラテマスターを名乗ることが許される。現在地球上にマスタークラスの達人は数えるほどしかいない。
+    paragraph: p81
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p20]]'
+  object: '[[ME_Shadow_Manipulation]]'
+  claim: 狼の攻撃原理は「影を操る」という古典的なファンタジー・ホラーのメカニクス（影が実体を持つ）を物理法則（凹凸による陰影）で解説している。
+  quote: 人間には顔にも、手にも、およそ全身に凹凸が存在する。わずかな高低があればそこには陰影が生じるのだ。その影を操り、他者を害することができるのだとしたら？
+  paragraph: p22-p23
+  confidence: strong
+  quotes:
+  - quote: 人間には顔にも、手にも、およそ全身に凹凸が存在する。わずかな高低があればそこには陰影が生じるのだ。その影を操り、他者を害することができるのだとしたら？
+    paragraph: p22-p23
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p84]]'
+  object: '[[ME_Game_Theory_Risk_Assessment]]'
+  claim: 主人公の内部思考は、生存確率とリターンを計算するゲーム理論的なリスク管理プロセスとして描かれている。
+  quote: 成功すれば勝つための手段が増えるから、短期的にはハイリスクでも長期的にはリターンが大きいわけだ。しかし失敗すれば死ぬわけだから、死んでしまえば未来のリターンも意味が無いわけで――。
+  paragraph: p84
+  confidence: moderate
+  quotes:
+  - quote: 成功すれば勝つための手段が増えるから、短期的にはハイリスクでも長期的にはリターンが大きいわけだ。しかし失敗すれば死ぬわけだから、死んでしまえば未来のリターンも意味が無いわけで――。
+    paragraph: p84
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p35]]'
+  object: '[[ME_Isekai_Narrative_Trope]]'
+  claim: 「見捨てて逃げる」選択肢を明示しつつ、学習（経験値）による生存戦略の不足を自虐的に語ることで、異世界転生ものの「チート」への依存を批判している。
+  quote: 逃げられる状況ならあの三人を見捨てているのだが、うっかり部屋の中に入ってしまって退路が消えてしまった。学習しろよ。
+  paragraph: p35
+  confidence: moderate
+  quotes:
+  - quote: 逃げられる状況ならあの三人を見捨てているのだが、うっかり部屋の中に入ってしまって退路が消えてしまった。学習しろよ。
+    paragraph: p35
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p97]]'
+  object: '[[ME_Magic_System]]'
+  claim: 巨大な魔力の解放や派手なエフェクトではなく、「音もなく砕け散った」鎖という静寂と消失によって、狼の能力（影）を無効化する逆転が行われている。
+  quote: 環は四つ。そのうちの一つが、音もなく砕け散った。かすかな囁きが、風に紛れて消える。――そして、何も起こらなかった。
+  paragraph: p94-p97
+  confidence: strong
+  quotes:
+  - quote: 環は四つ。そのうちの一つが、音もなく砕け散った。かすかな囁きが、風に紛れて消える。――そして、何も起こらなかった。
+    paragraph: p94-p97
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Left_Hand_Chain
+  note: アズーリアの左手首にある金色の鎖（環が4つ）とその破壊。これが狼の影を消すトリガーとなった。
+  quotes:
+  - quote: 高く掲げられた左手、その手首の内側から金色の鎖が伸びていた。環は四つ。そのうちの一つが、音もなく砕け散った。
+    paragraph: p94
+    quote_verified: true
+  - quote: まるで何事もなかったかのように、全ての黒棘が忽然と消え失せていた。
+    paragraph: p102
+    quote_verified: true
+  expected_payoff: 残りの3つの環の役割、鎖が何によって封じられていたのか、アズーリアの正体（狼との関係性）への回収
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Wolf_Shadow_Constraint
+  note: 狼が即死攻撃をせず「嬲って楽しんでいる」か「使えない理由がある」という推測。アズーリアの登場で狼が恐怖し距離を取った事実は、その制約条件を示唆する。
+  quotes:
+  - quote: そういう結果になっていないということは、三人を嬲って楽しんでいるか、あるいは何か使えない理由があるか、二つに一つだ。
+    paragraph: p26
+    quote_verified: true
+  - quote: この場においてはあの奇妙な左手だけが狼にとっての脅威なのだ。
+    paragraph: p107
+    quote_verified: true
+  expected_payoff: 狼がアズーリアを恐れる具体的な理由（過去の因縁、封印の鍵など）の明かされる場面
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tail_Shield_Penetration
+  note: テールの厚い装甲板盾が黒棘に貫通された事実。物理防御の限界を示す。
+  quotes:
+  - quote: テールの盾は全員の中で最も分厚い装甲板を重ねて作られているらしい。それが貫かれたと言うことは、キール達の盾は勿論、甲冑の防御も貫けるということになる。
+    paragraph: p70
+    quote_verified: true
+  expected_payoff: 今後の戦闘で物理盾が完全に無意味化し、回避とアズーリアの能力依存へ移行する戦い方への転換
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mage_Book_Auto_Defense
+  note: 意識を失った魔法使いが所有する浮遊する本とクロスボウが、自律的に攻撃・防御している。
+  quotes:
+  - quote: 返事はなかったが、魔法使いは確かに行動した。クロスボウから射出された弾丸が閃光を放ち、狼の影と繋がった漆黒の棘を一瞬怯ませた。続けて浮遊する本が無数の火の玉を放ち、棘を焼き払う。
+    paragraph: p11-p13
+    quote_verified: true
+  expected_payoff: 魔法使いが完全な戦闘不能に陥った後の、この「自動防衛システム」の限界と、主人公がこれをどう制御・利用するかの試行錯誤
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: テクノロジーによる人間性の補完と限界
+  weight: 0.8
+  quotes:
+  - quote: 拡張現実に表示されたとおりに体を動かして、少しでも速く進もうとする。
+    paragraph: p45
+    quote_verified: true
+  - quote: 益体もない思考が脳内を駆け巡り、時間だけが無為に過ぎていく。
+    paragraph: p83
+    quote_verified: true
+  note: ARアプリや格闘技の段位（データ）に依存する主人公が、最終的には「決断」を時間に委ねるほど思考能力の限界に直面している。技術は身体能力を拡張するが、精神・判断力の補完にはならないことを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 影と光の対比における恐怖の本質
+  weight: 0.6
+  quotes:
+  - quote: 影すら消える夜闇に紛れて暗殺、というのはまず相手の前に姿をさらしている時点で無理だし、闇の中は影がない、というのが予断の可能性が高いので否定される。
+    paragraph: p31
+    quote_verified: true
+  - quote: 月は変わらず森を皓々と照らし、木々は夜風にかさかさと揺れ、狼の足元には細い影が伸びるだけ。ただそれだけ。
+    paragraph: p99-p100
+    quote_verified: true
+  note: 影を操る恐怖（敵意）から、静謐な自然の光と影（中立性）への転換。狼がアズーリアによって「影の脅威」を剥奪され、単なる動物（または存在）へと還元される瞬間の描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: リーダー不在における集団の自己組織化
+  weight: 0.5
+  quotes:
+  - quote: 俺も行動すべきだろう。目指すのは壮年の魔法使い。キール達には悪いが独断で行動させてもらう。これでも相談したかったのだが、なんと声をかければいいのか分からなかったのだ。
+    paragraph: p40
+    quote_verified: true
+  - quote: 前に出たテールが盾をかざして棘を受ける。俺の反対側にカインが回り込み、二人がかりで負傷者を運ぶ。キール達も駆けつけてきている。察しの良いことに既にマフスが治癒のシールを用意していた。
+    paragraph: p53
+    quote_verified: true
+  note: 主人公（俺）が指揮を執る前に、仲間たちが各自の役割（盾役、治療、運搬）を自発的に遂行している。「相談できない」主人公への信頼と、パーティとしての成熟度が試されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 静寂による暴力の中和
+  weight: 0.7
+  quotes:
+  - quote: 音もなく砕け散った。かすかな囁きが、風に紛れて消える。――そして、何も起こらなかった。
+    paragraph: p94-p97
+    quote_verified: true
+  - quote: 低い唸り声が沈黙を破る。今まで一歩も動かずに俺たちを追い詰めてきた狼が、ここにきてゆっくりと距離を縮めてきたのだ。
+    paragraph: p103-p104
+    quote_verified: true
+  note: 激しい戦闘音（咆哮、棘の飛来）が「音のない鎖の破壊」によって完全に停止する。「何も起こらない」ことが最大の効果を持つという逆説的な展開。暴力の解消が劇的な勝利ではなく、静かな変化として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

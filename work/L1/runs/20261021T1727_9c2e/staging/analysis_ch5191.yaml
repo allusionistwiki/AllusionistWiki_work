@@ -1,0 +1,151 @@
+chapter: ch5191
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 16
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_名簿の十三人の自動実行メカニズム
+  note: ガルズの死後も殺害が続く理由。マリーの関与か、術者死亡後の自動起動式か。ハルベルトとリーナが最終ターゲットに含まれている。
+  quotes:
+  - quote: 恐らく、生き残ったマリーが殺害を実行しているか、もしくは術者が死亡した後も自動的に呪殺が実行されるような儀式が行われていたのだろう。
+    paragraph: p228
+    quote_verified: true
+  - quote: その事を考えているのだろう。リーナは大学に行きもせず、端末に齧り付いてテロ関連のニュースが入ってきていないかしきりに確認することばかりしている。
+    paragraph: p230
+    quote_verified: true
+  expected_payoff: 次章以降でマリーの所在や術式の詳細が判明し、殺害を止める手がかり（または新たな悲劇）として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リールエルバの「禁呪の代償」指定場所
+  note: リールエルバが「あの時の取引で禁呪の代償としてあの場所を指定したのはこのわ、た、し、だ」と自白。彼女が幽閉されている地下（千メフィーテ）を指すのか、他の場所か。
+  quotes:
+  - quote: そもそもあの時の取引で禁呪の代償としてあの場所を指定したのはこのわ、た、し、だものねぇ。
+    paragraph: p53
+    quote_verified: true
+  expected_payoff: リールエルバの幽閉場所が禁呪の核であり、彼女自身の脱出計画やハルベルトの救済手段に直結する重要事実として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_槍神教とドラトリアの接触ルート
+  note: セリアック＝ニアを高位神官としてエルネトモランへ送り、両者の繋がりを再構築する計画。暗殺者による妨害が予想されている。
+  quotes:
+  - quote: 自国内の反槍神教派から、そして槍神教の反ドラトリア派からも妨害が予想される。まあニアなら大抵の暗殺者くらい返り討ちにできるけれど、現地で協力者がいると助かるのよ。
+    paragraph: p148
+    quote_verified: true
+  expected_payoff: 一週間後の葬送式典が舞台となり、セリアック＝ニアへの暗殺未遂事件が発生し、ハルベルトたちとの戦闘・政治的決着に至る。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アズーリアの「始まり」
+  note: リーナがマリー（青空の話）を語り始めることで、「澄明のマリーの終わり」と同時に「アズーリアという名前の始まり」が始まる。
+  quotes:
+  - quote: それは、澄明のマリー・スー・ヘレゼクシュという存在の終わりであり。同時に、アズーリアという名前の始まりでもあった。
+    paragraph: p249-p250
+    quote_verified: true
+  expected_payoff: マリーの記憶や魂の一部がアズーリア（あるいはその復活・変身）に継承されるプロセスの開始を示唆し、次章以降のアズーリアの回復や変貌の鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リールエルバの「素」の性質（狂姫）
+  note: 幽閉による精神異常ではなく、元からの性質であるとリーナが確認。「焦点が定まっていない」瞳と、怒りと愛の混交。
+  quotes:
+  - quote: つまるところ――焦点が定まっていない。
+    paragraph: p90
+    quote_verified: true
+  - quote: そっか、リーナは一番付き合い長いんだっけ。じゃあこれ、幽閉されて精神が――とかじゃなくて、素なんだ。そっか
+    paragraph: p115
+    quote_verified: true
+  expected_payoff: リールエルバの狂気的な行動原理（破壊と創造の両面）が、今後の戦略や戦闘において予測不能な「ゲームチェンジャー」として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 罪の共有と赦しを拒む自己中心的爱（リールエルバ）
+  weight: 0.9
+  quotes:
+  - quote: 原因とか責任とかそういう問題じゃあないのよ。ただお前たちが憎くてたまらないわ。よくもやってくれたわね。私の愛する祖国、私の愛する国民、私の愛する秩序――その全てを、粉々に破壊したお前たちを一人残らず許さない。
+    paragraph: p45
+    quote_verified: true
+  - quote: 大事なマロゾロンド神の寄り代である使徒様を大事に思ってるわ。大事な寄り代としてしっかりとマロゾロンド神を降臨してもらって我がドラトリアに繁栄をもたらして欲しいものだわ。憎いゴミ虫どもにマロゾロンド神の加護を与え給え！
+    paragraph: p101
+    quote_verified: true
+  note: リールエルバはハルベルトたちの罪を「許さない」と断言しつつも、彼らを使って自らの目的（国益・友人愛）を達成しようとする。憎悪と友情が表裏一体である狂気的な世界観を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄への強制と贖罪の不可能性
+  weight: 0.8
+  quotes:
+  - quote: けして贖いきれぬ罪に潰されるよりも、世界救済の英雄になってみせなさい。
+    paragraph: p198
+    quote_verified: false
+  - quote: 私は責任を感じるな、と言っているのではないの。気に病むな、と言っているのよ。そうして貴方の為すべき事ができなくなることこそを、私は恐れる
+    paragraph: p189
+    quote_verified: true
+  note: リールエルバはハルベルトに「罪を感じて潰れるな」と命令し、英雄（世界救済者）としての役割を強制する。これは贖罪を放棄し、機能として生きろという過酷な倫理である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 秩序の虚構性と地獄の逆転
+  weight: 0.7
+  quotes:
+  - quote: 所詮地上の平穏とはかりそめの秩序で強引に取り繕っただけのものよ
+    paragraph: p176
+    quote_verified: true
+  - quote: ここはひっくり返して蓋をしただけの地獄。綺麗に整えられた秩序の内側には混沌が押し込められている
+    paragraph: p189
+    quote_verified: true
+  note: 地上の平和を「蓋をされた地獄」と定義し、禁呪による破壊を秩序の崩壊ではなく「真実の露呈」と捉える視点。社会規範の脆さを主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情の混在と本人視点の正当性（リーナ）
+  weight: 0.6
+  quotes:
+  - quote: 人の感情ってそんなにはっきりとしたものじゃないから、色々な考えが混在する事もあると思うんだ。本人視点で流れを追っていけばそんなに不自然じゃないことも多いんだよ
+    paragraph: p111
+    quote_verified: true
+  - quote: 私が生かして捕まえたいなんて考えずに、見つけ次第ガルズを殺していればこんなことにはならなかったんじゃないかって
+    paragraph: p234
+    quote_verified: true
+  note: リールエルバの狂気的な言動に対し、リーナが「感情の混在」という解釈で擁護し、複雑な人間性を肯定する視点。メタ的に物語の登場人物たちへの理解を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 政治的実用主義と友情の両立
+  weight: 0.5
+  quotes:
+  - quote: 私は民の怒りと嘆きを代弁しなくてはならない。今まで言った事は全て本心よ。リールエルバという個人の感情は置くとして、ドラトリアの王族として貴方たちへの協力はできない
+    paragraph: p68
+    quote_verified: true
+  - quote: でも同じ黒百合宮で学んだ魔女として、幼馴染みとしての情は捨てきれるものじゃないわ！　やっぱり私、使徒様を見捨てるなんて無理！
+    paragraph: p73
+    quote_verified: true
+  note: 公的立場（王族）と私的関係（友人）の狭間で揺れ動くリールエルバの行動原理。政治的計算と個人的感情のバランスが物語の推進力となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

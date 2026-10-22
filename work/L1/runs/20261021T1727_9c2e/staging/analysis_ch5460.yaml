@@ -1,0 +1,207 @@
+chapter: ch5460
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_gameboard_making]]'
+  object: '[[ME_dollmaking_and_narrative_construction]]'
+  claim: 人形作りは物語の構築そのものを意味しており、モデルから実体への逆転はメタフィクション的な作者性の暗示である。
+  quote: その出来映えの見事さといったら、イツノをモデルに作られた模型というよりも、この模型を元に作られたのがイツノではないかと思われるほど。
+  paragraph: p14
+  confidence: strong
+  quotes:
+  - quote: その出来映えの見事さといったら、イツノをモデルに作られた模型というよりも、この模型を元に作られたのがイツノではないかと思われるほど。
+    paragraph: p14
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_magic_circuit]]'
+  object: '[[ME_lovecraftian_mythos]]'
+  claim: ミスカトニカやディスペータといった名称はクトゥルフ神話体系への直接的な引喩であり、不可知の恐怖と秩序の対立を示唆する。
+  quote: やっぱりミスカトニカお姉様かあ。ディスペータといい、過去の遺物ってばほんとーにしぶといんだからなあ、もう
+  paragraph: p38
+  confidence: explicit
+  quotes:
+  - quote: やっぱりミスカトニカお姉様かあ。ディスペータといい、過去の遺物ってばほんとーにしぶといんだからなあ、もう
+    paragraph: p38
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_monologue]]'
+  object: '[[ME_isekai_cheat_ability_trope]]'
+  claim: 「褒められなくても仕事をこなす」という独白は、チート能力を持つ転生者や管理者の自己陶酔を滑稽に模倣し、その空虚さを強調している。
+  quote: 「褒められなくても仕事をこなす、私ってばえらーい」
+  paragraph: p20
+  confidence: moderate
+  quotes:
+  - quote: 「褒められなくても仕事をこなす、私ってばえらーい」
+    paragraph: p20
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_world_observation]]'
+  object: '[[ME_sandbox_simulation]]'
+  claim: 第五階層のジオラマを「リアルタイムでモニタリングされている小さな世界」と描写するのは、シミュレーションゲームや箱庭創作物への構造的類似である。
+  quote: リアルタイムでモニタリングされている小さな世界。
+  paragraph: p47
+  confidence: strong
+  quotes:
+  - quote: リアルタイムでモニタリングされている小さな世界。
+    paragraph: p47
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_god_survival]]'
+  object: '[[ME_cultural_evolution_meme_theory]]'
+  claim: 神が自己を神格化し続ける責任、つまり「換骨奪胎」は、文化単位（ミーム）が生存するために環境適応し続ける進化論的プロセスのメタファーである。
+  quote: 生まれてしまった神には、自己を神格化し続ける責任がある。
+  paragraph: p70
+  confidence: strong
+  quotes:
+  - quote: 生まれてしまった神には、自己を神格化し続ける責任がある。
+    paragraph: p70
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_presence
+  note: アキラの存在の有無と、その人形への感情移入が最終的にどう解決するか。
+  quotes:
+  - quote: 少女の傍らに、彼はいる。
+    paragraph: p91
+    quote_verified: true
+  - quote: 「ここに、いるよね」
+    paragraph: p93
+    quote_verified: true
+  expected_payoff: アキラが実際にその場に存在するのか、それとも魔女の妄想・幻覚であるのかの判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_shape
+  note: ラクルラールがなぞった「ある形」が何なのか。アキラの完全な姿か、あるいは欠損した部分を含む形か。
+  quotes:
+  - quote: やがてラクルラールの唇が、最大級の親しみを込めてある形をなぞっていく。
+    paragraph: p96
+    quote_verified: true
+  - quote: 『ア、キ、ラ、く、ん』
+    paragraph: p98
+    quote_verified: true
+  expected_payoff: この「形」が物語の終焉における救い、あるいは記憶の象徴として意味付けられること。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_world_end
+  note: 「これ以降の記述は存在しない」という宣言の真意。物理的な消滅か、メタレベルでの物語終了か。
+  quotes:
+  - quote: 直後、あらゆる光が消えて世界が闇に閉ざされた。
+    paragraph: p100
+    quote_verified: true
+  - quote: この世界に、これ以降の記述は存在しない。
+    paragraph: p101
+    quote_verified: true
+  expected_payoff: 物語の完全な閉幕、あるいは次回以降が「不在」であることを示す構造的断絶。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_rakurular_truth
+  note: ラクルラールの正体と頂点の真相がなぜ開示されなかったのか。
+  quotes:
+  - quote: 六人いるとされていたラクルラールだが、その頂点の正体は無数の雑音に覆い隠されたまま、真相が開示されることが無かった。
+    paragraph: p33
+    quote_verified: true
+  expected_payoff: この章でラクルラールが一人であることが明かされるため、過去の記述との整合性および「頂点」の不在の回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 観客の消失と演者の孤絶による存在証明の困難
+  weight: 0.9
+  quotes:
+  - quote: 子どもじみた振る舞いは、それを見る者が誰ひとりとしていなくなっても彼女が演じ続けた役柄だ。
+    paragraph: p53
+    quote_verified: true
+  - quote: 「だってそれだけが救い、唯一の正解だもの」
+    paragraph: p81
+    quote_verified: true
+  note: 物語の結末（大団円）と観客不在の矛盾を、自己陶酔的な演技と救いとして処理する試み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 価値の転倒と廃棄物としての世界
+  weight: 0.7
+  quotes:
+  - quote: そこは価値の墓場だった。
+    paragraph: p6
+    quote_verified: true
+  - quote: 縮小された現実は、価値の転倒によって容易く実質に肉薄する。
+    paragraph: p17
+    quote_verified: true
+  note: 廃棄された残骸（過去）が模型（現在・物語）を通じて意味を取り戻す過程と、世界そのものの無価値化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己保存のための神格の換骨奪胎
+  weight: 0.8
+  quotes:
+  - quote: あらゆる神は古びていくもの。
+    paragraph: p67
+    quote_verified: true
+  - quote: 生まれてしまった神には、自己を神格化し続ける責任がある。
+    paragraph: p70
+    quote_verified: true
+  note: 不変の存在（神）が適応と変化を要求される逆説的な生存戦略。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 終末後の管理者的孤独と狂気
+  weight: 0.6
+  quotes:
+  - quote: 世界も人類もとうに滅び去っている。
+    paragraph: p23
+    quote_verified: true
+  - quote: つまらなさそうな独白。
+    paragraph: p29
+    quote_verified: true
+  note: 滅びた世界で唯一の観測者として機能し続けることの退屈と狂気。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

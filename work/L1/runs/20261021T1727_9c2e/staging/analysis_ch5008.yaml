@@ -1,0 +1,151 @@
+chapter: ch5008
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 6
+  themes: 5
+  quotes_verified: 14
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_azuriah_black_hand
+  note: アズーリアの左手が通常の黒肌ではなく「光を飲み込む闇」として描写され、戦闘後に隠蔽された。これが彼の爆発力と信頼の源である可能性が高い。
+  quotes:
+  - quote: 剥き出しになった左手は、遠目にも華奢と分かる。だがそれ以上に気になるのは、あまりにもその色が黒いことだった。肌の色が黒い、というのなら驚くような事ではない。そうではなく、あらゆる光を飲み込むかのように色が無く、手そのものが深い闇のようだと感じて、思わず息をのんでしまった。
+    paragraph: p120
+    quote_verified: true
+  expected_payoff: アズーリアが「影」や「虚無」を操作する能力、あるいは彼自身が何者でもない（人間ですらない）存在であることの露見。その力の代償として左手の存在が消滅/不可視化されている暗示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_azuriah_hidden_power
+  note: 主人公が「理解できないまま終わった」と記述し、アズーリアが盾と籠手を外すだけで即死級の一撃を与えた。そのメカニズムが不明。
+  quotes:
+  - quote: ――そして、俺が理解できないまま終わった。「何だ？」困惑。頭の中を占めるのはただそれだけだった。気がついたら決着が付いていた。
+    paragraph: p107
+    quote_verified: true
+  expected_payoff: アズーリアの能力は物理的な攻撃ではなく、概念操作・因果律干渉・あるいは罠との共振によるもの。主人公の「理解不能」は彼の認知能力（ゲーム的UI）がその現象を検知できないことを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_party_trust_basis
+  note: アズーリアは最も危なっかしく孤立しやすいのに、全員から「あいつが負けるはずがない」という揺るぎない信頼を集めている。その根拠が明記されていない。
+  quotes:
+  - quote: 奇妙な事だが、アズーリアはこの中で最も危なっかしいように思えるのに、全員から「あいつが負けるはずがない」というような揺るぎない信頼を集めているようなのだ。
+    paragraph: p89
+    quote_verified: true
+  expected_payoff: パーティの結成経緯やアズーリアの実績（過去の事件）が明かされる、あるいは彼の能力が「失敗しない」ことが確定的な事実であることの証明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_giant_wolf_flashback
+  note: 巨大狼戦でアズーリア（と思われる人物）が後方に下がり何かをしていた記憶があるが、詳細は不明確。
+  quotes:
+  - quote: 思い返せば巨大狼との戦闘の時、俺が走り回る反対側で、四人のうち一人が後ろに下がって何かをしていたような気がする。あの時は誰が誰なのかも分からなかったのだが――。
+    paragraph: p98
+    quote_verified: true
+  expected_payoff: アズーリアの能力発動条件（準備動作・盾外し等）と巨大狼戦での行動がリンクしており、彼の力の制御方法や弱点、あるいは彼がパーティに加入したきっかけとなる事件の詳細。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cursed_weapons_purpose
+  note: 持ち帰った呪われた武具（殺し合いの呪い）をトッドが背負い続けている。これらはどう利用されるのか、あるいは誰に渡されるのか。
+  quotes:
+  - quote: 早速手に入れた武具で装備を更新するのかと思ったらどうやらそうではないらしい。全てトッドの背嚢行きだ。何故だろうと不思議に思っていると、カインとキールが揃ってそれらの武具を掴む振りをする。すると、お互いに架空の武器を握って戦いを始める。加えて「アレをとるのはダメだ」というようなことを言われた。
+    paragraph: p14
+    quote_verified: true
+  expected_payoff: これらの武具は特定の敵（番人等）への鍵、呪い解除のアイテム、あるいは主人公に渡されることで彼のゲーム的性質と衝突する「バグ」の原因となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_torch_symbolism_meaning
+  note: 胸の松明の文様が迷宮探索と関連している暗示があるが、具体的な象徴的意味（組織の目的・信仰）は未定義。
+  quotes:
+  - quote: 実際に松明を持っている者はいないし、何かを照らしたり探したりする行為の比喩なのだろう。彼らが迷宮を探索していることと関係がありそうな感じだった。
+    paragraph: p47
+    quote_verified: true
+  expected_payoff: パーティが所属する組織（ギルド/宗教/国家機関）のイデオロギー、あるいは「暗黒からの光」＝知識や技術の流出を管理する役割の露見。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的知覚の限界と不可視な力の存在
+  weight: 0.8
+  quotes:
+  - quote: 慣れたもので、俺はサイバーカラテ道場を立ち上げる。
+    paragraph: p23
+    quote_verified: true
+  - quote: ――そして、俺が理解できないまま終わった。「何だ？」困惑。頭の中を占めるのはただそれだけだった。
+    paragraph: p107
+    quote_verified: true
+  note: 主人公はUI（サイバーカラテ）を通じて世界を操作できるが、アズーリアの能力のような「ゲームのルール外」または「高度な実装」された力は彼には理解不能であり、転生者の知覚の不完全さを主題化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: パーティ構成要素としての機能分化と信頼の非対称性
+  weight: 0.7
+  quotes:
+  - quote: テールを六人の盾と喩えるならアズーリアは矛、攻める時の爆発力は随一だ。同時に守りは最も薄そうに見える。他の前衛に比べると安定感にも欠ける。
+    paragraph: p91
+    quote_verified: true
+  - quote: 奇妙な事だが、アズーリアはこの中で最も危なっかしいように思えるのに、全員から「あいつが負けるはずがない」というような揺るぎない信頼を集めているようなのだ。
+    paragraph: p89
+    quote_verified: true
+  note: 役割分担（盾・矛・遊撃）が明確であると同時に、最も不安定に見えるアズーリアへの絶対的信頼が、外見・戦績と内実のギャップとして描かれ、集団の結束の非合理的な側面を浮き彫りにしている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異世界資源の「使い回し不能性」と回収コスト
+  weight: 0.5
+  quotes:
+  - quote: 何故だろうと不思議に思っていると、カインとキールが揃ってそれらの武具を掴む振りをする。すると、お互いに架空の武器を握って戦いを始める。加えて「アレをとるのはダメだ」というようなことを言われた。
+    paragraph: p15
+    quote_verified: true
+  - quote: 全てトッドの背嚢行きだ。
+    paragraph: p14
+    quote_verified: true
+  note: 強力な魔法武器が即座に装備できず、パーティ内で殺し合いを誘発するため「運搬」のみが行われる。これは異世界の資源が単なるアイテムとして機能せず、社会性・呪い・規制によって管理されていることを示す経済的・社会的テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: レイシズムの自己検閲と視覚的錯覚の信頼性
+  weight: 0.4
+  quotes:
+  - quote: 肌の色が黒い、というのなら驚くような事ではない。そうではなく、あらゆる光を飲み込むかのように色が無く、手そのものが深い闇のようだと感じて、思わず息をのんでしまった。目の錯覚に違いない。先程出会った三人組のうちの一人よりもさらに肌の色が黒めであるというだけの話だ。そうした事にことさらに拘るのはレイシズムを露呈させるようで、自分にとっても周囲にとっても望ましくない。
+    paragraph: p124
+    quote_verified: true
+  note: 主人公がアズーリアの手の異様さを「黒さ」として知覚し、それを現代倫理（レイシズム）で自己検閲することで、「視覚的異常」を無効化しようとする。転生者の現代性バイアスが世界の本質を見誤らせる構造を批判している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 迷宮の罠としての「誘因」と殺意の体系化
+  weight: 0.6
+  quotes:
+  - quote: 考えて見ればこんな何でも無さそうな行き止まりに財宝を隠すはずもない。財宝は迷宮の一番奥で強大な番人に守られているというのが定番だろう。しかしわざわざ解錠して武具を持ち帰る所を見ると、使えないだけで無価値というわけでも無さそうだ。何らかの利用方法があるか、呪いを解く手段が存在するが、ここではできない、ということなのだろう。
+    paragraph: p19
+    quote_verified: true
+  note: 罠は単なる物理的障害ではなく、「財宝」という誘因を通じて侵入者を殺すために設計されている。主人公の「定番」からの逸脱認識が、迷宮設計者の意図（資源回収・排除）を推測させる知性ゲームとしての側面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,223 @@
+chapter: ch5007
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5007_巨大剣_functions_as_魔法の武器_p10]]'
+  object: '[[ME_game_inventory_ui]]'
+  claim: 物理的な質量とサイズを切り替える剣は、ゲームにおけるインベントリ管理や装備スロットの可視化/非可視化のメタファーである。
+  quote: 果物ナイフ程度の大きさになってしまった。魔法のようだ、というか魔法なのだろう。見た目通りの重さでは無いのかも知れない。
+  paragraph: p10
+  confidence: moderate
+  quotes:
+  - quote: 果物ナイフ程度の大きさになってしまった。魔法のようだ、というか魔法なのだろう。見た目通りの重さでは無いのかも知れない。
+    paragraph: p10
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5007_弾丸_functions_as_スタングレネード_p28]]'
+  object: '[[ME_stun_grenade_modern_warfare]]'
+  claim: 魔法の杖から発射される光と音を出す弾丸は、現代の非致死性兵器であるスタングレネード（閃光弾）の機能そのものである。
+  quote: 射出されたのは矢では無い。拳大の弾丸で、盾に接触すると同時に音と光を放つ、小規模なスタングレネードめいた代物だった。
+  paragraph: p28
+  confidence: explicit
+  quotes:
+  - quote: 射出されたのは矢では無い。拳大の弾丸で、盾に接触すると同時に音と光を放つ、小規模なスタングレネードめいた代物だった。
+    paragraph: p28
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5007_壮年男性_uses_浮遊する本と魔法の文字_p29]]'
+  object: '[[ME_ar_interface]]'
+  claim: 本から光を放ち、文字が宙に浮かび上がる現象は、AR（拡張現実）インターフェースにおけるテキストや情報の視覚化を模している。
+  quote: ぱらぱらと開いてページから光を放ち始める。何かの模様（おそらく文字だ）が宙に浮かび上がり、それらは火の玉になって彼の周りを浮遊し始める。
+  paragraph: p29
+  confidence: strong
+  quotes:
+  - quote: ぱらぱらと開いてページから光を放ち始める。何かの模様（おそらく文字だ）が宙に浮かび上がり、それらは火の玉になって彼の周りを浮遊し始める。
+    paragraph: p29
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5007_アキラ_uses_弾道予報Ver2.0_p44]]'
+  object: '[[ME_ballistic_prediction_software]]'
+  claim: 異世界の糧食投擲に『弾道予報Ver2.0』という現代の軍事・科学シミュレーションソフトウェアのネーミングを用いることで、転生者の技術移転を喜劇的に演出している。
+  quote: 俺は『弾道予報Ver2.0』を立ち上げて三人に正確に投擲した。
+  paragraph: p44
+  confidence: explicit
+  quotes:
+  - quote: 俺は『弾道予報Ver2.0』を立ち上げて三人に正確に投擲した。
+    paragraph: p44
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5007_アキラ_says_カインの真似裏か表_p36]]'
+  object: '[[ME_coin_toss_decision_making]]'
+  claim: 緊迫した戦闘状況においてコイントスを持ち出す行為は、運命論的な決着方法（ギャンブル）による暴力の回避、あるいは交渉術としてのゲーム理論的アプローチを示唆する。
+  quote: 「さあ、裏か表、どっちだ」カインの言葉をそっくりそのまま真似た、俺の発言だった。
+  paragraph: p36-p38
+  confidence: moderate
+  quotes:
+  - quote: 「さあ、裏か表、どっちだ」カインの言葉をそっくりそのまま真似た、俺の発言だった。
+    paragraph: p36-p38
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5007_アキラ_thinks_戦闘への準備と三人組の評価_p81]]'
+  object: '[[ME_tactical_combat_simulation]]'
+  claim: 敵対者との接触直後、即座に各キャラの能力（プロレスラー級腕力、魔法使い、高威力剣撃）を分析し殺害手順を検討する行為は、RPGにおける戦闘シミュレーションや攻略プレイそのものである。
+  quote: あの2メートルを超す巨漢... 俺のサイバーカラテが何処まで通用するのか... どう立ち回れば、あの男を殺せるだろうか？
+  paragraph: p82-p86
+  confidence: strong
+  quotes:
+  - quote: あの2メートルを超す巨漢... 俺のサイバーカラテが何処まで通用するのか... どう立ち回れば、あの男を殺せるだろうか？
+    paragraph: p82-p86
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_三人組の正体と所属組織
+  note: 服装が統一されていないためキール達と同じ組織ではない。彼らが何者であり、なぜこの迷宮にいたのか、後の展開での合流または敵対への伏線。
+  quotes:
+  - quote: ぞればばらばらの服装で、統一感が無い。それでキール達と同じ組織に所属していないと分かった。
+    paragraph: p7
+    quote_verified: false
+  expected_payoff: 彼らが別の国家の冒険者、あるいは特定の宗教/秘密結社のメンバーであることが判明し、物語の対立軸を形成する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_巨大狼の死骸の傷跡と青年の実力
+  note: 巨大狼を鎧ごと斬り裂くほどの攻撃力を持つ中央の青年。この圧倒的な戦闘能力が、後の強敵戦やアキラの成長の基準として参照される伏線。
+  quotes:
+  - quote: あの青年の攻撃は、巨大狼を鎧ごと斬り裂けるほどに強烈なのだ。どう立ち回れば、あの男を殺せるだろうか？
+    paragraph: p86
+    quote_verified: true
+  expected_payoff: この青年が後にボスキャラとして登場するか、アキラが彼の技術（巨大剣の魔法）を模倣・解析するきっかけとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_壮年男性の魔法体系（浮遊する本）
+  note: 杖、クロスボウ、そして自動で開き火の玉を生成する『黒い装丁の本』。この魔法システムが通常の呪文詠唱と異なる独自ルールを持つ可能性を示唆する伏線。
+  quotes:
+  - quote: 勝手に腰の本が浮遊したかと思うと、ぱらぱらと開いてページから光を放ち始める。何かの模様（おそらく文字だ）が宙に浮かび上がり、それらは火の玉になって彼の周りを浮遊し始める。
+    paragraph: p29
+    quote_verified: true
+  expected_payoff: 異世界の魔法システムが『書物』を介したAR的なもの、あるいは呪符自動発動型であることが明かされ、アキラのサイバーカラテと相性問題を起こす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの『弾道予報Ver2.0』の由来
+  note: 異世界で現代のソフトウェア名を口にする。これはアキラが転生以前に持っていた知識/スキルセットの一部であり、彼の『チート』能力の本質を示す伏線。
+  quotes:
+  - quote: 俺は『弾道予報Ver2.0』を立ち上げて三人に正確に投擲した。
+    paragraph: p44
+    quote_verified: true
+  expected_payoff: アキラが単なる転生者ではなく、特定の技術（計算能力やAR）を精神/魔法空間で再現できる特異な存在であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アズーリアとの贈与による言語超越的関係
+  note: 言葉が通じない状況で『物品の贈与』を共通言語として成立させた。これは異世界における文化・魔法的な契約（ギフテッド）のメカニズムを示す伏線。
+  quotes:
+  - quote: 『贈与』は俺とアズーリアの共通言語なのだと、互いが理解した。
+    paragraph: p66
+    quote_verified: true
+  expected_payoff: 今後、アキラが他集団との交渉において『言葉』ではなく『贈与/交換』を介した魔法的契約（ガチャや取引）を用いることが増える。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異文化間コミュニケーションにおける『非言語行為』の優位性
+  weight: 0.8
+  quotes:
+  - quote: 一度も言葉をかけてきたことがない相手。カインとは逆だ。言葉を重ねることの無意味さを知っている。
+    paragraph: p63
+    quote_verified: true
+  - quote: 『贈与』は俺とアズーリアの共通言語なのだと、互いが理解した。
+    paragraph: p66
+    quote_verified: true
+  note: 言語が通じない状況で、コイントスや糧食の投擲、贈与といった行為が信頼関係構築に有効であることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力の抑制としての『ゲーム（運命/確率）』の機能
+  weight: 0.6
+  quotes:
+  - quote: 一触即発。キール達も武器を構えようかというその時、ぱちん、というコインを弾く音が響いた。
+    paragraph: p33-p34
+    quote_verified: true
+  - quote: 「あんたの勝ちだ！」
+    paragraph: p40
+    quote_verified: true
+  note: 殺し合いに至る直前の緊張を、コイントスという『ルール化された偶然』によって解除する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクション的視点における戦闘シミュレーションと現実の乖離
+  weight: 0.7
+  quotes:
+  - quote: あの2メートルを超す巨漢... 俺のサイバーカラテが何処まで通用するのか。... どう立ち回れば、あの男を殺せるだろうか？
+    paragraph: p82-p86
+    quote_verified: false
+  - quote: 実際の所、俺は半分以上戦闘になっても構わないと思っていたと知ったら、キール達は何を思うだろうか？
+    paragraph: p81
+    quote_verified: true
+  note: アキラが頭の中でゲーム的な戦術シミュレーションを行っている一方、現場では『平和な結果』を演じているという二重構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 文明の発達段階と技術移転の驚き
+  weight: 0.4
+  quotes:
+  - quote: 文字や印刷技術なども発達しているらしい。この世界の文明発展段階は俺が当初希望していた異世界の水準よりもずっと発達しているようだ。
+    paragraph: p16
+    quote_verified: true
+  note: 典型的な異世界（中世レベル）ではなく、より高度な魔法/技術文明であることへのアキラの認識更新。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

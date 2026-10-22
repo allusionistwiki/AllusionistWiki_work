@@ -1,0 +1,98 @@
+chapter: ch5584
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 3
+  themes: 4
+  quotes_verified: 8
+  quotes_total: 8
+items:
+- kind: mystery
+  name: MY_luna_identity_contradiction
+  note: ロードデンドロンの過去（ティリビナ人としての歴史）と現在の所属（クロウサー家との接ぎ木）の間に時系列的な矛盾がある。チッセが指摘した「辻褄が合わない」点の真相。
+  quotes:
+  - quote: 幼少期に灰の天主に弟子入りして～？ 悪鬼女王の直属部隊から緑の君とスーリウムに接触ぅ？ でもって小さいころはティリビナ人として育てられて、姉をリンチで焼き殺されて、そのあと別の歴史の姉と仲良くしてて？
+      ティリビナ人のために緑の天主を目指す？ 時系列とか整合性めちゃくちゃじゃ～ん！
+    paragraph: p17
+    quote_verified: true
+  expected_payoff: ロードデンドロンが「矛盾史」を正史に接ぎ木する過程で、意図的に時系列を捩じ曲げている可能性、あるいは並行世界からの介入の痕跡として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_relprea_appearance_change
+  note: 女神レルプレアや始祖アルラウネは霊長類的な外見であるはずだが、現ティリビナ人は樹木的な肌を持つ。なぜ緑天主（レルプレア）が自身の種族の外見を「異獣認定」されるような形態に変化させたのか。
+  quotes:
+  - quote: なんで、普通のティリビナ人と女神レルプレアの容姿が違うの？
+    paragraph: p185
+    quote_verified: true
+  - quote: 現ティリビナ人の樹木的な肌は、きっとレルプレア以降の特徴なのだ。
+    paragraph: p190
+    quote_verified: true
+  expected_payoff: 緑天主が意図的に自種族を「異形」に見せることで、他者からの差別・隔離を誘発し、それを利用した保護や戦略的な生存形態を選択したという歴史の隠蔽された動機。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_liquid_blood_fusion_risk
+  note: サンブル家伝承の禁呪「融血呪」を使用し、格上の巨人チッセと合一を試みるロードデンドロンの行い。個我が消滅するリスクを負ってまで行う真の狙い（クラウビューラの介入阻止を含む）。
+  quotes:
+  - quote: 見ただけで盗めない。だから、この時を待っていた。私がお前に融け合えば、クラウビューラもお前を傷つけることを恐れて迂闊に動けない
+    paragraph: p152
+    quote_verified: true
+  expected_payoff: チッセとの融合による「女神権威」と「クロウサー家権威」の総取り、および第三者（クラウビューラ）への政治的圧力としての有効性。リーナがこれにどう対抗し、共闘するかが問われる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 歴史は勝者によって編纂される（正史の簒奪）
+  weight: 0.8
+  quotes:
+  - quote: 歴史を書き換え、非道な虐殺の責任を回避しようとするのはクロウサーだから許されると？！ ならば我らの行いも同じこと。ロードデンドロンは、歴史の勝者であるクロウサーなのだから！！
+    paragraph: p55
+    quote_verified: true
+  note: ロードデンドロンが「接ぎ木」によって自分の出自をクロウサー家に接続し、虐殺の責任回避と権力獲得を行う行為は、歴史改変権力の行使を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 外見と差別の構造（異獣認定の政治性）
+  weight: 0.7
+  quotes:
+  - quote: おかしい。外見の違いで差別するなんてあっちゃいけない。けど、それは明らかに異獣認定の理由に使われてしまっている。どうして女神がわざわざそんなことをしたんだろう。どんな理由があったらそうなるの？
+    paragraph: p193
+    quote_verified: true
+  note: ティリビナ人の樹木的形態は差別の対象だが、それが女神レルプレア自身によって意図的に設計された可能性が示唆され、「外見」が政治・生存戦略のツールであることを浮き彫りにする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術移転と文化侵食（音楽による支配）
+  weight: 0.6
+  quotes:
+  - quote: 耳慣れないティリビナの文化の響きが、あるはずもない宇宙の大気を振動させて、世界に少数種族の存在を知らしめようとしていた。
+    paragraph: p38
+    quote_verified: true
+  note: ロードデンドロンの歌が「現代的な電子音」とティリビナの文化を融合させ、宇宙（世界）にその存在を刻印しようとする行為は、文化による帝国主義的拡張のメタファー。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 弱者の奇策と強者の王道（呪術の倫理観）
+  weight: 0.5
+  quotes:
+  - quote: だが、強者が王道を占有している以上、弱者は奇策に走り外道を行くしかない。
+    paragraph: p52
+    quote_verified: true
+  note: クラウビューラが「手品」と罵倒する対立軸を通じて、権力構造において弱者がいかにして生き延び、勝つかという戦略的倫理を提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

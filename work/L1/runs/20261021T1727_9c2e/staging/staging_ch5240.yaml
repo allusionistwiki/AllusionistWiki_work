@@ -1,0 +1,204 @@
+episode: ch5240
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_イェレイド]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5240_イェレイド_says_生命吸収_p102
+        quote: 「なら【生命吸収】で残らず吸い尽くしてさしあげましょう」「わたくしの生命の渦に取り込んでさしあげましょう」「永遠に生き続けられますわよ」
+        locator: {}
+        spoiler_after: ch5240
+    visual:
+      observations:
+      - event_ref: E_ch5240_イェレイド_transforms_異形の本体_p12
+        quote: '傘のように広がったパニエスカートの下から、この世のありとあらゆる生物を凝縮した混沌そのもののような異形の本体が姿を現した。
+
+          少女の上半身よりも遙かに巨大な異形の怪物。'
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_イェレイド_appears_小柄な少女_p7
+        quote: '暗がりの中に出現したのは、小柄な少女だった。
+
+          ふんだんにフリルがあしらわれた丸襟のブラウスは、返り血で赤黒く染まっている。豊かな金髪は螺旋状に巻かれている。'
+        locator: {}
+        spoiler_after: ch5240
+    name:
+      observations:
+      - event_ref: E_ch5240_イェレイド_names_第十六魔将_p28
+        quote: （第十六魔将、【歪な荘厳】イェレイド！　まずいよアキラくん、あれは端末体でもエスフェイルより強い、形而下世界の頂点に立つ大魔将だよっ）
+        locator: {}
+        spoiler_after: ch5240
+    action:
+      observations:
+      - event_ref: E_ch5240_イェレイド_attacks_アキラ_p54
+        quote: '次々と叩き込まれるのはカマキリの刃だ。
+
+          大魔将が内包する混沌の中からありとあらゆる生物が姿を現す。象の鼻が振り回されて先端の岩石が叩きつけられた。'
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_イェレイド_attacks_バル_p99
+        quote: '歪な少女の腹部から飛び出した巨大な触手がバルに絡みつく。
+
+          胴体と頭部を同時に捕獲すると、触手から伸びた無数の棘が肌を突き刺して侵入していく。'
+        locator: {}
+        spoiler_after: ch5240
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_カル]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5240_カル_attacks_イェレイド_p116
+        quote: '必死になって呪符を、呪石弾を、矢を、投槍を、次々と投げ放つ。
+
+          「親父から離れやがれ、畜生っ」'
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_カル_uses_突撃小銃_p206
+        quote: '俺に追随するようにして走り出した彼は大魔将に向かって銃弾を掃射していく。
+
+          【銃士】ではない者が銃を――それも高度な杖技術の産物たる自動小銃を使えば、その反動は命すら一瞬で奪いかねない。'
+        locator: {}
+        spoiler_after: ch5240
+    relationship:
+      observations:
+      - event_ref: E_ch5240_カル_bonds_トリシューラ_p243
+        quote: 'カルは跪き、顔を俯けてただ礼を述べる。
+
+          （やったー、セスカっぽくゲーム的に言うと、部下の忠誠度上昇！）'
+        locator: {}
+        spoiler_after: ch5240
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_クレイ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5240_クレイ_asks_解放_p130
+        quote: '「俺を解放しろ、僣主トリシューラ」
+
+          クレイが、倒れた状態のまま要求した。'
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_クレイ_promises_忠誠_p169
+        quote: 「――わかった、誓う。当然だ、その誓いならばとうに立てている！」
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_クレイ_says_敵意_p272
+        quote: 「俺は――認めない。僣主は殺す、『女王』の敵は俺が一人残らず斬って捨てる。必ず――必ずだ。いずれ、貴様も斬る。勝負は預けるぞ、シナモリ・アキラ」
+        locator: {}
+        spoiler_after: ch5240
+    action:
+      observations:
+      - event_ref: E_ch5240_クレイ_fights_混沌の壁_p197
+        quote: '複雑な工程を経た『振る舞いによる呪文』が発動し、おぞましい混沌の群れが不可視の斬撃によって片端から引き裂かれていく。
+
+          それは劇剣。それは剣詩舞。剣を持たずして剣そのものを体現する身体芸術（パフォーマンスアート）。'
+        locator: {}
+        spoiler_after: ch5240
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_トリシューラ]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5240_トリシューラ_asks_誓約_p154
+        quote: 内容は簡単。この第五階層の『女王』に忠誠を誓うこと」
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_トリシューラ_says_嫉妬の指摘_p293
+        quote: '「それはねえ。嫉妬だよ」
+
+          「私が別の人を足蹴にして、屈伏させようとしたからむっとしちゃったんだよね」'
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_トリシューラ_bonds_アキラ_p345
+        quote: '「ずっと、離してあげないから」
+
+          そして、宣言する。魔女のように。女王のように。獣のように。
+
+          俺を咥えて離さない、獰猛な笑みを浮かべて。'
+        locator: {}
+        spoiler_after: ch5240
+    action:
+      observations:
+      - event_ref: E_ch5240_トリシューラ_gives_突撃小銃_p199
+        quote: '俺の疾走開始と前後するように、トリシューラがカルに突撃小銃を手渡した。
+
+          「階梯を昇って、その覚悟の程を私に見せて――カルカブリーナ」'
+        locator: {}
+        spoiler_after: ch5240
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロドウィ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5240_ロドウィ_activates_人造ホラー_p19
+        quote: （最悪！　ホラーっていう類似を利用して、死んだはずの端末体を擬似的に復活させたんだ。ハザーリャの加護は死の記憶を再生することもできる――ロドウィは多分、過去に防衛戦に参加して『あれ』を見たことがあったんだ）
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_ロドウィ_fights_イェレイドの制御_p43
+        quote: だがその代償は大きいのか、ロドウィは肩を上下させながら荒く息を吐き、かろうじてといった態で両腕を動かしている。
+        locator: {}
+        spoiler_after: ch5240
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_アキラ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5240_アキラ_flees_致命的な一撃_p2
+        quote: ちびシューラの警告がかろうじて間に合い、俺は飛び退って致命的な一撃を躱すことに成功した。
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_アキラ_kills_ロドウィ_p222
+        quote: '左腕の【賢刃】が、俺に代わって恩人の殺害を実行する。
+
+          閃く刃が蛙の巨体を引き裂いて、最適効率でその息の根を止めた。'
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_アキラ_uses_賢刃_p61
+        quote: '【賢刃】ヴィヴィ＝イヴロスの真骨頂。
+
+          この武装は相手の攻撃を学習して動作を最適化する上に、俺が意識しなくても全自動で機能してくれる。'
+        locator: {}
+        spoiler_after: ch5240
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_バル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5240_バル_wounds_首_p3
+        quote: バルは間に合わなかった。クレイを蹴り飛ばして部屋の隅に逃がした彼は、その隙に背後から首を斬り飛ばされてしまう。
+        locator: {}
+        spoiler_after: ch5240
+      - event_ref: E_ch5240_バル_helps_アキラ_p70
+        quote: '追撃してくるイェレイドに、燃える火の玉が激突。
+
+          更に首のない修道騎士の身体が槍を振り回して突進を押し留める。
+
+          俺を助けたのは、バル・ア・ムントだった。'
+        locator: {}
+        spoiler_after: ch5240
+    speech:
+      observations:
+      - event_ref: E_ch5240_バル_says_首の分離について_p72
+        quote: 「前にアインノーラに首をやられてから、すっかり取れやすくなっちまってよう。クセでも付いてんのかね。参ったぜ」
+        locator: {}
+        spoiler_after: ch5240
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_女性]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5240_女性_other_クレイ_p362
+        quote: 「すべて赦します。だって、私は貴方のママですからね。
+        locator: {}
+        spoiler_after: ch5240
+  first_appearance_candidate: true

@@ -1,0 +1,236 @@
+chapter: ch5131
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p4_mining]]'
+  object: '[[ME_realistic_industry_failure]]'
+  claim: 冒険者の拠点整備後、資源採掘が失敗に終わった描写は、現実の鉱工業における環境汚染・労働災害によるプロジェクト破綻を模している。
+  quote: 呪石から放出される呪波汚染によって異常発達した地質と植生によって採掘は上手く行かず…余りにも多くの人命が失われるに及んで
+  paragraph: p7
+  confidence: strong
+  quotes:
+  - quote: 呪石から放出される呪波汚染によって異常発達した地質と植生によって採掘は上手く行かず…余りにも多くの人命が失われるに及んで
+    paragraph: p7
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p9_danger_zone]]'
+  object: '[[ME_game_tutorial_trap]]'
+  claim: 初心者が足を踏み入れて死亡する定番の危険地帯という設定は、ゲームにおける「チュートリアル後の高難易度エリア」や「罠ステージ」を想起させるメタ構造を持つ。
+  quote: 初心者が間違えて足を踏み入れて死亡する定番の危険地帯である。
+  paragraph: p9
+  confidence: strong
+  quotes:
+  - quote: 初心者が間違えて足を踏み入れて死亡する定番の危険地帯である。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p11_warning_ignored]]'
+  object: '[[ME_sns_warning_fatigue]]'
+  claim: 注意書きを設置しても無視して挑み死亡するケースが後を絶たないという記述は、SNSやゲームの「利用規約」や「警告表示」を無視する人間の心理（自己責任論）を風刺している。
+  quote: 探索者協会は【扉】の手前に注意書きを設置しているのだが、どうしてか無視して挑んだ挙げ句、帰らぬ人となるケースが後を絶たないという。
+  paragraph: p11
+  confidence: moderate
+  quotes:
+  - quote: 探索者協会は【扉】の手前に注意書きを設置しているのだが、どうしてか無視して挑んだ挙げ句、帰らぬ人となるケースが後を絶たないという。
+    paragraph: p11
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p72_armor_design]]'
+  object: '[[ME_character_design_gacha]]'
+  claim: 「可愛さ」が呪術的防御性能（物理防御の代わり）になるという理屈は、現代のゲームキャラクターデザインにおける「見た目の魅力＝強さ/価値」というメタファを体現している。
+  quote: 『可愛い』というのは立派な呪術障壁となり得るのだ。
+  paragraph: p74
+  confidence: strong
+  quotes:
+  - quote: 『可愛い』というのは立派な呪術障壁となり得るのだ。
+    paragraph: p74
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p180_raven_steal]]'
+  object: '[[ME_online_game_competition]]'
+  claim: 他チームの使い魔が採取素材を横取りし妨害・点数稼ぎを行う展開は、オンラインゲームにおける「モブ狩り」「資源略奪」や「PvP的競合」の構造と一致する。
+  quote: こちらの動向を監視しておいて、先に採取を行うことで妨害と点数稼ぎを同時にするつもり
+  paragraph: p178
+  confidence: strong
+  quotes:
+  - quote: こちらの動向を監視しておいて、先に採取を行うことで妨害と点数稼ぎを同時にするつもり
+    paragraph: p178
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p212_bad_quality]]'
+  object: '[[ME_game_loot_rarity]]'
+  claim: 奪われた花が「質が悪くて呪具の素材にならない」と判明するオチは、ゲームにおける「ドロップ品がゴミアイテム（低レアリティ）」であるという落胆のシミュレーションを再現している。
+  quote: これ、呪力が上手く浸透していない普通の花。つまり、質が悪くて呪具の素材にならない
+  paragraph: p212
+  confidence: moderate
+  quotes:
+  - quote: これ、呪力が上手く浸透していない普通の花。つまり、質が悪くて呪具の素材にならない
+    paragraph: p212
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p143_smartphone_screen]]'
+  object: '[[ME_modern_device_discomfort]]'
+  claim: 天眼の民が液晶画面を見ると酔うという描写は、AR（拡張現実）やVR技術への生理的拒絶反応、あるいは現代のスマホ依存に対する身体性のメタファーとして機能する。
+  quote: 杖使いの人が持ってるような端末の液晶画面あるでしょ、あれが変な感じに見える
+  paragraph: p143
+  confidence: moderate
+  quotes:
+  - quote: 杖使いの人が持ってるような端末の液晶画面あるでしょ、あれが変な感じに見える
+    paragraph: p143
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_raven_owner_identity
+  note: 使い魔を操る「ナト」という男（序列26位）の正体と、彼が所属するグループ（ペイルのチーム？）の詳細。
+  quotes:
+  - quote: 相手チームの一人、ナトと呼ばれていた男の肩には、確かに鴉が乗っていた。
+    paragraph: p184
+    quote_verified: true
+  - quote: 【松明の騎士団】の公式データによれば、あのナトという男の序列は二十六位
+    paragraph: p188
+    quote_verified: true
+  expected_payoff: 復讐戦での対決相手として詳細が語られ、ペイルとの関係性が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_halbert_physical_condition
+  note: ハルベルトの極端な体力低下（息切れ、足震え、顔面蒼白）の原因。単なる虚弱体質なのか、呪波汚染の影響なのか、隠された事情があるのか。
+  quotes:
+  - quote: 荒く息を吐き、中腰になって手をついた膝ががくがくと震えていては説得力など皆無である。
+    paragraph: p108
+    quote_verified: true
+  - quote: ハルベルトのただでさえ白い顔色が、今は真っ青になっている。
+    paragraph: p164
+    quote_verified: true
+  expected_payoff: 戦闘不能や重体化による危機、あるいはその虚弱さの理由（過去の設定）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_azua_color_world
+  note: アズアズが「元々色彩を知らなかった」世界観の詳細。寄生異獣との同化による知覚変化が、今後の戦闘能力や認知にどう影響するか。
+  quotes:
+  - quote: 私は元々、色彩を知らなかったから。それで気になった。他の種族の人達は、私が色のない世界だと思っていたこの世界を、今までどんなふうに捕らえていたんだろうって
+    paragraph: p131
+    quote_verified: true
+  expected_payoff: 特殊な知覚能力（天眼との対比）が戦闘や探索で有利/不利に働く展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_negative_curse_power
+  note: 怒り・憎しみによってアストラル界から負の呪力が漏れ出し、屍が自壊する現象。これが制御不能な暴走を招く伏線。
+  quotes:
+  - quote: 余りの呪力に、足下の屍が耐えきれず自壊していく。
+    paragraph: p223
+    quote_verified: true
+  expected_payoff: 負の感情の爆発が、敵だけでなく味方にも被害を及ぼす暴走イベント、または新たな能力の覚醒へつながる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「可愛さ」は防御力であり、外見の軽薄さは自己責任論（無視される警告）と対比され、世界の本質が「表象」で構成されていることを示す。
+  weight: 0.8
+  quotes:
+  - quote: 『可愛い』というのは立派な呪術障壁となり得るのだ。
+    paragraph: p74
+    quote_verified: true
+  - quote: 注意書きを設置しているのだが、どうしてか無視して挑んだ挙げ句、帰らぬ人となるケースが後を絶たないという。
+    paragraph: p11
+    quote_verified: true
+  note: パレルノ山の危険性（物理的・社会的）と、メイファーラの鎧（呪術的・表象的）の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的な「資源争奪戦」における屈辱は、個人的な恨みを超え、集団の結束と復讐の原動力となる。
+  weight: 0.7
+  quotes:
+  - quote: 私達は共感によって怒りと憎しみと殺意という繋がりを獲得したのだった。
+    paragraph: p219
+    quote_verified: true
+  - quote: 敗北と喪失――その借りは必ず返す。
+    paragraph: p236
+    quote_verified: true
+  note: 鴉による妨害という「ゲーム的」な屈辱が、物語を「復讐劇」へと変質させる転換点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 知覚の相対性：天眼（超知覚）と液晶画面（現代技術）、そして色彩喪失（異界経験）が混在し、世界の見え方が参加者ごとに断片化している。
+  weight: 0.6
+  quotes:
+  - quote: 天眼の民が有する超知覚は千里眼と呼ばれ…液晶画面に微細な画素を並べる光学ディスプレイである。
+    paragraph: p115-p145
+    quote_verified: false
+  - quote: 今でこそ色彩というものが理解できるけれど――私は元々、色彩を知らなかったから。
+    paragraph: p131
+    quote_verified: true
+  note: 探索の前提となる「視覚」の多様性が、チーム内の不和（ミルーニャとメイファーラ）やアズアズの質問を通じて描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生理的欲求（空腹・疲労）は崇高な精神性（騎士団の誓い、呪術的戦意）を侵食し、人間性を剥き出しにする。
+  weight: 0.5
+  quotes:
+  - quote: ハルベルトのお腹が可愛らしく鳴った。お昼時という時間帯が、わだかまった情念に飢えという起爆剤を投下したのである。
+    paragraph: p246
+    quote_verified: true
+  - quote: 歩くの速すぎ。このままだと、目的の素材を見逃す可能性がある。
+    paragraph: p106
+    quote_verified: true
+  note: 復讐の決意が「焼き鳥が食べたい」という俗物的な動機で補強され、シリアスさの脱力と人間味を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

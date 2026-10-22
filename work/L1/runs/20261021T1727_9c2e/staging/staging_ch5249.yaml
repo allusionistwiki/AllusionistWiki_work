@@ -1,0 +1,334 @@
+episode: ch5249
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_行司シューラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_行司シューラ_other_試合_p100
+        quote: 二頭身のデフォルメ魔女は、何故か黒い烏帽子に男性用の衣服であるはずの直垂（ひたたれ）を身につけており、更には軍配団扇を手にしていた。いつも通りの微笑みを浮かべているのだが、装いのせいかやや奇妙な印象が拭いきれない。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_警備ドローン]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5249_警備ドローン_captures_観客_p11
+        quote: 高い天井に浮遊絨毯で昇って試合を念写撮影したり、試合を妨害しようとしたり、何に使うのかわからない賞品を売りさばこうとしたりしては警備ドローンに掴まって連行されていく。恐らく行き先は『反省室』だろう。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_俺]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5249_俺_observes_行司シューラ_p110
+        quote: ――なぜか、奇妙な違和感を覚えた。それが、俺の脳内ちびシューラが復旧できずにいることが原因なのか、同期が切れたままであることが原因なのかはわからないが、とにかく奇妙な感覚としか言いようが無かった。
+        locator: {}
+        spoiler_after: ch5249
+      - event_ref: E_ch5249_俺_says_安全宣言_p46
+        quote: 「サイバーカラテの試合ではよくあることだ。流石に首や目、急所なんかへの攻撃は禁止されてるし、死人や重傷者が出たりはしないから大丈夫だろう」
+        locator: {}
+        spoiler_after: ch5249
+      - event_ref: E_ch5249_俺_thinks_罠の意図_p68
+        quote: 敵対勢力がこちらを付け狙っている状況下で、わざわざ拠点である巡槍艦に不特定多数を招き入れるような真似をすれば、露骨な罠だとあちらも気付くだろう。
+        locator: {}
+        spoiler_after: ch5249
+      - event_ref: E_ch5249_俺_threatens_変異の三手_p72
+        quote: 来なければ一方的な勝利宣言を行い、相手の名声に攻撃を加えるだけだ。そしてそれを許せば、【変異の三手】の呪的な格は凋落する。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_立体映像の掛け軸]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_立体映像の掛け軸_appears_as_広告_p13
+        quote: 立体映像の掛け軸が『心頭滅却すれば火もまた涼し、心頭滅却の為の催眠・幻覚呪術の購入は下記のURLをクリック、今ならキャンペーン中で大幅値下げ実施中』の文字を上から下へと流している。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_カーイン対策]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5249_カーイン対策_functions_as_トップメタ_p133
+        quote: 現環境下における一つの流行はカーインの摸倣だが、同レベルで内力を操れる使い手がいない為、当人と相対してしまえば敗北するしかない。そのためカーイン対策がトップメタであり、更にそのアンチがそれに次ぐ数だけ存在する、という状況になっていた。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5249_レオ_loves_カーインの勝利_p139
+        quote: カーインが鮮やかに勝利していく度に、俺の脇でレオが歓声を上げる。相変わらずの強さを見せるカーインに少しばかり心がざわついて感情が凍りかけたが、レオが喜んでいるのを見ると些細な事に思い煩うことが愚かしくなる。茶縞の耳が小さく動くのが可愛らしい。
+        locator: {}
+        spoiler_after: ch5249
+      - event_ref: E_ch5249_レオ_helps_俺_p40
+        quote: 体調が思わしくない俺を気遣ってあれこれと世話を焼いてくれる少年は、セージでなくとも魅了されるほどに愛らしい。
+        locator: {}
+        spoiler_after: ch5249
+    speech:
+      observations:
+      - event_ref: E_ch5249_レオ_finds_グラッフィアカーネ_p206
+        quote: 「グラッフィアカーネ――ってこれ確か、トリシューラが言ってたマレブランケの予定名簿の中にあった名前だな。偶然、じゃないよな。新メンバーか？」
+        locator: {}
+        spoiler_after: ch5249
+      - event_ref: E_ch5249_レオ_asks_安否_p37
+        quote: 「さっきの人、大丈夫でしょうか。心配だなあ」
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5249_ゼド_other_クレーム_p146
+        quote: カメラに写されると魂を奪われる、機械など信用出来ない、という物言いがつく場合は、副審であるゼドの出番となる。四英雄の権威と説得力は絶大なのか、彼の判定にまで文句をつける参加者は皆無だった。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_ノアズアーク]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5249_ノアズアーク_travels_世界槍周囲_p15
+        quote: 巡槍艦ノアズアークは『港』を離れ、世界槍の周囲を巡航中である。世界槍の呪力で航行しているので、離れ過ぎて墜落しないようにつかず離れず、衛星のようにぐるぐると回り続けていた。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5249_カルカブリーナ_loses_初戦_p150
+        quote: 銃士になりたての【マレブランケ】の一人、カルカブリーナもまた徒手空拳での出場となったが、彼は初戦で敗北していた。カルカブリーナを破ったのは、黒色のフード付きローブで全身を覆い隠した参加者だった。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_カニャッツォ]]'
+  entity_type: relationship
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_カニャッツォ_appears_as_ブルドッグ獣人_p169
+        quote: 彼の容貌は、ブルドッグの頭部を持った獣人、という言葉で簡単に形容できる。しわくちゃの顔面は醜さと愛嬌が鬩ぎ合う何とも味のある皮の弛んだものだ。
+        locator: {}
+        spoiler_after: ch5249
+    speech:
+      observations:
+      - event_ref: E_ch5249_カニャッツォ_says_カーインへの畏敬_p173
+        quote: 「いやあ、負けた負けた。カーインの奴、まぁた強くなりやがったな。追いつけるのはいつになることやら」
+        locator: {}
+        spoiler_after: ch5249
+      - event_ref: E_ch5249_カニャッツォ_other_グラッフィアカーネ_p225
+        quote: 「実は、俺がトリシューラの姐さんに紹介したんだよ。ジャッフハリムにいた頃にちょっとした縁があってな。まあ見てな、かなり使える奴だからよ」
+        locator: {}
+        spoiler_after: ch5249
+    name:
+      observations:
+      - event_ref: E_ch5249_カニャッツォ_names_新名_p184
+        quote: 古いリングネームを捨て、新たにカニャッツォという名前で再スタートし、いずれ俺とカーインを超える力を身につけてガロアンディアンの頂点に返り咲く事が今の彼の目標らしい。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_観客]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5249_観客_observes_試合_p18
+        quote: 観客といっても、このトーナメント会場にいるのはほぼ全てがサイバーカラテユーザー、つまりはサイバーカラテ道場の第五階層支部に通ったことがある面々ばかりだ。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテユーザー]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5249_サイバーカラテユーザー_says_発勁用意_p2
+        quote: 「発勁用意！　NOKOTTA!」
+        locator: {}
+        spoiler_after: ch5249
+    symbolic:
+      observations:
+      - event_ref: E_ch5249_サイバーカラテユーザー_uses_狩り場_p23
+        quote: 実戦データを収集できるこのような場所は、サイバーカラテユーザーにとって垂涎の『狩り場』である。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_インドアユーザー]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5249_インドアユーザー_other_改善案_p21
+        quote: インドアユーザーやカジュアルユーザーといった積極的には実戦をしない層、いわゆる格闘技マニアたちが、それぞれ試合についてコメントしたり独自の改善案を考案したりと議論を交わしていた。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グラッフィアカーネ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_グラッフィアカーネ_appears_as_ビーグル獣人_p219
+        quote: ブルドッグ氏族ではなくビーグル氏族で、垂れ耳がどこか愛嬌を感じさせる。毛並みは良く、色はトライカラーの白、黒、黄褐色（タン）である。
+        locator: {}
+        spoiler_after: ch5249
+    action:
+      observations:
+      - event_ref: E_ch5249_グラッフィアカーネ_defeats_カーイン_p267
+        quote: 獣人は手刀によってカーインの貫手の勢いを受け流し、その上で力を完全に無駄なく利用して中心軸を崩し、投げ飛ばしたのだ。
+        locator: {}
+        spoiler_after: ch5249
+      - event_ref: E_ch5249_グラッフィアカーネ_uses_生体電流制御_p272
+        quote: グラッフィアカーネの胸元から覗く金剛杵が、濁った鈴の音をガラガラと鳴らしながら稲光を放っている。全身に青白い稲妻を纏わせた犬の獣人は、おそらく呪術で生体電流を増幅して自らの肉体を完全に制御し、更には相手の神経反射を制限することで自他の動きを完璧に合一させて技をかけたのだろう。
+        locator: {}
+        spoiler_after: ch5249
+    speech:
+      observations:
+      - event_ref: E_ch5249_グラッフィアカーネ_other_勝利_p288
+        quote: 「いえ、ここはルールに違反した俺が退くべきでしょう。勝ちに拘りはありませんし、単にこういう催しに参加して自己紹介の代わりにしたかっただけなので」
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラズリ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_ラズリ_fears_対戦カード_p232
+        quote: ガタッという音がしたので視線を向けると、パイプ椅子から勢い良く立ち上がっている人がいた。暗色のヴェールに隠れた表情が美しい。店員さんことラズリ・ジャッフハリムさんである。何故か息が荒く顔が赤い。
+        locator: {}
+        spoiler_after: ch5249
+    speech:
+      observations:
+      - event_ref: E_ch5249_ラズリ_other_俺_p239
+        quote: 「――あっ、ええと、ごめんなさい！」
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_サイバーカラテ]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5249_サイバーカラテ_functions_as_国民的スポーツ_p27
+        quote: 今やサイバーカラテは第五階層の国民的スポーツである。
+        locator: {}
+        spoiler_after: ch5249
+      - event_ref: E_ch5249_サイバーカラテ_defines_拡張身体武術_p34
+        quote: サイバーカラテは拡張身体としての靴、義足を用いる事を前提とした武術だ。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_靴]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_靴_has_property_鋼鉄_p32
+        quote: 原則として土足が推奨されているため、蹴り技の威力はひどく険呑だ。場合によっては怪我人も出る。今も、鋼鉄が入った靴での蹴りが直撃した男性が救護ドローンによって運び出されていくという光景が目に入った。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_セージ]]'
+  entity_type: relationship
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_セージ_loves_レオ_p42
+        quote: 茶白の猫耳が微かに動くたびにセージの表情が緩み、彼が甲斐甲斐しく俺にかまい付ける度に忌々しげに舌打ちする。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファル]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_ファル_observes_レオ_p43
+        quote: 更にはそれを遠巻きに見ているファルが陶然と溜息を吐いていた。
+        locator: {}
+        spoiler_after: ch5249
+    action:
+      observations:
+      - event_ref: E_ch5249_ファル_loses_試合_p49
+        quote: セージの表情が目まぐるしく変化し、それに見とれていたファルが対戦相手の一撃を喰らって昏倒する。試合中に余所見するからだ。自業自得である。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_熱気]]'
+  entity_type: motif
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_熱気_appears_as_湯気_p5
+        quote: 溢れかえる汗と熱気が冬場の冷たさを押しのける様は圧巻と言っていい。比喩ではなく、立ち上る熱は湯気となって広々とした空間を暖めていた。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_トーナメント]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5249_トーナメント_defines_名誉の戦い_p57
+        quote: アストラルネットで全国中継されているため、敗北は名誉の失墜、勝利は存在の強度の上昇を意味する。コルセスカが言うところの『名声値』をかけた勝負は、この世界において極めて大きな意味を持っているのだった。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_変異の三手]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_変異の三手_appears_as_夜の民_p79
+        quote: 流石に手練れ揃いで、順調に初戦を勝ち上がってきていた。懸念としてはリーダーであるグレンデルヒと三人の副長の姿が見えないことがあるのだが、黒いローブで全身を隠している『自称夜の民』が四人いる時点で察してくれと言っているようなものだ。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ジョイントマット]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5249_ジョイントマット_has_property_防御呪術_p8
+        quote: 霊木板を組み合わせた床は広く、試合用のジョイントマットは転倒や衝撃のダメージを効率的に吸収する防御呪術が付与されている。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_第五階層]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5249_第五階層_is_located_練武場_p9
+        quote: 同時に八ヶ所で試合を行えるだけのスペースに、溢れ出さんばかりの人が詰め込まれており、そこには第五階層そのものとでも言うべき混沌が凝縮されていた。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5249_コルセスカ_uses_三叉槍_p92
+        quote: 恐ろしい事に、コルセスカは呪術を一切使っていない。穂先に布を巻いた試合用の三叉槍を振るって武技のみで勝ち上がっている。
+        locator: {}
+        spoiler_after: ch5249
+  first_appearance_candidate: true

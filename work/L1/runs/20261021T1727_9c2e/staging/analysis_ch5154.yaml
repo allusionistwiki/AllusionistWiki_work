@@ -1,0 +1,253 @@
+chapter: ch5154
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 25
+  quotes_total: 25
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Mirunya_Cost_Payment]]'
+  object: '[[ME_Gacha_Ceiling]], [[ME_MobileGame_Crafting_System]]'
+  claim: 神滅具の発動コストとしての肉体破壊は、ガチャ産装備やCrafting素材を消費するゲームシステムにおけるリソース管理と自己犠牲の比喩である。
+  quote: この通り、代償として私の肉体を破壊してしまいますが――まあ神滅具にはよくあることです。コストを踏み倒せる私には関係が無い。
+  paragraph: p10
+  confidence: strong
+  quotes:
+  - quote: この通り、代償として私の肉体を破壊してしまいますが――まあ神滅具にはよくあることです。コストを踏み倒せる私には関係が無い。
+    paragraph: p10
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_Tribina_TreeConstruction]]'
+  object: '[[ME_HumanPyramid]], [[ME_ChickenRopeFormation]]'
+  claim: ティリビナの民が体を重ねて大樹を模す行為は、人間ピラミッドやチキンロープのような集団芸能的な構造化であり、個の消失と全体の一体化を示す。
+  quote: 最も体格の良い大人たちが土台となり、その身体の上に他の大人たちが乗る。二段目の上には三段目、上に行くにつれて年若い者が乗っていく、立体的な生体建築。
+  paragraph: p28
+  confidence: moderate
+  quotes:
+  - quote: 最も体格の良い大人たちが土台となり、その身体の上に他の大人たちが乗る。二段目の上には三段目、上に行くにつれて年若い者が乗っていく、立体的な生体建築。
+    paragraph: p28
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_Milunya_Flag_Effect]]'
+  object: '[[ME_MassPropaganda]], [[ME_Totalitarianism]], [[ME_RadicalizationAlgorithms]]'
+  claim: 「血色の戦場旗」による大衆扇動と個我の弱い者への効果は、全体主義のプロパガンダやSNS上のアルゴリズムによる急進化を指喩している。
+  quote: この神滅具は大衆を扇動して死ぬまで突撃させる――要するに大規模な催眠暗示ですが、『個我』が弱い者ほどよく引っかかる。
+  paragraph: p82
+  confidence: strong
+  quotes:
+  - quote: この神滅具は大衆を扇動して死ぬまで突撃させる――要するに大規模な催眠暗示ですが、『個我』が弱い者ほどよく引っかかる。
+    paragraph: p82
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_Tribina_Community]]'
+  object: '[[ME_FamilyValues]], [[ME_SolidarityAsWeakness]]'
+  claim: ミルーニャは家族や同胞への忠誠（連帯）を「弱さ」「寄生」と断じ、個人主義・自己決定論的な強さを称揚する逆説的な倫理観を提示する。
+  quote: 融合だの合体だの、そんなものは弱さのあらわれだ！ 足りない者、欠けた者、持たざる者が他者に寄生しているだけに過ぎない！ 傷を舐め合うような惨めさです！！
+  paragraph: p95
+  confidence: strong
+  quotes:
+  - quote: 融合だの合体だの、そんなものは弱さのあらわれだ！ 足りない者、欠けた者、持たざる者が他者に寄生しているだけに過ぎない！ 傷を舐め合うような惨めさです！！
+    paragraph: p95
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Tribina_Magic_Cost]]'
+  object: '[[ME_ArtisticProduction]], [[ME_CommodityFetishism]]'
+  claim: 祭りの装飾品を破壊して呪力に変換する行為は、芸術作品の生産と消費（廃棄）が文化的エネルギーを生むという構造のメタファーである。
+  quote: その破壊と浪費こそが呪術的祭儀の目的だった。ティリビナの民たちが丹念に作り上げた木彫り細工や大掛かりな台座や櫓、豪華絢爛な花飾りの数々は、こうして消費されることによって呪力に変換される。
+  paragraph: p54-56
+  confidence: moderate
+  quotes:
+  - quote: その破壊と浪費こそが呪術的祭儀の目的だった。ティリビナの民たちが丹念に作り上げた木彫り細工や大掛かりな台座や櫓、豪華絢爛な花飾りの数々は、こうして消費されることによって呪力に変換される。
+    paragraph: p54-56
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Milunya_LastWitch]]'
+  object: '[[ME_FateRewriting]], [[ME_TragedyHeroine]]'
+  claim: ミルーニャの「最後の魔女になって、正しい運命を取り戻す」という叫びは、宿命に抗う悲劇的ヒロイン像や、既存の運命論への反逆を暗示する。
+  quote: 私は最後の魔女になって、正しい運命を取り戻すっ！ 私がっ、私がっ、この、私がっ！！
+  paragraph: p86
+  confidence: weak
+  quotes:
+  - quote: 私は最後の魔女になって、正しい運命を取り戻すっ！ 私がっ、私がっ、この、私がっ！！
+    paragraph: p86
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: My_Azuria_Target
+  note: プリエステラがミルーニャの真の狙いがアズーリアにあると指摘し、ミルーニャが完全に停止する。この関係性と動機が今後の展開で核心となる。
+  quotes:
+  - quote: 貴方の狙いは私でもハルでもない――そこにいるアズーリアなんでしょう。違う？
+    paragraph: p109
+    quote_verified: true
+  - quote: 今度こそ、ミルーニャと石像の動きが完全に停止する。
+    paragraph: p111
+    quote_verified: true
+  expected_payoff: アズーリアの正体、ミルーニャとの因縁（過去）、および最終決戦の真の動機が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: My_Milunya_UnresolvedFeelings
+  note: プリエステラに「恨み」を抱えたままなのかと問われ、ミルーニャは答えられず感情が抜ける。彼女の内部の葛藤と過去のトラウマ。
+  quotes:
+  - quote: 仇への恨み、お父さんへの恨み、そういうの全部。色んな曇った気持ち、抱えたままになってるんじゃないの？
+    paragraph: p105
+    quote_verified: true
+  - quote: 静寂の後、ミルーニャの顔からあらゆる感情が抜け落ちた。
+    paragraph: p117
+    quote_verified: true
+  expected_payoff: ミルーニャのキャラクター深掘り、救済ルート、または彼女を操る「恨み」の源流の特定。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: My_FlagSeizure
+  note: プリエステラが落下時に扇動の呪具（旗）を巻き取った。この旗がどうなったか、そしてミルーニャが「無駄なことを」と評した意味。
+  quotes:
+  - quote: 月光を背にしながら、プリエステラは袖口から蔦を伸ばして血色の旗を巻き取った。
+    paragraph: p121
+    quote_verified: true
+  - quote: 「無駄なことを」
+    paragraph: p123
+    quote_verified: true
+  expected_payoff: 旗の処分、あるいは回収され再使用される可能性。ミルーニャが旗を失うことで戦力が低下するか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: My_TribinaResilience
+  note: プリエステラ（脳）を失ったはずの樹木巨人が、最後の一撃を放ち石像を破壊した。個々の意志の総和が司令塔の不在を超えるメカニズム。
+  quotes:
+  - quote: 崩壊し、全身の至る所から内部の人と人が繋がった神経繊維を覗かせながらも、総員が必死になって与えられた役割を果たそうと最後の一撃を放つのを。
+    paragraph: p128
+    quote_verified: true
+  - quote: 樹木巨人が拳に乗せた呪力と衝撃はついに呪鉱石の巨像に亀裂を走らせ、やがてそれは致命的な決壊をもたらす。
+    paragraph: p130
+    quote_verified: true
+  expected_payoff: ティリビナの民の集団意識の本質、あるいは「脳」以外の制御システム（神経繊維による分散処理）の設定開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: My_MilunyaSilence
+  note: 章末でミルーニャが何かを言おうとして強張る。彼女の「沈黙」の理由、あるいは彼女がプリエステラの言葉に何を返すのか。
+  quotes:
+  - quote: その目が揺れ動く。白い少女の表情が強張って、何かを口にしようとする。
+    paragraph: p137
+    quote_verified: true
+  expected_payoff: 次章でのミルーニャの台詞による心情開示、敵対関係の変化、または戦闘継続の合図。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己犠牲とリソース管理のメタファーとしての呪術体系
+  weight: 0.8
+  quotes:
+  - quote: それは、超常現象の対価として物質的な生贄を要求する杖的呪術そのものであった。
+    paragraph: p8
+    quote_verified: true
+  - quote: コストを踏み倒せる私には関係が無い。
+    paragraph: p10
+    quote_verified: true
+  note: 魔法システムが経済的・物理的なコスト計算に基づいており、ミルーニャの「不死性」によるコスト無視が彼女の特異性を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 集合意識の強靭性と「個」の脆弱性の対比
+  weight: 0.9
+  quotes:
+  - quote: 貴方たちのように、他者の力に頼る類の人種には効果覿面というわけです
+    paragraph: p82
+    quote_verified: true
+  - quote: 雑魚がどれだけ群れた所で！ そんなのは個々の力が弱いと白状しているようなものです！
+    paragraph: p86
+    quote_verified: true
+  note: ミルーニャは集団を「弱さの集積」として軽蔑し、プリエステラは集団を「信頼のネットワーク」として擁護する。この二つの倫理観が衝突している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 恨みと恐怖による動員の心理学（扇動の構造）
+  weight: 0.7
+  quotes:
+  - quote: 恨みと憎しみ、抑圧と鬱屈、『いつか必ず』という怨念、そして大切なものを奪われるという恐怖と嘆き、怒りと悲しみ――弱者を奮い立たせるそうした力はね、何も貴方たちの専売特許じゃないんですよ。
+    paragraph: p90
+    quote_verified: true
+  - quote: ティリビナの民たちは暴走していた。怒り、憎しみ、敵意、悪意、恨み、そうしたあらゆる負の感情を溢れさせ、ミルーニャに我先にぶつけようとしている。
+    paragraph: p84
+    quote_verified: true
+  note: ミルーニャは「恨み」が弱者を動かす燃料であることを理解しており、それを武器として利用する冷徹な心理戦の構造が見える。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族・同胞愛の再定義とミルーニャへの共感による和解の可能性
+  weight: 0.85
+  quotes:
+  - quote: 「でも、父親は父親だって！ 仇を討ちたい気持ちはわかるって、言ってくれたじゃないっ！！」
+    paragraph: p97
+    quote_verified: true
+  - quote: 「だから言ったでしょ。私は、私達は信じ合ってる――少しでも共感しあえるのなら、そこから繋がることができるんだ」
+    paragraph: p134
+    quote_verified: true
+  note: プリエステラの言葉がミルーニャの孤立した恨みを揺さぶり、敵対関係の中に「共感」という突破口が見出されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体と建築：人体による構造化とその破壊
+  weight: 0.6
+  quotes:
+  - quote: 立体的な生体建築。脅威的な均衡と安定感は、樹木と共に生きるティリビナの民特有のものだった。
+    paragraph: p28
+    quote_verified: true
+  - quote: 樹木巨人が崩れ落ち、横倒しの倒木となって気絶したティリビナの民たちを吐き出していくのと同時に、石像もまた粉々に粉砕されていった。
+    paragraph: p132
+    quote_verified: true
+  note: 生体建築という特異な形態と、その崩壊・解体プロセスが視覚的・構造的な対称性を持って描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

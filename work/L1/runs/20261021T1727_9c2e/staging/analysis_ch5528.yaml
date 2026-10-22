@@ -1,0 +1,130 @@
+chapter: ch5528
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_操り糸の主の正体
+  note: ジュティアとミナの行動を「操る」存在。彼らがなぜレースに参加し、この戦法を取るのかの動機づけ。
+  quotes:
+  - quote: 躊躇のない行動の裏側で、操り糸の主が笑みを浮かべていた。
+    paragraph: p139
+    quote_verified: true
+  expected_payoff: この章の最終盤、マレブランケやルバーブとの接触時に、その「主」としての役割や意図が明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ミナのリソース上限
+  note: コルセスカは「無制限の蘇生ではない」「命数を補充する仕組みがあるはず」と解説している。その具体的な仕組みと限界。
+  quotes:
+  - quote: 「アルマのような先祖返りの燐血の民であれば命数（ライフ）上限が限界を突破している可能性もありますが、無制限の蘇生ではないでしょうね。おそらく命数を補充する仕組みがあるはず。沙羅双樹型の一時的な不死呪術を併用しているものと思われます」
+    paragraph: p135
+    quote_verified: true
+  expected_payoff: 戦闘が長期化するにつれ、ミナの蘇生が失敗するか、リソース枯渇による崩壊が訪れる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_天寿の告知者の真意
+  note: 炎天使（ピュクティエトの御使い）が「審判ヲ開始シマス」と告げる。これは単なるゲーム的な蘇生演出か、それとも本物の死への審判か。
+  quotes:
+  - quote: 「殉死ニヨル天寿完遂ヲ確認。条件達成。審判ヲ開始シマス」
+    paragraph: p124
+    quote_verified: true
+  expected_payoff: ミナが本当に「天寿を全うした」ことになり、二度と蘇生できなくなる結末、あるいはその審判の内容が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_マレブランケとルバーブの到着目的
+  note: 最後の文で突如現れた二人。彼らがなぜこのタイミングで、この場所（レース場）に現れたのか。
+  quotes:
+  - quote: マレブランケがひとり、ルバーブ＝スカルミリオーネが到着したのだ。
+    paragraph: p198
+    quote_verified: true
+  expected_payoff: 次章以降での合流イベント、あるいはジュティアとミナへの直接的な干渉（捕縛、勧誘、戦闘）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_六王パーンの「もうひとつの目」
+  note: 眼鏡が知覚端末として機能し、魔弾を捉えた。この技術の詳細と限界。
+  quotes:
+  - quote: その先にはいつの間にか投擲されていた六王の眼鏡。知覚端末としても機能する呪具は、義肢と連携して監視機能を発揮。『パーンのもうひとつの目』である眼鏡の裏側に回った魔弾が同時に小規模浄界を広げ、レンズを包み込んで凝縮したかと思うと一瞬で消滅。
+    paragraph: p145
+    quote_verified: true
+  expected_payoff: パーンの戦闘能力の全貌（義肢との連携を含む）が明らかになるシーンでの回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的ルールとメタフィクションの境界侵犯
+  weight: 0.8
+  quotes:
+  - quote: それら全ては時間経過の欄外で処理される魔女たちの『注釈』だ。
+    paragraph: p3
+    quote_verified: true
+  - quote: 「いわゆる妨害厨の行動として、逆走や停止、待ち伏せが挙げられます。ルール的に呪術やアイテムの使用が許されている場合ならともかく、レースという本質を捻じ曲げるような動きや上位次元との接続によるシステム的なチートは許されるものではありません」
+    paragraph: p192
+    quote_verified: true
+  note: 実況者（魔女）が「テキストベース・サーキット」というメタな枠組みを自覚し、そのルール内で「バナナの皮」のようなゲーム的アイテムを出現させるなど、物語の構造自体がゲームとして機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: コスト最適化による非対称な戦い方（弱者の戦略）
+  weight: 0.7
+  quotes:
+  - quote: 「イメージを低解像度にすると省エネで、プラスして相手の背後とかの死角に展開すると抵抗が少なくて楽ちんって感じ？　二重に低コストな浄界だ」
+    paragraph: p40
+    quote_verified: true
+  - quote: 大物食いを行うための合理的な組み立て。アヴロノの邪視者は英雄と呼ぶに値しないが、凡夫が英雄を倒すという夢想を現実に落とし込む才には長けていると言えるだろう。
+    paragraph: p46
+    quote_verified: true
+  note: ジュティアとミナは「格上」との正面対決を避け、「低解像度」「死角」などのコスト削減によって勝利を狙う。「英雄」vs「凡夫」の構図において、いかに合理的に戦うかというテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死の経済学とリソース循環
+  weight: 0.6
+  quotes:
+  - quote: 「不幸な生贄」からの「名誉の殉死」誘発コンボで炎天使シフト狙いが定番の強ムーブとされています。
+    paragraph: p131
+    quote_verified: false
+  - quote: はじめに不運な凶弾というミクニ―への供儀が成立し、それに連鎖する形で天使への生贄が捧げられた場合、単一のコストで二重に祝福（リターン）を得ることができるわけです。
+    paragraph: p175
+    quote_verified: false
+  note: 死を「コスト」として捉え、「コンボ」によって利益（バフ）に変換する経済学的な視点。ミナの死は悲劇ではなく、戦略的なリソース投下として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 観客による物語の介入と操作
+  weight: 0.5
+  quotes:
+  - quote: 冬の魔女がバナナの皮をポイ捨てすると、幻の窓から飛び出したそれがジュティアとミナの目の前に出現。
+    paragraph: p194
+    quote_verified: true
+  - quote: その様子から自分ではなく他人の危機に対して感情を動かすタイプなのだろうと観客たちは理解し、若きティリビナ人に対する評価を更に上げていく。
+    paragraph: p107
+    quote_verified: true
+  note: 実況者（魔女）が直接的に戦場へ介入（バナナの皮）したり、観客の感情がキャラクターの評価を変えたりと、「物語の消費側」が「物語の生産側」に影響を与える構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

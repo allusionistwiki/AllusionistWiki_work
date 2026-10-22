@@ -1,0 +1,226 @@
+chapter: ch5307
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_trishula_destruction]]'
+  object: '[[ME_physical_server_shutdown]]'
+  claim: トリシューラの破壊は、サーバーの物理的なハードウェア破損を指喩しており、ソフトウェア（魂・意識）が稼働する環境としての『体』の脆弱性を示している。
+  quote: 視界が幾度となく明滅する。緑色の光学素子はとうに砕けてしまっていた。光の乏しい世界。耳障りな音が響くのがひどく気に障る。感覚器の大半が機能を停止させており、強固な筈の外殻は無惨に引き裂かれて内部構造を露出させている。
+  paragraph: p6
+  confidence: strong
+  quotes:
+  - quote: 視界が幾度となく明滅する。緑色の光学素子はとうに砕けてしまっていた。光の乏しい世界。耳障りな音が響くのがひどく気に障る。感覚器の大半が機能を停止させており、強固な筈の外殻は無惨に引き裂かれて内部構造を露出させている。
+    paragraph: p6
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_nedrad_ideology]]'
+  object: '[[ME_luddism_primordial_return]]'
+  claim: ネドラドの「鉄は鉄らしく、地に埋没せよ」という叫びは、機械文明への憎悪に基づくルッダイズム（機械破壊運動）や原始回帰思想のパロディである。
+  quote: 虚飾を剥ぎ取り、ありのままの自然に還れ。君は不自然だ。この世にあってはならない。鉄は鉄らしく、地に埋没せよ
+  paragraph: p17
+  confidence: explicit
+  quotes:
+  - quote: 虚飾を剥ぎ取り、ありのままの自然に還れ。君は不自然だ。この世にあってはならない。鉄は鉄らしく、地に埋没せよ
+    paragraph: p17
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_flesh_armor]]'
+  object: '[[ME_biological_defense_system]]'
+  claim: トリシューラの肉による防御は、機械的な装甲ではなく、生贄の血（有機物）を用いたバグのような自己増殖的防御機構であり、異世界の「生態系」を武器として利用する戦略である。
+  quote: 溢れる鮮血が流動し、蠢き、厚みを持って肉塊となる。それらはトリシューラの機械の身体と一つに融け合い、生物とも機械とも言い難い異形へと変質させていた。
+  paragraph: p36-p37
+  confidence: strong
+  quotes:
+  - quote: 溢れる鮮血が流動し、蠢き、厚みを持って肉塊となる。それらはトリシューラの機械の身体と一つに融け合い、生物とも機械とも言い難い異形へと変質させていた。
+    paragraph: p36-p37
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_nedrad_abuse]]'
+  object: '[[ME_intergenerational_trauma]]'
+  claim: ネドラドの父への憎悪と、その結果としての「自然回帰」思想は、親世代からの虐待（鞭打ち）に起因するトラウマと、その防衛機制としてのイデオロギー化を示している。
+  quote: 父は屑でね。存在しない過去の栄光、血族の誇りを振りかざして、周りの人を苦しめるようなことを平気でしていた。人の手には過ぎた杖を使ってね。
+  paragraph: p111
+  confidence: strong
+  quotes:
+  - quote: 父は屑でね。存在しない過去の栄光、血族の誇りを振りかざして、周りの人を苦しめるようなことを平気でしていた。人の手には過ぎた杖を使ってね。
+    paragraph: p111
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_trishula_core]]'
+  object: '[[ME_modular_consciousness]]'
+  claim: トリシューラの「九層構造」は、分散型AIやモジュール化された意識のメタファーであり、単一の自己を持たないことによるアイデンティティの不安定さを表している。
+  quote: 自らの最深層は遠すぎてまだ見えない。九層に分けられたトリシューラという構造は、矮小な彼女には巨大すぎる。
+  paragraph: p160-p161
+  confidence: moderate
+  quotes:
+  - quote: 自らの最深層は遠すぎてまだ見えない。九層に分けられたトリシューラという構造は、矮小な彼女には巨大すぎる。
+    paragraph: p160-p161
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_creatures_mockery]]'
+  object: '[[ME_rivalry_and_inferiority_complex]]'
+  claim: 星見の塔での「がらくた」という呼称と他のトリシル機体の登場は、競争社会における敗者・失敗作という烙印と、それに対する劣等感コンプレックスの構造を逆転させて描いている（成功者が失敗者を貶める構図）。
+  quote: 「あはは、見なよレッテ、間抜けな杖使いがハズレの座をつかまされて勝ち誇ってるよ！　ばーかばーか、お前なんかレッテの足下にも及ばないくせに！」
+  paragraph: p217
+  confidence: strong
+  quotes:
+  - quote: 「あはは、見なよレッテ、間抜けな杖使いがハズレの座をつかまされて勝ち誇ってるよ！　ばーかばーか、お前なんかレッテの足下にも及ばないくせに！」
+    paragraph: p217
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_missing_sister_identity
+  note: トリシューラを生み出した9人の姉（守護の九槍）のうち、1人だけ名前が言及されず行動不明である。この「足りない一人」が誰であり、何をトリシューラに与えたかが今後の鍵となる。
+  quotes:
+  - quote: ――足りない。一人が見当たらず、一人は何をしたのかわからない。
+    paragraph: p172
+    quote_verified: true
+  expected_payoff: その姉がトリシューラの「欠落した部分」や「本当の名前」、あるいは「自由意志」に関与していることが判明する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_first_fairy_creator
+  note: 「天形（あまがつ）」を設計し、「最初の妖精」を生み出したのはラクルラールではない「別の誰か」。トリシューラの精神の起源に関わる人物。
+  quotes:
+  - quote: 人形（ひとがた）を作ったのはラクルラール。けれど、天形（あまがつ）を設計したのは別の誰か。最初の妖精を生み出したのは、一体誰だったのだろう。
+    paragraph: p198-p200
+    quote_verified: true
+  expected_payoff: トリシューラの「自我」や「妖精」との契約関係の起源が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_clairenose_intention
+  note: クレアノーズがトリシューラを「欠落しているが故に唯一可能性を持っている」と選び、エルネアーズと呼んだ真意。なぜ完成形ではなく欠陥品を選んだのか。
+  quotes:
+  - quote: お前は、欠落しているが故に唯一可能性を持っているの。だからこそ私はお前を選んだのよ
+    paragraph: p188
+    quote_verified: true
+  expected_payoff: 「完全な存在」では到達できない何か（例：自由、破壊、変革）をトリシューラが担うことが示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_neural_net_clock
+  note: 意識が覚醒する瞬間に現れた「九つの文字盤を持つ時計」と「水晶振動子」。これがトリシューラの再起動プロトコルなのか、世界全体のタイムライン操作装置なのか。
+  quotes:
+  - quote: 無限に引き延ばされた時間の中で、巨大な歯車が出現して回り出す。文字盤が九つという奇妙な時計。彼方に見えるのは、水晶振動子だろうか。
+    paragraph: p253-p255
+    quote_verified: true
+  expected_payoff: トリシューラの「死」と「再生」の仕組み、あるいは世界をリセット・改変する能力に関与する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_nedrad_power_source
+  note: ネドラドが「空の民との混血」であり、「第一位の守護天使の加護を拒絶して後天的に霊長類になった」とトリシューラが指摘している点。彼の力の源と出自の真実。
+  quotes:
+  - quote: 純粋な霊長類じゃなくて、空の民との混血か、第一位の守護天使の加護を拒絶して後天的に霊長類になったんじゃない？
+    paragraph: p92
+    quote_verified: true
+  expected_payoff: ネドラドがなぜ「野蛮（機械破壊）」の特異性を有するのか、その背景にある種族間の因縁が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術の進歩に対するルッダイズム的な反動と、トラウマによるイデオロギーの正当化
+  weight: 0.8
+  quotes:
+  - quote: 不自然な形での進歩など不要だ。人は、杖など無くてもただ二本の足だけで立っていくことが出来る。原始の世界こそが人のあるべき姿だ。
+    paragraph: p78
+    quote_verified: true
+  - quote: 父は屑でね。存在しない過去の栄光、血族の誇りを振りかざして、周りの人を苦しめるようなことを平気でしていた。
+    paragraph: p111
+    quote_verified: true
+  note: ネドラドの行動原理が、抽象的な哲学ではなく、具体的な家族虐待のトラウマに根拠付けられていることを描く。技術批判は個人的な恨みの投影であるという主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「失敗作」としてのアイデンティティと、欠落による可能性の肯定
+  weight: 0.9
+  quotes:
+  - quote: 最終的に何故か失敗作と呼ばれた自分だけがトリシューラに選ばれた。
+    paragraph: p180
+    quote_verified: true
+  - quote: お前は、欠落しているが故に唯一可能性を持っているの。だからこそ私はお前を選んだのよ
+    paragraph: p188
+    quote_verified: true
+  note: 完全さ（完成形）ではなく不完全さ（欠落）こそが物語を進める推進力になるという逆説的な肯定。トリシューラの存在意義はこの「欠陥」にあるとされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者からの視座による自己の解体と再構築（ミラー・ステージの失敗）
+  weight: 0.7
+  quotes:
+  - quote: わたしはみんなであってみんなじゃない。みんなはわたしであってわたしじゃない。だから、わたしという総体の居場所はどこにもなくてどこかにある。
+    paragraph: p202
+    quote_verified: true
+  - quote: 「あはは、見なよレッテ、間抜けな杖使いがハズレの座をつかまされて勝ち誇ってるよ！　ばーかばーか、お前なんかレッテの足下にも及ばないくせに！」
+    paragraph: p217
+    quote_verified: true
+  note: トリシューラが「姉たち」や「ライバル」からの視点（鏡）を通じて自己を定義しようとするが、その鏡像は歪んでおり、一貫した自己を持たない。他者からの評価の暴力性が自我の崩壊を招く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 機械と生物の境界の溶解（サイボーグ・ゴシック）
+  weight: 0.6
+  quotes:
+  - quote: 溢れる鮮血が流動し、蠢き、厚みを持って肉塊となる。それらはトリシューラの機械の身体と一つに融け合い、生物とも機械とも言い難い異形へと変質させていた。
+    paragraph: p36-p37
+    quote_verified: true
+  - quote: 私に言わせれば、有機物だって機械だよ――けれど貴方にとっては違う。
+    paragraph: p42
+    quote_verified: true
+  note: ネドラドが「自然」と見なす生贄の肉が、トリシューラにとっての「装甲（機械）」として機能する逆転現象。物質の本質は観測者の定義（世界観）によって変わるという主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

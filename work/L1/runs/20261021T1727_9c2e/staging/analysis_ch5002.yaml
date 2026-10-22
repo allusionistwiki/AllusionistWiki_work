@@ -1,0 +1,118 @@
+chapter: ch5002
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_人狼の左腕執着
+  note: 人狼がアキラの左腕を「しゃぶり心地」のためだけに奪った理由が、単なる食事欲求を超えた特殊な動機（魔術的資源としての価値など）である可能性。
+  quotes:
+  - quote: 不可解な動きだった。そんなにも俺の左腕のしゃぶり心地が良かったのだろうか。犬っぽい行動といえばそうだが。
+    paragraph: p6
+    quote_verified: true
+  expected_payoff: 左腕そのものに特殊な魔力や技術的価値があり、人狼の背後にいる勢力との争奪戦に発展する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_通信切断の真意
+  note: アキラがノイズを装って通話を切った直後、実際に通信が途絶えた現象が単なる偶然なのか、世界側の干渉（検知システム）によるものか。
+  quotes:
+  - quote: その場しのぎの言葉のつもりだったが、どういうわけか現実になってしまったようだ。音が途切れ途切れになったかと思うと、そのままぷつりと消えてしまった。
+    paragraph: p133
+    quote_verified: true
+  expected_payoff: 異世界側からの通信遮断措置が講じられ、以後サポートセンターとの連絡が完全に絶たれ、孤独な生存競争が始まる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_服再構成失敗の隠蔽
+  note: アキラが「脱糞による汚染」を隠して「システム側のトラブル」と申告した行為が、後の調査で発覚し、保険契約違反や詐欺として裁かれるリスク。
+  quotes:
+  - quote: あっこれちゃんと調べられたらバレるんじゃね？ と短絡的な行動を一瞬悔やんだがもう遅い。
+    paragraph: p65
+    quote_verified: true
+  expected_payoff: サポートセンターの調査により嘘が発覚し、犯罪者としての転生資格剥奪と「情報凍結刑」への進行が加速する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_前世犯罪の露見タイミング
+  note: アキラが「殺し屋（詐欺師）」として働いていた事実と、その殺人幇助行為が異世界側でいつ判明するのか。
+  quotes:
+  - quote: 詳しく調査が行われた場合、前世での犯罪が露見する可能性がある。
+    paragraph: p124
+    quote_verified: true
+  expected_payoff: 元世界からの裁判開始通知が異世界に届き、アキラは逃亡者として迷宮内で追われる身となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 超常現象の官僚化と自己責任論
+  weight: 0.9
+  quotes:
+  - quote: 「申し訳ございません、異世界でのトラブルに関しましては、基本的にはお客様ご本人が独力で何とかしていただく、ということになっておりまして」
+    paragraph: p67
+    quote_verified: true
+  - quote: 脳内では未だに待ち時間を示すジングルが鳴り響いている。
+    paragraph: p36
+    quote_verified: true
+  note: 異世界転生というロマンティックな出来事が、コールセンター対応や保険約款によって冷徹に処理され、主人公の苦難が「契約上の不備」として帰着する構図。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ジャンルクリシェの解体と現実的生存
+  weight: 0.85
+  quotes:
+  - quote: 費用をケチったせいでそういうことは一切無い。
+    paragraph: p8
+    quote_verified: true
+  - quote: サイバーカラテ道場があるとはいえ、俺は一般人である。格闘家とか軍人とかと違い、まともな訓練を受けたことがないのだ。
+    paragraph: p15
+    quote_verified: true
+  note: チート能力の欠如や戦闘力の凡庸さを強調することで、「転生者＝英雄」というメタフィクション的な期待を裏切り、汚物と血に塗れた生々しい生存を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 欺瞞による自己防衛と罪の自覚
+  weight: 0.7
+  quotes:
+  - quote: つまり、転生時のトラブルで全裸になってしまったということにすれば、全裸の俺という犯罪的な状態の責任を俺の脱糞ではなく保険会社ないしは転生業者、システムや機器に押しつけられるのではないかという意図である。
+    paragraph: p64
+    quote_verified: true
+  - quote: 「すみません、なんだか繋がりづらいみたいで、あー、あー、聞こえてますか？ なんだかノイズが凄くて、よく聞き取れないんですが」
+    paragraph: p129
+    quote_verified: true
+  note: 主人公が犯罪者としての自覚を持ちながら、システムの不備を悪用して責任を転嫁し続ける姿。倫理的な破綻と生き延びるための狡知が主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報社会における存在の脆さ（凍結刑）
+  weight: 0.6
+  quotes:
+  - quote: 労役義務を放棄すると四肢や五感を情報凍結されるというから、必死にならざるを得ない。
+    paragraph: p117
+    quote_verified: true
+  - quote: 脳裏を全世界に配信される凍結犯罪者の映像がよぎった。なにもない空間に固定された裸体、情報の入出力だけが行われ、緩慢な脳死の後ぷつりと映像が途切れ、俺という存在が情報的にも意味的にも消失する。
+    paragraph: p126
+    quote_verified: true
+  note: 肉体の死ではなく「情報としての停止・消失」が死刑よりも恐ろしい刑罰として描かれ、異世界転生技術がもたらすディストピア的な監視社会の実態を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,169 @@
+episode: ch5492
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5492_アズーリア_other_連絡の途絶_p11
+        quote: いちおう私の斑に所属する夜の民二人とアヴロノひとりを先行させているのだが、何故か『門』をくぐった瞬間から連絡が途絶えている。嫌な予感しかしないが、不用意に私だけで追いかけるのもまずい。
+        locator: {}
+        spoiler_after: ch5492
+      - event_ref: E_ch5492_アズーリア_other_同調_p162
+        quote: 強制的に同調し、心を重ね、半ば乗っ取る形で安定させていく。それは暴力的な支配であり倫理的に許されない洗脳行為だったけど、私はもうためらわなかった。
+        locator: {}
+        spoiler_after: ch5492
+      - event_ref: E_ch5492_アズーリア_observes_プリエステラの内部_p98
+        quote: 視界を共有した。プリエステラは杖を構え、地面に力なく横たわっているマリナという黒檀の民を睨みつけている。強い隔意と敵意。不信と義務感が激しく燃え上がっているのを感じた。
+        locator: {}
+        spoiler_after: ch5492
+    speech:
+      observations:
+      - event_ref: E_ch5492_アズーリア_other_アイシャの恩恵_p31
+        quote: 「ああ、やっぱり。声でそんな気はしてた。前九槍に助けてもらったし、気にしなくていいですよ。恨んでもいません、むしろ死なずに済んで助かったくらいで」
+        locator: {}
+        spoiler_after: ch5492
+      - event_ref: E_ch5492_アズーリア_other_ミルーニャ_p377
+        quote: '空を大きな虫が飛んでいく。
+
+          ここは未知の異世界で、これから先どうなるかはわからない。
+
+          けれど、少なくとも空は晴れている。
+
+          上を見上げることができる限り、私の心はまだ折れたりしない。
+
+          だから大丈夫だ。私は独りじゃ無いんだから。'
+        locator: {}
+        spoiler_after: ch5492
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マリナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5492_マリナ_reveals_偽装呪術の解除_p127
+        quote: '偽装呪術が完全に剥がれ、真実が露わになる。
+
+          マリナは比喩では無い黒檀の肌を持っていた。'
+        locator: {}
+        spoiler_after: ch5492
+    speech:
+      observations:
+      - event_ref: E_ch5492_マリナ_confesses_混血である事実_p138
+        quote: 「私は黒檀の民とティリビナ人との間に生まれたの。ずっと黒檀の民として生きてきたけど、レルプレアへの信仰心を隠して槍に祈るのはとてもつらかった」
+        locator: {}
+        spoiler_after: ch5492
+      - event_ref: E_ch5492_マリナ_has_property_キノコの呪い_p48
+        quote: 「私はともかくこの子、マリナはよりにもよってキノコの呪い植え付けられてるんだから。異獣認定して殺すにはちょうどいいって話」
+        locator: {}
+        spoiler_after: ch5492
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_イルス]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5492_イルス_promises_生存保証_p14
+        quote: 「いいから言うことを聞くんだ、アイシャ。言理の妖精を正しく機能させれば殺されることはない」
+        locator: {}
+        spoiler_after: ch5492
+    action:
+      observations:
+      - event_ref: E_ch5492_イルス_other_アイシャ_p4
+        quote: どうやら珍しいことに、普段は物静かに治療行為に専念するばかりのイルスが口論しているようだ。
+        locator: {}
+        spoiler_after: ch5492
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アイシャ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5492_アイシャ_other_黒檀の民への憎悪_p16
+        quote: 「わかってないのはイルハムの方！ ヴィティス様の呪詛を甘く見過ぎ。あの方が死んでしまった以上、私たちを守ってくれるものは何も無い。黒檀の民が第四階層でどれだけ恨まれていると思う？
+          この状況で見つかったら嬲り殺しに決まってるでしょ！」
+        locator: {}
+        spoiler_after: ch5492
+      - event_ref: E_ch5492_アイシャ_fears_救助要請による殺害_p6
+        quote: 「応急処置をして救助を呼ぼうかって話になったんだけどさ、そしたら物凄い拒否されちゃって。そんなことをしたら殺されるってさ」
+        locator: {}
+        spoiler_after: ch5492
+    visual:
+      observations:
+      - event_ref: E_ch5492_アイシャ_appears_as_焼爛れた女性_p23
+        quote: ふっくらとした頬は柔らかな印象ながら、明瞭な言葉を吐き出す口やまっstraightな視線は力強い。ショートにした黒髪を全て後ろに流して耳を見せているのもそうした印象を強めている。しかし無惨なことに顔の右半分がひどく焼け爛れ、おまけに片目が潰されていた。
+        locator: {}
+        spoiler_after: ch5492
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ローザ・パルサ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5492_ローザ・パルサ_arrives_アズーリア隊_p320
+        quote: '蜂の翅を振動させながら飛んでくるのはひとりの少女。敵ではない、斥候だ。
+
+          私と同年齢で背丈はちょっとだけあちらが上、昆虫の触角のように跳ねた前髪と外はねの栗毛、前髪を押さえている薔薇の髪飾りが印象的。白を基調とした北辺式修道服に茨と鎖を巻き付かせ、ふわふわした膝上スカートを揺らしながら私の胸に飛び込んで来る。'
+        locator: {}
+        spoiler_after: ch5492
+    speech:
+      observations:
+      - event_ref: E_ch5492_ローザ・パルサ_other_ニゲラとイーベルの捕縛_p335
+        quote: 伏兵に包囲されてしまった三人は必死で逃げたが、敵に夜の民の稀少固有種である夢馬（ナイトメア）がいたのが運の尽きだった。夜の民である二人は逃げ切れずにスキリシアで囚われの身となり、ローザも危うく捕まるところだったという。
+        locator: {}
+        spoiler_after: ch5492
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_虹犬]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5492_虹犬_has_property_異常な耐久力_p338
+        quote: 「浄界で対抗したんだけど、なんか殺しても殺しても死なないのあいつら、おかしいでしょ？ めっちゃ怖かった！ 特にあの傘わんこ！ 他の人は『ちょっとは削れてるかな』感があるんだけど、あのわんこは首をチョキンしても空間ぐねっても水とか地面とか殴ってる感じ！」
+        locator: {}
+        spoiler_after: ch5492
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5492_ミルーニャ_appears_アズーリア隊_p367
+        quote: '滞空状態の機甲箒から小柄な女性が降り立つ。
+
+          箒乗りらしいヘルメットとフライトジャケットという出で立ちで、ゴーグルを持ち上げるとお馴染みの茶色の巻き毛と同色の瞳が露わになる。'
+        locator: {}
+        spoiler_after: ch5492
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ナト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5492_ナト_other_沈み込んだ空気_p4
+        quote: 重く沈み込んだ空気に気まずそうに割り込んだのは、離れた場所で負傷者の様子を見ていたナトだった。
+        locator: {}
+        spoiler_after: ch5492
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_特権]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5492_特権_defines_黒檀の民の安全_p41
+        quote: 全員がそうというわけではないが、黒檀の民は七位の配下になればその庇護を受けることができる。それは第四階層のルールが生んだ必然の状況だった。
+        locator: {}
+        spoiler_after: ch5492
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_プリエステラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5492_プリエステラ_activates_樹木牢獄_p80
+        quote: 私とアイシャよりもプリエステラの方が機敏だった。負傷したマリナという女性に駆け寄り、一瞬にして地面から無数の樹木を生やす。漆黒の幹が密集して隙間のない檻となった。まるで即席の牢獄だ。
+        locator: {}
+        spoiler_after: ch5492
+  first_appearance_candidate: true

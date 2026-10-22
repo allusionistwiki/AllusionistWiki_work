@@ -1,0 +1,219 @@
+chapter: ch5145
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 5
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5145_プリエステラ_other_アキラたち_p2]]'
+  object: '[[ME_現代の医療保険制度・医薬品供給]]'
+  claim: 高位治癒符の流通滞と製薬会社の利潤追求は、現実世界の医療保険制度における高額な治療費や製薬企業の価格操作、および公的支援の不足を批判するメタファーである。
+  quote: 前線では毎日人が怪我したり死んだりしてるのに自社の利益ばっかり追求して流通量絞ってるんですから。本当は幾らでも増産できるくせに、プロテクト料とかを無駄に間に挟むからどんどん高額化して必要な人の手に渡らないわけです
+  paragraph: p39
+  confidence: strong
+  quotes:
+  - quote: 前線では毎日人が怪我したり死んだりしてるのに自社の利益ばっかり追求して流通量絞ってるんですから。本当は幾らでも増産できるくせに、プロテクト料とかを無駄に間に挟むからどんどん高額化して必要な人の手に渡らないわけです
+    paragraph: p39
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5145_プリエステラ_other_アキラたち_p2]]'
+  object: '[[ME_ギグエコノミー・契約労働者]]'
+  claim: ミルーニャの父が製薬会社の「契約呪術師」として現場に出され、実力があるのに蔑まれ余剰素材を申告させられた状況は、現代の非正規雇用やギグエコノミーにおける労働者の搾取と処遇の格差を示唆している。
+  quote: 大きな製薬会社の契約呪術師として就職して――杖使いとしての実力はあったけれど、重要な仕事は任されず、現場に出て迷宮での採取や調査ばかりさせられていました。余剰分の素材も申告しないといけないので、まだ無所属でやってた方が収入がマシだったんじゃないかと思います
+  paragraph: p118
+  confidence: strong
+  quotes:
+  - quote: 大きな製薬会社の契約呪術師として就職して――杖使いとしての実力はあったけれど、重要な仕事は任されず、現場に出て迷宮での採取や調査ばかりさせられていました。余剰分の素材も申告しないといけないので、まだ無所属でやってた方が収入がマシだったんじゃないかと思います
+    paragraph: p118
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5145_プリエステラ_other_アキラたち_p2]]'
+  object: '[[ME_ギャンブル依存症・投機的投資]]'
+  claim: ミルーニャの父が「古代の貴重な魔導書」を発見し、それを売らずに迷宮での一発逆転（大博打）に賭けて死んだ行動は、ギャンブル依存や投機的な冒険における破滅的なリスクテイクの構造を反復している。
+  quote: 案の定、そのまま帰らぬ人ですよ
+  paragraph: p127
+  confidence: moderate
+  quotes:
+  - quote: 案の定、そのまま帰らぬ人ですよ
+    paragraph: p127
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5145_プリエステラ_other_アキラたち_p2]]'
+  object: '[[ME_ヘロイン・ポルノグラフィーの構造]]'
+  claim: パーティメンバー全員が「家族（特に父）とのトラウマ」を共有し、ミルーニャが最も過激な被害者として描かれる構成は、共通の傷を核にした連帯を描く典型的なドラマ的構造を持つ。
+  quote: みんな父親で嫌な思いしてるんだねー。私だけじゃないんだ
+  paragraph: p102
+  confidence: moderate
+  quotes:
+  - quote: みんな父親で嫌な思いしてるんだねー。私だけじゃないんだ
+    paragraph: p102
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5145_プリエステラ_other_アキラたち_p2]]'
+  object: '[[ME_オカルト・呪術的儀式]]'
+  claim: 森の深部への侵入と、ハルベルトに対する「命の水」と「安らぎ」の符による強制投薬は、異世界転生におけるチート的な回復手段が、現実的な医療行為（強制的な治療）として機能していることを示す。
+  quote: 【安らぎ】をいじって疲労回復効果を加えた治癒符もどきと、うちの主力商品である【命の水】――を薄めたやつです。これでちょっとはマシになるでしょう
+  paragraph: p19
+  confidence: moderate
+  quotes:
+  - quote: 【安らぎ】をいじって疲労回復効果を加えた治癒符もどきと、うちの主力商品である【命の水】――を薄めたやつです。これでちょっとはマシになるでしょう
+    paragraph: p19
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ミルーニャの父の仇討ちの虚無性
+  note: ミルーニャの父は「狙った獲物（秘宝）を他人に掻っ攫われ」、その結果死んだ。エストが父の仇討ちを依頼しているが、ミルーニャは「仇すら奪われてしまった」と述べており、誰をどう恨めばいいのかという「恨みの対象の不在」が後の展開での精神的崩壊や、特定の敵（秘宝を奪った者）への執着に繋がる伏線。
+  quotes:
+  - quote: 狙った獲物は他人に掻っ攫われて、手に入れた秘宝まで持って行かれて――
+    paragraph: p131
+    quote_verified: true
+  - quote: 仇すら奪われてしまったら、どうすることもできない恨みをずっと抱え込まなくてはならないんですから。
+    paragraph: p139
+    quote_verified: true
+  expected_payoff: ミルーニャが「仇を討つ」ために、秘宝を奪った真犯人を追う展開、または恨みの対象を失ったことによる暴走。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_高位治癒符の流通滞の真因
+  note: ミルーニャは製薬会社の利潤追求を批判するが、「第五階層の解放以来その傾向に拍車がかかってる」と述べている。これは単なる経済原理だけでなく、迷宮深部（第五階層以降）での消耗激化や、特定の勢力による隠蔽・独占の可能性を示唆する。
+  quotes:
+  - quote: 第五階層の解放以来その傾向に拍車がかかってる気がします
+    paragraph: p35
+    quote_verified: true
+  expected_payoff: 第五階層以降の探索における物資不足による危機、または製薬会社（ペリグランティア製薬）との対立・調査。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アズーリアの意地悪さの自覚
+  note: アズーリアがミルーニャをからかって「優しいよね」と言い、一瞬素の反応を引き出して達成感を得る描写。これが後のアズーリアの行動原理（他人の感情を操る・試す）の一端を示している可能性がある。
+  quotes:
+  - quote: 今まで自覚がなかったけれど、私は意地が悪いのかもしれない。
+    paragraph: p53
+    quote_verified: true
+  expected_payoff: アズーリアがミルーニャのトラウマを意図的に利用する、あるいは彼女の精神的な弱さを突く行動への転換。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_森の「踏み殺す」感触と呪波汚染
+  note: 冒頭で森が呪波汚染により異常な様相を呈していることが示唆され、最後にアズーリアが何かを踏み殺した感触を得て気にしないとする描写。森自体が生物であり、歩行そのものが攻撃・殺生行為になっている可能性。
+  quotes:
+  - quote: 呪波汚染に曝されて異常な様相を呈している森の中を歩むのは困難を極めた。
+    paragraph: p2
+    quote_verified: true
+  - quote: ぎゅっと、土を踏みつける。何かを踏み殺した感触があったけど、私はもうそれが何かを気にすることは無かった。
+    paragraph: p144
+    quote_verified: true
+  expected_payoff: 森の生物との戦闘、またはアズーリアの感覚麻痺・精神汚染の進行。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ハルベルトの「ガーデニア」への言及
+  note: ハルベルトが月にいる母にガーデニアを送るという話に対し、アズーリアが「思うところがあった」として後で詳しく聞く決意をする。これは後の展開での重要なキーワード（コード）となる可能性が高い。
+  quotes:
+  - quote: ハルベルトの言う梔子の花（ガーデニア）という言葉に思うところがあったからだ。後で詳しく聞いてみようと決意しつつ、私達の奇妙な符号に気付く。
+    paragraph: p68
+    quote_verified: true
+  expected_payoff: ガーデニアが象徴する「母」「月」「美徳」に関する隠された設定の露見、またはハルベルトの過去に関する重大な事実の判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 公的医療（公益）の崩壊と企業による人命の搾取
+  weight: 0.9
+  quotes:
+  - quote: 前線では毎日人が怪我したり死んだりしてるのに自社の利益ばっかり追求して流通量絞ってるんですから。本当は幾らでも増産できるくせに、プロテクト料とかを無駄に間に挟むからどんどん高額化して必要な人の手に渡らないわけです
+    paragraph: p39
+    quote_verified: true
+  - quote: こういう公益に資する商売には国とかがお金を出してくれればいいのにって思います。医療の分野は特に
+    paragraph: p45
+    quote_verified: true
+  note: 治癒符（医薬品）の流通問題が、単なるファンタジー要素ではなく社会構造の問題として提示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族という名の暴力と恨みの継承・希釈化
+  weight: 0.8
+  quotes:
+  - quote: ミルーニャの父は、最低でした。お母さんがいるのに、他の女の人のところに行ったり、それを隠そうともしなかったり――
+    paragraph: p94
+    quote_verified: true
+  - quote: 家族なんて下らないですよ
+    paragraph: p72
+    quote_verified: true
+  - quote: 恨みをぶつける対象がいる貴方は幸せです。仇すら奪われてしまったら、どうすることもできない恨みをずっと抱え込まなくてはならないんですから。
+    paragraph: p139
+    quote_verified: true
+  note: 家族への愛憎が入り混じった感情が、パーティの絆を形成しつつも、ミルーニャの精神的な危うさを生んでいる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 労働者としての呪術師の地位低下と資本家階級との断絶
+  weight: 0.7
+  quotes:
+  - quote: 杖使いとしての実力はあったけれど、重要な仕事は任されず、現場に出て迷宮での採取や調査ばかりさせられていました。
+    paragraph: p118
+    quote_verified: false
+  - quote: あれでそれなりに腕は立つから。それでも、お偉い呪文使い様たちに手品師だなんだと蔑まれて――でも文句一つ言わずに、毎日遅くなってから帰ってくるんです。
+    paragraph: p118
+    quote_verified: true
+  note: ミルーニャの父の経歴を通じて、迷宮経済における技術者の立場と経営層との対立軸が浮き彫りになっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 森（自然）の侵食性と人間の無感覚化
+  weight: 0.6
+  quotes:
+  - quote: 辺りには得体の知れない虫が飛び交い、鳥や小動物、虫たちの大合唱が響く。
+    paragraph: p5
+    quote_verified: true
+  - quote: 何かを踏み殺した感触があったけど、私はもうそれが何かを気にすることは無かった。
+    paragraph: p144
+    quote_verified: true
+  note: 森が単なる舞台装置ではなく、生命体として存在し、主人公側の感覚を麻痺させていく様子が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

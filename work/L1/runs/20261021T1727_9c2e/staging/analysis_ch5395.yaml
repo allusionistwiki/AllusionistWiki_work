@@ -1,0 +1,142 @@
+chapter: ch5395
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_Reirelvaba_Identity_and_Miasma_Control
+  note: トップアイドル「リールエルバ」が吸血鬼であり、地下から溢れる瘴気を意図的に制御してフロア（地上側）の再生者を保護している可能性。これが世界全体の危機解決の鍵となる。
+  quotes:
+  - quote: 「可能なら。どうにもひっかかる――罠の可能性を踏まえても、地下のトップアイドルが吸血鬼ってのはあからさますぎるからな」
+    paragraph: p159
+    quote_verified: true
+  - quote: この世界において吸血鬼とは瘴気を統べ、蔓延させる病毒の化身だ。無関係だとはとても思えない。事態の鍵はリールエルバが握っているものと思われてならないのだ。
+    paragraph: p161
+    quote_verified: true
+  expected_payoff: 主人公たちが地下深く潜り、リールエルバと対峙・協力することで瘴気問題の解決策（または真犯人）が発覚する展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Itsuno_Animus_Completion
+  note: イツノが主人公を「本命のアニムス（魂の伴侶）」と認定し、戦闘を通じて一体化しようとする過程。彼女の未完成な自我（零号機）が主人公との関係で完成（または破綻）する兆候。
+  quotes:
+  - quote: 「やっぱりわたしにーさまが一番安定してる。本命のアニムス、確定ね」
+    paragraph: p105
+    quote_verified: true
+  - quote: 同じ旋律、同じ鼓動を共有する俺たちは既にひとつの生命だった。俺はイツノで、イツノは俺だ。目の前に投影されているのは女性的な俺という心の一部分――そこまで考えて唐突に我に帰る。
+    paragraph: p127
+    quote_verified: true
+  expected_payoff: イツノが主人公の精神の一部（アニムス）として統合され、彼女の「完成」または「消滅」を伴うイベントが発生する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Corseska_Presence_in_Deep_Floors
+  note: トリシューラが「セスカ（コルセスカ）は最下層にいる」と指摘し、主人公の感情制御呪い（コルセスカとの経路）が活性化している状況。
+  quotes:
+  - quote: 「多分セスカは最下層にいる。きっとアルト・イヴニルもね」
+    paragraph: p241
+    quote_verified: true
+  - quote: 感情制御の呪いが再び活性化しているのを感じた。コルセスカと繋いだ経路が再び太く強くなっているのだ。彼女が、この近くにいる。それだけで前に進む理由になる。
+    paragraph: p236-239
+    quote_verified: true
+  expected_payoff: 最下層でコルセスカと再会し、彼女との関係（およびアルト・イヴニルとの対決）が物語の核心に迫る展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Leos_Debut_and_Reluctance
+  note: カーインとトリシューラがレオ（Leo）をデビューさせようとするが、レオは恥ずかしがり屋で拒否している。彼の参戦が今後のランキング争いの変数となるか。
+  quotes:
+  - quote: 「レオ様をお連れしてデビューしていただけばかなりいいところまで――はっ、私は何を、シナモリアキラに思考を毒され過ぎている――！」
+    paragraph: p180
+    quote_verified: true
+  - quote: トリシューラが端末を示すとレオのメッセージが絵文字付きで表示された。...「メールしたら『恥ずかしいから無理』らしいよ。」
+    paragraph: p186
+    quote_verified: false
+  expected_payoff: レオが何らかの理由（仲間のため、緊急事態など）でステージに立つ展開、または彼のキャラクター性が物語を大きく動かす契機となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Causal_Holes_in_Floors
+  note: オルヴァが「階層の狭間に複雑な因果のほつれ」があると指摘し、ワープによるショートカットを否定。この迷宮（ショウ空間）自体が特殊な因果構造で構成されている可能性。
+  quotes:
+  - quote: 「いや、どうやら階層の狭間に複雑な因果のほつれが仕掛けてあるようだ。下手に小細工を仕掛けると次元の彼方に飛ばされて戻れなくなる」
+    paragraph: p175
+    quote_verified: true
+  expected_payoff: 物理的な移動ではなく、物語的・因果的な条件（オーディション合格、ランキング上位）を満たすことでしか深層へ進めない仕掛けが解明される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己の客体化と他者による定義：モデル（被写体）として立つことの意味
+  weight: 0.8
+  quotes:
+  - quote: 俺はこの舞台における主役ではない。ただの媒体で、主役はあくまでも服――トリシューラだ。俺は彼女の使い魔としてその力をアピールするだけでいい。
+    paragraph: p248
+    quote_verified: true
+  - quote: 自己のミームを拡散・伝播させる手段として、言語魔術師たちは新聞や雑誌などを用いてきた。
+    paragraph: p216
+    quote_verified: true
+  note: 主人公が「主役」ではなく「媒体（モデル）」としての役割を受け入れ、自己の存在を他者（トリシューラ/ブランド）の評価と承認によって定義・拡張するプロセス。これは現代社会におけるアイデンティティの構築（SNS映え、ブランド化）に対するメタファーでもある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 観客による価値決定：承認経済の残酷さと美しさ
+  weight: 0.7
+  quotes:
+  - quote: この場所では観客からの評価が全てだ。ヘッドセット型端末が読み取った脳波がステージに対する感動を数値化する。無慈悲な実力差が勝者と敗者との間に明暗を作り、無数のドラマを生む。
+    paragraph: p11
+    quote_verified: true
+  - quote: つまり、あのランキングこそがこの空間における絶対的な価値基準ということなのだろう。
+    paragraph: p131
+    quote_verified: true
+  note: 実力（技術）ではなく「観客の感動（承認）」が数値化され、世界を支配するシステム。現代のエンタメ産業やSNSにおけるフォロワー/ビュー数至上主義、およびそれに伴う自己価値の脆弱さを描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生と死の境界としてのダンス：幽世への接近
+  weight: 0.6
+  quotes:
+  - quote: 「『河川』は境界、境界とは結界、聖俗の分け目、現世と幽世（かくりよ）の有り様を定める生と死の法」
+    paragraph: p115
+    quote_verified: true
+  - quote: 同じ旋律、同じ鼓動を共有する俺たちは既にひとつの生命だった。
+    paragraph: p127
+    quote_verified: true
+  note: 再生者（不死）が踊り、死体（骨）が散乱し、吸血鬼（死の象徴）が君臨する場所。リズムに同期して体を動かす行為が、現世と幽世の境界を越え、生と死の一体化（アニムスの統合）へ至る通路与して描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 消費される暴力：日常と異常の混濁
+  weight: 0.5
+  quotes:
+  - quote: 血塗れの遺体が飛び散った場所からは忌まわしい臭気が漂いだしていた。...香水専門の大きなスペースが用意されていたが、これは確かに臭い対策が必須だ。
+    paragraph: p47
+    quote_verified: false
+  - quote: 演奏中のロックバンドがステージに乱入してきた他のアイドルファンたちに向かって火炎放射器をぶっ放している所だった。それすらパフォーマンスとなるのか、会場は大いに盛り上がっていた。物騒すぎる。
+    paragraph: p229
+    quote_verified: true
+  note: 残酷な暴力（殺し合い、瘴気）が香水で隠蔽され、火炎放射がショーの一部として消費される世界。恐怖や死がエンタメの燃料となり、日常と異常の境界が溶解している状況を風刺的に描写する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,203 @@
+chapter: ch5082
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 14
+  quotes_total: 14
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_残心プリセットと盤外の夜]]'
+  object: '[[ME_ARアプリやVRシミュレーター]]'
+  claim: 主人公が肉体の限界を補うために用いる『脳波による操作』と『物理演算エンジンによる微調整』は、現代のAR技術やゲームにおける入力補正（アシスト機能）のアナロジーである。
+  quote: 【残心プリセット】に義肢部分のみの力で肉体を動かす命令を書き込み、【盤外の夜】が物理演算エンジンを駆使して細部を微調整していく。エンターテイメント用のシミュレーターとはいえ、その速度と精度はかなりのものだ。
+  paragraph: p6
+  confidence: strong
+  quotes:
+  - quote: 【残心プリセット】に義肢部分のみの力で肉体を動かす命令を書き込み、【盤外の夜】が物理演算エンジンを駆使して細部を微調整していく。エンターテイメント用のシミュレーターとはいえ、その速度と精度はかなりのものだ。
+    paragraph: p6
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_転生者の能力]]'
+  object: '[[ME_スマホゲームのガチャや課金要素]]'
+  claim: 転生者が持つ強力なスキルが、現実の「一流大卒正社員の初年度年収」を吹き飛ばすほどの高額なオプションとして設定されている描写は、現代のスマホゲームにおけるガチャ確率や課金圧迫を風刺している。
+  quote: 定番と言われるステータス画面の閲覧とスキル振り能力ですら一流大を出た正社員の初年度年収を丸ごと吹き飛ばすくらいだ。
+  paragraph: p81
+  confidence: strong
+  quotes:
+  - quote: 定番と言われるステータス画面の閲覧とスキル振り能力ですら一流大を出た正社員の初年度年収を丸ごと吹き飛ばすくらいだ。
+    paragraph: p81
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_キロンの勝利]]'
+  object: '[[ME_物語論におけるメタ主人公補正]]'
+  claim: キロンが「文脈や展開によって強化される」という特質を持つことは、単なる戦闘能力のインフレではなく、「物語の流れ（ナラティブ）そのものが武器になる」というメタフィクション的な構造を体現している。
+  quote: つまり、キロンは文脈、あるいは展開によって強化されていくという特質を有している。物語の流れによる補正効果。運命そのものを味方につけた男。
+  paragraph: p91-p94
+  confidence: explicit
+  quotes:
+  - quote: つまり、キロンは文脈、あるいは展開によって強化されていくという特質を有している。物語の流れによる補正効果。運命そのものを味方につけた男。
+    paragraph: p91-p94
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_キロンの能力]]'
+  object: '[[ME_宗教における奇跡や聖痕]]'
+  claim: キロンが「約束の遵守を強制する力」や「万物を断ち切る魔剣」といった多様な異能を持つ転生者を殺してきた経緯は、あらゆる宗教的・SF的なクリシェ（陳腐な設定）を集積し、それらを論理的に処理する「万能アンチヒーロー」の原型を示唆している。
+  quote: 他には約束の遵守を強制する力やあらゆる攻撃から身を守る力、万物を断ち切る魔剣、高い知性と戦闘能力を兼ね備えた使い魔。変わった所では、世界を特殊な視界で捉え、あらゆる生命の詳細な情報を把握し、自らを自在に成長させるという能力の持ち主もいた。
+  paragraph: p77
+  confidence: strong
+  quotes:
+  - quote: 他には約束の遵守を強制する力やあらゆる攻撃から身を守る力、万物を断ち切る魔剣、高い知性と戦闘能力を兼ね備えた使い魔。変わった所では、世界を特殊な視界で捉え、あらゆる生命の詳細な情報を把握し、自らを自在に成長させるという能力の持ち主もいた。
+    paragraph: p77
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_小石を吹きかける行為]]'
+  object: '[[ME_労働価値説における最小限の生産活動]]'
+  claim: アキラが「石ころに等しい、これが俺の価値だ」と述べ、意味のない攻撃（小石を撒く）を実行し、それがキロンに有効打を与える展開は、現代社会における自己責任論や労働による価値創出のメタファーである。
+  quote: 石ころに等しい、これが俺の価値だ。
+  paragraph: p146
+  confidence: strong
+  quotes:
+  - quote: 石ころに等しい、これが俺の価値だ。
+    paragraph: p146
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_キロンの右目の治癒]]'
+  object: '[[ME_因果律の逆転や概念操作]]'
+  claim: キロンが小石を浴びた後、右目の傷が治らず苦痛を訴える現象は、彼の「事実を改変する能力」が、物理的な攻撃ではなく「観測者（アキラ）の意志」によって干渉されている可能性を示唆している。
+  quote: ところが、その時奇妙な現象が起きた。顔に小石を吹きかけられたキロンが、そのまま右目を押さえて苦痛に呻いたのである。立ち上がり、目を擦ろうとして思い留まり、顔を歪めたまま数歩後退していく。傷が、治っていない？
+  paragraph: p150-p152
+  confidence: moderate
+  quotes:
+  - quote: ところが、その時奇妙な現象が起きた。顔に小石を吹きかけられたキロンが、そのまま右目を押さえて苦痛に呻いたのである。立ち上がり、目を擦ろうとして思い留まり、顔を歪めたまま数歩後退していく。傷が、治っていない？
+    paragraph: p150-p152
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカの転生者説
+  note: キロンがコルセスカを「転生者」と呼んだことへのアキラの動揺。彼女がなぜその事実を隠していたのか、あるいはキロンが嘘をついているのか。
+  quotes:
+  - quote: いいや、確かにさっき、コルセスカを転生者に含めていた。何だそれは、初耳だ。彼女が、転生者だって？
+    paragraph: p103-p105
+    quote_verified: true
+  expected_payoff: コルセスカの出自に関する重大な真実の暴露、あるいはキロンによる心理戦・嘘である可能性の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_小石の正体と効果
+  note: アキラの「石ころ」攻撃がなぜキロンの治癒能力を阻害し、苦痛を与えたのか。これは物理現象か、それとも概念干渉か。
+  quotes:
+  - quote: 傷が、治っていない？ 何だ、今のは。さっき俺は、何をしたんだ？ 俺は今、キロンを倒すための何かを掴みかけた？ 分からない。必死に記憶を探るが、何か鍵となるような行動をしたような覚えは無い。小石が弱点？
+      そんな馬鹿な。一体何が。
+    paragraph: p152-p155
+    quote_verified: true
+  expected_payoff: アキラの転生者としての「特質（ゼノグラシア）」の正体判明、およびキロン撃破の鍵となる能力の発現。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_キロンの余裕と制約
+  note: キロンが動揺を見せない理由を「勝てるパターンから外れるから」とアキラが推測している点。彼の能力には「物語的な安定性」を保つための強い制約がある可能性。
+  quotes:
+  - quote: この状況でも、キロンは余裕を崩そうとしない。――いや。もしかすると、崩せないのか？ 動揺したり醜態を晒したりすると、勝てるパターンから外れてしまうから？
+    paragraph: p160-p162
+    quote_verified: true
+  expected_payoff: キロンの能力の弱点（パターンの逸脱）への言及と、アキラによるその攻略。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カイシャクの真意
+  note: キロンがアキラに対して「カイシャク（海釈/慈悲の一撃）」を行うと宣言した。これは単なる殺害なのか、それとも転生者特有の処理プロセスなのか。
+  quotes:
+  - quote: 「君には一方的なものだが恩義がある。できれば命を奪いたくは無かった。しかし、君の転生者としての特質が、そして強すぎる意志の力が君自身を苦しめているというのなら、俺は慈悲の一撃を与えよう」
+    paragraph: p164
+    quote_verified: true
+  expected_payoff: アキラの死（または擬似死）を通じた新たな展開への転換、あるいは「海釈」という概念が世界に持つ特殊な意味の解説。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 労働と価値の等価交換
+  weight: 0.9
+  quotes:
+  - quote: 俺の中で、二つの価値は等号で結ばれているからだ。感情制御によって自在に調整可能な精神も、機械義肢でいくらでも補綴可能な肉体も、等しく交換可能なものなのだ。それが【価値】であるならば、労働を、仕事を、行動をすることで幾らだってあがなえる。
+    paragraph: p122
+    quote_verified: true
+  note: アキラが自分の身体（義肢）と精神を「交換可能な価値」と捉え、小石撒きという微小な労働でキロンに挑む姿勢は、資本主義社会における自己責任論と労働観のメタファーである。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ナラティブへの従属と抵抗
+  weight: 0.8
+  quotes:
+  - quote: つまり、キロンは文脈、あるいは展開によって強化されていくという特質を有している。物語の流れによる補正効果。運命そのものを味方につけた男。
+    paragraph: p91-p94
+    quote_verified: true
+  note: 敵が「物語の文脈」で強くなる一方、主人公は「石ころ」という意味のない行為で逆転する構図は、「脚本（運命）に従うか、混沌的な自由意志で逸脱するか」というメタフィクション的対立を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と肉体の境界崩壊
+  weight: 0.6
+  quotes:
+  - quote: 【残心プリセット】に義肢部分のみの力で肉体を動かす命令を書き込み、【盤外の夜】が物理演算エンジンを駆使して細部を微調整していく。
+    paragraph: p6
+    quote_verified: true
+  note: 脳波による操作とシミュレーション技術が肉体を補完する描写は、サイバーパンク的な身体拡張の思想を示唆し、それが最終的に「エネルギー切れ」という物理的限界に直面する過程を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者との関係性による自己定義
+  weight: 0.7
+  quotes:
+  - quote: コルセスカは、俺に言葉を――この世界で生きていくための形のない腕をくれた。足りないものを掴み取り、人と人とを繋ぐことができるようにと――確かな足場を築く為のツールを。
+    paragraph: p117
+    quote_verified: true
+  note: アキラが戦う動機が「コルセスカとの関係性」にあると自覚する場面は、孤絶した転生者が他者との繋がりを武器に変える過程を主題化する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,230 @@
+chapter: ch5357
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_marriage_mechanics]]'
+  object: '[[ME_sociological_theory_levi_strauss]]'
+  claim: ルバーブによる「結婚とは男同士の外交手段であり、娘は贈与される財産の中心である」という解説は、レヴィ＝ストロースの親族構造論（交換理論）を直接的に引用・パロディ化している。
+  quote: 結婚とは男と男、父と父、家長と家長の『血の交わり』のことにございます。王国や血族を背負った男同士が繋がりを作り、互いの足場を固める為の外交手段が結婚です。それに伴って持参金――財産の贈与や交換が行われる。贈与される財産の中心となるのが娘というだけで、本質的には男同士の儀式なのです
+  paragraph: p18
+  confidence: strong
+  quotes:
+  - quote: 結婚とは男と男、父と父、家長と家長の『血の交わり』のことにございます。王国や血族を背負った男同士が繋がりを作り、互いの足場を固める為の外交手段が結婚です。それに伴って持参金――財産の贈与や交換が行われる。贈与される財産の中心となるのが娘というだけで、本質的には男同士の儀式なのです
+    paragraph: p18
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_burgundy_history]]'
+  object: '[[ME_folklore_bluebeard]]'
+  claim: 始祖ディルトーワが妻バーガンディアを塔に閉じ込め、そのために騎士団処刑や王妃の失踪（死）に至る経緯は、シャトル・ペローの「青ひげ」の伝承（禁じられた部屋への立ち入り禁止と残酷な結末）を構造的に模倣している。
+  quote: 美貌が翳る様が見ていられないと、ディルトーワはバーガンディアを塔の中に閉じ込めた。何かと国政に口を出してくる妻を黙らせ、自分が竜王国の傀儡ではないと貴族や臣民に証明する意味もあったのだろう。強き夫という自らの在り方を印象づける為、彼はバーガンディアの護衛でありラフディの軍事力の要であった『赤眼騎士団』を残らず処刑した。
+  paragraph: p47
+  confidence: moderate
+  quotes:
+  - quote: 美貌が翳る様が見ていられないと、ディルトーワはバーガンディアを塔の中に閉じ込めた。何かと国政に口を出してくる妻を黙らせ、自分が竜王国の傀儡ではないと貴族や臣民に証明する意味もあったのだろう。強き夫という自らの在り方を印象づける為、彼はバーガンディアの護衛でありラフディの軍事力の要であった『赤眼騎士団』を残らず処刑した。
+    paragraph: p47
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_damocles_sword]]'
+  object: '[[ME_legend_of_dionysius_damocles]]'
+  claim: 人形姫アレッテが天に浮かべる「ダモクレスの剣」は、権力者の危険性（不安定さ）を象徴する古代の寓話であり、「王の選定」という政治的裁定を行う装置として機能している。
+  quote: 天に揺れるダモクレスの剣。罪を切り裂き、悪しき権力を裁く、僣主殺しの大呪術。あれが落ちれば、罪深い王たちはまとめて滅び去るだろう。
+  paragraph: p271-p273
+  confidence: explicit
+  quotes:
+  - quote: 天に揺れるダモクレスの剣。罪を切り裂き、悪しき権力を裁く、僣主殺しの大呪術。あれが落ちれば、罪深い王たちはまとめて滅び去るだろう。
+    paragraph: p271-p273
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_faustian_bargain]]'
+  object: '[[ME_faust_legend]]'
+  claim: トリシューラとの契約（魂と名前、最も大切な想いを対価に力を得る）は、ゲーテの『ファウスト』における悪魔メフィストフェレスとの取引構造そのものである。
+  quote: 「魂を対価に捧げる覚悟はある？ 名前、存在、そしてあなたにとって最も大切な想いさえも。全てをかなぐり捨ててもう一度戦うことを望む？」
+  paragraph: p247
+  confidence: strong
+  quotes:
+  - quote: 「魂を対価に捧げる覚悟はある？ 名前、存在、そしてあなたにとって最も大切な想いさえも。全てをかなぐり捨ててもう一度戦うことを望む？」
+    paragraph: p247
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_nokotta_attack]]'
+  object: '[[ME_fighting_game_sokenagaishi]]'
+  claim: 最後の「発勁用意――NOKOTTA!!」という掛け声と動作は、格闘ゲーム『真・侍伝 YEOLKON』や『サムライスピリッツ』における必殺技「怒斗（ノコッタ）」のオマージュであり、ルバーブが「ゲーム的な主人公」としての権能を行使する瞬間を示唆する。
+  quote: 発勁用意――NOKOTTA!!
+  paragraph: p366
+  confidence: strong
+  quotes:
+  - quote: 発勁用意――NOKOTTA!!
+    paragraph: p366
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_bible_reference]]'
+  object: '[[ME_bible_new_testament]]'
+  claim: 「告げるは終末の十二使徒」という呪文の詠唱には、キリスト教の終末論や新約聖書の用語（使徒）が意図的に引用され、叙任儀式を宗教的・神話的な権威で飾り立てている。
+  quote: 告げるは終末の十二使徒！ 鮮血のトリシューラの名において、今ここにマレブランケの叙任を執り行う！
+  paragraph: p344
+  confidence: moderate
+  quotes:
+  - quote: 告げるは終末の十二使徒！ 鮮血のトリシューラの名において、今ここにマレブランケの叙任を執り行う！
+    paragraph: p344
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_lupus_exodus]]'
+  object: '[[ME_historical_exodus]]'
+  claim: 人狼族が英雄シェボリズを筆頭に追放され、流浪の旅に出る展開は、歴史的な民族の離散（ディアスポラ）や出エジプト記的な構図を反映し、その「罪」と「救済」のテーマを孕んでいる。
+  quote: 人狼たちは離散し、あてもなく流浪することとなる。これは私の罪だ。
+  paragraph: p143-p145
+  confidence: moderate
+  quotes:
+  - quote: 人狼たちは離散し、あてもなく流浪することとなる。これは私の罪だ。
+    paragraph: p143-p145
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_seventh_chapter_rich
+  note: 眼鏡をかけた少女（メートリアン？）が手にする黒い書物であり、「王の資格」の一つである【富】。これが具体的にどのような権能や意味を持つかは未詳。
+  quotes:
+  - quote: 白すぎる巻き毛は翼と同色で、瞳は血のように赤い。大賢者から伝え聞く古の覇王とそっくりな特徴を持つ少女は、黒い書物を手にしていた。間違い無い。あれこそは所在が不明だった最後の『王の資格』。第七の断章――【富】だ。
+    paragraph: p283-p284
+    quote_verified: true
+  expected_payoff: 「富」を司る能力（資源の再配分、因果の転換など）が戦局を決定的に変える鍵となる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_identity
+  note: ルバーブの首から生み出された（あるいは乗っ取られた）「新しいアキラくん」という存在。これがルバーブの魂の一部なのか、それとも別の人格（現代からの転生者？）なのかが不明確。
+  quotes:
+  - quote: 「お待たせ、新しい『アキラくん』だよ！」――『俺』は目を見開いた。
+    paragraph: p352-p354
+    quote_verified: true
+  expected_payoff: ルバーブ（私）とアキラ（俺）の意識の統合、または交代劇が最終決戦のカタルシスとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_sword_of_judgment_fate
+  note: 天に落下しようとしたダモクレスの剣（裁定の剣）が、メートリアンたちの介入でどうなったのか、その完全な帰趨。
+  quotes:
+  - quote: 文字の群が巨大な剣を取り巻いて束縛し、更には地竜を操っていた糸に絡みついて人形姫の支配に干渉する。
+    paragraph: p293
+    quote_verified: true
+  expected_payoff: この剣は最終的にマラードやアレッテに対してどのように作用するか（消滅、あるいは落下による大破壊）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trishula_pet
+  note: トリシューラが「私のペット」と呼ぶ存在。これがルバーブ自身を指しているのか、それとも彼女が支配する別の何か（マラード？）なのかの真意。
+  quotes:
+  - quote: 「私のペットがね、貴方を――ううん、貴方の信じるものを肯定したがってるの。だからこれは、私がいい飼い主でいるための自己満足なんだよ」
+    paragraph: p315
+    quote_verified: true
+  expected_payoff: トリシューラの動機が「所有欲」や「保護欲」に基づくものであることが明示され、彼女の行動原理の核となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 結婚は愛ではなく権力構造と暴力（犠牲）によって維持されるシステムである。
+  weight: 0.9
+  quotes:
+  - quote: 本質的には男同士の儀式なのです。少なくとも、当世の価値観ではそうなっている。女人禁制の神聖な結婚式で、父と父は向かい合って球神に誓いを立てる。
+    paragraph: p18-p21
+    quote_verified: false
+  - quote: 結婚のある意味で残酷なもの... 贈り物である娘は陛下の持ち物となりますが... その果てに待つのは国家繁栄ではなく、忌まわしい死だ。
+    paragraph: p37-p39
+    quote_verified: false
+  note: ルバーブが結婚を「男同士の契約」として冷徹に分析し、その裏にある女性的犠牲（バーガンディアの悲劇）を暴くことで、恋愛のロマンティシズムを解体する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 忠誠とは自己中心的な欲望（美への執着）の隠蔽であり、利他性など存在しない。
+  weight: 0.85
+  quotes:
+  - quote: 全ては私の欲望がもたらした災禍。彼は私の傲慢に付き合わされただけの被害者でしかない。... 私は自分自身の邪悪さを自覚していながら、それでも美しい王を見上げることをやめられなかった。
+    paragraph: p149-p153
+    quote_verified: false
+  - quote: 第六断章、その名は【愛情】。結局の所、それは邪悪な暴力であり、権力でしかないのだ。
+    paragraph: p158-p159
+    quote_verified: true
+  note: ルバーブ自身の告白により、「忠臣」というロールが実は美少年王への独占欲と支配欲（＝暴力）そのものであることが暴かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の「終わり」を拒絶し、物語の継続（存在の肯定）を求める意志が世界を書き換える。
+  weight: 0.7
+  quotes:
+  - quote: 「ごめんね、私は『こういうの』得意じゃないから――メートリアンたちに頼り切りになっちゃうけど。それでも、貴方の大切なものはまだ終わりにはなってない。終わらないって、証明してみせる」
+    paragraph: p305
+    quote_verified: true
+  - quote: 「マラードの拒絶が起きてしまった事実でも、貴方たちの物語はまだ終わってない。語られなかった想いを、切り捨てられた感情を、無かったことになんてしなくていい。」
+    paragraph: p321
+    quote_verified: false
+  note: トリシューラやメートリアンが「物語の完結（死）」に抵抗し、「語られなかった想い」を肯定することで、メタフィクショナルな世界改変を行う。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己犠牲による救済は幻想であり、契約（取引）によって得られるのは「自分自身の欲望の遂行」に過ぎない。
+  weight: 0.6
+  quotes:
+  - quote: 『美しい王マラードに仕える醜い忠臣ルバーブ』という甘美な嘘を捨ててでも、私はその道を選びたかった。あの美しさを、否定させはしない。
+    paragraph: p250-p251
+    quote_verified: true
+  - quote: 全ては主の為。この世で最も美しいと信じたもの、己の欲望の為だけに。
+    paragraph: p357
+    quote_verified: true
+  note: ルバーブが魂を売り渡すのはマラードのためではなく、「美を否定させない」という自分の欲望（エゴ）を満たすためであるという自己定義の更新。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

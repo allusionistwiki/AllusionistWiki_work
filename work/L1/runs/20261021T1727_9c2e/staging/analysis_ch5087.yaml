@@ -1,0 +1,220 @@
+chapter: ch5087
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5087_トリシューラ_says_アキラの希少価値の喪失_p23]]'
+  object: '[[ME_game_character_evaluation]]'
+  claim: 転生者としての特質（前世記憶とチート能力/精神状態）を失った主人公を「路傍の石」と呼び、ゲーム的なステータス評価で人間を値踏みする構造。
+  quote: 感情の制御ができなくなった貴方はもう【アキラくん】じゃない。前世の記憶が無いんだからそれ以前の人格――前世を生きていた【誰か】とも同一とは言えない。つまり転生者としての特質を二つとも失った、この世界で生まれたばかりの貴方には既に希少価値が存在しない。
+  paragraph: p23
+  confidence: strong
+  quotes:
+  - quote: 感情の制御ができなくなった貴方はもう【アキラくん】じゃない。前世の記憶が無いんだからそれ以前の人格――前世を生きていた【誰か】とも同一とは言えない。つまり転生者としての特質を二つとも失った、この世界で生まれたばかりの貴方には既に希少価値が存在しない。
+    paragraph: p23
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5087_トリシューラ_says_アキラへの見解_p33]]'
+  object: '[[ME_data_preservation_vs_deletion]]'
+  claim: 故人の記憶や存在を「思い出を再生するための媒体」として保持することを、デジタルデータ管理におけるバックアップと不要ファイルの削除に例えている。
+  quote: 思い出を再生するための媒体？　念写でもして捨てた方がいいと思うよ。セスカ、本当に物を片付けられないよね
+  paragraph: p33
+  confidence: moderate
+  quotes:
+  - quote: 思い出を再生するための媒体？　念写でもして捨てた方がいいと思うよ。セスカ、本当に物を片付けられないよね
+    paragraph: p33
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5087_コルセスカ_defines_失われたもの_p5]]'
+  object: '[[ME_signal_processing_filter]]'
+  claim: 感情や人格の欠落を、入出力される情報を適切に濾過し有害なノイズを取り除く「フィルタ（機構）」として定義する技術的メタファー。
+  quote: コルセスカが形容するとしたら、こんな表現になるだろう。フィルタ、と。入出力される情報を適切に濾過して、有害なものを取り除く機構。
+  paragraph: p5
+  confidence: strong
+  quotes:
+  - quote: コルセスカが形容するとしたら、こんな表現になるだろう。フィルタ、と。入出力される情報を適切に濾過して、有害なものを取り除く機構。
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5087_トリシューラ_defines_コルセスカの役割_p98]]'
+  object: '[[ME_medical_life_support_system]]'
+  claim: 世界維持システムを、宇宙の心臓（火竜）、医療チーム（塔と姉妹）、延命装置の制御盤（コルセスカ）という医学的・工学的な階層構造に置き換えている。
+  quote: つまり、火竜メルトバーズっていうのはこの宇宙の心臓で、老衰寸前の心臓にコールドスリープで必死に延命処置を施してるってわけ。【星見の塔】と【キュトスの姉妹】はいろんな分野の医師や技術者集団で、セスカがコールドスリープ装置の制御盤って感じ
+  paragraph: p98
+  confidence: strong
+  quotes:
+  - quote: つまり、火竜メルトバーズっていうのはこの宇宙の心臓で、老衰寸前の心臓にコールドスリープで必死に延命処置を施してるってわけ。【星見の塔】と【キュトスの姉妹】はいろんな分野の医師や技術者集団で、セスカがコールドスリープ装置の制御盤って感じ
+    paragraph: p98
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5087_トリシューラ_says_世界更新の意味_p106]]'
+  object: '[[ME_software_update_and_firmware]]'
+  claim: 世界の法則（生死）を書き換える行為を、OSやシステムの「アップデート」および既存秩序の「打破」というIT用語で記述し、神秘性を技術的処理に還元している。
+  quote: 今あるこの世界の、当たり前に生き物が生まれて死んでいくという法則をアップデートして、別の法則に書き換えるってこと。いまの秩序を打破した後のビジョンがセスカにあるのなら、その通りの世界が生まれるんじゃないかな。
+  paragraph: p106
+  confidence: strong
+  quotes:
+  - quote: 今あるこの世界の、当たり前に生き物が生まれて死んでいくという法則をアップデートして、別の法則に書き換えるってこと。いまの秩序を打破した後のビジョンがセスカにあるのなら、その通りの世界が生まれるんじゃないかな。
+    paragraph: p106
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_ch5087_トリシューラ_other_価値付けの必然性_p142]]'
+  object: '[[ME_ethical_utilitarianism]]'
+  claim: 「誰かを助ける」という利他的行為は、裏返しに「助けなかった他者」を低価値と見なす選別行為（功利主義的評価）であると論じ、道徳的欺瞞を暴く。
+  quote: 誰かを助ける選択をした時点で貴方は人に価値を見出しているんだよ、セスカ。助けるだけの価値、貴方にとっての価値を。そして助けなかった全てに対して、それ未満だという価値を付けているんだ。それこそ傲慢な振る舞いじゃないのかな？
+  paragraph: p142
+  confidence: strong
+  quotes:
+  - quote: 誰かを助ける選択をした時点で貴方は人に価値を見出しているんだよ、セスカ。助けるだけの価値、貴方にとっての価値を。そして助けなかった全てに対して、それ未満だという価値を付けているんだ。それこそ傲慢な振る舞いじゃないのかな？
+    paragraph: p142
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_last_witch_identity
+  note: アキラの過去改変（人格復活）を依頼できる唯一の候補として「最後の魔女」が言及される。その正体と性格、協力への障害が示唆されている。
+  quotes:
+  - quote: コルセスカの脳裏に、一人の人物の姿が浮かび上がった。【最後の魔女】の四人いる候補者、その最後の一人。彼女の力ならば可能性はあるが、それも協力を取り付けることができればの話だ。
+    paragraph: p58
+    quote_verified: true
+  expected_payoff: コルセスカがこの「最後の魔女」に接触し、アキラの人格回復（または過去の書き換え）を試みる展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trisshula_past_breach
+  note: コルセスカが「試しの儀」の際にトリシューラを見捨てた（見捨てても良かった）という過去が語られる。この出来事が現在の冷徹な信頼関係の基盤にある。
+  quotes:
+  - quote: 一回目の時。私はセスカに殺されても良かった。あの時――【試しの儀】の時、セスカは私を見捨てたって良かったんだ
+    paragraph: p132
+    quote_verified: true
+  expected_payoff: コルセスカの罪悪感とトリシューラの軽蔑の根源として、物語後半でこの「試しの儀」の詳細や結果が明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_fire_dragon_resurrection_acceleration
+  note: コルセスカがアキラを救うために「雪華掌」（氷血呪）を使用したことが、火竜メルトバーズの封印を弱め、世界の終焉（復活）を早めたという因果関係。
+  quotes:
+  - quote: たかが転生者一人の命の為に【雪華掌】まで解放して、馬鹿じゃないの？　わかってる？　あの行為で、火竜の復活が――世界の終わりが早まったんだよ
+    paragraph: p66
+    quote_verified: true
+  expected_payoff: アキラという個人の救済と世界全体の存続（または更新）とのトレードオフとして、終盤の決断や悲劇に直結する要因。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cosmic_heart_and_death
+  note: 火竜が宇宙の「心臓」であり、世界自体が寿命を迎えた「死に損ない」であるという設定。世界の終わりが単なる破壊ではなく「自然な死」として定義されている。
+  quotes:
+  - quote: 実を言えばね。この宇宙は、本来ならずっと大昔に滅びているはずだったの。私たち不死（キュトス）が抱えてしまった業――永遠への執着が、来るはずだった終わりを強引に引き延ばし続けているだけの、死に損ないの世界
+    paragraph: p94
+    quote_verified: true
+  expected_payoff: 世界更新の真の目的は「世界の破壊」ではなく「寿命の完遂」または「新法則への移行」であることが判明し、敵対勢力との思想対決に繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_test_result
+  note: キロン戦でのアキラの行動が「トリシューラを守れるか」のテストであり、その結果は「零点（不合格）」と宣告された。この判定基準の妥当性。
+  quotes:
+  - quote: 「ねえ、戦う前に、アキラくんは私に言ったんだよ。キロンとの戦いは、私を守れるかどうかのテストなんだって。その合否で私の使い魔になるかどうかが決まるんだって」
+    paragraph: p15
+    quote_verified: true
+  expected_payoff: アキラが本当に「守る力」を欠いていたのか、それともトリシューラの一方的な評価（偏見）であったのかの検証。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 存在価値は「有用性」によってのみ規定されるという冷酷な合理主義
+  weight: 0.9
+  quotes:
+  - quote: 感情の制御ができなくなった貴方はもう【アキラくん】じゃない。...この世界で生まれたばかりの貴方には既に希少価値が存在しない。何者でもない、何の価値も持たない路傍の石
+    paragraph: p23
+    quote_verified: false
+  note: トリシューラは感情や記憶といった内的要素を「フィルタ」で除去し、純粋な機能・能力（希少価値）のみで人物を評価する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 利他主義は裏切りであるという倫理的逆説
+  weight: 0.85
+  quotes:
+  - quote: 誰かを助ける選択をした時点で貴方は人に価値を見出しているんだよ、セスカ。...そして助けなかった全てに対して、それ未満だという価値を付けているんだ。
+    paragraph: p142
+    quote_verified: false
+  note: 「平等な博愛」は存在せず、誰かを助ける行為は必然的に他者を切り捨てる選別（傲慢さ）を伴うという論理。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世界は延命処置中の患者であり、更新とは死の受容である
+  weight: 0.8
+  quotes:
+  - quote: 火竜メルトバーズっていうのはこの宇宙の心臓で、老衰寸前の心臓にコールドスリープで必死に延命処置を施してるってわけ。
+    paragraph: p98
+    quote_verified: true
+  - quote: 既存の世界を終わらせるってことだよ。もちろん
+    paragraph: p102
+    quote_verified: true
+  note: 世界の存続は不自然な延命であり、コルセスカの任務（世界更新）は世界に「死」を与え、新たな法則へ移行させる医療行為として描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 過去（人格）の不可逆性と現在（決断）の重み
+  weight: 0.7
+  quotes:
+  - quote: 彼の内心が今までどうであったのか、そして今どうであるのかということは問題にならない。重要なのは、彼がどんな言葉と行動を選ぶのかということ。
+    paragraph: p7
+    quote_verified: true
+  - quote: 本当のアキラくんだったら、私のこういう思考に同意してくれるもの
+    paragraph: p44
+    quote_verified: true
+  note: アキラの「前世」や「過去の人格」は失われており（または復元不可能であり）、現在の行動とコルセスカの責任のみが物語を駆動する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

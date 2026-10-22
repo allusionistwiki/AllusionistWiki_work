@@ -1,0 +1,304 @@
+episode: ch5007
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_巨大剣]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5007_巨大剣_functions_as_魔法の武器_p10
+        quote: 男が巨大な剣をくるっと振り子のようにして回すと一瞬にして縮んでいき、果物ナイフ程度の大きさになってしまった。魔法のようだ、というか魔法なのだろう。見た目通りの重さでは無いのかも知れない。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_巨漢]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5007_巨漢_has_property_黒肌と赤い模様_p12
+        quote: 左に立つのは深い黒肌の巨漢で、上半身はほぼ裸で、胸や肩などに赤い染料で模様を描いているのが印象的だった。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_壮年男性]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5007_壮年男性_has_property_白髪と貫頭衣_p14
+        quote: 右側には黒一色の貫頭衣を着た、白髪の壮年男性。そう歳がいっているようには見えないが、若白髪だろうか。
+        locator: {}
+        spoiler_after: ch5007
+    action:
+      observations:
+      - event_ref: E_ch5007_壮年男性_stops_アズーリア_p23
+        quote: 'が、両集団の中間でその脚は止まる。
+
+          壮年男性が杖の先に取り付けられたクロスボウを発射したからだ。'
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_壮年男性_uses_浮遊する本と魔法の文字_p29
+        quote: ゆったりとした服の内側から次弾を弓に番え、ぎりぎりと引き絞っている。更にこれも魔法の道具なのか、勝手に腰の本が浮遊したかと思うと、ぱらぱらと開いてページから光を放ち始める。何かの模様（おそらく文字だ）が宙に浮かび上がり、それらは火の玉になって彼の周りを浮遊し始める。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_クロスボウ付き杖]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5007_クロスボウ付き杖_functions_as_武器兼呪文発動装置_p15
+        quote: その手に杖の先にクロスボウが取り付けられた見慣れない道具を持っているのが目立つ。キールが持っているような巻物を持っているのも彼だ。更にはベルトから黒い装丁の本を一冊吊り下げていた。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5007_アキラ_observes_文明の発展段階_p16
+        quote: 予想していたことだが、文字や印刷技術なども発達しているらしい。この世界の文明発展段階は俺が当初希望していた異世界の水準よりもずっと発達しているようだ。
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_learns_他集団の存在_p2
+        quote: その後、この迷宮には彼ら以外の集団もいるのだと知った。人と人が集まると、ちょっとしたトラブルが発生することもだ。
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_says_カインの真似裏か表_p36
+        quote: '「さあ、裏か表、どっちだ」
+
+          カインの言葉をそっくりそのまま真似た、俺の発言だった。'
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_names_シナモリ・アキラ_p53
+        quote: '「アキラ。シナモリ・アキラ」
+
+          とだけ叫んだ。'
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_thinks_贈与の意味_p63
+        quote: '一度も言葉をかけてきたことがない相手。カインとは逆だ。言葉を重ねることの無意味さを知っている。
+
+          物品の贈与に意味を見出す事は、どのような文化においても見られることなのだという。俺がそういった概念を有していることを、先ほどの一幕でアズーリアも知ったのだ。'
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_says_ありがとう_p68
+        quote: '「ありがとう」
+
+          礼と共に、三つの糧食を受け取り、口にする。じんわりとした甘みが口の中に広がる。'
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_says_甘くておいしい日本語_p72
+        quote: '「甘くておいしい。糖分が補給できて助かる」
+
+          日本語なので意味が伝わるはずも無かったが、アズーリアは一度頷いて、キール達の方へ駆けていった。'
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_thinks_コイン投げの愚策性_p76
+        quote: '――しかし、首尾良く場の空気を和らげることに成功したから結果的には良いものの、あの張り詰めた状況であんなことをするのは我ながら愚策としか思えない。
+
+          賽の目が良い方に出たから平和な結果に終わったが、あの行為を挑発や策略、何らかの攻撃だと判断されたらそこで戦いが始まっていただろう。'
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_thinks_戦闘への準備と三人組の評価_p81
+        quote: '実際の所、俺は半分以上戦闘になっても構わないと思っていたと知ったら、キール達は何を思うだろうか？
+
+          あの2メートルを超す巨漢、プロレスラーじみた太い腕に、俺のサイバーカラテが何処まで通用するのか。'
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_conceals_戦闘意図_p89
+        quote: '言う必要が無いこともある。
+
+          アズーリアは、それを良く分かっているようだった。
+
+          行動と、その結果が全てだ。'
+        locator: {}
+        spoiler_after: ch5007
+    action:
+      observations:
+      - event_ref: E_ch5007_アキラ_makes_コイン投げの音_p34
+        quote: キール達も武器を構えようかというその時、ぱちん、というコインを弾く音が響いた。
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_asks_カイン糧食要求_p42
+        quote: 俺はカインに糧食を三つ要求した。カインは即座に俺の意を汲んでくれた。この中で一番多くコミュニケーションをとってきただけある。
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アキラ_uses_弾道予報Ver2.0_p44
+        quote: 貰った糧食を、俺は『弾道予報Ver2.0』を立ち上げて三人に正確に投擲した。大きく放物線を描いてそれぞれの手に収まったそれらは、どうやら和解のきっかけくらいにはなったようだ。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_キール達と青年]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5007_キール達と青年_fights_口論の予兆_p18
+        quote: 'キールと中央の青年が何を話しているのかは全く分からなかったが、どうも会話の雲行きが怪しい気配がする。
+
+          お互いの表情や口調が、徐々にヒートアップしているのが傍目にも明らかだった。'
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5007_アズーリア_attacks_三人組_p21
+        quote: '会話から口論へと移行するかと思われたその時、何かがその逆鱗に触れてしまったのか、唐突にアズーリアが前に飛び出した。薄々感じてはいたが喧嘩っ早いというか猪突猛進というか。
+
+          先陣を切って突撃する戦士としては優秀かもしれないが、この場合には短所にしかならない。流石に槌矛は抜かず、籠手で殴りかかるつもりのようだ。'
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アズーリア_wounds_自分自身衝撃_p26
+        quote: かろうじて盾で防いだアズーリアだが、衝撃と轟音、閃光にやられてか膝を着いてしまう。
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_アズーリア_gives_糧食三つアキラへ_p61
+        quote: 背後からマントを引かれた。アズーリアだ。言葉はない。が、腰の収納から糧食を三つ取り出して、差し出してくる。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_弾丸]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5007_弾丸_functions_as_スタングレネード_p28
+        quote: 射出されたのは矢では無い。拳大の弾丸で、盾に接触すると同時に音と光を放つ、小規模なスタングレネードめいた代物だった。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_アキラ達]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5007_アキラ達_arrives_三人組_p3
+        quote: その三人組とは、とある大きな部屋で遭遇した。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_巨漢と青年]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5007_巨漢と青年_attacks_アキラ達構え_p32
+        quote: '巨漢が無言で前に一歩進み出て、中央の青年もナイフを旋回させて再び巨大化させた。
+
+          一触即発。'
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_青年]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5007_青年_says_キー結果選択_p38
+        quote: これには三人組も意表を突かれたのか、しばしの沈黙がその場を支配する。やがて中央の青年がおもしろがるようにして、「キー」と言う。俺が手を広げると結果は松明の絵。
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_青年_says_アキラの勝ち宣言_p40
+        quote: 「あんたの勝ちだ！」
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_青年_asks_アキラ名前_p48
+        quote: '「なあ、あんた、名前はなんて言うんだ？」
+
+          実際には二人称と名前の二単語しか聞き取れなかったのだが、多分そんなことを青年が訊いてきた。'
+        locator: {}
+        spoiler_after: ch5007
+      - event_ref: E_ch5007_青年_kills_巨大狼_p86
+        quote: そしてリーダー格らしき巨大な剣の青年。巨大狼の死骸には深く大きな刃物で切り裂かれたとおぼしき傷跡があった。あの青年の攻撃は、巨大狼を鎧ごと斬り裂けるほどに強烈なのだ。どう立ち回れば、あの男を殺せるだろうか？
+        locator: {}
+        spoiler_after: ch5007
+    action:
+      observations:
+      - event_ref: E_ch5007_青年_departs_その場_p55
+        quote: それで十分だったのだろう、彼は何事かを言うと、そのまま二人の仲間を連れてその場から立ち去っていった。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_両集団]]'
+  entity_type: relationship
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5007_両集団_bonds_緊張の緩和_p46
+        quote: 両集団の間にあった緊張感がわずかにほぐれ、キールと青年が何事かを話し、その場は収まったようだった。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_巨大狼の死骸]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5007_巨大狼の死骸_functions_as_実力の証明_p5
+        quote: 部屋の中央には巨大狼の死骸。それだけで、その三人の実力のほどが知れた。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カインとキール]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5007_カインとキール_helps_アキラ言葉の勉強_p59
+        quote: そこで周囲を警戒しながら小休止することになった。当然だが巨大狼の死骸からは価値のあるものは全て無くなっていた。なので水を飲んで座ると、カインと巨大狼の死骸のあちこちを指差しながらの言葉の勉強が始まる。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_三人組]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5007_三人組_has_property_質の高さ_p6
+        quote: こちらの半分にも満たない数だが、質では上なのかもしれない。
+        locator: {}
+        spoiler_after: ch5007
+    visual:
+      observations:
+      - event_ref: E_ch5007_三人組_has_property_非組織的服装_p7
+        quote: それぞればばらばらの服装で、統一感が無い。それでキールたちと同じ組織に所属していないと分かった。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_アキラとアズーリア]]'
+  entity_type: relationship
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5007_アキラとアズーリア_bonds_贈与による共通言語_p66
+        quote: 『贈与』は俺とアズーリアの共通言語なのだと、互いが理解した。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_キール達]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5007_キール達_has_property_張り詰めた態度_p7
+        quote: キール達の態度も、敵対的ではないもののどこか張り詰めている。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_中央の青年]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5007_中央の青年_other_キール_p9
+        quote: 中央に立つ男性が、何事かキールに話しかけた。
+        locator: {}
+        spoiler_after: ch5007
+  first_appearance_candidate: true

@@ -1,0 +1,139 @@
+chapter: ch5480
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 14
+  quotes_total: 16
+items:
+- kind: mystery
+  name: MY_Sarium_Motivation_Jahoratto
+  note: スーリウムが「ジャホラットの件」以降、王殺しとの関係断絶を宣言していた事実。なぜ今回再び接触し、助言（？）をしているのか。ジャホラット事件とスーリウムの目的の関連性。
+  quotes:
+  - quote: お前とは馴れ合わないとジャホラットの件が片付いた後にはっきり言ったはずだ
+    paragraph: p49
+    quote_verified: true
+  expected_payoff: ジャホラット事件の真相解明、およびスーリウムの長期的な戦略（ティリビナ同胞団の利益最大化）における王殺しの位置付けの再定義。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Saria_Azurelia_Relation
+  note: サリアが「アズーリアと親しくしていた」とされる事実。暗殺対象であるアズーリアとの過去の交流、およびサリアの行動原理（なぜ王殺しを止めに来たのか）。
+  quotes:
+  - quote: アズーリアと親しくしていた『邪視の座』の使い魔。確か名前はサリア。
+    paragraph: p140-p141
+    quote_verified: true
+  expected_payoff: アズーリア側の視点からの対立構造、あるいはサリアの過去の裏切り・復讐劇の回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Phalam_Alraune_Chapter
+  note: スーリウムが「アルラウネ断章」を引用し、「根源への回帰衝動」を叫ぶ。この断章の正体と、それがユディーアの「運命」感覚（竜覚）と対峙する際の力学。
+  quotes:
+  - quote: 私の『アルラウネ断章』が彼らこそ次の言震を引き起こす災厄の種子だと教えてくれているのさ
+    paragraph: p97
+    quote_verified: true
+  - quote: 私の血に流れる『アルラウネ断章』が呼んでいる。根源への回帰衝動を叫んでいる。
+    paragraph: p170
+    quote_verified: true
+  expected_payoff: 世界規模の「言震（カタストロフ）」の発生メカニズム、およびユディーアの血統（竜神信教）との対立・融合のプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Sarium_Time_Tree_Control
+  note: スーリウムが「時間樹」を操作し、戦況を書き換える能力。彼の能力の限界（「大樹の枝を手折り葉を毟ろうと...」という比喩）と、ユディーアの「運命竜」の権能との相克。
+  quotes:
+  - quote: 無駄だ。矢のように単線的な視座では、私の時間樹を折ることはできない
+    paragraph: p137
+    quote_verified: true
+  - quote: 時間樹は既に運命に深く根付いている。君たちの抵抗は樹皮を削る虫の足掻きよりも儚く無価値だ
+    paragraph: p165
+    quote_verified: true
+  expected_payoff: スーリウムの能力の本質（運命操作vs時間操作）の解明、およびユディーアが「運命竜」の権能でこれに対抗する具体的な手段の模索。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kingslayer_Shedboriz_Lineage
+  note: 王殺しが人狼種族の英雄「シェボリズ」を名乗る経緯と、その血統の特殊性。ティリビナ同胞団との関係（「俺はティリビナ人だけの味方になるつもりもない」という拒絶）。
+  quotes:
+  - quote: どのような経緯か詳細は不明だが、地上世界において迫害と弾圧、奴隷化を強いられてきた人狼たちの末裔がこの『王殺し』であるのなら
+    paragraph: p119
+    quote_verified: true
+  - quote: 俺はティリビナ人だけの味方になるつもりもない。それを忘れるなよ、スーリウム
+    paragraph: p124
+    quote_verified: true
+  expected_payoff: 王殺しの真の目的（個人復讐か種族解放か）、およびティリビナ同胞団と人狼種族間の歴史的和解・対立の背景。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命操作の非対称性と自由意志の限界
+  weight: 0.8
+  quotes:
+  - quote: スーリウムは時間樹を折ることはできない...君たちの抵抗は樹皮を削る虫の足掻きよりも儚く無価値だ
+    paragraph: p137-p165
+    quote_verified: false
+  - quote: 勝てないという圧倒的な事実を打ち消す手段だけが皆無なのだった。
+    paragraph: p187
+    quote_verified: true
+  note: ユディーア（運命竜の巫女）とスーリウム（時間樹/アルラウネ）の能力格差、およびサリアの「死をやり直す」試みが無意味に終わることで、個々の英雄的努力が巨大な運命構造によっていかに無力化されるかを描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: コンテンツ消費としての英雄叙事詩
+  weight: 0.7
+  quotes:
+  - quote: 動画配信者の支援者（ファン）とは基本的にそういうものだ。
+    paragraph: p82
+    quote_verified: true
+  - quote: 追悼イベントで悲しみを消費したあと別の動画でも視聴するだろう。
+    paragraph: p81
+    quote_verified: true
+  note: 英雄の死や苦難が、観測者（ユディーア・レナリア）にとっての「コンテンツ」として消費される冷徹な構造。物語の悲劇性が、現代のエンタメ経済論理によって解体されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 予防的暴力と倫理的ジレンマ
+  weight: 0.6
+  quotes:
+  - quote: 予言、未来予知、占術、運命知覚。呪術によって得た知識をもとに予防的行動を行うことの是非は思考実験と倫理学における重要なテーマである。
+    paragraph: p100
+    quote_verified: true
+  - quote: 決定はあまりにも予防的だ。
+    paragraph: p99
+    quote_verified: true
+  note: スーリウムの行動原理が「災厄の種子」を事前に摘むことにあるとされ、その正当性（倫理的妥当性）に対する疑義がナレーションによって提示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美の残酷さとその支配力
+  weight: 0.5
+  quotes:
+  - quote: スキリシアの夜はいつ見ても美しく儚いな。...これもまた美のかたち。私はこの美しさを愛する。
+    paragraph: p43
+    quote_verified: false
+  - quote: すばらしい。それが美しい生き様というものさ、愛すべき新たなシェボリズ
+    paragraph: p126
+    quote_verified: true
+  note: スーリウムが「美」を基準に世界（王殺しの運命）を操縦している点。残酷な運命操作が「美しさ」という美学で正当化される、芸術と暴力の親和性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,208 @@
+chapter: ch5112
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 16
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_medical_triage]]'
+  object: '[[ME_real_world_emergency_medicine]]'
+  claim: キロンの能力は、現実の医療現場におけるトリアージ（重症度分類）の倫理的ジレンマを、物理的な法則改変によって解決するSF的パロディである。
+  quote: 致命傷と軽傷という比較からその二つの価値を逆転させ、あらゆる重傷をただの痒みや痛み程度にまで貶める、無敵の医療神働術。時間によって変動する優先順位を操作することによって、負傷が本人を死に至らしめるまでの時間を無限に引き延ばす。
+  paragraph: p15
+  confidence: strong
+  quotes:
+  - quote: 致命傷と軽傷という比較からその二つの価値を逆転させ、あらゆる重傷をただの痒みや痛み程度にまで貶める、無敵の医療神働術。時間によって変動する優先順位を操作することによって、負傷が本人を死に至らしめるまでの時間を無限に引き延ばす。
+    paragraph: p15
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_attrition_magic]]'
+  object: '[[ME_semeiotic_cultural_capital]]'
+  claim: アトリビュート（属性）魔法は、記号論における「文化資本」の概念に似ており、その文化的背景を共有しない者には効力を発揮しないという現象を示している。
+  quote: そうした特定の様式（スタイル）や記号（コード）はそれを自明のものとして理解していなければただの装飾的で思わせぶりな言動でしかない。知識のデータベースを参照する者。情報を共有している者。すなわち同じ世界という文化圏に属していなければその情報は読み取れない。
+  paragraph: p38
+  confidence: strong
+  quotes:
+  - quote: そうした特定の様式（スタイル）や記号（コード）はそれを自明のものとして理解していなければただの装飾的で思わせぶりな言動でしかない。知識のデータベースを参照する者。情報を共有している者。すなわち同じ世界という文化圏に属していなければその情報は読み取れない。
+    paragraph: p38
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_kiron_strength]]'
+  object: '[[ME_narrative_tropes_heroism]]'
+  claim: キロンの「運命力」は、物語構造における「プロットアーマー」や「主人公補正」と呼ばれるナラティブの常套句そのものを指している。
+  quote: 『正義の味方や善玉が勝つ』というようなよくある物語のパターンは二つの世界で共通している為、ある程度までは転生者にも通用する。
+  paragraph: p44
+  confidence: explicit
+  quotes:
+  - quote: 『正義の味方や善玉が勝つ』というようなよくある物語のパターンは二つの世界で共通している為、ある程度までは転生者にも通用する。
+    paragraph: p44
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_akira_ignorance]]'
+  object: '[[ME_metaphysical_resistance]]'
+  claim: 主人公アキラの「無知」は、単なる知識不足ではなく、世界のルール（物語的価値観）に対するメタフィクショナルな耐性として機能している。
+  quote: 俺が引喩の元ネタを知らないことで、アトリビュートの力を軽減することができる。無知は力だ。対話すら不可能な相手には、まともな戦闘すら成立しない。
+  paragraph: p54
+  confidence: strong
+  quotes:
+  - quote: 俺が引喩の元ネタを知らないことで、アトリビュートの力を軽減することができる。無知は力だ。対話すら不可能な相手には、まともな戦闘すら成立しない。
+    paragraph: p54
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_kiron_past]]'
+  object: '[[ME_utilitarian_ethics]]'
+  claim: キロンは功利主義的な「最大多数の最大幸福」に基づくトリアージを体験し、その結果としての絶望から、個別の命を救うための極端な手段（パラドキシカル・トリアージ）へ転換した。
+  quote: その重傷度から優先順位を決定し、救うべき命を選択したという傷。そして最優先で助けた一人すら力及ばずに助けられなかったという絶望。
+  paragraph: p6
+  confidence: moderate
+  quotes:
+  - quote: その重傷度から優先順位を決定し、救うべき命を選択したという傷。そして最優先で助けた一人すら力及ばずに助けられなかったという絶望。
+    paragraph: p6
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_akira_identity]]'
+  object: '[[ME_nihilistic_ethics]]'
+  claim: アキラの「殺人鬼でありたい」という自己認識は、外的な価値基準を拒絶する虚無主義的な倫理観に構造が対応している。
+  quote: あらゆるものに価値を見出さない、あるいはあらゆるものに同じだけの価値を見出す殺人鬼でありたい人だもの。他者による価値の操作を忌避する精神性。自分の値札は自分で付けろ、だったよね、アキラくん。
+  paragraph: p56
+  confidence: explicit
+  quotes:
+  - quote: あらゆるものに価値を見出さない、あるいはあらゆるものに同じだけの価値を見出す殺人鬼でありたい人だもの。他者による価値の操作を忌避する精神性。自分の値札は自分で付けろ、だったよね、アキラくん。
+    paragraph: p56
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kiron_Destruction_Method
+  note: キロンの三つの力（運命力、超回復力、神の如き力）を同時に打ち破る具体的な方法。特に「運命力の逆用」が失敗した経緯と、その再試行の可能性。
+  quotes:
+  - quote: しかしそれは失敗した。正確には成功したのだが、あと一歩の所で邪魔が入ったのだ。
+    paragraph: p29
+    quote_verified: true
+  - quote: 俺はこれら三つの障害を、同時に打ち破らなくてはならない。
+    paragraph: p31
+    quote_verified: true
+  expected_payoff: アキラの「無知」とトリシューラの裏からの支援により、運命補正の矛盾を利用した逆転劇が発生する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Cultural_Gap
+  note: アキラが「この世界の知識」を持たないことが、なぜキロン戦での決定的な優位性になるのか、その詳細なメカニズムの回収。
+  quotes:
+  - quote: 俺はこの世界に於ける典型的な勧善懲悪物語を知らない。
+    paragraph: p44
+    quote_verified: true
+  - quote: 同じ条件なら、優先度が高いのは単純に仲間と積み重ねた時間が多い方――つまり訪れたばかりの転生者よりも、生まれてからずっとこの世界で生きてきたキロンの方が逆転時の判定に有利なんだと思う
+    paragraph: p50
+    quote_verified: true
+  expected_payoff: キロンの「物語的な勝利」が、アキラという「異質な観客/読者」によって破綻する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Paradoxical_Triage_Mechanic
+  note: 「パラドキシカルトリアージ」の具体的な制限や、キロンがそれを維持し続けるための代償（リソース不足など）の有無。
+  quotes:
+  - quote: 死を未来へ遠ざけて、その瞬間の訪れを誤魔化し続ける詐術。それがその超回復能力の正体だった。
+    paragraph: p15
+    quote_verified: true
+  expected_payoff: 「時間」を操作しているため、時間の収束や限界による自滅、またはアキラによる「死」の概念の強制適用で解決する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Miesuriva_Attack_Strategy
+  note: ミエスリヴァ（美の神）をベースにしたアトリビュートへの「両面からの攻め方」の詳細。
+  quotes:
+  - quote: まずは目に見えて危険な、ミエスリヴァから対策しようか。私は裏から、アキラくんは表から。両面から攻めて、厄介な力を完封しよう。
+    paragraph: p33
+    quote_verified: true
+  expected_payoff: トリシューラが知識（記号）を消去し、アキラが無知（非解釈）によって干渉を無効化する複合戦術。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語的常套句（クリシェ）に対するメタフィクショナルな抵抗としての「無知」
+  weight: 0.9
+  quotes:
+  - quote: 俺が引喩の元ネタを知らないことで、アトリビュートの力を軽減することができる。無知は力だ。対話すら不可能な相手には、まともな戦闘すら成立しない。
+    paragraph: p54
+    quote_verified: true
+  note: 異世界転生ジャンルの「主人公補正」を物理法則として組み込まれた敵に対し、その物語構造を理解していないことが唯一の対抗手段であるという主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 価値観の相対性と自己決定権：他者による定義からの解放
+  weight: 0.8
+  quotes:
+  - quote: あらゆるものに価値を見出さない、あるいはあらゆるものに同じだけの価値を見出す殺人鬼でありたい人だもの。他者による価値の操作を忌避する精神性。自分の値札は自分で付けろ、だったよね、アキラくん。
+    paragraph: p56
+    quote_verified: true
+  note: キロンの「美/強さ」という社会的・神的な価値定義に対し、アキラの「自分自身の価値定義（または無価値）」が対峙する構図。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 医療倫理の限界と救済の逆説：トリアージのトラウマ
+  weight: 0.6
+  quotes:
+  - quote: その重傷度から優先順位を決定し、救うべき命を選択したという傷。そして最優先で助けた一人すら力及ばずに助けられなかったという絶望。
+    paragraph: p6
+    quote_verified: true
+  note: 合理的な選択がもたらす倫理的苦痛と、それを超越しようとする狂信的なまでの救済願望（キロンの動機）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 文化圏の壁：知識が力となる世界における疎外
+  weight: 0.5
+  quotes:
+  - quote: 知識のデータベースを参照する者。情報を共有している者。すなわち同じ世界という文化圏に属していなければその情報は読み取れない。
+    paragraph: p38
+    quote_verified: true
+  note: 異世界転生者が直面する「言語」以上の「文化的コード」の壁と、それに起因する能力格差。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

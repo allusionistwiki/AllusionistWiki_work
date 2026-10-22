@@ -1,0 +1,154 @@
+chapter: ch5071
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 17
+  quotes_total: 18
+items:
+- kind: mystery
+  name: MY_shura_survival_reason
+  note: シューラがキロンを殺したはずなのに生きている理由。キロンの「呪力の隠蔽」や「真名の効果」と関連している可能性が高い。
+  quotes:
+  - quote: （確かにあの時、シューラが息の根を止めた筈なのに）
+    paragraph: p8
+    quote_verified: true
+  - quote: 今まで、自らの呪力を完璧に隠蔽していたというの？
+    paragraph: p79
+    quote_verified: true
+  expected_payoff: キロンの真名（呪術的効果）による不死性や、シューラの攻撃に対する対抗手段の発覚。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kiron_true_name_effect
+  note: キロンの「真名」を聞くだけで意識を失うほどの効果を持つ名前とは何か。また、アキラが耐性を持っていた理由は何か。
+  quotes:
+  - quote: 俺の真名は用意も無しに聞かせるには少々刺激が強すぎてね。
+    paragraph: p54
+    quote_verified: true
+  - quote: 世界が、振動した。ぐらり、と視界が揺れて、見当識を失う。
+    paragraph: p63-p65
+    quote_verified: true
+  expected_payoff: キロンの真名に隠された「概念」や「呪力」の正体、およびアキラの転生者としての特性（耐性）の解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_handshake_refusal_meaning
+  note: アキラがキロンから差し出された手を取らなかったのは「しなかった」のか「できなかった」のか、その真意は何か。
+  quotes:
+  - quote: どうしてか、手をとることはしなかった。いや、できなかったのか。
+    paragraph: p101-p102
+    quote_verified: true
+  expected_payoff: アキラの精神的な葛藤、またはシューラとのリンクによる拒絶反応（物理的・呪術的な制限）の発覚。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_shura_sister_identity
+  note: 「キュトスの姉妹」の一人であるトリシューラ（きぐるみの魔女）が、なぜ人間に害をなす技術（寄生異獣など）を提供したのか。その動機と過去。
+  quotes:
+  - quote: 地上に寄生異獣という技術、いや業をもたらしたのはあの魔女だ
+    paragraph: p265
+    quote_verified: true
+  - quote: （うん、そうだけど？）あっさりと。あまりにも簡単に、彼女はそれを肯定した。
+    paragraph: p278-p280
+    quote_verified: true
+  expected_payoff: トリシューラの動機、キュトス神話との関連、そして彼女が「邪悪」とされる理由の真実（あるいは逆転）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_azuriah_fate_details
+  note: キロンが「アズーリアに言わせれば背負わなくてもいい責任を背負わないで」と言う文脈。アズーリアが第四階層の罠（使い潰し）からどのように生還したのか、または死亡しているのか。
+  quotes:
+  - quote: アキラくんと戦うつもりはないんだ。君は結果として我々と敵対することになっているだけだ。
+    paragraph: p114
+    quote_verified: false
+  - quote: 身内が身内を殺す。そういう腐りきった組織なんだよ、松明の騎士団は。
+    paragraph: p183
+    quote_verified: true
+  expected_payoff: アズーリアの現在の状態（生存/死亡）、および彼女を追う「上層部」の具体的な勢力との対決。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 組織の論理と個人の倫理の衝突
+  weight: 0.9
+  quotes:
+  - quote: 無辜の命を犠牲にして何が正義だ！　貴族として、聖騎士として、異獣から尊き命を守る事こそが我々が抱く至上の使命であるべきなのだ。
+    paragraph: p161
+    quote_verified: true
+  - quote: 俺はそういう物事をちゃんと見ようとしない上層部に唯々諾々と従うつもりはない。
+    paragraph: p114
+    quote_verified: true
+  note: キロンというキャラクターを通じ、組織の功利主義（武功分配）と個人の道徳観（ノブレス・オブリージュ）が対立する構図が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言葉（名前）の呪術的権力と認識の暴力
+  weight: 0.8
+  quotes:
+  - quote: その意味の量、込められた呪的な力が桁違いだったのだ。
+    paragraph: p68
+    quote_verified: true
+  - quote: もう思い出すことすら心が拒絶している。この男を名前で認識することを、全身が拒否していた。
+    paragraph: p70
+    quote_verified: true
+  note: 単なる記号としての名前ではなく、存在そのものを規定し精神に干渉する「真名」の概念が強調されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術移転と宗教的タブー（魔女の業）
+  weight: 0.7
+  quotes:
+  - quote: 地上に寄生異獣という技術、いや業をもたらしたのはあの魔女だ
+    paragraph: p265
+    quote_verified: true
+  - quote: 我ら人類の意思を奪い奴隷化する呪術。解体して肉の部品として切り売りするという呪術。
+    paragraph: p271
+    quote_verified: true
+  note: トリシューラがもたらした技術が、人間社会にとって許容可能な「科学」か、禁じられた「業（カルマ）」かの境界線上にあることが示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生者によるメタフィクショナルな命名の違和感
+  weight: 0.6
+  quotes:
+  - quote: 俺が異世界から転生したと知った上で俺の元来た世界から名前を引用してくるという、訳の分からない行為をする傾向が。
+    paragraph: p92
+    quote_verified: true
+  note: 異世界側からの現世への言及（キロン＝Kyron?）に対するアキラの違和感と考察は、転生世界の構造的不自然さを浮き彫りにする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「敵」としての定義の流動性
+  weight: 0.5
+  quotes:
+  - quote: 君は結果として我々と敵対することになっているだけだ。
+    paragraph: p114
+    quote_verified: true
+  - quote: その男はね、アキラくんの天敵なんだから！　絶対に相容れない、相性最悪、不倶戴天の敵なの！
+    paragraph: p44
+    quote_verified: true
+  note: 公式の命令（捕縛・殺害）と個人の意思（友好）、そしてシューラの警告との間で、「敵」というカテゴリーが揺らいでいる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

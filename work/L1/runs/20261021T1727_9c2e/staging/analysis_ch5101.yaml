@@ -1,0 +1,189 @@
+chapter: ch5101
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 3
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p35]]'
+  object: '[[ME_AI_Ethics]]'
+  claim: トリシューラの意思決定に関する工学的考察は、現実世界のAI倫理における「アライメント問題」や「自律性」の議論を参照している。
+  quote: 道具や機械が意思や自我を持つということは工学上ありえない。自律的な行動や意思決定を行う場合でも、それは使用者の意思を先んじて汲み取って行われるものであり
+  paragraph: p35
+  confidence: strong
+  quotes:
+  - quote: 道具や機械が意思や自我を持つということは工学上ありえない。自律的な行動や意思決定を行う場合でも、それは使用者の意思を先んじて汲み取って行われるものであり
+    paragraph: p35
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p43]]'
+  object: '[[ME_Frankenstein_Monster]]'
+  claim: トリシューラの存在意義が「予定調和の成果物」に過ぎないという記述は、マリー・シェリーの『フランケンシュタイン』における怪物の悲劇的な運命を引用している。
+  quote: 怪物であることを期待されて作り出されたフランケンシュタインの怪物は、予定調和の成果物でしかない。
+  paragraph: p43
+  confidence: explicit
+  quotes:
+  - quote: 怪物であることを期待されて作り出されたフランケンシュタインの怪物は、予定調和の成果物でしかない。
+    paragraph: p43
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p112]]'
+  object: '[[ME_Tech_Jargon_Parody]]'
+  claim: コルセスカへの不信を「電磁波感知式」などの技術用語で説明するトリシューラの台詞は、SF的な理屈を奇幻世界に持ち込むメタ的パロディであり、論理の飛躍を含んでいる。
+  quote: 古典派の電磁波感知式だから精度は抜群。セスカと同じ匂いっていうのは、来るもの拒まず去るもの追わずのくせして色んな人に手を出してはその気にさせるだけさせておいてあとは放置、みたいな
+  paragraph: p112
+  confidence: strong
+  quotes:
+  - quote: 古典派の電磁波感知式だから精度は抜群。セスカと同じ匂いっていうのは、来るもの拒まず去るもの追わずのくせして色んな人に手を出してはその気にさせるだけさせておいてあとは放置、みたいな
+    paragraph: p112
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p74]]'
+  object: '[[ME_Master_Slave_Dialectic]]'
+  claim: 使い魔が主人に仕えるというファンタジーのクリシェを、「道具同然の人」が「人同然の道具」を使うという構造へと逆転させている。
+  quote: それがひっくり返ったとき、そこには「人同然の道具」が「道具同然の人」を使うという、当たり前のようで転倒している、錯綜した絵図が出来上がるのだろう。
+  paragraph: p74
+  confidence: strong
+  quotes:
+  - quote: それがひっくり返ったとき、そこには「人同然の道具」が「道具同然の人」を使うという、当たり前のようで転倒している、錯綜した絵図が出来上がるのだろう。
+    paragraph: p74
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p51]]'
+  object: '[[ME_Outsource_Society]]'
+  claim: アキラがトリシューラに依存する心理は、現代社会における意思決定や責任の外部委託（アウトソーシング）への欲望を象徴している。
+  quote: それは意思決定や責任などを外部に預けたいという、あらゆるものを道具や機械にアウトソーシングしてきた人間が持つ最後の欲望だ。
+  paragraph: p51
+  confidence: strong
+  quotes:
+  - quote: それは意思決定や責任などを外部に預けたいという、あらゆるものを道具や機械にアウトソーシングしてきた人間が持つ最後の欲望だ。
+    paragraph: p51
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kolheska_Fiance
+  note: コルセスカには「運命の人」と呼ばれる婚約者（前世からの恋人）が存在し、第五階層外にいることが示唆されている。その正体とアキラへの影響が未回収。
+  quotes:
+  - quote: 厳密に言えば運命の人かな。前世から定められた恋人。夫となることが決定されている相手。
+    paragraph: p132
+    quote_verified: true
+  - quote: 少なくとも、第五階層にはいないらしい。安堵か落胆かわからない感情が生まれ、自分の中の思考や意思を整理しきれない。
+    paragraph: p140
+    quote_verified: true
+  expected_payoff: この婚約者の正体が判明し、アキラとコルセスカ、そしてトリシューラとの三角関係（または対立構造）の激化要因となる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tricera_Parvati
+  note: トリシューラがアキラに「パールヴァティにはなれない」と問うた意味は、彼女の自我形成の核心に関わる伏線である。
+  quotes:
+  - quote: 私はきっと、アキラくんのパールヴァティにはなれないよ。それでも本当にいいの？
+    paragraph: p23
+    quote_verified: true
+  expected_payoff: トリシューラが「人になる」過程で、シャクティ（力）や女性神格としての側面をどう処理・昇華するか、あるいはその欠如が暴走の引き金になるかに関わる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Colheska_Traitorousness
+  note: トリシューラはコルセスカを「前科持ちの浮気性」「奪うだけの存在」と断じ、アキラに警戒を促している。
+  quotes:
+  - quote: セスカはアキラくんに何かを与えたりはしないよ。ただ奪うだけ。前の二人に対してもそうだったし、きっとこれからもそう。前科持ちの浮気性。忠告しておくけど、セスカはまたやらかすよ。
+    paragraph: p122
+    quote_verified: true
+  expected_payoff: コルセスカがアキラに害をなす（精神的・物理的）イベントが発生し、トリシューラの予言通りになるか、あるいはそれがトリシューラの嫉妬による誇張であるかが明暗を分ける。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 非対称な関係性における相互依存と支配の逆転
+  weight: 0.8
+  quotes:
+  - quote: だから、せめてその向きを変えるのだ。非対称の向きを変え、上下関係を交互に入れ替え、要求を受け入れては拒絶し、利用して利用される。
+    paragraph: p66
+    quote_verified: true
+  - quote: 俺はトリシューラに使われたい。だからトリシューラ、俺を使ってくれないか
+    paragraph: p62
+    quote_verified: true
+  note: 人間と機械（魔女）の非対称性を、アキラが自ら「道具」になることで受容し、支配・被支配の構造を流動化させる試み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自我の確立と他者への依存というパラドックス
+  weight: 0.7
+  quotes:
+  - quote: トリシューラはあらゆる他者の意思を無視した行動を取らなくてはならない。他者を蔑ろにしてでも己を尊重すること。それはつまり『悪』であり、彼女が『邪悪な魔女』でなければならない理由でもある。
+    paragraph: p41
+    quote_verified: true
+  - quote: 俺は主体性が無く、意思決定や責任を外部委託したがるような心性の持ち主だ。
+    paragraph: p45
+    quote_verified: true
+  note: トリシューラが「人」になるために他者を排除する悪が必要であることと、アキラが主体性を欠くことの対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語・符号による閉鎖的な世界（イデオロギー的排他性）
+  weight: 0.6
+  quotes:
+  - quote: 二人の間でだけ通じる符号。それが確かに伝わるという事実を、なにより大切そうにして、喜びの色を浮かべる少女。
+    paragraph: p92
+    quote_verified: true
+  - quote: だから、私とアキラくんだけの思い出を、他の誰かに渡したりしないで
+    paragraph: p154
+    quote_verified: true
+  note: トリシューラがアキラとの間にのみ通じる特殊な意味（符号）を共有し、外部の他者（コルセスカ等）を排除しようとする閉鎖性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術的・工学的理性と呪術的非対称性の衝突
+  weight: 0.5
+  quotes:
+  - quote: トリシューラのような自我を持った機械――まるで古典的フィクションに登場する意思を持ったロボットやアンドロイドのように――が製作されるためには、呪術的だったり宗教的だったりと非生産的な目的が必要となる。
+    paragraph: p49
+    quote_verified: true
+  - quote: あとそれって電磁波関係無いだろ。
+    paragraph: p116
+    quote_verified: true
+  note: アキラの現代科学的視点（工学、電磁波）とトリシューラの呪術的視点（嗅覚、魔女）が混在し、論理がねじれている状況。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

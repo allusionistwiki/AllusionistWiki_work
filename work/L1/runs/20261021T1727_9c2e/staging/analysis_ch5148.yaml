@@ -1,0 +1,121 @@
+chapter: ch5148
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 10
+  quotes_total: 10
+items:
+- kind: mystery
+  name: MY_materia_name_origin
+  note: 「白のメートリアン」の名前と意味（抵抗）が、ミアスカ語由来であることの意味的深み。彼女がなぜ「不幸の敵」と自称するのかの背景。
+  quotes:
+  - quote: 私のまことの名は【白のメートリアン】――ああ、意味も添えないと駄目でしたよね。ミアスカの言葉で『抵抗』を意味する、揺るがずけっして損なわれない不屈の意思を体現する名前です。
+    paragraph: p47
+    quote_verified: true
+  expected_payoff: 彼女が過去の運命（ミルーニャとしての死や候補者としての地位）にどう抵抗したのか、その真意が明かされる展開での回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_harbert_name_takeover
+  note: ヴァージリアを殺して「ハルベルト」を襲名すると宣言したこと。ハルベルトが何者であり、なぜ彼女がそれを継承しようとするのか。
+  quotes:
+  - quote: ここで貴方を亡き者にして、私がハルベルトを襲名します
+    paragraph: p59
+    quote_verified: true
+  expected_payoff: ハルベルトが歴代の魔女の号なのか、特定の呪術体系の称号なのかが明かされ、彼女の実力と目的のスケールが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_geometric_pattern_meaning
+  note: 胸元に刻印された化学式のような幾何学的模様。これが呪力の回路なのか、契約の証なのかが未詳。
+  quotes:
+  - quote: 図形と記号が組み合わさるその全体像はどこか化学式のようにも見えた。
+    paragraph: p30
+    quote_verified: true
+  expected_payoff: 戦闘中の攻撃・防御の仕組み、または彼女がミルーニャから変質した技術的根拠（グロソラリア因子との関連）としての説明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_survival_desire_source
+  note: 「性質は生存欲求」「定められた老いと死を打ち砕くもの」という宣言。彼女がなぜ死に抵抗するのか、その根源的な動機。
+  quotes:
+  - quote: 私の号は白、性質は生存欲求、起源は下らない運命に対する抵抗。そう、私は不幸の敵。不運の駆逐者。定められた老いと死を打ち砕くもの
+    paragraph: p53
+    quote_verified: true
+  expected_payoff: 彼女が「塔」や世界のルールに対して抱いている根本的な恨み、あるいは過去に経験した理不尽な死（ミルーニャの死）への復讐心。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_nato_reaction_paralysis
+  note: ナトが攻撃端末を放った直後、致命傷を受けても平然としている相手を見て「何も出来ずに立ち尽くす」状態。ナトの戦闘能力や判断力に起因する要因（恐怖、呪術の影響など）。
+  quotes:
+  - quote: 地に落ちた己の武器と致命傷を受けて平然と立ち続けている少女を交互に眺めて、ナトが何も出来ずに立ち尽くす。それは、私も同じだった。
+    paragraph: p55-p56
+    quote_verified: true
+  expected_payoff: メートリアンの「威圧感」が単なる精神的な圧力ではなく、物理的・魔術的な拘束効果を持っていることの判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 消費される暴力と愛の不可分性（ドメスティックな支配の極端な誇張）
+  weight: 0.8
+  quotes:
+  - quote: 『脳髄洗い』で従順な奴隷にしてあげますからねー。きゃーん！　これって愛のし、る、し♪
+    paragraph: p22
+    quote_verified: true
+  note: アズーリアへの扱いが「殺す」対象ではなく「保存・調整」対象であり、それが「愛」と称されることで、暴力と愛情の境界が崩壊している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己定義による運命の脱構築（名前を名乗ることによる存在の再構築）
+  weight: 0.9
+  quotes:
+  - quote: 私は、与えられた運命には満足しない
+    paragraph: p47
+    quote_verified: true
+  - quote: 起源は下らない運命に対する抵抗。そう、私は不幸の敵。不運の駆逐者。定められた老いと死を打ち砕くもの
+    paragraph: p53
+    quote_verified: true
+  note: 「ミルーニャ」という旧名（死んだ身）から「メートリアン」（生存欲求・抵抗）への変貌は、世界が割り当てた役割からの逸脱と自己創造の主題を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 劇的演出による恐怖の美学化（演劇的メタファーでの暴力の美化）
+  weight: 0.7
+  quotes:
+  - quote: 月光を照明に、星々を観客として、夜風の歓声に包まれながら。より深く更けて行く夜の劇場、その第二幕が開演しようとしていた――。
+    paragraph: p61-p62
+    quote_verified: true
+  note: 残酷な殺戮と再生が「劇場」「観客」という文脈で語られ、当事者たちの恐怖が演出の一部として消費される構図。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体の変質とアイデンティティの断絶（ミルーニャとしての死）
+  weight: 0.6
+  quotes:
+  - quote: 極めて似ているけれど、決定的に違う。内包する呪力の質と量が、それまでの彼女とは隔絶していた。
+    paragraph: p35-p36
+    quote_verified: true
+  note: 外見が似ているにもかかわらず「ミルーニャなのか？」という問いへの嘲笑は、同一性の完全な喪失を意味し、転生者としての彼女が再び「他人」へ変質したことを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

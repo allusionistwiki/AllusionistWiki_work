@@ -1,0 +1,211 @@
+chapter: ch5360
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 10
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5360_天使_appears_as_残骸_p2]]'
+  object: '[[ME_gacha_failure]]'
+  claim: 天使の残骸は、ガチャで排出された上位キャラが即座に戦闘不能になる『天井なし』の惨劇を象徴する。
+  quote: 爆心地に天使の残骸が横たわっている。
+  paragraph: p2
+  confidence: moderate
+  quotes:
+  - quote: 爆心地に天使の残骸が横たわっている。
+    paragraph: p2
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5360_Arete_Marard_Fusion]]'
+  object: '[[ME_melty_blood_fusion]]'
+  claim: マラードとアレッテの融合は、パズルゲーム『メルティブラッド』の強制合体システム（同化）を模倣している。
+  quote: 融血呪。個と個の境界を対価に融合と共有の奇跡を実現させる禁忌の呪法だ。
+  paragraph: p98
+  confidence: strong
+  quotes:
+  - quote: 融血呪。個と個の境界を対価に融合と共有の奇跡を実現させる禁忌の呪法だ。
+    paragraph: p98
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5360_Altos_Declaration]]'
+  object: '[[ME_dnd_alignment_change]]'
+  claim: アルトの宣戦布告と支配宣言は、TRPGにおけるプレイヤーの悪役（ヴィラン）へのアライメント転換を想起させる。
+  quote: 「既に二つの王権はこの手にある。そうだ、私こそがガロアンディアンの真竜王。」
+  paragraph: p156
+  confidence: moderate
+  quotes:
+  - quote: 「既に二つの王権はこの手にある。そうだ、私こそがガロアンディアンの真竜王。」
+    paragraph: p156
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5360_Hieros_Gamos]]'
+  object: '[[ME_greek_mythology_hieros_gamos]]'
+  claim: 「聖婚（ヒエロス・ガモス）」は、ギリシャ神話における神々の結合儀礼を引用し、強制的な支配と融合を神聖化している。
+  quote: 「聖婚（ヒエロス・ガモス）」
+  paragraph: p92
+  confidence: explicit
+  quotes:
+  - quote: 「聖婚（ヒエロス・ガモス）」
+    paragraph: p92
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5360_Mareblanke_12]]'
+  object: '[[ME_doomsday_knight]]'
+  claim: マレブランケ（十二限界）の召集は、ダンジョン系作品におけるボスラッシュや十二神将的な集団を想起させる。
+  quote: 「集え、我神十二限界（マレブランケ）よ」
+  paragraph: p202
+  confidence: strong
+  quotes:
+  - quote: 「集え、我神十二限界（マレブランケ）よ」
+    paragraph: p202
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5360_Entraiguish]]'
+  object: '[[ME_sprawl_trope]]'
+  claim: エントラグイシュ（愛の亡者）は、SF用語「スプラウル」（大量の赤子型兵器/存在）の語源である『スプロール現象』を連想させる。
+  quote: 九百九十九の魂魄から成る愛の亡者。祝福されなかった赤子、偉大なる大地と闇の王子たち。最強の死骸人形にして、個にして軍勢でもある可能性の種子
+  paragraph: p271
+  confidence: weak
+  quotes:
+  - quote: 九百九十九の魂魄から成る愛の亡者。祝福されなかった赤子、偉大なる大地と闇の王子たち。最強の死骸人形にして、個にして軍勢でもある可能性の種子
+    paragraph: p271
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_missing_13th_member
+  note: マレブランケは12体いるが、アルトの腹から出てくるのは赤子たちであり、公式な13番目の構成要素が見当たらない。赤子たちが13番目を補完するのか、別個体か。
+  quotes:
+  - quote: マレブランケは十二人。ならば、あと一人の姿が見えない。
+    paragraph: p250
+    quote_verified: true
+  expected_payoff: 赤子群（エントラグイシュ）が合体して13番目の巨大個体となるか、隠れた第13の構成者が別地点で登場する可能性を示唆。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_missing_memory
+  note: 主人公がアルトの真意やマレブランケの正体について「頭からすっぽりと抜け落ちている」という感覚を持つ。
+  quotes:
+  - quote: ――やはり、何かが頭からすっぽりと抜け落ちている、ような。
+    paragraph: p246
+    quote_verified: true
+  expected_payoff: この「抜け落ちた記憶」は、ルバーブのマラードへの忠誠心や過去の因縁に関する重要な伏線であり、後の戦術的優位に繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_altos_internal_conflict
+  note: アルトの髪が青と白（マラード色）に変化し、「く、ああっ」と呻く瞬間がある。内部での人格競合が激しいことを示唆。
+  quotes:
+  - quote: グラデーションを描く髪が青と白に切り替わり、唇が震えて誰かの名を呼ぼうとする。
+    paragraph: p299
+    quote_verified: true
+  expected_payoff: 内部の人格（マラード）が反乱を起こすか、アレッテ主導のまま暴走するか、融合体の安定性に関する展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_game_mechanics_realism
+  note: コルセスカのゲーム「彩域」が現実の呪術システムと一致している描写がある。このゲーム自体が世界のルールを定義するメタ要素である可能性。
+  quotes:
+  - quote: あのゲームが現実に即した設定だったのか、コルセスカがそういうゲーム的世界にしてしまったのかは今となってはわからない。
+    paragraph: p146
+    quote_verified: true
+  expected_payoff: ゲームのルール改変が世界現象を引き起こす「メタ操作」が可能であることの示唆。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「融合による主体性の喪失」と「支配欲の肥大化」
+  weight: 0.9
+  quotes:
+  - quote: ここにマラードの意思は介在しない。一方的な支配。強制的な隷属。そして、同化。
+    paragraph: p95
+    quote_verified: false
+  - quote: 「私は絶望で、あなたを奪う」
+    paragraph: p72
+    quote_verified: false
+  note: アレッテの強制的な求愛と融合は、二人の主体性を破壊し、新たな暴君（アルト）を生み出す過程を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「創造と破滅の表裏一体性」
+  weight: 0.8
+  quotes:
+  - quote: 美しかったものは消え去り、それでも最後に残った基礎は確かなまま。
+    paragraph: p29
+    quote_verified: true
+  - quote: 最善を得たと安堵した直後、最悪の結末が訪れてしまう。
+    paragraph: p101
+    quote_verified: true
+  note: 王国の滅亡（破壊）が、新たな王権（アルト）の創造という最悪の形で行われる皮肉。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「親愛の暴力と軍勢化」
+  weight: 0.7
+  quotes:
+  - quote: 愛が降り注ぐ。...泣き喚く赤子の死体が、次々と地面と激突していく。
+    paragraph: p259-p265
+    quote_verified: false
+  - quote: 「お前たちのはたらきには私が永遠の愛で報いよう。」
+    paragraph: p286
+    quote_verified: false
+  note: アルトが「愛」を名目に赤子（兵士）を生産し、その死体を武器とする様子は、慈愛と暴力が不可分に結びついていることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「運命論的悲観主義の強制」
+  weight: 0.6
+  quotes:
+  - quote: 抗うな。期待するな。未来に絶望しろ。...諦観こそが救い。
+    paragraph: p168
+    quote_verified: false
+  note: アルトの宣戦布告は、単なる戦闘行為ではなく、主人公たちに「諦め」を強要する哲学的・運命論的な圧力として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

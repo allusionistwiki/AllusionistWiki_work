@@ -1,0 +1,226 @@
+chapter: ch5366
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 9
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p29_drone_misinformation]]'
+  object: '[[ME_corporate_overreporting]]'
+  claim: 戦闘用ドローンの数を表向き倍に喧伝する描写は、企業のIR活動や製品スペックの水増しといった現代の過剰な自己PR手法を皮肉っている。
+  quote: 「これでも『最大効率で運用できた場合』って但し書きが付く。ちなみに表向きはこの倍の数を喧伝してるよ」
+  paragraph: p29
+  confidence: strong
+  quotes:
+  - quote: 「これでも『最大効率で運用できた場合』って但し書きが付く。ちなみに表向きはこの倍の数を喧伝してるよ」
+    paragraph: p29
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p51_urchin_fortress]]'
+  object: '[[ME_modern_defense_architecture]]'
+  claim: 星形要塞をウニやラフディーボールに例え、十字砲火や稜堡を備える描写は、近代的な城塞都市の防衛設計（ヴォーバン式要塞など）の構造原理を下敷きとしている。
+  quote: 星というには棘が多すぎてまるでウニかラフディーボールかといった風情だったが...攻め込んで来た敵軍を突起の尖端部からの十字砲火で挟撃するという戦法がとれたので、非常に堅牢だった。
+  paragraph: p51
+  confidence: strong
+  quotes:
+  - quote: 星というには棘が多すぎてまるでウニかラフディーボールかといった風情だったが...攻め込んで来た敵軍を突起の尖端部からの十字砲火で挟撃するという戦法がとれたので、非常に堅牢だった。
+    paragraph: p51
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p60_cyber_karate_dojo]]'
+  object: '[[ME_game_mechanics_module]]'
+  claim: 戦争行為を高度にモジュール化し、サイバーカラテ道場へフィードバックするという記述は、ゲームシステムにおける戦闘の自動化やデータ解析による最適化を連想させる。
+  quote: ルバーブを中心として有機的な連携を行う精鋭部隊は今のところ負け知らずであり...戦争行為を高度にモジュール化することが可能となった。
+  paragraph: p60
+  confidence: moderate
+  quotes:
+  - quote: ルバーブを中心として有機的な連携を行う精鋭部隊は今のところ負け知らずであり...戦争行為を高度にモジュール化することが可能となった。
+    paragraph: p60
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p153_cyber_karate_ranking]]'
+  object: '[[ME_online_game_leaderboard]]'
+  claim: 最強を目指す者が『シナモリアキラ』を自称し、負けたら名前を剥奪されるという仕組みは、MMOや格闘ゲームのランキングシステムにおける「称号」や「ハンドルネーム」の争いを模倣している。
+  quote: 何でも、『俺』は称号扱いで、最強のサイバーカラテユーザーを目指す奴らが『シナモリアキラ』を自称しているとか。負けたら名前剥奪なんだっけ？
+  paragraph: p153
+  confidence: strong
+  quotes:
+  - quote: 何でも、『俺』は称号扱いで、最強のサイバーカラテユーザーを目指す奴らが『シナモリアキラ』を自称しているとか。負けたら名前剥奪なんだっけ？
+    paragraph: p153
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p91_mass_media_support]]'
+  object: '[[ME_political_publicity_campaign]]'
+  claim: クロウサー家がマスメディアに介入し、独裁者に正義の戦いを挑むトリシューラを宣伝する描写は、現代政治におけるメディア戦略やプロパガンダ操作を反映している。
+  quote: マスメディアに介入することで圧政を敷く独裁者に正義の戦いを挑むトリシューラ、というような宣伝を行ってくれているようだった。
+  paragraph: p91
+  confidence: moderate
+  quotes:
+  - quote: マスメディアに介入することで圧政を敷く独裁者に正義の戦いを挑むトリシューラ、というような宣伝を行ってくれているようだった。
+    paragraph: p91
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p226_kasha_designation]]'
+  object: '[[ME_yokai_taxonomy]]'
+  claim: トリシューラが死体使いの敵を「火車」と命名し、妖怪退治の対象として処理する様子は、日本の怪奇現象や妖怪伝承における分類・駆逐という文化的コードを利用している。
+  quote: これより標的名を『火車（かしゃ）』と定め、以後この名称での認識を徹底、宣名への対抗呪文とする...妖怪退治するだけ。悪者だからやっつけるの
+  paragraph: p226-p229
+  confidence: strong
+  quotes:
+  - quote: これより標的名を『火車（かしゃ）』と定め、以後この名称での認識を徹底、宣名への対抗呪文とする...妖怪退治するだけ。悪者だからやっつけるの
+    paragraph: p226-p229
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_restroose_political_chaos
+  note: レストロオセ派の最高評議会議長への謀略、評議員辞職、王族病死と誘拐。この混乱が世界規模の勢力均衡にどう影響するか。
+  quotes:
+  - quote: ジャッフハリム最高評議会議長レストロオセが何らかの謀略を仕掛けられたって情報は掴んでる。それから、同時期に数名の評議員が辞職してることや、呪的財産としての『王族』たちが次々と病死、唯一の生き残りが誘拐されたことも
+    paragraph: p106
+    quote_verified: true
+  expected_payoff: この政変がトリシューラの情報を得ている『下』の情報源と結びつき、後の展開でレストロオセ派の分裂や介入の引き金になる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_grave_ship_origin
+  note: シナモリアキラ（アキラ）の故郷由来と推測される異界情報の塊「墓標船」。その中身や、それがもたらす『本物としての確信』とは何か。
+  quotes:
+  - quote: 幾つかの特徴から推測するとアキラくんの故郷由来である可能性が高い...大まかに十二分割されて第五階層の各地に拡散されているみたい。
+    paragraph: p132-p160
+    quote_verified: false
+  expected_payoff: 墓標船から得られた情報が、シナモリアキラの正体や転生者の起源に関する重要な手がかりとなり、物語の核心に迫る鍵となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_curtis_missing_status
+  note: カーティスからの続報がない件とドラトリアの時空震。カーティスの安否と行動の行方。
+  quotes:
+  - quote: 遠くドラトリアで大規模な時空震が起きたと聞いているが、リールエルバ救出に向かったカーティスから続報は無いまま。
+    paragraph: p17
+    quote_verified: true
+  expected_payoff: カーティスの生死不明の状態が、後の戦局の転換点や時空震との関連で重要な役割を果たす伏線として機能する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_caine_vampire_nature
+  note: カーインが吸血鬼であることを肯定も否定もしない曖昧な態度と、瘴気が効かないという事実。彼の真の正体や能力の制限。
+  quotes:
+  - quote: そもそも奴が吸血鬼だったということが初耳だったのだが、カーインは何故か肯定も否定もせず「まあそんなようなものだ」と言葉を濁した。
+    paragraph: p22
+    quote_verified: true
+  expected_payoff: カーインの正体が判明し、その能力が敵軍への対策として活用される、あるいは彼自身の過去が明かされる展開に繋がる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_shinamoia_kira_clones
+  note: アキラの霊体が支配する6体の『俺自身』と、各地に散らばる自称シナモリアキラとの対決の行方。
+  quotes:
+  - quote: 総勢六人。全て俺が同時に支配する『俺自身』だ。...他の雑魚どもを駆逐し、俺こそが最後に生き残るシナモリアキラとなる。
+    paragraph: p218-p242
+    quote_verified: false
+  expected_payoff: シナモリアキラ同士の殺し合いという構図が形成され、アキラのアイデンティティ確立や能力の究極進化への布石となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と命名による実在の支配：名前（シナモリアキラ、火車）が世界を定義し、権力を与える構造
+  weight: 0.85
+  quotes:
+  - quote: これより標的名を『火車（かしゃ）』と定め、以後この名称での認識を徹底、宣名への対抗呪文とする。
+    paragraph: p226
+    quote_verified: false
+  - quote: 何でも、『俺』は称号扱いで、最強のサイバーカラテユーザーを目指す奴らが『シナモリアキラ』を自称しているとか。負けたら名前剥奪なんだっけ？
+    paragraph: p153
+    quote_verified: true
+  note: トリシューラの命名による制圧と、シナモリアキラの称号を巡る争いが、言語魔術や概念操作が世界に干渉するメカニズムを示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己同一性の拡張と分裂：他者（死体）を取り込み「俺」を拡大するシナモリアキラの存在論
+  weight: 0.75
+  quotes:
+  - quote: 素材は霊安室から拝借した状態の良い遺体。『俺』が入り込むことで半ば狂怖（ホラー）化した人体...全て俺が同時に支配する『俺自身』だ。
+    paragraph: p219-p218
+    quote_verified: false
+  - quote: 欲望は生物としての正常な本能なんだから...精神、感情、心――魂こそが『俺』だろうが。今ここにいる俺を否定するのか
+    paragraph: p189-p208
+    quote_verified: false
+  note: アキラのアイデンティティが固定された個ではなく、欲望や他者の肉体を含んだ流動的な集合体として定義される過程を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 戦争のゲーム化とモジュール化：現実の流血をデータとルールへと変換する冷徹な合理主義
+  weight: 0.65
+  quotes:
+  - quote: 戦争行為を高度にモジュール化することが可能となった。ルバーブを中心として有機的な連携を行う精鋭部隊は今のところ負け知らずであり...
+    paragraph: p60
+    quote_verified: false
+  - quote: 命とは大量浪費と大量死を繰り返す安上がりな消費財だ！
+    paragraph: p215
+    quote_verified: true
+  note: ルバーブの近代化された戦略やサイバーカラテのランキングシステムが、戦争をゲーム的なルールに落とし込み、人命を軽視する傾向を示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報操作と世論形成：メディアを通じた正義の構築と政治的プロパガンダ
+  weight: 0.6
+  quotes:
+  - quote: マスメディアに介入することで圧政を敷く独裁者に正義の戦いを挑むトリシューラ、というような宣伝を行ってくれているようだった。
+    paragraph: p91
+    quote_verified: true
+  - quote: ちなみに表向きはこの倍の数を喧伝してるよ
+    paragraph: p29
+    quote_verified: true
+  note: 戦力の誇大表示やメディアによる英雄視が、事実とは異なる「正義」を構築し、群衆を動かす手段として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,25 @@
+{
+ "run_id": "20261021T1727_9c2e",
+ "layer": "L1",
+ "kind": "kakuyomu-full-regeneration",
+ "created": "2026-10-21T17:27+09:00",
+ "derived_from": [
+  "20261017T2011_f863 (L0 版対応)",
+  "20261012T0000_baseline (なろう baseline 引用)",
+  "20261019T0330_a3f7 (② カクヨム専用27話)",
+  "AllusionistWiki_raw kakuyomu 16816927859268545348 (raw 589話)"
+ ],
+ "episodes": 589,
+ "chapter_numbering": "vault_ch = 5000 + カクヨム話番号（5001..5589）。paragraph pN はカクヨム ¶N 原生（サイト #pN 直リン一致）。なろう ch0001-0272 名指は当 run で退役（baseline 来歴は 20261012T0000_baseline に保存）",
+ "pipeline": "run_analysis_parallel 5001-5589 + kaku_events.py wrapper（schema 機械補正: episode/event_id/spoiler_after, KAKU_NOS/KAKU_CHUNK=3000）×2 pass で events 589話完全 + kaku3_finalize 仕上げチェーン（aggregate→autopilot 589→merge_all→reorganize→shorten→entities→relationship→public_index）+ placeholder 修復 v4/v4b/v4c/v4d + ME 配置下位層 + lint 0",
+ "promoted_vault_commit": "AllusionistLLMWiki2_Obsidian@952d6910",
+ "promoted_stats": {
+  "claims": 2702,
+  "mysteries": 3103,
+  "nav_episodes": 589,
+  "me_pages": "~2700 (references/mythology|culture 下位層含む)",
+  "lint_errors": 0
+ },
+ "events_repair": "Phase1 抽出の schema 落ちで 319話 events 空 → wrapper 再抽出 2 pass で 589話完全（教訓: events 空は章単位で機械検出、zero-byte 検出）",
+ "notes": "chapter_map 589件 = vault_ch→カクヨム ep URL/公開日/段落数。版対応台帳は L0 20261017T2011_f863 + L1 20261018T0040_588c（引用 ¶ 対応 3693/削除台帳 343）が来歴基盤"
+}

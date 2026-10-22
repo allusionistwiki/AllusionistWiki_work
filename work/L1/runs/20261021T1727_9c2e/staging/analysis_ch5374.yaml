@@ -1,0 +1,251 @@
+chapter: ch5374
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 4
+  quotes_verified: 10
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{lion_king_and_vassals}]]'
+  object: '[[ME_{solomon_biblical_king}]]'
+  claim: 少年王と十二賢者の構成、および『空の風』を謳う厭世的な大公との対比は、聖書におけるソロモン王とその治世への直接的な引喩である。
+  quote: そして王に従う十二の賢者たち。紫は賢者として招かれた。…「ああ、全てはむなしい」「おお、ブレイスヴァよ」…と二人して草の煙を燻らせながら、厭世的な気分に浸ることもあった。
+  paragraph: p18, p26-30
+  confidence: explicit
+  quotes:
+  - quote: そして王に従う十二の賢者たち。紫は賢者として招かれた。…「ああ、全てはむなしい」「おお、ブレイスヴァよ」…と二人して草の煙を燻らせながら、厭世的な気分に浸ることもあった。
+    paragraph: p18, p26-30
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{chain_saw_man_song}]]'
+  object: '[[ME_{chainsaw_man_chainsaw_man}]]'
+  claim: 病院で少年を追いかけ、歌いながらチェーンソーを振るう存在は、藤本タツキの漫画『チェンソーマン』におけるデビル・ハンターの戦闘様式およびキャラクター造形のパロディである。
+  quote: 「樹ー木ーがひーとつ、血ーまーみーれふーたつ、伐採、伐採、逃ーげてーも、泣ーいてーも、みーなごーろしぃー！」…チェーンソーの甲高い回転音が響く。かつん、かつん、かつん。
+  paragraph: p193-196
+  confidence: strong
+  quotes:
+  - quote: 「樹ー木ーがひーとつ、血ーまーみーれふーたつ、伐採、伐採、逃ーげてーも、泣ーいてーも、みーなごーろしぃー！」…チェーンソーの甲高い回転音が響く。かつん、かつん、かつん。
+    paragraph: p193-196
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_{lion_king_death_scene}]]'
+  object: '[[ME_{gods_of_the_ancient_world_mythology}]]'
+  claim: 「王を殺すこと」が世界滅亡のトリガーとなる構造は、北欧神話のラグナロク（オージンの死と世界の崩壊）やエジプト神話におけるオシリスの殺害と混沌の再来といった「王の死＝世界の終末」という神話的モチーフに構造的に一致する。
+  quote: 偉大なる王の首が落とされ、…暦を叫ぶ円形石版もまた黒々とした闇に喰われて鋭利な姿に変貌を遂げる。…それは見知らぬ恐怖か、竜の怒りか。
+  paragraph: p125, p149-151
+  confidence: moderate
+  quotes:
+  - quote: 偉大なる王の首が落とされ、…暦を叫ぶ円形石版もまた黒々とした闇に喰われて鋭利な姿に変貌を遂げる。…それは見知らぬ恐怖か、竜の怒りか。
+    paragraph: p125, p149-151
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{ecclesiastes_quote}]]'
+  object: '[[ME_{book_of_ecclesiastes_bible}]]'
+  claim: 大公（オルヴァ）が王殺し後に述べる台詞は、聖書『コヘレトの言葉』の一節を引用・変奏しており、彼の性格と世界観が虚無主義的であることを示唆している。
+  quote: 「かつてあったことは、これからもあり、かつて起こったことは、これからも起こる。太陽の下、新しいものは何ひとつ無い」――せいぜいこのむなしさをめいっぱい堪能してやろうぜ、『オルヴァ』
+  paragraph: p168
+  confidence: explicit
+  quotes:
+  - quote: 「かつてあったことは、これからもあり、かつて起こったことは、これからも起こる。太陽の下、新しいものは何ひとつ無い」――せいぜいこのむなしさをめいっぱい堪能してやろうぜ、『オルヴァ』
+    paragraph: p168
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{lion_king_forever_youth}]]'
+  object: '[[ME_{dorian_gray_osc Wilde}]]'
+  claim: 少年の姿のまま永遠に若さを保ち、理想郷を統治し続ける王の描写は、オスカー・ワイルドの『ドリアン・グレイの肖像』における「老いぬ人物」という概念の転生ファンタジー版としてのアナロジーである。
+  quote: 永命の王は少年の姿のまま完成されていた。…永遠の王はずっと少年の心を宿したまま、夢の理想郷を保ち続けていた。
+  paragraph: p47-49
+  confidence: moderate
+  quotes:
+  - quote: 永命の王は少年の姿のまま完成されていた。…永遠の王はずっと少年の心を宿したまま、夢の理想郷を保ち続けていた。
+    paragraph: p47-49
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{color_mages_system}]]'
+  object: '[[ME_{rainbow_magic_fantasy_tropes}]]'
+  claim: 紫、藍、朱、黄、緑など色で名付けられた賢者たちの集合は、ファンタジーにおける「属性魔法使い」や「七色の悪魔」といった記号的なキャラクター設計のクリシェ（定型）を解体し、メタ的に配置している。
+  quote: 色とりどりの賢者たちが少年となった予言王の前を通り過ぎていく。…黄は王に忠誠を誓う限り気の良い相手だった。緑の在り方は興味深く、誰もがこの女神を敬った。
+  paragraph: p68-60
+  confidence: strong
+  quotes:
+  - quote: 色とりどりの賢者たちが少年となった予言王の前を通り過ぎていく。…黄は王に忠誠を誓う限り気の良い相手だった。緑の在り方は興味深く、誰もがこの女神を敬った。
+    paragraph: p68-60
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{chain_saw_man_death_denial}]]'
+  object: '[[ME_zombification_horror_tropes]]'
+  claim: 四肢を切断され、頭部が陥没し、粉砕されても「伐採」と叫びながら再生し続けるチェーンソー男は、ホラー作品におけるゾンビや不死身の怪人（アンデッド）の恐怖と、その物理法則の無視というジャンル特性を参照している。
+  quote: 即死したかに思われたチェーンソー男が起き上がっていた。…「こいつ――死を否認した？！」…跡形も無く消し飛んだはずの男が、次の瞬間には前触れも無くそこに立っている。
+  paragraph: p254-257, p283
+  confidence: strong
+  quotes:
+  - quote: 即死したかに思われたチェーンソー男が起き上がっていた。…「こいつ――死を否認した？！」…跡形も無く消し飛んだはずの男が、次の瞬間には前触れも無くそこに立っている。
+    paragraph: p254-257, p283
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_lion_king_true_identity
+  note: 「真なるはじまりの賢者は遠い」「青き羊水に沈む宝石の心臓」という記述は、獅子王の正体や起源に関する重大な伏線であり、後の展開での明かされる可能性がある。
+  quotes:
+  - quote: 真なるはじまりの賢者は遠い。青き羊水に沈む宝石の心臓（さんご）は、鼓動すら始めていないのだから。
+    paragraph: p177-178
+    quote_verified: true
+  expected_payoff: 獅子王が単なる転生者ではなく、世界そのものや「はじまり」に由来する存在であることの明かされるシーン。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_olva_name_change
+  note: 大公オルヴァが「俺があの墓標船から拾ってきた虚構の名だ」として新しい名前（おそらく『オシリス』や特定の神話名を指す暗喩）を与える描写。この名前が彼の権能や運命をどう変えるかが今後の鍵となる。
+  quotes:
+  - quote: 「名前をあげる。父の呪縛ではなく、獅子王の贈り物でもない。俺があの墓標船から拾ってきた虚構の名だ。きっときみにはぴったりだよ」
+    paragraph: p162
+    quote_verified: true
+  - quote: 名前は上書きされて、歴史はまたしても書き換えられる。
+    paragraph: p166
+    quote_verified: true
+  expected_payoff: オルヴァが新たな存在（王）として覚醒し、その「名前」に由来する力や呪いを使い始める展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_leo_survival_hospital
+  note: レオが病院から脱出できたのか、晶の介入でどうなったのか。また「人らしい人に出会わない」病院の実態（異界化、幻覚、実際の惨事）が明かされる。
+  quotes:
+  - quote: これだけ走っても走っても、人らしい人に出会わない。沢山の患者や避難民で溢れかえっていたはずなのに、いったいどこにいってしまったのだろうか。
+    paragraph: p201-202
+    quote_verified: true
+  - quote: チェーンソーが水の膜を引き裂くと、既に目の前からレオが消えていた。
+    paragraph: p286
+    quote_verified: true
+  expected_payoff: レオが晶に保護されるシーン、または病院の謎（なぜ人が消えたか）の解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_chain_saw_man_origin
+  note: 「シナモリアキラ」という名前を晶に聞かれていること、および「伐採者」が何者なのか（人間だったのか、呪術による産物か）に関する伏線。
+  quotes:
+  - quote: 「これもシナモリアキラ？ 大した身のこなしじゃなかったけど」
+    paragraph: p239
+    quote_verified: true
+  - quote: 伐採者がチェーンソーを振るう。すると血に呪われたその機械から人々の断末魔が聴こえてくる。
+    paragraph: p186-187
+    quote_verified: true
+  expected_payoff: シナモリアキラという名前を持つ人物の登場、またはチェーンソー男の正体（ティリビナ人の犠牲から生じた呪いなど）の判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_mikhtenesses_damage
+  note: ミヒトネッセが「片腕を切断」され、「バラバラに切断」されている。人形であるため再生は早いが、この損傷が今後の戦闘能力や彼女自身の精神状態にどう影響するか。
+  quotes:
+  - quote: 斬撃がミヒトネッセの胴を横に薙ぎ、片腕を切断した。…手足を切断された侍女人形は瞬時に呪符と入れ替わって逃走、身を隠す。
+    paragraph: p249, p263
+    quote_verified: false
+  expected_payoff: ミヒトネッセの欠損による戦闘能力低下、または彼女が「壊れた存在」として再登場する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「美しさ」は「残酷さ」と不可分であり、その受容こそが物語の核心である。
+  weight: 0.9
+  quotes:
+  - quote: 「あるいは、残酷こそが美しい」
+    paragraph: p137
+    quote_verified: true
+  - quote: 牙の五指で腹腔を食い破り、しつこく抉った。…最大の苦痛を与えることで悲鳴の音楽を奏でる。
+    paragraph: p98-99
+    quote_verified: false
+  note: 獅子王の死を「残酷な生贄」と呼び、「残酷こそが美しい」と肯定する大公（オルヴァ）の台詞、および紫が王の苦痛と破滅を「美」として享受しようとする描写から。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 永遠の若さと理想郷は、必然的に破滅によってのみ完成する（虚無主義的受容）。
+  weight: 0.8
+  quotes:
+  - quote: 「ああ、全てはむなしい」…この煌めく黄金時代が、忌まわしい破滅に砕かれる事を。
+    paragraph: p26, p83
+    quote_verified: false
+  - quote: 永遠の王はずっと少年の心を宿したまま、夢の理想郷を保ち続けていた。…そこにあるのは、全て無為に喰い尽くされればいいと。
+    paragraph: p49, p80
+    quote_verified: false
+  note: ソロモン的な虚無（コヘレト）を引用しつつ、「永遠」が停滞であることへの批判、およびその破滅（死）を受容する姿勢が主題として浮かび上がっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「物語（ナラティブ）」は現実を上書きし、存在を定義づける力を持つ。
+  weight: 0.7
+  quotes:
+  - quote: その呪いは彼の存在を歪め、新たに定義し直した。名前は上書きされて、歴史はまたしても書き換えられる。
+    paragraph: p165-166
+    quote_verified: true
+  - quote: 「名前をあげる。…俺があの墓標船から拾ってきた虚構の名だ。」
+    paragraph: p162
+    quote_verified: false
+  note: オルヴァへの命名と歴史の書き換え、および紫が予言（物語）によって未来を変容させる描写から、メタフィクション的な「記述による実在の構築」が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術文明（チェーンソー・病院）は人間性を剥奪し、恐怖の具現となる。
+  weight: 0.6
+  quotes:
+  - quote: 伐採者がチェーンソーを振るう。すると血に呪われたその機械から人々の断末魔が聴こえてくる。
+    paragraph: p186-187
+    quote_verified: true
+  - quote: これだけ走っても走っても、人らしい人に出会わない。…まるで誰もいない別な病院にレオだけが連れてこられてしまったかのようだった。
+    paragraph: p201-202
+    quote_verified: false
+  note: 現代的な医療施設が異界化し、チェーンソーという機械が「伐採者」という殺戮の象徴として機能している点から、技術への恐怖と疎外が主題候補となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,241 @@
+chapter: ch5006
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 20
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5006_キール_uses_巻物地図_p6]]'
+  object: '[[ME_smartphone_navigation_apps]]'
+  claim: 自動生成される魔法の巻物が、GPSと地図アプリによるマッピング機能を模倣している。
+  quote: 俺の使っているマッピングアプリのようなことが、魔法（？）の道具で再現可能らしい。指でタップしたりフリックしたりして端末っぽい扱いのようだった。ピンチイン、アウトで縮小拡大までできるらしい。
+  paragraph: p9
+  confidence: explicit
+  quotes:
+  - quote: 俺の使っているマッピングアプリのようなことが、魔法（？）の道具で再現可能らしい。指でタップしたりフリックしたりして端末っぽい扱いのようだった。ピンチイン、アウトで縮小拡大までできるらしい。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5006_巻物地図_has_property_通信機能_p9]]'
+  object: '[[ME_smartphone_calling_feature]]'
+  claim: 鎧の胸部分への接触による遠隔会話が、スマートフォンの通話機能を模倣している。
+  quote: 電話に相当する通信機能くらいはついてそうだった。実際、キールが歩きながら鎧の胸部分に手を触れて独り言を喋っていることがあった。あれは遠くにいる誰かと会話していたのかもしれない。
+  paragraph: p9
+  confidence: strong
+  quotes:
+  - quote: 電話に相当する通信機能くらいはついてそうだった。実際、キールが歩きながら鎧の胸部分に手を触れて独り言を喋っていることがあった。あれは遠くにいる誰かと会話していたのかもしれない。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5006_台座_is_located_泉の横_p42]]'
+  object: '[[ME_intercom_system]]'
+  claim: 泉の横にある台座が、組織内部への通信および報告を行うインターホンとして機能している。
+  quote: キールがそれに触れると誰かの声が聞こえ出した。キールはしばらくその声と会話していたが、その中に何回か「アキラ」という言葉が含まれていたのを俺の耳は聞き逃さなかった
+  paragraph: p44
+  confidence: moderate
+  quotes:
+  - quote: キールがそれに触れると誰かの声が聞こえ出した。キールはしばらくその声と会話していたが、その中に何回か「アキラ」という言葉が含まれていたのを俺の耳は聞き逃さなかった
+    paragraph: p44
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5006_一行_has_property_ギャンブル規制_p76]]'
+  object: '[[ME_gambling_regulation]]'
+  claim: 勝者への食料分配が過度な搾取を避けるように調整されている様子は、ギャンブルの健全な運用や射幸性抑制の倫理を反映している。
+  quote: 連続で勝ったカインが、負け続けのマフスに食料を返していることがあったので、そうわかった。
+  paragraph: p76
+  confidence: weak
+  quotes:
+  - quote: 連続で勝ったカインが、負け続けのマフスに食料を返していることがあったので、そうわかった。
+    paragraph: p76
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5006_アキラ_makes_辞書もどき_p80]]'
+  object: '[[ME_language_learning_apps]]'
+  claim: 録音・カタカナ化・ネームタグ付けによる言語学習は、現代的な語学学習アプリのアナログ版である。
+  quote: 片っ端から録音し、カタカナに直してネームタグを付け、メモ帳と同期させて記憶した。音声と文字、映像を関連付けしていけば、アナログな手法でも辞書もどきができる。
+  paragraph: p80
+  confidence: strong
+  quotes:
+  - quote: 片っ端から録音し、カタカナに直してネームタグを付け、メモ帳と同期させて記憶した。音声と文字、映像を関連付けしていけば、アナログな手法でも辞書もどきができる。
+    paragraph: p80
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5006_噴水部屋_has_property_安全地帯_p38]]'
+  object: '[[ME_safe_zones_in_games]]'
+  claim: 人狼が侵入できない噴水のある部屋は、ゲームにおけるチェックポイントやセーブ地点（安全地帯）の概念を転生世界に移植している。
+  quote: いざというときこういう噴水のある部屋に逃げ込めば助かる可能性が生じる。これは覚えておくと便利かも知れない。
+  paragraph: p39
+  confidence: moderate
+  quotes:
+  - quote: いざというときこういう噴水のある部屋に逃げ込めば助かる可能性が生じる。これは覚えておくと便利かも知れない。
+    paragraph: p39
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_噴水部屋の防御機構
+  note: 人狼が物理的に阻まれて退去する理由が不明。魔法結界、地形的特徴、あるいは特定の生物を忌避する属性を持つ可能性。今後の戦略的利用と、このメカニズムの解明が示唆される。
+  quotes:
+  - quote: その人狼は俺たちを発見すると襲いかかってきたのだが、部屋の入り口で何かに阻まれたかのように立ち止まり、じりじりと後退ったかと思うと、そのまま引き返していった。この部屋に彼らは入れないらしい。一体どういう理屈でそうなっているのかは全く不明だが、とにかくそういうことなのだと俺は納得した。
+    paragraph: p39
+    quote_verified: true
+  expected_payoff: アキラが危機時に噴水部屋へ逃げ込むシーンでの防御機構の描写、またはその原理を利用した罠・対策の発見。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_組織の正体と目的
+  note: キールたちが所属する「大きな組織」の詳細が不明。アキラを処刑対象とするか保護対象とするか、台座からの通信内容（アキラの報告）の意図が問われる。
+  quotes:
+  - quote: キールたち六人は、なにかの大きな組織に所属しているのだろう。統一された武装に訓練された動き。どういった性格の組織なのかまではわからない。連れられていった先でいきなり処刑されたりしなければいいのだが。
+    paragraph: p46-p47
+    quote_verified: true
+  expected_payoff: アキラが組織の本拠地へ連行される際、組織の思想（敵対的か保護的か）による運命の分岐。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_左腕の回収と義肢の完全性
+  note: 奪われた左腕（生身？）がどこにあるか、および治癒シールで再接続可能かどうか。マイクロマシンによる修復限界と、元の世界との接続断絶リスク。
+  quotes:
+  - quote: 義肢の制御系は肘から上、肩や肩胛骨にまで侵襲しているので、そこが破損していないか少々、いやかなり不安だったのだが、なんとか無事だったらしい。
+    paragraph: p100
+    quote_verified: true
+  - quote: カインに説明を試みた。倒した人狼の口に左腕の断端を沿え、苦痛に呻くような素振りをする。その後、存在しない左腕を持って軽く走り去ろうとする。これだけで伝わるだろうか？
+    paragraph: p107
+    quote_verified: true
+  expected_payoff: カインがアキラの意図を理解し、人狼の討伐を通じて左腕（またはその残骸）を回収する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_言語習得の限界とサポート放棄
+  note: 「元世界のサポートを半ば以上放棄している」という記述は、システム的な支援（翻訳等）が停止・制限されていることを示唆。言語バリアの克服が物語進行の鍵となる。
+  quotes:
+  - quote: この世界の言語を習得することも視野に入れておいた方がいい。元世界のサポートを半ば以上放棄している現在、言語を脳内にインストールしてはい解決、ということにはならないだろうからだ。
+    paragraph: p83
+    quote_verified: true
+  expected_payoff: カインによる教育が進むにつれ、抽象概念の疎通が叶い、アキラが組織との交渉や戦闘指揮を執る能力を獲得するプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アズーリアの警戒と直感
+  note: アズーリアがアキラの「舌なめずり」や殺意を動物的本能で察知している。この警戒心が信頼関係形成の阻害要因となるか、最終的にアキラの異常性（非人間性）を看破するトリガーとなるか。
+  quotes:
+  - quote: 舌なめずりをした覚えは無かったが、アズーリアには動物的な直感が備わっているのかも知れない。鋭くふり向くと、じっと睨まれてしまった。六人はおおむね友好的だが、アズーリアは不審過ぎる俺にそれなりの警戒心を抱いてはいるらしい。健全なことである。
+    paragraph: p62
+    quote_verified: true
+  expected_payoff: 組織との関係が悪化し、アキラが裏切り者扱いされた際に、アズーリアの直感が決定的な証拠として機能する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 現代技術（スマートフォン・SNS）の異世界への移植と、その倫理的空白
+  weight: 0.8
+  quotes:
+  - quote: 俺の使っているマッピングアプリのようなことが、魔法（？）の道具で再現可能らしい。指でタップしたりフリックしたりして端末っぽい扱いのようだった。ピンチイン、アウトで縮小拡大までできるらしい。
+    paragraph: p9
+    quote_verified: true
+  - quote: 電話に相当する通信機能くらいはついてそうだった。実際、キールが歩きながら鎧の胸部分に手を触れて独り言を喋っていることがあった。あれは遠くにいる誰かと会話していたのかもしれない。
+    paragraph: p9
+    quote_verified: true
+  note: 巻物が単なる地図ではなく「端末」として機能し、通信機能を持つ点。異世界でありながら現代の情報通信インフラが構造的に存在することを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と文化の壁を越えるためのアナログな試み（辞書作り）と、システム的支援の不在
+  weight: 0.7
+  quotes:
+  - quote: 片っ端から録音し、カタカナに直してネームタグを付け、メモ帳と同期させて記憶した。音声と文字、映像を関連付けしていけば、アナログな手法でも辞書もどきができる。
+    paragraph: p80
+    quote_verified: true
+  - quote: この世界の言語を習得することも視野に入れておいた方がいい。元世界のサポートを半ば以上放棄している現在、言語を脳内にインストールしてはい解決、ということにはならないだろうからだ。
+    paragraph: p83
+    quote_verified: true
+  note: チート能力（即時翻訳）の欠如により、主人公が手作業で言語を構築するプロセスが描かれる。異世界転生における「コミュニケーション」の困難さへのメタ的な視点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 組織内での信頼形成と、非人間としての自己監視（アズーリアの警戒）
+  weight: 0.6
+  quotes:
+  - quote: まあ俺も誰彼構わず殺しにいく頭のおかしいシリアルキラーというわけではない。そうだったらまともな社会生活が送れない。だからまあ、成り行き次第では敵対もするし、もう二度と関わり合いにならないかも知れないし、友人になるかもしれない。結果は神のみぞ知る。
+    paragraph: p60
+    quote_verified: true
+  - quote: 舌なめずりをした覚えは無かったが、アズーリアには動物的な直感が備わっているのかも知れない。鋭くふり向くと、じっと睨まれてしまった。六人はおおむね友好的だが、アズーリアは不審過ぎる俺にそれなりの警戒心を抱いてはいるらしい。健全なことである。
+    paragraph: p62
+    quote_verified: true
+  note: 主人公の「社会生活を送れる人間」であるという自己定義と、動物的本能を持つ者（アズーリア）からの検知。信頼構築における脆弱性と監視の関係性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 戦利品と資源管理の合理性（エコノミーとしての迷宮）
+  weight: 0.5
+  quotes:
+  - quote: 状態の良い爪や装甲は戦利品としてトッドの大きな背嚢に放り込まれていく。人狼の牙や皮は剥ぎ取らないので、価値が低いのだと知れた。
+    paragraph: p21
+    quote_verified: true
+  - quote: 連続で勝ったカインが、負け続けのマフスに食料を返していることがあったので、そうわかった。
+    paragraph: p76
+    quote_verified: true
+  note: 戦闘が単なる殺戮ではなく、資源の回収（戦利品）と分配（レクリエーションでの食料交換）という経済的循環の中に組み込まれている点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 義肢と肉体の境界における修復の限界
+  weight: 0.4
+  quotes:
+  - quote: 傷ついた生身の部分を治癒のシールが担当してくれた分、マイクロマシンが義肢の修復に集中できたのではないかと思うが、俺も専門家ではないので詳しくはわからない。とにかく、右腕が問題なく動くようになったということだけは確かだった。
+    paragraph: p102
+    quote_verified: true
+  note: 魔法（治癒シール）と科学技術（マイクロマシン義肢）の共存と分担。人体改造者としての主人公の脆弱性（修復限界）が主題化する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,151 @@
+chapter: ch5290
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 16
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_who_is_kurtis
+  note: カーティスという名前を持つ存在が、ドラトリア初代国王と同名でありながら、リールエルバに酷似した容姿で登場した。その正体と目的。
+  quotes:
+  - quote: 現れた何者かは、ドラトリアの協力者、リールエルバと瓜二つだったのだ。
+    paragraph: p270
+    quote_verified: true
+  - quote: カーティスという。よろしく
+    paragraph: p278
+    quote_verified: true
+  expected_payoff: 過去と現在の時間軸の干渉、またはリールエルバとの遺伝的・概念的な関係が明かされる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_phantom_limb_power
+  note: パーンが巨人ラウスの腕（幻肢）を「霊媒適性なし」で掌握し、暴走を鎮めた理由。
+  quotes:
+  - quote: （うっそー。ベフォニスが霊媒だったからこそ巨人と同化するなんてことができたんだよ？ 何で霊媒適性も無いのに、完全に掌握できてるの？）
+    paragraph: p211
+    quote_verified: true
+  expected_payoff: パーンの能力の本質（転生者としてのチート等）や、幻肢呪術の真のメカニズムが明かされる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_misharhi_silence
+  note: ミシャルヒがグレンデルヒからの「更なる力」の誘いに対し、沈黙し拒絶した真意。
+  quotes:
+  - quote: ミシャルヒは、静かに目を閉じて、動かない。
+    paragraph: p40
+    quote_verified: true
+  - quote: 今は待つさ。機が熟するまで。なあに、時間は幾らでもある。何しろ、今はまだ大地が引き裂かれてすらいないのだ！ 悠久の時間を、我ら百二十八人は待ち続けるぞ、ミシャルヒよ！
+    paragraph: p108
+    quote_verified: true
+  expected_payoff: ミシャルヒが最終的に「力を求める」瞬間が訪れるか、あるいは彼独自の道（記憶の継承など）を選ぶ伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_fellonia_abduction
+  note: カーティスがフェロニアを「花嫁」として攫った理由と、その結末。
+  quotes:
+  - quote: 「攫いに来たよ――私の花嫁」
+    paragraph: p288
+    quote_verified: true
+  expected_payoff: フェロニアの運命が物語の中心に据えられ、カーティスとの対立または和解のプロットへ展開する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_grendelhi_role
+  note: グレンデルヒ（ゾーイ）がパーンを突き倒し、ミシャルヒを誘導した真の目的。
+  quotes:
+  - quote: 「さあ、主が危機に陥った時、お前は何を選ぶっ？！」
+    paragraph: p221
+    quote_verified: true
+  expected_payoff: グレンデルヒが物語の演出家（Scriptwriter）として、ミシャルヒの覚醒を強引に促す展開への布石。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 科学は世界を記述するのではなく、信念によって世界を構成する（観測者効果の社会学的応用）
+  weight: 0.8
+  quotes:
+  - quote: 学説などはそれが『有力』と見なされた時点で正誤に関わらずそれが事実として世界を改変してしまうのだ。
+    paragraph: p14
+    quote_verified: true
+  - quote: 研究によって明らかになりつつある脳の諸機能が誇張されて伝播し、わかりやすいものとして巷間に流布、現実化していくようにね
+    paragraph: p2
+    quote_verified: true
+  note: 骨相学や脳機能局在論が「呪術」として効力を有する理由を、科学的社会学（STS）的な視点で解説している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶と血脈の継承こそが不死であり、肉体的な長命は絶望である
+  weight: 0.7
+  quotes:
+  - quote: 記憶だけを、永遠という孤独の慰めとする。
+    paragraph: p139
+    quote_verified: true
+  - quote: 自分は長命の種。同じ幻姿霊（スペクター）でさえ、たった九人の幽鬼（レイス）と同じだけの歳月を歩むことはできない。それは絶望だった。
+    paragraph: p116
+    quote_verified: true
+  note: ミシャルヒの内面独白において、長命種の苦悩と「記憶による永遠」への希求が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人工知能と幻肢：身体性の拡張と魂の不在というジレンマ
+  weight: 0.6
+  quotes:
+  - quote: 人という矮小な括りを飛び越えて、より発展的な肉体が獲得できる。それこそ変身者や夜の民のように！
+    paragraph: p80
+    quote_verified: true
+  - quote: 残念ならが、普通機械には魂が無く、基本的に邪視は発動できないとされているって、トリシューラ先生が言ってました。
+    paragraph: p69
+    quote_verified: false
+  note: トランスヒューマニズム的な身体拡張の欲望と、それに対する宗教的・倫理的な禁忌（魂の不在）との対立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語（劇）への没入とメタフィクション的な自覚
+  weight: 0.5
+  quotes:
+  - quote: 演劇は原始的で普遍的な衝動だ。格好をつけた口上と、男の与太話に本質的な違いは無い。どちらも自己の慰撫だ。
+    paragraph: p18
+    quote_verified: true
+  - quote: もちろん、まるで気付かずに劇の中に入り込んだまま。ゲラティウスという役、それを演じるグレンデルヒという役、そしてベースとなる役者としてのゾーイ・アキラとケイトの外世界人二人組。
+    paragraph: p54
+    quote_verified: true
+  note: キャラクターたちが自分たちの行動を「劇」や「台本」としてメタ的に認識しており、物語構造自体がテーマとなっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 支配と被支配の構図：王権神授説の解体と再構築
+  weight: 0.4
+  quotes:
+  - quote: クレイの声で、するべき事に気付いた。混沌とした状況を強制的に終了させる方法がそれだった。そもそも、冥道の幼姫に六王を従わせることが目的なのだ。
+    paragraph: p235
+    quote_verified: true
+  - quote: 神は自らを信仰する眷族種を生み出し加護を与え、眷族種は神に祈りを捧げその存在を強固にしていく。この一種の共生関係、相互依存が何かの切っ掛けで崩れるなどした時、神は零落し、邪神もしくは巨人と呼ばれる存在になってしまう。
+    paragraph: p148
+    quote_verified: true
+  note: クレイによる王権の行使と、ベフォニスの神格剥奪が並置され、権力の正当性と依存関係の変遷が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

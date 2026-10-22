@@ -1,0 +1,188 @@
+episode: ch5056
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_トリシューラ]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5056_トリシューラ_has_property_異質性_p10
+        quote: トリシューラの持つ技術は、この世界に来てから最も驚かされるものの一つだ。この呪術の世界にあって、彼女の存在は少々異質な印象を受ける。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_トリシューラ_reveals_スペア身体_p129
+        quote: 「そういうこと。私の『不死』は『再現性』だからね。材料と環境さえ整ってればそうそう死なないよ」
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_トリシューラ_other_コルセスカの安静_p172
+        quote: 「セスカはしばらくここで安静にしててね。仲間の人たちにも休暇延長するって連絡しときなよ」
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_トリシューラ_bonds_コルセスカ_p194
+        quote: 険悪でありながらもどこか距離が近い。決定的な喧嘩の一歩手前、ギリギリの緊張感を保ったまま会話が続く感じだ。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_トリシューラ_confesses_姉妹の解体意志_p210
+        quote: 「私達は、絶対にいつか姉妹でなくなってみせる、ってことだよ」 場の空気は完全に凍り付いていた。 闘争心を剥き出しにして決然と言葉を紡ぐ二人の表情は真剣そのものだ。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_トリシューラ_says_賞金首事情_p22
+        quote: 彼女は『上』にとっての賞金首で、俺を助けにきたことによってその居場所が露見してしまった。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_トリシューラ_deceives_アキラ_p288
+        quote: あの時点ではトリシューラはコルセスカを出し抜いて俺を奪い取ろうと思っていた。ゆえに、コルセスカに対する俺の不信感を煽ろうとしていたらしい。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_トリシューラ_names_ノアズアーク_p92
+        quote: 「名前？ 巡槍艦マツヤ」
+        locator: {}
+        spoiler_after: ch5056
+    action:
+      observations:
+      - event_ref: E_ch5056_トリシューラ_other_アキラたち_p111
+        quote: 自分もぼろぼろだというのに、トリシューラは見事な手際で治療を行う。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_トリシューラ_opens_横道穴_p19
+        quote: その泡の中を進んでいると、トリシューラは唐突に進路とは別方向、真横に穴を空けてそちらへ向かおうと言い出した。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_トリシューラ_attacks_コルセスカ_p242
+        quote: 「あ、自分の方がお婆ちゃんだって認めたー！ やーい若作り！」 「凍れ」 「ちょっ、うぎゃー！ 今本気で殺しに来たよね？！ ねえ？！」
+        locator: {}
+        spoiler_after: ch5056
+    visual:
+      observations:
+      - event_ref: E_ch5056_トリシューラ_appears_as_亡霊じみた色彩_p149
+        quote: もともと生気が薄く、人形のように白い肌色が、今は亡霊じみた色彩を帯びていた。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_トリシューラ_appears_as_巨大な艦船_p71
+        quote: 大きい。あまりにも巨大な、それは船だった。艦船である。繰り返すが極めて大型であった。
+        locator: {}
+        spoiler_after: ch5056
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_コルセスカ]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5056_コルセスカ_helps_トリシューラ_p154
+        quote: 何かを察したのか、近くで話を聞いていたコルセスカが寄ってきてトリシューラの肩に手を置いて声をかけた。 「トリシューラ、大丈夫です。貴方は確かにそこにいます」
+        locator: {}
+        spoiler_after: ch5056
+    speech:
+      observations:
+      - event_ref: E_ch5056_コルセスカ_asks_アキラの協力_p225
+        quote: コルセスカは俺に使い魔となって火竜を倒す手伝いをして欲しいと言った。 それが彼女の目的で、つまりその目的を達成することでキュトスの姉妹の七十一番という座が手に入るのだろう。
+        locator: {}
+        spoiler_after: ch5056
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_階段]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5056_階段_functions_as_亜空間泡_p16
+        quote: 階層間を繋ぐ階段は一種の亜空間なのだという。その都度、外界から隔離された移動用の亜空間が一時的に生成される。階層と階層の間の何も無い空間を浮かぶ『泡』のようなもので、一度使えばその後は弾けて消えてしまう。
+        locator: {}
+        spoiler_after: ch5056
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_星見の塔]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5056_星見の塔_defines_キュトスの姉妹_p214
+        quote: 察するに、キュトスの姉妹とかいうのは彼女たちが所属する組織、星見の塔の役職名みたいなものなのだろう。 その座を争っている二人はライバル同士なのだ。
+        locator: {}
+        spoiler_after: ch5056
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_アキラ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5056_アキラ_thinks_選択の迫り_p224
+        quote: なぜならば彼女たちは本質的には別々の道を行く存在であり、どちらか一方を助けると言うことは、どちらか一方を助けないということだからだ。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_アキラ_helps_少年_p276
+        quote: 俺と似た境遇にある彼に、俺は手を差し伸べなくてはならないと思う。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_アキラ_promises_アズーリアへの帰還_p302
+        quote: アズーリア。 いつか必ず、俺はあの恩人に会わなくてはならない。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_アキラ_suspects_カーインの意図_p33
+        quote: 誰にとって都合がいいのか――それは敵という目的を得て、窮地で共闘相手を見出した俺にとってに他ならない。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_アキラ_remembers_第六階層の時間_p4
+        quote: 実に、3,600秒程度の出来事だったという。第六階層に降下してから、トリシューラの拠点へ戻ってくるまでにかかった時間である。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_アキラ_thinks_恩義への傾倒_p54
+        quote: 俺はどうも『修羅場を共に乗り越えた』的な経験に弱い傾向がある。たとえ仕込みの可能性があっても、事実としての記憶と体感が、経験を共有した相手にシンパシーじみたものを抱かせてしまうようなのだ。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_アキラ_thinks_時間感覚のズレ_p8
+        quote: トリシューラとの超圧縮された情報伝達のせいで主観的な時間と客観的な時間との間にズレが生じているようだった。
+        locator: {}
+        spoiler_after: ch5056
+    visual:
+      observations:
+      - event_ref: E_ch5056_アキラ_observes_トリシューラの表情_p36
+        quote: 俺と並んで歩く白銀の髪をした少女を横目に眺める。負傷の苦痛が表情に出ないのは耐えているのか、それとも俺のように痛覚を制御しているのか。
+        locator: {}
+        spoiler_after: ch5056
+      - event_ref: E_ch5056_アキラ_observes_コルセスカの髪色_p40
+        quote: 俺の元いた世界ではまずお目にかかれないであろうほどの彩度の高さ。鮮血のような不吉さと、陽の明かりのような朗らかさの両方を連想させる赤い少女。彼女の変わらぬ微笑みの裏もまた、俺にはまるで読めない。
+        locator: {}
+        spoiler_after: ch5056
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_少年]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5056_少年_other_病室の寝台_p253
+        quote: 入り口から一番離れた位置の寝台に横たわっているのは、猫耳の少年である。 記憶を失ったばかりで不安なこともあったのだろう。診察と治療を終え、ここに来た後はすぐに寝入ってしまった。
+        locator: {}
+        spoiler_after: ch5056
+    speech:
+      observations:
+      - event_ref: E_ch5056_少年_uses_古代語_p272
+        quote: 何でも極めて古い時代の言語らしく、近代以降のあらゆる言語が登録されているというデータベースにすら存在していないらしい。
+        locator: {}
+        spoiler_after: ch5056
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5056_カーイン_flees_第五階層_p27
+        quote: ただひとり、カーインは馴れ合うことを好まず、再戦を仄めかしつつ第五階層へ去っていった。
+        locator: {}
+        spoiler_after: ch5056
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_巡槍艦マツヤ]]'
+  entity_type: item
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5056_巡槍艦マツヤ_has_property_16ゼタバイト情報量_p75
+        quote: 「基本的な排『情報』量だけで16ゼタバイトはあるからねー。まあちょっとしたもんだよ。これだけ構築するのに半年かかっちゃった」
+        locator: {}
+        spoiler_after: ch5056
+    visual:
+      observations:
+      - event_ref: E_ch5056_巡槍艦マツヤ_is_made_of_赤と黒の色彩_p84
+        quote: 色彩は深い赤がベースで、所々に黒という派手なものだ。これはトリシューラの趣味か、そうでなかったら病院を示すカラーなのだろう。何となく前者である気がした。
+        locator: {}
+        spoiler_after: ch5056
+  first_appearance_candidate: true

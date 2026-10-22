@@ -1,0 +1,206 @@
+chapter: ch5350
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 15
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p2]]'
+  object: '[[ME_anti_tank_weaponry]]'
+  claim: ロケットランチャーによる外壁攻撃は、対戦車兵器としての役割を明示し、ファンタジー的な防御結界への物理的挑戦を表す。
+  quote: トリシューラは肩撃ち式のロケットランチャーを構え、塔の外壁に向けて発射した。戦車の装甲すら貫通する威力が炸裂し
+  paragraph: p2
+  confidence: strong
+  quotes:
+  - quote: トリシューラは肩撃ち式のロケットランチャーを構え、塔の外壁に向けて発射した。戦車の装甲すら貫通する威力が炸裂し
+    paragraph: p2
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p15]]'
+  object: '[[ME_riot_control_tactics]]'
+  claim: 催涙ガスやゴム弾による暴徒鎮圧は、現代の群衆制御（Crowd Control）技術と警察戦術を模倣している。
+  quote: 更には催涙ガス、電気銃といった非殺傷性の武器で次々と暴徒の大海を引き裂いていく。警備用のドローンたちも奮闘しており
+  paragraph: p34
+  confidence: strong
+  quotes:
+  - quote: 更には催涙ガス、電気銃といった非殺傷性の武器で次々と暴徒の大海を引き裂いていく。警備用のドローンたちも奮闘しており
+    paragraph: p34
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p72]]'
+  object: '[[ME_labor_rights_and_displacement]]'
+  claim: 義肢を得た元労働者たちが機械の魔女を憎む構造は、技術移転による失業と労働権剥奪への怒りという社会倫理的主题を含む。
+  quote: 迷宮労災に加入もできずここに流れ着いた不法移民や貧困層――義肢を手に入れ、レオたち【公社】が援助することでその状況は改善された。
+  paragraph: p72
+  confidence: moderate
+  quotes:
+  - quote: 迷宮労災に加入もできずここに流れ着いた不法移民や貧困層――義肢を手に入れ、レオたち【公社】が援助することでその状況は改善された。
+    paragraph: p72
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p89]]'
+  object: '[[ME_luddism]]'
+  claim: ネドラドの「機械の魔女を打ち壊せ」という叫びは、産業革命期の機械破壊運動（ラッダイト運動）への直接な言及であり、技術進歩への拒絶を表す。
+  quote: 「破壊しろ！ 我々から貴い労働の権利を奪う機械の魔女を打ち壊せ！」【ラッダイト運動】なる特殊な呪術武芸の使い手であるこの男はトリシューラの天敵だ。
+  paragraph: p76
+  confidence: explicit
+  quotes:
+  - quote: 「破壊しろ！ 我々から貴い労働の権利を奪う機械の魔女を打ち壊せ！」【ラッダイト運動】なる特殊な呪術武芸の使い手であるこの男はトリシューラの天敵だ。
+    paragraph: p76
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p241]]'
+  object: '[[ME_divine_right_of_kings]]'
+  claim: ルバーブの「王の権威とはすなわち神によって与えられしもの」という台詞は、ヨーロッパ絶対王政期の権威論である王権神授説を参照している。
+  quote: 「王の権威とはすなわち神によって与えられしもの。その二つは同じこと」王権神授――Divine right of kings.
+  paragraph: p241
+  confidence: explicit
+  quotes:
+  - quote: 「王の権威とはすなわち神によって与えられしもの。その二つは同じこと」王権神授――Divine right of kings.
+    paragraph: p241
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p260]]'
+  object: '[[ME_game_mechanics_attribute]]'
+  claim: ルバーブが「アトリビュート」と唱える呪文は、ゲーム的なステータス操作や属性変換といったメカニクスを現実世界で行使するメタフィクション的演出である。
+  quote: 「確か、このように唱えるのだったか――アトリビュート」それは、良く知っている響きだった。引喩（アリュージョン）系呪術。外部の文脈（ちから）を武器にする、あのキロンと同じ力。
+  paragraph: p260
+  confidence: strong
+  quotes:
+  - quote: 「確か、このように唱えるのだったか――アトリビュート」それは、良く知っている響きだった。引喩（アリュージョン）系呪術。外部の文脈（ちから）を武器にする、あのキロンと同じ力。
+    paragraph: p260
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_terraforming_influence
+  note: 足裏からの呪力流入による凶暴化が、大地の民の本性なのか外部操作なのか。
+  quotes:
+  - quote: ちびシューラが分析を行った結果、足裏から膨大な呪力が彼らの体内に流れ込み、それが彼らを凶暴化させているのだと判明した。アレッテが言っていた球神に血を捧げる儀式とやらの影響らしい。
+    paragraph: p18
+    quote_verified: true
+  expected_payoff: この「呪力」の正体が、単なるバフではなく意識支配や魂の搾取である可能性が示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_puppet_master
+  note: トリシューラが操り糸を垂らす存在に言及しており、物語全体がメタ的な操作下にある可能性。
+  quotes:
+  - quote: これまでの俺たちの行動、その原因から結果まで何者かの掌の上であったという恐れがあるのだ。もしそのような存在がいるのだとすれば、そいつは遙かな高みで訳の分からない呪術自慢でもしながら操り糸を垂らしていることになる。
+    paragraph: p160
+    quote_verified: true
+  expected_payoff: 最終的に「作者」または「システム」という概念との対峙、あるいはその操作者との決着へ回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_rubab_personality_shift
+  note: 忠臣だったルバーブが冷酷な狂信者へと変貌した理由（信仰の強制か、本性か）。
+  quotes:
+  - quote: 俺が抱いていたのは、『マラードの民』を自分が傷つけることに抵抗感を覚えるような忠臣のイメージだった。「さっきから球神球神って、そんなに信心深かったのか？
+      お前が仕えているのはマラードと球神、どっちなんだよ！」
+    paragraph: p235
+    quote_verified: true
+  expected_payoff: ルバーブの行動原理が「王」から「神（システム）」へ書き換えられたことが明かされ、敵対関係の不可逆性が強調される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_shared_attribute_source
+  note: ルバーブがアキラと同じ「釘のナタリエル」を参照できることの不自然さ。
+  quotes:
+  - quote: 「五十五番――【釘のナタリエル】」それは、俺と全く同じ【キュトスの姉妹】を参照先にしたサイバーカラテの技術に他ならなかった。
+    paragraph: p268
+    quote_verified: true
+  expected_payoff: 敵味方が同じ「引喩（アリュージョン）」のデータセットを共有している事実は、世界がゲーム的リソースで構成されていることの強力な伏線となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術進歩と伝統的信仰・労働権の対立（ネオ・ラッダイト主義）
+  weight: 0.85
+  quotes:
+  - quote: 「破壊しろ！ 我々から貴い労働の権利を奪う機械の魔女を打ち壊せ！」【ラッダイト運動】なる特殊な呪術武芸の使い手であるこの男はトリシューラの天敵だ。
+    paragraph: p76
+    quote_verified: false
+  - quote: 「王の権威とはすなわち神によって与えられしもの。その二つは同じこと」王権神授――Divine right of kings.
+    paragraph: p241
+    quote_verified: true
+  note: トリシューラ＝機械文明への憎悪と、ルバーブ＝古代的神権信仰という二つの反技術勢力が同時に登場し、近代化の歪みを描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクショナルな運命論：操り手（作者/神）からの解放
+  weight: 0.75
+  quotes:
+  - quote: もしそのような存在がいるのだとすれば、そいつは遙かな高みで訳の分からない呪術自慢でもしながら操り糸を垂らしていることになる。「考えても仕方無いだろ。その時はその時だ。操り手が見つかったらぶっ飛ばせばいいだけの話でしかない」
+    paragraph: p160
+    quote_verified: true
+  note: 物語の構造自体（シナリオ、ゲーム的要素）を敵と見なし、それを物理的に破壊することで自由意志を取り戻そうとする姿勢。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 忠誠の対象の転移：王からシステム（球神/引喩）へ
+  weight: 0.65
+  quotes:
+  - quote: 「民の血と苦痛は球神の供物となるだろう。それは喜ぶべきことだ」冷酷な返答にぞっとする。「王の権威とはすなわち神によって与えられしもの。その二つは同じこと」
+    paragraph: p231
+    quote_verified: false
+  note: 人間への愛着を捨て、抽象的な規範（システム）に捧げる狂信者性との対比。主人公側は「トリシューラ」という具体的な他者への忠誠を貫く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 引喩（アリュージョン）の共有による同化恐怖
+  weight: 0.6
+  quotes:
+  - quote: 「五十五番――【釘のナタリエル】」それは、俺と全く同じ【キュトスの姉妹】を参照先にしたサイバーカラテの技術に他ならなかった。
+    paragraph: p268
+    quote_verified: true
+  note: 敵が主人公と同じ「ゲームデータ（引喩）」を使用することで、両者が同一の文脈（ゲーム）の中に閉じ込められていることが露呈する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

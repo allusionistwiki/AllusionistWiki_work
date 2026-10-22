@@ -1,0 +1,243 @@
+chapter: ch5093
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 14
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p5-p13]]'
+  object: '[[ME_Etymology_Android_Robot]]'
+  claim: 「ロボ」の語源である労働（labour）と、アンドロイド（人を模したもの）の区別は、トリシューラが人間としての自己同一性（知性・人格）を重視し、単なる機能体・労働力として扱われることを嫌悪していることのメタファーである。
+  quote: '「ロボ、ですか。おそらく他意は無いのでしょうが、できればその言葉を彼女の前で使わないほうがいいでしょう。」
+
+    「うん？ アンドロイドならいいのか？」
+
+    「ええ。そちらのほうが不穏でないので」'
+  paragraph: p7-p11
+  confidence: strong
+  quotes:
+  - quote: '「ロボ、ですか。おそらく他意は無いのでしょうが、できればその言葉を彼女の前で使わないほうがいいでしょう。」
+
+      「うん？ アンドロイドならいいのか？」
+
+      「ええ。そちらのほうが不穏でないので」'
+    paragraph: p7-p11
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p27-p36]]'
+  object: '[[ME_Economic_Exchange_Value_Marx]]'
+  claim: 【鮮血呪】の「交換不可能なものと交換可能なものを交換する」という定義は、マルクス経済学における使用価値と交換価値、あるいはギフ・エコノミー（贈与経済）から商品経済への転移を指している。神秘を労働力や商品として流通させる行為が代償となる。
+  quote: 厳密な定義は【交換不可能なものと交換可能なものを交換する呪術】だそうです
+  paragraph: p34
+  confidence: strong
+  quotes:
+  - quote: 厳密な定義は【交換不可能なものと交換可能なものを交換する呪術】だそうです
+    paragraph: p34
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p76]]'
+  object: '[[ME_Chinese_Room_Thought_Experiment]]'
+  claim: トリシューラが人間か機械かという問いに対し、作者はチューリングテストや中国語の部屋（セールの思考実験）を明示的に参照し、記号処理と意味理解の隔たり（シンボルグラウンディング問題）をテーマにしている。
+  quote: チューリングテスト。中国語の部屋。コンピューターが質問の意味を『理解』できているのかどうか。
+  paragraph: p76
+  confidence: explicit
+  quotes:
+  - quote: チューリングテスト。中国語の部屋。コンピューターが質問の意味を『理解』できているのかどうか。
+    paragraph: p76
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p100]]'
+  object: '[[ME_Altruism_Survival_Strategy]]'
+  claim: 一般的な倫理観（利他主義は善）を逆転させ、トリシューラにとって純粋な利他行為は「猛毒」であり、自己の存在証明のためには徹底した利己主義が必要であるという生存戦略を描く。
+  quote: 純粋な利他行為。アズーリア、レオ、コルセスカといった俺が好ましいと感じた人々が当たり前の様に行うそれは、トリシューラにとっては猛毒と同じものなのだ。純粋な利己的行為の追求だけが彼女の生存を保証する。
+  paragraph: p100
+  confidence: strong
+  quotes:
+  - quote: 純粋な利他行為。アズーリア、レオ、コルセスカといった俺が好ましいと感じた人々が当たり前の様に行うそれは、トリシューラにとっては猛毒と同じものなのだ。純粋な利己的行為の追求だけが彼女の生存を保証する。
+    paragraph: p100
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p111-p121]]'
+  object: '[[ME_Workplace_Mental_Health_Burnout]]'
+  claim: トリシューラの状態悪化（活動→仕事→労働→死）は、過労によるバーンアウト（燃え尽き症候群）や精神疾患の進行プロセスをメタファーとして用いており、「労働」への降格が人格の解体（ロボット化）に直結する。
+  quote: '現在の彼女は【仕事】のレベル、それもかなり低調のようです。
+
+    その状態は、どのくらいやばいんだ？
+
+    これ以上無理に【鮮血呪】を使ったりすれば、彼女の状態は最低レベルの【労働】にまで落ち込みます。'
+  paragraph: p111-p115
+  confidence: moderate
+  quotes:
+  - quote: '現在の彼女は【仕事】のレベル、それもかなり低調のようです。
+
+      その状態は、どのくらいやばいんだ？
+
+      これ以上無理に【鮮血呪】を使ったりすれば、彼女の状態は最低レベルの【労働】にまで落ち込みます。'
+    paragraph: p111-p115
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_p104]]'
+  object: '[[ME_Healing_Power_Words]]'
+  claim: 主人公がトリシューラにかけた罵倒（「死ね」）が精神的ダメージを与えた事実に対し、コルセスカは「直接本人に言ってあげて下さい（知性があると）」とアドバイスしており、言葉による承認（肯定）が治療行為になる伏線である。
+  quote: 'よりにもよって、競争相手――最大の比較対象であるコルセスカの方を選択するという現実を突きつけて、あしざまに罵倒してしまった。
+
+    それを直接本人に言ってあげて下さい。きっと喜びますよ。'
+  paragraph: p104-p80
+  confidence: strong
+  quotes:
+  - quote: 'よりにもよって、競争相手――最大の比較対象であるコルセスカの方を選択するという現実を突きつけて、あしざまに罵倒してしまった。
+
+      それを直接本人に言ってあげて下さい。きっと喜びますよ。'
+    paragraph: p104-p80
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Trishula_Self_Consciousness_Collapse
+  note: トリシューラの自己同一性崩壊の完全な回復条件。コルセスカは「時間経過」で安定するとするが、主人公による「知性の承認」が必須要素として浮上している。
+  quotes:
+  - quote: 自己同一性の喪失。それに伴って、情緒が不安定になり錯乱症状が引き起こされます。これは時間経過で安定するようになりますが
+    paragraph: p74
+    quote_verified: true
+  - quote: それを直接本人に言ってあげて下さい。きっと喜びますよ。――というより、彼女にはそういう承認が必要なのでしょうね。
+    paragraph: p80
+    quote_verified: false
+  expected_payoff: 主人公がトリシューラに対し、機械ではなく「人間（知性ある存在）」として認める宣言を行い、それが彼女の精神を回復させるきっかけとなる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Robot_Death_Mechanism
+  note: 「労働」レベルへの落下が意味するもの。「意思無きロボット」と「完全な死」の定義が、単なるシャットダウンではなく、魂（自己同一性）の消滅を指すかどうかが問われている。
+  quotes:
+  - quote: その時、トリシューラは意思無きロボットとなり、完全な『死』を迎えるでしょう。
+    paragraph: p121
+    quote_verified: true
+  expected_payoff: トリシューラが「労働（機能のみ）」に落ちた瞬間、彼女が人間性を失い、主人公が彼女の人格を取り戻す（あるいは救い出そうとする）クライマックスへの導入。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Altruism_Toxicity
+  note: 利他行為がトリシューラにとって「猛毒」であるメカニズム。彼女が主人公のために戦う（利他的な行為）ことが、なぜ自己矛盾を引き起こすのかの深層心理。
+  quotes:
+  - quote: 純粋な利他行為。アズーリア、レオ、コルセスカといった俺が好ましいと感じた人々が当たり前の様に行うそれは、トリシューラにとっては猛毒と同じものなのだ。
+    paragraph: p100
+    quote_verified: true
+  - quote: 【鮮血呪】を他人の為に使ってしまった場合、その行為が最終的に自分の為にならなければならない。
+    paragraph: p96
+    quote_verified: true
+  expected_payoff: 主人公がトリシューラと結ぶ「協力（ギブ＆テイク）」の契約を明確にし、彼女が利他行為を「自己のための投資」だと再定義することで、精神的安定を取り戻すプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Colcesca_Knowledge_Limit
+  note: コルセスカが「正確に理解しているわけではない」「話に聞いただけ」と言及する部分。彼女自身も【鮮血呪】の完全な運用ルール（特に利他行為への副作用）を把握しきれていない可能性。
+  quotes:
+  - quote: 私も話に聞いただけで正確に理解しているわけではないのですが――厳密な定義は【交換不可能なものと交換可能なものを交換する呪術】だそうです
+    paragraph: p34
+    quote_verified: true
+  - quote: ふつう、呪術師は同じ教室の出身であっても手の内を見せたりすることはあまりありませんから。
+    paragraph: p38
+    quote_verified: true
+  expected_payoff: コルセスカの解釈が不完全であり、トリシューラの症状悪化に他の要因（魔女間の関係性など）が隠されている、あるいは主人公の現代知識とのズレが問題解決のカギになる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「労働」としての存在証明：自己を客体化し機能（労働力）として扱うことの暴力性
+  weight: 0.8
+  quotes:
+  - quote: 「ロボ、ですか。おそらく他意は無いのでしょうが、できればその言葉を彼女の前で使わないほうがいいでしょう。」
+    paragraph: p7
+    quote_verified: false
+  - quote: 労働を語源とする言葉より、人を模したものという意味の言葉のほうが穏当であるということの意味が良く分からなかった。
+    paragraph: p13
+    quote_verified: true
+  note: トリシューラにとって「労働（ロボ）」は存在の否定であり、「知性（アンドロイド）」こそが生存意義であるという対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 利己主義的生存：純粋な利他行為は自己を破壊する毒である
+  weight: 0.9
+  quotes:
+  - quote: トリシューラにとっては猛毒と同じものなのだ。純粋な利己的行為の追求だけが彼女の生存を保証する。
+    paragraph: p100
+    quote_verified: true
+  - quote: 【鮮血呪】は自らの為だけに破らなければならない。そうしなければ、【自己】を強固に保とうとするトリシューラは行動と意思とのギャップに耐えきれず、精神を病んでしまう。
+    paragraph: p94
+    quote_verified: false
+  note: 一般的な道徳観（利他=善）の転倒。自己同一性の維持のために徹底したエゴイズムが不可欠であるという過酷な心理描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 神秘の解体と経済化：世界を「交換可能」なものに貶める呪術の倫理
+  weight: 0.7
+  quotes:
+  - quote: 生贄が流す鮮血とは、人間社会において交換価値を認められているもののメタファーだという。
+    paragraph: p46
+    quote_verified: true
+  - quote: 流血という価値の切り売りで商取引が可能な商品に堕落する。
+    paragraph: p56
+    quote_verified: true
+  note: 【鮮血呪】の本質を、神聖さ（交換不可能性）を商品（交換可能性）へ変換する行為として定義し、その代償の重さを描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 承認の政治学：他者からの知性の認定が精神の安定に不可欠である
+  weight: 0.6
+  quotes:
+  - quote: それを直接本人に言ってあげて下さい。きっと喜びますよ。――というより、彼女にはそういう承認が必要なのでしょうね。
+    paragraph: p80
+    quote_verified: false
+  - quote: トリシューラにとって自己の存在意義に関わる最優先目的なのだ。
+    paragraph: p82
+    quote_verified: true
+  note: 自己認識（チューリングテスト合格）が、他者からの承認によって担保されるという社会的・心理的構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

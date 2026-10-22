@@ -1,0 +1,134 @@
+chapter: ch5141
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_Unknown_Sister_Prophecy
+  note: 「未知なる末妹」が現れることが邪神キュトスの復活と世界の滅びを意味する説、あるいは救済者の説がある。ハルベルトがその座につくことで世界終末（または救済）のトリガーとなる可能性。
+  quotes:
+  - quote: 未知であることを性質とする姉妹だとか、その姉妹が現れた時が邪神キュトスの復活の時で世界の滅びを意味しているとか、いや末世に到来して世界を救済する者だとか諸説が入り乱れている
+    paragraph: p79
+    quote_verified: true
+  expected_payoff: 物語終盤での世界存亡の危機と、ハルベルトがその中心人物となる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Priestera_Tribuna_Mother
+  note: プリエステラは「ティリビナの民」であり、「大いなる森の母、レルプレア神と交信できる」「もう最後になってしまった、【ティリビナの巫女】」と名乗る。絶滅したはずの種族の最後の存続者であることの意味。
+  quotes:
+  - quote: 私はプリエステラ。大いなる森の母、レルプレア神と交信できる――もう最後になってしまった、【ティリビナの巫女】よ
+    paragraph: p223
+    quote_verified: true
+  expected_payoff: ミューブラン滅亡事件の真相解明、またはハルベルトの「異獣」対立構造（アズが味方だが敵視される）の複雑化。プリエステラが敵か味方かの判断材料。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Harbert_Mother_Catalmarina
+  note: ハルベルトの母が「塔の第三位カタルマリーナ」の弟子であり、「太陰の王に見初められて月に渡った」。この両親の関係性と、月（太陰）と地上（塔）の対立・同盟関係。
+  quotes:
+  - quote: ハルのお母様は【塔】の第三位、カタルマリーナお姉様の一番弟子で、一時期はキュトスの姉妹にと望まれた程に傑出した呪術師だった。けれどある時、太陰の王に見初められて月に渡ってしまったの。
+    paragraph: p93
+    quote_verified: true
+  expected_payoff: カタルマリーナと太陰の王の対立、ハルベルトが「人外」になる過程での母の影響、そしてアズとの関係性への波及。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Gardenia_Insult
+  note: ハルベルトがミルーニャを「クチナシ（ガーデニア）」と呼び、不機嫌になる。この言葉が何を意味する暗喩・侮辱なのか不明確。ミルーニャの正体（花？）との関連性。
+  quotes:
+  - quote: '「あの、ガーデニア」
+
+      「はい？」
+
+      「だから、クチナシ――梔子（ガーデニア）と言ったの」'
+    paragraph: p137-p141
+    quote_verified: true
+  expected_payoff: ミルーニャの過去や出自に関わるフラグ回収、およびハルベルトとミルーニャの確執の本質。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Hero_Qualification
+  note: アズが「ゼノグラシア（外部由来）」「グロソラリア（内部発生）」の両方の可能性を持つ特異体質であること。ハルベルトがこれを「英雄の素質」と評価する基準と、その副作用。
+  quotes:
+  - quote: アズはこの世界においてとても珍しい呪力を保有している。それが外部からもたらされた場合をゼノグラシアと呼び、この世界で発生したものをグロソラリア――異言者と呼ぶの。簡単に言えば、あなたには英雄の素質がある。
+    paragraph: p115
+    quote_verified: false
+  expected_payoff: アズの力の本質（転生者としての特殊性）が、ハルベルトの勝利条件（競争）においてどう機能するか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「孤独な王族」同士の相互補完と擬似恋愛
+  weight: 0.8
+  quotes:
+  - quote: ずっと【塔】やお姉様たちの領地を回ったりしてたから、あんまり同じくらいの人と話さないの。
+    paragraph: p63
+    quote_verified: true
+  - quote: 兎に角、アズはハルのもの。これは決定事項
+    paragraph: p155
+    quote_verified: true
+  note: 社会的地位が高いが人間関係が希薄なハルベルトと、英雄視されつつも孤立するアズの結びつきが、この章の情感の中心。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「選択」による運命の固定化（ガチャ的な決定論）
+  weight: 0.6
+  quotes:
+  - quote: その四人によって行われる、キュトスの姉妹になるための競争。
+    paragraph: p85
+    quote_verified: true
+  - quote: ハルはその相手にアズを選ぼうと思った
+    paragraph: p120
+    quote_verified: true
+  note: 「最後」とされる座を巡る競争と、使い魔としてのパートナー選択が、キャラクターの自由意志を制限する構造的運命として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異種族間の境界線（人間/人外、敵/味方）の曖昧さ
+  weight: 0.5
+  quotes:
+  - quote: ハルは、厳密に言えばまだキュトスの姉妹じゃないの。それどころか、不死ですらないただの人間。
+    paragraph: p88
+    quote_verified: true
+  - quote: その故郷であるミューブランを焼き払い不毛の砂漠に変えたのは【松明の騎士団】だ。
+    paragraph: p213
+    quote_verified: true
+  note: ハルベルトが「人外になる」ために体を弄ぶことと、プリエステラという「絶滅したはずの敵種族」の出現により、善悪・内外の境界が流動化する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 月光の下での本音開示（月＝無意識/秘密）
+  weight: 0.4
+  quotes:
+  - quote: 月が皓々と私達を照らしていた。
+    paragraph: p2
+    quote_verified: true
+  - quote: 夜の方が綺麗な人だな、と何となく思った。彼女には、太陽の輝きよりも月明かりの方が似合う気がする。
+    paragraph: p39
+    quote_verified: true
+  note: 昼（社会的役割・競争）ではなく夜（プライベート・本音）においてのみ関係が深まり、秘密（身の上話）が語られる空間としての「月」の象徴性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

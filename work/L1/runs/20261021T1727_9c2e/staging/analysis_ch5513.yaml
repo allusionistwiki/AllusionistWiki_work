@@ -1,0 +1,242 @@
+chapter: ch5513
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5513_p8-p14]]'
+  object: '[[ME_corporate_internship]]'
+  claim: 顕花族への憧れと従僕としての地位は、大企業でのインターンシップや契約社員として正社員（顕花）登用を目指す構造に類似する。
+  quote: あなたは賢明な子ね、『掃除屋』。その目で私たちには見えないものを見つけてきてくれたら、きっとスーリウム様にあなたのお願いを伝えてあげる。大丈夫、ここは第五階層だもの。あなたが変わりたいと願うのなら、きっと顕花にだってなれるでしょう
+  paragraph: p8
+  confidence: moderate
+  quotes:
+  - quote: あなたは賢明な子ね、『掃除屋』。その目で私たちには見えないものを見つけてきてくれたら、きっとスーリウム様にあなたのお願いを伝えてあげる。大丈夫、ここは第五階層だもの。あなたが変わりたいと願うのなら、きっと顕花にだってなれるでしょう
+    paragraph: p8
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5513_p98-p102]]'
+  object: '[[ME_gacha_game_beta_test]]'
+  claim: 機械女王のアプリ「転活体験アプリ・ウィズメモリー」は、スマホゲームにおけるガチャのβテストや限定イベント期間中の限定召喚を模倣している。
+  quote: 流石に祝祭だからじゃないですかね。それにほら、機械女王様が新しいアプリを発表したじゃないですか。ベータテスト？　とかって
+  paragraph: p98
+  confidence: strong
+  quotes:
+  - quote: 流石に祝祭だからじゃないですかね。それにほら、機械女王様が新しいアプリを発表したじゃないですか。ベータテスト？　とかって
+    paragraph: p98
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5513_p20-p27]]'
+  object: '[[ME_data_labeling_task]]'
+  claim: 『掃除屋』が店員にラベルを貼り、不純物を取り除く作業は、AI学習のためのデータアノテーション（ラベリング）業務の比喩である。
+  quote: 外れ、外れ、要注意、疑惑、真っ黒。挨拶を交わしながら店員たちにラベルを貼っていく。傘の下にある真ん丸な目が必要な景色だけを選択して映し出す。
+  paragraph: p20
+  confidence: moderate
+  quotes:
+  - quote: 外れ、外れ、要注意、疑惑、真っ黒。挨拶を交わしながら店員たちにラベルを貼っていく。傘の下にある真ん丸な目が必要な景色だけを選択して映し出す。
+    paragraph: p20
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5513_p379-p387]]'
+  object: '[[ME_mythology_laus_and_grant]]'
+  claim: 神具グラントとパンゲオンの記述は、北欧神話の巨狼フェンリルや世界の蛇ヨルムンガルド、およびギリシャ神話のタイタン等の原初的怪物を創造神が素材としたという創世神話構造に準拠している。
+  quote: 造物神グラントが始原の獣パンゲオンの肉体を素材にして鍛えた、世界の土台に等しい強度を持った『大いなる牙』。
+  paragraph: p386
+  confidence: strong
+  quotes:
+  - quote: 造物神グラントが始原の獣パンゲオンの肉体を素材にして鍛えた、世界の土台に等しい強度を持った『大いなる牙』。
+    paragraph: p386
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5513_p243-p245]]'
+  object: '[[ME_competitive_sports_ethics]]'
+  claim: レースを「金持ちのごっこ遊び」と切り捨て、生存のみを追求する姿勢は、スポーツにおける「勝つこと」より「生き残ること（生存バイアス）」を優先する逆説的な価値観を示す。
+  quote: 最速を競うレースなんて、所詮は恵まれた金持ちが身内で褒め合ってるごっこ遊びだ。
+  paragraph: p243
+  confidence: moderate
+  quotes:
+  - quote: 最速を競うレースなんて、所詮は恵まれた金持ちが身内で褒め合ってるごっこ遊びだ。
+    paragraph: p243
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5513_p347-p352]]'
+  object: '[[ME_laboratory_experiment_subject]]'
+  claim: 『塗壁』がアルテミシアを「実験済み」「器の中身を染め上げられた異物」と呼ぶのは、動物実験や被験者を用いた科学的コントロールの非人間性を想起させる。
+  quote: アストラル体を流用しただけの別物。器の中身を染め上げられた異物。
+  paragraph: p347
+  confidence: strong
+  quotes:
+  - quote: アストラル体を流用しただけの別物。器の中身を染め上げられた異物。
+    paragraph: p347
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5513_p208-p216]]'
+  object: '[[ME_pet_release_from_abuse]]'
+  claim: クレイが犬を解放し、その理由を「戦場になる」として店員に追跡させる行為は、虐待環境からの動物保護活動における緊急避難的な引き取りを模している。
+  quote: 死にたくなければお前も逃げろ。これからここは戦場になる。
+  paragraph: p208
+  confidence: moderate
+  quotes:
+  - quote: 死にたくなければお前も逃げろ。これからここは戦場になる。
+    paragraph: p208
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_clay_identity
+  note: クレイ・ヒュールサスの正体。視界の遮断、特異な知覚、犬への干渉力から高位存在（神格者や古代の英雄）である可能性が高い。
+  quotes:
+  - quote: 夜の民めいた長身を黒衣で隠している。ドラトリア系かシィフォン系かはわからないが、吸血鬼だろうか。『掃除屋』が目を凝らしても眷属種が判然としないのは少し珍しい。
+    paragraph: p77
+    quote_verified: true
+  - quote: クレイ・ヒュールサスだ。少し乱れていて構わないなら、署名くらいはできるが
+    paragraph: p181
+    quote_verified: true
+  expected_payoff: 物語のキーアイテムである「時十字の瞳」や「聖女クナータ」との関連性、あるいは主人公陣営への介入者としての正体が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cinnamon_rain
+  note: ラストで降ってきた無数のシナモリアキラ（ベフォニスの分身/使い魔）の意味。
+  quotes:
+  - quote: 空から、無数のシナモリアキラが降ってきています！
+    paragraph: p453
+    quote_verified: true
+  expected_payoff: 第五階層全域での戦闘の開始、またはノゴルオゴルオ陣営に対する圧倒的な戦力投入（掃討作戦）の始まりを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_artemisia_fate
+  note: アルテミシア（ネクリュセリテ/蛇人）の末路。塗壁による恐怖支配と、彼女が監視していた少年（掃除屋）との関係。
+  quotes:
+  - quote: いっそ姉ちゃんも入れ替えてみっか。おらで実験済みだもんな。安心だべ？
+    paragraph: p327
+    quote_verified: true
+  - quote: アルテミシアが監視していたキノコ人の少年は間違いなく罠にかかった。
+    paragraph: p439
+    quote_verified: true
+  expected_payoff: アルテミシアが「入れ替え」られ、掃除屋の敵として立ちはだかるか、あるいは掃除屋が彼女を救済する構図への転換。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_laus_statue
+  note: ベフォニス（神像王）としての巨大石像の配置と、その「立たせとくだけで機能する」という記述の意味。
+  quotes:
+  - quote: クレイとトロメリアを圧倒した呪宝石の巨大石像は、伝説に語られるグレジェルミラン大岩獄に封じられた巨人ラウスの本体を人工的に再現した最強の化身である。
+    paragraph: p379
+    quote_verified: true
+  - quote: 極論、あれは立たせとくだけで機能する。とりあえず辺境区に置いといて、出し入れできるようにしとけばいいだよ
+    paragraph: p377
+    quote_verified: true
+  expected_payoff: クレイの目的がこの石像（ラウス）の解放または破壊にある可能性、およびそれが世界の平衡を崩すトリガーになること。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_sixth_sense_warning
+  note: 掃除屋の第六感「何か決定的な出来事が起きる」が、クレイの登場とシナモリアキラの降下によって回収された。
+  quotes:
+  - quote: 『掃除屋』の第六感が『何か決定的な出来事が起きる』と告げていた。
+    paragraph: p62
+    quote_verified: true
+  expected_payoff: この章以降、第五階層での勢力図が大きく書き換わる大規模イベントが発生する伏線として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 視点の政治学：見えないものを見る者は、社会の周縁（不可触階層）に置かれることで初めて権力構造の真実を知り得る。
+  weight: 0.8
+  quotes:
+  - quote: 不可触階層としてのキノコ人は奈落の監視者にうってつけだ。だから『掃除屋』には見えてしまう。見えないはずの暗がりが、とても良く見えてしまう。
+    paragraph: p162-p164
+    quote_verified: true
+  note: 社会的な地位（不可触）と超能力（透視）が結合し、主流派が見落としている脅威を主人公だけが感知する構造を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生の商品化：生と死の境界がアプリやアバターを通じて消費対象となり、人間性はデータとしての文脈（コンテキスト）に還元される。
+  weight: 0.7
+  quotes:
+  - quote: 転生という言葉は拡張され、その意味を変動させている。...転生体験は受け入れ側のメリットが最大の問題点になるため、転生されることに対するインセンティブが必要になる。
+    paragraph: p110-p112
+    quote_verified: false
+  - quote: 重要なのはマッチングであり、この新作アプリは『適切な相手を見つける機能』を特に優れた点としてアピールしていた。
+    paragraph: p115
+    quote_verified: true
+  note: SF的ガジェットを通じて、「転生」ジャンルのメタ構造（異世界への憧れ）が経済システムに組み込まれている皮肉を提示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 支配の美学と暴力：力を持つ者は他者を「実験」や「玩具」として扱い、恐怖を与えることで秩序を維持しようとする（ノゴルオゴルオ/塗壁）。
+  weight: 0.6
+  quotes:
+  - quote: 命も魂も、彼にとっては玩具に過ぎない。ベフォニスの名を継ぐための道具、代替可能な使い魔だ。肉体の死を繰り返す実験。過酷な訓練。刷り込まれた恐怖。
+    paragraph: p348-p352
+    quote_verified: true
+  note: 悪役（ノゴルオゴルオ側）の倫理観が、人間の尊厳を完全に無視した「実験室」的な冷徹さであることを強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 逃避行としての生存：競争や社会規範から切り離された「逃げ」の行為こそが、周縁の存在にとって最も純粋な自由と生存戦略である。
+  weight: 0.5
+  quotes:
+  - quote: 生き延びる。このどうしようもない境遇から逃げて逃げて最後まで生存する。それだけを考えなければ、弱者はすぐに破滅する。
+    paragraph: p245
+    quote_verified: true
+  note: 社会での成功（顕花になる）を夢見つつも、行動原理は「逃げる」ことに帰着する少年の矛盾と切実さを描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

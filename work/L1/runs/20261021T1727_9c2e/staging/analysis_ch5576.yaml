@@ -1,0 +1,264 @@
+chapter: ch5576
+created: '2026-10-18'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5576_リーナ_asks_試練の代替案_p2]]'
+  object: '[[ME_school_exams_makeup]]'
+  claim: 異世界の儀礼的試練が、現代の学校制度における追試や補習という救済措置に置き換えられている。
+  quote: 「私、浄界はできません！　なので、その、補習！　ってか追試？　みたいな、別の形で試練を受けさせてもらえたら助かるな～って。」
+  paragraph: p8
+  confidence: strong
+  quotes:
+  - quote: 「私、浄界はできません！　なので、その、補習！　ってか追試？　みたいな、別の形で試練を受けさせてもらえたら助かるな～って。」
+    paragraph: p8
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5576_クラウビューラ_names_シナモリアキラ選_p31]]'
+  object: '[[ME_game_tournament_seasons]]'
+  claim: 『七つ風の席』争奪戦は、ゲームのシーズン制トーナメントやランキング競争を模している。
+  quote: 「次の『シナモリアキラ選』も同じ流れだ。慣れておけ」
+  paragraph: p31
+  confidence: moderate
+  quotes:
+  - quote: 「次の『シナモリアキラ選』も同じ流れだ。慣れておけ」
+    paragraph: p31
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5576_クラウビューラ_names_外敵の浸透_p39]]'
+  object: '[[ME_corporate_insider_trading_rules]]'
+  claim: 選定の儀に部外者（外敵）が参加することを許す現状への批判は、閉鎖的な集団におけるインサイダー取引や不正参入の禁止ルールに類似する。
+  quote: 全く、だから選定の儀は内輪のみで資格を問うだけにしていれば良いというのに、余計なことをするから外敵の浸透を許してしまう。
+  paragraph: p39
+  confidence: moderate
+  quotes:
+  - quote: 全く、だから選定の儀は内輪のみで資格を問うだけにしていれば良いというのに、余計なことをするから外敵の浸透を許してしまう。
+    paragraph: p39
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5576_クラウビューラ_makes_問題用紙_p136]]'
+  object: '[[ME_online_exam_platforms]]'
+  claim: 飛翔しながら空中で受け取る筆記試験は、オンラインプラットフォームを通じた非対面・遠隔の学力評価を想起させる。
+  quote: 四人の目の前に、風に乗って問題用紙が配られる。
+  paragraph: p136
+  confidence: weak
+  quotes:
+  - quote: 四人の目の前に、風に乗って問題用紙が配られる。
+    paragraph: p136
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5576_リーナ_thinks_テキストベース・サーキット_p158]]'
+  object: '[[ME_programming_languages_text_based]]'
+  claim: 「テキストベース・サーキット」という呟きは、世界がプログラミング言語やコードによって記述・実行されるシステムであることを示唆するメタファーである。
+  quote: 「テキストベース・サーキットとはこういうことだったのか」
+  paragraph: p158
+  confidence: explicit
+  quotes:
+  - quote: 「テキストベース・サーキットとはこういうことだったのか」
+    paragraph: p158
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5576_クラウビューラ_other_整列_p117]]'
+  object: '[[ME_admin_privileges_sudo]]'
+  claim: クラウビューラの「整列せよ」という命令は、戦闘状態や構築された世界を強制的にリセット・強制終了するシステム管理者特権（root権限）の行使として機能している。
+  quote: '「整列せよ」
+
+    それは単なる命令だ。
+
+    それだけで全てが変わった。'
+  paragraph: p117-p120
+  confidence: strong
+  quotes:
+  - quote: '「整列せよ」
+
+      それは単なる命令だ。
+
+      それだけで全てが変わった。'
+    paragraph: p117-p120
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5576_クラウビューラ_gives_準備期間_p90]]'
+  object: '[[ME_game_balancing_patch]]'
+  claim: ハードルを上げる前に参加者に横並びで自己研鑽の機会を与える行為は、ゲームバランス調整のためのパッチ適用や事前イベントに似ている。
+  quote: 我とて若人の芽を摘むことは本意ではない。凡愚にも機会は与えてやるべきだ
+  paragraph: p90
+  confidence: moderate
+  quotes:
+  - quote: 我とて若人の芽を摘むことは本意ではない。凡愚にも機会は与えてやるべきだ
+    paragraph: p90
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ディスケイムとリーヴァリオンの正体
+  note: クラウビューラが「ここで介入か」と認識した二人。下層からの仕掛けに関与している可能性があり、彼らの目的（席の奪取など）と実力が未詳。
+  quotes:
+  - quote: '唐突に現れた二人の闖入者を見て、クラウビューラが重々しく呟く。
+
+      「ここで介入か、ディスケイムとリーヴァリオン」'
+    paragraph: p22-p24
+    quote_verified: true
+  expected_payoff: シナモリアキラ選やその後の展開で、彼らが敵対勢力として詳細な能力や背景を明かし、七つ風の席争奪戦の中心人物となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ミブリナのこだわりと外敵浸透の意図
+  note: クラウビューラが「愚かなミブリナめ」と非難する対象。なぜ選定の儀に部外者参加を許容したのか、その背景にある政治的・宗教的意図が不明。
+  quotes:
+  - quote: 余計なことをするから外敵の浸透を許してしまう。愚かなミブリナめ、下らぬこだわりなど捨てろと言うのだ
+    paragraph: p39
+    quote_verified: true
+  expected_payoff: ミブリナが外部勢力（ディスケイム等）と結託しているか、あるいはクロウサー家内部の権力闘争の伏線として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第四家とオルゴーの因縁
+  note: マルガリータがパーンを「正統なる紀竜オルゴーのまがい物」と呼び、第四家としての対立を主張している。この歴史的・宗教的対立の真相。
+  quotes:
+  - quote: 正統なる紀竜オルゴーのまがい物を生み出した罪、その命で償うがいい
+    paragraph: p82
+    quote_verified: true
+  expected_payoff: クロウサー家の分家や歴史的な分裂に関する設定が明かされ、パーンの出自や能力の本質に関する真相（チート能力の起源など）に繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_言素イルドの源流とダウザール超え
+  note: リーナがクラウビューラを「ダウザールよりも高み」「究極」と直観した。クラウビューラの力の源泉とその限界、リーナのゾラとの関連性。
+  quotes:
+  - quote: '高みというなら、きっとダウザールよりも。
+
+      あれこそが究極。
+
+      リーナの目指すべき終点のひとつだと直観した。'
+    paragraph: p113-p115
+    quote_verified: true
+  expected_payoff: クラウビューラが世界改変のキーとなる存在であり、最終的にリーナが超えるべき壁、あるいは協力すべき根源的な力として描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_筆記試験の内容と評価基準
+  note: 「テキストベース・サーキット」と呼ばれる世界の構造において、なぜ学力（筆記）が指標となるのか。テストの問題内容や、それが世界システムにどう作用するか。
+  quotes:
+  - quote: '「逆になぜ問われないと思った？」
+
+      正論であった。リーナはぐうの音もでない。'
+    paragraph: p141-p143
+    quote_verified: true
+  expected_payoff: 筆記試験が単なる知識確認ではなく、世界を制御するコードや法則へのアクセス権を得るためのプロセスであることが判明し、リーナが独自のアプローチで攻略する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションにおけるゲームシステム（UI/UX）の露出と強制
+  weight: 0.9
+  quotes:
+  - quote: '「整列せよ」
+
+      それは単なる命令だ。
+
+      それだけで全てが変わった。'
+    paragraph: p117-p120
+    quote_verified: true
+  - quote: 「テキストベース・サーキットとはこういうことだったのか」
+    paragraph: p158
+    quote_verified: true
+  note: クラウビューラの権限がゲームの管理者（Admin）に近く、戦闘や世界構築が強制リセットされる様子は、異世界転生がゲーム的メカニズムで構成されていることを自覚させるメタ構造を強化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 現代的教育制度・競争社会の異世界への投影と皮肉
+  weight: 0.8
+  quotes:
+  - quote: 「私、浄界はできません！　なので、その、補習！　ってか追試？　みたいな、別の形で試練を受けさせてもらえたら助かるな～って。」
+    paragraph: p8
+    quote_verified: false
+  - quote: '「えっ、この試練って学力問われるんすか？」
+
+      「逆になぜ問われないと思った？」'
+    paragraph: p139-p141
+    quote_verified: true
+  note: 魔法の戦いの中に「補習」「追試」「筆記試験」といった現代的な教育用語や制度が持ち込まれ、異世界の厳粛さとのギャップによって、現代社会の競争・選抜システムのパロディとしての側面を強調している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 超越的権力による秩序維持と個人の無力感
+  weight: 0.7
+  quotes:
+  - quote: 神の如き息吹。風が言葉となり、命令となり、現象となり、世界となる。
+    paragraph: p107
+    quote_verified: true
+  - quote: あまりにも超越的な存在を相手にすると、恐怖すら感じなくなる。
+    paragraph: p130
+    quote_verified: true
+  note: クラウビューラの圧倒的な力（言素の行使）により、参加者の努力や戦闘が「整列」させられる様子は、個人の意志では変えられない巨大なシステム（運命/ゲームマスター）に対する畏怖と諦念を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 閉鎖的共同体の排他性と外敵侵入への不安
+  weight: 0.6
+  quotes:
+  - quote: 選定の儀は内輪のみで資格を問うだけにしていれば良いというのに、余計なことをするから外敵の浸透を許してしまう。
+    paragraph: p39
+    quote_verified: true
+  - quote: 「席を、奪う？」
+    paragraph: p33
+    quote_verified: true
+  note: 選定レースが単なる修行ではなく、「席」を巡る政治的・軍事的な争いであり、外部勢力（ディスケイム等）によるシステムへの介入が主要な脅威として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

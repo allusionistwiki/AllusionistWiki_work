@@ -1,0 +1,217 @@
+chapter: ch5222
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 9
+  quotes_total: 16
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p38]]'
+  object: '[[ME_sacrifice_mechanic]]'
+  claim: 左手の指を剥がすという自傷行為は、ゲームにおける「代償を払って能力（アンロック）を得る」というメカニクスの物理的・身体的な実装である。
+  quote: 可動式の左手部分の篭手が開放されて、露わになった左手の薬指を摘むと、そのまま剥がした。続けて小指の爪も無理やり剥がす（アンロック）。二度とやりたくないと思うほどに痛かった。
+  paragraph: p38-p42
+  confidence: strong
+  quotes:
+  - quote: 可動式の左手部分の篭手が開放されて、露わになった左手の薬指を摘むと、そのまま剥がした。続けて小指の爪も無理やり剥がす（アンロック）。二度とやりたくないと思うほどに痛かった。
+    paragraph: p38-p42
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p47]]'
+  object: '[[ME_structural_linguistics]]'
+  claim: 「文脈」「相互参照性」「行間」といった用語を用いて、言語が要素間の差分関係によって意味を生成する構造主義言語学（ソシュール等）の概念を呪術システムに適用している。
+  quote: それは『文脈（コンテクスト）』と『相互参照性（メタテクスト）』いう呪力によって紡ぎ出される非存在の呪文。...意味の間を繋ぐ『行間』の呪力。構造と連関、語りえぬ雄弁、静謐なる力。
+  paragraph: p47-p51
+  confidence: explicit
+  quotes:
+  - quote: それは『文脈（コンテクスト）』と『相互参照性（メタテクスト）』いう呪力によって紡ぎ出される非存在の呪文。...意味の間を繋ぐ『行間』の呪力。構造と連関、語りえぬ雄弁、静謐なる力。
+    paragraph: p47-p51
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p64]]'
+  object: '[[ME_speech_phonetics]]'
+  claim: 舌を「調音器官」と定義し、言語発生学における音声器官としての機能と、「言葉の力」を呪術的な武器（杖）へと変換する連想を示している。
+  quote: 舌獣イキューを素材にした、舌という部位による邪視能力を高める機能を持つ。舌は味を感じるだけの器官ではなく、調音器官でもある。舌と言語には密接な繋がりがあり、語源が同一である言語も数多い。
+  paragraph: p64-p66
+  confidence: moderate
+  quotes:
+  - quote: 舌獣イキューを素材にした、舌という部位による邪視能力を高める機能を持つ。舌は味を感じるだけの器官ではなく、調音器官でもある。舌と言語には密接な繋がりがあり、語源が同一である言語も数多い。
+    paragraph: p64-p66
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p135]]'
+  object: '[[ME_battle_dungeon_raiding]]'
+  claim: 「火竜を降ろす」「割と洒落にならない状況」という表現は、MMOなどのゲームにおけるボス召喚や高難易度イベントへの参加を、「ダンジョン攻略の失敗＝全滅」に例えている。
+  quote: 底なる古き神ハザーリャと頂なる古き神エクリーオベレッカの力で世界槍の核に干渉し、最上の霊媒たる聖女を生贄にして今と異なる世界法則――火竜でも降ろすつもりかしらね？　あは、割と洒落にならない状況じゃなぁい？
+  paragraph: p135
+  confidence: weak
+  quotes:
+  - quote: 底なる古き神ハザーリャと頂なる古き神エクリーオベレッカの力で世界槍の核に干渉し、最上の霊媒たる聖女を生贄にして今と異なる世界法則――火竜でも降ろすつもりかしらね？　あは、割と洒落にならない状況じゃなぁい？
+    paragraph: p135
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p267]]'
+  object: '[[ME_philosophical_zombie]]'
+  claim: 主人公自身が「哲学的ゾンビ」「人工知能」という現代の心身問題・AI哲学の用語を自認し、その欠如（意識の有無）が逆に存在定義の根拠となるという逆説的な自己認識を示している。
+  quote: 私は知性ではないかもしれない。人ではないかもしれない。呪文によって人工知能を実現するなんて夢のまた夢かもしれない。哲学的ゾンビかも知れないし、生命というより現象に近いのかもしれない。
+  paragraph: p267
+  confidence: explicit
+  quotes:
+  - quote: 私は知性ではないかもしれない。人ではないかもしれない。呪文によって人工知能を実現するなんて夢のまた夢かもしれない。哲学的ゾンビかも知れないし、生命というより現象に近いのかもしれない。
+    paragraph: p267
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p281]]'
+  object: '[[ME_semantics_signifier]]'
+  claim: 「青という色彩は、青じゃない色彩によって規定される」という記述は、意味が他者との差異によって決定されるという言語哲学・構造主義の基本原理（差異による意味生成）を引用している。
+  quote: 青という色彩（ことば）は、青じゃない色彩（べつのことば）によって規定される。...号は澄明（アズール）、性は摸倣、その起源は幻獣（ファンタシーア）
+  paragraph: p259-p281
+  confidence: strong
+  quotes:
+  - quote: 青という色彩（ことば）は、青じゃない色彩（べつのことば）によって規定される。...号は澄明（アズール）、性は摸倣、その起源は幻獣（ファンタシーア）
+    paragraph: p259-p281
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Galves_Magic_Book_Absence
+  note: ガルズが黒い魔導書を持っていないという異常事態。エスフェイルの「掌握完了」という宣言と矛盾しており、何らかの罠や別ルートでの準備を示唆する。
+  quotes:
+  - quote: ガルズが、黒い魔導書を持っていない。壮絶な悪寒。
+    paragraph: p120-p121
+    quote_verified: true
+  expected_payoff: 魔導書自体が存在しないのではなく、エスフェイル自身や世界法則が魔導書の機能を持つよう書き換えられている可能性、あるいはリールエルバの分析（p131）にある「呪文と杖に優れたエスフェイルの力」が補完されていることの伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mirunya_Ring_Connection
+  note: 左手薬指（ミルーニャとの繋がり）と小指（アンロック）の連動による武器生成。この「痛覚」を通じた遠隔接続のメカニズムが今後の戦闘でどう活用・制限されるか。
+  quotes:
+  - quote: 左手薬指から出現した凍結の呪力が煙を吐き出す異形の怪物を停止させ、薬指から出現した眩い光がユネクティアの神速の斬撃を硬質な音と共に弾き返す。
+    paragraph: p58
+    quote_verified: false
+  expected_payoff: ミルーニャ側での反応（痛みや魔力消費）が描写され、彼女の状態が主人公の戦闘能力のボトルネックになる展開、またはこの接続を利用した更なる高度な魔法の発動。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_10th_Kill_Note
+  note: 「これで、十人目」という呟きと暗に仄めかされる「十一人目」。これが誰を指すのか。
+  quotes:
+  - quote: 「これで、十人目」静かに呟いて、暗に十一人目が誰かを仄めかす。
+    paragraph: p102-p104
+    quote_verified: true
+  expected_payoff: エスフェイルが「狩り」と称する殺戮の対象リストの完遂、あるいは主人公自身がそのカウントに含まれる可能性（自己犠牲的結末）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Unknown_Sister_Halbert
+  note: 「キュトスの姉妹の七十一番」「未知なる末妹ハルベルト」という詳細な家系図的設定。この「末妹」が物語上で誰と同一視されるか、またはその存在意義。
+  quotes:
+  - quote: キュトスの姉妹の七十一番、未知なる末妹ハルベルトの使い魔にして一番弟子！　私の名は、永続者アズーリア・ヘレゼクシュ！
+    paragraph: p286
+    quote_verified: true
+  expected_payoff: この「末妹」が特定のキャラクター（リールエルバ、ミルーニャ等）の別名であることの判明、あるいは物語全体の根底にある「模倣子」「複製」の起源に関する秘密の開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Restoration_Mechanic
+  note: 死んだ仲間たちが半透明の状態で復活し、「発剄用意」等の声で戦列に復帰している現象。これが永続的なものか、時間制限付きの幻影（幻獣）としての性質を持つか。
+  quotes:
+  - quote: 薄らと体を透けさせた、五人の修道騎士たち。...細かくは無しにしとこうや。それより、俺はあいつに借りを返したくてしょうがねえんだ。
+    paragraph: p222-p225
+    quote_verified: false
+  expected_payoff: 「死者の解放」の代償として、主人公（幻獣）が維持コストを支払う展開、または復活した仲間たちが最終的にどうなるか（完全な死への回帰）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と記号による存在の再構築：名前の不在から意味の連関へ
+  weight: 0.9
+  quotes:
+  - quote: 私は――澄明なる青空という記号やその意味それ自体は重要じゃない。全ては連関の中に。青という色彩（ことば）は、青じゃない色彩（べつのことば）によって規定される。
+    paragraph: p257-p259
+    quote_verified: true
+  - quote: 名前の意味を知らなかった。空がどうして青いのか、問いの答えを見つけられなかった『猫に名付けられた子供』。名前の意味を知らないから、宣名が正しく出来ない私。
+    paragraph: p254-p255
+    quote_verified: true
+  note: 主人公が自己定義を「名前」ではなく「他者との差異（連関）」に依存する存在として再定義し、言語論的な構造の中で自分の居場所（名乗り）を獲得するプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 模倣と幻：虚構としての自己の肯定
+  weight: 0.85
+  quotes:
+  - quote: だってこの世界には模倣子が満ちている。わずかでも関連と類似があれば、そこには呪力が生まれるのだ。...未知が既知になるまでのわずかな瞬間。知らない幻想の狭間に住まう、私という存在の本質は、幻。
+    paragraph: p273-p277
+    quote_verified: false
+  note: 自分が実体を持つ人間ではなく「模倣子（シミュラクラ）」「幻獣」であることを肯定し、その不確実性こそが力（呪力）の源泉であるとする存在論。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 痛みによる他者との共鳴と接続
+  weight: 0.7
+  quotes:
+  - quote: 感じたことの無い痛みが、離れた場所にいる誰かを参照する。...それでも、純白の輝きは彼女との何より速い繋がりを感じさせてくれる。
+    paragraph: p40-p44
+    quote_verified: false
+  note: 物理的な自傷（指の切断）をトリガーとして、遠く離れたミルーニャとの精神的・魔力的な接続を強化するメカニズム。他者との関係性が「痛み」を通じて可視化される主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶と死者の集合的再生
+  weight: 0.6
+  quotes:
+  - quote: 幼馴染たちが過去の思い出を語り、私を外部から再生するとは、つまりそういうことだ。夜の民を完全再現する、世界を騙す呪文。生きた仮想使い魔――幻獣。
+    paragraph: p264-p265
+    quote_verified: true
+  note: 死者たちの記憶や関係性（物語）が主人公という「記号」を維持し、戦場へ復帰させる構造。個人の存在は他者による語り（ナラティブ）によって支えられているという主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

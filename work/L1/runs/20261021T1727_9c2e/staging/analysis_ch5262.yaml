@@ -1,0 +1,142 @@
+chapter: ch5262
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 8
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_死者の声の聴取能力
+  note: 少女（コルセスカ役）が「死者の声が聞こえる」と主張し、カインの最後の言葉を詳細に再現している。これが単なる演技なのか、本物の霊媒能力なのか、またアキラの寄生とどう関連するのか。
+  quotes:
+  - quote: '私には、死者の声が聞こえるのです。
+
+      死にたくない。もっと生きていたい。仲間たちを助けに行きたい。地上に置いてきた、傷付いた親友のことが心配だ。辛い役目を、あなたに背負わせたくない'
+    paragraph: p58-p63
+    quote_verified: false
+  expected_payoff: コルセスカがトリシューラとの関係で何かを隠している伏線、またはアキラの寄生能力（妄想の妖精）が死者への干渉を含んでいることの暗示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ヒュールサス国と兄弟神
+  note: ティーアードゥが「兄弟たる生と死の神」がいる聖地としてヒュールサスを指定。この国の性質や、なぜそこに行かねばならないのか。
+  quotes:
+  - quote: 'まずは北へ行け。その獣道を進み、川を下るのだ。さすればヒュールサスという国に出るだろう。
+
+      かの国は我が兄弟たる生と死の神が住まう聖地。お前たちの求めるものはその地にある'
+    paragraph: p207
+    quote_verified: true
+  expected_payoff: 次の章でヒュールサスへの移動が始まり、そこで「生と死の神」に関わる重要なイベント（カインの蘇生条件やチリアットの浄罪）が発生する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの「ちびシューラ」化
+  note: アキラが意識を奥底に引っ込み、「ちびアキラ」としてチリアットに寄り添う存在になった。これがチリアットの精神安定にどう影響し、グレンデルヒ戦での勝敗を分けるキーになるか。
+  quotes:
+  - quote: '左手のひんやりとした感触をどの位の強さで握り返せばいいのか、俺にはまだわからないままだ。
+
+      最適な距離すら見つけられず、俺は宿主たる役者の奥底に引っ込んでいった。
+
+      これからは、そうだな。ちびアキラとでも呼んでくれ。'
+    paragraph: p316-p318
+    quote_verified: true
+  expected_payoff: 戦闘シーンで「左腕」や「内側からの声」として機能し、チリアットの暴走を制御する重要な役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ヴィヴィの「第四の壁」認識
+  note: ヴィヴィが観客（読者）に直接語りかける特異な挙動を見せた。この世界が「劇である」という認識をヴィヴィがどの程度確信しているのか、世界の成り立ちに関するメタ的な情報源となるか。
+  quotes:
+  - quote: 'どうやら『この世界は劇である』という認識を強固にするための儀式のようです。
+
+      こればかりは、『第四の壁』を認識出来ない者にはわからないことなのだから。'
+    paragraph: p250-p255
+    quote_verified: false
+  expected_payoff: 物語後半で、世界改変や神々の正体に関わるメタ的な真相（シナリオ操作）にヴィヴィが関与する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 演技を通じた他者への共感と自己投影の境界溶解
+  weight: 0.9
+  quotes:
+  - quote: '台本に書かれていた筋書きを思い出しながら、俺もまた舞台の上という世界に没入する。
+
+      かくして、過去を演じるという時間旅行が始まった。'
+    paragraph: p13
+    quote_verified: true
+  - quote: 'チリアットの、千々に乱れた感情。
+
+      争いに向いた性質に反するかのように弱々しい心。
+
+      嵐のように俺を殴りつける異質な思考、こちらの共感を強要するかのような巨大な感情の濁流。'
+    paragraph: p279-p282
+    quote_verified: true
+  note: 演劇という「仮面（ペルソナ）」を通すことで、通常はアクセスできない宿主（チリアット）の深層心理やトラウマにアクセスし、相互理解を深めるプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 理性による感情（暴走）の制御と共生
+  weight: 0.8
+  quotes:
+  - quote: その瞬間、牙猪の左腕が意思を持つかのように動いたかと思うと、右腕を強引に掴んで抑え込んだ。
+    paragraph: p160
+    quote_verified: true
+  - quote: あなたは悪くありません。あなたが本当はとっても優しい人だということは、ちゃんとわかってますからね。だから落ち着いて、ね？
+    paragraph: p181
+    quote_verified: true
+  note: チリアット（牙猪）の右腕＝暴走する感情・恐怖を、アキラ（左腕）とコルセスカが理性と慈愛で鎮める構造。主人公たちの関係性の核。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「死」への恐怖と「生」の意味の再定義
+  weight: 0.7
+  quotes:
+  - quote: 'それこそは、お前が生きているという罪そのもの。
+
+      それは伸び続け、やがてお前の脳天を貫くであろう。それこそがお前が生きている事に対する罰である。'
+    paragraph: p128
+    quote_verified: true
+  - quote: '生きている人は死んでいる人になれるのに、死んでいる人は生きている人になれないの？
+
+      それは、なんだか不思議な感じだわ。'
+    paragraph: p74
+    quote_verified: false
+  note: 罰神による「生きる事自体が罰」という逆説的な宣告に対し、少女が無垢な問いでその前提を崩し、存在の肯定へと導く展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクション的構造における自己の客体化
+  weight: 0.6
+  quotes:
+  - quote: 'ちなみにこの世界にドーランという言葉は無く、完全に私たちの趣味でしかない。異世界語の参照という、ね。
+
+      というわけで、賢明なる読者、観客の皆々様方におかれましてはそこの所をご了承いただきたい'
+    paragraph: p244
+    quote_verified: false
+  - quote: 'よくもまあ、長いこと耐えてくれているものだと思う。俺ならとっくに投げ出しているに違いない。
+
+      二人の魔女はやはり超人の類だと確信した。'
+    paragraph: p285
+    quote_verified: true
+  note: ヴィヴィの第四の壁破壊や、アキラが自らの役割（プロンプター/左腕）を客観視し、他者（トリシューラ・コルセスカ）の強さを再認識するメタ視点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

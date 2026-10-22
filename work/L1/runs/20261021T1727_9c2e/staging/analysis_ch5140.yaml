@@ -1,0 +1,154 @@
+chapter: ch5140
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_Halbert_ShadowVeins
+  note: ハルベルトが隠している左耳の血管の紋様と、それを「変態」と怒るほどの深刻な羞恥心。彼女が兔人であること以上の何か（呪い、血統、過去）が示唆されている。
+  quotes:
+  - quote: 彼女の左右非対称な耳と、その胴に浮かび上がる黒い血管の紋様。隠していたからには何か事情があるのだろう。
+    paragraph: p173
+    quote_verified: true
+  expected_payoff: ハルベルトの出生秘密や、アズーリアとの師弟関係の真の理由（資格云々）が明かされる際の鍵となる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tama_Marozolondo
+  note: タマが語った「フロントクロンの滅び」と「語らずのマロゾロンド」への言及。タマの正体や世界観の歴史における重要な位置づけを示唆する伏線。
+  quotes:
+  - quote: ああそれは古の秘儀！　されどフロントクロンは一夜にして滅びを迎えその叡智は暗黒の彼方へと沈んでしまったのです。他ならぬ語らずのマロゾロンドの手によって
+    paragraph: p53
+    quote_verified: true
+  expected_payoff: タマが単なる使い魔ではなく、過去の文明や神話に関わる存在であることが判明する、あるいはマロゾロンドという敵・因縁との関連が浮上する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Milunya_Hesitation
+  note: ミルーニャの怪我の状態についてメイファーラとミルーニャが見せた一瞬の動揺と隠蔽。「持続回復型の生命の水」など多様な治療手段があるはずなのに、何かを言いかけて口ごもっている。
+  quotes:
+  - quote: 訊ねると、何故かメイファーラが何かを言いかけて口ごもる。ミルーニャの柔らかい表情が一瞬だけ強張った気がしたが、すぐに蕩けるような笑顔に変わる。
+    paragraph: p94
+    quote_verified: true
+  expected_payoff: ミルーニャが受けた傷（ハルベルトを庇った？）には治療では消えない後遺症や、錬金術師としての代償（等価交換の失敗など）が隠されている可能性がある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Idealization
+  note: アズーリアがハルベルトに「もっと素敵な人」「理想」という投影をしており、それが崩壊した事実。この歪んだ期待の源泉（フィリスへの同調、過去のトラウマなど）が未解決。
+  quotes:
+  - quote: 貴方は――もっと素敵な人だって思っていたから。ごめんなさい、私が勝手に理想を押しつけただけです。お師様は単に、元々そういう人だったってだけですよね
+    paragraph: p221
+    quote_verified: true
+  expected_payoff: アズーリアがハルベルトの「人間性（欠点を含む）」を受け入れ、真の師弟関係・対等な関係へ移行する心理的転換点となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ExternalWorlder_Method
+  note: 第五階層で「外世界人」が取った行動を真似てお菓子を差し出すという描写。その外世界人が誰で、なぜ有効だったのかの具体的な背景が語られていない。
+  quotes:
+  - quote: '第五階層の迷宮で、風変わりな外世界人は一触即発の状況をどうやって切り抜けたんだっけ――？
+
+
+      自分自身の言葉なんて私は持っていない――けれど、他の人の真似くらいはできるのだ。たとえそれが言葉じゃなくても。'
+    paragraph: p253-255
+    quote_verified: true
+  expected_payoff: 第五階層での外世界人（おそらく異世界転生者や先駆者）の具体的な行動原理が、後の対話シーンで重要な教訓として再登場する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と魔法の限界、そして非言語コミュニケーションによる人間関係の修復
+  weight: 0.8
+  quotes:
+  - quote: '言葉なんて、邪魔なだけだ。
+
+
+      かつては焦がれるほど欲していたというのに――我ながら身勝手極まりない。'
+    paragraph: p239-240
+    quote_verified: true
+  - quote: '「良かったら」
+
+
+      見つめると、黒玉の視線が私と掌の上の物を交互に行き来する。迷いはそれほど長くなかった、と思う。昼食の時に見た、幸せそうな表情を思い出した。
+
+
+      「頂く」'
+    paragraph: p258-262
+    quote_verified: true
+  note: 通信不能（技術の限界）から始まり、言葉による相互破壊（魔法/論理の限界）へ至り、最終的に「お菓子」という非言語的・生物的な接触で和解する構造が主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 理想像の投影と破綻、そして現実の受容
+  weight: 0.7
+  quotes:
+  - quote: 貴方は――もっと素敵な人だって思っていたから。ごめんなさい、私が勝手に理想を押しつけただけです。お師様は単に、元々そういう人だったってだけですよね
+    paragraph: p221
+    quote_verified: true
+  - quote: 「ハルは――最初から不本意だった。資格があるからとお姉様に言われたから確かめにきただけ。とんだ期待外れ。あなたの師匠なんてやりたくてやってたわけじゃない。」
+    paragraph: p225
+    quote_verified: false
+  note: アズーリアがハルベルトに抱いていた「素敵な師匠」という幻想が、喧嘩によって剥き出しの現実（不本意な弟子入り）として暴露される過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 信頼の相互性：守られる側から守る側への意識変容
+  weight: 0.6
+  quotes:
+  - quote: 「あのね。私がお師様を信じる理由も、ミルーニャと同じ。お師様は、何度も私の事を助けてくれた。だから私も、お師様を信じる」
+    paragraph: p146
+    quote_verified: true
+  - quote: '「お師様なら大丈夫」
+
+
+      私の中には揺るぎない信頼が生まれていた。変な話だけど、あんなふうに命を投げ出して瀕死に陥った彼女だからこそ――命のかかった場面で間違うことはないだろうと思えたのだ。'
+    paragraph: p119-121
+    quote_verified: true
+  note: ミルーニャがハルベルトを庇い、アズーリアがその信頼を受け継ぐ構図。信頼は一方的な依存ではなく、過去の行動（助けてくれた事実）に基づく相互の契約であること。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言葉の暴力と自己防衛：「変態」という言葉の裏にある恐怖
+  weight: 0.5
+  quotes:
+  - quote: '「変態」
+
+
+      「違います！　怪我の様子を見るために――」
+
+
+      「分かってる。でも見たのは事実」'
+    paragraph: p161-165
+    quote_verified: true
+  - quote: '理不尽な暴力に晒されているような――あの単眼巨人を目の前にした時のような、恐れの表情。
+
+
+      ハルベルトは傷付いていた――私の言葉で、傷つけられていたのだ。'
+    paragraph: p209-210
+    quote_verified: true
+  note: ハルベルトの身体的特徴（血管の紋様）に対する羞恥心が、「変態」という攻撃的な言葉と「恐れ」に直結しており、彼女の防衛機制が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

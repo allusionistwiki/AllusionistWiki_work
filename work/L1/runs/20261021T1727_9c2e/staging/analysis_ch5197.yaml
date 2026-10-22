@@ -1,0 +1,157 @@
+chapter: ch5197
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 19
+  quotes_total: 19
+items:
+- kind: mystery
+  name: MY_philis_invasion_corruption
+  note: アズーリアが復活したことで、フィリスの欠片が仲間たちの身体を浸食し始める懸念。この「暴走」が実際に仲間たちにどのような影響（変貌や制御不能）をもたらすか。
+  quotes:
+  - quote: 私を復活させる為に過去の記憶を完全に取り戻し、封印を解きはなった今、みんなもまたフィリスによって浸食されているはずだ。
+    paragraph: p6
+    quote_verified: true
+  - quote: そうすれば、呼応したフィリスの欠片はみんなの身体まで浸食し始めるだろう。
+    paragraph: p8
+    quote_verified: true
+  expected_payoff: 仲間たちがフィリスに支配される、あるいはその侵食を利用したさらなる戦いへの発展。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_harbert_sharing_mechanism
+  note: 名前（ハルベルト）を共有し、ぶつかり合うことで意味が移動する仕組み。これが単なる比喩なのか、物理的・呪術的な「存在の分散・統合」の技術として後で重要になるか。
+  quotes:
+  - quote: 私たちで、ハルベルトを共有する――？
+    paragraph: p82
+    quote_verified: true
+  - quote: ぶつかり合う度に、ハルベルトという名前は移動する
+    paragraph: p84
+    quote_verified: true
+  expected_payoff: アズーリアとヴァージリアが一体となる、あるいは役割を完全に交換する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_garz_hard_worldview_dissolution
+  note: ガルズの硬質な世界観（絶対的な善悪や構造）が柔らかく解けた描写。この「柔らかさ」が世界全体にどう波及し、マロゾロンドの支配構造をどう変えるか。
+  quotes:
+  - quote: 私を呪縛していたガルズの硬質な世界観が、柔らかく解けていく。
+    paragraph: p112
+    quote_verified: true
+  expected_payoff: 世界のルール（物理法則や魔法体系）の変質、あるいは敵側の論理の破綻。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_azulias_physical_damage_recovery
+  note: 最強の一撃の余波で全身をずたずたに引き裂かれ気を失うアズーリア。この致命的なダメージがどう治療され、その後の戦闘能力（特にマロゾロンドの力との関係）にどう影響するか。
+  quotes:
+  - quote: 私は必死にその射線から逃れるが、余波で全身をずたずたに引き裂かれて吹き飛んでいく。
+    paragraph: p169
+    quote_verified: true
+  - quote: 私、あなたの呪文が凄すぎてちょっと無事には帰れそうにないです――。
+    paragraph: p192
+    quote_verified: true
+  expected_payoff: 回復過程での新たな力の獲得、またはヴァージリアによる保護・世話の展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_marozorondo_submission
+  note: マロゾロンドが「無害な存在」「加護発生装置」として従属を強要された。この屈従が永続するのか、反乱の火種となるのか。
+  quotes:
+  - quote: さらりと非道な事を口にする。
+    paragraph: p177
+    quote_verified: true
+  - quote: あなたはアズの生みの親で加護発生装置なんだから、これからも働いてもらう
+    paragraph: p175
+    quote_verified: true
+  expected_payoff: マロゾロンドの力のアズーリアへの完全統合、あるいは反乱による悲劇的な展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語記号と存在の本質的連関：名前は関係性の中で流動する
+  weight: 0.9
+  quotes:
+  - quote: ハルベルトという意味は私たちの間にある。連関と構造――言葉の狭間。
+    paragraph: p72-p73
+    quote_verified: true
+  - quote: 実体の無いハルベルトという言葉が行き交い、現実を嘲弄するように私たちをしっかりと繋いでいく。
+    paragraph: p104
+    quote_verified: true
+  note: 名前の共有を通じて存在が確立されるという構造主義的・言語学的な主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己確信と加護の解体：神への依存からの解放
+  weight: 0.8
+  quotes:
+  - quote: 神の加護を否定した無神論――第九位
+    paragraph: p159
+    quote_verified: true
+  - quote: それは己の力を頼みとする自己への確信が生み出す加護無き加護。
+    paragraph: p161
+    quote_verified: true
+  note: 外部からの力（神格）に依存するのではなく、内的な自己信頼こそが最強であるという啓蒙主義的な主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 救済の相互性：言葉による支え合い
+  weight: 0.7
+  quotes:
+  - quote: あなたの言葉を信じたから
+    paragraph: p28
+    quote_verified: true
+  - quote: その言葉こそが、私を救ってくれていた。
+    paragraph: p34
+    quote_verified: true
+  note: アズーリアとヴァージリアの相互支援は、単なる友情を超え、互いの存在を定義し合う言語行為としての救済である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 役割の受容と誇り：使い魔としての自己像
+  weight: 0.6
+  quotes:
+  - quote: 尊敬する素敵な人の、一番近くにいられるということ。大切な人を、支えてあげられるということ。
+    paragraph: p204-p205
+    quote_verified: true
+  - quote: ハルベルトの弟子にして使い魔。それが私、アズーリア・ヘレゼクシュ。
+    paragraph: p208-p209
+    quote_verified: true
+  note: 支配されること（使い魔）を屈辱ではなく、愛する者との連帯と役割として肯定的に捉える主体性の確立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 詭弁による超越：論理の限界を超えて現実に介入する
+  weight: 0.5
+  quotes:
+  - quote: それは詭弁使いと言われることもある、呪文使い特有の解決策。
+    paragraph: p80
+    quote_verified: true
+  - quote: 言葉は確かに無力。記号は意味を完全に捉えられない――だからこそ、こんなことができる
+    paragraph: p47
+    quote_verified: true
+  note: 論理の矛盾（詭弁）を用いることで、物理法則や常識的な限界を突破する魔術的・詩的知性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

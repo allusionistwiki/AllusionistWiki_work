@@ -1,0 +1,130 @@
+chapter: ch5200
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 8
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_9th_Layer_Metaphysics
+  note: リーナが第9層（宇宙空間）で黒百合宮の理（昼夜なし）について語った内容。世界の『ほんとう』と自由についての言及は、後の世界構造の謎解きの鍵となる可能性が高い。
+  quotes:
+  - quote: 空の向こうって、きっと私が想像してる以上に、怖いくらいに自由で
+    paragraph: p174
+    quote_verified: true
+  expected_payoff: 世界槍や創世竜の構造、あるいは最終決戦での世界の再構築（リセット）に関連する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Haruberto_Death_Schedule
+  note: ハルベルトが「明日（12日目）」の通し稽古中に殺害されるという予測と、実際のイベント発生。名簿の残り二人（サイリウス・ゾラ）への波及効果。
+  quotes:
+  - quote: 明後日には呪術儀式なので、きっとハルベルトが狙われるのは最後の通し稽古の時ではないかと予想されていた。
+    paragraph: p12
+    quote_verified: true
+  - quote: 十二日目。 衆人環視の中、ハルベルトは磔にされた罪人の如く処刑される。
+    paragraph: p413-p414
+    quote_verified: true
+  expected_payoff: 襲撃者の正体（マリー/ガルズ関連）と、ハルベルトの死がもたらす戦力バランスの変化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rain_Girl_Identity
+  note: リーナが「晴れ女」と呼ばれる根拠（過去にガルズの夜空を晴らした記憶）と、現在の天候操作能力。彼女の本当の出自や力に関する示唆。
+  quotes:
+  - quote: いつか、ガルズが広げた夜空をリーナが晴れた青空に変えてくれたことを思い出した。確かに、リーナは晴れ女だ。
+    paragraph: p255
+    quote_verified: true
+  expected_payoff: リーナとガルズ（またはマリー）の対決における勝因、あるいは彼女の力の源に関する明かされる真実。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Fate_Conflict
+  note: アキラが第五階層で戦い続けていることと、彼への「迎えに行く」というアズーリアの誓い。彼の生存と合流の可能性。
+  quotes:
+  - quote: 今もまだあの第五階層で戦い続けている彼を、私は … 私は必ず貴方を迎えにいくから
+    paragraph: p370-p391
+    quote_verified: false
+  expected_payoff: アキラとの再会シーン、または彼の「救い」がアズーリアの勝利条件に関わる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Dispatcha_Sister_Power
+  note: ディスペータお姉様への言及と、彼女を恐れるリーナ・アズーリアの反応。不在の彼女が持つ「罰」や権威の重み。
+  quotes:
+  - quote: 約束破ったら駄目なんだよー。ディスペータお姉様に言いつけちゃうぞー … 黒百合宮で一番恐ろしいのはディスペータお姉様である。
+    paragraph: p203-p207
+    quote_verified: false
+  expected_payoff: 行方不明の第五位（ディスペータ）の再登場、または彼女の意志が主人公たちの行動を制限・補佐する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と感情の不可分性による真実の強制
+  weight: 0.85
+  quotes:
+  - quote: 呪文を使えない者は、呪文使いに言葉で嘘はつけない。 『筆致』に込められた感情で、それが本心かどうかすぐにわかってしまうから。
+    paragraph: p335-p336
+    quote_verified: true
+  - quote: 私はその一瞬、確かにアキラと再会した。
+    paragraph: p388
+    quote_verified: true
+  note: 虚構の中で「嘘」が機能しない世界において、キャラクター間の関係性は言葉（感情）の真実性によってのみ成立する。アズーリアのアキラへの想いも、呪術的な強制力なくしては伝達不能だが、ゆえに深く確信される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 境界の溶解と自己定義の自由
+  weight: 0.75
+  quotes:
+  - quote: 空の向こうって、きっと私が想像してる以上に、怖いくらいに自由で … それって不自由なのか自由なのかわかんないね。
+    paragraph: p174-p181
+    quote_verified: false
+  - quote: そこに境界は無く、色を定める言葉があるとすれば、その数は無限。 私たちは、声を揃えてこう言った。 「万色！」
+    paragraph: p265-p268
+    quote_verified: true
+  note: 地上と地獄、昼と夜、虹の色といったカテゴリー（境界）が意味を失い、無限の解釈可能性に開かれる瞬間。これは世界の理から外れた「自由」への恐怖と解放を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会正義と個人的救済のズレ
+  weight: 0.65
+  quotes:
+  - quote: 公式には私が討伐した事になっているから、松明の騎士団は当然アキラを非難するだろう。 あちらは私やキール隊と共に倒したという事実を言っているだけなのに。
+    paragraph: p50-p51
+    quote_verified: true
+  - quote: どうして、優しい言葉ばかり送ってくるの … アキラの言葉は私にとって都合のいいことばかりだ。
+    paragraph: p332-p334
+    quote_verified: false
+  note: 組織（騎士団）が求める「功績の帰属」という正義と、個人（アズーリア）が必要とする「救済と肯定」の間にある断絶。社会のルールが個人の感情を裏切る構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 天候操作による運命の介入
+  weight: 0.6
+  quotes:
+  - quote: 私がさ、この空を晴れにしたら言うことひとつ聞いてくれる？ … よっし。じゃあアズーリアはこれからアキラとやらに連絡すること！
+    paragraph: p102-p199
+    quote_verified: false
+  note: 物理現象（天候）の支配権を握る者が、他者の行動（アキラへの連絡）を誘導する。自然現象がメタフィクショナルな「約束」や「契約」の履行手段として機能する構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

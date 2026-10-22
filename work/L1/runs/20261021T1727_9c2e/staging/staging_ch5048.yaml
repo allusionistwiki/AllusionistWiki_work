@@ -1,0 +1,308 @@
+episode: ch5048
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5048_トリシューラ_says_融血呪の推測_p104
+        quote: 'トリシューラが、何かに気付いたように呟く。
+
+          「これって、まさか融血呪？」'
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_トリシューラ_says_セスカへの疑念_p115
+        quote: '「やっぱり変だ、今回の競争相手はセスカだとばっかり思ってた。だけど違う、このやり口、やっぱりあいつの仕業――」
+
+          トリシューラは、ここにはいない誰かを見ているようだった。'
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_トリシューラ_says_泉の存在_p141
+        quote: '俺の問いかけにはっと我に帰ったトリシューラは、即座に答えを返した。
+
+          「えっと、確か近くに『泉』があったはずだよ」'
+        locator: {}
+        spoiler_after: ch5048
+    action:
+      observations:
+      - event_ref: E_ch5048_トリシューラ_thinks_融血呪の解析_p110
+        quote: '「確証は無いの。実際に見たのは初めて。でも、だとするとこれは――」
+
+          そう言って、自分の世界に入り込んで思索にふけるトリシューラ。'
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_トリシューラ_carries_気を失った少年_p64
+        quote: 俺が言葉にするより早く、彼女は気を失ったままの少年を担ぎ上げていた。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第六階層]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5048_第六階層_has_property_モロレクの領域_p11
+        quote: このフロアは異獣モロレクの領域であり、他の異獣の姿は無かった。
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_第六階層_has_property_厄介な階層_p14
+        quote: むしろ、第五階層の人狼や巨大狼よりも危険な異獣が数多く守りについている、厄介な階層であると言える。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_俺]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5048_俺_thinks_認識以上の危険性_p113
+        quote: '今はそんな場合じゃないと思うのだが、逆に言えば窮地を無視して思索にふけるほど優先度が高い何かがこの光景の裏には存在する、ということもありえた。
+
+          つまり、現状が俺の認識よりも遙かに危険だという可能性だ。'
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_俺_thinks_戦術の限界_p132
+        quote: 'なにしろ複数の異獣を取り込んでいるのだ。心臓や脳も複数あるだろうし、それを一々しらみつぶしに破壊していくのは少々時間がかかりすぎる。
+
+          その前にあちらの攻撃がこちらを叩きつぶすだろう。'
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_俺_asks_他のルート_p137
+        quote: 「トリシューラ、他のルートはないか？　無ければ俺が強引にでも前に出るが」
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_俺_thinks_カッサリオの必要性_p25
+        quote: '感心と共に確信する。
+
+          あれは、今ここで仕留めておかなければならない相手だ。'
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_俺_asks_斧の機能_p27
+        quote: 「トリシューラ、マニュアル見た限りこの斧は取り外し可能みたいだが、その後も空間の断層とやらを発生させることはできるのか」
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_俺_says_投げる計画_p31
+        quote: 「簡単だ。これを投げる」
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_俺_remembers_半年前の音_p6
+        quote: 'その響き、周期性に、どこか既知感を覚える。
+
+          聞いたのは半年前だ。'
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_俺_other_撤退_p60
+        quote: 体力的にこれ以上戦いを続けるのは無理だと、俺は判断した。
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_俺_asks_退路確保と少年の保護_p62
+        quote: 「トリシューラ！　退路を確保しているなら、一度そちらへ向かうべきだ！　囲みを突破するから彼を頼む」
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_俺_suspects_呪術攻撃_p97
+        quote: 'あきらかに自然な現象ではあり得ない。考えられるとすれば、何らかの呪術。
+
+          その奇妙さから見ても、何者かによる正体不明の呪術攻撃を受けていることは間違いない。'
+        locator: {}
+        spoiler_after: ch5048
+    action:
+      observations:
+      - event_ref: E_ch5048_俺_other_手斧_p42
+        quote: 渾身の一投は狙い違わずカッサリオの巨体に飲み込まれていった。弾道予報の力はノーコンを最高の投手に変える。ものの例えであって別に俺がノーコンとかではない。
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_俺_attacks_複合種獅子と蜥蜴_p85
+        quote: 包囲しているうちの一体、行く手を阻む獅子と蜥蜴を混ぜ合わせたような複合種に、低い踏み込みからの渾身の一打。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_融合体]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5048_融合体_appears_as_途方もなく巨大な存在_p124
+        quote: '肥大化した融合体、あるいは王獣カッサリオのなれの果ては途方もなく巨大だった。
+
+          ゾウやクジラと比較可能だったかつてのカッサリオはまだ俺の理解の範疇に収まってはいた。しかしこの生き物はすでにそんな域にはいない。'
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_コルセスカ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5048_コルセスカ_breaks_凍結した肉塊_p148
+        quote: 凍結した肉塊はしばし時を置いて、コルセスカの合図と同時に粉々に砕け散る。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_俺たち]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5048_俺たち_escapes_包囲網_p151
+        quote: '包囲に穴が空く。
+
+          その隙を逃さず、俺たちは囲みの外側へと駆け抜けていった。'
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カッサリオ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5048_カッサリオ_deceives_俺たち_p17
+        quote: 恐るべきはカッサリオだった。狂乱しているように見せかけて、本当の狙いを派手な動きの中に隠していたのだ。
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_カッサリオ_activates_衝撃波と呼び声_p18
+        quote: 周囲に衝撃波を乱射したことで閉鎖された空間が開けてしまい、更には呼び声によって無数の異獣たちが迫りつつある。
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_カッサリオ_other_後衛への転換_p21
+        quote: 距離をとって呼び寄せた異獣たちに前衛を任せ、自分は後衛となって衝撃波で俺たちを仕留めようとしているのだろう。
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_カッサリオ_other_瀕死の重傷_p52
+        quote: 斧の柄を身体から生やして瀕死の重傷を負いながらも、王獣はその歩みを止めないままだ。
+        locator: {}
+        spoiler_after: ch5048
+    visual:
+      observations:
+      - event_ref: E_ch5048_カッサリオ_other_青い血液の垂れ流し_p91
+        quote: 囲みを形成していた複合種たち、更には奧でこちらの隙を窺っていたとおぼしいカッサリオまでもが、その孔という孔から真っ青な血液を垂れ流していたのだ。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5048_ちびシューラ_says_可能であること_p29
+        quote: 『できるけど、なになに、なんかするの？』
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_ちびシューラ_says_一回限りの警告_p36
+        quote: 『大丈夫？　一回しか投げられないよ？　ミスったらおしまいだよ？』
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_ちびシューラ_says_アラームトラップの再現_p9
+        quote: 『やばいよ、アラームトラップを再現してる！　ここに他のエリアの異獣を呼び寄せるつもりだよ！』
+        locator: {}
+        spoiler_after: ch5048
+    action:
+      observations:
+      - event_ref: E_ch5048_ちびシューラ_makes_空間断層付与斧_p38
+        quote: ちびシューラは心配しつつも、斧の刃に空間断層の揺らぎを付与。義肢からカートリッジが排出される。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_弾道予報2.0]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5048_弾道予報2.0_functions_as_投擲支援アプリ_p33
+        quote: 『弾道予報2.0』は石、ナイフ、火炎瓶、手榴弾から砲丸、槍などあらゆる形状のものを最適な軌道で投擲することが可能なアプリである。
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_弾道予報2.0_has_property_ユーザー評価平均星五つ_p41
+        quote: ユーザー評価平均星五つ（満点）を獲得した優良アプリの導きに従って、左腕から排出された手斧を右手で握ると、大きく振りかぶって投げる。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_斧]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5048_斧_breaks_カッサリオの身体_p44
+        quote: すさまじい切れ味を発揮した斧が旋回しながら尻から胴までを引き裂いていき、肉と言わず骨と言わずそれが空気か水であるかのように突き進んで体内を蹂躙していった。
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_斧_stops_カッサリオの身体中程_p47
+        quote: 身体の中程で、斧の動きが止まってしまったのだ。刃の部分は破格の切断力を持っているようだが、側面はそうではなかった。筋肉や内臓との摩擦によって運動エネルギーが減衰してしまったのだろう。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_異獣たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5048_異獣たち_attacks_俺たち_p55
+        quote: '入れ替わるようにして、次々とこちらへと向かってくるのは無数の異獣だ。
+
+          それもあらゆる方向から、俺たちを包囲するような形で。'
+        locator: {}
+        spoiler_after: ch5048
+    visual:
+      observations:
+      - event_ref: E_ch5048_異獣たち_other_青い体液の噴出_p88
+        quote: ひるんだ隙にトリシューラに脇を通り抜けさせようとしたその時、異獣の全身がぶるりと震え、口や鼻、耳といった至る所から青々とした体液が勢いよく噴き出した。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ウィルス]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5048_ウィルス_wounds_俺_p59
+        quote: ロウ・カーインに移されたウィルスは俺を着実に蝕んでいる。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_複合種]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5048_複合種_appears_as_第六階層の象徴_p72
+        quote: 『複合種』は第六階層を象徴する異獣である。
+        locator: {}
+        spoiler_after: ch5048
+      - event_ref: E_ch5048_複合種_is_located_第六階層のみ_p80
+        quote: 複合種が第四階層の侵攻に参加することは無い。奴らは第六階層特有の呪力によってその命を保っている『魔将の眷属』らしく、基本的にはこの階層にのみ生息しているらしい。
+        locator: {}
+        spoiler_after: ch5048
+    visual:
+      observations:
+      - event_ref: E_ch5048_複合種_has_property_キメラのごとき異形_p74
+        quote: 種とは言うものの、その形態は一様ではない。複数の生き物がごちゃごちゃに混ぜ合わされたような、キメラのごとき異形で、その姿や性質も個体ごとに大きく異なる。
+        locator: {}
+        spoiler_after: ch5048
+    relationship:
+      observations:
+      - event_ref: E_ch5048_複合種_defeats_熟練の探索者たち_p78
+        quote: 決まった対処法、確立された戦術というものをことごとく無効化してしまうため、熟練の探索者でも苦戦する難敵である。ゆえに第六階層の攻略は難航しており、数多くの探索者や松明の騎士たちが屍を積み上げ、あるいは手足を失って第五階層を彷徨うことになっている。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_青い血液]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5048_青い血液_other_円環_p93
+        quote: 全身から、血という血、水分という水分を絞り尽くそうとするかのように青い血が放出され、迷宮の床を染め上げていく。やがて体液同士が混ざり合い、融け合い、いつしかそれは一つの円環を形成していく。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_青い血で繋がった異獣たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5048_青い血で繋がった異獣たち_transforms_一個の生物_p99
+        quote: 膨大な量の青い血液はやがて生き残っていた悪鬼たちまで取り込んでいく。青い血で繋がった異獣たちは流動性の肉体を持つ一個の生物になろうとしているかのようだった。
+        locator: {}
+        spoiler_after: ch5048
+  first_appearance_candidate: true

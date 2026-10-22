@@ -1,0 +1,130 @@
+chapter: ch5034
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 16
+items:
+- kind: mystery
+  name: MY_Molrek_Sanbikai_Alliance_Reason
+  note: 本来敵対しているモロレクと三報会が協力してアキラを襲った理由。単なる殺意を超えた、より大きな計画や共通の目的（例：コルセスカに関する何か）が存在する可能性を示唆。
+  quotes:
+  - quote: この二つの組織は共に俺を不倶戴天の敵と見定めているものの、それぞれ『上』と『下』ということもあって互いに敵対していた筈だ。協力して俺を襲撃してきたことは一度もない。
+    paragraph: p17
+    quote_verified: true
+  - quote: だが今に限っては、両勢力が同時に攻めてきていた。示し合わせたのか、偶然なのか。俺を殺す為に一時的にでも休戦したのだろうか。
+    paragraph: p19
+    quote_verified: true
+  expected_payoff: 後の章で、両組織の背後にいる真の黒幕や、この世界全体の構造（階層制度）に関する秘密が明かされる契機となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Bodyguard_Identity_And_Technology
+  note: 用心棒の「立体映像衣裳」は、この世界では一般的でないはずの高度な技術である。彼がどこからその技術を入手したのか、あるいは彼自身が外来者（異世界からの来訪者など）である可能性。
+  quotes:
+  - quote: 端末が空中に映像を投影する技術と同質のものだろう。立体映像を着るという発想が、この世界に無いというのが既に先入観だった。
+    paragraph: p89
+    quote_verified: true
+  - quote: 一見しただけで、他の有象無象とは格が違うとわかる。
+    paragraph: p63
+    quote_verified: true
+  expected_payoff: 用心棒の正体（過去のキャラクターとの関連、あるいはゲームシステム的な存在）が判明し、物語のメタ構造に関わる重要なヒントとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Half_Cyborg_Nature
+  note: アキラの肉体の大半が人工物であり、脳・脊髄を介さず義肢が動くという設定は、彼の「人間性」や転生時の身体データに関する深い伏線。
+  quotes:
+  - quote: 右半身と首から上の殆どが人工物である。よって、脊髄反射すら出来ない状況であっても、このような反撃が可能になる。
+    paragraph: p148
+    quote_verified: true
+  - quote: 義肢そのものにマイクロコンピュータを搭載して自律制御させる、脳侵襲型情報機器技術が未発達だった頃の前時代的な発想のアプリケーションだが、緊急時にはこうして役に立つ。
+    paragraph: p144
+    quote_verified: true
+  expected_payoff: アキラの記憶喪失や転生時の経緯、あるいは彼の身体が「ゲームデータ」そのものであるという真実の回収につながる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Colceska_Power_Limitation
+  note: コルセスカが敵を倒しきれず撤退を選択した点。彼女の実力には限界がある、あるいは特定の状況下で能力が制限される条件が存在する可能性。
+  quotes:
+  - quote: これに加えて俺を倒した男、更に十人以上の刺客を相手にしては、さすがのコルセスカもどうしようもないのではないか。そんなふうに危ぶみつつも、意識が急激に薄れていく。
+    paragraph: p170
+    quote_verified: true
+  - quote: 「撤退します。手荒になりますが、我慢してください」
+    paragraph: p163
+    quote_verified: true
+  expected_payoff: コルセスカの能力の真価や弱点が明かされ、彼女が主人公を助ける際の戦術的な制約が今後の展開に影響する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による主体性の侵食と人間の機能不全
+  weight: 0.9
+  quotes:
+  - quote: 肉体は相変わらず一切言うことを聞いていない。しかし、右の義手だけは別だ。
+    paragraph: p138
+    quote_verified: true
+  - quote: 脳や脊髄を介さずに自律的に義肢にとらせるアプリケーションである。
+    paragraph: p142
+    quote_verified: true
+  note: 主人公が自力で動けず、アプリによって「死んだ身体」が動くという描写は、技術に依存する人間が本来の生物としての機能を失い、技術そのものが主体となっている状況を象徴している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異世界転生ジャンルのクリシェの破壊と現実的な敗北の受容
+  weight: 0.85
+  quotes:
+  - quote: この世界に来て以来、初めて体験する、それは敗北だった。
+    paragraph: p173
+    quote_verified: true
+  - quote: 詰んだ。
+    paragraph: p129
+    quote_verified: true
+  note: 「無双」を期待される異世界転生主人公が、明確な敗北と死の予感を経験することで、ジャンルの幻想的な約束事を否定し、シリアスなメタフィクションとしての側面を強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報技術と魔法の境界の曖昧化
+  weight: 0.7
+  quotes:
+  - quote: 端末が空中に映像を投影する技術と同質のものだろう。立体映像を着るという発想が、この世界に無いというのが既に先入観だった。
+    paragraph: p89
+    quote_verified: true
+  - quote: 拡張現実が一般的ではない世界というのは、立体映像が一般的でないということとイコールでは無いのだ。逆説的に、情報的な同期が行われているのでなければ、立体映像は一般的な技術であるということが言える。
+    paragraph: p91
+    quote_verified: true
+  note: 戦闘の描写を通じて、「魔法」と「高度なAR/IT技術」が実質的に同一のものであるという世界観を提示し、ファンタジー要素の科学的・技術的解釈を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会的コンセンサスの脆弱性と暴力による支配
+  weight: 0.5
+  quotes:
+  - quote: 道路は誰のものでもないが、街の体裁を整えるために不可侵であることが暗黙の了解である。往来の妨げだと判断されれば集団で排除される。つまりこれは、俺を短時間で仕留める算段があるからこその荒技だ。
+    paragraph: p34
+    quote_verified: true
+  - quote: これだけの騒ぎを起こしているというのに、襲撃者たちが制裁を加えられることは無い。ここは街路のど真ん中だというのに遠慮など欠片もなかった。
+    paragraph: p29
+    quote_verified: true
+  note: 公共空間である道路が暴力組織によって一時的に支配され、社会規範（暗黙の了解）が容易に無効化される様子は、秩序がいかに脆いものであるかを主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

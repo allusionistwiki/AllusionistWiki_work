@@ -1,0 +1,118 @@
+chapter: ch5138
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_Leaving_Feeling_Azuria
+  note: 落下直前のハルベルトの表情と髪。アズーリアが見た「あるもの」が、ハルベルトの正体や感情の伏線となる可能性。
+  quotes:
+  - quote: 風圧でフードがばさりと持ち上がって、その頭が露わになる。流れていく綺麗な黒髪。そして、あるものを見て私は目を丸くした。
+    paragraph: p117-p120
+    quote_verified: true
+  expected_payoff: 後の章で、ハルベルトの素顔や感情の機微（涙など）が重要になる場面での想起。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Bone_Flower_Immunity_Sleep
+  note: 砂男による睡眠誘導が本体には効いたが、背中の骨花（寄生体）には効果がなかった事実。
+  quotes:
+  - quote: 合理的に仲間を盾にして生き残った単眼巨人の背中で骨花が金眼を光らせる。本体が眠っても、寄生している方は眠らなかったのだ。金色の目が光り、呪力が空中を走り抜けた。
+    paragraph: p147
+    quote_verified: true
+  expected_payoff: 単眼巨人の「邪視」能力が肉体の睡眠と独立した魔法的な存在であることを示唆し、今後の戦闘で睡眠系スキルが無効化されるリスクを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Milunya_Dying_Wish
+  note: ミルーニャの「死ね」という敵意と、彼女自身の死の匂い。
+  quotes:
+  - quote: 再び、巨大な拳が少女の腹部に吸い込まれた。骨の砕ける音。そして、内臓が損壊していく音。人間が破壊される音が断崖に響いていく。「が、え――ぐぅ」声を出すことはおろか、意識を保つのも難しいような激痛だろうに、ミルーニャは攻撃的な視線で単眼巨人を睨むことを止めなかった。
+    paragraph: p92-p96
+    quote_verified: true
+  expected_payoff: ミルーニャの生死に関する展開（蘇生、または死亡）へのフラグ。彼女が敵意を保ったまま絶命したことが今後の物語の動機になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Phyllis_Dependence
+  note: アズーリアがフィリス（システム/チート）に依存しているという自覚と、その限界。
+  quotes:
+  - quote: 私は、自分がフィリスという存在によって無理矢理に全ての性能を底上げしている特例であることを思い出した。中衛という存在は、基本的には珍しいのだ。純粋な後衛職であるハルベルトは、アストラル界やグラマー界では圧倒的な強者であっても、物質（マテリアル）界では脆弱な少女でしかない。
+    paragraph: p38-p40
+    quote_verified: true
+  expected_payoff: フィリスの権限制限やバグによる機能不全、またはハルベルトの「中衛/前衛」適性の欠如が原因での敗北要因として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 師匠（上位者）への盲信と、その実力に対する幻想の崩壊
+  weight: 0.8
+  quotes:
+  - quote: そう、問題は無い筈だ。今は窮地に見えるが、いざとなったらハルベルトがその圧倒的な実力でなんとかしてくれる。あろうことか、この状況でもまだ私には心の中に余裕があった。それは甘えとでも呼べるものだったのだと思う。無邪気な信頼は、しかし一瞬で打ち砕かれた。
+    paragraph: p26-p29
+    quote_verified: false
+  - quote: ありえない、と私は思った。あんなにも圧倒的な呪文を操る言語魔術師、厳しいが紛れもなく優れたやり方で私を教え導いてくれていた師匠が、あんなふうに追い詰められるなんてことは、たとえ目の前で起きていたとしても信じられなかった。
+    paragraph: p35
+    quote_verified: true
+  note: 主人公アズーリアの成長（依存からの脱却）を示す重要な転換点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物理法則（重力・質量）と魔法（邪視・呪力）の相互作用による絶望的状況
+  weight: 0.7
+  quotes:
+  - quote: 不可視の障壁が圧倒的な質量によって軋み、今にもその脆く儚い身体に叩きつけられようとしている。間近に迫った肉体の破壊と破滅的な痛み――その恐怖に耐えきれず、ただ震えるばかりで何も出来ずにいる。
+    paragraph: p33
+    quote_verified: true
+  - quote: 私は単眼巨人ごと崖下に転落していった。こんな時まで魔導書は背後を追随してくるのが、少しおかしかった。「あ――駄目！　アズーリアッ！」弾かれたようにハルベルトが立ち上がり、あろうことかそのまま崖下に飛び込んだ。
+    paragraph: p112-p116
+    quote_verified: true
+  note: 「魔法万能」ではなく「環境と物理」による制約が物語を支配している構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 弱者（後衛）の自己犠牲による守護
+  weight: 0.6
+  quotes:
+  - quote: 己の肉体を身代わりにしてハルベルトを救い出した彼女は、用意していた呪符を発動させると眼前に目をイメージさせる紋章を展開して邪視を一瞬だけ相殺し、その隙にハルベルトを後ろに引き倒して自分が前に出る。
+    paragraph: p65
+    quote_verified: true
+  - quote: 激痛のためか、額に脂汗を浮かべながらも、ミルーニャは次の動きに移行する。だん、という激しい足の踏みならしによって大地から呪力を引き出すと、そのまま流れるように右足を振り上げていく。
+    paragraph: p71-p72
+    quote_verified: true
+  note: 能力値の低さ（脆い身体）を埋めるための「覚悟」という資源消費。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクショナルな「演出」への皮肉と現実の残酷さ
+  weight: 0.5
+  quotes:
+  - quote: ハルベルトが用意した色鮮やかな昼食――消化されかかったそれらが、無残にも吐き出されてこぼれ落ちていく。再び、巨大な拳が少女の腹部に吸い込まれた。骨の砕ける音。そして、内臓が損壊していく音。人間が破壊される音が断崖に響いていく。
+    paragraph: p91-p92
+    quote_verified: true
+  - quote: 「この――口先フード女っ！　びびってないで呪文くらい唱えて下さいよっ」骨折の苦痛に表情を歪ませてミルーニャが叫ぶ。
+    paragraph: p62-p64
+    quote_verified: true
+  note: 「美しき犠牲」ではなく「汚物と骨音」として描写されるリアリティの追求。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

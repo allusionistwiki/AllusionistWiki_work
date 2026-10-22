@@ -1,0 +1,284 @@
+episode: ch5361
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ヴァージル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5361_ヴァージル_attacks_人形の軍勢,狂怖_p10
+        quote: 雷撃が宙を走り抜け、まず人形の軍勢を、そして地の底から湧いてくる狂怖の群れを一掃した。稲妻を操る呪術師は重力を無視するかのような跳躍をすると、狂怖たちの中核であるイェレイドの頭部に軽やかに着地。
+        locator: {}
+        spoiler_after: ch5361
+      - event_ref: E_ch5361_ヴァージル_kills_イェレイド_p17
+        quote: 多彩な呪力を帯びた光の矢が乱舞してイェレイドを貫通、蹂躙して塵にした。
+        locator: {}
+        spoiler_after: ch5361
+    speech:
+      observations:
+      - event_ref: E_ch5361_ヴァージル_says_ジャッフハリム駆除へのうんざり_p13
+        quote: 「やっぱり混沌の温床であるジャッフハリムは敵だよ。ああもう、うんざり！　結局この時代でもこれの駆除をしなくちゃならないんだもの」
+        locator: {}
+        spoiler_after: ch5361
+      - event_ref: E_ch5361_ヴァージル_says_アルトへの挑発おじさん/おばさん_p23
+        quote: 「不快なのはあなたもだよ、アルトおじさん。いや、アルトおばさんかな？」
+        locator: {}
+        spoiler_after: ch5361
+    visual:
+      observations:
+      - event_ref: E_ch5361_ヴァージル_has_property_兎耳_p15
+        quote: 少年は軽く頬を膨らませ、兎耳を軽く動かした。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ,トリシューラ,ルバーブ,魔女たち,カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5361_アキラ,トリシューラ,ルバーブ,魔女たち,カルカブリーナ_arrives_呪術医院_p103
+        quote: トリシューラとルバーブの身体に宿る俺、地上から来た三人の魔女、それから負傷しながらも逃げ隠れしつつしぶとく生き残っていた銃士（カルカブリーナ）をはじめとした少数の兵士たちは、揃って大きな呪術医院に到着した。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ,カーン]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5361_レオ,カーン_other_アキラルバーブ/トリシューラ_p108
+        quote: 一目でルバーブが俺であると理解したレオと互いの無事を喜び合い、当然のように五体満足で生きていたカーインが俺を胡乱げな目で見ながら「紀人というやつは――」などと嘆息する。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_牙猪チリアット]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5361_牙猪チリアット_other_謎の男の存在_p112
+        quote: '「女王陛下。お耳に入れたいことが」
+
+          そんなふうにトリシューラに耳打ちしたのは牙猪（チリアット）だった。
+
+          知らせを聞いて、トリシューラと俺は首を傾げつつある病室に向かう。'
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_第四のラクルラール]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5361_第四のラクルラール_other_亡霊の人形劇_p165
+        quote: 人形の指が目に見えない糸を手繰った。特に物語に関わることのない設定の群れが淡い輪郭を形作り、幻影の人形となって男の周囲を踊る。
+        locator: {}
+        spoiler_after: ch5361
+      - event_ref: E_ch5361_第四のラクルラール_observes_ラフディ王国の顛末,サイバーカラテユーザー_p177
+        quote: '彼が見ているのはラフディという王国の顛末。
+
+          ミニチュアの箱庭、第五階層に蠢く無数のサイバーカラテユーザー。
+
+          そうした多様なサイバーカラテ、シナモリアキラ性を有するあらゆる存在に付与されていく属性がある。それは虐殺者。それは殺人鬼。それは破壊者。'
+        locator: {}
+        spoiler_after: ch5361
+    speech:
+      observations:
+      - event_ref: E_ch5361_第四のラクルラール_other_供物_p210
+        quote: 「己（オレ）の屍、己（オレ）の敗北もまた無駄ではない。この身もまた供物となろう。あとは頼んだぞ、過去と未来の垣根の上に立つものよ。たとえ塔の外に諦めの荒野しかなかったとしても、最果てに救いがあると信じるのだ」
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_狂怖]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5361_狂怖_has_property_動物への格下げ_p18
+        quote: 狂怖という名は彼の前では安っぽい言葉に過ぎず、あれほど恐ろしげだった化け物たちは珍しいだけの動物に堕する。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5361_アキラ_flees_人形の軍勢_p2
+        quote: 追いかけてくる人形の軍勢から逃げる、逃げる、ひたすら逃げる。
+        locator: {}
+        spoiler_after: ch5361
+    relationship:
+      observations:
+      - event_ref: E_ch5361_アキラ_other_アルトの物語_p49
+        quote: '俺は彼の物語を知らない。
+
+          サイザクタートを通したヴァージルというフィルター越し、しかも核心となる本人の物語にはその断片に関わったに過ぎない。'
+        locator: {}
+        spoiler_after: ch5361
+    speech:
+      observations:
+      - event_ref: E_ch5361_アキラ_says_不快_p7
+        quote: 「不快だな」
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5361_アルト_observes_ヴァージル_p21
+        quote: 俺たちには見向きもしない。トリシューラを敵として見ていないのか、ヴァージルは錯乱から回復してこちらを追いかけてきた同格の王を睨め付ける。
+        locator: {}
+        spoiler_after: ch5361
+      - event_ref: E_ch5361_アルト_uses_断章,ラクルラール人形_p40
+        quote: ヴァージルは右手に漆黒の『断章』を、左手に青い髪のラクルラール人形を乗せてまっすぐな言葉を紡いだ。魔導書が夥しい量の呪文の列を吐き出し、ラクルラールがカタカタと口を開閉してアルトが支配する人形たちの制御を乗っ取っていく。
+        locator: {}
+        spoiler_after: ch5361
+      - event_ref: E_ch5361_アルト_fights_アキラたちトリシューラ側_p69
+        quote: アルトとヴァージルが激突する。
+        locator: {}
+        spoiler_after: ch5361
+    speech:
+      observations:
+      - event_ref: E_ch5361_アルト_says_予防局と精神加工による安定化_p29
+        quote: 「それを防ぐための予防局、そして精神加工だ。マラードの力が手に入ったいま、ガロアンディアンが崩れる要因は無い」
+        locator: {}
+        spoiler_after: ch5361
+      - event_ref: E_ch5361_アルト_says_絶対言語の探究推測_p42
+        quote: '「誰もが健やかに人生を歩める優しい世界。人と人とを繋いでくれる古く絶対なる『ことば』の力で、僕は王国に平和をもたらす」
+
+          （絶対言語の探究が目的ってことかな？　あらゆる言語魔術師の悲願だけど、ヴァージルはそんな典型的な目的で動いてるのかな？）'
+        locator: {}
+        spoiler_after: ch5361
+      - event_ref: E_ch5361_アルト_says_手と手を取り合う世界_p55
+        quote: 「世界が平和になって、みんなが手と手を取り合えればいい」
+        locator: {}
+        spoiler_after: ch5361
+      - event_ref: E_ch5361_アルト_says_はりぼての王への敵意_p65
+        quote: 「あなたが邪魔だ、はりぼての王」
+        locator: {}
+        spoiler_after: ch5361
+      - event_ref: E_ch5361_アルト_other_トライデントアキラの細胞名_p73
+        quote: 「人形使いが王さま気取り？　トライデントだっけ。センスが無さ過ぎる細胞名じゃない？　髪の毛（ワイヤーヘッド）だなんて、発想が時代遅れだよ」
+        locator: {}
+        spoiler_after: ch5361
+    relationship:
+      observations:
+      - event_ref: E_ch5361_アルト_other_レオ_p47
+        quote: ヴァージルは、レオではないのだ。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_巨大な構造物塔]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5361_巨大な構造物塔_other_第四のラクルラール_p212
+        quote: 直後、遥かな天上より途方もなく巨大な構造物が落下してラクルラールを叩き潰した。ありとあらゆる機械の残骸を寄せ集めて際限なく質量を付け足していったかのような塔、ビルディング、あるいは墓標のような何か。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5361_パーン_says_退屈と圧勝の強調_p228
+        quote: '「なんだ、寝ている間に終わったのか――ふん、相手が弱すぎるというのも困りものだな。退屈過ぎて寝てしまった」
+
+          圧勝だった。
+
+          傷一つ無いまま、パーン・ガレニス・クロウサーはラクルラールという羽虫を一瞬で叩き潰した。'
+        locator: {}
+        spoiler_after: ch5361
+      - event_ref: E_ch5361_パーン_other_全てパンゲオン由来_p242
+        quote: '「我が名はパーン。『全て』である者。下らん端役が、俺の覇道を妨げるな」
+
+          「全ての生命の起源、パンゲオンに由来する名だ。俺の宣名圧は他の六王を圧倒し、女神たるフェロニアのそれに迫る。羽虫に抗えるはずもない」'
+        locator: {}
+        spoiler_after: ch5361
+    action:
+      observations:
+      - event_ref: E_ch5361_パーン_uses_融血呪禁呪_p234
+        quote: '禁呪とも呼ばれるクロウサーの秘術の一つ。
+
+          融け合う呪いは共有の呪い。
+
+          与えることと奪うことを同時に行うが、パーンという圧倒的に強固な『我』がそれを使えば、与えようが奪おうが結果は同じだ。
+
+          パーンが全てを塗りつぶす。'
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_世界]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5361_世界_has_property_醜悪な融解_p3
+        quote: ここは異形、奇形、死と退廃と醜悪と薄暗い美が融け合う世界。都市が融ける。戦場が歪む。ねじれて狂って吐瀉物を固めたような構造物が塔となって乱立する。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ガロアンディアン]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5361_ガロアンディアン_has_property_混沌の許容_p4
+        quote: ガロアンディアンは混沌を許容する。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ラクルラール人形]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5361_ラクルラール人形_has_property_管理者権限の明け渡し_p40
+        quote: 驚くべき事に、ラクルラール人形はヴァージルによってクラッキングされたことにより管理者権限を完全に明け渡してしまっている。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5361_トリシューラ_suspects_アルトの美辞麗句_p46
+        quote: ちびシューラは不審がっている。美しい少年が真剣に口にする美辞麗句を素直に受け取れない彼女は心がねじ曲がっている。当然、俺も同じ意見だが。
+        locator: {}
+        spoiler_after: ch5361
+    speech:
+      observations:
+      - event_ref: E_ch5361_トリシューラ_other_部下たち_p97
+        quote: '「じき別働隊と合流できる！　みんな、もうちょっとだから頑張って！」
+
+          トリシューラが後続を励ましの声をかけた。'
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_アルトの砲列]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5361_アルトの砲列_other_アキラ側_p71
+        quote: 異形の軍勢に対抗するように、幾何学的な水晶の板が幾つも飛来して雷撃の呪文を放つ。整然とヴァージルの前に並ぶ秩序だった砲列にアルト側が押されていく。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_炎の天使]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5361_炎の天使_has_property_呪文無効化_p86
+        quote: あらゆる呪文を無効化する炎天使に少年の攻撃は全く通用しない。
+        locator: {}
+        spoiler_after: ch5361
+  first_appearance_candidate: true

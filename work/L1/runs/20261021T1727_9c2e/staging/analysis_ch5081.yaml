@@ -1,0 +1,217 @@
+chapter: ch5081
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5081_世界_appears_as_白と黒だけの空間_p1]]'
+  object: '[[ME_metatextual_narrative_structure]]'
+  claim: コルセスカが世界をメタテクストやアリュージョン系の神働術として記述し、物語のセオリーに従って現実が変容する現象を指摘している。
+  quote: 「メタテクストが改変されていく――ハイパーテクスト系、いえ、これはアリュージョン系の神働術――！　やられた、これは最初に優勢な方が負けるパターン！」
+  paragraph: p10
+  confidence: explicit
+  quotes:
+  - quote: 「メタテクストが改変されていく――ハイパーテクスト系、いえ、これはアリュージョン系の神働術――！　やられた、これは最初に優勢な方が負けるパターン！」
+    paragraph: p10
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5081_世界_appears_as_白と黒だけの空間_p1]]'
+  object: '[[ME_anime_cliche_death_flag]]'
+  claim: アキラの「結婚しよう」という台詞に対し、コルセスカがそれが死亡フラグ（負けパターン）であると即座に指摘し、アニメ的クリシェをメタ的に解体している。
+  quote: 「はいっ？　えっ、あのっ、そんな、まだ私達は出会ったばかりですし私にはやるべき事があって、じゃなくてそれは負けたり死んだりするパターンです！　真面目にやって下さい！」
+  paragraph: p25
+  confidence: strong
+  quotes:
+  - quote: 「はいっ？　えっ、あのっ、そんな、まだ私達は出会ったばかりですし私にはやるべき事があって、じゃなくてそれは負けたり死んだりするパターンです！　真面目にやって下さい！」
+    paragraph: p25
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5081_世界_appears_as_白と黒だけの空間_p1]]'
+  object: '[[ME_art_history_iconography]]'
+  claim: キロンの変貌を、絵画において聖人を特定するための記号（アトリビュート）を用いた美術史的な手法として解説している。
+  quote: 「流石は冬の魔女、博識だな。ご名答だよ。つまり、【蝶】のモチーフから同じ属性の聖人ミエスリヴァを再現し、その力を増幅させているというわけだ。」
+  paragraph: p141
+  confidence: explicit
+  quotes:
+  - quote: 「流石は冬の魔女、博識だな。ご名答だよ。つまり、【蝶】のモチーフから同じ属性の聖人ミエスリヴァを再現し、その力を増幅させているというわけだ。」
+    paragraph: p141
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5081_世界_appears_as_白と黒だけの空間_p1]]'
+  object: '[[ME_philosophical_nihilism]]'
+  claim: アキラの「人間が死のうが生きようが大した意味は無い」という思考は、極端な虚無主義であり、物語的な逆転劇に必要な「理由」を欠如させる要因となっている。
+  quote: 人間が死のうが生きようが大した意味は無いしなあ。命に価値を見出すなんて傲慢な真似、神ならぬこの身にはとてもできやしない。
+  paragraph: p35
+  confidence: moderate
+  quotes:
+  - quote: 人間が死のうが生きようが大した意味は無いしなあ。命に価値を見出すなんて傲慢な真似、神ならぬこの身にはとてもできやしない。
+    paragraph: p35
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5081_世界_appears_as_白と黒だけの空間_p1]]'
+  object: '[[ME_game_cheat_power_limit]]'
+  claim: 転生者が持ち込む「アプリ（サイバーカラテ道場）」などのゲーム的チート能力が、敵の呪術的な概念操作によって無効化され、常識的な物理法則や速度論が適用される。
+  quote: 俺に感知できなくとも、【サイバーカラテ道場】と【Doppler】を並列起動させている俺の索敵能力はこの世界の常識的な水準を大きく上回っている。
+  paragraph: p106
+  confidence: strong
+  quotes:
+  - quote: 俺に感知できなくとも、【サイバーカラテ道場】と【Doppler】を並列起動させている俺の索敵能力はこの世界の常識的な水準を大きく上回っている。
+    paragraph: p106
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5081_世界_appears_as_白と黒だけの空間_p1]]'
+  object: '[[ME_mythology_syncretism]]'
+  claim: キロンが宿す「ミエスリヴァ」は、大神院が他地域の神格を聖人に仕立て上げる過程（宗教的融合・上書き）を反映している。
+  quote: ミエスリヴァは大神院が北辺帝国を教化した際、人気のある神格を零落させて聖人に仕立て上げたものだと聞いています。
+  paragraph: p148
+  confidence: strong
+  quotes:
+  - quote: ミエスリヴァは大神院が北辺帝国を教化した際、人気のある神格を零落させて聖人に仕立て上げたものだと聞いています。
+    paragraph: p148
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_app_overriding_capability
+  note: 敵の呪術がアキラのアプリ（サイバーカラテ道場等）の機能を無視して機能するメカニズム。アプリは世界法則の一部なのか、それとも外部からの干渉か。
+  quotes:
+  - quote: 敵の呪術は俺がこの世界に持ち込んだアプリの機能を無視して機能するということだ。
+    paragraph: p69
+    quote_verified: true
+  - quote: だが俺は、今まで通用していたからといって、それがいつまでも通用するとは限らないという当たり前の事実を失念していた。
+    paragraph: p108
+    quote_verified: true
+  expected_payoff: アプリの権限が奪われるシーン、またはアプリが「概念」ではなく「物理法則」として処理されていることが判明する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kiron_humanity_retention
+  note: 異獣憑き（通常は人間性が失われる）でありながら、キロンがコルセスカの問いに正常に答え、意思疎通できている点。
+  quotes:
+  - quote: 排除と劣等化の複合タイプ――そうやって自分を納得させているのだろう、多分。しかし、様子は大幅に変化したものの、こうして話しかければ普通に答えてくる。仕掛けてくる様子が無い。
+    paragraph: p77
+    quote_verified: true
+  expected_payoff: キロン本人の意思が残っている可能性、または異獣憑きの定義が「人間性の消去」ではないことの露呈。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_metatextual_rule_source
+  note: コルセスカが指摘する「メタテクストの改変」や「アリュージョン系の神働術」の発生源。世界そのものが物語構造として存在している証拠。
+  quotes:
+  - quote: ある種の物語のセオリーに従って現実が変容する、なんて、デタラメも良いところだが。それがこの異世界のルールなのだと言われてしまえばそれまでだ。
+    paragraph: p15-p16
+    quote_verified: true
+  expected_payoff: 世界運営者（GM的な存在）や、物語の構文そのものを操作する能力の正体への言及。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_nihilism_origin
+  note: アキラが「負けられない理由」を思いつかないほどに虚無的であること。転生前の人生が「塵みたいな人生」だったという記述。
+  quotes:
+  - quote: 本当に、塵みたいな人生だった気がする。転生しても性格が変わらないんじゃあ似たような結果になるのも納得といった所だ。
+    paragraph: p41-p42
+    quote_verified: true
+  expected_payoff: アキラの過去のトラウマや、彼が世界に対して持つ特有の「無関心」が戦闘能力や精神防御にどう影響するか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の構造法則（メタテクスト）が物理法則を上回る世界の支配力
+  weight: 0.9
+  quotes:
+  - quote: 「メタテクストが改変されていく――ハイパーテクスト系、いえ、これはアリュージョン系の神働術――！　やられた、これは最初に優勢な方が負けるパターン！」
+    paragraph: p10
+    quote_verified: true
+  - quote: ある種の物語のセオリーに従って現実が変容する
+    paragraph: p15
+    quote_verified: true
+  note: コルセスカの解説により、この世界では論理や力よりも「物語の型」が現実に干渉するルールであることが明示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美術史的記号（アトリビュート）による概念の具現化と力の増幅
+  weight: 0.8
+  quotes:
+  - quote: 「絵画に於ける【お約束】のようなものです。特定の持ち物を描くことで、それと関連した聖人や神話の登場人物だと特定させる手法を指します」
+    paragraph: p139
+    quote_verified: true
+  - quote: つまり、【蝶】のモチーフから同じ属性の聖人ミエスリヴァを再現し、その力を増幅させているというわけだ。
+    paragraph: p141
+    quote_verified: true
+  note: キロンの変貌が単なるパワーアップではなく、「記号」を用いて神話的概念を現実に書き換える行為として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生者における「物語的必然性」への抵抗と虚無主義の衝突
+  weight: 0.7
+  quotes:
+  - quote: 負けられない理由。何かあったっけ？ 人間が死のうが生きようが大した意味は無いしなあ。
+    paragraph: p33-p35
+    quote_verified: true
+  - quote: 「貴方の今までの人生は一体何だったんです？！」
+    paragraph: p37
+    quote_verified: false
+  note: 敵が物語の法則（逆転劇）に乗る中、主人公アキラが物語の動機（勝ちたい理由・人生の意味）を持たないことで生じるメタ的な不協和音。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術的優位性（アプリ）の限界と世界固有法則への回帰
+  weight: 0.6
+  quotes:
+  - quote: 【サイバーカラテ道場】と【Doppler】を並列起動させている俺の索敵能力はこの世界の常識的な水準を大きく上回っている。
+    paragraph: p106
+    quote_verified: true
+  - quote: だが俺は、今まで通用していたからといって、それがいつまでも通用するとは限らないという当たり前の事実を失念していた。
+    paragraph: p108
+    quote_verified: true
+  note: 異世界転生ジャンルの「チート」が万能ではないことを示し、世界側のルール（速度論や呪術）に押し潰されるプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,226 @@
+chapter: ch5356
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 22
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5356_ルバーブ_other_宮殿内_p2]]'
+  object: '[[ME_AR_空間]]'
+  claim: 視覚・嗅覚を過剰に刺激し、ユーザーの没入を強要する拡張現実(AR)やVR空間の設計思想が、ルバーブが入る宮殿の演出と構造的に一致している。
+  quote: 室内に足を踏み入れると、眩暈のするような極彩色が目を襲い、続いて誘うような香りが鼻をくすぐった。煌びやかな飴虫模様に彩られた外壁は絶え間なく色彩を反転させ
+  paragraph: p2
+  confidence: moderate
+  quotes:
+  - quote: 室内に足を踏み入れると、眩暈のするような極彩色が目を襲い、続いて誘うような香りが鼻をくすぐった。煌びやかな飴虫模様に彩られた外壁は絶え間なく色彩を反転させ
+    paragraph: p2
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5356_ルバーブ_other_宮殿内_p11]]'
+  object: '[[ME_廃止されたUI操作]]'
+  claim: かつての標準的な作法（前転）が「完璧な球形」の変換機能とともに廃れたという記述は、OSアップデートによる旧APIやレガシーコードの非互換化を連想させる。
+  quote: 正式な作法では丸まって前転を繰り返すのが良いとされるが、廃れた風習だ。完璧な球形に変化できる者も数を減らしてしまった。時代は移り変わる。
+  paragraph: p11
+  confidence: weak
+  quotes:
+  - quote: 正式な作法では丸まって前転を繰り返すのが良いとされるが、廃れた風習だ。完璧な球形に変化できる者も数を減らしてしまった。時代は移り変わる。
+    paragraph: p11
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5356_ルバーブ_other_宮殿内_p27]]'
+  object: '[[ME_シミュレーション仮説]]'
+  claim: 世界全体の知覚が改変され、本人すら事実を忘却しているという状態は、現実の基底層が書き換えられたシミュレーションや大規模なマインドコントロール実験のメタファーである。
+  quote: 世界の全てを欺き、今となっては王であるマラードすら真実を忘却している。事実そのものが改変されているのだ、誰も入れ替わりを正しく認識することなどできはしない。
+  paragraph: p27
+  confidence: strong
+  quotes:
+  - quote: 世界の全てを欺き、今となっては王であるマラードすら真実を忘却している。事実そのものが改変されているのだ、誰も入れ替わりを正しく認識することなどできはしない。
+    paragraph: p27
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5356_ルバーブ_other_宮殿内_p98]]'
+  object: '[[ME_SaaS_サブスクリプション]]'
+  claim: 定期的な呪力注入（メンテナンス）によってのみ世界の欺瞞（サービス）が維持されるという仕組みは、継続的な課金と保守によって成立するSaaS型サービスの依存構造に酷似している。
+  quote: 定期的にこうして私の力を陛下に注ぎ込むことで世界を欺くという大呪術が可能になっている。
+  paragraph: p98
+  confidence: moderate
+  quotes:
+  - quote: 定期的にこうして私の力を陛下に注ぎ込むことで世界を欺くという大呪術が可能になっている。
+    paragraph: p98
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5356_ルバーブ_other_宮殿内_p179]]'
+  object: '[[ME_計画都市_モデル]]'
+  claim: 王の美的感性により「円と球」で管理された理想郷は、現代の機能主義的・全体主義的な計画都市（レトロピズム）が抱える「人間不在の美しさ」という批判を逆転させて肯定している。
+  quote: 至る所に見られるのは円と球。... 王都の全ては陽光の下にある。
+  paragraph: p179-p181
+  confidence: moderate
+  quotes:
+  - quote: 至る所に見られるのは円と球。... 王都の全ては陽光の下にある。
+    paragraph: p179-p181
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5356_ルバーブ_other_宮殿内_p20]]'
+  object: '[[ME_サムソン伝説]]'
+  claim: 髪が呪力・力の源泉であり、美しさと直結するという設定は、聖書において髪を切られることで力を失うサムソンのエピソードを下敷きにしたファンタジー的クリシェの応用である。
+  quote: 髪は呪的な力を宿す。美しく艶めく髪ならばその呪力は一層高まるという。
+  paragraph: p20-p21
+  confidence: weak
+  quotes:
+  - quote: 髪は呪的な力を宿す。美しく艶めく髪ならばその呪力は一層高まるという。
+    paragraph: p20-p21
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_真の王と偽りの王の入れ替わりメカニズム
+  note: 「王の交代劇」という大呪術が世界を欺いている。マラード（現）とルバーブ（元/真）がどのような経緯で入れ替わったのか、そのトリガーとなる「禁忌」の内容が不明確である。
+  quotes:
+  - quote: 入れ替わりは実現した。大賢者オルヴァの指導を受けて習得した『王の交代劇』という大呪術は世界の全てを欺き
+    paragraph: p27
+    quote_verified: true
+  - quote: 時の王家は『強い王』を求め、賢者の知恵を借りて禁忌に手を染めた――その成果が私という怪物だ。
+    paragraph: p125
+    quote_verified: true
+  expected_payoff: 後の章で「禁忌」の内容（生贄、血の契約など）と入れ替わりの詳細な手順が明かされ、呪術の代償として何かが失われたことが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_オルヴァの時計と生死
+  note: オルヴァは「生きているか死んでいるかもわからない」「未来を過去の記憶として思い出す」とされ、異常な時空の扱いを受けている。彼がカシュラム最後の王である点との整合性が取れていない。
+  quotes:
+  - quote: カシュラムは滅びた後も幾度となく歴史の中に姿を現し、またカシュラムが興るよりも前の時代にカシュラムの痕跡が発見されることもあった。
+    paragraph: p338
+    quote_verified: true
+  - quote: 生きているか死んでいるかもわからないオルヴァと私が敵対する意味は無い。
+    paragraph: p301
+    quote_verified: true
+  expected_payoff: オルヴァが時間軸を逆順に生きている（またはループしている）ことが確定的になり、物語の終盤で「過去」からの介入がクライマックスへの鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_十二人の貴族殺しの真犯人と呪殺の正体
+  note: ルバーブは「やったのは私では無い」と述べているが、オルヴァは「手間を省いてやった」と言い、「宝珠に封じ人形化する」準備を進めている。この死の手法（繰り返される自殺）の呪術的意味が未解明。
+  quotes:
+  - quote: やったのは私では無い。彼らは一様に奇妙極まりない死に方をしていた――まるで呪殺されたかのようにおぞましく。
+    paragraph: p209-p210
+    quote_verified: true
+  - quote: 全て自殺。しかしそれぞれがそれを何度も繰り返したのか、遺体はいずれも激しく損壊していた。死した後も自らを殺し続けたとでも言うのだろうか。
+    paragraph: p216
+    quote_verified: true
+  expected_payoff: 貴族たちの「反復する死」がルバーブの呪力の暴走、あるいはオルヴァによる未来改変の副作用であることが判明し、王都の安定維持システムへの亀裂として表面化する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ルバーブの「死者」としての視点
+  note: ルバーブは「私は既に死んでいる」「語る口など、真の死者は持たない」と述べている。彼が現在を認識し行動していることと、自身の存在定義（生者/死者）の間に矛盾がある。
+  quotes:
+  - quote: 再生者としての二度目の生は打ち砕かれた。『私』は既に死んでいる。語る口など、真の死者は持たない。
+    paragraph: p68-p69
+    quote_verified: true
+  - quote: だというのに、どうして私はもう戻らない日々を追想できているのだろう。
+    paragraph: p70
+    quote_verified: true
+  expected_payoff: ルバーブが実体を持たない「観測者」あるいは「記憶の残滓」として王都に留まっていることが明かし、物理的な干渉能力の限界や消失へのカウントダウンが始まる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美しき独裁者による全体主義的ユートピアは、個々の主体性を殺した「舞台装置」に過ぎない
+  weight: 0.85
+  quotes:
+  - quote: その光景に、周囲は善き王と忠実なる臣下という物語を見出して、王国の美しい未来を幻視する。ここは舞台の上なのだ。我々は役者だった。
+    paragraph: p53
+    quote_verified: true
+  - quote: 美しきマラード王とその王国に栄光あれ。
+    paragraph: p60
+    quote_verified: true
+  note: ルバーブ自身が「役者」と自認し、王都が計画された舞台であることが強調されている。自由意志の否定と、演出された幸福への同調圧力が主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己犠牲と忠誠は、支配者の欲望を満たすための「燃料」であり、臣下は搾取される資源である
+  weight: 0.75
+  quotes:
+  - quote: 私の魂は陛下と、陛下の王国に捧げられております
+    paragraph: p136
+    quote_verified: true
+  - quote: その語り部という栄誉を賜った私は、この上無い果報者だ。
+    paragraph: p34
+    quote_verified: true
+  note: ルバーブが王に捧げるのは肉体と魂であり、それが「幸福」として内面化されている構造。植民地的な搾取関係が愛国主義/忠誠心で美化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 虚構の安定は、真実（死と罪）を隠蔽するコストによってのみ維持される
+  weight: 0.6
+  quotes:
+  - quote: 世界を欺くという大呪術が可能になっている。... 定期的にこうして私の力を陛下に注ぎ込むことで
+    paragraph: p98
+    quote_verified: false
+  - quote: 全てを明かせば我々の『今』は破綻する。私はどうしようもない嘘の上で怯えながら生きていくしかなかった。
+    paragraph: p255-p256
+    quote_verified: true
+  note: 世界の美しさは「入れ替わり」という嘘の維持コスト（ルバーブの呪力、貴族の犠牲）によって支えられている。安定の脆さと代償の重さ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命論（デスティニズム）への諦念と、超越者による操纵
+  weight: 0.4
+  quotes:
+  - quote: 人は皆、運命の操り人形だ。私も、お前も。だがあの人形――マラードは少なくともお前の糸で操られている。それは幸福なことではないか
+    paragraph: p246
+    quote_verified: true
+  - quote: 我らはただその狭間の中で滑稽に踊れば良い
+    paragraph: p316
+    quote_verified: true
+  note: オルヴァによる「人形」発言とニヒリズム。ルバーブの忠誠心もまた、運命（脚本）に従属する行為として描かれ、自由意志の不在を暗示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,214 @@
+chapter: ch5259
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_vivi_intro]]'
+  object: '[[ME_shakespeare_as_you_like_it]]'
+  claim: ヴィヴィの台詞はシェイクスピアの『お気に召すまま』の有名な一節を引用し、世界が劇場であるというメタ視点を提示している。
+  quote: 「『この世は舞台、ひとはみな役者』――この姿ではお初にお目にかかる。ようこそわが劇場に、シナモリ・アキラ」
+  paragraph: p28
+  confidence: explicit
+  quotes:
+  - quote: 「『この世は舞台、ひとはみな役者』――この姿ではお初にお目にかかる。ようこそわが劇場に、シナモリ・アキラ」
+    paragraph: p28
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_cyber_karate_magic]]'
+  object: '[[ME_somatic_language_magick]]'
+  claim: サイバーカラテの型（フォーム）が呪力を生む原理は、ジェスチャーによる呪術『肉体言語魔術』と同一の構造を持つ。
+  quote: 考えてもみれば、サイバーカラテの型が呪力を宿すのも全く同じ原理によるものなのではないだろうか。
+  paragraph: p70
+  confidence: strong
+  quotes:
+  - quote: 考えてもみれば、サイバーカラテの型が呪力を宿すのも全く同じ原理によるものなのではないだろうか。
+    paragraph: p70
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_theater_time_manipulation]]'
+  object: '[[ME_sympathetic_magic_law_of_similarity]]'
+  claim: 演劇による過去への干渉は、似ている者は等しいという交感魔術（シンパセティック・マジック）の原理に基づく呪術である。
+  quote: 同じ事をなぞれば、それは時空を超えて影響を及ぼす。似ている者は等しい――それが呪術というものだよ。演劇とは呪術的儀式に他ならない
+  paragraph: p95
+  confidence: strong
+  quotes:
+  - quote: 同じ事をなぞれば、それは時空を超えて影響を及ぼす。似ている者は等しい――それが呪術というものだよ。演劇とは呪術的儀式に他ならない
+    paragraph: p95
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_akira_possession]]'
+  object: '[[ME_isekai_reincarnation_cheat]]'
+  claim: 一般的な異世界転生における『チート能力』や『新しい身体』の獲得ではなく、既存のキャラクター（チリアット）に憑依し演じることによる『役者としての存在』への移行が描かれている。
+  quote: 今の君には身体がない。......その身体に君を演じてもらっているんだ。......役者はその登場人物ではないがその登場人物であるということになっている。舞台上では設定が全て
+  paragraph: p180
+  confidence: strong
+  quotes:
+  - quote: 今の君には身体がない。......その身体に君を演じてもらっているんだ。......役者はその登場人物ではないがその登場人物であるということになっている。舞台上では設定が全て
+    paragraph: p180
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_akira_parasitism]]'
+  object: '[[ME_symbiotic_parasite]]'
+  claim: アキラの左腕がチリアットに移植され人格を代行する状態は、生物学的な寄生関係および精神の侵食という比喩で説明されている。
+  quote: 俺は、チリアットの寄生異獣になっているのか
+  paragraph: p206
+  confidence: moderate
+  quotes:
+  - quote: 俺は、チリアットの寄生異獣になっているのか
+    paragraph: p206
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_vivi_identity]]'
+  object: '[[ME_sword_of_knowledge]]'
+  claim: ヴィヴィが自称する『喋る剣』は、ロドウィ戦で確認された自律駆動する賢い刃（カインの姉妹）の概念を指している。
+  quote: 私の名はヴィヴィ＝イヴロス。......喋る剣にして役者を演じる小道具の魔女だ。
+  paragraph: p34
+  confidence: strong
+  quotes:
+  - quote: 私の名はヴィヴィ＝イヴロス。......喋る剣にして役者を演じる小道具の魔女だ。
+    paragraph: p34
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: Queen_of_Dead_Forest_Motive
+  note: 死人の森の女王がアキラとコルセスカを助ける真の意図。単なる善意なのか、彼女自身の目的のための利用なのか。
+  quotes:
+  - quote: 死人の森の女王の『最終的な狙い』はまだ断定できませんが、どうやら彼女には彼女なりの思惑があり、そのために私とアキラに肩入れをしたようです。
+    paragraph: p188
+    quote_verified: true
+  expected_payoff: 物語後半で女王の真意が明かされ、それが主人公たちを救済するためだったのか、それとも彼らを道具として使い切ったのかが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: Chiliat_Will_Volition
+  note: 死を恐れていたチリアットが自発的にアキラに身体を譲渡したのか、女王に強制されたのかという倫理的・心理的真実。
+  quotes:
+  - quote: 死を誰よりも恐れていたチリアットが、自発的に俺の犠牲になろうとするはずがない。女王は、あいつにそれを強制したのか
+    paragraph: p213
+    quote_verified: true
+  expected_payoff: アキラが『チリアットを演じる（一人二役）』ことで、チリアットの本当の意志や死受容のプロセスを追体験し、彼の尊厳を取り戻す展開へ繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: Interference_From_Future
+  note: 現在が未来から干渉を受ける可能性についての言及。タイムパラドックスや運命改変の仕組みへの伏線。
+  quotes:
+  - quote: ――とすると、現代もまた未来から干渉を受けることがあるのだろうか？
+    paragraph: p100
+    quote_verified: true
+  expected_payoff: 物語の終盤で、主人公たちの行動が『過去』を演じ直すことで『現在・未来』の因果関係を書き換えるメカニズムとして回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: Corcesca_Past_Self
+  note: コルセスカの幼少期（蜂蜜色の髪、灰色の瞳）が舞台で演じられることの意味。彼女の運命を変えるための儀式である可能性。
+  quotes:
+  - quote: 自らの前世。己の運命。彼女にとって、これはそうしたものに立ち向かう為の儀式なのかも知れない。
+    paragraph: p197
+    quote_verified: true
+  expected_payoff: 演劇を通じてコルセスカの過去のトラウマや選択を肯定し、現在の彼女が『消え去る運命』から脱却するための精神的なカタルシスとして機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 演劇による現実の書き換えと、物語（ナラティブ）が実在に干渉する力
+  weight: 0.9
+  quotes:
+  - quote: 舞台公演のたびに過去が書き換わってたりしないだろうな。......神話の魔女コルセスカが過去から影響を受けるのなら、現代の物語が過去に影響を及ぼすことだって無いとは言えない。
+    paragraph: p97-p98
+    quote_verified: false
+  - quote: 再演――それは繰り返される過去。つまりは時空の操作だ。
+    paragraph: p87
+    quote_verified: false
+  note: 本章の核心は、フィクション（演劇）を上演することで物理的な時間軸（過去）に介入し、因果律を書き換えるというメタフィクショナルなマジックシステムにある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者の身体を借りて生きる／自己の境界の溶解
+  weight: 0.8
+  quotes:
+  - quote: 俺は、チリアットの寄生異獣になっているのか
+    paragraph: p206
+    quote_verified: true
+  - quote: チリアットが君を演じているのなら、チリアットはシナモリ・アキラなのだよ。
+    paragraph: p180
+    quote_verified: false
+  note: 主人公の身体喪失と他者（チリアット）への憑依を通じて、個人のアイデンティティが他者の存在と融合・拡張される過程を扱う。これは転生ものの『身体』というテーマを逆説的に問うている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命（脚本）への受容と、即興による自由の獲得
+  weight: 0.7
+  quotes:
+  - quote: 台本これです。丁度、あの時一緒にやったゲームで予習できてたので覚えるの楽だと思いますよ。一緒に頑張りましょうね、アキラ
+    paragraph: p113
+    quote_verified: true
+  - quote: なら君はチリアットを演じてあげたまえ。一人二役だ。両方選ぶといい。......手は抜くな。やるからには徹底的にだ
+    paragraph: p220-p221
+    quote_verified: false
+  note: 決まった脚本（運命・過去の事実）を演じることが、いかにして主人公たちに『勝利』という自由を与えうるのか。制約のある即興劇（Improv）を通じて主体性を取り戻すプロセスが描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: コルセスカへの贖罪と対話の試み
+  weight: 0.6
+  quotes:
+  - quote: 俺は、彼女をどうすればいいのだろう。......この、どうしようもなくコルセスカに似た少女を、俺は――。
+    paragraph: p7-p8
+    quote_verified: false
+  - quote: 無事、だったのか
+    paragraph: p131
+    quote_verified: true
+  note: 主人公が抱えるコルセスカに対する罪悪感や未解決の感情が、演劇という安全な『距離』を通じて対話・和解へと向かう心理的ドラマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

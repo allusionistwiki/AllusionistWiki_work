@@ -1,0 +1,356 @@
+episode: ch5239
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5239_トリシューラ_other_衝動_p105
+        quote: それまでに彼を想って待ち続けた長い長い時間を参照すると、何か合理的な優先度を超えて、行動を急かすような衝動が生起される。これが高位の呪文だろうか。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_トリシューラ_thinks_カルカブリーナへの疑問_p22
+        quote: このカルカブリーナは、何をそんなにかしこまっているのだろう、とトリシューラは思う。らしくない――期待した性能（スペック）とは違う行動。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_トリシューラ_observes_カルカブリーナの呼称の不安定さ_p4
+        quote: 「貴方は陛下って言ったり大姐って言ったり先生って言ったり、呼称が安定しないよね。まあ何でもいいけど」
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_トリシューラ_thinks_カルカブリーナの動機_p62
+        quote: しかしどうしたことだろう。そんな彼が、危険に満ちた地下へと積極的に向かわせて欲しいと自分に頭を下げている。おそらくは、窮地にある誰かを助け出す為に。らしくない。データを参照しながらそう思う。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_トリシューラ_other_言外の意味_p7
+        quote: 言外の意味を含ませながら、振り返りもせず答えた。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_トリシューラ_other_嘆願_p91
+        quote: 「うん、いいよ」 柔らかく微笑んで、トリシューラは嘆願を聞き入れた。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_トリシューラ_other_直接降下_p96
+        quote: 「そもそも、アキラくんを回収しなきゃだし。私が直接降りるよ。護衛である貴方にも当然ついてきて貰う」
+        locator: {}
+        spoiler_after: ch5239
+    relationship:
+      observations:
+      - event_ref: E_ch5239_トリシューラ_other_メートリアン_p111
+        quote: 似たような適性を有する競争相手、メートリアンに杖では圧勝しながらも呪文では僅かに負け、そして追い越して、という事を繰り返しながらここまで来た。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_トリシューラ_uses_カルカブリーナ_p51
+        quote: 【マレブランケ】の一員カルカブリーナとして新たに生を受けたその男を、トリシューラはそこそこ重用していたが、同時にある程度までしか信用していない。冷静に状況を把握し、保身と危険性の天秤を良く見極めようとする慎重な性格。
+        locator: {}
+        spoiler_after: ch5239
+    symbolic:
+      observations:
+      - event_ref: E_ch5239_トリシューラ_defines_心_p12
+        quote: 心とは、脳を含む肉体の全てでありその認識が及ぶ連関全てだ。少なくともトリシューラはそう定義している。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_トリシューラ_has_property_脆弱性_p400
+        quote: 一度でも殺されれば、トリシューラが完全に滅びを迎える前にガロアンディアン全体が壊滅的な被害を被る可能性がある。
+        locator: {}
+        spoiler_after: ch5239
+    action:
+      observations:
+      - event_ref: E_ch5239_トリシューラ_other_破壊された脳細胞_p16
+        quote: 破壊された脳細胞を『ちびシューラ』を原型としたプログラムと機械に置き換え、人格を傷つけるばかりのここでの記憶を全て消去した後、そこにいるのが果たして元の『その人』なのかどうかは定かでない。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_トリシューラ_other_家畜_p18
+        quote: そして、彼ら彼女らはその後もトリシューラによって飼われることになる。何かしらの文化的な活動を行わされ、ミームを生産するだけの家畜となる人生。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_トリシューラ_uses_ドローン_p9
+        quote: 赤い髪の少女はドローンを操作して家畜化された男女を搬送させて行く。向かわせた先は巡槍艦ノアズアーク。
+        locator: {}
+        spoiler_after: ch5239
+    visual:
+      observations:
+      - event_ref: E_ch5239_トリシューラ_observes_カルカブリーナの決意_p84
+        quote: 跪くカルカブリーナはゴーグルを額に持ち上げて、視線をトリシューラに向けている。強い意思のこもった眼差しだと、表情筋の動きと強ばり方から判断する。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ガロアンディアン]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5239_ガロアンディアン_functions_as_心身の修復場所_p11
+        quote: ガロアンディアン――どころか世界最先端の技術の結晶であるあの場所ならば、壊された心身を少しずつ『修復』することも可能である。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_メートリアン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5239_メートリアン_other_資質_p113
+        quote: 三ヶ月ほど前から、あの白い好敵手はその資質を更に急成長させている。まるで止まった時間が急激に動き出したかのように。 同じく準一級である彼女は、きっと今回の試験で一級になるだろう。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_バル・ア・ムント]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5239_バル・ア・ムント_fights_ロドウィ_p125
+        quote: 松明の騎士団屈指の剛力と槍捌きは全力のロドウィすらたじろがせるものだった。不利を悟った巨大な蛙は跳ねながら闇の中に逃げていった。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_バル・ア・ムント_carries_クレイ_p168
+        quote: バルは気を失った刺客――クレイをここまで連れてきていた。 気絶した大の男を片手で運びながら戦うその腕力と技量は大したものとしか言えないが、しかしどうなんだこれは。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_バル・ア・ムント_uses_高位治癒符_p220
+        quote: ロドウィの呪術による負傷はバルが持っていた高位治癒符によって応急処置が済んでいた。 相変わらず凄まじい効力だった。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_バル・ア・ムント_saves_カルカブリーナ_p40
+        quote: 開頭され脳髄を洗浄され全身の骨を砕かれ更には皮膚という皮膚を火炙りにされた彼は、死にかけで当時まだ序列十位であったバル・ア・ムントに救出された。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_バル・ア・ムント_other_泡の爆圧_p437
+        quote: 異獣であるジヌイービの角を加工した槍。ロドウィの呪術を無効化できているのはその材質ゆえらしい。
+        locator: {}
+        spoiler_after: ch5239
+    speech:
+      observations:
+      - event_ref: E_ch5239_バル・ア・ムント_other_クレイ_p187
+        quote: 「こいつ、巻き込まれそうになった――その、あいつらを庇っただろう」 「善でも悪でも、それがトリシューラの敵なら殺すだけです。逆に問いますが、その男が自己犠牲の精神を持たない人間だったら、悪だから殺していいのですか。更に言えば、その行動だけで善か悪かを判断できますか」
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_バル・ア・ムント_other_行動の重み_p191
+        quote: 「だがよ、行動したのは確かだろう。他がどうであれ、そこだけは揺るがねえ」 重々しく、バル・ア・ムントは即答した。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_バル・ア・ムント_helps_孤児院の子どもたち_p69
+        quote: 「俺は槍神教が運営する孤児院で育ちました。あの人もそこの出身です。時間を見つけては、あの人は顔を出してガキどもの面倒を見てくれていた。俺も世話になりました」
+          補足すれば、バルは修道騎士としての少ない給料を孤児院に寄付していた。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_地下迷宮]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5239_地下迷宮_is_located_第二層_p134
+        quote: 足下には原形を留めていない腐肉が散乱し、足を踏み出すと脆くなった骨が容易く砕かれていく。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリ・アキラ]]'
+  entity_type: character
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5239_シナモリ・アキラ_other_トリシューラの意識の部品_p14
+        quote: 例えばトリシューラにとってそれは機械としての自らの意識と部品、更にはそこから派生して彼女の創りだしたもの、そしてある瞬間においては使い魔たるシナモリ・アキラもその中に含まれる。
+        locator: {}
+        spoiler_after: ch5239
+    speech:
+      observations:
+      - event_ref: E_ch5239_シナモリ・アキラ_asks_クレイの処遇_p171
+        quote: 「殺すべきです」
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_シナモリ・アキラ_other_バルの意向_p204
+        quote: 参ったな。 リールエルバの側近と対立し、後々に禍根を残したくない。 優先順位は明らかなので、まあ殺すんだが。 どうにかバルを殺さず無力化して無防備なクレイの首をへし折るとしよう。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_シナモリ・アキラ_asks_クレイの家族関係_p351
+        quote: 「何、親を大事にするのはそう悪い事でもない――ところでお前、クレイ＝ライニンサルって言うらしいけど、グレンデルヒ＝ライニンサルの関係者か？」
+          「俺はあのような屑を好いていないし、あんなものは父親ではない！」
+        locator: {}
+        spoiler_after: ch5239
+    action:
+      observations:
+      - event_ref: E_ch5239_シナモリ・アキラ_uses_カード型端末陥穽_p218
+        quote: トリシューラの意向を伝え、カード型端末を使ってクレイの上半身を拘束する。光の帯が胴ごと腕を雁字搦めに縛り上げた。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_シナモリ・アキラ_other_呪術施設_p248
+        quote: そこだけ、骨ではなく石造りの部屋だった。 燐光を発する呪石や幾何学的な形状の呪具が溢れた、何らかの呪術的な施設。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_シナモリ・アキラ_other_クレイ_p332
+        quote: 弱った相手を強引に壁際に追い詰めていく俺を、バルがやんわりと窘めてきたがあえて断る。 これは多分、有効な尋問手段だ。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_シナモリ・アキラ_activates_射影三昧耶形アトリビュート_p443
+        quote: 「射影三昧耶形（アトリビュート）・六十八番（ヴィヴィ＝イヴロス）」 左手首に環状のパーツが装着される。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_シナモリ・アキラ_fights_ロドウィ_p462
+        quote: 刃の角度を直角に変える。左側で刃が高速回転を開始。風を纏った刃が相手の防御をガリガリと削っていく。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_シナモリ・アキラ_defeats_ロドウィ_p487
+        quote: 張り詰めた空気が引き裂かれ、最適化された右の掌打がロドウィを打ち据えた。 「NOKOTTA！」 巨体が仰向けに吹き飛ばされていく。俺は彼に触れていないにも関わらず。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5239_カルカブリーナ_asks_降下部隊への参加_p2
+        quote: 「陛下。お願いがございます」
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_カルカブリーナ_asks_降下部隊への参加_p57
+        quote: 「どうか、俺を降下する部隊に加えて下さい」 「【鬼火】を助けたいんだね？」
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_カルカブリーナ_confesses_バルへの親近感_p81
+        quote: 「お兄さん――ううん、年齢差を考えればお父さん、といった所なのかな」 「そ、そうです。親の顔は知りませんけど、親父みたいだと思ってました！」
+        locator: {}
+        spoiler_after: ch5239
+    action:
+      observations:
+      - event_ref: E_ch5239_カルカブリーナ_kills_理性を保っていた同僚_p27
+        quote: 第八魔将ハルハハールの魅了呪術によって離反したロシン＝バズイ隊の中で、ただ二人理性を保っていた二人のうち一人を殺害し、松明の騎士団を裏切った男。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_カルカブリーナ_uses_サイバーカラテアプリ_p29
+        quote: その後、魔将側が劣勢に陥るや否やサイバーカラテアプリを用いて裏切ったロシン＝バズイ隊を鎮圧。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5239_ちびシューラ_other_クレイの拘束_p210
+        quote: （アキラくん。手持ちの端末に【陥穽】あったでしょう。それで捕縛しといて） (うん。ちょっと思うところがありまして。敵側の情報が欲しいのも事実だしね)
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_ちびシューラ_other_アキラたち_p243
+        quote: （んー、そっち右、じゃないや。今道が変わったっぽいから、一つ前の十字路に戻って左、あ、また変わった） ちびシューラの誘導もどこか歯切れが悪い。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_ちびシューラ_other_クレイ_p376
+        quote: 「しっかりと乳離れができていてパパに反抗したいお年頃のクレイくん。ならママのことも大嫌いなのかな？」
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_ちびシューラ_other_シナモリ・アキラ_p507
+        quote: （やばっ、アキラくん逃げてっ）
+        locator: {}
+        spoiler_after: ch5239
+    action:
+      observations:
+      - event_ref: E_ch5239_ちびシューラ_other_演武動作_p476
+        quote: （解析完了――演武動作の最適化を実行） ちびシューラの声が脳内で響くと同時に、サイバーカラテ道場が提示する型に変化が加わる。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_市場]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5239_市場_other_神秘の零落_p223
+        quote: ただ、トリシューラのお陰で治癒符の価値は下がりっぱなしだが、市場に氾濫したせいで『神秘の零落』とやらが起こり、肉体は癒せても精神を癒す効力は低下しているらしい。クレイは目を瞑ったままうなされるように苦しんでいた。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_変異の三手]]'
+  entity_type: organization
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5239_変異の三手_is_made_of_培養された人体部位_p300
+        quote: ここにあるのは、その技術を応用して培養された人体の部位のようだった。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_クレイ]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5239_クレイ_other_乳房の壁を見て_p313
+        quote: というわけで、壁一面に並ぶ乳房を見た俺とバルは完全に無反応だったのだが、意外な反応が一つ。 クレイが失神した。
+        locator: {}
+        spoiler_after: ch5239
+    speech:
+      observations:
+      - event_ref: E_ch5239_クレイ_threatens_シナモリ・アキラ_p342
+        quote: 「き、貴様、シナモリ・アキラ！　いずれ必ず斬る！　絶対に殺してやる！　ここから出た後、首と胴とを切り離してやるからな！」 「はいはい、お前がその前に乳離れできたらな」
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_クレイ_reveals_ダモクレスの剣の正体_p395
+        quote: 「あれはこの虚栄の王国を切り裂く剣だ。選定された担い手が女王を斬り殺すことで、かの剣を支えるか細い糸は断ち切られ、『滅び』が墜ちてくる」
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_修道騎士]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5239_修道騎士_other_カルカブリーナの処遇_p36
+        quote: 行動は正当であり他に手段は無かったという声と、罪は罪であり裁かれるべきであるという声が上がり、議論が交わされた。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_槍神教の派閥]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5239_槍神教の派閥_captures_カルカブリーナ_p39
+        quote: が、正規の裁判を待つこと無く結果は出てしまった。槍神教のとある派閥によって捕縛された彼は、苛烈な拷問を受けたのだった。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ロドウィ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5239_ロドウィ_attacks_アキラとバル_p436
+        quote: 答えは、無数の泡が爆発したことで明らかになった。 珊瑚の角を持つ蛙、ロドウィが襲撃を仕掛けて来たのだ。
+        locator: {}
+        spoiler_after: ch5239
+      - event_ref: E_ch5239_ロドウィ_other_人造ホラー_p496
+        quote: ロドウィは素早く身体を起こすと、一つだけ泡を出現させて弾けさせた。小さな泡の中に押し込められていた巨大質量が出現。 人造ホラーだ。様々な種族をごた混ぜにしたような異形が、ロドウィの動きと連動するように蠢く。
+        locator: {}
+        spoiler_after: ch5239
+    speech:
+      observations:
+      - event_ref: E_ch5239_ロドウィ_other_呪文_p502
+        quote: 「暗き深淵よ、我が呼びかけに答えよ。水底とは死、泡とは生、息吹こそ記憶――ハザーリャよ、この者に力を与えたまえ！」 ロドウィの詠唱と同時に、人造ホラーが壮絶な呪力を発する。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リールエルバ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5239_リールエルバ_helps_カルカブリーナ_p45
+        quote: そこでリールエルバが手を差し伸べる。裏切り者として処断された男はガロアンディアンに送られ、そこでトリシューラの特殊な処置を受けて失った皮膚を取り戻したのだった。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五階層]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5239_第五階層_has_property_物質創造能力_p48
+        quote: 第五階層の住人が獲得する物質創造能力。それによって、自分で自分の皮膚を絶えず維持することで彼はかろうじて生命活動を行えている。彼は第五階層から出れば即死する身であり、アキラ同様、根っからのガロアンディアン人となる他に道は無い。
+        locator: {}
+        spoiler_after: ch5239
+  first_appearance_candidate: true

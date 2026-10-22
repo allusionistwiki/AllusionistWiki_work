@@ -1,0 +1,217 @@
+chapter: ch5004
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{ch5004_p21}]]'
+  object: '[[ME_{AR_game_overlay}]]'
+  claim: 異世界の魔法的な回避・反撃が、現実のスマホゲームにおけるAR（拡張現実）UIインターフェースによって処理されていることを示唆する。
+  quote: 予想されうる刃の軌道が赤い線となって俺の視界に投影される。
+  paragraph: p22
+  confidence: strong
+  quotes:
+  - quote: 予想されうる刃の軌道が赤い線となって俺の視界に投影される。
+    paragraph: p22
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{ch5004_p28}]]'
+  object: '[[ME_{samurai_cliché}]]'
+  claim: サイバー義肢を用いた物理的な刃の受け取りが、時代劇における『真剣白刃取り』というステレオタイプな武士の技をSF的に再構成している。
+  quote: 「真剣白刃取り」
+  paragraph: p28
+  confidence: moderate
+  quotes:
+  - quote: 「真剣白刃取り」
+    paragraph: p28
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{ch5004_p36}]]'
+  object: '[[ME_{mythical_weapons}]]'
+  claim: 敵の武器が自動で戻ってくる現象に対し、主人公は現実世界の神話伝説（ケルン・ランツェやインドのバブラーなど）を引き合いに出し、技術と魔法の境界を曖昧にしている。
+  quote: 元の世界の神話や伝説に、持ち主の手から離れて敵を倒し、自動的に手元に戻ってくる槍や剣、というのがあった。
+  paragraph: p36
+  confidence: moderate
+  quotes:
+  - quote: 元の世界の神話や伝説に、持ち主の手から離れて敵を倒し、自動的に手元に戻ってくる槍や剣、というのがあった。
+    paragraph: p36
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{ch5004_p78}]]'
+  object: '[[ME_{crowdsourced_app_design}]]'
+  claim: 戦闘アプリ『サイバーカラテ道場』の定義の曖昧さや機能のブレは、現実のユーザーフィードバックを重視しすぎたアプリ開発（クラウソシング）が招く品質問題や仕様未確定状態のパロディである。
+  quote: エンドユーザーの意見を集めてアプリの動作にフィードバックするということを売りの一つとしているので
+  paragraph: p80
+  confidence: strong
+  quotes:
+  - quote: エンドユーザーの意見を集めてアプリの動作にフィードバックするということを売りの一つとしているので
+    paragraph: p80
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_{ch5004_p11}]]'
+  object: '[[ME_{murder_philosophy}]]'
+  claim: 貧者の殺人を生存のための手段と定義し、殺人の本質を『満ち足りた者の贅沢』という純粋な快楽・目的性にあるとする哲学的考察が提示されている。
+  quote: 殺人は満ち足りた者の贅沢だ。貧者が生きるために人を殺すのは、略奪の手段か結果に過ぎない。
+  paragraph: p11
+  confidence: explicit
+  quotes:
+  - quote: 殺人は満ち足りた者の贅沢だ。貧者が生きるために人を殺すのは、略奪の手段か結果に過ぎない。
+    paragraph: p11
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{ch5004_p53}]]'
+  object: '[[ME_{rpg_combat_ui}]]'
+  claim: 視界にデフォルメ人体や狙いマーカーが表示される戦闘補助システムは、MMORPGやアクションゲームのHUD（ヘッドアップディスプレイ）およびターゲットロックオン機能を想起させる。
+  quote: デフォルメ人体が視界隅に表示され、接近する巨大狼の各所に赤い『狙え』マーカーが点灯。
+  paragraph: p53
+  confidence: strong
+  quotes:
+  - quote: デフォルメ人体が視界隅に表示され、接近する巨大狼の各所に赤い『狙え』マーカーが点灯。
+    paragraph: p53
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Wolf_Intelligence
+  note: 巨大狼が高い知性を持ち、学習能力（弾道予測への対抗）や意図的な行動（優先目標の変更）を取っている。これが単なる獣なのか、人狼のような知的種族なのか、あるいは魔法生物としての知性なのかが未確定。
+  quotes:
+  - quote: 最初に俺を殺そうとした人狼。あれは『知性』があるように見えた。この世界の怪物に皆知性が備わっているのだとしたら。
+    paragraph: p13
+    quote_verified: true
+  expected_payoff: 後の展開で、この世界における『モンスター』の生態学的・社会学的な地位が明かされ、戦闘行為が倫理的に問題視される可能性を示唆する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Party_Fate
+  note: 主人公が巨大狼と戦っている最中、他の仲間4人がどのように戦闘に関与し、最終的に生存したのか（あるいは死亡したのか）が描写されていない。特にp88での「二人が倒れていた」という言及から、すでに死者が出ている可能性が高い。
+  quotes:
+  - quote: 残る五枚の刃を一斉に四人へ投擲して後退させたかと思うと、素早く距離をとって俺の方へと向かってきたのだ。
+    paragraph: p48
+    quote_verified: true
+  - quote: 二人が倒れていたのは、果たしてあの刃によるものだろうか。不意打ちで遠距離攻撃を受けたとはいえ、盾と全身鎧で防備は完璧だったはずだ。
+    paragraph: p88
+    quote_verified: true
+  expected_payoff: 戦闘終了後のパーティの生存状態、および主人公の戦い方（自己中心的な戦い）が仲間を死に至らしめたか否かの葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_App_Security_Flaw
+  note: 弾道予測アプリがセキュリティソフトと相性が悪く、導入が面倒であると記述されている。これが戦闘中の通信妨害やバグの原因となる可能性、または敵側にも同様の技術がある暗示。
+  quotes:
+  - quote: 欠点はセキュリティソフトとの相性が悪くて導入が面倒なこと
+    paragraph: p24
+    quote_verified: true
+  expected_payoff: サイバー空間的な攻撃（ハッキング）による戦闘の頓挫、あるいはアプリの権限制限による機能不全。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Magic_Nature
+  note: 巨大狼の氷柱が「外から刺さったのではない」「光が触れた部分の内側から弾けるようにして」生成された。これは物理法則を無視した魔法であり、その原理（内側からの爆発/生成）が後の戦術にどう影響するか不明。
+  quotes:
+  - quote: 外から刺さったのではない。光が触れた部分の内側から弾けるようにして氷柱が飛び出したのだ。
+    paragraph: p110
+    quote_verified: true
+  expected_payoff: 魔法の対抗手段（装甲でなく内部防御）や、魔法に対する物理的な干渉（サイバー技術による無効化）の模索。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: SF的ガジェットとファンタジー要素の異種混交（SF-Fantasy Hybridity）
+  weight: 0.8
+  quotes:
+  - quote: サイバーカラテ道場のアシストに従って放たれた打撃は確かに巨大狼の顎下に吸い込まれたのだが、俺のパワーが足りなかったのか、装甲に阻まれて効いていない。
+    paragraph: p74
+    quote_verified: true
+  - quote: 不可解な現象だが、これも魔法ということか。
+    paragraph: p113
+    quote_verified: true
+  note: 義肢、アプリ、アルゴリズムといった近未来SF要素と、巨大狼、氷柱、人狼といったファンタジー要素が共存し、主人公の認識を混乱させている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による人間性の補完と限界（Technological Prosthetics & Limits）
+  weight: 0.7
+  quotes:
+  - quote: 義肢制御プログラムと同期することによって防御に必要な動作を自動的に行ってくれること。
+    paragraph: p24
+    quote_verified: true
+  - quote: 常識外の奇策がぽんと飛び出してくるほど俺は傑出した人物ではない。だから、マニュアル通りの行動をとるしかなかった。
+    paragraph: p103
+    quote_verified: true
+  note: 主人公はアプリ（サイバーカラテ道場）に依存して戦うが、アプリの定義の曖昧さや物理的な限界（パワー不足）により、最終的には生身の直感と犠牲で突破する。技術万能論への批判的側面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 戦闘における『知性』の定義と倫理（Definition and Ethics of Intelligence in Combat）
+  weight: 0.6
+  quotes:
+  - quote: 殺すなら断然人間だろう。意思を持ち、その一人一人が固有の人生を歩み...それを、俺というただの一個人の都合、勝利の快楽のためだけに使い潰すという最高の浪費。
+    paragraph: p8
+    quote_verified: false
+  - quote: 高い知能を持った獣、というだけなら元の世界にも数多くいた。それだけでは殺人とは見なせないだろう。
+    paragraph: p13
+    quote_verified: true
+  note: 怪物を殺すことへの倫理的ためらい（人間の方が価値があるという前提）と、敵が知性的であることの発見による罪悪感の揺らぎ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: アプリ経済と消費文化の批判的風刺（Critique of App Economy & Consumer Culture）
+  weight: 0.5
+  quotes:
+  - quote: PMCや警備会社、あるいは紛争地帯の反政府勢力にまで広く利用されている。
+    paragraph: p26
+    quote_verified: true
+  - quote: こういうダメさがこのアプリの欠点の一つだ。
+    paragraph: p80
+    quote_verified: true
+  note: 命に関わる戦闘技術が「アプリ」として流通し、レビューやバージョンアップで形作られるという構造的な滑稽さ。暴力のデジタイゼーション。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

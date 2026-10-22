@@ -1,0 +1,109 @@
+chapter: ch5075
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 3
+  themes: 4
+  quotes_verified: 9
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_lina_identity_and_motivation
+  note: リーナ・ゾラ・クロウサーがなぜ主人公の安否をこれほど気にかけ、深夜に衝動的な謝罪メールを送るのか。その背景にある個人的な事情（アズーリアとの関係性）は明かされていない。
+  quotes:
+  - quote: 『ごめんなさい、ただ謝られても意味が分からないですね。個人的な都合ですぐに返信できず、このような時間に衝動的に送信してしまいました。これは本当に、私の個人的な問題です。ですから詳しく説明することはできません。』
+    paragraph: p78
+    quote_verified: false
+  - quote: 『本当に、恨みは無いのでしょうか。聞けば貴方は魔将を松明の騎士の生き残りと共に倒した後、その騎士に放置され、見捨てられたといいます。』
+    paragraph: p56
+    quote_verified: false
+  expected_payoff: リーナがアズーリアの親族、友人、あるいはかつてアズーリアに助けられた存在であることが判明し、主人公とアズーリアの再会を仲介するキーパーソンとして機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_azuria_honor_guard_left_hand
+  note: 夢の中で現れた「色のない左手」「五環の金鎖」を持つ存在がアズーリアそのものか、あるいは彼の象徴的な力（呪具など）を帯びた状態であることの暗示。
+  quotes:
+  - quote: あらゆる光を飲み込むような、色のない左手。五環の金鎖。
+    paragraph: p123
+    quote_verified: true
+  expected_payoff: アズーリアが主人公を探し出す際、この「左手」に関連する特殊な能力や装備を使用することが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_lina_refusal_of_info
+  note: リーナはアズーリアの所在を主人公に伝えないと明言しつつも、「その人はこう言うでしょう」という代弁を行う。この矛盾した情報の扱いが、後の展開で意味を持つ可能性。
+  quotes:
+  - quote: 『残念ですが、私にはその人に関する情報をお伝えする事はできません』
+    paragraph: p99
+    quote_verified: true
+  - quote: 『ですがきっと、その人はこう言うでしょう。貴方がそこに無事でいることを、とても、とても嬉しく思う。今もまだ、その場所で戦い続けている貴方を、私はいつか必ず』
+    paragraph: p106
+    quote_verified: true
+  expected_payoff: リーナがアズーリアの所在を知りつつも、彼が主人公を探しに来ることを確信している（あるいは計画している）ため、情報を隠蔽していると判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「匿名性」から「個人名」への回帰による関係性の回復
+  weight: 0.9
+  quotes:
+  - quote: 相手が自分の行為を否定し、それを俺が肯定し直す、不毛で冗長な、第三者が見れば何をそんなに意地になっているのか、と呆れられるようなメールの応酬。
+    paragraph: p34
+    quote_verified: true
+  - quote: 文章だけの繋がりではあるが、俺はリーナ・ゾラ・クロウサーという探索者の知己を得た。
+    paragraph: p165
+    quote_verified: true
+  note: SNSでの炎上（匿名性による暴力）を経て、実名での丁寧なメールのやり取りを通じて、一人の人間としての信頼関係が構築される過程を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 恨みの否定と自己肯定を通じた「解放」
+  weight: 0.8
+  quotes:
+  - quote: 『そんなことはありません。むしろ、私はその人に深く感謝しています。貴方は恥知らずと言いますが、私はそうは思いません。何かの事情があったのだと私は思っていますし、そういう仕方の無い事情を抱えた人を恥知らず呼ばわりすることは、それこそ筋違いで、道理から外れているのでは無いでしょうか』
+    paragraph: p62
+    quote_verified: true
+  - quote: あの人がいなければ今の私はありません。そのことに対して感謝を伝えることだけを目標に、私は今日まで生きてきました。その意味で、私はあの人に救われ続けているのかもしれません
+    paragraph: p66
+    quote_verified: true
+  note: 主人公がアズーリアの「放置」を恨みとして処理せず、感謝と理解に変換することで、心理的な閉塞感（第五階層への取り残し）から精神的に解放される過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 不在の他者による「約束」という救済
+  weight: 0.7
+  quotes:
+  - quote: 『本当に、恨みは無いのでしょうか。聞けば貴方は魔将を松明の騎士の生き残りと共に倒した後、その騎士に放置され、見捨てられたといいます。』
+    paragraph: p56
+    quote_verified: false
+  - quote: 「私は、必ず貴方を迎えにいくから」
+    paragraph: p129
+    quote_verified: true
+  note: 直接会っていないリーナからの言葉が、主人公の孤独な待機時間を支える精神的支柱となり、夢の中でアズーリアの約束（「迎えに行く」）として具現化される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報社会における「真偽」と「信憑性」の乖離
+  weight: 0.5
+  quotes:
+  - quote: 当事者に近い人からの実名での発言は、その真偽はともかくとして情報としての確度が高そうに思える。事実かどうかはともかくとして、この場合はそれらしさというものが重要だ。
+    paragraph: p13
+    quote_verified: true
+  note: ネット上の言説が「事実」よりも「誰が発信したか」という権威や属性によって受け入れられる構造を皮肉り、その逆として個人的な信頼に基づく関係性を提示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

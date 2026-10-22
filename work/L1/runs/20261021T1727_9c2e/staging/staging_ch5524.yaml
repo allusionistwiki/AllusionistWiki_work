@@ -1,0 +1,436 @@
+episode: ch5524
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_コルセスカ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5524_コルセスカ_other_メンバー_p101
+        quote: '【p101】
+
+          「なのですぐメンバーチェンジしてパーンとテンボトアン交代、ミシャルヒはシャドウシフトして無敵権ここで切ります。オーファもメイヤちゃんと交代ですね」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_コルセスカ_uses_MOD_p43
+        quote: '【p43】
+
+          こういうとき、冬の魔女は『盛り上げるため』などと言ってキャラクターを変な衣装に着替えさせたり、外見をMODと呼ばれる改造データで変更したりしがちであった。
+
+          【p43】
+
+          動画内では現実の彼と瓜二つだ。'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_コルセスカ_other_難易度インフェルノ_p45
+        quote: '【p45】
+
+          「というわけで難易度インフェルノでやっていきたいと思います」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_コルセスカ_other_キャラクター達_p63
+        quote: '【p63】
+
+          「スタメンはいつもの。パーンはひたすら殴ってミシャルヒで攻防バフ、カーインはずっとビューティーウィップぶんぶんです」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_コルセスカ_other_カーインの合体技_p67
+        quote: '【p67】
+
+          「カーインが合体技の準備完了アピールしてるけど今回は使いません。パーンのゲージはミシャルヒと合わせたいので」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_コルセスカ_attacks_ダウザール_p75
+        quote: '【p75】
+
+          「波動掌！　波動掌！　双撃波動！　昇牙絶功！　弧王旋空！」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_コルセスカ_other_幻想六将伝Ⅳ_p8
+        quote: '【p8】
+
+          プレイ動画だ。冬の魔女コルセスカがゲームの実況配信をしている。
+
+          【p16】
+
+          『幻想六将伝Ⅳ～奈落の四神珠～リマスター版』。'
+        locator: {}
+        spoiler_after: ch5524
+    speech:
+      observations:
+      - event_ref: E_ch5524_コルセスカ_other_配置戦略_p109
+        quote: '【p109】
+
+          「第二形態での注意点として、殴る時に常に右手側から当てていくようにすることですね。包囲すると振り向き邪視ビーム飛ばされるので、味方の配置に気をつけましょう。」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_コルセスカ_says_おはセスカ_p2
+        quote: '【p2】
+
+          おはセスカ。'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_コルセスカ_says_攻略解説_p38
+        quote: '【p38】
+
+          「史実的にもゲーム的にも負けイベントなのですが、実はここ普通に勝てちゃうんですね。体力ゲージはかなり無茶な量ですけどパーンの義肢モジュールで割合ダメージのやつを獲得しておくとなんとかなるので'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_コルセスカ_other_イベントルート_p55
+        quote: '【p55】
+
+          「モーエンとのイベント起こして裏口から奇襲するルートだと蹄鉄が全部揃うのでチェダラーテとエンハドーラが両脇にいる状態のパーフェクトダウザールと戦えるんですが'
+        locator: {}
+        spoiler_after: ch5524
+    name:
+      observations:
+      - event_ref: E_ch5524_コルセスカ_names_パーン_p17
+        quote: '【p17】
+
+          コルセスカがプレイしているのは渦中の人であるパーンを主役に据えたやや古めのロールプレイングゲームである。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_コキュートス]]'
+  entity_type: organization
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5524_コキュートス_other_ガロアンディアン_p117
+        quote: '【p117】
+
+          ガロアンディアンはアンドロイドの魔女トリシューラの王国であると同時に、冬の魔女コルセスカの浄界『コキュートス』の影響下に置かれている。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_遊び]]'
+  entity_type: motif
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5524_遊び_defines_現実の文脈_p121
+        quote: '【p121】
+
+          どのような情報を提示されたとしても、それは『遊び』の中に取り込まれてしまう。
+
+          【p122】
+
+          そして、もはやこの現実は『遊び』と共にあるのだ。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ゲームの物語]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5524_ゲームの物語_other_善悪の結論_p129
+        quote: '【p129】
+
+          すなわち、どちらが勝った方が痛快であるのか、という結論を誘導されたのだ。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5524_パーン_other_悲恋の感情_p137
+        quote: '【p137】
+
+          何故なら、臆面もなく第五階層に実在している再生者のパーンがそれに『乗っかった』からである。つらい過去を追想するように唇を噛み、一筋の雫が頬を流れる。'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_パーン_defeats_ダウザール_p146
+        quote: '【p146】
+
+          動画はコルセスカが操るパーンによってダウザールが倒された場面で幕を閉じた。'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_パーン_other_群衆_p233
+        quote: '【p233】
+
+          当然のように群衆を見下ろし、その上で全ての魂を鷲掴みにしてみせる。
+
+          【p234】
+
+          それこそが覇者が持つカリスマ。世界は既にパーンのものだ。'
+        locator: {}
+        spoiler_after: ch5524
+    speech:
+      observations:
+      - event_ref: E_ch5524_パーン_says_命を他者に預けるな_p226
+        quote: '【p226】
+
+          「命を他者に預けるな！　観客席の有象無象ども、お前たちは既にただの第三者ではない！　記述の風が吹き荒れる航路、その枠こそがお前たち観客という読者だ！」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_パーン_says_フェロニア_p35
+        quote: '【p35】
+
+          それを見たパーンが小さく『フェロニア』と呟くと、画面が一瞬だけ切り替わり笑顔で振り返る少女の一枚絵（スチル）が表示されてすぐに消えた。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_観客]]'
+  entity_type: organization
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5524_観客_other_俗説の真実_p140
+        quote: '【p139】
+
+          それを拡大された立体幻像の窓で見せつけられた人々はこう思ってしまった。
+
+          【p140】
+
+          『まさか、あの俗説が真実だったとは』と。'
+        locator: {}
+        spoiler_after: ch5524
+    action:
+      observations:
+      - event_ref: E_ch5524_観客_other_悪役の出現_p183
+        quote: '【p183】
+
+          観客にとっても選手にとっても、打倒すべき『悪役』が存在してくれた方が望ましい。'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_観客_other_パーン_p239
+        quote: '【p238】
+
+          ビルメーヤの理性的な言葉を踏みにじる暴言の数々。
+
+          【p239】
+
+          しかしパーンに浴びせられたのは熱狂と興奮の大歓声だった。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ダウザール]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5524_ダウザール_says_非道なことやってない_p149
+        quote: '【p149】
+
+          「ワシ、ここまで非道なことやっとらんけどー？！」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_ダウザール_says_越えてみせよ_p160
+        quote: '【p160】
+
+          「よかろう。お前の児戯に付き合ってやるのも悪くない。リーナ、そしてパーン。この私を越えてみせよ。それができるのであれば、今さら私など必要ないのだからな」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_ダウザール_says_死にたいと見える_p22
+        quote: '【p22】
+
+          「まさか、自ら飛び込んでくるとはな。よほど死にたいと見える」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_ダウザール_says_ガレニス滅びよ_p49
+        quote: '【p49】
+
+          「滅びよガレニス。貴様を喰らい、蹄鉄の四珠すべてを取り戻してくれようぞ！」'
+        locator: {}
+        spoiler_after: ch5524
+    action:
+      observations:
+      - event_ref: E_ch5524_ダウザール_other_エンハドーラ_p168
+        quote: '【p166】
+
+          「来たれ我が乗騎、エンハドーラ！」
+
+          【p168】
+
+          老人の背後で大気が波打ち、虚空から沁み出すように巨大な箒が現れた。'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_ダウザール_transforms_本気モード_p99
+        quote: '【p99】
+
+          肥大化していくダウザールの肉体はもはや怪物のそれで、瞳からも声からも理性は失われていた。獣じみた咆哮が轟くと、嵐さながらの風と雷光が炸裂し始める。'
+        locator: {}
+        spoiler_after: ch5524
+    visual:
+      observations:
+      - event_ref: E_ch5524_ダウザール_has_property_継ぎ接ぎの肉体_p26
+        quote: '【p26】
+
+          全ての血族の特徴を併せ持つ肉体は継ぎ接ぎだ。不自然に縫い合わせた人形の寄せ集めさながらである。'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_ダウザール_has_property_異形の心臓_p33
+        quote: '【p33】
+
+          現れたのは、複数人のものを強引につなぎ合わせた異形の心臓だ。'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_ダウザール_appears_現実世界_p9
+        quote: '【p9】
+
+          今まさに、リーナ・ゾラ・クロウサーの血脈から引きずり出された古き空の支配者、伝説的な覇王がその姿を現したという場面であるにもかかわらず'
+        locator: {}
+        spoiler_after: ch5524
+    relationship:
+      observations:
+      - event_ref: E_ch5524_ダウザール_kills_パーンの両親_p26
+        quote: '【p26】
+
+          パーンの両親を殺し、彼の右腕を奪った仇。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_エンハドーラ]]'
+  entity_type: item
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5524_エンハドーラ_functions_as_生ける箒の原型_p169
+        quote: '【p169】
+
+          古めかしい型の機甲箒の形状は直前にエンハとナックスの兄弟が見せた『生ける箒』の秘術と酷似していた。というより、その原型なのだろう。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_機械女王]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5524_機械女王_other_特別参加枠_p178
+        quote: '【p178】
+
+          機械女王とクロウサー家が協議した結果、新たにダウザールのために特別参加枠が用意されたという内容だったが'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_祝祭]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5524_祝祭_defines_大呪術の世界_p192
+        quote: '【p192】
+
+          それは祝祭という大呪術が形にした目に見えない一個の世界。
+
+          【p193】
+
+          人を喰らい、呑み込む享楽の水面。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マルガリータ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5524_マルガリータ_says_叩き潰してあげるわ_p198
+        quote: '【p198】
+
+          「まがい物ども。叩き潰してあげるわ」'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_リーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5524_リーナ_other_ミルーニャの喪失_p208
+        quote: '【p208】
+
+          その中でリーナ・ゾラ・クロウサーだけは未だにミルーニャの喪失による衝撃の傷に打ちのめされたままだ。'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_リーナ_loses_声_p273
+        quote: '【p272】
+
+          呼び声は大歓声に押しつぶされて消えていった。
+
+          【p273】
+
+          リーナ・ゾラ・クロウサーの言葉は、どこにも届かない。'
+        locator: {}
+        spoiler_after: ch5524
+    speech:
+      observations:
+      - event_ref: E_ch5524_リーナ_other_ミルーニャの死の性質_p258
+        quote: '【p258】
+
+          リーナは、ミルーニャもまた己の死を『使うことができる』タイプだとわかっていた。'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_リーナ_other_ガルズ_p270
+        quote: '【p268】
+
+          ぽつりと形になった言葉は、ここにはいない誰かの名前だ。
+
+          【p270】
+
+          「ガルズ」'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ビルメーヤ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5524_ビルメーヤ_says_当主の名が泣きますね_p216
+        quote: '【p216】
+
+          「たかが肉親の命ひとつでこのざまとは。当主の名が泣きますね」'
+        locator: {}
+        spoiler_after: ch5524
+      - event_ref: E_ch5524_ビルメーヤ_other_観客_p220
+        quote: '【p220】
+
+          「みなさん、私とリーナさんはあのような非道な手段でレースを穢す者にはけっして負けません！　どうか安心してくださいね！」'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_世界の全て]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5524_世界の全て_transforms_書き換えられた世界_p3
+        quote: '【p3】
+
+          森羅万象を震わせる呪文と共に、世界の全てが書き換えられる。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_第五階層の人々]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5524_第五階層の人々_observes_動画配信_p4
+        quote: '【p4】
+
+          第五階層を中心とした意識圏は瞬く間に戸惑いと驚きに染め上げられた。それは動画の配信という形で第五階層に存在する全ての人々の脳に叩き込まれた『過去』である。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミシャルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5524_ミシャルヒ_fights_ダウザール_p90
+        quote: '【p88】
+
+          「灼空！」「閃影！」
+
+          【p90】
+
+          二人が声をそろえて叫び、ダウザール目掛けて同時に拳を叩き込む。'
+        locator: {}
+        spoiler_after: ch5524
+  first_appearance_candidate: true

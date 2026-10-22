@@ -1,0 +1,211 @@
+chapter: ch5215
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 3
+  quotes_verified: 19
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_草の民の救援]]'
+  object: '[[ME_emergency_evacuation_service]]'
+  claim: 遊牧民による迅速な情報収集と避難誘導は、災害時の緊急移動支援サービスや救急搬送システムの機能を模倣している。
+  quote: 彼らは迅速に情報を収集し、体勢を整え、電撃的に会場へと乗り込むと魔将サイザクタートに一撃を食らわせ、深追いすることなく負傷者たちを連れて離脱。
+  paragraph: p32
+  confidence: moderate
+  quotes:
+  - quote: 彼らは迅速に情報を収集し、体勢を整え、電撃的に会場へと乗り込むと魔将サイザクタートに一撃を食らわせ、深追いすることなく負傷者たちを連れて離脱。
+    paragraph: p32
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_新たな死人の感染上書き]]'
+  object: '[[ME_virus_variant_replacement]]'
+  claim: 魔将の死人が既存の感染株を上書きされる現象は、生物学的なウイルスの変異や宿主適応による置換プロセスを思わせる。
+  quote: しかし、全く同じように感染を続け、更にはそれを上書きしていく新たな死人が出現していた。
+  paragraph: p88
+  confidence: strong
+  quotes:
+  - quote: しかし、全く同じように感染を続け、更にはそれを上書きしていく新たな死人が出現していた。
+    paragraph: p88
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ピッチャールーの自動対抗]]'
+  object: '[[ME_missile_defense_system]]'
+  claim: ピッチャールーが呪術予兆を感知し爆発する端末を自動で吐き出す挙動は、ミサイル迎撃システム（C-RAM等）の防御アルゴリズムに酷似している。
+  quote: 放たれた呪術を吸い込んで防御をするばかりでなく、発動の予兆を感知して敵に殺到して爆発するという高性能な兵器。
+  paragraph: p135
+  confidence: strong
+  quotes:
+  - quote: 放たれた呪術を吸い込んで防御をするばかりでなく、発動の予兆を感知して敵に殺到して爆発するという高性能な兵器。
+    paragraph: p135
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_天眼の民の変身]]'
+  object: '[[ME_epigenetics_atavism]]'
+  claim: 祖先の記憶を参照し形質を発現させる変身能力は、エピジェネティクスにおける遺伝子のスイッチングや先祖返り（アタヴィズム）の概念を指喩としている。
+  quote: 一族の祖霊の力によって、祖先の形質を強制的に発現させ、一時的な突然変異として覚醒する能力。
+  paragraph: p222
+  confidence: moderate
+  quotes:
+  - quote: 一族の祖霊の力によって、祖先の形質を強制的に発現させ、一時的な突然変異として覚醒する能力。
+    paragraph: p222
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_シャルマキヒュの凍視]]'
+  object: '[[ME_quantum_zeno_effect]]'
+  claim: 分子運動の把握と予測による擬似時間停止は、観測によって量子系の進化が抑制される『量子ゼノ効果』のような物理学的パラドックスを想起させる。
+  quote: それは【凍視】と呼ばれる時間停止能力であり、これは「無秩序な混沌である全ての分子運動を未来永劫に渡って把握することは不可能でも、時間と空間を限定すれば可能である」とする己の能力への確信によるものである。
+  paragraph: p236
+  confidence: weak
+  quotes:
+  - quote: それは【凍視】と呼ばれる時間停止能力であり、これは「無秩序な混沌である全ての分子運動を未来永劫に渡って把握することは不可能でも、時間と空間を限定すれば可能である」とする己の能力への確信によるものである。
+    paragraph: p236
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_生命吸収と記憶喪失]]'
+  object: '[[ME_data_deletion_corruption]]'
+  claim: 戦闘記録の消失や相手の認識を奪う能力は、デジタルデータからの完全な削除やメモリ破損によるシステムダウンを連想させる。
+  quote: ピッチャールーが蓄積していた戦闘記録が残らず消失していき、目の前の敵対者の輪郭すらあやふやになっていく。
+  paragraph: p260
+  confidence: moderate
+  quotes:
+  - quote: ピッチャールーが蓄積していた戦闘記録が残らず消失していき、目の前の敵対者の輪郭すらあやふやになっていく。
+    paragraph: p260
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_meiferala_identity_reveal
+  note: メイファーラがシャルマキヒュの霊媒ではないとされる中での『隔世』発動。彼女の真の出自と力の本質に関する伏線。
+  quotes:
+  - quote: 彼女は確かに、シャルマキヒュの霊媒ではなかった。
+    paragraph: p162
+    quote_verified: true
+  - quote: 「隔世（めざめ）よ――【ユディーア】」
+    paragraph: p164
+    quote_verified: true
+  expected_payoff: メイファーラが黒百合の一族としてではなく、天眼の民としての権能を継承していることが判明し、その力の大元（祖霊）との関係が語られる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_gray_lizard_girl_origin
+  note: 奈落でメイファーラを助けた灰色の鱗を持つ亜竜人少女の正体。角が片方折れている理由。
+  quotes:
+  - quote: 蜥蜴人の上位種、亜竜人（ドラゴニュート）の証たる二つの角は片方が根元で折れ、綺麗な断面を晒していた。
+    paragraph: p208
+    quote_verified: true
+  - quote: その正体を記憶している者は、誰もいない。
+    paragraph: p273
+    quote_verified: true
+  expected_payoff: 彼女が天眼の民と爬虫類（灰蜥蜴）の混血児である可能性や、メイファーラとの血縁関係、過去の悲劇的な事件（角の欠損）への言及。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_new_undead_leader
+  note: 狂った哄笑と九つの衝撃を生み出した「新たな死人」たちの統率者、またはその源。
+  quotes:
+  - quote: 同時刻、第一区の宝石店で巨大な呪力が爆発し、天を衝く光の柱が立ち上った。
+    paragraph: p118
+    quote_verified: true
+  - quote: どこからか、狂ったような哄笑が響き渡る。
+    paragraph: p114
+    quote_verified: true
+  expected_payoff: 宝石店で発生した爆発の中心にいる存在（カラスの死体を利用した誰かなど）の特定と、その目的。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_pitcharou_escape_fate
+  note: ピッチャールーが奈落から脱出する際、「あとはお任せ」という発言をした相手。
+  quotes:
+  - quote: 「あとはお任せ、かな」
+    paragraph: p270
+    quote_verified: true
+  - quote: 勢いよく奈落から地上へと飛び上がり逃亡していく。
+    paragraph: p264
+    quote_verified: true
+  expected_payoff: ピッチャールーを拾う勢力、あるいは彼が持ち帰るデータ（消失した戦闘記録のバックアップなど）を利用する人物。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術体系化による知の独占と隠蔽：きぐるみの魔女によって体系化された魔法は、既存の霊的・生物学的現象を再定義し、その起源を忘れさせることで支配権を確立している。
+  weight: 0.9
+  quotes:
+  - quote: きぐるみの魔女トリシューラが体系化した寄生異獣の技術は、実際の所は以前から存在した使い魔や霊体の使役を体系内部に位置付けただけに過ぎない。
+    paragraph: p143
+    quote_verified: true
+  - quote: 【シャルマキヒュの凍視】という高位呪術は本来の姿を失い、投射型の邪視者が対象を束縛する呪術として扱われるようになって久しい。
+    paragraph: p241
+    quote_verified: true
+  note: メイファーラや亜竜人の力が「忘れられた」技術であることと、体系化された魔法との対比が主題の中心にある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 時間と記憶の暴力：戦闘経験（時間）を吸収・消去することは、物理的な破壊以上に存在の根拠（記憶・歴史）を奪う行為であり、戦場の非人間性を示す。
+  weight: 0.8
+  quotes:
+  - quote: 天眼を輝かせる亜竜人の手から、魔将の時間が吸い取られていく。
+    paragraph: p253
+    quote_verified: true
+  - quote: 「あたしのこの姿を見た人は、みーんな忘れちゃうんだよー」
+    paragraph: p255
+    quote_verified: true
+  note: ピッチャールーの記録消失と少女の「忘れさせる」能力が、存在論的な暴力を象徴している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自然の復権と文明の脆さ：遊牧民（草の民）の機動力や亜竜人の生物兵器としての身体性が、機械仕掛けの魔将や体系化された魔法といった人工的な秩序を侵食・破壊する。
+  weight: 0.7
+  quotes:
+  - quote: 草の民の大草原を移動する遊牧民たちは、今日の葬送式典に招かれ、この混乱に巻き込まれた。
+    paragraph: p26
+    quote_verified: false
+  - quote: 全体的には霊長類に似た姿でありながら、手足や肌、尻尾や頭部といった特徴的な部分は爬虫類のそれ。
+    paragraph: p204
+    quote_verified: true
+  note: 草原の民と奈落の亜竜人が、文明側（魔将・修道会）に対して優位に立つ構図が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

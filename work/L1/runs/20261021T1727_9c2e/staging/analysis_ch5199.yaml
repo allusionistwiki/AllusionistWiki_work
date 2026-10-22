@@ -1,0 +1,172 @@
+chapter: ch5199
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 6
+  themes: 5
+  quotes_verified: 19
+  quotes_total: 21
+items:
+- kind: mystery
+  name: MY_謎の男性の正体
+  note: 映像に現れた、アキラを救いカッサリオを攻撃した長身の男性。アキラと顔が似ているように見える描写がある。
+  quotes:
+  - quote: 見知らぬ長身の男性がカッサリオを攻撃してアキラの窮地を救ったり
+    paragraph: p128
+    quote_verified: true
+  - quote: 正面から大写しになった二人の男の顔がはっきりと見えるが、あまり違いがよく分からなかった。
+    paragraph: p131
+    quote_verified: true
+  expected_payoff: カイン（故人）の蘇生、あるいはカインに酷似した存在（クローン、使い魔化された者など）である可能性。アキラの過去への回収となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_メイファーラの動揺
+  note: トリギスとの関係が「話したことがあるくらい」と薄いとされるにもかかわらず、紙パックを握りつぶすほどの強い動揺を見せる。
+  quotes:
+  - quote: その時、何故かメイファーラが飲んでいた野菜ジュースの紙パックをべこっと握りつぶす。
+    paragraph: p133
+    quote_verified: true
+  - quote: 目を泳がせるメイファーラ。明らかにちょっと衝撃だったという雰囲気ではない。彼女がここまで動揺するのは珍しい。
+    paragraph: p140
+    quote_verified: true
+  expected_payoff: トリギスとの間に秘められた深い関係（師弟、因縁、家族）の発覚、あるいはメイファーラ自身の過去（前世）に関するトラウマの露呈。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの義肢と手斧
+  note: 以前の姿を見せるためとの推測があるが、円筒形の左腕に手斧がついている特異な形状。
+  quotes:
+  - quote: 円筒形の左腕がある。先端には単純な形状の手斧。
+    paragraph: p98
+    quote_verified: true
+  - quote: あのきぐるみ女なら義肢くらい間に合わせでもすぐに用意できるはずですし
+    paragraph: p100
+    quote_verified: true
+  expected_payoff: アキラが「武器」と化していることの象徴。トリシューラによる肉体改造（サイボーグ化）の度合いと、彼の精神状態の悪化を示す伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第六階層の崩壊
+  note: 映像内で第六階層特有の異形の壁面が崩壊している描写がある。カッサリオの出現と関連するか。
+  quotes:
+  - quote: 第六階層特有の異形の壁面が何故か崩壊していることも気になったが
+    paragraph: p110
+    quote_verified: true
+  expected_payoff: 迷宮の主（カッサリオ）出現による構造破壊、あるいはアキラの戦いによる物理的な損傷が階層間移動に波及する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ソルダ・アーニスタの不在と暴走
+  note: 守護の九槍第一位（最強）がコルセスカ関連で冷静さを失い現場を離れている。
+  quotes:
+  - quote: 第一位は冷静さを失っているみたい
+    paragraph: p154
+    quote_verified: true
+  - quote: 本当なら地上の防衛を放棄して自分で向かいたかったのだろうが
+    paragraph: p159
+    quote_verified: true
+  expected_payoff: コルセスカ（冬魔女）との決戦、あるいはソルダが個人的感情により組織的指揮を放棄することによる大事件の発生。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リーナのガルズへの葛藤
+  note: アキラの話から連想して、死んだ従兄弟ガルズに対する「近くにいなかった」罪悪感と、「全部が悪いわけではない」という問い。
+  quotes:
+  - quote: 何で私、その時すぐ近くにいなかったんだろうって。
+    paragraph: p257
+    quote_verified: true
+  - quote: 悪い事をしたら罰せられるのも当然だとおもうけど。でも、だからってそのせいで、その人がしたこと、全部が悪いってことになっちゃうのかな
+    paragraph: p252
+    quote_verified: false
+  expected_payoff: ガルズの真の行動理由（善行・犠牲）の発覚、またはアキラに対するリーナとアズーリアの評価の分岐点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人間関係の複雑化によるアイデンティティの希薄化と疲弊
+  weight: 0.8
+  quotes:
+  - quote: 私は頭の中で展開された勢力図を整理しつつ呻いた。幸い、頭が爆発しそうになったのは私だけじゃなかったらしい。
+    paragraph: p65
+    quote_verified: true
+  - quote: うがああああなんでこんなぐちゃぐちゃしてるの！　普通によーいどんで四人で殴り合えばいいじゃん！　いいじゃん！
+    paragraph: p69
+    quote_verified: true
+  note: 敵味方が流動的で入り組んだ派閥抗争により、登場人物たちが本来の目的（呪術儀式）を見失い、精神的に疲弊している様子が描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「見捨てた」という罪悪感と敵対関係の不可逆性
+  weight: 0.9
+  quotes:
+  - quote: 私たちは彼を見捨てた。見殺しにして、異獣に殺されることを容認した。
+    paragraph: p112
+    quote_verified: true
+  - quote: アキラはもう敵なんだ。だから、全部、切り捨てないと。
+    paragraph: p186
+    quote_verified: true
+  note: 過去の裏切り行為（見殺し）が現在の惨劇を招いたという因果律の自覚と、それでも感情の断絶に苦しむ主人公の内面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 善悪二元論の解体：罪は行為の全否定に至るか
+  weight: 0.7
+  quotes:
+  - quote: 悪い事をしたら罰せられるのも当然だとおもうけど。でも、だからってそのせいで、その人がしたこと、全部が悪いってことになっちゃうのかな
+    paragraph: p252
+    quote_verified: false
+  - quote: ごめん、全然上手く言えない。頭悪くてごめんね。けどさ、私、こういう窮屈な感じ、凄く嫌
+    paragraph: p262
+    quote_verified: true
+  note: アキラ（敵）への評価を通じて、ガルズ（故人）の行為を再評価しようとするリーナの問いかけは、物語全体の「正義」の定義に対する揺さぶりである。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 組織論理と個人感情の板挟み
+  weight: 0.6
+  quotes:
+  - quote: 立場上、一探索者を任務よりも優先しろとは言えないだろうし、あの人も大変だなあ。
+    paragraph: p160
+    quote_verified: true
+  - quote: 下手な行動をして周囲に迷惑をかけてはいけない。――かつて私はそうして大きな被害を出してしまったのだから。
+    paragraph: p182
+    quote_verified: true
+  note: ソルダ・アーニスタ（上位者）もアズーリア（下位者）も、組織の枠組みと個人的な愛憎の間で行動を制限されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術移転による非人間化と監視社会
+  weight: 0.5
+  quotes:
+  - quote: 膨大な情報量を処理しきれない為、普段は金鎖のフラベウファが管理し、重要度の高い情報を優先して全修道騎士に送信する。
+    paragraph: p92
+    quote_verified: true
+  - quote: 肉体に呪具を埋め込んでいるのだろうか
+    paragraph: p110
+    quote_verified: true
+  note: 映像の自動選別・配信システムや、義肢化されたアキラの姿は、技術が人間性を損ない、監視と管理が行き届く世界を象徴している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,286 @@
+chapter: ch5250
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 19
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5250_レオ_says_カーインへの罵詈雑言_p30]]'
+  object: '[[ME_modern_workplace_abuse]]'
+  claim: レオの辛辣な叱責は、現代のブラック企業における上司から部下への人格否定を伴うパワハラ・ハラスメント構造と類似している。
+  quote: '「情けないね。無様を晒すのは何度目なのかな？」
+
+    「言い訳くらいしなよ。両手両足を振るって勝つことができないのなら、もう口を動かすしかないでしょう？」'
+  paragraph: p30, p34
+  confidence: strong
+  quotes:
+  - quote: '「情けないね。無様を晒すのは何度目なのかな？」
+
+      「言い訳くらいしなよ。両手両足を振るって勝つことができないのなら、もう口を動かすしかないでしょう？」'
+    paragraph: p30, p34
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5250_レオ_threatens_カーイン_p58]]'
+  object: '[[ME_pet_owner_relationship]]'
+  claim: 「捨てちゃうから」という脅しは、ペットや所有物を管理する立場にある者が、機能不全を理由に廃棄（リセット）を示唆する関係性を想起させる。
+  quote: 「あまり僕を失望させないでね――でないと、そのうち捨てちゃうから」
+  paragraph: p58
+  confidence: strong
+  quotes:
+  - quote: 「あまり僕を失望させないでね――でないと、そのうち捨てちゃうから」
+    paragraph: p58
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5250_サイバーカラテ_functions_as_数の暴力_p88]]'
+  object: '[[ME_machine_learning_big_data]]'
+  claim: サイバーカラテの「無限回の試行と多人数分散処理」は、機械学習におけるビッグデータによる最適化（統計的優位性の獲得）を指喩している。
+  quote: '途方もない試行回数は、多人数による分散処理によって時間的に圧縮する。
+
+    それがサイバーカラテの強み、すなわち数の暴力だ。'
+  paragraph: p87, p88
+  confidence: strong
+  quotes:
+  - quote: '途方もない試行回数は、多人数による分散処理によって時間的に圧縮する。
+
+      それがサイバーカラテの強み、すなわち数の暴力だ。'
+    paragraph: p87, p88
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5250_牙猪種_has_property_牙による自死の運命_p111]]'
+  object: '[[ME_samurai_suicide_hara_kiri]]'
+  claim: 牙が頭部に突き刺さって死ぬという牙猪種の宿命は、日本の侍文化における切腹（自ら刃で喉/首を切る）の運命論的モチーフと構造的に一致する。
+  quote: そのまま伸びれば発達した牙が頭部に突き刺さって死に至るという呪われた宿命を持つ稀少種族であるチリアットは
+  paragraph: p111
+  confidence: moderate
+  quotes:
+  - quote: そのまま伸びれば発達した牙が頭部に突き刺さって死に至るという呪われた宿命を持つ稀少種族であるチリアットは
+    paragraph: p111
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5250_店員さん_other_再生者と牙猪の誤解_p153]]'
+  object: '[[ME_greek_mythology_minotaur]]'
+  claim: 「再生者（オルクス）」が牙猪として描かれるという記述は、ギリシャ神話のミノタウロス（牛頭の怪物）やオース（Orc）のイメージ形成における「怪物＝家畜的獣」への転換を想起させる。
+  quote: 画家たちによって再生者イコール牙猪というイメージが出来上がりました。牙猪たちのことをオルクスとか、オークとか呼ぶ言語も存在するくらいです。
+  paragraph: p153
+  confidence: moderate
+  quotes:
+  - quote: 画家たちによって再生者イコール牙猪というイメージが出来上がりました。牙猪たちのことをオルクスとか、オークとか呼ぶ言語も存在するくらいです。
+    paragraph: p153
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5250_チリアット_transforms_黒亜竜人_p189]]'
+  object: '[[ME_cybernetic_augmentation_body_horror]]'
+  claim: 右腕が漆黒の鱗に覆われ変貌する描写は、SFにおけるサイボーグ化やボディホラー（身体の変異・侵食）の恐怖を表現している。
+  quote: '右腕が漆黒の鱗に覆われていき、蜥蜴人のように変化していく。
+
+    野太い腕から黒々とした肉腫が膨れあがり、蠢き、『変身』が始まった。'
+  paragraph: p189, p187
+  confidence: strong
+  quotes:
+  - quote: '右腕が漆黒の鱗に覆われていき、蜥蜴人のように変化していく。
+
+      野太い腕から黒々とした肉腫が膨れあがり、蠢き、『変身』が始まった。'
+    paragraph: p189, p187
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5250_クレイ_attacks_カーインの髪と頬_p261]]'
+  object: '[[ME_bureaucratic_intimidation]]'
+  claim: 「黙れ」という短い言葉が物理的な圧力を伴うという描写は、権力者が持つ威圧や官僚組織における沈黙による支配の比喩として機能する。
+  quote: 'クレイの声が一段低くなり、物理的な圧力を伴ってカーインの長広舌を一刀両断した。それは低位の呪文である。
+
+    極限にまで薄く小さく押し固めた【空圧】の刃。'
+  paragraph: p259, p260
+  confidence: moderate
+  quotes:
+  - quote: 'クレイの声が一段低くなり、物理的な圧力を伴ってカーインの長広舌を一刀両断した。それは低位の呪文である。
+
+      極限にまで薄く小さく押し固めた【空圧】の刃。'
+    paragraph: p259, p260
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_beagle_motivation
+  note: ビーグルの獣人（コルセスカ？）が「あること」で目の色を変えるという動機。その正体はトリシューラしか知らない。
+  quotes:
+  - quote: '「あることになると目の色を変えるんだがなあ」
+
+      「ああ。こいつがウチに入った理由でもあるんだが――ま、それはトリシューラの姐さんにでも聞いてくれや」'
+    paragraph: p11, p15
+    quote_verified: false
+  expected_payoff: 後の章でコルセスカとトリシューラの関係性、または彼女を駆り立てるトラウマ/目的が明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cyliaat_death_fate
+  note: 牙猪種特有の「牙による自死」の運命と、それを回避するためのトリシューラによる延命処置。この依存関係が物語の障害となる可能性。
+  quotes:
+  - quote: そのまま伸びれば発達した牙が頭部に突き刺さって死に至るという呪われた宿命を持つ稀少種族であるチリアットは
+    paragraph: p111
+    quote_verified: true
+  - quote: トリシューラによる呪術的延命処置と引き替えにガロアンディアンに協力することを約束しているチリアットは
+    paragraph: p171
+    quote_verified: true
+  expected_payoff: チリアットの寿命問題が解決策を要したり、トリシューラとの契約不履行による破綻、あるいは牙の除去手術などが展開される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_krein_identity_background
+  note: クレイ＝ライニンサルの正体と、カーイン（ヒュールサスを消した地獄の人間）への強い敵対意識。
+  quotes:
+  - quote: 勝ったにも関わらず、女性的なまでに美しい顔を悔しそうに歪める男の名は、やはりというべきか、【変異の三手】が副長の一人、クレイ＝ライニンサルだ。
+    paragraph: p241
+    quote_verified: true
+  - quote: 「ヒュールサスの名を消し去った地獄の人間が、再生者（オルクス）を語るなっ」
+    paragraph: p263
+    quote_verified: true
+  expected_payoff: カーインの過去（ヒュールサス関連）とクレイの背景（再生者関連）の対立が準決勝以降で主要なドラマとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_leo_kaine_dynamic
+  note: レオによるカーインへの虐待的な言動と、カーインの受容（平身低頭）。この異常な主従関係がコミュニティ内でどう機能しているか。
+  quotes:
+  - quote: '「そんなの当たり前。言われなくても出来て当然」
+
+      レオはゆっくりと身を屈めていく。
+
+      「あまり僕を失望させないでね――でないと、そのうち捨てちゃうから」'
+    paragraph: p54, p56, p58
+    quote_verified: false
+  expected_payoff: レオの性格の歪み（支配欲・所有欲）が物語を左右する要因となるか、カーインがその関係から解放される瞬間を描く可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cyliaat_infection_magic_origin
+  note: ラズリが「あれはアンブロシア――そう、彼はダエモデクの――」と呟いた言葉の意味。チリアットの変異の源。
+  quotes:
+  - quote: '「あれはアンブロシア――そう、彼はダエモデクの――」
+
+      ラズリ・ジャッフハリムが小さく呟いたが、意味はよく分からない。'
+    paragraph: p196, p198
+    quote_verified: true
+  expected_payoff: アンブロシアやダエモデクという用語の正体、およびチリアットがその力を得た経緯（禁断の果実のような設定）が明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「恐怖」と「死」をエネルギー源とする暴力構造（パニックと戦闘能力の関係）
+  weight: 0.9
+  quotes:
+  - quote: 極限まで増大した恐怖、肥大化した生存欲求が、彼の内的宇宙に劇的な変化をもたらしていく。
+    paragraph: p139
+    quote_verified: true
+  - quote: 「嫌だ、俺はまだ死にたくない！　誰か、誰か助けてくれっ」
+    paragraph: p169
+    quote_verified: true
+  note: 牙猪種の能力は恐怖の増幅による主観時間加速であり、チリアットの暴走は生存欲求そのものが戦闘力を構成している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「データ/統計」による個人の超越（サイバーカラテ＝数の暴力）
+  weight: 0.8
+  quotes:
+  - quote: '絶対的強者であっても、無限回の試行を繰り返せばいずれは勝てる。
+
+      その可能性が極小でも、繰り返しの中で勝てる確率を増大させていく。'
+    paragraph: p85, p86
+    quote_verified: true
+  - quote: それがサイバーカラテの強み、すなわち数の暴力だ。
+    paragraph: p88
+    quote_verified: true
+  note: 個々の才能や実力ではなく、ネットワーク化されたデータ（試行回数）が個人を上回るという、現代社会におけるビッグデータ優位の思想の反映。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「所有」と「管理」される人間の尊厳の剥奪
+  weight: 0.7
+  quotes:
+  - quote: 「あまり僕を失望させないでね――でないと、そのうち捨てちゃうから」
+    paragraph: p58
+    quote_verified: true
+  - quote: カーインが内功による肉体の強化を制限し、厄介極まりないウィルスによる攻撃を封印していたとはいえ、確かに不甲斐ないと言えば不甲斐ないのだが。
+    paragraph: p46
+    quote_verified: true
+  note: レオとカーインの関係は主従を超えた「所有」に近く、カーインの敗北が「品質不良品」への廃棄警告として描かれる。人間性が道具扱いされる構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命（遺伝/宿命）と技術（呪術/サイバー）による延命の対比
+  weight: 0.6
+  quotes:
+  - quote: そのまま伸びれば発達した牙が頭部に突き刺さって死に至るという呪われた宿命を持つ稀少種族であるチリアットは
+    paragraph: p111
+    quote_verified: true
+  - quote: トリシューラによる呪術的延命処置と引き替えにガロアンディアンに協力することを約束しているチリアットは
+    paragraph: p171
+    quote_verified: true
+  note: 牙猪種の生物学的運命（牙）と、それを止める外部技術（トリシューラの呪術）の依存関係。自由意志が制限される存在の悲劇性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語による暴力（物理的な圧力としての言葉）
+  weight: 0.5
+  quotes:
+  - quote: クレイの声が一段低くなり、物理的な圧力を伴ってカーインの長広舌を一刀両断した。それは低位の呪文である。
+    paragraph: p259
+    quote_verified: true
+  note: 言葉が直接的な攻撃（空圧）として機能する世界観において、罵詈雑言や沈黙もまた物理的な暴力として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

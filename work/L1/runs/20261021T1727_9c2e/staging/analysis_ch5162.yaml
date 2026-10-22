@@ -1,0 +1,223 @@
+chapter: ch5162
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_astreal_world]]'
+  object: '[[ME_vr_ar_gaming]]'
+  claim: アストラル界を「VR/AR」技術の失敗例として描き、ゲーム的な方眼グリッド表示を現代のシューティングゲームやMMOに引き付けている。
+  quote: 杖の技術体系では、脳に入出力される情報を操作してこのアストラル界を物質的に再現しようとする『仮想現実』や『拡張現実』というアプローチが幾度も試みられているが、公式な記録でそれが成功したことは一度も無い。
+  paragraph: p5
+  confidence: explicit
+  quotes:
+  - quote: 杖の技術体系では、脳に入出力される情報を操作してこのアストラル界を物質的に再現しようとする『仮想現実』や『拡張現実』というアプローチが幾度も試みられているが、公式な記録でそれが成功したことは一度も無い。
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_avatar_combat]]'
+  object: '[[ME_fighting_game_mechanics]]'
+  claim: デーモン（アバター）の戦いは、ヒットポイント、撃破ポイント、スコア表示といったゲーム的メカニクスで記述され、格闘ゲームやシューティングゲームの構造を模倣している。
+  quote: 背後で爆音。撃破ポイントが加算されて、スコアが表示される。
+  paragraph: p46
+  confidence: explicit
+  quotes:
+  - quote: 背後で爆音。撃破ポイントが加算されて、スコアが表示される。
+    paragraph: p46
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_red_chair]]'
+  object: '[[ME_wheelchair_symbolism]]'
+  claim: ザリスが車椅子で「車輪の女王」ヘリステラを想起させる描写は、障害や補助具（車椅子）を権力や神格化されたイメージ（車輪＝太陽/王権）へと昇華させる象徴的な仕掛けである。
+  quote: 彼女が用いる車椅子という道具も、車輪の女王の異名を持つ偉大なるヘリステラを想像させて、むしろ威厳を感じさせていた。
+  paragraph: p23
+  confidence: strong
+  quotes:
+  - quote: 彼女が用いる車椅子という道具も、車輪の女王の異名を持つ偉大なるヘリステラを想像させて、むしろ威厳を感じさせていた。
+    paragraph: p23
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_white_black_chat]]'
+  object: '[[ME_text_based_communication]]'
+  claim: メートリアンとヴァージリアの「声なき会話」は、現代のテキストチャットやSNSにおける匿名性・非対面コミュニケーションの本質（顔を見ない故に素を出せる/攻撃的になれる）を反映している。
+  quote: 直接話しかけることなく、端末の通信アプリを立ち上げる。高速で打鍵して、挑発の文字列を送信する。
+  paragraph: p102
+  confidence: strong
+  quotes:
+  - quote: 直接話しかけることなく、端末の通信アプリを立ち上げる。高速で打鍵して、挑発の文字列を送信する。
+    paragraph: p102
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_azur_demon]]'
+  object: '[[ME_gacha_rare_unit]]'
+  claim: 「澄明（アズール）」というデーモンは、既存の強者（天才）を圧倒する「環境変化（メタ）」的存在として描かれ、ガチャで排出される超レアキャラや、バランスブレイカー的な最強ユニットへの憧憬・恐怖を体現している。
+  quote: 並み居る怪物たちを圧倒した真の怪物。天才達をも上回る本物の才能というものを、ホワイト――メートリアンは生まれて初めて見せつけられた。
+  paragraph: p98
+  confidence: moderate
+  quotes:
+  - quote: 並み居る怪物たちを圧倒した真の怪物。天才達をも上回る本物の才能というものを、ホワイト――メートリアンは生まれて初めて見せつけられた。
+    paragraph: p98
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_materian_anxiety]]'
+  object: '[[ME_social_anxiety_disability]]'
+  claim: メートリアンの対人恐怖症（他人と満足に話せない、ぶたないでという過剰な謝罪）は、現実世界の社会不安障害やPTSD的な反応をファンタジー世界での「呪い」や適性不足として表象している。
+  quote: 両手で頭を抱え、涙声で神経症じみた謝罪を繰り返すメートリアン。強迫的な衝動に突き動かされるように、喉が枯れそうになるまで泣き喚く。
+  paragraph: p174
+  confidence: strong
+  quotes:
+  - quote: 両手で頭を抱え、涙声で神経症じみた謝罪を繰り返すメートリアン。強迫的な衝動に突き動かされるように、喉が枯れそうになるまで泣き喚く。
+    paragraph: p174
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_azur_identity
+  note: アズール（澄明）のデーモンを操る候補者の正体。黒百合宮にいる四人目の候補者である可能性が高いが、詳細は不明。
+  quotes:
+  - quote: 確かについ最近、黒百合宮に四人目の候補者が連れてこられたという情報は掴んでいた。多分その候補者が
+    paragraph: p130
+    quote_verified: true
+  - quote: アズールというわけですか。最後の最後で、とんだ伏兵がいたものですね
+    paragraph: p132
+    quote_verified: true
+  expected_payoff: 黒百合宮での邂逅、その人物の出自（王女や腐れ令嬢など）および性格の開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_materian_trauma
+  note: メートリアンが「ぶたないで」と叫び過剰に怯える背景にある過去の暴力経験やトラウマの具体的な内容。
+  quotes:
+  - quote: 「ごっ、ごめんなさいごめんなさい私が悪かったです不注意でした謝りますから許して下さいぶたないでぶたないでぶたないでぶたないでぶたないで――」
+    paragraph: p172
+    quote_verified: false
+  expected_payoff: メートリアンの生い立ち、星見の塔での虐待的経験、あるいは「お姉様」と呼ばれる存在との関係性の開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trident_pair
+  note: 特別枠で出場した「三叉槍」を襲名する二人（フルブライトとノーレイ）の関係性と、彼らがなぜ特別扱いされているのか。
+  quotes:
+  - quote: まだ最終選定も終わっていないのに、『三叉槍』を襲名している候補者がいる。
+    paragraph: p75
+    quote_verified: true
+  - quote: 特別扱いを受けているというその二人は、今回の選定においても特別枠で出場しているらしいのだ。
+    paragraph: p76
+    quote_verified: true
+  expected_payoff: 「三叉槍」という称号の意味、彼らの政治的立場（ダーシェンカとの関係）、そしてアズールに敗れた理由。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_black_lily_convergence
+  note: 黒百合宮に向かう4人（メートリアン、ヴァージリア、白百合宮の1人、ホルケナウの1人）と現地の候補者たちによる「8人の相見」。
+  quotes:
+  - quote: 自らを高めんが為。単なる好奇心で。直感に従って。それぞれの理由を胸に抱えながら、四人の候補者が東方の黒百合宮へと向かったのだ。
+    paragraph: p189
+    quote_verified: true
+  - quote: 元からいた四人と合わせて八人の候補者達はそうして相まみえた。
+    paragraph: p190
+    quote_verified: true
+  expected_payoff: 黒百合宮でのイベント（恋愛的な絡み、政治的駆け引き、戦闘）の開始。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 才能の絶対的格差と努力の限界（アズールという壁）
+  weight: 0.8
+  quotes:
+  - quote: 並み居る怪物たちを圧倒した真の怪物。天才達をも上回る本物の才能というものを、ホワイト――メートリアンは生まれて初めて見せつけられた。
+    paragraph: p98
+    quote_verified: true
+  - quote: 壁は高い。道は険しい。わかっていたつもりだが、登ろうとしていた山が実は小さな丘だったと知らされたような感じだ。
+    paragraph: p134
+    quote_verified: true
+  note: メートリアンの視点から、努力や工夫（戦術）では越えられない「先天的な才能」の存在が描かれ、主人公側の無力感と焦燥感が主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 対面コミュニケーション不全と文字による防衛
+  weight: 0.7
+  quotes:
+  - quote: 他人と満足に話すことすらままならない。ヴァージリアとだけはああやって素を出してやり合えるけれど、それは彼女とは顔を合わせることなく文字だけで会話できるからだ。
+    paragraph: p177
+    quote_verified: true
+  - quote: 自らの醜態を、内心で冷静な自分がどこか他人事のように眺めている。
+    paragraph: p175
+    quote_verified: true
+  note: メートリアンの対人恐怖症と、ヴァージリアとのテキストチャットでの親密さの対比を通じて、現代社会における「画面越しの人間関係」の安心感と現実の疎外感を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的競争としての魔女選定（デスゲーム/バトルロイヤル）
+  weight: 0.6
+  quotes:
+  - quote: これはゲームでありトレーニングでありテストでもある。
+    paragraph: p15
+    quote_verified: true
+  - quote: 真剣でないものなど一人もいない。全ては、最後の魔女になる為に。
+    paragraph: p16
+    quote_verified: true
+  note: 儀式が「ゲーム」として明示され、参加者の生死や進路がスコアで決定される冷徹な競争社会の構造を提示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命的な引き寄せ（アズールへの憧憬）
+  weight: 0.5
+  quotes:
+  - quote: そのための鍵が、きっと自分の前にはあるはずなのだ。
+    paragraph: p182
+    quote_verified: true
+  - quote: どうしてか、そんな確信があった。
+    paragraph: p166
+    quote_verified: true
+  note: メートリアンがアズールという「未知の強者」に惹かれ、黒百合宮へ向かう決意をする心理的転換を描く。ロマンティシズムや運命論的な要素。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

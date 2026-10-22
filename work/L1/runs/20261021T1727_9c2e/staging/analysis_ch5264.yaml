@@ -1,0 +1,254 @@
+chapter: ch5264
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 24
+  quotes_total: 24
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5264_p05]]'
+  object: '[[ME_TrickArt]]'
+  claim: 劇場の背景演出は、遠近法を用いた錯覚を利用したトリックアートであり、現実を補完する技術として機能している。
+  quote: 背景を演出するための大道具は、限られたスペースで劇の世界を表現するための工夫がなされている。遠近法を駆使した技法により、実際以上の奥行きや広がりを感じさせているのだ。
+  paragraph: p5
+  confidence: strong
+  quotes:
+  - quote: 背景を演出するための大道具は、限られたスペースで劇の世界を表現するための工夫がなされている。遠近法を駆使した技法により、実際以上の奥行きや広がりを感じさせているのだ。
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5264_p21]]'
+  object: '[ME_Cosplay_Mascot]'
+  claim: 三つ首の虹犬サイザクタートは、使い魔が入っているか自律的に動く「きぐるみ」であり、現代のマスコットキャラクターや着ぐるみの構造と一致する。
+  quote: よく見なければそれが作り物であるとは分からないほど見事な、『きぐるみ』だったのである。おそらくは、ヴィヴィの使い魔が中に入って動かしているか、きぐるみそれ自体が自律的に動く使い魔なのだろう。
+  paragraph: p22
+  confidence: explicit
+  quotes:
+  - quote: よく見なければそれが作り物であるとは分からないほど見事な、『きぐるみ』だったのである。おそらくは、ヴィヴィの使い魔が中に入って動かしているか、きぐるみそれ自体が自律的に動く使い魔なのだろう。
+    paragraph: p22
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5264_p106]]'
+  object: '[ME_Prostitution_Economy]'
+  claim: 古代ヒュールサスの聖職者による情交は、現代の貨幣経済に基づく娼婦制度とは異なり、契約を伴わない宗教的・呪術的な行為として定義されている。
+  quote: 貨幣経済の成立、性行為を交換可能であると見なして契約を行うという認識、そして性をひとつの商品として売買を行うという制度。家父長制を基軸とした『家族』という呪術が未発達であった時代。
+  paragraph: p106
+  confidence: strong
+  quotes:
+  - quote: 貨幣経済の成立、性行為を交換可能であると見なして契約を行うという認識、そして性をひとつの商品として売買を行うという制度。家父長制を基軸とした『家族』という呪術が未発達であった時代。
+    paragraph: p106
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5264_p135]]'
+  object: '[ME_HolyMarriage]'
+  claim: 生と死の神との交合は、天空神と地母神の結合を模倣する「聖婚」という類感呪術であり、古代の生殖儀礼そのものである。
+  quote: 王国に於いて最も重要とされた、原始呪術。天空神と地母神の交合を疑似的に摸倣することで人間世界に神々の奇跡を再現するという、類感呪術。
+  paragraph: p113
+  confidence: explicit
+  quotes:
+  - quote: 王国に於いて最も重要とされた、原始呪術。天空神と地母神の交合を疑似的に摸倣することで人間世界に神々の奇跡を再現するという、類感呪術。
+    paragraph: p113
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5264_p205]]'
+  object: '[ME_Magic_Wand]'
+  claim: コルセスカが提案した「おままごと」は、子供向けの遊びでありながら、世界の改変（再演）という高度な呪術的解決手段として提示されている。
+  quote: '「おままごとをすればいいのです！」
+
+    にこにこと笑う少女を、老犬も牙猪も困惑したように見つめた。'
+  paragraph: p205
+  confidence: strong
+  quotes:
+  - quote: '「おままごとをすればいいのです！」
+
+      にこにこと笑う少女を、老犬も牙猪も困惑したように見つめた。'
+    paragraph: p205
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5264_p179]]'
+  object: '[ME_GunShu_Syncretism]'
+  claim: 神々の零落と槍神教による宗教的序列化は、歴史上の宗教統合や排斥プロセスを反映している。
+  quote: 現在、槍神教が圧倒的な多数派として地上を支配し、そうでない宗教は序列化されてその内部に吸収されるか、排除されて地獄に落とされている事と、何か関係があるのだろうか。
+  paragraph: p179
+  confidence: moderate
+  quotes:
+  - quote: 現在、槍神教が圧倒的な多数派として地上を支配し、そうでない宗教は序列化されてその内部に吸収されるか、排除されて地獄に落とされている事と、何か関係があるのだろうか。
+    paragraph: p179
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- name: TRISHULA_WORLD_CREATION_TECHNIQUE
+  note: コルセスカがトリシューラのために提案した「騙し絵（トリックアート）の技法」や「固有の世界観」への適用が、今後の物語で実際に使用される可能性。
+  quotes:
+  - quote: きっとこの技法はトリシューラの為にこそある、と。
+    paragraph: p10
+    quote_verified: true
+  - quote: たとえば彼女の世界たるガロアンディアンの街並みに騙し絵（トリックアート）の技法を取り入れ、呪術的な街並みを作ってはどうか
+    paragraph: p12
+    quote_verified: true
+  expected_payoff: コルセスカがトリシューラに技術を提供し、世界構築の一助となるシーン。
+  kind: mystery
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- name: SIX_KINGDOMS_REENACTMENT
+  note: 六王国を「再演」することで過去の災害を改変し、その力を借りてヒュールサスを救うという計画が実行に移されるか。
+  quotes:
+  - quote: 六つの王国を『再演』によって救い、その力を借りてヒュールサスを救って貰うのです。
+    paragraph: p224
+    quote_verified: true
+  - quote: 更なる過去へと遡る、再演の旅がまたしても始まるのだった。
+    paragraph: p247
+    quote_verified: true
+  expected_payoff: 過去改変によるヒュールサスの救済、あるいは六王国の復活と関与。
+  kind: mystery
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- name: HAZARLYA_CORRUPTION_CAUSE
+  note: 生と死を司る神ハザーリャが「零落」した原因（p61, p176）が明かされていない。
+  quotes:
+  - quote: 原因が何で、発端が何時であったのか、誰も知るものはいない。
+    paragraph: p61
+    quote_verified: true
+  - quote: 全てはその現象から始まったということだが、一体何が原因なのだろう？
+    paragraph: p176
+    quote_verified: true
+  expected_payoff: 神の堕落の真の原因（槍神教の影響、古代の盟約の破綻など）の判明。
+  kind: mystery
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- name: WORLD_SPEAR_TIMELINE
+  note: この時代には世界槍が存在しない、あるいは天地が分かたれていない可能性（p190-192）。
+  quotes:
+  - quote: そういえば、背景には天を衝く槍が描かれていない。
+    paragraph: p189
+    quote_verified: true
+  - quote: もしかすると、この時代にはまだ世界槍が出来ていないのかもしれない。
+    paragraph: p190
+    quote_verified: true
+  expected_payoff: 古代と現代の世界構造（階層）の違いが物語の鍵となる展開。
+  kind: mystery
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- name: CORNESCA_IMPROVISED_SCRIPT
+  note: コルセスカが予定にない即興で老犬とのやり取りを組み立て、自然な流れを作ったこと（p35）。
+  quotes:
+  - quote: 予定にない進行で、コルセスカは恐らく即興で今のやり取りを組み立てた筈なのだが、ごく自然なやり取りに思えた。
+    paragraph: p35
+    quote_verified: true
+  expected_payoff: 彼女の演劇的・呪術的な適応能力の高さ、または「台本」を改変する権限の示唆。
+  kind: mystery
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 演劇は単なる娯楽ではなく、現実を改変し世界を維持・救済するための高度な呪術的機能を持つ。
+  weight: 0.9
+  quotes:
+  - quote: 平面的な背景は一度呪術的儀式としての劇が始まれば圧倒的な臨場感と迫真性でもって現実化する。
+    paragraph: p7
+    quote_verified: true
+  - quote: 演劇という呪術儀式による過去の改変。
+    paragraph: p227
+    quote_verified: true
+  note: 物語全体を通じて、演劇が物理法則や運命を操作する手段として描かれている。
+  kind: theme
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 社会の歪みは、聖職者（高位）に対する民衆の暴力と搾取（低位化）という逆説的な構造を生む。
+  weight: 0.8
+  quotes:
+  - quote: 社会に於いて高みに位置付けられながらも蔑まれるという、転倒した構図がそこには存在していた。
+    paragraph: p100
+    quote_verified: true
+  - quote: 『必要だが卑しい職業である』という認識の下、市街の中心で神聖な儀式を行い、荒ぶる神を慰撫し、その対価として人々から侮蔑され唾を吐きかけられる。
+    paragraph: p122
+    quote_verified: true
+  note: ヒュールサスの悲劇的な社会構造（聖職者の虐待）が主題の一つとして提示されている。
+  kind: theme
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 「おままごと」のような単純な遊びの論理が、複雑な現実問題解決のための強力な鍵となり得る。
+  weight: 0.7
+  quotes:
+  - quote: 「おままごとをすればいいのです！」
+    paragraph: p205
+    quote_verified: true
+  - quote: 幼い少女の理路整然とした提案に、誰もが呆然としていた。
+    paragraph: p228
+    quote_verified: true
+  note: 大人たちの諦念に対し、子供（コルセスカ）の純粋で直感的な論理が突破口となる構造。
+  kind: theme
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 世界の衰退は「零落」という現象によって引き起こされ、それは不可逆的な運命として描かれる。
+  weight: 0.6
+  quotes:
+  - quote: ハザーリャが、『零落』したのだ。
+    paragraph: p63
+    quote_verified: true
+  - quote: 神々の位が堕ち、悪魔や邪神へと貶められる。
+    paragraph: p177
+    quote_verified: true
+  note: 物語の根底にある「衰退」のメカニズムとその影響。
+  kind: theme
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- theme: 記憶と模倣（ミメーシス）は、失われた存在を保持し、未来へ繋げるための重要な行為である。
+  weight: 0.5
+  quotes:
+  - quote: 今は感じられないあの小さな脳内妖精の姿を忘れないように記憶に焼き付けて、せめて俺は彼女の在り方の一部を摸倣する。
+    paragraph: p16
+    quote_verified: true
+  note: 主人公の内面における喪失処理と、模倣による存在の継承。
+  kind: theme
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

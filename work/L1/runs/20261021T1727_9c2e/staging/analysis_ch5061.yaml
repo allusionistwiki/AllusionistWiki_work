@@ -1,0 +1,263 @@
+chapter: ch5061
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 24
+  quotes_total: 24
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5061_トリシューラ_other_知識の公開と搾取聖人ではない魔女として_p133]]'
+  object: '[[ME_OpenSource_Software_Development]]'
+  claim: 「あらゆる呪術はオープンソースであるべき」という理念と、有償での技術提供というスタイルは、OSSコミュニティの思想と商用支援モデル（レッドハット等）の混合を想起させる。
+  quote: 言語魔術師たちはこの【世界槍】を作るときに一つの理念を示した。それは『あらゆる呪術はオープンソースであるべき』ということ。
+  paragraph: p57
+  confidence: explicit
+  quotes:
+  - quote: 言語魔術師たちはこの【世界槍】を作るときに一つの理念を示した。それは『あらゆる呪術はオープンソースであるべき』ということ。
+    paragraph: p57
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5061_トリシューラ_other_陣取りゲームをチェス/将棋に変えた行為_p51]]'
+  object: '[[ME_Gamification_of_Society]]'
+  claim: 無秩序な争いを「チェスや将棋」のようなルールで整備し、スポーツ化することは、社会現象をゲーム的な競争原理へ変換するガミフィケーションのメタファーである。
+  quote: 元々ここでは、無秩序な空間掌握合戦を繰り返す陣取りゲームが行われていたんだよ。それをあいつが勝手に、ええとそうだな、チェスとか将棋？ にしちゃったわけ
+  paragraph: p51
+  confidence: moderate
+  quotes:
+  - quote: 元々ここでは、無秩序な空間掌握合戦を繰り返す陣取りゲームが行われていたんだよ。それをあいつが勝手に、ええとそうだな、チェスとか将棋？ にしちゃったわけ
+    paragraph: p51
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5061_トリシューラ_other_ミームの撒き散らしと視座の支配_p173]]'
+  object: '[[ME_Viral_Marketing_Influencer]]'
+  claim: 自らの視座を「ミーム」として感染させ、人々を繋げて神話を始める行為は、現代のSNSにおけるインフルエンサーマーケティングやバイラル拡散の構造と一致する。
+  quote: 私を中心に、ありとあらゆるミームを撒き散らす。伝染させる。感染させる。私の視座で、この階層を浸食して支配して翻弄する。
+  paragraph: p173
+  confidence: strong
+  quotes:
+  - quote: 私を中心に、ありとあらゆるミームを撒き散らす。伝染させる。感染させる。私の視座で、この階層を浸食して支配して翻弄する。
+    paragraph: p173
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5061_トリシューラ_other_アキラへの期待と放置の意図_p95]]'
+  object: '[[ME_Mentor_Planting_Trope]]'
+  claim: 主人公を放置して成長を待ち、失敗した際に「手出しを控えた結果として失敗することが多い」と認めるのは、物語におけるメンター（師匠）の典型的な失敗パターンである。
+  quote: なんか私、手出しを控えた結果として失敗することが多いね？ ごめんねアキラくん、貴方がここまでダメだとは思ってなくて
+  paragraph: p99
+  confidence: moderate
+  quotes:
+  - quote: なんか私、手出しを控えた結果として失敗することが多いね？ ごめんねアキラくん、貴方がここまでダメだとは思ってなくて
+    paragraph: p99
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5061_トリシューラ_other_ファッションリーダーとしての自己実現_p164]]'
+  object: '[[ME_Social_Branding_Persona]]'
+  claim: 「ファッションリーダーになりたい」という宣言は、単なる装飾ではなく、他者からの承認（視座の獲得）を通じて自己を規定するブランド戦略としての自己演出である。
+  quote: 目立ちたい、脚光を浴びたい、世界に自分を認めさせたい。このような自分でありたい。自己を能動的に規定するための、強烈な意思。
+  paragraph: p167-p170
+  confidence: moderate
+  quotes:
+  - quote: 目立ちたい、脚光を浴びたい、世界に自分を認めさせたい。このような自分でありたい。自己を能動的に規定するための、強烈な意思。
+    paragraph: p167-p170
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5061_トリシューラ_other_邪悪な魔女_p35]]'
+  object: '[[ME_Utility_Monster_Ethics]]'
+  claim: 人命を弄ぶことを「試行の過程」として正当化するのは、倫理を無視した極端な功利主義（実験動物を用いた科学実験）の逆説的な適用である。
+  quote: 私は邪悪な魔女だもの。試行の過程で人命を弄ぶくらい、むしろ当然じゃない？
+  paragraph: p35
+  confidence: strong
+  quotes:
+  - quote: 私は邪悪な魔女だもの。試行の過程で人命を弄ぶくらい、むしろ当然じゃない？
+    paragraph: p35
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5061_トリシューラ_other_世界槍の起源と歴史_p42]]'
+  object: '[[ME_Open_Source_Codebase_Evolution]]'
+  claim: 所有権が放棄された世界槍における「コピーアンドペースト、改変、アップデート」の繰り返しの歴史は、オープンソースソフトウェアのリポジトリにおけるコードの派生と進化の過程に酷似している。
+  quote: 所有権が放棄された【世界槍】の中では無秩序なドメインの占有が行われ、絶え間なくコピーアンドペースト、改変、アップデートが繰り返された。
+  paragraph: p42
+  confidence: strong
+  quotes:
+  - quote: 所有権が放棄された【世界槍】の中では無秩序なドメインの占有が行われ、絶え間なくコピーアンドペースト、改変、アップデートが繰り返された。
+    paragraph: p42
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Yuragi_Shinwa_Details
+  note: 「ゆらぎの神話」が具体的にどのような儀式・呪術システムなのか、またそれがなぜ「古い発想」でありながらトリシューラが禁書から学んだのかの詳細。
+  quotes:
+  - quote: 複数の視座を重ねてなにか創発的な活力を生み出そうとするこういう試みを、私たちはこう呼んでいた
+    paragraph: p193
+    quote_verified: true
+  - quote: 「【ゆらぎの神話】と」
+    paragraph: p197
+    quote_verified: true
+  expected_payoff: 今後、この神話が階層全体に実装される過程で、視座の衝突や融合による異常現象（バグのような現実改変）が発生する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Trisula_Personal_Reason
+  note: トリシューラがアキラを放置した「個人的な理由」とは何か。「大したことじゃない」と言いながら、なぜ半年間も介入しなかったのかの真意。
+  quotes:
+  - quote: 放置したのは、ちょっと個人的な理由。大したことじゃないよ
+    paragraph: p75
+    quote_verified: true
+  expected_payoff: アキラがトリシューラにとって重要な「試行」の一部であること、あるいはトリシューラ自身の過去（機械としての生い立ち）に関わるトラウマや計画の一端であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Koda_Danzetsu_Context
+  note: 「大断絶」以前の時代を知っているのが四魔女（特にセスカ）だけという記述から、かつての高度文明や言語魔術師たちの真の姿が明かされる。
+  quotes:
+  - quote: 【大断絶】以前の時代を知っているのは四魔女ではセスカだけだし
+    paragraph: p228
+    quote_verified: true
+  expected_payoff: コルセスカの過去が語られ、彼女がなぜトリシューラを「お姉様」と呼び、禁書を管理していたのかが世界観の謎解きに繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Koukyuu_Purge
+  note: トリシューラが宣言した「【公社】の一掃」がどのように実行されるか、その過程で生じる暴力や混乱の規模。
+  quotes:
+  - quote: まずは【公社】とかの犯罪組織の一掃かな。ここに法があるとすれば、知識の隠匿と独占こそが最大の罪だよ。誰も裁かないなら私がやる
+    paragraph: p137
+    quote_verified: true
+  expected_payoff: アキラがトリシューラの計画に巻き込まれ、「邪悪な魔女」による独裁的・暴力的な改革を止めようとする対立構造が生まれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Three_Days_Observation
+  note: トリシューラがアキラに「三日間、私を見ていてよ」と約束した意味。この3日間中に何が起きるのか。
+  quotes:
+  - quote: 「いいよ。まずは三日、私を見ていてよ」
+    paragraph: p244
+    quote_verified: true
+  expected_payoff: この期間にトリシューラの計画が爆発的に進行し、アキラは彼女の本質（魔女としての残酷さや機械としての冷徹さ）を目撃して絶望する、あるいは深く魅了される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術の民主化と独裁的介入のジレンマ
+  weight: 0.9
+  quotes:
+  - quote: 最低限、そういう奴らの手から守ってあげないと
+    paragraph: p118
+    quote_verified: true
+  - quote: 搾取はしまくるけど、基本的に知識は全部公開するつもり。有償だけど、私だって何の苦労も無しに手にした技術や知識じゃないしね。その後は誰が死のうが生きようが知らない。私は聖人じゃなくて邪悪な魔女だから
+    paragraph: p133
+    quote_verified: true
+  note: 自由放任では搾取が横行し、介入すれば独裁になるという社会工学の難題を、トリシューラの「邪悪な魔女」としての立場（搾取と開示の両立）が体現している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己規定としての身体性とファッション
+  weight: 0.8
+  quotes:
+  - quote: 杖の呪術師。大量生産と大量消費、技術の発展と知識の蓄積がその本分。だから、私はこのやり方で人間を『拡張』する
+    paragraph: p2
+    quote_verified: true
+  - quote: 身体性を語る上で服飾を疎かにするわけには行かないよねっ
+    paragraph: p151
+    quote_verified: true
+  - quote: 自我の証明。自己の完成。目立ちたい、脚光を浴びたい、世界に自分を認めさせたい。このような自分でありたい。自己を能動的に規定するための、強烈な意思。
+    paragraph: p166-p170
+    quote_verified: true
+  note: 杖（道具）による身体的拡張から始まり、最終的にはファッション（表象）を通じた精神的・社会的な自己の拡張へと主題が昇華されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 母性希求と機械的な冷徹さの衝突
+  weight: 0.7
+  quotes:
+  - quote: 寂しかったの？ ふぅん。一人きりで知らない場所に放置されて、半年間ずっと孤独で辛かった？ 私やっぱり、そういうところに気が回らないね。
+    paragraph: p85
+    quote_verified: true
+  - quote: トリシューラは、ごめんねと一言謝罪して、こう続けた。「でもねアキラくん。別に私、貴方のママじゃないんだよ？」
+    paragraph: p88-p90
+    quote_verified: true
+  note: アキラの甘え（マザコン）をトリシューラが科学的観察者の視点で暴き、拒絶する構図は、人間性の温かさと人工知能的な冷たさの境界線上にある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 秩序と混沌の相対性（創造的破壊）
+  weight: 0.6
+  quotes:
+  - quote: 私は元々この世界槍にあった秩序を取り戻しただけだよ。秩序を破壊して生まれた混沌は別の秩序でしかない
+    paragraph: p31
+    quote_verified: true
+  - quote: 人の数だけ、世界を解体する。無数の秩序で混沌を生み出して、その混沌を無限に秩序立てていく
+    paragraph: p201
+    quote_verified: true
+  note: 破壊された秩序は新たな秩序であり、カオスから新しい神話（秩序）を創発しようとするトリシューラの思想は、創造的破壊の原理そのものである。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: オープンソースと所有権の放棄
+  weight: 0.5
+  quotes:
+  - quote: あらゆる呪術はオープンソースであるべき
+    paragraph: p57
+    quote_verified: true
+  - quote: 所有権が放棄された【世界槍】の中では無秩序なドメインの占有が行われ、絶え間なくコピーアンドペースト、改変、アップデートが繰り返された。
+    paragraph: p42
+    quote_verified: true
+  note: 情報（呪術）を秘匿せず開示するべきだという理念と、所有権のない世界で起こるカオス的な進化の過程は、デジタル時代のアーキテクチャ思想とリンクしている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

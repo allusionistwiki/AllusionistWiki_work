@@ -1,0 +1,264 @@
+chapter: ch5073
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 5
+  themes: 4
+  quotes_verified: 23
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_Kiron_Statue]]'
+  object: '[[ME_Game_NPC_Aura]]'
+  claim: キロンの存在は、ゲームにおけるNPCの「存在感パラメータ」や「プレイヤーを誘導する引力」としての機能を物理的に具現化したものである。
+  quote: 純粋に君臨する美。それは重力のようなものだ。ただあるだけで、あらゆるものを引きつける。
+  paragraph: p20
+  confidence: strong
+  quotes:
+  - quote: 純粋に君臨する美。それは重力のようなものだ。ただあるだけで、あらゆるものを引きつける。
+    paragraph: p20
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Sage_Death]]'
+  object: '[[ME_Astro_Diving_Risk]]'
+  claim: セージの即死は、VRMMOやアストラルダイブ系作品における「ログアウト不可」「現実への干渉リスク」というガジェット特有の恐怖を提示している。
+  quote: 直後、少女の眼球と喉が弾けて、血飛沫と共に生命が消失した。
+  paragraph: p60
+  confidence: explicit
+  quotes:
+  - quote: 直後、少女の眼球と喉が弾けて、血飛沫と共に生命が消失した。
+    paragraph: p60
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Kiron_Name]]'
+  object: '[[ME_Obamacare_Medicine]]'
+  claim: 「キロン（Quilon）」という名前は、オバマケア関連の医療保険製品名であり、彼の「病院修道会」所属と「個人博物館」という称号は医療・保険システムへの皮肉な引喩である。
+  quote: 松明の騎士団における最上級聖騎士――数万の修道騎士たちを統べる九人の管区長【守護九槍】の第九位。
+  paragraph: p178
+  confidence: moderate
+  quotes:
+  - quote: 松明の騎士団における最上級聖騎士――数万の修道騎士たちを統べる九人の管区長【守護九槍】の第九位。
+    paragraph: p178
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_Claudio_Announcement]]'
+  object: '[[ME_Human_Trafficking_Globalization]]'
+  claim: 第五階層の構造は、グローバリズム下における人身売買（トラフィッキング）と奴隷労働の隠蔽構造を、ファンタジー社会制度としてシミュレートしている。
+  quote: 人身売買（トラフィッキング）――人権意識が自明のものとなった近代以降の社会における隠された奴隷制。 労働力の移動が当たり前のものとなった時代。グローバリズムが生む犯罪の温床がそれだ。
+  paragraph: p291
+  confidence: explicit
+  quotes:
+  - quote: 人身売買（トラフィッキング）――人権意識が自明のものとなった近代以降の社会における隠された奴隷制。 労働力の移動が当たり前のものとなった時代。グローバリズムが生む犯罪の温床がそれだ。
+    paragraph: p291
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Kay_Spell]]'
+  object: '[[ME_Ale_Jacta_Est]]'
+  claim: カヤの呪文詠唱はシーザーの「賽は投げられた」を引用し、運命論的な決定と無作為性（乱数生成）を組み合わせたゲーム的な演出として機能している。
+  quote: 「賽は投げられた（Alea jacta est）」
+  paragraph: p434
+  confidence: explicit
+  quotes:
+  - quote: 「賽は投げられた（Alea jacta est）」
+    paragraph: p434
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Kay_Spell]]'
+  object: '[[ME_Gurdjieff_Enneagram]]'
+  claim: カヤが展開する魔法円はエニアグラム（九芒星）であり、これは内面的な自己観察や霊的階層を示す記号体系の引用である。
+  quote: 背後に展開された図形は円周を九等分して作図された、エニアグラムと呼ばれるものに似ていた。
+  paragraph: p441
+  confidence: explicit
+  quotes:
+  - quote: 背後に展開された図形は円周を九等分して作図された、エニアグラムと呼ばれるものに似ていた。
+    paragraph: p441
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_Rodwin_Paradox]]'
+  object: '[[ME_Corporate_Welfare_Fiction]]'
+  claim: ロドウィの「弱者救済」は、搾取構造を正当化するための企業CSR（社会的責任）スローガンのパロディであり、善意が暴力を隠蔽する逆説を示す。
+  quote: 我々【公社】は、弱者を救済する為、公共の利益の為に存在している
+  paragraph: p344
+  confidence: strong
+  quotes:
+  - quote: 我々【公社】は、弱者を救済する為、公共の利益の為に存在している
+    paragraph: p344
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_Kay_Shadow]]'
+  object: '[[ME_Metaphysical_Bond]]'
+  claim: カヤが足下の影と会話する行為は、彼女のアストラル体や守護霊（あるいは別世界での分身）とのリンクを示唆し、転生者同士の繋がりの伏線となる。
+  quote: その足下から伸びる筈の影は存在しない。
+  paragraph: p518
+  confidence: moderate
+  quotes:
+  - quote: その足下から伸びる筈の影は存在しない。
+    paragraph: p518
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Doppelganger
+  note: カヤの顔がアキラと同一であることが示唆される。これは単なる似ているのか、魂のコピーなのか、転生システムのバグなのか。
+  quotes:
+  - quote: もし仮に、この場にシナモリ・アキラがいたなら驚愕にその表情を歪めていただろう。
+    paragraph: p448
+    quote_verified: true
+  - quote: シナモリ・アキラ――わたくしと同じ、忌むべき転生者（ゼノグラシア）
+    paragraph: p514
+    quote_verified: true
+  expected_payoff: カヤとアキラの本当の関係性（前世での繋がり、あるいは同一個体の分裂）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kiron_Goodwill
+  note: キロンがアキラを「恩人」と呼び全力で守ろうとする理由。「親友を送ってくれた」という過去の事件の詳細。
+  quotes:
+  - quote: 親友を送ってくれたことに対しての礼だ。魂が異獣に穢される前に安らぎを与えたのは彼だと、報告にはそうあった。
+    paragraph: p210
+    quote_verified: true
+  expected_payoff: アキラが過去にキロン（あるいは彼の親友）を殺した、あるいは救ったという転生前の出来事がフラッシュバックされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rodwin_Sage_Revival
+  note: セージが即死したにもかかわらず「すぐ起きる」と父が言い、肉体を乗っ取って活動している。この復活の仕組み（水回路コンピュータ）の限界と代償。
+  quotes:
+  - quote: 良い良い。どうせすぐ起きる
+    paragraph: p72
+    quote_verified: true
+  - quote: セージを構成する水が少女の口から体内に侵入し、内部から呪的なクラッキングを仕掛ける。
+    paragraph: p321
+    quote_verified: true
+  expected_payoff: セージの人格が完全に消滅するか、あるいは乗っ取られた肉体（犠牲者）の意識が目覚める可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kay_Shadow_Conversation
+  note: カヤが存在しない影と会話している。この「影」の正体と、それが誰を指しているか。
+  quotes:
+  - quote: わたくしの大切な半身に、血塗られた戦いは似合わない
+    paragraph: p521
+    quote_verified: true
+  expected_payoff: カヤの「半身」がアキラである可能性、あるいは彼女自身のもう一つの人格・別世界での存在。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Low_Cain_Mission
+  note: ロウ・カーインが「主命」でアキラを殺す役目であること。「あの方」とは誰か。
+  quotes:
+  - quote: 全ては、あの方の御心のままに
+    paragraph: p546
+    quote_verified: true
+  expected_payoff: カーインを支配している上位存在（大神院の誰か、あるいは魔女側の上級職）との対決。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美徳と暴力の不可分性
+  weight: 0.8
+  quotes:
+  - quote: 純粋に君臨する美。それは重力のようなものだ。ただあるだけで、あらゆるものを引きつける。
+    paragraph: p20
+    quote_verified: true
+  - quote: 我々【公社】は、弱者を救済する為、公共の利益の為に存在している
+    paragraph: p344
+    quote_verified: true
+  note: キロンの「完璧な美」による支配と、ロドウィの「善意」による搾取が対比され、システムとして暴力を正当化する構造を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生労働力としてのグローバル化の暗部
+  weight: 0.7
+  quotes:
+  - quote: 無数の異世界に転生労働力を安く買い叩かれているあの世界は、いずれこの世界の植民地になるだろう。
+    paragraph: p352
+    quote_verified: true
+  - quote: 何も知らないアキラを転生労働力としていいように使っている点で、敵と自分たちに差は無い。
+    paragraph: p360
+    quote_verified: true
+  note: 異世界転生というファンタジー設定を、現実の労働搾取・移民問題・植民地主義へのメタファーとして展開している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的ギミックとリアルな死の交差
+  weight: 0.6
+  quotes:
+  - quote: 直後、少女の眼球と喉が弾けて、血飛沫と共に生命が消失した。
+    paragraph: p60
+    quote_verified: true
+  - quote: 不可解な呪文詠唱と同時に、空中で十面体の賽子が回転する。浮遊するカード型端末から投影された立体映像の賽子は、十進数の乱数を発生させるべく虚空で静止、真上を向いた面が数値を出力した。
+    paragraph: p436
+    quote_verified: true
+  note: アストラルダイブやデジタル的な演出（端末、乱数）と、生々しい肉体的破壊が混在し、仮想空間での暴力の重さを強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命論的決定（賽は投げられた）と主体性の喪失
+  weight: 0.5
+  quotes:
+  - quote: 「賽は投げられた（Alea jacta est）」
+    paragraph: p434
+    quote_verified: true
+  - quote: 全ては、あの方の御心のままに
+    paragraph: p546
+    quote_verified: true
+  note: 登場人物たちが自らの意志ではなく、高位存在やシステム（乱数）によって運命を決定されている構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

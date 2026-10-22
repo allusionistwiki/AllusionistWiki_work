@@ -1,0 +1,169 @@
+chapter: ch5179
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 7
+  themes: 5
+  quotes_verified: 16
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_GaroAndian_Sinamori_Akira_Rescue
+  note: 語り手が特に名前を挙げて救済を要求した2名の詳細と、彼らがアズーリアの「全員救う」条件において重要な役割を果たす伏線。
+  quotes:
+  - quote: ガロアンディアンもシナモリ・アキラも、全員きちんと救ってあげなさい。
+    paragraph: p113
+    quote_verified: true
+  expected_payoff: これら2名が「あり得ない手」の鍵となるか、プリエステラの運命改変に必要な代償の担い手として登場する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Fifth_Layer_Shaking_Words_Left_Hand
+  note: 第五階層の「言震」をアズーリアの「左手」で解体するという具体的な指令。左手が特異な権能を持つことの暗示。
+  quotes:
+  - quote: その果てに待つ第五階層の言震を、見事その左手で解体してみせるがいい。
+    paragraph: p117
+    quote_verified: true
+  expected_payoff: アズーリアの左腕/左手が物理的・概念的な破壊装置として機能し、第五階層の謎を解くトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Curse_Power_Core_Exhaustion
+  note: アズーリアのコアからの呪力が完全に枯渇しており、古き神の力に依存している状態。コアとの喧嘩（繋がり切断）が原因か？
+  quotes:
+  - quote: コアから預かった呪力はもう完全に枯渇してる。アズーリアが引き出してくれてる古き神の呪力を使ってどうにか遡れるって状態ね
+    paragraph: p183
+    quote_verified: true
+  expected_payoff: コアとの和解（繋がり回復）によって巨大な呪力を得る展開、またはコア側の事情が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Gals_Mauza_Krouser_Marie_Prior_Encounter
+  note: 倒される前に接触し協力させるという「あり得ない手」。彼らが「死んでいる/倒されている」前提の常識を覆す。
+  quotes:
+  - quote: ガルズ・マウザ・クロウサーとマリー。あの二人が倒される前に接触して、協力を仰ぐ
+    paragraph: p316
+    quote_verified: true
+  expected_payoff: 敵味方の区別なく「協力」させることで、カタルマリーナやビークレットとの対決の構図を根本から変える奇策が実行される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Shikigami_Nature_Reveal
+  note: アズーリアが「依巫（よりまし）」であり、クナータやプリエステラと同じ性質を持つことが明かされた。
+  quotes:
+  - quote: 君は紛れもなく、僕の依巫（よりまし）だ。
+    paragraph: p137
+    quote_verified: true
+  expected_payoff: アズーリアがプリエステラと「交換可能」な存在であること、または世界修正力に対して免疫を持つ理由の核となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Saria_Core_Fight_Dynamics
+  note: サリアとコア（魔女）の喧嘩の内容。「仕事と私」「冷たい」などの口論は、今後の展開で二人の関係修復が重要な要素となる暗示。
+  quotes:
+  - quote: 「アンタのせいでしょうが！」
+    paragraph: p247
+    quote_verified: true
+  - quote: コアはコアで『どうせ私は冷たくて氷のような魔女です』って。口調は静かだったけど、あれは激怒してる声だった。ああもう、なんであんなこと言っちゃったんだろう
+    paragraph: p239
+    quote_verified: true
+  expected_payoff: サリアの時間遡行能力が制限される原因がこの喧嘩にあるため、和解することで真の力が解放されるか、コア側の協力（仕事での忙しさの解消）が可能になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Priestera_Sacrifice_Inevitability
+  note: 語り手が「プリエステラは死ぬ運命にある」と断言し、カタルマリーナ等の襲撃を「世界の修正力」と呼ぶ。
+  quotes:
+  - quote: 彼女がここで死んでおかなかった為に、これからどれだけの血が流れ、どれだけの嘆きが広がり続けるのか。
+    paragraph: p85
+    quote_verified: true
+  expected_payoff: プリエステラの生存は世界に多大な被害（天災）をもたらすという予言が的中するか、その被害を「左手」や「奇策」で抑え込む展開へ移行する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命の必然性に対する人間の意思（グロソラリア）による上書き可能性
+  weight: 0.9
+  quotes:
+  - quote: 世界の修正力すら押しのけてしまう、君という世界観の修正力。
+    paragraph: p125
+    quote_verified: true
+  - quote: ここには運命を破壊し得る強力なグロソラリアが二人もいる。一人ぶんの『死の必然』くらいどうにでもできるに決まってる
+    paragraph: p300
+    quote_verified: true
+  note: 語り手は「諦めろ」と言うが、サリアとアズーリアは「破壊する」。異世界転生における「運命（脚本）」に対するメタフィクション的な抗い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 全知全能の神による管理・監視下での、子（人間）の自立と親の過保護
+  weight: 0.7
+  quotes:
+  - quote: 可愛い子供が死のうとしているのを止めない親はそういないと思うよ。僕は結構過保護なんだ。
+    paragraph: p67
+    quote_verified: true
+  - quote: 自分の子供たちがそんなことになってしまうのは、親として心苦しいからね。
+    paragraph: p115
+    quote_verified: true
+  note: 語り手の「親」的姿勢が、アズーリアの自由意志（諦めないこと）を許容し、時に手助けする構造。宗教的神格との擬似家族関係。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 共感と類推に基づく世界観の複製（ミメシス）による同化
+  weight: 0.6
+  quotes:
+  - quote: 人の子は似たものに共感を覚えてしまう。摸倣と複製を習性とする僕の子供たちは特にね。
+    paragraph: p127
+    quote_verified: true
+  - quote: レルプレアの依り代であるプリエステラに、君は強く共感してしまうのだろう。
+    paragraph: p130
+    quote_verified: true
+  note: アズーリアがプリエステラを救おうとする動機は単なる友情だけでなく、神格の性質（模倣・複製）による「同化」であるという心理的・構造的分析。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: セリフと対話を通じた情報翻訳と現実操作
+  weight: 0.5
+  quotes:
+  - quote: 世界の上位構造をここまで明確に『翻訳』して意味や言葉の形にできるのは、君が呪文使い――語り直す力を持った人だからだよ。
+    paragraph: p29
+    quote_verified: true
+  note: 「語り直す（Narrate/Translate）」ことが世界の法則（紀元槍）を操作する鍵であるという言語学的・マジカルな主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 日常の痴話喧嘩と非日常的な世界存亡の対比
+  weight: 0.4
+  quotes:
+  - quote: 「仕事と私とどっちが大切なの」
+    paragraph: p239
+    quote_verified: false
+  - quote: 世界そのものを揺るがしかねない――それこそ、この世界を引き裂いて滅茶苦茶にしてしまうような天災が起きてしまうんだ。
+    paragraph: p47
+    quote_verified: true
+  note: 世界の終わりを懸ける戦いの最中に展開される、サリアとコアの極めて世俗的・感情的な喧嘩による緊張の緩和と人間臭さの提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

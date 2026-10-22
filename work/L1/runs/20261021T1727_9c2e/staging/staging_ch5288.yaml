@@ -1,0 +1,304 @@
+episode: ch5288
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_relation_一行]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5288_一行_fights_山賊_p105
+        quote: 四人は包囲されていた。暗がりの中から一人、二人と大柄な体躯がのっそりと出現する。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_一行_travels_夜道_p2
+        quote: 不気味な静けさが辺りに立ちこめる中、夜道を行く集団がある。三人の大人と、一人の少女という奇妙な取り合わせだ。
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_岩肌種]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5288_岩肌種_has_property_保護色_p109
+        quote: 灰色の肌はあたかも岩石のそれであり、そこら中に落ちている大きな石と遠目には区別がつかない。保護色のように、岩と同化して待ち伏せしていたのだろう。
+        locator: {}
+        spoiler_after: ch5289
+    name:
+      observations:
+      - event_ref: E_ch5288_岩肌種_appears_as_山賊_p55
+        quote: 街で風の噂（エーラマーン）が囁いているのが耳に入ってな。この山には最近になって岩肌種（トロル）どもが住み着き、旅人や行商人を襲っているらしい
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5288_カーイン_says_慰めの言葉_p11
+        quote: 「気にすることは無いさ、可愛いお嬢さん」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_カーイン_deceives_捕らえた山賊_p153
+        quote: 「安心したまえ、殺しはしない。キミには道案内を頼むつもりだからね」 嘘だとフェロニアは確信したが、口にはしなかった。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_カーイン_says_薔薇のような笑顔の要求_p22
+        quote: 「美しい女性に沈んだ表情は似合わない――君は笑うべきだ。この薔薇のように」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_カーイン_confesses_同行の動機_p31
+        quote: 「そうだな。ミシャルヒは契約を結んでいるからだけれど、私に限って言えば単純な話――面白いからさ。パーンという男を見ていたいという、何と言うことの無い道楽といったところだね。それともう一つ目的はあるが、達成はかなり先の話になるだろう」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_カーイン_says_宿敵との共演への歓喜_p74
+        quote: 「流石は我が盟友にして生涯の宿敵。キミはどこまでも私を楽しませてくれるな、パーン。いいだろう、付き合おうじゃないか。それに私の知らないところで勝手に死なれては困る。頂に立ったパーン・ガレニス・クロウサーを倒し、私が最強を証明する。それが私の目的なのだから」
+        locator: {}
+        spoiler_after: ch5289
+    action:
+      observations:
+      - event_ref: E_ch5288_カーイン_captures_逃げた山賊_p140
+        quote: 彼はそれを巧みに操って標的を捕縛してみせたのだった。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_カーイン_kills_生き残りの山賊たち_p149
+        quote: カーインがぱちりと指を弾くと、音に呼応したかのように薔薇が散った。 美貌の魔人が捕らえた一人を除いて、生き残っていた山賊たちが残らず内側から血肉を飛散させていった。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_カーイン_makes_金箒花_p197
+        quote: カーインが指を鳴らすと、どこからともなく金箒花が出現して、滑らかに形状を変化させていく。出所の不明な細く丈夫な枝を軸にして、金色の箒が完成する。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_カーイン_gives_大花香月季_p20
+        quote: 見れば、鮮やかな大花香月季（ロサ・ギガンティア）が一輪、彼女の目の前に差し出されている。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_カーイン_helps_フェロニア_p7
+        quote: 背後から外套を被せてくれたのは、先程から少女に気を遣って歩調を合わせてくれる一人の男――というよりも、地に足を着けて歩いているのは少女とその男だけだった。後の二人は浮遊している。
+        locator: {}
+        spoiler_after: ch5289
+    name:
+      observations:
+      - event_ref: E_ch5288_カーイン_names_カーイン_p24
+        quote: カーインと名乗ったパーンの仲間は、そんな男だ。
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5288_パーン_kills_山賊の頭_p113
+        quote: 肩いからせて、がに股で近付いてくるという威圧的な振る舞いと共に何かを言おうとした山賊の一人が、頭部から脳漿を撒き散らして即死した。パーンが不可視の右腕で打撃したのだと、生まれつき霊感の強いフェロニアは即座に理解することができた。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_uses_幻肢_p121
+        quote: パーンは微動だにせず、存在しないはずの幻肢のみを振るって、山賊たちの鎧のように硬い肌を易々と引き裂いていった。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_attacks_巨大な幻肢_p169
+        quote: 「貴様、それは俺のものだっ」 パーンが叫びながら右の幻肢を伸ばす。どこまでも飛んでいく魂の身体が、裂帛の気合いを架空の掌から解き放った。
+          山賊たちを容易く蹂躙してみせたパーンの一撃を、巨大な腕は意にも介していない。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_uses_言理飛翔_p213
+        quote: 「言理飛翔――標準加速」 金色の花が光の粒子を放出していき、凄まじい風が吹き荒れた。 パーンはその吹きすさぶ風に乗り、闇の中に突入していく。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_takes_アキラの知識_p271
+        quote: こちらの回答を待たず、パーンは時空を超えてこちらの左腕から大量の知識を奪っていく。コルセスカが得意とする【生命吸収】の呪術を応用したものだと、慣れた感覚で分かった。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_stops_移動_p38
+        quote: 不意にパーンが立ち止まり、そんなことを言った。
+        locator: {}
+        spoiler_after: ch5289
+    speech:
+      observations:
+      - event_ref: E_ch5288_パーン_says_出力不足の理由_p174
+        quote: 「ちっ、出力不足――やはり【ガレニス】無しでは生命（オルゴン）エネルギーの伝導が不充分かっ」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_asks_未来からの知識_p262
+        quote: 「よって、俺は禁じ手であっても躊躇わず使い倒す。未来人、貴様ら少し知識を寄越せ。この時代には有り得ぬ力で奴を倒し、そして」 一瞬だけ言い淀む。
+          「あの女を取り戻す。奪われた財産は実力で奪い返す。それが力ある者の正しき振る舞いというものだ」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_says_山賊退治_p50
+        quote: 「山賊退治だ」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_says_未来の歴史的予測_p61
+        quote: 「この山に巣くっている賊の頭領はな、不遜にも山賊の分際で王を名乗り、その類い稀な力で北方に覇を唱えることになる。そして、ジャッフハリムに接近し呪祖レストロオセの右腕となるのだ」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_confesses_世界征服の野望_p65
+        quote: 「俺は最強を証明し、真なる【空使い】に至らねばならん。だが仇敵ダウザールは既に無く、俺は目的を見失った。そこでだ。俺は世界中の強者に片っ端から挑んでいく事に決めた。特に俺を差し置いて王などと名乗っている気にくわない連中は全てその座から引きずり下ろす」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_suspects_カーインの定型句_p79
+        quote: 「お前それ誰にでも同じこと言ってるんじゃ無いだろうな」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_パーン_deceives_カーイン_p92
+        quote: 「――お前はいつまでも変わらないのだな、カーインよ。大根役者ぶりに磨きがかかっているような気がするが――いずれにせよ滑稽だ。良い道化だよ本当に」
+        locator: {}
+        spoiler_after: ch5289
+    visual:
+      observations:
+      - event_ref: E_ch5288_パーン_appears_as_幼い表情_p183
+        quote: 暗闇の奥へと攫われていく途中、少女は驚くほどの幼さをパーンの表情に見たのだった。それが、どうしようもなく気になった。
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミシャルヒ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5288_ミシャルヒ_uses_夢幻泡影_p132
+        quote: 「絶招・夢幻泡影」 無数の掌打が山賊たちの肌を透過して魂魄に直接打撃を与えていく。
+        locator: {}
+        spoiler_after: ch5289
+    speech:
+      observations:
+      - event_ref: E_ch5288_ミシャルヒ_observes_パーンの異常性_p53
+        quote: 付き合いの長い二人も、この男にしては殊勝な、そして善行の部類に入る目的に、驚愕していた。
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_phrase_フェロニア]]'
+  entity_type: phrase
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5288_フェロニア_observes_カーインの美しさ_p16
+        quote: 長く艶やかな黒髪を背中に流した男は、喩えようもないほどに美しく見えた。容姿もそうなのだが、その佇まいや表情といった雰囲気が洗練されている。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_フェロニア_fears_寒さ_p4
+        quote: 肉を裂くかのような寒さに震えるのは少女ひとりだけだ。奴隷の惨めさに、フェロニアは俯いた。
+        locator: {}
+        spoiler_after: ch5289
+    action:
+      observations:
+      - event_ref: E_ch5288_フェロニア_disappears_地の底_p179
+        quote: 闇の中に消えていく少女。月光の下に取り残される男。
+        locator: {}
+        spoiler_after: ch5289
+    speech:
+      observations:
+      - event_ref: E_ch5288_フェロニア_asks_同行の理由_p26
+        quote: 「貴方は、いいひとですね。ミシャルヒもですが、どうして彼と行動を共にしているのです？」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_フェロニア_asks_目的地と目的_p41
+        quote: 「あの、そろそろ教えていただけませんか。どうして私たち、こんな所に来たんですか？ 危なくないでしょうか？」
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_フェロニア_says_感謝の言葉_p9
+        quote: 「あの、ありがとうございます」
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_大地]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5288_大地_breaks_山道_p160
+        quote: 直後、大地が大量の土砂を吹き上げながら破裂した。不可視の力が激流となって下から上へと突き上げていく。
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_巨大な幻肢]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5288_巨大な幻肢_captures_フェロニア_p165
+        quote: その腕は驚くほどの速度でフェロニアに殺到すると、少女の身体を包み込んだ。死の恐怖に震えるが、幻の巨腕は意外にも繊細な手付きで彼女を包み込み、地の底へと攫おうとする。
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_山道]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5288_山道_is_located_荒れた環境_p2
+        quote: 月光に照らされて、荒れた山道が続いている。無味乾燥な裸の針葉樹が寒々とした風に揺れて、枝が擦れる音が辺りに響く。
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_ナレーター]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5288_ナレーター_reveals_史実の結末_p225
+        quote: 史実では、パーンは野望の半ばで命を落とす。 ジャッフハリムを支配する邪悪なる呪祖レストロオセとの戦いで、当時の中原諸国は連帯し、それぞれの国から選りすぐりに勇士を送り出した。奸婦討伐を期した四十人の勇士の中にミシャルヒとカーインの名が含まれていたのは、彼らが主君をレストロオセの奸計によって失ったからだと言われている。
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5288_アキラ_observes_パーンの演じ方_p231
+        quote: 攫われたヒロインを助けに行く英雄好漢、というキャラクターではけしてない。だが、ただの戦闘狂というわけでもないのではないか。 俺はグラを通じて彼を演じるうちに、そんなことを思い始めていた。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_アキラ_thinks_力への渇望_p249
+        quote: 歯痒かった。グレンデルヒにも、この男にも勝つことの出来ない、力の無さが。強さが欲しい。借り物でも付け焼き刃でもいいから、今すぐに全ての困難を取り除くことができる圧倒的な力が。
+        locator: {}
+        spoiler_after: ch5289
+    action:
+      observations:
+      - event_ref: E_ch5288_アキラ_activates_サイバーカラテ道場Ver2.0_p297
+        quote: （これをやるのも、久しぶりだな――【サイバーカラテ道場Ver2.0】起動！ 当然【E-E】も常駐起動だ！） 存在しない脳、存在しない脳侵襲機器の内部で、架空のアプリが起動する。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_アキラ_activates_幻肢の力・幽体リモートデスクトップ_p301
+        quote: （もいっこ追加で、架空アプリ起動！ 呪術行使支援アプリ【幻肢の力】・【幽体リモートデスクトップ】起動だよっ！） 新生サイバーカラテにおける心技体そして呪――神秘の言葉が世界に響き、魔女の杖（ウィッチクラフト）がその機能を果たす。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_アキラ_appears_パーンの前_p306
+        quote: その目の前で闇が途切れて、呪鉱石が放つ淡い光に包まれた大空洞に飛び出した。放り出されたパーンという役から、凄まじい呪力が溢れてもう一つの霊体が弾け飛んだ。彼から分離したのは、もう一人の影。
+        locator: {}
+        spoiler_after: ch5289
+      - event_ref: E_ch5288_アキラ_takes_構え_p324
+        quote: そんなわけで、亡霊（ゴースト）と化した俺は虚空を踏みしめ、重心を低く、右半身を前に出して構えを取った。見据えるのは目の前の敵手。
+        locator: {}
+        spoiler_after: ch5289
+    name:
+      observations:
+      - event_ref: E_ch5288_アキラ_names_シナモリ・アキラ_p312
+        quote: 「サイバーカラテ道場第五階層支部、師範代のシナモリ・アキラだ。唐突で悪いが――ここから先は、俺も参加させてもらう」
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5288_ちびシューラ_other_言語魔術の提案_p277
+        quote: （あのね、アキラくん。シューラ、ちょっと思いついた事があるんだけど、今なら、こんな事もあろうかと準備していた言語魔術でアキラくんの――）
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン・ガレニス・クロウサー]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5288_パーン・ガレニス・クロウサー_appears_as_奇人変人_p28
+        quote: 前を歩く――というか浮遊して進むパーン・ガレニス・クロウサーは有り体に言って奇人変人の類である。積極的に関わり合いになろうとする者がそういるとは考えにくい。
+        locator: {}
+        spoiler_after: ch5289
+  first_appearance_candidate: true

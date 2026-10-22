@@ -1,0 +1,244 @@
+chapter: ch5390
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 14
+  quotes_total: 22
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p16_keylogger]]'
+  object: '[[ME_keylogger_malware]]'
+  claim: 幻姿霊の術が、現実世界のPCソフトウェアにおけるキーロガー（打鍵記録・画面キャプチャ機能）として描かれ、ユーザーの入力情報とプライバシーがデータとして搾取される構造を模倣している。
+  quote: その術は、パスワードやソフトウェアのプロダクトキーなどを盗み出すことが目的のキーロガーなどと呼ばれる打鍵記録プログラムの一種である。指や視線、声帯や口の動きを記録し、眼球に働きかけて念写（スクリーンショット）をキャプチャし、ネットバンク等の口座関連ウェブサイトでの活動状況を監視して入力フォームに偽装フィールドを追加挿入する。
+  paragraph: p16
+  confidence: explicit
+  quotes:
+  - quote: その術は、パスワードやソフトウェアのプロダクトキーなどを盗み出すことが目的のキーロガーなどと呼ばれる打鍵記録プログラムの一種である。指や視線、声帯や口の動きを記録し、眼球に働きかけて念写（スクリーンショット）をキャプチャし、ネットバンク等の口座関連ウェブサイトでの活動状況を監視して入力フォームに偽装フィールドを追加挿入する。
+    paragraph: p16
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p20_physics_attack]]'
+  object: '[[ME_gacha_game_meta]]'
+  claim: パーンの戦法である『適当な人材の技術参照・総当たり』は、ガチャで入手した多数のキャラクター（スキル）を編成し、相性の良い技をランダムに撃つソシャゲ的メタファとしての戦闘描写である。
+  quote: 総当たりの物量攻撃。その場にいた適当な人材の技術を参照、再現してヴァージルにぶつけていくだけだ。
+  paragraph: p21
+  confidence: strong
+  quotes:
+  - quote: 総当たりの物量攻撃。その場にいた適当な人材の技術を参照、再現してヴァージルにぶつけていくだけだ。
+    paragraph: p21
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p48_authority]]'
+  object: '[[ME_literary_canon]]'
+  claim: 『見えないところで』権威が形成されるという描写は、文学作品や神話における「正典（カノン）」の成立過程、すなわち多数の言及と評価の蓄積によって権威が構造化される現象を指している。
+  quote: その『見えないところで』というのを曖昧なまま形にしたのがパーンの使役している竜の正体だ。実体は無いが確かにそこにある『集合知幻想という権威』。
+  paragraph: p48
+  confidence: strong
+  quotes:
+  - quote: その『見えないところで』というのを曖昧なまま形にしたのがパーンの使役している竜の正体だ。実体は無いが確かにそこにある『集合知幻想という権威』。
+    paragraph: p48
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p53_counter_spell]]'
+  object: '[[ME_magic_system_logic]]'
+  claim: 対抗呪文『静謐』による魔法の相殺は、伝統的なRPGにおける「カウンター」や「ディスペル・マジック」の概念を、「設定上の紀竜」のような高位概念をも物理的に解体するメタ的な消去現象として逆転させている。
+  quote: その術はもう『覚えた』――貴様の呪文は、もう効かない」とパーンの背後で輝く黒い魔導書が、対抗呪文『静謐』によって人工の紀竜を解体していた。
+  paragraph: p53-p55
+  confidence: moderate
+  quotes:
+  - quote: その術はもう『覚えた』――貴様の呪文は、もう効かない」とパーンの背後で輝く黒い魔導書が、対抗呪文『静謐』によって人工の紀竜を解体していた。
+    paragraph: p53-p55
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p123_genital_worship]]'
+  object: '[[ME_fertility_cult]]'
+  claim: イアテムの男根を「立派」「雄々しい」と褒め称え、存在しない器官が世界に幻視される様子は、古代の豊穣信仰やフェティシズムにおけるシンボル崇拝の構造的な模倣である。
+  quote: 仲間たちからの男根コールにより存在しない男根が世界に幻視され、『雄々しい』『立派』『見事』と褒めそやされる度にイアテムは男性としての自信を取り戻していく。
+  paragraph: p123
+  confidence: strong
+  quotes:
+  - quote: 仲間たちからの男根コールにより存在しない男根が世界に幻視され、『雄々しい』『立派』『見事』と褒めそやされる度にイアテムは男性としての自信を取り戻していく。
+    paragraph: p123
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p45_dragon]]'
+  object: '[[ME_tulpa_egregore]]'
+  claim: 語られざるものの集合が竜として現れる現象は、集団思考によって生み出された自律的な精神体（エルゴレ/タルパ）の生成プロセスに似ている。
+  quote: 語られざるもの、その集合たる竜が。『サイバーカラテ道場』が死蔵されていた設定の群れに評価を与えたことで、膨大な量の戦術パターンが追加されていた。
+  paragraph: p45-p46
+  confidence: moderate
+  quotes:
+  - quote: 語られざるもの、その集合たる竜が。『サイバーカラテ道場』が死蔵されていた設定の群れに評価を与えたことで、膨大な量の戦術パターンが追加されていた。
+    paragraph: p45-p46
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_fal_farfarel_secret
+  note: ファルファレロが最後に発動した「言理の妖精語りて曰く」という呪文の意味と、それがもたらす「狂王子」再構築の真意。これは単なる攻撃ではなく、存在の解体（データ化）を意味する可能性があり、後の展開でメタ的な介入手段となる伏線。
+  quotes:
+  - quote: 言理の妖精語りて曰く――チャンスは逃さない。君を単純化したまま解体する
+    paragraph: p153
+    quote_verified: true
+  - quote: ファルの歌がヴァージルの過去を切り取り、分解し、取捨選択してファルの眼鏡越しの『狂王子』を再構築していった。
+    paragraph: p157
+    quote_verified: true
+  expected_payoff: ヴァージルというキャラクターの「情報的」な解体と再定義、あるいは物語構造そのものへの介入。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_theron_free_feronia
+  note: パーンが宣言した『自由（フェロニア）』の内容。単なる脱出ではなく、この世界（階層構造）からの完全な解放を意味する用語として定義されており、物語の最終的なゴールへの伏線。
+  quotes:
+  - quote: 俺は『自由（フェロニア）』を手にして帰るとしよう。
+    paragraph: p138
+    quote_verified: false
+  expected_payoff: 階層支配からの脱出、あるいはメタフィクショナルな「外」への到達。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_iamtem_true_form
+  note: イアテムの「男根」が象徴する力（雄々しさ）と、彼の「傷病者」としての真実。マイカールに「玉無し」と罵られながらも勝利するのは、フィクションとしての自己肯定による力であることが示唆されている。
+  quotes:
+  - quote: 彼らは痛ましい傷を見て憐れんでいるのではなかった。...瞳に浮かぶのは称賛と羨望。
+    paragraph: p115-p117
+    quote_verified: false
+  expected_payoff: イアテムが物語の「主人公」的な権能を確立する過程、または彼の存在のメタ的性質の開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_roasgarde_ghost
+  note: 消えたはずのロワスカーグが半透明な姿で現れ、ファルに「出て来るな」と拒絶される現象。使い魔の死後の残留思念（ゴースト）か、あるいはヴァージルの精神状態を反映した幻影か。
+  quotes:
+  - quote: どうしてか消えたはずのロワスカーグがぼんやりとその半透明な姿を具現化させようとしていた。
+    paragraph: p143
+    quote_verified: true
+  expected_payoff: ヴァージルの敗北と精神崩壊の象徴、あるいは次の戦闘（ファル戦）への引き継ぎ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_organrode_definition
+  note: 「設定上の紀竜オルガンローデ」が「無数の設定の羅列」であるという定義。この「設定」という概念が、物語世界の物理法則を侵食するメタ要素として機能していることの伏線。
+  quotes:
+  - quote: それは無数の設定の羅列だった。
+    paragraph: p11
+    quote_verified: true
+  expected_payoff: 物語世界の「設定」改変能力が、戦闘だけでなく世界改変レベルで運用されることの予告。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションにおける「データ化」と「意味の解体」
+  weight: 0.9
+  quotes:
+  - quote: 君を単純化したまま解体する
+    paragraph: p153
+    quote_verified: true
+  - quote: ファルの歌がヴァージルの過去を切り取り、分解し、取捨選択してファルの眼鏡越しの『狂王子』を再構築していった。
+    paragraph: p157
+    quote_verified: true
+  note: 戦闘の決着が、物理的な殺戮ではなく、キャラクターの設定（過去・属性）を「単純化」し「再構築」する情報処理として描かれている点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 集合知と権威による暴力の生成
+  weight: 0.8
+  quotes:
+  - quote: 見えないところで『サイバーカラテ道場』の格と信用度は高まっていく。...実体は無いが確かにそこにある『集合知幻想という権威』。
+    paragraph: p46-p48
+    quote_verified: false
+  - quote: 仲間たちからの男根コールにより存在しない男根が世界に幻視され...巨大なオーラのような呪力が膨張し、屹立していく。
+    paragraph: p123
+    quote_verified: false
+  note: パーンの竜（設定の集合）も、イアテムの男根（仲間の声援）も、「他者の認知/評価の蓄積」が物理的な力として具現化している構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術の独占と知的権力の行使
+  weight: 0.7
+  quotes:
+  - quote: 俺が司る権力の形は『技能』――すなわち叡智の独占！ あらゆる知識と技術は俺が使う為だけに存在し、俺の許可無しに使われることがあってはならない
+    paragraph: p62
+    quote_verified: true
+  - quote: 誰の許可を得て俺より高みに立っている？
+    paragraph: p67
+    quote_verified: true
+  note: 知識（スキル）を「所有」し、他者の使用を禁止することで世界法則（重力・浮遊）を支配する権力構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 屈辱の政治学と自己肯定による復権
+  weight: 0.6
+  quotes:
+  - quote: 頭が高いぞ野ウサギ風情が...浮遊はおろか、跳躍するために足を撓めることすら許さない絶対の呪い。
+    paragraph: p71-p73
+    quote_verified: false
+  - quote: 家族（なかま）が我を信じている。ならば我は家族の信じるこの身の猛々しさを信じよう...我こそは勇者イアテム！
+    paragraph: p105-p110
+    quote_verified: false
+  note: ヴァージルの物理的・精神的な支配（踏みつけ）と、イアテムの自己受容による逆転。屈辱が物語を動かす駆動力として機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 被害者意識の暴力性
+  weight: 0.5
+  quotes:
+  - quote: 貴様らのせいでどれだけ苦しんだと思っている被害者気取りもいい加減にしろ
+    paragraph: p101
+    quote_verified: true
+  - quote: 報復により一致団結した海の民、それを束ねたイアテムは剣を高らかに掲げて...この第五階層に覇を唱える事を宣言した。
+    paragraph: p134
+    quote_verified: false
+  note: マイカールの「被害者」としての自己正当化と、それに対する海の民の報復。加害/被害の循環が暴力を生む構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

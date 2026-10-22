@@ -1,0 +1,139 @@
+chapter: ch5210
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 16
+items:
+- kind: mystery
+  name: MY_黒の色号の起源と制約
+  note: エスフェイルが「黒」の色号（言語を司る能力）を獲得した経緯と、それがなぜ「純正二次元人」や「模造の月」等の特定の条件でしか破れないのかという技術的な詳細。
+  quotes:
+  - quote: これを破りたくば、いにしえに存在していた夜の民、純正二次元人でも連れてくることだな
+    paragraph: p152
+    quote_verified: true
+  - quote: 『黒』の色号は言語を司る――名前さえ掌握できれば、その本質を操る事など容易い。
+    paragraph: p217
+    quote_verified: true
+  expected_payoff: 後続の戦闘で、この「黒」に対する対抗手段（例：特定の言葉、純正二次元人の登場、言語魔術のカウンター）が提示される可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リールエルバの真体と依存構造
+  note: エスフェイルはセリアック＝ニアの依存先（姉）を「紛い物」「足場が崩れている」と断言したが、セリアック＝ニアの精神はこれを否定して立ち上がった。この「姉」の正体や、セリアック＝ニアが本当に何に依存しているかが焦点となる。
+  quotes:
+  - quote: 貴様の拠り所は、存在しない
+    paragraph: p276
+    quote_verified: true
+  - quote: 私たちの在り方は私たちが定める。誰にも口を出させたりしない。姉様はそう仰っています。セリアもそう思います
+    paragraph: p284
+    quote_verified: true
+  expected_payoff: リールエルバが単なる「偽物」ではなく、セリアック＝ニアの自我を形成する上で不可欠なパートナーであることが明かされ、二人の連携による逆転劇の鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_影の陥穽からの脱出法
+  note: エスフェイルによって通路に仕掛けられた「影による【陥穽（エンスネア）】」は、姉妹姫を閉じ込める完全な罠として描かれた。この空間がどう機能し、どのように破られるかが未解決。
+  quotes:
+  - quote: エスフェイルによる独自の改変が施された影による【陥穽（エンスネア）】。
+    paragraph: p322
+    quote_verified: true
+  - quote: 高純度の呪波汚染に曝されて姉妹揃って影に沈むがいい
+    paragraph: p324
+    quote_verified: true
+  expected_payoff: 次の章で、闇の中でセリアック＝ニアとリールエルバがどのように対話・協力し、この罠を破るかが描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_エスフェイルの「師兄」とクエスドレム殿
+  note: エスフェイルが自慢した「ズタークスターク殿」「師兄」「クエスドレム殿」という人物群。彼らとの過去の因縁や、この魔将の実力水準の基準点となる。
+  quotes:
+  - quote: 手合わせすれば五回に三回は師兄に勝ち！ 魔将拝命の直前、クエスドレム殿に打ち勝った我こそは！
+    paragraph: p313
+    quote_verified: true
+  expected_payoff: これらの人物が物語後半で重要な役割（敵、味方、過去のエピソード）を持って登場する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_万猫殿と取り替え子の真相
+  note: セリアック＝ニアが「万猫殿」から攫われたという事実。この異世界の存在、そしてなぜ彼女がドラトリアの王族として機能していたのか（歴史的な欠損部分）。
+  quotes:
+  - quote: 生まれたばかりのセリアック＝ニアは異世界である【万猫殿】に攫われ、貴様と取り替えられた――猫が憑いた貴様とな。
+    paragraph: p258
+    quote_verified: true
+  expected_payoff: セリアック＝ニアの出自に関する詳細なバックストーリーや、万猫殿という勢力との接触が描かれる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 名前の権力とアイデンティティの脆弱性
+  weight: 0.8
+  quotes:
+  - quote: 名前さえ掌握できれば、その本質を操る事など容易い。
+    paragraph: p217
+    quote_verified: true
+  - quote: 自己の立ち位置すら定められず、他者に依存するばかりの脆弱な寄生精神、それが貴様だ。
+    paragraph: p272
+    quote_verified: true
+  note: エスフェイルは「名前」を武器に相手を支配しようとし、セリアック＝ニアはその名前の由来（取り替え子）を突かれて精神的に追い詰められる。名前が実体そのものであり、それを操作されることが存在の危機であるという主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 模倣による自己強化と技術の継承
+  weight: 0.7
+  quotes:
+  - quote: 夜の民にとって、摸倣とはその人生をかけて行う魂の営為。複製した術技を統合し、戦闘技術として昇華させるエスフェイルの呪術師としての技量は、一つの高みに届こうとしていた。
+    paragraph: p244-245
+    quote_verified: true
+  - quote: 私を殺した忌まわしい解体術、その摸倣が私を救うか。皮肉なものよ。
+    paragraph: p234
+    quote_verified: true
+  note: エスフェイルが他者の技術（死者の力、対抗呪文、黒の色号）を模倣し統合して最強へと至る過程は、「学び」と「自己形成」の暗い側面を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: バグとしての魔法とシステムの隙
+  weight: 0.6
+  quotes:
+  - quote: 呪術というのは、その体系の中で一連の流れを正常なものとして認識しようとする。それゆえにバグも発生しやすいのだが、これはそれを利用した小技であった。
+    paragraph: p304
+    quote_verified: true
+  - quote: 対象の呪術抵抗を無視して、『球体にする』というプロセスが既に完了していると見なされるのである。
+    paragraph: p303
+    quote_verified: true
+  note: 魔法体系を厳格なルール（プログラム）として捉え、そのループの欠陥（バグ）を突くことで権力構造（呪術抵抗）を回避する試み。論理の隙を突く知性が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 依存関係の解体と自立の代償
+  weight: 0.5
+  quotes:
+  - quote: 貴様の拠り所は、存在しない
+    paragraph: p276
+    quote_verified: true
+  - quote: 首すら据わっていない少女の宝石の瞳だけが、爛々と輝いてエスフェイルを睨み付けていた。
+    paragraph: p291
+    quote_verified: true
+  note: エスフェイルは「姉（リールエルバ）への依存」がセリアック＝ニアの弱点だと看破するが、セリアック＝ニアはその依存を「自分たちの意志」として再定義し、肉体が崩壊するほどの代償を払ってでも立ち向かう。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

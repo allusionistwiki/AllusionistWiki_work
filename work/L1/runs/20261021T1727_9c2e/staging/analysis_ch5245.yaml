@@ -1,0 +1,232 @@
+chapter: ch5245
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 14
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5245_Vik_Name]]'
+  object: '[[ME_Dismaer_Wiktorija_Latin]]'
+  claim: ヴィクトリア女王を想起させる名前の語源と、その愛称の英語読みに見られる言語的多層構造。
+  quote: 私の名はディスマーテル・ウィクトーリア。【変異の三手】が左副肢にして、【死人の森の女王】と呼ばれているものです。名前が長いので、お気軽に『ヴィク』とでもお呼び下さいな
+  paragraph: p70
+  confidence: explicit
+  quotes:
+  - quote: 私の名はディスマーテル・ウィクトーリア。【変異の三手】が左副肢にして、【死人の森の女王】と呼ばれているものです。名前が長いので、お気軽に『ヴィク』とでもお呼び下さいな
+    paragraph: p70
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5245_Styx_Spell]]'
+  object: '[[ME_Greek_Mythology_Styx_River]]'
+  claim: 死者の川ステュクスを模した浄界の描写。
+  quote: 目の前には悠久なる青い大河が流れる見知らぬ空間。足下は迷宮の床ではなく河川敷になっている。
+  paragraph: p204-p205
+  confidence: strong
+  quotes:
+  - quote: 目の前には悠久なる青い大河が流れる見知らぬ空間。足下は迷宮の床ではなく河川敷になっている。
+    paragraph: p204-p205
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_5245_Zed_Gun]]'
+  object: '[[ME_Desert_Eagle_Magnum_Arms]]'
+  claim: ゼドが使用する、通常のカテゴリを逸脱した巨大な拳銃（ハンドキャノン）の描写。
+  quote: 個人が携行できる『拳銃』という武器のカテゴリをほとんど逸脱した、ハンドキャノンとも呼べる怪物銃だ。おそらく全長は一メートル以上、重量は七キロを超えている。
+  paragraph: p100-p101
+  confidence: moderate
+  quotes:
+  - quote: 個人が携行できる『拳銃』という武器のカテゴリをほとんど逸脱した、ハンドキャノンとも呼べる怪物銃だ。おそらく全長は一メートル以上、重量は七キロを超えている。
+    paragraph: p100-p101
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5245_Akira_Internal_Ki]]'
+  object: '[[ME_Tai_Chi_Push_Hands]]'
+  claim: アキラがヴィクの攻撃を受け流す際に用いる、太極拳の推手（受け流し）に酷似した武術技法。
+  quote: 両手を螺旋を描くように動かして、極大の衝撃を受け流す。気息を導引し、全身の血流に酸素を取り込むと、冷たい心でそれを迎え撃つ。
+  paragraph: p319-p320
+  confidence: strong
+  quotes:
+  - quote: 両手を螺旋を描くように動かして、極大の衝撃を受け流す。気息を導引し、全身の血流に酸素を取り込むと、冷たい心でそれを迎え撃つ。
+    paragraph: p319-p320
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5245_Vik_Phallus_Moon]]'
+  object: '[[ME_Surrealist_Art_Dali_Melting_Watch]]'
+  claim: 現実を無視した超現実的な光景（泡、溶けるような形状）によるシュルレアリスム的演出。
+  quote: 水底から屹立したのはフラクタル図形の騙し絵じみた男根である。スポンジ状の巨大な生殖器が、二次元以上三次元以下という異様な全身から水滴を滴らせて浮遊する。
+  paragraph: p231-p232
+  confidence: moderate
+  quotes:
+  - quote: 水底から屹立したのはフラクタル図形の騙し絵じみた男根である。スポンジ状の巨大な生殖器が、二次元以上三次元以下という異様な全身から水滴を滴らせて浮遊する。
+    paragraph: p231-p232
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_5245_Vik_Oath]]'
+  object: '[[ME_Legal_Contract_Pact]]'
+  claim: 約束が物理法則（死）を上回る絶対的な強制力を持つという、契約の超越性。
+  quote: 私の約束は、絶対に破られることが無いんですよ？ 絶対遵守の呪い――未来転生者としての私固有の能力です。
+  paragraph: p396-p409
+  confidence: strong
+  quotes:
+  - quote: 私の約束は、絶対に破られることが無いんですよ？ 絶対遵守の呪い――未来転生者としての私固有の能力です。
+    paragraph: p396-p409
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Vik_Future_Reincarnator
+  note: ヴィクが過去ではなく未来を前世とする存在であるという告白。時間逆行やループ構造を示唆する。
+  quotes:
+  - quote: つまりそれは、異世界や過去を前世とするのではなく、未来を前世とする存在であるということなのか。まるで、時間を遡ったとでも言うような発言。
+    paragraph: p424-p425
+    quote_verified: true
+  expected_payoff: 物語の時間軸が非線形であることを示し、ヴィクがアキラの未来（または現在）に関する知識を持っている可能性を暗示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Vik_Oath_Partner
+  note: 「あの子」という約束の相手。その正体と、なぜヴィクが帰還を約束されているのか。
+  quotes:
+  - quote: だって私、あの子に『必ず帰る』と約束しましたもの。私の約束は、絶対に破られることが無いんですよ？
+    paragraph: p396
+    quote_verified: true
+  expected_payoff: ヴィクの不死性の根源が「約束」の相手（誰かを守るため）にあることを示し、敵対勢力の動機が単純な悪意ではない可能性を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Vik_Death_Cause
+  note: ヴィクが「一度油断して殺されて」権能を失った経緯。キロンとの関係性。
+  quotes:
+  - quote: 一度油断して殺されてしまったんですけど、蘇生したら無くなっていて困っていたのです
+    paragraph: p416
+    quote_verified: true
+  expected_payoff: ヴィクがキロンに殺された（あるいは殺されかけた）過去があり、アキラの行為（キロン討伐）がヴィクの復活を助けたという因果関係の深掘り。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Phantom_Limb_Usage
+  note: 右腕（幻肢）が「アストラル界」を視認・干渉する機能の獲得と、それが「紀元槍」へのアクセスに利用される可能性。
+  quotes:
+  - quote: この【氷鏡】を介せば、呪術の世界――アストラル界は俺の目と拳でも捉えられるようになる。
+    paragraph: p13
+    quote_verified: true
+  - quote: それは【雪華掌】の欠片の一つだったな。紀元槍の制御盤であれば、紀元槍へのアクセスに割り込みをかけることができるかもしれん。
+    paragraph: p270
+    quote_verified: true
+  expected_payoff: アキラの右腕が単なる武器ではなく、世界改変のキーアイテム（雪華掌の欠片）であることの確定的な描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Vik_Motivation_Why_Diversion
+  note: ヴィクがアキラたちと戦いながら「陽動」と呼んだ真意。なぜ殺し合いではなく牽制に留めたのか。
+  quotes:
+  - quote: 陽動は済みましたし――あちらも首尾良く仕事を終えている頃でしょう。さようならアキラ様。またお会いしましょう
+    paragraph: p428
+    quote_verified: true
+  expected_payoff: ヴィクが敵対しつつも、アキラを殺すことを目的としていない（あるいは殺せない理由がある）ことを示唆し、複雑な協力関係や共通の敵の存在を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「約束」による不死性：誓約が物理的な死を上回る絶対的な力を持つというテーマ。
+  weight: 0.9
+  quotes:
+  - quote: 私の約束は、絶対に破られることが無いんですよ？ 絶対遵守の呪い――未来転生者としての私固有の能力です。
+    paragraph: p396-p409
+    quote_verified: false
+  note: ヴィクの不死性が生物学的な強さではなく、論理的・魔術的な「契約」の強制力によって成り立っていることを強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 柔（内功）による剛（外骨格）の克服：機械的・物理的な暴力を、内なる気（生体エネルギー）で流すという武術哲学。
+  weight: 0.8
+  quotes:
+  - quote: 強化外骨格を纏った敵に、単純な『剛』の力では勝てない。ならば外力で対抗するのではなく、内力で対抗するまで。
+    paragraph: p346-p347
+    quote_verified: true
+  note: サイバーカラテ（技術）と内功（伝統・精神）の融合が、ヴィクという「過剰な機械」を打ち破る鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語の多層性と権力：ラテン語、英語、異界からの引用など、名前や呪文が持つ文化的・歴史的な権威の行使。
+  weight: 0.7
+  quotes:
+  - quote: あえてラテン語読みで名乗っておいて、英語読みの愛称で呼ばせるってどういうことだよ。さあ？どんな意味があると思いますか？
+    paragraph: p78-p80
+    quote_verified: false
+  note: ヴィクの名乗りが単なる識別子ではなく、多言語・多文化を背景に持つ「権力」の行使であることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情の共有と絆：幻視を通じた苦痛の共有が、アキラとコルセスカの絆（使用魔契約）を強化する過程。
+  weight: 0.6
+  quotes:
+  - quote: 延々と貴方が他の人のものになる光景を見せ続けられた私の身にもなって下さい！これでも傷付いてるんですよ！
+    paragraph: p42
+    quote_verified: true
+  - quote: 共有した怒りに呼応して、コルセスカもまた【氷球】を浮遊させる。
+    paragraph: p55
+    quote_verified: true
+  note: 敵の精神攻撃が結果的にアキラとコルセスカの相互理解と戦闘能力の相乗効果を生んだ皮肉な構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 未来からの影響（因果律の逆転）：過去を改変するのではなく、未来が現在に影響を与える「未来転生」という概念。
+  weight: 0.5
+  quotes:
+  - quote: つまりそれは、異世界や過去を前世とするのではなく、未来を前世とする存在であるということなのか。
+    paragraph: p424
+    quote_verified: true
+  note: ヴィクの正体に関するメタフィクショナルな提示。物語の時間軸が直線的ではない可能性を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

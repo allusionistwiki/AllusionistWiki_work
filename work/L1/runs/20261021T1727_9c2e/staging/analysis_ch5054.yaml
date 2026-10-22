@@ -1,0 +1,252 @@
+chapter: ch5054
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5054_p197]]'
+  object: '[[ME_Powered_Exoskeleton_Mecha]]'
+  claim: トリシューラが召喚した狼型装甲は、SF作品における「強化外骨格（パワードスーツ）」の概念をファンタジー世界に移植したものである。
+  quote: '「――強化外骨格？」
+
+    「パワードエクゾスケルトン、モデル『狼の皮を被る者』、起動」'
+  paragraph: p197-p201
+  confidence: explicit
+  quotes:
+  - quote: '「――強化外骨格？」
+
+      「パワードエクゾスケルトン、モデル『狼の皮を被る者』、起動」'
+    paragraph: p197-p201
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5054_p208]]'
+  object: '[[ME_Kigurumi_Mecha_Trope]]'
+  claim: 巨大ロボット（きぐるみ）を操る行為は、SFのメカアクションを「着ぐるみ」という低予算・コミカルな概念で矮小化し、同時に軍事兵器として再定義するパロディである。
+  quote: '『さーて、きぐるみの魔女、本領発揮するよー』
+
+    スピーカーごしのトリシューラの声が響くと同時に、強化外骨格（きぐるみ）の腰に据え付けられたギミックが駆動する。'
+  paragraph: p208-p210
+  confidence: strong
+  quotes:
+  - quote: '『さーて、きぐるみの魔女、本領発揮するよー』
+
+      スピーカーごしのトリシューラの声が響くと同時に、強化外骨格（きぐるみ）の腰に据え付けられたギミックが駆動する。'
+    paragraph: p208-p210
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5054_p146]]'
+  object: '[[ME_Mythological_Trident]]'
+  claim: 魔女たちの名前の由来が「三叉の槍」であることは、ローマ神話のネプチューン（トリシューラ/トライデント）やヒンドゥー教のシヴァ（トリシュール）といった神話的象徴への直接的な言及である。
+  quote: '確かイタリアあたりの槍の名前と、ヒンドゥー教の神が持つ槍の名前だった覚えがある。
+
+    共通点は、俺の世界における三叉の槍の名称、という所だ。'
+  paragraph: p144-p146
+  confidence: explicit
+  quotes:
+  - quote: '確かイタリアあたりの槍の名前と、ヒンドゥー教の神が持つ槍の名前だった覚えがある。
+
+      共通点は、俺の世界における三叉の槍の名称、という所だ。'
+    paragraph: p144-p146
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5054_p157]]'
+  object: '[[ME_Renmei_Magic_System]]'
+  claim: 名前を宣言することで力を増幅させる仕組みは、陰陽道や呪術における「宣名（せんみょう）」の概念が、ファンタジー戦闘システムとしてゲーム化されたものである。
+  quote: '自己紹介、宣名こそが最大の自己強化呪術。そんな知識が、ちびシューラから送り込まれてくる。
+
+    名前の宣言と共に、その存在感が爆発的に膨れあがったのだ。'
+  paragraph: p159-p162
+  confidence: moderate
+  quotes:
+  - quote: '自己紹介、宣名こそが最大の自己強化呪術。そんな知識が、ちびシューラから送り込まれてくる。
+
+      名前の宣言と共に、その存在感が爆発的に膨れあがったのだ。'
+    paragraph: p159-p162
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5054_p177]]'
+  object: '[[ME_Time_Stop_Ability]]'
+  claim: コルセスカの「世界よ凍れ」という詠唱とそれに続く超高速移動は、タイムストップ能力や時間操作能力を持つキャラクターのクリシェに一致する。
+  quote: '「世界よ凍れ――私以外の全てが遅い」
+
+    コルセスカの言葉と同時に、その姿がかき消えた。
+
+    否、加速したのだ。'
+  paragraph: p177-p180
+  confidence: strong
+  quotes:
+  - quote: '「世界よ凍れ――私以外の全てが遅い」
+
+      コルセスカの言葉と同時に、その姿がかき消えた。
+
+      否、加速したのだ。'
+    paragraph: p177-p180
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5054_p223]]'
+  object: '[[ME_Modern_Military_Tactics]]'
+  claim: ファンタジーの巨大生物に対する現代兵器（APFSDS的な運動エネルギー弾、ミサイル、機銃）の使用は、異世界転生ジャンルにおける「近代兵器対モンスター」のメタファーを、軍事技術の細部まで描写することでリアルに再現している。
+  quote: '恐らくあれは、極めて原始的な運動エネルギー弾によるものだろう。
+
+    対生物戦闘でアーマーピアシングする必要性が果たしてあるのだろうか。'
+  paragraph: p221-p223
+  confidence: moderate
+  quotes:
+  - quote: '恐らくあれは、極めて原始的な運動エネルギー弾によるものだろう。
+
+      対生物戦闘でアーマーピアシングする必要性が果たしてあるのだろうか。'
+    paragraph: p221-p223
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Cyotos_Sisters_Origin
+  note: 「キュトスの姉妹が七十一番」という自己紹介。彼女たちが単なる魔女ではなく、何らかの組織・実験体・人工的な存在（アンドロイドの記述とも関連）である可能性を示唆する伏線。
+  quotes:
+  - quote: 「我が銘はキュトスの姉妹が七十一番、氷血のコルセスカ」
+    paragraph: p149
+    quote_verified: true
+  - quote: 「キュトスの姉妹No.71――鮮血のトリシューラだよ。よろしく死んでね！」
+    paragraph: p151
+    quote_verified: true
+  expected_payoff: この「キュトス」という名称、および番号が指す背景（実験体群、複製人間、歴史的な魔女団の系譜など）が明かされ、彼女たちの存在意義が再定義される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Latin_Sanskrit_Source
+  note: 異世界において日本語話者である主人公にのみ「ラテン語」「サンスクリット語」が理解できる、あるいはそのまま唱えられている現象。言語の壁を超えた「概念直結」の魔法システム、または主人公の過去との関連を示唆する。
+  quotes:
+  - quote: 'コルセスカが唱えたのはもしやラテン語では無かったか。
+
+      俺が聞き間違えたとか、『この世界の異国語』が対応する『俺にとっての異国語』に翻訳されたとか、そういうレベルを通り越して、そのままラテン語とサンスクリット語だった。'
+    paragraph: p135-p137
+    quote_verified: true
+  expected_payoff: この世界の魔法体系が「神話的言語」を基盤としていること、または主人公（アキラ）がこの世界と深く結びついている（前世の記憶や設定との関連）ことの証明となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Corsesca_Price
+  note: コルセスカの超高速移動・氷血呪使用に伴う「代償」。銀色の血が流れる描写は、彼女が人間（あるいは生命体）としての限界を越えており、何らかの欠損や変質が進んでいることを示唆する。
+  quotes:
+  - quote: 氷の槍を振るう毎に、コルセスカの肉体に裂傷が走り、身体から銀色の血が流れていく。
+    paragraph: p239
+    quote_verified: true
+  expected_payoff: 戦闘終了後、彼女が深刻な損耗状態にあること、あるいは「銀色の血」が単なる血液ではなく魔法資源の枯渇・肉体崩壊の兆候であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Hand
+  note: 主人公アキラが引き上げられ、「ありがとう」と感謝を伝えた直後、魔女たちが吹き出し笑ったこと。「この手を引いてくれて」の真意（主人公が誰の手を引いたのか、あるいは主人公自身が「手」の役割を果たしたのか）への言及。
+  quotes:
+  - quote: '三人は何を言われたのかわからなかったのか、呆けたようにこちらを眺めていたが、一瞬の後たいへん失礼な反応をとった。
+
+      一斉に吹き出したのである。'
+    paragraph: p32-p33
+    quote_verified: true
+  expected_payoff: 主人公の「感謝」の内容（引いてくれた手＝コルセスカの手？それとも？）に対する魔女たちの認識のズレ、またはアキラという存在が彼女たちにとって特別な位置づけ（所有物）であることの強調。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異世界における「神話的記号」の再帰的な発現
+  weight: 0.9
+  quotes:
+  - quote: 'コルセスカが唱えたのはもしやラテン語では無かったか。
+
+      トリシューラのはマントラ、ていうかサンスクリット語？'
+    paragraph: p135-p134
+    quote_verified: false
+  - quote: 共通点は、俺の世界における三叉の槍の名称、という所だ。
+    paragraph: p146
+    quote_verified: true
+  note: ファンタジー世界に「地球の神話言語」が現前することで、物語世界が単なる創作物ではなく、人間の集合的無意識（神話）と接続された「再帰的な構造」であることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: SF的テクノロジーとファンタジーの境界溶解（きぐるみ＝兵器）
+  weight: 0.8
+  quotes:
+  - quote: 「パワードエクゾスケルトン、モデル『狼の皮を被る者』、起動」
+    paragraph: p201
+    quote_verified: true
+  - quote: 対生物戦闘でアーマーピアシングする必要性が果たしてあるのだろうか。
+    paragraph: p223
+    quote_verified: true
+  note: 魔法陣の詠唱から始まった儀式が、最終的に近代軍事兵器（APFSDS、ミサイル）による砲撃に収束する過程は、ジャンル横断的な「幻想」の技術的実体化を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己定義としての「宣名」
+  weight: 0.7
+  quotes:
+  - quote: '名前を掌握されて呪いをかけられても無効化できるという強烈な自負心の発露。それは命知らずな『見栄』なのだ。
+
+      自己紹介、宣名こそが最大の自己強化呪術。'
+    paragraph: p157-p159
+    quote_verified: true
+  note: 存在の定義（名前）を他者に宣言することで自己の権能を確立する行為は、物語内のキャラクターが「記号」としての存在意義を賭けていることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 恩恵と所有の境界（アキラくんのモノ）
+  weight: 0.6
+  quotes:
+  - quote: '「私のアキラくんを、私のモノを私から奪い取ろうとする奴は」
+
+      「許しはしません」'
+    paragraph: p60-p62
+    quote_verified: true
+  - quote: この世界に来てから、誰かに助けてもらってばかりのような気がした。
+    paragraph: p25
+    quote_verified: true
+  note: 主人公が「助けられた」存在であると同時に魔女たちにとっての「所有物」でもあるという構造は、異世界転生における「保護者/ペット」関係の歪みと愛着を浮き彫りにする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

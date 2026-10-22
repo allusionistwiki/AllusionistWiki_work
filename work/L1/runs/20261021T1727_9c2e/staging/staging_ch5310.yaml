@@ -1,0 +1,176 @@
+episode: ch5310
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5310_シナモリアキラ_other_左腕_p111
+        quote: 上書きされていた壮年男性の顔は既に無い。腹部から己の左腕を生やしたシナモリアキラが、遂に元通りとなった鋼鉄と氷の義肢で左右から中央の手を包み込む。三つの手が絡み合った。シナモリアキラは安定している。欠けていたものを取り戻したことによって、以前よりも一層、精神が調和した状態となっているのだ。
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カイン]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5310_カイン_appears_as_白骨の屍狼_p116
+        quote: シナモリアキラは痛みを冬の魔女に肩代わりさせたまま、左腕を飲み込むように現れた狼の頭蓋骨に両手で触れる。「カイン」呼びかけると、白骨の屍狼が左腕を飲み込んだままアキラの腹から這い出して、地面に降り立った。
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_コルセスカ]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5310_コルセスカ_transforms_蜂蜜色の美女_p130
+        quote: コルセスカは「いいえ」と否定して、その姿を変貌させた。蜂蜜色の髪と灰色の目、そして白骨化した右半身を持つ妙齢の美女の姿に。
+        locator: {}
+        spoiler_after: ch5310
+    speech:
+      observations:
+      - event_ref: E_ch5310_コルセスカ_reveals_変異の三手グレンデルヒ中枢_p132
+        quote: 「私が逃げたグレンデルヒを追いましょう。グレンデルヒの中枢は【変異の三手】の名の通りに三つです。アキラ様の中にいた右副肢、外世界人の中にいる左副肢、そして先程、役立たずの誰かさんが取り逃がした主肢」
+        locator: {}
+        spoiler_after: ch5310
+      - event_ref: E_ch5310_コルセスカ_says_左腕の返還要求_p76
+        quote: 「それと、アキラの身体は返して貰います」
+        locator: {}
+        spoiler_after: ch5310
+    action:
+      observations:
+      - event_ref: E_ch5310_コルセスカ_arrives_第五階層_p4
+        quote: 巡槍艦の内部から時間と空間を超えてコルセスカたちが帰還したのと同時に、第五階層に変化が生じ始めていた。
+        locator: {}
+        spoiler_after: ch5310
+      - event_ref: E_ch5310_コルセスカ_defeats_アキラデルヒ_p74
+        quote: 氷の右目が妖しく光り輝くと、巨大な砲の群が次々に凍結して落下していく。ぱちりと指を鳴らすと同時に氷塊が砕け散り、アキラデルヒの武装が全て失われた。一瞬の決着。
+        locator: {}
+        spoiler_after: ch5310
+      - event_ref: E_ch5310_コルセスカ_uses_手孕説話腕の出産_p90
+        quote: 自らが生と死を孕むという転生者特有の魂の形を利用した、死人の森の女王の転移呪術。手孕説話という奇怪な伝承を下敷きにした腕の出産を攻撃に転用したのだった。
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_トリシューラ]]'
+  entity_type: relationship
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5310_トリシューラ_bonds_コルセスカアキラへの憑依_p136
+        quote: 悪化する雰囲気に耐えかねたようにコルセスカがアストラル体を投射してシナモリアキラに憑依して合体する。「『ええと、では私とアキラとトリシューラで力士デルヒに対処するということでいいですね？』とコルセスカが言っているぞ。俺もそう思うので早く行こう」
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_カチカチハンマー]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5310_カチカチハンマー_functions_as_氷の武器_p16
+        quote: ――氷でできた玩具のような鎚だった。ゼドが同封されていた説明書きを読んで首を傾げる。説明書きに記されたとおりに手に取って無造作に振り回す。接近して殴りかかろうとしていた格闘家デルヒは素早い動きで後退するが、意外にも当たり判定が大きく明らかに命中していないにも関わらず吹っ飛ばされる。そればかりか、その全身が凍り付いて動けなくなってしまう。
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_カチカチハンマー説明書き]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5310_カチカチハンマー説明書き_defines_ゲーム的ステータス効果_p18
+        quote: 「『身体の周囲を氷で覆って動けなくするだけですので細胞が壊死するなどの危険はありません。※風邪を引くかも知れませんが学校や仕事を休んでゲームできるので大勝利です』って、何だこれは」
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_爆発罠箱]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5310_爆発罠箱_functions_as_コメディ的トラップ_p20
+        quote: 爆発に巻き込まれると頭髪が焦げて黒い煤に塗れるというフィクション表現がテクスチャ呪術によってなされる。爆発そのものに大した威力は無いが、何故か巻き込まれた者は非常識な距離を吹き飛び、壁や床をバウンドしたり人型の穴を空けたりして愉快な挙動をすることになってしまうのだった。
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5310_ゼド_thinks_森羅万象型浄界_p22
+        quote: 「俺たちは既に何者かの浄界の内部にいるということか――だが、発動の予兆など感じなかった。既存の世界そのものが変化している？　これは森羅万象(オムニバース)型なのか？」
+        locator: {}
+        spoiler_after: ch5310
+    visual:
+      observations:
+      - event_ref: E_ch5310_ゼド_observes_HUD視界内UI_p24
+        quote: 眼鏡をかけているわけでもないというのに、ゼドの視界の隅に残弾数が表示されていた。銃弾を撃ち尽くすと「再装填して下さい」という文字が視界いっぱいに表示されて、意識しただけで腕が勝手に動いて拳銃を片手でくるりと回す。何故かそれだけで装填が終了していた。再び迫り来る死人デルヒを撃ち抜く。視界の上の方に表示された数字が加算されて増えていく。
+        locator: {}
+        spoiler_after: ch5310
+    action:
+      observations:
+      - event_ref: E_ch5310_ゼド_finds_浮遊する箱_p9
+        quote: その中心となっている盗賊王ゼドが、激戦の中でうっかりと何かを踏みつけてしまう。それは直前まではそこに存在していなかったはずのものだ。前触れ無く現れたそれは、箱だった。浮遊しながら回転する正六面体はゼドの足が触れた途端、展開してその内側を明らかにする。
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラコーダ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5310_マラコーダ_says_緊張感の欠如_p30
+        quote: 「何というか、緊張感が無いことになってるわね。嫌いじゃないけど」
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カニャッツォ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5310_カニャッツォ_appears_as_ゲームのキャラHPゲージ_p46
+        quote: 「ふっかあぁぁぁつ！」雄叫びと共に起き上がるカニャッツォ。容赦なく合体デルヒの怪光線が彼に襲いかかるが、今度は命中せず、巨体をすり抜けてしまう。よく見ればカニャッツォは半透明となり点滅している。誰かが呟いた。「復活直後は無敵状態なんだ」と。
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カルカブリーナ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5310_カルカブリーナ_observes_鳥デルヒ_p5
+        quote: 足りない邪視能力を補う為のゴーグルの内側でちびシューラが狙撃に必要な各種情報を表示して、指示から照準、引き金を引く決断まで全自動で代行してくれる。サイバーカラテユーザーの銃士というのはトリシューラにとって交換可能な部品のようなものだ。自律型の移動銃座となったカルカブリーナが狙うのは、空を飛び交う鳥デルヒたち。射撃管制シューラによるカルカブリーナを利用した狙撃が功を奏し、銃弾が見事に鳥デルヒを撃ち抜いていくと、元の鳥態を取り戻した闇妖精たちが墜落していく。
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラデルヒ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5310_アキラデルヒ_asks_ゲームと現実の区別_p58
+        quote: 「まさか貴様――ゲームと現実の区別がついていないのか？」
+        locator: {}
+        spoiler_after: ch5310
+    action:
+      observations:
+      - event_ref: E_ch5310_アキラデルヒ_loses_グレンデルヒの優位性_p86
+        quote: 己の万能性への確信を失い、アキラを侵食していたグレンデルヒという存在が急速に力を失っていく。他者より優れた最強者であることがグレンデルヒという呪術的存在の成立条件であるならば、その前提を突き崩すことでグレンデルヒは存在を維持出来なくなる道理だった。
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_第五階層床面]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5310_第五階層床面_has_property_沈降現象_p7
+        quote: 墜落した闇妖精は翼を広げたまま第五階層の床面にぶつかり、そのままめり込んでいく。深く深く沈んでいくと、翼の生えた人型の穴がぽっかりと空いた。
+        locator: {}
+        spoiler_after: ch5310
+  first_appearance_candidate: true

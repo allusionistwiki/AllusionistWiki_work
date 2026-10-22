@@ -1,0 +1,264 @@
+chapter: ch5505
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 4
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5505_ユディーア_other_運命による保護惰性の試み_p318]]'
+  object: '[[ME_narrative_plot_armor]]'
+  claim: ユディーアの『怠惰でも世界は変わらなかった』という経験は、物語の構造そのもの（プロットアーマー）をキャラクターが自覚したメタフィクション的描写である。
+  quote: '驚くべきことに。
+
+    ユディーアの世界は、何も変わらなかった。
+
+    全てが今まで通り、順調に進んだ。'
+  paragraph: p318
+  confidence: explicit
+  quotes:
+  - quote: '驚くべきことに。
+
+      ユディーアの世界は、何も変わらなかった。
+
+      全てが今まで通り、順調に進んだ。'
+    paragraph: p318
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5505_ユディーア_thinks_呪術リソース才能・ギフト_p403]]'
+  object: '[[ME_mobile_game_gacha]]'
+  claim: 多数の能力（天眼、竜覚など）を『手札』や『リソース』として列挙し、失敗の方が難しいと断じる描写は、ガチャで得た最強キャラ・装備によるワンサイドゲームへのメタファーである。
+  quote: '与えられた選択肢の数、限りある呪術リソースを順番に数える。
+
+    『天眼』『竜覚』『灰燼回帰の吐息』…これだけあって失敗することの方が難しいくらい。'
+  paragraph: p403
+  confidence: strong
+  quotes:
+  - quote: '与えられた選択肢の数、限りある呪術リソースを順番に数える。
+
+      『天眼』『竜覚』『灰燼回帰の吐息』…これだけあって失敗することの方が難しいくらい。'
+    paragraph: p403
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5505_ペラティア_disappears_大断絶世界の変容_p212]]'
+  object: '[[ME_real_world_war_destruction]]'
+  claim: 『大断絶』により聖域が消滅し巨大な槍が突き刺さったという描写は、現実の戦争による文化・歴史の破壊や、突然の災害による文明の消失を想起させる。
+  quote: 'ぺらティア寺院市国が存在したはずの座標には、巨大な槍が突き刺さっている。
+
+    全ては過去。ユディーアが生まれるより前のこと。'
+  paragraph: p217
+  confidence: moderate
+  quotes:
+  - quote: 'ぺらティア寺院市国が存在したはずの座標には、巨大な槍が突き刺さっている。
+
+      全ては過去。ユディーアが生まれるより前のこと。'
+    paragraph: p217
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5505_ユディーア_thinks_自己の本質不確実性_p93]]'
+  object: '[[ME_impostor_syndrome]]'
+  claim: 周囲から信頼されず、自分がどこに属するべきか決められず、結果を出しても運でしかないと感じる心理は、才能ある者に見られる『 impostor syndrome（見せかけの詐欺師症候群）』の構造的模写である。
+  quote: '意思の才能がどこにもない。選べない可能性は存在しないのと同じだ。
+
+    本当は、頭の片隅では気付いていた。
+
+    とても恐ろしくて、とてもつまらない結論。'
+  paragraph: p127
+  confidence: moderate
+  quotes:
+  - quote: '意思の才能がどこにもない。選べない可能性は存在しないのと同じだ。
+
+      本当は、頭の片隅では気付いていた。
+
+      とても恐ろしくて、とてもつまらない結論。'
+    paragraph: p127
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5505_ユディーア_other_紀竜の巫女は王の花嫁_p412]]'
+  object: '[[ME_feudal_political_marriage]]'
+  claim: 『紀竜の巫女は王の花嫁』であり、その血統が政治的・宗教的な統合の象徴として機能していた歴史（ペラティア）は、中世ヨーロッパにおける王家と教会の結託や政治結婚の構造を模している。
+  quote: '紀竜に祝福されたアルト王はその神秘の血を巫女たちと交わることで後世に伝えた。
+
+    …信仰と統合の象徴を失えば、諸族は二度と元に戻れなくなる。'
+  paragraph: p194
+  confidence: moderate
+  quotes:
+  - quote: '紀竜に祝福されたアルト王はその神秘の血を巫女たちと交わることで後世に伝えた。
+
+      …信仰と統合の象徴を失えば、諸族は二度と元に戻れなくなる。'
+    paragraph: p194
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kurukuroki_plot_armor_mechanism
+  note: ユディーアが意図的にサボっても世界が崩壊しないのは、上位次元の守護竜クルエクローキによる『文脈管理』であることが明言された。これが物語終盤でどのように破棄・回収されるかが焦点となる。
+  quotes:
+  - quote: 'この身は運命に守られている。
+
+      財布を落とせば親切な人が必ず届けてくれたし、過酷な訓練で命を落とすような重傷を負っても不思議と死ぬことはなかった。'
+    paragraph: p330
+    quote_verified: true
+  - quote: 'ユディーアの人生は、上位次元から入る謎めいた補正によって守られている。
+
+      それが『髪』が教えてくれた真実。世界のどうしようもない閉塞感の正体。'
+    paragraph: p335
+    quote_verified: true
+  expected_payoff: 物語のクライマックスで、ユディーアがこの『文脈管理』を自ら手放す、あるいは破壊する展開が来ると予測される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_blood_as_identity_source
+  note: ペラティアの血（アルト王の末裔）への誇りを再確認し、『血が叫ぶ』と描写された。これは単なる設定だけでなく、ユディーアが『故郷喪失感』を克服するための精神的な軸になる可能性が高い。
+  quotes:
+  - quote: '血が叫ぶ。血が求める。
+
+      どくん、どくんと心臓が鼓動を早めていく。'
+    paragraph: p376
+    quote_verified: true
+  - quote: ごめん嘘ついたかも。やっぱり歴史のあるペラティアの血はあたしの誇りだし…
+    paragraph: p386
+    quote_verified: false
+  expected_payoff: ユディーアがディスケイムの道具としての自我を捨て、アルト王の末裔として主体的に行動を開始する転換点となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_margareta_skepticism
+  note: マルガリータがユディーアを『何も信じていない』『恐ろしい存在』として警戒し、その視線が冷ややかである。この不信感が最終的に和解に向かうのか、決定的な対立に発展するのか。
+  quotes:
+  - quote: '（あたしが恐いんだな、マルガさん）
+
+      共感されづらいというのは悲しいことだ。'
+    paragraph: p232
+    quote_verified: true
+  - quote: その変貌を、現在のマルガリータは冷ややかな目で観察していた。
+    paragraph: p430
+    quote_verified: true
+  expected_payoff: ユディーアが本当に『何もしない』存在であることが露呈し、仲間たちの信頼が崩壊する引き金になるか、あるいはマルガリータの信仰（竜神信教）との対比で主題化される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_haiku_brain_gift
+  note: 『脳』からの贈り物（ギフト）がユディーアに与えられ、それが『最後の救い手』になり得る可能性が語られている。このギフトの正体と真意。
+  quotes:
+  - quote: '無意味と無気力の海に溺れながら、差し出された頼りない板が『脳』の言葉だった。
+
+      未だ知らぬ最後の救い手。'
+    paragraph: p357
+    quote_verified: true
+  - quote: 母に仕込まれた一子相伝の奥義。…『脳』からの贈り物。才能（ギフト）。恩寵（ギフト）。呪縛（ギフト）。運命（ギフト）。
+    paragraph: p406
+    quote_verified: false
+  expected_payoff: 『脳』の能力がユディーアの受動性を打ち破る鍵となる、あるいはユディーアをさらに深い絶望へ誘う罠である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の構造そのものへの自覚と、自由意志の不在（メタフィクショナルな虚無）
+  weight: 0.9
+  quotes:
+  - quote: 'きらきらの世界。虹色の夢。未来への期待。全ては上位次元のおままごと。
+
+      レメス神が愛したとこしえの浄界。流動彩域。自由なる神人。'
+    paragraph: p338
+    quote_verified: true
+  - quote: '何もしない。何もできない。何かをするには立ち位置が危う過ぎる。
+
+      ただそこにあるだけの価値。'
+    paragraph: p210
+    quote_verified: true
+  note: ユディーアは自分が物語の主人公ではなく、作者（上位次元）に動かされる『人形』であることを自覚しており、その虚無感と受動性が中心にある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 失われた祖国・アイデンティティの再発見としての『血』の肯定
+  weight: 0.8
+  quotes:
+  - quote: '生まれた時にはもう祖国が存在していないという足元の不確かさ。
+
+      …取り戻してしまえばいいじゃないか。
+
+      だってあたしには、その権利があるんだから。'
+    paragraph: p373
+    quote_verified: false
+  - quote: 歴史のあるペラティアの血はあたしの誇りだし、ガロアンディアンにも思い入れがあるから…
+    paragraph: p386
+    quote_verified: false
+  note: ディスケイムの道具としての自我を捨て、歴史的・血統的なアイデンティティ（ペラティアの末裔）を取り戻すことで、受動性からの脱却を試みようとする心理的転換が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者から見た『完璧な主人公』と本人の内面の『空虚さ』との断絶
+  weight: 0.7
+  quotes:
+  - quote: '恵まれてる人間は苦しんだり挫折を味わったりしないとでも思われているのだろう。
+
+      悲しかった。きっと一生分かり合えないだろう。'
+    paragraph: p238
+    quote_verified: true
+  - quote: 'アンタって結局、情勢見てどこにでも行けちゃうんじゃないの？
+
+      …その変貌を、現在のマルガリータは冷ややかな目で観察していた。'
+    paragraph: p96
+    quote_verified: false
+  note: ユディーアは幸運と才能の塊に見えるが、本人はそれを『運命の呪縛』と感じており、周囲（マルガリータ）との間に越えがたい認識の壁がある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的・システミックな世界観へのメタ的な諦念
+  weight: 0.6
+  quotes:
+  - quote: '第五階層で行われているのは『心臓（ゴール）』を目指して行われている細胞内部での競争（レース）である。
+
+      …使い魔たちによる派閥争い。真っ先に『心臓』に到達し、己の影響下に置いた勢力が『真なる使い魔の座』になるという生臭く俗っぽい真実。'
+    paragraph: p354
+    quote_verified: false
+  - quote: 'どうせ、人は配られた手札で勝負するしかない。
+
+      与えられた選択肢の数、限りある呪術リソースを順番に数える。'
+    paragraph: p401
+    quote_verified: true
+  note: 世界の構造がゲーム（レース、能力のバランス調整）として機能していることをキャラクターが認識し、それに従う姿勢を見せる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

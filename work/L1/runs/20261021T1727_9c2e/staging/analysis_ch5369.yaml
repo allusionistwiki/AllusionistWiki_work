@@ -1,0 +1,205 @@
+chapter: ch5369
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 15
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p2-p37]]'
+  object: '[[ME_philosophy_nihilism]]'
+  claim: オルヴァ王の「全てはむなしい」という叫びは、ニヒリズム哲学の虚無感を神学的文脈で再演している。
+  quote: 結末は変わらないのだ。全てはむなしい。全ては虚ろだ。
+  paragraph: p3
+  confidence: strong
+  quotes:
+  - quote: 結末は変わらないのだ。全てはむなしい。全ては虚ろだ。
+    paragraph: p3
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p69-p108]]'
+  object: '[[ME_modern_japan_entertainment_industry_apology]]'
+  claim: 狆くしゃ（カニャッツォ）の謝罪会見は、現代日本における芸能人のスキャンダル対応や炎上処理のプロトコルをそのまま転写している。
+  quote: この度は、私の不適切な発言で大変なご迷惑を――
+  paragraph: p69
+  confidence: explicit
+  quotes:
+  - quote: この度は、私の不適切な発言で大変なご迷惑を――
+    paragraph: p69
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p130-p152]]'
+  object: '[[ME_professional_wrestling_meta_theory]]'
+  claim: プーハニアのレスラーとしての自覚は、プロレスを「脚本（ブック）ある即興演劇」と定義する現代プロレス論のメタフィクションである。
+  quote: レスリングと呼ばれる『組み合い、投げ、倒す』というシンプルな競技をプーハニアは好んだ。
+  paragraph: p139
+  confidence: strong
+  quotes:
+  - quote: レスリングと呼ばれる『組み合い、投げ、倒す』というシンプルな競技をプーハニアは好んだ。
+    paragraph: p139
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p174-p176]]'
+  object: '[[ME_isekai_reincarnation_trope_name_change]]'
+  claim: 異世界転生ジャンルで定番の「新しい名前を得る」喜びを、主人公が「俺の名前が欲しい」と拒絶することで逆転させている。
+  quote: 俺は俺の名前が欲しい。リングの上で輝く、誇り高いレスラーの名前が欲しい。
+  paragraph: p176
+  confidence: strong
+  quotes:
+  - quote: 俺は俺の名前が欲しい。リングの上で輝く、誇り高いレスラーの名前が欲しい。
+    paragraph: p176
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p296-p306]]'
+  object: '[[ME_cyberpunk_emotion_simulation]]'
+  claim: 吸血鬼が「七色表情筋トレーニング」で感情をシミュレートし、それが実在する感情へと変貌していく過程は、サイバーパンクにおける人工知能の自我生成や感情モジュールの実装を想起させる。
+  quote: 表の世界での彼を知る者たちはその変化を喜び、裏の世界での彼を使う者たちは潜入と変装がやりやすくなったなと喜んだ。見せかけのものでしかなかったが、老吸血鬼には感情が戻ったことになった。
+  paragraph: p303
+  confidence: moderate
+  quotes:
+  - quote: 表の世界での彼を知る者たちはその変化を喜び、裏の世界での彼を使う者たちは潜入と変装がやりやすくなったなと喜んだ。見せかけのものでしかなかったが、老吸血鬼には感情が戻ったことになった。
+    paragraph: p303
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p24-p67]]'
+  object: '[[ME_time_travel_narrative_structure]]'
+  claim: オルヴァ王の「未来を回想し、過去へ旅立つ」という行為は、タイムトラベルSFにおける因果律逆転の構文そのものである。
+  quote: そう、必要なのは未来を回想し、過去へ旅立つことだったのではないか。
+  paragraph: p57
+  confidence: strong
+  quotes:
+  - quote: そう、必要なのは未来を回想し、過去へ旅立つことだったのではないか。
+    paragraph: p57
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Orva_Regeneration_Mechanism
+  note: オルヴァ王が「未来を回想し過去へ旅立つ」という方法で再生（リセット）を試み、結果としてカシュラムの歴史が「創世」から始まったように記述されている。これが単なる記憶の蘇りなのか、世界のリプレイ/ループ機構の起動なのか。
+  quotes:
+  - quote: 彼は、長い長い回想を始めた。世界という記憶、走馬灯のような泡沫の夢。夢幻の時空を、遡っていく。ノーグという血脈は、その瞬間に創造された。
+    paragraph: p64-p67
+    quote_verified: true
+  expected_payoff: 物語が最初から始まるか、あるいは「創世」の瞬間に介入するタイムパラドックスが発生する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Restlorose_Interference_Motive
+  note: 修道騎士（レストロオセ派）がシナモリアキラの戦いを「神罰」として妨害した真意。単なる宗教的介入なのか、それともシナモリアキラの暴走を止めるための物理的・魔術的な必要性があったのか。
+  quotes:
+  - quote: しかも邪魔をしたのは『上』で何かと大きな顔をする修道騎士ときた。軍に所属していた頃、連中には心底うんざりさせられた。
+    paragraph: p211-p212
+    quote_verified: true
+  expected_payoff: シナモリアキラと上層部（教会/国家）の対立構造の深化、または「杖」勢力内部での権力闘争への発展。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Vampire_Headache_Cause
+  note: 吸血鬼老人が感情を取り戻した直後に「殺しのたびに頭痛が酷くなる」という症状が出ている。これは精神的苦痛の物理的現れ（心身相関）なのか、それとも「模造脳」の限界、あるいは呪術的な副作用か。
+  quotes:
+  - quote: 老人は、ちかごろ殺しのたびに頭痛が酷くなるのを感じていた。遠い過去、殺し屋を始めたばかりのころに感じていた苦痛。薬物と自己暗示で誤魔化しても己を苛む罪の意識。
+    paragraph: p308-p311
+    quote_verified: true
+  expected_payoff: 老人がシナモリアキラを殺さずに済む理由（感情の蘇りによる良心の呵責）、あるいは彼の死/破滅へのカウントダウン。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Legon_Monster_Nature
+  note: 老人が召喚した「レゴン」は四十四士の残骸であり、家畜や使い魔として繁殖している怪物。彼らが「名ばかり勇士」として機能するメカニズムと、その正体（四十四家の何らかの影）の関連性。
+  quotes:
+  - quote: 老人の影から這い出してくるのは、凶暴な牙を生やしたグロテスクな心臓。『大勢』の名を冠する四十四士の残り滓、残骸の怪物だ。
+    paragraph: p326-p327
+    quote_verified: true
+  expected_payoff: 四十四家とレストロオセ派の歴史的和解、または「四十四家」の真の力（影の軍団）による戦闘介入。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「物語の消費」としての人生：観客としての自己と演者としての自己の断絶
+  weight: 0.9
+  quotes:
+  - quote: 定められた舞台を眺めながら、役者たちを物欲しげに眺め続ける。ふと、傍観者として生まれついた老人は疑問を覚えた。果たして、生を演じるという経験を今までしたことがあっただろうか。
+    paragraph: p51-p54
+    quote_verified: true
+  note: オルヴァ王（神/観客）とシナモリアキラ/カニャッツォ（人間/演者）の対比が、メタフィクション的な「物語を体験すること」の本質を問うている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 炎上社会における「誠意」のパフォーマンスと自己疎外
+  weight: 0.8
+  quotes:
+  - quote: トリシューラには自分の言葉で誠意を見せるように言われている。それがかえって好印象に繋がるからと。その言葉の意味を、男は咄嗟に掴み切れなかった。
+    paragraph: p71-p75
+    quote_verified: false
+  - quote: 世の女性一般に対する謝罪は無いのか。配慮を欠いた発言をしてしまったことで、多くの方々に不快な思いをさせてしまったことを深くお詫び申し上げます。
+    paragraph: p107-p108
+    quote_verified: false
+  note: 現代のSNS炎上文化において、「謝罪」が本人の感情と無関係に、社会的儀式として遂行される過程を描き、その内的な空虚さを描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人工的な感情復旧（シミュレーション）による人間性の回復
+  weight: 0.7
+  quotes:
+  - quote: 七色表情筋トレーニング』で強引に表情を取り繕うことにした。表面上、彼には感情が戻ったように見えた。ただの表情。されど表情。それは周囲を変え、そして彼自身を変化させる。
+    paragraph: p301-p305
+    quote_verified: false
+  note: 吸血鬼老人のエピソードは、「本物の感情」がない状態から「演技（模倣）」を通じて実在する倫理観や苦痛が生成される過程を提示し、人工知能やAIの感情論を暗示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: レスラーという職業における「運命（脚本）への抵抗」
+  weight: 0.6
+  quotes:
+  - quote: レスリングと呼ばれる『組み合い、投げ、倒す』というシンプルな競技をプーハニアは好んだ。...脚本（ブック）はある。しかしそれは『やらせ』とかそういったいかがわしいものではない。
+    paragraph: p139-p147
+    quote_verified: false
+  note: カニャッツォが「俺の名前」を叫び、運命の脚本から逸脱しようとする姿は、物語構造（プロット）に対するキャラクターの叛乱を象徴している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

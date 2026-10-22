@@ -1,0 +1,142 @@
+chapter: ch5048
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_融血呪の正体と出所
+  note: トリシューラが「融血呪」と推測した呪術が、誰によって仕掛けられ、何のための儀式なのか。カッサリオ単独の能力ではない可能性が高い。
+  quotes:
+  - quote: 「これって、まさか融血呪？」
+    paragraph: p104
+    quote_verified: true
+  - quote: あきらかに自然な現象ではあり得ない。考えられるとすれば、何らかの呪術。
+    paragraph: p96
+    quote_verified: true
+  expected_payoff: この呪術を仕掛けた人物（セスカではない「あいつ」）の特定、および融合体完成後の真の狙い（例：魔将の召喚、鍵の開錠など）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_セスカ以外の競争相手
+  note: トリシューラが「今回の競争相手はセスカだとばっかり思ってた。だけど違う」と発言しており、敵の指揮官または介入者がセスカ以外であることを示唆する。
+  quotes:
+  - quote: 「やっぱり変だ、今回の競争相手はセスカだとばっかり思ってた。だけど違う、このやり口、やっぱりあいつの仕業――」
+    paragraph: p115
+    quote_verified: true
+  - quote: トリシューラは、ここにはいない誰かを見ているようだった。
+    paragraph: p117
+    quote_verified: true
+  expected_payoff: 「あいつ」の正体が明かされる（例：他の魔将、上層部の人間、主人公側の裏切り者など）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ウィルスの進行と限界
+  note: 主人公が「体力的にこれ以上戦いを続けるのは無理」と判断するほどウィルスが蝕んでおり、戦闘不能へのカウントダウンが始まっている。
+  quotes:
+  - quote: ロウ・カーインに移されたウィルスは俺を着実に蝕んでいる。
+    paragraph: p59
+    quote_verified: true
+  - quote: 体力的にこれ以上戦いを続けるのは無理だと、俺は判断した。
+    paragraph: p60
+    quote_verified: true
+  expected_payoff: ウィルスの発作が戦闘の最中に起こり、主人公の行動を阻害するイベントが発生する、または特殊な対抗手段（治療薬、代償行為）が必要になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_泉の意味とコルセスカの再登場
+  note: トリシューラが「泉」をルートとして提案し、直後にコルセスカが氷結能力で肉塊を破壊して合流した。泉が単なる地形ではなく、呪術的な浄化や転移の起点である可能性。
+  quotes:
+  - quote: 「えっと、確か近くに『泉』があったはずだよ」
+    paragraph: p141
+    quote_verified: true
+  - quote: 不意に割って入った言葉と共に、トリシューラが示した先にある肉塊が部分的に氷漬けになる。
+    paragraph: p145
+    quote_verified: true
+  expected_payoff: 泉の性質（聖水、転移門など）が明かされるか、コルセスカの復帰劇と彼女の能力の秘密が語られる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カッサリオの「狂乱」演技
+  note: カッサリオが「狂乱しているように見せかけて」いたという記述は、彼が知性を持ち戦略的に行動していたことを示す。彼の真の目的（自滅して融合体になること自体が目的？）が不明。
+  quotes:
+  - quote: 恐るべきはカッサリオだった。狂乱しているように見せかけて、本当の狙いを派手な動きの中に隠していたのだ。
+    paragraph: p17
+    quote_verified: true
+  expected_payoff: カッサリオが意図的に融合体の核（または生贄）として機能し、上位存在への進化を促したことが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的システム（アプリ・評価・メカニクス）が現実の生死の判断基準として機能する世界
+  weight: 0.9
+  quotes:
+  - quote: ユーザー評価平均星五つ（満点）を獲得した優良アプリの導きに従って、左腕から排出された手斧を右手で握ると、大きく振りかぶって投げる。
+    paragraph: p41
+    quote_verified: true
+  - quote: 弾道予報の力はノーコンを最高の投手に変える。ものの例えであって別に俺がノーコンとかではない。
+    paragraph: p42
+    quote_verified: true
+  note: 「アプリの評価」というメタ的な指標が、殺傷能力という物理的現実を決める根拠になっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 個の融合による「多様性の喪失」と「全体主義的恐怖」
+  weight: 0.8
+  quotes:
+  - quote: 複数の命が、一つの巨大な円環の中に取り込まれ、融合しようとしていた。
+    paragraph: p101
+    quote_verified: true
+  - quote: 広々とした第六階層の一画が、全て埋め尽くされてしまったかのようだった。
+    paragraph: p127
+    quote_verified: true
+  note: 個体差（複合種の特徴）が消滅し、巨大な一つの塊になることが「自然な現象ではあり得ない」異質さとして描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 戦略の破綻と身体性の限界（ウィルス・疲労）による撤退の不可避性
+  weight: 0.7
+  quotes:
+  - quote: 決まった対処法、確立された戦術というものをことごとく無効化してしまうため、熟練の探索者でも苦戦する難敵である。
+    paragraph: p78
+    quote_verified: true
+  - quote: 体力的にこれ以上戦いを続けるのは無理だと、俺は判断した。
+    paragraph: p60
+    quote_verified: true
+  note: 敵のメタ的な強さ（戦術無効化）と主人公の物理的弱さ（ウィルス）が対比され、「勝てない」ことが論理的に確定している状況。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「既知」の反復による恐怖（アラームトラップの再現）
+  weight: 0.6
+  quotes:
+  - quote: その響き、周期性に、どこか既知感を覚える。
+    paragraph: p5
+    quote_verified: true
+  - quote: 「やばいよ、アラームトラップを再現してる！　ここに他のエリアの異獣を呼び寄せるつもりだよ！」
+    paragraph: p9
+    quote_verified: false
+  note: 過去のゲームイベント（宝箱・アラーム）が敵によって利用されることで、プレイヤーの経験が逆手に取られる不気味さ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

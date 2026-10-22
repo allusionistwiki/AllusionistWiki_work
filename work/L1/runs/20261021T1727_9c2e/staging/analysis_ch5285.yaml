@@ -1,0 +1,118 @@
+chapter: ch5285
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_clay_name_change_mechanism
+  note: クレイの名前が「スマダルツォン」から「ガレニス・クロウサー」などへ変化する仕組みとその意味。呪術儀式の結果とされるが、これが単なる隠語なのか、アイデンティティの書き換えなのか不明確。
+  quotes:
+  - quote: それが、この呪術儀式の結果ということだ。次はさしずめクレイ・ガレニス・クロウサーにでもなるのだろうさ
+    paragraph: p197
+    quote_verified: true
+  expected_payoff: 名前の変遷が、彼の所属勢力の移り変わりや、「役（キャラクター）」としてのアイデンティティの流動性を象徴する伏線として回収される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_raclurall_thread_control
+  note: ラクルラールの糸が「役者」を狙ったとクレイが分析し、レオたちが支配下にあるように見せかけられている（ダミー接続）状態の維持。この欺瞞がいつ暴かれるか、または制御を逸脱するタイミング。
+  quotes:
+  - quote: 触手のように伸びてきていた糸が断ち切られ、同時にちびシューラが呪文を構築して切断された糸に接続する。敵の糸をクラッキングすることで、『俺たちが糸によって支配されている』と相手に思い込ませるための措置だ。
+    paragraph: p239
+    quote_verified: true
+  - quote: 成功するかどうかはちびシューラによると五分五分だったが、どうやら賭けには勝ったらしい。
+    paragraph: p242
+    quote_verified: true
+  expected_payoff: ダミー接続の破綻による敵側への露見、またはレオが糸を操作する真意（支配されているふりをすることで自由を得ている）の発覚。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_leo_kain_relationship_history
+  note: 主人公が共有できない、レオとカーインが積み上げた数ヶ月間の時間。この関係性の背景にある「共同戦線」や「過去の出来事」。
+  quotes:
+  - quote: ここ数ヶ月間に二人が積み上げた時間は、俺には共有できないものだ。
+    paragraph: p229
+    quote_verified: true
+  expected_payoff: レオがカーインを支配（または保護）するに至った経緯のフラッシュバック、あるいはカーインが「役者」として選ばれる必然性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_grundelher_current_status
+  note: グレンデルヒがラクルラールに支配されていたとされるが、その支配が「役者」を狙ったものだとされ、現在どちらの主導権があるか不明。彼の真の意図（自発的な反逆か、操られた結果か）。
+  quotes:
+  - quote: グレンデルヒとラクルラール、どちらと戦ってもいいように心構えをしておけ
+    paragraph: p259
+    quote_verified: true
+  expected_payoff: グレンデルヒが自らの意志で反逆するのか、あるいはラクルラールの傀儡として最終決戦に臨むのかの判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「役（キャラクター）」としての存在と、「本物」との境界線の消失
+  weight: 0.9
+  quotes:
+  - quote: 今は役者の代わりにシューラがアキラくんを表現してるけど、とちびシューラが補足してくれる。つまり、今の俺は半ばキャラクターを参照して存在しているコルセスカと似たような存在になっているらしい。
+    paragraph: p45
+    quote_verified: true
+  - quote: その気になれば、火の中や樹木の根、鳥どもの嘴から現れることもやってみせよう
+    paragraph: p53
+    quote_verified: true
+  note: 主人公が「半ばキャラクターを参照して存在している」と自覚し、クレイも「亡霊」「役者」として現れるなど、物語内での実体と演劇的役割の区別が崩壊している。これは作品全体のメタフィクショナルな核である「幻想再帰」そのものを強化する主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 支配構造の可視化とその操作による権力の転倒
+  weight: 0.8
+  quotes:
+  - quote: レオの不思議な言外の威圧感に、返す言葉を失ったのだった。
+    paragraph: p301
+    quote_verified: true
+  - quote: 僕、カーインには期待してるから。頑張ってね
+    paragraph: p324
+    quote_verified: true
+  note: レオが「糸」を触れずに震えさせることでカーインの反論を封じる描写は、表面的な暴力（クレイの手刀）ではなく、物語構造や関係性（糸/支配）そのものを操作する権力の行使を示す。被支配者が加虐者へと転倒する構図（レオがカーインを、主人公たちがクレイをいじめる）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の統合と再解釈による世界観の拡張
+  weight: 0.7
+  quotes:
+  - quote: 『上』に伝わる物語と『下』に伝わる物語、二つの起源が一つなら、それはよく再解釈して語り直せば一つに繋ぐことができるはず――というわけで、クロウサー家の物語とベフォニス退治の物語をくっつけた、新しい解釈のストーリーを上演します。
+    paragraph: p292
+    quote_verified: true
+  note: 断片化されていた神話や伝承（上下の世界）をレオが意図的に統合し、「新たな脚本」として上演する行為は、世界観そのものが物語の編集によって拡張・変容していることを示すメタ主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: コミュニケーション不全と相互理解の限界（疎外感）
+  weight: 0.6
+  quotes:
+  - quote: この二人、なんでこんな事になっているのだろう？ レオにはレオの、カーインにはカーインの人間関係があり、俺が普段生活しているサイバーカラテ道場周辺とは微妙に重なっているようで離れている。
+    paragraph: p227
+    quote_verified: true
+  - quote: なんだろうこの疎外感。特にレオは、こう、俺の方が先に縁を持っていたはずなのに――というか何だこの感情。独占欲か。
+    paragraph: p231
+    quote_verified: true
+  note: 主人公が仲間たちの関係性（レオとカーイン）を共有できないことへの疎外感と独占欲の描写は、転生者として世界に馴染みつつも、他者の内面的な繋がりにアクセスできない孤独さを強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

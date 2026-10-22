@@ -1,0 +1,24 @@
+episode: ch5016
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_item_アキラ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5016_アキラ_uses_聴覚強化アプリ_p101
+        quote: アプリによって聴覚を強化している俺にさえ、一切の音が聞こえなかった。運動量のロスを完全に排し、速さと重さだけを足裏に浸透させていく。
+        locator: {}
+        spoiler_after: ch0000
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_エスフェイル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5016_エスフェイル_kills_三人目の標的_p3
+        quote: 『二人目、そして三人目も仕留めたぞ。次は誰だ？』
+        locator: {}
+        spoiler_after: ch5016
+  first_appearance_candidate: true

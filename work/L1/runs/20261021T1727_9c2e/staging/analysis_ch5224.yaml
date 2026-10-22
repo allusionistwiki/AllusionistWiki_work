@@ -1,0 +1,248 @@
+chapter: ch5224
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 14
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5224_クナータ_uses_神働術_p1318]]'
+  object: '[[ME_quantum_zeno_paradox]]'
+  claim: マリーの死が未来から過去へ遡って確定する現象は、量子力学における「後選択」や因果律の逆転（時間逆行）を想起させる仕掛けである。
+  quote: '未来から過去方向へと突き進む致命の一撃。
+
+    聖女クナータの神働術を受けた者は、既に死んでいたことになってしまうのだ。'
+  paragraph: p17-p18
+  confidence: strong
+  quotes:
+  - quote: '未来から過去方向へと突き進む致命の一撃。
+
+      聖女クナータの神働術を受けた者は、既に死んでいたことになってしまうのだ。'
+    paragraph: p17-p18
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5224_カイン_says_沼女現象_p4143]]'
+  object: '[[ME_swampman_thought_experiment]]'
+  claim: 「沼女現象」および「哲学的ゾンビ」という用語は、ダニエル・デネットやドナルド・デヴィッドソンが提唱した思想実験「スワンプマン（沼男）」と「哲学的ゾンビ」概念の直接的引用である。
+  quote: 一定の確率で、稲妻で死んだ奴が哲学的ゾンビになって復活するっていう
+  paragraph: p41
+  confidence: explicit
+  quotes:
+  - quote: 一定の確率で、稲妻で死んだ奴が哲学的ゾンビになって復活するっていう
+    paragraph: p41
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5224_ヲルヲーラ_says_多世界連合の支配_p98100]]'
+  object: '[[ME_simulism_multiverse_theory]]'
+  claim: ヲルヲーラの「情報は抽象的な情報空間に記述された情報の系」という主張は、マックス・テグマークなどの数理宇宙論（マルチバース理論）における「数学的構造実在論」を模倣している。
+  quote: 多世界連合が定義するあらゆる世界群は抽象的な情報空間に記述された情報を参照して存在している情報の系。物理的状態と現象的状態の二相によって表現される世界は、情報の書き換えによって自在な改変が可能です。
+  paragraph: p195
+  confidence: strong
+  quotes:
+  - quote: 多世界連合が定義するあらゆる世界群は抽象的な情報空間に記述された情報を参照して存在している情報の系。物理的状態と現象的状態の二相によって表現される世界は、情報の書き換えによって自在な改変が可能です。
+    paragraph: p195
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5224_私_other_アストラル体の定義_p331348378392]]'
+  object: '[[ME_hard_problem_of_consciousness]]'
+  claim: 色を「物理的な光学現象」として認識することと、その「感じ（クオリア）」を捉えることの差異は、心身問題における「難問（Hard Problem of
+    Consciousness）」を物語的に解決しようとする試みである。
+  quote: 哲学的ゾンビは、色を物理的な光学現象として識別できるが、その『感じ』が理解できないとされる。
+  paragraph: p337
+  confidence: strong
+  quotes:
+  - quote: 哲学的ゾンビは、色を物理的な光学現象として識別できるが、その『感じ』が理解できないとされる。
+    paragraph: p337
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5224_フィリス_transforms_世界の色調_p487493]]'
+  object: '[[ME_augmented_reality_app]]'
+  claim: サイバーカラテアプリによる眼鏡の映像書き換えと幻覚ウィルスの作用は、AR技術による現実の補強・改変を魔術として描いたものである。
+  quote: ミルーニャとリールエルバが仕掛けたサイバーカラテアプリに含まれていたプログラム。それは、眼鏡に表示される映像を書き換えて人々に新しい現実を見せる。
+  paragraph: p492
+  confidence: explicit
+  quotes:
+  - quote: ミルーニャとリールエルバが仕掛けたサイバーカラテアプリに含まれていたプログラム。それは、眼鏡に表示される映像を書き換えて人々に新しい現実を見せる。
+    paragraph: p492
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5224_私_other_二重の真理_p495507]]'
+  object: '[[ME_wave_particle_duality]]'
+  claim: 物理的事実と心的現象を重ね合わせ、どちらとも言える状態とする論理は、量子力学における「二重スリット実験」や波と粒子の二重性を引用している。
+  quote: 'それは二重スリット実験で杖使いが観測する極微レベルでの粒子の振る舞いのように。量子力学と導波理論のように。
+
+    重ね合わせ。どちらとも言える。'
+  paragraph: p504-p505
+  confidence: strong
+  quotes:
+  - quote: 'それは二重スリット実験で杖使いが観測する極微レベルでの粒子の振る舞いのように。量子力学と導波理論のように。
+
+      重ね合わせ。どちらとも言える。'
+    paragraph: p504-p505
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5224_マリー_other_唯物論的世界観_p310322350357]]'
+  object: '[[ME_physicalism_reductionism]]'
+  claim: マリーの「全ての心的現象は杖的な物理現象に還元可能」という主張は、哲学における「フィジカリズム（物理主義）」や「還元主義」を体現している。
+  quote: 全ての心的現象は杖的な物理現象に還元可能！　ゆえに全ては空虚なんです！
+  paragraph: p357
+  confidence: strong
+  quotes:
+  - quote: 全ての心的現象は杖的な物理現象に還元可能！　ゆえに全ては空虚なんです！
+    paragraph: p357
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_alice_intervention
+  note: 歌姫がマリーの転生（エレクトリックライム）を「賢天主アリス」の介入と指摘し、彼女が哲学的ゾンビを統べる女王であることが明かされる。この介入が今後の展開でどのように影響するか、またアリスがマリーを利用する真の目的は何か。
+  quotes:
+  - quote: '『あの呪力の波形は、ナンバーサーティーンのライム――？』
+
+      『それって、【賢天主】アリスが介入してきたって事？』'
+    paragraph: p59-p61
+    quote_verified: true
+  - quote: 『哲学的ゾンビを統べる冥府の女王――もしかしたら、ズタークスタークだけじゃなくて、あの『マリー』もまた最初からアリスの使い魔だったのかもしれない』
+    paragraph: p66
+    quote_verified: true
+  expected_payoff: アリスがマリーを完全な支配下に置き、哲学的ゾンビ軍団を率いて地上の秩序（槍神教）を覆す勢力として登場する可能性。または、マリーとガルズの関係を利用した復讐劇への展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_swampman
+  note: 「私」がアキラを殺した事件を振り返り、彼が哲学的ゾンビ（沼男）であった可能性に言及する。環境による歪みという論理が、過去のトラウマの再解釈につながる伏線。
+  quotes:
+  - quote: 第五階層で見たアキラは実体としての性質が余りにも強く、その他の性質が酷く希薄だった。...もしかしたら彼もまた哲学的ゾンビ――沼男（スワンプマン）だったのかもしれない。
+    paragraph: p509
+    quote_verified: false
+  expected_payoff: アキラの死に関する真相が、単なる殺し合いではなく「認識の欠如」や「定義の問題」として再解釈され、「私」の罪悪感の解消、あるいは敵対勢力への和解のトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_wordquake_history
+  note: 地上と地獄の分断原因として「言震（ワードクェイク）」という歴史的な呪文秩序崩壊が言及される。これが過去にどのような事件で起きたか、また「私」たちがこれをどう修復するかが今後のキーとなる。
+  quotes:
+  - quote: '遠い過去に起きた言震（ワードクェイク）が、人類と哲学的ゾンビを分断してしまった。
+
+      多くの異獣（グロソラリア）――異言の民が生み出された大災禍。'
+    paragraph: p394-p396
+    quote_verified: false
+  expected_payoff: 過去編での言震の詳細な描写、または「私」がその歴史を「歌」で上書きし、世界の断絶を修復するクライマックスへの伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_tamara_language_magic
+  note: タマラによる「まじない使いでない師」としての言語魔術（お菓子化）が、翼猫の精神支配を破る。この「ふざけた世界」への改変が、シリアスな世界観対立をどう解決する手段として機能するか。
+  quotes:
+  - quote: 絶望的な状況を笑い飛ばす冗談みたいな古代の『言語魔術』が、地上をお菓子まみれのふざけた世界に変貌させていく。
+    paragraph: p267
+    quote_verified: true
+  expected_payoff: 「意味」の解体と再構築（お菓子化）によって、ヲルヲーラの厳格な秩序（序列化）が笑いによって無効化される展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物理主義と現象学（クオリア）の対立：世界は物質で構成されるか、それとも「感じ」で構成されるか。マリー（唯物論/虚無）と私（呪術的経験主義/肯定）の哲学闘争。
+  weight: 0.9
+  quotes:
+  - quote: 全ての心的現象は杖的な物理現象に還元可能！　ゆえに全ては空虚なんです！
+    paragraph: p357
+    quote_verified: true
+  - quote: 私は新しくアストラル体を獲得なんかしていなかった。...既知の物事でしかない『光』を認識する視点を変えて、あたかも別の『色の感じ』を新しく知ったかのような『邪視』を手に入れた
+    paragraph: p384
+    quote_verified: false
+  note: 物語のクライマックスが物理的な戦いではなく、概念定義と認識論（哲学ゾンビの定義）を巡る言葉の攻防に集約されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語と世界観による現実の再構築：世界は固定された事実ではなく、物語（歌）や定義（眼鏡）によって書き換え可能である。「言葉遊び」が物理的な干渉力を持つというメタフィクション。
+  weight: 0.85
+  quotes:
+  - quote: 視点をひっくり返す言葉遊びだけが、私たちにできることだから！
+    paragraph: p485
+    quote_verified: true
+  - quote: 世界の色調が反転して、白が黒に、明が暗に、次々に切り替わっていく。
+    paragraph: p487
+    quote_verified: true
+  note: 「私」たちが戦闘で勝つのではなく、定義を書き換えることで敵の論理（ヲルヲーラ、マリー）を無効化する戦略が取られている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者の死の受容と自己の欺瞞：「私」が殺してきた異獣たちへの罪悪感（アキラ、ビーチェ）と、マリーのガルズへの忠誠心（虚無肯定）の対比。死者を救うのではなく、その意味を再解釈して和解する試み。
+  weight: 0.8
+  quotes:
+  - quote: '私が彼を救ったんじゃない。彼が私を救ってくれた。
+
+      事実はいつだって双方向の解釈を許す。なら、ガルズとマリーも同じだ。'
+    paragraph: p457-p458
+    quote_verified: true
+  - quote: 「人」を殺すのは怖いよ。「人」が死ぬのは悲しいよ。それが嫌だから、「異獣」を殺す――「上」も「下」も、それは同じ
+    paragraph: p430
+    quote_verified: false
+  note: マリーを止める動機が、単なる力による制圧ではなく、彼女の行動原理（ガルズへの愛）を理解し肯定することにある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 管理社会のディストピア批判：ヲルヲーラが提唱する「多世界連合」による最適化・序列化は、人間を情報として管理する全体主義的支配（植民地支配のメタファー）であり、これに対する人類の尊厳の防衛。
+  weight: 0.7
+  quotes:
+  - quote: 原始的な土人の皆さんには我々の導きに従っていただきます。...序列化というあなた方のルール...を、更なる正義で修正して最適化して差し上げましょう。
+    paragraph: p116
+    quote_verified: false
+  - quote: 人類の峻別。人間とゾンビ、眷属種と異獣、「生きている」と「死んでいる」。価値を決定付ける権力。
+    paragraph: p134-p135
+    quote_verified: false
+  note: 敵であるヲルヲーラの論理は「合理的正義」を装った支配であり、これに抗うことが章の大きな構造的対立軸の一つとなっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

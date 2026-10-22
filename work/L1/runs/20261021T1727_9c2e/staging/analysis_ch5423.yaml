@@ -1,0 +1,145 @@
+chapter: ch5423
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 18
+items:
+- kind: mystery
+  name: MY_カーティスの真意とブラフ
+  note: リールエルバ（カーティス）の行動が、恐怖による支配だけでなく「隔離された存在」を世に示すための計算された演出（ブラフ）である可能性。
+  quotes:
+  - quote: 魔竜の背、そこに動画配信者がいて既にカーティスに取り込まれていることは知られていた。リールエルバが全世界に自らの力と恐怖を示すための宣伝呪術。
+    paragraph: p181
+    quote_verified: true
+  - quote: しかし、それがブラフだとすれば。
+    paragraph: p182
+    quote_verified: true
+  expected_payoff: リールエルバが「勝つこと」そのものよりも、「隔離された者」としての存在証明を求めていることが明かされる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_虹閉彩（プレジュディス）の正体
+  note: 蠍尾が受けた攻撃「虹閉彩」が、単なる魔法ではなく社会からの偏見・差別意識そのものを具現化したものであること。
+  quotes:
+  - quote: その病は『虹閉彩（プレジュディス）』――蠍尾（マラコーダ）を取りまく世界の全てである。
+    paragraph: p131
+    quote_verified: true
+  - quote: 世界中から声が響いてくる、いや違う、この言葉は毒、伝染していく呪いだ。
+    paragraph: p121
+    quote_verified: true
+  expected_payoff: シナモリアキラの戦い方が、物理的な破壊力ではなく社会構造や観念に対する干渉であることが判明し、対抗策が「理解」や「受容」に基づくものへ移行する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トリシューラの致命的な罠への回収
+  note: トリシューラが「勝利」することが「迫害の歴史を再演する」ことにつながると気づいた瞬間の状況。
+  quotes:
+  - quote: カーティスと戦っちゃ駄目だったんだ。勝利した瞬間、私は隔離と迫害と虐殺の歴史を再演することになってしまう！
+    paragraph: p211
+    quote_verified: true
+  - quote: 気付けば、魔竜に砕かれたはずの裁定者がゆっくりとその姿を現しつつあった。
+    paragraph: p207
+    quote_verified: true
+  expected_payoff: トリシューラが戦闘を中断し、政治的・社会的な交渉や、リールエルバとの共犯関係を結ぶ方向へ転換する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_イツノの治水権力と封じ方
+  note: イツノが「水の王」としての称号を用いて偏見（汚染）を封じたこと。これは物理的な封鎖ではなく概念的な境界線の設定である可能性。
+  quotes:
+  - quote: 古来、治水のわざは権力だった。河川の王は田畑や穀倉地帯に水を引き、富を築いた。
+    paragraph: p154
+    quote_verified: true
+  - quote: それは――簡単に倒せるような、解決できるようなものじゃない、と思う。権力か法でまず抑え込まないと封じることすらできない
+    paragraph: p146
+    quote_verified: true
+  expected_payoff: 偏見（虹閉彩）を「法」や「権力」によって管理・隔離するシステムが導入される展開。イツノの役割が単なる戦闘員から社会的調停者へ変化する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リールエルバの自己犠牲と隔離の要求
+  note: リールエルバが「壁の外に連れ出して貰った」と述べ、聖姫（リーナ）を拒絶した理由。
+  quotes:
+  - quote: ここは隔離された壁の中。聖姫のいるべき場所ではない
+    paragraph: p11
+    quote_verified: true
+  - quote: なら、ここで馴れ合いはおしまい。私はリーナ・ゾラ・クロウサーに媚びへつらってお情けを受ける取り巻きの友人にはならない――アキラ、そこのリーナは強敵よ。容赦は不要。ミルーニャ諸共、殺していいわ
+    paragraph: p33
+    quote_verified: true
+  expected_payoff: リールエルバが「隔離」を望むのは、自分を守るためではなく、リーナ（聖姫）や社会を自分自身の穢れから守るための自己犠牲であることが判明する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 権力と表現の共犯関係：政治利用される文化パフォーマンスの代償
+  weight: 0.9
+  quotes:
+  - quote: マイノリティへの攻撃を正当化する政治的宣伝工作と印象づけたんだ。どんなにセスカのパフォーマンスが優れていても、私の政治利用というイメージは確実に視聴者の心象を悪くする。
+    paragraph: p203
+    quote_verified: true
+  - quote: 勝利した瞬間、私は隔離と迫害と虐殺の歴史を再演することになってしまう！
+    paragraph: p211
+    quote_verified: true
+  note: 戦闘が「映像演出」によってエンタメ化され、それがそのまま政治的なプロパガンダ（差別の正当化）として機能してしまう構造。トリシューラの勝利は文化的な権威を強化するが、それは同時に抑圧の構造を固定化する。「勝ちパターン」への掌握は、倫理的な破滅と表裏一体である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語・偏見による暴力：虹閉彩（プレジュディス）という概念の呪い
+  weight: 0.85
+  quotes:
+  - quote: その病は『虹閉彩（プレジュディス）』――蠍尾（マラコーダ）を取りまく世界の全てである。
+    paragraph: p131
+    quote_verified: true
+  - quote: よく同性愛者が結婚するのは当人の自由などと言う輩がいるが、そういう連中は同じ口で孤児や困窮者も本人の自由、と切り捨てる。リベラルとは無責任な冷淡さだよ。
+    paragraph: p119
+    quote_verified: true
+  note: 敵対するシナモリアキラが、物理的な攻撃ではなく「社会からの偏見」を具現化した呪いによって蠍尾を苦しめている。差別や無理解そのものが世界を狭くし、息を詰まらせる牢獄となる。「病」としてのマイノリティ性への社会的圧力が、魔法として可視化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 隔離された者の尊厳：被差別者が「勝つ」ことの不可能性
+  weight: 0.8
+  quotes:
+  - quote: 血に縛られて、壁に閉じ込められてたリールエルバが全部壊しちゃおうってなるのさ、私はどうにかしてあげたいって思う。けどね、だからみんな死んじゃえって言うのは、やっぱり肯定できない。
+    paragraph: p21
+    quote_verified: true
+  - quote: シナモリアキラの弱さと、どうしようもない惨めさを。
+    paragraph: p85
+    quote_verified: true
+  note: リールエルバとシナモリアキラは「病人」として隔離されている。彼らが戦闘で勝つことは、「健常者（多数派）」の秩序を乱すことにつながるため、構造的に許されない。「惨めさ」や「弱さ」を見せつけることでしか存在を証明できない状況において、トリシューラ側の「勝ち方」は相対的な差別を再生産する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 観客の視線と自己演出：リールエルバによるメタフィクショナルな統制
+  weight: 0.7
+  quotes:
+  - quote: 宣言通りに恐怖による印象を振りまいても、逆に蹂躙されて惨めな姿を晒しても――『隔離されたもの』としての存在を世に示すことができる
+    paragraph: p187
+    quote_verified: true
+  - quote: 念写映像は主観のバイアスがかかるの。私がそうならないから、すっかり失念していたけど――印象が映像の流れを編集して加工してるんだよ
+    paragraph: p178
+    quote_verified: true
+  note: リールエルバは自分が「見られること」をコントロールしている。勝敗そのものではなく、「どう映るか（隔離された者として）」が重要であり、敵（トリシューラ）の勝利演出すらも計算に入れた罠である。物語の構造そのものが観客（視聴者）へのメッセージ操作として機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

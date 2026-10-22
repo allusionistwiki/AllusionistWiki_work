@@ -1,0 +1,226 @@
+chapter: ch5549
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 5
+  quotes_verified: 13
+  quotes_total: 16
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5549_中継整備所_other_騒然_p2]]'
+  object: '[[ME_航空業界の地上管制業務]]'
+  claim: ピット（整備所）における「予定通り受け入れて」という指示と、裏で進行する戦闘・通信妨害は、航空管制における異常事態時の隠蔽・通常運用維持を模倣している。
+  quote: だが施設職員たちに対して下った指示は『予定通り選手たちを万全な態勢で受け入れてね！』という普段通りのものだけ。取り繕うような説明も白々しいカバーストーリーも用意されていない。
+  paragraph: p7-p9
+  confidence: strong
+  quotes:
+  - quote: だが施設職員たちに対して下った指示は『予定通り選手たちを万全な態勢で受け入れてね！』という普段通りのものだけ。取り繕うような説明も白々しいカバーストーリーも用意されていない。
+    paragraph: p7-p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5549_中継整備所_other_騒然_p2]]'
+  object: '[[ME_企業不祥事における広報対応]]'
+  claim: 運営サイドが危機を隠し、現場に「通常業務」を指示する様子は、企業が重大な事故・スキャンダルを隠蔽して顧客への影響を最小限にしようとする組織的欺瞞（カバーストーリー）の構造と一致する。
+  quote: その事実から推測可能な裏側は、逆に職員たちの危機感を煽ったようだ。機械女王が油断ならない相手だという負の信用があるため、『今の機械女王には市民をコントロールする余裕がない』という不安が生まれているとハルベルトは分析していた。
+  paragraph: p10-p11
+  confidence: moderate
+  quotes:
+  - quote: その事実から推測可能な裏側は、逆に職員たちの危機感を煽ったようだ。機械女王が油断ならない相手だという負の信用があるため、『今の機械女王には市民をコントロールする余裕がない』という不安が生まれているとハルベルトは分析していた。
+    paragraph: p10-p11
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5549_中継整備所_other_騒然_p2]]'
+  object: '[[ME_グリム童話・キュトスの魔女]]'
+  claim: クレアノーズ（骨ファーラ）の威圧と「お姉さま」と呼ばれる権威は、ヨーロッパ民間伝承における「子供を攫う魔女」や「森の奥の恐怖」の原型を、異世界の神格として再構成している。
+  quote: 『いい子にしてないと、キュトスの魔女がやってきて森の奥に攫われちゃうよ？』私は『星見の塔』に所属する徒弟であり、『妹』を目指す魔女のひとりだ。いまさらそんな言葉を怖がる理由なんてどこにもない。
+  paragraph: p102-p104
+  confidence: explicit
+  quotes:
+  - quote: 『いい子にしてないと、キュトスの魔女がやってきて森の奥に攫われちゃうよ？』私は『星見の塔』に所属する徒弟であり、『妹』を目指す魔女のひとりだ。いまさらそんな言葉を怖がる理由なんてどこにもない。
+    paragraph: p102-p104
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5549_中継整備所_other_騒然_p2]]'
+  object: '[[ME_舞台演劇における役者間の格差]]'
+  claim: メイファーラの偽物（幻術）と本物（白骨の再生者）の対峙は、若手役者が大物女優に演技力で圧倒され、「正統解釈」を突きつけられるオーディションのメタファーとして機能している。
+  quote: 技巧派で売り出し中の若手役者が、大物女優に一瞬で呑まれた。これは多分、そういうオーディションの一幕みたいなもの。
+  paragraph: p113-p114
+  confidence: explicit
+  quotes:
+  - quote: 技巧派で売り出し中の若手役者が、大物女優に一瞬で呑まれた。これは多分、そういうオーディションの一幕みたいなもの。
+    paragraph: p113-p114
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_ch5549_中継整備所_other_騒然_p2]]'
+  object: '[[ME_VR・拡張現実技術の浸透]]'
+  claim: ライラの術によって「夢界コース」が現実世界に重畳表示され、選手たちが干渉に気づかないままレースを継続する様子は、AR技術による情報レイヤーの重ね合わせと、ユーザーの知覚制御を連想させる。
+  quote: 緑溢れる長閑な自然や巨大な昆虫たち、瘴気混じりの黒い暴風が、淡い朱色に包まれていく。それは既にある現実に重ねられたもう一つの『世界認識の層』だった。選手たちの大半は異変に戸惑いつつも、上位次元からの干渉には気づいていないため、ハグレスとライラの存在を認識することはできていなかった。
+  paragraph: p269, p327
+  confidence: moderate
+  quotes:
+  - quote: 緑溢れる長閑な自然や巨大な昆虫たち、瘴気混じりの黒い暴風が、淡い朱色に包まれていく。それは既にある現実に重ねられたもう一つの『世界認識の層』だった。選手たちの大半は異変に戸惑いつつも、上位次元からの干渉には気づいていないため、ハグレスとライラの存在を認識することはできていなかった。
+    paragraph: p269, p327
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5549_中継整備所_other_騒然_p2]]'
+  object: '[[ME_ゲームにおけるチート・デバッグモード]]'
+  claim: ライラが「夢の世界」を戦場として支配し、現実の物理法則や機体限界を無視して干渉できることは、ゲーム開発者がデバッグモードで世界改変権限を持つ姿に似ている。
+  quote: 朱の色号が表現する夢の世界はライラが最も有利な戦場だ。
+  paragraph: p278
+  confidence: weak
+  quotes:
+  - quote: 朱の色号が表現する夢の世界はライラが最も有利な戦場だ。
+    paragraph: p278
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_偽メイファーラの正体と目的
+  note: 緑色の鬼火のような光で消えた幻術使い（偽メイファーラ）が、なぜアズーリアたちに接近し、何を目的としていたのか。背後の陰謀は何か。
+  quotes:
+  - quote: 謎の幻術の達人がメイファーラに化けて私たちに接近しようとしていたことは確かだけど、背後にどんな陰謀が蠢いていたのかは謎だ。
+    paragraph: p120
+    quote_verified: true
+  expected_payoff: クレアノーズが「現実と矛盾に直面するまでお前にできることなど皆無」とエストに言ったことと関連し、この幻術の正体が何らかの敵勢力の偵察や工作である可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_メイファーラの銀貨の意味
+  note: クレアノーズがアズーリアに渡した「メイファーラの銀貨」。これが「希望を残す」ためのものだとされるが、なぜそれが「恐ろしいもの」と感じられるのか。その機能と代償は何か。
+  quotes:
+  - quote: どんな理由かわからないけど、白骨死体の貴婦人が渡してくれた『メイファーラの銀貨』はとても恐ろしいものである気がした。
+    paragraph: p163
+    quote_verified: false
+  expected_payoff: アズーリアの内部に「メイファーラ」の概念を固定するための呪術的媒体、あるいは彼女との絆を維持・補強するための重要なアイテムとして機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ハグレスがリーナを狙う理由
+  note: クレアノーズは「次にハグレスが狙うのはリーナ」と警告した。なぜ今このタイミングで、なぜリーナなのか。その具体的な脅威の内容。
+  quotes:
+  - quote: アズーリア、次にハグレスが狙うのはリーナよ、守りなさい。ライラと協力してどうにか隙を作ってくれたら、あとは私がどうにかする
+    paragraph: p247
+    quote_verified: true
+  expected_payoff: リーナが「末妹選定」において重要な鍵（竜母、使い魔の座）に関わる存在であるため、ハグレスはそれを阻害するために直接干渉してくる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ライラの祖父ダウザールとの関係性
+  note: ライラが「おじいさま」と呼び、ダウザールが「ご褒美」を与えるという家族愛に基づいた行動原理。これが単なる擬制か、実質的な血縁・呪術的紐帯か。
+  quotes:
+  - quote: ライラ、邪神の心臓が欲しいなあ。ね、おじいさま。可愛い孫娘のおねがいです
+    paragraph: p337
+    quote_verified: true
+  expected_payoff: クロウサー家の内部構造や、「家族」というテーマにおけるライラの立場（使い魔としての忠誠と家族愛の融合）を浮き彫りにする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トライデント座の最終選定
+  note: クレアノーズが「使い魔の座トライデントの最終選定」を開始したと宣言した。ライラ、ディスケイム（ノゴルオゴルオ）、リーヴァリオン（スーリウム）が競う構図。勝者・条件は？
+  quotes:
+  - quote: これよりクロウサー、ディスケイム、リーヴァリオンによる使い魔の座トライデントの最終選定を始めます。役者は揃った。槍を砕き、己が道を拓き、未知なる地平を見出すがいいでしょう。
+    paragraph: p388
+    quote_verified: true
+  expected_payoff: 次章以降での大規模な戦闘・物語のクライマックスへの移行を示唆する最大の伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「本物」の定義は、外見や経歴ではなく、その存在が発する「圧力」と「覚悟」によって決定される。
+  weight: 0.9
+  quotes:
+  - quote: 明らかにどちらもメイファーラに見える。同じ役を演じている。そのはずなのに、『役者が違う』という事実がはっきりわかった。
+    paragraph: p111-p112
+    quote_verified: true
+  note: 偽メイファーラが消え、本物（骨）が存在感を示す過程で、「演技」と「実体」の境界線が引かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族・絆とは、血縁だけでなく「相互の信頼と関係性」であり、それを断ち切ることは魂そのものの切断を意味する。
+  weight: 0.8
+  quotes:
+  - quote: ざくり、と何か致命的なものが断ち切られる。それは魂であり、呪いであり、信頼であり、関係性であり、真実だった。
+    paragraph: p342-p343
+    quote_verified: true
+  note: ダウザールがハグレスの「背（概念）」を断つ描写は、物理的攻撃ではなく関係性の切断として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世界は「観測者」の認識によって層状に再構成されうる（夢界の展開）。現実とは固定されたものではない。
+  weight: 0.7
+  quotes:
+  - quote: それは既にある現実に重ねられたもう一つの『世界認識の層』だった。虫王の庭という自然の残滓が粘土細工のように歪み、荒唐無稽な空想によって奇々怪々なオブジェとなっていく。
+    paragraph: p269, p370
+    quote_verified: false
+  note: ライラの術による世界変容は、認識論的な現実の可塑性を示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 組織（塔）のルールを維持するためには、時に「総意」を無視し、単独で暴走するほどの苛烈な行動原理が必要となる（クレアノーズ）。
+  weight: 0.6
+  quotes:
+  - quote: 姉妹という形を維持するためなら、彼女は姉妹の総意だって無視してしまえる。結界維持者。彼女の本質はたぶんこちらの異名に表れている。ある意味で彼女は九姉よりもずっと苛烈で、制御不能だ。
+    paragraph: p225-p227
+    quote_verified: true
+  note: クレアノーズの過去の逸話（ルスクォミーズへの単独挑発）は、秩序維持者の本質を「保守」ではなく「断絶」に求めている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 競争（レース/選定）の本質は「未来への前進」であり、過去の因縁や政治的対立に拘泥することは本末転倒である。
+  weight: 0.5
+  quotes:
+  - quote: 競い合いの本質は未来への前進と過去の更新。現在ばかりに気を取られ、妨害に注力するのは本末転倒でなくて？
+    paragraph: p243
+    quote_verified: true
+  note: クレアノーズがライラを「守護者」として承認する論理は、競争の建設的な側面にある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

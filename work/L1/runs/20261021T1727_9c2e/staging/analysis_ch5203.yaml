@@ -1,0 +1,118 @@
+chapter: ch5203
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_lina_notebook_content
+  note: リーナが手帳に書き記した具体的な「真相」の全貌。彼女が何を特定し、なぜアズーリアに提示したのか。
+  quotes:
+  - quote: 彼女は調査結果と先程の推理を手帳に書き記し、私に見せてくれた。
+    paragraph: p79
+    quote_verified: true
+  expected_payoff: 後の章で手帳の内容が明示され、ガルズの動機やマリーの過去に関する決定的な証拠として機能する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_galz_limit_time
+  note: 12日間（1,036,800秒）の浄界維持による呪力枯渇と、その後の完全な死。このタイムリミットが戦闘の結末をどう左右するか。
+  quotes:
+  - quote: 大雑把に計算しても1,036,800秒――十二日もの間邪視の奥義である浄界を維持し続けたということになる。
+    paragraph: p173
+    quote_verified: true
+  expected_payoff: ガルズが呪力を失い完全な死を迎える瞬間、またはそれによる劇的な逆転現象（例：アズーリアへの依存からの解放など）が描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cyrius_ritual_completion
+  note: サイリウスが呪術灯を振り始めた行為の真意。「快晴」という発言と儀式の完了条件との関連。
+  quotes:
+  - quote: そう言って、袖口から淡い青の光を放つ細長い呪術灯を取り出す。
+    paragraph: p209
+    quote_verified: true
+  - quote: 「ぬ――快晴か。屋内であればな。まあ良いわ」
+    paragraph: p211
+    quote_verified: true
+  expected_payoff: サイリウスによる対抗儀式、あるいはガルズの儀式を補完・破壊するイベントが発生する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_marie_hiding_galz
+  note: マリーがガルズを体内に隠蔽していたメカニズムと、彼女の意識の独立性。
+  quotes:
+  - quote: マリーが空の民の一人の肉体に潜んでいたように、ガルズもまたマリーの中に潜んでいたのだ。
+    paragraph: p145
+    quote_verified: true
+  expected_payoff: マリーの正体（哲学的ゾンビとしての自我）と、ガルズとの共生的な関係性の解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の権威は事実そのものではなく、それを記述する語り手の信頼性によって構成される。
+  weight: 0.9
+  quotes:
+  - quote: 私のような一人称系呪文使いにとっては、記述されたことだけが確かな現実。
+    paragraph: p82
+    quote_verified: true
+  - quote: リーナが思い描く『真相』は『事実』ではありえない。
+    paragraph: p94
+    quote_verified: true
+  note: アズーリアがリーナの推理を「信用できない語り手」効果によって無効化し、現状の歌（現在）を受け入れることで勝ちを決める展開は、メタフィクション的な真理観を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死のイメージと視覚的支配が現実を操作する暴力装置となる。
+  weight: 0.8
+  quotes:
+  - quote: 全ての死は等しく空虚だと断定し、生命の根源的な恐怖心と生存欲求を邪視によって支配するガルズは、常識的に考えれば死霊使いが操れないものまで操れる。
+    paragraph: p61
+    quote_verified: true
+  - quote: 僕の浄界は思い描いた死の景色で現実を塗り替え、【骨組みの花】の仲間たちを甦らせる事ができる。
+    paragraph: p169
+    quote_verified: true
+  note: ガルズの「浄界」が自らの死観念によって死者を復活させ、台所の肉をも支配対象とする描写は、主観的イデオロギーが物理法則を上書きする恐怖を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己犠牲と執着は英雄譚の構造を歪めるノイズとなる。
+  weight: 0.7
+  quotes:
+  - quote: 自らの下らない拘りのせいで、仲間たちに救ってもらった命を無駄に散らした大馬鹿者。
+    paragraph: p118
+    quote_verified: true
+  - quote: もうやめようよっ、なんで、そんな姿になってまで戦わなくちゃならないのっ
+    paragraph: p178
+    quote_verified: true
+  note: ガルズの復讐への執着が、仲間（マリー）を巻き込み無意味な苦痛を生んでいる現状は、伝統的な「犠牲」のテーマを批判的に再構成している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 集団の同調圧力と自負心が連携を阻害し、混沌を増幅する。
+  weight: 0.6
+  quotes:
+  - quote: この場所にいるのは恐らくほとんどが腕に覚えがあり、自らの無事を強く確信している者たちだろう。ゆえに、その自負心に従って各々勝手に攻撃を仕掛けてしまう。
+    paragraph: p182-p183
+    quote_verified: true
+  note: 貴賓席の強者たちが連携せず自己中心的に攻撃することで互いに妨害し合う様子は、個人主義的な英雄観の欠陥を風刺する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

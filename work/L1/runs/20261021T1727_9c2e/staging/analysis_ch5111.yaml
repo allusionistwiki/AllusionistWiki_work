@@ -1,0 +1,204 @@
+chapter: ch5111
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 4
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_prosthetic_limb]]'
+  object: '[[ME_ar_app]]'
+  claim: 義肢による身体拡張は、現代のARグラスやスマートグラスにおける「物理的身体とデジタル情報の重なり」のメタファーである。
+  quote: この義肢は私の技術とアキラくんの身体性との融合。身体性の重なり合う拡張、言うなれば交差する杖。
+  paragraph: p5
+  confidence: moderate
+  quotes:
+  - quote: この義肢は私の技術とアキラくんの身体性との融合。身体性の重なり合う拡張、言うなれば交差する杖。
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_hermaphrodite]]'
+  object: '[[ME_greek_mythology]]'
+  claim: ヘルマプロディートス（両性具有）という用語は、ギリシャ神話における両性の統合と超越を指し、異世界転生における「性別の固定観念の解体」を暗示する。
+  quote: アキラくんの世界で喩えると、ヘルマプロディートスの疑似再現って所かな
+  paragraph: p5
+  confidence: explicit
+  quotes:
+  - quote: アキラくんの世界で喩えると、ヘルマプロディートスの疑似再現って所かな
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_trident_fusion]]'
+  object: '[[ME_corporate_merger]]'
+  claim: トライデントの「個を生贄にして巨大な個へ作り替える」能力は、企業合併や組織統合における「個人性の消滅とシナジー追求」を極端に具現化したものである。
+  quote: 個を生贄にして、複数の『個』をより巨大で新しい『個』に作り替える。トライデントが目指す勝利って言うのはね、私やセスカの意思や個性を消滅させて、自らの内部に取り込むってことなの。
+  paragraph: p50
+  confidence: strong
+  quotes:
+  - quote: 個を生贄にして、複数の『個』をより巨大で新しい『個』に作り替える。トライデントが目指す勝利って言うのはね、私やセスカの意思や個性を消滅させて、自らの内部に取り込むってことなの。
+    paragraph: p50
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_chiron_fusion]]'
+  object: '[[ME_power_creep]]'
+  claim: キロンが神滅具と融合して飛躍的に強くなる現象は、ゲームにおける「アイテム合成によるステータス爆発」および「敵のパワーアップ」というメカニクスを模倣している。
+  quote: 神滅具と完全な融合を果たした事で、その総合的な呪力が上昇しているのがはっきりとわかる。相手の攻撃を呪的発勁で押し返そうとする時、確実に一撃が重くなっているのを感じるのだ。
+  paragraph: p79
+  confidence: moderate
+  quotes:
+  - quote: 神滅具と完全な融合を果たした事で、その総合的な呪力が上昇しているのがはっきりとわかる。相手の攻撃を呪的発勁で押し返そうとする時、確実に一撃が重くなっているのを感じるのだ。
+    paragraph: p79
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_gender_identity_magic]]'
+  object: '[[ME_lgbtq_rights]]'
+  claim: 性別の多様性（トランスジェンダー等）を「呪術師としての才能」として肯定的に扱う描写は、現代社会における性的マイノリティへの差別や偏見に対する逆転的な肯定である。
+  quote: そういうことだね。この世界において、そういう人たちは呪術師としての才能に溢れている
+  paragraph: p15
+  confidence: strong
+  quotes:
+  - quote: そういうことだね。この世界において、そういう人たちは呪術師としての才能に溢れている
+    paragraph: p15
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trident_enemy_origin
+  note: トライデントが「使い魔の魔女」であり、個を消滅させる禁呪を持つ背景。彼女がなぜ「最後の魔女」を一人で勝ちたいのか、その動機と来歴。
+  quotes:
+  - quote: だってトライデントは使い魔の魔女だもの
+    paragraph: p46
+    quote_verified: true
+  - quote: 他の候補者を全滅させて自分だけが勝利するって宣言しているわけ
+    paragraph: p50
+    quote_verified: true
+  expected_payoff: トライデントとの対決時に、彼女の悲劇的な過去や「使い魔」としての悲哀が明かされ、アキラたちの行動原理（個の尊重）と対比される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_chiron_invincibility
+  note: キロンを殺すことは誰にもできないという推論。その理由が「真の名」「経歴」「鮮血呪」にあると示唆されているが、具体的な解除条件は未提示。
+  quotes:
+  - quote: キロンの真の名、その経歴、シューラから奪った鮮血呪による価値操作呪術、そして神滅具――そこから導き出される推論は一つ。キロンを殺すことは誰にもできない。
+    paragraph: p99
+    quote_verified: true
+  expected_payoff: 外部からの働きかけ（第二プラン）によってのみ解決可能であり、その「外部」が誰であるか（神話的存在？過去の魔女？）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_external_contact
+  note: 「向こうには連絡した」という記述。アキラたちが頼った外部勢力の正体と、それがトリシューラに害を為す可能性について。
+  quotes:
+  - quote: 大きな借りを作ってしまうこの作戦は後々トリシューラに害を為すかもしれないが、今を乗り切れなければどのみち未来は無いのだ。
+    paragraph: p101
+    quote_verified: true
+  - quote: 向こうには連絡したから、後は時間までどうにか持ち堪えて！
+    paragraph: p103
+    quote_verified: true
+  expected_payoff: 章の最後で外部勢力（おそらく神話的キャラクターや別世界の存在）が登場し、戦闘を終わらせるが、代償として物語のバランスが大きく揺らぐ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_prosthetic_secret
+  note: アーザノエルの御手が「陰陽太極」「ヘルマプロディートス」と喩えられ、トリシューラの嫌悪を呼んだ件。この義肢が単なる道具以上の意味（禁呪の対抗手段？）を持つ可能性。
+  quotes:
+  - quote: トライデントの発想だね、これ。――はい却下、今後ヘルマプロディートスという単語を一切口に出すことを禁じます。なんか長いし
+    paragraph: p36
+    quote_verified: true
+  expected_payoff: 義肢が「個の融合」を促す性質を持つため、トライデントとの戦いで重要な役割を果たす（またはその逆で、アキラが飲み込まれるリスク要因となる）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 個の完全性 versus 融和による全体主義的勝利
+  weight: 0.9
+  quotes:
+  - quote: 異なる他者を結びつけ、融和させ、一つのものにしてしまおうというその発想は、貴方や私のものというよりも、むしろ
+    paragraph: p34
+    quote_verified: true
+  - quote: 私やセスカの意思や個性を消滅させて、自らの内部に取り込むってことなの。
+    paragraph: p50
+    quote_verified: true
+  note: コルセスカとトリシューラの議論、およびトライデントの禁呪の本質は、「個」としての尊厳を保持するか、全体の一部として融和・消滅するかという哲学的対立を示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と身体性の境界線の溶解
+  weight: 0.7
+  quotes:
+  - quote: この義肢は私の技術とアキラくんの身体性との融合。身体性の重なり合う拡張、言うなれば交差する杖。
+    paragraph: p5
+    quote_verified: true
+  - quote: 腕を貫いて、漆黒の槍が喉元に迫る。...あの槍はこちらの防御を無視して貫通という結果だけを生んでいる感じがする。
+    paragraph: p89
+    quote_verified: false
+  note: 義肢による身体拡張（サイボーグ的要素）と、キロンが融合した神滅具（兵器化された身体）。人間性が技術・呪力によってどこまで変質しうるかという問い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異文化理解の限界と翻訳の不可能性
+  weight: 0.5
+  quotes:
+  - quote: それがギリシャ神話における両性具有者を意味していることを知らなかった俺は何故かトリシューラに馬鹿にされたが、自分の世界の事ほど知らなかったりするのは良くあることだ。
+    paragraph: p7
+    quote_verified: true
+  - quote: 追想。記憶の中で、トリシューラは俺によく分からないことを話している。何を言っているかは不明だが、おそらくそうやって解説すること自体が彼女にとっては重要な儀式なのだろう。
+    paragraph: p3
+    quote_verified: true
+  note: 異世界言語・文化の壁。用語（ヘルマプロディートス）の意味理解がズレており、対話の難しさと、それでも通じ合おうとする試み（儀式としての解説）が主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 戦略的撤退と「借り」の倫理
+  weight: 0.6
+  quotes:
+  - quote: 大きな借りを作ってしまうこの作戦は後々トリシューラに害を為すかもしれないが、今を乗り切れなければどのみち未来は無いのだ。
+    paragraph: p101
+    quote_verified: true
+  - quote: 必要なのは、こちらは必要以上に強い力を用いずに、なおかつ相手の足を引っ張ること。
+    paragraph: p109
+    quote_verified: true
+  note: 生存のための不純な選択（外部への依存）。強さの追求を捨て、弱体化と時間稼ぎという受動的な戦略へ転換する過程に現れる倫理的葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

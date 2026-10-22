@@ -1,0 +1,154 @@
+chapter: ch5136
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 7
+  themes: 5
+  quotes_verified: 10
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_p27_celestial_people_eye
+  note: 「天眼の民」が有する超知覚能力への言及。バジリスクとの関連性、あるいは主人公・師匠がその力を持つ可能性を示唆する伏線。
+  quotes:
+  - quote: 【天眼の民】が有する超知覚にも似た、不可視光線の知覚能力。
+    paragraph: p27
+    quote_verified: true
+  expected_payoff: バジリスク戦以降、「天眼の民」の出自、その力の代償、または敵対勢力としての登場。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_p23_griza_globo_city
+  note: 石像の都グリザ・グローボへの言及。この都市が現在も存在するか、主人公たちが向かう先にあるか、または過去に滅んだ原因の詳細。
+  quotes:
+  - quote: 昔語りに出てくる住人が全て石像の都グリザ・グローボというのは蛇の王に襲われた都市の末路であると言われている。
+    paragraph: p23
+    quote_verified: true
+  expected_payoff: グリザ・グローボへの到達、石化した住人からの情報収集、または同様の石化被害を受けるリスクの顕在化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_p42_insurance_society
+  note: 探索者協会による保険制度と捜索隊システム。この「幸運」に頼る構造が、物語の根幹にある社会システムの脆さ（または搾取構造）を示す伏線。
+  quotes:
+  - quote: 探索者協会に加入済みであり、高い保険料を払っていて、捜索隊に見つけて貰うという幸運に恵まれれば、という但し書きが付くのだけれど。
+    paragraph: p42
+    quote_verified: true
+  expected_payoff: 保険適用外の状況での救出劇、協会への不信感の増大、または捜索隊の不在による孤立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_p65_nockers_and_cursed_ore
+  note: 呪鉱石が大量に埋蔵されている場所と「鉱山妖精（ノッカー）」の存在。この場所が危険な罠（呪力汚染の中心）である可能性。
+  quotes:
+  - quote: 多分、呪鉱石が大量に埋蔵されてるんだと思います。探せば鉱山妖精（ノッカー）とかもいるかもです
+    paragraph: p65
+    quote_verified: true
+  expected_payoff: 金箒花採取地点での遭遇戦、ノッカーとの交渉、または呪鉱石を巡る争い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_p59_ignoring_signs
+  note: 「その時にはもう危険な兆候はあったのかもしれない」という回想形式の記述。この時点で既に不可逆的なイベントが開始されていることの伏線。
+  quotes:
+  - quote: 思えば、その時にはもう危険な兆候はあったのかもしれない。しかしその時の私は自分が着実に強くなっているという自信に満ちあふれていて――端的に言って、油断していた。
+    paragraph: p59
+    quote_verified: true
+  expected_payoff: 直後の戦闘での致命的な失敗、仲間への被害、または主人公の重傷・石化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_p84_akira_kiel_party
+  note: アキラを加えたキール隊との第五階層攻略の記憶。現在のパーティ（ハルベルト、メイファーラ、ミルーニャ）との対比。アキラは現在どこにいるのか。
+  quotes:
+  - quote: アキラを加えたキール隊の面々と第五階層を攻略していた時の事を思い出す。
+    paragraph: p84
+    quote_verified: true
+  expected_payoff: アキラの不在理由（死亡、離脱）、現在のパーティとの合流、または記憶の偽造への疑念。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_p96_falling_after_regret
+  note: 「穴に嵌って後悔するのは落ちた後である」という断定的なナレーション。これはメタフィクショナルな警告であり、まさにこの直後に落下イベントが発生することを示唆する伏線。
+  quotes:
+  - quote: 得てして、穴に嵌って後悔するのは落ちた後である。
+    paragraph: p96
+    quote_verified: true
+  expected_payoff: 即座の落下イベント発生、その後の長期隔離、またはパーティの分裂。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 成功体験による慢心と油断が破滅を招くという悲劇的構造
+  weight: 0.9
+  quotes:
+  - quote: 勢い付いた私達を止められる者などいないように思えた。...あの第五階層でも、最後に待ち受けていたのは途轍もなく深い落とし穴だった。その事を、どうして思い出せなかったのか。
+    paragraph: p87,p95
+    quote_verified: false
+  note: 第五階層での成功が第六階層での油断を呼び、最終的に「穴」へ落ちるという因果関係が明確に描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己肯定感の脆弱さと他者からの承認への依存
+  weight: 0.8
+  quotes:
+  - quote: 辛辣でそっけない言葉ばかりのハルベルトから褒められるというのは貴重な機会であるだけに、その喜びもひとしおである。...それが『良いこと』のように感じられて、その時だけは自分にもちょっとはましな部分があるじゃないか、と気休めのように思えるのだった。
+    paragraph: p53,p57
+    quote_verified: false
+  note: 師匠からの承認をきっかけに気分が良くなり、それが油断につながる心理的プロセスが詳細に分析されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異世界生活の経済的・社会的リスク管理と保険制度
+  weight: 0.7
+  quotes:
+  - quote: 探索者協会に加入済みであり、高い保険料を払っていて、捜索隊に見つけて貰うという幸運に恵まれれば、という但し書きが付くのだけれど。
+    paragraph: p42
+    quote_verified: true
+  note: 冒険が単なる戦闘だけでなく、経済的なリスク管理（保険）と社会制度（捜索隊）に支えられていることを示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術の進歩と伝統的装備の融合（デザインと機能性）
+  weight: 0.5
+  quotes:
+  - quote: デザイン性にも優れる為、現代の若い杖使いは靴で呪術を行使する事が多い。
+    paragraph: p70
+    quote_verified: true
+  note: ミルーニャの靴というアイテムを通じ、魔法技術が生活様式・ファッションと融合している世界観を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生態系の破壊と呪力汚染による環境の変化
+  weight: 0.6
+  quotes:
+  - quote: 気がつけば、辺りの様子が一変していた。生命の音が、次第に途絶えていくのである。かわって目に付くようになったのは、無機質な灰色の塊たち。
+    paragraph: p9
+    quote_verified: true
+  note: パレルノ山における生物の消失と石化（灰）への置換は、呪力による環境汚染の物理的現れとして描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,253 @@
+chapter: ch5062
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 17
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{p15}]]'
+  object: '[[ME_smartphone]]'
+  claim: 異世界の呪術端末が現代のスマートフォンと機能的に同等であり、その普及状況も同様に「無いと困る」生活必需品として描写されている。
+  quote: この世界ではほとんどの人が所有するという、呪術によって機能する携帯型端末機。情報面、通信面でこれがあるのと無いのでは全く違う。
+  paragraph: p15
+  confidence: strong
+  quotes:
+  - quote: この世界ではほとんどの人が所有するという、呪術によって機能する携帯型端末機。情報面、通信面でこれがあるのと無いのでは全く違う。
+    paragraph: p15
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p25}]]'
+  object: '[[ME_social_media_editing]]'
+  claim: トリシューラが戦闘映像を「プライベートに配慮した編集」でアップロードする行為は、現代のSNSにおける情報管理・検閲・演出のメタファーである。
+  quote: こないだの戦いは私がばっちり撮影してアップロードしといたよ。あ、ちゃんと無駄な所とかカットして、プライベートに配慮した編集してるから大丈夫だよ
+  paragraph: p25
+  confidence: strong
+  quotes:
+  - quote: こないだの戦いは私がばっちり撮影してアップロードしといたよ。あ、ちゃんと無駄な所とかカットして、プライベートに配慮した編集してるから大丈夫だよ
+    paragraph: p25
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_{p103}]]'
+  object: '[[ME_physical_therapy_program]]'
+  claim: サイバーカラテ道場の訓練プログラムによる義肢適応は、現代の医療リハビリテーションにおける標準化されたプロトコルの模倣を示している。
+  quote: 『サイバーカラテ道場』にプリセットされている訓練プログラムを一時間ほどかけて消化したので、義肢の操作に不自由することもない。近代までならいざ知らず、現代の精錬されたリハビリテーション技術のノウハウがあればこのくらいの事は朝飯前である。
+  paragraph: p103
+  confidence: moderate
+  quotes:
+  - quote: 『サイバーカラテ道場』にプリセットされている訓練プログラムを一時間ほどかけて消化したので、義肢の操作に不自由することもない。近代までならいざ知らず、現代の精錬されたリハビリテーション技術のノウハウがあればこのくらいの事は朝飯前である。
+    paragraph: p103
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{p172}]]'
+  object: '[[ME_derrida_différance]]'
+  claim: 店員による「再帰的な自己参照」や「セルフ・ディファレンス・エンジン」という用語は、デリダの差異（différance）論および記号論を科学技術用語へ換骨奪胎したものである。
+  quote: 書かれたもの（エクリチュール）としての文字情報は、再帰的な自己参照を繰り返す性質を持ちます。この性質を利用して論理演算を行うのが伝詞回路です。
+  paragraph: p172
+  confidence: explicit
+  quotes:
+  - quote: 書かれたもの（エクリチュール）としての文字情報は、再帰的な自己参照を繰り返す性質を持ちます。この性質を利用して論理演算を行うのが伝詞回路です。
+    paragraph: p172
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_{p253}]]'
+  object: '[[ME_pet_naming_convention]]'
+  claim: 記憶喪失の猫耳少年に「レオ（獅子）」という猛獣的な名前を付けることで、彼の可愛らしい外見と内面の空白に対する補完・支配を行う命名行為は、ペットの名付け親権力の象徴である。
+  quote: 「【レオ】ってのはどうだ？」 元いた世界でも人名としてよく用いられる、獅子をその由来とする名前だ。 猫科なので想起するイメージもそう遠くない。
+  paragraph: p253-p256
+  confidence: strong
+  quotes:
+  - quote: 「【レオ】ってのはどうだ？」 元いた世界でも人名としてよく用いられる、獅子をその由来とする名前だ。 猫科なので想起するイメージもそう遠くない。
+    paragraph: p253-p256
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p186}]]'
+  object: '[[ME_marketing_trap]]'
+  claim: 高性能端末のデモでの「ぬるぬる動く」体験と予算オーバー価格は、家電量販店における上位モデルへのアップセル戦略（実演販売の罠）を模している。
+  quote: が、それは実演販売の罠だ。値段をよく見ると、完全に予算オーバーである。
+  paragraph: p186
+  confidence: moderate
+  quotes:
+  - quote: が、それは実演販売の罠だ。値段をよく見ると、完全に予算オーバーである。
+    paragraph: p186
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_{p45}]]'
+  object: '[[ME_unethical_experiment_backstory]]'
+  claim: トリシューラが「違法な人体実験」の嫌疑で狙われているという推測は、彼女の過去の出自や倫理的背景を示唆する伏線である。
+  quote: そういやこいつはこいつで、何故上から狙われているのだろう。違法な人体実験でもやらかしたのか？
+  paragraph: p45
+  confidence: moderate
+  quotes:
+  - quote: そういやこいつはこいつで、何故上から狙われているのだろう。違法な人体実験でもやらかしたのか？
+    paragraph: p45
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Trishula_Past_Crimes
+  note: トリシューラがなぜ「上から狙われている」のか。違法な人体実験の嫌疑を含む彼女の過去の所業。
+  quotes:
+  - quote: そういやこいつはこいつで、何故上から狙われているのだろう。違法な人体実験でもやらかしたのか？　なんだっていいが。
+    paragraph: p45
+    quote_verified: true
+  expected_payoff: トリシューラのバックボーンや「公社」との対立構造の核心、および彼女の倫理的側面の開示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Leo_Ear_Color_Discrepancy
+  note: レオの名付け根拠である「白い猫耳」に対し、ちびシューラが「白だったっけ？」と疑問を呈している。記憶の改変や幻視の可能性。
+  quotes:
+  - quote: 彼の猫耳が真っ白だったことが、俺にホワイトライオンを想起させたのである。 （んー、白？　白だったっけ？） ちびシューラが首を傾げているが、彼の頭部の耳はどう見ても白い。
+      一体どうしたんだろうか。
+    paragraph: p261-p267
+    quote_verified: true
+  expected_payoff: レオの正体（記憶喪失の原因）や、アキラの認知バイアス、ちびシューラの監視機能の異常に関する真相。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_OldGranariaLanguage_Mastery
+  note: 店員が少年の古代語（古グラナリア語？）を流暢に話すことへのアキラの驚きと、彼女の正体（正規の言語魔術師か偶然か）の不透明さ。
+  quotes:
+  - quote: 店員さんの口から滑らかに滑り出す、少年と同じ言語。彼の言葉が理解できるためか、俺にもそれが聞き取れた。あれ？　話者がほとんどいない古代の言語じゃなかったのか？
+      （そのはずだよ？　たまたま古グラナリア語に通じていただけの呪術師さんじゃない？
+    paragraph: p151-p154
+    quote_verified: true
+  expected_payoff: 店員の正体、第五階層における言語流通の実態、レオの出身地との関連性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Company_Provider_Dominance
+  note: 端末回線事業が【公社】の一強である状況下で、非公社系店舗を選ぶという行為の意味とリスク。
+  quotes:
+  - quote: 回線事業者のシェアはほとんど【公社】の一強状態である。ちびシューラ情報によると、この店は【公社】以外の提供回線サービスが充実しているらしいのでオススメとのことだ。
+    paragraph: p125
+    quote_verified: true
+  expected_payoff: 「公社」の監視網からの逃避行、非公式ネットワークの存在、後の通信関連イベントでの障害や利用価値。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Chibishula_Silent_Communication
+  note: ちびシューラが口笛ジェスチャーや文字のない伝達（エクリチュール）でアキラに干渉する仕組みの不明確さ。
+  quotes:
+  - quote: ちびシューラが視界隅で吹けていない口笛のジェスチャーをしながらあさっての方を向いている。芸が細かい。 （ねえアキラくん） 書かれたもの（エクリチュール）としての文字情報は、
+    paragraph: p82-p170
+    quote_verified: false
+  expected_payoff: ちびシューラの通信プロトコルや、アキラとの精神的リンクの技術的・呪術的な詳細。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術移転と社会適応：現代知識（スマホ・リハビリ）を異世界に適用する過程での摩擦と優越性
+  weight: 0.8
+  quotes:
+  - quote: 『サイバーカラテ道場』にプリセットされている訓練プログラムを一時間ほどかけて消化したので、義肢の操作に不自由することもない。近代までならいざ知らず、現代の精錬されたリハビリテーション技術のノウハウがあればこのくらいの事は朝飯前である。
+    paragraph: p103
+    quote_verified: true
+  - quote: この世界ではほとんどの人が所有するという、呪術によって機能する携帯型端末機。情報面、通信面でこれがあるのと無いのでは全く違う。
+    paragraph: p15
+    quote_verified: true
+  note: 主人公が現代の技術・知識を異世界で活用し、適応していく様子が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 監視社会とプライバシーの演出：SNS的な自己プロデュースと情報の編集
+  weight: 0.7
+  quotes:
+  - quote: こないだの戦いは私がばっちり撮影してアップロードしといたよ。あ、ちゃんと無駄な所とかカットして、プライベートに配慮した編集してるから大丈夫だよ
+    paragraph: p25
+    quote_verified: true
+  - quote: 私の潜伏場所がこの辺だって判明したせいで松明の騎士がそこら中にいるんだもの。大掛かりな捕り物なんてできないとは思うけど、見つかったらどうしたってトラブルは避けられないよ
+    paragraph: p40
+    quote_verified: true
+  note: トリシューラの行動が情報戦・プロパガンダとして機能しており、現代のメディアリテラシー的なテーマを含んでいる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 関係性の構築と命名権：保護者としての権力と被保護者の依存
+  weight: 0.9
+  quotes:
+  - quote: 「なにか、自分で名乗りたい名前、ないか？」 … 「【レオ】ってのはどうだ？」 … 「レオ、レオ、レオ――僕の名前は、レオ。わ、なんだかしっくり来るような気がする。アキラさん、ありがとうございます。とっても嬉しいです！」
+    paragraph: p227-p271
+    quote_verified: false
+  - quote: 「あ、はいっ」 ぱっと表情を輝かせて、子犬のように俺の義肢にとびつく。
+    paragraph: p114-p116
+    quote_verified: true
+  note: アキラがレオに名前を与え、保護者・所有者としての地位を確立するプロセスが中心的なテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記号論と魔術の融合：言語構造（エクリチュール）に基づく計算機構
+  weight: 0.6
+  quotes:
+  - quote: 書かれたもの（エクリチュール）としての文字情報は、再帰的な自己参照を繰り返す性質を持ちます。この性質を利用して論理演算を行うのが伝詞回路です。
+    paragraph: p172
+    quote_verified: true
+  note: 魔法技術の根底にある言語哲学的な側面が強調されており、作品のSF的・哲学的深みを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 消費社会と階層性：端末選びに見られる経済格差とブランド支配
+  weight: 0.5
+  quotes:
+  - quote: 回線事業者のシェアはほとんど【公社】の一強状態である。 … が、それは実演販売の罠だ。値段をよく見ると、完全に予算オーバーである。
+    paragraph: p125-p186
+    quote_verified: false
+  note: 異世界経済システムが現代資本主義の縮図として描かれ、主人公たちの経済的制約を浮き彫りにしている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

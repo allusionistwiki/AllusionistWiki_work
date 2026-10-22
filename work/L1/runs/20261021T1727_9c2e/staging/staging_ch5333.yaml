@@ -1,0 +1,274 @@
+episode: ch5333
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ミヒトネッセ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5333_ミヒトネッセ_makes_呪術儀式_p10
+        quote: そこまでが、ミヒトネッセの呪術儀式だった。
+        locator: {}
+        spoiler_after: ch5333
+      - event_ref: E_ch5333_ミヒトネッセ_uses_髪_p22
+        quote: ミヒトネッセはつまらなさそうに言って、長い髪を掴む。ぐい、と腕に力を込めて身体を持ち上げ、縄梯子を昇るようにして二階まで登り切る。
+        locator: {}
+        spoiler_after: ch5333
+    speech:
+      observations:
+      - event_ref: E_ch5333_ミヒトネッセ_reveals_英雄の滑稽さ_p51
+        quote: 「一応イアテムは真面目に『英雄』をやろうとしているみたいよ――私に言わせれば、『英雄』なんてもの自体が滑稽極まりないんだけどね」
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イアテム]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5333_イアテム_other_勝利宣言_p111
+        quote: 「ふははは！　遂にやったぞ！　ここに【死人の森】は砕かれた！　これよりこのイアテムが女王を妃とし、新たなる『王国』を――ぶごっ」
+        locator: {}
+        spoiler_after: ch5333
+    action:
+      observations:
+      - event_ref: E_ch5333_イアテム_attacks_ヴァージル_p147
+        quote: 強引に立ち上がったイアテムが手に水流の刃を生み出して一閃する。ヴァージルは身軽に跳躍すると、空中で一回転して離れた場所に着地した。そこで、左耳をそっと撫でる。ヴァージルの左耳が切断されていた。
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_空圧の拳]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5333_空圧の拳_attacks_イアテム_p114
+        quote: 顔面に叩き込まれた幻肢が大気を握りしめてイアテムの顔面に【空圧】の拳を叩き込んだのだ。幻影の打撃――これは俺が放ったものではない。
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5333_パーン_makes_機械の腕_p119
+        quote: 誰よりも高く浮上すると、右腕を付け根から強引に千切り取る。発生した幻肢を操作して辺りに散らばったトリシューラのドローンだったものから次々と部品を掠め取り、凄まじい速度で再構築していく。
+        locator: {}
+        spoiler_after: ch5333
+    speech:
+      observations:
+      - event_ref: E_ch5333_パーン_says_王国再建_p131
+        quote: 「ふん、無様だな未来人。まあこうして俺が封印から解き放たれた今、【死人の森】が下らぬ紛い物に脅かされることもない。まずフェロニアを呪縛から解き放ち、然る後に俺が『王国』を再建してやろう」
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_レッテ]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5333_レッテ_asks_カーテシー_p12
+        quote: 「カーテシーって言うんだったかしら、それ」
+        locator: {}
+        spoiler_after: ch5333
+      - event_ref: E_ch5333_レッテ_says_竜蛇の形_p34
+        quote: 「まあそうだけどね。ここは塔と呼ぶには少々見窄らしいわ。私に相応しいだけの竜蛇の形は中々見つからない。竜殺しの英雄もね」
+        locator: {}
+        spoiler_after: ch5333
+      - event_ref: E_ch5333_レッテ_promises_王権_p70
+        quote: 「貴方は違うわ、レッテ。貴方は主役だもの。端役の私とは違う。二つの『王国』の正統な王権保持者であるレッテはこれから始まる争乱に参加する資格がある。『王殺し』を成し遂げれば、貴方が『女王』になれるんだから」
+        locator: {}
+        spoiler_after: ch5333
+      - event_ref: E_ch5333_レッテ_loves_ミヒトネッセ_p84
+        quote: 「あの子が勝ったら一緒にいればいいの。ラクルラールお姉様の庇護の下でトライデントの『左腕』として共に戦えばいい。私が勝ったら逃げればいいわ。ほら、どっちにしても一緒にいられる。それがミヒトネッセの一番でしょう？」
+        locator: {}
+        spoiler_after: ch5333
+    visual:
+      observations:
+      - event_ref: E_ch5333_レッテ_has_property_紅紫の長い髪_p16
+        quote: 紅紫（マゼンタ）の長い、余りにも長い髪が二階から垂れ下がり、地面にまで届いていた。露台の手摺りには長い髪の少女を挟むように小さな人形が二つ。
+        locator: {}
+        spoiler_after: ch5333
+    relationship:
+      observations:
+      - event_ref: E_ch5333_レッテ_conceals_熱意_p74
+        quote: 「どうかしら。ラクルラールお姉様はきっと、勝者が私でもトリシューラでも困らない。だって最終的にはあの方の糸で傀儡の王を操るだけだもの」
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_パーン・ガレニス・クロウサー]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5333_パーン・ガレニス・クロウサー_transforms_部下の肉体_p129
+        quote: あまり特徴の無い顔に半透明の霊体が重なると、パーンの顔に合わせて肉体が変質していくのだ。ごきごきと骨格が歪んでいき、体型そのものまでもが変化して行く。今や完全にパーンとなった男は、機械の腕で髪を後ろに撫でつけた。
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ヴァージル・イルディアンサ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5333_ヴァージル・イルディアンサ_transforms_美少年_p139
+        quote: 瀕死の少年は潰れた丸鼻にやや太めの体型だったが、兎のごとく重力の軛から放たれると共にあらゆる肉を削ぎ落とし、顔面を複雑な呪文式を展開して整形すると、見目麗しい絶世の美少年へと変貌する。
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_大地]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5333_大地_kills_イアテムの分身_p151
+        quote: 突如として隆起した大地が杭となりイアテムの股間から頭頂部までを貫いた。即死したイアテムの分身が磔になり、晒し者にされる。
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マラード王]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5333_マラード王_transforms_美しき王_p156
+        quote: '倒れていたラフディ人が変貌し、長身長髪の美しき王となる。
+
+          長く太い剛毛はきめ細やかで流れるような艶めきを手に入れて、星々のように輝き出す。'
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ルバーブ]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5333_ルバーブ_transforms_土塊_p165
+        quote: 跪くのは土塊だった。舗装された地面が隆起して中から土や瀝青が混ざった人形が立ち上がり、丸々太った男の姿となったのだ。それは見る見るうちに血と肉とを兼ね備えた人体に変貌していき、ごわごわとした髪が伸びていく。
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ブレイスヴァ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5333_ブレイスヴァ_names_キシャル_p173
+        quote: 「私は希望を掴もう。もう一度、自らの愚かさで失った愛しの姫君、キシャルをこの手に取り戻してみせよう」
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5333_グレンデルヒ_says_代償_p181
+        quote: （ふ、だから『お前たちの行動の代償は高くつくであろう』と言ったのだ。シナモリアキラよ。私は忠告したぞ？）
+        locator: {}
+        spoiler_after: ch5333
+      - event_ref: E_ch5333_グレンデルヒ_has_property_操り人形_p55
+        quote: 「さあ。そもそもアレに自由意思なんてあったのかな――操り人形だったんじゃないかと思えてならない。だとすると、敵に支配されている今のグレンデルヒはそこそこ幸せなのかもね。叛逆という自由意思の夢を見ていられるから」
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_アルト]]'
+  entity_type: terminology
+  aspects:
+    name:
+      observations:
+      - event_ref: E_ch5333_アルト_names_アルト_p198
+        quote: 続いて現れたのはカーティスとアルト。
+        locator: {}
+        spoiler_after: ch5333
+    action:
+      observations:
+      - event_ref: E_ch5333_アルト_uses_軍服_p209
+        quote: アルトはトリシューラに断って近くにあったブティックから詰め襟の軍服に似た上着を拝借。肩口から胸元にかけて吊された金銀モールの飾緒（アグレット）がその威厳を高め、頸部だけでなく要所要所を硬質なパーツで覆った簡素な鎧でもある衣服だ。
+        locator: {}
+        spoiler_after: ch5333
+      - event_ref: E_ch5333_アルト_uses_竜爪眼_p237
+        quote: 'アルトの残された左目が強く発光する。
+
+          すると無数のイアテムが一瞬にして動きを停止させ、更には肌に氷が張り付いていく。邪視による現実の改変だ。'
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーティス]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5333_カーティス_transforms_吸血鬼_p199
+        quote: 黒衣を纏った吸血鬼の身体はドラトリア系夜の民だったのか緑髪赤目で、元々の顔を僅かに変化させただけでカーティスの顔になってしまった。変身能力に秀でている種族だけあって滑らかな変化だった。
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_motif_篝火]]'
+  entity_type: motif
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5333_篝火_appears_as_影_p2
+        quote: ゆらゆらと揺れる篝火が狭い路地裏に影を落とす。
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5333_ちびシューラ_observes_亜竜王アルト_p248
+        quote: '（亜竜王アルトの【竜爪眼】！　オリジナルを見ることになるなんて）
+
+          ちびシューラが驚いているポイントが少々俺とは違っているような気がする。コルセスカではなく、別の誰かを想起しているのだろうか。'
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_イアテムの配下]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5333_イアテムの配下_transforms_六王の転生体_p264
+        quote: （イアテムの配下だった男達はたった今、この瞬間に前世が確定したの。『過去の記憶が甦った』ことになって、人格ごと魂が書き換えられて、完全に六王の転生体としての存在に固定されたんだ）
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_影]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5333_影_transforms_獣の顔_p3
+        quote: 人の形をしていた異形は、いつしか奇怪な獣の顔へと変貌していた。獣は獰猛に牙を開き、獲物を捕食する。
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_剣]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5333_剣_appears_as_天空の裂け目_p39
+        quote: 天空の裂け目から巨大な剣が現れ、今まさに落下した所だった。恐らく爆心地では未曾有の混乱と災厄が起きていることだろう。
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_青い髪の毛]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5333_青い髪の毛_appears_as_頭頂部_p98
+        quote: 'そんな二人の頭頂部から天に向かって、青い髪の毛が伸びている。
+
+          それに、気付きながらも。
+
+          二人は幸福な虚飾を信じることに、全身全霊を傾けた。'
+        locator: {}
+        spoiler_after: ch5333
+  first_appearance_candidate: true

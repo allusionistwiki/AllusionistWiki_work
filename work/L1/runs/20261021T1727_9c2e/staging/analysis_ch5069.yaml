@@ -1,0 +1,226 @@
+chapter: ch5069
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 21
+  quotes_total: 22
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p24]]'
+  object: '[[ME_Web_Site_Development]]'
+  claim: トリシューラの即座の公式サイト作成は、現代のスタートアップやインフルエンサーにおける迅速なデジタル・プレゼンス構築プロセスを模倣している。
+  quote: 「もう公式サイト用意しちゃってるんだけどな」
+  paragraph: p24
+  confidence: strong
+  quotes:
+  - quote: 「もう公式サイト用意しちゃってるんだけどな」
+    paragraph: p24
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p59]]'
+  object: '[[ME_Sleep_Dreams_Memory_Reconsolidation]]'
+  claim: 夢における記憶の再配列とちびシューラによる検知は、睡眠中の神経系における記憶統合プロセス（メモリー・リコンソリデーション）をSF的に解釈したものである。
+  quote: 「眠りの中で再配列された記憶の泡が意識の表層に浮かび上がってくる時、それはちびシューラにも把握可能になるの。」
+  paragraph: p59
+  confidence: moderate
+  quotes:
+  - quote: 「眠りの中で再配列された記憶の泡が意識の表層に浮かび上がってくる時、それはちびシューラにも把握可能になるの。」
+    paragraph: p59
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p162]]'
+  object: '[[ME_Internet_Flame_War]]'
+  claim: アキラの武術への批判が掲示板やSNSで拡散し、罵倒コメントが溢れる様子は、現代インターネット特有の炎上現象（Flame War）そのものである。
+  quote: 見るも無惨な地獄インターネットであった。あちこちの掲示板とSNSとニュースサイトに転載され拡散されていく俺の情報。晒されるサイバーカラテ道場。『何がサイバーカラテだよ馬鹿じゃねえの』『腕気持ち悪過ぎだろ』などなど。
+  paragraph: p162
+  confidence: explicit
+  quotes:
+  - quote: 見るも無惨な地獄インターネットであった。あちこちの掲示板とSNSとニュースサイトに転載され拡散されていく俺の情報。晒されるサイバーカラテ道場。『何がサイバーカラテだよ馬鹿じゃねえの』『腕気持ち悪過ぎだろ』などなど。
+    paragraph: p162
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p108]]'
+  object: '[[ME_Intellectual_Property_Rights]]'
+  claim: トリシューラが肖像権侵害をちらつかせて高額な契約金を要求する行為は、現代の芸能プロダクションによるタレントマネジメントおよびIPビジネスを象徴している。
+  quote: 最後にトリシューラが肖像権侵害で訴訟することをちらつかせながら法外な金銭を要求している様子を見て絶句した。
+  paragraph: p108
+  confidence: strong
+  quotes:
+  - quote: 最後にトリシューラが肖像権侵害で訴訟することをちらつかせながら法外な金銭を要求している様子を見て絶句した。
+    paragraph: p108
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p132]]'
+  object: '[[ME_History_Written_By_Victors]]'
+  claim: 事実を歪曲してアキラの功績を拡大するトリシューラの行動は、歴史が勝者や権力者によって編集される「勝者の史実」の構造を逆転させ、意図的なプロパガンダとして機能している。
+  quote: 「でっち上げじゃないよ。事実だもの」
+  paragraph: p132
+  confidence: strong
+  quotes:
+  - quote: 「でっち上げじゃないよ。事実だもの」
+    paragraph: p132
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p170]]'
+  object: '[[ME_Martial_Arts_Classification_Debate]]'
+  claim: 「空手ではなく中国武術だ」という指摘は、現代における武術の系譜論争やカテゴリー分けに関する文化的議論を参照している。
+  quote: 「あ、何か『俺も転生者だからわかるけどこれ空手っつーより中国武術とかじゃね』だって」
+  paragraph: p170
+  confidence: moderate
+  quotes:
+  - quote: 「あ、何か『俺も転生者だからわかるけどこれ空手っつーより中国武術とかじゃね』だって」
+    paragraph: p170
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Other_Reincarnators
+  note: コメントで「俺も転生者」と名乗る人物の存在が示唆された。アキラ以外に転生者がいる可能性と、その人物との接触。
+  quotes:
+  - quote: 「あ、何か『俺も転生者だからわかるけどこれ空手っつーより中国武術とかじゃね』だって」
+    paragraph: p170
+    quote_verified: true
+  - quote: ――そういえば今、なにか看過してはならない情報が含まれていた気がするが、はて。
+    paragraph: p178
+    quote_verified: true
+  expected_payoff: 後の展開でその「転生者」と遭遇し、情報交換や敵対関係になる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azurelia_Silence
+  note: アズーリアからの連絡が来ないことと、松明の騎士団による警告。アズーリアがアキラを保護できない状況にある可能性。
+  quotes:
+  - quote: 結論から言うと、アズーリアから連絡が来ることは無かった。
+    paragraph: p92
+    quote_verified: true
+  - quote: 松明の騎士団からの厳重な警告がそれである。
+    paragraph: p122
+    quote_verified: true
+  expected_payoff: アズーリアが組織内で拘束されている、あるいはアキラとの接触を禁じられていることが判明する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Trisula_Motivation_Deep
+  note: トリシューラが「利益のため」と言いながらも、夢を通じてアキラの欠乏を察知し行動している点。彼女の真の意図と【お姉様】との関係性。
+  quotes:
+  - quote: 「――私の利益にも繋がることだから」
+    paragraph: p86
+    quote_verified: true
+  - quote: トリシューラは、自らを支援してくれた【お姉様】の為に行動しているのだ。
+    paragraph: p77
+    quote_verified: true
+  expected_payoff: トリシューラの過去や【お姉様】との関係が明かされ、彼女のアキラへの関与の真意（支配か保護か）が試される場面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Internet_Risk_Escalation
+  note: アキラを詐欺師とする風評の拡大と、探索者協会・松明の騎士団からの圧力の高まり。物理的襲撃への発展の可能性。
+  quotes:
+  - quote: 俺は他人の功績を掠め取ろうとする詐欺師であるというような風評が流布しつつある。
+    paragraph: p148
+    quote_verified: true
+  - quote: まあ、襲撃されるだけかもしれないけど、その時は返り討ちにするだけだよ
+    paragraph: p79
+    quote_verified: true
+  expected_payoff: 風評が現実的な脅威（暗殺者派遣や組織的圧力）としてアキラに迫ってくる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メディアによる事実の再構築と物語の権力
+  weight: 0.8
+  quotes:
+  - quote: 「でっち上げじゃないよ。事実だもの」
+    paragraph: p132
+    quote_verified: true
+  - quote: トリシューラは、第五階層の魔将エスフェイルを倒した男という肩書きをでっち上げて喧伝し始めたのである。
+    paragraph: p130
+    quote_verified: true
+  note: 真実が如何にメディア戦略によって捻じ曲げられ、それが社会通念（事実）として定着していくかを示すメタフィクション的構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 監視社会におけるプライバシーの消滅と自己決定権の喪失
+  weight: 0.7
+  quotes:
+  - quote: 「思考覗いてる時点で今更じゃない？」
+    paragraph: p69
+    quote_verified: true
+  - quote: 退路が塞がれていた。至れり尽くせり過ぎる。俺は敷かれたレールの上を走るだけでいいらしい。楽すぎて駄目人間になりそうだ。
+    paragraph: p28
+    quote_verified: true
+  note: トリシューラによる思考・夢の読み取りと、彼女の完璧なマネジメント（レール）が、アキラの主体性を侵食し依存状態を強化する過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 現代インターネット文化の異世界移植とその暴力性
+  weight: 0.9
+  quotes:
+  - quote: 見るも無惨な地獄インターネットであった。あちこちの掲示板とSNSとニュースサイトに転載され拡散されていく俺の情報。晒されるサイバーカラテ道場。
+    paragraph: p162
+    quote_verified: true
+  - quote: 『何がサイバーカラテだよ馬鹿じゃねえの』『腕気持ち悪過ぎだろ』などなど。
+    paragraph: p162
+    quote_verified: true
+  note: 異世界というファンタジー背景に、匿名性と瞬時拡散を伴うネット炎上文化を持ち込むことで生じる文化的摩擦と被害者性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 恩返しへの渇望とコミュニケーション不全
+  weight: 0.6
+  quotes:
+  - quote: 「助けてくれた人に報いたい、恩を返したいっていうのは分かるから」
+    paragraph: p75
+    quote_verified: true
+  - quote: 俺はアズーリアのようにはなれない。
+    paragraph: p191
+    quote_verified: true
+  note: アキラのアズーリアへの執着（恩返し）と、トリシューラが示す社会的な「正しさ」や「言葉遣い」への劣等感の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,248 @@
+chapter: ch5406
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5406_名声_has_property_価値_p2]]'
+  object: '[[ME_modern_social_media_metrics]]'
+  claim: この世界における『評価ポイント』は、現代のSNSにおけるフォロワー数やエンゲージメント指標が通貨化・資産化された状態（例：クリプトソーシャル）を指喩している。
+  quote: 評価ポイントでもあるそれは、アイドルやファンたちが持つ通貨であり、同時に個人株でもある。もともとは評価獲得を推奨することでアイドルたちの全体的な質とファン層のモラル向上の効果を狙った制度だったらしい。
+  paragraph: p4
+  confidence: strong
+  quotes:
+  - quote: 評価ポイントでもあるそれは、アイドルやファンたちが持つ通貨であり、同時に個人株でもある。もともとは評価獲得を推奨することでアイドルたちの全体的な質とファン層のモラル向上の効果を狙った制度だったらしい。
+    paragraph: p4
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5406_名声_has_property_価値_p2]]'
+  object: '[[ME_online_stalking_and_harassment]]'
+  claim: リーナを襲う『有象無象の欲望』やネット上のデマによる攻撃は、現代におけるネットストーキング（執拗な追跡）およびSNSでのいじめ・誹謗中傷という社会問題を指喩している。
+  quote: 'アイドルへのネットストーキング。
+
+    SNSでのつきまとい、いやがらせ。
+
+    端末片手に憎しみを募らせる愚者たちは、しかしそれを楽しむしかない。'
+  paragraph: p177-p179
+  confidence: explicit
+  quotes:
+  - quote: 'アイドルへのネットストーキング。
+
+      SNSでのつきまとい、いやがらせ。
+
+      端末片手に憎しみを募らせる愚者たちは、しかしそれを楽しむしかない。'
+    paragraph: p177-p179
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5406_名声_has_property_価値_p2]]'
+  object: '[[ME_public_figure_scandal_handling]]'
+  claim: スキャンダル発生時の対応（医師によるシロ断言、法務部による名誉棄損対応）は、現代の芸能界におけるイメージ回復と法的対応のプロトコルを模倣している。
+  quote: '「火消しが先だろ。麻薬がらみのスキャンダルなんてありふれたネタだが、医師にシロと断言させるくらいはしたほうがいい」
+
+    「困りましたね。こういうのは理屈で言ってもどうしようもありませんし――名誉棄損や偽計業務妨害として法的手段に訴えましょうか。」'
+  paragraph: p37, p45
+  confidence: strong
+  quotes:
+  - quote: '「火消しが先だろ。麻薬がらみのスキャンダルなんてありふれたネタだが、医師にシロと断言させるくらいはしたほうがいい」
+
+      「困りましたね。こういうのは理屈で言ってもどうしようもありませんし――名誉棄損や偽計業務妨害として法的手段に訴えましょうか。」'
+    paragraph: p37, p45
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5406_名声_has_property_価値_p2]]'
+  object: '[[ME_vampire_mythology]]'
+  claim: リールエルバが物理的な吸血（牙を使う行為）を嫌い、呪術（生命吸収）で命を奪うという設定は、伝統的な吸血鬼のイメージ（血への渇望・肉体的接触）を逆転させ、精神的な恐怖と高貴さの表出として再定義している。
+  quote: '「私は牙を使って直接吸い出すなんて古めかしいやり方、知らないもの。はしたないし、不潔でしょう？」
+
+    血と肉を恐れる吸血鬼。だがそれは欠陥ではない。
+
+    むき出しの暴力を恐れ、しかし同時に物語のそれには強く憧れる。'
+  paragraph: p290-p301
+  confidence: strong
+  quotes:
+  - quote: '「私は牙を使って直接吸い出すなんて古めかしいやり方、知らないもの。はしたないし、不潔でしょう？」
+
+      血と肉を恐れる吸血鬼。だがそれは欠陥ではない。
+
+      むき出しの暴力を恐れ、しかし同時に物語のそれには強く憧れる。'
+    paragraph: p290-p301
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5406_名声_has_property_価値_p2]]'
+  object: '[[ME_spectacle_of_crowd_psychology]]'
+  claim: ファンが暴徒化し、リーナへの欲望が互いの殺し合いへ転換する現象は、群衆心理学における「集団ヒステリー」や、アイドル文化におけるオタク同士の競争・嫉妬構造を指喩している。
+  quote: リーナに向けられていた醜悪な欲望は隣の男を如何にして屈伏させるか、あるいは打ちのめすかという方向へとすり替わり、事態は凄惨な乱闘へと変質していた。
+  paragraph: p85
+  confidence: moderate
+  quotes:
+  - quote: リーナに向けられていた醜悪な欲望は隣の男を如何にして屈伏させるか、あるいは打ちのめすかという方向へとすり替わり、事態は凄惨な乱闘へと変質していた。
+    paragraph: p85
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5406_名声_has_property_価値_p2]]'
+  object: '[[ME_divine_wrath_and_natural_disaster]]'
+  claim: リーナが『空圧』という基礎呪術を発動し、風を支配して男を殺そうとする様子は、自然現象（嵐・雷）を神の怒りとして畏怖した古代宗教的体験と、現代の災害報道における「天災」の権威性を重ね合わせている。
+  quote: 'ただそれだけの呪いに、空が悲鳴を上げていた。
+
+    空間が軋み、風が泣き喚き、世界が傷をさらけ出す。
+
+    かつて人は大いなる自然に神を見出し、抗えぬ気象現象である風にもまた大いなる神の意思が宿っていると信じた。'
+  paragraph: p128-p130
+  confidence: strong
+  quotes:
+  - quote: 'ただそれだけの呪いに、空が悲鳴を上げていた。
+
+      空間が軋み、風が泣き喚き、世界が傷をさらけ出す。
+
+      かつて人は大いなる自然に神を見出し、抗えぬ気象現象である風にもまた大いなる神の意思が宿っていると信じた。'
+    paragraph: p128-p130
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_リーナのスキャンダル発生源
+  note: 過去に実家の力で火消しされた炎上を蒸し返しているという言及。誰が、何のためにこのネタを意図的に再燃させているのか（敵対勢力の攻撃か、単なる暇人のいたずらか）が未確定。
+  quotes:
+  - quote: 聞くところによると、リーナ・ゾラ・クロウサーは以前に似たような炎上に巻き込まれたことがあったのだという。その時は実家の力でどうにか火消しに成功したのだが、何者かがまたそのネタで彼女を揺さぶろうとしているようだ。
+    paragraph: p41
+    quote_verified: true
+  expected_payoff: 敵対組織（『アマランサス・サナトロジー』など）による戦略的なイメージダウン攻撃、あるいは内部の裏切り者による仕業として明かされる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ミルーニャとリーナの過去
+  note: ミルーニャがリーナを「先輩」と呼び、過去の落ち度について言及している。二人の間にどのような信頼関係や衝突があったのか。
+  quotes:
+  - quote: 「守れなかった私の落ち度を棚に上げて言いますが、直接手を下すと今後のイメージに影響します。」
+    paragraph: p148
+    quote_verified: false
+  expected_payoff: 『チョコレートリリー空組』結成時のエピソードや、ミルーニャがリーナを保護するに至った経緯の回想。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_アキラの血の価値
+  note: 吸血鬼たちがアキラの血肉を執拗に求め、リールエルバが「価値は保証されている」と言及している。アキラの血液が持つ特殊な性質（英雄因子、特別な魔力など）の詳細。
+  quotes:
+  - quote: 「珍味ではあると思うの。それに、価値は保証されているでしょう。」
+    paragraph: p285
+    quote_verified: false
+  expected_payoff: アキラが持つ特殊な適性（サイバーカラテとの関連や英雄因子）が吸血鬼の進化・強化に直結するキーアイテムであることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_森の女王の正体と楽園
+  note: 豚の生首として現れた「お姉様」が支配する、理性のある楽園のような空間。ここが迷宮の最終地点なのか、それとも罠（甘美な死）であるのか。
+  quotes:
+  - quote: 「安心して下さい。ここは安全です。この場所には理性しかないのですから」
+    paragraph: p357
+    quote_verified: true
+  expected_payoff: 楽園に留まることの代償（永遠の死・享楽による退化）が描かれ、リールエルバやアキラが脱出の決断を迫られる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 名声はファンとの共犯関係によって構築され、その歪みは暴力として現れる
+  weight: 0.9
+  quotes:
+  - quote: それは『厄介なファン』の存在を抑止すると同時に、『自分は厄介ではないと確信している頭のおかしいファン』の存在を浮かび上がらせた。
+    paragraph: p5
+    quote_verified: true
+  - quote: 'その有様はさながら甘い匂いにつられて集まった虫の大群。
+
+      ぎらついた目、興奮した口調、紅潮した顔、荒々しい獣欲の滾り。'
+    paragraph: p23-p24
+    quote_verified: true
+  note: ファンとアイドルの関係が単なる消費ではなく、相互依存・共犯構造であり、その崩壊が社会現象（炎上・暴動）として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 高貴さとは、むき出しの暴力への恐怖と、それを超越した支配力の両立である
+  weight: 0.8
+  quotes:
+  - quote: 「殿下のそれは、高貴さのあらわれだと思いますよ。育ちが良くて結構じゃないですか。泥臭く競い合うのは俺のような者に任せていればいいんです」
+    paragraph: p304
+    quote_verified: true
+  - quote: 闘争への興奮は一方的な暴力の行使を躊躇わせない。だからこそ彼女は君臨者として躊躇いなく敵対者の命を奪えたのだ。
+    paragraph: p302
+    quote_verified: true
+  note: リールエルバが肉体的な吸血を嫌悪しつつも、女王として暴力を行使できること、アキラがその補佐役（下僕・騎士）となる構造から、階級と倫理の関係を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 充足された楽園こそが獣性を最も強く育み、理性を侵食する
+  weight: 0.7
+  quotes:
+  - quote: '飽いたものから獣になる。
+
+      理性を有したまま、ソファにもたれながら野獣のふるまいができるようになる。'
+    paragraph: p365-p366
+    quote_verified: true
+  - quote: 永遠の死、永久の享楽、再生し続ける宴の日々であっても、貪りの獣はその凶暴な本性を薄れさせるどころかますます膨れあがらせていくのだということを。
+    paragraph: p352
+    quote_verified: true
+  note: 欠乏による暴力だけでなく、過剰な充足（楽園）における退廃と獣化が描かれており、文明批判的な側面を持つ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: アイドルは社会の投影であり、その守護者は法務と暴力で構成される
+  weight: 0.6
+  quotes:
+  - quote: '「火消しが先だろ。麻薬がらみのスキャンダルなんてありふれたネタだが、医師にシロと断言させるくらいはしたほうがいい」
+
+      「名誉棄損や偽計業務妨害として法的手段に訴えましょうか。」'
+    paragraph: p37, p45
+    quote_verified: false
+  - quote: ポリシューラが「麻薬取締法違反だよーしょっぴくよー」と男たちを連れて行った。
+    paragraph: p161
+    quote_verified: true
+  note: アイドルという存在が単なる芸術ではなく、法的・社会的制度によって管理される商品であること、そしてその守護には法務（ミルーニャ）と武力（トリシューラ/リーナ）が必要であることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

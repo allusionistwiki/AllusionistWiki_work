@@ -1,0 +1,235 @@
+chapter: ch5540
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 20
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ローザの浄界展開]]'
+  object: '[[ME_スマホゲームのガチャ/イベント演出]]'
+  claim: ローザが戦闘中に端末をいじり、後から『アプリリリース記念』として処理される様子は、現実のスマホゲームにおける緊急メンテナンスやイベント開始時の演出・運営介入のパロディである。
+  quote: 剥き出しの殺意が急に雲散霧消し、ローザは戦闘中にもかかわらず巨大な鋏を地面に突き刺して端末を取り出す。少女が晒した隙を逃さず、迷路を飛び越えて上空から襲い掛かる者がいた。
+  paragraph: p56
+  confidence: strong
+  quotes:
+  - quote: 剥き出しの殺意が急に雲散霧消し、ローザは戦闘中にもかかわらず巨大な鋏を地面に突き刺して端末を取り出す。少女が晒した隙を逃さず、迷路を飛び越えて上空から襲い掛かる者がいた。
+    paragraph: p56
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_マナタル勇者戦団の襲撃]]'
+  object: '[[ME_テロリズム/極右政治運動]]'
+  claim: マナタル勇者戦団が『狼煙』として暴力を用い、穏健派を排除して同胞を巻き込もうとする姿勢は、現実社会における過激な民族主義的テロリズムや、内部対立を深めるためのあおる戦略の写し身である。
+  quote: この闘争を狼煙がわりに、世界中に我らの意思を示す時だ！
+  paragraph: p16
+  confidence: strong
+  quotes:
+  - quote: この闘争を狼煙がわりに、世界中に我らの意思を示す時だ！
+    paragraph: p16
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ヒュレーの召喚]]'
+  object: '[[ME_TCG(トレーディングカードゲーム)のスタンプ/コール]]'
+  claim: ヒュレーが『基礎（スタンプ）』のコインを刻み、呪文の途中までで呼び出しを行う描写は、TCGにおけるコスト支払いや効果発動（コール）の手順を模したメタファーである。
+  quote: '円盤に刻まれたティリビナの秘文字。その意味は『基礎（スタンプ）』。
+
+
+    「召喚（コール）」'
+  paragraph: p81-p83
+  confidence: moderate
+  quotes:
+  - quote: '円盤に刻まれたティリビナの秘文字。その意味は『基礎（スタンプ）』。
+
+
+      「召喚（コール）」'
+    paragraph: p81-p83
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_オークション公告]]'
+  object: '[[ME_人身売買/奴隷市場の近代化]]'
+  claim: 重要な政治的象徴である『名無しの王』をオークションに出品し、世界の富豪が参加するイベントとして扱うことで、歴史的な権力闘争や民族の運命決定プロセスを消費文化・投機対象へ逆転させている。
+  quote: たったいま、マレブランケのメンバーであるファルファレロとカルカブリーナ及びこちらで保護している名無しの王を祝祭で行われるオークションに出品することが決定しました
+  paragraph: p118
+  confidence: strong
+  quotes:
+  - quote: たったいま、マレブランケのメンバーであるファルファレロとカルカブリーナ及びこちらで保護している名無しの王を祝祭で行われるオークションに出品することが決定しました
+    paragraph: p118
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_ちびシューラの事後処理]]'
+  object: '[[ME_イベント運営/PR戦略]]'
+  claim: テロリストの暴力を『過激な闘技形式』として定義し直して祝祭に組み込む手法は、社会運動や衝突をエンターテインメントとして吸収・消去する現代のメディア戦略の構造的模倣である。
+  quote: 病院を襲撃するという凶行に走ったティリビナ人たちを捕縛も処罰もせず、『荒っぽいイベントに参加した、民族的な主張を掲げるティリビナ人のデモ隊』として位置付けることで、その存在を公認して祝祭の内側に取り込んだのだ。
+  paragraph: p190
+  confidence: strong
+  quotes:
+  - quote: 病院を襲撃するという凶行に走ったティリビナ人たちを捕縛も処罰もせず、『荒っぽいイベントに参加した、民族的な主張を掲げるティリビナ人のデモ隊』として位置付けることで、その存在を公認して祝祭の内側に取り込んだのだ。
+    paragraph: p190
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_エレクトラの作戦]]'
+  object: '[[ME_交渉術/ブラフ(虚勢)]]'
+  claim: 『全てがはったりで構成されている』と語られるオークション公告は、実力行使ではなく情報の非対称性と相手を敵に回すリスク（コスト）を利用したゲーム理論的なブラフ戦法そのものである。
+  quote: なにしろこの即席の作戦は、全てがはったりで構成されている。
+  paragraph: p125
+  confidence: strong
+  quotes:
+  - quote: なにしろこの即席の作戦は、全てがはったりで構成されている。
+    paragraph: p125
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_スーリウムの恐怖の正体
+  note: スーリウムが『ロウ・カーイン』を恐れる理由、およびその存在が彼の歴史改変能力（時間枝の剪定）で消せない原因。
+  quotes:
+  - quote: 吸い殺したはずだ。確実に消滅させた。いや、そういう問題ではない。あれはこの世界に存在してはいけないものだ。なぜ、なぜなぜなぜなぜ
+    paragraph: p285
+    quote_verified: true
+  - quote: カーインの血統が、父上から受け継いだ私という存在の根幹が揺らいでしまう。
+    paragraph: p300
+    quote_verified: true
+  expected_payoff: スーリウムの起源（父上）とカーインの間に隠された因縁、またはカーインが存在するためのメタ的な条件（物語内の絶対者など）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_名無しの王の行方
+  note: アルテミシアとキノコ人少年が追跡する中、トロルの高位呪術師がアルテミシアのアストラル体に入り込んでいたこと。名無しの王はトロルに守られている？
+  quotes:
+  - quote: 僕、中が透けて視えたんです！　アルテミシアさんのアストラル体に、あの時のトロルが入ってた！
+    paragraph: p258
+    quote_verified: true
+  expected_payoff: 名無しの王の保護者としてのトロルの正体、および彼がなぜアルテミシアを利用しているかの対立構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ジャッフハリムの魔将ユディーア
+  note: スーリウムの計画に組み込まれていない新たな侵入者。スーリウムが「不始末」と呼ぶことから、彼の制御下にある可能性と自律性のバランス。
+  quotes:
+  - quote: 『ジャッフハリムの魔将ユディーア』って宣名してるみたいだね
+    paragraph: p228
+    quote_verified: true
+  - quote: あたしはここにいる。ってことはスーリウムの目から逃れるための偽装に使った宣名銀貨と偽の死体を使い魔化されたのかな。
+    paragraph: p233
+    quote_verified: true
+  expected_payoff: ユディーアがスーリウムの支配を脱した自律的な行動を取るのか、それともキニスとの因縁（「不始末」）が解決される過程で重要な役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_クナータ・ノーグの予知
+  note: クナータがスーリウムの動揺とカーインの名を聞き、十字の光（交点）を見る。彼女の目的は「いま、ここ」にある唯一無二を確保することか。
+  quotes:
+  - quote: '上下と左右。他者と自己。未来と過去。
+
+
+      それらが交わる一点、それが意味するのは、万人にとっての唯一無二。'
+    paragraph: p318-p319
+    quote_verified: true
+  expected_payoff: クナータがカーイン（ロウ・カーイン）を保護する、あるいは利用してスーリウムの支配構造を崩すためのキープレイヤーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力のエンターテインメント化による政治的収斂（カタルシスの提供と問題の先送り）
+  weight: 0.9
+  quotes:
+  - quote: テロリストであるという暴力性をまるごと『過激な闘技形式のひとつ』に置き換える。
+    paragraph: p194
+    quote_verified: true
+  - quote: 'だが、祝祭が破綻していないように見せかけることはできる。
+
+
+      そして、今はそうやって取り繕うことが最も優先されるべきことだった。'
+    paragraph: p196-p197
+    quote_verified: true
+  note: 深刻な対立をゲームイベントとして消費・消化することで、根本解決を回避しつつ現状維持を図る社会批評的テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 権力の可視化と透明性による支配構造の解体（ブラックボックスの強制開示）
+  weight: 0.8
+  quotes:
+  - quote: これにより、事態の隠蔽という大前提が失われたのだ。
+    paragraph: p121
+    quote_verified: true
+  - quote: この公開オークションは祝祭のイベントの一環として行われます。
+    paragraph: p139
+    quote_verified: true
+  note: 秘密裡に行われる政治的交渉を、あえて「オークション」という市場原理で公開することで、既存勢力間の均衡（隠蔽）を破壊し、新たな力学を生み出す戦略。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 歴史改変能力の限界と「存在の肯定」（決定論的な消去に対する個人の意志）
+  weight: 0.85
+  quotes:
+  - quote: '彼は時間の流れを改変しようとしていた。
+
+
+      エレクトラを助けに入ったカーイン。'
+    paragraph: p296-p297
+    quote_verified: true
+  - quote: あれはもはや棄てられた矛盾史だ、我らの正史にあってはならない。あの種族が存在するこの時間枝は剪定されるべきだ。だというのに、なぜ奴は根から引き剥がせない形で存在している？！
+    paragraph: p293
+    quote_verified: true
+  note: スーリウムの「正史」に基づく消去権力が、カーインという例外の存在によって機能不全に陥る様子。運命（改変能力）を越える物語的必然性の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: シミュレーションと現実の境界侵食（ゲームマスターによる世界操作）
+  weight: 0.6
+  quotes:
+  - quote: 『転活体験アプリ・ウィズメモリーbeta』のリリース記念として突発的に行われた闘技イベントに参加していただいたティリビナ人の皆様！
+    paragraph: p186
+    quote_verified: true
+  - quote: お得意の現実のゲーム化、深刻（シリアス）の茶番化。
+    paragraph: p189
+    quote_verified: true
+  note: 世界がアプリやイベントという「ゲーム的構造」によって運営されていることが明示されるメタフィクション的側面。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

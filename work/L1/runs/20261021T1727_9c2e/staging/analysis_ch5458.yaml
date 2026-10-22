@@ -1,0 +1,118 @@
+chapter: ch5458
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 12
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_アルメ＝アーニスタの所在
+  note: セロナが「凍結状態にあるアルメ＝アーニスタの前世体」の所在を掴んでいると明言している。ティリビナ人と巨人が血眼になって探しているこの存在が、第五階層との関係および第八階層の戦いにどう関わるか不明。
+  quotes:
+  - quote: 凍結状態にあるアルメ＝アーニスタの前世体――あれを仇敵であるティリビナ人と巨人は血眼になって探していますが、僕はその所在を掴んでいます
+    paragraph: p71
+    quote_verified: true
+  expected_payoff: セロナとの交渉材料として、または第八階層攻略のキーアイテムとして登場する可能性が高い。コルセスカとの関係性が明かされるトリガーになりうる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ラクルラールの正体
+  note: ディスペータが「未完成の女神。あれは私が必ず否定します」と言及した存在。アキラにとって最大の脅威、敵、味方全てを内包する曖昧な存在として残されている。
+  quotes:
+  - quote: 第五階層に害をなす全てから、私はあなたを守ってみせる――ラクルラール、未完成の女神。あれは私が必ず否定します
+    paragraph: p230
+    quote_verified: true
+  - quote: 最大の脅威、最大の敵、最大の味方――全ては曖昧なまま、『今はまだ』とばかりに結論を先送りにされていく。
+    paragraph: p235
+    quote_verified: true
+  expected_payoff: 物語終盤における「女神たちのゲーム」の勝敗を決定づける存在、またはアキラ自身の対極にある存在として登場する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第八階層の『緑』の目覚め
+  note: セロナが「各階層の『緑』が本格的に目覚め始めます」と予言した事象。ティルブ＝ユグドラシル再生への動きと第五階層への波及効果が不明。
+  quotes:
+  - quote: 今回の異変で第五階層だけではなく、各階層の『緑』が本格的に目覚め始めます。第八世界槍ティルブ＝ユグドラシルの再生を目指して、ね
+    paragraph: p56
+    quote_verified: true
+  expected_payoff: 第五階層での環境破壊・生態系の変異、またはティリビナ人の抵抗運動の高まりとして描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ディスペータの左腕としての制約
+  note: アキラが実体世界から離れた場合、「第五階層の『左』」から巨大な左腕が出現する、または全住人の左腕に現れるというリスクが語られている。この制約がどう発動するか、または回避されるかが今後の展開に影響する。
+  quotes:
+  - quote: そして更なる問題は、俺が器に宿らず概念的存在として実体世界から離れた場合、第五階層の『左』と認識された方位から巨大な『左腕』が出現するという最悪のケースがあり得ることだ。
+    paragraph: p99
+    quote_verified: true
+  expected_payoff: アキラが何らかの形で実体から離脱するイベント（死、転生、概念化）が発生した際に、ディスペータの権能が暴走する引き金になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 経済的信用と呪術的権威の交換可能性（債務奴隷制の現代版）
+  weight: 0.8
+  quotes:
+  - quote: この世界において『呪的権威』『個人の信用』『存在の強度』『承認』『名声』などの形の無いものは交換可能な呪的価値だ。
+    paragraph: p113
+    quote_verified: true
+  - quote: 絶対遵守の呪力が働く以上、俺たちはもはや成功するしかない。
+    paragraph: p141
+    quote_verified: true
+  note: ディスペータが「信用」を扱い、「絶対遵守」で強制的な繁栄（成功）を約束させる構造は、現代の金融資本主義における「成長への強制」と「債務による支配」のメタファーである。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 拡張身体としての家族と権力の暴走
+  weight: 0.9
+  quotes:
+  - quote: 親が子供を拡張身体として扱い、自分の理想を代行させるための道具として扱う傲慢、家族として振るわれる権力を間違っていると糾弾した。
+    paragraph: p189
+    quote_verified: true
+  - quote: 俺の手足である第五階層の住人には何をしてもいいという思想がそれだ。
+    paragraph: p190
+    quote_verified: true
+  note: アキラとディスペータ、そして第五階層の関係性を「拡張身体」として定義し、それがルウテト的な権力の暴走（植民地支配・全体主義）と同じ構造を持つことを自覚する過程。自己の他者への影響に対する倫理的葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 苦痛と愛の不可分性（カインの罪悪感）
+  weight: 0.7
+  quotes:
+  - quote: 俺が罪に怯え、悩み、苦しみ――カインを殺したその瞬間、罪悪感を誤魔化す罪悪感に耐えきれず『E-E』を遮断した弱さを肯定している。
+    paragraph: p201
+    quote_verified: true
+  - quote: 痛みと苦しみ、その反射こそが美しい。世界への反射こそが心の輪郭を形作るのだと、そう信じていただけ。
+    paragraph: p211-p212
+    quote_verified: true
+  note: ディスペータの愛は、アキラに苦痛を与え、その苦痛を通じてアキラの自我（心の輪郭）を形成することに存在意義を見出している。これは聖書のカインとアベルのメタファーを用いた、加虐的な愛と自己確認の主題である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 植民地的支配と「侵略者」への自覚
+  weight: 0.6
+  quotes:
+  - quote: 言うまでも無く、彼らが解放を求めている『侵略者』とは俺たちを含めた全ての勢力のことだ。新しく到来した『春』が誰のものなのか――俺たちはその答えから目を逸らすことができない。
+    paragraph: p61
+    quote_verified: true
+  note: 第五階層における「復興」や「繁栄」が、元来の住人（ティリビナ人）にとっては侵略と支配の強化であることを自覚する場面。主人公側の正義が他者にとっての暴力であるという相対主義的倫理。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

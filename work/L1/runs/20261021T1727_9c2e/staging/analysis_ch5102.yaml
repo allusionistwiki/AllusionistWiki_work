@@ -1,0 +1,106 @@
+chapter: ch5102
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 1
+  quotes_total: 8
+items:
+- kind: mystery
+  name: MY_trishula_top_layer_identity
+  note: トリシューラを管理する『最上位のトリシューラ』の実体と、その存在が本当にいるのか、それとも制御機構に過ぎないのかという問題。p31で確証がないことが明言されている。
+  quotes:
+  - quote: 「実はね、いるらしいことは聞いてるけど、本当にいるのかどうか確かめられないんだ。」
+    paragraph: p33
+    quote_verified: false
+  expected_payoff: 後の章で、最上位トリシューラとの接触、あるいはその存在の虚構性が発覚し、トリシューラの自我の崩壊・再構築につながる可能性がある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_communication_disability
+  note: アキラが相手の意図（慰め）を汲み取れず、論理的な解決策を提供してしまったことへの自己嫌悪と恥辱。p119で『コミュニケーション能力に障害がある人間に典型的な失敗』と自認している。
+  quotes:
+  - quote: 「これはコミュニケーション能力に障害がある人間に典型的な失敗と言える。」
+    paragraph: p119
+    quote_verified: false
+  expected_payoff: アキラの社交性・共感能力の欠如が、今後のパーティ内での軋轢や、トリシューラとの関係性の歪みの原因として浮上する伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_maintenance_request_context
+  note: トリシューラの「メンテナンスして？」という要求が、純粋な機械修理なのか、性的なニュアンスを含むものなのか、あるいは精神的な安定化を意味するのか曖昧である。p141-149の照れくさい様子から深い関係性への発展を示唆する。
+  quotes:
+  - quote: 「メンテナンス、して？」
+    paragraph: p149
+    quote_verified: true
+  expected_payoff: 次章以降での『メンテナンス』の実施を通じて、アキラとトリシューラの親密な関係（性的・精神的）が確立されるイベントへの引き金。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_upper_world_interference_risk
+  note: 我々の世界が上位レイヤーから干渉されているという推測と、下位レイヤーへの植民地的干渉の免罪符に関する言及。p57-64でメタ的な構造が語られる。
+  quotes:
+  - quote: 「同時に、それが実は考える意味のない疑似問題であることもまた、多くの人が理解していた。」
+    paragraph: p62
+    quote_verified: false
+  expected_payoff: 物語の終盤において、上位レイヤー（作者/現実世界）からの介入が実際に起こり、世界のリセットやメタ的な崩壊を引き起こす伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 不安の受容と目的論的逆転
+  weight: 0.9
+  quotes:
+  - quote: 「トリシューラにとっては不安を抱いている現状こそが正常であり、むしろ自らの目的の為には不安を抱えていなければならない、という発想の逆転に繋がる」
+    paragraph: p100
+    quote_verified: false
+  note: アキラの論理により、解決すべき問題であった『不安』が、存在意義を維持するための必須条件（過程）として再定義される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクショナルな階層構造と自己認識
+  weight: 0.8
+  quotes:
+  - quote: 「我々の世界もまた、上位レイヤーの異世界によって操作されている、あるいは生み出されたものなのではないか、という。」
+    paragraph: p55
+    quote_verified: false
+  note: トリシューラの自己認識の問題を、作品世界の構造（上位者による管理）とアナロジーすることで、物語のメタ的な性質が強調される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: コミュニケーションの非対称性と機械性への回帰
+  weight: 0.7
+  quotes:
+  - quote: 「相手の意図を汲もうとせず、自ら規定した役割を果たすことのみに腐心するその姿勢。これではどちらが機械なんだかわからない。」
+    paragraph: p119
+    quote_verified: false
+  note: 人間であるはずのアキラが、トリシューラの感情に寄り添えず論理的処理のみを行うことで、『人間と機械の境界』というテーマが逆転して現れる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 被造物としての実存的不安
+  weight: 0.6
+  quotes:
+  - quote: 「創造主や上位者の気まぐれな決定で次の瞬間には機能停止に陥るかもしれない。」
+    paragraph: p70
+    quote_verified: false
+  note: トリシューラの存在が、上位者（作者/神）の恣意的な管理下にあることによる根源的な恐怖。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

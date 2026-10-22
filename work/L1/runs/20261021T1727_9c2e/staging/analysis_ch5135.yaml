@@ -1,0 +1,211 @@
+chapter: ch5135
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5135_五大コントロールパネル分類_p30]]'
+  object: '[[ME_Game_Tutorial_Classification]]'
+  claim: マテリアリストによる火・水・地・風・槍の五大分類は、ゲームチュートリアルにおける要素属性（Element）の単純化されたUI表示をパロディ化している。
+  quote: 「実用面にだけ着目したひどくつまらない分類。マテリアリストの杖使い達が呪文の上っ面だけ再現しようとしてでっち上げた代物」
+  paragraph: p30
+  confidence: strong
+  quotes:
+  - quote: 「実用面にだけ着目したひどくつまらない分類。マテリアリストの杖使い達が呪文の上っ面だけ再現しようとしてでっち上げた代物」
+    paragraph: p30
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5135_氷炎術・ビーンズ式_p38]]'
+  object: '[[ME_Macro_Automation]]'
+  claim: 「超実用的な即戦力系」の呪術（氷炎術、ビーンズ式）は、マクロ機能やオートプレイなど、本質的な理解を省いた自動化された操作を指している。
+  quote: 「氷炎術とかビーンズ式詠唱短縮術なんて化石もいい所」
+  paragraph: p40
+  confidence: moderate
+  quotes:
+  - quote: 「氷炎術とかビーンズ式詠唱短縮術なんて化石もいい所」
+    paragraph: p40
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5135_心話_functions_as_認識共有_p18]]'
+  object: '[[ME_Social_Media_Viral_Trend]]'
+  claim: 「心話」によるイメージの共有が敵の存在強度を増大させる現象は、SNSでのバイラルな情報拡散が事実や対象の社会的権威を構築・強化する仕組みに似ている。
+  quote: それらを全員が共有したことによって、あの魔将の存在強度は飛躍的に上昇してしまった。
+  paragraph: p18
+  confidence: moderate
+  quotes:
+  - quote: それらを全員が共有したことによって、あの魔将の存在強度は飛躍的に上昇してしまった。
+    paragraph: p18
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5135_ハルベルト_other_近代呪術の定義_p22]]'
+  object: '[[ME_Post_Modern_Narrative]]'
+  claim: 近代以降の宣名が「名前を探り合う」から「自己認識を押し付ける世界観のぶつけ合い」へ移行したという記述は、物語構造における絶対的真理の崩壊と主観的ナラティブの衝突を象徴している。
+  quote: 相手の名前を探り合う近代以前の呪殺合戦とは違う、名前と自己認識を押し付けることによる世界観のぶつけ合い
+  paragraph: p22
+  confidence: strong
+  quotes:
+  - quote: 相手の名前を探り合う近代以前の呪殺合戦とは違う、名前と自己認識を押し付けることによる世界観のぶつけ合い
+    paragraph: p22
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5135_アズーリア_other_猫に名付けられた子供_p54]]'
+  object: '[[ME_Transmigrator_Name_Meaning]]'
+  claim: 「異世界の未知なる名前を召喚された」という設定は、転生者が元の言語文化圏から切り離された「記号としての名前」を所有する状況（意味の喪失）を指している。
+  quote: 故郷の風習で異世界の未知なる名前を召喚された【猫に名付けられた子供】であることを説明した。
+  paragraph: p54
+  confidence: explicit
+  quotes:
+  - quote: 故郷の風習で異世界の未知なる名前を召喚された【猫に名付けられた子供】であることを説明した。
+    paragraph: p54
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5135_ハルベルト_other_専門分野での流暢さ_p24]]'
+  object: '[[ME_Intellectual_Hyperfocus]]'
+  claim: 普段は寡黙だが専門分野で流暢になるという性格描写は、現実の技術者や学者における「知識の共有」と「社会的コミュニケーション」の非対称性を模倣している。
+  quote: ハルベルトは普段は口数少ないのに自分の専門分野になると流暢にしゃべりだす人のようだった。
+  paragraph: p24
+  confidence: weak
+  quotes:
+  - quote: ハルベルトは普段は口数少ないのに自分の専門分野になると流暢にしゃべりだす人のようだった。
+    paragraph: p24
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Name_Meaning
+  note: アズーリアが自分の名前の意味を知らないことが宣名の不可の原因であり、今後の成長（自己認識の確立）の鍵となる。
+  quotes:
+  - quote: 「私、自分の名前の意味を知らなくて」
+    paragraph: p52
+    quote_verified: true
+  - quote: 名前を掌握されにくく、しかし宣名ができないという特質。
+    paragraph: p55
+    quote_verified: true
+  expected_payoff: アズーリアが「アズーリアでないもの」を知る過程で、自身のアイデンティティ（名前＝存在の本質）を定義し、強力な宣名能力を獲得する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Esfeil_Darkness_Legacy
+  note: 第五階層でのエスフェイルの宣名（闇の増大）と心話による共有が、アズーリアに「宣名の恐怖」と「経験」を与えている。
+  quotes:
+  - quote: 思い出す。第五階層の戦いでエスフェイルが名乗った瞬間、狼の足下に広がる闇がその呪力を増大させたことを。
+    paragraph: p17
+    quote_verified: true
+  expected_payoff: アズーリアが敵（ナトや異獣憑き）に対して宣名を用いる際、エスフェイルの事例を教訓として「自己認識の強固さ」で対抗する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Knowledge_From_Surroundings
+  note: ハルベルトが「アズーリアでないもの」を知ることが自分の輪郭を掌握する鍵だと説いた。この哲学的アプローチが具体的な戦闘能力（呪術の習得）にどう変換されるか。
+  quotes:
+  - quote: 「あなたという輪郭はそうすることでようやく掌握できる」
+    paragraph: p68
+    quote_verified: false
+  expected_payoff: 仲間（ミルーニャ、メイファーラ）との交流や対比を通じて、アズーリア固有の属性（おそらく「言語」や「記号」に関する特異性）が明確化され、新たな呪術体系を開拓する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Nato_Pride_Trap
+  note: ナトのプライドを利用した罠（仲間を呼び出すための餌）が仕掛けられた。この心理戦がナト側の戦略にどう影響するか。
+  quotes:
+  - quote: アズーリアにあんな事を言った手前、必ず来る
+    paragraph: p85
+    quote_verified: true
+  expected_payoff: ナトの仲間が到着した際の戦闘で、ナト本人が「プライド」ゆえに冷静さを欠き、ハルベルトの心理読みが的中する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 名前は記号ではなく自己認識の鏡であり、その意味を自覚しない者は力を行使できない（言語魔術の本質）
+  weight: 0.9
+  quotes:
+  - quote: 「宣名とは喩えるなら諸刃のナイフを鞘から解き放つようなもの」
+    paragraph: p5
+    quote_verified: true
+  - quote: 名前を掌握されにくく、しかし宣名ができないという特質。
+    paragraph: p55
+    quote_verified: true
+  note: 単なる呪文詠唱ではなく、「自己認識」と「他者への宣言」の結合が力の源泉であるというメタフィクショナルなテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 近代社会における権威は、事実の探索（名前探し）から主観的な世界観の衝突（宣名）へと移行した
+  weight: 0.7
+  quotes:
+  - quote: これは、言語魔術が唯一絶対の神秘であった時代から、邪視を頂点とする四大呪術系統のひとつでしかない呪文にまで零落した現代への移り変わりを象徴する出来事
+    paragraph: p22
+    quote_verified: true
+  note: 「名前（本質）の探索」から「認識の押し付け」への変遷は、客観的真理の終焉とポストモダン的な権力闘争を暗示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己定義は対立物（他者）との関係性によってのみ成立する（構造主義的主体論）
+  weight: 0.8
+  quotes:
+  - quote: 「アズーリアでないもの」を知ることが、あなたをアズーリア足らしめているものを捉えるための手がかりとなる
+    paragraph: p68
+    quote_verified: false
+  note: 孤立した主体の存在を否定し、関係性（ミルーニャやメイファーラとの対比）の中で初めて輪郭が現れるという主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 実用主義（マテリアリスト）と観念論（イデアリスト）の分類体系は、それぞれ呪術の本質を欠いた「化石」である
+  weight: 0.6
+  quotes:
+  - quote: 「実用面にだけ着目したひどくつまらない分類。マテリアリストの杖使い達が呪文の上っ面だけ再現しようとしてでっち上げた代物」
+    paragraph: p30
+    quote_verified: false
+  - quote: 「いかにもイデアリストの邪視者たちが言いそうな観念的で曖昧な分類」
+    paragraph: p36
+    quote_verified: false
+  note: 既存のゲーム的・学問的な分類（属性、色号）がすべて否定され、真の呪術はそれらを超越した「宣名＝自己認識」にあると主張する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

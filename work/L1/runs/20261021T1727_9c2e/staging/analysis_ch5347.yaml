@@ -1,0 +1,295 @@
+chapter: ch5347
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 8
+  mysteries: 5
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p2-p6]]'
+  object: '[[ME_real_world_sports_cheerleading]]'
+  claim: 異世界の競技イベントが、現代のスポーツにおけるチアリーディング応援という商業的・観客参加型エンタメとして構造化されている。
+  quote: '男女混合のチアリーディングだ。
+
+    最初にラフディ側、続いてガロアンディアン側のチアリーディングチームが応援を行うが'
+  paragraph: p3-p4
+  confidence: explicit
+  quotes:
+  - quote: '男女混合のチアリーディングだ。
+
+      最初にラフディ側、続いてガロアンディアン側のチアリーディングチームが応援を行うが'
+    paragraph: p3-p4
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p16-p25]]'
+  object: '[[ME_game_cheat_character_usage]]'
+  claim: 小さな身体能力を持つキャラクター（レオ）が、環境適応によって巨大な敵対要素の補佐役として機能し、ゲーム的な「適材適所」の最適化を現実に適用している。
+  quote: 膂力に優れ安定感のあるティリビナの民が土台となり、体重が軽く猫のようなしなやかさを併せ持つレオが上で躍動するというのは適材適所なのかもしれない。
+  paragraph: p21
+  confidence: moderate
+  quotes:
+  - quote: 膂力に優れ安定感のあるティリビナの民が土台となり、体重が軽く猫のようなしなやかさを併せ持つレオが上で躍動するというのは適材適所なのかもしれない。
+    paragraph: p21
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p36-p48]]'
+  object: '[[ME_ritual_sacrifice_and_feast]]'
+  claim: スポーツのハーフタイムが、生肉を共に食べるという宗教的・儀礼的な供犠（サクリファイス）の場として機能し、暴力の共有を通じて対立を緩和する装置となっている。
+  quote: これは血を補給するためでもあり、球神への感謝を捧げて血と罪悪に塗れた闘争に許しを請う為に必要な行為でもあるのだ。
+  paragraph: p46
+  confidence: strong
+  quotes:
+  - quote: これは血を補給するためでもあり、球神への感謝を捧げて血と罪悪に塗れた闘争に許しを請う為に必要な行為でもあるのだ。
+    paragraph: p46
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p51-p53]]'
+  object: '[[ME_sports_as_war_substitute]]'
+  claim: 国対国の戦争を娯楽（スポーツ）として消費することで、暴力への感覚を順応させ、現実の政治的緊張をエンターテインメントへ転換する社会構造を描写している。
+  quote: '実質的に戦争の代替行為であっても、これは楽しいイベントであるという認識は人間の世界観を書き換えることができる。
+
+    血の流れる戦いすら娯楽に変えてしまえるのが人というもの。'
+  paragraph: p53-p55
+  confidence: explicit
+  quotes:
+  - quote: '実質的に戦争の代替行為であっても、これは楽しいイベントであるという認識は人間の世界観を書き換えることができる。
+
+      血の流れる戦いすら娯楽に変えてしまえるのが人というもの。'
+    paragraph: p53-p55
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p70-p79]]'
+  object: '[[ME_divine_possession_in_sports]]'
+  claim: ボール保持者が「球神の遣わした天使」として描かれ、スポーツ選手が宗教的な英雄視・神格化の対象となる現象（レジェンド信仰）を指している。
+  quote: 'ルバーブは、さながら荒ぶる球神が遣わした戦いの天使。
+
+    大地の民たちはその姿を見て彼こそは英雄であると歓喜し熱狂するのだった。'
+  paragraph: p79
+  confidence: strong
+  quotes:
+  - quote: 'ルバーブは、さながら荒ぶる球神が遣わした戦いの天使。
+
+      大地の民たちはその姿を見て彼こそは英雄であると歓喜し熱狂するのだった。'
+    paragraph: p79
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p98-p106]]'
+  object: '[[ME_real_time_strategy_simulation]]'
+  claim: 「弾道予報」による物理シミュレーションとリアルタイム操作は、現代のFPSゲームやAR支援システムにおけるエイムアシスト・戦況解析UIを思わせる。
+  quote: '【弾道予報】が『俺たち』の視界に弾道予測線を表示していく。
+
+    俺はその付近へと走り込んでいく。'
+  paragraph: p98-p99
+  confidence: moderate
+  quotes:
+  - quote: '【弾道予報】が『俺たち』の視界に弾道予測線を表示していく。
+
+      俺はその付近へと走り込んでいく。'
+    paragraph: p98-p99
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_p152-p179]]'
+  object: '[[ME_martial_arts_in_competitive_games]]'
+  claim: スポーツルール下での格闘（武芸）への回帰と、その結果としての反則・退場は、ゲームの「勝ち」が純粋な実力ではなく戦略的な損得勘定（ファウル利用）で決定されることを示唆する。
+  quote: '相手を打ち倒す為の槍術、棒術として力と技を競い合う武芸の世界がフィールドを染め上げていく。
+
+    反則（ファウル）を告げる角笛が鳴らされた。'
+  paragraph: p152-p175
+  confidence: strong
+  quotes:
+  - quote: '相手を打ち倒す為の槍術、棒術として力と技を競い合う武芸の世界がフィールドを染め上げていく。
+
+      反則（ファウル）を告げる角笛が鳴らされた。'
+    paragraph: p152-p175
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p184-p193]]'
+  object: '[[ME_match_fixing_scandal]]'
+  claim: 不自然な点差（11点差）に対する観客の「八百長」「買収」への疑念は、現代のプロスポーツにおける興行の作為性や賭博スキャンダルを連想させる。
+  quote: 「これってさ」「賭博でしょ？」「日本語でなんていったっけ」「八百長じゃねえの？」「買収ってこと？」
+  paragraph: p192
+  confidence: explicit
+  quotes:
+  - quote: 「これってさ」「賭博でしょ？」「日本語でなんていったっけ」「八百長じゃねえの？」「買収ってこと？」
+    paragraph: p192
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_point_diff_11_significance
+  note: なぜ観客は「11点差」という具体的数値に対して歓喜・怒号を発し、それが暴力の引き金となったのか。その数値に紐づく隠された意味（賭博条件、儀礼的規定など）が未回収。
+  quotes:
+  - quote: '会場のどこかで、誰かが『十一点差であること』を喜んだ。
+
+      同じように、この特に意味が無いように思える点差に対して歓喜の声と、悔しがるような声が上がる。'
+    paragraph: p188-p190
+    quote_verified: true
+  expected_payoff: 次章以降で、11という数字が持つ政治的・宗教的意味（例：特定の教義、賭博のオッズ、トリシューラの計画の一部）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_cyber_karate_data_collection
+  note: 主人公が「前半のデータと過去の試合映像」を解析し終えたと述べている。このデータ収集行為は、戦闘システム（サイバーカラテ）の高度な活用を示唆し、今後の戦略展開やシステム限界に関する伏線となりうる。
+  quotes:
+  - quote: 「前半のデータと過去の試合映像の数々から解析はほぼ完了した。あとは『勘』で微調整すれば――」
+    paragraph: p110
+    quote_verified: true
+  expected_payoff: 解析データに基づいた完璧な勝利、あるいはデータの限界（人間の勘との乖離）による悲劇的な結末のどちらかを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trishula_scenario_failure
+  note: トリシューラが想定していた「平和的解決」「予定調和」が崩壊し、観客が暴徒化した。このシナリオの失敗が誰の介入（あるいは計算不足）によるものか。
+  quotes:
+  - quote: 'トリシューラは試合に勝った場合と負けた場合の両方を想定して『ガロアンディアンが最終的に勝利するシナリオ』を組み立てていた。
+
+      だが、この展開は全くの予想外だった。'
+    paragraph: p204-p205
+    quote_verified: true
+  expected_payoff: トリシューラの計画の欠陥が暴かれ、彼女自身への信頼の揺らぎや、彼女を裏切る何者かの登場（レオ？ ルバーブ？）につながる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_leo_and_ribina_relationship
+  note: レオがティリビナの民と事前に交流・練習していた事実。この異種族間連携が、今後の物語における外交的・軍事的な重要な資産となる可能性。
+  quotes:
+  - quote: レオ様はしばらく前から交流の一環として彼らとチアリーディングを練習していた。
+    paragraph: p14
+    quote_verified: true
+  expected_payoff: ティリビナの民の特殊能力（身体能力、森での戦い方）が、レオを通じて主人公側に利用可能になる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ball_god_ritual_nature
+  note: 球神への生贄（団子虫・肉の共食）が「血と罪悪に塗れた闘争に許しを請う」行為であるという記述。この儀礼の本質（戦争の予兆、呪いの封印など）が物語の根幹に関わる。
+  quotes:
+  - quote: 球神への感謝を捧げて血と罪悪に塗れた闘争に許しを請う為に必要な行為でもあるのだ。
+    paragraph: p46
+    quote_verified: true
+  expected_payoff: 儀礼が失敗した場合（観客の暴動など）に、球神の加護が失われ、実際の戦争が始まるトリガーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 娯楽は暴力を抑制するのではなく、暴力の形態を変質させ、集団心理を極端な方向へ駆動させる触媒である。
+  weight: 0.9
+  quotes:
+  - quote: '楽しい試合観戦というイベントによって一体となっていた雰囲気が、真っ二つに引き裂かれていく。
+
+      膨れあがる疑惑、猜疑、敵意、そして――
+
+      どちらが先だったか、など論ずるのは馬鹿馬鹿しい。'
+    paragraph: p198-p201
+    quote_verified: false
+  note: 試合の終了と同時に観客が暴徒化し、「娯楽」が一瞬で「暴力装置」へ転換する描写から、エンターテインメントの脆弱性と危険性を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 勝利とは実力の証明ではなく、ルールと状況を利用した計算（ファウル、データ解析）の結果である。
+  weight: 0.8
+  quotes:
+  - quote: '反則（ファウル）を告げる角笛が鳴らされた。
+
+      凄まじい一撃に俺は吹き飛ばされ、同時にルバーブが一発退場を申し渡される。'
+    paragraph: p175-p178
+    quote_verified: false
+  - quote: '【サイバーカラテ道場】はその真価を発揮できる。
+
+      失敗と苦境はより効率的な成果を生み出すための材料でしかない。'
+    paragraph: p112-p113
+    quote_verified: true
+  note: ルバーブの圧倒的実力に対し、主人公側が「データ解析」と「ファウル誘発」という非対称な手段（知略・ルール活用）で勝利を収める構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異文化間のコミュニケーション（チアリーディング、食事の共有）は、表面的な調和を生むが、根本的な対立を解消するほど強固ではない。
+  weight: 0.6
+  quotes:
+  - quote: 'レオが着ている黒と白のユニフォームが激しい動きと共に揺れ動く。
+
+      ティリビナの民たちと連携した動きは一糸乱れぬ見事なものだ。'
+    paragraph: p18-p22
+    quote_verified: false
+  - quote: '当然のように加熱調理をしていないのだが、正気か。
+
+      皆、微妙な顔になりながらもなんとか完食できた様子だ。'
+    paragraph: p43-p48
+    quote_verified: false
+  note: レオによる異種族との連携や、生肉の共食という強引な文化交流が、最終的な暴動を止める決定打にはならなかった事実。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「予定調和」は崩壊し、物語（ゲーム）は制御不能なカオスへ移行する。
+  weight: 0.7
+  quotes:
+  - quote: 'トリシューラは試合に勝った場合と負けた場合の両方を想定して『ガロアンディアンが最終的に勝利するシナリオ』を組み立てていた。
+
+      だが、この展開は全くの予想外だった。'
+    paragraph: p204-p205
+    quote_verified: true
+  - quote: '予定調和の結末。
+
+      平和的な解決など到底望めるはずもなく、愉快なエンターテインメントとしての球技大会は完全に破綻した。'
+    paragraph: p209-p210
+    quote_verified: true
+  note: シナリオ設計者（トリシューラ）の想定を超えた観客の暴動により、物語の支配権が「作者」から「群衆」へ移転するメタ構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

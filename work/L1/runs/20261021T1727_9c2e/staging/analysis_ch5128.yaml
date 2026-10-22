@@ -1,0 +1,242 @@
+chapter: ch5128
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 22
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: E_p3
+  object: ME_modern_gig_economy
+  claim: 迷宮入り口での飛び込み依頼は、現代のギグエコノミーにおけるスポットワーク（日雇い労働）の募集市場と構造的に一致する。
+  quote: 飛び込みの依頼、入り口募集とも言われているそれは、迷宮の入り口で盛んに行われている迷宮都市の名物だ。
+  paragraph: p3
+  confidence: moderate
+  quotes:
+  - quote: 飛び込みの依頼、入り口募集とも言われているそれは、迷宮の入り口で盛んに行われている迷宮都市の名物だ。
+    paragraph: p3
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: E_p5
+  object: ME_system_failure_dependency
+  claim: 探索者協会システムのダウンにより依頼探しが行き詰まる描写は、プラットフォーム依存の現代社会におけるシステム障害時の混乱を象徴する。
+  quote: 探索者協会での依頼探しはシステムのダウンでしばらくは無理とのことらしい。
+  paragraph: p5
+  confidence: strong
+  quotes:
+  - quote: 探索者協会での依頼探しはシステムのダウンでしばらくは無理とのことらしい。
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: E_p21
+  object: ME_nuclear_shelter_concept
+  claim: 世界槍が環境激変から人類を守るためのシェルター・移民船であるという設定は、冷戦期以降の核シェルターや世代間宇宙船の概念を想起させる。
+  quote: 環境の激変から人類を守るためのシェルター、あるいは移民船であるとも言われる。
+  paragraph: p21
+  confidence: moderate
+  quotes:
+  - quote: 環境の激変から人類を守るためのシェルター、あるいは移民船であるとも言われる。
+    paragraph: p21
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: E_p40
+  object: ME_mass_tourism_industry
+  claim: 危険な迷宮を観光地化し、ガイド付きでメディアが取材する様子は、現代のダークツーリズムやテーマパーク化された歴史的遺跡の商業利用と類似する。
+  quote: 旅行会社のガイドが拡声器を持って解説をしている。列を作っている観光客たちはパンフレットを見たり、端末を弄ったり、これから向かう場所への期待を膨らませて歓談したりと楽しんでいる様子だった。
+  paragraph: p40
+  confidence: strong
+  quotes:
+  - quote: 旅行会社のガイドが拡声器を持って解説をしている。列を作っている観光客たちはパンフレットを見たり、端末を弄ったり、これから向かう場所への期待を膨らませて歓談したりと楽しんでいる様子だった。
+    paragraph: p40
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: E_p61_E_p67
+  object: ME_sexual_harassment_denial
+  claim: 被害者側が加害者の接触を「感染」「変態」「野生動物」と極端に拒絶し、加害者を激怒させる展開は、現実の性暴力における被害者非難やハラスメントの力学を逆転させた風刺的構造を持つ。
+  quote: 「嫌っ、触らないでっ、手汗で腕が濡れるじゃないですか気持ち悪い！ 臭い、穢れる、男が感染するっ、変態！ 強姦魔！」
+  paragraph: p61
+  confidence: strong
+  quotes:
+  - quote: 「嫌っ、触らないでっ、手汗で腕が濡れるじゃないですか気持ち悪い！ 臭い、穢れる、男が感染するっ、変態！ 強姦魔！」
+    paragraph: p61
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: E_p148
+  object: ME_spyware_surveillance_state
+  claim: 修道騎士の皮膚そのものが特注呪動装甲であるという設定は、身体が監視装置や防衛システムと不可分となったディストピア的監視社会（スパイウェア）を連想させる。
+  quote: 俺の呪動装甲は特注品でなあ。わかるか？ 俺の皮膚そのものが鎧ってわけよ。
+  paragraph: p148
+  confidence: moderate
+  quotes:
+  - quote: 俺の呪動装甲は特注品でなあ。わかるか？ 俺の皮膚そのものが鎧ってわけよ。
+    paragraph: p148
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: E_p172
+  object: ME_authorship_copyright_ethics
+  claim: 魔将討伐の栄誉を一人が受け取ることへの罪悪感と「仲間殺し」への批判は、現代における成果物の著作権帰属問題や共同研究における貢献度の公正性に関する倫理的議論に呼応する。
+  quote: 反論にどこか力が無かったのは、シナモリ・アキラの事があるからだ。魔将討伐の栄誉を私一人が受け取ることは、この男が言うとおり間違っている。
+  paragraph: p172
+  confidence: strong
+  quotes:
+  - quote: 反論にどこか力が無かったのは、シナモリ・アキラの事があるからだ。魔将討伐の栄誉を私一人が受け取ることは、この男が言うとおり間違っている。
+    paragraph: p172
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_knight_order_corruption
+  note: 修道騎士が探索者として小銭稼ぎをしており、その能力（特注装甲）は裏切り者【きぐるみの魔女】によるもの。組織の倫理規定や技術移転の実態に関する伏線。
+  quotes:
+  - quote: 【きぐるみの魔女】はクソみてーな裏切り者だが、仕事だけは完璧だ。俺の全身は鉄よりも硬く、生半可な呪術は筋力次第でどうにかできる
+    paragraph: p148
+    quote_verified: true
+  - quote: 小銭稼ぎに探索者もやってっけどな。つーか探索者上がりなんだけどよ。第四階層帰りでしばらく休暇とってたとこだが、まさかこんな所で英雄様と会っちまうなんてなあ――笑えねえぜ
+    paragraph: p152
+    quote_verified: true
+  expected_payoff: 修道騎士団内部の腐敗、または禁止技術の黒市場流通に関する展開への回収が示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_halbert_identity_and_power
+  note: ハルベルトが「アズーリアを強くしてあげる」と宣言し、弟子/妹と称する。彼女の実力背景（言語魔術師）と今後の育成劇の中心人物としての伏線。
+  quotes:
+  - quote: 「ハルが、アズーリアを強くしてあげる」
+    paragraph: p199
+    quote_verified: true
+  - quote: 歌を斧槍に変える、私が知る中で最も可憐な言語魔術師。
+    paragraph: p192
+    quote_verified: true
+  expected_payoff: ハルベルトが主人公の師匠として登場し、強力な魔法指導者としての役割を果たす展開へ繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_hero_complex_and_shame
+  note: 主人公が「英雄」を演じようとする失敗と、過去の栄誉（シナモリ・アキラ関連）への罪悪感。これが今後の成長の原動力（強くなりたい欲求）となる伏線。
+  quotes:
+  - quote: 悔しい。恥ずかしい。消えてしまいたい。調子に乗って、それらしい『英雄』の形をなぞろうとして、無様に失敗して。脳裏に、美しい三人組の探索者たちの姿が浮かぶ。私は、鮮やかに誰かを助けることができる、本物の英雄とは違う。
+    paragraph: p175
+    quote_verified: true
+  - quote: こんなふうに惨めな思いをしたくない――もっと、強くなりたい。
+    paragraph: p177
+    quote_verified: true
+  expected_payoff: 主人公が偽りの英雄像を捨て、真の力（ハルベルトによる指導など）を追求する心理的転換点として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_world_spear_memory_leakage
+  note: 第一階層で過去の記憶が実体化しやすいという設定。主人公の「過去の自分」想起と換装が、この世界槍の特性（記憶の漏出）と関連している可能性を示唆する伏線。
+  quotes:
+  - quote: 掌握者の空間支配が不完全なこの第一階層の特徴は、その分だけ世界槍に閉じ込められた過去の記憶が表面に出てきやすいという点である。
+    paragraph: p18
+    quote_verified: true
+  - quote: 人混みの間をのそのそと通り抜けて、私は黒衣の下で過去の自分を想起して、換装を開始する。
+    paragraph: p75
+    quote_verified: true
+  expected_payoff: 主人公が世界槍内の「記憶」を利用した能力拡張や、過去との対決といったSF的展開の種火となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄像の虚構性と現実的な暴力による解体
+  weight: 0.9
+  quotes:
+  - quote: 「身の丈に合わない人助け――助けられなかったという後悔をしないための独り善がり。自尊心の塊。つまり、ただの馬鹿」
+    paragraph: p187
+    quote_verified: true
+  - quote: 「てめえ一人のふざけた功名心のせいで、普通に防衛やってりゃ良かった人員が無謀な攻略に挑んで死んだ。」
+    paragraph: p164
+    quote_verified: false
+  note: 主人公が演じようとした『英雄』という記号が、修道騎士による物理的暴力と倫理的糾弾によって剥き出しの自己（弱さ・罪悪感）として暴かれる過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 安全な社会の裏側にある構造的暴力と無関心
+  weight: 0.7
+  quotes:
+  - quote: 平和そのものといった光景。攻略済み迷宮なんてこんなものだけれど、あの第五階層での酸鼻を極める光景とはまるで繋がらないイメージが、私の現実感を狂わせそうになる。
+    paragraph: p42
+    quote_verified: true
+  - quote: この場には力自慢の探索者たちも大勢いるはずなのだが、彼らが少女に向ける視線は冷ややかだ。
+    paragraph: p71
+    quote_verified: true
+  note: 観光地化された平和な第一階層と、そこで起きている性暴力への群衆の無関心（傍観者効果）との対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者による救済と自己決定の受容
+  weight: 0.6
+  quotes:
+  - quote: 「喜んで。光栄に思っていい。あなたにはもう勝利しか許さない」
+    paragraph: p204
+    quote_verified: true
+  - quote: 私はいつの間にか、新たな師を得ていたのだった。
+    paragraph: p217
+    quote_verified: true
+  note: 主人公が自らの意思でなく（一方的な宣言により）救済・指導を受け入れることで、自己中心的な英雄欲求から解放される瞬間。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体と技術の不可分性による権力勾配
+  weight: 0.5
+  quotes:
+  - quote: 俺の皮膚そのものが鎧ってわけよ。【きぐるみの魔女】はクソみてーな裏切り者だが、仕事だけは完璧だ。
+    paragraph: p148
+    quote_verified: true
+  - quote: 脳まで筋繊維で出来ているのだろうか。恐らく、自らの身体能力への確信が呪力を生み出しているのだろうが、それにしても尋常な鍛え方ではない。
+    paragraph: p127
+    quote_verified: true
+  note: 修道騎士の「特注装甲」による圧倒的な力差と、主人公の技術（呪術）の無力さを通じて、身体への技術注入がもたらす階級的不平等を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

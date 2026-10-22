@@ -1,0 +1,130 @@
+chapter: ch5477
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_第五階層の異常な色彩と支配者
+  note: ユディーアが観測した「朱」に満ちた世界は、通常ありえない「下」の法則（特に『朱の天主』）の影響を示唆する。これはライラ・ラプスの介入によるものだが、その影響範囲と制御不能性が今後の展開で回収される可能性がある。
+  quotes:
+  - quote: この一帯は朱の彩域が強い。ずんぐりとした冷凍睡眠者の代行人格『眠り棺』が闊歩し、夢薬中毒者がそこら中に溢れている。
+    paragraph: p33
+    quote_verified: true
+  - quote: それなのに今のこの地は『朱』に満ちた夢の世界、まるで『下』の、それも『朱の天主』が支配する土地のような有様になっている。
+    paragraph: p92
+    quote_verified: true
+  expected_payoff: ライラ・ラプスの力が単なる戦闘力ではなく、現実改変（世界ルールの上書き）であることを示し、彼女を倒すための条件が物理的破壊ではないことを明かす伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ゴーリーの精神的疲弊と支配構造の変化
+  note: ウルムゾリムの証言により、かつての強硬派だったゴーリーがライラの「ご機嫌伺い」でやつれていることが明かされる。これはゴーリーが既に敵（ライラ）に吸収・支配されていることを示唆する。
+  quotes:
+  - quote: 誰にも媚びず、頭を下げなかった鉄の男が『下』の化け物どものご機嫌伺いでやつれていくのを見るのはもう沢山だ。
+    paragraph: p111
+    quote_verified: true
+  expected_payoff: ゴーリーとの交渉（協力）が可能になるのは、彼がライラへの屈従を「情けない」と感じているためであり、ユディーア側の介入によってゴーリーの支配権を取り戻すことで、ライラの支配構造を内側から崩すキーとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_『虹を描く』という作戦の真意
+  note: ユディーアはウルムゾリムに「安っぽい虹模様」を描くよう依頼する。「相手を馬鹿にして貶める」という目的が明示されているが、具体的に何に対しての罵倒（デバフ効果など）なのか、またそれがライラの能力とどう干渉するのか不明。
+  quotes:
+  - quote: 「安っぽい方がいいんだよ。相手を馬鹿にして貶める感じ」
+    paragraph: p124
+    quote_verified: true
+  expected_payoff: この虹が、ライラの支配する「夢の魔窟」に対する『現実（リアリティ）』や『俗物性』のアンチテーゼとして機能し、彼女の幻想的な支配力を剥奪するトリガーになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_銀髪の踊り子の正体とクラフト能力
+  note: ユディーアに親切にする銀髪の踊り子は、「創造（クラフト）」を軽々と使い、ユディーアの身長・年齢の近さから同年代であることが示唆される。第五階層において「下」の罪人や異能者が混在しているため、彼女も特殊な存在である可能性が高い。
+  quotes:
+  - quote: 長い銀髪を二つに括ったこの少女も、戦いに巻き込まれれば死にかねない。余計なことを考えるな。目を逸らすと少女の腰のリボンが蝶のように揺れ、淡く光る鱗粉を散らしているのが見えた。
+    paragraph: p151
+    quote_verified: true
+  expected_payoff: この少女はユディーアに対する味方（あるいは案内役）として機能し、最終決戦でライラへの対抗手段を提供する、またはユディーアの「第五階層での作法」を教えるメンター的な役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ウルムゾリムの『刺青彫り』としての役割の限界と拡張
+  note: ウルムゾリムは「出入りの刺青彫り」として邸宅に入るが、ユディーアは彼に「絵を描く人」として仕事（虹の描画）を依頼し対価を支払う。彼の職業的権限を超えた協力関係が成立しており、これが単なる潜入工作を超えた共闘を示唆する。
+  quotes:
+  - quote: 本職とは違うことをさせちゃって申し訳無いけど、『絵を描く人』としてのあなたにお仕事を依頼する以上、あたしはこうして対価を支払う。よろしくお願いします
+    paragraph: p117
+    quote_verified: true
+  expected_payoff: ウルムゾリムがゴーリー陣営（牢獄街）の内部工作としてユディーア側につくことで、敵陣内部からの崩壊（クーデター的展開）を促す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 権力構造の転換と支配者の虚構性
+  weight: 0.9
+  quotes:
+  - quote: 辺境区を支配する新興勢力のボス猿ども。『にっこりゴーリー』、『豚好きハデス』、『拳骨アサブ』、『緑天主ロードデンドロン』。
+    paragraph: p11
+    quote_verified: true
+  - quote: その名は『傘の魔女』ライラ・ラプス。彼女の目的は『ゴーリーズ』勢力の掌握。怪物ライラの圧倒的な力を前にギャングは抵抗虚しく屈従を強いられた。
+    paragraph: p109
+    quote_verified: true
+  note: 四大ギャングという既存の権力構造が、ライラ・ラプスという「外」からの侵入者によって容易に書き換えられている。ユディーアはこの変化した支配構造（特にゴーリーの屈従）を逆利用して潜入する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 銀貨による社会取引と自己の物化
+  weight: 0.7
+  quotes:
+  - quote: ユディーアは少し迷った。これは銀貨を使うまでもないかも知れない。『買収』ではなく正当な情報料や心付けで済むのならそれに越したことは無い。正直に言えば、ユディーアは銀貨を手放すのが怖かった。
+    paragraph: p68-p69
+    quote_verified: true
+  - quote: ユディーアがウルムゾリムに支払った銀貨が逆さ森の星明かりに照らされて妖しく光る。男は受け取った硬貨を大事そうに懐にしまいつつ、不可解そうに首を傾げた。
+    paragraph: p119-p120
+    quote_verified: true
+  note: ユディーアにとって銀貨は単なる通貨ではなく「命」や「チート能力」の代償である。ウルムゾリムがそれを「大事そうに懐にしまう」という描写は、第五階層における経済圏（情報と命の交換）の重さを象徴し、ユディーアの取引行為を倫理的な葛藤として描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体の変装と役割の受容（メタフィクション的潜入）
+  weight: 0.6
+  quotes:
+  - quote: 水着のような踊り子衣装のトップスと胸部の間に無視できない空隙が存在している。要するにサイズが合っていないのだが、ユディーアの理性は現実をどうしても受け入れることができなかった。
+    paragraph: p134
+    quote_verified: true
+  - quote: そういう時はね、小規模な『創造（クラフト）』で誤魔化せばいいの。簡単でしょ？
+    paragraph: p145
+    quote_verified: true
+  note: 「踊り子」という役割を演じるために必要な身体的修正（胸のサイズ）を、ゲーム的メカニクス（Craft）で即座に処理する描写は、物語世界への参加者（プレイヤー/主人公）がルールに従って自分を最適化していく過程をメタ的に示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「安っぽさ」による権威の解体
+  weight: 0.5
+  quotes:
+  - quote: 「安っぽい方がいいんだよ。相手を馬鹿にして貶める感じ」
+    paragraph: p124
+    quote_verified: true
+  note: ライラの支配する「朱の彩域」「夢の世界」は高度な幻想性・権威によって成り立っている。これに対しユディーアが仕掛けるのは「安っぽい虹（シール）」という凡庸で馬鹿げた記号であり、崇高な幻想を下品な現実で引きずり落とす戦略（アンチ・サブライム）を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

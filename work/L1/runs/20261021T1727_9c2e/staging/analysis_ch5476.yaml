@@ -1,0 +1,130 @@
+chapter: ch5476
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 9
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_アルティウスの正体と鱗
+  note: 仮面の裏に隠された白い鱗に対し、ユディーアが本能で遠い時代の神秘を感じ取った。これが単なる外見装飾か、真の「神の子」たる証左かの回収が待たれる。
+  quotes:
+  - quote: 顔に、肉に貼りついた不気味な白い鱗。ユディーアの血はあの巨大な鱗に遠い時代の神秘を感じていた。理性では無く本能の確信。身体の奥底に眠る何かがあの鱗を知っている。
+    paragraph: p291-p293
+    quote_verified: true
+  expected_payoff: アルティウスが「騙り」ではなく本物の亜竜王アルトの子孫（神の子）であることの確認、またはユディーア自身の血筋との対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_聖女の血の二重の意味
+  note: クナータの血が「救世主を生む子宮」であると同時に「始まりの獣を呼び起こす生贄」でもあるというユディーアの認識。この矛盾した機能の回収と、誰がどちらを利用しようとしているかの明かされる可能性。
+  quotes:
+  - quote: あの子は救世主を生む『子宮』であると同時に、始まりの獣を呼び起こす生贄でもあるんだから。
+    paragraph: p307
+    quote_verified: false
+  expected_payoff: 敵が聖女を利用する目的（獣の召喚）と味方が守る理由（救世主誕生）の衝突、およびその中間にある「秩序」の定義。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_四大ギャングと敵の関連性
+  note: 占術によって聖女の居場所が辺境区の四大ギャング（ゴーリーズ、十戒、ハルムシオンの風、ティリビナ同胞団）に絞り込まれた。各組織と「神の子」たちの具体的な関係性の解明。
+  quotes:
+  - quote: 可能性の枝は四つ。ああ、話が繋がりました。聖女様の居場所は『占い師狩り』を意欲的に行っている方々の拠点。『公社』に抵抗を続ける辺境区の四大ギャングたちですね。
+    paragraph: p219-p221
+    quote_verified: false
+  expected_payoff: 各ギャングのボスとアルティウスらの対面、または彼らが敵の駒であることの発覚。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ユディーアへの未知の呪い
+  note: ユディーアが「正体不明の呪いをかけられている」と自覚し、不死者や運命を封じ込めるための弱体化策だと推測している。その効果の発現と解除のプロセス。
+  quotes:
+  - quote: 今のところ異常は感じられないが、敵の呪詛に関して楽観は禁物だ。むしろ不死者や運命に守られた特権者を封じ込めるための、神話レベルの戦いに慣れた者が行う弱体化を狙った一手である可能性が高い。
+    paragraph: p333
+    quote_verified: true
+  expected_payoff: 戦闘中における能力制限（運命操作不可など）の顕在化と、それを克服するための手段の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ティリビナ同胞団の動向
+  note: ラズリが「ティリビナ人コミュニティとの関係悪化は回避すべき重要事項」と指摘し、自ら内情を探る役割を担った。エスメラルダも竜神信教の布教網を利用する。この組織の真意と敵への関与度。
+  quotes:
+  - quote: 最終的にどの勢力が黒幕として確定するにせよ、ティリビナ人コミュニティとの関係悪化は回避すべき重要事項だ。無策で突っ込むには情報不足、ここはラズリに頼るのもやむを得ないだろうとユディーアは判断した。
+    paragraph: p241
+    quote_verified: true
+  expected_payoff: ティリビナ同胞団が敵の「花のアヴロノ」を支援しているのか、対立しているのかの判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄は血筋（権威）によって定義されるという神話的決定論と、それに対する個人の意志の対立
+  weight: 0.9
+  quotes:
+  - quote: 血筋は権威を裏付け、権威は地位と功績に迫真性を与える。英雄たちの物語が勝利という栄光で終わるにせよ、非業の死や裏切りによる嘆きという悲惨で終わるにせよ、彼らが運命という大きな流れに関わることに異論を唱えられるものはいない。
+    paragraph: p300
+    quote_verified: true
+  - quote: 全て潰して、必ず未来を取り戻してやる。己を鼓舞しつつ、ユディーアは反撃のための一歩を踏み出した。
+    paragraph: p341-p342
+    quote_verified: true
+  note: 敵が「神の子」であることと、ユディーアがその運命的な重圧に対し個人的決意で立ち向かう構図。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者との連帯（甘え）を拒絶し、孤独な責任を引き受けることの苦痛と強さ
+  weight: 0.8
+  quotes:
+  - quote: 同時に『竜の巫女』なら多少は巻き込んでも平気だろうという自分の思考にうんざりする。ラズリの言葉は正しい。彼女たちなら、自分の悪運を受け入れて貰えるという甘えがあった。こういう思考は駄目だ。弱さを生む。
+    paragraph: p338-p339
+    quote_verified: true
+  - quote: たとえ何を利用しても構わない。裏切りの後ろめたさや罪悪感など捨てていけ。焦燥感は怒りに、怒りは戦意に変わっていく。今は前進が必要だ。
+    paragraph: p311-p312
+    quote_verified: true
+  note: ユディーアが仲間を頼ることへの葛藤（甘え）を断ち切り、自己完結した決意へと至る心理的変遷。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 占術（情報の不確実性）と戦闘（物理的解決）の境界線における認識論的緊張
+  weight: 0.7
+  quotes:
+  - quote: 複数の時間軸、確定していない可能性の道を同時に構築して『未来回想』に重ねている。...蓋を開けてみないとわからないし、『そこにいない可能性』をひとつひとつ確定させなくては辿り着けない仕掛けです。
+    paragraph: p211-p217
+    quote_verified: false
+  - quote: 可能性の枝は四つ。...目的地は決まった、あとは進むだけだ。
+    paragraph: p340-p331
+    quote_verified: false
+  note: 未来が「分岐」しているという認識を、いかにして単一の行動（前進）へと収束させるかという過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 神話的権威の解体と日常の侵食（メタフィクション的構造）
+  weight: 0.6
+  quotes:
+  - quote: ここでシリアスな本編からちょっと離れましてー！　楽しい気晴らし（ディヴェルティスマン）をご覧入れましょうー！
+    paragraph: p118
+    quote_verified: true
+  - quote: トロル王国の双頭政治って世界史で習ったけど、比喩じゃなかったんだ
+    paragraph: p263
+    quote_verified: true
+  note: エスメラルダによるメタ的な舞台転換要求や、ユディーアが「世界史」と呼ぶ知識体系との接続。物語の枠組みそのものの自覚と操作。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

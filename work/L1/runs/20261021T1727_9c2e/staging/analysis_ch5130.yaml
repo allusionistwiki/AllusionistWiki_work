@@ -1,0 +1,214 @@
+chapter: ch5130
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5130_ハルベルトの授業]]'
+  object: '[[ME_online_game_coaching]]'
+  claim: ハルベルトによるアズーリアへの実戦指導は、MMORPGにおける熟練者による初心者へのPT内コーチング（立ち回り・スキル回しの指摘）と構造的に一致する。
+  quote: 戦闘が終わり、私の立ち回りのまずさと改善点についてハルベルトに指摘されている所だったが、それもようやく終わりを迎えようとしていた。
+  paragraph: p5
+  confidence: strong
+  quotes:
+  - quote: 戦闘が終わり、私の立ち回りのまずさと改善点についてハルベルトに指摘されている所だったが、それもようやく終わりを迎えようとしていた。
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5130_ミルーニャの効果音再生]]'
+  object: '[[ME_mobile_game_sfx]]'
+  claim: 口頭で効果音を発し、反応が薄いと端末から音声を流すミルーニャの挙動は、スマホゲームのUI演出や効果音に対するメタ的なパロディである。
+  quote: 効果音を口で言ったぞこの子。周囲の微妙にしらけた空気を察したのか、わざわざ端末を取り出して効果音を再生し直すミルーニャ。
+  paragraph: p97
+  confidence: explicit
+  quotes:
+  - quote: 効果音を口で言ったぞこの子。周囲の微妙にしらけた空気を察したのか、わざわざ端末を取り出して効果音を再生し直すミルーニャ。
+    paragraph: p97
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5130_半神の霊的位階]]'
+  object: '[[ME_supernatural_hierarchy]]'
+  claim: 眷族種（天使の被造物）と半神（加護を与える側）の霊的格差は、キリスト教的神学やオカルト思想における超越的な存在と人間の間の絶対的な階層構造を参照している。
+  quote: 私達のような眷族種は高次元存在である天使たちに加護を与えられた被造物。しかし半神はむしろ加護を与える側の存在だ。見た目が私達と近くとも、そこには歴然とした霊的位階の隔たりがある。
+  paragraph: p25-27
+  confidence: strong
+  quotes:
+  - quote: 私達のような眷族種は高次元存在である天使たちに加護を与えられた被造物。しかし半神はむしろ加護を与える側の存在だ。見た目が私達と近くとも、そこには歴然とした霊的位階の隔たりがある。
+    paragraph: p25-27
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5130_ミルーニャの毒舌]]'
+  object: '[[ME_internet_troll]]'
+  claim: ミルーニャがメイファーラとハルベルトに対して放つ、的外れかつ攻撃的な皮肉は、インターネット上の匿名性を利用した荒らし（trolling）や煽りの文化に類似している。
+  quote: どっかのお気楽修道騎士や根暗言語魔術師とは大違いですぅ♪
+  paragraph: p77
+  confidence: moderate
+  quotes:
+  - quote: どっかのお気楽修道騎士や根暗言語魔術師とは大違いですぅ♪
+    paragraph: p77
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5130_ハルベルトの呪文封じ]]'
+  object: '[[ME_censorship_filter]]'
+  claim: ミルーニャの口を立体映像の罰印で物理的に封じるハルベルトの行為は、現代の検閲システムやSNSにおける不適切な発言への即時ブロック機能（シャドウバン/ミュート）のアナロジーである。
+  quote: 呪術の発動によって、ミルーニャの口に立体映像の罰印が張り付いてその声を封じたのだ。
+  paragraph: p131
+  confidence: strong
+  quotes:
+  - quote: 呪術の発動によって、ミルーニャの口に立体映像の罰印が張り付いてその声を封じたのだ。
+    paragraph: p131
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5130_ミルーニャの父]]'
+  object: '[[ME_industrial_revolution_merchant]]'
+  claim: 「必要な人に必要な呪具を」という父の言葉は、近代的な商業倫理やサプライチェーンマネジメント（需要と供給）の概念を、ファンタジー世界の職人世界に移植している。
+  quote: 『呪具というのは、それを必要としている人の手に渡ってはじめて意味を持つものだ』って父が口癖みたいに言ってまして。
+  paragraph: p107
+  confidence: moderate
+  quotes:
+  - quote: 『呪具というのは、それを必要としている人の手に渡ってはじめて意味を持つものだ』って父が口癖みたいに言ってまして。
+    paragraph: p107
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_halbert_origin
+  note: ハルベルトの素性は証明されているが、「目的」が不明確であり、師匠として招聘された真意に伏線がある。組織全体の呪術運用改善という名目が単なる建前である可能性を示唆する。
+  quotes:
+  - quote: それでも、その目的が今ひとつ判然としないのだ。本人の説明によれば、未熟な私を英雄に相応しい実力者に仕立て上げる――のみならず、組織全体の呪術運用方法を改善する目的で招聘されたのだと言うことらしいが、何かがひっかかる。
+    paragraph: p21
+    quote_verified: true
+  expected_payoff: ハルベルトの真の目的（英雄育成の裏側にある何か、または彼女自身の個人的な復讐・使命など）が明かされる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_milunya_dad_workshop
+  note: ミルーニャが父から譲り受けた「工房（アトリエ）」と、達成すべき「呪具作成の依頼」の内容。この依頼は単なる生活費稼ぎ以上の意味を持つ可能性を示唆する。
+  quotes:
+  - quote: どうしても達成しなくてはならない呪具作成の依頼がありまして。その為の素材集めをしているんです。
+    paragraph: p99
+    quote_verified: false
+  expected_payoff: ミルーニャが作る呪具が物語の重要アイテム（鍵、武器、または罠）として登場する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_azureia_halbert_tension
+  note: アズーリアがハルベルトに対して抱く「得体が知れない」「恐ろしい」という直感と、ラーゼフが何も知らなかったという事実。
+  quotes:
+  - quote: ラーゼフがハルベルトのことを何一つ知らなかったという事も気になる。とにかく、ハルベルトは要警戒な人物だ。初対面でいきなり不躾な真似をされたし、正直ちょっと信用できない。
+    paragraph: p37
+    quote_verified: true
+  expected_payoff: ハルベルトが敵対勢力のスパイである、または過去にラーゼフと因縁があるといった展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_world_spear_miracle
+  note: パレルノ山の空が「再生された古代世界の空」であること、世界槍の力の性質（邪視者との比較）に関する言及。
+  quotes:
+  - quote: 再生された古代世界の空は外界と変わらずに抜けるような蒼穹だった。
+    paragraph: p69
+    quote_verified: true
+  expected_payoff: この場所が「再現空間」であり、そこで得た情報や戦闘の記録が後々の世界改変イベントのヒントになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 師弟関係における権力勾配と監視
+  weight: 0.8
+  quotes:
+  - quote: ハルベルトは無言。いや、言外の「何この妙な生き物」みたいなニュアンスが感じ取れるような気もする。怖い。
+    paragraph: p42
+    quote_verified: true
+  - quote: 今はお姉様もしくはお師様と呼ぶこと
+    paragraph: p137
+    quote_verified: true
+  note: ハルベルトがアズーリアを「生徒」として扱い、ミルーニャを「封じる」ことでグループ内のヒエラルキー（序列）を明示し、恐怖と服従に基づく関係性を構築している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 生と死の経済的循環
+  weight: 0.7
+  quotes:
+  - quote: ミルーニャの手際よく仕留めた獲物たちの死骸から有用な部位を切り取っている。
+    paragraph: p46
+    quote_verified: false
+  - quote: 必要な人に必要な呪具（もの）を――その言葉に、私はなんだかひどく感じ入ってしまう。それは需要と供給という、商売人としては当たり前の理屈なのだろうけれど。
+    paragraph: p105-107
+    quote_verified: true
+  note: 戦闘で得た「死（異獣の骨）」が「生（ミルーニャの生活・アズーリアの装備）」へ転換されるプロセスを、商業的な「需要と供給」の理屈として描き、冒険の日常性（経済活動）を浮き彫りにする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 美しさと恐怖の不可分性
+  weight: 0.6
+  quotes:
+  - quote: 女神――比喩でもなんでもない、人ならざる美貌。見ているだけで体が竦む。
+    paragraph: p30-31
+    quote_verified: true
+  - quote: 聴いただけで身体の奧が震えだして破裂しそうな、輝くような音の連なり。
+    paragraph: p32
+    quote_verified: true
+  note: ハルベルトの「可憐な容貌」と「魔的な声」は、アズーリアに生理的な恐怖（身体的反応）を引き起こしており、美が単なる魅了ではなく、圧倒的な力（脅威）として機能していることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ノイズと沈黙の対比
+  weight: 0.5
+  quotes:
+  - quote: ミルーニャの毒舌は、相も変わらず切れ味抜群だった。
+    paragraph: p66
+    quote_verified: true
+  - quote: 沈黙はx、雄弁はy、兌換紙幣の論理回路、煌めく金めく銀なる詩吟
+    paragraph: p129
+    quote_verified: true
+  note: ミルーニャの過剰な言語（ノイズ）と、ハルベルトによる意味不明な呪文による強制沈黙（検閲）が対置され、コミュニケーションの制御というテーマを提示する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

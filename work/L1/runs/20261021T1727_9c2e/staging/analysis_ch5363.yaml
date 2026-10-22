@@ -1,0 +1,214 @@
+chapter: ch5363
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5363_p13]]'
+  object: '[[ME_pet_owner_bond]]'
+  claim: 六人の王が少女を「庇護」し「永遠に閉じ込める」行為は、ペット（特に犬や猫）に対する人間の「飼い主としての優越感」と「所有欲」、および「かわいいから守る」という現代的なアニマル・ウェルフェアの歪んだ鏡像である。
+  quote: よくがんばりましたね。えらいえらい。そう言って優しく包み込んでくれれば、それで十分だった。だから森は彼らに庇護を与え、永遠の中に閉じ込めた。
+  paragraph: p13
+  confidence: strong
+  quotes:
+  - quote: よくがんばりましたね。えらいえらい。そう言って優しく包み込んでくれれば、それで十分だった。だから森は彼らに庇護を与え、永遠の中に閉じ込めた。
+    paragraph: p13
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5363_p25]]'
+  object: '[[ME_childhood_marriage_declaration]]'
+  claim: 王たちが少女を妻にしようと宣言する心理は、幼児期の「お嫁さんごっこ」や「母性への回帰願望（エディプスコンプレックスの単純化）」のパロディであり、神々の権威を滑稽な子供じみた欲求に解体している。
+  quote: 『大きくなったらお母さんをお嫁さんにする』と宣言する男の子のように。
+  paragraph: p25
+  confidence: explicit
+  quotes:
+  - quote: 『大きくなったらお母さんをお嫁さんにする』と宣言する男の子のように。
+    paragraph: p25
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5363_p42]]'
+  object: '[[ME_social_media_distance]]'
+  claim: スキリシアにおける「友好関係によって物理的距離が縮まり、敵対则由に遠くなる」という法則は、SNSのフォロワー数や相互フォローによる「心理的距離の縮小」、およびブロックによる「見えない断絶」を空間化したメタファーである。
+  quote: 共同体間の距離は両者が友好的であれば近くなり、敵対的であれば遠くなる。
+  paragraph: p42
+  confidence: moderate
+  quotes:
+  - quote: 共同体間の距離は両者が友好的であれば近くなり、敵対的であれば遠くなる。
+    paragraph: p42
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5363_p127]]'
+  object: '[[ME_oscwotaku_culture]]'
+  claim: 「絶対美少女吸血姫神リールエルバ様教団」という名称と、信者が豚の鳴き声を真似て崇拝する光景は、現代のオタク文化における「キャラ萌え」信仰や、推しを神格化して下僕（ペット）として扱う消費形態の風刺である。
+  quote: その名を、『絶対美少女吸血姫神リールエルバ様教団』という。
+  paragraph: p127
+  confidence: strong
+  quotes:
+  - quote: その名を、『絶対美少女吸血姫神リールエルバ様教団』という。
+    paragraph: p127
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5363_p140]]'
+  object: '[[ME_mass_media_hysteria]]'
+  claim: 群衆が「支配」の呪力により四つん這いになり、恥を捨てて熱狂する様子は、現代の大衆心理における「全体主義的な熱狂」や「メディアによる同調圧力」、および「集団催眠」の構造と一致する。
+  quote: 成人男性が四つん這いで地に鼻を擦りつけ、恥など知らぬとばかりに豚の真似をしている。壮年の女性が涙を流しながら美しいものに祈りを捧げ、若い男女が繰り返し教祖にして崇拝する神の名を呼んでいる。
+  paragraph: p140
+  confidence: strong
+  quotes:
+  - quote: 成人男性が四つん這いで地に鼻を擦りつけ、恥など知らぬとばかりに豚の真似をしている。壮年の女性が涙を流しながら美しいものに祈りを捧げ、若い男女が繰り返し教祖にして崇拝する神の名を呼んでいる。
+    paragraph: p140
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5363_p204]]'
+  object: '[[ME_genetic_essentialism]]'
+  claim: カーティスが「完璧な模倣なら本物と同じ」と宣言し、血統の正しさよりも「似ていること（表象）」を重視する論理は、生物学的な家系・血統主義を、「模倣子（ミーム）によるコピー」へと反転させた哲学的逆説である。
+  quote: 夜の民とは摸倣者であり」「完璧な摸倣ならそれは本物と同じものだ」「君は確かに私の子孫だ」「そう見える」「だから子孫でいい」
+  paragraph: p204
+  confidence: strong
+  quotes:
+  - quote: 夜の民とは摸倣者であり」「完璧な摸倣ならそれは本物と同じものだ」「君は確かに私の子孫だ」「そう見える」「だから子孫でいい」
+    paragraph: p204
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Father_Missing_From_Dream
+  note: 六人の王が夢の中で「父親」の不在を自覚し、少女を待つ行為そのものが欠如を補うための行為である。この「父性の不在」というテーマが、カーティスとの邂逅でどう解決されるか（あるいは新たな問題を生むか）。
+  quotes:
+  - quote: 足りないのが、父親だということに。
+    paragraph: p22
+    quote_verified: true
+  expected_payoff: カーティスが少女にとっての「父（祖）」として機能することでこの欠如が埋まるのか、あるいはそれが別の歪みを生むのかの示唆。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Cult_Internal_Collapse
+  note: 聖マローズ教団が「唐突に内部崩壊」し、「内紛を始めて勝手に自壊」した理由が明かされていない。カーティスの干渉によるものなのか、教団側の事情なのか。
+  quotes:
+  - quote: 聖マローズ教団が唐突に内部崩壊し、内紛を始めて勝手に自壊し始めるまでは。
+    paragraph: p113
+    quote_verified: true
+  expected_payoff: 教団分裂の真の要因（カーティスの瘴気による感染、外部勢力の介入、教義の矛盾など）の露呈。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rilaelba_Bloodline_Nature
+  note: カーティスがリールエルバを見て「確かに違う」「実際は血を引いているだけではない」と呟きつつ、「似ているなら私」として子孫と認定する。リールエルバの実際の出自（人造人間、転生者、別系統など）とカーティスの許容の真意。
+  quotes:
+  - quote: 流石は私の血を引いているだけのことはある」「ああいや、実際は違うんだっけ？」
+    paragraph: p184
+    quote_verified: true
+  - quote: なるほど」「確かに違うようだ」
+    paragraph: p200
+    quote_verified: true
+  expected_payoff: リールエルバがカーティスの純血ではない事実と、それが物語の今後（継承権、戦争）にどう影響するかの展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Skiritia_Locality_Shift
+  note: ドラトリア系夜の民がエルネトモラン内に居住区を持ち、「エルネトモランを貫く世界槍の中であっても」影へ潜行できる設定。スキリシアの地理的安定性が崩れ、異界間の干渉が加速する伏線。
+  quotes:
+  - quote: エルネトモランを貫く世界槍の中であってもそれは同じ。
+    paragraph: p53
+    quote_verified: true
+  expected_payoff: スキリシアの地政学的な変動が、地上世界の戦争（アルセミット対ドラトリア）に直接介入する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「庇護」は支配者にとっての自己愛であり、被保護者はその鏡像として機能する
+  weight: 0.9
+  quotes:
+  - quote: よくがんばりましたね。えらいえらい。そう言って優しく包み込んでくれれば、それで十分だった。
+    paragraph: p13
+    quote_verified: true
+  - quote: 構って欲しくてわがままを言ったりいじわるしたり、とにかく少女を困らせる。
+    paragraph: p17
+    quote_verified: true
+  note: 六人の王が少女に求めるものは救済ではなく、自分たちの「良い子」扱いと承認である。これは植民地支配や保護者権力の倫理を逆照射する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 血統は生物学的実体ではなく、「模倣（表象）」によって成立する社会的虚構である
+  weight: 0.8
+  quotes:
+  - quote: 夜の民とは摸倣者であり」「完璧な摸倣ならそれは本物と同じものだ」
+    paragraph: p204
+    quote_verified: true
+  note: カーティスの論理は、血の純粋さよりも「コピーが元を騙す力（シミュラークル）」こそが権威を生むことを示唆している。吸血鬼＝模倣者という設定の哲学的深化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 信仰とは「狂気」の共有であり、理性を捨ててまで美しさに従属する快楽構造である
+  weight: 0.7
+  quotes:
+  - quote: 成人男性が四つん這いで地に鼻を擦りつけ、恥など知らぬとばかりに豚の真似をしている。
+    paragraph: p140
+    quote_verified: true
+  - quote: 彼らは虜。情熱の奴隷。
+    paragraph: p155
+    quote_verified: true
+  note: 聖マローズ教団と新教団の対比を通じて、宗教的狂信が「美少女（アイドル）」への消費欲求として現代的に再構成されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 空間は関係性によって定義されるため、「場所」は固定された座標ではなく流動的な概念である
+  weight: 0.6
+  quotes:
+  - quote: 距離などはあってないようなもの。
+    paragraph: p41
+    quote_verified: true
+  - quote: スキリシアを構成する闇は変幻自在。常にその姿を変容させるがゆえに一度として同じ顔を見せることは無い。
+    paragraph: p31
+    quote_verified: true
+  note: 物理法則よりも「関係性（友好/敵対）」が世界を支配するスキリシアの設定は、ネット社会や情報空間の構造と符合し、異世界の地理的安定性を否定する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

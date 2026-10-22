@@ -1,0 +1,217 @@
+chapter: ch5362
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_Azuria_Chocolate_Transformation]]'
+  object: '[[ME_Game_Mechanic_Gacha_Stat_Overflow]]'
+  claim: アズーリアの「チョコ化」は、ゲームにおけるキャラクターのステータス異常やバグによる姿形の変更を模倣している。
+  quote: 世界が私へのチョコを否定するというのなら――私がチョコになる
+  paragraph: p97
+  confidence: moderate
+  quotes:
+  - quote: 世界が私へのチョコを否定するというのなら――私がチョコになる
+    paragraph: p97
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Priestera_Kotatsu_Obsession]]'
+  object: '[[ME_Japanese_Culture_Kotatsu_Mikan]]'
+  claim: おこた（コタツ）とみかん（オレンジ）の組み合わせは、日本の冬文化における定番的イメージをファンタジー世界へ移植したものである。
+  quote: おこたに入りながらみかん、つまりオレンジを食べるのが『通』なんだとか。
+  paragraph: p65
+  confidence: explicit
+  quotes:
+  - quote: おこたに入りながらみかん、つまりオレンジを食べるのが『通』なんだとか。
+    paragraph: p65
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Lassef_Name_Change_Urchio]]'
+  object: '[[ME_RPG_Character_Build_Class_Swap]]'
+  claim: ラーゼフが「ウルチオ」という名前を借りて能力を使用する様子は、MMORPGやテーブルトークRPGにおけるキャラクターのクラスチェンジやビルド変更のメタファーである。
+  quote: 『ラーゼフ』じゃいまいちわからんな。いちおう生物の専門家だし――過去の偉人でチョコで有名な専門家なんていたかな
+  paragraph: p205
+  confidence: strong
+  quotes:
+  - quote: 『ラーゼフ』じゃいまいちわからんな。いちおう生物の専門家だし――過去の偉人でチョコで有名な専門家なんていたかな
+    paragraph: p205
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_Harbert_Narrative_Structure_Prediction]]'
+  object: '[[ME_Metaphiction_Genre_Tropes_Prediction]]'
+  claim: ハルベルトが展開を「お約束」に基づいて予測し、それを裏切られたと嘆くことは、物語のクリシェ（定型表現）に対するメタフィクション的な自己言及である。
+  quote: 最後は全員で力を合わせて作り直したチョコとみんなの呼びかけで、じゃないの？　こういうのってそういうお約束でしょ？
+  paragraph: p391
+  confidence: explicit
+  quotes:
+  - quote: 最後は全員で力を合わせて作り直したチョコとみんなの呼びかけで、じゃないの？　こういうのってそういうお約束でしょ？
+    paragraph: p391
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Lina_SNS_Post]]'
+  object: '[[ME_Modern_Social_Media_Trend]]'
+  claim: リーナがアズーリアのチョコ化をSNSで拡散させる行為は、現代社会における個人の珍事が瞬時に情報化・消費される様子を風刺している。
+  quote: 『友達がチョコ化したから復活試したらそっちもチョコ化したよ～どうしよ～』っと送信
+  paragraph: p159
+  confidence: strong
+  quotes:
+  - quote: 『友達がチョコ化したから復活試したらそっちもチョコ化したよ～どうしよ～』っと送信
+    paragraph: p159
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Mirunya_Chocolate_Heartbeat]]'
+  object: '[[ME_Biological_Symbiosis_Artificial_Organ]]'
+  claim: ミルーニャが作成した脈打つ心臓型チョコは、生体工学における人工臓器や共生生物の概念を、お菓子の文脈で戯画化している。
+  quote: こんなグロい心臓（ハート）型のチョコ、どうすんのさー！　しかもなんか脈打ってる、鼓動を感じるよ！
+  paragraph: p350
+  confidence: moderate
+  quotes:
+  - quote: こんなグロい心臓（ハート）型のチョコ、どうすんのさー！　しかもなんか脈打ってる、鼓動を感じるよ！
+    paragraph: p350
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Urchio_Historical_Legacy
+  note: ウルチオが歴史上の偉人として言及されているが、その詳細やピュクシスとの関連性は明かされていない。後の展開でこの「菓子職人」の技術や思想が重要視される可能性がある。
+  quotes:
+  - quote: 竜王国の建国百周年を祝ってアルト王にチョコレート菓子を献上した人ならどうかなー。飽食の街グルットニュの伝説の菓子職人ウルチオっていう人
+    paragraph: p209
+    quote_verified: true
+  expected_payoff: ウルチオの名を借りた能力が、単なるガグではなく、歴史的な魔法技術の継承や隠された設定の回収に繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mirunya_Future_Plan_Choco_Beings
+  note: ミルーニャがアズーリアを「チョコ生物」として共生させるための計画（チョコ臓器、チョコ頭脳等）を構想していたことが判明する。これは後の展開でアズーリアの身体改造や新たな種族化への伏線となり得る。
+  quotes:
+  - quote: いずれ心臓以外のチョコ臓器、チョコ頭脳、チョコ論理回路などを作りだして『これがふしぎなチョコいきものアズーリアのすべてだ！』みたいなノリで『スキリシア＝エフェクのチョコレートの民』を完成させるプランがあったのだろう。
+    paragraph: p360
+    quote_verified: true
+  expected_payoff: アズーリアが完全な人間に戻れない場合、ミルーニャのこの計画が代替案として実行される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Harbert_Message_Card_Content
+  note: ハルベルトがアズーリアに渡すことをためらい、最終的に隠したメッセージカードの内容が明かされていない。彼の弟子への深い愛情や、彼自身の秘密（前世の記憶など）に関わる内容である可能性が高い。
+  quotes:
+  - quote: 小さなメッセージカードを添えて、皿の絵柄は可愛らしい垂れ耳ウサギ。
+    paragraph: p424
+    quote_verified: true
+  - quote: メッセージカードの内容は絶対に教えてやらない。
+    paragraph: p448
+    quote_verified: true
+  expected_payoff: 物語の終盤、アズーリアとハルベルトの関係が深まる局面で、このカードの真意が明かされる、あるいは回収不能なまま象徴として残る。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Orange_Toxicity_Mechanism
+  note: セリアック＝ニアにとってオレンジが毒であることと、アズーリアのチョコ化現象の因果関係は「好き嫌い」で片付けられたが、その生物学的・魔術的詳細は未解明。この毒性がより深刻なイベントの引き金になる可能性。
+  quotes:
+  - quote: オレンジは世にも稀な『猫の取り換え子（チェンジリング）』にとって毒なのだ。
+    paragraph: p80
+    quote_verified: true
+  expected_payoff: セリアック＝ニアの出自や、ゼオーティア世界における「猫」に関する禁じられた設定の露見に繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 日常の尊さ：非日常な危機（チョコ化）を通じた、仲間との些細な交流と絆の再確認。
+  weight: 0.8
+  quotes:
+  - quote: 賑やかでいいよね、こういうのって
+    paragraph: p417
+    quote_verified: true
+  - quote: こんな風にチョコレート作りを通して下僕たちとティリビナの民の親睦を深めるのはどうかしら。
+    paragraph: p406
+    quote_verified: true
+  note: アズーリアの危機が、結果としてチーム全体の結束を強め、コミュニティの運営方針（親睦行事）に昇華されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクション的自覚：物語の「お約束」への反逆と、それを受け入れる現実主義。
+  weight: 0.7
+  quotes:
+  - quote: 最後は全員で力を合わせて作り直したチョコとみんなの呼びかけで、じゃないの？　こういうのってそういうお約束でしょ？
+    paragraph: p391
+    quote_verified: true
+  - quote: あー、せんせ、あたしお茶入れるね
+    paragraph: p403
+    quote_verified: false
+  note: ハルベルトが理想の劇的構造を求め、プリエステラや外部者がそれを脱力・日常へと回収する対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 愛の非対称性：ハルベルトの献身とアズーリアの無自覚な受容がもたらす、静かな諦念。
+  weight: 0.6
+  quotes:
+  - quote: ありがとうハルベルト、私やっぱりチョコじゃなくて良かった！　チョコのままだったらチョコの美味しさを味わえないもんね！
+    paragraph: p434
+    quote_verified: true
+  - quote: これ以上甘くしたら、風味が台無しになってしまうだろうから。
+    paragraph: p450
+    quote_verified: true
+  note: ハルベルトのメッセージカード（深い愛）が隠されることで、アズーリアの無邪気な幸福が保たれるという、保護者としての自己犠牲的な視点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と文化の融合：錬金術・魔術を「お菓子作り」という世俗的な文化へ転換する試み。
+  weight: 0.5
+  quotes:
+  - quote: これこそは錬金術の秘奥、白い繊維質（アルベド）から橙の外果皮（フラベド）を経て赤いハート（ルベド）へと至る魂の黄金錬成！
+    paragraph: p334
+    quote_verified: true
+  - quote: 美味しい異文化は大歓迎って人も沢山いるから。ここに馴染むための入り口としてうってつけな気がする！
+    paragraph: p410
+    quote_verified: true
+  note: ミルーニャの狂気的な錬金術や、リールエルバの提案を通じて、高度な技術が生活文化（お菓子）へ落とし込まれる過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,112 @@
+chapter: ch5433
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 6
+  quotes_total: 10
+items:
+- kind: mystery
+  name: MY_zedo_disguise
+  note: ミヒトネッセに化けたゼド（あるいはその逆）が現れ、主人公から『罪宝（骨犬）』を奪っていく。この存在の正体と目的が不明確であり、後の展開でその動機や関係性が明かされる可能性が高い。
+  quotes:
+  - quote: まるで彼女が変化しているゼドそのもの、というよりまるでミヒトネッセに化けたゼドのように見えた。これでは奪ったのか奪われたのかわからない。
+    paragraph: p93
+    quote_verified: true
+  expected_payoff: ゼドとミヒトネッセの関係性、または『罪宝』が単なるアイテムではなく物語上の重要な鍵（メタファー）であることの明かされる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_protagonist_apathy
+  note: 主人公は重要アイテムを失ったにもかかわらず、強い喪失感や取り戻す意志を感じていない。これは感情制御の問題ではなく、物語的な構造変化（赦しの幻想の消滅）を示唆している。
+  quotes:
+  - quote: 俺はなんとしても骨犬を取り戻さなければ、という強い意志を持てずにいた。……その喪失に対する、意外なまでの無感動。これが何を意味する一幕なのか、俺にはわからない。
+    paragraph: p96-p101
+    quote_verified: false
+  expected_payoff: 主人公の精神的転換、あるいは『罪』を背負うことへの受容による物語進行の加速。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_golden_idol_identity
+  note: 黄金アイドルが「ミヒトネッセが演じた偽物」のリールエルバよりも実力が上であり、歴史的な偶像として描かれている。このキャラクターの真の正体や、リールエルバとの本当の関係性が未解明。
+  quotes:
+  - quote: 地下アイドルランキングの頂点に君臨していたリールエルバはミヒトネッセが演じた偽物ではあったが、その実力は本人を正確に再現したものだ。カーティスとして覚醒したリールエルバの実質的なアイドルランクは更にその上を行く。
+    paragraph: p155-p156
+    quote_verified: true
+  expected_payoff: 黄金アイドルと現代のキャラクター（ミヒトネッセ/リールエルバ）との因果関係、または歴史的トラウマの解決への鍵。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_time_loop_mechanism
+  note: セリアック＝ニアが「現代で再演された過去で再演された現代に帰還した」という記述があり、時間軸の入れ子構造（タイムパラドックス）が起きている。このループが破綻するか、安定化するか不明。
+  quotes:
+  - quote: 現代で再演された過去で再演された現代に帰還したセリアック＝ニアは、二つの時空の文脈を引き連れてステージに立っていることになる。
+    paragraph: p146
+    quote_verified: true
+  expected_payoff: 時間操作の限界の到来、または因果律の破綻による世界改変イベントの発生。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 価値観の相対化と消費主義による社会の解体
+  weight: 0.8
+  quotes:
+  - quote: 内と外の価値は反転し、あらゆる神秘が零落する。……聖も俗も、穢れも禊ぎも、個人も共同体も、私が示す道の前には等しく脇役だ。
+    paragraph: p57-p67
+    quote_verified: false
+  note: トリシューラの行動は、固定的な善悪や聖俗の区別を消去し、すべてを交換可能な価値（商品）へと変換する現代資本主義的な論理を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 差別の構造化と対立の不可解性
+  weight: 0.7
+  quotes:
+  - quote: 壁の外を壁の内側と同じにする――お前たちの理想は、俺の悪と相容れない。俺はまず壁そのものの悪を糾弾しなければならない。
+    paragraph: p44
+    quote_verified: true
+  - quote: 彼がどうして同じ境遇の者と敵対しなくてはならないのか。
+    paragraph: p22
+    quote_verified: true
+  note: 被害者同士の対立（鵺vs鉄群鱗）は、差別構造そのものへの怒りと、その構造内での生存戦略の相違から生じており、単純な善悪の図式を拒絶している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 偶像崇拝とアウラの本質
+  weight: 0.6
+  quotes:
+  - quote: あらゆる地下アイドルはこの黄金の影を追うだけの有象無象に過ぎない。……絶対的な格の違いが壁として聳え立つ。
+    paragraph: p124-p125
+    quote_verified: false
+  note: 歴史的な「本物」のアウラ（権威）が、技術や実力では越えられない壁として描かれ、芸術における模倣とオリジナルの関係性を問うている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 罪の受容と赦しの喪失
+  weight: 0.5
+  quotes:
+  - quote: 得たな。獲得したな。罪を抱えて戦うと決めたな。ならばもう、この赦しの幻想は不要だな？
+    paragraph: p83
+    quote_verified: true
+  - quote: その喪失に対する、意外なまでの無感動。……本当に、何もわからないのだ。
+    paragraph: p99-p101
+    quote_verified: false
+  note: 主人公が「赦し（罪宝）」を失い、感情の麻痺を通じて自らの罪と向き合う覚悟を決めるプロセス。これは成長というより、物語的な「解放」を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

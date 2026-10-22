@@ -1,0 +1,238 @@
+chapter: ch5226
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 22
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ユネクティアの生存と増殖]]'
+  object: '[[ME_Meme_viral_spread]]'
+  claim: ユネクティアが「情報量」によって不死を得る現象は、インターネット上のミーム（memes）が宿主を介して複製・変異し続ける性質に構造的同型性を持つ。
+  quote: 完全な不死の牢獄に囚われて、永劫に混沌を彷徨うのみ。
+  paragraph: p238
+  confidence: strong
+  quotes:
+  - quote: 完全な不死の牢獄に囚われて、永劫に混沌を彷徨うのみ。
+    paragraph: p238
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_エーラマーンによる情報操作]]'
+  object: '[[ME_Fake_news_disinformation]]'
+  claim: 天使エーラマーンが記述を「噂」「風説」「誇張」に変質させる能力は、現代のフェイクニュースやディープフェイクによる現実の侵食・改変メタファーである。
+  quote: あらゆる記述を少しずつ変質させてしまう。『噂』や『風説』、あるいは『誇張』や『誤報』。
+  paragraph: p213
+  confidence: strong
+  quotes:
+  - quote: あらゆる記述を少しずつ変質させてしまう。『噂』や『風説』、あるいは『誇張』や『誤報』。
+    paragraph: p213
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_十九魔将とトライデント細胞]]'
+  object: '[[ME_Biblical_Apocalypse_beasts]]'
+  claim: ジャッフハリムの十九魔将が「終末の予言や伝承に記されている十九の獣」になぞらえている点は、ヨハネの黙示録におけるケラブル（獣）の群れを指している。
+  quote: 様々な終末の予言や伝承に記されている十九の獣たちになぞらえているというわけ
+  paragraph: p88
+  confidence: explicit
+  quotes:
+  - quote: 様々な終末の予言や伝承に記されている十九の獣たちになぞらえているというわけ
+    paragraph: p88
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_食用奉仕種族の救済]]'
+  object: '[[ME_Colonial_Education_assimilation]]'
+  claim: ユネクティアが食用奉仕種族に「アストラル体」を与え「人」とすることで、彼らの存在根源（食われるための生）を否定しつつ支配下におく行為は、植民地支配における同化政策の暴力性を風刺している。
+  quote: 彼らが『人』になるということは『食べられるために生まれてきた』という存在の根源を否定する事に等しい。
+  paragraph: p102
+  confidence: moderate
+  quotes:
+  - quote: 彼らが『人』になるということは『食べられるために生まれてきた』という存在の根源を否定する事に等しい。
+    paragraph: p102
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_テッシトゥーラの左耳の空席]]'
+  object: '[[ME_Paired_Mechanic_Twin]],'
+  claim: トライデントにおける「右耳」テッシトゥーラとハルベルト（左耳候補）の関係は、左右非対称な機能を持つ双子の片割れを欠くことで完成しないという、「対となる存在」を要求するロマン主義的・神秘主義的構造を模倣している。
+  quote: あなたはわたしの対となる存在ってこと
+  paragraph: p313
+  confidence: strong
+  quotes:
+  - quote: あなたはわたしの対となる存在ってこと
+    paragraph: p313
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_火刑による魔女の裁き]]'
+  object: '[[ME_Historical_Witch_Trials]],'
+  claim: ハルベルトが「異端審問官」としてユネクティアを断罪し、太陽光（火）で焼こうとする展開は、歴史上の魔女狩りにおける火刑処刑の逆転（魔女側からの裁き）を含んでいる。
+  quote: 魔女術異端審問官（ウィッチクラフト・インクィジター）、黒血（インクジェット）のハルベルトは、対象を秩序内部の歪みと判断し、これを異端として断罪する
+  paragraph: p164
+  confidence: explicit
+  quotes:
+  - quote: 魔女術異端審問官（ウィッチクラフト・インクィジター）、黒血（インクジェット）のハルベルトは、対象を秩序内部の歪みと判断し、これを異端として断罪する
+    paragraph: p164
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_群青司教の第四体
+  note: ユネクティアが四体に分裂し、三体は死亡したが、残る一体（黒衣）が潜伏している。その正体と目的。
+  quotes:
+  - quote: 残りの一体はどこに消えたのか。
+    paragraph: p36
+    quote_verified: true
+  - quote: 分裂した別個体は密かに地上に侵入し、潜伏していたのだ。
+    paragraph: p49
+    quote_verified: true
+  expected_payoff: この章で正体が明かされるが、その「弱体化」の真偽や、信仰による再生成のメカニズムが後の戦闘で重要な鍵となる可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_トライデントの全構成要素
+  note: 十九人の細胞（魔将）の内訳の一部が明かされた（神経、脊髄、右足、右目、左目、右耳）。残りの部位とそれに対応するキャラクター。
+  quotes:
+  - quote: 十四番目の細胞【神経】のヲルヲーラ...十五番目である【脊髄】ユネクティア...七番目――【右足】のセレクティ...十六番目が【右目】のガルズで十七番目が【左目】のマリー
+    paragraph: p86
+    quote_verified: false
+  - quote: 六番目の【左耳】は空席なの。あなたのためにとってあるから。ああ、九番目と十番目の両腕も残り二人の末妹候補の為に空席にしているらしいよ
+    paragraph: p319
+    quote_verified: true
+  expected_payoff: 残りの部位（頭脳、心臓など）に対応するキャラクターが今後登場し、四魔女（ハルベルト含む）をトライデントとして組み込むための障害となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_テッシトゥーラの正体と目的
+  note: 守護の九槍第五位にしてトライデント細胞「右耳」。ハルベルトを「予約」し、強制的に接近・接触を図った理由。
+  quotes:
+  - quote: わたしはトライデントの細胞が五番目――【右耳】のテッシトゥーラ。
+    paragraph: p302
+    quote_verified: true
+  - quote: 予約。あなたは、いつかわたしのものにするから
+    paragraph: p347
+    quote_verified: true
+  expected_payoff: ハルベルトの「左耳」としての覚醒を強要する展開、あるいはテッシトゥーラ自身の支配欲が物語の衝突を引き起こす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_エーラマーンの天使の性質
+  note: 「噂」を司る天使エーラマーン。その力が情報操作を超え、実体や世界観を崩壊させるほどの干渉力を持つことが示唆された。
+  quotes:
+  - quote: 言震（ワードクェイク）の被害を時に深刻化させ、時に軽減する。
+    paragraph: p216
+    quote_verified: true
+  - quote: ユネクティアとしての存在を維持出来なくなった何かは混沌の中に放逐された。
+    paragraph: p230
+    quote_verified: true
+  expected_payoff: 情報戦が物理戦を超える威力を持つことが証明され、後の敵対勢力（特に情報・記憶を操る敵）との戦いでハルベルトの主要な戦術となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_食用奉仕種族のアストラル体獲得
+  note: ユネクティアが「美食」のために食用奉仕種族にアストラル体（霊魂）を与え、彼らを「人」とした。この「人間化」の副作用や反作用。
+  quotes:
+  - quote: 君がもたらしてくれた世界観の影響で、これからはアストラル体を纏う個体も生まれるようになるだろう。
+    paragraph: p116
+    quote_verified: true
+  expected_payoff: 食用奉仕種族が「人」としての意識を持つことで、槍神教や人間社会との間に新たな倫理的・政治的葛藤が生じる伏線となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報の実体化と存在論：ミームとしての不死
+  weight: 0.9
+  quotes:
+  - quote: 完全な不死の牢獄に囚われて、永劫に混沌を彷徨うのみ。
+    paragraph: p238
+    quote_verified: true
+  - quote: なぜならばそれは情報化の象徴だ。拡散と複製を続ける自律的な情報を滅ぼす事など到底不可能。
+    paragraph: p189
+    quote_verified: true
+  note: ユネクティアが物理的死亡を回避し、「噂」としての存在強度を得る過程は、生物学的生命ではなく情報論的生命（Memetic Immortality）こそが真の不死であることを主題化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 支配の暴力性：救済を名目とした同化と序列化
+  weight: 0.8
+  quotes:
+  - quote: あらゆる存在が異獣から『人』になるというのなら、その『人』の中から『犠牲にして良い人』と『犠牲にしてはいけない人』が生まれるのは必然だ。
+    paragraph: p157
+    quote_verified: true
+  - quote: 消費されるためだけに『人』の下位に序列化される。
+    paragraph: p147
+    quote_verified: true
+  note: ユネクティアの「救済」が、食用奉仕種族を人間の序列に組み込み、彼らの本質（食われること）を否定する暴力であることを指摘し、文明の進歩における構造的な犠牲の不可避性を批判している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 対称性の欠如と補完への渇望
+  weight: 0.7
+  quotes:
+  - quote: あなたはわたしの対となる存在ってこと
+    paragraph: p313
+    quote_verified: true
+  - quote: その両耳は、左右非対称だった。右側が兎の垂れ耳で、左側が妖精の尖った耳。ハルベルトとは丁度正反対。
+    paragraph: p297
+    quote_verified: true
+  note: ハルベルトとテッシトゥーラの身体的・概念的な「左右非対称」な補完関係は、自己の完全性への渇望と、他者による侵食（予約）が織りなす歪んだ親密さを主題化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 審問と権威の逆転：物語の書き換えによる裁き
+  weight: 0.6
+  quotes:
+  - quote: 黒血（インクジェット）のハルベルトは、対象を秩序内部の歪みと判断し、これを異端として断罪する
+    paragraph: p164
+    quote_verified: true
+  - quote: 正統は僕だ。下らない宗教観で勝手な異端認定はやめてもらおう
+    paragraph: p176
+    quote_verified: true
+  note: 伝統的な権威（槍神教、正統性）に対して、魔女が「物語の書き換え」によって逆転の裁きを行う構図は、既存秩序の解体と新しい物語による統治を暗示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

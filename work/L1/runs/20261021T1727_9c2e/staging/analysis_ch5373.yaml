@@ -1,0 +1,183 @@
+chapter: ch5373
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 18
+  quotes_total: 20
+items:
+- kind: mystery
+  name: MY_1041_Hospital_Disappearance
+  note: 病院から避難民、スタッフ、トリシューラの部下の全員の気配が消え、通信も機能しなくなる異常事態。プーハニアとポメラニアン女性のみが残されている。
+  quotes:
+  - quote: '院内から、人の気配が消えていた。
+
+      あれだけいた避難民も病院のスタッフもトリシューラの部下たちも、全ていなくなっていたのだ。通信も繋がらないまま。'
+    paragraph: p44
+    quote_verified: true
+  - quote: 外に出ようとするが、自動扉は開かない。対呪動装甲ライフルにすら耐える強化呪術ガラスは全力のタックルでもびくともしなかった。
+    paragraph: p46
+    quote_verified: true
+  expected_payoff: 『鵺』による幻術空間への隔離、あるいは次元切断によって閉じ込められたことが判明する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_1042_Pomeranian_Swordsmanship
+  note: ポメラニアン女性が突然、言葉遣いを改め、鋭い眼光でプーハニアを詰問し始める。その正体と目的は不明。
+  quotes:
+  - quote: '「――それ、誓える？」
+
+      突然、女性の声が落ち着いたものになる。
+
+      はっきりとした抑揚。切れ味鋭いことば。'
+    paragraph: p94
+    quote_verified: false
+  - quote: あなたは、強いのにいじめないの？　ヒーローの資格がある人なの？
+    paragraph: p98
+    quote_verified: true
+  expected_payoff: 彼女がシナモリアキラ（アストラル体）であり、プーハニアを精神的に試す存在（試験官）であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_1043_Nue_Self_Sacrifice
+  note: 『鵺』が「自ら滅び、ブレイスヴァの下へ向かう」「自殺ではないのか」という自らの死を賭した行動を取る理由と背景。
+  quotes:
+  - quote: 「激化する天地の争い――そして、遂に現れた概念的『悪』としての異獣。形而上の恐怖と嫌悪が物理世界に落とした影。
+    paragraph: p298
+    quote_verified: true
+  - quote: 「そうだ。俺たちは自ら滅び、ブレイスヴァの下へ向かうのだ。正義が定めた悪性を、俺たちの手で打ち倒す。そうすることで奴らの正義と価値を根底から砕く」
+    paragraph: p317
+    quote_verified: true
+  expected_payoff: 彼が「英雄」になることで世界の理不尽さを破壊する計画の一環であることが語られる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_1044_Mareblanche_Connection
+  note: プーハニアが『火車』というシナモリアキラの怪人集団「マレブランケ」の一部として操られている事実。
+  quotes:
+  - quote: ――お前が俺を求めたんだろ？　『マレブランケ』は俺だ。どこにいようと、自在に手足として扱える。なあ、狆くしゃ（カニャッツォ）？
+    paragraph: p363
+    quote_verified: true
+  - quote: 横に並ぶのは首無しの死体。蠍尾（マラコーダ）と銃士（カルカブリーナ）という同僚たちが同じような異形となって『鵺』に襲いかかる。
+    paragraph: p360
+    quote_verified: true
+  expected_payoff: プーハニアが敵側として扱われていることの衝撃、およびその支配構造の解明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_1045_Leprosy_Root_Cause
+  note: 「悪疫（ポックス）」という血統が変質し、「概念的な絶対悪の根源」へと変化している現象の全体像。
+  quotes:
+  - quote: その変化は止まることが無く、身内のみで処理することも難しくなってきた」
+    paragraph: p298
+    quote_verified: true
+  expected_payoff: シナモリアキラや異獣の発生メカニズム（概念が物理化すること）についての世界観説明の一部として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「強さ」を自明視する者への倫理的な断罪と、弱者（女性・子供）の視点からの権力批判
+  weight: 0.9
+  quotes:
+  - quote: あなたは、強いのにいじめないの？　ヒーローの資格がある人なの？
+    paragraph: p98
+    quote_verified: true
+  - quote: 「私は一巡節前に子宮の摘出手術を受けたばかりだったのです。知らなかったのでしょうけれど、私はとても傷付きました。謝罪して下さい」
+    paragraph: p124
+    quote_verified: false
+  - quote: '「なにをやっとるかぁっ」
+
+      違う。自分が小さいのだ。
+
+      気付けば足下には額から血を流して泣き喚いている子供がいる。'
+    paragraph: p226
+    quote_verified: true
+  note: ポメラニアン女性による詰問と、過去の子供時代におけるいじめ・教師の暴力を通じて、「物理的な力を持つ者」がいかに無自覚に他者を傷つけているかを暴く主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「英雄（ヒーロー）」という概念の解体と、自己犠牲による絶対悪への反抗
+  weight: 0.85
+  quotes:
+  - quote: 「魔将の邪悪を、守護の九槍の正義を、強大な英雄を凌駕したシナモリアキラという純粋な暴力こそ、この俺に相応しい。全ての価値を破壊し、否定し、超越する。俗な正義や悪などどうでもいい。理不尽な力こそが正義だ。俺はそれを振るって英雄になる。力の傲慢そのものに、俺はなる」
+    paragraph: p325
+    quote_verified: true
+  - quote: 「そうだ。俺たちは自ら滅び、ブレイスヴァの下へ向かうのだ。正義が定めた悪性を、俺たちの手で打ち倒す。そうすることで奴らの正義と価値を根底から砕く」
+    paragraph: p317
+    quote_verified: true
+  note: 『鵺』が既存の「正義」を否定し、自らが怪物（悪）として振る舞うことで英雄たろうとする逆説的な英雄論。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶とトラウマによる自我の侵食（共感の呪い）
+  weight: 0.7
+  quotes:
+  - quote: 'これは、お前の記憶なのか」
+
+      シナモリアキラが二人の共通項だった。
+
+      しかし、それ以外にもあったのかもしれない。
+
+      プーハニアの現在と『鵺』の過去が融け合い、共感が呪いを増幅する。'
+    paragraph: p264
+    quote_verified: true
+  - quote: 記憶も夢もごちゃごちゃと入り交じり、全てが不確かに融けていく。
+    paragraph: p169
+    quote_verified: true
+  note: シナモリアキラ（アストラル体）同士の共感作用により、プーハニアの幼少期のいじめトラウマが『鵺』の苦痛と混濁し、現実が変容していく心理 horror
+    的な主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 特撮ヒーロー（仮面ライダー）のメタフィクショナルな模倣と再定義
+  weight: 0.6
+  quotes:
+  - quote: 「俺は、過去の俺を超えていく――！！　使います、ピトス博士。あなたに貰ったこの力！　『創造』せよ、四十四番『ネクロゾーン』！！」
+    paragraph: p341
+    quote_verified: true
+  - quote: '「超・越！！」
+
+      それは一瞬のことだった。
+
+      異形の怪物が光に包まれたかと思うと、漆黒の霧が集い人の輪郭へと押し込めていく。'
+    paragraph: p345
+    quote_verified: true
+  note: 特撮ヒーローの変身システム（変身ベルト、博士からの力、決め台詞）を引用しつつ、その背景にある「苦痛」「怪物化」「自己犠牲」の側面を強調するメタフィクション。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語による暴力（いじめ・蔑称）と、社会規範としての「穢れ」の伝播
+  weight: 0.65
+  quotes:
+  - quote: '「安産型になんだろ、マジでやめろって最悪だし！」
+
+      不可視の『穢れ』を接触感染させられた子供が激怒した。共通理解の下に行われた儀式を通して、瘴気が具現化して子供たちの間に蔓延していく。'
+    paragraph: p193
+    quote_verified: true
+  - quote: 「ていうか何でいるんだよあいつ」「うわきも」
+    paragraph: p116
+    quote_verified: true
+  note: いじめが単なる悪意だけでなく、「穢れ」という呪術的・社会的な構造（瘴気）として機能し、集団を支配する仕組み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,74 @@
+episode: ch5455
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_ゼド]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5455_ゼド_appears_塔の頂上_p137
+        quote: 完全に気配を消していつの間にか塔内に侵入していた盗賊王ゼドは、私の姿を舐め回すように見ていた。この嫌悪感――シナモリアキラと同質のもの！
+        locator: {}
+        spoiler_after: ch5455
+    speech:
+      observations:
+      - event_ref: E_ch5455_ゼド_says_交配と転生の提案_p151
+        quote: 「アキラ、俺を喰ってその胎から産め。ああ、逆でもいいぞ。俺がお前を喰い、殺し、犯し、孕み、生み出す！　いっそ交互にやろう、延々と生と死を循環させ転生神としての強度を際限なく高めるんだ、俺がお前のパパで、お前が俺のママだ！」
+        locator: {}
+        spoiler_after: ch5455
+      - event_ref: E_ch5455_ゼド_asks_殺すこと_p210
+        quote: 「頼む、殺してくれ。俺が俺のままでいられるうちに。とても苦しいんだ。このまま紀神に喰われて自由意思の無い道具に成り下がるのは嫌だ」
+        locator: {}
+        spoiler_after: ch5455
+      - event_ref: E_ch5455_ゼド_says_アキラへの別れの言葉_p232
+        quote: 「また会おう。次は逃げずにちゃんと殺してくれよ」ア、キ、ラ、と一音ずつ区切って言うと、盗賊王の姿は霞のように消え去った。
+        locator: {}
+        spoiler_after: ch5455
+    visual:
+      observations:
+      - event_ref: E_ch5455_ゼド_transforms_死神の変異_p195
+        quote: 荒れ狂う死の呪いがゼドの全身を蝕み、呪動装甲を突き破った真っ黒な汚泥が男の肉体を変異させていく。砕けた鎧から覗く、奇怪な形の肉塊。
+        locator: {}
+        spoiler_after: ch5455
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レッテ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5455_レッテ_thinks_ゼドを殺せない理由_p238
+        quote: シナモリアキラは、きっと奴を殺せないだろう。いや、というよりも。あの男だけは、決して殺してはならないのだ。その価値を認めてしまったら、彼は。
+        locator: {}
+        spoiler_after: ch5455
+    symbolic:
+      observations:
+      - event_ref: E_ch5455_レッテ_has_property_不死の宿命_p30
+        quote: これでもう、私は『キュトスの姉妹』という不死の宿命から逃げられない。永遠にこの諦めを背負い続けるのだ。
+        locator: {}
+        spoiler_after: ch5455
+      - event_ref: E_ch5455_レッテ_has_property_塔=肉体_p63
+        quote: 私にとって塔は肉体に等しい。感覚器としての塔の外壁が戦場となった世界を認識する。
+        locator: {}
+        spoiler_after: ch5455
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_シナモリアキラ]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5455_シナモリアキラ_makes_ラプンツェル転生_p38
+        quote: シナモリアキラは伝承と神話を異世界から転生させた。基幹参照世界から、私という人形におあつらえ向きの神話を召喚したのだ。
+        locator: {}
+        spoiler_after: ch5455
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ミヒトネッセ]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5455_ミヒトネッセ_takes_氷球_p53
+        quote: 私が取り込んだのは彼女が元々持っていた『氷球』。幻像を纏わせて冥界の食べ物に偽装しただけで、私も実際には食べる演技をしただけだ。
+        locator: {}
+        spoiler_after: ch5455
+  first_appearance_candidate: true

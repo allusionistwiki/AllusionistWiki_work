@@ -1,0 +1,115 @@
+chapter: ch5269
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 4
+  quotes_total: 11
+items:
+- kind: mystery
+  name: MY_gren_identity
+  note: 少年が受けた「断章（鍵）」を渡した男の名前がグレン、あるいはそれと類似する名前であるという言及。主人公や主要キャラクターとの関連性が示唆される。
+  quotes:
+  - quote: 「何だい、君は。断章？ ああ、この『鍵』のことか。これはかなり前に賢者を名乗る男に手渡されたものだよ。…はて、あれの名前は何と言ったかな？ 確か、グ、グ、グール、いや、グレン？」
+    paragraph: p89
+    quote_verified: false
+  expected_payoff: この名前が主人公（アリュージョニスト）の別名、過去、あるいは彼に近しい賢者であることを明かし、敵対関係の因果を回収する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_seres_half_face
+  note: セレスの右側の顔が腐乱し白骨化している描写。彼女が死者の力を使う賢者であることと、その代償・身体状況に関する詳細な設定。
+  quotes:
+  - quote: その顔の右側が、どろりと腐乱して肉が落ちていく。後に残った白骨、空洞の眼窩が死のごとき視線で死人たちを睨み付けた。
+    paragraph: p99
+    quote_verified: true
+  expected_payoff: セレスの過去の戦い、彼女が「死者」の力を得た経緯、または彼女自身の生と死の境界に関する真相。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_the_child_heart
+  note: セレスが言及した「あの子」、および「心を折る」ための条件（美しい人による介入）。ルバーブが気づいた王宮にいる存在に関する伏線。
+  quotes:
+  - quote: 「あの子の心を折るのは、きっとあの子も認めざるを得ない美しい人でなくてはならないのです。」
+    paragraph: p136
+    quote_verified: false
+  expected_payoff: 主人公が「美しさ（精神的・道徳的含む）」によって敵対する存在を説得する展開、または王宮内の特定のキャラクター（王子等）との対立解決。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_daemodex_influence
+  note: 少年がダエモデクという名前と「腑抜け」という評価を下している点。敵勢力の構造や上位存在との関係。
+  quotes:
+  - quote: 「火種だらけのガロアンディアンすら崩せなかったダエモデクの奴は全く腑抜けとしか言いようが無いな」
+    paragraph: p58
+    quote_verified: false
+  expected_payoff: 敵組織「四方の王」および「盟主殿」との権力関係、過去の歴史的経緯。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: マイノリティへのスケープゴート化と多民族国家の脆さ
+  weight: 0.8
+  quotes:
+  - quote: 「やい余所者ども、災厄を呼び込んだのはお前らだろう！」
+    paragraph: p21
+    quote_verified: true
+  - quote: 多民族国家というのはかくも脆い。火種だらけのガロアンディアンすら崩せなかったダエモデクの奴は全く腑抜けとしか言いようが無いな
+    paragraph: p58
+    quote_verified: true
+  note: 災厄そのものよりも、社会構造の脆弱性と分断が被害を拡大させているという社会批評。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死の美学：観念的・美的な死 vs 物質的・肉体的な死
+  weight: 0.9
+  quotes:
+  - quote: 「亡霊たちはね、自らの人生で最も美しい瞬間で現れるのさ。死とは永劫、それは永遠に残る輝きだ。」
+    paragraph: p114
+    quote_verified: false
+  - quote: 「いいえ。いいえ。死とは美しいばかりではない。それは醜いもの。…肉の傷み、骨の軋みこそが死であり、生でもあるのです」
+    paragraph: p119
+    quote_verified: false
+  note: 敵（少年）と味方（セレス）の対立軸は、死をどう定義し受容するかという哲学的・美的な衝突である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 権威の解体と再構築（神格の降下と魔人の台頭）
+  weight: 0.5
+  quotes:
+  - quote: 球形大地という神話が崩れ去り、その格が【大神院】を名乗る組織によって九位にまで落とされた後も
+    paragraph: p3
+    quote_verified: true
+  - quote: 「我が名はフィフウィブレス＝ハルハハール。この世で最も美しい、亡霊どもを統べる南方の王。」
+    paragraph: p73
+    quote_verified: false
+  note: 古くからの秩序（神話・国家）が崩壊し、新しい「美」を掲げる魔人による支配への移行。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己責任論の限界と構造暴力
+  weight: 0.4
+  quotes:
+  - quote: 「俺たちを勝手に地下に押し込めておいて、何かあったら何でもかんでも俺たちのせいってわけか！」
+    paragraph: p29
+    quote_verified: false
+  note: 構造的な不利益（地下居住）を強要された者たちが、災害の責任まで負わされる理不尽さ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

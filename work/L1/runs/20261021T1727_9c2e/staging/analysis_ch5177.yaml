@@ -1,0 +1,130 @@
+chapter: ch5177
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_Nine_Sisters_Missing_One
+  note: 「九姉」と呼ばれる魔女が8人しかいないという矛盾。9人目の存在、あるいは「九姉」の定義そのものが後の展開で明かされる可能性が高い。
+  quotes:
+  - quote: 九姉と言う割に、そこには八人しかいなかったけれど――そこで挨拶をして、これからのことについて説明を受けた。
+    paragraph: p25
+    quote_verified: true
+  expected_payoff: 9人目の魔女の正体（故人、隠蔽された存在、プリエステラ自身など）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Tiribina_Nature_of_Magic
+  note: エクリエッテの指導により、「自然と己との関係性」「使い魔」としての世界観がティリビナ巫女の核心であることが示唆される。プリエステラの能力の本質が「制御」から「融合」へシフトする伏線。
+  quotes:
+  - quote: 大いなる自然そのものを使い魔とし、同時に貴方が広大な世界の使い魔となる。世界をまなざしなさいプリエステラ。そして世界にまなざされる己を自覚するのです
+    paragraph: p140
+    quote_verified: true
+  expected_payoff: プリエステラが単なる呪術使いではなく、環境そのものを操作・感知する存在へ変貌する描写につながる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Metrian_Psychological_Fragility
+  note: メートリアン（ホワイト）が極度の対人恐怖症・自傷傾向を持ち、プリエステラの接触を「失われた始まり」と呼ばれるほど重要な出来事として記憶している。彼女の過去やトラウマの詳細が未開示。
+  quotes:
+  - quote: 仲良くなりたいと一目見て思ったけれど、彼女は人に話しかけられることをひどく怖がる。
+    paragraph: p222
+    quote_verified: true
+  - quote: それが、失われた始まり。
+    paragraph: p297
+    quote_verified: true
+  expected_payoff: メートリアンの生い立ち（実験体、虐待など）が明かされ、プリエステラとの関係性が彼女を救済する鍵になる展開へ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azures_Duality
+  note: アズール（戦闘時）とマリー（物質世界）の二面性、およびヴァージリアとの筆談による閉鎖的関係。マリーの「澄明」や「色無し」という呼称の意味が不明確。
+  quotes:
+  - quote: 澄明のヘレゼクシュ。あるいは色無しマリー。どうしてそんな呼ばれ方をしているのかは知らないけれど、これがあの圧倒的天才アズールの物質世界での姿である。
+    paragraph: p234
+    quote_verified: true
+  expected_payoff: アズールがなぜ「澄明（透明・無色）」と呼ばれるのか、その力の源や代償が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Last_Sister_Selection_Criteria
+  note: 末妹選定において、単純な戦闘能力（一位アズール）だけでなく、「変装」「感知呪術回避」などの技術が重要視される。プリエステラが選ばれる条件（隠密性・適応性）が強調されている。
+  quotes:
+  - quote: 私が教えた変装技術は万能ではない。日々進歩する感知呪術によって、いつかその正体を暴かれてしまえば、貴方は地上では迫害されるしか無いのです。
+    paragraph: p158
+    quote_verified: true
+  expected_payoff: 最終選考において、戦闘力ではなく「地上社会への潜入・生存能力」が勝敗を分ける要素となる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 出生決定論からの解放と、選択された関係性（家族の再定義）の発見
+  weight: 0.9
+  quotes:
+  - quote: 自分が欲しかったものが何であるのか――それを漠然と掴みかけたその時。
+    paragraph: p284
+    quote_verified: true
+  - quote: 私自身が選ぶ関係性。それは、生まれながらに決定されている家族や一族とは違う、もう一つのかけがえのないもの。
+    paragraph: p282-p283
+    quote_verified: true
+  note: ティリビナの民としての宿命（強制された同胞愛）と、星見の塔での疎外経験を経て、プリエステラが「自分から選ぶ」関係性（メートリアンとの友情）を構築し始めた瞬間。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術への依存による自己矛盾と、自然との融合による克服
+  weight: 0.7
+  quotes:
+  - quote: 地上の力に依存して地上の打倒を叫ぶ――その捻れを誰もが歯痒く感じながらも、そうせざるを得ない。
+    paragraph: p41
+    quote_verified: true
+  - quote: 人が器用な手で作り出す杖――三本目の足ではなく、心で繋がり合う自然という名の手足――いいや、自分こそが大いなる自然の手足なのだ。
+    paragraph: p251
+    quote_verified: true
+  note: 人工物（杖・端末）への不信と依存の葛藤を経て、最終的に自らの身体と自然（樹妖精性）を媒介したコミュニケーションで他者と結ぶことで、その矛盾を超越しようとする試み。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 優劣構造における疎外と、それに対する受容・共感の萌芽
+  weight: 0.6
+  quotes:
+  - quote: トリシューラが『違う』からほとんどの子供たちは彼女を疎外する。
+    paragraph: p115
+    quote_verified: true
+  - quote: たったこれだけの事で、自分は嫌っていた相手に『人間らしさ』を見出してしまった。
+    paragraph: p108
+    quote_verified: true
+  note: プリエステラ自身が「混じりもの」として虐められた経験を持ちながら、他者の疎外（トリシューラ）を見て見ぬふりをしていた罪悪感と、彼女への共感の発生。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自由な存在への羨望と、束縛された自らの運命の対比
+  weight: 0.5
+  quotes:
+  - quote: 大地に固く根を張った自分とは大違い。しがらみやさだめ、そうした様々な俗世の束縛から逃れ、どこまでも自由に蒼穹を舞い続ける。その姿を、羨ましいと感じたのだ。
+    paragraph: p205-p207
+    quote_verified: true
+  note: アズールの飛行（自由）に対するプリエステラの憧憬は、彼女が地上とティリビナという二重の束縛から解放されたいという深層心理を反映している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

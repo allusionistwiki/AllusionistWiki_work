@@ -1,0 +1,133 @@
+chapter: ch5368
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 11
+  quotes_total: 11
+items:
+- kind: mystery
+  name: MY_子泣き爺の正体と目的
+  note: 老人がシナモリアキラを殺した真の意図（政治工作か個人的快楽か）および「レストロオセ派」への干渉の結末。
+  quotes:
+  - quote: 「レストロオセ派が第五階層に影響力を行使するのを妨害せよ、手段は問わない――ってよぉ、殺し屋に頼んどいてそいつぁお上品過ぎってもんだぜ。まぁ、ジャッフハリムの客らしいけどな」
+    paragraph: p24
+    quote_verified: true
+  expected_payoff: この工作が第五階層の勢力図をどう変えるか、また老人が後に主要キャラクターとして再登場するか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_予言王カシュラムの能力範囲
+  note: 奴隷男が「未来を予測した？」と疑問視された通り、予言は確定的なものか、それとも相手の思考を誘導する罠なのか。
+  quotes:
+  - quote: 「偉大なる予言王はこう仰っている。次に『鉄球は囮であったか』とお前は言うだろう、と」
+    paragraph: p61
+    quote_verified: true
+  expected_payoff: カシュラム関連の勢力（アルト・イヴニルなど）との対決における戦略的な活用。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_品森晶の「アニマ」起動と来歴
+  note: 「ウィッチオーダー・プロト/アゴニスト」という認証コードが意味するもの。彼女は誰のプロトタイプなのか、なぜ「大蛇（おろち）」と呼ばれるのか。
+  quotes:
+  - quote: 「認証コード『アニマ』。起動――ウィッチオーダー・プロト/アゴニスト」
+    paragraph: p215
+    quote_verified: true
+  - quote: 待ってたよ、私のプロトタイプ・アキラ姫。
+    paragraph: p263
+    quote_verified: true
+  expected_payoff: 品森晶がシナモリアキラの起源や「アキラ」という名前の由来に関わる重要なキーであることの暗示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_難民少女と「にーさま」
+  note: 晶が探している「にーさま」とは誰か。彼女との関係性（兄妹、主従、創造者など）。
+  quotes:
+  - quote: 「わたしにーさま、探さないと」
+    paragraph: p261
+    quote_verified: true
+  expected_payoff: 晶の行動原理の核心であり、今後のストーリーにおける主要な動機付けとなる人物。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_第五階層ランキング一位の意味
+  note: 晶が「ランキング一位」に到達したことが物語全体でどのような権力構造の変化を生むか。
+  quotes:
+  - quote: ――対象の到着を確認。起源相似率99.9999％まで一致。脅威度は皆無。現在ランキング一位。対象識別コード『大蛇（おろち）』の来訪を歓迎する。
+    paragraph: p263
+    quote_verified: true
+  expected_payoff: 最強の存在としての晶が、他のシナモリアキラたちとどう衝突し、第五階層の支配者となるか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力の連鎖とその必然性
+  weight: 0.9
+  quotes:
+  - quote: 英雄性の暴力、信仰の暴力、快感の暴力、制度化された暴力、作業化された暴力、求道としての暴力、道具としての暴力、依存対象としての暴力、性淘汰としての暴力、様々な暴力が序列を巡って競争を生んでいく。
+    paragraph: p141
+    quote_verified: true
+  note: シナモリアキラたちが各々の信念や存在意義に基づき、多様な形態の暴力を通じて互いを殺し合う構造が、第五階層における社会の本質として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己犠牲と利己主義の共存（品森晶の苦悩）
+  weight: 0.8
+  quotes:
+  - quote: この幸福は誰かの犠牲の上に存在している。大量の消費が自らの存在を成立させている。だが自分はこの幸福を愛している。手放すことなどできない。
+    paragraph: p105-p108
+    quote_verified: true
+  note: ミヒトネッセ＝シナモリアキラの誕生過程において、他者の犠牲の上に成り立つ自己の存在と、その幸福への執着が描かれ、道徳的な葛藤が生じている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術（サイバー/バイオ）による人間の強化と代償
+  weight: 0.7
+  quotes:
+  - quote: 遺伝子と生体を強化し、薬物で限界の壁を破壊する。その爆発力は凄まじいが、反動もまた大きい。大量の呪詛成分を含んだ薬物の常用で全身の運動機能に支障をきたしているのだろう、男は既に死に体だった。
+    paragraph: p160-p161
+    quote_verified: true
+  note: サイバーカラテやバイオカラテといった技術による力の獲得が、肉体の破綻という深刻な代償を伴うことが描かれ、技術移転の倫理的問題を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 成長のための残酷な分離（品森晶と難民少女）
+  weight: 0.6
+  quotes:
+  - quote: 「ありがとう。でもやっぱり駄目。わたしといるなら、泳ぎが上手くないと」
+    paragraph: p255
+    quote_verified: true
+  note: 庇護者が保護対象を突き放すことで、自立（泳ぐ力）を強要する構造は、厳格な育成論や「自己責任」のメタファーとして機能している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的記号としての存在証明
+  weight: 0.5
+  quotes:
+  - quote: ――対象の到着を確認。起源相似率99.9999％まで一致。脅威度は皆無。現在ランキング一位。
+    paragraph: p263
+    quote_verified: true
+  note: キャラクターが数値化された属性（ランキング、脅威度）によってその価値を定義される世界観は、メタフィクションとしてのゲーム構造そのものを主題としている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

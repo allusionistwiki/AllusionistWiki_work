@@ -1,0 +1,177 @@
+chapter: ch5346
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 3
+  themes: 3
+  quotes_verified: 15
+  quotes_total: 16
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p4]]'
+  object: '[[ME_autonomous_driving_systems]]'
+  claim: 【サイバーカラテ道場】による戦局の自動最適化と実行は、現代の自動運転技術やAIによるリアルタイム戦略制御（例：F1のテレメトリ解析）のSF的拡張として描かれている。
+  quote: 【弾道予報Ver2.1】によるボールの軌道予測及び想定しうる数秒後の選手たちの動きを表示。流動的な戦局に合わせて最適な集団戦術を導き出してオートで実行。
+  paragraph: p4
+  confidence: strong
+  quotes:
+  - quote: 【弾道予報Ver2.1】によるボールの軌道予測及び想定しうる数秒後の選手たちの動きを表示。流動的な戦局に合わせて最適な集団戦術を導き出してオートで実行。
+    paragraph: p4
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p19]]'
+  object: '[[ME_soccer_midfielder_role]]'
+  claim: 中衛（ミッドフィールダー）の役割、特にパス回しと攻防両面での奔走は、サッカーにおけるセンターミッドフィルダー（例：パオロ・マルディーニやトニ・クロースのようなゲームメーカー兼守備役）の戦術的機能を反映している。
+  quote: 五番で中衛である俺はフィールド中を行ったり来たりしてパスを繋ぎ、目まぐるしく切り替わっていく攻守両方をこなす役目だ。
+  paragraph: p19
+  confidence: strong
+  quotes:
+  - quote: 五番で中衛である俺はフィールド中を行ったり来たりしてパスを繋ぎ、目まぐるしく切り替わっていく攻守両方をこなす役目だ。
+    paragraph: p19
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p43]]'
+  object: '[[ME_cowboy_aesthetics]]'
+  claim: テンガロンハットを着用し、ヘルメットを被らないことで防御力（HP）を犠牲にして敏捷性や射撃精度（攻撃力）を特化させるゼドのスタイルは、西部劇やFPSゲームにおける「軽装・高機動型」キャラクターのクリシェを模倣している。
+  quote: どうしてもヘルメットを被ろうとしないテンガロンハットの男はパスを華麗に受け取り、そのまま守りを振り切って弾丸のようなシュートを決める。
+  paragraph: p43
+  confidence: moderate
+  quotes:
+  - quote: どうしてもヘルメットを被ろうとしないテンガロンハットの男はパスを華麗に受け取り、そのまま守りを振り切って弾丸のようなシュートを決める。
+    paragraph: p43
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p154]]'
+  object: '[[ME_etymology_of_artificial_life]]'
+  claim: 「アルト」が「all-（高貴な）」を語源とし、「神に造られたもの＝人形」を意味する設定は、創世記やギリシャ神話における人造人間（ゴーレム、ピグマリオン）の概念と、人工知能・AIの「擬似生命」としての側面を重ね合わせている。
+  quote: 神に造られたもの、すなわち人間や子供、更にそこから派生して人形。
+  paragraph: p154
+  confidence: strong
+  quotes:
+  - quote: 神に造られたもの、すなわち人間や子供、更にそこから派生して人形。
+    paragraph: p154
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p69]]'
+  object: '[[ME_military_medical_triage]]'
+  claim: 修道騎士が「暴動鎮圧」で負傷し、治療経験がゲーム内での回避能力（メタスキル）として転用される構造は、現実の軍隊における戦闘経験が市民社会での危機管理や医療対応にフィードバックされるプロセスを象徴している。
+  quote: 手榴弾代わりに用いられる殺傷力の高められたラフディーボールは修道騎士が使用する鎧を貫通してくる為、大量の死傷者が出たのだという。
+  paragraph: p69
+  confidence: moderate
+  quotes:
+  - quote: 手榴弾代わりに用いられる殺傷力の高められたラフディーボールは修道騎士が使用する鎧を貫通してくる為、大量の死傷者が出たのだという。
+    paragraph: p69
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_arma_past_identity
+  note: アルマが修道騎士バル・ア・ムント（バル）と面識があり、銃士（カルカブリーナ）の父親と関係していたことが示唆されている。
+  quotes:
+  - quote: 「ああ、どっかで見たと思ったら、バルのとこの。確か名前、ライガだっけ？」
+    paragraph: p78
+    quote_verified: true
+  - quote: 「ほとんど無いよ。ちょっと見かけたことがあるくらいかな。父親の方とはそれなりに縁があったんだけど」
+    paragraph: p86
+    quote_verified: true
+  expected_payoff: アルマの過去の所属組織や、バル・ア・ムントとの因縁が後の展開で明かされ、チーム内での信頼関係や敵対勢力との繋がりに影響を与える可能性がある。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_alette_origin_and_power
+  note: アレッテ・イヴニルが「マラードの子孫」を自称し、アルトと同名（語源）を持つ存在として描かれている。その「貴人」の雰囲気や邪視の力についての詳細。
+  quotes:
+  - quote: 「マラードの子孫、って自称してるみたいだね。」
+    paragraph: p123
+    quote_verified: false
+  - quote: どぶのような瞳が、ぬめりつくような邪視となって世界を撫でていく。
+    paragraph: p135
+    quote_verified: true
+  expected_payoff: アレッテの正体（人形姫）とその力の源、マラードとの真の関係性が明かされ、六王やミヒトネッセとの対比の中で重要な役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_rhubarb_obsession
+  note: ルバーブがハーフタイム中にマラードとアレッテを「普段より小さく見えて仕方が無い」ほど注視している。
+  quotes:
+  - quote: 並んで歩く美しい男女に静謐な視線を送るルバーブの姿が、どうしてか普段より小さく見えて仕方が無かった。
+    paragraph: p162
+    quote_verified: true
+  expected_payoff: ルバーブの動機（愛憎、嫉妬、保護対象としての関心など）が明かされ、後半戦での彼の行動変化（攻撃対象のシフトや自爆的な守備行為）に繋がると示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術的知性による統制と、肉体・呪術による混沌との対立
+  weight: 0.8
+  quotes:
+  - quote: 【サイバーカラテ道場】への攻撃を行っているのだった。
+    paragraph: p9
+    quote_verified: true
+  - quote: つまり初期条件は五分なのだが、それゆえに地力の差がはっきりと表れてしまっていた。
+    paragraph: p12
+    quote_verified: true
+  note: デジタル的な最適化（弾道予報）が、生物的・呪術的な不規則性（敵の妨害、肉体的消耗）によって無力化される構造。技術万能主義への批判と、身体性の回復。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲームルール（数値的勝利）と実体（肉体的損耗）のズレ
+  weight: 0.7
+  quotes:
+  - quote: 圧倒的大差をつけてリードしているというのに、まるで優勢という気がしない。
+    paragraph: p49
+    quote_verified: true
+  - quote: ラフディーボールでは、得点のアドバンテージよりも選手の消耗度が重要視されるからだ。とりわけ前半戦は。
+    paragraph: p54
+    quote_verified: true
+  note: スコアボード上の勝利が、実際の生存・戦闘能力の低下を伴う「ゼロサムゲーム」的な構造。メタファーとしての「成功の代償」。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人造物（人形）と人間性の境界、そして「名前」による本質の決定
+  weight: 0.6
+  quotes:
+  - quote: 眼球が機械的な音を立てて視界映像を拡大する。
+    paragraph: p116
+    quote_verified: true
+  - quote: 神に造られたもの、すなわち人間や子供、更にそこから派生して人形。
+    paragraph: p154
+    quote_verified: true
+  note: アレッテが「球体関節人形」であることと、その名前（アルト＝all-）が示す神話的起源を通じて、「人間とは何か」「人造物の魂は認められるか」という問いを提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

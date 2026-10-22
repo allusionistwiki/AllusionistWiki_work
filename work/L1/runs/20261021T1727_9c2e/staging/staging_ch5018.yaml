@@ -1,0 +1,212 @@
+episode: ch5018
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_エスフェイル]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5018_エスフェイル_threatens_アキラの命を盾にした拘束解除要求_p100
+        quote: '『お前の名をもらったぞ！　さあどう料理してやろうか！　おっと、動くなよ呪術使い。そいつの命が惜しいのなら私の拘束を解除して貰うぞ』
+
+          一気に逆転した形勢に気を良くして、俺に注意を払うのも忘れている。'
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_エスフェイル_says_時間経過への余裕_p43
+        quote: '同じ事をエスフェイルも考えたのだろう。愉快そうな声音が辺りに響く。
+
+          『どうやら、時間は私に味方したようだな！』'
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_エスフェイル_says_同胞を殺したことへの心情の問い_p5
+        quote: 『同胞をその手にかけた今、貴様らはどんな気持ちなのだろうなぁ？　ん？　苦しいか？　悲しいか？　それとも私が憎いのか？』
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_エスフェイル_says_アズーリアへの怒り_p68
+        quote: 『おのれ、おのれおのれおのれ狂信者ごときがっ』
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_エスフェイル_says_アキラへの効力行使の宣言_p86
+        quote: 『く、くはははは！　そうだ、ようやく効力を発揮したようだな、シナモリ・アキラ！』
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_エスフェイル_reveals_アキラの名前を掌握した経緯_p93
+        quote: 『貴様の名前を掌握させて貰った。すでにシナモリ・アキラの命運は我が手の中よ。いや、少し痛めつけたらあっさりと喋ったよ、あの剣士。奴が貴様の名前だけ知っていたのは僥倖であった。月と同化させた四人は精神が破壊されるまで拷問を重ねても何も喋らなかったがね。やはり同じ地上の者でも仲間意識に差はあるのか』
+        locator: {}
+        spoiler_after: ch5018
+    action:
+      observations:
+      - event_ref: E_ch5018_エスフェイル_other_アズーリアへの攻撃準備_p18
+        quote: 待っていたというようにエスフェイルの四本の棘が牙を剥こうとする。
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_エスフェイル_captures_動きの封じられた状態_p34
+        quote: 見事な奇襲だった。エスフェイルはこれで完全に動きを封じられた。
+        locator: {}
+        spoiler_after: ch5018
+    visual:
+      observations:
+      - event_ref: E_ch5018_エスフェイル_appears_黒棘の嘲笑_p8
+        quote: 'ことさらに人の神経を逆撫でしようという意図が透けて見える、悪意の込められた言葉。
+
+          四本の黒棘が小さく飛び跳ねながら嘲笑っていた。'
+        locator: {}
+        spoiler_after: ch5018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5018_アキラ_other_精神攻撃_p11
+        quote: '憤りがわき上がるが、寸前で霧散する。
+
+          わかりやすすぎる程に単純な精神攻撃だ。しかし、俺にはもうそれは通用しない。
+
+          カインの死に際の言葉と、アズーリアの囁きが耳の奧でリフレインする。'
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_アキラ_observes_残り時間100秒の危機_p36
+        quote: 'しかし、と俺は浮き足立つ内心を戒めた。勝利が決まったわけではない。
+
+          残り、100秒。
+
+          それだけの時間、あの四本の黒棘を捕縛し続けることが、アズーリアにできるのか？'
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_アキラ_other_エスフェイルへの介入_p77
+        quote: '視界の隅を確認すると、残り45秒。もし杖の使用回数がこれで打ち止めなら、そろそろやばい。
+
+          考える前に走り出す。
+
+          40秒でいい、俺が奴の攻撃を受け流して先へ繋ぐ。'
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_アキラ_loses_全身の力_p84
+        quote: 'しかし実際のところ、アズーリアの言葉が本当だったのか嘘だったのか。
+
+          それを確かめる術の無いまま、俺は窮地に立たされる。
+
+          アズーリアではなく、俺がだ。
+
+          がくりと、全身から力が抜ける。前のめりに倒れて、そのまま身動きがとれなくなった。'
+        locator: {}
+        spoiler_after: ch5018
+    visual:
+      observations:
+      - event_ref: E_ch5018_アキラ_observes_流れた血の多さ_p3
+        quote: 流れた血の多さを思えば、その心中を想像することは憚られた。
+        locator: {}
+        spoiler_after: ch5018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アズーリア]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5018_アズーリア_attacks_エスフェイル_p17
+        quote: '挑発だと分かっていて、感情を制御できる俺ですらこれだ。
+
+          アズーリアは俺が待てと言うより遙かに速く飛び出して行く。'
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_アズーリア_uses_杖による光の帯拘束_p26
+        quote: '「挑発に、引っかかったと、思ったか？」
+
+          その動きが、アズーリアに向いたまま虚空で停止する。
+
+          四つに分かれた光の帯が、それぞれエスフェイルを拘束しているのだ。
+
+          アズーリアの槌矛が、展開している。'
+        locator: {}
+        spoiler_after: ch5018
+    relationship:
+      observations:
+      - event_ref: E_ch5018_アズーリア_other_六人衆の生存者_p2
+        quote: そう、あの六人の中で、今や生き残っているのはアズーリアひとりだけなのだ。
+        locator: {}
+        spoiler_after: ch5018
+    speech:
+      observations:
+      - event_ref: E_ch5018_アズーリア_says_杖の使用回数と勝因の宣言_p32
+        quote: 「私を固有の邪視も呪文も使い魔も持たない、未熟な呪術使いだと侮ったのがお前の敗因だ。私にも、杖の用意くらいはある。たった四回しか使えない杖だが、今ここで四回分使ってお前を捕まえるのに何の支障も無い！」
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_アズーリア_asks_エスフェイルへの質問_p45
+        quote: '「そういう言葉が出てくるってことは、やっぱり私たちの会話を、あの死んだ抜け殻から聞いていたわけか」
+
+          「何？」'
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_アズーリア_asks_エスフェイルへの追及_p54
+        quote: '「それで？　どうして四回しか使えないという私の言葉を素直に信じた？」
+
+          『馬鹿な』'
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_アズーリア_other_エスフェイル手品師以下_p61
+        quote: 「私もお前も呪術使い。言葉を弄して呪文を手繰るのがその本領の筈。私が盗聴を警戒して残り時間を偽るのも、仲間の死に冷静さを欠いてしまう激情家である振りをするのも、杖の使用回数を過少に申告するのも、当然予想してしかるべき。それを怠ったお前は、呪術使いとしては三流以下――いいや、こうやって隠し技に対応し損なうのは二度目だったな。訂正しよう、エスフェイル。お前は『手品師』以下だ」
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_アズーリア_asks_残りの杖の使用回数への問いかけ_p70
+        quote: 「さて、私はあと何回杖を使えると思う？」
+        locator: {}
+        spoiler_after: ch5018
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_アズーリアの槌矛]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5018_アズーリアの槌矛_has_property_瑠璃のような宝石_p28
+        quote: 俺は見誤っていた。あれはカインのものとも微妙にその形態が異なる。先端部が花弁のように複雑に広がり、柄が伸張していく。花弁の中央には、空のような青い輝きを放つ瑠璃のような宝石がある。
+        locator: {}
+        spoiler_after: ch5018
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_光の帯]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5018_光の帯_other_輪郭の薄さ_p40
+        quote: だんだんと光の帯の輪郭が薄くなっていく。このままだと、術の効力が解けてしまうのではないか？
+        locator: {}
+        spoiler_after: ch5018
+      - event_ref: E_ch5018_光の帯_disappears_消滅_p51
+        quote: 続く言葉を問いただす暇も無く、光の帯が消滅してしまう。
+        locator: {}
+        spoiler_after: ch5018
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_黒棘]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5018_黒棘_escapes_拘束からの解放_p52
+        quote: 黒い棘が歓喜に打ち震えるように飛び上がり、射出される。
+        locator: {}
+        spoiler_after: ch5018
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_アズーリアの杖]]'
+  entity_type: item
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5018_アズーリアの杖_stops_黒棘の再拘束_p58
+        quote: 'しかし、再び杖から伸びた光の帯によってその行く手を阻まれる黒棘たち。
+
+          杖の先に輝く宝石には、未だ翳りすら見られない。'
+        locator: {}
+        spoiler_after: ch5018
+  first_appearance_candidate: true
+- canonical_target: '[[E_relation_カイン]]'
+  entity_type: relationship
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5018_カイン_thinks_アキラ_p96
+        quote: そうだ。あの青年には、名前を教えていたのだった。
+        locator: {}
+        spoiler_after: ch5018
+  first_appearance_candidate: true

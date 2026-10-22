@@ -1,0 +1,320 @@
+episode: ch5495
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_マイコニド解放戦線のリーダー]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5495_マイコニド解放戦線のリーダー_confesses_呪縛からの解放願望_p101
+        quote: 「約束するから助けてくれ、『汚物屋』などという名で人生を縛られるのはもう嫌だ！」
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_マイコニド解放戦線のリーダー_asks_怪物を殺すこと_p77
+        quote: 「この怪物どもを殺してくれ」
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_アキラ_attacks_キノコ人部分_p109
+        quote: 巨体の真下に到達した斧は怪物の影を引き裂いて敵の『キノコ人部分』のみを破壊する。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_アキラ_uses_回転呪力戦術_p110
+        quote: 車輪連接棍（ホイールフレイル）、あるいは風船鉄球（バルーンハンマー）のような回転呪力を応用した私の新しい戦術だ。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_アキラ_attacks_ライラ_p328
+        quote: 白騎士の射撃が虹犬最大の武器を弾き飛ばし、最大の隙を突いた私の斬撃が袈裟懸けに入って抜けていく。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_アキラ_kills_ライラ_p350
+        quote: ライラはそうして無惨に死んでいった。
+        locator: {}
+        spoiler_after: ch5495
+    speech:
+      observations:
+      - event_ref: E_ch5495_アキラ_thinks_戦いを選ぶことへの葛藤_p23
+        quote: ふと、『また人助けよりも戦いを選んでしまった』という思考が浮かぶ。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_アキラ_thinks_白騎士への信頼と敵意_p387
+        quote: 同じ修道騎士であるこの相手は、いつか私の敵になるだろう。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_アキラ_observes_ローザの実力_p46
+        quote: 軽そうな雰囲気に反して実力は確か。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_アキラ_thinks_ローザへの警戒_p50
+        quote: 私がアレッシオを攻撃したことはまだ伝えていない。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_三匹の怪物]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_三匹の怪物_fights_理性を失ったように暴れ狂う_p11
+        quote: 三匹の怪物は理性を失ったかのようにのたうち回り、肉体を膨張させながら頭を振って暴れ狂う。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_夢馬ナイトメア]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5495_夢馬ナイトメア_appears_二足歩行の黒い馬_p129
+        quote: 二足歩行の黒い馬。これが夢馬（ナイトメア）か。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_マロゾロンド神]]'
+  entity_type: character
+  aspects:
+    relationship:
+      observations:
+      - event_ref: E_ch5495_マロゾロンド神_binds_夢馬_p150
+        quote: 目の前の同族は、かつての私のようにマロゾロンド神に干渉されている。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_黒蟲騎士団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_黒蟲騎士団_other_集落の住民_p16
+        quote: 集落の住民に襲いかかった怪物を止めたのは揃いの黒服を来た男たちだ。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_黒蟲騎士団_has_property_高い練度_p18
+        quote: 黒蟲騎士団の練度は高かった。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_夢馬]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_夢馬_transforms_朱色の霞_p162
+        quote: その中から溢れ出したのは朱色の霞。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_org_敵集団]]'
+  entity_type: organization
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_敵集団_uses_神の御許からの呪力_p168
+        quote: 一体どこから？　恐らくは神話的時空、すなわち『神の御許』からだ。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ライラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_ライラ_fights_逆さ男と蜻蛉アヴロノ_p174
+        quote: 虹犬がレメス神への信仰を叫んだ。傘の先端から放たれた光の矢は逆さ男と蜻蛉アヴロノを打ちのめしていく。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_ライラ_transforms_浄界_p66
+        quote: 楽しそうに笑うライラの背後に虹が架かり、世界が無限の青空へと上書きされていく。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_虹犬の貴婦人]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_虹犬の貴婦人_fights_キノコ人武装勢力_p2
+        quote: 虹犬の貴婦人とキノコ人武装勢力がもたらした破壊は甚大だった。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_白騎士]]'
+  entity_type: character
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5495_白騎士_appears_空から飛来した矢_p206
+        quote: 白騎士はそこにいた。
+        locator: {}
+        spoiler_after: ch5495
+    action:
+      observations:
+      - event_ref: E_ch5495_白騎士_attacks_ライラ_p225
+        quote: 白騎士が放つ五色の矢が的確にライラを捉えてダメージを与えている。
+        locator: {}
+        spoiler_after: ch5495
+    speech:
+      observations:
+      - event_ref: E_ch5495_白騎士_other_レイシズム変数_p238
+        quote: 「レイシズム変数（ヴァリアブル）。ステレオタイプ適用上限を拡張。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_白騎士_other_キノコ人の処遇_p370
+        quote: 「だが、ティリビナの街路樹の民は地上が定めた眷族種だ。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_白騎士の部下たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_白騎士の部下たち_other_戦闘_p220
+        quote: 鋭い声に呼応して旧式の神働装甲を身に付けた修道騎士たちが戦場に乱入してくる。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_蜻蛉の虫騎士]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_蜻蛉の虫騎士_defeats_老キノコ人と融け合った怪物_p261
+        quote: 老キノコ人と融け合った蜻蛉の巨大害虫がそれに巻き込まれ、全身をずたずたに引き裂かれていく。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ミルーニャ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_ミルーニャ_attacks_岩肌の僧兵_p273
+        quote: 背後から叩き込まれた見慣れない籠手が頑強な岩肌を砕いたのだ。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ペイル]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_ペイル_attacks_巨人の一撃_p282
+        quote: 態勢を立て直したペイルが金鎖を砕く。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ラープ人の男]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_ラープ人の男_attacks_爆撃_p29
+        quote: 赤肌のラープ人。両手に灯した巨大な猛火はおそらく『爆撃』。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_ラープ人の男_attacks_貪炎_p38
+        quote: 『爆撃』ではない。より上位の『貪炎』だ。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ローザ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_ローザ_helps_ティリビナ人隊員_p299
+        quote: ローザが使用したのは対象に呪力を分け与え、癒すための術だったのだ。
+        locator: {}
+        spoiler_after: ch5495
+      - event_ref: E_ch5495_ローザ_saves_住民_p45
+        quote: 彼女は臆すること無く炎の蛇を抱え込む。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_攻撃的な呪い]]'
+  entity_type: terminology
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5495_攻撃的な呪い_has_property_余波_p3
+        quote: 攻撃的な呪いの余波で建物は倒壊し、周辺に瓦礫が飛び交う。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_黒服のアヴロノたち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_黒服のアヴロノたち_other_怒号を上げて走り回る_p3
+        quote: 黒服のアヴロノたちが怒号を上げて走り回る。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ティリビナ人隊員]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_ティリビナ人隊員_defeats_ラープ人の男_p310
+        quote: 膨張し続ける熱を制御しきれず、不死にも思える生命力の男はそのまま自壊していった。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_逆さまに浮遊する男]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_逆さまに浮遊する男_other_幻術_p32
+        quote: 逆さまに浮遊する蓬髪の壮年男性が指を弾く。直後、彼の目の前で無数に見えていた火の玉が掻き消えた。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_私たち]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5495_私たち_arrives_混乱の真っ只中_p4
+        quote: 私たちはそんな混乱の真っ只中に飛び込んでいった。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_割れた卵]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5495_割れた卵_disappears_塵_p6
+        quote: 割れた卵が塵となり、廃墟と化した建物の残骸に紛れていく。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アヴロノ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5495_アヴロノ_other_共闘_p60
+        quote: 「元より第五階層と敵対するつもりはない。人質の安全を優先したために連絡が遅れたことは謝罪しよう」
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_虫王の呪力]]'
+  entity_type: terminology
+  aspects:
+    symbolic:
+      observations:
+      - event_ref: E_ch5495_虫王の呪力_transforms_怪物_p7
+        quote: 現れたのは天道虫、蟷螂、蜻蛉にそれぞれキノコを混ぜたような怪物。
+        locator: {}
+        spoiler_after: ch5495
+  first_appearance_candidate: true

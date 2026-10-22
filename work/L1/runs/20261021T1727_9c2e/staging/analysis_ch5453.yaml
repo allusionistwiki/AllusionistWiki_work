@@ -1,0 +1,133 @@
+chapter: ch5453
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_colcesca_ice_sphere_core
+  note: コルセスカがミヒトネッセの持つ『氷球』を核として『創造（クラフト）』する計画。この「核」が何であり、なぜ必要とされているのか。
+  quotes:
+  - quote: 冬の魔女はあんたが持ってる『氷球』を核にして『創造（クラフト）』するつもりみたいだけど
+    paragraph: p183
+    quote_verified: true
+  expected_payoff: コルセスカによる大規模な呪術行使のトリガーとなり、ミヒトネッセの存在そのものが世界改変の資源として消費・変換される展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_colcesca_fangs_absorb_relics
+  note: コルセスカの牙が「破壊されたクレイとミヒトネッセの首元」ではなく、遺品（ぜんまいばね、氷刃）に接合される意味。
+  quotes:
+  - quote: 二つの牙が侵入していったのは、原形も留めずに破壊されたクレイとミヒトネッセの首元ではない。
+    paragraph: p247
+    quote_verified: true
+  - quote: ミヒトネッセから奪ったぜんまいばね。それから、自身で『創造（クラフト）』した『氷刃』。それぞれに口づけるように、左右の牙と接続する。
+    paragraph: p249
+    quote_verified: true
+  expected_payoff: 物理的な蘇生ではなく、「概念」や「痕跡」を通じた存在の再構成（フラグメント収集型復活）が行われる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trisula_deception_ruteet
+  note: 「トリシューラがルウテトを欺いている今しか機会は無い」という条件の具体的内容と、その欺瞞の構造。
+  quotes:
+  - quote: トリシューラがルウテトを欺いている今しか機会は無い。
+    paragraph: p241
+    quote_verified: true
+  expected_payoff: ルウテト（敵対存在）の認識や能力に干渉する特殊な戦術的隙間であり、コルセスカがその隙を突いて介入する必然性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_mihitonesse_dance_as_destruction
+  note: ミヒトネッセが「死ね」と念じることで手足が復活し、舞いが「破壊のための表現」になるメカニズム。
+  quotes:
+  - quote: 死ねとひとつ念じると、かつての手足が復活する。殺してやると叫んで猛ると、美しい容姿が再現される。
+    paragraph: p157
+    quote_verified: true
+  expected_payoff: ミヒトネッセの戦闘スタイル（舞）が、自らの死や破壊をエネルギー源として機能する「逆説的な生命力」を持つことの確立。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_tremie_fauna_nature
+  note: トレミーとファウナが「誰かの内面にも似たような役割を担っているはず」と消去される描写。彼らがミヒトネッセ個人だけの幻想なのか、普遍的な精神構造（集合的無意識）の現れなのか。
+  quotes:
+  - quote: きっと誰かの内面でも、似たような役割を担っているはずだから。
+    paragraph: p180
+    quote_verified: true
+  expected_payoff: 他のキャラクター（クレイやコルセスカなど）の内面世界にも同様のメンター像が存在する可能性を示唆し、作品全体の精神世界描写の構造を共有させる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「無機質な理想」への回帰と、「生（肉体的欲望）」の受容による自己確立
+  weight: 0.9
+  quotes:
+  - quote: 顔も手足も性差も無い無機質なトルソーになって、人類全てが綺麗な機械として踊り続けていればいいのに
+    paragraph: p105
+    quote_verified: true
+  - quote: 私は人形、どこまで行っても運命の奴隷。けれどそれでも輝きましょう。
+    paragraph: p207
+    quote_verified: false
+  note: ミヒトネッセは「欲望なきトルソー」を理想とするが、最終的にはその身体性（リビドー、嫌悪、死への恐怖）を含む全てを受け入れ、「奴隷」としての運命を受容することで輝くことを選ぶ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 観客（他者の視線）による存在の確定と、舞台化された世界
+  weight: 0.8
+  quotes:
+  - quote: コルセスカは邪視それ自体と化して役者の存在を確定させていた。
+    paragraph: p289
+    quote_verified: true
+  - quote: 演者（クレイ）には観客（わたし）が必要で、観客（わたし）には演者（ミヒトネッセ）が必要だ。瞳が映した透明な壁の向こうに、舞台は立ち現れる。
+    paragraph: p279
+    quote_verified: true
+  note: コルセスカの「凝視」によって世界が凍結・固定され、登場人物たちの存在が確定する構造。これは「見られること＝存在すること」というメタフィクション的テーマを強く提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己投影された内面空間での再生（臨死体験のメタファー）
+  weight: 0.7
+  quotes:
+  - quote: ここは死の淵、臨死体験で垣間見る自己の内面とかあの世とこの世の境ってとこ
+    paragraph: p27
+    quote_verified: true
+  - quote: これは自分自身との対話だったのだから。
+    paragraph: p203
+    quote_verified: true
+  note: ファウナやトレミーが「内側の闘志の具現」として登場し、ミヒトネッセ自身の葛藤と和解を描くプロセスは、外部の介入ではなく内部心理のプロセスとしての再生を強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 表現（舞）の本質は「美」ではなく「破壊」である
+  weight: 0.6
+  quotes:
+  - quote: 破壊のために、表現は創造される。死ねとひとつ念じると、かつての手足が復活する。
+    paragraph: p156
+    quote_verified: true
+  - quote: 舞とか、身体とか、宿命とか、自分とか、衝動に比べたら全ては些末事。全てに先立つ自分の根源的衝動。それを見つけた。
+    paragraph: p172
+    quote_verified: true
+  note: 芸術や美の追求ではなく、死への恐怖や破壊衝動こそが表現の原動力であるという逆説的な定義付け。ミヒトネッセは「踊るため」に生きるのではなく、「壊すために（＝生を肯定するために）」踊る。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

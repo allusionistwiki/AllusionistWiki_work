@@ -1,0 +1,133 @@
+chapter: ch5524
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_フェロニアの正体と運命
+  note: ゲーム内の心臓に現れた少女『フェロニア』。パーンが呟いた名前であり、スチル画像で登場する。ダウザールが愛した（または支配した）少女とされるが、その詳細な関係性や末路が伏線として残されている。
+  quotes:
+  - quote: それを見たパーンが小さく『フェロニア』と呟くと、画面が一瞬だけ切り替わり笑顔で振り返る少女の一枚絵（スチル）が表示されてすぐに消えた。
+    paragraph: p35
+    quote_verified: true
+  - quote: ダウザールに愛する少女を奪われた男は復讐のために強大な『空使い』に挑んでいたのだ、というストーリー。
+    paragraph: p133
+    quote_verified: true
+  expected_payoff: フェロニアが現実の誰か（ガルズ？ミルーニャ？）と関連付けられる、またはその転生体が登場する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ガルズへの呼び声
+  note: リーナが虚空へ向けて小さく呼んだ名前『ガルズ』。大歓声にかき消されたこの名前が誰を指すのか、またその人物が今後の展開で関与する可能性。
+  quotes:
+  - quote: ぽつりと形になった言葉は、ここにはいない誰かの名前だ。「ガルズ」呼び声は大歓声に押しつぶされて消えていった。
+    paragraph: p268-p272
+    quote_verified: true
+  expected_payoff: ガルズというキャラクターの登場、またはリーナが救いを求める対象としての再登場。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_エンハドーラの真価
+  note: ダウザールが召喚した機甲箒『エンハドーラ』は、エンハとナックスの『生ける箒』の原型である。始祖としての権威を示す道具だが、その力がどこまで及ぶのか、兄弟との対決での役割が示唆されている。
+  quotes:
+  - quote: 古めかしい型の機甲箒の形状は直前にエンハとナックスの兄弟が見せた『生ける箒』の秘術と酷似していた。というより、その原型なのだろう。
+    paragraph: p169
+    quote_verified: true
+  expected_payoff: エンハ・ナックス兄弟がダウザールを越えるための鍵となる可能性、またはダウザールの力の源泉としての詳細な描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_特別参加枠の真意
+  note: 機械女王とクロウサー家が協議したとされるダウザールの特別参加枠。段取りがスムーズであり、事前に予定されていたような動きを見せる。これは誰かの思惑（演出家としてのコルセスカ？）によるものか。
+  quotes:
+  - quote: 機械女王とクロウサー家が協議した結果、新たにダウザールのために特別参加枠が用意されたという内容だったが、本当に協議がされたのかどうかは疑わしい。あまりにも段取りがスムーズで、まるで予定されていた事態のようだ。
+    paragraph: p178-p179
+    quote_verified: true
+  expected_payoff: コルセスカや機械女王による意図的な演出（ゲーム化）の証拠として回収される可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ミルーニャの転生先
+  note: 観客席での雑談で、ミルーニャが『王殺し』に転生していると予言されている。これが単なるジョークなのか、実際の展開を示唆しているのか。
+  quotes:
+  - quote: 「あのミルーニャって女の転生体がどのへんで登場するか賭けようぜ」「予言しとくわ、たぶん『王殺し』に転生してる」
+    paragraph: p252
+    quote_verified: true
+  expected_payoff: 今後の展開でミルーニャの転生体が重要な役割（特にパーンやダウザールに対して）を果たす可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲームという『遊び』が現実を侵食し、観客に善悪の価値観を強制するメタフィクション的構造
+  weight: 0.9
+  quotes:
+  - quote: 歴史よりも真に迫った虚構として立ち現れた『強敵を倒す遊び』はどれだけ文脈がわかりづらかろうと『そういうもの』として人々の意識に刷り込まれる。
+    paragraph: p123
+    quote_verified: true
+  - quote: 善と悪。美と醜。快と不快。すなわち、どちらが勝った方が痛快であるのか、という結論を誘導されたのだ。
+    paragraph: p128-p129
+    quote_verified: true
+  note: コルセスカの配信を通じて、ゲームの物語が現実の対決を規定し、観客の感情操作を行う過程が主題とされている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の当事者性：観客は第三者ではなく『読者』であり、その視線が世界を構成する力となる
+  weight: 0.8
+  quotes:
+  - quote: 「命を他者に預けるな！　観客席の有象無象ども、お前たちは既にただの第三者ではない！　記述の風が吹き荒れる航路、その枠こそがお前たち観客という読者だ！」
+    paragraph: p226
+    quote_verified: false
+  - quote: 幾つもの河川から流れ込む呪力。それは祝祭という大呪術が形にした目に見えない一個の世界。
+    paragraph: p191-p192
+    quote_verified: true
+  note: パーンの演説により、観客は物語を消費するだけでなく、その進行に影響を与える参加者（読者）であると定義される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 虚構への没入による現実の感情操作：ゲーム演出が現実に存在する人物の悲劇を『消費』させる
+  weight: 0.7
+  quotes:
+  - quote: 何故なら、臆面もなく第五階層に実在している再生者のパーンがそれに『乗っかった』からである。つらい過去を追想するように唇を噛み、一筋の雫が頬を流れる。
+    paragraph: p137
+    quote_verified: true
+  - quote: 『まさか、あの俗説が真実だったとは』と。あからさまな演出であるにもかかわらずだ。
+    paragraph: p140-p141
+    quote_verified: true
+  note: ゲーム内のフィクション（悲恋）が、現実のパーンという存在に投影され、観客に偽りの真実を信じさせる操作が行われている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 喪失の無効化：悲劇は『茶番』として機能し、個々の痛みは巨大な祝祭の中で消音される
+  weight: 0.6
+  quotes:
+  - quote: 悲劇も喜劇も、結局は呪術を機能させるための茶番に過ぎない。結果として大切なものは失われなかった。なのに、喪失感だけが胸の奥で反響し続けている。
+    paragraph: p261-p263
+    quote_verified: true
+  - quote: リーナ・ゾラ・クロウサーの言葉は、どこにも届かない。
+    paragraph: p273
+    quote_verified: true
+  note: ミルーニャを失ったリーナの個人的な悲しみは、世界全体の『遊び』の流れの中で無意味化され、孤立していく過程が描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

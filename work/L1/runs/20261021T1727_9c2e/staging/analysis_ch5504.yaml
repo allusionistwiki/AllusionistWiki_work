@@ -1,0 +1,236 @@
+chapter: ch5504
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{ch5504_p2}]]'
+  object: '[[ME_{real_world_sports_broadcasting}]]'
+  claim: レースの進行実況は、現実のプロレスや格闘技イベントにおける派手な煽り文句と賞金争奪戦への導入を模倣し、異世界の祭事を現代のエンタメ構造で構造化している。
+  quote: 「疾風怒濤のゴボウ抜き！　この大逆転を誰が予想できたでしょう？！　歌速の盛り上がりのみならず物理的な速度もとんでもない！」
+  paragraph: p2
+  confidence: strong
+  quotes:
+  - quote: 「疾風怒濤のゴボウ抜き！　この大逆転を誰が予想できたでしょう？！　歌速の盛り上がりのみならず物理的な速度もとんでもない！」
+    paragraph: p2
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{ch5504_p17}]]'
+  object: '[[ME_{narrative_structure_metaphor}]]'
+  claim: レースの着順操作を「テキストベース・サーキット」と呼称し、物語のプロット進行（文脈）が物理的なコースとして存在するというメタフィクショナルな比喩を用いている。
+  quote: このテキストベース・サーキットにおいては、文脈はコースの外にまで繋がっている。
+  paragraph: p93
+  confidence: strong
+  quotes:
+  - quote: このテキストベース・サーキットにおいては、文脈はコースの外にまで繋がっている。
+    paragraph: p93
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{ch5504_p115}]]'
+  object: '[[ME_{programming_language_abstraction}]]'
+  claim: 呪術基盤（フレームワーク）による現象の括りは、複雑なデータや機能を特定の名前で定義し再利用可能にするプログラミングにおける抽象化・インターフェース設計に類似している。
+  quote: 多様な形を持った呪術的現象をある特定の枠組みで括り、『ここからここまでは同じものということにする』とファジーな呪いに形と名を与えて扱いやすくするための工夫であり、文明が呪術を運用するための知恵だ。
+  paragraph: p115
+  confidence: moderate
+  quotes:
+  - quote: 多様な形を持った呪術的現象をある特定の枠組みで括り、『ここからここまでは同じものということにする』とファジーな呪いに形と名を与えて扱いやすくするための工夫であり、文明が呪術を運用するための知恵だ。
+    paragraph: p115
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_{ch5504_p72}]]'
+  object: '[[ME_{class_based_casting}]]'
+  claim: 巫女を戦闘能力の有無で「戦える巫女」と「五番以降の戦わない巫女」に二分する暗黙の了解は、RPGにおけるクラス（職業）システムやパーティ構成におけるロール分担の構造と一致する。
+  quote: ただ、暗黙の了解として巫女たちは二種類に分けられていた。
+  paragraph: p72
+  confidence: strong
+  quotes:
+  - quote: ただ、暗黙の了解として巫女たちは二種類に分けられていた。
+    paragraph: p72
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{ch5504_p158}]]'
+  object: '[[ME_{conservative_political_ideology}]]'
+  claim: 第四家威力派の保守性や「過去の血統保全」への執着は、現実の政治における復古主義的なイデオロギーや、伝統的名分を重視する権威主義的構造への風刺として機能している。
+  quote: 戦争、世代交代、政治体制の変化。複合的な要因で発生した変化は組織内部に不和をもたらす。そればかりか、その変化は過去に逆行するような保守的なものだ。
+  paragraph: p158
+  confidence: moderate
+  quotes:
+  - quote: 戦争、世代交代、政治体制の変化。複合的な要因で発生した変化は組織内部に不和をもたらす。そればかりか、その変化は過去に逆行するような保守的なものだ。
+    paragraph: p158
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{ch5504_p35}]]'
+  object: '[[ME_{smartphone_notification_overload}]]'
+  claim: 猫型端末への多数の通知と、それに対する「冷たくなじる」反応は、現代におけるスマホ・SNSの過剰な通知負荷（Notification Fatigue）とその受動的な煩わしさを描写している。
+  quote: 振動。手にした猫型端末に多数の通知。不甲斐ない相棒を冷たくなじる猫姫には少々我慢してもらうとして、それ以外の相手からの連絡に目を通してから指定された場所に移動。
+  paragraph: p35-36
+  confidence: moderate
+  quotes:
+  - quote: 振動。手にした猫型端末に多数の通知。不甲斐ない相棒を冷たくなじる猫姫には少々我慢してもらうとして、それ以外の相手からの連絡に目を通してから指定された場所に移動。
+    paragraph: p35-36
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: '[[E_{ch5504_p121}]]'
+  object: '[[ME_{semantic_hijacking_of_terms}]]'
+  claim: 「オルガンローデ」という名称（記号）に対して、マルガリータが本来の意味（派生・人工物）を排除し「威力竜のブレス」のみを正当とする行為は、言葉の定義権をめぐる政治的争い（意味の乗っ取り）を示している。
+  quote: 彼女のオルガンローデは、『第四紀竜オルゴーの滅びの呪文』であって『第九紀竜オルガンローデ』ではない。同じ音の同じ言葉、同一起源の呪い。
+  paragraph: p121
+  confidence: strong
+  quotes:
+  - quote: 彼女のオルガンローデは、『第四紀竜オルゴーの滅びの呪文』であって『第九紀竜オルガンローデ』ではない。同じ音の同じ言葉、同一起源の呪い。
+    paragraph: p121
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_{Tinktura_Motivation}
+  note: ティンクトゥラがマルガリータを通じてユディーアに伝えた「安全確保」の指示と、「鉄塊で殴られる」という脅し（牽制）の真意。彼女は何を知っており、なぜユディーアを監視しているのか。
+  quotes:
+  - quote: 「ティンクトゥラ様に丁寧に頼まれたら断れないだろ。それから伝言。『お祝いの準備をしておきますから、竜母様の安全が確保できたら真っ先に天頂城砦までお連れするように』だって。
+    paragraph: p61
+    quote_verified: true
+  - quote: （ティンクトゥラ様、あたしへの牽制のつもりかな）
+    paragraph: p130
+    quote_verified: true
+  expected_payoff: ティンクトゥラがユディーアを「監視対象」あるいは「危険因子」として扱っており、彼女の動きを制限・誘導しようとする政治的・宗教的な圧力として描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_{Nogoro_Ogoro_Pact}
+  note: 第四家威力派がノゴルオゴルオ（双頭トロル）と契約し、パーン・ガレニス・クロウサーを倒すために協力するという密約。この契約の代償と目的の詳細。
+  quotes:
+  - quote: 「私たち第四家威力派は、ノゴルオゴルオと契約したの。ディスケイム家の人間なら、この意味が理解できるでしょう？　私たちは彼と協力してパーンを倒す。
+    paragraph: p202
+    quote_verified: true
+  expected_payoff: ノゴルオゴルオとの取引に隠された「ディスケイム家にとっての意味（代償）」が明かされ、ユディーアがその契約の連鎖の中に組み込まれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_{Pan_Origin_Rumors}
+  note: パーンが第九家創竜派を興すきっかけであり、機械仕掛けの神体（杖）を開発した中心人物であるという伝承。これが「まがい物」認定される理由との関連。
+  quotes:
+  - quote: ある伝承では、六王のひとりパーンこそ竜神信教に第九家創竜派が興ったきっかけであると言い伝えられている。
+    paragraph: p187
+    quote_verified: true
+  - quote: 機械仕掛けの神体、杖のオルガンローデを開発した呪術師たちの中心人物こそがパーンであり、創竜派が成立して鈴国に根付いていく際にも大きな役割を担ったらしい。
+    paragraph: p190
+    quote_verified: true
+  expected_payoff: パーンの過去の行動と、第四家が彼を「大罪人」として排斥する歴史的・宗教的正当性の衝突が物語の核となる対立軸として浮上する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_{Yudia_Panic_Disorder}
+  note: ユディーアが「第四の巫女」マルガリータを極端に苦手とし、「第九の巫女」シャコ（エスメラルダ）を好むという、感情と役割の分断。この偏りの心理的根源。
+  quotes:
+  - quote: 真珠と貝殻は似て非なるもの。ユディーアが苦手で苦手で仕方がない『第四の巫女』がここにいる以上、『第九の巫女』が同じ場所に存在することは許されないのだ。
+    paragraph: p45-46
+    quote_verified: true
+  expected_payoff: ユディーアの「適当さ」「裏側への逃避」は、第四家（権威・過去）からの圧迫に対する防衛機制として機能しており、彼女が第九家（革新・現在）に共鳴する理由として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「正統性」を巡る権力闘争：既存の定義（オルガンローデ）を独占し、派生した技術や人物を「まがい物」として排斥する保守的暴力の正当化。
+  weight: 0.9
+  quotes:
+  - quote: 「まがい物はまがい物。堕落と妥協を私たちは否定すべきよ。それを作り出した大罪人がこのレースに出るって言うのなら、容赦なく叩き潰さなければ」
+    paragraph: p177
+    quote_verified: true
+  - quote: 第四家は威力竜オルゴーのみを正統な紀竜として定めており、オルゴーを参照して生み出された人工紀竜オルガンローデ及び第九家創竜派の存在そのものを認めていない。
+    paragraph: p179
+    quote_verified: true
+  note: マルガリータの攻撃は物理的な戦闘であると同時に、宗教的・歴史的な「定義」を巡るイデオロギー闘争として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクショナルな物語構造：レースというテキスト（文脈）の操作を通じて、登場人物たちの運命が決定される「物語の外側」からの干渉。
+  weight: 0.8
+  quotes:
+  - quote: このテキストベース・サーキットにおいては、文脈はコースの外にまで繋がっている。この流れを断ち切ろうとすれば、流れの中に身を置いている選手たちが纏う高速の『運命』に轢かれてしまう。
+    paragraph: p93
+    quote_verified: true
+  - quote: 物語の裏側。ユディーアの戦場はそこにある。
+    paragraph: p26
+    quote_verified: true
+  note: ユディーアが表舞台（主役）を避け、裏側で文脈を操作しようとする姿勢は、この作品特有の「物語の構造自体への介入」を主題化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 過去の圧迫と逃避：ディスケイム家としての血統的・宗教的な重荷（監視される老人たち）から逃れ、自己の存在を希薄化させることで生き延びようとするユディーアの生存戦略。
+  weight: 0.7
+  quotes:
+  - quote: 主役は誰かにやってもらえばいい。
+    paragraph: p25
+    quote_verified: true
+  - quote: どんなに故郷から遠く離れた場所に行っても、ユディーアはいつだって古くてかび臭い老人たちに監視されているのだ。
+    paragraph: p206
+    quote_verified: true
+  note: ユディーアの「安堵」や「裏側への退避」は単なる性格描写ではなく、組織の権威主義的圧力に対する構造的な逃避行動として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と神話の境界侵食：人工物（機械仕掛けの神体）が宗教的神話体系に組み込まれ、「自然な力」を模倣・置換することへの恐怖と拒絶。
+  weight: 0.6
+  quotes:
+  - quote: 救世主をあるべき姿でお迎えするために、最善を尽くすべきよ
+    paragraph: p185
+    quote_verified: true
+  - quote: 「滅び」は『威力』によってもたらされる。そこに『説明（じゅもん）』が入り込む余地はない。存在。熱。もちろん速度もそう。
+    paragraph: p113
+    quote_verified: false
+  note: 第四家が許容する「生来的な力」と、第九家が導入した「人工的な技術」の対立は、宗教的純粋性に対する技術侵襲へのアンチテーゼを示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

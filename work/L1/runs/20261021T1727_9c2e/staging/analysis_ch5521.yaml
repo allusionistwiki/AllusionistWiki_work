@@ -1,0 +1,238 @@
+chapter: ch5521
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 6
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_{p2-p15}]]'
+  object: '[[ME_{AR/VRゲームのHUDとUI破綻}] ]'
+  claim: 呪具の破損や視界の揺らぎ、操作不能なステータス表示は、現実の拡張現実（AR）アプリやゲーム画面がバグで崩壊し、プレイヤーが状況認識を失う現象をメタファーとして描いている。
+  quote: セレスティアルゲイズ製の星占円盤は半ばから溶解し、足元の血だまりに沈んでいる。... 視界が揺れる。激痛が走る。痛い、痛い、模造した人体が軋む、骨が折れ肉が裂け臓器が歪む。
+  paragraph: p3, p32
+  confidence: moderate
+  quotes:
+  - quote: セレスティアルゲイズ製の星占円盤は半ばから溶解し、足元の血だまりに沈んでいる。... 視界が揺れる。激痛が走る。痛い、痛い、模造した人体が軋む、骨が折れ肉が裂け臓器が歪む。
+    paragraph: p3, p32
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{p71-p77}]]'
+  object: '[[ME_{ギリシャ神話のネペンテス（忘却の薬）}] ]'
+  claim: 男の名前『空穂蔓（ネペンテス）』は、悲しみや苦痛を忘れさせるギリシャ神話の魔薬に由来し、彼の能力である「忘却」を象徴している。
+  quote: 「『空穂蔓（ネペンテス）』」... 生の苦痛に絡みつく甘やかな芳香。喪失の空虚さを埋める優しい感触。
+  paragraph: p71, p74-75
+  confidence: explicit
+  quotes:
+  - quote: 「『空穂蔓（ネペンテス）』」... 生の苦痛に絡みつく甘やかな芳香。喪失の空虚さを埋める優しい感触。
+    paragraph: p71, p74-75
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p29-p31}]]'
+  object: '[[ME_{AI/ボットの対話における文脈喪失}] ]'
+  claim: 戦闘中の敵が案山子（張りぼて）にすぎず、自分の記憶や状況認識が欠落している状態は、高度な知能を持つ存在が突然文脈を失い、無意味な応答を返すAIの故障や幻覚現象に似ている。
+  quote: 用意された案山子（グランツェ）に誘導され、まんまと囮に食いついた影の使い魔たちが炎であぶられているだけ。... つまり、今の自分は普通ではない状態に置かれているということではないのか。
+  paragraph: p29, p31
+  confidence: moderate
+  quotes:
+  - quote: 用意された案山子（グランツェ）に誘導され、まんまと囮に食いついた影の使い魔たちが炎であぶられているだけ。... つまり、今の自分は普通ではない状態に置かれているということではないのか。
+    paragraph: p29, p31
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p104-p106}]]'
+  object: '[[ME_{食虫植物（ハエトリソウ/ウツボカズラ）}] ]'
+  claim: ティリビナ人呪術師ネペンテスの戦闘スタイルは、物理的な攻撃ではなく「罠」によって獲物を捕らえる食虫植物の生態学的特性に構造的に一致している。
+  quote: ウツボカズラと同様に、代表的な食虫植物のひとつとして知られるハエトリソウ。ティリビナ人呪術師が操るそれらは、虫も人もまとめて喰らう。
+  paragraph: p105-106
+  confidence: explicit
+  quotes:
+  - quote: ウツボカズラと同様に、代表的な食虫植物のひとつとして知られるハエトリソウ。ティリビナ人呪術師が操るそれらは、虫も人もまとめて喰らう。
+    paragraph: p105-106
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_{p297-p318}]]'
+  object: '[[ME_{日本の歴史（律令国家/朝廷）と家系制度}] ]'
+  claim: 「鈴国」「キャカラノート王」「十二賢者」という設定は、古代日本や中国の王朝モデルをベースにしており、「彩域」による支配は歴史的な権力構造の転写である。
+  quote: 中原を支配した鈴国の継承者、黄金のキャカラノート。そして大王に仕えた初代十二賢者たち。
+  paragraph: p297-298
+  confidence: moderate
+  quotes:
+  - quote: 中原を支配した鈴国の継承者、黄金のキャカラノート。そして大王に仕えた初代十二賢者たち。
+    paragraph: p297-298
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_{p347}]]'
+  object: '[[ME_{植民地支配/従属関係}] ]'
+  claim: 黒檀の民が「お情けで『緑』を恵んでもらっていた」という記述は、歴史的な宗主国と植民地の搾取的・保護的関係を連想させる。
+  quote: 我々はな、奴らのお情けで『緑』を恵んでもらっていたのさ。なあ、過去と現在、マシなのは果たしてどちらだろうな？
+  paragraph: p347
+  confidence: strong
+  quotes:
+  - quote: 我々はな、奴らのお情けで『緑』を恵んでもらっていたのさ。なあ、過去と現在、マシなのは果たしてどちらだろうな？
+    paragraph: p347
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Nepenthes_Memory_Wipe
+  note: ネペンテスの「忘却」能力が戦闘終了後も継続し、敵（ペリュトン系ラハブ）だけでなく周囲の証拠や記憶を消去している様子。
+  quotes:
+  - quote: ぼやきながら、戦いの証拠を隠滅すべく呪符を撒いていく。
+    paragraph: p130
+    quote_verified: true
+  - quote: 片っ端から忘却させていくのは枝（ほね）が折れる。
+    paragraph: p133
+    quote_verified: true
+  expected_payoff: この「忘却」による隠蔽工作が、後に重要な証拠の欠落や情報の非対称性として物語を混乱させる引き金になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Erika_Memory_Retention
+  note: エリカは「忘却」の影響を受けず、すべてを記憶し続ける特異な能力を持つことが明言されている。
+  quotes:
+  - quote: ネペンテスでさえ、エリカの痛みは消すことができない。エリカは何も忘れない。全てを記憶し続けられる傑出した才覚ゆえに。
+    paragraph: p215-216
+    quote_verified: true
+  expected_payoff: ネペンテスの能力が通用しない相手として、物語の鍵となる「完全な記憶」を持つ存在としての役割が浮上する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Crowser_Lineage_Secret
+  note: クロウサー家が実は「空色」の賢者アルカェと結びついているという隠された歴史的経緯。
+  quotes:
+  - quote: 賢者アルカェはクロウサー家と結びついたのだ。... この事実が『上』であまり知られていないのは、おそらく都合が悪いからだ。
+    paragraph: p312, p316
+    quote_verified: false
+  expected_payoff: クロウサー家の正当性や権力の根拠に関する大きな展開、あるいは敵対勢力によるこの事実の暴露と政治的波乱に回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Lahab_Identity
+  note: 戦闘で敗北した「ペリュトン系の淫魔（ラハブ）」が誰であり、なぜ戦っていたのかという正体不明の存在。
+  quotes:
+  - quote: いったいどういう素性の人物なのか。ヴェールで覆い隠した己自身のように、まったくもって正体不明。
+    paragraph: p52
+    quote_verified: true
+  expected_payoff: 後にこのキャラクターの正体が判明し、主要な敵役または重要な情報源として再登場する可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Unem_Participation
+  note: 参加者リストにいないウネムが「入り込む余地」を見出し、「黒檀の民に栄光あれ」と叫んで出撃する準備をしている。
+  quotes:
+  - quote: だが、入り込む余地は確かに存在していた。... 「黒檀の民に栄光あれ。リビュエー01、出撃する」
+    paragraph: p391, p394
+    quote_verified: false
+  expected_payoff: レース本番でのウネムの急な参戦と、黒檀の民としての立場をかけたドラマが描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Roddy_Ascension
+  note: ロードデンドロン（ロディ）が「彩域の試練」を越え、「緑天主」となることが予言されている。
+  quotes:
+  - quote: じきにロディが届かせてくれるさ。今日と明日で彩域の試練を乗り越えれば、いよいよ緑天主が夢物語じゃなくなるんだ。
+    paragraph: p160
+    quote_verified: true
+  expected_payoff: ロードデンドロンの権能覚醒、およびそれに伴う勢力図の変動（緑の彩域の確立）に直結する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 忘却と記憶の非対称性がもたらす関係性の歪み
+  weight: 0.9
+  quotes:
+  - quote: ネペンテスでさえ、エリカの痛みは消すことができない。エリカは何も忘れない。全てを記憶し続けられる傑出した才覚ゆえに。
+    paragraph: p215-216
+    quote_verified: true
+  - quote: そのことに気付かないふりをしつつ、同胞が燃やす感情だけに共感を示す。
+    paragraph: p167
+    quote_verified: true
+  note: ネペンテスの「忘れる力」とエリカの「忘れられない苦痛」の対比を通じて、パートナー間の感情的な非対称性と依存構造を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 歴史の隠蔽と権力の正統性（イデオロギーの再定義）
+  weight: 0.8
+  quotes:
+  - quote: この事実が『上』であまり知られていないのは、おそらく都合が悪いからだ。... クロウサーがその権威を継承しているというのは、あまり喧伝したくない事実だろう。
+    paragraph: p316-318
+    quote_verified: false
+  - quote: 我々はな、奴らのお情けで『緑』を恵んでもらっていたのさ。
+    paragraph: p347
+    quote_verified: true
+  note: クロウサー家の歴史的ルーツや黒檀の民の従属関係といった「都合の悪い真実」が、現在の政治構造（レース）を影で支配していることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: システムとしての戦闘と機能不全（人間性の喪失）
+  weight: 0.6
+  quotes:
+  - quote: 全てがわからない。なぜ自分はここにいるのか。誰と戦っているのか。「忘れてしまいました」
+    paragraph: p47, p49
+    quote_verified: true
+  - quote: 占星術の奥義たる重力呪術をどうやって実行するのか、まるでわからない。... 知っているはずのことが、どうしても思い出せない。
+    paragraph: p42, p46
+    quote_verified: false
+  note: 戦闘行為そのものよりも、「意味の喪失」や「手順の忘却」といったシステム的な機能不全が主題となり、キャラクターが機械化・空洞化していく様を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 共生と相互依存による王権の構成
+  weight: 0.7
+  quotes:
+  - quote: 優れた臣下による守りがあってこそ、最強の召喚士は十全にその威光を振りかざせる。だからネペンテスとエリカは天主の双璧として並び立つ。
+    paragraph: p175-176
+    quote_verified: true
+  note: 単独の英雄ではなく、弱点を持つ者同士（忘却する男と記憶する女）が補完し合うことで初めて「王」が成立するという構造を提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

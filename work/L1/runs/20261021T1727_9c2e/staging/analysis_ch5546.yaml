@@ -1,0 +1,118 @@
+chapter: ch5546
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 7
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_ミブリナとの因縁
+  note: パーンがビルメーヤを「ミブリナの周りをうろちょろしていた小娘」と特定し、ビルメーヤも「また会ったねぇ」と返答している。ミブリナ（至高の存在）とビルメーヤの間に、過去にどのような接触・因縁があったのか。
+  quotes:
+  - quote: 「お前は、まさかあの時ミブリナの周りをうろちょろしていた小娘（ガキ）か！」
+    paragraph: p228
+    quote_verified: true
+  - quote: 「また会ったねぇ、お兄ちゃん。相変わらず本気になれてないのかい？」
+    paragraph: p230
+    quote_verified: true
+  expected_payoff: ミブリナとの過去のエピソードが明かされ、ビルメーヤの強さの秘密や伝説への近さが語られる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ティリビナ人の呟き
+  note: 最後方のロードデンドロンにいたティリビナ人が、次元の隙間で「言理の妖精、語りて曰く」という謎の言葉を呟いている。これは誰に対する呼びかけか、またどのような干渉を起こすか。
+  quotes:
+  - quote: 「言理の妖精、語りて曰く」... 残されなかった言葉が形になることはない。ただ。前後の文脈に連なる空白がそこには残る。語られずとも、それは確かに存在していた。
+    paragraph: p282-p286
+    quote_verified: false
+  expected_payoff: 物語の構造そのもの（メタフィクション）に対する介入、あるいは「語り手」への干渉として機能する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_機械女王と転生紀人の審議
+  note: ビルメーヤの蘇生（レコードゴーストの具現化）が「機械女王」と「転生紀人」の承認プロセスを経て行われている。この二人がどのような権限を持ち、なぜビルメーヤを許したのかというシステムの裏側。
+  quotes:
+  - quote: 「えーと、転生紀人及び死人の森の女王との審議が終了しました。結論、ビルメーヤ選手の同一性を認めます！」
+    paragraph: p199
+    quote_verified: false
+  expected_payoff: 転生システム（ゲームマスター的権能）の詳細なルールや、彼らが望む『面白さ』の定義が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コキュートスによる世界変質
+  note: 「遊戯を至上の価値として定める『コキュートス』」によって第五階層が変質し続けていると記述されている。これがレースの異常事態（死後の継続飛翔）を生んだ原因の一つである可能性。
+  quotes:
+  - quote: 遊戯を至上の価値として定める『コキュートス』によって変質を続ける第五階層における新たな『当たり前』が形になった結果という可能性もあった。
+    paragraph: p173
+    quote_verified: true
+  expected_payoff: 物語の舞台である世界構造（ダンジョン階層）そのものがゲーム的なルールで書き換えられていることの提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死の娯楽化と消費への批判、そして物語の主体性の奪還
+  weight: 0.8
+  quotes:
+  - quote: 「ババアの死を肴に感動ストーリーで大盛り上がりかい？ 悪趣味だねえ」
+    paragraph: p156
+    quote_verified: true
+  - quote: 観客席にいた関係者や古いファンたちは揃って涙していたが、その胸に訪れたのは決して悲しみばかりではなかった。
+    paragraph: p154
+    quote_verified: true
+  note: ビルメーヤは観客が求める『感動的な死』というステレオタイプな物語消費を「悪趣味」と断じ、自らの意志で物語（レース）を続行することで、自己の主体性を取り戻す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 老いとは不完全さの受容ではなく、限界を超えることである
+  weight: 0.7
+  quotes:
+  - quote: 「正しい歩みを続けていれば、余生は心穏やかに過ごせるだろう。」... 「足りない。リーナに与えるものがたったこれだけでは何の意味もない。」
+    paragraph: p41-p49
+    quote_verified: false
+  - quote: 老人の正道を外れ、諦め悪く道なき道へと足を踏み出す、みすぼらしい悪あがき。
+    paragraph: p98
+    quote_verified: true
+  note: 老後の安寧という社会的な正解を捨て、命を燃焼させて伝説に挑む行為こそが、ビルメーヤにとっての『正しい生』の完成である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記録（レコード）は死後の魂であり、後続者への道標となる
+  weight: 0.6
+  quotes:
+  - quote: レコードゴースト。それは蘇る過去の残影。コースに刻まれた至高の記録。... 後に続く者たちが負うべき道標であり、この状況ならばリーナが目撃したビルメーヤの背中こそがまさしく『亡霊（ゴースト）』となるに相応しい記録であったと言えるだろう。
+    paragraph: p7-p8, p139
+    quote_verified: false
+  note: 個人の生は有限だが、競技における記録は世界に刻まれ、物理的な魂を超えた『レコードゴースト』として後進を導く永続的な存在となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションとしての『ページをめくる』行為
+  weight: 0.5
+  quotes:
+  - quote: 世界（テキスト）を置き去りにした老魔女は最速の呼び名を欲しいままにしていた。... 謎の老魔女は独走する事象の先端、そのページの先にある空白に顔を寄せて囁く。
+    paragraph: p234-p237
+    quote_verified: false
+  - quote: 風と大地が荒れ狂うステージを引き裂いて、魔女はページを豪快にめくる。
+    paragraph: p248
+    quote_verified: true
+  note: ビルメーヤの飛翔は物語の進行（テキストの読み進め）そのものの比喩であり、既存の文脈（期待された展開）を無視して次のページ（ステージ）へと強引に突入する行為として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

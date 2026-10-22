@@ -1,0 +1,246 @@
+chapter: ch5056
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5056_巡槍艦マツヤ_has_property_16ゼタバイト情報量_p75]]'
+  object: '[[ME_big_data_processing]]'
+  claim: 16ゼタバイトという途方もないデータ量を『ちょっとしたもの』として処理する技術は、現代のビッグデータ解析やクラウドサーバーの計算能力を指喩している。
+  quote: 「基本的な排『情報』量だけで16ゼタバイトはあるからねー。まあちょっとしたもんだよ。これだけ構築するのに半年かかっちゃった」
+  paragraph: p75
+  confidence: strong
+  quotes:
+  - quote: 「基本的な排『情報』量だけで16ゼタバイトはあるからねー。まあちょっとしたもんだよ。これだけ構築するのに半年かかっちゃった」
+    paragraph: p75
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5056_トリシューラ_reveals_スペア身体_p129]]'
+  object: '[[ME_cloud_computing_disaster_recovery]]'
+  claim: 'トリシューラの不死が「再現性」であり、材料と環境さえあれば死なないという設定は、クラウド上でのバックアップからの即座な復旧（DR: Disaster
+    Recovery）を指喩している。'
+  quote: 「この身体はスペア。取っ替えたの。全部」「そういうこと。私の『不死』は『再現性』だからね。材料と環境さえ整ってればそうそう死なないよ」
+  paragraph: p129-p133
+  confidence: strong
+  quotes:
+  - quote: 「この身体はスペア。取っ替えたの。全部」「そういうこと。私の『不死』は『再現性』だからね。材料と環境さえ整ってればそうそう死なないよ」
+    paragraph: p129-p133
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5056_トリシューラ_names_ノアズアーク_p92]]'
+  object: '[[ME_noahs_ark]]'
+  claim: 階層の狭間を進む巨大な船を「ノアズアーク」と命名する行為は、世界滅亡（大洪水）から命を救う方舟という聖書的モチーフを直接引用し、彼女が世界の破滅からの脱出装置であることを示唆している。
+  quote: 「あーじゃあいいよ、えっとーなんか神話的に対応するのは――ノアズアーク、とか。あ、目がキラキラし出した。うん返事はいいよ、これでいいんだよね。はい決定」
+  paragraph: p96
+  confidence: explicit
+  quotes:
+  - quote: 「あーじゃあいいよ、えっとーなんか神話的に対応するのは――ノアズアーク、とか。あ、目がキラキラし出した。うん返事はいいよ、これでいいんだよね。はい決定」
+    paragraph: p96
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5056_階段_functions_as_亜空間泡_p16]]'
+  object: '[[ME_subway_platform_gap]]'
+  claim: 階層間を繋ぐ階段が「泡」のような一時的な亜空間であり、使用後に消滅するという描写は、地下鉄や駅におけるホームと列車の間の隙間（あるいは自動ドアが開く瞬間の安全確保）のような、構造的な移動手段の比喩である。
+  quote: 階層と階層の間の何も無い空間を浮かぶ『泡』のようなもので、一度使えばその後は弾けて消えてしまう。視覚的には階段だが、実際には昇降機とか、渡し船とか表現した方が実態に即している。
+  paragraph: p16-p18
+  confidence: moderate
+  quotes:
+  - quote: 階層と階層の間の何も無い空間を浮かぶ『泡』のようなもので、一度使えばその後は弾けて消えてしまう。視覚的には階段だが、実際には昇降機とか、渡し船とか表現した方が実態に即している。
+    paragraph: p16-p18
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5056_アキラ_thinks_恩義への傾倒_p54]]'
+  object: '[[ME_narrative_convention_heroic_bond]]'
+  claim: 主人公が「修羅場を共に乗り越えた」経験に弱く、仕込みの可能性があってもシンパシーを抱くと自覚する心理は、異世界転生作品における典型的な「仲間との絆」クリシェに対するメタ的な自己批判である。
+  quote: 俺はどうも『修羅場を共に乗り越えた』的な経験に弱い傾向がある。たとえ仕込みの可能性があっても、事実としての記憶と体感が、経験を共有した相手にシンパシーじみたものを抱かせてしまうようなのだ。
+  paragraph: p54
+  confidence: strong
+  quotes:
+  - quote: 俺はどうも『修羅場を共に乗り越えた』的な経験に弱い傾向がある。たとえ仕込みの可能性があっても、事実としての記憶と体感が、経験を共有した相手にシンパシーじみたものを抱かせてしまうようなのだ。
+    paragraph: p54
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5056_星見の塔_defines_キュトスの姉妹_p214]]'
+  object: '[[ME_corporate_promotion_competition]]'
+  claim: 「七十一番目」という役職を巡ってライバル同士が協力し合い、最終的に勝者一人のみが座を得るという構造は、企業における昇進競争やチーム内のポジション争いを指喩している。
+  quote: その座を争っている二人はライバル同士なのだ。彼女たちは、それぞれの目的を達成することでその座を得ようとしている。そしてその他のライバルの存在が、一時的な協力態勢をとらせている。ただそれだけのことに過ぎない。
+  paragraph: p216-p218
+  confidence: moderate
+  quotes:
+  - quote: その座を争っている二人はライバル同士なのだ。彼女たちは、それぞれの目的を達成することでその座を得ようとしている。そしてその他のライバルの存在が、一時的な協力態勢をとらせている。ただそれだけのことに過ぎない。
+    paragraph: p216-p218
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5056_少年_uses_古代語_p272]]'
+  object: '[[ME_legacy_system_format_incompatibility]]'
+  claim: 現代のデータベースに存在しない古い言語を話す少年と、その言語を理解できるのが主人公だけという状況は、レガシーシステム（旧規格）のデータ互換性問題や、独自仕様による孤立化を指喩している。
+  quote: 何でも極めて古い時代の言語らしく、近代以降のあらゆる言語が登録されているというデータベースにすら存在していないらしい。会話が可能なのは、何故か俺（と古代語を習得している一部の例外）だけなのだ。
+  paragraph: p270-p273
+  confidence: moderate
+  quotes:
+  - quote: 何でも極めて古い時代の言語らしく、近代以降のあらゆる言語が登録されているというデータベースにすら存在していないらしい。会話が可能なのは、何故か俺（と古代語を習得している一部の例外）だけなのだ。
+    paragraph: p270-p273
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_carrin_cheat_role
+  note: ロウ・カーインの行動が主人公にとって都合良すぎることへの疑念。仕込みだった場合、誰が設計したのか（トリシューラ？ コルセスカ？ 上位存在？）。
+  quotes:
+  - quote: あの状況では仕方が無かったとはいえ、敵から即座に味方に転じるという展開はあまりに都合が良すぎる。誰にとって都合がいいのか――それは敵という目的を得て、窮地で共闘相手を見出した俺にとってに他ならない。
+    paragraph: p32-p33
+    quote_verified: true
+  - quote: もし俺の勘繰り過ぎだったとすれば恩知らずに恥知らずを重ねるような思考だが、そうやって考えるとロウ・カーインが俺を終始圧倒しながらも何故かトドメを刺さなかったり、急に味方をし出した事にもある程度納得が行く。
+    paragraph: p47
+    quote_verified: true
+  expected_payoff: 後の章でカーインの正体や背後にいる存在が明かされ、彼の行動原理（仕込み）が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trisula_ghost_state
+  note: トリシューラが一時的に「亡霊じみた色彩」を帯び、虚ろな目になった現象。彼女の不死性（再現性）の代償や限界を示唆する。
+  quotes:
+  - quote: もともと生気が薄く、人形のように白い肌色が、今は亡霊じみた色彩を帯びていた。尋常な様子ではない。緑色の目もどこか虚ろだ。
+    paragraph: p149-p151
+    quote_verified: true
+  - quote: 「セスカはしばらくここで安静にしててね。仲間の人たちにも休暇延長するって連絡しときなよ」
+    paragraph: p172
+    quote_verified: true
+  expected_payoff: トリシューラの不死性が完全ではなく、精神の希薄化やデータの欠損が進行していることが判明し、彼女が崩壊する危機に直面する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_sisters_dissolution
+  note: コルセスカとトリシューラが「絶対に姉妹でなくなってみせる」と宣言した真意。役職を巡る競争の激化と、彼女たちの関係の終焉を示唆する。
+  quotes:
+  - quote: 「私達は、絶対にいつか姉妹でなくなってみせる、ってことだよ」場の空気は完全に凍り付いていた。闘争心を剥き出しにして決然と言葉を紡ぐ二人の表情は真剣そのものだ。
+    paragraph: p210-p213
+    quote_verified: true
+  expected_payoff: 星見の塔の役職争いが激化し、二人が敵対して戦う展開に至る。主人公はその板挟みになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_boy_language_origin
+  note: 少年が話す「データベースに存在しない古代語」の由来と、主人公がそれを理解できる理由（アキラの特殊性）。
+  quotes:
+  - quote: 何でも極めて古い時代の言語らしく、近代以降のあらゆる言語が登録されているというデータベースにすら存在していないらしい。会話が可能なのは、何故か俺（と古代語を習得している一部の例外）だけなのだ。何故そんな古代語を話しているのかは全く分からない。
+    paragraph: p270-p275
+    quote_verified: false
+  expected_payoff: 少年の言語が世界の起源や、主人公のアキラとしての出自（転生前の記憶を含む）と関連していることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trisula_deception_method
+  note: トリシューラが言語定着作業のコストについて嘘をつき、コルセスカを遠ざけようとした件。彼女のアキラ獲得戦略の一端。
+  quotes:
+  - quote: ところが後で聞いてみるとそれは嘘らしい。より正確にはトリシューラが話した言語のデータをそのまま移管する方法も、コルセスカとひたすら話し続ける方法も、両方有効とのこと。あの時点ではトリシューラはコルセスカを出し抜いて俺を奪い取ろうと思っていた。ゆえに、コルセスカに対する俺の不信感を煽ろうとしていたらしい。
+    paragraph: p283-p289
+    quote_verified: false
+  expected_payoff: トリシューラがアキラを独占するために、さらに巧妙な策を弄することが判明し、コルセスカとの対立が決定的になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による不死は記憶の希薄化を伴う（データと魂のトレードオフ）
+  weight: 0.8
+  quotes:
+  - quote: 「この身体はスペア。取っ替えたの。全部」「そういうこと。私の『不死』は『再現性』だからね。材料と環境さえ整ってればそうそう死なないよ」
+    paragraph: p129-p133
+    quote_verified: false
+  - quote: もともと生気が薄く、人形のように白い肌色が、今は亡霊じみた色彩を帯びていた。緑色の目もどこか虚ろだ。
+    paragraph: p149-p151
+    quote_verified: false
+  note: トリシューラの不死は「再現性」であり、肉体は交換可能だが、精神や生気（魂）は損耗している描写が対比されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 仲間との絆は操作される感情である（物語的クリシェのメタ批判）
+  weight: 0.7
+  quotes:
+  - quote: 俺はどうも『修羅場を共に乗り越えた』的な経験に弱い傾向がある。たとえ仕込みの可能性があっても、事実としての記憶と体感が、経験を共有した相手にシンパシーじみたものを抱かせてしまうようなのだ。
+    paragraph: p54
+    quote_verified: true
+  - quote: 今回の一件は、全て彼女たちが俺の信頼を勝ち取る為の仕込みだったのではないか？
+    paragraph: p45
+    quote_verified: true
+  note: 主人公が自身の感情（シンパシー）を物語的な仕掛けによるものとして冷徹に分析し、異世界転生における「仲間集め」の構造を相対化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 救済は選択を強制する（二つの道、どちらかを選ぶ宿命）
+  weight: 0.6
+  quotes:
+  - quote: なぜならば彼女たちは本質的には別々の道を行く存在であり、どちらか一方を助けると言うことは、どちらか一方を助けないということだからだ。
+    paragraph: p224
+    quote_verified: true
+  - quote: 遠からず俺は、決定的な選択を迫られるだろう。そして、その先を目指すことにもなるはずだ。アズーリア。いつか必ず、俺はあの恩人に会わなくてはならない。
+    paragraph: p299-p302
+    quote_verified: true
+  note: コルセスカとトリシューラの対立構造が主人公に「どちらの味方をするか」というゼロサムゲームを提示し、物語の次の段階（アズーリアへの帰還）への布石となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語は存在の境界である（理解不能な他者との接続）
+  weight: 0.5
+  quotes:
+  - quote: 会話が可能なのは、何故か俺（と古代語を習得している一部の例外）だけなのだ。...俺は、この少年に居場所を作らなければならないと強く思った。理由は投影か共感か、もしくは成り行きか。
+    paragraph: p273-p277
+    quote_verified: false
+  note: 少年との言語的な断絶（データベース外の言語）と、主人公が唯一の接続者であるという設定が、主人公の異質性や「世界槍」内での役割を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

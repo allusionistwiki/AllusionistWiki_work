@@ -1,0 +1,130 @@
+chapter: ch5110
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 11
+items:
+- kind: mystery
+  name: MY_Leon_Kidnapping_Connection
+  note: レオが以前キロンに誘拐されていた事実と、今回キロンを遠ざけるために動いたことの因果関係。レオの行動原理（善意か計算か）が不明確。
+  quotes:
+  - quote: 思えば、奇妙な少年、そして奇妙な構図である。一度はレオを誘拐した男が、その危機に身を挺して倒れる。これは果たして偶然なのだろうか。最後にカーインと会話した時には深く訊ねることはしなかったが、もしかすると最初から――。
+    paragraph: p87
+    quote_verified: true
+  expected_payoff: レオがキロン（または背後の存在）と事前に結託していた可能性、あるいはレオ自身も何らかの特殊な背景を持つことが明かされる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kiron_Revival_Sound
+  note: キロンが過去に殺された際にも聞こえたという「力の欲しがる声」の正体と、その声による復活のメカニズム。
+  quotes:
+  - quote: ああ、あの時にも聞こえた――魔女の銃弾に斃れた時にも聞こえた声だ――
+    paragraph: p105
+    quote_verified: true
+  - quote: 力が、欲しいですか
+    paragraph: p91
+    quote_verified: true
+  expected_payoff: この「声」の持ち主（神格・悪魔・上位存在）の正体判明。キロンが二度目の転生者であることの全貌と、その契約の内容。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Kiron_TrueName_Renshisha
+  note: キロンの真名「廉施者」の意味。「あらゆる死を拒絶する」という能力の制限や代償、そしてこの名前が何を示唆するか。
+  quotes:
+  - quote: 我が真の名は【廉施者】――この身は、あらゆる死を拒絶する
+    paragraph: p167
+    quote_verified: true
+  expected_payoff: 「廉施者（Renjisha）」という漢字の由来や意味が物語のキーになる可能性。「死を拒絶」することのコスト（例：他者の命、記憶など）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Centauros_Formation
+  note: キロンが下半身を黒い馬と融合させ「真なる人馬一体」となった経緯。この形態が単なる強化なのか、特定の概念の体現なのか。
+  quotes:
+  - quote: 'キロンの腰から下が、黒い馬と一体化しているのだ。馬の首から上は失われ、元々一つの生物であったかのような変質を遂げている。
+
+
+      それは真なる人馬一体。'
+    paragraph: p158
+    quote_verified: true
+  expected_payoff: キロンがもともと持っていた「聖騎士」の概念と、「馬（異獣）」の概念が融合した意味。ケンタウロス神話や騎兵としての歴史的象徴との関連性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Transmigration_Nature
+  note: キロンが「転生者」であることが判明し、アキラ（主人公）も「死後の復活という一例」として言及されている。アキラの転生システムの根本的な法則。
+  quotes:
+  - quote: まさしく俺という個人が、死後の復活という一例なのだ。この世界の人間が復活しないというのがそもそもおかしな前提である。コルセスカも、同じ世界の中で生まれ変わった転生者なのだと言っていた。
+    paragraph: p130
+    quote_verified: true
+  expected_payoff: アキラ自身の転生の条件、コスト、制限の再定義。「転生力」というステータスの詳細と、それを上回る方法論。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語的ルール（ナラティブ）を物理法則や技術として実装し、その「主人公補正」を逆利用して勝利するメタフィクションの徹底。
+  weight: 0.9
+  quotes:
+  - quote: 相手の運命力を受け流し、主人公補正の重心を崩す。これもまたサイバーカラテ、名付けて呪的化勁。
+    paragraph: p30
+    quote_verified: true
+  - quote: キロンのスピードや回復力は確かに厄介だ。しかしそれらを上回るキロン最悪の力、それは運命を味方につける英雄性だ。
+    paragraph: p30
+    quote_verified: true
+  note: 単なる戦闘ではなく、「物語の構造」そのものを武器・防具として扱う点が本作の中核的なテーマであり、本章で最も顕著に現れている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「英雄性」や「運命力」という先天的な資質が、後天的な技術や知略（サイバーカラテ）によって凌駕される可能性の提示。
+  weight: 0.7
+  quotes:
+  - quote: 俺にはキロンのような圧倒的な美貌、強さ、信念といった、英雄らしさが欠けている。彼が敷く物語のルールで戦う以上、それ無くして勝利することはできない。だが、必ずしも俺がそうである必要は無い。
+    paragraph: p26
+    quote_verified: true
+  note: 伝統的なファンタジーにおける「選ばれし者」の特権性を相対化し、「借り物」や「技術」で対抗するリアリティの提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 転生という現象が主人公だけの専売特許ではなく、敵側にも適用される世界観の普遍性。「転生者殺しの転生者」という鏡像関係の構築。
+  weight: 0.6
+  quotes:
+  - quote: 'つまり、キロンもまた転生者だったということだ。
+
+
+      転生者殺しの転生者。'
+    paragraph: p132
+    quote_verified: true
+  note: ジャンルクリシェ（異世界転生）をメタ的に解体し、敵味方の境界線を「転生」という共通項で再定義するテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 科学技術用語（熱力学、フォノン、メタマテリアル）を用いた魔法の脱神秘化と、その破壊力の増幅。
+  weight: 0.4
+  quotes:
+  - quote: 自然界には存在しない負の屈折率を持つ左手系メタマテリアルの使い道は遮蔽装置だけではない。トリシューラは原子の振動を熱フォノンとして記述することにより、それを自在に収束させ増幅させる。
+    paragraph: p62
+    quote_verified: true
+  note: ファンタジーにおける「魔法」を硬いSF的理屈で説明し、読者に知的好奇心と説得力を与えるスタイルの強調。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

@@ -1,0 +1,233 @@
+chapter: ch5310
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 20
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5310_カチカチハンマー_functions_as_氷の武器_p16]]'
+  object: '[[ME_mario_kart_blunt_item]]'
+  claim: 当たり判定が巨大で命中していなくても吹っ飛ぶという挙動は、マリオカートなどのパーティゲームにおけるアイテム（バナナ殻や甲羅など）の物理挙動を模倣している。
+  quote: 接近して殴りかかろうとしていた格闘家デルヒは素早い動きで後退するが、意外にも当たり判定が大きく明らかに命中していないにも関わらず吹っ飛ばされる。
+  paragraph: p16
+  confidence: strong
+  quotes:
+  - quote: 接近して殴りかかろうとしていた格闘家デルヒは素早い動きで後退するが、意外にも当たり判定が大きく明らかに命中していないにも関わらず吹っ飛ばされる。
+    paragraph: p16
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5310_カチカチハンマー説明書き_defines_ゲーム的ステータス効果_p18]]'
+  object: '[[ME_real_life_consequences_of_sickness]]'
+  claim: 「風邪を引く」という実害と「学校や仕事を休んでゲームできる」というメタ的な利得を結びつけることで、現実の疾病をゲーム内のバフ/デバフとして消費する現代の意識を皮肉っている。
+  quote: ※風邪を引くかも知れませんが学校や仕事を休んでゲームできるので大勝利です』って、何だこれは
+  paragraph: p18
+  confidence: explicit
+  quotes:
+  - quote: ※風邪を引くかも知れませんが学校や仕事を休んでゲームできるので大勝利です』って、何だこれは
+    paragraph: p18
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5310_ゼド_observes_HUD視界内UI_p24]]'
+  object: '[[ME_fps_hud_overlay]]'
+  claim: 視界に残弾数やリロード指示、スコアがオーバーレイ表示される現象は、FPSゲームのHUD（ヘッドアップディスプレイ）を現実世界に適用したものである。
+  quote: 眼鏡をかけているわけでもないというのに、ゼドの視界の隅に残弾数が表示されていた。銃弾を撃ち尽くすと「再装填して下さい」という文字が視界いっぱいに表示されて、意識しただけで腕が勝手に動いて拳銃を片手でくるりと回す。
+  paragraph: p24
+  confidence: explicit
+  quotes:
+  - quote: 眼鏡をかけているわけでもないというのに、ゼドの視界の隅に残弾数が表示されていた。銃弾を撃ち尽くすと「再装填して下さい」という文字が視界いっぱいに表示されて、意識しただけで腕が勝手に動いて拳銃を片手でくるりと回す。
+    paragraph: p24
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5310_カニャッツォ_appears_as_ゲームのキャラHPゲージ_p46]]'
+  object: '[[ME_arcade_game_life_system]]'
+  claim: 頭上の赤い球体（残機）が消滅し、死後に点滅して無敵状態になる仕様は、レトロゲームやアーケードゲームにおける「残機」と「復活後の無敵時間」を模している。
+  quote: 巨漢の頭の上に複数の赤い球体が浮かんでいる――というより表示されていることに気がつく。一番右端の球体だけが赤い部分が無く透明になっている。...同時にカニャッツォが爆発四散して即死。...よく見ればカニャッツォは半透明となり点滅している。誰かが呟いた。「復活直後は無敵状態なんだ」と。
+  paragraph: p46-p50
+  confidence: explicit
+  quotes:
+  - quote: 巨漢の頭の上に複数の赤い球体が浮かんでいる――というより表示されていることに気がつく。一番右端の球体だけが赤い部分が無く透明になっている。...同時にカニャッツォが爆発四散して即死。...よく見ればカニャッツォは半透明となり点滅している。誰かが呟いた。「復活直後は無敵状態なんだ」と。
+    paragraph: p46-p50
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5310_カルカブリーナ_observes_鳥デルヒ_p5]]'
+  object: '[[ME_ai_targeting_system]]'
+  claim: ゴーグル内のちびシューラが狙撃情報を表示し、全自動で射撃を代行する描写は、兵士を補助するAIターゲティングシステムや自動照準機能のメタファーである。
+  quote: 足りない邪視能力を補う為のゴーグルの内側でちびシューラが狙撃に必要な各種情報を表示して、指示から照準、引き金を引く決断まで全自動で代行してくれる。
+  paragraph: p5
+  confidence: strong
+  quotes:
+  - quote: 足りない邪視能力を補う為のゴーグルの内側でちびシューラが狙撃に必要な各種情報を表示して、指示から照準、引き金を引く決断まで全自動で代行してくれる。
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5310_コルセスカ_uses_手孕説話腕の出産_p90]]'
+  object: '[[ME_te_mane_bunshi_mythology]]'
+  claim: 腹部から腕を生み出す呪術は、日本神話の「手孕（てばら）説話」におけるイザナギとイザナミの婚姻儀礼を下敷きにし、それを戦闘行為に転用している。
+  quote: 手孕説話という奇怪な伝承を下敷きにした腕の出産を攻撃に転用したのだった。
+  paragraph: p90
+  confidence: explicit
+  quotes:
+  - quote: 手孕説話という奇怪な伝承を下敷きにした腕の出産を攻撃に転用したのだった。
+    paragraph: p90
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5310_アキラデルヒ_loses_グレンデルヒの優位性_p86]]'
+  object: '[[ME_optimization_problem_logic]]'
+  claim: 「より優れた存在」であることが成立条件であるシステムが、予測不能な外部入力（左腕の出現）によって遅延を生じ崩壊する様子は、最適化アルゴリズムの脆弱性を示している。
+  quote: サイバーカラテ道場を参照してそれを上回る『最善の結果』を導き出そうとしたアキラデルヒは、一瞬だけ最適解に届かない。届かないまま、目の前の明らかな囮に気を取られて何の脈絡もなく腹部を突き破って出現した腕に対処する事ができなかった。
+  paragraph: p86
+  confidence: strong
+  quotes:
+  - quote: サイバーカラテ道場を参照してそれを上回る『最善の結果』を導き出そうとしたアキラデルヒは、一瞬だけ最適解に届かない。届かないまま、目の前の明らかな囮に気を取られて何の脈絡もなく腹部を突き破って出現した腕に対処する事ができなかった。
+    paragraph: p86
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_変異の三手の所在
+  note: コルセスカがグレンデルヒの中枢が「アキラ内の右副肢」「外世界人の左副肢」「逃走した主肢」の3つで構成されると明言。それぞれの具体的な場所や性質、特に「逃走した主肢」の追跡と撃破が今後の課題となる。
+  quotes:
+  - quote: グレンデルヒの中枢は【変異の三手】の名の通りに三つです。アキラ様の中にいた右副肢、外世界人の中にいる左副肢、そして先程、役立たずの誰かさんが取り逃がした主肢
+    paragraph: p132
+    quote_verified: true
+  expected_payoff: 三つのパーツ（特に逃走した主肢）を個別に撃破する展開、あるいはそれらが合体して真のボスとなる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_コルセスカとトリシューラの不和
+  note: 「この不和は後々に禍根を残しそうではあったが」と記述されており、古代の女王（コルセスカ）と現代の女王（トリシューラ）の対立構造が物語後半で決定的な亀裂を生む伏線となる。
+  quotes:
+  - quote: この不和は後々に禍根を残しそうではあったが、今は目の前の敵を片付けるのが先だ。古代の女王と現代の女王、相容れない二人は互いに背を向けてそれぞれの戦場へと向かう。
+    paragraph: p141
+    quote_verified: true
+  expected_payoff: 最終決戦における共闘の拒否、裏切り、または両者の思想対決による世界改変の帰趨。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_森羅万象型浄界の維持条件
+  note: コルセスカの「ゲームと現実の区別がついていない」精神状態が世界改変（オムニバース型浄界）を引き起こしている。彼女が本気になり、現実に集中した場合にこの世界がどうなるのか、またはその崩壊条件が示唆されている。
+  quotes:
+  - quote: 「まさか貴様――ゲームと現実の区別がついていないのか？」
+    paragraph: p58
+    quote_verified: true
+  - quote: 発動したのは世界そのものを変容させる森羅万象（オムニバース）型の浄界。
+    paragraph: p55
+    quote_verified: true
+  expected_payoff: コルセスカの意識がゲームから離脱した瞬間の浄界崩壊、あるいは彼女を「現実に引き戻す」ことが勝利条件となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カインの白骨狼としての復活
+  note: 死んだはずのカインが白骨狼として出現し、左腕を飲み込んで体外へ出た。「痛みはない」とされるが、カインが完全に蘇生したのか、あるいはコルセスカの術による一時的な現象なのか不明確。
+  quotes:
+  - quote: 呼びかけると、白骨の屍狼が左腕を飲み込んだままアキラの腹から這い出して、地面に降り立った。
+    paragraph: p120
+    quote_verified: true
+  expected_payoff: カインが戦闘ユニットとして再登場するか、シナモリアキラの精神安定の象徴として機能し続けるか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的ルールへの没入による現実の解体と再構築
+  weight: 0.9
+  quotes:
+  - quote: 「まさか貴様――ゲームと現実の区別がついていないのか？」
+    paragraph: p58
+    quote_verified: true
+  - quote: 何というか、緊張感が無いことになってるわね。嫌いじゃないけど
+    paragraph: p30
+    quote_verified: true
+  note: コルセスカの認知（ゲームと現実の区別がない）が世界改変のトリガーであり、戦闘が物理法則ではなくゲームの仕様（残機、HUD、当たり判定）によって支配される現象を描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「万能」システムの限界と欠陥への突撃
+  weight: 0.8
+  quotes:
+  - quote: グレンデルヒというトルクルトア機関が作り上げた万能のシステムに生じた不可避の欠陥。わずかな遅延がアキラデルヒの生死を分けた。
+    paragraph: p86
+    quote_verified: true
+  - quote: 己の万能性への確信を失い、アキラを侵食していたグレンデルヒという存在が急速に力を失っていく。
+    paragraph: p94
+    quote_verified: true
+  note: 最適化された「最善」を求めるシステム（グレンデルヒ）が、論理的に予測不能な要素（手孕説話的な出産攻撃）によって破綻する様子は、技術的万能主義への批判を含む。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 欠損の回復による自己の統合（精神の調和）
+  weight: 0.7
+  quotes:
+  - quote: シナモリアキラは安定している。欠けていたものを取り戻したことによって、以前よりも一層、精神が調和した状態となっているのだ。
+    paragraph: p113
+    quote_verified: true
+  - quote: 三つの手が絡み合った。
+    paragraph: p111
+    quote_verified: true
+  note: 左腕（欠損）の回復が単なる物理的修復ではなく、シナモリアキラの精神構造を安定させるプロセスとして描かれ、「完全性」への渇望と達成が主題となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的な死生観と現実の倫理の混交
+  weight: 0.6
+  quotes:
+  - quote: 「風邪を引くかも知れませんが学校や仕事を休んでゲームできるので大勝利です」
+    paragraph: p18
+    quote_verified: false
+  - quote: 爆発に巻き込まれると頭髪が焦げて黒い煤に塗れるというフィクション表現がテクスチャ呪術によってなされる。
+    paragraph: p20
+    quote_verified: true
+  note: 死傷や負傷がゲーム的な演出（煤、吹き飛び）で処理され、苦痛がメタ的な報酬（ゲームができる）に置き換わることで、生と死の重みが無効化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

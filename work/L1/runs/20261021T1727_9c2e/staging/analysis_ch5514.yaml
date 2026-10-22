@@ -1,0 +1,306 @@
+chapter: ch5514
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 10
+  mysteries: 5
+  themes: 5
+  quotes_verified: 19
+  quotes_total: 25
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_battle_royal]]'
+  object: '[[ME_modern_game_advertising]]'
+  claim: 第五階層の戦闘イベントは、現代のスマホゲームにおける派手な広告演出やガチャの告知を模倣している。
+  quote: 無数の幻像広告が夜闇を斬り裂いて天を染め上げる。涼やかな声が街を震わせると同時、都市の上空に巨大な飛行船が現れた。
+  paragraph: p8-p9
+  confidence: explicit
+  quotes:
+  - quote: 無数の幻像広告が夜闇を斬り裂いて天を染め上げる。涼やかな声が街を震わせると同時、都市の上空に巨大な飛行船が現れた。
+    paragraph: p8-p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_battle_royal_announcement]]'
+  object: '[[ME_weather_forecast_service]]'
+  claim: 戦闘イベントの開始告知は、現代の天気予報アプリの通知システムに構造的に対応している。
+  quote: ガロアンディアン、本日の天気は晴れ。ところによりシナモリアキラ。
+  paragraph: p12-p13
+  confidence: strong
+  quotes:
+  - quote: ガロアンディアン、本日の天気は晴れ。ところによりシナモリアキラ。
+    paragraph: p12-p13
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_player_entry]]'
+  object: '[[ME_gacha_summoning]]'
+  claim: プレイヤーが飛行船から降下する描写は、ガチャでキャラクターが召喚される演出を指喩している。
+  quote: 上空の飛行船から一斉に飛び降りた無数の人影が雨あられと都市に降ってくる。彼らはゲームプレイヤー。老若男女、多種多様な顔ぶれが集い、その力を競い合う。
+  paragraph: p14-p15
+  confidence: moderate
+  quotes:
+  - quote: 上空の飛行船から一斉に飛び降りた無数の人影が雨あられと都市に降ってくる。彼らはゲームプレイヤー。老若男女、多種多様な顔ぶれが集い、その力を競い合う。
+    paragraph: p14-p15
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_cyber_karate_debate]]'
+  object: '[[ME_fan_wars_and_microtransactions]]'
+  claim: サイバーカラテの教義を巡る争いは、現代のMMOゲームにおける課金システム（プレミアム/無課金）をめぐるファンの論争を風刺している。
+  quote: 「プレミアムの奴隷が！」 「無課金の寄生虫め！」 「俺は全部入りじゃなく必要な機能だけ個別に利用してるだけだ脳死プラン野郎！」
+  paragraph: p40-p44
+  confidence: explicit
+  quotes:
+  - quote: 「プレミアムの奴隷が！」 「無課金の寄生虫め！」 「俺は全部入りじゃなく必要な機能だけ個別に利用してるだけだ脳死プラン野郎！」
+    paragraph: p40-p44
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_yokai_names]]'
+  object: '[[ME_japanese_folklore]]'
+  claim: 参加者たちが名乗る『異名』は、日本の伝承における妖怪（百鬼夜行）のリストを引用している。
+  quote: 上空の飛行船がぶら提げている幻像掲示板には無数の『異名』が記されていたが、そのひとつひとつが既に強大な呪力を宿していた。 『百鬼夜行』『大蛇』『河童』『覚（さとり）』『犬神』『鵺（ぬえ）』『赤心山両面坊』『土蜘蛛』『一反木綿』『皿鮫』『海坊主』『泥田坊』『釣瓶落とし』『牛鬼』『垢嘗（あかなめ）』『飛頭蛮』『鉄鼠』『山姫』『のっぺらぼう』『三尸（しょうけら）』『九人ミサキ』『面霊気』『山彦』『木霊（こだま）』『一目連』『龍喰丸（りゅうじきまる）』『枕返し』『文車妖妃』『雪女』
+  paragraph: p50-p52
+  confidence: explicit
+  quotes:
+  - quote: 上空の飛行船がぶら提げている幻像掲示板には無数の『異名』が記されていたが、そのひとつひとつが既に強大な呪力を宿していた。 『百鬼夜行』『大蛇』『河童』『覚（さとり）』『犬神』『鵺（ぬえ）』『赤心山両面坊』『土蜘蛛』『一反木綿』『皿鮫』『海坊主』『泥田坊』『釣瓶落とし』『牛鬼』『垢嘗（あかなめ）』『飛頭蛮』『鉄鼠』『山姫』『のっぺらぼう』『三尸（しょうけら）』『九人ミサキ』『面霊気』『山彦』『木霊（こだま）』『一目連』『龍喰丸（りゅうじきまる）』『枕返し』『文車妖妃』『雪女』
+    paragraph: p50-p52
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_troll_glitch]]'
+  object: '[[ME_video_game_glitch_and_rules]]'
+  claim: 地下移動による反則判定は、ビデオゲームにおけるグリッチ（バグ）やルール違反に対するシステムからの警告を模している。
+  quote: 「警告！ 設定された地下区画以外のマップ外に隠れたり移動したりするグリッチは反則です！ 縮小する『スフィア』は上下にも判定があります。危険エリアに留まり続けるとダメージを受けるので、シナモリアキラ精神に乗っ取ってセーフティエリア内でバトルしましょう！
+  paragraph: p104
+  confidence: strong
+  quotes:
+  - quote: 「警告！ 設定された地下区画以外のマップ外に隠れたり移動したりするグリッチは反則です！ 縮小する『スフィア』は上下にも判定があります。危険エリアに留まり続けるとダメージを受けるので、シナモリアキラ精神に乗っ取ってセーフティエリア内でバトルしましょう！
+    paragraph: p104
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_erica_summon]]'
+  object: '[[ME_defensive_tower_defense]]'
+  claim: エリカが事前に設置した植物ベースの魔術は、タワーディフェンスゲームにおける前もって配置する防衛ユニットの戦略に類似している。
+  quote: このペットショップ付近が怪しいという情報は掴んでいたのだ。詳細な拠点の座標は掴めずとも、準備をしておくことは容易い。やれ、エリカ
+  paragraph: p179
+  confidence: moderate
+  quotes:
+  - quote: このペットショップ付近が怪しいという情報は掴んでいたのだ。詳細な拠点の座標は掴めずとも、準備をしておくことは容易い。やれ、エリカ
+    paragraph: p179
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_erica_identity]]'
+  object: '[[ME_bishop_title_in_fantasy]]'
+  claim: エリカが持つ『ビショップ』という称号は、ゲームやSF作品における高位管理者（司教）の概念を引用している。
+  quote: 「聞いたことあるだよ。第三世界槍（ザドーナ）で『不思議のミラ』と並び称された天主補佐官（ビショップ）。ティリビナ人だったべか？」 ビショップというのは北方の大都市ザドーナを統べる彩域管理者・賢天主アリスの側近を示す記号だ。
+  paragraph: p207-p209
+  confidence: explicit
+  quotes:
+  - quote: 「聞いたことあるだよ。第三世界槍（ザドーナ）で『不思議のミラ』と並び称された天主補佐官（ビショップ）。ティリビナ人だったべか？」 ビショップというのは北方の大都市ザドーナを統べる彩域管理者・賢天主アリスの側近を示す記号だ。
+    paragraph: p207-p209
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_erica_magic]]'
+  object: '[[ME_analogia_rhetoric]]'
+  claim: エリカの植物呪術の原理は、修辞学における「アナロギア（類推）」を用いた魔法理論を指喩している。
+  quote: 植物が生長するプロセスをオルガンローデの詠唱段階が進むことに見立てた類推（アナロギア）。呪文の固定と維持のために物理的な種子か植物を媒介にしているのだとしても、再現は恐らくティリビナ人にしか不可能。
+  paragraph: p199
+  confidence: strong
+  quotes:
+  - quote: 植物が生長するプロセスをオルガンローデの詠唱段階が進むことに見立てた類推（アナロギア）。呪文の固定と維持のために物理的な種子か植物を媒介にしているのだとしても、再現は恐らくティリビナ人にしか不可能。
+    paragraph: p199
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_erica_debuff]]'
+  object: '[[ME_semantic_negation]]'
+  claim: エリカが敵を「ただの岩」と定義する攻撃は、言語による存在の否定（意味論的無効化）という概念的な戦闘システムを示唆している。
+  quote: 「そちらの奇岩擬人（パレイドリア）は無効化させてもらいました。『かたち』と『こころ』は私の専門分野。あなたたちは、ただの岩です。」 圧倒的な破壊力の裏に隠されていた存在否定の言語魔術、理解不能な白の色号によって闘将たちは残らず無力化され
+  paragraph: p225-p226
+  confidence: strong
+  quotes:
+  - quote: 「そちらの奇岩擬人（パレイドリア）は無効化させてもらいました。『かたち』と『こころ』は私の専門分野。あなたたちは、ただの岩です。」 圧倒的な破壊力の裏に隠されていた存在否定の言語魔術、理解不能な白の色号によって闘将たちは残らず無力化され
+    paragraph: p225-p226
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mareblanke_Vacancy
+  note: マレブランケの空席を埋めるためにシナモリアキラ選が行われたという噂。マレブランケが何であり、誰が欠けたのか、その政治的・物語的な意味は不明。
+  quotes:
+  - quote: 『マレブランケの空席を埋めるため、シナモリアキラ選が行われる』という噂を受けたガロアンディアン側の対策だった。
+    paragraph: p24
+    quote_verified: true
+  expected_payoff: 勝者がマレブランケの座に就くのか、あるいはその空席が物語上の重大な欠落（主人公の不在など）を象徴しているかの回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_SnowWoman_Anonymity
+  note: 『雪女』として参戦する魔女の名前が検閲され、特定の文字列に変換されるルールが存在する。彼女の真名と、その検閲の主体（支配者）の意図が伏線となっている。
+  quotes:
+  - quote: 第五階層に彼女を知らぬ者はいない。 にもかかわらず、誰もそのまことの名を口にすることはできなかった。 彼女に対する言動が検閲され、自動で特定の文字列に変換される。
+      転生都市の支配者が定めた横暴なルールにより、本来なら『シナモリアキラ』と見なされることがないはずの魔女までもがエントリーしている。
+    paragraph: p72-p75
+    quote_verified: true
+  expected_payoff: 彼女の正体（特定の重要キャラクター）の明かされ方、および検閲システムが崩壊する瞬間。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Troll_Wall_Artemisia
+  note: 『塗壁』ことトロルの男が、最後の懇願で「アルテミシア」という王女の名を上げている。このキャラクターとの関係性が今後の展開に関わる。
+  quotes:
+  - quote: 「お、おねげえだ。おらはもうダメだ。頼むから、代わりにおらたつトロルの王女を、アルテミシアを助けてやってけろ！」
+    paragraph: p230
+    quote_verified: true
+  expected_payoff: アルテミシアの登場、または塗壁がアルテミシアに代わって戦う理由（保護者としての葛藤）の背景描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Erica_Monotrope_Background
+  note: エリカが「第三世界槍（ザドーナ）」のビショップであり、「ロードデンドロンの緑天主」と協力しているという情報。彼女が第五階層にいる理由と、上位存在との関係性が不明。
+  quotes:
+  - quote: 「聞いたことあるだよ。第三世界槍（ザドーナ）で『不思議のミラ』と並び称された天主補佐官（ビショップ）。ティリビナ人だったべか？」 ... とすれば、彼女が協力しているロードデンドロンの緑天主という大仰な名乗りにも説得力が生まれてくる。
+    paragraph: p207-p210
+    quote_verified: false
+  expected_payoff: 上位階層（第三世界槍）からの介入、または彼女が第五階層のゲームに干渉する本当の目的の判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mechanical_Queen_Whim
+  note: バトルロイヤルのきっかけは「とあるゲーム好きな魔女の思いつき」であり、機械女王が快諾した。この魔女が誰なのか（シナモリアキラの一部か）が不明確。
+  quotes:
+  - quote: きっかけはとあるゲーム好きな魔女の思いつきだった。 『祝祭期間中、バトルロイヤルゲームがやりたい』という要望を受けた機械女王は快諾。転生神たる都市管理システムも二つ返事で承認した。
+    paragraph: p17-p18
+    quote_verified: true
+  expected_payoff: この魔女の正体（シナモリアキラ本体？）と、彼女がゲームを望んだ動機。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲームのメタフィクショナルな消費と、その裏にある政治的・実利的意図の対比
+  weight: 0.8
+  quotes:
+  - quote: もちろん、ただの遊びであるはずもない。 『マレブランケの空席を埋めるため、シナモリアキラ選が行われる』という噂を受けたガロアンディアン側の対策だった。
+    paragraph: p23-p24
+    quote_verified: true
+  - quote: 無数の幻像広告が夜闇を斬り裂いて天を染め上げる。
+    paragraph: p8
+    quote_verified: true
+  note: 派手なゲームイベント（消費）の背後にある「空席を埋める」という実利的・政治的な動機（生産/管理）が対比されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と信仰（教義）における、課金システム（経済格差）に基づく分断とイデオロギー闘争
+  weight: 0.7
+  quotes:
+  - quote: 「サイバーカラテを信じるのです。さすればシナモリアキラは我らを救済するでしょう」 「愚かな。サイバーカラテそのものは神にあらず！」
+    paragraph: p30-p32
+    quote_verified: true
+  - quote: 「プレミアムの奴隷が！」 「無課金の寄生虫め！」
+    paragraph: p40-p42
+    quote_verified: true
+  note: サイバーカラテという技術/魔法体系の解釈を巡る争いが、現代のゲームにおける課金ユーザーと無課金ユーザーの対立構造に重ね合わせて描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: システム（ルール）による管理と、個の意志（逸脱）との摩擦
+  weight: 0.6
+  quotes:
+  - quote: 「警告！ 設定された地下区画以外のマップ外に隠れたり移動したりするグリッチは反則です！ ... シナモリアキラ精神に乗っ取ってセーフティエリア内でバトルしましょう！
+    paragraph: p104
+    quote_verified: false
+  - quote: 「予定変更だ。おらが離脱するまでの時間を稼げ。なるたけでけえ騒ぎで頼むぞ。地霊騎士の力を発揮する時だ。」
+    paragraph: p156
+    quote_verified: false
+  note: ゲームのルール（グリッチ禁止、エリア制限）に縛られるシチュエーションと、その中で独自の戦術（地下移動からの離脱、援軍要請）を取るキャラクターたちの行動が対比される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 言語による定義の暴力：名前の検閲と存在の否定
+  weight: 0.9
+  quotes:
+  - quote: 彼女に対する言動が検閲され、自動で特定の文字列に変換される。 転生都市の支配者が定めた横暴なルールにより、本来なら『シナモリアキラ』と見なされることがないはずの魔女までもがエントリーしている。
+    paragraph: p74-p75
+    quote_verified: true
+  - quote: 「そちらの奇岩擬人（パレイドリア）は無効化させてもらいました。『かたち』と『こころ』は私の専門分野。あなたたちは、ただの岩です。」
+    paragraph: p225
+    quote_verified: false
+  note: 「雪女」の名前を隠す検閲システムと、エリカが敵を「岩」と定義し直す言語魔術。両者とも言語・記号による存在の操作と支配を示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的戦略（準備・設置型）と即興的戦闘力（乱戦・変身）の優位性
+  weight: 0.5
+  quotes:
+  - quote: このペットショップ付近が怪しいという情報は掴んでいたのだ。詳細な拠点の座標は掴めずとも、準備をしておくことは容易い。やれ、エリカ
+    paragraph: p179
+    quote_verified: true
+  - quote: 実体化した十一闘将たちは瀕死になりながらもどうにか立ち上がり、愕然と周囲の惨状を見渡す。 ... 銀のフードを目深に被った俯きぎみの女だった。
+    paragraph: p186-p190
+    quote_verified: false
+  note: 乱戦を繰り広げる多数のキャラクターに対し、事前に「設置型」の強力な兵器（エリカの魔法）を用意していた者が圧勝する構図は、ゲームにおける「メタ戦略」や「準備の重要さ」を主題化している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

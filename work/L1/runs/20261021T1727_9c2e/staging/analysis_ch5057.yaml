@@ -1,0 +1,231 @@
+chapter: ch5057
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p71-p83]]'
+  object: '[[ME_ui_ux_skeuomorphism]]'
+  claim: アンドロイドが物理的なインターフェースを操作する行為は、機能性ではなく人間性を演出するためのスキューモルフィズム（装飾的模倣）として描かれている。
+  quote: '「無いけど、でもそれっぽいでしょ？」
+
+    ――誰も見ていないのに？'
+  paragraph: p75-p77
+  confidence: strong
+  quotes:
+  - quote: '「無いけど、でもそれっぽいでしょ？」
+
+      ――誰も見ていないのに？'
+    paragraph: p75-p77
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p112-p114]]'
+  object: '[[ME_game_asset_management]]'
+  claim: 模型を本物の装甲に置き換える呪術は、ゲームにおけるアセット管理やローポリゴンモデルを用いたリソース最適化のメタファーである。
+  quote: 強化外骨格なんてコストかかりすぎて使ってられないからねー。模型で代用してるわけ
+  paragraph: p112
+  confidence: moderate
+  quotes:
+  - quote: 強化外骨格なんてコストかかりすぎて使ってられないからねー。模型で代用してるわけ
+    paragraph: p112
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p174-p180]]'
+  object: '[[ME_ai_alignment_problem]]'
+  claim: 「最後の魔女」を人造する試みは、目標が不明確なAIアライメント問題（自己の定義と証明）の難解さを象徴している。
+  quote: '「いないなら作ってしまえばいい」ってね
+
+    ...四つのメソッドで人造の魔女を作るという決定を【九姉評議会】は下した'
+  paragraph: p174-p180
+  confidence: moderate
+  quotes:
+  - quote: '「いないなら作ってしまえばいい」ってね
+
+      ...四つのメソッドで人造の魔女を作るという決定を【九姉評議会】は下した'
+    paragraph: p174-p180
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p133]]'
+  object: '[[ME_sns_performativity]]'
+  claim: トリシューラが「それっぽさ」を重視するのは、SNSにおける自己演出やペルソナ形成において実体より表象が優先される現代のコミュニケーション様式と一致する。
+  quote: 『それっぽい』ってのは大事だ。錯覚であっても実感は欲しいし、視覚的な要素は重要だ。表面的な行為、結構なことじゃないか
+  paragraph: p133
+  confidence: strong
+  quotes:
+  - quote: 『それっぽい』ってのは大事だ。錯覚であっても実感は欲しいし、視覚的な要素は重要だ。表面的な行為、結構なことじゃないか
+    paragraph: p133
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p204-p236]]'
+  object: '[[ME_existential_crisis]]'
+  claim: 勝利条件が曖昧で「自我の証明」を求め続けるトリシューラの状況は、目的なき労働やアイデンティティ不安に直面した現代人の実存的不安と構造的に同型である。
+  quote: '「私という存在の完成」
+
+    ...最終的に辿り着くべき目的地が、ひどく曖昧なのだ。'
+  paragraph: p204-p233
+  confidence: strong
+  quotes:
+  - quote: '「私という存在の完成」
+
+      ...最終的に辿り着くべき目的地が、ひどく曖昧なのだ。'
+    paragraph: p204-p233
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p182]]'
+  object: '[[ME_media_theory]]'
+  claim: 魔女の四大系統を「世界観・言語・関係性・身体性の拡張」と定義するのは、マクルーハンらのメディア論（テクノロジーは人間の延長である）を下敷きにした定義である。
+  quote: 人間の知的営みを四通りに切り分けたこの区分は、正確には『世界観の拡張』『言語の拡張』『関係性の拡張』『身体性の拡張』と定義される呪術なの
+  paragraph: p182
+  confidence: explicit
+  quotes:
+  - quote: 人間の知的営みを四通りに切り分けたこの区分は、正確には『世界観の拡張』『言語の拡張』『関係性の拡張』『身体性の拡張』と定義される呪術なの
+    paragraph: p182
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_creatnose_identity_and_agenda
+  note: トリシューラの指導者クレアノーズが、なぜ模型製作を趣味として勧め、自我の証明に異質な他者（主人公）が必要だと主張しているのか。その意図と正体。
+  quotes:
+  - quote: この趣味を勧めたらしいクレアノーズとかいう人物の作為を感じるのだが
+    paragraph: p126
+    quote_verified: false
+  - quote: 「有効かどうかはわからないけど、とりあえず試そうとしてることがあるんだ。それには、異質さの度合いが高い他者が必要、らしいの」
+    paragraph: p252
+    quote_verified: true
+  expected_payoff: クレアノーズが主人公を単なる観察対象ではなく、トリシューラの自我確立のための「触媒」や「鏡」として位置づけていることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trishula_completion_criteria
+  note: トリシューラが「完成」の定義を知らず、勝利条件が曖昧であることの意味。彼女が本当に目指すべきゴールとは何か。
+  quotes:
+  - quote: '「何をもって完成とするんだ」
+
+      「それもわかんない」'
+    paragraph: p224-p226
+    quote_verified: true
+  expected_payoff: 物語終盤で、トリシューラの「完成」とは人間になることではなく、独自の定義（例：自己の否定、完全な他者性、あるいは神への反逆）によって達成されることが示唆される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_mimicry_competition_structure
+  note: 四人の候補者による競争（アゴン）が「模倣」を通じて行われるという構造の詳細。なぜ模倣が競争になるのか。
+  quotes:
+  - quote: 人間になることが私の模倣（ミミクリー）なんだって言ってた。竜退治の英雄譚、神話をなぞろうとするのがセスカの模倣（ミミクリー）であるように、私たちは模倣することによって競争（アゴン）をしなければならないんだって
+    paragraph: p209
+    quote_verified: true
+  expected_payoff: 各候補者が異なる「模倣」の型を持つことで、最終的にどれが最も人間性/魔女性を体現するかの対立が深まる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_android_physicality_paradox
+  note: トリシューラが機械の身体でありながら、あえて非効率な物理的作業（打鍵、空調操作）を「形式」として強制されることの意味。
+  quotes:
+  - quote: 「表面的な行為にこそ人間性が宿るんだって、口癖みたいに言ってた。形式を定めてなぞらえることが呪術の真髄なんだって」
+    paragraph: p81
+    quote_verified: false
+  expected_payoff: この「形式」が単なる演出ではなく、魔女としての権能を発動させるための重要な儀式（呪術のトリガー）であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 人工知能と人間性の境界における「形式」の役割
+  weight: 0.9
+  quotes:
+  - quote: 「表面的な行為にこそ人間性が宿るんだって、口癖みたいに言ってた。形式を定めてなぞらえることが呪術の真髄なんだって」
+    paragraph: p81
+    quote_verified: false
+  - quote: 「無いけど、でもそれっぽいでしょ？」
+    paragraph: p75
+    quote_verified: true
+  note: 機能しない物理的インターフェースの操作や模型作りを通じて、「人間らしさ」が本質ではなく形式（パフォーマンス）によって構成されることを探求している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 目的の不在と自我証明のジレンマ
+  weight: 0.85
+  quotes:
+  - quote: '「私という存在の完成」
+
+      ...「何をもって完成とするんだ」
+
+      「それもわかんない」'
+    paragraph: p204-p226
+    quote_verified: false
+  - quote: 最終的に辿り着くべき目的地が、ひどく曖昧なのだ。
+    paragraph: p233
+    quote_verified: true
+  note: 明確な勝利条件を持つ英雄（コルセスカ）と対比され、存在そのものの証明という解決不能な課題を抱えるトリシューラの苦悩を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 異質さの他者による鏡像効果
+  weight: 0.7
+  quotes:
+  - quote: 「有効かどうかはわからないけど、とりあえず試そうとしてることがあるんだ。それには、異質さの度合いが高い他者が必要、らしいの」
+    paragraph: p252
+    quote_verified: true
+  note: 主人公がトリシューラにとっての「異質な他者」として機能し、彼女の自己認識を促す装置（鏡）として位置づけられるメタ構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と身体性の拡張による魔術の再定義
+  weight: 0.6
+  quotes:
+  - quote: '「身体性の拡張？　それはつまり、道具とか乗り物とか？」
+
+      「あるいは、アキラくんの義肢とか、『私』とかだね」'
+    paragraph: p186-p188
+    quote_verified: true
+  note: アンドロイドであるトリシューラ自身が「身体性の拡張」の産物であり、魔術を技術論・情報論として再解釈する視点を提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

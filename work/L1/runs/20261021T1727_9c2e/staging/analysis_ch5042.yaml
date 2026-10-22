@@ -1,0 +1,124 @@
+chapter: ch5042
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_resignation_preset_details
+  note: 敗北前提の『残心プリセット』が具体的にどのような能力・効果を持つのか未明。次章での決定的な逆転要素となる可能性が高い。
+  quotes:
+  - quote: 俺は『残心プリセット』を起動して、用意していた第二の策を使うことを決めた。成功率は低いだろう。そもそもこれは敗北を前提とした戦法だ。
+    paragraph: p112
+    quote_verified: true
+  expected_payoff: 次章でこのプリセットが作動し、カーインの防御力やウィルス攻撃に対して特殊なカウンターが発動する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_micro_machines_limitation
+  note: 体内の微細機械群が呪術世界の論理に抗えない理由の詳細（医学知識の体系相克）が、今後の科学vs魔術のテーマを象徴する伏線。
+  quotes:
+  - quote: 体内の微細機械群が肉体を健常に戻そうとフル稼働しているのだが、効果は薄いようだった。
+    paragraph: p108
+    quote_verified: true
+  - quote: 俺が、そして微細機械が前提としている医学知識とは異なる体系の論理が働いているらしい。
+    paragraph: p110
+    quote_verified: true
+  expected_payoff: 科学技術（微細機械）が完全に無力化されるシーン、または科学的知見を魔術的に解釈し直す展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kain_body_modification_origin
+  note: カーインが自らの体に腫瘍を作り出し経絡を変えるという『肉体改造』の手法と、その維持コスト・代償に関する伏線。
+  quotes:
+  - quote: 私は自らの急所にあえて腫瘍を作り出す事で、経絡の流れを常人のそれと別物にしている。
+    paragraph: p88
+    quote_verified: true
+  expected_payoff: カーインの弱点として、その肉体改造の維持限界や、アキラがその構造を利用する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_world_evaluation
+  note: カーインによるアキラの評価（熱くならないタイプ）とアキラの自覚のズレ。アキラのキャラクター性に関する心理的伏線。
+  quotes:
+  - quote: 「成る程、狙いは私だけではなかったか。君はどうやら、目先の敵にかまけて熱くなるタイプではないらしい」
+    paragraph: p16
+    quote_verified: true
+  - quote: と、カーインが意外そうに呟く。俺が普段他人にどう思われているのかがよく分かる。
+    paragraph: p18
+    quote_verified: true
+  expected_payoff: アキラが「熱くなる」瞬間（感情制御アプリの限界など）と、その結果による戦況変化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 論理体系の相克：科学技術（微細機械・アプリ）は異世界の魔術論理に対して優位性を失う。
+  weight: 0.8
+  quotes:
+  - quote: ここが呪術の世界である以上、より正しくより強いのはそちらの論理なのだ。
+    paragraph: p110
+    quote_verified: true
+  - quote: 体内の微細機械群が肉体を健常に戻そうとフル稼働しているのだが、効果は薄いようだった。
+    paragraph: p108
+    quote_verified: true
+  note: 現代の技術が異世界で通用しないことの明確な描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的インターフェースによる現実操作：ARやアプリによる戦況解析が、戦闘をシミュレーション的なものにしている。
+  weight: 0.7
+  quotes:
+  - quote: 拡張現実空間に放物線を描いて、死体が飛んでいくであろう数秒後の軌道を点滅させる。
+    paragraph: p5
+    quote_verified: true
+  - quote: アプリ同士の連携機能によって『現在の戦況において最適と思われる投擲予測線』を自動選択。
+    paragraph: p7
+    quote_verified: true
+  note: 主人公が世界をゲーム的なUI経由で認識・操作している構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 実利的合理性と武人的尊厳の対立：アキラの「ついで」論理とカーインの「戦いへの執着」が衝突する。
+  weight: 0.6
+  quotes:
+  - quote: 君は戦いの最中に、私以外の相手を意識していたのだからね。こちらはずっと、君以外は眼中に無かったというのに。
+    paragraph: p24
+    quote_verified: true
+  - quote: この戦いに、ゴミ掃除以上の価値は無い
+    paragraph: p37
+    quote_verified: true
+  note: アキラの目的主義とカーインの形式主義（美学）の対比。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体への侵襲：ウィルス感染と肉体改造により、キャラクターの「身体」が不安定化・変質する恐怖。
+  weight: 0.5
+  quotes:
+  - quote: 私は自らの急所にあえて腫瘍を作り出す事で、経絡の流れを常人のそれと別物にしている。
+    paragraph: p88
+    quote_verified: true
+  - quote: 君に移したのは、そちらの世界ではインフルエンザウィルスと呼ばれている、いわゆる流感だよ。
+    paragraph: p106
+    quote_verified: false
+  note: カーインの身体とアキラの身体がともに異常な状態にあることへの描写。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

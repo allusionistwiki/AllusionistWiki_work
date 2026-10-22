@@ -1,0 +1,236 @@
+chapter: ch5345
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 21
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p109]]'
+  object: '[[ME_AR_Gaming_Interface]]'
+  claim: 主人公の視界に現れる予測線や選択肢提示は、現代のアクションゲームにおけるARアシスト機能やナビゲーションUIを模倣している。
+  quote: アプリケーションは正常に起動中。架空の予測線がボールと選手の進行方向を示し、最も蓋然性の高い未来を提示。それに対して最適な結果が選択肢として提示される。優先度の高い『監督シューラのオススメ選択肢』に従って全身が動き、俺はパスの軌道上にスティックの網を『置いた』。
+  paragraph: p109
+  confidence: explicit
+  quotes:
+  - quote: アプリケーションは正常に起動中。架空の予測線がボールと選手の進行方向を示し、最も蓋然性の高い未来を提示。それに対して最適な結果が選択肢として提示される。優先度の高い『監督シューラのオススメ選択肢』に従って全身が動き、俺はパスの軌道上にスティックの網を『置いた』。
+    paragraph: p109
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p157]]'
+  object: '[[ME_Aztec_Ballgame_Ritual]]'
+  claim: ラフディーボールにおける流血と神への供物という要素は、メソアメリカの球戯（トラクチ）における生贄儀式を想起させる。
+  quote: 「どうした。まだまだ球神への供物には足りんぞ。もっと血を流せ。もっと血を流させろ。贄たる我らが闘争によって魂を捧げてこそ球神はお喜びになる」これは呪術だ。血の臭いがする異邦の儀式。古代の神に捧げられる闘争。
+  paragraph: p157-p160
+  confidence: strong
+  quotes:
+  - quote: 「どうした。まだまだ球神への供物には足りんぞ。もっと血を流せ。もっと血を流させろ。贄たる我らが闘争によって魂を捧げてこそ球神はお喜びになる」これは呪術だ。血の臭いがする異邦の儀式。古代の神に捧げられる闘争。
+    paragraph: p157-p160
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p14]]'
+  object: '[[ME_Trojan_War_Agammemnon_Achilles]]'
+  claim: 英雄同士の不和（グレンデルヒとゼドの対立）は、ギリシャ神話におけるトロイア戦争でのアガメムノンとアキレウスの対立構造を模している。
+  quote: 四英雄とその仲間ということで、身体能力に関しては不安は無いし頼りになるはずなのだが、どうしてこうなった。グレンデルヒがいるのはトリシューラが憑依用の機械の身体を用意したからで、ゼドは報酬を用意して雇ったため、アルマは怪我が治ったからとそれぞれ事情が異なるが、一応同じチームなのだから協調する素振りくらい見せて欲しい。
+  paragraph: p14-p16
+  confidence: moderate
+  quotes:
+  - quote: 四英雄とその仲間ということで、身体能力に関しては不安は無いし頼りになるはずなのだが、どうしてこうなった。グレンデルヒがいるのはトリシューラが憑依用の機械の身体を用意したからで、ゼドは報酬を用意して雇ったため、アルマは怪我が治ったからとそれぞれ事情が異なるが、一応同じチームなのだから協調する素振りくらい見せて欲しい。
+    paragraph: p14-p16
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p21]]'
+  object: '[[ME_Mercenary_System_Late_Medieval]]'
+  claim: ゼドが報酬を条件に協力し「傭兵」と自称する様子は、中世後期の傭兵隊（コロニ）が契約によって戦闘に参加するシステムを反映している。
+  quote: 「――報酬の半分、確かにミアスカの口座に振り込まれていることを確認した。約束通り、傭兵として協力させてもらおう」金で雇われた助っ人は、そう言ってテンガロンハットを被り直した。
+  paragraph: p19-p21
+  confidence: moderate
+  quotes:
+  - quote: 「――報酬の半分、確かにミアスカの口座に振り込まれていることを確認した。約束通り、傭兵として協力させてもらおう」金で雇われた助っ人は、そう言ってテンガロンハットを被り直した。
+    paragraph: p19-p21
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p165]]'
+  object: '[[ME_Sports_As_Spectacle_Modern]]'
+  claim: スポーツを「格闘技」「武術」として再定義することで、近代スポーツの非暴力化・ルール化された性質を逆転させ、戦闘としての本質を取り戻している。
+  quote: 実際の所、これは杖術や槍術、集団での戦闘を模した競技武術に近い。最初にちょっとラクロスっぽいのかな、と思った俺は恐らくラクロスに対して非礼を働いてしまったと思う。格闘技と称されるほど当たりの激しいスポーツと言えばラクロスと水球だが、そんなレベルですらなかった。
+  paragraph: p165-p166
+  confidence: strong
+  quotes:
+  - quote: 実際の所、これは杖術や槍術、集団での戦闘を模した競技武術に近い。最初にちょっとラクロスっぽいのかな、と思った俺は恐らくラクロスに対して非礼を働いてしまったと思う。格闘技と称されるほど当たりの激しいスポーツと言えばラクロスと水球だが、そんなレベルですらなかった。
+    paragraph: p165-p166
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_p43]]'
+  object: '[[ME_Time_Loop_Narrative_Trope]]'
+  claim: サリアの失踪理由としての「未来がぶれる」や「周回（ループ）」への言及は、本作におけるタイムループ要素の存在を明確に示唆している。
+  quote: 「んー、よくあるんだよね、黙ってどっか行っちゃうこと。多分、余計な情報を周りに知らせると未来がぶれちゃうからだと思うけど。それか、私に相談して失敗した回があったのかな」（ああ、周回（ループ）中ってことかな？　スキリシアに行ったってことは、あそこを起点にして何かやばいことが起きるのかな――まあセスカの【氷弓】があるなら任せても大丈夫だろうけど）
+  paragraph: p43-p45
+  confidence: explicit
+  quotes:
+  - quote: 「んー、よくあるんだよね、黙ってどっか行っちゃうこと。多分、余計な情報を周りに知らせると未来がぶれちゃうからだと思うけど。それか、私に相談して失敗した回があったのかな」（ああ、周回（ループ）中ってことかな？　スキリシアに行ったってことは、あそこを起点にして何かやばいことが起きるのかな――まあセスカの【氷弓】があるなら任せても大丈夫だろうけど）
+    paragraph: p43-p45
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p177]]'
+  object: '[[ME_Cloud_Computing_Shared_Perception]]'
+  claim: サイバーカラテ道場を通じて複数人の視界を共有し思考を同期する機能は、クラウドベースの共有AR環境やネット接続されたマルチプレイヤーゲームのネットワーク機能を想起させる。
+  quote: 【サイバーカラテ道場】を通じて【マレブランケ】の四人もこの視界を共有している。ユーザー間で思考や動きを同期させて最速の連携を行う機能。これを使わない理由は無い。
+  paragraph: p177
+  confidence: strong
+  quotes:
+  - quote: 【サイバーカラテ道場】を通じて【マレブランケ】の四人もこの視界を共有している。ユーザー間で思考や動きを同期させて最速の連携を行う機能。これを使わない理由は無い。
+    paragraph: p177
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Saria_Loop_Anomaly
+  note: サリアが「未来がぶれる」ことを理由に失踪しており、ループ内の特定イベント（スキリシア関連）との因果関係が不明。彼女が何回も失敗している可能性を示唆している。
+  quotes:
+  - quote: 「んー、よくあるんだよね、黙ってどっか行っちゃうこと。多分、余計な情報を周りに知らせると未来がぶれちゃうからだと思うけど。それか、私に相談して失敗した回があったのかな」
+    paragraph: p43
+    quote_verified: true
+  - quote: （ああ、周回（ループ）中ってことかな？　スキリシアに行ったってことは、あそこを起点にして何かやばいことが起きるのかな――まあセスカの【氷弓】があるなら任せても大丈夫だろうけど）
+    paragraph: p45
+    quote_verified: true
+  expected_payoff: ループの起点となる「スキリシア」でのイベント、またはサリアが過去に失敗した具体的な事象の回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Zedo_Alma_Backstory
+  note: ゼドとアルマ、グレンデルヒ間の極端な仲の悪さ（特にゼドとグレンデルヒ）。過去の因縁や、四英雄としての具体的な対立構造が未開示。
+  quotes:
+  - quote: 「狙った的は外さん。シューターとしての仕事は報酬の分だけする。どこかの苛つく道化に命中させてしまったとしたらそれはわざとだ。安心してくれ」
+    paragraph: p24
+    quote_verified: true
+  - quote: 「安心できねえよ」どうやら道化（グレンデルヒ）との仲は極めて悪いようだ。まあ無理も無い。ゼドを馬鹿にしきった目で見下している蓬髪の壮年男性の態度も相当なものである。
+    paragraph: p26-p29
+    quote_verified: true
+  expected_payoff: 試合中の不和が決定的な敗北要因になるか、あるいは過去の因縁が解決される場面でのカタルシス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rubab_Intelligence
+  note: ルバーブの戦術的な賢さ（パスコースの誘導、インターセプト予測への対応）。単なる物理力だけでなく高度なゲームIQを持つ可能性。
+  quotes:
+  - quote: 俺は横を抜けたはずのルバーブのいる方に閉じ込められていた。続くルバーブの激しいチェックに対して、俺は抵抗できなかった。わかっていても対処の出来ない力強い動きでボールを一気に奪われ
+    paragraph: p141-p143
+    quote_verified: true
+  expected_payoff: 主人公のAR予測を逆手に取る高度なフェイントや、データ不足を突く戦略的なプレーの出現。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_CyberKarate_Doujou_Sync
+  note: 「サイバーカラテ道場」による視界共有と思考同期機能の詳細なメカニクスや限界、そしてそれが試合の勝敗をどう左右するか。
+  quotes:
+  - quote: ユーザー間で思考や動きを同期させて最速の連携を行う機能。これを使わない理由は無い。ラフディーボールが球技であり格闘技であり武術であるというのなら、それはサイバーカラテが包括しうる分野だ。
+    paragraph: p177-p179
+    quote_verified: true
+  expected_payoff: 同期機能を使った超高速連携プレーの実現、または同期負荷による副作用（精神疲労など）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ゲーム的UI（AR・予測線）による現実の補完と支配
+  weight: 0.8
+  quotes:
+  - quote: アプリケーションは正常に起動中。架空の予測線がボールと選手の進行方向を示し、最も蓋然性の高い未来を提示。それに対して最適な結果が選択肢として提示される。
+    paragraph: p109
+    quote_verified: true
+  - quote: 【弾道予報Ver2.1】起動。視界いっぱいに『Ballistics Predict』の文字が表示された。
+    paragraph: p176-p177
+    quote_verified: true
+  note: 主人公がゲーム的なインターフェースを頼りに戦況を解析・支配しようとする姿は、異世界転生における「チート能力」がゲームシステムとして機能していることの顕著な表れである。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 近代スポーツの解体と古代儀礼としての戦闘回帰
+  weight: 0.7
+  quotes:
+  - quote: これは呪術だ。血の臭いがする異邦の儀式。古代の神に捧げられる闘争。現代的価値観から遙かに逆行していく。流血こそ誉れと叫ぶ荒々しい戦士と呪術師の宴。
+    paragraph: p159-p162
+    quote_verified: true
+  - quote: 実際の所、これは杖術や槍術、集団での戦闘を模した競技武術に近い。
+    paragraph: p165
+    quote_verified: true
+  note: ラフディーボールが単なる球技ではなく、神への供物としての流血と武術を伴う儀式として描写されることで、「スポーツ」という概念のメタフィクショナルな解体が行われている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄の不和という「物語的必然」の克服
+  weight: 0.5
+  quotes:
+  - quote: 四英雄とその仲間ということで、身体能力に関しては不安は無いし頼りになるはずなのだが、どうしてこうなった。
+    paragraph: p14
+    quote_verified: true
+  - quote: 完璧な防御からの一瞬の反撃。試合前は不安だったが、何だかんだ言っても彼らは地上有数のフィジカルの持ち主だ。球技であろうとそのパフォーマンスは十全に発揮される。
+    paragraph: p98-p99
+    quote_verified: true
+  note: 「仲間と協調できない英雄」というクリシェが、物理的な実力（フィジカル）によって強引に勝利へ導かれる様子は、物語の論理よりもゲーム的な勝敗決定が優先される構造を示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: タイムループにおける「観測者」の孤立と責任
+  weight: 0.4
+  quotes:
+  - quote: 多分、余計な情報を周りに知らせると未来がぶれちゃうからだと思うけど。それか、私に相談して失敗した回があったのかな
+    paragraph: p43
+    quote_verified: true
+  - quote: ちびシューラが納得しているが、俺には何が何やらよくわからない。
+    paragraph: p47
+    quote_verified: true
+  note: ループの存在を前提とした行動制限（未来の固定化）と、それを知っている者と知らない者（主人公）との間の認識のズレが、物語進行における緊張要因となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

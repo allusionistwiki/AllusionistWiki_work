@@ -1,0 +1,224 @@
+chapter: ch5392
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 3
+  quotes_verified: 14
+  quotes_total: 17
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_オルヴァの舞台認識]]'
+  object: '[[ME_shakespeare_the_world_is_a_stage]]'
+  claim: 世界を舞台と見なす視座はシェイクスピアの『世界は一つの舞台なり』という古典的比喩を参照し、運命論的な脚本（台本）としての現実を暗示している。
+  quote: 'この世界は舞台のようなものだとオルヴァは思う。
+
+    十字の瞳が示す時空の全ては積み上げられた膨大な脚本で、誰も彼もが定められた流れに沿って演技を続けていく。'
+  paragraph: p2, p3
+  confidence: strong
+  quotes:
+  - quote: 'この世界は舞台のようなものだとオルヴァは思う。
+
+      十字の瞳が示す時空の全ては積み上げられた膨大な脚本で、誰も彼もが定められた流れに沿って演技を続けていく。'
+    paragraph: p2, p3
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ルリによるプロタゴニスト命名]]'
+  object: '[[ME_sword_art_online_protagonist_naming]]'
+  claim: 『アキラ・シナモリ・プロタゴニスト』という名前は、主人公（Protagonist）をそのまま名前にするメタ的な命名法であり、『ソードアート・オンライン』などのVRMMOにおけるプレイヤーネームの常套表現や、物語構造そのものを名称に組み込む自己言及性を風刺している。
+  quote: '「プロタゴニストっていうのはね、演劇とかの物語における主人公って意味。さっきのは昔の小説の話で、主人公がそういう名前なんだよ。」
+
+    「主人公に主人公って名前付けるのどうなんですかそれ」'
+  paragraph: p146, p148
+  confidence: moderate
+  quotes:
+  - quote: '「プロタゴニストっていうのはね、演劇とかの物語における主人公って意味。さっきのは昔の小説の話で、主人公がそういう名前なんだよ。」
+
+      「主人公に主人公って名前付けるのどうなんですかそれ」'
+    paragraph: p146, p148
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ルリのアンタゴニスト解説]]'
+  object: '[[ME_pharmacology_antagonist_drugs]]'
+  claim: 物語上の対立者（Antagonist）を、神経伝達物質の受容体を阻害する薬理学的な拮抗薬（Antagonist）に重ね合わせることで、感情制御アプリが「苦痛や葛藤」を物理的にブロックする仕組みを劇作技法として正当化している。
+  quote: '「アンタゴニストはプロタゴニストと対立して葛藤のドラマを生み出す。あるシーンにおける阻害が、劇全体では役者の働きを助けたりもするんだ。」
+
+    拮抗物質（アンタゴニスト）であるカフェインがアデノシンA1AおよびA2A受容体をブロックして眠気を抑制し'
+  paragraph: p155, p53
+  confidence: strong
+  quotes:
+  - quote: '「アンタゴニストはプロタゴニストと対立して葛藤のドラマを生み出す。あるシーンにおける阻害が、劇全体では役者の働きを助けたりもするんだ。」
+
+      拮抗物質（アンタゴニスト）であるカフェインがアデノシンA1AおよびA2A受容体をブロックして眠気を抑制し'
+    paragraph: p155, p53
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_富士山の欠落と修復]]'
+  object: '[[ME_mount_fuji_eruption_history]]'
+  claim: 富士山が「欠けていた」「傷痕」として語られるのは、宝永噴火などで形成された山体の崩壊跡や火山灰による被害を指しており、歴史的な災害記憶が「世界の欠落」という心理的メタファーとして機能している。
+  quote: '両親がまだ小さかった頃、富士山はまだ欠けていたのだと言う。
+
+    ネット上の画像や歴史の教科書で確認出来るような無惨に抉れた富士山というものを知らない。'
+  paragraph: p66, p67
+  confidence: moderate
+  quotes:
+  - quote: '両親がまだ小さかった頃、富士山はまだ欠けていたのだと言う。
+
+      ネット上の画像や歴史の教科書で確認出来るような無惨に抉れた富士山というものを知らない。'
+    paragraph: p66, p67
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_AR亡霊とヘイトの混在]]'
+  object: '[[ME_social_media_hate_and_trends]]'
+  claim: 拡張現実（AR）に現れる「地縛霊」が広告収入やスキャンダル、ヘイトと結びつき、「愛される者は呪われよ」と語られるのは、SNSにおけるトラフィック獲得のための炎上商法や、デジタル上の死者の残影がデータとして消費される現代のネット文化を風刺している。
+  quote: '亡霊の身体に死者の名と追悼の文字と隣国（ラフディ）へのヘイトと芸能人（マラード）のスキャンダルが並んでいることは確かな事実だった。
+
+    愛される者は呪われよ。'
+  paragraph: p89
+  confidence: strong
+  quotes:
+  - quote: '亡霊の身体に死者の名と追悼の文字と隣国（ラフディ）へのヘイトと芸能人（マラード）のスキャンダルが並んでいることは確かな事実だった。
+
+      愛される者は呪われよ。'
+    paragraph: p89
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_カシュラムの諺]]'
+  object: '[[ME_buddhist_concept_of_voidness]]'
+  claim: 「穴と山の総和は等しく、ブレイスヴァにとっては零である」という諺は、仏教的な「空（くう）」や虚無の概念、および対立するものが互いに補完し合い最終的には無となるという思想を連想させる。
+  quote: カシュラムの諺に曰く、『穴と山の総和は等しく、ブレイスヴァにとっては零である』――終端こそが俺の世界を満たす死なのだろうか。
+  paragraph: p84
+  confidence: weak
+  quotes:
+  - quote: カシュラムの諺に曰く、『穴と山の総和は等しく、ブレイスヴァにとっては零である』――終端こそが俺の世界を満たす死なのだろうか。
+    paragraph: p84
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_orva_dragon_summoning
+  note: オルヴァが「自らの『竜』を呼び起こした」と述べる瞬間。この「竜」が異世界側の存在なのか、主人公アキラの精神内の象徴（E-Eアプリ内のアバター等）なのかが不明確であり、両世界の接続点となる可能性が高い。
+  quotes:
+  - quote: そしてオルヴァは、自らの『竜』を呼び起こした。
+    paragraph: p46
+    quote_verified: true
+  expected_payoff: 異世界側の介入が現実側の主人公の精神状態に干渉し、シナモリアキラとしての決断を促す引き金になる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_ruri_identity_origin
+  note: ルリさんの年齢・性別が不明瞭で、「反年齢・反性差別を掲げたポリティカルな遺伝子工学的ファッション」と記述される。また「昔の小説」や「パソコン通信時代の想像力」に精通していることから、単なる医師ではなく高度な技術者、AI、あるいは異世界からの転生者である可能性が示唆されている。
+  quotes:
+  - quote: 実年齢がいつなのかも性別がどちらなのかも不明瞭な少年的で少女的な容貌はつまり反年齢・反性差別を掲げたポリティカルな遺伝子工学的ファッションであり
+    paragraph: p112
+    quote_verified: true
+  - quote: 「パソコン通信時代の想像力だよ」
+    paragraph: p140
+    quote_verified: true
+  expected_payoff: ルリが物語の構造を操作する存在（メタ的な演出家やシステム管理者）であることが判明し、主人公に真実を告げる役割を果たす。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_work_content
+  note: アキラが従事している「仕事」の中身が曖昧であり、「車両監督者」「契約社員」とされるが、その実態は不明。暴走した車が轢いた「被害者（いらいぬし）」との関係性や、補償金支払いの背景にある法的・倫理的な問題が未回収。
+  quotes:
+  - quote: 車両監督者の仕事をしていたら『偶然』暴走した車が『たまたまそこにいた』被害者（いらいぬし）を轢いてしまったりしてもそれは俺の責任ではない。
+    paragraph: p168
+    quote_verified: true
+  expected_payoff: 「仕事」が異世界転生やブレイスヴァに関する隠密な任務であることが判明し、アキラが「観客」から「当事者」へ変わるきっかけとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_emotion_control_list_cutting
+  note: ルリがアキラの感情制御解除（リストカットのような行為）を咎める。「痛み」や「欠落」を実感するための手段として、E-Eアプリを一時的に切るという行動パターンが示される。これが物語の結末に向けた重要な鍵となる。
+  quotes:
+  - quote: 君は感情制御をあえて解除することがあるよね。表情が凄く沈んでるよ。それって、リストカットみたいなものだってわかってる？
+    paragraph: p114
+    quote_verified: true
+  expected_payoff: 最終局面でアキラが再び感情を「開放」し、痛みに耐えることで真の選択（ブレイスヴァとの対峙）を行う。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 幸福の人工化と本物の痛みへの渇望
+  weight: 0.8
+  quotes:
+  - quote: 幸福は作れる。幸せの名はドーパミン、健康の名をセロトニン、胸躍る嬉しさをベータエンドルフィンと呼び
+    paragraph: p72
+    quote_verified: true
+  - quote: 痛みが――欠落が実感であるという思考は、危険だろうか。
+    paragraph: p119
+    quote_verified: true
+  note: 脳内物質による操作で幸福を維持する現代社会において、「欠落」や「痛み」といったネガティブな感情こそが人間らしい実在の証であると捉える逆説的テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 観客から役者への自己主体化
+  weight: 0.9
+  quotes:
+  - quote: オルヴァという傍観者は遂に役者という位置を与えられたのだ！
+    paragraph: p23
+    quote_verified: true
+  - quote: 惰性で人生を演じるだけ――俺はいつ終わるのだろう。
+    paragraph: p171
+    quote_verified: true
+  note: 運命（脚本）に支配される傍観者としての自己認識から、自らの意志で物語に参加する「主人公（プロタゴニスト）」へと変貌していく過程を描く成長と決断のテーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による欠落補填の限界と死受容
+  weight: 0.7
+  quotes:
+  - quote: 'どんな巨大な悲しみも絶望も、代替物を作りだして補填すればいい。
+
+      それが災いと大量死に対しての人の抗いであり、唯一の祈りだ。'
+    paragraph: p70, p71
+    quote_verified: true
+  - quote: 終端こそが俺の世界を満たす死なのだろうか。おお貪りあれ。
+    paragraph: p84
+    quote_verified: true
+  note: テクノロジー（AR、義肢、薬物）によって世界の傷を埋めようとする試みは成功しているように見えるが、根本的な「欠落」は消えず、最終的には死（終端）による統合が必要であるという虚無主義的テーマ。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

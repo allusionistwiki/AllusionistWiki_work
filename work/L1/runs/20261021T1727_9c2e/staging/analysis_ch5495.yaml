@@ -1,0 +1,262 @@
+chapter: ch5495
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 15
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5495_ローザ_helps_ティリビナ人隊員_p299]]'
+  object: '[[ME_gacha_mobile_game_support_character]]'
+  claim: ローザの行動は、プレイヤーキャラクター（前衛）を強化し回復させる「サポーター」キャラの典型的な振る舞い（攻撃と支援の同時提供、明るい性格、チームへの愛着）を模倣している。
+  quote: 同じ班ですし、力を合わせてやってやりましょう！　私、ティリビナ人さんと仲良くしたいなって思ってたんですよー
+  paragraph: p291
+  confidence: moderate
+  quotes:
+  - quote: 同じ班ですし、力を合わせてやってやりましょう！　私、ティリビナ人さんと仲良くしたいなって思ってたんですよー
+    paragraph: p291
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5495_白騎士_other_レイシズム変数_p238]]'
+  object: '[[ME_social_stereotyping_and_racism]]'
+  claim: 「レイシズム変数」という呪文名と、種族特性をステレオタイプとして適用・拡張する記述は、現実社会における人種差別やステレオタイプの固定化をメタ的に指している。
+  quote: レイシズム変数（ヴァリアブル）。ステレオタイプ適用上限を拡張。『野性的かつパワフル』『寡黙な影の言葉は重い』...
+  paragraph: p238
+  confidence: explicit
+  quotes:
+  - quote: レイシズム変数（ヴァリアブル）。ステレオタイプ適用上限を拡張。『野性的かつパワフル』『寡黙な影の言葉は重い』...
+    paragraph: p238
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5495_アキラ_kills_ライラ_p350]]'
+  object: '[[ME_golem_mythology]]'
+  claim: ライラを「泥人形」として解体し殺す描写は、ユダヤ教伝承のゴーレム（粘土で作られた人造人間）が神の息吹を得て動き出し、その名を消すことで機能停止する物語構造に対応している。
+  quote: 'この虹犬はレメス神の眷族であることを存在の礎にしている。
+
+    だとすれば、この魔女は神が奴隷を造るために捏ね上げた泥人形に過ぎない。'
+  paragraph: p334-p335
+  confidence: strong
+  quotes:
+  - quote: 'この虹犬はレメス神の眷族であることを存在の礎にしている。
+
+      だとすれば、この魔女は神が奴隷を造るために捏ね上げた泥人形に過ぎない。'
+    paragraph: p334-p335
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5495_マイコニド解放戦線のリーダー_confesses_呪縛からの解放願望_p101]]'
+  object: '[[ME_class_society_and_caste_system]]'
+  claim: キノコ人社会の「上位者に従え」という命令と、リーダーが自分の人生を「汚物屋」として縛られていると訴える状況は、 caste（カースト）制度や身分制による自己決定権の剥奪を象徴している。
+  quote: '雁字搦めになった呪縛が命じているのは『上位者に従え』という単純な命令のみだ。
+
+    「汚物屋」などという名で人生を縛られるのはもう嫌だ！'
+  paragraph: p89-p101
+  confidence: strong
+  quotes:
+  - quote: '雁字搦めになった呪縛が命じているのは『上位者に従え』という単純な命令のみだ。
+
+      「汚物屋」などという名で人生を縛られるのはもう嫌だ！'
+    paragraph: p89-p101
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5495_アキラ_thinks_戦いを選ぶことへの葛藤_p23]]'
+  object: '[[ME_utilitarian_ethics_in_disaster_response]]'
+  claim: 「人助けよりも戦いを選んでしまった」という自責と、敵の目論見を挫くために戦闘を選択する合理主義は、災害対応における功利主義的ジレンマ（救助vs状況制御）を内面化している。
+  quote: 'ふと、『また人助けよりも戦いを選んでしまった』という思考が浮かぶ。
+
+    ントゥガ族の救助よりもキノコ人の追撃を選んだのはあの場ではやむを得ない判断だった。'
+  paragraph: p23-p24
+  confidence: moderate
+  quotes:
+  - quote: 'ふと、『また人助けよりも戦いを選んでしまった』という思考が浮かぶ。
+
+      ントゥガ族の救助よりもキノコ人の追撃を選んだのはあの場ではやむを得ない判断だった。'
+    paragraph: p23-p24
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5495_アキラ_thinks_白騎士への信頼と敵意_p387]]'
+  object: '[[ME_nietzschean_master-slave_morality]]'
+  claim: 白騎士の「苛烈な意思」を「純粋で優しい」と認めつつ、それが自分（九槍）には許されない「尊い在り方」として描かれる対比は、ニヒツェー的な主人道徳と奴隷道徳の対立構造、あるいは倫理的な優位性への嫉妬を示唆している。
+  quote: '揺るがず曲がらない、私の向こう側にある敵意は、とても純粋で優しいから。
+
+    九槍である私には許されない、尊い在り方。'
+  paragraph: p389-p390
+  confidence: moderate
+  quotes:
+  - quote: '揺るがず曲がらない、私の向こう側にある敵意は、とても純粋で優しいから。
+
+      九槍である私には許されない、尊い在り方。'
+    paragraph: p389-p390
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_white_knight_future_rivalry
+  note: 白騎士が「いつか私の敵になるだろう」と確信されている。その衝突の理由（修道騎士としての正義の定義の違い）と結末が未回収。
+  quotes:
+  - quote: '同じ修道騎士であるこの相手は、いつか私の敵になるだろう。
+
+      だから信じているのはその苛烈な意思。'
+    paragraph: p387-p388
+    quote_verified: true
+  expected_payoff: 後の章で白騎士とアキラが対立し、互いの「正義」を巡る決定的な戦いが起こる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_roza_identity_secret
+  note: ローザがアレッシオや大神院に通じている可能性があり、アキラは秘密を隠している。ローザの真意と背景（なぜあんなに純粋で強いのか）が謎。
+  quotes:
+  - quote: 'まだ付き合いの浅いローザの底は見えない。
+
+      私がアレッシオを攻撃したことはまだ伝えていない。'
+    paragraph: p49-p50
+    quote_verified: true
+  expected_payoff: ローザが敵勢力のスパイ、またはアキラの過去の行動に関連する重要なキーパーソンとして判明する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kobold_people_fate
+  note: 白騎士の提案で「ティリビナ氏族」として洗脳解除処置が行われるが、アキラは彼らが本当に落ち着くのか疑念を抱いている。
+  quotes:
+  - quote: '今は落ち着いていても、支配者から自由になった彼らがこれからどのような道を選ぶのかは未知数だ。
+
+      道を選べるのかどうかすら判然としない。'
+    paragraph: p368
+    quote_verified: true
+  expected_payoff: 洗脳解除後のキノコ人社会の混乱、またはアキラによる介入が必要になる社会的問題への発展。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_marozorondo_divine_favor_loss
+  note: アキラはマロゾロンド神からの関心を失ったと記述されているが、夢馬を通じてその干渉が復活する暗示がある。神との関係の再構築への伏線。
+  quotes:
+  - quote: 'チョコレートリリーが形作る幻想となった私という存在に、マロゾロンド神は以前のような関心を示さなくなった。
+
+      湧きあがる力も謎めいた助言も夢か幻だったかのよう。'
+    paragraph: p151
+    quote_verified: true
+  expected_payoff: アキラが再び神の寵愛を受ける、あるいは神との契約を完全に切断する決断に至る過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_philis_structural_deconstruction
+  note: フィリス（左腕）が「構造を解体できる」と語られている。その具体的な能力の全貌と、それが世界システム全体に対して何をもたらすかが未明。
+  quotes:
+  - quote: '敵がどれだけ強大であっても、それが集団であるのなら。
+
+      私のフィリスはその構造を解体できる。'
+    paragraph: p186-p187
+    quote_verified: true
+  expected_payoff: 巨大な敵勢力や社会システム（階層構造など）をアキラが根本から崩壊させるキーとなる能力の全開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己決定権の剥奪と解放：制度・呪い・階層による支配からの離脱
+  weight: 0.8
+  quotes:
+  - quote: '僕たちは生まれた瞬間から運命に呪縛されている。
+
+      雁字搦めになった呪縛が命じているのは『上位者に従え』という単純な命令のみだ。'
+    paragraph: p86-p89
+    quote_verified: false
+  - quote: 「汚物屋」などという名で人生を縛られるのはもう嫌だ！
+    paragraph: p101
+    quote_verified: false
+  note: キノコ人社会の構造的暴力と、リーダーの解放願望が中心にある。アキラもまた自らの役割（九槍）という呪縛を意識している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 神への依存と自己確立：超越的寵愛からの離脱と自立
+  weight: 0.7
+  quotes:
+  - quote: '神に愛され、その加護に溺れ、自己と神とを切り分けられなくなった融けていく存在。
+
+      私はこうはならない。もうなれない。
+
+      切り分け方を、知ってしまったからだ。'
+    paragraph: p191-p193
+    quote_verified: true
+  - quote: 傲慢にもあの御方の寵愛を拒絶するなんて、悪い子鹿ちゃんね。
+    paragraph: p155
+    quote_verified: true
+  note: 夢馬が神に依存して崩壊する姿と対比し、アキラは「切り分け」によって自立した存在であることを強調している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 正義の純粋性と倫理的孤独：白騎士との対比における道徳的優位性
+  weight: 0.6
+  quotes:
+  - quote: '揺るがず曲がらない、私の向こう側にある敵意は、とても純粋で優しいから。
+
+      九槍である私には許されない、尊い在り方。'
+    paragraph: p389-p390
+    quote_verified: true
+  - quote: 地上的な正しさを苛烈に突きつけてくるくせに、決して非情ではない。
+    paragraph: p374
+    quote_verified: true
+  note: 白騎士の「純粋な正義」を称賛しつつも、それが自分には持てないものとして描かれ、アキラの倫理的な孤立と苦悩を示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: ステレオタイプと構造の解体：言語・概念による支配からの解放
+  weight: 0.5
+  quotes:
+  - quote: レイシズム変数（ヴァリアブル）。ステレオタイプ適用上限を拡張。
+    paragraph: p238
+    quote_verified: true
+  - quote: '敵がどれだけ強大であっても、それが集団であるのなら。
+
+      私のフィリスはその構造を解体できる。'
+    paragraph: p186-p187
+    quote_verified: true
+  note: 白騎士の呪文（ステレオタイプ強化）とアキラの能力（構造解体）が対比され、固定化された概念への戦いが主題となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

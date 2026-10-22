@@ -1,0 +1,115 @@
+chapter: ch5304
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 11
+  quotes_total: 11
+items:
+- kind: mystery
+  name: MY_right_eye_tears
+  note: 右目からの涙と、後の右半身の切り売り（p56）との身体的な連続性。右半身が「力」や「視覚」の源となっている可能性。
+  quotes:
+  - quote: するとどうしてか、女の子の右目から涙がこぼれ落ちました。
+    paragraph: p16
+    quote_verified: true
+  - quote: 女の子は自分で自分の右半身をパンのように千切って地面に埋めます。
+    paragraph: p56
+    quote_verified: true
+  expected_payoff: 右半身が欠損した状態での戦闘、あるいは柘榴の木が「右目」の代わりとなる視覚的・霊的な知覚装置としての機能。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_hunter_survival
+  note: 全滅した仲間の中で唯一生き残った「狩人」がなぜ生き残り、何を対価に女の子を救済したのか。p45の「氷でできた弓矢」「時計を持ったハエ」「魂が砕ける」という条件の詳細。
+  quotes:
+  - quote: たったひとり残った仲間、一番最初に共に戦うと約束してくれた狩人が言います。あなただけでも、助けてみせると。
+    paragraph: p44
+    quote_verified: true
+  - quote: 氷でできた弓矢と、時計を持ったハエと、大切な人の魂が砕け散ると、全ては無かったことになっていきます。
+    paragraph: p45
+    quote_verified: true
+  expected_payoff: 狩人の存在は「世界の外側」からの干渉者（観測者）である可能性、あるいは時間操作のキーアイテムとしての役割。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_pomegranate_power_specifics
+  note: 柘榴を食べた王さまたちが得た「世界を視る力」「言葉の力」「繋がる力」の具体的な機能と副作用。
+  quotes:
+  - quote: この世界を視る力。言葉の力。女の子と繋がる力。そして命そのもの。
+    paragraph: p60
+    quote_verified: true
+  expected_payoff: 竜（世界）を「視る」ことで構造を知り、「言葉」で干渉し、「繋がる」ことで支配するという、メタレベルでの世界改変能力の発動。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_stop_the_story
+  note: 「続く」をやめて「お終い」にするという目的が、物語の完結を意味するのか、世界の消滅・ループの断絶を意味するのか。
+  quotes:
+  - quote: 『続く』をやめて、『お終い』にするために。
+    paragraph: p64
+    quote_verified: true
+  expected_payoff: メタフィクション的な完結（読者への呼びかけ、作者との対決）か、シナリオ上の死（安楽死）の選択。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者の存在が孤独を深める逆説的な人間関係論
+  weight: 0.8
+  quotes:
+  - quote: たくさんの人に囲まれている時の方が、ひとりきりの時よりさみしく感じられるものだというのです。
+    paragraph: p14
+    quote_verified: true
+  note: 社会的孤立の定義を覆し、関係性そのものが苦痛の源泉であることを示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の反復（ループ）からの脱出と終結の希求
+  weight: 0.9
+  quotes:
+  - quote: 全ては、ぐるぐると回り続ける運命を断ち切るために。
+    paragraph: p63
+    quote_verified: true
+  - quote: 『続く』をやめて、『お終い』にするために。
+    paragraph: p64
+    quote_verified: true
+  note: 無限の再生（ゲームループ）を断ち切り、有限な結末（死/完結）を選ぶことの正当化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己犠牲による世界との結合（メタフィクショナルな食卓）
+  weight: 0.7
+  quotes:
+  - quote: 少女の血肉から生まれた柘榴。それを食べた六人は、とても強い力を手にします。
+    paragraph: p60
+    quote_verified: true
+  note: 主人公が自身の肉体を分割し他者に供与することで、パーティ（仲間）を強化し、物語を進めるための資源とする構造。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶喪失と再生によるアイデンティティの再構築
+  weight: 0.6
+  quotes:
+  - quote: 自分はずっと思い出が無くて、どこから自分が来たのかがわからなかったのだと。けれど、今ようやく全てを思い出したのだと。
+    paragraph: p17
+    quote_verified: true
+  note: 前世の記憶（過去）が現在の行動原理（未来への旅立ち）を決定づける因果の逆転。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

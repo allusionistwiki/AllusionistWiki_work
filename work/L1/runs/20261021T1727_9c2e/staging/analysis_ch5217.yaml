@@ -1,0 +1,130 @@
+chapter: ch5217
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 8
+  quotes_total: 10
+items:
+- kind: mystery
+  name: MY_Harutiel_Capital_Distribution
+  note: ハルティールが死に際にリーナへ「使い魔に力を与える呪術」を渡した。これが単なる加速ではなく、後にクロウサー家の支配構造や「空使い」の真の権限に関わるキーアイテムとなる可能性が高い。
+  quotes:
+  - quote: エジーメの血族が司る始祖クロウサーの帽子を持った左手――使い魔に力を与えるその呪術が、限界を超えたリーナに更なる力を与える。
+    paragraph: p109
+    quote_verified: true
+  expected_payoff: リーナが単独で勝つためではなく、「使い魔（家族/仲間）」のシステムを掌握・書き換えるための権限として回収される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Restlooce_Missing_Authority
+  note: 魔将たちの不和の原因は「最終的な決定を下すべき主（レストロオセ）が不在」であること。レストロオセの不在が単なる欠席ではなく、意図的かつ戦略的なもの（あるいは死亡・封印）である可能性を示唆する。
+  quotes:
+  - quote: 最終的な決定を下すべき主が不在の今、魔将たちはまさしく不和の種を抱え込んでしまい、混乱している。
+    paragraph: p245
+    quote_verified: true
+  expected_payoff: レストロオセの真の目的や所在、あるいは「不在」そのものが敵にとっての罠であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_CyberKarate_Virus_Source
+  note: 「サイバーカラテ道場」というアプリが突然インストールされた出所（太陰の図書館？）と、それがなぜ「聖婚」や「紀元槍」と結びつくのか。現代ネット文化の要素が異世界に導入される必然性。
+  quotes:
+  - quote: 太陰（イルディアンサ）の神々の図書館から舞い降りた言語が地上に伝播して、その意味が急速に浸透していく。
+    paragraph: p292
+    quote_verified: true
+  expected_payoff: このアプリが単なるジョークではなく、精神支配・意識書き換えの兵器（メンタルハック）として機能し始める。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Priestera_Sacrifice_Trigger
+  note: プリエステラが「己の全てを捨てて死地に足を踏み入れた」ことが、なぜ魔将たちの論争を止め、全端末への感染トリガーになったのか。彼女の「関係性の相対性」の理解がどう作用したか。
+  quotes:
+  - quote: そう考えた彼女は、己の全てを捨てて死地に足を踏み入れた。
+    paragraph: p258
+    quote_verified: true
+  expected_payoff: プリエステラの犠牲が「物語の法則」を書き換える特異点となり、魔将たちの支配構造を内側から崩す鍵となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Third_Sage_Unfated_End
+  note: 「惨めに矮小化したその末路は既に決定している」と語られた3人目のサジェミリーナ（ベフォニス等）の結末。彼女が追われなかった理由と、その「決定された末路」の内容。
+  quotes:
+  - quote: 惨めに矮小化したその末路は既に決定している。
+    paragraph: p215
+    quote_verified: true
+  expected_payoff: サジェミリーナが自壊する、あるいは「決定的な敗北」を受け入れることで物語が終結に向かう。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自由意志と自己犠牲の逆説：家族愛という鎖から解放された行為こそが、最も純粋な自己決定である。
+  weight: 0.8
+  quotes:
+  - quote: 大切な家族だからそうしなくてはいけない、なんて鎖に縛られた自分たち――クロウサー家とは違う。 ただ自由に。 自分の意思で、自らを不利にする道を選び取る。
+    paragraph: p61
+    quote_verified: true
+  note: ミルーニャの行動を「家族愛」と誤認するリーナに対し、物語はそれを否定し、「自由」の定義を再構築している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術的強制と存在論的暴力：世界を更新（アップデート）することは、旧世界の住人を消滅させる暴力的行為である。
+  weight: 0.7
+  quotes:
+  - quote: 世界を更新するのなら人類も更新するべきだ！ ...変幻自在の水にして炎にして風にして土！
+    paragraph: p19
+    quote_verified: false
+  note: 進化や変化を「更新」というIT用語で表現し、それが人間存在の否定（質量ゼロ）と直結していることを示唆する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 権威の相対性と不在：絶対的な神（空使い/紀元槍）は名乗り出た瞬間に支配を確立し、中間管理職（魔将）を無価値にする。
+  weight: 0.6
+  quotes:
+  - quote: 頭が高い。頭を垂れよ地虫ども ...そこは無限の宇宙空間であるにも関わらず、上下の区分が有り...存在の優劣が定められているのだと両者は同時に確信してしまった。
+    paragraph: p178
+    quote_verified: false
+  note: 物理法則（相対性）よりも上位にある「権威（階層）」の強制力を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 情報感染による支配：論理や武力ではなく、意味不明な言語（アプリ/歌）が全端末にインストールされることで社会は制御される。
+  weight: 0.5
+  quotes:
+  - quote: エルネトモランの全ての端末に不可視の呪術的ウィルスが感染し、強制的に一つのアプリケーションをインストールしていく。
+    paragraph: p287
+    quote_verified: true
+  note: 現代社会のアルゴリズム支配・SNS依存をファンタジー化した主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 死者の遺志と呪術的継承：死は終わりではなく、遺志が「呪い（システム）」として生者に引き継がれ、力を増幅させる資源となる。
+  weight: 0.4
+  quotes:
+  - quote: 死者の遺志が呪いとなり、リーナの全身を夥しい数の呪文が鎖状になって覆い尽くしていく。
+    paragraph: p115
+    quote_verified: true
+  note: ハルティールの死が単なる悲劇ではなく、戦闘力の「チャージ」として機能するメカニズムの提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

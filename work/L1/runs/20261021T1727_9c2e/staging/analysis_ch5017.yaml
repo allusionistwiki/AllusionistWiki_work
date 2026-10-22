@@ -1,0 +1,147 @@
+chapter: ch5017
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 18
+items:
+- kind: mystery
+  name: MY_全滅の遅延とエスフェイルの隠蔽
+  note: 仲間たちが既にカインのようにゾンビ化し、エスフェイルがそれを利用していた可能性。なぜ他の者が即座に襲撃されなかったのか、あるいはエスフェイルが意図的に情報を隠していたのか。
+  quotes:
+  - quote: 既に俺とアズーリア以外は全滅していて、それをエスフェイルが黙っているだけという可能性を、なぜ考慮しなかったのか。
+    paragraph: p105
+    quote_verified: true
+  - quote: その愚かさのツケを、今になって支払うことになった。
+    paragraph: p106
+    quote_verified: true
+  expected_payoff: エスフェイルが仲間たちの死を隠蔽し、アキラを精神的・戦術的に追い詰めるための罠として利用していた事実の明かし。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_カインの左手による干渉
+  note: カインの黒い左手がアキラに気力を注ぎ込んでいるという感覚。これが単なる記憶・幻覚なのか、それとも何らかの物理的・魔術的な介入であるのか。
+  quotes:
+  - quote: 右手に重ねられた、黒い左手の感触を思い出す。
+    paragraph: p123
+    quote_verified: true
+  - quote: 光すら飲み込んでしまいそうな闇をたたえていたにも関わらず、確かな熱を宿していた、あの奇妙な左手が、俺の右手に気力を注ぎ込んでくれているような気がした。
+    paragraph: p124
+    quote_verified: true
+  expected_payoff: カインの死後の魂や能力がアキラに継承・干渉していることの暗示、またはアキラがサイバーカラテを超えた何かを内包しつつある伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_月（エスフェイルの能力）の正体と由来
+  note: エスフェイルが「古来より知性あるものを狂気に駆り立てる魔の象徴」と呼ぶ月。単なる幻覚攻撃なのか、実体的な呪術的兵器なのか。
+  quotes:
+  - quote: 『古来より知性あるものを狂気に駆り立てる魔の象徴、この私とも深い関係を持つ夜天の満月。今までの単調な攻撃と同じだと思わぬことだ』
+    paragraph: p91
+    quote_verified: true
+  - quote: 縮尺も高度も本来の月のものではなかった。これはエスフェイルが操る『何か』だ。
+    paragraph: p89
+    quote_verified: true
+  expected_payoff: エスフェイルの出自や、この世界における「月」に関する伝承・魔法体系との関連性への回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_テールの盾の戦術的弱点
+  note: テールの盾は防御だけでなく開くことで隙を作る武器でもある。アキラがこれを攻略した手法（回転、肘打ち）が、今後の対人戦闘で再利用される可能性。
+  quotes:
+  - quote: 開く。攻撃を外側へ受け流す事で隙を作り出し、反撃へと繋げる動き。
+    paragraph: p186
+    quote_verified: true
+  - quote: 完全に予想と違わぬテールの応手に、俺は逆らわず、その力を利用しつつ身体を回転させていく。
+    paragraph: p190
+    quote_verified: true
+  expected_payoff: アキラが「左腕の欠損」という弱点を突く戦術への対策として、この経験が今後の戦闘（特に盾を使う敵対者）に活かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_サイバーカラテ道場なしでの限界
+  note: 集合知の参照ができず能力低下する状態での戦闘。「理論上は可能」と言いながら、実際の戦いではどのような代償や失敗が起きるのか。
+  quotes:
+  - quote: サイバーカラテ道場無しでの実戦は、実は初めてだ。
+    paragraph: p22
+    quote_verified: false
+  - quote: 狂気じみた博打。
+    paragraph: p24
+    quote_verified: true
+  expected_payoff: アキラが「型」の再現で戦うことの限界（疲労、直感の狂いなど）が顕在化し、最終的に道場への回帰か、超越的な独自技術の開発へ繋がる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術による人間の補完と、感情制御の倫理的優位性
+  weight: 0.9
+  quotes:
+  - quote: 足りない精神力をツールによって補うのは、サイバーカラテの本質に適うことだ。
+    paragraph: p13
+    quote_verified: true
+  - quote: 実の所、サイバーカラテにおいて最も重要なのは『サイバーカラテ道場』ではなく感覚・感情制御アプリである『E-E』の方なのだ。
+    paragraph: p37
+    quote_verified: true
+  note: 肉体的な欠損や精神的な脆さをツールで埋めることを肯定し、感情の抑制こそが戦闘能力の土台であると説く。これはトランスヒューマニズム的な視点であり、「弱い人間」を救済する技術への信頼を示す。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 弱者（ゾンビ化仲間）の殺害に伴う道徳的葛藤と、戦闘狂としての自覚
+  weight: 0.8
+  quotes:
+  - quote: '「一応訊いておくけど、彼らを助ける方法は」
+
+      「ゾンビ化した人類は物理的に破壊するしかない」'
+    paragraph: p112
+    quote_verified: true
+  - quote: 「否定はしない。悪いがこのまま前を頼む」
+    paragraph: p162
+    quote_verified: true
+  note: アキラは感情制御により殺害の心理的負担を軽減しているが、「戦闘狂」としての本性（身勝手な参戦理由）を隠さない。これは「安楽死」や「殺害」を技術・理性で正当化しつつも、その根底にある欲望を認める姿である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: サイバーカラテ（理性・制御）とバイオカラテ（感情・昂り）の対立
+  weight: 0.7
+  quotes:
+  - quote: 感情の昂ぶりを力に換えるあのような戦い方はサイバーカラテの理念とは反するが、有効であることは認めざるを得ない。
+    paragraph: p145
+    quote_verified: true
+  - quote: アズーリアの激昂状態は、まさしくその境地。
+    paragraph: p149
+    quote_verified: true
+  note: アキラのサイバーカラテ（感情制御）とアズーリアの激しい感情を動力とする戦闘スタイルが対比される。どちらが優れているかではなく、両立し難い理念が戦場で共存する構図を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 過去の記憶と贈与（胸当て）による人間性の残響
+  weight: 0.6
+  quotes:
+  - quote: 「この胸当ては、あんたにもらったんだ」
+    paragraph: p218
+    quote_verified: true
+  - quote: トッドには、人狼から奪った胸当てをつけてもらったことがあった。それが今、防具としての役割を果たしていた。
+    paragraph: p220
+    quote_verified: true
+  note: 敵（ゾンビ）を殺す前に、過去の人間関係（贈与と受領）を想起させることで、戦闘行為に「情」や「因果」を織り込み、単なる物理破壊ではないドラマを生んでいる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

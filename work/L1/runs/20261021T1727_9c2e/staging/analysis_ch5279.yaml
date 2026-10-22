@@ -1,0 +1,204 @@
+chapter: ch5279
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 5
+  mysteries: 4
+  themes: 4
+  quotes_verified: 18
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_ch5279_ケイト_other_健康の断章_p34]]'
+  object: '[[ME_eugenics_and_genetic_discrimination]]'
+  claim: ケイトが使用する『健康』という名の魔法は、優生学的な遺伝子選別思想を擬人化・武器化したものである。
+  quote: さあ『健康』の断章よ、あらゆる劣った遺伝子を駆逐しろっ
+  paragraph: p34
+  confidence: strong
+  quotes:
+  - quote: さあ『健康』の断章よ、あらゆる劣った遺伝子を駆逐しろっ
+    paragraph: p34
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_ch5279_トリシューラ_activates_スタンドアロンシューラ_p269]]'
+  object: '[[ME_ai_backup_and_cloud_computing]]'
+  claim: 物理的な肉体を持たない状態で起動する『スタンドアロンシューラ』は、クラウド上のAIバックアップやデフォルメされたVRアバターを想起させる。
+  quote: いざというときの為のバックアップ、スタンドアロンシューラ、ただ今起動したよ！
+  paragraph: p269
+  confidence: strong
+  quotes:
+  - quote: いざというときの為のバックアップ、スタンドアロンシューラ、ただ今起動したよ！
+    paragraph: p269
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_ch5279_ケイト_other_劇_p27]]'
+  object: '[[ME_metafictional_narrative_disruption]]'
+  claim: 物語の結末（ハッピーエンド）を『断章』というメタ的なアイテムで破壊しようとする行為は、フィクション内での物語構造への介入・改変を試みるメタフィクション的展開である。
+  quote: 悪いけどそのハッピーエンド、不条理にぶちこわさせてもらう！
+  paragraph: p29
+  confidence: strong
+  quotes:
+  - quote: 悪いけどそのハッピーエンド、不条理にぶちこわさせてもらう！
+    paragraph: p29
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_ch5279_ヒュールサス_other_経済_p156]]'
+  object: '[[ME_modern_welfare_state_crisis]]'
+  claim: 異世界国家ヒュールサスの財政破綻は、現代の福祉国家における社会保障費増大による国庫圧迫という経済構造を投影している。
+  quote: 増大する福祉への支出は際限なく国庫を食らいつくし、債務が積み上がり、税は重く民にのし掛かっていく。
+  paragraph: p156
+  confidence: moderate
+  quotes:
+  - quote: 増大する福祉への支出は際限なく国庫を食らいつくし、債務が積み上がり、税は重く民にのし掛かっていく。
+    paragraph: p156
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_ch5279_右腕_appears_空中_p60]]'
+  object: '[[ME_narrative_trope_deus_ex_machina]]'
+  claim: 絶体絶命の状況において、通常は道具や赤子として扱われる存在が自発的に動き出し危機を脱するのは、通常の『救世主出現』のパターンを逆転させ、当事者自身が主体となる構造になっている。
+  quote: 右腕が、闇の中に飛び上がった。
+  paragraph: p60
+  confidence: moderate
+  quotes:
+  - quote: 右腕が、闇の中に飛び上がった。
+    paragraph: p60
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_vivi_eviros_role
+  note: ヴィヴィ＝イヴロスがアキラに渡した台本（脚本）が誤りであり、テスモポリスの支配下にある可能性が示唆されている。
+  quotes:
+  - quote: 確信する。テスモポリスこそが正しい道筋を理解していたことを。そして、ヴィヴィ＝イヴロスが俺に誤った台本を渡していたことも。
+    paragraph: p209
+    quote_verified: true
+  - quote: つまり、ヴィヴィ＝イヴロスはテスモポリスと結託しているか、既にテスモポリスの支配下に置かれており、従属する立場にある。
+    paragraph: p211
+    quote_verified: true
+  expected_payoff: ヴィヴィ＝イヴロスが実はテスモポリスの配下（または操り人形）であり、アキラを誘導していたことが明かされる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_right_arm_origin
+  note: 右腕が独立した意思を持ち、文字を切断し本を閉じるほどの力を持つ謎の存在であること。
+  quotes:
+  - quote: それを、手刀の形を作った右腕が鮮やかに切り裂いていく。
+    paragraph: p62
+    quote_verified: true
+  - quote: 父親の仇打ち
+    paragraph: p65
+    quote_verified: false
+  expected_payoff: 右腕（赤子）が成長し、ヴァージルやテスモポリスの戦闘能力の一部として再登場する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_kate_survival
+  note: ケイトは爆発消滅したが、バックアップを用意している可能性が語られている。
+  quotes:
+  - quote: あのクラスの言語魔術師ならバックアップくらい用意していてもおかしくないし、本体はゾーイの所だろうからこれで終わりとは思えない
+    paragraph: p93
+    quote_verified: true
+  expected_payoff: ケイトが別の場所（ゾーイ）で復活し、再度物語に介入してくる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_virgil_kingdom
+  note: ヴァージルが太陰へ去り、「良い王様になる」と約束してヒュールサスの問題を解決する未来への布石。
+  quotes:
+  - quote: 僕、きっと良い王さまになります。そうしたら、ヒュールサスの皆さんの問題を解決してあげることだって出来ると思うんです。
+    paragraph: p187
+    quote_verified: true
+  expected_payoff: 未来の時間軸でヴァージルが王として帰還し、ヒュールサス（およびアキラたち）の危機を救う展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 他者の存在定義と自己の選択への葛藤
+  weight: 0.8
+  quotes:
+  - quote: 俺は、コルセスカの前世の一つである少女が憎いのでは無い。その二人が交換可能であるという状況そのものが、そしてそれに抗えない自分が、どうしようもなく憎いのだった。
+    paragraph: p142
+    quote_verified: true
+  - quote: 俺一人の我が侭に、レオやチリアット、グラッフィアカーネたちを巻き込んで、彼らに不利を背負わせていいものだろうか。
+    paragraph: p137
+    quote_verified: true
+  note: 主人公アキラが、仲間を救うこととコルセスカ（の存在保証）を守ることの板挟みになり、決定不能な状況に陥っている心理的葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の構造に対するプレイヤーの介入と限界
+  weight: 0.7
+  quotes:
+  - quote: 本来ならば今とは違った結末を迎えてしまうヴァージルを再起させること。それこそがこの劇の目的だったのだ。
+    paragraph: p205
+    quote_verified: true
+  - quote: ゲームマスターであるテスモポリスに、俺とグレンデルヒという二つのプレイヤーが挑むという形式が正しい認識だったのだ。
+    paragraph: p214
+    quote_verified: true
+  note: 物語（劇）を意図的に改変しようとする存在（テスモポリス、ケイト、アキラ）と、その流れ（脚本）に従うことのメタファー。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 社会制度の理想と現実的な破綻
+  weight: 0.6
+  quotes:
+  - quote: ヒュールサスからは活気が失われ、やがて寒々とした風が吹き込むようになっていった。
+    paragraph: p159
+    quote_verified: true
+  - quote: 「役立たずを養ってやる余裕なんざねえんだよ！」
+    paragraph: p161
+    quote_verified: true
+  note: ウォゾマの理想主義的な福祉思想が、現実の経済的・人的リソースの限界（排他的意思）と衝突し社会を機能不全に陥らせている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 母性による秩序の再編成
+  weight: 0.5
+  quotes:
+  - quote: テスモポリスは、異常な出産であったにも関わらず腕の赤子を拒絶しなかった。
+    paragraph: p2
+    quote_verified: true
+  - quote: 大丈夫。この子は、私が責任を持って育てます。だから貴方は行って？
+    paragraph: p124
+    quote_verified: true
+  note: テスモポリスが「赤子」を庇護し、ヴァージルを送り出すことで、従来の父性的権威（罰神）や軍事的暴力を超越した秩序を作っている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

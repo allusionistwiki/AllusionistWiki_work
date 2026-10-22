@@ -1,0 +1,266 @@
+chapter: ch5050
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 25
+  quotes_total: 25
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p12_trident_rivalry]]'
+  object: '[[ME_corporate_competition]]'
+  claim: 魔女間の敵対関係は、同一企業内で昇進ポストを争う社員同士の構造的な競合と類似している。
+  quote: 同じ組織に属しているからこそ競争するの。私達は『星見の塔』の『最後の魔女』の席（ポスト）を賭けて争っているんだ。その席はたった一つきりで、四人いる候補者のうち一人しかそこには座れない。
+  paragraph: p20
+  confidence: strong
+  quotes:
+  - quote: 同じ組織に属しているからこそ競争するの。私達は『星見の塔』の『最後の魔女』の席（ポスト）を賭けて争っているんだ。その席はたった一つきりで、四人いる候補者のうち一人しかそこには座れない。
+    paragraph: p20
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p14_trident_servant]]'
+  object: '[[ME_outsourcing_exploitation]]'
+  claim: 姿を現さず使い魔を送り込むトライデントの戦法は、リスクを負わず利益を得るための外注・下請け構造のメタファーである。
+  quote: 自らは姿を現すことなく、使役する組織構成体を送り込んでくる厄介な相手。その使い魔の数は無尽蔵で、とても単独では抗えません
+  paragraph: p14
+  confidence: moderate
+  quotes:
+  - quote: 自らは姿を現すことなく、使役する組織構成体を送り込んでくる厄介な相手。その使い魔の数は無尽蔵で、とても単独では抗えません
+    paragraph: p14
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p56_trishula_demand]]'
+  object: '[[ME_service_industry_power_dynamics]]'
+  claim: 治療を条件に跪きと謝罪を求めるトリシューラの要求は、顧客の傲慢さやサービス提供者との力関係の逆転現象を示唆している。
+  quote: 治して欲しかったら助けて下さいご主人様って言ってご覧？ 偉大なウィッチドクター様に感謝感激しながら跪いてもいいんだよ？
+  paragraph: p58
+  confidence: strong
+  quotes:
+  - quote: 治して欲しかったら助けて下さいご主人様って言ってご覧？ 偉大なウィッチドクター様に感謝感激しながら跪いてもいいんだよ？
+    paragraph: p58
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p109_cain_healing]]'
+  object: '[[ME_wuxia_acupuncture]]'
+  claim: ロウ・カーインの「六淫操手」としての治療法は、武侠小説における経絡秘孔を用いた気功術や针灸治療の類型に依拠している。
+  quote: 奉竜山の秘拳は万病を与え、また万病を癒す陰陽相成の絶技。その程度の流感を治すことなど赤子の手を捻るが如し！
+  paragraph: p109
+  confidence: strong
+  quotes:
+  - quote: 奉竜山の秘拳は万病を与え、また万病を癒す陰陽相成の絶技。その程度の流感を治すことなど赤子の手を捻るが如し！
+    paragraph: p109
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p84_cain_restriction]]'
+  object: '[[ME_karmic_bureaucracy]]'
+  claim: 悪鬼に雇われたという理由だけで聖域「泉」への侵入を拒む裁定は、経歴や所属による社会的な排除・入店拒否の論理と似ている。
+  quote: 先程まで悪鬼、つまり異獣たちの仲間であったカーインは『下』勢力であると『世界槍』に認識されている。恐らく審判のヲルヲーラの裁定だろうが、その為『上』の拠点である『泉』に侵入することができなかったのだ。
+  paragraph: p84
+  confidence: moderate
+  quotes:
+  - quote: 先程まで悪鬼、つまり異獣たちの仲間であったカーインは『下』勢力であると『世界槍』に認識されている。恐らく審判のヲルヲーラの裁定だろうが、その為『上』の拠点である『泉』に侵入することができなかったのだ。
+    paragraph: p84
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p27_place_paradox]]'
+  object: '[[ME_social_belonging_anxiety]]'
+  claim: 組織内のポスト争いによる「居場所」の希薄化は、現代社会における所属意識の不安定さと自己責任論を反映している。
+  quote: 生きる限り、居場所を求め続けるのなら、それは居場所が無いのと同じではないのか。ならば、居場所とは何だ？
+  paragraph: p27
+  confidence: strong
+  quotes:
+  - quote: 生きる限り、居場所を求め続けるのなら、それは居場所が無いのと同じではないのか。ならば、居場所とは何だ？
+    paragraph: p27
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_p95_cain_character]]'
+  object: '[[ME_honorable_villain_archetype]]'
+  claim: カーインの誇りへの固執と武人としての自意識は、後にアキラとの信頼関係構築や敵対勢力内での離反を示唆する伏線である。
+  quote: この男はもっと、体面を過剰なまでに気にする見栄っ張りのはずだ。
+  paragraph: p95
+  confidence: moderate
+  quotes:
+  - quote: この男はもっと、体面を過剰なまでに気にする見栄っ張りのはずだ。
+    paragraph: p95
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Trident_TrueIdentity
+  note: トライデントの正体、目的、そして魔女たちとの具体的な対立構造の詳細。
+  quotes:
+  - quote: トライデントは私達の競争相手。私とセスカも競争相手だけど、私達が状況次第でそれなりに協調できるのに対して、トライデントとは絶対に、どんな状況でも敵対しかあり得ない。
+    paragraph: p12
+    quote_verified: true
+  - quote: トライデントは『使い魔』の魔女です。自らは姿を現すことなく、使役する組織構成体を送り込んでくる厄介な相手。
+    paragraph: p14
+    quote_verified: true
+  expected_payoff: トライデント本人との直接対決、またはその目的（受け入れがたい目的）の具体的内容の露見。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_StarTower_LastWitch_Post
+  note: 「星見の塔」における「最後の魔女」ポストの詳細と、選考基準（目的の達成度・順番）。
+  quotes:
+  - quote: 私達は『星見の塔』の『最後の魔女』の席（ポスト）を賭けて争っているんだ。その席はたった一つきりで、四人いる候補者のうち一人しかそこには座れない。
+    paragraph: p20
+    quote_verified: true
+  expected_payoff: 魔女たちの「目的」が明かされ、アキラがその競争においてどのような役割を果たすかの決着。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_RyuKain_Backbone
+  note: カーインの「侠客としての魂」「悪鬼に売った」背景と、彼が求めている勝負の本質。
+  quotes:
+  - quote: 私の誇りか――侠客としての魂まで悪鬼に売ったつもりは無かったが、意思無き牙として生き続けるうちに、最初の意思まですり切れていたのかもしれん
+    paragraph: p103
+    quote_verified: true
+  - quote: 決着はまた日を改めることにしようか
+    paragraph: p123
+    quote_verified: true
+  expected_payoff: カーインの過去のエピソード、およびアキラとの「日の改めた」決闘（または同盟関係の深化）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_Sexuality_Debate
+  note: 魔女たちのアキラへの性的関心と、アキラ自身のセクシュアリティに関する議論。
+  quotes:
+  - quote: めんどくさーい。女子二人がちやほやしてるのにめんどくさい――はっ、もしやアキラくんはホモセクシャル？！
+    paragraph: p132
+    quote_verified: true
+  - quote: 俺は別に単性愛者でも幼児性愛者でもないし、仮にそうだったとしても個人の性的指向や性的嗜好に関して他人に文句を付けられる筋合いはない。
+    paragraph: p144
+    quote_verified: true
+  expected_payoff: アキラの性的指向の明確化、または魔女たちとの関係性における感情的な距離感の変化。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Akira_No_Place
+  note: アキラが「この世界に居場所を持っていない」とされた事実と、それへの対抗手段。
+  quotes:
+  - quote: この世界に居場所を持っていないと、そう指摘されたばかりだから、それなりに思うところはある。
+    paragraph: p25
+    quote_verified: true
+  - quote: 生きる限り、居場所を求め続けるのなら、それは居場所が無いのと同じではないのか。ならば、居場所とは何だ？
+    paragraph: p27
+    quote_verified: true
+  expected_payoff: アキラが最終的に「星見の塔」や異世界で独自の立ち位置（居場所）を獲得するプロセス。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 組織内競争における協力と敵対の弁証法
+  weight: 0.9
+  quotes:
+  - quote: 同じ組織に属しているからこそ競争するの。私達は『星見の塔』の『最後の魔女』の席（ポスト）を賭けて争っているんだ。
+    paragraph: p20
+    quote_verified: true
+  - quote: 状況次第で協調できるのは俺も同じだ。お前らが俺に敵対しないことを条件に、俺の力を『貸してやる』。
+    paragraph: p33
+    quote_verified: true
+  note: 魔女たちの関係性を通じて、共通の目標（ポスト獲得）を持つ者同士が外部の脅威に対して協力する構造を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 誇りと実利の間にある「見栄」の代償
+  weight: 0.8
+  quotes:
+  - quote: このまま俺が斃れたとして、それでお前は勝ったという感触を得られるのか？　堂々たる立ち会い、技と技の競い合い、手の読み合いとその果ての命の駆け引き、それがお前のやりたい勝負なんじゃないのか。お前の誇りはそれを許すのか？
+    paragraph: p97
+    quote_verified: true
+  - quote: 武門の名折れ。流派の誇りにかけて、我が気の全てを受け取るがいい！
+    paragraph: p109
+    quote_verified: true
+  note: カーインがアキラの屁理屈（実利的な勝利より誇り）を真に受けて治療を行う場面を通じ、見栄や名誉が現実的な行動を規定する様を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 居場所の不在とアイデンティティの渇望
+  weight: 0.7
+  quotes:
+  - quote: 生きる限り、居場所を求め続けるのなら、それは居場所が無いのと同じではないのか。ならば、居場所とは何だ？
+    paragraph: p27
+    quote_verified: true
+  note: アキラの内面的な独白により、異世界転生者としての存在基盤（居場所）の不確実性が主題として浮き彫りになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 権力関係の逆転と支配欲求
+  weight: 0.6
+  quotes:
+  - quote: 治して欲しかったら助けて下さいご主人様って言ってご覧？ 偉大なウィッチドクター様に感謝感激しながら跪いてもいいんだよ？
+    paragraph: p58
+    quote_verified: true
+  - quote: 俺は別に単性愛者でも幼児性愛者でもないし、仮にそうだったとしても個人の性的指向や性的嗜好に関して他人に文句を付けられる筋合いはない。
+    paragraph: p144
+    quote_verified: true
+  note: トリシューラによるアキラへの精神的優位性の主張と、それに反発するアキラの自己防衛を通じた権力闘争。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術移転と倫理的取引（因果応報）
+  weight: 0.5
+  quotes:
+  - quote: というか直前にとった俺の行動が最悪だったので、別段理不尽な対応でもない。因果応報だ。
+    paragraph: p63
+    quote_verified: true
+  - quote: この借りはこの場から脱するために力を貸すことでチャラにさせてもらうぞ
+    paragraph: p121
+    quote_verified: true
+  note: アキラの傲慢な態度がトリシューラからの報復（治療拒否）を呼び、カーインとの取引で帳消しにするという因果の連鎖。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

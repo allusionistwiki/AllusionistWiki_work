@@ -1,0 +1,334 @@
+episode: ch5331
+created: '2026-10-21'
+status: pending_merge
+entities:
+- canonical_target: '[[E_char_トリシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5331_トリシューラ_other_決断_p102
+        quote: 厄介な事に、ガロアンディアンとしてはそれこそが正しいのだ。トリシューラは自ら選んだ王国の形に呪縛されて動けない。決定的な行動を選べず、指示も下せない状況。
+        locator: {}
+        spoiler_after: ch5331
+    speech:
+      observations:
+      - event_ref: E_ch5331_トリシューラ_other_全滅の危機_p252
+        quote: 「まずい、ブウテトの呪力を付与したあの剣は、ガロアンディアンだけじゃなくて【死人の森】も滅ぼせる！ 敵の狙いは私たちだけじゃない！」
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_セージ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5331_セージ_attacks_レオたち_p108
+        quote: '「そーいうわけで、ごめんなさい」
+
+          真上から、突発的な豪雨が降り注ぐ。'
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_セージ_other_イアテムの呪文_p224
+        quote: 'イアテムの単調な『呪文』はあまりにも原始的で俺でもできるような最下級の呪術だったが、セージはそれを聞いただけで条件反射のように竦み上がり、唯々諾々と従ってしまっていた。
+
+          （『呪文』っていうか、『使い魔』だね。あれは）'
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_セージ_other_異形の身体と使い魔_p266
+        quote: '「我が祖は人魚、異教の悪魔に捧げられるべき忌まわしき贄！ まことの名を【海雌豚（アムピトリーテ）】！ 貪られるべき供物なり！」
+
+          それは巨大な蛸だった。
+
+          青い色、おびただしい数の触手、その中心には獰猛な牙を備えた口。'
+        locator: {}
+        spoiler_after: ch5331
+    relationship:
+      observations:
+      - event_ref: E_ch5331_セージ_appears_as_敵_p121
+        quote: レオの仲間だったはずの少女は、敵に回ったのだ。
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_アキラ]]'
+  entity_type: terminology
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5331_アキラ_thinks_興行としての価値_p11
+        quote: ほう。負けた言い訳にしてはそれなりだイアテム。成長物語として世代間抗争を演出すれば、敗北は再戦を期待させ、興行としては盛り上がるだろう。
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_アキラ_thinks_不死者のルール_p12
+        quote: その意味で、試合という形式を選んだのは良い手と言える。殺し合いにまで発展させないという道が選べるからだ。そも、不死者だらけのこの世界で『真剣勝負』というのはほぼ全て信用や名誉といった形の無いものを賭けることになる。そこで重要になるのは『負けた時の言い訳』を用意しておくことだ。
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_アキラ_thinks_グレンデルヒの自我の強さ_p22
+        quote: グレンデルヒは自我が強すぎる。アルレッキーノという【マレブランケ】としての名前で束縛してもなおこれだ。イアテムらを自分ルールに引き摺り込んでカードだけで圧勝した実力は凄まじいの一言だが、取り扱いには細心の注意を払わなければならないだろう。
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_アキラ_other_攻撃開始_p236
+        quote: （はいはい、余計なこと考えてないでぶっ殺そうねアキラくん。色物アストラルババアの過去なんて後で適当に捏造して感動消費しとけばいいよ。今は排除するのが先。総員、攻撃開始）
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_アキラ_other_セージの召喚師としての資質_p274
+        quote: （召喚師（エヴォカー）！ セージは悪魔や精霊を召喚して使役する魔女術の使い手だったんだ！ それも、あれは大神院の序列では第四位の――よりにもよってあれを呼び出すとか、あいつら気は確かなのっ？！
+          人造ペレケテンヌル作ってたグレンデルヒがまともに見えるよ！）
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_アキラ_other_イアテムの正体と危険性_p68
+        quote: 'イアテムはかつて【変異の三手】の副長だった。つまり、グレンデルヒの一部を構成していたのだ。それもかなり主要な役割を担う形で。
+
+          （多分、主肢グレンデルヒはミヒトネッセが露悪的に演じていたと思うけど、左右の肢の『グレンデルヒ性』は組織全体の傾向とトップの舵取りに影響を受けていた。つまり、こいつが一番グレンデルヒっぽいメンバーなはず！）'
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_アキラ_hates_イアテムの価値観_p75
+        quote: '（リーナをバカにして思い切り前時代的な価値観を主張してくるような奴はキライ！ こいつらは全ての魔女の、女神たちの敵なんだから！）
+
+          嫌いだから拒絶する。女王としては明らかに正しくない感情論だが、『嫌い』はトリシューラの自我を脅かす。'
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_アキラ_observes_信仰の切実さ_p97
+        quote: この世界において、自分が所属する共同体の文化は極めて重要なファクターだ。呪力資源であり、時にはほとんど自分自身の精神に等しいと考える者さえいる。彼ら海の民は、そうした傾向が特に強いらしい。
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_レオ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5331_レオ_asks_セージの決断_p128
+        quote: 「それは、二人で決めたこと？」
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_グレンデルヒ]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5331_グレンデルヒ_says_観戦の承諾と中断_p14
+        quote: 「負け犬にしては上等だイアテム。興が乗った、その趣向に付き合ってやろう。貴様の正義、どこまで貫き通せるか、この先代が見届けェ――がっ、ギギギ――おいちょっとお前そろそろ黙れ！」
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_グレンデルヒ_says_カードプレイの宣言_p2
+        quote: 「私の手番（ターン）！ ドロー！ 【繁茂】を実行（プレイ）して更にドロー！ 先程増大させた生命点（ライフ）を支払ってドロードロードロードロー尽き果てるまでドロー！
+          【愚者の天秤】を発動、我が空の図書館（ライブラリー）と貴様の図書館（ライブラリー）の枚数は等しくなる！ 次のターン、貴様は図書館（ライブラリー）の魔導書（カード）を引けずに敗北する！」
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_グレンデルヒ_thinks_自身の強さと人気_p6
+        quote: 初期コンセプトに原点回帰してカード使いとして戦う私に隙は無い。今の時代、カードゲームもゲーム理論と統計的データを駆使したメタゲームとなるのが常識。サイバーカラテ道場カード師範として君臨する私は無敵。更に玩具販促アニメ経由で子供たちの人気も集められるため呪力供給は常時安定！
+        locator: {}
+        spoiler_after: ch5331
+    action:
+      observations:
+      - event_ref: E_ch5331_グレンデルヒ_defeats_イアテムたち_p4
+        quote: 私は高らかに勝利を宣言し、有象無象の雑魚どもの最後の一人を蹴散らした。愚かなイアテムの上にゴミクズが放り出される。積み上がる虫けらどもの山を見よ。この私の強さを証明するようではないか。
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_イアテム]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5331_イアテム_other_セージ_p142
+        quote: '「何を逡巡している？ 迷う余地などなかろうが！」
+
+          イアテムが激しい口調で少女を糾弾する。かっと目を見開いた形相は上から下へ、力で押さえつける者のそれだ。'
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_other_セージの恋愛_p148
+        quote: 「男。そうか、情欲に溺れたな？」
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_other_セージの自己犠牲_p213
+        quote: 「何をやっているか雌豚がっ！ 本気で戦え！ 我らの為にその身を捧げよ！ 同胞の、家族の為に全てを差し出すしか能が無いのだろうがっ」
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_says_不屈の宣言_p26
+        quote: 「まだだっ！ まだこのイアテムは負けてはいない！ いや、負けるわけにはいかぬのだぁっ！」
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_says_第五階層への防衛意志_p31
+        quote: 「第五階層は我々が見つけだした最後の楽園だ！」
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_says_海の民の被虐体験_p37
+        quote: 「我ら海の民は地上では踏み絵の如く異教の悪魔デーデェイアを崇めさせられている。南東海を蹂躙したあの怪物に屈服させられ、槍神教の支配に甘んじた。そうしなければ『聖絶』の対象となるゆえに、屈辱を耐え忍んできたのだ！」
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_says_ハザーリャ信仰の復活と共同体_p45
+        quote: 「だがこの場所では今、大いなるハザーリャの信仰が復活しつつある！ 新たな教団、そして新たな共同体！ 【眠れる三頭】が、地上に居場所の無い者たちの逃げ場となる。その為には確かな足場が必要なのだ」
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_says_ガロアンディアンへの敵対_p58
+        quote: 「『公社（われら）』を排除し隷属させた僭主トリシューラ、そしてハザーリャを冒涜し権能を占有している簒奪者ブウテト！ 邪悪なる魔女どもを廃し、第五階層の覇権をこの手に取り戻す！
+          この地を最初に支配したのは我ら地上の勢力。ならば大義はこちらにあり！」
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_says_再戦への決意_p9
+        quote: 「ぐ、やはりまだ届かないか――だが我は二代目グレンデルヒとして、間違った先代を打倒しなければならない！」
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_other_伝統と文化の防衛_p95
+        quote: 「ふざけるな。貴様ら抑圧者はいつもそうだ。やれ文明だ、やれ人権だと自分たちの中だけで作り上げた理屈を押しつけ、我らの伝統や文化、繋がりや誇りを奪っていく！
+          そうやって破壊されてきた海の民の信仰や文化がどれだけあると思う？！ そんなことは許容できん！」
+        locator: {}
+        spoiler_after: ch5331
+    action:
+      observations:
+      - event_ref: E_ch5331_イアテム_other_セージへの屈辱_p164
+        quote: '「淫らな雌めが。それがお前の本性だ。恥ずべき魔女として生まれてきたことを罪深いと自覚し、慎みを持って生きよと何度言わせる気だ？」
+
+          イアテムは傲然と言いながらセージに何らかの呪術をかける。見ただけでそれとわかる力関係。'
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_wounds_ファルファレロ_p175
+        quote: '反撃の一閃。
+
+          ファルの胸が袈裟懸けに裂かれ、呪文が弾け飛んでいく。両者の呪文使いとしての技量の差が出ていた。'
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_other_自身の権威_p40
+        quote: 傷ついた名誉、失われた信用が存在の『零落』を引き起こしているのだ。
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_other_現実_p43
+        quote: だが、イアテムは純粋な紀人ではなく生身の海の民。醜態を晒しながらも現実に食らいつくことができる。
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_イアテム_other_同情による求心力回復_p47
+        quote: イアテムは戦略を切り替えたようだ。負けられない理由をアピールすることで同情を買い、求心力を取り戻そうとしている。
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_シナモリアキラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5331_シナモリアキラ_other_グレンデルヒの意識_p16
+        quote: 私/俺は存在の支配権を奪取して、グレンデルヒの意識を無理矢理抑え込んだ。
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_シナモリアキラ_attacks_グレンデルヒ_p17
+        quote: シナモリアキラという意識がグレンデルヒを殴り飛ばし、道化服を着た壮年男性が仮想的なサイバーカラテ道場の片隅に吹っ飛ばされて昏倒する。
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ファルファレロ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5331_ファルファレロ_attacks_イアテム_p171
+        quote: '「お前ぇっ！ セージさんに、何をしたぁぁぁっ！」
+
+          絶叫しながら飛び出したのはファルファレロだった。
+
+          眼鏡の少年は両腕に呪文の帯を纏わせ、イアテムに掌打を浴びせようとする。イアテムは軽く間合いを離して回避すると、掌から水流の刃を生み出した。'
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ちびシューラ]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5331_ちびシューラ_other_包囲攻撃_p188
+        quote: ちびシューラからの指令が【マレブランケ】各員に伝わり、悪足掻きをするイアテムを包囲。この数で一気に仕掛ければひとたまりも無いだろう。ファルが注意を引きつけてくれている隙にセージごと無力化すれば全て解決だ。
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_ちびシューラ_captures_グレンデルヒ_p24
+        quote: ちびシューラが縄でグルグル巻いて逆さ吊りにする。厳重に封印しておこうということで合意が形成された。
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_ちびシューラ_other_イアテムのゴーストライティング_p73
+        quote: ちびシューラの筆致鑑定で、雑誌『男の暴君』にコラムを掲載しているグレンデルヒ名義のゴーストライターはイアテムであるという調査結果が出ている。
+        locator: {}
+        spoiler_after: ch5331
+    speech:
+      observations:
+      - event_ref: E_ch5331_ちびシューラ_other_デーデェイア_p281
+        quote: （アキラくん気をつけて。あれは海の民にとって最も恐るべき異教の悪魔にして、槍神教が彼らを恐怖と力で縛るための守護天使。皆殺しのデーデェイア！）
+        locator: {}
+        spoiler_after: ch5331
+      - event_ref: E_ch5331_ちびシューラ_other_イアテムの戦略_p49
+        quote: '（わかりやすい物語をくっつけて正義の主人公として振る舞おうとしているんだね。キロンとの戦いと似てるかな）
+
+          ちびシューラが冷静に分析し、妨害するためのプランを提示。物理的に言葉を止めるのはイメージ戦略としていかにも悪者風だ。都合の悪いことを言わせないようにしていると受け止められたら終わり。ここは衆人環視の中なのだから、振る舞いは堂々としたものでなくてはならない。'
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_カーイン]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5331_カーイン_attacks_イアテム_p191
+        quote: 音もなくイアテムの背後に回り込んでいたカーインが、槍のように貫手を放つ。分厚い筋肉質の背中、脊髄に近い箇所にめり込んだ指先がごり、と抉られて、イアテムが背筋を反らせた。
+        locator: {}
+        spoiler_after: ch5331
+    relationship:
+      observations:
+      - event_ref: E_ch5331_カーイン_other_セージの殺意_p208
+        quote: '「それでいい。所詮、生まれという呪縛から自由にはなれぬものだ。ならばせめて、宿命を楽しむのも一興」
+
+          カーインが少女に向ける感情は、不思議なほど透き通っている。セージはびっくりしたような顔で目を瞬かせた。'
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_item_ダモクレスの剣]]'
+  entity_type: item
+  aspects:
+    visual:
+      observations:
+      - event_ref: E_ch5331_ダモクレスの剣_appears_空から_p240
+        quote: '空が裂け、漆黒の闇が口を開ける。
+
+          その中から、ゆっくりと巨大な剣が降下してきたのだ。
+
+          幻影の剣はその形状を一変させていた。
+
+          シンプルな直剣から歪にねじ曲がった反りのある刃へと変化し、禍々しい装飾が追加されている。柄に嵌め込まれているのは不気味な頭蓋骨だ。'
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_ブウテト]]'
+  entity_type: character
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5331_ブウテト_other_ダモクレスの剣_p250
+        quote: 巨剣を吊り下げている糸は蜂蜜色に輝いている。長い髪の毛を何本も結んで長い糸にしているのだ。
+        locator: {}
+        spoiler_after: ch5331
+    speech:
+      observations:
+      - event_ref: E_ch5331_ブウテト_other_イアテムの信仰解釈_p90
+        quote: 「ぶうぶう。彼らのハザーリャ解釈は、リザが女王だった最悪の時代と同じ悪しき信仰ぶひ。ヒュールサスの退廃をもう一度引き起こすわけにはいかないですぶう。信仰を捨てるか、信仰を周囲に害を与えない形に修正するかしてくれないと共存は無理だぶう」
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_term_融血呪]]'
+  entity_type: terminology
+  aspects:
+    action:
+      observations:
+      - event_ref: E_ch5331_融血呪_breaks_イアテムの集団_p35
+        quote: 融血呪が切り離され、『我々』という認識で一つになっていた集団が自壊していく。過半数から求心力を失ったイアテムから、組織の指導者として集約されていた大量の呪力が離れていった。
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true
+- canonical_target: '[[E_char_アルト]]'
+  entity_type: character
+  aspects:
+    speech:
+      observations:
+      - event_ref: E_ch5331_アルト_other_対話の道_p64
+        quote: 「待たれよ。勇士イアテム、貴殿の事情、よく分かった。だが少しばかり待って貰えぬか。このガロアンディアンは、そう窮屈な王国ではない」
+        locator: {}
+        spoiler_after: ch5331
+  first_appearance_candidate: true

@@ -1,0 +1,239 @@
+chapter: ch5378
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p2]]'
+  object: '[[ME_kubler_ross_model]]'
+  claim: 宗教の機能（死の受容）は、現代の緩和ケア医学における心理的受容段階のモデルに構造的に対応している。
+  quote: 『宗教は死の受容のためにある』と言ったのは橙だっただろうか。もしかしたらその弟子の灰だったかもしれない。
+  paragraph: p2
+  confidence: moderate
+  quotes:
+  - quote: 『宗教は死の受容のためにある』と言ったのは橙だっただろうか。もしかしたらその弟子の灰だったかもしれない。
+    paragraph: p2
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p5]]'
+  object: '[[ME_magic_contagion_law]]'
+  claim: 理不尽な死への共感と予測は、フレイザーの『類似の法則（感染の魔法）』に基づく魔術的連想原理を反映している。
+  quote: 共感と予測、似たものが引かれあう法則に従って、死と死が呼応するのだ。
+  paragraph: p5
+  confidence: strong
+  quotes:
+  - quote: 共感と予測、似たものが引かれあう法則に従って、死と死が呼応するのだ。
+    paragraph: p5
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p9]]'
+  object: '[[ME_modern_social_etiquette]]'
+  claim: 洗礼などの儀式を伴わない『暗黙裏の理解』による境界画定は、現代社会における明示的な入信手続きを省略した文化的同調圧力を模倣している。
+  quote: 洗礼や入信の儀式などは無く、『暗黙裏の理解』が重視されるのがやや珍しい。
+  paragraph: p9
+  confidence: moderate
+  quotes:
+  - quote: 洗礼や入信の儀式などは無く、『暗黙裏の理解』が重視されるのがやや珍しい。
+    paragraph: p9
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p40]]'
+  object: '[[ME_pet_owner_behavior]]'
+  claim: 晶のレオへの過剰な接触と可愛がり方は、現代におけるペットオーナーの擬人化・動物愛護行動（過度なスキンシップ）を模写している。
+  quote: 品森晶が、だらしなく顔を緩めてレオを抱き締めていた。左右の義肢が三角耳をひたすら撫でさすり、喉に触れたり頬を擦り付けたり匂いを嗅いだりとまるで変質者である。
+  paragraph: p42-43
+  confidence: explicit
+  quotes:
+  - quote: 品森晶が、だらしなく顔を緩めてレオを抱き締めていた。左右の義肢が三角耳をひたすら撫でさすり、喉に触れたり頬を擦り付けたり匂いを嗅いだりとまるで変質者である。
+    paragraph: p42-43
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p102]]'
+  object: '[[ME_narrative_plot_armor]]'
+  claim: 首を斬られても修復が効くという言及は、物語における「主人公の不死性」や「プロットの防弾仕掛け（Plot Armor）」に対するメタ的な自覚を示唆している。
+  quote: 今更だけど、斬られたのが首でよかったわね。修復が効くこと効くこと。陛下や道化（アルレッキーノ）の文脈操作のおかげかしら。
+  paragraph: p102
+  confidence: strong
+  quotes:
+  - quote: 今更だけど、斬られたのが首でよかったわね。修復が効くこと効くこと。陛下や道化（アルレッキーノ）の文脈操作のおかげかしら。
+    paragraph: p102
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p148]]'
+  object: '[[ME_colonial_history_genocide]]'
+  claim: 『聖絶』による大森林の砂漠化は、歴史上の植民地支配や環境破壊を伴う大量虐殺（ジェノサイド）の逆転した神話的表象である。
+  quote: ティリビナ人か黒檀の民がこの場にいれば決してできない話だ。『聖なる虐殺』――神のしもべたちは松明を掲げて大森林を砂漠に変えた。
+  paragraph: p148
+  confidence: strong
+  quotes:
+  - quote: ティリビナ人か黒檀の民がこの場にいれば決してできない話だ。『聖なる虐殺』――神のしもべたちは松明を掲げて大森林を砂漠に変えた。
+    paragraph: p148
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p205]]'
+  object: '[[ME_burnout_syndrome]]'
+  claim: 信仰の維持能力が尽きたという記述は、現代心理学における燃え尽き症候群（バーンアウト）や職業倫理からの離脱過程に酷似している。
+  quote: 正しさを信じるための体力が尽きたのだ。言ってしまえば疲労。あるいは老い。俗に『丸くなった』と言われる現象に見舞われたのである。
+  paragraph: p203-205
+  confidence: strong
+  quotes:
+  - quote: 正しさを信じるための体力が尽きたのだ。言ってしまえば疲労。あるいは老い。俗に『丸くなった』と言われる現象に見舞われたのである。
+    paragraph: p203-205
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_lubav_foreseeing_power
+  note: オルヴァがルバーブに「全てを見透かしている」と問いかけた内容。この能力の真偽、およびその能力が現在の物語進行においてどう作用するか。
+  quotes:
+  - quote: カシュラム人の中で最も賢明であり誰よりも先を見通すことができるお前には、恐れるものなどないのではないか。本当に全てを見透かしているのなら、死を知り、死の先まで見えているはず。
+    paragraph: p18
+    quote_verified: true
+  expected_payoff: ルバーブが実際に未来予知能力を持っていた場合、オルヴァの信仰の変遷（特に「折れずに生きるための方法論」）が彼によって仕組まれたものかどうかが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_maikaal_past_trauma
+  note: マイカール・チャーラムが「付いていけなくなった」具体的な契機。単なる疲労なのか、特定の事件（トリガー）が存在するのか。
+  quotes:
+  - quote: そして、ある時ふと『付いていけなくなった』――何に？ 強いて言えば、優しさや正しさに。そのための戦いに。劇的な出来事があったわけではない。本当にふとした瞬間、それは競技中にペース配分を間違って失速してしまうかのごとく――正しさを信じるための体力が尽きたのだ。
+    paragraph: p200-203
+    quote_verified: true
+  expected_payoff: カウンセリングの過程で、彼が過去に目撃した「正しさの限界」を示す具体的なエピソード（おそらくティリビナ難民に関する悲劇）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_trishula_interview_goal
+  note: トリシューラがマイカールと対面し、インタビューを行う真の目的。「採用」のための面接なのか、彼の過去（虐殺）に関する証言収集なのか。
+  quotes:
+  - quote: そして、カウンセリングが始まった。あるいは、当事者へのインタビューが。
+    paragraph: p217-218
+    quote_verified: true
+  expected_payoff: マイカールの証言から、地上における宗教戦争や「守護の九槍」の裏側の歴史（隠された真実）が発掘される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_akira_personality_source
+  note: 品森晶が示す「変質者」のような行動原理。彼女が「大蛇」としてコードを与えられたことと、その過剰なスキンシップ欲求の因果関係。
+  quotes:
+  - quote: 『大蛇（おろち）』というコードを与えられた黒髪の魔女は効く耳をもたない。少し離れた場所でラズリが不服そうに言った。「むう、いくらアキラ様と言えどこれではカーイン様が――うーんこの場合わたくしはどうすればいいのでしょう、ああ、パーシーイー様！」
+    paragraph: p47-49
+    quote_verified: true
+  expected_payoff: 晶の行動が単なる性格ではなく、システムや呪文による制御下にある可能性、あるいは彼女自身の精神構造の特異性（共感の暴走）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_nagstall_health
+  note: 「無理をして出てきている」ナーグストールの状態。彼がなぜ、いつ、どの程度無理をしているのか。
+  quotes:
+  - quote: 解放されたレオが目を回して倒れると、何故か無理をして出てきているナーグストールに支えられた。
+    paragraph: p52
+    quote_verified: true
+  expected_payoff: ナーグストールの健康状態が悪化しており、戦闘不能になるか、彼の隠していた秘密（彼自身の「死」への接近）が語られる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 宗教の本質は、理不尽な死を受容するための心理的防衛装置である。
+  weight: 0.8
+  quotes:
+  - quote: 『宗教は死の受容のためにある』と言ったのは橙だっただろうか。
+    paragraph: p2
+    quote_verified: true
+  - quote: 理不尽な運命による死が自分の身の回りに降りかかるとき、人は自らの死を予感する。共感と予測、似たものが引かれあう法則に従って、死と死が呼応するのだ。
+    paragraph: p5
+    quote_verified: true
+  note: オルヴァの回想とカシュラム人の文化描写を通じ、信仰を「恐怖への対処」として機能主義的に定義している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 愛着行動は、他者の境界（同意）を無視して自己の充足を優先する暴力的な行為である。
+  weight: 0.7
+  quotes:
+  - quote: 抗议する間もなく、義肢が小さな体を奪って、女の顔に引き寄せていった。それから蕩けた声で言う。「ちびにゃんこ～かわいいかわいいちっちゃくて超絶かわいい～」
+    paragraph: p63-66
+    quote_verified: false
+  - quote: 自分よりも圧倒的に巨大な存在に好き勝手に可愛がられて、猫姫は恐怖と警戒で暴れ出す。だが義肢の力は強く、逃げ出すことは適わない。
+    paragraph: p70
+    quote_verified: true
+  note: 晶によるセリアック＝ニアへの行為を「暴力」として描き、親密さの強制がもたらす侵害性を浮き彫りにしている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 英雄は物語の外では凡庸な個人であり、その神話性は伝聞によって歪められる。
+  weight: 0.9
+  quotes:
+  - quote: 『マイカール・チャーラム』はおおむねこのような凡庸な男だった。そして、『松明の騎士団』に所属する修道騎士たちとはこのような正義を信じて戦い、家ではごく普通の休日を過ごして日々を生きている。
+    paragraph: p197-198
+    quote_verified: true
+  - quote: 噂が膨らませていく曖昧模糊とした恐怖のイメージ。それこそ、雲をつかむような話だ。
+    paragraph: p156-157
+    quote_verified: true
+  note: カルカブリーナとトリシューラの視点を通じて、歴史的暴力の主体がいかに「普通の人」であるかを解体している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 信念の崩壊は劇的な事件ではなく、継続的な疲労（燃え尽き）によって静かに訪れる。
+  weight: 0.8
+  quotes:
+  - quote: 本当にふとした瞬間、それは競技中にペース配分を間違って失速してしまうかのごとく――正しさを信じるための体力が尽きたのだ。言ってしまえば疲労。あるいは老い。
+    paragraph: p203-204
+    quote_verified: true
+  note: マイカールの転落を「堕落」ではなく「体力の尽き」として記述し、理想主義の構造的脆弱さを提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

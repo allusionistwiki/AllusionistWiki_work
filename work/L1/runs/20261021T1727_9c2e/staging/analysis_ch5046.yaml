@@ -1,0 +1,111 @@
+chapter: ch5046
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 3
+  quotes_verified: 12
+  quotes_total: 12
+items:
+- kind: mystery
+  name: MY_上に見つかった意味
+  note: コルセスカが「上」に見つかったと告げ、聖騎士が殺処分を叫んでいる。この「上」とは組織の上位者か、あるいは異世界の管理者か。その意図とアキラに対する敵対理由は不明。
+  quotes:
+  - quote: 騒ぎが大きすぎて、『上』に見つかったようです
+    paragraph: p26
+    quote_verified: true
+  - quote: おいこれ、退路絶たれてないか？！
+    paragraph: p33
+    quote_verified: true
+  expected_payoff: 聖騎士がアキラを単なる犯罪者ではなく「上」の命令で追っていることが判明し、世界観の階層構造（管理者や神）との対立へ発展する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_生命吸収の秘儀
+  note: トリシューラがコルセスカの不死性を「生命吸収」と解説している。この術の代償や、アキラへの適用可能性（魂を奪わない契約の背景）が今後のテーマとなるか。
+  quotes:
+  - quote: 『他人の生命をストックしておいて、自分が死んだ時に代わりの生命力にするっていう高位呪術だね
+    paragraph: p16
+    quote_verified: true
+  expected_payoff: コルセスカが倒れた際にそのストックされた命がどう処理されるか、あるいはアキラが同じ技術に手を出す展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_義肢の回収率と信用度
+  note: トリシューラがアキラを「優秀な前衛」と評価し、死にかけても直せるから回収率が高いと言っている。アキラの社会的地位や金銭的価値が具体的にどう定義されているか不明。
+  quotes:
+  - quote: 私の見たところ貴方はそれなりに優秀な前衛だよ。大丈夫、死にかけてもシューラが直してあげるから、けっこう回収率は高いと思うの
+    paragraph: p142
+    quote_verified: true
+  expected_payoff: アキラが単なる冒険者ではなく、特定の組織や世界にとって「資産」として扱われている事実が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_運動する感覚とちびシューラの笑み
+  note: アキラの中で何かが「運動」している感覚があり、ちびシューラが戯画化された微笑を湛えている。これがアキラの精神変質やトリシューラの寄生の影響なのか。
+  quotes:
+  - quote: '俺はかつてと比べて何も変質していない。
+
+      だというのに、何かが自分の中で『運動』しているという感覚がつきまとって離れない。'
+    paragraph: p170-p171
+    quote_verified: true
+  - quote: 視界の隅で、ちびシューラが戯画化された微笑を湛えている。
+    paragraph: p173
+    quote_verified: true
+  expected_payoff: アキラの自己認識（変質していない）と実際の精神状態のズレが描かれ、最終的にトリシューラの完全な支配や人格融合へ向かう伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 暴力の経済的合理化による倫理の希薄化
+  weight: 0.9
+  quotes:
+  - quote: 人を殺すのに一万も使わなくてはならないというだけで、こんなにも大きな抵抗感が生まれるのか。
+    paragraph: p165
+    quote_verified: true
+  - quote: 戦うって、消費活動なんだよ
+    paragraph: p138
+    quote_verified: true
+  note: 殺傷行為がコスト計算の対象となることで、生命の尊厳よりも経済的損得が優先される現代的社会構造への批判。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 悪魔契約の世俗化と資本主義的搾取
+  weight: 0.8
+  quotes:
+  - quote: 『当然だよ。これは普通に呪術医として、患者さんに義肢の使用を勧めてるだけだから。開発製造販売も私なので、お金は全て私に回収されるけど、まあわかりやすくていいよね
+    paragraph: p69
+    quote_verified: true
+  - quote: 悪魔の契約は？　絶妙なタイミングで人の弱みにつけ込んでおいてやることが商品のセールス？
+    paragraph: p71
+    quote_verified: true
+  note: 伝統的な宗教的恐怖（魂の売り渡し）が、現代のネガティブな営業手法（弱みにつけ込むビジネス）へと変換されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術移転における身体性の変容と違和感
+  weight: 0.6
+  quotes:
+  - quote: 生身と接触するソケット部はシリコンなどではなく、柔らかな流動体だった。断端に冷たい感触。形状に合わせてソケット部が変形し、俺の肉体に最適化される。
+    paragraph: p81
+    quote_verified: true
+  - quote: 決定的な瞬間を、気付かずに素通りしてしまっている、ような。
+    paragraph: p176
+    quote_verified: true
+  note: 異世界の技術（義肢）が身体に融合する過程で生じる生理的・心理的な変容と、その変化に対する自己認識の遅延。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

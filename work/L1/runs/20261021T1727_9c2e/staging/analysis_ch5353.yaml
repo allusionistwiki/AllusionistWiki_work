@@ -1,0 +1,142 @@
+chapter: ch5353
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 4
+  quotes_verified: 16
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_Malard_Source_of_Power
+  note: マラードの力は一時的な強化（地位の断章）によるものだが、その正体と『私』（脚本家）との関係が明かされる前兆。
+  quotes:
+  - quote: 【地位の断章】の気配を感じるな。恐らくあの人形の魔女が注ぎ込んだのであろう。一時的に王としての力を取り戻している――長くは保たんだろうが
+    paragraph: p123
+    quote_verified: true
+  - quote: 今この時、私は主役ではない。脚本と演出――役者たちを輝かせる為の裏方だ。
+    paragraph: p146
+    quote_verified: true
+  expected_payoff: マラードが完全な王として覚醒する、あるいは『私』によって完全に操られる末路を迎える展開への伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Zed_National_Thief_Ambition
+  note: ゼドがシナモリアキラを単なる殺し屋としてではなく『女王の宝』や『国盗り』の対象として意識している。彼の真の目的は個人を超えた領土・権力の簒奪にある可能性。
+  quotes:
+  - quote: 彼がシナモリアキラに執着を見せているのも、転生者という稀少性と殺し屋という共通点、そして何より『女王の宝』に価値を見出しているからに他ならない。
+    paragraph: p184
+    quote_verified: true
+  - quote: ――彼、『国盗り』に興味はあるかしら。
+    paragraph: p187
+    quote_verified: true
+  expected_payoff: ゼドがシナモリアキラを介して世界全体（あるいは特定の領土）を支配・窃取しようとする大規模な謀略へ発展する可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Grendel_Deception_Strategy
+  note: グレンデルヒが戦闘でわざと弱く見せ、ガロアンディアンを裏切る機会を窕っているというナレーターの解説。彼の真の所属陣営と狙い。
+  quotes:
+  - quote: あれはわざとだ。グレンデルヒは気絶した振りをしてガロアンディアンを裏切り、トリシューラとシナモリアキラを倒す機会を窺っている――これは私が誘導するまでもなく彼が自発的にやっていることなのだけれど。
+    paragraph: p197
+    quote_verified: true
+  expected_payoff: グレンデルヒの突然裏切りによるシナモリアキラへの致命傷、あるいはトリシューラ陣営への寝返り。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rubberb_Immortality_Curse
+  note: ルバーブが大地から肉体を補填され続ける不死身性を持つ。カーインの枯死（瘴気）以外にこれを止める手段が存在するかが問われている。
+  quotes:
+  - quote: 大地がそこにある限り、ルバーブは不死身である。
+    paragraph: p23
+    quote_verified: true
+  - quote: 「ならば地に毒を撒き、土地を痩せ細らせるまで。病んだ土塊が肉体となればその屈強な体も脆くなるだろう」
+    paragraph: p25
+    quote_verified: true
+  expected_payoff: ルバーブの不死身を止めるため、大地そのもの（世界の一部）を破壊・汚染する究極的な手段が取られる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Scriptwriter_Intervention
+  note: 『私』（脚本家/ナレーター）がゼドの逃走を許し、アドリブ（予定に無い行動）を意図的に介入させている。この介入が物語全体のプロットをどう歪めるか。
+  quotes:
+  - quote: 予定に無い行動。けれどこのアドリブもまたラクルラールの意図の内。
+    paragraph: p189
+    quote_verified: true
+  - quote: 私はマラードに集中させていた『糸』の一本を切り離した。
+    paragraph: p188
+    quote_verified: true
+  expected_payoff: ゼドの逃走が後の物語で重大な戦力バランス変化（シナモリアキラ陣営への脅威増大）をもたらす引き金となる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクション的演劇論：キャラクターの自由意志は脚本家（ナレーター）の『糸』と『台本』によって操作されている
+  weight: 0.9
+  quotes:
+  - quote: 私はマラードに集中させていた『糸』の一本を切り離した。予定に無い行動。けれどこのアドリブもまたラクルラールの意図の内。
+    paragraph: p188-p189
+    quote_verified: true
+  - quote: 今この時、私は主役ではない。脚本と演出――役者たちを輝かせる為の裏方だ。
+    paragraph: p146
+    quote_verified: true
+  note: 戦闘中の行動（ゼドの逃走、グレンデルヒの演技）が全てナレーターの意図通りに進行していることを明示し、作品全体が演劇的構造であることを強調する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 知性の暴力：神秘を解体（命名・分類）することによる支配と恐怖の克服
+  weight: 0.7
+  quotes:
+  - quote: 『杖』の叡智は吸血鬼が操る『瘴気』という曖昧な呪力を解体し、細菌やウィルス、寄生虫や毒素といった形に零落させることが可能だ。
+    paragraph: p57
+    quote_verified: true
+  - quote: その上、貴様はまだ本気を出していない。血統の根源たる『病』の宣名無しで私に挑もうとは舐められたものだ。
+    paragraph: p53
+    quote_verified: true
+  note: ルバーブとカーインの対決が、物理的な暴力だけでなく『正体を暴く（知性）』ことが勝敗を分ける要素であることを描いている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 太陽神権威の絶対的介入：人智を超えた力が戦場の力学を一方的にリセットする
+  weight: 0.6
+  quotes:
+  - quote: その男は太陽だった。……あらゆる者がその男を見ようとするが、あまりの眩しさに反射的に眼を閉ざす。
+    paragraph: p85-p86
+    quote_verified: false
+  - quote: 放たれた光球は大地に着弾し、そのまま巨大な熱と光を周囲に撒き散らしていく。太陽の炎が不浄な瘴気をカーインごと焼き尽くし、地の穢れを清めていった。
+    paragraph: p98
+    quote_verified: true
+  note: シナモリアキラ（太陽）の介入が、カーインとルバーブの拮抗した戦いを一方的に破壊し、物語の主導権が再び主人公側に戻る転換点となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体の変容と物象化：生首や土塊など、人体が部品として扱われる恐怖
+  weight: 0.4
+  quotes:
+  - quote: 頭から墜落したことで首のジョイント部が破損して外れた。生首は数回派手にバウンドした後、ごろごろと転がっていく。
+    paragraph: p3
+    quote_verified: true
+  - quote: 地面を切り裂き、そのまま深く突き刺さっていった糸が地の底から巨大な土塊を引きずり出したのである。そればかりか、マラードによって魂を注ぎ込まれた土は命を宿し、岩石巨人となって動き出す。
+    paragraph: p154
+    quote_verified: true
+  note: シナモリアキラの生首やルバーブの土塊化など、人間が物質・部品へ変質する描写を通じて、異世界転生における身体観の脆さを示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

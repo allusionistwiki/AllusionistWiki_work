@@ -1,0 +1,238 @@
+chapter: ch5137
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 5
+  themes: 4
+  quotes_verified: 21
+  quotes_total: 23
+items:
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p12]]'
+  object: '[[ME_murphys_law]]'
+  claim: ハルベルトの「パンはバター面が下になる」という発言は、マーフィーの法則を呪術的な予兆として機能させるメタフィクション的演出である。
+  quote: 落としたパンは必ずバターやジャムが塗ってある方が下になるし高価な絨毯は汚れてしまうの
+  paragraph: p12
+  confidence: strong
+  quotes:
+  - quote: 落としたパンは必ずバターやジャムが塗ってある方が下になるし高価な絨毯は汚れてしまうの
+    paragraph: p12
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p17]]'
+  object: '[[ME_cognitive_bias]], [[ME_modern_academic_discourse]]'
+  claim: ミルーニャがハルベルトの予言を「認知バイアス」と断じ統計を要求する描写は、現代の科学的方法論・統計的思考をファンタジー世界の呪術的思考と対比させるメタコメントである。
+  quote: ちゃんと統計とったんですかぁ？　認知バイアスですよねそれ？　頭のネジがちゃんとあるかどうか確かめた方がいいですよ？
+  paragraph: p17
+  confidence: explicit
+  quotes:
+  - quote: ちゃんと統計とったんですかぁ？　認知バイアスですよねそれ？　頭のネジがちゃんとあるかどうか確かめた方がいいですよ？
+    paragraph: p17
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p121]]'
+  object: '[[ME_paper_based_magic]], [[ME_scrapbook_tactics]]'
+  claim: リーナがノートから紙を千切って呪力に変換し攻撃する様子は、現代の「メモ術」や「切り抜き」を魔法システムとして実装したガジェット的発想であり、伝統的な杖使い（ハルベルト）との対比を生む。
+  quote: 肩に引っかけていた鞄から螺旋綴じのノートを取り出してその中から一枚を千切りとって放り投げる。
+  paragraph: p121
+  confidence: strong
+  quotes:
+  - quote: 肩に引っかけていた鞄から螺旋綴じのノートを取り出してその中から一枚を千切りとって放り投げる。
+    paragraph: p121
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p108]]'
+  object: '[[ME_philosophical_zombie]], [[ME_maze_guard]]'
+  claim: 魂なき抜け殻である哲学的ゾンビが、生前の社会性（拷問命令等）を模倣し続ける姿は、「迷宮」というゲーム的構造における「敵キャラのAI挙動」へのメタファーである。
+  quote: 霊体が朽ち果て、今にも霧散しそうなほどに危うい。そのくせ生存のための欲求――飢餓感だけは残っていて、生きている者を生前の理に従って襲い、喰らおうとしてくる。
+  paragraph: p112
+  confidence: moderate
+  quotes:
+  - quote: 霊体が朽ち果て、今にも霧散しそうなほどに危うい。そのくせ生存のための欲求――飢餓感だけは残っていて、生きている者を生前の理に従って襲い、喰らおうとしてくる。
+    paragraph: p112
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_p185]]'
+  object: '[[ME_white_flower_familiar]], [[ME_past_attack]]'
+  claim: 単眼巨人に寄生した白い花（骨の花）は、p185で言及された「ハルベルトと初めて会った夜」の襲撃事件との直接的な因果・伏線関係を示唆する。
+  quote: 私はあれに見覚えがあった。あれはハルベルトと初めて会った夜のこと。アストラル界で私を襲撃した、骨の花だ。何者かの使い魔だとハルベルトは言っていた。それが、どうしてここに？
+  paragraph: p185
+  confidence: explicit
+  quotes:
+  - quote: 私はあれに見覚えがあった。あれはハルベルトと初めて会った夜のこと。アストラル界で私を襲撃した、骨の花だ。何者かの使い魔だとハルベルトは言っていた。それが、どうしてここに？
+    paragraph: p185
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p60]]'
+  object: '[[ME_perception_distortion]], [[ME_luckism_curse]]'
+  claim: 主人公が他者の顔の輪郭を過剰に知覚できる現象は、通常の記憶力ではなく「容姿呪詛（ルッキズム）の摸倣子量」や「フィリスとの同調」という異世界的な認知歪みとして説明される。
+  quote: 関わる相手の顔の輪郭、その全体像が、はっきりとイメージできることが多すぎる。以前に見かけたことがあるのだろうか。それとも相手が美しく、保有する容姿呪詛（ルッキズム）の摸倣子量が多い為に私にも知覚しやすいというだけの話なのか。
+  paragraph: p61
+  confidence: strong
+  quotes:
+  - quote: 関わる相手の顔の輪郭、その全体像が、はっきりとイメージできることが多すぎる。以前に見かけたことがあるのだろうか。それとも相手が美しく、保有する容姿呪詛（ルッキズム）の摸倣子量が多い為に私にも知覚しやすいというだけの話なのか。
+    paragraph: p61
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Leina_Notebook_Secret
+  note: リーナが使用した螺旋綴じノートの紙切れによる強力な呪術発動。本人の魔力か、ノート自体の秘密か。
+  quotes:
+  - quote: とても初歩の呪術とは思えないほどの威力だった。彼女本人の呪力が凄まじいのか、それともあのノートに秘密があるのか。
+    paragraph: p127
+    quote_verified: true
+  expected_payoff: ノートの出所（古代文明の遺物、禁書のコピー、特定の術式回路など）が明かされ、リーナの背景や危険性が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_White_Flower_Connection
+  note: 単眼巨人に取りついた白い花（骨の花）。主人公を襲った使い魔と同一物である可能性が高い。なぜ迷宮に現れたのか、誰が操作しているのか。
+  quotes:
+  - quote: 私はあれに見覚えがあった。あれはハルベルトと初めて会った夜のこと。アストラル界で私を襲撃した、骨の花だ。何者かの使い魔だとハルベルトは言っていた。それが、どうしてここに？
+    paragraph: p185
+    quote_verified: true
+  - quote: 彼女の横で、リーナが呆然と呟く。彼女は何か知っているようだったが
+    paragraph: p189-p190
+    quote_verified: false
+  expected_payoff: ハルベルトの過去（襲撃事件）と現在の迷宮イベント、リーナの知識（彼女が花を知っていること）が交差する真相が語られる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Leina_Motivation
+  note: リーナが危険な古代世界へ単独で坑道潜行し、警報機を鳴らした真の動機。単なる「一稼ぎ」なのか、何かを探していたのか。
+  quotes:
+  - quote: 今日は講義午前中で終わりだったから、ちょっと一稼ぎしようと思って坑道潜ってみたんだけど
+    paragraph: p80
+    quote_verified: true
+  - quote: 言うが早いか、リーナはほぼ垂直に飛び上がって山頂の方向に向かって行ってしまった。訊ねたいことがある上に状況は何も解決していないのにである。
+    paragraph: p192-p194
+    quote_verified: true
+  expected_payoff: リーナが追っていたターゲット（花？ 何かのアイテム？）が判明し、彼女を追いかけると物語が加速する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Milunya_University_Life
+  note: ミルーニャがリーナに対して「除籍か中途退学」という具体的な大学生の末路を詳細に語っている。彼女自身の大学経験（留年・中退歴？）を示唆する。
+  quotes:
+  - quote: クズ大学生の末路は除籍か中途退学と相場が決まってるんです
+    paragraph: p70
+    quote_verified: true
+  - quote: 先輩が言うと説得力あるなあ
+    paragraph: p72
+    quote_verified: true
+  expected_payoff: ミルーニャの過去（現代社会での挫折経験）が明かされ、彼女の性格形成や能力の背景が補完される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Physician_Perception_Shift
+  note: 主人公の認知能力の変化（顔の輪郭がはっきり見える）。フィリスとの同調率上昇、ラーゼフへの相談示唆。
+  quotes:
+  - quote: フィリスとの同調率が上昇した為に、イメージの記憶領域が拡大したということも考えられた。後でラーゼフに相談した方がいいかもしれない。
+    paragraph: p63
+    quote_verified: true
+  expected_payoff: 主人公の能力変化（同調による副作用）が今後の戦闘や対話で重要な要素となる。ラーゼフとの会話で解決策または新たな問題が提示される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 現代社会の規範（統計・学生生活）と異世界の論理（予兆・呪術）の衝突と融合
+  weight: 0.8
+  quotes:
+  - quote: 認知バイアスですよねそれ？　頭のネジがちゃんとあるかどうか確かめた方がいいですよ？
+    paragraph: p17
+    quote_verified: true
+  - quote: これだから杖使いは。無駄に文明人ぶって、それも呪術的思考の一つだと気付かない
+    paragraph: p19
+    quote_verified: true
+  note: ハルベルトのオカルト的な予言をミルーニャが現代科学用語で切り捨て、逆にハルベルトがそれを「呪術的思考」として擁護する構図。異世界転生者たちの文化摩擦。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「魂なき社会性」の恐怖と倫理的曖昧さ
+  weight: 0.7
+  quotes:
+  - quote: 哲学的ゾンビ。魂無き抜け殻である彼らは物質的にはなんら人間と変わりないが、外界とは異なる環境下――つまりは迷宮に適応した結果として異常な振る舞いを見せるようになる。
+    paragraph: p116-p117
+    quote_verified: true
+  - quote: 「いたぞ、侵入者だ！」「捕縛して拷問しろ！」「火にかけて塩を振れ！」正気の目で語る彼らの振る舞いは、彼らの内部では社会性の表れだと見なされている。
+    paragraph: p114
+    quote_verified: false
+  note: 哲学的ゾンビが「拷問」や「食事休憩」という人間らしい社会性を模倣していることへの不気味さ。ミルーニャの「気が咎めるけど、さようならっ」という倫理的葛藤。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 無謀な個人主義（リーナ）と組織的防衛（パーティ）の対比
+  weight: 0.6
+  quotes:
+  - quote: 一人でですか？　正気？
+    paragraph: p82
+    quote_verified: true
+  - quote: こんっの、トラブルメイカー！　馬鹿大学生！　底辺探索者！！　水素ガス級に軽い風船頭！！！　金持ちだからって調子に乗るなよなんちゃってお嬢様！
+    paragraph: p104
+    quote_verified: true
+  note: リーナの「一稼ぎ」目的の単独行動が、パーティ全体を危機に陥れる構造。現代の「自己責任論」や「無謀なギャンブル行為」への批判的視点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術・呪具の進化と階層化（杖 vs ノート vs 箒）
+  weight: 0.5
+  quotes:
+  - quote: こうした状況に応じた精密な制御は、他の系統には無い呪文だけの強みだった。
+    paragraph: p38
+    quote_verified: true
+  - quote: 異なる呪文が封じられた呪石弾を次々と投射することで複合的な呪術の行使すら可能にするという、極めて実践的なビーンズ式詠唱術の本領が発揮されていた。
+    paragraph: p132
+    quote_verified: true
+  - quote: ねえ、良かったらその魔導書、ちょっと私に見せてくれない？
+    paragraph: p150
+    quote_verified: true
+  note: 伝統的な杖（ハルベルト）、現代風ノート（リーナ）、ビーンズ式（ミルーニャ）、魔導書（主人公）と、呪術行使のスタイルが多様化しており、技術革新と階級意識がテーマとなる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

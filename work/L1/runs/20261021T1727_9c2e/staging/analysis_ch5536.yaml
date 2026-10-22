@@ -1,0 +1,217 @@
+chapter: ch5536
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 6
+  mysteries: 4
+  themes: 4
+  quotes_verified: 19
+  quotes_total: 19
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_p16]]'
+  object: '[[ME_mass_production_army]]'
+  claim: アルト・イヴニルの『軍勢』は、一人の指揮者が大量のコピーを所有し運用する戦略であり、現代のクラウドコンピューティングや大量生産された兵士（クローン/オートマタ）の比喩である。
+  quote: 偽物などではない。量産であり、『軍勢』と呼ばれる使い魔の奥義である。
+  paragraph: p16
+  confidence: strong
+  quotes:
+  - quote: 偽物などではない。量産であり、『軍勢』と呼ばれる使い魔の奥義である。
+    paragraph: p16
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_p19]]'
+  object: '[[ME_identity_splitting_in_gaming]]'
+  claim: 個我を分割して気配を薄めるという描写は、ゲームにおけるキャラクターの分身作成や、SNSでの匿名アカウントによる自己分散（ペルソナ管理）のメタファーとして機能している。
+  quote: 個我の分割によって気配を薄め、隠形を成し遂げる。言うは易しですが、本当に実行されるとは。
+  paragraph: p19
+  confidence: moderate
+  quotes:
+  - quote: 個我の分割によって気配を薄め、隠形を成し遂げる。言うは易しですが、本当に実行されるとは。
+    paragraph: p19
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p26]]'
+  object: '[[ME_avatar_customization_failure]]'
+  claim: クオアの変身が『下手な異種族』であり人工物らしさに乏しいという描写は、VR/AR技術における不気味の谷現象や、アバター作成時のテクスチャリング失敗を想起させる。
+  quote: 変身の下手な異種族が慣れない霊長類体を取り繕っているのが明らかで、アルト・イヴニルは目を細めて吐き捨てた。
+  paragraph: p26
+  confidence: moderate
+  quotes:
+  - quote: 変身の下手な異種族が慣れない霊長類体を取り繕っているのが明らかで、アルト・イヴニルは目を細めて吐き捨てた。
+    paragraph: p26
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_p110]]'
+  object: '[[ME_feudal_vassalage]]'
+  claim: クオアが「奴隷は利用されるためだけに存在している」と宣言し忠義を否定する行為は、伝統的な封建的忠誠関係（主従契約）の解体と、契約に基づく雇用・搾取関係への転換を示唆している。
+  quote: 貴様も含め、奴隷は利用されるためだけに存在しているのだ
+  paragraph: p110
+  confidence: strong
+  quotes:
+  - quote: 貴様も含め、奴隷は利用されるためだけに存在しているのだ
+    paragraph: p110
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_p185]]'
+  object: '[[ME_character_design_in_game]]'
+  claim: 腹部から現れる異形の人形たち（ハリモグラ、充電コード、鳥籠など）は、ゲームにおけるカオス的なキャラデザや、ユーザー生成コンテンツ（UGC）による意図しないバグ/異常なキャラクター生成を連想させる。
+  quote: 足が分岐して両足になっている人形がいた。酸を吐き出すハリモグラと蛇の混成種がいた。鼻が額に配置され、口が縦になっている荷運びがいた。
+  paragraph: p185
+  confidence: moderate
+  quotes:
+  - quote: 足が分岐して両足になっている人形がいた。酸を吐き出すハリモグラと蛇の混成種がいた。鼻が額に配置され、口が縦になっている荷運びがいた。
+    paragraph: p185
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_p146]]'
+  object: '[[ME_true_name_concept]]'
+  claim: 「我が真の名は〜」という宣名は、神話やファンタジーにおいて「真名（True Name）」を知ることが支配権を得る鍵となるというロジックのパロディ/実装である。
+  quote: 我が真の名はクオア・リア・クロウサー。空使いダウザール様の忠実なる騎士である
+  paragraph: p146
+  confidence: strong
+  quotes:
+  - quote: 我が真の名はクオア・リア・クロウサー。空使いダウザール様の忠実なる騎士である
+    paragraph: p146
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_mechanical_queen_detection
+  note: アルトが「機械女王に気取られかねない」と懸念しており、大量の軍勢展開が検知されるリスクを示唆している。これが後の戦闘の勝敗や介入に影響する伏線。
+  quotes:
+  - quote: これだけの規模での動員、いかに存在を分散しているとはいえ機械女王に気取られかねません。その意味はおわかりか？
+    paragraph: p44
+    quote_verified: true
+  expected_payoff: 機械女王が検知したことで増援が来る、あるいはアルトの動きが制限される展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_white_wing_sea_silence
+  note: 白翼海の扉竜アルバダオバ・ハツワシュとの通信が途絶しており、連絡を絶っている状況が明示されている。老紳士の状態と意図は不明。
+  quotes:
+  - quote: 問題は白翼海の扉竜アルバダオバ・ハツワシュで、あの老紳士もしばらく前から完全に連絡を絶っている。
+    paragraph: p157
+    quote_verified: true
+  expected_payoff: アルバダオバの裏切り、あるいは彼が既に戦闘不能/支配下にあることの判明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_malard_incorporation
+  note: アレッテ・イヴニルがマラード王の存在を己の中に取り込んでいる設定。これがアルトの行動原理や能力の源泉となっているが、その安定性には疑問符が付いている（「完璧だったはず」という記述）。
+  quotes:
+  - quote: アレッテ・イヴニルはアルト王の名前と地位を簒奪し、融血呪によってマラード王の存在を己の中に取り込んだ。
+    paragraph: p30
+    quote_verified: true
+  - quote: 亜竜王の名と権威は奪った。呪術的な仕掛けは完璧だったはずだ。
+    paragraph: p81
+    quote_verified: true
+  expected_payoff: マラードの人格/意識が内部で反乱を起こす、またはこの融合が不完全でありクオアの裏切りを招いた原因となる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_witch_in_race
+  note: 最後に「周辺で起きている熾烈な闘争を知る由もなかった」という魔女（おそらく主人公側）の存在が示唆される。彼女はこの大規模戦闘に巻き込まれる運命にあるか、あるいは無関係のまま通り抜けるのか。
+  quotes:
+  - quote: 暴風と岩塊という障害を潜り抜けることに精一杯な一人の魔女は、周辺で起きている熾烈な闘争を知る由もなかった。
+    paragraph: p210
+    quote_verified: true
+  expected_payoff: 主人公が戦闘エリアに到達し、この「王vs騎士」の戦いに介入するきっかけになる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 権威の虚構性と実体の暴力：歴史的な正統性（忠義・伝統）は、実際の力関係の前では張りぼてであり、契約と利益で結ばれた奴隷的関係が剥き出しになる。
+  weight: 0.9
+  quotes:
+  - quote: 伝説に語られる多種族を束ね上げた手腕、それが張りぼてでしかないとしたら？ 徳による王道、理想的な統治が、虚像でしかないとしたら？
+    paragraph: p135
+    quote_verified: true
+  - quote: 我ら空の眷属が貴様ら地虫どもに協力してやっていたのは合理的判断の結果に過ぎぬ。
+    paragraph: p109
+    quote_verified: true
+  note: アルト王の統治モデル（名と忠義による支配）が、クオアという実力者の裏切りによって完全に崩壊する過程。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術移転と文化の断絶：古代のルール（空の時代）が残存する異界において、近代の技術（人形・軍勢・通信端末）が導入されることの摩擦と優越。
+  weight: 0.7
+  quotes:
+  - quote: 蒼空岩石群はそんな古い時代のルールが何故か更新されないまま残ってしまった地帯だ。
+    paragraph: p4
+    quote_verified: true
+  - quote: 古代人である彼もまた、未来の人形という異質な技術を侮っていたのだ。
+    paragraph: p176
+    quote_verified: true
+  note: クオア（古代の生物）がアルト（未来の技術者/魔女）を侮り、その結果として技術の暴力で反撃を受ける構図。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 個の解体と集合的生存：「軍勢」という概念を通じた自我の希薄化と、それに伴う倫理観の消失（自己愛の放棄）。
+  weight: 0.6
+  quotes:
+  - quote: それは、個でありながら複数形で語るべき存在であったから。
+    paragraph: p9
+    quote_verified: true
+  - quote: 人形女だか細っけえ自己愛野郎だか知らねえが、ザコに俺様が本気で従うわけねえだろバーカ。
+    paragraph: p77
+    quote_verified: true
+  note: アルトの存在方式が「個」を前提としたクオアの論理では理解不能であり、互いの存在形態の違いが対立の原因となっている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 寄生と共生の暴力：子（人形）が親（母体）を食い破って誕生し、死骸を食らうという生態系的な循環と残酷さ。
+  weight: 0.5
+  quotes:
+  - quote: 我が胎を食い破り、その祝福を知らしめよ。産声を上げろ、エントラグイシュ！
+    paragraph: p178
+    quote_verified: true
+  - quote: 死に絶えたアルト・イヴニルの残骸を赤子たちが一心不乱に貪り食らう。
+    paragraph: p182
+    quote_verified: true
+  note: 生と死、親と子の境界が溶け合い、生物学的なタブーを破ることで力を得るダークファンタジー的展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

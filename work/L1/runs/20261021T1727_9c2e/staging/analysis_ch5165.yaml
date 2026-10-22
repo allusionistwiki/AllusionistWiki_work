@@ -1,0 +1,106 @@
+chapter: ch5165
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 6
+  quotes_total: 8
+items:
+- kind: mystery
+  name: MY_soloda_neck_marks
+  note: ソルダの首筋に現れた「噛み痕」のような呪力の糸。これが誰との契約、あるいは過去の死・転生に関わる痕跡なのか示唆している。
+  quotes:
+  - quote: その首筋から微かな呪力が漏れていることに気がつく。どこに繋がっているのか、虚空のある一点で消失するか細い呪力の糸。まるで噛み痕のように淡く光る、首筋の二つの点。
+    paragraph: p191
+    quote_verified: true
+  expected_payoff: ソルダが「転生者」であること、または彼が契約している上位存在（吸血鬼的要素や悪魔的契約）との関係性が明かされる伏線。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_dylau_survival
+  note: ダイロが氷槍で保護されたが、機竜の内部で何を成し遂げたのか、また彼が生還後にどのような存在に変化した（または記憶を喪失した）かが未定。
+  quotes:
+  - quote: 氷がひび割れて、少年と少女の間を遮るものがなくなる。「最初から【氷槍】を発動して彼の命は守るつもりだった。愛する者同士が引き裂かれるのは、見ていられない」
+    paragraph: p185-187
+    quote_verified: true
+  expected_payoff: ダイロとクィの再会による竜神信教内部での派閥闘争、またはダイロ自身が新たな「機竜」として覚醒する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_flaveufa_zero_sister
+  note: フラベウファが「キュトスの七十一姉妹」でありながら「零番目」「欠番の魔女」と称されることの真意。
+  quotes:
+  - quote: 存在しないはずの番外位、数を失った欠番の魔女が膨大な量の金鎖を吐き出していく。
+    paragraph: p78
+    quote_verified: true
+  expected_payoff: フラベウファが単なる寄生異獣ではなく、世界の根源的な法則（数式や概念）そのものに関わる存在であることの証明。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_tomb_ship_origin
+  note: 「墓標船」が異世界の知識の宝庫であること、そしてそれが誰によって、いつ持ち込まれたのかという謎。
+  quotes:
+  - quote: 異世界の知識が詰め込まれた墓標船を利用すれば、可能性はあるのだ。
+    paragraph: p43
+    quote_verified: true
+  expected_payoff: この世界への「外来者（転生者）」の流入ルート、または世界全体の構造に関する重大な秘密の提示。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: メタフィクションとしての英雄譚：物語的な「引喩（アリュージョン）」によって現実をねじ曲げ、空想を現実に実体化させる行為の権能化。
+  weight: 0.9
+  quotes:
+  - quote: 初代松明の騎士である大フォグラントの存在を参照し、その威光を纏って戦う引喩（アリュージョン）系神働術――たった300秒ですが、彼はその間だけ真の英雄となる。空想（おとぎばなし）の勇士を現代に甦らせる聖なる祭祀
+    paragraph: p149
+    quote_verified: true
+  note: タイトルである「アリュージョニスト」が指す核心。物語の文脈（神話・伝説）を参照し、それによって物理法則を上書きする行為が、戦闘の解決手段として提示されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 技術と呪術の境界消失：異世界の「知識（技術）」が「呪術（信仰）」によって補完され、機械生命体が生まれる構造。
+  weight: 0.7
+  quotes:
+  - quote: それは機械。鎧のような鱗、無機的でありながら有機的なしなやかさを併せ持つ高度な杖の技術。……異世界の知識が詰め込まれた墓標船を利用すれば、可能性はあるのだ。
+    paragraph: p37-43
+    quote_verified: false
+  note: SF的要素（機械）とファンタジー的要素（呪術・信仰）の融合。技術の転移が単なる便利さではなく、世界の歪み（機竜の暴走など）を生む要因として描かれている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 「最弱」の逆説：ステータス上の弱さが、物語的な役割（希望を掲げる者）によって絶対的な勝利に転換される構造。
+  weight: 0.8
+  quotes:
+  - quote: 誇れるのは勇気と機知のみ――しかし制限を解除し、その真なる能力のひとつを解放したわがあるじは無敵です。最弱という二つ名には続きがある。すなわち、最弱にして常勝。曰く、地上にとっての無限の希望であり地獄にとっての真なる絶望。
+    paragraph: p145-147
+    quote_verified: false
+  note: 数値的な強さではなく、「物語上の立ち位置」が戦闘を決定するという、異世界転生ジャンルにおける「チート能力」の本質をメタ的に解説する主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己犠牲の無意味化と救済：悲劇的な死（ダイロの献祭）が、ソルダの介入によって喜劇的な生還に書き換えられる過程。
+  weight: 0.6
+  quotes:
+  - quote: 愛や絆が引き裂かれるのを見るのは、いつだって辛い――だから、ここからは僕の戦いだ。僕という存在は、全ての悲劇を笑い飛ばす為にこの地上に降りてきたんだから
+    paragraph: p115
+    quote_verified: true
+  note: 転生者（ソルダ）が持つ「物語の破壊力」。既存の運命（死別）を拒絶し、ハッピーエンドを強制的に導入する行為は、メタフィクションにおける作者の権能の体現である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

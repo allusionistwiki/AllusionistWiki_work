@@ -1,0 +1,151 @@
+chapter: ch5207
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 5
+  quotes_verified: 10
+  quotes_total: 17
+items:
+- kind: mystery
+  name: MY_Pitchaloo_Vote_Logic
+  note: ピッチャールーの9本腕が1人分としてカウントされ、ユネクティア・エスフェイルを含め「11票」という異常な多数決結果となった。この計算ロジック（または権力者の独断）が今後の政治的力学や魔将間の階級闘争で重要になる可能性。
+  quotes:
+  - quote: 「というわけで、僕とエスフェイル、そしてピッチャールーのぶんを合わせて十一票、魔将としての意思統一はできた。」
+    paragraph: p102
+    quote_verified: false
+  expected_payoff: ガルズがこの異常な多数決に疑問を持たず従ったことと対比し、後の展開で魔将間の信頼崩壊やピッチャールーの真意（支配者側の味方か）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Rierelba_Original_Name
+  note: リールエルバが「トリシル＝リールエルバ」という完全な名（真名/弱所）を明かされたことで精神的崩壊に至った。エスフェイルは「出来損ない」「紛い物」と呼んでおり、彼女がコピー・クローン・あるいは名前を継いだだけの存在である伏線。
+  quotes:
+  - quote: 『く――トリシル＝リールエルバ・ヴォーン・アム＝オルトクォーレンよ』
+    paragraph: p233
+    quote_verified: true
+  - quote: 「ほう。これはこれは。存在の弱所がこれほど明確な者も珍しい。貴様、出来損ないの紛い物であったか――トリシルよ、貴様、リールエルバの振りをしながら生きるのはどんな気分だね？」
+    paragraph: p249
+    quote_verified: true
+  expected_payoff: 「本物のリールエルバ」が存在すること、または彼女が過去に誰かのコピーとして作られた事実（例：過去の魔女のクローン）が明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Seria_Mental_Linker
+  note: セリアック＝ニアがリールエルバの「姉様」としての意思を代弁し、自分とナーグストール、そしてリールエルバとの境界線がないように振る舞っている。三人が精神的・霊的に融合している可能性。
+  quotes:
+  - quote: まるで、彼女の中には常にリールエルバがいるのだとでも言うように。
+    paragraph: p268
+    quote_verified: true
+  - quote: セリアック＝ニアは私とフィリスの区別が分からないと言い、自分とナーグストールの区別が付かないと言った。
+    paragraph: p269
+    quote_verified: true
+  expected_payoff: 最終的にセリアック＝ニア、リールエルバ、そして「姉様（フィリス?）」が完全な融合体として覚醒するか、どれかが消滅して一つになる展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Unecetia_Spider_Imitation
+  note: ユネクティアがフィリスの左手（蜘蛛の能力?）を「見よう見まね」で模倣し、「葉のような刃」で攻撃を切断した。この「摸倣」能力がどの程度万能なのか、また消耗激しさから来る弱点があるか。
+  quotes:
+  - quote: 「見よう見まねであの子の左手を摸倣してみたんだ。即席にして万能の対抗呪文といったところかな。」
+    paragraph: p207
+    quote_verified: false
+  expected_payoff: ユネクティアがフィリスの能力を完全コピーし、最終決戦で対フィリス用の切り札として使う展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Beforenis_Rock_Eater
+  note: ベフォニスが呪石弾を手で掴み「ばりぼりと咀嚼している」。彼が単なる岩肌種（トロル）ではなく、魔法の源である石/結界を食糧として処理する特異な能力を持つ可能性。
+  quotes:
+  - quote: 出現してからずっと、遠距離から繰り返し呪石弾で狙撃されているのだが、全く堪えた様子がない。それどころか、高速で飛来する弾丸を手で掴んだ上に口に放り込み、ばりぼりと咀嚼している。
+    paragraph: p68
+    quote_verified: true
+  expected_payoff: ベフォニスが敵の攻撃（呪文）を吸収・消化し、自身の魔力に変換する「魔術喰い」としての役割が明示される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自我の希薄化と名前の呪い
+  weight: 0.9
+  quotes:
+  - quote: 「その名を二回目に口にした奴は決して許さないと決めているの。不用意に口にして五体満足なのはリーナだけよ。」
+    paragraph: p266
+    quote_verified: false
+  - quote: リールエルバは項垂れたまま半透明の裸身を自ら抱きしめて、存在を希薄化させてしまう。消滅まで後一歩という所で踏みとどまったようだが、精神に大きな傷を負った彼女がすぐに立ち直れるかどうかは不明だ。
+    paragraph: p253
+    quote_verified: true
+  note: この章では、真名（フルネーム）を明かすことが存在の消滅・支配・弱所露呈に直結するメカニクスが描かれ、リールエルバとセリアック＝ニアの関係を通じて「名前」と「自我」の境界が主題化されている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 多数決という名の独裁（権力の構造）
+  weight: 0.8
+  quotes:
+  - quote: 「ふむ。賛成多数で、ひとまず僕の意見が通ったということでいいかな？」
+    paragraph: p91
+    quote_verified: true
+  - quote: ガルズは余りにも異常な多数決の結果と、それに何の疑問もなく従う魔将を信じられないものを見るような目で見つめながらもどうにか返事をした。
+    paragraph: p106
+    quote_verified: true
+  note: ユネクティアによる「11票」という理不尽な多数決操作と、それに従う集団の同調圧力が、民主的プロセスの皮肉なパロディとして機能し、組織内の権力構造を風刺している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 模倣（ミメシス）とオリジナルの優劣
+  weight: 0.7
+  quotes:
+  - quote: 「見よう見まねであの子の左手を摸倣してみたんだ。即席にして万能の対抗呪文といったところかな。」
+    paragraph: p207
+    quote_verified: false
+  - quote: 魔将ユネクティアが振るう刃はフィリスの見よう見まねでの模造品だという。あくまで見た目上、振る舞いの摸倣なので完全に同じではないだろうが、効果が同一ならそれは同じこと。
+    paragraph: p215
+    quote_verified: true
+  note: ユネクティアの「模倣」能力は、フィリスという「オリジナル」との対比で描かれており、コピーがオリジナルを超えうるか（効果同一なら同じ）、またその限界（消耗激しさ）についての考察を提示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 破壊と再生のサイクル（世界の更新）
+  weight: 0.6
+  quotes:
+  - quote: 「全生命が死に絶えた後、再生者として死の世界で死に続けるんだよ」
+    paragraph: p50
+    quote_verified: false
+  - quote: 「世界の更新（アップデート）！　なんと、このわたくしめと志を共にする方でありましたか！」
+    paragraph: p45
+    quote_verified: false
+  note: ガルズの計画は単なる破壊ではなく、「死の世界」への移行と再生者としての存在を含んでおり、宗教的な終末論やゲーム的なリセット（アップデート）の概念が混在する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族・姉妹の境界溶解
+  weight: 0.85
+  quotes:
+  - quote: セリアック＝ニアは傷口を宝石化させて塞ぐと、戦意を昂ぶらせてエスフェイルに向かって疾走していく。私とリーナもまたセリアック＝ニアを援護すべく行動を開始した。
+    paragraph: p272
+    quote_verified: true
+  - quote: 「その名前を二回目に口にした奴は決して許さないと決めているの。不用意に口にして五体満足なのはリーナだけよ。」
+    paragraph: p266
+    quote_verified: false
+  note: リールエルバが精神的に崩壊した瞬間、セリアック＝ニアが彼女を代弁し「姉様」の意思として行動開始する。二人（あるいは三人）が一つの戦闘ユニット・一つの人格として機能し始める過程が描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

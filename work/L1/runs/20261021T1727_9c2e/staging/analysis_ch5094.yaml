@@ -1,0 +1,227 @@
+chapter: ch5094
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 4
+  themes: 4
+  quotes_verified: 17
+  quotes_total: 18
+items:
+- kind: claim
+  predicate: analogous_to
+  subject: p4
+  object: game_mechanics_failure_state
+  claim: 魔女の存在証明がゲームにおける勝敗条件（勝利条件）に直結しており、失敗時にキャラクターが消滅する仕様として描かれている。
+  quote: 「待て。まさか、勝利条件を満たせないと、トリシューラは死ぬっていうのか」
+  paragraph: p2
+  confidence: explicit
+  quotes:
+  - quote: 「待て。まさか、勝利条件を満たせないと、トリシューラは死ぬっていうのか」
+    paragraph: p2
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: p6-p8
+  object: label_based_existence_philosophy
+  claim: 存在の維持が物理的機能ではなく、他者からの認知という『レッテル』に依存する哲学的概念（ラベリング）を、生死に関わるゲームシステムとして実装している。
+  quote: この『レッテルによる死』はトリシューラの予備の身体を用意するなどの物理的な手段では覆せないということらしい。今損なわれているのは、物理的な形の無い、あやふやな彼女の『価値』だからである。
+  paragraph: p8
+  confidence: strong
+  quotes:
+  - quote: この『レッテルによる死』はトリシューラの予備の身体を用意するなどの物理的な手段では覆せないということらしい。今損なわれているのは、物理的な形の無い、あやふやな彼女の『価値』だからである。
+    paragraph: p8
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: p13-p19
+  object: trolley_problem_ethics
+  claim: 主人公が直面するジレンマは、功利主義的な選択を迫る『トロッコ問題』の構造そのものであり、その強制性が批判されている。
+  quote: この手のクソみたいなジレンマ。選択肢の外側に置かれた絶対的な規範。倫理観を前提とした実は選ばせる気が無い誘導設問。決断の責任をこっちに丸投げするような選択肢を突きつける、出題側の無責任さと傲慢さ。
+  paragraph: p19
+  confidence: strong
+  quotes:
+  - quote: この手のクソみたいなジレンマ。選択肢の外側に置かれた絶対的な規範。倫理観を前提とした実は選ばせる気が無い誘導設問。決断の責任をこっちに丸投げするような選択肢を突きつける、出題側の無責任さと傲慢さ。
+    paragraph: p19
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: references
+  subject: p24
+  object: cognitive_behavioral_therapy
+  claim: 感情の暴走を制御するための『E-E』操作は、現代の認知行動療法やマインドフルネスによる精神安定化技術のSF的変換である。
+  quote: 怒りの感情が許容できる閾値を超えたことを示すアラート音が鳴り響き、深呼吸しながら『E-E』の操作によって精神状態を安定させる。
+  paragraph: p24
+  confidence: moderate
+  quotes:
+  - quote: 怒りの感情が許容できる閾値を超えたことを示すアラート音が鳴り響き、深呼吸しながら『E-E』の操作によって精神状態を安定させる。
+    paragraph: p24
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: sublates
+  subject: p35-p41
+  object: computational_theory_of_mind
+  claim: 人間の内心や価値観を交換可能な状態データとみなす視点は、心計算説（Computational Theory of Mind）および機能主義的な精神哲学の徹底を示している。
+  quote: 人の思考を読んだくらいで人のことを分かったような気になっているあいつは、やはり正しい意味で人間を理解してはいないのだろう。人間の内心や感情、価値観なんてものはいくらでも交換可能であり、類型的なものに過ぎない。
+  paragraph: p35-p39
+  confidence: strong
+  quotes:
+  - quote: 人の思考を読んだくらいで人のことを分かったような気になっているあいつは、やはり正しい意味で人間を理解してはいないのだろう。人間の内心や感情、価値観なんてものはいくらでも交換可能であり、類型的なものに過ぎない。
+    paragraph: p35-p39
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: p49
+  object: isekai_genre_tropes
+  claim: トリシューラを切り捨てて迷宮攻略に向かう選択肢は、典型的な異世界転生作品の『ハックアンドスラッシュ』および『竜殺し』というクリシェへの回帰として提示されている。
+  quote: 選んだ先の道には、異世界転生の王道を行くハックアンドスラッシュの物語。トリシューラを切り捨て、物言わぬ残骸となったアンドロイドの成れの果てを踏み越えて、竜を殺しに迷宮に挑む。
+  paragraph: p49
+  confidence: explicit
+  quotes:
+  - quote: 選んだ先の道には、異世界転生の王道を行くハックアンドスラッシュの物語。トリシューラを切り捨て、物言わぬ残骸となったアンドロイドの成れの果てを踏み越えて、竜を殺しに迷宮に挑む。
+    paragraph: p49
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: p83-p106
+  object: narrative_design_meta_commentary
+  claim: リーナからの電話は物語の構造そのものに対するメタコメントであり、ゲームマスター（作者）がプレイヤー（主人公）に結末のプロットを提案するメタフィクション的展開である。
+  quote: 「知り合いの物書きがさー『全員生き残って大団円で終わる筋書きと犠牲を払ったけどその悲しみを胸に強く生きていくみたいな筋書き、どっちがいいと思う？』って相談してくるんだけど、どう思う？」
+  paragraph: p83
+  confidence: explicit
+  quotes:
+  - quote: 「知り合いの物書きがさー『全員生き残って大団円で終わる筋書きと犠牲を払ったけどその悲しみを胸に強く生きていくみたいな筋書き、どっちがいいと思う？』って相談してくるんだけど、どう思う？」
+    paragraph: p83
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: my_leeena_identity
+  note: リーナ・ゾラ・クロウサーがなぜこの緊迫した状況で、物語の筋書きについて相談できるほどの距離感と知識を持っているのか。彼女のプロットへの関与は偶然か必然か。
+  quotes:
+  - quote: 「知り合いの物書きがさー『全員生き残って大団円で終わる筋書きと犠牲を払ったけどその悲しみを胸に強く生きていくみたいな筋書き、どっちがいいと思う？』って相談してくるんだけど、どう思う？」
+    paragraph: p83
+    quote_verified: true
+  - quote: 『プロットをご覧いただいてもよろしいでしょうか？』それが、俺達が勝つための最後の鍵だった。
+    paragraph: p104-p106
+    quote_verified: true
+  expected_payoff: リーナが物語の観測者・作者側の存在であることが判明し、彼女が提示したプロット（全員生存ルート）を実行するための具体的な手順（魔法や技術）が解明される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: my_leeena_voice_change
+  note: p93で主人公はリーナの声に聞き覚えがあり、心話術で変換すれば一致すると言及している。これはリーナが既知のキャラクター（過去の自分、別人格、または重要なNPC）である伏線。
+  quotes:
+  - quote: なんだろう、どこかで、聞き覚えがあるような――？いや、気のせいかな。この慌てているせいかやけに高い声をもう少し低くして、あとは兜などを通したようなくぐもった感じで、【心話】の術で二重音声のようにすれば、かなりの確度で一致するような気配はあるのだが。
+    paragraph: p91-p93
+    quote_verified: true
+  expected_payoff: リーナが主人公の過去に関わる存在（例：前世の記憶を持つ者、過去の敵、またはコルセスカに関連する者）であることが明かされる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: my_curse_activation
+  note: リーナの着信とほぼ同時に「死の色すら飲み込む、それは光のない無彩色」という呪文/呪いが蘇っている。これはリーナからの情報と連動して発動するものか？
+  quotes:
+  - quote: 記憶の彼方で、聞き覚えのある魔法の呪文が甦る。死の色すら飲み込む、それは光のない無彩色。世界を震わせる頌歌のように。身体の奧に刻印された、ある呪いが再び息を吹き返す。
+    paragraph: p77-p80
+    quote_verified: true
+  expected_payoff: この「無彩色」の呪い/魔法が、トリシューラとコルセスカのトレードオフ（二択）を回避し、両方を生存させるためのキーアイテム（鍵）として機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: my_both_arms_void
+  note: 「両腕の空虚」が呪わしく感じ、「力が欲しい」という欲求に駆られている。この渇望が次のアクション（リーナからのメール＝プロット）でどう埋め合わされるのか。
+  quotes:
+  - quote: 今、両腕の空虚がなによりも呪わしく感じる。力が欲しい。コルセスカに報いる為の力。松明の騎士からトリシューラを守るための力。どうしようもない運命に抗う為の力。自分自身の居場所を守るための力。
+    paragraph: p67-p70
+    quote_verified: true
+  expected_payoff: リーナが提示する「全員生存プロット」を実行するために必要な、主人公の欠けた力（腕/武器/権限）を補完する手段が提供される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語構造へのメタ介入による運命の脱構築
+  weight: 0.9
+  quotes:
+  - quote: 「知り合いの物書きがさー『全員生き残って大団円で終わる筋書きと犠牲を払ったけどその悲しみを胸に強く生きていくみたいな筋書き、どっちがいいと思う？』って相談してくるんだけど、どう思う？」
+    paragraph: p83
+    quote_verified: true
+  - quote: 「個人的な好みで言わせてもらえば――悩むくらいなら両方の要素をぶち込んでしまえばいい。収拾がつかないとか辻褄とかバランスとかは気にしないで、滅茶苦茶なくらいが一番面白いと、俺は思う」
+    paragraph: p99
+    quote_verified: true
+  note: 登場人物たちが「物語の筋書き（プロット）」を直接議論し、主人公が「収拾がつかないほどの混在」を選ぶことで、二択のジレンマそのものをメタレベルで破壊する展開。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 価値の交換可能性と感情の相対化
+  weight: 0.7
+  quotes:
+  - quote: 人の思考を読んだくらいで人のことを分かったような気になっているあいつは、やはり正しい意味で人間を理解してはいないのだろう。人間の内心や感情、価値観なんてものはいくらでも交換可能であり、類型的なものに過ぎない。
+    paragraph: p35-p39
+    quote_verified: true
+  note: 主人公がトリシューラとコルセスカの選択において、感情的な価値を相対化し、論理的・機能的な整合性（「目的の為の遠回り」）で再構成しようとする合理主義的視点。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 存在証明の暴力性と他者依存
+  weight: 0.6
+  quotes:
+  - quote: 「その通りです。自己の存在証明を果たす事が生存とイコールである為、トリシューラ以外の候補者が【最後の魔女】になれば彼女は存在意義を否定されて自死するでしょう。」
+    paragraph: p4
+    quote_verified: false
+  - quote: 冗談じゃないと思った。トリシューラほど不死から程遠い存在もそういない。それどころか、この世界は彼女にとって死の可能性に満ちた危険な場所だ。
+    paragraph: p10-p11
+    quote_verified: true
+  note: 「見られること」「選ばれること」が生死を分けるという、極端な他者依存の存在論と、それに対する主人公の倫理的拒絶（怒り）。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 感情制御された人間としての主体性
+  weight: 0.5
+  quotes:
+  - quote: 目の前のコルセスカが、表情を強張らせて、強い憤りを感じているのがわかった。彼女は今、俺に代わって状況の理不尽さに怒ってくれているのだろう。その心の善性と優しさに従って。であれば、俺がするべきはコルセスカに代わって冷静な、感情を排した思考を行うことに他ならない。
+    paragraph: p26-p28
+    quote_verified: true
+  note: 主人公が感情（怒り）を外部化・代行し、冷徹な計算のみで行動しようとする姿は、人間性の喪失か、あるいは高度な社会適応（サイボーグ的知性）の証明である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

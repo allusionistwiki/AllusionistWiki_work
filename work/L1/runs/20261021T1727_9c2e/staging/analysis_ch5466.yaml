@@ -1,0 +1,137 @@
+chapter: ch5466
+created: '2026-10-20'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 4
+  themes: 4
+  quotes_verified: 13
+  quotes_total: 13
+items:
+- kind: mystery
+  name: MY_父の血液変化と藍神の従属
+  note: 父の血液が赤から青（藍）に変化し、通常反発するはずの藍神（クリマ）が父に呼応して整然と合流した。これは単なる魔術の獲得ではなく、世界法則の改変、あるいは『王』としての資質の本質を示唆している可能性がある。
+  quotes:
+  - quote: 彼がナイフで指先を傷つけると、滴り落ちた血液がみるみるうちに赤から青への変化していく。深い色合いは、藍に近い。
+    paragraph: p65
+    quote_verified: true
+  - quote: 特定の血と強く結びついているはずの藍神（クリマ）たちが、どうしてか父におとなしく従っていた。異なる血統と反発して然るべき様々な形の藍色、大小さまざまな力の波が整然と父の意思に呼応して一つの流れに合流していく。
+    paragraph: p70
+    quote_verified: true
+  expected_payoff: 父が獲得した『藍神』が単なる力ではなく、秩序派（ディスケイム）を支配・変質させる鍵となる可能性。母が脳の一部を抉り取ったのはこの制御能力の破壊のためか。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_オルヴァ王最後の血脈とノーグの末裔
+  note: 父が見つけた『上』の『子宮』にいるノーグの末裔（オルヴァ王の最後の血脈）。父はこれを切り札とし、キニスにとっての『新しい居場所』になると語った。この人物が後の展開で重要な役割を果たす可能性が高い。
+  quotes:
+  - quote: 実は、お前には会わせたい子がいるんだ。ずいぶん前に『上』で『子宮』を見つけた。ノーグの末裔だ。ディスケイムやクロウサーが諦めていたオルヴァ王の最後の血脈がまだ生き残っていたんだよ。
+    paragraph: p121
+    quote_verified: true
+  expected_payoff: キニスの旅の目的地の一つである『霊山』やその関連施設でこの人物と遭遇する、あるいはこの血脈がキニスの真のルーツに関わる可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_母による脳の一部抉り取り
+  note: 母が父を殺害した際、単に心臓を貫くだけでなく、頭蓋骨を切り開き『脳の一部分』を抉り取った。この特定の部位の破壊は、父が獲得した能力（藍神の制御）や記憶、あるいは人格の核を物理的に除去する意図があったと考えられる。
+  quotes:
+  - quote: 母親は娘の目の前で父の頭頂部を砕き、刃のような爪で頭蓋骨を切り開き、脳の一部分を抉り取ってみせた。途端、父に従っていた藍神（クリマ）たちが一斉にその部分に殺到していく。
+    paragraph: p141
+    quote_verified: true
+  expected_payoff: 父の『王』としての資格や藍神の制御能力が脳の一部に依存していたことの証明。その部位が何であったか（前頭葉の判断力、側頭葉の記憶など）による伏線の回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_順正化処置の提示
+  note: 母は父の死後、キニスに対して『順正化処置』を施す可能性に触れた。これは記憶操作、性格改変、あるいは生物学的な修正を含む可能性があり、ディスケイムの技術力と倫理観を示す重要な伏線である。
+  quotes:
+  - quote: 今から順正化処置を施して修正することもできます。しかしこれがディスケイムには無かった可能性であることも否定できない。クロウサーの真似事をするのは不愉快ですが、このまま先細っていく道を歩ませるよりはいいのかもしれません
+    paragraph: p159
+    quote_verified: true
+  expected_payoff: キニスが後に受ける身体的・精神的な変質（『ユディーア』としての完全化）が、この『順正化処置』の応用である可能性。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 秩序と完璧さに対する恐怖：自由を奪う『正しさ』の暴力性
+  weight: 0.9
+  quotes:
+  - quote: 'キニスの世界ではそれは『正しくない』ことだった。
+
+      それを父が言うのは『らしい』けれど、その常識が博物城の内側を染め上げていくことは怖かった。'
+    paragraph: p85-p86
+    quote_verified: true
+  - quote: '「あたしは正義を受け継ぐ者。だから、ユディーアとして正しく生きます」
+
+      本当はそれ以外のことができないだけ。消去法でそうするしかなかっただけだ。'
+    paragraph: p189-p191
+    quote_verified: true
+  note: 父の自由な冒険譚と母の整然とした世界（鳥籠）の対比を通じて、キニスが『正しさ』によって自己決定権を奪われ、恐怖から従属する過程を描く。これは自由意志の喪失と社会規範による抑圧の主題である。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 優しさという名の弱さ：復讐譚主人公の不在
+  weight: 0.8
+  quotes:
+  - quote: '幼いキニスに母殺しは早すぎた。
+
+      復讐譚の主人公となるには、彼女は優しすぎたのだ。'
+    paragraph: p2-p3
+    quote_verified: true
+  - quote: '怒りと憎しみと怨恨と復讐と。
+
+      それらにまつわる物語は、少女には向いていなかった。'
+    paragraph: p195-p196
+    quote_verified: true
+  note: キニスの『優しさ』が、父を殺した母への恨みや父への悲しみを復讐という形で昇華することを阻んでいる。これは異世界転生・復讐譚ジャンルに対するメタフィクショナルな批判であり、主人公が持つべき激情の欠如を主題とする。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 物語の虚構性：英雄譚の破綻と現実の残酷さ
+  weight: 0.7
+  quotes:
+  - quote: '鳥籠に囚われた可哀相な子供を救うため、少年の心を持った不遇な境遇の男は長い長い冒険を続けてきた。その果てに彼は求めていた秘宝を手にして王となり、自分と同じように自由を奪われてきた子供たちを救ってより優れた王国を築き上げた。めでたしめでたし。
+
+      キニスは物語を想像した。
+
+      それはひどく現実感が無く、空虚なものであるように思われた。'
+    paragraph: p93-p95
+    quote_verified: true
+  - quote: '全てが終わったあと、少女は何度も考える事になる。
+
+      不意に忘却の中から甦る父の声は、呪いのようでもあった。'
+    paragraph: p60-p61
+    quote_verified: true
+  note: 父が約束した『王となる物語』が現実の殺害によって破壊されること、およびその虚構性がキニスにトラウマとして残ることを描く。英雄譚の構造がいかに現実に脆弱であるかを示すメタフィクション的主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己正当化による選択の放棄：未来の喪失
+  weight: 0.6
+  quotes:
+  - quote: 本当は外の世界が怖かったから、踏み出す不安を誤魔化すために『優しい自分』で正当化を図ろうとしただけではなかったか。
+    paragraph: p119
+    quote_verified: true
+  - quote: 'そのわずかな時間を選んだ結果、あったかもしれない未来を失った。
+
+      永遠に。'
+    paragraph: p128-p129
+    quote_verified: true
+  note: キニスが父の誘いを断った動機が、母への愛ではなく『恐怖』と『優しさという仮面』であったという自己分析。これが彼女から自由な未来を永遠に奪い、決定論的な運命（ユディーアとしての生）へと押しやる過程を描く。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

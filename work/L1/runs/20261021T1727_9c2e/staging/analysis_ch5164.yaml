@@ -1,0 +1,125 @@
+chapter: ch5164
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 0
+  mysteries: 5
+  themes: 3
+  quotes_verified: 14
+  quotes_total: 14
+items:
+- kind: mystery
+  name: MY_アルスタの失われた人
+  note: アルスタが「手放してしまった大切なひと」を取り戻すために戦っていると語る。この人物が誰であり、なぜ失われたのか（死亡、転生、分離など）は今後の展開で明かされる可能性が高い。また、アズーリアとの類似性が強調されている点から、両者の過去に共通の因縁がある伏線かもしれない。
+  quotes:
+  - quote: 大切なひとを、僕は手放してしまった。離さなければ良かったのに。
+    paragraph: p163
+    quote_verified: true
+  - quote: 最愛の人を取り戻す可能性が残されている
+    paragraph: p163
+    quote_verified: true
+  expected_payoff: アルスタの正体や目的が明かされる際、その「大切なひと」との再会、またはその人物がアズーリアやビーチェと関係していることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_左手の三つの環
+  note: アズーリアの手首に埋め込まれた金色の鎖「三つの環」が、3回きりの切り札として言及されている。現在の状況（連撃呪術）では不向きと判断され使用しなかったが、今後の危機的状況で使用される伏線である。
+  quotes:
+  - quote: 籠手に包まれた左手と、手首に埋め込まれた金色の鎖を意識する。三つの環。三回きりの切り札。
+    paragraph: p39
+    quote_verified: true
+  - quote: 使い切ってしまえば後が無い。今ここで使うべきかどうか。
+    paragraph: p39
+    quote_verified: true
+  expected_payoff: 竜神信教との戦闘の決着時、またはアルスタ救出時に使用され、その効果が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_フラベウファの正体と権限
+  note: 「金鎖のフラベウファ」と名乗る幼女が、アズーリアの通報に対してシステム権限を持つように応答し、アルスタを「あるじ様」と呼ぶ。彼女が単なる召使いなのか、高位の存在なのか、また「金鎖」システムとの関係性が不明確であり伏線となる。
+  quotes:
+  - quote: わたくし金鎖のフラベウファと申します。以後お見知りおき下さい、アズーリア様
+    paragraph: p203
+    quote_verified: true
+  - quote: 金鎖システムから自動返信しますが、そんな変態主人は即刻逮捕して首輪をつけるべきですね。さあどうぞ
+    paragraph: p195
+    quote_verified: true
+  expected_payoff: フラベウファがアルスタの主人（あるいはその逆）であることが明かされ、「金鎖」システム全体の構造や世界槍との関係性が解明される。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_竜神信教の大規模儀式
+  note: フラベウファが報告した「内部で大規模な儀式呪術を準備」しているという事実。これが何のための儀式なのか、そしてそれが世界槍や地獄とどう関係するのかは未解決の謎である。
+  quotes:
+  - quote: なにやら内部で大規模な儀式呪術を準備しておりました
+    paragraph: p209
+    quote_verified: true
+  expected_payoff: 突入後の戦闘で儀式が発動、または阻止されることで、竜神信教の真の目的（地獄との接触、魔物の召喚など）が判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_誰も知らない引用元
+  note: 転移門の文言「汝らこの門をくぐる者は一切の望みを捨てよ」について、世界には存在しない幻の参照先かもしれないと記されている。この文言の真の由来（ダンテ以外？
+    あるいは作者メタ？）が明かされる可能性がある。
+  quotes:
+  - quote: 何かの引用だと聞くが、何の引用なのかは誰も知らないのだという。もしかしたら、この世界には存在しない幻の参照先なのかもしれない。
+    paragraph: p9
+    quote_verified: true
+  expected_payoff: メタフィクション的な回収として、この文言が「転生者」への警告であることが示唆されるか、異世界の神話由来であることが判明する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 復讐は愛の証明であるという逆説的肯定
+  weight: 0.8
+  quotes:
+  - quote: 復讐心はね、愛の証明なんだ
+    paragraph: p149
+    quote_verified: true
+  - quote: 愛する気持ちを抱いて復讐を遂げること。自分自身が大切なものを想うその唯一無二の気持ちの為に怒りと憎しみを仇にぶつけるんだ。
+    paragraph: p153
+    quote_verified: true
+  note: アルスタがアズーリアに対して、復讐という負の感情を愛の延長線上にある正当な行為として定義し、主人公の行動原理を補強する主題。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶の曖昧さと自己確立
+  weight: 0.5
+  quotes:
+  - quote: そう、記憶は確かに存在する。けれど、その繋がりはどうにも曖昧だ。
+    paragraph: p2-p3
+    quote_verified: true
+  - quote: ひとつひとつ思い出していこう。私――アズーリア・ヘレゼクシュが辿ってきた日々、駆け抜けてきた戦いを。
+    paragraph: p4
+    quote_verified: true
+  note: 章の冒頭で提示される「記憶」の問題は、転生者としてのアイデンティティ不安を象徴しており、アルスタとの対話を通じて現在の自分を定義しようとする試みと結びつく。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 世界（自然）の無関心さと人間の主観
+  weight: 0.3
+  quotes:
+  - quote: 森はただそこにあるだけだよ。恐ろしいかどうかを定めるのは人だ
+    paragraph: p104
+    quote_verified: true
+  - quote: 土の下には冷たさと暗さしかない。
+    paragraph: p18
+    quote_verified: true
+  note: アルスタの合理的な世界観（森は中立）と、アズーリアの感情的な世界観（死の匂い、郷愁）が対比され、迷宮をどう捉えるかという視座の違いが描かれる。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed

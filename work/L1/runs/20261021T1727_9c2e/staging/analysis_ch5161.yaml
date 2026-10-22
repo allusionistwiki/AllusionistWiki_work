@@ -1,0 +1,274 @@
+chapter: ch5161
+created: '2026-10-19'
+status: proposed
+counts:
+  claims: 7
+  mysteries: 5
+  themes: 5
+  quotes_verified: 17
+  quotes_total: 21
+items:
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Mirunya_Name_Rejection]]'
+  object: '[[ME_Japan_Cultural_Naming]]'
+  claim: ミルーニャが「メートリアン」の称号を保持しつつ「ミルーニャ」という個人名で呼ばれることを許容する様は、日本文化における姓（家系・所属）と名（個）の分離および通称の社会的受容を示唆している。
+  quote: 「メートリアンであることを捨てる気はありません。けれど、ミルーニャであることを否定する気もなくなりました。だから、今までのようにミルーニャとお呼び下さい。」
+  paragraph: p4
+  confidence: moderate
+  quotes:
+  - quote: 「メートリアンであることを捨てる気はありません。けれど、ミルーニャであることを否定する気もなくなりました。だから、今までのようにミルーニャとお呼び下さい。」
+    paragraph: p4
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: analogous_to
+  subject: '[[E_Azuria_Shrinkage]]'
+  object: '[[ME_MobileGame_PowerCreep_LimitBreak]]'
+  claim: アズーリアが「限界を超えて呪力を使った」結果として物理的に縮小するという現象は、ゲーム的な「リミットブレイク」や「オーバーフロー」によるステータス異常（サイズ変更）のメタファーである。
+  quote: 「限界を超えて呪力を使ってしまったから。今は夜だし、しばらくこのまま月光を浴びていればそのうち元に戻るよ」
+  paragraph: p44
+  confidence: moderate
+  quotes:
+  - quote: 「限界を超えて呪力を使ってしまったから。今は夜だし、しばらくこのまま月光を浴びていればそのうち元に戻るよ」
+    paragraph: p44
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: parodies
+  subject: '[[E_Mirunya_Father_Request]]'
+  object: '[[ME_Internet_Meme_Incest_Joke]]'
+  claim: ミルーニャが「おかとーさま」と呼ぶ冗談は、ネットミームにおける近親相姦ネタ（特に『俺の妹』や『パパなんだから』系）のパロディであり、アズーリアの即座の拒絶（「やめて」）はその定型反応を模倣している。
+  quote: '「おかとーさまとお呼びしても」
+
+    「やめて」
+
+    「えーっ」'
+  paragraph: p55-p61
+  confidence: strong
+  quotes:
+  - quote: '「おかとーさまとお呼びしても」
+
+      「やめて」
+
+      「えーっ」'
+    paragraph: p55-p61
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: structurally_matches
+  subject: '[[E_Mirunya_Rank_Explanation]]'
+  object: '[[ME_Tournament_Seeding_System]]'
+  claim: 予備候補の順位が直接対決によって入れ替わるという仕組みは、スポーツや格闘技におけるシード権やチャレンジャー制度（勝者によるタイトル獲得）の論理構造と一致する。
+  quote: 「そして、予備候補が予備候補を倒せばその順位は入れ替わります」
+  paragraph: p102
+  confidence: strong
+  quotes:
+  - quote: 「そして、予備候補が予備候補を倒せばその順位は入れ替わります」
+    paragraph: p102
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: alludes_to
+  subject: '[[E_Black_Lily_Memory_Wipe]]'
+  object: '[[ME_Freud_Repression_Trauma]]'
+  claim: 「コキューネーお姉様の脳髄洗いで綺麗さっぱり記憶操作された」という記述は、心理学的な防衛機制としての抑圧（Repression）や外傷的記憶の封じ込めを、魔法的な技術として可視化したものである。
+  quote: 「ま、コキューネーお姉様の脳髄洗いで綺麗さっぱり記憶操作されたんですから、覚えていないのも無理はないですよね。」
+  paragraph: p124
+  confidence: moderate
+  quotes:
+  - quote: 「ま、コキューネーお姉様の脳髄洗いで綺麗さっぱり記憶操作されたんですから、覚えていないのも無理はないですよね。」
+    paragraph: p124
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: inverts
+  subject: '[[E_Hero_Worship]]'
+  object: '[[ME_Media_Gender_Stereotype]]'
+  claim: ミルーニャが縮んだアズーリアを見て「汚い男とかうんざりする女とか、しがらみばっかり作る性別などに囚われない」と評するのは、従来の英雄叙事詩におけるジェンダー役割（男性＝行動主体、女性＝報酬/保護対象）を逆転・解体する言動である。
+  quote: 「その上、汚い男とかうんざりする女とか、しがらみばっかり作る性別などに囚われない――うん、ミルーニャやっぱり決めました」
+  paragraph: p50
+  confidence: moderate
+  quotes:
+  - quote: 「その上、汚い男とかうんざりする女とか、しがらみばっかり作る性別などに囚われない――うん、ミルーニャやっぱり決めました」
+    paragraph: p50
+    quote_verified: false
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: claim
+  predicate: foreshadows
+  subject: '[[E_Azuria_Color_Question]]'
+  object: '[[ME_Identity_Synthesis]]'
+  claim: 最終段落での「私は何色なんだろう」という問いは、アズーリアが単なる個体ではなく、多重的な属性（青＝空の民/霊長類/呪術）を統合した存在であることの予兆であり、後の自己定義の鍵となる。
+  quote: '私は何色なんだろう。
+
+    美しい黒。可憐な白。人には様々な色彩がある。翼を広げた時のように、それは正しく青なのだろうか。'
+  paragraph: p159-p160
+  confidence: weak
+  quotes:
+  - quote: '私は何色なんだろう。
+
+      美しい黒。可憐な白。人には様々な色彩がある。翼を広げた時のように、それは正しく青なのだろうか。'
+    paragraph: p159-p160
+    quote_verified: true
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Black_Lily_Identity_Reveal
+  note: アズーリアが「澄明のヘレゼクシュ」であったという過去の真実。これは記憶喪失の理由（脳髄洗い）と直結し、現在のアイデンティティ崩壊の引き金となる。
+  quotes:
+  - quote: 最も優れていたのは彩度第十六番、澄明のヘレゼクシュ。姉妹第二位の後ろ盾と文句なしの傑出した才覚。呪文の座の正規候補者、その最右翼。
+    paragraph: p133
+    quote_verified: true
+  expected_payoff: アズーリアが過去の自分（ヘレゼクシュ）との葛藤を経て、現在の「英雄」としての役割を再定義する場面での回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Mirunya_Three_Eyed_Sister
+  note: ミルーニャが言及した「あの三つ目」の存在。記憶を持つ可能性のある人物として名指しされているが、詳細は不明。
+  quotes:
+  - quote: 黒百合の子供たちの中であの頃の記憶があるのは私とヴァージリア、それにもしかしたらあの三つ目も――
+    paragraph: p124
+    quote_verified: true
+  expected_payoff: 物語後半での重要キャラクター（おそらく敵対者か協力者）としての登場。アズーリアの記憶回復の鍵を握る人物である可能性が高い。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Astrala_Space_Rules
+  note: 「アストラル空間で使役し、競い合いました」という記述から読み取れる、黒百合宮における選定システムのルール（彩度16体+明度2体）。これが現在の迷宮や世界構造とどうリンクするかが不明。
+  quotes:
+  - quote: 資質のある子供たちがそれらをアストラル空間で使役し、競い合いました。そして最も優れた一人を十九番目の完成体【万色】と定める
+    paragraph: p133
+    quote_verified: true
+  expected_payoff: 後の章での「彩石」や「アストラル空間」関連の謎解きイベント、あるいはハルベルトとの決闘時のルール説明として回収。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Azuria_Name_Etymology
+  note: 「アズーリア。その名の意味を、私はまだ知らない。」という直接的なナレーション。名前の由来（Azure=青？）が自己認識の核心に関わることを示唆。
+  quotes:
+  - quote: 'アズーリア。その名の意味を、私はまだ知らない。
+
+      知りたい。私は、どんな形をしている？
+
+      私は何色なんだろう。'
+    paragraph: p157-p159
+    quote_verified: true
+  expected_payoff: 物語終盤での名前由来の明かし（例：青＝空の民、あるいは特定の星/月との関連）と、それによる自己受容。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: mystery
+  name: MY_Halbert_Sibling_Rivalry
+  note: ハルベルトが「黒のヴァージリア」としてアズーリア（ヘレゼクシュ）と競っていた関係性。現在の師弟関係にどう影響するか。
+  quotes:
+  - quote: 勿論、最後まで競い合って負け越してたあの黒いのもそれは同じだったでしょうけどね
+    paragraph: p137
+    quote_verified: true
+  expected_payoff: ハルベルトとアズーリアの過去における因縁の詳細が明かされ、現在の信頼関係や決闘の動機付けとして機能する。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 記憶の喪失はアイデンティティの基盤を揺るがすが、他者からの承認（名前・称号）によって再構築されうる
+  weight: 0.8
+  quotes:
+  - quote: '自分の事がわからなくなっていく。これは一体、どんな刑罰なのだろう。
+
+      積み上げられた不安定な卵の上。落ちて壊れて中身を零す――。'
+    paragraph: p130-p131
+    quote_verified: true
+  - quote: ありがとう。貴方は本当に英雄でした。小さくて素敵な、ミルーニャの勇者様
+    paragraph: p28
+    quote_verified: true
+  note: アズーリアは記憶を失い自己が崩壊しかけるが、ミルーニャからの「英雄」という呼称や、「権利」を与えるという行為を通じて、社会的な存在として立ち返ろうとしている。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 身体の変容（縮小）は、精神的な成長・成熟のメタファーである
+  weight: 0.6
+  quotes:
+  - quote: その表情からは憑きものが落ちたように陰が消えている。幼げな表情が、少しだけ大人びている様な気がした。
+    paragraph: p6
+    quote_verified: true
+  - quote: 縮んでしまった身体で見上げると幼い少女の外見もとても大きく見える。
+    paragraph: p26
+    quote_verified: true
+  note: アズーリアが物理的に小さくなる一方で、ミルーニャの瞳（視点）では彼女が大きく見えるという対比は、力関係や精神的な成熟度の逆転を示唆している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 家族とは血縁ではなく、遺志と継承によって形成される擬制である
+  weight: 0.7
+  quotes:
+  - quote: だってアズーリア様は父の遺志と探索者証を受け継がれたんでしょう？　なら、ミルーニャの家族同然です！　ミルーニャのお家は、アズーリア様のお家ですぅ！
+    paragraph: p63
+    quote_verified: true
+  - quote: これは、代償行為なのだろうか。彼女の家庭は既に失われてしまっている。その欠落を塞ぐ役割を、私に期待しているのかも知れない。
+    paragraph: p69
+    quote_verified: true
+  note: ミルーニャが「父の遺志」を介してアズーリアを家族とみなすことは、伝統的な家制度（血縁）ではなく、物語的な継承関係（メタフィクショナルな家族）の成立を示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 運命は折り重なる資格（複数役割）によって英雄性が定義される
+  weight: 0.9
+  quotes:
+  - quote: 二つの資格――きっと、そうやって運命が幾つも折り重なるからこそ貴方たちは英雄足り得るんでしょう
+    paragraph: p141
+    quote_verified: true
+  - quote: 世界はこんなにも多様で雑多で不確かだ。
+    paragraph: p146
+    quote_verified: true
+  note: 単一の役割（探索者、使い魔など）ではなく、複数の矛盾した資格（正規候補の過去、予備候補の現在、師匠の弟子、ミルーニャの保護者）を同時に担うことの複雑さが「英雄」の本質であるという主張。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
+- kind: theme
+  theme: 自己認識は外部からの記述（色・名前）によって補完される
+  weight: 0.5
+  quotes:
+  - quote: '私はどんな顔をしているんだろう。
+
+      霊長類の顔――それを異質な生命である私が正確に捉えるのはひどく難しいけれど。今だけは、その自己認識がどうしようもなく欲しかった。'
+    paragraph: p155-p156
+    quote_verified: true
+  note: 内面的な記憶（失われた）だけでなく、外的な記述（色、名前、他者の視点）から自分を定義しようと試みる行為は、人間とは異なる存在（霊長類/呪術生命体）としての自己形成プロセスを示している。
+  proposed_by:
+    kind: agent
+    id: swift-1.5-iq3_xxs
+  review_status: unreviewed
