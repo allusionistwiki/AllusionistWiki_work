@@ -10,8 +10,8 @@ RAW = Path(r"C:\Users\d5dx\Downloads\Code\AllusionistWiki_raw\raw\novel")
 KDIR = RAW / "kakuyomu/16816927859268545348_幻想再帰のアリュージョニスト"
 SDIR = RAW / "syosetu/n9073ca_幻想再帰のアリュージョニスト"
 OUT = Path(r"C:\Users\d5dx\Downloads\Code\AllusionistLLMWiki2\wiki\references\edition-diff.md")
-L0 = WORK / "work/L0/runs/20261017T2011_f863"
-L1 = WORK / "work/L1/runs/20261018T0040_588c"
+L0 = WORK / "work/allusionist_v2/L0/runs/20261017T2011_f863"
+L1 = WORK / "work/allusionist_v2/L1/runs/20261018T0040_588c"
 
 def norm(t):
     t = t.replace("（空）", "").replace("⏎", "")

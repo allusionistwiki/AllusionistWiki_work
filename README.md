@@ -25,13 +25,16 @@ L0（原文）は `AllusionistWiki_raw`（private）、L7（人間訂正済み�
 
 ```
 work/
-├── L1/
-│   ├── runs/          # 追加専用・不変。1実行=1フォルダ=1コミット
-│   ├── archive/       # compaction で退役した旧 run（削除しない・監査用）
-│   └── latest.txt     # 現行 run ID
-├── L2/ … L6/          # 同構造
-└── index/runs-index.json  # run ID → path/status/derived_from（参照はパスでなく run ID）
+└── allusionist_v2/        # アリュージョニスト Wiki 2 専用の作業ツリー（1 Wiki = 1 サブフォルダ）
+    ├── L1/
+    │   ├── runs/          # 追加専用・不変。1実行=1フォルダ=1コミット
+    │   ├── archive/       # compaction で退役した旧 run（削除しない・監査用）
+    │   └── latest.txt     # 現行 run ID
+    ├── L2/ … L6/          # 同構造
+    └── index/runs-index.json  # run ID → path/status/derived_from（参照はパスでなく run ID）
 ```
+
+- 他 Wiki 用の層ツリーは `work/<wiki_id>/` の形で並列に新設する（例: YuragiWiki 用は `work/yuragi_v1/`）。既存の `work/allusionist_v2/` 配下は触らない。
 
 - 旧 run は書き換えない。訂正・再実行・フィードバックは必ず**新 run として追記**し `run.json.derived_from` で来歴を辿る。
 - run は既定**増分**（触れた話だけ）。全量はベースラインのみ。退役 run は `archive/` へ物理移動（compaction）。

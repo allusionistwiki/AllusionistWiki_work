@@ -1,13 +1,13 @@
 {
  "L1": {
   "20261012T0000_baseline": {
-   "path": "work/L1/runs/20261012T0000_baseline",
+   "path": "work/allusionist_v2/L1/runs/20261012T0000_baseline",
    "status": "active",
    "kind": "baseline",
    "derived_from": "AllusionistLLMWiki2_Work@054f7a2a"
   },
   "20261018T0040_588c": {
-   "path": "work/L1/runs/20261018T0040_588c",
+   "path": "work/allusionist_v2/L1/runs/20261018T0040_588c",
    "status": "active",
    "kind": "reanchor-pass1",
    "derived_from": "20261017T2011_f863",
@@ -18,25 +18,25 @@
    }
   },
   "20261018T0835_1f78": {
-   "path": "work/L1/runs/20261018T0835_1f78",
+   "path": "work/allusionist_v2/L1/runs/20261018T0835_1f78",
    "status": "active",
    "kind": "reanchor-pass2",
    "derived_from": "20261018T0040_588c"
   },
   "20261018T0908_e24f": {
-   "path": "work/L1/runs/20261018T0908_e24f",
+   "path": "work/allusionist_v2/L1/runs/20261018T0908_e24f",
    "status": "active",
    "kind": "reanchor-pass3",
    "derived_from": "20261018T0835_1f78"
   },
   "20261018T1013_9d0c": {
-   "path": "work/L1/runs/20261018T1013_9d0c",
+   "path": "work/allusionist_v2/L1/runs/20261018T1013_9d0c",
    "status": "active",
    "kind": "reanchor-pass4-global",
    "derived_from": "20261018T0908_e24f"
   },
   "20261019T0330_a3f7": {
-   "path": "work/L1/runs/20261019T0330_a3f7",
+   "path": "work/allusionist_v2/L1/runs/20261019T0330_a3f7",
    "status": "active",
    "kind": "kakuyomu-new-episodes",
    "derived_from": "20261017T2011_f863",
@@ -47,7 +47,7 @@
    }
   },
   "20261021T1727_9c2e": {
-   "path": "work/L1/runs/20261021T1727_9c2e",
+   "path": "work/allusionist_v2/L1/runs/20261021T1727_9c2e",
    "status": "active",
    "kind": "kakuyomu-full-regeneration",
    "derived_from": "20261017T2011_f863",
@@ -67,7 +67,7 @@
  "L6": {},
  "L0": {
   "20261017T2011_f863": {
-   "path": "work/L0/runs/20261017T2011_f863",
+   "path": "work/allusionist_v2/L0/runs/20261017T2011_f863",
    "status": "active",
    "kind": "quote-map",
    "derived_from": "20261012T0000_baseline"

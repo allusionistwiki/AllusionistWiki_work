@@ -13,16 +13,16 @@ Wiki 側（AllusionistWiki_obsidian / Quartz 公開系）で行った変更の�
 | L1 公開サイト元（markdown） | `AllusionistLLMWiki2_Obsidian`（変更なし・稼働中） | — |
 | L1 公開サイトビルド | `AllusionistWiki`（本家 Quartz）が担う | `AllusionistLLMWiki2`（Quartz・archive・書込み禁止） |
 
-- 旧 Work repo の最終状態（`054f7a2a`）は **L1 ベースライン run `20261012T0000_baseline`** として本 repo `work/L1/runs/` に取り込み済み。以後の産出物は**必ず本 repo へ**。
+- 旧 Work repo の最終状態（`054f7a2a`）は **L1 ベースライン run `20261012T0000_baseline`** として本 repo `work/allusionist_v2/L1/runs/` に取り込み済み。以後の産出物は**必ず本 repo へ**。
 
 ## 2. Work repo の運用則（守るべきもの）
 
-- **run 追加専用**: 産出物は `work/<層>/runs/<run_id>/` に新規フォルダで追記。`run_id = YYYYMMDDTHHMM_<hash4>`。旧 run の書き換え禁止。
+- **run 追加専用**: 産出物は `work/allusionist_v2/<層>/runs/<run_id>/` に新規フォルダで追記。`run_id = YYYYMMDDTHHMM_<hash4>`。旧 run の書き換え禁止。
 - run 内に `run.json`（実行メタ: 日時・入力 run ID/manifest 版・ツール版・パラメータ・`derived_from` 来歴）を必須同梱。
 - 産出物は**話単位ファイル**（単一巨大 JSON 禁止）。run は既定**増分**（触れた話だけ）。
-- 追記後に `work/<層>/latest.txt` と `work/index/runs-index.json`（run ID → path/status/derived_from）を更新。**相互参照はパスでなく run ID**。
+- 追記後に `work/allusionist_v2/<層>/latest.txt` と `work/allusionist_v2/index/runs-index.json`（run ID → path/status/derived_from）を更新。**相互参照はパスでなく run ID**。
 - コミット規約: `L1: run 20261013T1530_a1f3 (ch00271-280)`。
-- 退役 run は `work/<層>/archive/` へ物理移動（削除しない）。
+- 退役 run は `work/allusionist_v2/<層>/archive/` へ物理移動（削除しない）。
 - **原文（小説全文）を本 repo に持ち込まないこと**。引用は既存 facts 内の引用範囲まで（L0 は private repo `AllusionistWiki_raw`、参照は manifest ID + chNNNNN + ¶N）。
 
 ## 3. L1 公開サイトが `/AllusionistWiki/l1/` に統合された
@@ -34,7 +34,7 @@ Wiki 側（AllusionistWiki_obsidian / Quartz 公開系）で行った変更の�
 
 ## 4. L2（名前統合）の初 run 設計が確定している
 
-`work/L2/README.md` 参照。要点: `entities.json`（安定 ID 不変・aliases・kind・first_seen L0 アンカー・`l1_refs` 来歴）、統合根拠の**確度ラベル必須**（明言/蓋然性高/要検証）、初 run は baseline 入力で ch00001〜ch00272 の全量棚卸し、以後増分。
+`work/allusionist_v2/L2/README.md` 参照。要点: `entities.json`（安定 ID 不変・aliases・kind・first_seen L0 アンカー・`l1_refs` 来歴）、統合根拠の**確度ラベル必須**（明言/蓋然性高/要検証）、初 run は baseline 入力で ch00001〜ch00272 の全量棚卸し、以後増分。
 
 ## 5. 確認作業で見てほしい点（今回の検証で確認済みの基準値）
 

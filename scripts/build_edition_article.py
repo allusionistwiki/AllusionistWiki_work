@@ -13,8 +13,8 @@ KDIR = RAW / "kakuyomu/16816927859268545348_幻想再帰のアリュージョニ
 SDIR = RAW / "syosetu/n9073ca_幻想再帰のアリュージョニスト"
 VAULT = Path(r"C:\Users\d5dx\Downloads\Code\AllusionistLLMWiki2\wiki\references\edition-map.md")
 
-L0 = WORK / "work/L0/runs/20261017T2011_f863"
-L1 = WORK / "work/L1/runs/20261018T0040_588c"
+L0 = WORK / "work/allusionist_v2/L0/runs/20261017T2011_f863"
+L1 = WORK / "work/allusionist_v2/L1/runs/20261018T0040_588c"
 
 # --- カクヨム話メタ: 番号 → (章題, ep_id, url, 段落数) ---
 K = {}
@@ -150,7 +150,7 @@ for r in sorted(konly, key=lambda x: x["kakuyomu_ch"]):
 lines.append("")
 lines.append("## 参照")
 lines.append("")
-lines.append("- 生成: `AllusionistWiki_work/scripts/build_edition_article.py`（データ: `work/L0/runs/20261017T2011_f863/`、`work/L1/runs/20261018T0040_588c/`）")
+lines.append("- 生成: `AllusionistWiki_work/scripts/build_edition_article.py`（データ: `work/allusionist_v2/L0/runs/20261017T2011_f863/`、`work/allusionist_v2/L1/runs/20261018T0040_588c/`）")
 lines.append("- ¶ アンカー: カクヨム episode ページの段落 ID `#pN` と 1:1。なろう版 p 番号（baseline 旧来歴）とは巻内で非対応。")
 lines.append("- 削除台帳の理由分類: 付録=キャラ一覧・プロフィール・章構造メタ・作者注記（カクヨム正典は本文のみ）/ なろう専用幕間=カクヨムに同名作品なし / 幕間短縮=同名カクヨム話で削除された場面 / 改稿削除=カクヨム全巻全文検索で非存在確認。")
 lines.append("")

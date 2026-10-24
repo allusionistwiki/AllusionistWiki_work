@@ -8,7 +8,7 @@
   - 対応表は引用単位: 完全一致した引用は ¶ アンカー確定、不一致は再解析キュー行き。
   - 原文全文は持たない（引用は既存 facts 内の引用範囲まで → work repo 運用則に適合）。
 
-出力 (work/L0/runs/<run_id>/):
+出力 (work/allusionist_v2/L0/runs/<run_id>/):
   run.json
   episode-map.jsonl            なろう chNNNNN -> カクヨム ch[] (title 照合)
   quote-map/chNNNNN.jsonl      {s_para, quote_head, k:[ch,¶start,¶end]|null}
@@ -22,7 +22,7 @@ from pathlib import Path
 RAW = Path(r"C:/Users/d5dx/Downloads/Code/AllusionistWiki_raw/raw/novel")
 KAK = RAW / "kakuyomu/16816927859268545348_幻想再帰のアリュージョニスト"
 SYO = RAW / "syosetu/n9073ca_幻想再帰のアリュージョニスト"
-BASE = Path(r"C:/Users/d5dx/Downloads/Code/AllusionistWiki_work/work/L1/runs/20261012T0000_baseline")
+BASE = Path(r"C:/Users/d5dx/Downloads/Code/AllusionistWiki_work/work/allusionist_v2/L1/runs/20261012T0000_baseline")
 WORK = Path(r"C:/Users/d5dx/Downloads/Code/AllusionistWiki_work")
 
 def norm(s):
@@ -153,7 +153,7 @@ for d in ["facts", "events", "appearance_facts", "deferral_facts"]:
 now = datetime.now()
 h = hashlib.sha1((str(now) + str(len(facts))).encode()).hexdigest()[:4]
 run_id = now.strftime("%Y%m%dT%H%M_") + h
-run_dir = WORK / "work/L0/runs" / run_id
+run_dir = WORK / "work/allusionist_v2/L0/runs" / run_id
 (run_dir / "quote-map").mkdir(parents=True, exist_ok=True)
 
 stats = {"total": 0, "hit": 0, "miss": 0, "no_volume": 0}
@@ -222,10 +222,10 @@ run_json = {
               "chapters_needing_review": sum(1 for v in emap.values() if v["status"] == "needs_review")},
 }
 (run_dir / "run.json").write_text(json.dumps(run_json, ensure_ascii=False, indent=1), encoding="utf-8")
-(WORK / "work/L0/latest.txt").write_text(run_id + "\n", encoding="utf-8")
-ri_path = WORK / "work/index/runs-index.json"
+(WORK / "work/allusionist_v2/L0/latest.txt").write_text(run_id + "\n", encoding="utf-8")
+ri_path = WORK / "work/allusionist_v2/index/runs-index.json"
 ri = json.loads(ri_path.read_text(encoding="utf-8"))
-ri.setdefault("L0", {})[run_id] = {"path": f"work/L0/runs/{run_id}", "status": "active",
+ri.setdefault("L0", {})[run_id] = {"path": f"work/allusionist_v2/L0/runs/{run_id}", "status": "active",
                                    "kind": "quote-map", "derived_from": "20261012T0000_baseline"}
 ri_path.write_text(json.dumps(ri, ensure_ascii=False, indent=1), encoding="utf-8")
 print(json.dumps(run_json["stats"], ensure_ascii=False, indent=1))

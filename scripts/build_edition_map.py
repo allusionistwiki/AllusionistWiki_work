@@ -7,7 +7,7 @@
   - 本 run は「対応表」のみ（原文テキストは持たない → work repo 持ち込み禁止に抵触しない）。
   - 来歴: derived_from = L1 baseline run + raw 台帳 (AllusionistWiki_raw) 所在。
 
-出力 (work/L0/runs/<run_id>/):
+出力 (work/allusionist_v2/L0/runs/<run_id>/):
   run.json
   episode-map.jsonl      なろう chNNNNN -> カクヨム chNNNNN[] (title 照合, status auto|review)
   kakuyomu-only.jsonl    なろうに対応話なしのカクヨム話
@@ -195,7 +195,7 @@ def para_map(ch):
 now = datetime.now()
 h = hashlib.sha1((str(now) + str(len(kak)) + str(len(sy))).encode()).hexdigest()[:4]
 run_id = now.strftime("%Y%m%dT%H%M_") + h
-run_dir = WORK / "work/L0/runs" / run_id
+run_dir = WORK / "work/allusionist_v2/L0/runs" / run_id
 (run_dir / "paragraph-map").mkdir(parents=True, exist_ok=True)
 
 for e in emap:
@@ -232,12 +232,12 @@ run_json = {
               "needs_review": sum(1 for e in emap if e["status"] == "needs_review")},
 }
 (run_dir / "run.json").write_text(json.dumps(run_json, ensure_ascii=False, indent=1), encoding="utf-8")
-(WORK / "work/L0/latest.txt").write_text(run_id + "\n", encoding="utf-8")
+(WORK / "work/allusionist_v2/L0/latest.txt").write_text(run_id + "\n", encoding="utf-8")
 
 # runs-index update
-ri_path = WORK / "work/index/runs-index.json"
+ri_path = WORK / "work/allusionist_v2/index/runs-index.json"
 ri = json.loads(ri_path.read_text(encoding="utf-8"))
-ri.setdefault("L0", {})[run_id] = {"path": f"work/L0/runs/{run_id}", "status": "active",
+ri.setdefault("L0", {})[run_id] = {"path": f"work/allusionist_v2/L0/runs/{run_id}", "status": "active",
                                    "kind": "edition-map", "derived_from": "20261012T0000_baseline"}
 ri_path.write_text(json.dumps(ri, ensure_ascii=False, indent=1), encoding="utf-8")
 

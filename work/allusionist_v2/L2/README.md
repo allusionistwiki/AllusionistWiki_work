@@ -4,7 +4,7 @@ L1（機械抽出）の産出物から、**同一実体の名前のゆらぎを�
 
 ## 入力 / 出力
 
-- 入力: L1 run（`work/L1/runs/<id>/facts/` の人物・用語エンティティ、`_merged/` の統合履歴）
+- 入力: L1 run（`work/allusionist_v2/L1/runs/<id>/facts/` の人物・用語エンティティ、`_merged/` の統合履歴）
 - 出力（run 産出物）:
   - `entities.json` — 正規化エンティティ台帳（台帳は単一ファイル可、run 内で完結）
   - `aliases/chNNNNN.json` — 話単位：L1 名義 → 正規名 対応（来歴）
@@ -39,4 +39,4 @@ L1（機械抽出）の産出物から、**同一実体の名前のゆらぎを�
 
 ## 状態
 
-- [ ] 初 run 未実行（設計のみ）。実行は LLM パイプライン側で行い、産出物を `runs/<run_id>/` に収め、`work/index/runs-index.json` と `latest.txt` を更新する。
+- [ ] 初 run 未実行（設計のみ）。実行は LLM パイプライン側で行い、産出物を `runs/<run_id>/` に収め、`work/allusionist_v2/index/runs-index.json` と `latest.txt` を更新する。
