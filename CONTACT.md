@@ -34,7 +34,7 @@ Wiki 側（AllusionistWiki_obsidian / Quartz 公開系）で行った変更の�
 
 ## 4. L2（名前統合）の初 run 設計が確定している
 
-`work/allusionist_v2/L2/README.md` 参照。要点: `entities.json`（安定 ID 不変・aliases・kind・first_seen L0 アンカー・`l1_refs` 来歴）、統合根拠の**確度ラベル必須**（明言/蓋然性高/要検証）、初 run は baseline 入力で ch00001〜ch00272 の全量棚卸し、以後増分。
+`work/allusionist_v2/L2/README.md` 参照。要点: `entities.json`（安定 ID 不変・aliases・kind・first_seen L0 アンカー・`l1_refs` 来歴）、統合根拠の**確度ラベル必須**（明言/蓋然性高/要検証）。初 run は移行戦略（README 下記節・2026-10-24 確定）に従い L1 run 和集合（baseline + 5xxx 全話 861 話）の名義棚卸し、以後増分。
 
 ## 5. 確認作業で見てほしい点（今回の検証で確認済みの基準値）
 

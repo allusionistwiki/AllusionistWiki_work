@@ -35,8 +35,28 @@ L1（機械抽出）の産出物から、**同一実体の名前のゆらぎを�
 - 確度ラベルなしの統合は禁止（vault の「推測はラベル付き」鉄則と同一）。
 - 一人多名称（別名・あだ名・prefix 付き表記）は 1 entity + aliases。別人同名は別 id + `notes` に区別根拠。
 - 来歴: `l1_refs` で L1 fact → L0（chNNNNN + ¶N）まで辿れること。
-- 初 run は `20261012T0000_baseline` を入力に ch00001〜ch00272 の名義棚卸し（初回のみ全量）。以後は新話着時のみ増分 run。
+- 初 run は移行戦略（下記）に従い L1 run 和集合（baseline + 5xxx 全話）の名義棚卸し（初回のみ全量）。以後は新話着時のみ増分 run。
 
-## 状態
+## L1⇒L2 移行戦略（2026-10-24 検討・数値は全て実測）
 
-- [ ] 初 run 未実行（設計のみ）。実行は LLM パイプライン側で行い、産出物を `runs/<run_id>/` に収め、`work/allusionist_v2/index/runs-index.json` と `latest.txt` を更新する。
+### 現状計測
+- L1 稼働: baseline `20261012T0000_baseline`（ch0001〜ch0264・facts 20,070 件）+ カクヨム全話再生成 `20261021T1727_9c2e`（ch5001〜・facts 18,670 件、来歴は f863 経由で L0 ¶N に接続）。
+- 名義 surface: facts subject ユニーク **14,897**（両 run 和集合、共通 3,470）。entity_type 別最多は terminology 13,484 / character 11,998 / item 7,581 / organization 2,944（件数ベース）。
+- 表記正規化（NFKC+空白除去）で統合できるのは **24 件のみ** → 名義ゆらぎはエンコード問題ではなく実体同一性判定の問題。
+- 既存公開エンティティ: vault `wiki/entities/` に **5,969 ページ**（E_char 3,774・E_term 1,062・E_item 620・E_org 401・E_motif 74・E_phrase 32）。= 事実上の L2 断片が先に公開されている。
+- 断片実測（L2 の実作業対象）: 正規化表示名でグループ化すると 4,582 ページ（非容姿）→ 3,728 グループ、うち **610 グループが複数ページ（1,464 ページ）**。すべて同一名の kind 横断（例: ちびシューラ = char/item/org/term の 4 ページ、Spear = char/item/term）。facts subject と完全一致する既存公開名は 1,270 のみ → 残り ~13.6k 名義は台帳外の未整理 surface（多数は文・句レベルの非エンティティ）。
+
+### 方針
+1. **初 run = 和集合 861 話の全量棚卸し**（README 旧想定「初回 272 話→以後増分」を改定: 589 話が既に増殖済みのため、初回のみ和集合全量、以後増分）。`run.json.derived_from = ["20261021T1727_9c2e", "20261012T0000_baseline"]` で来歴を繋ぐ。
+2. **3 段方式（LLM 負荷の封じ込め）**:
+   - **Stage A（機械・LLM 無し）**: 既存公開 ID 5,969 を台帳の骨格としてシード（公開 ID・ページ・グラフリンクは不変の権威）。NFKC 正規化一致、facts subject ↔ 公開表示名の完全一致 1,270 件をシード紐付け。
+   - **Stage B（機械・候補生成）**: 同一 name 複数ページ 610 グループ、正規化 edit 距離 ≤2、 substring/接頭辞（様・氏・先生・敬称）、fact 内共起ペア → 裁定候補リスト（数百〜2 千組想定。14.9k 全ペア 2.2 億は LLM に出さない）。非エンティティフィルタ（長い述語文・引用断は rejected キュー）。
+   - **Stage C（LLM 裁定・Strata 直列）**: 候補ペアごとに根拠 quote を 2〜3 件添付し「同一実体 / 別人・別物 / 判定不能」+ 確度（明言/蓋然性高/要検証）のみ裁定。判定不能は review キュー（reanchor の収束パターン踏襲）。1〜2 千組 × 1 裁定 ≈ 1〜2 時間。
+3. **ID 則**: 既存公開 ID を canonical として採用・不変。統合は aliases 移動として記録（ページ削除・ID 再発行なし）。同一名の kind 横断は「同一実体・多面」が多数 → 1 entity 1 kind + `notes` に側面記述、確度ラベル付き（別人同名のみ別 id — 既存則の反転例として運用則に追記）。
+4. **産出物**: `entities.json`（台帳）+ `aliases/chNNNNN.json`（話単位来歴）+ `rejected.jsonl`（非エンティティ除外台帳）+ `run.json`。`latest.txt`・`runs-index.json` L2 更新。
+5. **公開連鎖**: 生成器 `build_l2_pages.py`（新規）→ vault `wiki/l2/`（index.md + 台帳一覧 1 ページ + 台帳データ。個別ページは必要時に台帳から生成）→ CI 配置 → 下層Wiki索引の L2 を「稼働中」へ。build_folder_indexes の LABELS 対象に追加必須。断片 610 グループの alias リダイレクト（L7/L1 側整理）は台帳確定後の第 2 ラウンド。
+6. **検証**: l1_refs サンプリング→ facts ファイル→ ¶N 到達確認 / 名義 surface カバレッジ統計 / 610 グループ処理率 / lint（ID enum）/ 公開ページ broken 0。
+
+### 状態
+- [x] 初 run 設計 + 移行戦略（本節、2026-10-24）
+- [ ] 初 run 未実行。実行は LLM パイプライン側（Stage A/B = work repo scripts、Stage C = Strata 直列）。産出物を `runs/<run_id>/` に収め、`work/allusionist_v2/index/runs-index.json` と `latest.txt` を更新する。
