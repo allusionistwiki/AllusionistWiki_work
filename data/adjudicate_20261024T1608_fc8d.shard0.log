@@ -10,3 +10,217 @@
 [16:52:30] start run=20261024T1608_fc8d queue=4585 done_before=14 todo=1524
 [16:52:30] batches=592
 [16:54:08] b=0/592 done=4 fail=0
+[17:07:44] call err b=1 a=1: Request timed out.
+[17:21:40] b=10/592 done=44 fail=0
+[17:37:49] b=20/592 done=81 fail=3
+[18:00:30] b=30/592 done=121 fail=3
+[18:15:18] b=40/592 done=157 fail=7
+[18:36:24] b=50/592 done=196 fail=7
+[18:49:17] b=60/592 done=222 fail=17
+[19:09:10] b=70/592 done=251 fail=20
+[19:27:18] b=80/592 done=285 fail=21
+[19:45:46] b=90/592 done=319 fail=24
+[20:05:30] b=100/592 done=357 fail=26
+[20:25:58] b=110/592 done=378 fail=28
+[20:41:53] b=120/592 done=388 fail=28
+[20:57:08] b=130/592 done=398 fail=31
+[21:04:19] b=132 PARSE_FAILED x3
+[21:17:47] b=140/592 done=410 fail=35
+[21:31:25] b=150/592 done=420 fail=35
+[21:47:59] b=160/592 done=431 fail=36
+[22:05:26] b=170/592 done=442 fail=37
+[22:23:49] b=180/592 done=452 fail=37
+[22:34:52] b=190/592 done=462 fail=37
+[22:53:38] b=200/592 done=472 fail=37
+[23:05:02] b=210/592 done=482 fail=37
+[23:22:24] b=220/592 done=495 fail=39
+[23:36:41] b=230/592 done=505 fail=39
+[23:49:36] b=240/592 done=515 fail=39
+[00:06:43] b=250/592 done=524 fail=40
+[00:20:36] b=260/592 done=534 fail=40
+[00:38:21] b=270/592 done=544 fail=40
+[00:54:39] b=280/592 done=554 fail=40
+[01:12:45] b=290/592 done=564 fail=40
+[01:26:01] b=300/592 done=574 fail=40
+[01:43:54] b=310/592 done=584 fail=40
+[02:13:02] b=320 PARSE_FAILED x4
+[02:35:05] b=330/592 done=623 fail=54
+[02:52:50] b=340/592 done=652 fail=57
+[03:02:43] b=346 PARSE_FAILED x4
+[03:10:00] b=350/592 done=673 fail=65
+[03:15:19] b=351 PARSE_FAILED x4
+[03:27:29] b=356 PARSE_FAILED x4
+[03:33:19] b=360/592 done=701 fail=77
+[03:37:28] b=361 PARSE_FAILED x4
+[03:53:40] b=367 PARSE_FAILED x4
+[03:57:48] b=370/592 done=726 fail=88
+[04:22:06] b=380/592 done=756 fail=88
+[04:37:51] b=386 PARSE_FAILED x3
+[04:42:58] b=390/592 done=784 fail=93
+[05:14:28] b=400/592 done=810 fail=98
+[05:34:13] b=410/592 done=832 fail=99
+[06:02:27] b=419 PARSE_FAILED x4
+[06:05:59] b=420/592 done=858 fail=104
+[06:27:23] b=429 PARSE_FAILED x4
+[06:33:05] b=430 PARSE_FAILED x4
+[06:48:10] b=440/592 done=905 fail=121
+[07:09:35] b=450/592 done=942 fail=123
+[07:22:01] b=460/592 done=969 fail=126
+[07:37:36] b=470/592 done=985 fail=129
+[07:51:39] b=480/592 done=1017 fail=131
+[08:13:23] b=490/592 done=1042 fail=137
+[08:31:29] b=500/592 done=1074 fail=140
+[08:49:39] b=510/592 done=1102 fail=141
+[09:07:25] b=520/592 done=1127 fail=145
+[09:12:09] b=522 PARSE_FAILED x3
+[09:17:27] b=523 PARSE_FAILED x4
+[09:32:29] b=530/592 done=1157 fail=153
+[09:50:14] b=540/592 done=1175 fail=156
+[10:06:48] b=550/592 done=1206 fail=162
+[10:23:51] b=560/592 done=1238 fail=167
+[10:31:40] b=561 PARSE_FAILED x4
+[10:50:13] b=570/592 done=1269 fail=175
+[10:56:59] b=572 PARSE_FAILED x4
+[11:13:07] b=580/592 done=1305 fail=179
+[11:33:53] b=590/592 done=1338 fail=184
+[11:34:52] finished done=1340 fail=184 remaining_todo=184
+[11:34:52] === L2 ADJUDICATE DONE 20261024T1608_fc8d ===
+[11:49:24] start run=20261024T1608_fc8d queue=4585 done_before=1354 todo=1077
+[11:49:24] batches=411
+[11:54:41] b=0/411 done=4 fail=0
+[12:14:38] b=6 PARSE_FAILED x4
+[12:24:39] call err b=7 a=0: Request timed out.
+[12:30:00] b=10/411 done=40 fail=4
+[12:52:22] b=20/411 done=80 fail=4
+[13:11:55] b=30/411 done=114 fail=10
+[13:30:57] b=40/411 done=141 fail=14
+[13:46:57] b=50/411 done=169 fail=20
+[14:02:36] b=60/411 done=200 fail=22
+[14:16:09] b=70/411 done=228 fail=28
+[14:33:55] b=80/411 done=254 fail=29
+[14:46:04] b=90/411 done=267 fail=29
+[15:02:17] b=100/411 done=281 fail=29
+[15:17:14] b=110/411 done=292 fail=31
+[15:33:00] b=120/411 done=302 fail=32
+[15:49:25] b=130/411 done=312 fail=32
+[16:09:10] b=140/411 done=322 fail=32
+[16:22:18] b=150/411 done=334 fail=34
+[16:39:27] b=160/411 done=344 fail=34
+[16:51:04] start run=20261024T1608_fc8d queue=4585 done_before=1704 todo=961
+[16:51:05] batches=353
+[16:59:23] b=0/353 done=4 fail=0
+[17:48:17] call err b=10 a=0: Request timed out.
+[17:56:45] b=10/353 done=44 fail=0
+[18:06:46] call err b=11 a=0: Request timed out.
+[18:58:51] b=20/353 done=83 fail=1
+[19:25:59] call err b=25 a=0: Request timed out.
+[20:06:09] call err b=30 a=0: Request timed out.
+[20:14:24] b=30/353 done=120 fail=1
+[21:03:21] b=40/353 done=158 fail=1
+[21:35:38] call err b=45 a=0: Request timed out.
+[22:09:43] b=50/353 done=195 fail=1
+[22:24:56] call err b=52 a=0: Request timed out.
+[23:16:59] call err b=58 a=0: Request timed out.
+[23:39:40] b=60/353 done=207 fail=1
+[00:20:54] start run=20261024T1608_fc8d queue=4585 done_before=1919 todo=889
+[00:20:54] batches=331
+[00:21:08] b=0/331 done=4 fail=0
+[00:27:42] b=10/331 done=44 fail=0
+[00:32:10] b=20/331 done=83 fail=0
+[00:36:54] b=30/331 done=120 fail=0
+[00:40:26] b=40/331 done=141 fail=0
+[00:47:04] b=50/331 done=154 fail=0
+[00:51:22] b=60/331 done=165 fail=0
+[00:54:54] b=70/331 done=175 fail=0
+[00:58:40] b=80/331 done=189 fail=0
+[01:01:40] b=90/331 done=199 fail=0
+[01:06:33] b=100/331 done=209 fail=0
+[01:13:04] b=110/331 done=219 fail=0
+[01:17:04] b=120/331 done=229 fail=0
+[01:20:29] b=130/331 done=239 fail=0
+[01:24:55] b=140/331 done=259 fail=0
+[01:29:05] b=150/331 done=293 fail=0
+[01:34:43] b=160/331 done=325 fail=0
+[01:40:14] b=170/331 done=363 fail=0
+[01:46:29] b=180/331 done=396 fail=1
+[01:50:07] b=190/331 done=430 fail=1
+[01:56:47] b=200/331 done=456 fail=1
+[02:00:42] b=210/331 done=484 fail=1
+[02:04:58] b=220/331 done=520 fail=2
+[02:10:13] b=230/331 done=559 fail=2
+[02:15:21] b=240/331 done=589 fail=2
+[02:20:43] b=250/331 done=618 fail=2
+[02:25:54] b=260/331 done=653 fail=2
+[02:32:12] b=270/331 done=685 fail=2
+[02:36:53] b=280/331 done=715 fail=2
+[02:40:46] b=290/331 done=745 fail=2
+[02:45:37] b=300/331 done=775 fail=2
+[02:51:15] b=310/331 done=812 fail=2
+[02:55:29] b=320/331 done=852 fail=2
+[03:00:29] b=330/331 done=887 fail=2
+[03:00:29] finished done=887 fail=2 remaining_todo=2
+[03:00:29] === L2 ADJUDICATE DONE 20261024T1608_fc8d ===
+[03:05:04] start run=20261024T1608_fc8d queue=4585 done_before=2806 todo=593
+[03:05:05] batches=217
+[03:05:18] start run=20261024T1608_fc8d queue=4585 done_before=2806 todo=593
+[03:05:18] batches=217
+[03:05:21] b=0/217 done=4 fail=0
+[03:06:45] b=0/217 done=4 fail=0
+[03:09:20] start run=20261024T1608_fc8d queue=4585 done_before=2830 todo=585
+[03:09:20] batches=215
+[03:09:55] b=0/215 done=4 fail=0
+[03:13:22] start run=20261024T1608_fc8d queue=4585 done_before=2858 todo=576
+[03:13:22] batches=216
+[03:14:57] b=10/215 done=43 fail=0
+[03:15:50] b=0/216 done=4 fail=0
+[03:19:19] b=10/217 done=44 fail=0
+[03:24:58] call err b=11 a=0: Request timed out.
+[03:26:33] b=10/217 done=44 fail=0
+[03:27:21] b=10/216 done=40 fail=0
+[03:37:51] b=20/216 done=72 fail=0
+[03:39:09] b=20/215 done=76 fail=0
+[03:41:40] call err b=19 a=0: Request timed out.
+[03:45:15] b=20/217 done=76 fail=0
+[03:50:57] b=20/217 done=76 fail=0
+[03:55:55] b=30/215 done=92 fail=0
+[03:58:18] b=30/216 done=87 fail=0
+[04:11:42] b=30/217 done=97 fail=0
+[04:15:05] b=40/215 done=103 fail=0
+[04:15:47] b=30/217 done=97 fail=0
+[04:20:50] b=40/216 done=97 fail=0
+[04:21:43] call err b=31 a=0: Request timed out.
+[04:25:24] b=50/215 done=116 fail=0
+[04:32:35] b=40/217 done=109 fail=0
+[04:36:11] b=50/216 done=109 fail=0
+[04:38:01] b=40/217 done=109 fail=0
+[04:40:42] b=60/215 done=126 fail=0
+[04:45:45] b=50/217 done=121 fail=0
+[04:58:14] b=60/216 done=119 fail=0
+[05:02:27] b=70/215 done=136 fail=0
+[05:06:04] b=50/217 done=121 fail=0
+[05:06:49] b=60/217 done=132 fail=0
+[05:15:30] b=70/216 done=129 fail=0
+[05:21:56] call err b=54 a=0: Request timed out.
+[05:23:19] b=80/215 done=146 fail=0
+[05:29:42] b=70/217 done=142 fail=0
+[05:32:26] b=80/216 done=139 fail=0
+[05:35:13] b=60/217 done=132 fail=0
+[05:36:02] b=90/215 done=158 fail=0
+[05:43:33] b=80/217 done=152 fail=0
+[05:43:58] b=90/216 done=156 fail=0
+[05:49:49] b=100/215 done=192 fail=0
+[05:58:14] b=100/216 done=188 fail=0
+[05:59:01] b=90/217 done=162 fail=0
+[06:07:22] b=70/217 done=142 fail=0
+[06:08:05] call err b=104 a=0: Request timed out.
+[06:08:15] call err b=101 a=0: Request timed out.
+[06:11:18] b=100/217 done=193 fail=0
+[06:26:41] call err b=78 a=0: Request timed out.
+[06:30:00] b=80/217 done=152 fail=0
+[06:31:39] b=110/217 done=225 fail=0
+[06:36:28] b=110/216 done=227 fail=1
+[06:37:38] call err b=110 a=0: Request timed out.
+[06:40:01] call err b=81 a=0: Request timed out.
+[06:45:00] call err b=112 a=0: Request timed out.
+[06:45:40] b=110/215 done=224 fail=0
+[07:02:59] call err b=89 a=0: Request timed out.

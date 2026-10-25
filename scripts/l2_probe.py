@@ -13,7 +13,8 @@ prompt = INSTR + json.dumps(batch, ensure_ascii=False)
 print("prompt_chars=", len(prompt))
 c = OpenAI(base_url="http://127.0.0.1:8080/v1", api_key="sk-l2", timeout=600, max_retries=0)
 t0 = time.time()
-r = c.chat.completions.create(model="swift-1.5-iq3_xxs", temperature=1.0, max_tokens=1500,
+r = c.chat.completions.create(model="swift-1.5-iq3_xxs", temperature=1.0, max_tokens=1400,
+                             extra_body={"chat_template_kwargs": {"thinking": False, "enable_thinking": False}},
                              messages=[{"role": "user", "content": prompt}])
 el = time.time() - t0
 txt = r.choices[0].message.content or ""

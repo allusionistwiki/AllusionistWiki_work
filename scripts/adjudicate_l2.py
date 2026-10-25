@@ -21,7 +21,7 @@ BASE_URL = "http://127.0.0.1:8080/v1"
 API_KEY = "sk-l2l2l2l2"
 MODEL = "swift-1.5-iq3_xxs"
 TEMP = 1.0            # Qwen 公式推奨（skill 準拠）
-MAX_TOKENS = 2400     # probe 実測: 2grp=613tok; 4grp≈1300tok + ゆとり
+MAX_TOKENS = 1400     # Strata は thinking に max_tokens-600 を確保する → 大きくすると思考が暴走し 1call 3〜10分。思考停止指定＋回答実用量で運用
 BATCH_CHARS = 4000    # payload JSON 字数の上限（probe: 2grp payload 7.4k→1grp 相当の大型は独立）
 CALL_SLEEP = 1.2      # throttle（プロセス内）
 
@@ -136,6 +136,8 @@ def main():
                 time.sleep(CALL_SLEEP)
                 r = client.chat.completions.create(
                     model=MODEL, temperature=TEMP, max_tokens=MAX_TOKENS,
+                    extra_body={"chat_template_kwargs":
+                                {"thinking": False, "enable_thinking": False}},
                     messages=[{"role": "user", "content": prompt}])
                 got = parse_json_lenient(r.choices[0].message.content or "")
                 if got and isinstance(got.get("results"), list) and got["results"]:

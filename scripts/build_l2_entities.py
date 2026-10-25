@@ -1,249 +1,242 @@
-"""S4 段: 裁定確定 clusters → 台帳射影（entities.json）+ 話単位来歴（aliases/）+ rejected 台帳。
+"""S4 段: 裁定済み相関グループ → L2 正規化エンティティ台帳を生成。
 
 Usage: python scripts/build_l2_entities.py <run_id>
-Reads  runs/<id>/clusters_draft.json, adjudications*.jsonl, rejected-candidates.jsonl
-Writes runs/<id>/entities.json, runs/<id>/aliases/chNNNN.json, runs/<id>/relations.jsonl
+Input : runs/<id>/clusters_draft.json（表記ゆれ自動群）, adjudication-queue.jsonl,
+        adjudications*.jsonl（裁定）+ L1 facts（来歴・kind 集計）
+Output: runs/<id>/entities.json, aliases/chNNNN.json（話単位来歴）, relations.jsonl
+検証: kind 全付与 / first_seen ¶N 到達 / ID 衝突 0 / 未裁定 0 をサマリ出力。
 """
 import json
+import re
 import sys
 import collections
-import re
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from l2_common import (L2_RUNS, KIND_PREFIX, load_facts, norm_key, parse_paren,
-                      ep_sort_key)
+from l2_common import (L2_RUNS, L1_INPUT_RUNS, norm_key, load_seed_pages,
+                      load_facts, KIND_PREFIX, ep_sort_key)
 
-CONF_RANK = {"明言": 3, "蓋然性高": 2, "要検証": 1}
+RUN = sys.argv[1]
+OUT = L2_RUNS / RUN
+
+
+def jl(p):
+    return [json.loads(l) for l in p.read_text(encoding="utf-8").splitlines() if l.strip()]
+
+
+def para_num(p):
+    m = re.search(r"(\d+)", str(p or ""))
+    return int(m.group(1)) if m else 0
+
+
+class DSU:
+    def __init__(self):
+        self.p = {}
+
+    def find(self, x):
+        self.p.setdefault(x, x)
+        while self.p[x] != x:
+            self.p[x] = self.p[self.p[x]]
+            x = self.p[x]
+        return x
+
+    def union(self, a, b):
+        ra, rb = self.find(a), self.find(b)
+        if ra != rb:
+            self.p[rb] = ra
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("usage: build_l2_entities.py <run_id>")
-        sys.exit(2)
-    run_id = sys.argv[1]
-    out = L2_RUNS / run_id
-
-    draft = json.loads((out / "clusters_draft.json").read_text(encoding="utf-8"))
-
-    # ---- 裁定読み込み -------------------------------------------------------
-    adj = {}  # (group_root, norm) -> decisions list
-    group_decisions = collections.defaultdict(list)
-    for p in out.glob("adjudications*.jsonl"):
-        for line in p.read_text(encoding="utf-8").splitlines():
-            try:
-                r = json.loads(line)
-            except json.JSONDecodeError:
-                continue
-            group_decisions[r["id"]].extend(r.get("decisions", []))
-
-    # グループ構造（members: norm -> info）を group root 単位で再構成
-    groups = {}
-    for d in draft["groups"]:
-        mem = {}
-        for m in d["members"]:
-            mem[m["norm"]] = m
-        groups[d["group"]] = {"members": mem, "kind_mechanical": d.get("kind_mechanical")}
-
-    # norm -> group root 対応（裁定 id は root を含む形で作られている）
-    norm2root = {}
-    for root, g in groups.items():
-        for nk in g["members"]:
-            norm2root[nk] = root
-
-    # ---- 台帳ノード（union-find: 表記ゆれ auto + alias 裁定） ---------------
-    parent = {nk: nk for nk in norm2root}
-    def find(x):
-        while parent[x] != x:
-            parent[x] = parent[parent[x]]
-            x = parent[x]
-        return x
-    def union(a, b):
-        ra, rb = find(a), find(b)
-        if ra != rb:
-            parent[rb] = ra
-
-    # auto（表記ゆれ）マージは draft のグループ単位で実施
-    for root, g in groups.items():
-        first = next(iter(g["members"]))
-        for nk in g["members"]:
-            union(first, nk)
-
-    merge_conf = collections.defaultdict(lambda: "明言")  # 根拠の最大確度
-    notes = collections.defaultdict(list)
-    adjudicated = set()
-    relations = []
-
-    def norm_of_canonical(c, root):
-        if c in norm2root:
-            return c
-        if c:
-            # 公開 ID 指定 → seed の norm
-            for nk, m in groups.get(root, {}).get("members", {}).items():
-                for s in m["seed_ids"]:
-                    if s["id"] == c:
-                        return nk
-        return None
-
-    for gid, decs in group_decisions.items():
-        for dec in decs:
-            nk = dec.get("norm")
-            if nk not in norm2root:
-                continue
-            adjudicated.add(nk)
-            v = dec.get("verdict")
-            conf = dec.get("confidence") or "要検証"
-            reason = dec.get("reason") or ""
-            tgt = norm_of_canonical(dec.get("canonical"), gid)
-            notes[nk].append("%s:%s" % (v, reason[:60])[:80])
-            if v == "alias" and tgt:
-                union(nk, tgt)
-                r = merge_conf[find(nk)]
-                if CONF_RANK.get(conf, 1) > CONF_RANK.get(r, 1):
-                    pass
-                # 統合確度は最小側（弱い根拠に支配される）
-                if CONF_RANK.get(conf, 1) < CONF_RANK.get(merge_conf[find(nk)], 3):
-                    merge_conf[find(nk)] = conf
-            elif v == "related":
-                relations.append({"from": nk, "to": tgt, "edge": "related",
-                                  "confidence": conf, "reason": reason[:80]})
-
-    clusters = collections.defaultdict(list)
-    for nk in norm2root:
-        clusters[find(nk)].append(nk)
-
-    # ---- facts から surface→min anchor / refs（1 パス） ---------------------
-    # surface(raw) -> norm（括弧除去後）対応は clusters_draft にある
-    surf2norm = {}
-    seed_of_norm = {}
-    for root, g in groups.items():
-        for nk, m in g["members"].items():
-            for s in m["surfaces"]:
-                surf2norm[s["surface"]] = nk
-            seed_of_norm[nk] = m["seed_ids"]
-
-    anchors = collections.defaultdict(lambda: {"ep": None, "para": None})
-    refs = collections.defaultdict(list)
-    ep_maps = collections.defaultdict(dict)  # episode -> surface -> (will resolve to id later)
-    for d in load_facts():
-        s = (d.get("subject") or "").strip()
-        nk = surf2norm.get(s)
-        if not nk:
-            main, paren = parse_paren(s)
-            nk = surf2norm.get(main)
-        if not nk:
+    # ---- facts 集計: norm → surfaces/kind票/アンカー/l1_refs ---------------
+    surf = collections.defaultdict(lambda: {
+        "surfaces": collections.Counter(), "kind": collections.Counter(),
+        "anchors": None, "refs": []})
+    ep_surface = collections.defaultdict(set)
+    for d in load_facts(L1_INPUT_RUNS):
+        subj = d.get("subject")
+        s = ((subj.get("surface") if isinstance(subj, dict) else subj) or "").strip()
+        if not s:
             continue
-        ep, para = d.get("episode", ""), d.get("paragraph", "")
-        a = anchors[nk]
-        if a["ep"] is None or (ep_sort_key(ep) < ep_sort_key(a["ep"])):
-            a["ep"], a["para"] = ep, para
-        if len(refs[nk]) < 3:
-            refs[nk].append("%s:facts/%s#%s" % (d.get("run"), ep, d.get("fact_id")))
-        ep_maps[ep][s] = nk
+        nk = norm_key(s)
+        v = surf[nk]
+        v["surfaces"][s] += 1
+        et = d.get("entity_type")
+        if et:
+            v["kind"][et] += 1
+        ep = d.get("episode")
+        pn = para_num(d.get("paragraph"))
+        k = (ep_sort_key(ep), pn)
+        if ep and (v["anchors"] is None or k < v["anchors"][0]):
+            v["anchors"] = (k, ep, pn)
+        if len(v["refs"]) < 3:
+            v["refs"].append({"run": d.get("run"), "ep": ep,
+                              "fact_id": d.get("fact_id")})
+        ep_surface[ep].add(s)
+    ep_surface.pop(None, None)
 
-    # ---- entity 生成 --------------------------------------------------------
+    # ---- DSU: 自動群 → 裁定 alias ------------------------------------------
+    dsu = DSU()
+    draft = json.loads((OUT / "clusters_draft.json").read_text(encoding="utf-8"))
+    for g in draft["groups"]:
+        ms = [m["norm"] for m in g["members"]]
+        for m in ms[1:]:
+            dsu.union(ms[0], m)
+
+    queue = {r["id"]: r for r in jl(OUT / "adjudication-queue.jsonl")}
+    decisions_raw = []
+    for p in sorted(OUT.glob("adjudications*.jsonl")):
+        decisions_raw += jl(p)
+    d_by_id = {}
+    for d in decisions_raw:
+        d_by_id[d["id"]] = d          # 複数ラウンドでは最終ラウンドを採用
+    decisions_all = list(d_by_id.values())
+    adjudicated_kind = {}
+    rel_rows = []
+    rel_seen = set()
+    for d in decisions_all:
+        row = queue.get(d["id"])
+        bucket = collections.defaultdict(list)
+        for m in d.get("decisions", []):
+            nk = m.get("norm")
+            if m.get("kind"):
+                adjudicated_kind.setdefault(nk, collections.Counter())[m["kind"]] += 5
+            if m.get("verdict") == "alias":
+                canon = m.get("canonical")
+                bucket[norm_key(canon) if canon else nk].append(nk)
+        for _c, ns in bucket.items():
+            ns = list(dict.fromkeys(ns))
+            for n in ns[1:]:
+                dsu.union(ns[0], n)
+        if row:
+            vt = {m["norm"]: m.get("verdict") for m in d.get("decisions", [])
+                  if m.get("norm")}
+            ms = [m["norm"] for m in row.get("members", [])]
+            etype = (row.get("edge_types") or ["relation"])[0]
+            for i, mi in enumerate(ms):
+                if vt.get(mi) == "related":
+                    for j, mj in enumerate(ms):
+                        if i != j:
+                            rel_key = (etype, mi, mj)
+                            if rel_key in rel_seen:
+                                continue
+                            rel_seen.add(rel_key)
+                            rel_rows.append({"type": etype, "from": mi, "to": mj,
+                                             "gid": d["id"], "run": RUN})
+    missing = len(set(queue) - {d["id"] for d in decisions_all})
+
+    # ---- 合成 → entities ----------------------------------------------------
+    seeds = {}
+    for sd in load_seed_pages().values():
+        seeds.setdefault(sd["norm"], []).append(sd)
+
+    comp = collections.defaultdict(list)
+    for nk in surf:
+        comp[dsu.find(nk)].append(nk)
+
+    id_used = set()
     entities = []
-    norm2entity = {}
-    for root, members in clusters.items():
-        # canonical 選択: 公開 ID 優先 → 最多 surface
-        seeds = []
+    for root, members in comp.items():
+        kind_votes = collections.Counter()
         for nk in members:
-            seeds += seed_of_norm.get(nk, [])
-        votes = collections.Counter()
+            for k, c in surf[nk]["kind"].items():
+                kind_votes[k] += c
+            kind_votes.update(adjudicated_kind.get(nk, {}))
+        seeds_all = []
         for nk in members:
-            for sd in seed_of_norm.get(nk, []):
-                votes[sd["kind"]] += 3
-            # facts 票（kind_votes は per-norm のため再集計は重い → 裁定 kind を優先）
-        kind = groups[0]["kind_mechanical"]  # placeholder
-        # group 単位 kind_mechanical を集める
-        kind_votes_all = collections.Counter()
-        kmech = None
+            seeds_all += seeds.get(nk, [])
+        for sd in seeds_all:
+            kind_votes[sd["kind"]] += 3
+        kind = kind_votes.most_common(1)[0][0] if kind_votes else "term"
+        kind_conf = "裁定済" if any(nk in adjudicated_kind for nk in members) else "機械"
+
+        all_s = collections.Counter()
         for nk in members:
-            g = groups[norm2root[nk]]
-            kind_votes_all.update(g["kind_mechanical"] and {} or {})
-            # kind_votes は draft 側に集計済み → ここでは使わない: 裁定 kind を優先
-        kinds_dec = [dec.get("kind") for gid, ds in group_decisions.items()
-                     for dec in ds if dec.get("norm") in members and dec.get("kind")]
-        kind_counts = collections.Counter(kinds_dec)
-        kind = kind_counts.most_common(1)[0][0] if kind_counts else (
-            seeds[0]["kind"] if seeds else "term")
-        if seeds:
-            eid = seeds[0]["id"]
-            canonical = seeds[0]["display"]
+            all_s.update(surf[nk]["surfaces"])
+        anchors = [surf[nk]["anchors"] for nk in members if surf[nk]["anchors"]]
+        anchors.sort(key=lambda a: a[0])
+        refs = []
+        for nk in members:
+            refs += surf[nk]["refs"][:1]
+        confs = []
+        for d in decisions_all:
+            for m in d.get("decisions", []):
+                if m.get("norm") in members:
+                    confs.append(m.get("confidence"))
+        merge_ev = ("明言" if "明言" in confs else
+                    "要検証" if "要検証" in confs else "蓋然性高")
+
+        if seeds_all:
+            primary = min(seeds_all, key=lambda s: s["id"])
+            eid = primary["id"]
+            canonical = primary["display"]
         else:
-            best = None
-            for nk in members:
-                g = groups[norm2root[nk]]
-                for s in g["members"][0]["surfaces"] if False else []:
-                    pass
-            # 最多 surface を代表に
-            cand = []
-            for nk in members:
-                for s in groups[norm2root[nk]]["members"]:
-                    pass
-            surf_counts = collections.Counter()
-            for nk in members:
-                for m in groups[norm2root[nk]]["members"]:
-                    pass
-            for nk in members:
-                mem = groups[norm2root[nk]]["members"]
-                for mm in mem:
-                    for s in mm["surfaces"]:
-                        surf_counts[s["surface"]] += s["count"]
-            if not surf_counts:
+            if not all_s:
                 continue
-            canonical = surf_counts.most_common(1)[0][0]
-            slug = re.sub(r"[ /\\：:・「」『』（）()]", "_", canonical)[:40]
-            kp = KIND_PREFIX.get(kind, "E_term")
-            eid = "%s_%s" % (kp, slug)
-        aliases = sorted({s["surface"] for nk in members
-                          for m in [groups[norm2root[nk]]["members"]]
-                          for s in [mm for mm in m]
-                          for s in s["surfaces"]}, key=len, reverse=True)
-        # aliases 収集（正確に）
-        aliases = set()
-        for nk in members:
-            for mm in groups[norm2root[nk]]["members"]:
-                for s in mm["surfaces"]:
-                    aliases.add(s["surface"])
-        anchor = anchors.get(root) or anchors.get(members[0], {"ep": None, "para": None})
-        kconf = "蓋然性高" if kinds_dec else "要検証"
-        notes_all = sorted({n for nk in members for n in notes.get(nk, [])})[:6]
-        ent = {"id": eid, "canonical": canonical,
-               "aliases": sorted(aliases),
-               "kind": kind,
-               "first_seen": {"ch": anchor.get("ep"), "para": anchor.get("para")},
-               "l1_refs": refs.get(members[0], [])[:3],
-               "merge_evidence": merge_conf.get(root, "蓋然性高"),
-               "kind_confidence": kconf,
-               "notes": notes_all}
-        entities.append(ent)
-        for nk in members:
-            norm2entity[nk] = eid
+            canonical = max(all_s, key=lambda s: (all_s[s], len(s)))
+            slug = re.sub(r"[ /\\：:・「」『』（）()\[\]<>|,，.。]", "_", canonical)[:40]
+            eid = "%s_%s" % (KIND_PREFIX.get(kind, "E_term"), slug)
+        while eid in id_used:
+            eid += "x"
+        id_used.add(eid)
+        entities.append({
+            "id": eid,
+            "canonical": canonical,
+            "aliases": sorted(all_s, key=lambda a: (-all_s[a], a)),
+            "kind": kind,
+            "kind_confidence": kind_conf,
+            "merge_evidence": merge_ev,
+            "first_seen": {"ch": anchors[0][1] if anchors else None,
+                           "para": anchors[0][2] if anchors else None},
+            "l1_refs": refs[:3],
+            "seed_ids": sorted({s["id"] for s in seeds_all}),
+            "fact_total": sum(all_s.values()),
+        })
+    norm2ent = {}
+    for e in entities:
+        for a in e["aliases"]:
+            norm2ent.setdefault(norm_key(a), e["id"])
 
-    entities.sort(key=lambda e: -len(e["aliases"]))
-    (out / "entities.json").write_text(json.dumps(
-        {"schema": "l2-entities/1", "run": run_id, "count": len(entities),
+    entities.sort(key=lambda e: (-(len(e["aliases"])), -e["fact_total"], e["id"]))
+    (OUT / "entities.json").write_text(json.dumps(
+        {"schema": "l2-entities/1", "run": RUN, "count": len(entities),
          "entities": entities}, ensure_ascii=False, indent=1), encoding="utf-8")
-    (out / "relations.jsonl").write_text(
-        "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in relations), encoding="utf-8")
 
-    # ---- 話単位来歴 aliases/chNNNN.json ------------------------------------
-    adir = out / "aliases"
+    # ---- 話単位 aliases/chNNNN.json ----------------------------------------
+    adir = OUT / "aliases"
     adir.mkdir(exist_ok=True)
-    for ep, smap in ep_maps.items():
-        m = {}
-        for s, nk in smap.items():
-            eid = norm2entity.get(nk)
+    total = 0
+    eps = 0
+    for ep, sset in sorted(ep_surface.items()):
+        mp = {}
+        for s in sorted(sset):
+            eid = norm2ent.get(norm_key(s))
             if eid:
-                m[s] = eid
-        (adir / ("%s.json" % ep)).write_text(
-            json.dumps(m, ensure_ascii=False, indent=0), encoding="utf-8")
+                mp[s] = eid
+        if not mp:
+            continue
+        (adir / ("ch%s.json" % ep)).write_text(json.dumps(
+            {"schema": "l2-alias/1", "run": RUN, "ep": ep, "map": mp},
+            ensure_ascii=False, indent=1), encoding="utf-8")
+        total += len(mp)
+        eps += 1
 
-    n_ad = len(adjudicated)
-    print("[done] entities=%d relations=%d adjudicated_norms=%d episodes=%d"
-          % (len(entities), len(relations), n_ad, len(ep_maps)))
-    print("=== BUILD L2 ENTITIES DONE ===")
+    (OUT / "relations.jsonl").write_text(
+        "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rel_rows),
+        encoding="utf-8")
+
+    # ---- 検証サマリ ----------------------------------------------------------
+    kinds = collections.Counter(e["kind"] for e in entities)
+    evs = collections.Counter(e["merge_evidence"] for e in entities)
+    kc = collections.Counter(e["kind_confidence"] for e in entities)
+    multi = sum(1 for e in entities if len(e["aliases"]) > 1)
+    no_anchor = sum(1 for e in entities if not e["first_seen"]["ch"])
+    print("entities=%d multi_alias=%d alias_rows=%d eps=%d relations=%d undecided=%d"
+          % (len(entities), multi, total, eps, len(rel_rows), missing))
+    print("by_kind=%s" % dict(kinds.most_common()))
+    print("merge_evidence=%s kind_conf=%s" % (dict(evs), dict(kc)))
+    print("no_anchor=%d id_collisions=%d"
+          % (no_anchor, len(entities) - len(id_used)))
+    print("=== L2 BUILD ENTITIES DONE ===")
 
 
 if __name__ == "__main__":
