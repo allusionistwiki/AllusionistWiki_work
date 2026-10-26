@@ -49,8 +49,8 @@
   "inputs-manifest.json"
  ],
  "stats_v2": {
-  "entities": 14480,
-  "multi_alias": 14480,
+  "entities": 14481,
+  "multi_alias": 14481,
   "avg_alias": 1.03,
   "max_alias": 8,
   "top_alias": [
@@ -60,28 +60,30 @@
    "ミルーニャ",
    "ペリュトン",
    "ファル",
-   "ハル",
-   "エレクトラ"
+   "エレクトラ",
+   "邪視"
   ],
   "merge_evidence": {
-   "明言": 1698,
-   "蓋然性高": 12368,
+   "明言": 1700,
+   "蓋然性高": 12367,
    "要検証": 414
   },
   "kind_confidence": {
-   "裁定済": 3117,
-   "機械": 11363
+   "裁定済": 3119,
+   "機械": 11362
   },
   "v2_verdicts": {
    "keep": 5872,
    "split": 1511,
    "needs": 444,
    "no_cite": 739,
-   "hub_cut": 47
+   "hub_cut": 39
   },
   "mech_splits_strict": 289,
   "residual_same_sentence_pairs": 165,
-  "residual_note": "同一性述語（XはYである）中の共起＝正当な同一視。機械split v3で別人証拠（同一文独立共起）のみ適用"
+  "residual_note": "同一性述語（XはYである）中の共起＝正当な同一視。機械split v3で別人証拠（同一文独立共起）のみ適用",
+  "coverage": "4585/4585 (100%)",
+  "done": "2026-10-26T18:28 L2 ADJUDICATE V2 DONE"
  },
  "updated": "2026-10-26"
 }

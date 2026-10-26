@@ -1,7 +1,7 @@
 {
  "schema": "l2-entities/1",
  "run": "20261024T1608_fc8d",
- "count": 14480,
+ "count": 14481,
  "entities": [
   {
    "id": "E_char_オルガンローデ",
@@ -98,63 +98,6 @@
    "fact_total": 79
   },
   {
-   "id": "E_char_ちびアキラ",
-   "canonical": "ちびアキラ",
-   "aliases": [
-    "シナモリアキラ",
-    "ちびシューラ",
-    "アキラ",
-    "シナモリ・アキラ",
-    "アキラくん",
-    "ちびアキラ"
-   ],
-   "kind": "character",
-   "kind_confidence": "裁定済",
-   "merge_evidence": "明言",
-   "first_seen": {
-    "ch": "ch0001",
-    "para": 40
-   },
-   "l1_refs": [
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0001",
-     "fact_id": "F_ch0001_アキラ_named_for_主人公のハンドルネーム_p40"
-    },
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0003",
-     "fact_id": "F_ch0003_アキラくん_is_a_隻腕義手の青年_p180"
-    },
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0009",
-     "fact_id": "F_ch0009_ちびシューラ_is_a_アバター_p405"
-    }
-   ],
-   "seed_ids": [
-    "E_char_ちびアキラ",
-    "E_char_ちびシューラ",
-    "E_char_アキラ",
-    "E_char_アキラくん",
-    "E_char_シナモリアキラ",
-    "E_char_シナモリ・アキラ",
-    "E_item_ちびシューラ",
-    "E_item_アキラ",
-    "E_item_シナモリアキラ",
-    "E_item_シナモリ・アキラ",
-    "E_motif_アキラ",
-    "E_org_ちびシューラ",
-    "E_org_アキラ",
-    "E_org_シナモリアキラ",
-    "E_phrase_アキラ",
-    "E_term_ちびシューラ",
-    "E_term_アキラ",
-    "E_term_シナモリアキラ"
-   ],
-   "fact_total": 461
-  },
-  {
    "id": "E_char_ミルーニャ",
    "canonical": "ミルーニャ",
    "aliases": [
@@ -204,54 +147,6 @@
    "fact_total": 181
   },
   {
-   "id": "E_char_ハル",
-   "canonical": "ハル",
-   "aliases": [
-    "ハルベルト",
-    "歌姫Spear",
-    "杖使い",
-    "歌姫Ｓｐｅａｒ",
-    "ハル",
-    "ハルベルトの声"
-   ],
-   "kind": "character",
-   "kind_confidence": "裁定済",
-   "merge_evidence": "明言",
-   "first_seen": {
-    "ch": "ch0021",
-    "para": 972
-   },
-   "l1_refs": [
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0021",
-     "fact_id": "F_ch0021_歌姫Spear_is_a_音楽グループ_p972"
-    },
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0029",
-     "fact_id": "F_ch0029_ハル_named_for_ハルベルトの略称_p1260"
-    },
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0029",
-     "fact_id": "F_ch0029_ハルベルト_has_property_漆黒のフードと黒革の書物_p1255"
-    }
-   ],
-   "seed_ids": [
-    "E_char_ハル",
-    "E_char_ハルベルト",
-    "E_char_杖使い",
-    "E_char_歌姫Spear",
-    "E_item_ハルベルト",
-    "E_org_ハルベルト",
-    "E_term_ハル",
-    "E_term_ハルベルト",
-    "E_term_杖使い"
-   ],
-   "fact_total": 147
-  },
-  {
    "id": "E_char_エレクトラ",
    "canonical": "エレクトラ",
    "aliases": [
@@ -259,7 +154,7 @@
     "キニス",
     "エレクトラ",
     "キニスちゃん",
-    "相棒",
+    "ユディ",
     "裏切りの戦乙女"
    ],
    "kind": "character",
@@ -282,8 +177,8 @@
     },
     {
      "run": "20261012T0000_baseline",
-     "ep": "ch0201",
-     "fact_id": "F_ch0201_相棒_is_a_関係_p6775"
+     "ep": "ch0218",
+     "fact_id": "F_ch0218_エレクトラ_is_a_称号・役職名_p7280"
     }
    ],
    "seed_ids": [
@@ -430,51 +325,101 @@
    "fact_total": 29
   },
   {
-   "id": "E_char_フィリス",
-   "canonical": "フィリス",
+   "id": "E_char_アキラ",
+   "canonical": "アキラ",
    "aliases": [
-    "フィリス",
-    "金鎖",
-    "魔将",
-    "第一魔将",
-    "妖精"
+    "シナモリアキラ",
+    "アキラ",
+    "シナモリ・アキラ",
+    "アキラくん",
+    "アキラ殿"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "first_seen": {
     "ch": "ch0001",
-    "para": 80
+    "para": 40
    },
    "l1_refs": [
     {
      "run": "20261012T0000_baseline",
      "ep": "ch0001",
-     "fact_id": "F_ch0001_金鎖_has_property_アズーリアの力の代償_p80"
+     "fact_id": "F_ch0001_アキラ_named_for_主人公のハンドルネーム_p40"
     },
     {
      "run": "20261012T0000_baseline",
-     "ep": "ch0002",
-     "fact_id": "F_ch0002_フィリス_functions_as_呪いの解放_p113"
+     "ep": "ch0003",
+     "fact_id": "F_ch0003_アキラくん_is_a_隻腕義手の青年_p180"
     },
     {
      "run": "20261012T0000_baseline",
-     "ep": "ch0002",
-     "fact_id": "F_ch0002_魔将_is_a_異獣の統率者_p124"
+     "ep": "ch0011",
+     "fact_id": "F_ch0011_シナモリ・アキラ_is_a_Ｅ－Ｅのユーザー登録名_p478"
     }
    ],
    "seed_ids": [
-    "E_char_フィリス",
-    "E_char_第一魔将",
-    "E_char_金鎖",
-    "E_char_魔将",
-    "E_item_フィリス",
-    "E_item_金鎖",
-    "E_org_金鎖",
-    "E_term_フィリス",
-    "E_term_金鎖"
+    "E_char_アキラ",
+    "E_char_アキラくん",
+    "E_char_シナモリアキラ",
+    "E_char_シナモリ・アキラ",
+    "E_item_アキラ",
+    "E_item_シナモリアキラ",
+    "E_item_シナモリ・アキラ",
+    "E_motif_アキラ",
+    "E_org_アキラ",
+    "E_org_シナモリアキラ",
+    "E_phrase_アキラ",
+    "E_term_アキラ",
+    "E_term_シナモリアキラ"
    ],
-   "fact_total": 178
+   "fact_total": 303
+  },
+  {
+   "id": "E_char_ハル",
+   "canonical": "ハル",
+   "aliases": [
+    "ハルベルト",
+    "呪文の座",
+    "歌姫Spear",
+    "歌姫Ｓｐｅａｒ",
+    "ハル"
+   ],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "first_seen": {
+    "ch": "ch0021",
+    "para": 972
+   },
+   "l1_refs": [
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0021",
+     "fact_id": "F_ch0021_歌姫Spear_is_a_音楽グループ_p972"
+    },
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0029",
+     "fact_id": "F_ch0029_ハル_named_for_ハルベルトの略称_p1260"
+    },
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0029",
+     "fact_id": "F_ch0029_ハルベルト_has_property_漆黒のフードと黒革の書物_p1255"
+    }
+   ],
+   "seed_ids": [
+    "E_char_ハル",
+    "E_char_ハルベルト",
+    "E_char_呪文の座",
+    "E_char_歌姫Spear",
+    "E_item_ハルベルト",
+    "E_org_ハルベルト",
+    "E_term_ハル",
+    "E_term_ハルベルト"
+   ],
+   "fact_total": 185
   },
   {
    "id": "E_char_カーティス",
@@ -1022,13 +967,13 @@
    "fact_total": 11
   },
   {
-   "id": "E_char_きぐるみの魔女",
-   "canonical": "きぐるみの魔女",
+   "id": "E_char_アズ",
+   "canonical": "アズ",
    "aliases": [
     "アズーリア",
     "アズーリア・ヘレゼクシュ",
-    "きぐるみの魔女",
-    "アテンプレク＝チリアット"
+    "アズ",
+    "守護の九槍アズーリア"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -1050,22 +995,68 @@
     },
     {
      "run": "20261012T0000_baseline",
-     "ep": "ch0003",
-     "fact_id": "F_ch0003_きぐるみの魔女_is_a_幕間のタイトル_p171"
+     "ep": "ch0029",
+     "fact_id": "F_ch0029_アズ_is_a_灰色のローブに包まれた二頭身の身体のアバター_p1244"
     }
    ],
    "seed_ids": [
-    "E_char_きぐるみの魔女",
+    "E_char_アズ",
     "E_char_アズーリア",
     "E_char_アズーリア・ヘレゼクシュ",
-    "E_char_アテンプレク＝チリアット",
+    "E_item_アズ",
     "E_item_アズーリア",
     "E_motif_アズーリア",
     "E_org_アズーリア",
-    "E_term_きぐるみの魔女",
+    "E_term_アズ",
     "E_term_アズーリア"
    ],
-   "fact_total": 435
+   "fact_total": 408
+  },
+  {
+   "id": "E_char_フィリス",
+   "canonical": "フィリス",
+   "aliases": [
+    "フィリス",
+    "金鎖",
+    "魔将",
+    "第一魔将"
+   ],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "first_seen": {
+    "ch": "ch0001",
+    "para": 80
+   },
+   "l1_refs": [
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0001",
+     "fact_id": "F_ch0001_金鎖_has_property_アズーリアの力の代償_p80"
+    },
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0002",
+     "fact_id": "F_ch0002_フィリス_functions_as_呪いの解放_p113"
+    },
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0002",
+     "fact_id": "F_ch0002_魔将_is_a_異獣の統率者_p124"
+    }
+   ],
+   "seed_ids": [
+    "E_char_フィリス",
+    "E_char_第一魔将",
+    "E_char_金鎖",
+    "E_char_魔将",
+    "E_item_フィリス",
+    "E_item_金鎖",
+    "E_org_金鎖",
+    "E_term_フィリス",
+    "E_term_金鎖"
+   ],
+   "fact_total": 175
   },
   {
    "id": "E_char_ティリビナの民",
@@ -1151,52 +1142,6 @@
     "E_term_カーイン"
    ],
    "fact_total": 113
-  },
-  {
-   "id": "E_char_アルト・イヴニル",
-   "canonical": "アルト・イヴニル",
-   "aliases": [
-    "アレッテ・イヴニル",
-    "アルト・イヴニル",
-    "アレッテ",
-    "お姫様"
-   ],
-   "kind": "character",
-   "kind_confidence": "裁定済",
-   "merge_evidence": "明言",
-   "first_seen": {
-    "ch": "ch0020",
-    "para": 877
-   },
-   "l1_refs": [
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0020",
-     "fact_id": "F_ch0020_アレッテ・イヴニル_is_a_魔女候補者の後釜候補_p877"
-    },
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0145",
-     "fact_id": "F_ch0145_アルト・イヴニル_has_property_紅紫の髪_p4941"
-    },
-    {
-     "run": "20261021T1727_9c2e",
-     "ep": "ch5349",
-     "fact_id": "F_ch5349_アレッテ_is_a_魔女・支配者_p40"
-    }
-   ],
-   "seed_ids": [
-    "E_char_アルト・イヴニル",
-    "E_char_アレッテ",
-    "E_char_アレッテ・イヴニル",
-    "E_item_アルト・イヴニル",
-    "E_item_アレッテ・イヴニル",
-    "E_org_アルト・イヴニル",
-    "E_org_アレッテ",
-    "E_term_アルト・イヴニル",
-    "E_term_アレッテ・イヴニル"
-   ],
-   "fact_total": 94
   },
   {
    "id": "E_char_パーン",
@@ -1686,6 +1631,94 @@
    ],
    "seed_ids": [],
    "fact_total": 6
+  },
+  {
+   "id": "E_char_きぐるみの魔女",
+   "canonical": "きぐるみの魔女",
+   "aliases": [
+    "ちびシューラ",
+    "きぐるみの魔女",
+    "ちびアキラ"
+   ],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "first_seen": {
+    "ch": "ch0003",
+    "para": 171
+   },
+   "l1_refs": [
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0003",
+     "fact_id": "F_ch0003_きぐるみの魔女_is_a_幕間のタイトル_p171"
+    },
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0009",
+     "fact_id": "F_ch0009_ちびシューラ_is_a_アバター_p405"
+    },
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0093",
+     "fact_id": "F_ch0093_ちびアキラ_is_a_アキラの別称_p3469"
+    }
+   ],
+   "seed_ids": [
+    "E_char_きぐるみの魔女",
+    "E_char_ちびアキラ",
+    "E_char_ちびシューラ",
+    "E_item_ちびシューラ",
+    "E_org_ちびシューラ",
+    "E_term_きぐるみの魔女",
+    "E_term_ちびシューラ"
+   ],
+   "fact_total": 191
+  },
+  {
+   "id": "E_char_アルト・イヴニル",
+   "canonical": "アルト・イヴニル",
+   "aliases": [
+    "アレッテ・イヴニル",
+    "アルト・イヴニル",
+    "アレッテ"
+   ],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "first_seen": {
+    "ch": "ch0020",
+    "para": 877
+   },
+   "l1_refs": [
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0020",
+     "fact_id": "F_ch0020_アレッテ・イヴニル_is_a_魔女候補者の後釜候補_p877"
+    },
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0145",
+     "fact_id": "F_ch0145_アルト・イヴニル_has_property_紅紫の髪_p4941"
+    },
+    {
+     "run": "20261021T1727_9c2e",
+     "ep": "ch5349",
+     "fact_id": "F_ch5349_アレッテ_is_a_魔女・支配者_p40"
+    }
+   ],
+   "seed_ids": [
+    "E_char_アルト・イヴニル",
+    "E_char_アレッテ",
+    "E_char_アレッテ・イヴニル",
+    "E_item_アルト・イヴニル",
+    "E_item_アレッテ・イヴニル",
+    "E_org_アルト・イヴニル",
+    "E_org_アレッテ",
+    "E_term_アルト・イヴニル",
+    "E_term_アレッテ・イヴニル"
+   ],
+   "fact_total": 93
   },
   {
    "id": "E_char_箒",
@@ -2392,6 +2425,43 @@
     "E_term_歌姫"
    ],
    "fact_total": 26
+  },
+  {
+   "id": "E_char_ちびニア",
+   "canonical": "ちびニア",
+   "aliases": [
+    "ちびニア",
+    "お姫様",
+    "お姫様（セリア）"
+   ],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "first_seen": {
+    "ch": "ch0185",
+    "para": 6167
+   },
+   "l1_refs": [
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0185",
+     "fact_id": "F_ch0185_ちびニア_is_a_小さな自分_p6167"
+    },
+    {
+     "run": "20261021T1727_9c2e",
+     "ep": "ch5376",
+     "fact_id": "F_ch5376_お姫様セリア_is_a_手の平サイズの少女_p77"
+    },
+    {
+     "run": "20261021T1727_9c2e",
+     "ep": "ch5404",
+     "fact_id": "F_ch5404_お姫様_is_a_人形_p9"
+    }
+   ],
+   "seed_ids": [
+    "E_char_ちびニア"
+   ],
+   "fact_total": 24
   },
   {
    "id": "E_char_アルレッキーノ",
@@ -4225,41 +4295,6 @@
     "E_term_悪鬼"
    ],
    "fact_total": 38
-  },
-  {
-   "id": "E_char_アストラル体",
-   "canonical": "アストラル体",
-   "aliases": [
-    "アストラル体",
-    "アズ"
-   ],
-   "kind": "character",
-   "kind_confidence": "裁定済",
-   "merge_evidence": "明言",
-   "first_seen": {
-    "ch": "ch0016",
-    "para": 718
-   },
-   "l1_refs": [
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0016",
-     "fact_id": "F_ch0016_アストラル体_is_a_分離可能な霊体_p718"
-    },
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0029",
-     "fact_id": "F_ch0029_アズ_is_a_灰色のローブに包まれた二頭身の身体のアバター_p1244"
-    }
-   ],
-   "seed_ids": [
-    "E_char_アストラル体",
-    "E_char_アズ",
-    "E_item_アズ",
-    "E_term_アストラル体",
-    "E_term_アズ"
-   ],
-   "fact_total": 37
   },
   {
    "id": "E_char_レメス",
@@ -9660,31 +9695,6 @@
    "fact_total": 51
   },
   {
-   "id": "E_char_呪文の座",
-   "canonical": "呪文の座",
-   "aliases": [
-    "呪文の座"
-   ],
-   "kind": "terminology",
-   "kind_confidence": "裁定済",
-   "merge_evidence": "明言",
-   "first_seen": {
-    "ch": "ch0036",
-    "para": 1515
-   },
-   "l1_refs": [
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0036",
-     "fact_id": "F_ch0036_呪文の座_is_a_競争の四つの座の一つ_p1515"
-    }
-   ],
-   "seed_ids": [
-    "E_char_呪文の座"
-   ],
-   "fact_total": 49
-  },
-  {
    "id": "E_char_死人の森の女王",
    "canonical": "死人の森の女王",
    "aliases": [
@@ -10672,6 +10682,32 @@
    "fact_total": 32
   },
   {
+   "id": "E_char_アストラル体",
+   "canonical": "アストラル体",
+   "aliases": [
+    "アストラル体"
+   ],
+   "kind": "terminology",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "first_seen": {
+    "ch": "ch0016",
+    "para": 718
+   },
+   "l1_refs": [
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0016",
+     "fact_id": "F_ch0016_アストラル体_is_a_分離可能な霊体_p718"
+    }
+   ],
+   "seed_ids": [
+    "E_char_アストラル体",
+    "E_term_アストラル体"
+   ],
+   "fact_total": 31
+  },
+  {
    "id": "E_char_ガルズ・マウザ・クロウサー",
    "canonical": "ガルズ・マウザ・クロウサー",
    "aliases": [
@@ -11652,31 +11688,6 @@
     "E_org_探索者協会"
    ],
    "fact_total": 23
-  },
-  {
-   "id": "E_char_ちびニア",
-   "canonical": "ちびニア",
-   "aliases": [
-    "ちびニア"
-   ],
-   "kind": "character",
-   "kind_confidence": "裁定済",
-   "merge_evidence": "明言",
-   "first_seen": {
-    "ch": "ch0185",
-    "para": 6167
-   },
-   "l1_refs": [
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0185",
-     "fact_id": "F_ch0185_ちびニア_is_a_小さな自分_p6167"
-    }
-   ],
-   "seed_ids": [
-    "E_char_ちびニア"
-   ],
-   "fact_total": 22
   },
   {
    "id": "E_char_カッサリオ",
@@ -16723,6 +16734,32 @@
    "seed_ids": [
     "E_char_日本語",
     "E_term_日本語"
+   ],
+   "fact_total": 10
+  },
+  {
+   "id": "E_char_杖使い",
+   "canonical": "杖使い",
+   "aliases": [
+    "杖使い"
+   ],
+   "kind": "terminology",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "first_seen": {
+    "ch": "ch0037",
+    "para": 1583
+   },
+   "l1_refs": [
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0037",
+     "fact_id": "F_ch0037_杖使い_has_property_死を無かったことにする_p1583"
+    }
+   ],
+   "seed_ids": [
+    "E_char_杖使い",
+    "E_term_杖使い"
    ],
    "fact_total": 10
   },
@@ -37326,6 +37363,31 @@
    "fact_total": 3
   },
   {
+   "id": "E_char_アテンプレク＝チリアット",
+   "canonical": "アテンプレク＝チリアット",
+   "aliases": [
+    "アテンプレク＝チリアット"
+   ],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "first_seen": {
+    "ch": "ch5544",
+    "para": 16
+   },
+   "l1_refs": [
+    {
+     "run": "20261021T1727_9c2e",
+     "ep": "ch5544",
+     "fact_id": "F_ch5544_アテンプレク＝チリアット_functions_as_幻術牙の出現を使う者_p100"
+    }
+   ],
+   "seed_ids": [
+    "E_char_アテンプレク＝チリアット"
+   ],
+   "fact_total": 3
+  },
+  {
    "id": "E_char_アルタネイフ",
    "canonical": "アルタネイフ",
    "aliases": [
@@ -39614,6 +39676,29 @@
    "seed_ids": [
     "E_char_女神"
    ],
+   "fact_total": 3
+  },
+  {
+   "id": "E_char_妖精",
+   "canonical": "妖精",
+   "aliases": [
+    "妖精"
+   ],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "first_seen": {
+    "ch": "ch0075",
+    "para": 2846
+   },
+   "l1_refs": [
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0075",
+     "fact_id": "F_ch0075_妖精_functions_as_言い訳の主体_p2846"
+    }
+   ],
+   "seed_ids": [],
    "fact_total": 3
   },
   {
@@ -57872,29 +57957,6 @@
      "run": "20261012T0000_baseline",
      "ep": "ch0056",
      "fact_id": "F_ch0056_始祖吸血鬼_has_property_希薄化する無敵の肉体_p2145"
-    }
-   ],
-   "seed_ids": [],
-   "fact_total": 2
-  },
-  {
-   "id": "E_char_守護の九槍アズーリア",
-   "canonical": "守護の九槍アズーリア",
-   "aliases": [
-    "守護の九槍アズーリア"
-   ],
-   "kind": "character",
-   "kind_confidence": "裁定済",
-   "merge_evidence": "明言",
-   "first_seen": {
-    "ch": "ch0211",
-    "para": 7118
-   },
-   "l1_refs": [
-    {
-     "run": "20261012T0000_baseline",
-     "ep": "ch0211",
-     "fact_id": "F_ch0211_守護の九槍アズーリア_is_a_修道騎士_p7118"
     }
    ],
    "seed_ids": [],
@@ -104920,29 +104982,6 @@
    "fact_total": 1
   },
   {
-   "id": "E_char_お姫様_セリア_",
-   "canonical": "お姫様（セリア）",
-   "aliases": [
-    "お姫様（セリア）"
-   ],
-   "kind": "character",
-   "kind_confidence": "機械",
-   "merge_evidence": "蓋然性高",
-   "first_seen": {
-    "ch": "ch5376",
-    "para": 77
-   },
-   "l1_refs": [
-    {
-     "run": "20261021T1727_9c2e",
-     "ep": "ch5376",
-     "fact_id": "F_ch5376_お姫様セリア_is_a_手の平サイズの少女_p77"
-    }
-   ],
-   "seed_ids": [],
-   "fact_total": 1
-  },
-  {
    "id": "E_char_お豆腐頭のちびキャラ",
    "canonical": "お豆腐頭のちびキャラ",
    "aliases": [
@@ -105838,29 +105877,6 @@
      "run": "20261021T1727_9c2e",
      "ep": "ch5400",
      "fact_id": "F_ch5400_アキラ姫_functions_as_アイドル_p17"
-    }
-   ],
-   "seed_ids": [],
-   "fact_total": 1
-  },
-  {
-   "id": "E_char_アキラ殿",
-   "canonical": "アキラ殿",
-   "aliases": [
-    "アキラ殿"
-   ],
-   "kind": "character",
-   "kind_confidence": "裁定済",
-   "merge_evidence": "明言",
-   "first_seen": {
-    "ch": "ch5542",
-    "para": 206
-   },
-   "l1_refs": [
-    {
-     "run": "20261021T1727_9c2e",
-     "ep": "ch5542",
-     "fact_id": "F_ch5542_アキラ殿_is_a_現れた人物_p206"
     }
    ],
    "seed_ids": [],
@@ -116355,6 +116371,29 @@
    "fact_total": 1
   },
   {
+   "id": "E_char_ハルベルトの声",
+   "canonical": "ハルベルトの声",
+   "aliases": [
+    "ハルベルトの声"
+   ],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "first_seen": {
+    "ch": "ch5130",
+    "para": 32
+   },
+   "l1_refs": [
+    {
+     "run": "20261021T1727_9c2e",
+     "ep": "ch5130",
+     "fact_id": "F_ch5130_ハルベルトの声_has_property_魔的な響き・身体を震わせる音_p32"
+    }
+   ],
+   "seed_ids": [],
+   "fact_total": 1
+  },
+  {
    "id": "E_char_バカネズミ_ちびシューラ_",
    "canonical": "バカネズミ（ちびシューラ）",
    "aliases": [
@@ -119247,29 +119286,6 @@
      "run": "20261021T1727_9c2e",
      "ep": "ch5442",
      "fact_id": "F_ch5442_ユガーシャ吟遊詩人_has_property_大魔将戦で無事に生き残った異質の存在_p7781"
-    }
-   ],
-   "seed_ids": [],
-   "fact_total": 1
-  },
-  {
-   "id": "E_char_ユディ",
-   "canonical": "ユディ",
-   "aliases": [
-    "ユディ"
-   ],
-   "kind": "character",
-   "kind_confidence": "裁定済",
-   "merge_evidence": "蓋然性高",
-   "first_seen": {
-    "ch": "ch5434",
-    "para": 53
-   },
-   "l1_refs": [
-    {
-     "run": "20261021T1727_9c2e",
-     "ep": "ch5434",
-     "fact_id": "F_ch5434_ユディ_is_a_不明な名前セリアック＝ニアが知らなかった_p53"
     }
    ],
    "seed_ids": [],
@@ -308440,6 +308456,29 @@
      "run": "20261012T0000_baseline",
      "ep": "ch0198",
      "fact_id": "F_ch0198_相手の動きを見切った飛翔体_is_a_ロケットパンチの性質_p6685"
+    }
+   ],
+   "seed_ids": [],
+   "fact_total": 1
+  },
+  {
+   "id": "E_term_相棒",
+   "canonical": "相棒",
+   "aliases": [
+    "相棒"
+   ],
+   "kind": "relationship",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "first_seen": {
+    "ch": "ch0201",
+    "para": 6775
+   },
+   "l1_refs": [
+    {
+     "run": "20261012T0000_baseline",
+     "ep": "ch0201",
+     "fact_id": "F_ch0201_相棒_is_a_関係_p6775"
     }
    ],
    "seed_ids": [],
