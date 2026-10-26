@@ -93,6 +93,7 @@ def main():
     adjudicated_kind = {}
     rel_rows = []
     rel_seen = set()
+    alias_groups = []
     for d in decisions_all:
         row = queue.get(d["id"])
         bucket = collections.defaultdict(list)
@@ -105,8 +106,8 @@ def main():
                 bucket[norm_key(canon) if canon else nk].append(nk)
         for _c, ns in bucket.items():
             ns = list(dict.fromkeys(ns))
-            for n in ns[1:]:
-                dsu.union(ns[0], n)
+            if len(ns) > 1:
+                alias_groups.append((d["id"], ns))
         if row:
             vt = {m["norm"]: m.get("verdict") for m in d.get("decisions", [])
                   if m.get("norm")}
@@ -123,6 +124,49 @@ def main():
                             rel_rows.append({"type": etype, "from": mi, "to": mj,
                                              "gid": d["id"], "run": RUN})
     missing = len(set(queue) - {d["id"] for d in decisions_all})
+
+    # ---- v2 再裁定（全話 evidence）+ 機械共起 split を alias に適用 -------
+    v2 = {}
+    for p in sorted(OUT.glob("adjudications_v2*.jsonl")):
+        for d in jl(p):
+            v2[d["id"]] = {m.get("norm"): m for m in d.get("verdicts", [])
+                           if m.get("norm")}
+    mech_pairs = set()
+    mech_path = OUT / "mech-splits.jsonl"
+    if mech_path.exists():
+        for d in jl(mech_path):
+            mech_pairs.add(tuple(sorted((d["a"], d["b"]))))
+    n_keep = n_split = n_needs = 0
+    for gid, ns in alias_groups:
+        vv = v2.get(gid, {})
+        allow = []
+        for n in ns:
+            dec = (vv.get(n) or {}).get("decision")
+            if dec in ("split", "needs"):
+                if dec == "split":
+                    n_split += 1
+                else:
+                    n_needs += 1
+                continue
+            if any(tuple(sorted((a, n))) in mech_pairs for a in allow):
+                n_split += 1
+                continue
+            allow.append(n)
+        for n in allow[1:]:
+            dsu.union(allow[0], n)
+            n_keep += 1
+        for n in allow:
+            d2 = vv.get(n)
+            if d2 and d2.get("kind"):
+                adjudicated_kind.setdefault(n, collections.Counter())[d2["kind"]] += 5
+    if v2:
+        print("v2 applied: keep=%d split=%d needs=%d mech_pairs=%d v2_rows=%d"
+              % (n_keep, n_split, n_needs, len(mech_pairs), len(v2)))
+    else:
+        for _gid, ns in alias_groups:
+            for n in ns[1:]:
+                dsu.union(ns[0], n)
+        print("v2 未取得 — v1 alias のみ適用（mech %d 件保留）" % len(mech_pairs))
 
     # ---- 合成 → entities ----------------------------------------------------
     seeds = {}
