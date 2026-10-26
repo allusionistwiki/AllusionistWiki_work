@@ -52,6 +52,14 @@ def main():
     for nk, v in verdicts.items():
         row = inv.get(nk, {})
         cat = v.get("category")
+        if cat not in ("standalone", "aspect_of", "generic", "alias_of", "needs"):
+            # モデルが kind 語を category に書いた応答 → standalone・kind 補完
+            if cat in PREF:
+                v = dict(v)
+                v["kind"] = cat
+                cat = "standalone"
+            else:
+                cat = "standalone"
         surfaces = row.get("surfaces", [])
         disp = max([nk] + surfaces, key=len) if surfaces else nk
         exist = by_norm.get(nk)
