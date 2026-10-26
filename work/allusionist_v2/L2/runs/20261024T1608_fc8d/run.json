@@ -16,7 +16,8 @@
   "S4": "entities.json 13,887 件・aliases 827 話・relations 341,890 行（dedup 後）",
   "v2": "全話evidence再裁定4,585群→S4全面適用（非推移・引用ゲート・hub cut）",
   "mech_v3": "同一文共起split（同一性述語除外）289組",
-  "publish": "vault build_l2_pages 20261024T1608_fc8d → AllusionistWiki2/l2 更新済み"
+  "publish": "vault build_l2_pages 20261024T1608_fc8d → AllusionistWiki2/l2 更新済み",
+  "v3": "棚卸し入力=events 系エンティティ登録+全 L1 ページへ拡張(3,216面)→実体判定(standalone/aspect/generic/alias/needs)→親子構造適用"
  },
  "stats": {
   "entities": 13887,
@@ -85,5 +86,15 @@
   "coverage": "4585/4585 (100%)",
   "done": "2026-10-26T18:28 L2 ADJUDICATE V2 DONE"
  },
- "updated": "2026-10-26"
+ "updated": "2026-10-26",
+ "stats_v3": {
+  "standalone": 1507,
+  "aspect_of": 407,
+  "generic": 846,
+  "alias_of": 304,
+  "needs": 38,
+  "skip_existing": 5,
+  "at": "2026-10-26T23:23:17.753953",
+  "entities_total": 17265
+ }
 }
