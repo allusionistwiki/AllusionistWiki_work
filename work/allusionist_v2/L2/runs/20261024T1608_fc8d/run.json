@@ -14,7 +14,9 @@
   "S2": "相関群 14,031・裁定キュー 4,585・rejected 194",
   "S3": "LLM 群裁定 4,585 完走（shard3 並列・resume 3 ラウンド・機械フォールバック 279=要検証）",
   "S4": "entities.json 13,887 件・aliases 827 話・relations 341,890 行（dedup 後）",
-  "v2": "全話evidence再裁定(4,585群)→S4全面適用(非推移・引用ゲート)→(正規化+kind)同一实体の再統合"
+  "v2": "全話evidence再裁定4,585群→S4全面適用（非推移・引用ゲート・hub cut）",
+  "mech_v3": "同一文共起split（同一性述語除外）289組",
+  "publish": "vault build_l2_pages 20261024T1608_fc8d → AllusionistWiki2/l2 更新済み"
  },
  "stats": {
   "entities": 13887,
@@ -47,77 +49,39 @@
   "inputs-manifest.json"
  ],
  "stats_v2": {
-  "entities": 13563,
-  "multi_alias": 1922,
-  "avg_alias": 1.28,
-  "max_alias": 19,
+  "entities": 14480,
+  "multi_alias": 14480,
+  "avg_alias": 1.03,
+  "max_alias": 8,
   "top_alias": [
-   "シナモリアキラ",
-   "アキラ",
-   "ロウ・カーイン",
-   "マラード",
-   "トリシューラ",
-   "コルセスカ",
-   "カーティス",
-   "呪文"
+   "オルガンローデ",
+   "楽園",
+   "呪文",
+   "ミルーニャ",
+   "ペリュトン",
+   "ファル",
+   "ハル",
+   "エレクトラ"
   ],
   "merge_evidence": {
-   "明言": 1694,
-   "蓋然性高": 11456,
-   "要検証": 413
+   "明言": 1698,
+   "蓋然性高": 12368,
+   "要検証": 414
   },
   "kind_confidence": {
-   "裁定済": 3114,
-   "機械": 10449
+   "裁定済": 3117,
+   "機械": 11363
   },
-  "by_kind": {
-   "terminology": 5908,
-   "character": 2431,
-   "location": 548,
-   "item": 3281,
-   "organization": 707,
-   "creature": 86,
-   "motif": 269,
-   "event": 69,
-   "phrase": 105,
-   "relationship": 55,
-   "magic": 4,
-   "deity": 1,
-   "app": 3,
-   "skill": 11,
-   "group": 5,
-   "spell": 8,
-   "celestial_body": 4,
-   "software": 1,
-   "ability": 7,
-   "spell_effect": 1,
-   "event_context": 1,
-   "game": 1,
-   "action": 8,
-   "emotion": 3,
-   "part": 1,
-   "phantom": 3,
-   "character_class": 2,
-   "system": 2,
-   "role": 2,
-   "brand": 1,
-   "rule": 2,
-   "ritual": 4,
-   "character_ability": 1,
-   "race": 6,
-   "concept": 4,
-   "technique": 1,
-   "place": 4,
-   "clothing": 1,
-   "structure": 1,
-   "unknown": 1,
-   "technology": 2,
-   "building": 1,
-   "phenomenon": 2,
-   "institution": 1,
-   "plan": 2,
-   "strategy": 1,
-   "effect": 1
-  }
- }
+  "v2_verdicts": {
+   "keep": 5872,
+   "split": 1511,
+   "needs": 444,
+   "no_cite": 739,
+   "hub_cut": 47
+  },
+  "mech_splits_strict": 289,
+  "residual_same_sentence_pairs": 165,
+  "residual_note": "同一性述語（XはYである）中の共起＝正当な同一視。機械split v3で別人証拠（同一文独立共起）のみ適用"
+ },
+ "updated": "2026-10-26"
 }
