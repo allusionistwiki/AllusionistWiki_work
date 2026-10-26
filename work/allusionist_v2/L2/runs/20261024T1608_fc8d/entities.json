@@ -178,6 +178,38 @@
     {
      "id": "E_char_ミルーニャの過去",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_ミルーニャの消音符",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ミルーニャの部屋",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_メートリアンの言葉",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_メートリアン(クリーナーの肉体)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_メートリアン(ミルーニャの変身)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ミルーニャの意図",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ミルーニャの真意",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ミルーニャの過去",
+     "relation": "aspect"
     }
    ]
   },
@@ -192,7 +224,8 @@
     "ユディ",
     "裏切りの戦乙女",
     "キニス(ユディーア)",
-    "ユディーア(エレクトラ/キニス)"
+    "ユディーア(エレクトラ/キニス)",
+    "ユディーアパルムワードディスケイム"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -248,6 +281,26 @@
     {
      "id": "E_char_裏切り者としての自覚",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_キニス(幼少期)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ユディーアの名前",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_キノコ人(ユディーアの経験)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_裏切り者としての自覚",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_creature_アストラル体(ユディーア/シャルマキヒュの霊媒)",
+     "relation": "aspect"
     }
    ]
   },
@@ -292,7 +345,13 @@
     "E_phrase_呪文",
     "E_term_呪文"
    ],
-   "fact_total": 59
+   "fact_total": 59,
+   "children": [
+    {
+     "id": "E_term_呪文の交錯",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_ファル",
@@ -344,6 +403,10 @@
     {
      "id": "E_term_少年の戦意",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_少年の戦意",
+     "relation": "aspect"
     }
    ]
   },
@@ -358,7 +421,8 @@
     "ペリュトン系の淫魔",
     "枝角有翼の青鹿",
     "店員(プウハニアが店員と思っている夜民/レゴン/ペリュトン)",
-    "店員(ペリュトン真姿)"
+    "店員(ペリュトン真姿)",
+    "ペリュトン(鹿鳥獣)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -387,7 +451,13 @@
    "seed_ids": [
     "E_char_ペリュトン"
    ],
-   "fact_total": 29
+   "fact_total": 29,
+   "children": [
+    {
+     "id": "E_char_店員(巨大化時)",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_アキラ",
@@ -466,7 +536,28 @@
     "火車(アキラ)",
     "火車/炎天使(トリシューラ)",
     "アキラ(俺)",
-    "アキラ(私)"
+    "アキラ(私)",
+    "ファルくん",
+    "沼アキラ",
+    "シナモリアキラ(女王)",
+    "シナモリアキラ(巨大サイボーグ)",
+    "シナモリアキラ(映像)",
+    "シナモリアキラ(暴力男)",
+    "シナモリアキラ(神父/ネフィリム)",
+    "シナモリアキラ(言及)",
+    "シナモリアキラ(豚型)",
+    "シナモリアキラ探偵気取り",
+    "塗壁ぬりかべ",
+    "店員アキラ(拾弐)",
+    "最強のシナモリアキラ(大蛇のライバル)",
+    "殺人鬼(シナモリアキラ/鎌鼬)",
+    "青年(吸血鬼?/シナモリアキラ?)",
+    "鵺(アキラ)",
+    "アキラシナモリ",
+    "アキラトバルカイン",
+    "塗壁(ぬりかべ",
+    "塗壁(ドガマル",
+    "シナモリアキラ(アキラ)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -748,8 +839,280 @@
     {
      "id": "E_term_アキラ私",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの存在",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの内的衝動",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_アキラの右腕(氷)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの影",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_シナモリアキラ(内的声)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの呪力",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_アキラの呪文",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの左手",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_アキラの影分身(自動鎧)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの意識",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの打撃",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_アキラの新しい装備",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの肉体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_アキラの腕",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの視界",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの触手",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_アキラの身体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_シナモリアキラ(頭部)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラとの関係",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの人格",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの価値",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの勝利",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの右腕(氷",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの変化",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの役割",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの思考",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの意図",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの感謝",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの攻撃",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの正体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの涙",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの脳内",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの行動",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの表情",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの言葉",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの選択",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの部屋",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの頭部",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラの顔",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_シナモリアキラ(アイドル)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_シナモリアキラ(カッサリオ状態)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_シナモリアキラ(コウモリ)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_シナモリアキラ(三面六臂)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_creature_シナモリアキラ(亜竜)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_シナモリアキラ(人形/幻影)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_シナモリアキラ(内的声",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_シナモリアキラ(変身前)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_シナモリアキラ(変身後)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_シナモリアキラ内的声",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_女装",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_男(アキラ/鎧の腕)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_青年(アキラの過去?)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_鵺(変身後)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_鵺(本相)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_creature_アキラ/蠍尾",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラへの態度",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラへの期待",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラへの評価",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_アキラ私",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラ(役:カシュラム王)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラ(役:ラフディ王)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラ(役:ヴァージル)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラ(イツノの身体)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラ(シナモリアキラ/人形)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラ(シナモリアキラ総体)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラ(チリアット身体使用時)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラ(分身群",
+     "relation": "aspect"
     }
-   ]
+   ],
+   "parent": {
+    "id": "E_char_Spear",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_ハル",
@@ -836,6 +1199,50 @@
     {
      "id": "E_item_ハルベルトの斧槍",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_ハルベルト(幼少期)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ハルベルト(観測者)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ハルベルトの呪文構成",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ハルベルトの歌",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ハルベルトの身体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ハルベルトの部隊",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ハルベルトの防御機構",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_creature_ハルベルトの幻獣(バター猫)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_creature_ハルベルトの幻獣(独角兎)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_creature_ハルベルトの幻獣(砂男)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_ハルベルトの斧槍",
+     "relation": "aspect"
     }
    ]
   },
@@ -913,6 +1320,34 @@
     {
      "id": "E_term_王の舞",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_カーティスの分身",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_リールエルバの世界",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_リールエルバの存在承認",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_王の剣",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_王の治世",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_王の舞",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_リールエルバ(幻覚/影)",
+     "relation": "aspect"
     }
    ]
   },
@@ -926,7 +1361,8 @@
     "転生者殺し",
     "聖騎士キロン",
     "金髪の美少年",
-    "キロンの少年(紅顔の美少年)"
+    "キロンの少年(紅顔の美少年)",
+    "キロン(変異後)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -968,6 +1404,14 @@
     },
     {
      "id": "E_char_キロン(変異後)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_キロン(左腕)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_キロンの運命力",
      "relation": "aspect"
     },
     {
@@ -1019,6 +1463,10 @@
     {
      "id": "E_term_邪視の能力",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_邪視の能力",
+     "relation": "aspect"
     }
    ]
   },
@@ -1030,7 +1478,8 @@
     "盗賊王ゼド",
     "ゼド＝アダス",
     "盗賊王",
-    "【盗賊王】"
+    "【盗賊王】",
+    "ゼド(アダス)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -1065,6 +1514,10 @@
    ],
    "fact_total": 75,
    "children": [
+    {
+     "id": "E_char_ゼドの人格",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_ゼドの人格",
      "relation": "aspect"
@@ -1187,6 +1640,26 @@
     },
     {
      "id": "E_char_ルバーブ,マラード(王)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ルバーブ(回想)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ルバーブ(記憶/魂)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ルバーブの怨念",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ルバーブ(少年時代)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_ルバーブ(私)が保有する魔導書",
      "relation": "aspect"
     }
    ]
@@ -1315,6 +1788,10 @@
    ],
    "fact_total": 28,
    "children": [
+    {
+     "id": "E_loc_ゼオーティアの戦場",
+     "relation": "aspect"
+    },
     {
      "id": "E_loc_ゼオーティアの戦場",
      "relation": "aspect"
@@ -1501,7 +1978,8 @@
     "アズーリアヘレゼクシュ(私)",
     "アズーリアヘレゼクシュ(語り手)",
     "アズーリアラズリ",
-    "アズーリア(黒騎士)"
+    "アズーリア(黒騎士)",
+    "語り手(アズーリア)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -1603,6 +2081,66 @@
     {
      "id": "E_char_アズーリアの精神",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_アズーリア(報告書)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_アズーリア(幼少)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_アズーリア(悪夢内)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_アズーリアの左手首の金鎖",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_アズーリアの心象風景",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_アズーリアの杖",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アズーリアの身体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アズーリア(仮想使い魔)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アズーリア(幼少期)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アズーリア(神働装甲状態)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アズーリア(装備)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アズーリア(記憶内",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アズーリアの存在",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アズーリアの心",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アズーリアの精神",
+     "relation": "aspect"
     }
    ]
   },
@@ -1655,6 +2193,14 @@
    ],
    "fact_total": 175,
    "children": [
+    {
+     "id": "E_item_フィリスの目",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_金鎖の環",
+     "relation": "aspect"
+    },
     {
      "id": "E_item_フィリスの目",
      "relation": "aspect"
@@ -1716,6 +2262,14 @@
     {
      "id": "E_char_ティリビナ人の部隊",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_ティリビナの民(大樹巨人)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ティリビナ人の部隊",
+     "relation": "aspect"
     }
    ]
   },
@@ -1770,6 +2324,10 @@
     {
      "id": "E_char_カーインの名",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_カーインの名",
+     "relation": "aspect"
     }
    ]
   },
@@ -1816,6 +2374,10 @@
    ],
    "fact_total": 79,
    "children": [
+    {
+     "id": "E_term_パーンの右腕(オルガンローデ)",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_パーンの右腕(オルガンローデ)",
      "relation": "aspect"
@@ -1879,7 +2441,10 @@
     "マラード/アレッテイヴニル(アルト)",
     "マラード王(陛下)",
     "マラード(アルトイヴニル)",
-    "マラード(王)"
+    "マラード(王)",
+    "マラードとアルマ",
+    "マラード(竜",
+    "マラード(地竜形態)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -1929,6 +2494,14 @@
     {
      "id": "E_char_マラード(地竜形態)",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_マラードの醜さ",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_マラード(地竜",
+     "relation": "aspect"
     }
    ]
   },
@@ -1972,7 +2545,13 @@
     "E_term_アイドル",
     "E_term_ダウザール"
    ],
-   "fact_total": 58
+   "fact_total": 58,
+   "children": [
+    {
+     "id": "E_char_ダウザール(巨大な姿)",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_ディスケイム",
@@ -2013,7 +2592,13 @@
     "E_org_ディスケイム",
     "E_org_ディスケイム家"
    ],
-   "fact_total": 58
+   "fact_total": 58,
+   "children": [
+    {
+     "id": "E_org_ディスケイム家一派閥",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_カイン",
@@ -2026,7 +2611,9 @@
     "カイン(私)",
     "カイン(私",
     "カイン私",
-    "牙猪(カイン役)"
+    "牙猪(カイン役)",
+    "私",
+    "カイン (三つの手)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -2081,6 +2668,30 @@
     },
     {
      "id": "E_char_カインの足下の狼",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_カイン三つの手",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_狼の屍",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_男の全身",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_男の号令",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_男の影",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_カイン(屍の狼)",
      "relation": "aspect"
     },
     {
@@ -2336,7 +2947,8 @@
    "aliases": [
     "ちびシューラ",
     "きぐるみの魔女",
-    "ちびアキラ"
+    "ちびアキラ",
+    "赤毛の妖精(ちびシューラ/ウィッチオーダー)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -2380,7 +2992,9 @@
     "アレッテ・イヴニル",
     "アルト・イヴニル",
     "アレッテ",
-    "お父様"
+    "お父様",
+    "美貌の男",
+    "姫君(アレッテ)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -2560,7 +3174,9 @@
    "aliases": [
     "サリア",
     "小鬼殺し",
-    "サリアちゃん"
+    "サリアちゃん",
+    "サリア(時蝿)",
+    "サリア(鎧)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -2818,6 +3434,10 @@
     {
      "id": "E_char_クロウサー(受肉)",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_クロウサー(受肉)",
+     "relation": "aspect"
     }
    ]
   },
@@ -2897,7 +3517,13 @@
     "E_org_人狼",
     "E_term_人狼"
    ],
-   "fact_total": 40
+   "fact_total": 40,
+   "children": [
+    {
+     "id": "E_item_巨大狼の心臓部_宝石_",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_セレクティフィレクティ",
@@ -2938,7 +3564,21 @@
     "E_phrase_ベアトリーチェ",
     "E_term_ベアトリーチェ"
    ],
-   "fact_total": 38
+   "fact_total": 38,
+   "children": [
+    {
+     "id": "E_char_ベアトリーチェ(の声)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ベアトリーチェ(イメージ)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ベアトリーチェ(の声",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_ダエモデク",
@@ -3172,6 +3812,14 @@
     {
      "id": "E_term_歌姫の呪文",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_歌姫の呪文",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アキラ",
+     "relation": "aspect"
     }
    ]
   },
@@ -3257,7 +3905,8 @@
     "ラーゼフ",
     "ピュクシス",
     "トリシル二号",
-    "ピュクシス(ガルズの幻像)"
+    "ピュクシス(ガルズの幻像)",
+    "ピュクシス(ガルズピュクシス)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -3294,6 +3943,18 @@
    "children": [
     {
      "id": "E_term_ラーゼフの推論方法",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ラーゼフの推論方法",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ピュクシス(ガルズの幻像",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ピュクシスガルズの幻像",
      "relation": "aspect"
     }
    ]
@@ -3344,7 +4005,9 @@
     "ラズリ",
     "ちびラズリ",
     "店員(ラズリ)",
-    "店員さん(ラズリ)"
+    "店員さん(ラズリ)",
+    "ラズリ(女占い師)",
+    "ラズリ(黒紫の占い師)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -3378,6 +4041,10 @@
    ],
    "fact_total": 20,
    "children": [
+    {
+     "id": "E_char_ラズリの力",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_ラズリの力",
      "relation": "aspect"
@@ -3431,6 +4098,10 @@
     {
      "id": "E_char_ライラ(完全なる「傘の魔女」状態/変貌後)",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_ライラ(夢の中)",
+     "relation": "aspect"
     }
    ]
   },
@@ -3471,7 +4142,13 @@
     "E_char_豚の女王",
     "E_term_ブウテト"
    ],
-   "fact_total": 19
+   "fact_total": 19,
+   "children": [
+    {
+     "id": "E_char_ブウテトの風圧",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_term_ブリアー",
@@ -3550,6 +4227,10 @@
    ],
    "fact_total": 18,
    "children": [
+    {
+     "id": "E_char_巨人の頭脳",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_巨人の頭脳",
      "relation": "aspect"
@@ -3710,6 +4391,10 @@
    ],
    "fact_total": 16,
    "children": [
+    {
+     "id": "E_term_クリーナーの回想",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_クリーナーの回想",
      "relation": "aspect"
@@ -3968,6 +4653,10 @@
    ],
    "fact_total": 11,
    "children": [
+    {
+     "id": "E_term_ゲームの物語",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_ゲームの物語",
      "relation": "aspect"
@@ -4402,6 +5091,10 @@
     {
      "id": "E_term_マラコーダの毒",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_マラコーダの毒",
+     "relation": "aspect"
     }
    ]
   },
@@ -4446,7 +5139,9 @@
     "ウォゾマ・メロロキン",
     "グレンデルヒ(通称:グールイェン)",
     "グレンデルヒ=アキラ",
-    "銀天使内部の男性"
+    "銀天使内部の男性",
+    "グレンデルヒたち",
+    "地上最強の男"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -4475,6 +5170,30 @@
    ],
    "fact_total": 122,
    "children": [
+    {
+     "id": "E_char_グレンデルヒ(の中身/黒蟲騎士団)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_グレンデルヒ(グールイェン)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_グレンデルヒ(変異の三手状態)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_phrase_グレンデルヒの役割",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_グレンデルヒの正体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_グレンデルヒの能力",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_グレンデルヒ(の中身/黒蟲騎士団)",
      "relation": "aspect"
@@ -4543,7 +5262,10 @@
     "聖油",
     "カシュラム王(オルヴァ)",
     "オルヴァ(髭大夫)",
-    "オルヴァラリスキャニア"
+    "オルヴァラリスキャニア",
+    "臣下たち",
+    "オルヴァ(ラリスキャニア)",
+    "髭大夫(オルヴァ)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -4573,6 +5295,54 @@
    ],
    "fact_total": 60,
    "children": [
+    {
+     "id": "E_term_オルヴァの人事",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_オルヴァの大顎",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_オルヴァの魂",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァ(ラリスキャニア通過)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァ(六王の一人)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァ(左腕/赤毛の塊)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァ(幻想)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァ(転生後)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァ(過去/象徴)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァ(青年形態)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァ/髪longs美男子",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァ(解放直後)",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_オルヴァの人事",
      "relation": "aspect"
@@ -4654,6 +5424,10 @@
    ],
    "fact_total": 59,
    "children": [
+    {
+     "id": "E_term_ロードデンドロンの過去",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_ロードデンドロンの過去",
      "relation": "aspect"
@@ -4757,7 +5531,9 @@
    "canonical": "アルト",
    "aliases": [
     "アルト",
-    "カーネリアン"
+    "カーネリアン",
+    "ダーカンシェルの言葉を受け継ぐ子",
+    "お父様"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -4852,6 +5628,10 @@
    ],
    "fact_total": 49,
    "children": [
+    {
+     "id": "E_term_魔導書の人面",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_魔導書の人面",
      "relation": "aspect"
@@ -4992,6 +5772,10 @@
     {
      "id": "E_char_異獣の駆逐",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_異獣の駆逐",
+     "relation": "aspect"
     }
    ]
   },
@@ -5091,6 +5875,14 @@
    ],
    "fact_total": 41,
    "children": [
+    {
+     "id": "E_term_呪力の流れ",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_呪力の発生源",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_呪力の流れ",
      "relation": "aspect"
@@ -5240,6 +6032,10 @@
     {
      "id": "E_term_レメスの浄界",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_レメスの浄界",
+     "relation": "aspect"
     }
    ]
   },
@@ -5277,6 +6073,14 @@
    ],
    "fact_total": 34,
    "children": [
+    {
+     "id": "E_char_クレアノーズ(天使の翼の幻影/イメージ)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_クレアノーズ(骨ファーラ/本物のメイファーラの意図を受けた状態)",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_クレアノーズ(天使の翼の幻影/イメージ)",
      "relation": "aspect"
@@ -5420,6 +6224,10 @@
     {
      "id": "E_item_通信機能",
      "relation": "aspect"
+    },
+    {
+     "id": "E_item_通信機能",
+     "relation": "aspect"
     }
    ]
   },
@@ -5486,7 +6294,13 @@
     "E_char_イルハム",
     "E_term_イルス"
    ],
-   "fact_total": 27
+   "fact_total": 27,
+   "children": [
+    {
+     "id": "E_char_イルス(黒檀の民男性)",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_org_神々の図書館",
@@ -5524,7 +6338,8 @@
    "canonical": "カタルマリーナ",
    "aliases": [
     "カタルマリーナ",
-    "カタルマリーナの声"
+    "カタルマリーナの声",
+    "カタルマリーナ(死の囀りの亡霊)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -5597,7 +6412,13 @@
     "E_org_ラフディ",
     "E_term_ラフディ"
    ],
-   "fact_total": 26
+   "fact_total": 26,
+   "children": [
+    {
+     "id": "E_char_ラフディの三番",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_過去視",
@@ -5935,7 +6756,9 @@
    "aliases": [
     "ヴァージリア",
     "ヴァージリ",
-    "ヴァージリア(ブラック)"
+    "ヴァージリア(ブラック)",
+    "ヴァージリア(ジル",
+    "ヴァージリアジル"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -6129,6 +6952,10 @@
     {
      "id": "E_loc_探索者の城",
      "relation": "aspect"
+    },
+    {
+     "id": "E_loc_探索者の城",
+     "relation": "aspect"
     }
    ]
   },
@@ -6224,6 +7051,10 @@
    ],
    "fact_total": 16,
    "children": [
+    {
+     "id": "E_term_ローザの使い魔(蜂)",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_ローザの使い魔(蜂)",
      "relation": "aspect"
@@ -6463,7 +7294,13 @@
    "seed_ids": [
     "E_char_品森晶"
    ],
-   "fact_total": 13
+   "fact_total": 13,
+   "children": [
+    {
+     "id": "E_char_大蛇(品森晶の前世)",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_複合種",
@@ -6775,6 +7612,10 @@
     {
      "id": "E_char_立体幻像の少女たち",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_立体幻像の少女たち",
+     "relation": "aspect"
     }
    ]
   },
@@ -6873,7 +7714,8 @@
    "canonical": "イナータルゴ",
    "aliases": [
     "イナータルゴ",
-    "イナータルゴ様"
+    "イナータルゴ様",
+    "イナータルゴ様(百目の男)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -7244,6 +8086,10 @@
     {
      "id": "E_item_ジュティアの魔弾",
      "relation": "aspect"
+    },
+    {
+     "id": "E_item_ジュティアの魔弾",
+     "relation": "aspect"
     }
    ]
   },
@@ -7409,6 +8255,14 @@
    ],
    "fact_total": 7,
    "children": [
+    {
+     "id": "E_creature_ミナの化身(炎天使)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ミナの遺体",
+     "relation": "aspect"
+    },
     {
      "id": "E_creature_ミナの化身(炎天使)",
      "relation": "aspect"
@@ -8437,6 +9291,14 @@
    ],
    "fact_total": 3,
    "children": [
+    {
+     "id": "E_char_アヌビス740(frozen/torchドラムス担当/眠り棺)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_アヌビス740(眠り棺)",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_アヌビス740(frozen/torchドラムス担当/眠り棺)",
      "relation": "aspect"
@@ -9745,6 +10607,10 @@
     {
      "id": "E_term_サイバーカラテ道場の力",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_サイバーカラテ道場の力",
+     "relation": "aspect"
     }
    ]
   },
@@ -9763,7 +10629,10 @@
     "トリシューラ/ちびシューラ/ちびアキラ",
     "トリシューラ/ケイト",
     "トリシューラ/ケイト(アバター)",
-    "トリシューラ/コルセスカ"
+    "トリシューラ/コルセスカ",
+    "トリシューラ(仮想",
+    "トリシューラ,コルセスカ",
+    "トリシューラ仮想"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -9834,6 +10703,62 @@
     {
      "id": "E_char_トリシューラ仮想",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(アバター)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(ドール姿)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(偽装/化けた姿)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(六歳)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(十三歳)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(十歳)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(回想における妖精/幼少期)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(少女",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(強化外骨格",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(現在/若い個体)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(複数体)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラ(過去体たち)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラの企み",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_トリシューラの意図",
+     "relation": "aspect"
     }
    ]
   },
@@ -9846,7 +10771,8 @@
     "幼きトリシューラ",
     "少女(コルセスカ役)",
     "少女(幻の右手を持つ子/コルセスカのアバターか)",
-    "少女(後のコルセスカ/セレス)"
+    "少女(後のコルセスカ/セレス)",
+    "クリア先生(サリアの見守る人物/コルセスカ?)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -9870,6 +10796,54 @@
    ],
    "fact_total": 357,
    "children": [
+    {
+     "id": "E_term_コルセスカ(アキラ経由)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_コルセスカの服",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_コルセスカ(天使の姿)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_コルセスカ(幻像)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_コルセスカ(幼少期/トリシューラが見た姿)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_コルセスカ(幼少期上書き後)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_コルセスカ(氷の竜に乗る)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_コルセスカ(氷像)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_コルセスカ(氷筍内)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_コルセスカの戦闘力",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_コルセスカの能力",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_コルセスカ(変貌後)",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_コルセスカ(アキラ経由)",
      "relation": "aspect"
@@ -9967,6 +10941,38 @@
     {
      "id": "E_char_第五階層の状況",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_第五階層の争う者たち",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_org_第五階層の住人たち",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_org_第五階層の住民",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_第五階層の新たな掌握者",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_event_第五階層の異変",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_event_第五階層の解放",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_第五階層の住人の能力",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_第五階層の状況",
+     "relation": "aspect"
     }
    ]
   },
@@ -10034,6 +11040,42 @@
     {
      "id": "E_char_内側の人格(クレイ)",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_クレイの信念",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_クレイの姓名",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_クレイの精神",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_クレイ(クレイの目覚めた時)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_クレイ(変身後)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_クレイ(粘土人形)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_クレイの正体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_内側の人格(クレイ)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_残骸/クレイの残骸",
+     "relation": "aspect"
     }
    ]
   },
@@ -10095,6 +11137,10 @@
     {
      "id": "E_term_ガロアンディアンの規則",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_ガロアンディアンの規則",
+     "relation": "aspect"
     }
    ]
   },
@@ -10103,7 +11149,9 @@
    "canonical": "レオ",
    "aliases": [
     "レオ",
-    "レオ/セージ"
+    "レオ/セージ",
+    "レオ(ヴァージル役)",
+    "ヴァージル(レオ演じる)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -10165,6 +11213,38 @@
     {
      "id": "E_char_猫耳",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_レオの呪文",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_レオの容姿",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_レオの演技",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_レオの視座",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_レオの視線",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_レオの頭頂部の耳",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_レオ(少年)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_猫耳",
+     "relation": "aspect"
     }
    ]
   },
@@ -10172,7 +11252,8 @@
    "id": "E_char_マレブランケ",
    "canonical": "マレブランケ",
    "aliases": [
-    "マレブランケ"
+    "マレブランケ",
+    "マレブランケの杖使い"
    ],
    "kind": "organization",
    "kind_confidence": "裁定済",
@@ -10228,6 +11309,14 @@
     {
      "id": "E_item_手の平から溢れ出すクリアな輝き",
      "relation": "aspect"
+    },
+    {
+     "id": "E_item_手の平から溢れ出すクリアな輝き",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_左腕断端",
+     "relation": "aspect"
     }
    ]
   },
@@ -10260,6 +11349,14 @@
    "children": [
     {
      "id": "E_term_世界槍の天頂",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_世界槍の天頂",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_loc_世界槍の階層世界",
      "relation": "aspect"
     }
    ]
@@ -10323,7 +11420,8 @@
     "ミヒトネッセ(レナリア支配時)",
     "ミヒトネッセ(推定)/ハルシャニア",
     "ミヒトネッセ(狂イ姫",
-    "ミヒトネッセ狂イ姫"
+    "ミヒトネッセ狂イ姫",
+    "女(ミヒトネッセ)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -10369,6 +11467,26 @@
     },
     {
      "id": "E_char_ミヒトネッセ(舞台演出)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ミヒトネッセの叫び",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ミヒトネッセの呪力",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_ミヒトネッセの呪的変装",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ミヒトネッセの感情",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ミヒトネッセの視線",
      "relation": "aspect"
     }
    ]
@@ -10457,6 +11575,10 @@
     {
      "id": "E_char_母の教え",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_母の教え",
+     "relation": "aspect"
     }
    ]
   },
@@ -10489,6 +11611,10 @@
     {
      "id": "E_char_ロドウィ(変身後)",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_ロドウィ(変身後)",
+     "relation": "aspect"
     }
    ]
   },
@@ -10496,7 +11622,8 @@
    "id": "E_char_セリアック=ニア",
    "canonical": "セリアック=ニア",
    "aliases": [
-    "セリアック＝ニア"
+    "セリアック＝ニア",
+    "セリアック=ニア(聖姫)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -10521,6 +11648,10 @@
    ],
    "fact_total": 82,
    "children": [
+    {
+     "id": "E_item_セリアック=ニアの衣装",
+     "relation": "aspect"
+    },
     {
      "id": "E_item_セリアック=ニアの衣装",
      "relation": "aspect"
@@ -10559,7 +11690,8 @@
    "aliases": [
     "ラクルラール",
     "姫君",
-    "ラクルラール(人形師)"
+    "ラクルラール(人形師)",
+    "四番目のラクルラール"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -10585,6 +11717,10 @@
    "children": [
     {
      "id": "E_char_ラクルラール(の人形)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ラクルラール(の糸)",
      "relation": "aspect"
     },
     {
@@ -10626,7 +11762,9 @@
    "aliases": [
     "シューラ",
     "赤毛の妖精(ちびシューラ/ウィッチオーダー)",
-    "シューラ/セスカ"
+    "シューラ/セスカ",
+    "本体シューラ",
+    "シューラ(実体/標準)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -10659,7 +11797,8 @@
    "aliases": [
     "リーナ",
     "リーナ(クロウサー)",
-    "リーナ氏"
+    "リーナ氏",
+    "リーナクロウサー"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -10698,6 +11837,26 @@
     {
      "id": "E_char_リーナの肉体",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_リーナ(意識)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_リーナの台詞",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_リーナの呪文",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_リーナの肉体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_リーナ意識",
+     "relation": "aspect"
     }
    ]
   },
@@ -10726,7 +11885,17 @@
     "E_item_ルウテト",
     "E_term_ルウテト"
    ],
-   "fact_total": 73
+   "fact_total": 73,
+   "children": [
+    {
+     "id": "E_char_ルウテトの正体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ルウテトの限界",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_心話",
@@ -10783,6 +11952,10 @@
     {
      "id": "E_org_槍神教の派閥",
      "relation": "aspect"
+    },
+    {
+     "id": "E_org_槍神教の派閥",
+     "relation": "aspect"
     }
    ]
   },
@@ -10811,6 +11984,14 @@
    ],
    "fact_total": 66,
    "children": [
+    {
+     "id": "E_term_大神院の意思",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_org_大神院の高位神官",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_大神院の意思",
      "relation": "aspect"
@@ -10844,6 +12025,18 @@
    ],
    "fact_total": 64,
    "children": [
+    {
+     "id": "E_char_ロウカーイン(分身)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ヴァージルアストラル体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ヴァージル少年の生首",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_ロウカーイン(分身)",
      "relation": "aspect"
@@ -10943,6 +12136,18 @@
     {
      "id": "E_term_イアテムの配下",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_イアテムの配下",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_イアテム(アバター/分身)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_イアテム(アバター/分身)",
+     "relation": "aspect"
     }
    ]
   },
@@ -11002,7 +12207,8 @@
    "id": "E_char_ウィッチオーダー",
    "canonical": "ウィッチオーダー",
    "aliases": [
-    "ウィッチオーダー"
+    "ウィッチオーダー",
+    "ウィッチオーダー(no.10)"
    ],
    "kind": "item",
    "kind_confidence": "裁定済",
@@ -11210,6 +12416,10 @@
     {
      "id": "E_char_黒百合宮の記憶",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_黒百合宮の記憶",
+     "relation": "aspect"
     }
    ]
   },
@@ -11219,7 +12429,8 @@
    "aliases": [
     "チリアット",
     "名無し",
-    "隻眼の男(チリアット記憶喪失)"
+    "隻眼の男(チリアット記憶喪失)",
+    "チリアット(チビシューラ)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -11242,6 +12453,10 @@
    ],
    "fact_total": 47,
    "children": [
+    {
+     "id": "E_term_チリアットの過去",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_チリアットの過去",
      "relation": "aspect"
@@ -11272,7 +12487,13 @@
     "E_char_ブレイスヴァ",
     "E_term_ブレイスヴァ"
    ],
-   "fact_total": 47
+   "fact_total": 47,
+   "children": [
+    {
+     "id": "E_char_ブレイスヴァの叫び",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_機械女王",
@@ -11380,6 +12601,10 @@
     {
      "id": "E_char_副長たち",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_副長たち",
+     "relation": "aspect"
     }
    ]
   },
@@ -11409,6 +12634,18 @@
    ],
    "fact_total": 44,
    "children": [
+    {
+     "id": "E_term_イキューの舌(本体)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_イキューの舌",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_イキューの舌(本体",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_イキューの舌(本体)",
      "relation": "aspect"
@@ -11456,7 +12693,8 @@
     "ヴァージル",
     "ヴァージル(アキラ)",
     "少年(ヴァージル)",
-    "少年ヴァージル"
+    "少年ヴァージル",
+    "ヴァージル(アキラ"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -11480,6 +12718,10 @@
    ],
    "fact_total": 40,
    "children": [
+    {
+     "id": "E_char_ヴァージル(少年)",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_ヴァージル(少年)",
      "relation": "aspect"
@@ -11520,6 +12762,10 @@
     },
     {
      "id": "E_char_メイファーラ(肉付き側/偽物?)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_メイファーラ(目玉)",
      "relation": "aspect"
     }
    ]
@@ -11637,7 +12883,8 @@
    "id": "E_char_イツノ",
    "canonical": "イツノ",
    "aliases": [
-    "イツノ"
+    "イツノ",
+    "イツノ(/俺)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -11658,7 +12905,13 @@
     "E_item_イツノ",
     "E_term_イツノ"
    ],
-   "fact_total": 37
+   "fact_total": 37,
+   "children": [
+    {
+     "id": "E_char_イツノ(/俺)",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_ドラトリア",
@@ -11684,7 +12937,13 @@
     "E_char_ドラトリア",
     "E_org_ドラトリア"
    ],
-   "fact_total": 37
+   "fact_total": 37,
+   "children": [
+    {
+     "id": "E_org_ドラトリアの部隊",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_ナト",
@@ -11900,6 +13159,14 @@
     {
      "id": "E_term_氷血呪の本質",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_氷血呪の反動",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_氷血呪の本質",
+     "relation": "aspect"
     }
    ]
   },
@@ -11927,7 +13194,13 @@
     "E_char_イェレイド",
     "E_term_イェレイド"
    ],
-   "fact_total": 34
+   "fact_total": 34,
+   "children": [
+    {
+     "id": "E_char_イェレイド(狂怖)",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_氷血のコルセスカ",
@@ -12187,6 +13460,10 @@
     {
      "id": "E_char_後衛特化の実力",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_後衛特化の実力",
+     "relation": "aspect"
     }
    ]
   },
@@ -12246,6 +13523,14 @@
    "children": [
     {
      "id": "E_char_マリーの顔",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_マリーの顔",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_motif_マリーの保護",
      "relation": "aspect"
     }
    ]
@@ -12384,7 +13669,8 @@
    "id": "E_char_セージ",
    "canonical": "セージ",
    "aliases": [
-    "セージ"
+    "セージ",
+    "セージ(デーデェイア降ろし)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -13265,7 +14551,8 @@
    "id": "E_char_黒衣",
    "canonical": "黒衣",
    "aliases": [
-    "黒衣"
+    "黒衣",
+    "黒衣の人物"
    ],
    "kind": "item",
    "kind_confidence": "機械",
@@ -13365,6 +14652,10 @@
     {
      "id": "E_char_カシュラムの歴史",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_カシュラムの歴史",
+     "relation": "aspect"
     }
    ]
   },
@@ -13394,6 +14685,14 @@
    ],
    "fact_total": 21,
    "children": [
+    {
+     "id": "E_term_クエスドレム(内側の存在)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_クエスドレム(館の主人)",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_クエスドレム(内側の存在)",
      "relation": "aspect"
@@ -13665,6 +14964,10 @@
     {
      "id": "E_char_フラベウファの掌",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_フラベウファの掌",
+     "relation": "aspect"
     }
    ]
   },
@@ -13855,6 +15158,10 @@
    "children": [
     {
      "id": "E_char_ラリスキャニア(オルヴァ化)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ラリスキャニア触手",
      "relation": "aspect"
     },
     {
@@ -14070,6 +15377,10 @@
    ],
    "fact_total": 18,
    "children": [
+    {
+     "id": "E_item_アマランサスの心臓",
+     "relation": "aspect"
+    },
     {
      "id": "E_item_アマランサスの心臓",
      "relation": "aspect"
@@ -14588,6 +15899,10 @@
    ],
    "fact_total": 16,
    "children": [
+    {
+     "id": "E_char_左手の危険性",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_左手の危険性",
      "relation": "aspect"
@@ -15756,7 +17071,13 @@
     }
    ],
    "seed_ids": [],
-   "fact_total": 14
+   "fact_total": 14,
+   "children": [
+    {
+     "id": "E_char_博物城の前世持ち",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_term_地獄",
@@ -15951,6 +17272,18 @@
    ],
    "fact_total": 13,
    "children": [
+    {
+     "id": "E_char_エントラグイシュ(変貌赤子)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_エントラグイシュ(成長赤子)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_エントラグイシュ(赤子の人形)",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_エントラグイシュ(変貌赤子)",
      "relation": "aspect"
@@ -16351,6 +17684,14 @@
     {
      "id": "E_char_カズキス(黒死蝶の召喚)",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_カズキスの呪いを刻まれた器",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_カズキス(黒死蝶の召喚)",
+     "relation": "aspect"
     }
    ]
   },
@@ -16408,6 +17749,18 @@
    ],
    "fact_total": 12,
    "children": [
+    {
+     "id": "E_term_チッセの化身",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_チッセの呪文",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_小鬼化したチッセ",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_チッセの化身",
      "relation": "aspect"
@@ -16531,6 +17884,10 @@
     {
      "id": "E_item_ヴァレリアンヌ(義肢兵装)",
      "relation": "aspect"
+    },
+    {
+     "id": "E_item_ヴァレリアンヌ(義肢兵装)",
+     "relation": "aspect"
     }
    ]
   },
@@ -16585,6 +17942,10 @@
    ],
    "fact_total": 12,
    "children": [
+    {
+     "id": "E_term_英雄の亡骸",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_英雄の亡骸",
      "relation": "aspect"
@@ -16844,7 +18205,8 @@
    "canonical": "オルヴァ・スマダルツォン",
    "aliases": [
     "オルヴァ・スマダルツォン",
-    "カシュラムの王"
+    "カシュラムの王",
+    "オルヴァスマダルツォン(王)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -16879,6 +18241,22 @@
     },
     {
      "id": "E_char_オルヴァスマダルツォン(王)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァスマダルツォン(老賢者)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァスマダルツォン(少年)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァスマダルツォン(戦闘後)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_オルヴァスマダルツォン(時の巡りによる変容)",
      "relation": "aspect"
     },
     {
@@ -17019,6 +18397,14 @@
     {
      "id": "E_term_セスカ最大の武器である氷血呪",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_セスカ最大の武器である『氷血呪』",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_セスカ最大の武器である氷血呪",
+     "relation": "aspect"
     }
    ]
   },
@@ -17103,7 +18489,8 @@
    "id": "E_char_ビルメーヤ",
    "canonical": "ビルメーヤ",
    "aliases": [
-    "ビルメーヤ"
+    "ビルメーヤ",
+    "ビルメーヤ,リーナ"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -17235,6 +18622,14 @@
     {
      "id": "E_item_右腕の能力",
      "relation": "aspect"
+    },
+    {
+     "id": "E_item_右腕の義手",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_右腕の能力",
+     "relation": "aspect"
     }
    ]
   },
@@ -17314,6 +18709,18 @@
    ],
    "fact_total": 11,
    "children": [
+    {
+     "id": "E_char_影の存在",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_影の存在(レゴン/赤子)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_影の群れ",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_影の存在",
      "relation": "aspect"
@@ -17486,7 +18893,13 @@
    "seed_ids": [
     "E_item_ディーテ"
    ],
-   "fact_total": 11
+   "fact_total": 11,
+   "children": [
+    {
+     "id": "E_char_ディーテ(少女の姿)",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_item_災厄の槍",
@@ -17908,7 +19321,8 @@
    "id": "E_char_セラメル",
    "canonical": "セラメル",
    "aliases": [
-    "セラメル"
+    "セラメル",
+    "セラメル(アヴロノの目撃者経由)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -17933,6 +19347,10 @@
     {
      "id": "E_loc_セラメルの工房",
      "relation": "aspect"
+    },
+    {
+     "id": "E_loc_セラメルの工房",
+     "relation": "aspect"
     }
    ]
   },
@@ -17940,7 +19358,9 @@
    "id": "E_char_タマラ",
    "canonical": "タマラ",
    "aliases": [
-    "タマラ"
+    "タマラ",
+    "タマラ(ジアメア)",
+    "タマラ(タマちゃん)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -18063,6 +19483,10 @@
    ],
    "fact_total": 10,
    "children": [
+    {
+     "id": "E_char_トレミー(霊体/幻影)",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_トレミー(霊体/幻影)",
      "relation": "aspect"
@@ -18966,7 +20390,8 @@
    "id": "E_char_ゾーイ",
    "canonical": "ゾーイ",
    "aliases": [
-    "ゾーイ"
+    "ゾーイ",
+    "ゾーイ(力士)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -18987,6 +20412,14 @@
    ],
    "fact_total": 9,
    "children": [
+    {
+     "id": "E_term_ゾーイの本体",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_ゾーイの心臓",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_ゾーイの本体",
      "relation": "aspect"
@@ -19438,6 +20871,10 @@
     {
      "id": "E_char_牙猪の左腕",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_牙猪の左腕",
+     "relation": "aspect"
     }
    ]
   },
@@ -19470,7 +20907,8 @@
    "id": "E_char_白のメートリアン",
    "canonical": "白のメートリアン",
    "aliases": [
-    "白のメートリアン"
+    "白のメートリアン",
+    "ヒロイン(白のメートリアン)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -20167,6 +21605,10 @@
     {
      "id": "E_char_呪術の代償",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_呪術の代償",
+     "relation": "aspect"
     }
    ]
   },
@@ -20270,7 +21712,8 @@
    "id": "E_term_猫",
    "canonical": "猫",
    "aliases": [
-    "猫"
+    "猫",
+    "猫のような少女"
    ],
    "kind": "terminology",
    "kind_confidence": "裁定済",
@@ -20467,7 +21910,9 @@
    "id": "E_char_エリカ",
    "canonical": "エリカ",
    "aliases": [
-    "エリカ"
+    "エリカ",
+    "エリカ(ツツジ",
+    "エリカ推定"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -20490,6 +21935,10 @@
    ],
    "fact_total": 8,
    "children": [
+    {
+     "id": "E_char_エリカの兄",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_エリカの兄",
      "relation": "aspect"
@@ -20549,6 +21998,18 @@
    ],
    "fact_total": 8,
    "children": [
+    {
+     "id": "E_org_サンブル家の世界",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_org_サンブル家(幻像",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_org_サンブル家幻像",
+     "relation": "aspect"
+    },
     {
      "id": "E_org_サンブル家の世界",
      "relation": "aspect"
@@ -20771,6 +22232,10 @@
     {
      "id": "E_term_ルビカンテのシンボル(赤い手)",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_ルビカンテのシンボル(赤い手)",
+     "relation": "aspect"
     }
    ]
   },
@@ -20823,7 +22288,13 @@
     "E_char_女王",
     "E_term_女王"
    ],
-   "fact_total": 8
+   "fact_total": 8,
+   "children": [
+    {
+     "id": "E_item_女王の生首",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_幻姿霊",
@@ -22218,6 +23689,10 @@
     {
      "id": "E_char_キシャル(絵画中の未来)",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_キシャル(絵画中の未来)",
+     "relation": "aspect"
     }
    ]
   },
@@ -22275,7 +23750,8 @@
    "id": "E_char_クルミ",
    "canonical": "クルミ",
    "aliases": [
-    "クルミ"
+    "クルミ",
+    "クルミ(死体)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -22297,6 +23773,10 @@
    ],
    "fact_total": 7,
    "children": [
+    {
+     "id": "E_char_クルミ(の幻/記憶の姿)",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_クルミ(の幻/記憶の姿)",
      "relation": "aspect"
@@ -22431,7 +23911,13 @@
    "seed_ids": [
     "E_char_トリギス"
    ],
-   "fact_total": 7
+   "fact_total": 7,
+   "children": [
+    {
+     "id": "E_org_トリギス率いる分隊",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_ドラトリア系夜の民",
@@ -22716,6 +24202,14 @@
    ],
    "fact_total": 7,
    "children": [
+    {
+     "id": "E_term_人形たちの眼球",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_item_人形の手",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_人形たちの眼球",
      "relation": "aspect"
@@ -23588,7 +25082,8 @@
    "id": "E_term_ゾラ",
    "canonical": "ゾラ",
    "aliases": [
-    "ゾラ"
+    "ゾラ",
+    "ゾラ(リーナ)"
    ],
    "kind": "organization",
    "kind_confidence": "裁定済",
@@ -23611,6 +25106,14 @@
    "children": [
     {
      "id": "E_org_ゾラの使命",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_org_ゾラの使命",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_ゾラの当主父",
      "relation": "aspect"
     }
    ]
@@ -23975,6 +25478,10 @@
     {
      "id": "E_term_第一階層の裏面",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_第一階層の裏面",
+     "relation": "aspect"
     }
    ]
   },
@@ -24226,6 +25733,10 @@
     {
      "id": "E_char_不死性",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_不死性",
+     "relation": "aspect"
     }
    ]
   },
@@ -24361,6 +25872,14 @@
     {
      "id": "E_char_赤い髪",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_ヒメ(コズエの半身)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_赤い髪",
+     "relation": "aspect"
     }
    ]
   },
@@ -24492,6 +26011,10 @@
    ],
    "fact_total": 6,
    "children": [
+    {
+     "id": "E_term_テテリビナの梢",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_テテリビナの梢",
      "relation": "aspect"
@@ -25299,6 +26822,10 @@
     {
      "id": "E_org_首領の組織",
      "relation": "aspect"
+    },
+    {
+     "id": "E_org_首領の組織",
+     "relation": "aspect"
     }
    ]
   },
@@ -25329,6 +26856,10 @@
    ],
    "fact_total": 6,
    "children": [
+    {
+     "id": "E_term_魔女の姿_影_",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_魔女の姿_影_",
      "relation": "aspect"
@@ -27049,7 +28580,8 @@
    "id": "E_term_藍",
    "canonical": "藍",
    "aliases": [
-    "藍"
+    "藍",
+    "藍の転生者"
    ],
    "kind": "terminology",
    "kind_confidence": "機械",
@@ -27523,7 +29055,8 @@
    "id": "E_char_サンデリアーナ",
    "canonical": "サンデリアーナ",
    "aliases": [
-    "サンデリアーナ"
+    "サンデリアーナ",
+    "サンデリアーナ(ハタラドゥール)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -27625,7 +29158,8 @@
    "id": "E_char_トッド",
    "canonical": "トッド",
    "aliases": [
-    "トッド"
+    "トッド",
+    "トッド,マフス"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -27828,7 +29362,8 @@
    "id": "E_char_ペルセフォネ",
    "canonical": "ペルセフォネ",
    "aliases": [
-    "ペルセフォネ"
+    "ペルセフォネ",
+    "ペルセフォネ(少女/姫君)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -28122,6 +29657,22 @@
    ],
    "fact_total": 5,
    "children": [
+    {
+     "id": "E_term_世界の境界部分",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_世界の構造に刻み込まれた『ことば』",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_世界の理",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_世界の流血(現象)",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_世界の境界部分",
      "relation": "aspect"
@@ -28761,6 +30312,14 @@
    ],
    "fact_total": 5,
    "children": [
+    {
+     "id": "E_term_父の姿",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_父の立派さ",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_父の姿",
      "relation": "aspect"
@@ -31418,7 +32977,13 @@
     }
    ],
    "seed_ids": [],
-   "fact_total": 5
+   "fact_total": 5,
+   "children": [
+    {
+     "id": "E_term_第八階層の趨勢",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_term_絶対遵守の権能",
@@ -32197,7 +33762,8 @@
    "id": "E_char_ゴッツアンデルス",
    "canonical": "ゴッツアンデルス",
    "aliases": [
-    "ゴッツアンデルス"
+    "ゴッツアンデルス",
+    "ゴッツアンデルス(ゾーイデルヒ)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -32565,7 +34131,8 @@
    "id": "E_char_ビークレット",
    "canonical": "ビークレット",
    "aliases": [
-    "ビークレット"
+    "ビークレット",
+    "ビークレット(白焔の貴婦人)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -32613,7 +34180,8 @@
    "id": "E_char_マフス",
    "canonical": "マフス",
    "aliases": [
-    "マフス"
+    "マフス",
+    "マフス・アズーリア"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -33049,6 +34617,10 @@
     {
      "id": "E_char_大公(過去)",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_大公(過去)",
+     "relation": "aspect"
     }
    ]
   },
@@ -33079,6 +34651,10 @@
    ],
    "fact_total": 4,
    "children": [
+    {
+     "id": "E_item_少女の頭部",
+     "relation": "aspect"
+    },
     {
      "id": "E_item_少女の頭部",
      "relation": "aspect"
@@ -33133,6 +34709,10 @@
    ],
    "fact_total": 4,
    "children": [
+    {
+     "id": "E_char_復讐の動機",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_復讐の動機",
      "relation": "aspect"
@@ -33381,6 +34961,10 @@
    ],
    "fact_total": 4,
    "children": [
+    {
+     "id": "E_term_眼球の中央",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_眼球の中央",
      "relation": "aspect"
@@ -37828,7 +39412,13 @@
    "seed_ids": [
     "E_term_奉竜山"
    ],
-   "fact_total": 4
+   "fact_total": 4,
+   "children": [
+    {
+     "id": "E_term_奉竜山の拳法",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_term_岩肌種_トロル_",
@@ -38129,6 +39719,10 @@
    "seed_ids": [],
    "fact_total": 4,
    "children": [
+    {
+     "id": "E_char_朱の少年(過去)",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_朱の少年(過去)",
      "relation": "aspect"
@@ -39967,7 +41561,8 @@
    "id": "E_char_セレス",
    "canonical": "セレス",
    "aliases": [
-    "セレス"
+    "セレス",
+    "セレス(冥道の幼姫)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -39994,7 +41589,8 @@
    "id": "E_char_ゼール・コゼーヌ",
    "canonical": "ゼール・コゼーヌ",
    "aliases": [
-    "ゼール・コゼーヌ"
+    "ゼール・コゼーヌ",
+    "ゼールコゼーヌ(魔獣)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -40889,7 +42485,8 @@
    "id": "E_char_リアン",
    "canonical": "リアン",
    "aliases": [
-    "リアン"
+    "リアン",
+    "リアンさん"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -41153,6 +42750,10 @@
    ],
    "fact_total": 3,
    "children": [
+    {
+     "id": "E_term_侍女人形の遺体",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_侍女人形の遺体",
      "relation": "aspect"
@@ -42289,6 +43890,10 @@
     {
      "id": "E_char_王さまの心",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_王さまの心",
+     "relation": "aspect"
     }
    ]
   },
@@ -42493,6 +44098,18 @@
    "children": [
     {
      "id": "E_term_神の声",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_神の声",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_term_神の憤怒",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_神の存在",
      "relation": "aspect"
     }
    ]
@@ -42885,6 +44502,10 @@
    ],
    "fact_total": 3,
    "children": [
+    {
+     "id": "E_creature_葬儀屋の使い魔/死体",
+     "relation": "aspect"
+    },
     {
      "id": "E_creature_葬儀屋の使い魔/死体",
      "relation": "aspect"
@@ -44702,6 +46323,10 @@
     {
      "id": "E_term_台座の声",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_台座の声",
+     "relation": "aspect"
     }
    ]
   },
@@ -46296,6 +47921,10 @@
    "seed_ids": [],
    "fact_total": 3,
    "children": [
+    {
+     "id": "E_char_腕の使用",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_腕の使用",
      "relation": "aspect"
@@ -52276,7 +53905,13 @@
    "seed_ids": [
     "E_term_矛盾史"
    ],
-   "fact_total": 3
+   "fact_total": 3,
+   "children": [
+    {
+     "id": "E_term_矛盾史の呪文",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_term_知識",
@@ -54341,6 +55976,10 @@
     {
      "id": "E_item_アルスタの槍",
      "relation": "aspect"
+    },
+    {
+     "id": "E_item_アルスタの槍",
+     "relation": "aspect"
     }
    ]
   },
@@ -54771,7 +56410,8 @@
    "id": "E_char_エルネアーズ",
    "canonical": "エルネアーズ",
    "aliases": [
-    "エルネアーズ"
+    "エルネアーズ",
+    "エルネアーズ(推定)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -57347,6 +58987,10 @@
     {
      "id": "E_item_ボールの棘",
      "relation": "aspect"
+    },
+    {
+     "id": "E_item_ボールの棘",
+     "relation": "aspect"
     }
    ]
   },
@@ -57396,7 +59040,13 @@
    "seed_ids": [
     "E_char_マウザ"
    ],
-   "fact_total": 2
+   "fact_total": 2,
+   "children": [
+    {
+     "id": "E_char_マウザの親族",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_マゼシューラ",
@@ -57427,7 +59077,8 @@
    "id": "E_char_マゼンタ",
    "canonical": "マゼンタ",
    "aliases": [
-    "マゼンタ"
+    "マゼンタ",
+    "マゼンタの少女(レッテ)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -59105,6 +60756,10 @@
     {
      "id": "E_char_古き神の目的",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_古き神の目的",
+     "relation": "aspect"
     }
    ]
   },
@@ -59275,6 +60930,10 @@
    ],
    "fact_total": 2,
    "children": [
+    {
+     "id": "E_char_呪術師の男",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_呪術師の男",
      "relation": "aspect"
@@ -63077,6 +64736,10 @@
    ],
    "fact_total": 2,
    "children": [
+    {
+     "id": "E_term_舞台の死",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_舞台の死",
      "relation": "aspect"
@@ -78848,7 +80511,13 @@
    "seed_ids": [
     "E_motif_権力"
    ],
-   "fact_total": 2
+   "fact_total": 2,
+   "children": [
+    {
+     "id": "E_char_権力の行使",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_motif_死者の軍勢",
@@ -93191,7 +94860,13 @@
    "seed_ids": [
     "E_term_回廊"
    ],
-   "fact_total": 2
+   "fact_total": 2,
+   "children": [
+    {
+     "id": "E_item_回廊外壁",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_term_国歌",
@@ -109712,7 +111387,13 @@
    "seed_ids": [
     "E_char_ウォレス"
    ],
-   "fact_total": 1
+   "fact_total": 1,
+   "children": [
+    {
+     "id": "E_char_ウォレス(隠者)",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_ウォンウォン",
@@ -109764,7 +111445,8 @@
    "id": "E_char_ウネム・リビュエー",
    "canonical": "ウネム・リビュエー",
    "aliases": [
-    "ウネム・リビュエー"
+    "ウネム・リビュエー",
+    "ウネムリビュエー(アイバイザーの女性)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -110906,6 +112588,10 @@
     {
      "id": "E_char_カシューティス側",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_カシューティス側",
+     "relation": "aspect"
     }
    ]
   },
@@ -111445,7 +113131,8 @@
    "canonical": "ガドカレク",
    "aliases": [
     "ガドカレク",
-    "クエスドレム(館の主人/ガドカレク)"
+    "クエスドレム(館の主人/ガドカレク)",
+    "黒衣の中の闇(ガドカレク)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -111467,6 +113154,10 @@
    ],
    "fact_total": 1,
    "children": [
+    {
+     "id": "E_char_ガドカレクの正体",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_ガドカレクの正体",
      "relation": "aspect"
@@ -111939,7 +113630,8 @@
    "id": "E_char_クィ",
    "canonical": "クィ",
    "aliases": [
-    "クィ"
+    "クィ",
+    "少女(クィ)"
    ],
    "kind": "character",
    "kind_confidence": "機械",
@@ -115855,7 +117547,9 @@
    "id": "E_char_ダイロくん",
    "canonical": "ダイロくん",
    "aliases": [
-    "ダイロくん"
+    "ダイロくん",
+    "ダイロくん少年",
+    "ダイロくん(少年)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -124616,6 +126310,10 @@
     {
      "id": "E_item_人形師の駒",
      "relation": "aspect"
+    },
+    {
+     "id": "E_item_人形師の駒",
+     "relation": "aspect"
     }
    ]
   },
@@ -124878,6 +126576,14 @@
    ],
    "fact_total": 1,
    "children": [
+    {
+     "id": "E_term_仮面の下",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_仮面の下(鵺の姿/幻視パピヨン氏族)",
+     "relation": "aspect"
+    },
     {
      "id": "E_term_仮面の下",
      "relation": "aspect"
@@ -130233,6 +131939,10 @@
     {
      "id": "E_term_子供たちの好意",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_子供たちの好意",
+     "relation": "aspect"
     }
    ]
   },
@@ -130263,7 +131973,8 @@
    "id": "E_char_孤独な王",
    "canonical": "孤独な王",
    "aliases": [
-    "孤独な王"
+    "孤独な王",
+    "孤独な王(kodoku-na-ou)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -136337,6 +138048,10 @@
     {
      "id": "E_term_牡鹿の姿",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_牡鹿の姿",
+     "relation": "aspect"
     }
    ]
   },
@@ -141718,6 +143433,10 @@
    ],
    "fact_total": 1,
    "children": [
+    {
+     "id": "E_char_自己の本質",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_自己の本質",
      "relation": "aspect"
@@ -173322,7 +175041,11 @@
     }
    ],
    "seed_ids": [],
-   "fact_total": 1
+   "fact_total": 1,
+   "parent": {
+    "id": "E_char_人狼",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_item_巨大異獣",
@@ -188216,6 +189939,10 @@
    ],
    "fact_total": 1,
    "children": [
+    {
+     "id": "E_item_竪琴の音",
+     "relation": "aspect"
+    },
     {
      "id": "E_item_竪琴の音",
      "relation": "aspect"
@@ -206067,7 +207794,7 @@
    "seed_ids": [],
    "fact_total": 1,
    "parent": {
-    "id": "E_motif_夜",
+    "id": "E_creature_夜の民(アズーリア等)",
     "relation": "aspect"
    }
   },
@@ -256524,6 +258251,10 @@
     {
      "id": "E_term_亜竜王の名",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_亜竜王の名",
+     "relation": "aspect"
     }
    ]
   },
@@ -271930,7 +273661,13 @@
     }
    ],
    "seed_ids": [],
-   "fact_total": 1
+   "fact_total": 1,
+   "children": [
+    {
+     "id": "E_term_国家の役割",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_term_国家の法",
@@ -307482,6 +309219,10 @@
     {
      "id": "E_char_不死身",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_不死身",
+     "relation": "aspect"
     }
    ]
   },
@@ -322454,6 +324195,10 @@
     {
      "id": "E_char_自己同一性の危機",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_自己同一性の危機",
+     "relation": "aspect"
     }
    ]
   },
@@ -336798,6 +338543,10 @@
     {
      "id": "E_term_霊安室の遺体",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_霊安室の遺体",
+     "relation": "aspect"
     }
    ]
   },
@@ -338850,6 +340599,10 @@
    "seed_ids": [],
    "fact_total": 1,
    "children": [
+    {
+     "id": "E_char_館の主人",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_館の主人",
      "relation": "aspect"
@@ -343562,7 +345315,9 @@
   {
    "id": "E_org_クァヒート",
    "canonical": "クァヒート",
-   "aliases": [],
+   "aliases": [
+    "クァヒート家当主"
+   ],
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
@@ -343727,6 +345482,10 @@
    ],
    "first_seen": {
     "ep": "ch5117"
+   },
+   "parent": {
+    "id": "E_char_セレクティフィレクティ",
+    "relation": "aspect"
    }
   },
   {
@@ -343998,6 +345757,10 @@
     {
      "id": "E_term_声",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_声",
+     "relation": "aspect"
     }
    ]
   },
@@ -344084,7 +345847,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -344474,7 +346237,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -345177,7 +346940,9 @@
    "id": "E_char_未知の声(リーナ)",
    "canonical": "未知の声(リーナ)",
    "aliases": [
-    "未知の声（リーナ）"
+    "未知の声（リーナ）",
+    "未知の声(リーナ",
+    "未知の声リーナ"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -346475,6 +348240,10 @@
    ],
    "first_seen": {
     "ep": "ch5451"
+   },
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
    }
   },
   {
@@ -347720,7 +349489,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -347768,7 +349537,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -348267,6 +350036,10 @@
    ],
    "first_seen": {
     "ep": "ch0043"
+   },
+   "parent": {
+    "id": "E_org_大神院",
+    "relation": "aspect"
    }
   },
   {
@@ -348315,6 +350088,10 @@
    ],
    "first_seen": {
     "ep": "ch0075"
+   },
+   "parent": {
+    "id": "E_term_奉竜山",
+    "relation": "aspect"
    }
   },
   {
@@ -349234,7 +351011,9 @@
   {
    "id": "E_char_穏健なティリビナ人",
    "canonical": "穏健なティリビナ人",
-   "aliases": [],
+   "aliases": [
+    "穏健派ティリビナ人"
+   ],
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
@@ -349517,7 +351296,13 @@
    ],
    "first_seen": {
     "ep": "ch5504"
-   }
+   },
+   "children": [
+    {
+     "id": "E_term_第四家の思想",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_term_約束",
@@ -349790,7 +351575,7 @@
    "kind": "terminology",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -350414,7 +352199,7 @@
    "kind": "location",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -350716,7 +352501,7 @@
    "kind": "event",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -352071,6 +353856,10 @@
    ],
    "first_seen": {
     "ep": "ch5283"
+   },
+   "parent": {
+    "id": "E_char_オルヴァ",
+    "relation": "aspect"
    }
   },
   {
@@ -352767,7 +354556,7 @@
    "kind": "creature",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -352809,7 +354598,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -353819,7 +355608,7 @@
    "kind": "",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -355142,6 +356931,10 @@
    ],
    "first_seen": {
     "ep": "ch0247"
+   },
+   "parent": {
+    "id": "E_char_ディスケイム",
+    "relation": "aspect"
    }
   },
   {
@@ -355269,7 +357062,7 @@
    "kind": "terminology",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -355312,7 +357105,7 @@
    "kind": "terminology",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -355360,6 +357153,10 @@
    ],
    "first_seen": {
     "ep": "ch5199"
+   },
+   "parent": {
+    "id": "E_char_トリギス",
+    "relation": "aspect"
    }
   },
   {
@@ -355618,6 +357415,10 @@
    ],
    "first_seen": {
     "ep": "ch0169"
+   },
+   "parent": {
+    "id": "E_char_ドラトリア",
+    "relation": "aspect"
    }
   },
   {
@@ -356385,7 +358186,9 @@
   {
    "id": "E_char_プカーニャッツォ",
    "canonical": "プカーニャッツォ",
-   "aliases": [],
+   "aliases": [
+    "ブルドッグの大男"
+   ],
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
@@ -356566,7 +358369,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -356600,6 +358403,10 @@
    ],
    "first_seen": {
     "ep": "ch0046"
+   },
+   "parent": {
+    "id": "E_char_マウザ",
+    "relation": "aspect"
    }
   },
   {
@@ -357177,6 +358984,10 @@
    ],
    "first_seen": {
     "ep": "ch0139"
+   },
+   "parent": {
+    "id": "E_char_ラフディ",
+    "relation": "aspect"
    }
   },
   {
@@ -357205,7 +359016,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -357224,7 +359035,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -358875,6 +360686,10 @@
    ],
    "first_seen": {
     "ep": "ch5463"
+   },
+   "parent": {
+    "id": "E_char_世界槍",
+    "relation": "aspect"
    }
   },
   {
@@ -359690,7 +361505,7 @@
    "kind": "terminology",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -359709,7 +361524,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -361209,6 +363024,10 @@
     {
      "id": "E_term_区画の住民構成",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_区画の住民構成",
+     "relation": "aspect"
     }
    ]
   },
@@ -361299,7 +363118,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -361318,7 +363137,7 @@
    "kind": "item",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -361337,7 +363156,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -361375,7 +363194,7 @@
    "kind": "item",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -361404,6 +363223,10 @@
    ],
    "first_seen": {
     "ep": "ch0223"
+   },
+   "parent": {
+    "id": "E_term_博物城",
+    "relation": "aspect"
    }
   },
   {
@@ -361413,7 +363236,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -361432,7 +363255,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -361840,7 +363663,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -362109,6 +363932,10 @@
    ],
    "first_seen": {
     "ep": "ch5582"
+   },
+   "parent": {
+    "id": "E_char_呪文",
+    "relation": "aspect"
    }
   },
   {
@@ -362333,7 +364160,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -362352,7 +364179,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -362371,7 +364198,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -362428,7 +364255,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -362478,6 +364305,10 @@
    ],
    "first_seen": {
     "ep": "ch5341"
+   },
+   "parent": {
+    "id": "E_term_回廊",
+    "relation": "aspect"
    }
   },
   {
@@ -362535,6 +364366,10 @@
    ],
    "first_seen": {
     "ep": "ch5284"
+   },
+   "parent": {
+    "id": "E_term_国家",
+    "relation": "aspect"
    }
   },
   {
@@ -363417,6 +365252,10 @@
    ],
    "first_seen": {
     "ep": "ch0189"
+   },
+   "parent": {
+    "id": "E_char_女王",
+    "relation": "aspect"
    }
   },
   {
@@ -363504,7 +365343,7 @@
    "kind": "terminology",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -364102,7 +365941,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -364426,7 +366265,7 @@
    "kind": "location",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -364489,7 +366328,7 @@
    "kind": "creature",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -364527,7 +366366,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -364952,7 +366791,7 @@
    "kind": "motif",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -365052,7 +366891,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -365166,7 +367005,8 @@
    "canonical": "店員シナモリアキラ",
    "aliases": [
     "店員シナモリアキラ(『拾弐』)",
-    "店員シナモリアキラ(アキラ)"
+    "店員シナモリアキラ(アキラ)",
+    "店員アキラ"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -365463,7 +367303,7 @@
    "kind": "terminology",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -366138,7 +367978,7 @@
    "kind": "",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -368436,7 +370276,7 @@
    "kind": "creature",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -368944,7 +370784,7 @@
    "kind": "creature",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -369151,7 +370991,7 @@
    "kind": "location",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -369505,7 +371345,7 @@
    "kind": "location",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -369892,6 +371732,10 @@
    ],
    "first_seen": {
     "ep": "ch5588"
+   },
+   "parent": {
+    "id": "E_term_矛盾史",
+    "relation": "aspect"
    }
   },
   {
@@ -370126,6 +371970,10 @@
    ],
    "first_seen": {
     "ep": "ch5587"
+   },
+   "parent": {
+    "id": "E_char_神",
+    "relation": "aspect"
    }
   },
   {
@@ -370572,6 +372420,10 @@
    ],
    "first_seen": {
     "ep": "ch5354"
+   },
+   "parent": {
+    "id": "E_char_第五階層",
+    "relation": "aspect"
    }
   },
   {
@@ -370591,6 +372443,10 @@
    ],
    "first_seen": {
     "ep": "ch5508"
+   },
+   "parent": {
+    "id": "E_char_第五階層",
+    "relation": "aspect"
    }
   },
   {
@@ -370615,6 +372471,10 @@
    ],
    "first_seen": {
     "ep": "ch5469"
+   },
+   "parent": {
+    "id": "E_char_第五階層",
+    "relation": "aspect"
    }
   },
   {
@@ -370855,6 +372715,10 @@
    ],
    "first_seen": {
     "ep": "ch5548"
+   },
+   "parent": {
+    "id": "E_term_第八階層",
+    "relation": "aspect"
    }
   },
   {
@@ -370893,6 +372757,10 @@
    ],
    "first_seen": {
     "ep": "ch5504"
+   },
+   "parent": {
+    "id": "E_org_第四家",
+    "relation": "aspect"
    }
   },
   {
@@ -371508,7 +373376,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -371546,7 +373414,7 @@
    "kind": "motif",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -371930,7 +373798,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -371972,7 +373840,7 @@
    "kind": "event",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -372654,7 +374522,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -372771,6 +374639,10 @@
     "ep": "ch5577"
    },
    "children": [
+    {
+     "id": "E_char_試験官の片割れ",
+     "relation": "aspect"
+    },
     {
      "id": "E_char_試験官の片割れ",
      "relation": "aspect"
@@ -373977,7 +375849,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -374025,7 +375897,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -374068,7 +375940,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -374189,7 +376061,7 @@
    "kind": "item",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -374227,7 +376099,7 @@
    "kind": "location",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -374246,7 +376118,7 @@
    "kind": "motif",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -374265,7 +376137,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -374284,7 +376156,7 @@
    "kind": "location",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -374613,7 +376485,7 @@
    "kind": "item",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -375117,6 +376989,10 @@
     {
      "id": "E_term_魔女たちの口上",
      "relation": "aspect"
+    },
+    {
+     "id": "E_term_魔女たちの口上",
+     "relation": "aspect"
     }
    ]
   },
@@ -375598,7 +377474,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "needs",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -375608,7 +377484,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "needs",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -376503,7 +378379,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_イアテム",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_イェレイド(狂怖)",
@@ -376513,7 +378393,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_イェレイド",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_イェレイド(顔)/火車(セト)",
@@ -376560,7 +378444,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_イツノ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_イナータルゴ様(百目の男)",
@@ -376580,7 +378468,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_イルス",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_org_ウィッチオーダー(no.10)",
@@ -376621,7 +378513,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_ウォレス",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_ウネムリビュエー(アイバイザーの女性)",
@@ -376640,7 +378536,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -376665,7 +378561,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -376908,7 +378804,9 @@
   {
    "id": "E_char_オルヴァスマダルツォン(王)",
    "canonical": "オルヴァスマダルツォン(王)",
-   "aliases": [],
+   "aliases": [
+    "カシュラムの王"
+   ],
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
@@ -377175,7 +379073,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -377185,7 +379083,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -377195,7 +379093,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -377205,7 +379103,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -377336,7 +379234,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
    "entity_status": "generic",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_エレクトラ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_creature_キノコ人(死体)",
@@ -377866,7 +379768,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_シナモリアキラ(人形/幻影)",
@@ -378164,7 +380070,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_ダウザール",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_ダウザール(枢機卿として)",
@@ -378386,7 +380296,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_item_ディーテ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_デビュー",
@@ -378451,7 +380365,11 @@
      "id": "E_char_トリシューラ(偽装/化けた姿)",
      "relation": "aspect"
     }
-   ]
+   ],
+   "parent": {
+    "id": "E_char_トリシューラ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_トリシューラ(ドール姿)",
@@ -378463,7 +380381,7 @@
    "entity_status": "active",
    "l1_refs": [],
    "parent": {
-    "id": "E_char_トリシューラ(アバター)",
+    "id": "E_char_トリシューラ",
     "relation": "aspect"
    }
   },
@@ -378512,7 +380430,7 @@
    "entity_status": "active",
    "l1_refs": [],
    "parent": {
-    "id": "E_char_トリシューラ(アバター)",
+    "id": "E_char_トリシューラ",
     "relation": "aspect"
    }
   },
@@ -378946,7 +380864,7 @@
    "kind": "relationship",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -378956,7 +380874,7 @@
    "kind": "relationship",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -378966,7 +380884,7 @@
    "kind": "relationship",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -378991,7 +380909,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_ハル",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_creature_ハルベルトの幻獣(独角兎)",
@@ -379001,7 +380923,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_ハル",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_creature_ハルベルトの幻獣(砂男)",
@@ -379011,7 +380937,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_ハル",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_item_ハルベルトの斧槍",
@@ -379095,7 +381025,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_コズエ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_rel_ヒメ,コズエ",
@@ -379104,7 +381038,7 @@
    "kind": "relationship",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -379114,7 +381048,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -380949,7 +382883,7 @@
    "kind": "relationship",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -380991,7 +382925,7 @@
    "kind": "relationship",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -381015,7 +382949,7 @@
    "kind": "event",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -381036,7 +382970,7 @@
    "kind": "terminology",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -381215,7 +383149,7 @@
    "kind": "terminology",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -381362,7 +383296,7 @@
    "kind": "creature",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -381393,7 +383327,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -382099,7 +384033,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -382345,13 +384279,21 @@
    "id": "E_creature_夜の民(アズーリア等)",
    "canonical": "夜の民(アズーリア等)",
    "aliases": [
-    "夜ノ民"
+    "夜ノ民",
+    "夜の民(マネージャー)",
+    "夜の民(斥候)"
    ],
    "kind": "creature",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "children": [
+    {
+     "id": "E_motif_夜の民の姿",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_夜の民(マネージャー)",
@@ -382457,7 +384399,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_品森晶",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_女(ミヒトネッセ)",
@@ -382537,7 +384483,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -382547,7 +384493,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -382594,7 +384540,11 @@
      "ep": "ch0085",
      "quote": "彼は変装術にも長けていて、特殊な化粧やら呪術の道具やらであっという間に女性らしくなってしまった。"
     }
-   ]
+   ],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_奴隷商人",
@@ -382910,7 +384860,9 @@
   {
    "id": "E_creature_家妖精(シルキー",
    "canonical": "家妖精(シルキー",
-   "aliases": [],
+   "aliases": [
+    "家ルキー妖精"
+   ],
    "kind": "creature",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
@@ -383018,7 +384970,7 @@
    "kind": "item",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -383167,7 +385119,7 @@
    "kind": "motif",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -383320,7 +385272,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -383413,7 +385365,11 @@
      "ep": "ch5046",
      "quote": "悄然とうなだれながら無言で左腕の断端をトリシューラに向ける。"
     }
-   ]
+   ],
+   "parent": {
+    "id": "E_char_主人公",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_creature_巨人種ネフィリム",
@@ -383702,7 +385658,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "generic",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_ペリュトン",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_店員アキラ(拾弐)",
@@ -385925,7 +387885,11 @@
      "ep": "ch0252",
      "quote": "『始祖』を奉じ、主要な血族たちとは独立した権限を与えられているアルゾラ家当主はその気になれば当主の意向を無視して強引に介入することもできた。 伝統、格式、分家た"
     }
-   ]
+   ],
+   "parent": {
+    "id": "E_motif_権力",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_樵きこり",
@@ -386162,7 +388126,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "entity_status": "generic",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_クレイ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_殺せ",
@@ -386620,7 +388588,7 @@
    "kind": "item",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -387202,7 +389170,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -387525,7 +389493,7 @@
    "kind": "motif",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -387546,7 +389514,7 @@
    "kind": "motif",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -387783,7 +389751,9 @@
   {
    "id": "E_char_紀人シナモリアキラ",
    "canonical": "紀人シナモリアキラ",
-   "aliases": [],
+   "aliases": [
+    "紀人(シナモリアキラ由来)"
+   ],
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
@@ -388078,7 +390048,7 @@
    "kind": "creature",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -388467,7 +390437,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -388492,7 +390462,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -389429,7 +391399,7 @@
    "kind": "motif",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -389714,7 +391684,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "needs",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -390146,7 +392116,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -390171,7 +392141,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -391003,7 +392973,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": []
   },
   {
@@ -391026,7 +392996,7 @@
    "entity_status": "active",
    "l1_refs": [],
    "parent": {
-    "id": "E_char_鵺",
+    "id": "E_char_アキラ",
     "relation": "aspect"
    }
   },
@@ -391040,7 +393010,7 @@
    "entity_status": "active",
    "l1_refs": [],
    "parent": {
-    "id": "E_char_鵺",
+    "id": "E_char_アキラ",
     "relation": "aspect"
    }
   },
@@ -391217,7 +393187,9 @@
   {
    "id": "E_char_黒蟲騎士団員(ソフトモヒカン)",
    "canonical": "黒蟲騎士団員(ソフトモヒカン)",
-   "aliases": [],
+   "aliases": [
+    "黒蟲騎士団の部下(ソフトモヒカン)"
+   ],
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
@@ -391429,7 +393401,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -391456,12 +393428,20 @@
   {
    "id": "E_char_「鼻」(女)",
    "canonical": "「鼻」(女)",
-   "aliases": [],
+   "aliases": [
+    "「鼻」(貴婦人の姿)"
+   ],
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "needs",
-   "l1_refs": []
+   "l1_refs": [],
+   "children": [
+    {
+     "id": "E_phrase_「鼻」(贵婦人の姿の比喩的描写)",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_char_「鼻」(貴婦人の姿)",
@@ -391481,7 +393461,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
    "entity_status": "generic",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_「鼻」(女)",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_『十三人目』",
@@ -391543,7 +393527,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_rel_アキラ_コルセスカ",
@@ -391734,7 +393722,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_エレクトラ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_creature_アズ(幻影)",
@@ -391834,7 +393826,7 @@
    "kind": "organization",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -392276,7 +394268,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_term_ゾラ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_ゾーイ(力士",
@@ -392493,7 +394489,11 @@
      "ep": "ch5205",
      "quote": "「ならぬ」"
     }
-   ]
+   ],
+   "parent": {
+    "id": "E_char_マリー",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_マリーアズーリア内",
@@ -392539,7 +394539,9 @@
   {
    "id": "E_term_マロゾロンド(または邪視者の象徴)",
    "canonical": "マロゾロンド(または邪視者の象徴)",
-   "aliases": [],
+   "aliases": [
+    "マロゾロンド(描写は間接的)"
+   ],
    "kind": "terminology",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
@@ -392638,7 +394640,9 @@
   {
    "id": "E_char_ミルーニャ,リーナ",
    "canonical": "ミルーニャ,リーナ",
-   "aliases": [],
+   "aliases": [
+    "リーナミルーニャ"
+   ],
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
@@ -392828,7 +394832,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_カーティス",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_リールエルバ(肉体)",
@@ -392838,7 +394846,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "明言",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_リールエルバ(女王)",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_リールエルバの所在",
@@ -392859,7 +394871,11 @@
      "ep": "ch5372",
      "quote": "何らかの狙いがある敵の陽動だということはすぐに知れたが、カーティスやサリアは既に敵地に向かったあとだ。三人は『ではどこにリールエルバがいるのか』と考えて探すこと"
     }
-   ]
+   ],
+   "parent": {
+    "id": "E_char_リールエルバ(女王)",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_ルウテト(女王)",
@@ -392938,7 +394954,7 @@
     }
    ],
    "parent": {
-    "id": "E_char_ルウテト(女王)",
+    "id": "E_char_ルウテト",
     "relation": "aspect"
    }
   },
@@ -392963,7 +394979,7 @@
     }
    ],
    "parent": {
-    "id": "E_char_ルウテト(女王)",
+    "id": "E_char_ルウテト",
     "relation": "aspect"
    }
   },
@@ -393189,7 +395205,7 @@
    "kind": "motif",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -393232,7 +395248,8 @@
    "canonical": "仮面の槍使い",
    "aliases": [
     "仮面の槍使い/アルティウス",
-    "仮面の男(鵺)"
+    "仮面の男(鵺)",
+    "仮面の枪使い/アルティウス"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -393343,7 +395360,8 @@
    "canonical": "火車(セト)",
    "aliases": [
     "火車(セト)/鎌鼬",
-    "火车(セト)"
+    "火车(セト)",
+    "火車/炎天使(トリシューラ)"
    ],
    "kind": "character",
    "kind_confidence": "裁定済",
@@ -393522,7 +395540,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_アキラ(役:ラフディ王)",
@@ -393532,7 +395554,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_アキラ(役:ヴァージル)",
@@ -393542,7 +395568,11 @@
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
   },
   {
    "id": "E_char_グレンデルヒの正体",
@@ -393710,6 +395740,10 @@
     {
      "id": "E_char_リーナ意識",
      "relation": "aspect"
+    },
+    {
+     "id": "E_char_リーナ(意識",
+     "relation": "aspect"
     }
    ]
   },
@@ -393758,19 +395792,34 @@
    "entity_status": "active",
    "l1_refs": [],
    "parent": {
-    "id": "E_char_リーナ(クロウサー",
+    "id": "E_char_リーナ",
     "relation": "aspect"
    }
   },
   {
    "id": "E_char_リールエルバ(女王)",
    "canonical": "リールエルバ(女王)",
-   "aliases": [],
+   "aliases": [
+    "リールエルバ(狂姫)",
+    "リールエルバ(美貌の男)",
+    "リールエルバミヒトネッセ",
+    "リールエルバ様"
+   ],
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
    "entity_status": "active",
-   "l1_refs": []
+   "l1_refs": [],
+   "children": [
+    {
+     "id": "E_char_リールエルバ(肉体)",
+     "relation": "aspect"
+    },
+    {
+     "id": "E_char_リールエルバの所在",
+     "relation": "aspect"
+    }
+   ]
   },
   {
    "id": "E_term_創造(クラフト",
@@ -393821,7 +395870,7 @@
    "kind": "character",
    "kind_confidence": "裁定済",
    "merge_evidence": "蓋然性高",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -393925,7 +395974,7 @@
    "kind": "event",
    "kind_confidence": "裁定済",
    "merge_evidence": "要検証",
-   "entity_status": "active",
+   "entity_status": "generic",
    "l1_refs": [
     {
      "run": "20261024T1608_fc8d",
@@ -393979,14 +396028,1057 @@
    "merge_evidence": "蓋然性高",
    "entity_status": "generic",
    "l1_refs": []
+  },
+  {
+   "id": "E_rel_サリアとアズーリア",
+   "canonical": "サリアとアズーリア",
+   "aliases": [],
+   "kind": "relationship",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5179",
+     "quote": "「ここには運命を破壊し得る強力なグロソラリアが二人もいる。一人ぶんの『死の必然』くらいどうにでもできるに決まってる」"
+    }
+   ],
+   "first_seen": {
+    "ep": "ch5179"
+   }
+  },
+  {
+   "id": "E_char_ダークホース(竜の駆り手/巫女)",
+   "canonical": "ダークホース(竜の駆り手/巫女)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_チヒロシューラ",
+   "canonical": "チヒロシューラ",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ツァルヴリストラスタリディスケイム",
+   "canonical": "ツァルヴリストラスタリディスケイム",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_少年达",
+   "canonical": "少年达",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "generic",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_教師(幻視ドーベルマン)",
+   "canonical": "教師(幻視ドーベルマン)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_青年(巨大剣の男)",
+   "canonical": "青年(巨大剣の男)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_creature_シラミ",
+   "canonical": "シラミ",
+   "aliases": [],
+   "kind": "creature",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0183",
+     "quote": "踏みつけにされたシナモリアキラの頭部が、次第に変貌していく。 霊長類から節足動物に。 首の上に乗っているのは頭ほどの大きさの巨大昆虫。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0185",
+     "quote": "地竜の『化身』センザンコウとなったルバーブにシラミは手も足も口吻も出せずに攻めきれない。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_ジュティア(ミナ/探索者ペアの一人)",
+   "canonical": "ジュティア(ミナ/探索者ペアの一人)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ストーカー",
+   "canonical": "ストーカー",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "generic",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0175",
+     "quote": "血走った目、荒い息、私の名前を連呼してナイフを振り回す。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0175",
+     "quote": "足下から床へと抜ける呪力を爆発させて霊木の四肢にエネルギーを通していく。疾走、跳躍、とび蹴りを延髄に叩き込み、闇雲な刃を手刀で落とす。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_ストーカー(男)",
+   "canonical": "ストーカー(男)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_プリエステラ(植木鉢)",
+   "canonical": "プリエステラ(植木鉢)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_プーハニアトストンス(カニャッツォ)",
+   "canonical": "プーハニアトストンス(カニャッツォ)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_creature_プーハニアトストンス(山の巨人)",
+   "canonical": "プーハニアトストンス(山の巨人)",
+   "aliases": [],
+   "kind": "creature",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ヘリステラ(キュトスの姉妹長姉)",
+   "canonical": "ヘリステラ(キュトスの姉妹長姉)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ヘレネ推定",
+   "canonical": "ヘレネ推定",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "needs",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ベアトリーチェ(イメージ)",
+   "canonical": "ベアトリーチェ(イメージ)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_セレクティフィレクティ",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_ベーシスト",
+   "canonical": "ベーシスト",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "generic",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ペイルイルス",
+   "canonical": "ペイルイルス",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_org_ペリグランティア製薬の探索事業部門公社",
+   "canonical": "ペリグランティア製薬の探索事業部門公社",
+   "aliases": [],
+   "kind": "organization",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_creature_ペリュトン系の淫魔(呪術師)",
+   "canonical": "ペリュトン系の淫魔(呪術師)",
+   "aliases": [],
+   "kind": "creature",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ペルーダ(毛むくじゃらの亀)",
+   "canonical": "ペルーダ(毛むくじゃらの亀)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_マザコン",
+   "canonical": "マザコン",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "entity_status": "generic",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0174",
+     "quote": "「こんなにべちゃべちゃにしてくれちゃって。変態。異常性欲者。このマザコン」"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0191",
+     "quote": "「――そう。マザコンじゃモテないし、よかったんじゃない？」"
+    }
+   ]
+  },
+  {
+   "id": "E_term_マスコットキャラ",
+   "canonical": "マスコットキャラ",
+   "aliases": [],
+   "kind": "terminology",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0165",
+     "quote": "「ぐぬぬ。くやしいよー」 じたばたと手を振り回しながら二頭身の狼っぽいマスコットキャ ラと化したトリシューラが言った。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0166",
+     "quote": "ヒュドラボルテージはニワトリのマスコットキャラとしてぬいぐるみやストラップなどの商品を展開することで既存のアイドルファンとは違った層から広く人気を集めていたらし"
+    }
+   ]
+  },
+  {
+   "id": "E_char_マナ(少年)",
+   "canonical": "マナ(少年)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_マラコーダ(アヴロノ)",
+   "canonical": "マラコーダ(アヴロノ)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_term_矛盾史移植(パラドキシカルグラフト",
+   "canonical": "矛盾史移植(パラドキシカルグラフト",
+   "aliases": [],
+   "kind": "terminology",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5587",
+     "quote": "「血唱、『矛盾史移植（パラドキシカルグラフト）』。いま、この時より。我らティリビナ人が歴史を紡ぎ、既存の秩序を塗り替える」"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5588",
+     "quote": "『矛盾史移植（パラドキシカルグラフト）』という恐るべきティリビナの秘儀は、使いこなせば巨人さえ意のままにできる超高位呪術だ。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_研究施設",
+   "canonical": "研究施設",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "generic",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0070",
+     "quote": "直属の上司である第十五位の修道騎士ディセクターもまたそこにいた。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0070",
+     "quote": "「起きたか」 目覚めたナトは、まず自分が生きている事に驚き、続いてペイルとイルスまでもがいることに気付いて思わず身を起こそうとした。 失敗する。手足の感覚が無く"
+    }
+   ]
+  },
+  {
+   "id": "E_char_破壊",
+   "canonical": "破壊",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "generic",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5124",
+     "quote": "気がつけば、妹は怪物たちを周囲に集め、破壊を振りまくことを止めていた。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5306",
+     "quote": "無造作な破壊をもたらしたのは、巨大な砲を腰だめに構える大型のシルエット。人間を外側から覆って、動きをアシストする鎧のような『衣服』だ。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_破滅",
+   "canonical": "破滅",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "generic",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5384",
+     "quote": "オルヴァはカーインとの死闘を演じながら破滅を幻視。知覚した全てを抹消していく。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5503",
+     "quote": "「ああ、月よりの使者が音叉を揺らす。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_硬貨の操作",
+   "canonical": "硬貨の操作",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "generic",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5467",
+     "quote": "「やっぱりできなかったわ！」と頬を膨らませる姿が少し可哀相で、もう少し真剣に指南してあげようかと思う。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5485",
+     "quote": "指の間を硬貨が転がっていく。『十戒』の警備員たちから回収した硬貨を重ねて、ユディーアは自分の戦い方を再確認していった。"
+    }
+   ]
+  },
+  {
+   "id": "E_term_祈る言葉",
+   "canonical": "祈る言葉",
+   "aliases": [],
+   "kind": "terminology",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "generic",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_神の存在",
+   "canonical": "神の存在",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0056",
+     "quote": "「いいことを教えてやる。私の信仰は『無神論』だ。というわけで回答はこうだ――『お前は、存在しない』」"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5188",
+     "quote": "「いいことを教えてやる。私の信仰は『無神論』だ。というわけで回答はこうだ――『お前は、存在しない』」"
+    }
+   ],
+   "parent": {
+    "id": "E_char_神",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_神官(unnamed)",
+   "canonical": "神官(unnamed)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "generic",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_アイドルたち全般",
+   "canonical": "アイドルたち全般",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "generic",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_アカツキアキラ(イェツィ)",
+   "canonical": "アカツキアキラ(イェツィ)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_アキラ(イツノの身体)",
+   "canonical": "アキラ(イツノの身体)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_アキラ(グレンデルヒ",
+   "canonical": "アキラ(グレンデルヒ",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5494",
+     "quote": "その中に入り込んだ形の無い紀人。ローザが運んでいた『シナモリアキラ』の名を冠するある英雄存在の情報体とかなんとか。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5494",
+     "quote": "「では遠慮無く。ゲームの時間だ、楽しませてもらおうか」"
+    }
+   ]
+  },
+  {
+   "id": "E_char_アキラ(シナモリアキラ/人形)",
+   "canonical": "アキラ(シナモリアキラ/人形)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_アキラ(シナモリアキラ総体)",
+   "canonical": "アキラ(シナモリアキラ総体)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_アキラ(チリアット身体使用時)",
+   "canonical": "アキラ(チリアット身体使用時)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_アキラ(仮称主語不明",
+   "canonical": "アキラ(仮称主語不明",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "needs",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5521",
+     "quote": "崩れ落ちそうな身体を影からの干渉で強引に固定し、荒く息を吐きながら召喚を実行。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5521",
+     "quote": "影から生成した矮小自己の生年月日を基点に命占ベースで四象陣に意識圏を拡大。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_アキラ(本体",
+   "canonical": "アキラ(本体",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5132",
+     "quote": "鴉の真下、地上に落とされた影に同化するようにして、光を飲み込むような黒衣がのそりと立ち上がる。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5132",
+     "quote": "今までじっと息をひそめて隠れていた私は、そのままより強力な拘束の呪文を紡いでいく。発動した【陥穽（エンスネア）】の呪術がその全身を雁字搦めに縛り上げていく。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_ビル出口",
+   "canonical": "ビル出口",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "entity_status": "generic",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5236",
+     "quote": "と、そんな愚にも付かないことを考えていると自動ドアが開いて中から猫耳の少年が現れる。目ざとく――いや、耳ざとく俺に気がついた。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5236",
+     "quote": "三人に続いて、ビルから出てきたのはトリシューラ。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_ビークレット(白焔)",
+   "canonical": "ビークレット(白焔)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ピュクシス(ガルズの幻像",
+   "canonical": "ピュクシス(ガルズの幻像",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5569",
+     "quote": "「記憶があるんだね。リーナ。ダウザールが僕を殺した瞬間のことを、思い出したんだろう？ そのあとの『人形遊び』も含めて」"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5569",
+     "quote": "「自分を責めなくていいんだ、リーナ。君が悪いわけじゃない」"
+    }
+   ],
+   "parent": {
+    "id": "E_char_ピュクシス",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_ピュクシス(ラーゼフピュクシス)",
+   "canonical": "ピュクシス(ラーゼフピュクシス)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ピュクシスガルズの幻像",
+   "canonical": "ピュクシスガルズの幻像",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": [],
+   "parent": {
+    "id": "E_char_ピュクシス",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_ファウナ(少女)",
+   "canonical": "ファウナ(少女)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_term_ファッションブランド",
+   "canonical": "ファッションブランド",
+   "aliases": [],
+   "kind": "terminology",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "entity_status": "generic",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5126",
+     "quote": "おしゃれ魔女ヴァージネリーもきぐるみ妖精（ドーラーヴィーラ）も迷宮関係者なら誰でも知っているファッションブランドだ。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5126",
+     "quote": "おしゃれ魔女ヴァージネリーもきぐるみ妖精（ドーラーヴィーラ）も迷宮関係者なら誰でも知っているファッションブランドだ。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_ファル(おれ",
+   "canonical": "ファル(おれ",
+   "aliases": [
+    "ファルおれ"
+   ],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5386",
+     "quote": "「そうか。鍵となるのは、きっと『ヴァージル自身の物語』だ。彼一人だけが再演の舞台で歴史に干渉されることを免れた。それにはきっと意味がある――」"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5386",
+     "quote": "俺は肩の関節を強引に外して縄抜けを試みる。激痛の中、ファルは意識に混じる複数の思考を感じていた。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_ファルファレロ(ファル)",
+   "canonical": "ファルファレロ(ファル)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ファルファレロ/カルカブリーナ",
+   "canonical": "ファルファレロ/カルカブリーナ",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_creature_ファーガストの守護精霊",
+   "canonical": "ファーガストの守護精霊",
+   "aliases": [],
+   "kind": "creature",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_アキラ(分身群",
+   "canonical": "アキラ(分身群",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5182",
+     "quote": "ばらばらにして、ばらばらにして、解き明かして解き明かして構造を理解して把握して全容を解明してこの単純な肉体構造でも摸倣できるくらいに緻密に再解釈して再現を実行し"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5182",
+     "quote": "わたしたちは口々に輪唱していく。牡鹿の私が、牝鹿の私が、霊長類の私が、その総数を私すら把握できない数の触手である私たちが。"
+    }
+   ],
+   "parent": {
+    "id": "E_char_アキラ",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_フィリス(少年形態)",
+   "canonical": "フィリス(少年形態)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_フィレクティナアマリリス",
+   "canonical": "フィレクティナアマリリス",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_フェブルウス(コルセスカ)",
+   "canonical": "フェブルウス(コルセスカ)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_フェブルウス(死人の森の女王)",
+   "canonical": "フェブルウス(死人の森の女王)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_org_フルパーティ九人",
+   "canonical": "フルパーティ九人",
+   "aliases": [],
+   "kind": "organization",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5535",
+     "quote": "『フリル士』ポーレッテ率いる『リボン戦線』がフルパーティ九人。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5535",
+     "quote": "『病老奇手』チャスコーン率いる『不殺隊』がフルパーティ九人。"
+    }
+   ]
+  },
+  {
+   "id": "E_char_フー(フラベウファ)",
+   "canonical": "フー(フラベウファ)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ブウテト(コルセスカ)",
+   "canonical": "ブウテト(コルセスカ)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "蓋然性高",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ブウテト(コルセスカ/ルウテトの変身)",
+   "canonical": "ブウテト(コルセスカ/ルウテトの変身)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_ブウテトの風圧",
+   "canonical": "ブウテトの風圧",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5327",
+     "quote": "今度こそ回避不能の攻撃を、あろうことかミヒトネッセは手に持った苦無で真正面から受け止めた。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5327",
+     "quote": "ミヒトネッセは荒れ狂う風の呪術を真っ向から切り裂いている。"
+    }
+   ],
+   "parent": {
+    "id": "E_char_ブウテト",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_ブレイスヴァの叫び",
+   "canonical": "ブレイスヴァの叫び",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5384",
+     "quote": "「戦いの果てにシナモリアキラはこう叫ぶだろう。『ブレイスヴァ』と！」"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5384",
+     "quote": "「はいはいブレイスヴァブレイスヴァ。速攻で片付ける（ブレイスヴァ）！」"
+    }
+   ],
+   "parent": {
+    "id": "E_char_ブレイスヴァ",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_char_プトレマイオス",
+   "canonical": "プトレマイオス",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5430",
+     "quote": "「プトレマイオス。彼は、既に」"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5512",
+     "quote": "「もし貴方の声を聞く者がいなければ、トロメリアは存在しないも同然。これが私の幻聴であるなら、プトレマイオスは最初からどこにもいない。ましてどこでもないここに響く"
+    }
+   ]
+  },
+  {
+   "id": "E_char_ベアトリーチェ(の声",
+   "canonical": "ベアトリーチェ(の声",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "entity_status": "active",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5117",
+     "quote": "「典型的な四番（げいじゅつか）気質。気鬱と自堕落を抱えた、他者を蔑む自意識の肥満体」"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch5117",
+     "quote": "どこからともなく響く、大量の使い魔が同時に喋っているようにも聞こえる声。その中に、どこかしらこちらを蔑み、否定するような強い悪意が含まれているような気がして、肌"
+    }
+   ],
+   "parent": {
+    "id": "E_char_セレクティフィレクティ",
+    "relation": "aspect"
+   }
+  },
+  {
+   "id": "E_creature_空の民(エジーメの血族など)",
+   "canonical": "空の民(エジーメの血族など)",
+   "aliases": [],
+   "kind": "creature",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_creature_空の民(クロウサー家/ゾラの血族)",
+   "canonical": "空の民(クロウサー家/ゾラの血族)",
+   "aliases": [],
+   "kind": "creature",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_creature_空の民(クロウサー家関係者)",
+   "canonical": "空の民(クロウサー家関係者)",
+   "aliases": [],
+   "kind": "creature",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_空の民の男(従兄弟)",
+   "canonical": "空の民の男(従兄弟)",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "要検証",
+   "entity_status": "active",
+   "l1_refs": []
+  },
+  {
+   "id": "E_char_空中",
+   "canonical": "空中",
+   "aliases": [],
+   "kind": "character",
+   "kind_confidence": "裁定済",
+   "merge_evidence": "明言",
+   "entity_status": "generic",
+   "l1_refs": [
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0208",
+     "quote": "私は高ぶる気持ちのまま腰に左手を当て、斧を持った手をリズムよく上げ下げしながら意気揚々と空中を歩いていった。"
+    },
+    {
+     "run": "20261024T1608_fc8d",
+     "ep": "ch0243",
+     "quote": "空中に立つ蓬髪の男は厳しい表情で戦場を睨みつけていた。　縦縞の背広に道化のメイクという異様な出で立ちの男"
+    }
+   ]
   }
  ],
  "v3_applied": {
-  "standalone": 1507,
-  "aspect_of": 407,
-  "generic": 846,
-  "alias_of": 304,
-  "needs": 38,
-  "skip_existing": 5
+  "standalone": 44,
+  "aspect_of": 408,
+  "generic": 877,
+  "alias_of": 122,
+  "needs": 2,
+  "skip_existing": 1719
  }
 }
