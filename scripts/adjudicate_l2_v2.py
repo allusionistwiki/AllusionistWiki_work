@@ -38,7 +38,7 @@ INSTR = """あなたは固有名詞の同一性検証者です。小説全話か
 - kind は証拠に振る舞いがある場合のみ調整（character/item/terminology/organization/location/motif/phrase/event/creature/relationship のいずれか）。
 
 出力は JSON のみ。形式:
-{"results":[{"id":"<gid>","verdicts":[{"norm":"...","decision":"keep|split|needs","canonical":"...","kind":"...","confidence":"明言|蓋然性高|要検証","reason":"根拠(ep/引用)"}]}]}
+{"results":[{"id":"<gid>","verdicts":[{"norm":"...","decision":"keep|split|needs","canonical":"...","kind":"...","confidence":"明言|蓋然性高|要検証","reason":"40字以内で根拠の要点のみ"}]}]}
 判定対象は prev で alias 判定された norm のみ。prev が空の群は {"results":[{"id":"<gid>","verdicts":[]}]} を返せ。
 
 群データ:
@@ -102,22 +102,46 @@ def main():
             mm = {"norm": m["norm"], "count": m.get("count", 0),
                   "surfaces": m.get("surfaces", [])[:3],
                   "evidence": [{k: (str(v)[:60] if k == "q" else v)
-                                for k, v in e.items()} for e in m.get("evidence", [])[:8]]}
+                                for k, v in e.items()} for e in m.get("evidence", [])[:5]]}
             slim["members"].append(mm)
         return slim
 
-    batches, cur, cur_len = [], [], 0
+    def chunk_rows(sl, cap_chars=5000):
+        # 巨大群は members をチャンク分割（同一 id で再投入、resume 安全）
+        chunks, cur, ln = [], [], len(json.dumps({k: v for k, v in sl.items() if k != "members"}, ensure_ascii=False))
+        for m in sl["members"]:
+            ml = len(json.dumps(m, ensure_ascii=False))
+            if cur and ln + ml > cap_chars:
+                chunks.append({**sl, "members": cur})
+                cur, ln = [], len(json.dumps({k: v for k, v in sl.items() if k != "members"}, ensure_ascii=False))
+            cur.append(m)
+            ln += ml
+        if cur:
+            chunks.append({**sl, "members": cur})
+        return chunks
+
+    batches, cur, cur_len, cur_v = [], [], 0, 0
     for row in todo:
         sl = slim_of(row)
         ln = len(json.dumps(sl, ensure_ascii=False))
-        if cur and (cur_len + ln > 5500 or len(cur) >= 4):
+        nv = len(sl["prev"]) + len(sl["mech_split"])  # 出力を支配する判断数
+        if ln > 5200:
+            for ch in chunk_rows(sl):
+                chl = len(json.dumps(ch, ensure_ascii=False))
+                chnv = len(ch["prev"]) + len(ch["mech_split"])
+                if cur and (cur_len + chl > 5000 or len(cur) >= 2 or cur_v + chnv > 28):
+                    batches.append(cur)
+                    cur, cur_len, cur_v = [], 0, 0
+                cur.append(ch)
+                cur_len += chl
+                cur_v += chnv
+            continue
+        if cur and (cur_len + ln > 5000 or len(cur) >= 2 or cur_v + nv > 28):
             batches.append(cur)
-            cur, cur_len = [], 0
-        if len(cur) == 0 and ln > 5500:
-            for m in sl["members"]:
-                m["evidence"] = m["evidence"][:3]
+            cur, cur_len, cur_v = [], 0, 0
         cur.append(sl)
-        cur_len = len(json.dumps(cur, ensure_ascii=False))
+        cur_len += ln
+        cur_v += nv
     if cur:
         batches.append(cur)
     wlog("batches=%d" % len(batches))

@@ -13,7 +13,8 @@
   "S1": "公開 ID 5,969 seed",
   "S2": "相関群 14,031・裁定キュー 4,585・rejected 194",
   "S3": "LLM 群裁定 4,585 完走（shard3 並列・resume 3 ラウンド・機械フォールバック 279=要検証）",
-  "S4": "entities.json 13,887 件・aliases 827 話・relations 341,890 行（dedup 後）"
+  "S4": "entities.json 13,887 件・aliases 827 話・relations 341,890 行（dedup 後）",
+  "v2": "全話evidence再裁定(4,585群)→S4全面適用(非推移・引用ゲート)→(正規化+kind)同一实体の再統合"
  },
  "stats": {
   "entities": 13887,
@@ -44,5 +45,79 @@
   "adjudications.final.jsonl",
   "rejected-candidates.jsonl",
   "inputs-manifest.json"
- ]
+ ],
+ "stats_v2": {
+  "entities": 13563,
+  "multi_alias": 1922,
+  "avg_alias": 1.28,
+  "max_alias": 19,
+  "top_alias": [
+   "シナモリアキラ",
+   "アキラ",
+   "ロウ・カーイン",
+   "マラード",
+   "トリシューラ",
+   "コルセスカ",
+   "カーティス",
+   "呪文"
+  ],
+  "merge_evidence": {
+   "明言": 1694,
+   "蓋然性高": 11456,
+   "要検証": 413
+  },
+  "kind_confidence": {
+   "裁定済": 3114,
+   "機械": 10449
+  },
+  "by_kind": {
+   "terminology": 5908,
+   "character": 2431,
+   "location": 548,
+   "item": 3281,
+   "organization": 707,
+   "creature": 86,
+   "motif": 269,
+   "event": 69,
+   "phrase": 105,
+   "relationship": 55,
+   "magic": 4,
+   "deity": 1,
+   "app": 3,
+   "skill": 11,
+   "group": 5,
+   "spell": 8,
+   "celestial_body": 4,
+   "software": 1,
+   "ability": 7,
+   "spell_effect": 1,
+   "event_context": 1,
+   "game": 1,
+   "action": 8,
+   "emotion": 3,
+   "part": 1,
+   "phantom": 3,
+   "character_class": 2,
+   "system": 2,
+   "role": 2,
+   "brand": 1,
+   "rule": 2,
+   "ritual": 4,
+   "character_ability": 1,
+   "race": 6,
+   "concept": 4,
+   "technique": 1,
+   "place": 4,
+   "clothing": 1,
+   "structure": 1,
+   "unknown": 1,
+   "technology": 2,
+   "building": 1,
+   "phenomenon": 2,
+   "institution": 1,
+   "plan": 2,
+   "strategy": 1,
+   "effect": 1
+  }
+ }
 }

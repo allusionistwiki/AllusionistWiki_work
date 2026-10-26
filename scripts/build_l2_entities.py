@@ -77,14 +77,22 @@ def main():
     # ---- DSU: 自動群 → 裁定 alias ------------------------------------------
     dsu = DSU()
     draft = json.loads((OUT / "clusters_draft.json").read_text(encoding="utf-8"))
+    auto_edges = set()
     for g in draft["groups"]:
         ms = [m["norm"] for m in g["members"]]
-        for m in ms[1:]:
-            dsu.union(ms[0], m)
+        # 自動統合は表記ゆれ（同一 norm_key）のみ。関連語・派生語は裁定に委ねる。
+        by_key = {}
+        for m in ms:
+            by_key.setdefault(norm_key(m), []).append(m)
+        for k, group in by_key.items():
+            for m in group[1:]:
+                auto_edges.add(tuple(sorted((group[0], m))))
 
     queue = {r["id"]: r for r in jl(OUT / "adjudication-queue.jsonl")}
     decisions_raw = []
     for p in sorted(OUT.glob("adjudications*.jsonl")):
+        if "_v2" in p.name:
+            continue
         decisions_raw += jl(p)
     d_by_id = {}
     for d in decisions_raw:
@@ -134,39 +142,125 @@ def main():
     if mech_path.exists():
         for d in jl(mech_path):
             mech_pairs.add(tuple(sorted((d["a"], d["b"]))))
-    # ---- 裁定辺を「非推移」で適用（v2/機械 split を先差し引き、連鎖で橋渡ししない）---
+    # ---- 裁定辺を「非推移」で適用。v2 完走後は v2 全面適用（v1 alias 辺は採らない）---
     accepted_edges = set()
     n_split = n_needs = 0
-    for (a, b) in alias_edges:
-        blocked = False
+    v2_full = len(v2) >= len(queue)
+    v2_keep = v2_split = 0
+    if v2_full:
+        canon1 = {}
+        for d in decisions_all:
+            for m in d.get("decisions", []):
+                if m.get("verdict") == "alias" and m.get("canonical") and m.get("norm"):
+                    canon1[m["norm"]] = norm_key(m["canonical"])
         for gid, vv in v2.items():
-            for n in (a, b):
-                dec = (vv.get(n) or {}).get("decision")
-                if dec == "split":
-                    blocked = True
-                    n_split += 1
+            for n, d2 in vv.items():
+                dec = d2.get("decision")
+                if dec == "keep":
+                    canon = d2.get("canonical")
+                    canon = norm_key(canon) if canon else canon1.get(n)
+                    if canon and canon != n:
+                        reason = d2.get("reason") or ""
+                        cited = bool(re.search(r"ch\d", reason))
+                        no_ev = ("証拠が0" in reason) or ("証拠なし" in reason) or ("データなし" in reason)
+                        accepted_edges.add((n, canon,
+                                            d2.get("confidence"), cited, no_ev))
+                        v2_keep += 1
+                elif dec == "split":
+                    v2_split += 1
                 elif dec == "needs":
-                    blocked = True
                     n_needs += 1
-        if tuple(sorted((a, b))) in mech_pairs:
-            blocked = True
-            n_split += 1
-        if not blocked:
-            accepted_edges.add((a, b))
-    # 機械 split を表記ゆれ自動辺にも適用（同一文共起は表記ゆれとは考えにくい）
-    draft2 = json.loads((OUT / "clusters_draft.json").read_text(encoding="utf-8"))
+        # ---- 連結成分サイズ上限 24: 超過分は支持度の低い邊から切る（ハブ連鎖の膨張防止）---
+        score = {"明言": 3, "蓋然性高": 2, "要検証": 1}
+        cand = sorted(((score.get(conf, 0), cited, no_ev, n, canon)
+                       for (n, canon, conf, cited, no_ev) in accepted_edges
+                       if cited and not no_ev),
+                      key=lambda x: (-x[0], -x[1]))
+        parent = {n: n for n in set([e[3] for e in cand] + [e[4] for e in cand])}
+        size = {n: 1 for n in parent}
+        def find(x):
+            while parent[x] != x:
+                parent[x] = parent[parent[x]]
+                x = parent[x]
+            return x
+        MAXC = 10
+        used_edges = set()
+        n_hub_cut = 0
+        for s, c, ne, a, b in cand:
+            ra, rb = find(a), find(b)
+            if ra == rb:
+                used_edges.add((a, b))
+                continue
+            sa, sb = size[ra], size[rb]
+            if sa + sb > MAXC:
+                n_hub_cut += 1
+                continue
+            parent[rb] = ra
+            size[ra] = sa + sb
+            used_edges.add((a, b))
+        n_no_cite = len(accepted_edges) - len(cand)
+        accepted_edges = used_edges
+        print("v2_full: keep=%d split=%d needs=%d no_cite=%d hub_cut=%d accepted=%d mech_pairs=%d"
+              % (v2_keep, v2_split, n_needs, n_no_cite, n_hub_cut,
+                 len(accepted_edges), len(mech_pairs)))
+        for a, b in accepted_edges:
+            if tuple(sorted((a, b))) not in mech_pairs:
+                dsu.union(a, b)
+    else:
+        for (a, b) in alias_edges:
+            blocked = False
+            for gid, vv in v2.items():
+                for n in (a, b):
+                    dec = (vv.get(n) or {}).get("decision")
+                    if dec == "split":
+                        blocked = True
+                        n_split += 1
+                    elif dec == "needs":
+                        blocked = True
+                        n_needs += 1
+            if tuple(sorted((a, b))) in mech_pairs:
+                blocked = True
+                n_split += 1
+            if not blocked:
+                accepted_edges.add((a, b))
+    # 表記ゆれ自動辺（mech 共起で遮断された辺を推移で橋渡ししない）
     dsu2 = DSU()
     n_mech_cut = 0
-    for g in draft2["groups"]:
-        ms = [m["norm"] for m in g["members"]]
-        for i in range(1, len(ms)):
-            cut = any(tuple(sorted((ms[0], ms[i]))) in mech_pairs for _ in [0])
-            if not cut:
-                dsu2.union(ms[0], ms[i])
-            else:
-                n_mech_cut += 1
-    for a, b in accepted_edges:
-        dsu2.union(a, b)
+    all_edges = list(auto_edges) + list(accepted_edges)
+    blocked_pairs = set(mech_pairs)
+    for gid, vv in v2.items():
+        for n, d2 in vv.items():
+            if d2.get("decision") == "split":
+                blocked_pairs.add(tuple(sorted((n, d2.get("canonical") or ""))))
+    # auto 辺も v2 判定に従う: split/needs は即断、keep は引用付きのみ（v1 alias 辺は v2 で置換済み）
+    n_auto_cut = 0
+    for (a, b) in list(auto_edges):
+        vna = vnb = None
+        for gid, vv in v2.items():
+            vna = vv.get(a, vna)
+            vnb = vv.get(b, vnb)
+        if vna is not None and vna.get("decision") == "split":
+            blocked_pairs.add((a, b))
+            n_auto_cut += 1
+        elif vnb is not None and vnb.get("decision") == "split":
+            blocked_pairs.add((a, b))
+            n_auto_cut += 1
+        elif (vna is not None and vna.get("decision") == "needs") or \
+             (vnb is not None and vnb.get("decision") == "needs"):
+            blocked_pairs.add((a, b))
+            n_auto_cut += 1
+        elif (vna is not None and vna.get("decision") == "keep") or \
+             (vnb is not None and vnb.get("decision") == "keep"):
+            reason = (vna.get("reason") if vna and vna.get("decision") == "keep"
+                      else (vnb.get("reason") if vnb and vnb.get("decision") == "keep" else "")) or ""
+            if not re.search(r"ch\d", reason) or "証拠が0" in reason or "データなし" in reason:
+                blocked_pairs.add((a, b))
+                n_auto_cut += 1
+    for (a, b) in all_edges:
+        if tuple(sorted((a, b))) in blocked_pairs:
+            n_mech_cut += 1
+        else:
+            dsu2.union(a, b)
     # v2 の kind は裁定 kind として反映
     for gid, vv in v2.items():
         for n, d2 in vv.items():
