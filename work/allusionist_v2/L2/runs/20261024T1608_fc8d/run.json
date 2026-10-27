@@ -1,108 +1,138 @@
 {
- "run_id": "20261024T1608_fc8d",
- "layer": "L2",
- "kind": "name-integration",
- "created": "2026-10-25",
- "derived_from": [
-  "20261012T0000_baseline",
-  "20261021T1727_9c2e"
- ],
- "design": "work/allusionist_v2/L2/README.md (戦略/方針/手順 確定版)",
- "pipeline": {
-  "S0": "facts 38,715/名義 14,896",
-  "S1": "公開 ID 5,969 seed",
-  "S2": "相関群 14,031・裁定キュー 4,585・rejected 194",
-  "S3": "LLM 群裁定 4,585 完走（shard3 並列・resume 3 ラウンド・機械フォールバック 279=要検証）",
-  "S4": "entities.json 13,887 件・aliases 827 話・relations 341,890 行（dedup 後）",
-  "v2": "全話evidence再裁定4,585群→S4全面適用（非推移・引用ゲート・hub cut）",
-  "mech_v3": "同一文共起split（同一性述語除外）289組",
-  "publish": "vault build_l2_pages 20261024T1608_fc8d → AllusionistWiki2/l2 更新済み",
-  "v3": "棚卸し入力=events 系エンティティ登録+全 L1 ページへ拡張(3,216面)→実体判定(standalone/aspect/generic/alias/needs)→親子構造適用"
- },
- "stats": {
-  "entities": 13887,
-  "multi_alias": 467,
-  "alias_rows": 32564,
-  "eps": 827,
-  "merge_evidence": {
-   "明言": 1840,
-   "蓋然性高": 11587,
-   "要検証": 460
-  },
-  "kind_conf": {
-   "裁定済": 2754,
-   "機械": 11133
-  },
-  "no_anchor": 169,
-  "id_collisions": 0,
-  "undecided_queue": 0
- },
- "review": "要検証 460 件（機械フォールバック 279 群を含む）は人間レビュー対象として台帳に明記",
- "outputs": [
-  "entities.json",
-  "aliases/",
-  "relations.jsonl",
-  "clusters_draft.json",
-  "adjudication-queue.jsonl",
-  "adjudications.shard*.jsonl",
-  "adjudications.final.jsonl",
-  "rejected-candidates.jsonl",
-  "inputs-manifest.json"
- ],
- "stats_v2": {
-  "entities": 14481,
-  "multi_alias": 14481,
-  "avg_alias": 1.03,
-  "max_alias": 8,
-  "top_alias": [
-   "オルガンローデ",
-   "楽園",
-   "呪文",
-   "ミルーニャ",
-   "ペリュトン",
-   "ファル",
-   "エレクトラ",
-   "邪視"
+  "run_id": "20261024T1608_fc8d",
+  "layer": "L2",
+  "kind": "name-integration",
+  "created": "2026-10-25",
+  "derived_from": [
+    "20261012T0000_baseline",
+    "20261021T1727_9c2e"
   ],
-  "merge_evidence": {
-   "明言": 1700,
-   "蓋然性高": 12367,
-   "要検証": 414
+  "design": "work/allusionist_v2/L2/README.md (戦略/方針/手順 確定版)",
+  "pipeline": {
+    "S0": "facts 38,715/名義 14,896",
+    "S1": "公開 ID 5,969 seed",
+    "S2": "相関群 14,031・裁定キュー 4,585・rejected 194",
+    "S3": "LLM 群裁定 4,585 完走（shard3 並列・resume 3 ラウンド・機械フォールバック 279=要検証）",
+    "S4": "entities.json 13,887 件・aliases 827 話・relations 341,890 行（dedup 後）",
+    "v2": "全話evidence再裁定4,585群→S4全面適用（非推移・引用ゲート・hub cut）",
+    "mech_v3": "同一文共起split（同一性述語除外）289組",
+    "publish": "vault build_l2_pages 20261024T1608_fc8d → AllusionistWiki2/l2 更新済み",
+    "v3": {
+      "completed_at": "2026-10-27T13:00:00+09:00",
+      "inventory": {
+        "targets": 3216,
+        "batches_total": 549
+      },
+      "adjudication": {
+        "coverage": "3216/3216 (100%)",
+        "categories": {
+          "standalone": 1503,
+          "aspect_of": 434,
+          "generic": 958,
+          "alias_of": 379,
+          "needs": 37
+        }
+      },
+      "ledger": {
+        "entities_total": 17337,
+        "parents": 190,
+        "children_links": "アキラ 261 子 ほか",
+        "schema": "l2-entities/5"
+      },
+      "evidence": {
+        "conversions_annotated": 987,
+        "verification_points": 657,
+        "audit": "conversion-evidence.jsonl"
+      },
+      "published": {
+        "vault_commit": "0f7caad5"
+      }
+    }
   },
-  "kind_confidence": {
-   "裁定済": 3119,
-   "機械": 11362
+  "stats": {
+    "entities": 13887,
+    "multi_alias": 467,
+    "alias_rows": 32564,
+    "eps": 827,
+    "merge_evidence": {
+      "明言": 1840,
+      "蓋然性高": 11587,
+      "要検証": 460
+    },
+    "kind_conf": {
+      "裁定済": 2754,
+      "機械": 11133
+    },
+    "no_anchor": 169,
+    "id_collisions": 0,
+    "undecided_queue": 0
   },
-  "v2_verdicts": {
-   "keep": 5872,
-   "split": 1511,
-   "needs": 444,
-   "no_cite": 739,
-   "hub_cut": 39
+  "review": "要検証 460 件（機械フォールバック 279 群を含む）は人間レビュー対象として台帳に明記",
+  "outputs": [
+    "entities.json",
+    "aliases/",
+    "relations.jsonl",
+    "clusters_draft.json",
+    "adjudication-queue.jsonl",
+    "adjudications.shard*.jsonl",
+    "adjudications.final.jsonl",
+    "rejected-candidates.jsonl",
+    "inputs-manifest.json"
+  ],
+  "stats_v2": {
+    "entities": 14481,
+    "multi_alias": 14481,
+    "avg_alias": 1.03,
+    "max_alias": 8,
+    "top_alias": [
+      "オルガンローデ",
+      "楽園",
+      "呪文",
+      "ミルーニャ",
+      "ペリュトン",
+      "ファル",
+      "エレクトラ",
+      "邪視"
+    ],
+    "merge_evidence": {
+      "明言": 1700,
+      "蓋然性高": 12367,
+      "要検証": 414
+    },
+    "kind_confidence": {
+      "裁定済": 3119,
+      "機械": 11362
+    },
+    "v2_verdicts": {
+      "keep": 5872,
+      "split": 1511,
+      "needs": 444,
+      "no_cite": 739,
+      "hub_cut": 39
+    },
+    "mech_splits_strict": 289,
+    "residual_same_sentence_pairs": 165,
+    "residual_note": "同一性述語（XはYである）中の共起＝正当な同一視。機械split v3で別人証拠（同一文独立共起）のみ適用",
+    "coverage": "4585/4585 (100%)",
+    "done": "2026-10-26T18:28 L2 ADJUDICATE V2 DONE"
   },
-  "mech_splits_strict": 289,
-  "residual_same_sentence_pairs": 165,
-  "residual_note": "同一性述語（XはYである）中の共起＝正当な同一視。機械split v3で別人証拠（同一文独立共起）のみ適用",
-  "coverage": "4585/4585 (100%)",
-  "done": "2026-10-26T18:28 L2 ADJUDICATE V2 DONE"
- },
- "updated": "2026-10-26",
- "stats_v3": {
-  "standalone": 44,
-  "aspect_of": 408,
-  "generic": 877,
-  "alias_of": 122,
-  "needs": 2,
-  "skip_existing": 1719,
-  "at": "2026-10-27T00:44:11.303847",
-  "entities_total": 17337,
-  "coverage": "3209/3216 (99.8%)",
-  "v3_verdicts": {
-   "standalone": 1503,
-   "aspect_of": 434,
-   "generic": 877,
-   "alias_of": 379,
-   "needs": 29
+  "updated": "2026-10-26",
+  "stats_v3": {
+    "standalone": 44,
+    "aspect_of": 408,
+    "generic": 877,
+    "alias_of": 122,
+    "needs": 2,
+    "skip_existing": 1719,
+    "at": "2026-10-27T00:44:11.303847",
+    "entities_total": 17337,
+    "coverage": "3209/3216 (99.8%)",
+    "v3_verdicts": {
+      "standalone": 1503,
+      "aspect_of": 434,
+      "generic": 877,
+      "alias_of": 379,
+      "needs": 29
+    }
   }
- }
 }
