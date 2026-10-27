@@ -40,7 +40,9 @@ def main():
     for e in ents:
         by_norm[norm_key(e["canonical"])] = e
         for a in e.get("aliases", []):
-            by_norm.setdefault(norm_key(a), e)
+            an = a.get("name") if isinstance(a, dict) else a
+            if an:
+                by_norm.setdefault(norm_key(an), e)
     inv = {r["norm"]: r for r in jl(OUT / "v3-inventory.jsonl")}
     verdicts = {}
     for r in jl(OUT / "adjudications_v3.jsonl"):
@@ -52,6 +54,14 @@ def main():
     for nk, v in verdicts.items():
         row = inv.get(nk, {})
         cat = v.get("category")
+        if cat not in ("standalone", "aspect_of", "generic", "alias_of", "needs"):
+            # モデルが kind 語を category に書いた応答 → standalone・kind 補完
+            if cat in PREF:
+                v = dict(v)
+                v["kind"] = cat
+                cat = "standalone"
+            else:
+                cat = "needs"
         if cat not in ("standalone", "aspect_of", "generic", "alias_of", "needs"):
             # モデルが kind 語を category に書いた応答 → standalone・kind 補完
             if cat in PREF:

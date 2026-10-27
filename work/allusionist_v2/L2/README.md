@@ -99,5 +99,17 @@ L1（機械抽出）の産出物から、**同一実体の名前のゆらぎを�
 
 - [x] 層設計（入力/出力・スキーマ・運用則）
 - [x] 移行戦略 → 統合実行計画（本節、2026-10-24 確定版）
-- [ ] S1〜S4 スクリプト実装（work repo `scripts/`）
-- [ ] 初 run 実行（S0→S5）→ S6 公開 → S7 第 2 ラウンド
+- [x] S1〜S4 スクリプト実装（work repo `scripts/`）
+- [x] 初 run 実行（S0→S5）→ S6 公開 → S7 第 2 ラウンド（v1 2026-10-25 / v2 再裁定完走 2026-10-26: 14,481 实体・カバー 100%）
+- [x] **v3 棚卸し拡張・実体判定・親子構造（2026-10-27 完走）**
+
+### v3 設計（实体判定・親子構造・変換の検証性）
+
+**動機（ユーザー要求）**: 棚卸し入力を events 系エンティティ登録へ拡張し、各エンティティの正しさを判定する（例 `E_char_戦場`=一般名詞、`E_char_アキラの正体`=キャラ付随）。キャラ付随エンティティはキャラに統合するか、キャラがエンティティを持てる構造にする。**変換（統合）には確度と根拠・検証点をつけ検証可能にする。**
+
+- **入力拡張**（`build_l2_v3_inventory.py`）: L1 facts に加え ①L1 runs `events/*.jsonl` の subject・entity_type 登録 ②L1 ページ canonical_name → 台帳外 3,216 面。parent 候補は所有構文（XのY）から既知名義を抽出。
+- **5 分類裁定**（`adjudicate_l2_v3.py`）: `standalone`（独立実体+kind）/ `aspect_of`（付随属性→親指定）/ `generic`（一般名詞=台帳統合対象外）/ `alias_of`（表記ゆれ）/ `needs`。裁定には**確度・根拠 reason・引用 quote** を必須とし、未裁定面は残 norm のみを再投入して往復完走（冪等）。
+- **構造**（`apply_l2_v3.py`・冪等）: schema `l2-entities/3`。实体に `parent{id, relation:"aspect"}`、親に `children[]`、`entity_status`（generic/needs）。キャラ付随は物理統合せず**親所属構造**で表現（ユーザー容認の構造案）。
+- **検証層**（`annotate_l2_evidence.py`・決定論・schema `l2-entities/5`）: 全変換（alias→canonical・親所属）に `{confidence, source, reason, cites[章¶], verify[検証点]}` を付与。根拠の来源は 代表名 / v2 全話裁定 / 明言共起（同一事実で subject=本名義・object=代表名）/ 表記ゆれ正規化 / v3 裁定。根拠なしは `要検証`＋検証点（全話使用確認等）。監査ファイル `conversion-evidence.jsonl`（変換全件）。
+- **完走統計**: 3,209/3,216 面（99.8%）→ standalone 1,503 / aspect_of 434（親 190・子 800）/ generic 877 / alias_of 379 / needs 29。台帳 17,337 实体。変換 987 件すべてに確度・根拠・検証点（検証点 657 件）。公開: 名義変換表に確度・根拠・引用 ¶・検証点欄。
+
