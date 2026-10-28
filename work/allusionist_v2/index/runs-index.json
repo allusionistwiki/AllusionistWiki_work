@@ -1,120 +1,149 @@
 {
-  "L1": {
-    "20261012T0000_baseline": {
-      "path": "work/allusionist_v2/L1/runs/20261012T0000_baseline",
-      "status": "active",
-      "kind": "baseline",
-      "derived_from": "AllusionistLLMWiki2_Work@054f7a2a"
-    },
-    "20261018T0040_588c": {
-      "path": "work/allusionist_v2/L1/runs/20261018T0040_588c",
-      "status": "active",
-      "kind": "reanchor-pass1",
-      "derived_from": "20261017T2011_f863",
-      "stats": {
-        "reanchored_total": 3693,
-        "deleted_total": 343,
-        "queue_resolved": "100%"
-      }
-    },
-    "20261018T0835_1f78": {
-      "path": "work/allusionist_v2/L1/runs/20261018T0835_1f78",
-      "status": "active",
-      "kind": "reanchor-pass2",
-      "derived_from": "20261018T0040_588c"
-    },
-    "20261018T0908_e24f": {
-      "path": "work/allusionist_v2/L1/runs/20261018T0908_e24f",
-      "status": "active",
-      "kind": "reanchor-pass3",
-      "derived_from": "20261018T0835_1f78"
-    },
-    "20261018T1013_9d0c": {
-      "path": "work/allusionist_v2/L1/runs/20261018T1013_9d0c",
-      "status": "active",
-      "kind": "reanchor-pass4-global",
-      "derived_from": "20261018T0908_e24f"
-    },
-    "20261019T0330_a3f7": {
-      "path": "work/allusionist_v2/L1/runs/20261019T0330_a3f7",
-      "status": "active",
-      "kind": "kakuyomu-new-episodes",
-      "derived_from": "20261017T2011_f863",
-      "stats": {
-        "episodes": 27,
-        "claims_new": 120,
-        "mysteries_new": 112
-      }
-    },
-    "20261021T1727_9c2e": {
-      "path": "work/allusionist_v2/L1/runs/20261021T1727_9c2e",
-      "status": "active",
-      "kind": "kakuyomu-full-regeneration",
-      "derived_from": "20261017T2011_f863",
-      "stats": {
-        "episodes": 589,
-        "claims": 2598,
-        "mysteries": 3094,
-        "nav_pages": 862,
-        "lint_errors": 0
-      }
-    }
+ "L1": {
+  "20261012T0000_baseline": {
+   "path": "work/allusionist_v2/L1/runs/20261012T0000_baseline",
+   "status": "active",
+   "kind": "baseline",
+   "derived_from": "AllusionistLLMWiki2_Work@054f7a2a"
   },
-  "L2": {
-    "20261024T1608_fc8d": {
-      "path": "work/allusionist_v2/L2/runs/20261024T1608_fc8d",
-      "status": "active",
-      "kind": "name-integration",
-      "derived_from": [
-        "20261012T0000_baseline",
-        "20261021T1727_9c2e"
-      ],
-      "stats": {
-        "entities": 14481,
-        "multi_alias_groups": 258,
-        "avg_alias": 1.03,
-        "max_alias": 8,
-        "v2_review": "4,585/4,585 (100%) keep=5872 split=1511 needs=444 no_cite=739 hub_cut=39",
-        "mech_splits_v3": 289,
-        "published": "https://allusionistwiki.github.io/AllusionistWiki2/l2/"
-      },
-      "completed": "2026-10-27 (v3)",
-      "stats_v3": {
-        "standalone": 44,
-        "aspect_of": 408,
-        "generic": 877,
-        "alias_of": 122,
-        "needs": 2,
-        "skip_existing": 1719,
-        "at": "2026-10-27T00:44:11.303847",
-        "entities_total": 17337,
-        "coverage": "3209/3216 (99.8%)",
-        "v3_verdicts": {
-          "standalone": 1503,
-          "aspect_of": 434,
-          "generic": 877,
-          "alias_of": 379,
-          "needs": 29
-        }
-      }
-    },
-    "20261028T2100_norm": {
-      "path": "work/allusionist_v2/L2/runs/20261028T2100_norm",
-      "status": "active",
-      "kind": "normalized-wiki-generation",
-      "derived_from": "20261024T1608_fc8d"
-    }
+  "20261018T0040_588c": {
+   "path": "work/allusionist_v2/L1/runs/20261018T0040_588c",
+   "status": "active",
+   "kind": "reanchor-pass1",
+   "derived_from": "20261017T2011_f863",
+   "stats": {
+    "reanchored_total": 3693,
+    "deleted_total": 343,
+    "queue_resolved": "100%"
+   }
   },
-  "L3": {},
-  "L4": {},
-  "L5": {},
-  "L6": {},
-  "L0": {
-    "20261017T2011_f863": {
-      "path": "work/allusionist_v2/L0/runs/20261017T2011_f863",
-      "status": "active",
-      "kind": "quote-map",
-      "derived_from": "20261012T0000_baseline"
-    }
+  "20261018T0835_1f78": {
+   "path": "work/allusionist_v2/L1/runs/20261018T0835_1f78",
+   "status": "active",
+   "kind": "reanchor-pass2",
+   "derived_from": "20261018T0040_588c"
+  },
+  "20261018T0908_e24f": {
+   "path": "work/allusionist_v2/L1/runs/20261018T0908_e24f",
+   "status": "active",
+   "kind": "reanchor-pass3",
+   "derived_from": "20261018T0835_1f78"
+  },
+  "20261018T1013_9d0c": {
+   "path": "work/allusionist_v2/L1/runs/20261018T1013_9d0c",
+   "status": "active",
+   "kind": "reanchor-pass4-global",
+   "derived_from": "20261018T0908_e24f"
+  },
+  "20261019T0330_a3f7": {
+   "path": "work/allusionist_v2/L1/runs/20261019T0330_a3f7",
+   "status": "active",
+   "kind": "kakuyomu-new-episodes",
+   "derived_from": "20261017T2011_f863",
+   "stats": {
+    "episodes": 27,
+    "claims_new": 120,
+    "mysteries_new": 112
+   }
+  },
+  "20261021T1727_9c2e": {
+   "path": "work/allusionist_v2/L1/runs/20261021T1727_9c2e",
+   "status": "active",
+   "kind": "kakuyomu-full-regeneration",
+   "derived_from": "20261017T2011_f863",
+   "stats": {
+    "episodes": 589,
+    "claims": 2598,
+    "mysteries": 3094,
+    "nav_pages": 862,
+    "lint_errors": 0
+   }
   }
+ },
+ "L2": {
+  "20261024T1608_fc8d": {
+   "path": "work/allusionist_v2/L2/runs/20261024T1608_fc8d",
+   "status": "superseded",
+   "kind": "name-integration",
+   "derived_from": [
+    "20261012T0000_baseline",
+    "20261021T1727_9c2e"
+   ],
+   "stats": {
+    "entities": 14481,
+    "multi_alias_groups": 258,
+    "avg_alias": 1.03,
+    "max_alias": 8,
+    "v2_review": "4,585/4,585 (100%) keep=5872 split=1511 needs=444 no_cite=739 hub_cut=39",
+    "mech_splits_v3": 289,
+    "published": "https://allusionistwiki.github.io/AllusionistWiki2/l2/"
+   },
+   "completed": "2026-10-27 (v3)",
+   "stats_v3": {
+    "standalone": 44,
+    "aspect_of": 408,
+    "generic": 877,
+    "alias_of": 122,
+    "needs": 2,
+    "skip_existing": 1719,
+    "at": "2026-10-27T00:44:11.303847",
+    "entities_total": 17337,
+    "coverage": "3209/3216 (99.8%)",
+    "v3_verdicts": {
+     "standalone": 1503,
+     "aspect_of": 434,
+     "generic": 877,
+     "alias_of": 379,
+     "needs": 29
+    }
+   },
+   "superseded_by": "20261029T0843_c8bb"
+  },
+  "20261028T2100_norm": {
+   "path": "work/allusionist_v2/L2/runs/20261028T2100_norm",
+   "status": "superseded",
+   "kind": "normalized-wiki-generation",
+   "derived_from": "20261024T1608_fc8d",
+   "superseded_by": "20261029T0843_c8bb"
+  },
+  "20261029T0843_c8bb": {
+   "path": "work/allusionist_v2/L2/runs/20261029T0843_c8bb",
+   "status": "active",
+   "kind": "name-integration-v4",
+   "derived_from": [
+    "20261024T1608_fc8d"
+   ],
+   "stats": {
+    "primary_promotions": 3,
+    "demotions": 25,
+    "skipped": 0
+   },
+   "superseded_by": "20261029T0843_0aac"
+  },
+  "20261029T0843_0aac": {
+   "path": "work/allusionist_v2/L2/runs/20261029T0843_0aac",
+   "status": "convergence-check",
+   "kind": "name-integration-v4",
+   "derived_from": [
+    "20261024T1608_fc8d"
+   ],
+   "stats": {
+    "primary_promotions": 0,
+    "demotions": 0,
+    "skipped": 0
+   }
+  }
+ },
+ "L3": {},
+ "L4": {},
+ "L5": {},
+ "L6": {},
+ "L0": {
+  "20261017T2011_f863": {
+   "path": "work/allusionist_v2/L0/runs/20261017T2011_f863",
+   "status": "active",
+   "kind": "quote-map",
+   "derived_from": "20261012T0000_baseline"
+  }
+ }
 }
