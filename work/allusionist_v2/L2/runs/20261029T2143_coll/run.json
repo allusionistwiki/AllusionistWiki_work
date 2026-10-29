@@ -1,0 +1,14 @@
+{
+ "kind": "audit",
+ "name": "same-name collision scan (multi-mention paragraphs)",
+ "run_id": "20261029T2143_coll",
+ "created_at": "2026-10-29T12:43:11Z",
+ "derived_from": [
+  "20261029T0843_c8bb"
+ ],
+ "outputs": [
+  "name-collision.json"
+ ],
+ "notes": "names>=3 chars; paragraphs with >=2 mentions of same name; 984 candidate names; supports __S1/S2 person-group separation (カーイン型)",
+ "conclusion": "collision candidates enumerated for reading-batch + human review"
+}
