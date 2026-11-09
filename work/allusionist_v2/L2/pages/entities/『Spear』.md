@@ -1,0 +1,1 @@
+- ch00407 [identity/strong] 歌姫Spear ↔ 『Spear』: 直後の「『Spear』が不利です」で同一対象が指されている。

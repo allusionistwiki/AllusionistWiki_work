@@ -1,0 +1,1 @@
+- ch00255 [identity/strong] ゾーイ・アキラ ↔ YOKOZUNA: p203で力士ゾーイが女YOKOZUNAのゾーイ・アキラだと直接明示されている

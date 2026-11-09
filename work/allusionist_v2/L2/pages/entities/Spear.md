@@ -1,0 +1,9 @@
+- ch00027 [identity/strong] Spear ↔ アイドル歌手: 「Spear」が「アイドル歌手」として同格に説明されている
+- ch00063 [identity/strong] 歌姫 ↔ Spear: p133の「名は」明示により歌姫とSpearを同一視する。
+- ch00194 [identity/strong] 黒いフードを被っている ↔ Spear: 外見のフード越しにSpearその人だと断定されている。
+- ch00194 [identity/strong] 黒衣の女性 ↔ Spear: p86で黒衣・黒フードとSpearが同一視された直後の描写である。
+- ch00194 [separation/] Spear ↔ 黒衣の女性: p86で黒フードの人物をSpearその人と断定し、p191で黒衣の女性を同じ人物として扱っているため、別個体ではない。
+- ch00194 [separation/] Spear ↔ ファンの女の子: p277-p279でファンの女の子をSpearが控室に連れ込み追い出しており、Spearとファンの女の子は別人物である。
+- ch00194 [separation/] Spear ↔ ダウザール: 本話のSpearは黒玉の瞳と長い睫毛を持つと描写され、ch5025の青い瞳で短い白銀の髪を持つ美少女とは外見が異なるため別個体である。
+- ch00206 [separation/] 歌姫 ↔ Spear: 本話では歌姫とSpearが同一のライブ出演者として連続的に指されているが、名乗りや括弧同格の明示ではなく状況的同一なので分離保留。
+- ch00212 [identity/strong] 歌姫 ↔ Spear: p104の「歌姫Spear」表記と台帳のcanonical=Spear/alias=歌姫を対応させ、戦闘中の歌姫をSpearと判断する。

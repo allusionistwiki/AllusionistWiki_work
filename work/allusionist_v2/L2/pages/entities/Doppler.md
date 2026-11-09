@@ -1,0 +1,2 @@
+- ch00039 [identity/strong] Doppler ↔ 索敵能力に優れたアプリ: Dopplerが索敵能力に優れたアプリとして機能説明されている。
+- ch00051 [identity/strong] 俺の耳 ↔ Doppler: 「俺の耳」とアプリ名が同位で置かれ、聴覚機能として同一視されている

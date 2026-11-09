@@ -1,0 +1,1 @@
+- ch00018 [identity/strong] 俺 ↔ 品森晶/Akira Shinamori: 俺が品森晶として認識されていると述べるため、語り手の本名を強く示す。
