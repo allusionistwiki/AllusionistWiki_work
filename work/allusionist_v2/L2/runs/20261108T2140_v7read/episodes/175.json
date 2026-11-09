@@ -1,0 +1,291 @@
+{
+ "episode": 175,
+ "generated_at": "2026-11-10T05:57:19Z",
+ "present_names": [],
+ "search_trace": [],
+ "recall_paras": [],
+ "thinking_len_chars": 12000,
+ "thinking": "We need answer user's request. Need produce JSON only, schema max 6 fields, items strings only. Need analyze Japanese long chapter. Need list actual appearing names, identity assertions with strict explicit only, separation evidence, narrator reference if identifiable, related chapters used.\n\nWe have ledger names: includes many canonical aliases. Need identify in current chapter text. Need be careful: only output JSON with fields array of strings: \"M|表層名義|role\", \"I|a|b|type|quote|ch|reason\", \"S|a|b|reason|ch\", \"N|narrator target|quote|p line\", \"R|related ch numbers\". Need likely include fields? User says fields 6 個まで? schema has 5 field types? \"fields\":[ \"M|...\" ...] It says field 6個まで? Probably max 6 entries? Need output JSON only. Need ensure all items strings. Need no extra fields. Need use exact quotes from original text lines. Use chapter number? Current chapter likely ep? The related chapters given: ch5021, 5018, 5012, 5011, 5019, 5027, 5026, 5025. Current chapter maybe ch? It has kakuyomu ep id, no ch number. We need use \"使用ch\" likely current chapter? The prompt: 長編小説の 1 話を読む解析者. 関連ch想起. For current chapter, use current ep? The ledger chapters are numbers. Current chapter likely part of chapter? Need infer? It is episode id not number. Maybe use current chapter number? It says p1 kakuyomu ep... No explicit chapter number. In related ch, use ch numbers. For current text, likely use current chapter id? The schema says 使用ch, 使用p行. For current chapter, can use \"ep16817139554981037278\"? But fields expect ch. User says 使用ch, 使用p行. For current chapter we can use \"現ch\" or \"ep...\". Need decide.\n\nWe need parse text.\n\nNames appearing:\n- アズーリア・ヘレゼクシュ (p14? in current? p3 title, p14? The current text has p498: 私、アズーリア・ヘレゼクシュは、歌姫Spearのデビュー直後からのファンである. Also p3 title. It mentions in related ch 5012 p14: 私、アズーリア・ヘレゼクシュは夜の森を疾走していた. Current chapter likely ch? Need include in M as人物.\n- ミルーニャ appears many. Canonicalミルーニャ, alias呪文使い? p32? p36? p51? p57 etc. Need list surface names: ミルーニャ.\n- メイファーラ appears p25, etc. Not in ledger? Need include as人物? M list can include all actual names.\n- リーナ appears p69, p72, p77, etc.\n- プリエステラ appears p73, p450? p470.\n- ハルベルト appears p109? p120, p184, p245, p249, p332? etc.\n- エスト appears p332? \"エストはミルーニャにこっそりと\".\n- 歌姫Spear appears p423, p436, p498.\n- Spear appears.\n- フィリス appears p116, p127, p128, p150, p153, p264.\n- 紀元槍 appears general concept.\n- 摸倣子 (ミーム) appears p89, p95, p99, p187, p190, p191, p211, p219, p376.\n- 呪力 (オクルトゥム) p187, p190.\n- 邪視 appears general system, not person.\n- 呪文 system.\n- 使い魔 system.\n- 杖 system.\n- 第四衛星, 太陰 (イルディアンサ) p255, p343.\n- 紀神キュトス, 七十一番目 p258.\n- 末妹, 四魔女, 座 etc.\n- コルセスカ appears p272, p358? \"コルセスカ\" p272, p358? \"ヴァージリアのお花畑な頭\" p358. Need include.\n- ヴァージリア appears p358, p429? \"ヴァージリア\". It seems alias for ハルベルト? Need identity. In related ch? Need determine.\n- 冬の魔女コルセスカ p272.\n- 杖の座, 邪視の座, 使い魔の座, 呪文の座 roles.\n- トライデント p289.\n- ガルズ・マウザ・クロウサー p226, p289.\n- マリー p289.\n- アヴロノ p453 \"スピアってアヴロノ系だし\"\n- 兎, 耳長の民, 図書館.\n- 天使? \"大神院は序列五位の天使\" p361. Not specific.\n- 神, 槍神.\n- 猿? from related ch not current.\n- 影? related.\n- 狼エスフェイル related.\n- 対抗呪文【静謐】 p112, p117, p306.\n- 【心話】 p306.\n- 魔導書 (コンピュータ) p376.\n- 非線形参照型差延機関 (セルフ・ディファレンス・エンジン) p379.\n- 上級言語魔術師 (ハイストーリア), 智神の盾の魔女術異端審問官 (ウィッチクラフトインクィジター) p426. Need aliases?\n- 星見の塔 p286, p255? \n- 九姉評議会 p286.\n- パレルノ山 p174, p265.\n- 夜月 (スキリシア) p219.\n- 異言者 (グロソラリア) p219, p226, p230.\n- 転生者 (ゼノグラシア) p219.\n- 紀 (アーカーシャ), 紀神キュトス, 七十一番目, 未知なる末妹.\n- 英雄? 火竜? p273.\n- 竜.\n- 人間以上 (ポストヒューマン).\n- 空の民 p72? \"空の民らしい結果\"\n- 夜の民 p190.\n- 地上の人々, etc.\n- 只腕義手の男? related ch not current.\n- 巨大な猿? related.\n- 長方形の立体窓? related.\n- 遠隔操作の呪力兵? related.\n- 第四階層? related.\n- 六人? related.\n- 同胞? related.\n- 対抗呪文【静謐】 related 5019.\n\nNeed list actual names? M fields: surface names. We can include all named entities? Need likely key names. Avoid too many? JSON can include many. Need ensure valid JSON.\n\nIdentity assertions:\nStrict explicit patterns only:\n(a) 名乗り「私/俺はX」「名前はX」\n(b) 呼称宣言「AはBと呼ばれる/呼ぶ」\n(c) 括弧同格「A（B）」\n(d) 「すなわち/つまりA」\nNeed identify all explicit same identity in current text and related ch? \"全件\" for this chapter? Use current text. Need quote exact.\n\nPotential explicit:\n- p498: \"私、アズーリア・ヘレゼクシュは、歌姫Spearのデビュー直後からのファンである。\" Not identity, fan. Not a=b.\n- p498: \"私、アズーリア・ヘレゼクシュ\" is self naming? Pattern (a) 名乗り「私/俺はX」. It says \"私、アズーリア・ヘレゼクシュは...\" This is apposition: I, Azuria. It asserts narrator = Azuria? Type explicit? It is 名乗り. Need include I|語り手|アズーリア・ヘレゼクシュ|explicit|quote|current ch. But M role? Need.\n- p436: 「歌姫Spear――地上において知らぬ者無き天上の美声、楽神の囀り。世紀の歌姫とは、このハルベルトのもう一つの姿。」 This is explicit? \"世紀の歌姫とは、このハルベルトのもう一つの姿\" = Spear is Harbert's other aspect. Pattern? Not exactly (a) (b) (c) (d) \"とは\"? It says AとはB. It is identity declaration. Need classify explicit? The allowed patterns include (b) 呼称宣言「AはBと呼ばれる/呼ぶ」, (d) 「すなわち/つまりA」. \"AとはB\" is definitional, likely explicit? Need be conservative: explicit only listed patterns. \"とは\" not explicitly listed. It is direct identity declaration, not metaphor? It says \"歌姫Spear... 世紀の歌姫とは、このハルベルトのもう一つの姿\". Could be explicit? Type=explicit? The pattern (b) is AはBと呼ばれる/呼ぶ. Here not called. (c) no. (d) no. So type=strong? User says 照応・言い換え・比喩的同一・状況的同一 strong. This is direct identity, not metaphor, but not one of patterns. Need type=strong.\n- p426: 「ある時は星見の塔の上級言語魔術師（ハイストーリア）、またある時は智神の盾の魔女術異端審問官（ウィッチクラフトインクィジター）、しかしてその実態は――」 Then p436 reveals. Parenthetical aliases: 上級言語魔術師（ハイストーリア） is parenthetical equivalence. Need I|上級言語魔術師|ハイストーリア|explicit|quote|ch. Similarly 智神の盾の魔女術異端審問官（ウィッチクラフトインクィジター） explicit. Also \"ハルベルト\" associated with these roles? The sentence says \"ある時は...\" refers toハルベルト? In context p417 \"ハルの正体。その本質\" then p426. Need identity: ハルベルト = 上級言語魔術師? It's not direct in quote, but parenthetical term same. Need explicit parenthetical for aliases. Forハルベルト to roles, type strong due context.\n- p436: \"ハルのライブは全世界に同時中継され\"ハル = ハルベルト? alias.\n- p436: \"歌姫Spear ... 世紀の歌姫とは、このハルベルトのもう一つの姿。\" Need I|歌姫Spear|ハルベルト|strong.\n- p426 \"その実態は――\" then p436. Strong.\n- p379: \"ハルが開発した非線形参照型差延機関（セルフ・ディファレンス・エンジン）\" Parenthetical explicit: 非線形参照型差延機関 = セルフ・ディファレンス・エンジン. Include.\n- p306: \"【心話】や【静謐】はそれを限定的に実現している\" not identity.\n- p219: \"夜月（スキリシア）\" parenthetical explicit. \"異言者（グロソラリア）\" explicit. \"転生者（ゼノグラシア）\" explicit.\n- p219: \"この因子は夜月（スキリシア）のような内世界の因子を有するアズのような異言者（グロソラリア）も持っているの\" Not identity, example.\n- p226: \"ガルズ・マウザ・クロウサーはトライデントの使い魔だ。\" Pattern? \"AはBだ\" direct identity. Not in allowed patterns? (d) すなわち/つまりA no. (b) called no. (c) no. (a) no. So strong? Direct assertion, not metaphor. User explicit only patterns. Need type=strong.\n- p226: \"つまりはグロソラリアである。\" \"つまりは\" pattern (d) \"つまりA\"? It says \"つまりはグロソラリアである\" refers toガルズ・マウザ・クロウサー? Quote: \"ガルズ・マウザ・クロウサーはトライデントの使い魔だ。つまりはグロソラリアである。\" This is explicit: A (Galuz) = グロソラリア via つまりは. Need include I|ガルズ・マウザ・クロウサー|グロソラリア|explicit|quote.\n- p227: \"同じクロウサー家の血を引くリーナもまたグロソラリアである\" Identity? \"リーナもまたグロソラリアである\" direct, not allowed pattern? \"もまた\" not. strong.\n- p226: \"トライデントの使い魔\" not canonical? Need identity between Galuz and Trident's familiar. strong.\n- p249: \"四魔女――ハルたち末妹候補\" Parenthetical? \"四魔女――ハルたち末妹候補\" dash equivalence. Not allowed? strong.\n- p255: \"第四衛星、太陰（イルディアンサ）\" Parenthetical: 太陰 = イルディアンサ explicit. Include.\n- p255: \"紀元槍（アカシックレコード）\" parenthetical explicit. Include.\n- p255: \"【紀（アーカーシャ）】\" parenthetical explicit. Include.\n- p255: \"紀神の末席\" no.\n- p258: \"紀神キュトス、その引き裂かれた断片たる七十一番目――未知なる末妹\" \"その...たる\" identity. Not allowed. strong.\n- p269: \"邪視の座\" p272 \"邪視の座――つまり冬の魔女コルセスカの目的\" Pattern? \"A――つまりB\" includes つまり? \"邪視の座――つまり冬の魔女コルセスカの目的\" This says the purpose of Evil Eye Seat is Corusca? Not identity. Need not.\n- p272: \"それが邪視の座――つまり冬の魔女コルセスカの目的らしい。\" No.\n- p276: \"杖の座は...\" no.\n- p279: \"彼女は杖の座としては二番手\" identity? \"彼女は杖の座としては二番手\" not allowed. strong? It identifiesミルーニャ as杖の座二番手? Context: p279 \"彼女は杖の座としては二番手だった\" refers toミルーニャ. Need I|ミルーニャ|杖の座（二番手）|strong? Use quote.\n- p289: \"使い魔の座――トライデント。そしてガルズ・マウザ・クロウサーとマリー。\" Equivalence via dash. strong.\n- p293: \"そして呪文の座――ハルの目的は\" Equivalence? strong.\n- p426: \"星見の塔の上級言語魔術師（ハイストーリア）\" explicit for role alias.\n- p426: \"智神の盾の魔女術異端審問官（ウィッチクラフトインクィジター）\" explicit.\n- p436: \"歌姫Spear――地上において知らぬ者無き天上の美声、楽神の囀り。\" Dash not allowed.\n- p436: \"ハルのライブ\"ハル=ハルベルト alias. Strong.\n- p453: \"スピアってアヴロノ系だし\" no identity.\n- p488: \"オルゴーの滅びの呪文\" related to canonical. Current mentions \"影の世界で、オルゴーの滅びの呪文を唱えていたその響き\". Identity? \"その響きはまるで歌\" metaphor.\n- p361: \"大神院は序列五位の天使をあの性悪機械からミルーニャに変更するべき\" no.\n- p146? \"ハルたちはこのゆらぎを持った世界観をそう呼んでいる\" p143: \"ゆらぎの神話――ハルたちはこのゆらぎを持った世界観をそう呼んでいる\" This is naming? \"Aをそう呼んでいる\" pattern (b)? \"AはBと呼ばれる/呼ぶ\" Here \"ハルたちは ... をそう呼んでいる\" = they call it ゆらぎの神話. For a=世界観, b=ゆらぎの神話? Explicit? The quote: 「ゆらぎの神話――ハルたちはこのゆらぎを持った世界観をそう呼んでいる」. It says Harberts call world view \"fluctuation myth\". This is naming, allowed (b). Could include I|ゆらぎを持った世界観|ゆらぎの神話|explicit|quote. Need not key.\n- p219: \"こうした特有の因子を持つものたちを転生者（ゼノグラシア）と呼ぶ。\" Explicit naming + parenthetical. Include I|特有の因子を持つものたち|転生者|explicit? Also 転生者 = ゼノグラシア explicit. Need separate? Parenthetical.\n- p219: \"この因子は夜月（スキリシア）のような内世界の因子を有するアズのような異言者（グロソラリア）も持っているの\" Parenthetical: 夜月=スキリシア, 異言者=グロソラリア. Include.\n- p219: \"アズのような異言者\" not identity? Example.\n- p219: \"アズ\" is Azuria. Need identity? Context \"アズ\" alias ofアズーリア. Strong.\n- p498: \"私、アズーリア・ヘレゼクシュ\" explicit.\n- p498: \"歌姫Spearのデビュー直後からのファン\" no.\n- p436: \"世紀の歌姫とは、このハルベルトのもう一つの姿。\" strong.\n- p426: \"その実態は――\" p436. Strong.\n- p417: \"ハルの正体。その本質\" \"ハル\" alias? Contextハルベルト. Strong.\n- p255: \"ハルの故郷である第四衛星\"ハル=ハルベルト? strong.\n- p293: \"そして呪文の座――ハルの目的\"ハル=ハルベルト? Strong.\n- p358: \"ヴァージリアのお花畑な頭の中\" likelyハルベルト alias? Need not.\n- p429: \"まだ決まってないのに気が早いですよヴァージリア\" refers toハルベルト? Strong.\n- p332: \"エストはミルーニャにこっそりと「ねえ、ハルは頭がおかしくなっちゃったの？」\" ハル=ハルベルト. Strong.\n- p123: \"アズ\" inハルベルト address: 「世界のゆらぎ...これと同じふるまいをする呪術を、アズは知っているはず」. \"アズ\" likelyアズーリア. Strong. Need identity? \"アズ\" alias ofアズーリア. Use context? Need I|アズ|アズーリア|strong.\n- p120? \"ハルベルトがミルーニャの言葉を補足\" no.\n- p136: \"ラーゼフはきっと同じ事を呪文（じんぶんかがく）的な視点\" parenthetical: 呪文 = じんぶんかがく? It says \"同じ事を呪文（じんぶんかがく）的な視点\" Parenthetical gloss: 呪文 = humanities. This is explicit? It's parenthetical equivalence. Include? It's general term, role一般語. Need M? Maybe include I|呪文|じんぶんかがく|explicit? The pattern (c) exact. Include? It is not canonical? Could.\n- p137: \"邪視（にんげんのほんしょう）\" parenthetical explicit. Include.\n- p137: \"使い魔（しゃかいかがく）\" explicit.\n- p137: \"杖使い\"? p137 says \"杖使いはあるがままの世界\" not parenthetical. p136 has \"杖（しぜんかがく）\" p135: \"杖（しぜんかがく）的な視点\" explicit: 杖 = しぜんかがく. Include.\n- p112: \"【静謐】ですね\" no.\n- p115-117: \"遡って、フィリス。対抗呪文【静謐】。その発動の起句を思い出した\" Identity? \"フィリス\" as対抗呪文? Not explicit. Strong? It says \"遡って、フィリス。対抗呪文【静謐】。その発動の起句を思い出した\" implies incantation involvesフィリス? Not direct.\n- p116: \"――遡って、フィリス。\" no.\n- p117: \"対抗呪文【静謐】。その発動の起句を思い出したのだ。\" Not identity.\n- p118: \"寄生異獣を活性化させる文言\" no.\n- p127: \"あれは確か、ラーゼフが説明してくれたフィリスの特性。\" no.\n- p128: \"私だけではなく、世界そのものを浸食する原初の魔将。\" \"フィリスの特性\"? It describesフィリス as原初の魔将? p127-128: \"あれは確か、ラーゼフが説明してくれたフィリスの特性。 私だけではなく、世界そのものを浸食する原初の魔将。\" This is apposition, strong? Not explicit. Include I|フィリス|原初の魔将|strong? Direct description.\n- p150: \"フィリスは、世界が常に参照し続けているアカシックレコード――この宇宙の全存在を貫く紀元槍の制御盤（コンソール）ではないかという推測が可能です\" \"フィリスは...制御盤ではないかという推測\" Not explicit,推测. strong? It is speculation. Need I|フィリス|紀元槍の制御盤|strong.\n- p153: \"フィリスが、制御盤？\" question.\n- p264: \"フィリスのような小さな制御盤\" comparison.\n- p306: \"【心話】や【静謐】はそれを限定的に実現している\" no.\n- p376: \"自己言及の摸倣子を循環させて動く伝詞回路の仕組み――つまり魔導書（コンピュータ）の応用\" Parenthetical: 魔導書 = コンピュータ explicit. Also \"つまり\" identity? Include I|魔導書|コンピュータ|explicit.\n- p379: \"非線形参照型差延機関（セルフ・ディファレンス・エンジン）\" explicit.\n- p343: \"第四衛星（イルディアンサ）\" explicit.\n- p255: \"第四衛星、太陰（イルディアンサ）\" explicit.\n- p219: \"夜月（スキリシア）\" explicit.\n- p219: \"異言者（グロソラリア）\" explicit.\n- p219: \"転生者（ゼノグラシア）\" explicit.\n- p211: \"転生者（ゼノグラシア）\" no? p211: \"『転生』や『転移』といった現象\" no.\n- p226: \"トライデントの使い魔だ。つまりはグロソラリアである。\" explicit for Galuz = グロソラリア.\n- p226: \"ガルズ・マウザ・クロウサーはトライデントの使い魔だ。\" Direct \"AはBだ\". Not allowed. Strong.\n- p227: \"リーナもまたグロソラリアである\" direct. Strong.\n- p234: \"なら、リーナもまた末妹候補の使い魔となる資格を持っていることになる。\" no.\n- p436: \"ハルのライブ\"ハル=ハルベルト. strong.\n- p429: \"ヴァージリア\" likelyハルベルト. Need strong? Need quote: \"まだ決まってないのに気が早いですよヴァージリ",
+ "rescued_from_thinking": true,
+ "analysis": {
+  "mentions": [
+   {
+    "name": "アズーリア・ヘレゼクシュ",
+    "role": "人物"
+   },
+   {
+    "name": "ミルーニャ",
+    "role": "人物"
+   },
+   {
+    "name": "ハルベルト",
+    "role": "人物"
+   },
+   {
+    "name": "リーナ",
+    "role": "人物"
+   },
+   {
+    "name": "フィリス",
+    "role": "人物"
+   },
+   {
+    "name": "歌姫Spear",
+    "role": "人物"
+   }
+  ],
+  "identity": [
+   {
+    "a": "語り手",
+    "b": "アズーリア・ヘレゼクシュ",
+    "type": "explicit",
+    "quote": "私、アズーリア・ヘレゼクシュは、歌姫Spearのデビュー直後からのファンである。",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "名乗りによる同一視"
+   },
+   {
+    "a": "上級言語魔術師",
+    "b": "ハイストーリア",
+    "type": "explicit",
+    "quote": "星見の塔の上級言語魔術師（ハイストーリア）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による別名定義"
+   },
+   {
+    "a": "智神の盾の魔女術異端審問官",
+    "b": "ウィッチクラフトインクィジター",
+    "type": "explicit",
+    "quote": "智神の盾の魔女術異端審問官（ウィッチクラフトインクィジター）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による別名定義"
+   },
+   {
+    "a": "非線形参照型差延機関",
+    "b": "セルフ・ディファレンス・エンジン",
+    "type": "explicit",
+    "quote": "ハルが開発した非線形参照型差延機関（セルフ・ディファレンス・エンジン）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による別名定義"
+   },
+   {
+    "a": "夜月",
+    "b": "スキリシア",
+    "type": "explicit",
+    "quote": "夜月（スキリシア）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による別名定義"
+   },
+   {
+    "a": "異言者",
+    "b": "グロソラリア",
+    "type": "explicit",
+    "quote": "異言者（グロソラリア）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による別名定義"
+   },
+   {
+    "a": "転生者",
+    "b": "ゼノグラシア",
+    "type": "explicit",
+    "quote": "転生者（ゼノグラシア）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による別名定義"
+   },
+   {
+    "a": "太陰",
+    "b": "イルディアンサ",
+    "type": "explicit",
+    "quote": "第四衛星、太陰（イルディアンサ）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による別名定義"
+   },
+   {
+    "a": "紀元槍",
+    "b": "アカシックレコード",
+    "type": "explicit",
+    "quote": "紀元槍（アカシックレコード）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による別名定義"
+   },
+   {
+    "a": "紀",
+    "b": "アーカーシャ",
+    "type": "explicit",
+    "quote": "【紀（アーカーシャ）】",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による別名定義"
+   },
+   {
+    "a": "魔導書",
+    "b": "コンピュータ",
+    "type": "explicit",
+    "quote": "魔導書（コンピュータ）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による別名定義"
+   },
+   {
+    "a": "呪文",
+    "b": "じんぶんかがく",
+    "type": "explicit",
+    "quote": "同じ事を呪文（じんぶんかがく）的な視点",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による比喩的定義"
+   },
+   {
+    "a": "邪視",
+    "b": "にんげんのほんしょう",
+    "type": "explicit",
+    "quote": "邪視（にんげんのほんしょう）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による比喩的定義"
+   },
+   {
+    "a": "使い魔",
+    "b": "しゃかいかがく",
+    "type": "explicit",
+    "quote": "使い魔（しゃかいかがく）",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による比喩的定義"
+   },
+   {
+    "a": "杖",
+    "b": "しぜんかがく",
+    "type": "explicit",
+    "quote": "杖（しぜんかがく）的な視点",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "括弧同格による比喩的定義"
+   },
+   {
+    "a": "ガルズ・マウザ・クロウサー",
+    "b": "グロソラリア",
+    "type": "explicit",
+    "quote": "つまりはグロソラリアである。",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "「つまり」による明示的同一視"
+   },
+   {
+    "a": "歌姫Spear",
+    "b": "ハルベルト",
+    "type": "strong",
+    "quote": "世紀の歌姫とは、このハルベルトのもう一つの姿。",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "直接的な正体開示（もう一つの姿）"
+   },
+   {
+    "a": "ガルズ・マウザ・クロウサー",
+    "b": "トライデントの使い魔",
+    "type": "strong",
+    "quote": "ガルズ・マウザ・クロウサーはトライデントの使い魔だ。",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "「AはBだ」による直接的断定"
+   },
+   {
+    "a": "リーナ",
+    "b": "グロソラリア",
+    "type": "strong",
+    "quote": "同じクロウサー家の血を引くリーナもまたグロソラリアである",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "「AもまたBである」による直接的断定"
+   },
+   {
+    "a": "ミルーニャ",
+    "b": "杖の座（二番手）",
+    "type": "strong",
+    "quote": "彼女は杖の座としては二番手だった",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "状況的同一視（役割の帰属）"
+   },
+   {
+    "a": "フィリス",
+    "b": "原初の魔将",
+    "type": "strong",
+    "quote": "世界そのものを浸食する原初の魔将。",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "特性説明による同格表現"
+   },
+   {
+    "a": "フィリス",
+    "b": "紀元槍の制御盤",
+    "type": "strong",
+    "quote": "フィリスは、世界が常に参照し続けているアカシックレコード――この宇宙の全存在を貫く紀元槍の制御盤（コンソール）ではないかという推測が可能です",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "推測を含む強い同一視"
+   },
+   {
+    "a": "アズ",
+    "b": "アズーリア・ヘレゼクシュ",
+    "type": "strong",
+    "quote": "これと同じふるまいをする呪術を、アズは知っているはず",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "文脈からの愛称特定"
+   },
+   {
+    "a": "ハル",
+    "b": "ハルベルト",
+    "type": "strong",
+    "quote": "ハルの正体。その本質",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "文脈からの愛称特定"
+   }
+  ],
+  "separations": [],
+  "narrator": {
+   "refers_to": "語り手が指す人物",
+   "quote": "私、アズーリア・ヘレゼクシュは、歌姫Spearのデビュー直後からのファンである。",
+   "lines": [
+    "p498"
+   ]
+  },
+  "recall_used": [
+   5012
+  ]
+ }
+}

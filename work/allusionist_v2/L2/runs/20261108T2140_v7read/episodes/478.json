@@ -1,0 +1,291 @@
+{
+ "episode": 478,
+ "generated_at": "2026-11-10T05:57:54Z",
+ "present_names": [],
+ "search_trace": [],
+ "recall_paras": [],
+ "thinking_len_chars": 12000,
+ "thinking": "We need answer user's request. Need produce JSON only with schema max six fields, items are strings only. Need analyze Japanese text. Need list surface names, identity explicit, separation evidence, narrator target if identifiable, related ch used. Need be careful: output JSON only, no extra. Need include fields array with strings format:\n\"M|表層名義|role(人物|語り手|比喩|一般語)\"\n\"I|a|b|type(explicit|strong)|逐語引用|使用ch|思考1文\"\n\"S|a|b|分離理由1文|使用ch\"\n\"N|語り手が指す人物|逐語引用|使用p行\"\n\"R|使用した関連ch番号\"\n\nNeed determine from provided text. We have ledger: names that may appear. Need list actual surface names in this chapter. Text: chapter ep... likely episode id. Need use chapter number? It's chapter? The ledger has chapters numeric, but current episode has no chapter number in provided? It is ep16817330668910971672. Related ch numbers: 5004,5005,5011,5012,5017,5018,5019,5021. Current text likely chapter? Need output use ch numbers. For current chapter, use episode? The schema fields use使用ch. In ledger, chapters=7 etc. Need infer current chapter? It says \"長編小説の 1 話を読む解析者\". The ledger includes chapters numbers (5004 etc). Current episode is likely chapter? The URL episode id not numeric. Need maybe current chapter is 5539? Not given. We need use current chapter number? For current chapter, use 0? The prompt says \"使用ch\" likely chapter numbers. For current text, use chapter number? We need infer from ledger: canonical=エレクトラ alias=ユディーア chapters=5 last=[5256,5434,5538]; current episode likely 5539? The ledger shows last for many names includes 5538, 5518 etc. Current text likely chapter 5539? It includes many names: ライラ, ユディーア, ゴーリー, オルガンローデ, レンディ, ケーヴ, ロティン, ボーキン, レナリア, ニアホン/ちびニア? Let's inspect.\n\nNeed identify surface names:\n- ライラ・ラプス (ライラ, 傘の魔女, 貴婦人, 女, 群の長, 虹犬? role)\n- ユディーア (also エレクトラ? in ledger canonical=エレクトラ alias=ユディーア; text uses ユディーア, \"亜竜\" maybe? \"ユディーアがユディーアとして生を受けた\" and \"灰色\" \"鮮血使い\" etc. Need surface names: ユディーア, \"亜竜\"? p133 mentions 亜竜. p116 長寿者. p253 \"可愛い内装だね\" no. \"鮮血使いめ\". Need role.\n- ダヴン・ゴーリー (ゴーリー, 大男, 半裸の大男, 鉄のマスク, 迷宮刑罰者, 群の長? No, leader of上方勢力? He is \"上方勢力から送りこまれた迷宮刑罰者たちのリーダー\". He calls silver-haired girl 姐さん. He is \"ギャングのボス\". Surface names: ダヴン・ゴーリー, ゴーリー, 大男, 半裸の大男, 凶悪な犯罪者, 迷宮刑罰者, 鉄のマスク.\n- レンディ赤爵 (赤い肌のラープ人, 赤爵, 爆破魔, 長寿者)\n- ケーヴ三世 / ケーヴ夜公 (黒い馬, 夢馬, 夜の民, 長寿者)\n- ロティン / 破戒僧ロティン (石喰いヴィーガンのトロル, 岩肌の破戒僧, 長寿者)\n- ボーキン将軍 (元ジャッフハリム軍人, 長寿者)\n- レナリア・V・オルガナ (銀髪の少女, 踊り子リーダー, 暗殺者, 紀人, 霊媒/寄り代). Ledger has canonical=レナリア alias=レナ chapters=2 last=[5191,5205]. Here full name レナリア・V・オルガナ.\n- オルガンローデ (犬型のオルガンローデ, オルガンローデの爪, オルガンローデ剣, オルゴーの滅びの呪文, 滅びの呪文). Ledger canonical=オルガンローデ alias=オルゴーの滅びの呪文, 滅びの呪文. Need surface names: オルガンローデ, オルゴーの滅びの呪文, 滅びの呪文. Role? It seems a spell/entity? Need list.\n- ちびニア / ニアホン (p137 \"にあ！ かんけーない！ 情報奪う！ 聖女見つける！\" speaker? p140 \"ちびニアの言葉がユディーアに本来の目的を思い出させる.\" p119 \"ユディーアはニアホンズ操作し\" p120 \"セリアック＝ニアは\". Surface names: ちびニア, ニアホン, セリアック＝ニア? Need list actual names: ニアホン, ちびニア, セリアック＝ニア. Role: tool? ちびニア is a small Niahon? In ledger chibi Niah. Need list.\n- 銀髪の少女 (before name) -> レナリア・V・オルガナ. Surface names: 銀髪の少女, 踊り子の一人, リーダー格, 銀髪の少女. Need list? \"銀髪の少女\" is descriptive, not proper name? It is a surface designation for person. Need include? Role 人物.\n- 踊り子たち (general).\n- 女 (ライラ?), 貴婦人 (ライラ). Need include? They are surface names? \"女\" generic. Probably include \"貴婦人\" as alias? It refers toライラ. Need list actual surface names? \"表層名義\" likely names/aliases. Include descriptive aliases? The ledger includes canonical/alias with descriptive? \"聖女\", \"長寿者\". Need output M lines for surface names in text, role. Need include canonical? Let's parse.\n\nNeed identity explicit:\n- p23: \"ライラ・ラプスの無茶な要求に\" => explicit? It namesライラ? Not pattern (a) self-name, (b)称宣言, (c)括弧同格, (d)すなわち. It's just name in narration. Not explicit identity. Need only patterns. Need find explicit in text:\n  - p28: 「動物愛護？　いいえ、私は犬の地位を向上させたいだけ。『ことば』を与えてね」 no identity.\n  - p40: 「ダーカンシェルの子、亜竜王アルト。あらゆる動物に『ことば』を与えて知恵もつヒトに変容させる彼の権能が私は欲しい。」 This identifies アルト as 亜竜王アルト? Not self. Not pattern? It says \"ダーカンシェルの子、亜竜王アルト\" appositive? Could be (d) \"すなわち/つまりA\"? No. It's epithet, not explicit identity.\n  - p62: \"愚かなジャッフハリム人は私を罪人と呼びました\" no.\n  - p90: 「オルゴーの滅びの呪文を詠唱していて良かったわ。」 Not identity.\n  - p102: 「拙僧の岩盤装甲を貫くとは、あの爪に秘められた呪力は滅びの呪文級であるな。」\n  - p105: 「というよりそのままオルガンローデの爪であろう。」 This is \"AはB?\" It says \"that is exactly Organo-ride's claw\"? Pattern (d)? It says \"というよりそのまま\" = \"more than that, exactly\". Not explicit? The pattern says (d) \"すなわち/つまりA\". This is \"というよりそのまま\" not exactly. Type strong.\n  - p116: \"これは紛れもなくジャッフハリムが生み出した最大の罪、『長寿者（メトシェラ）』の特性に由来するものだ。\" This is explicit? It says \"長寿者（メトシェラ）\" parenthetical equivalence (c) 括弧同格「A（B）」. Yes explicit. Need I line: a=長寿者 b=メトシェラ type=explicit quote p116.\n  - p123: レンディ『自称』赤爵. Not explicit.\n  - p124: ケーヴ三世。...固有変種『夢馬（ナイトメア）』 (parenthetical). explicit? \"固有変種『夢馬（ナイトメア）』\" A=B? It's \"dream horse (nightmare)\" explicit? It's a term equivalence. Should include? a=夢馬 b=ナイトメア type=explicit.\n  - p125: \"石喰いヴィーガンのトロル\" not explicit.\n  - p126: \"元ジャッフハリム軍人\" not.\n  - p127: \"そしてライラ・ラプス。推定命数およそ十九万八千。\" no.\n  - p164: 「私があの犬型のオルガンローデをどうにかして傘の魔女の守りを奪うわ。」 It identifies \"傘の魔女\" asライラ? Not explicit? It says \"あの犬型のオルガンローデ\" and \"傘の魔女\". No.\n  - p167: \"虹犬の得意分野である朱神（トラス）の掌握合戦\" parenthetical? \"朱神（トラス）\" explicit? It is term equivalence. Include? It's not a name? Need list? It is surface name? \"朱神\" and \"トラス\" equivalence. explicit.\n  - p170? no.\n  - p174: 「ほう、やはりオルガンローデか。無詠唱でその深度とは！」 no.\n  - p177: 「古代文字（ジャッフハリマータ）の呪文」 parenthetical explicit. Include? It's language.\n  - p227: 「祈りに応えよ、イシルドゥムア！」 no.\n  - p230: 「悪竜を呪い、私に祈りなさい」 no.\n  - p241: \"自分が絶対者として振る舞うための空間。\" no.\n  - p273: 「私の世界を、お父様への信仰の証をっ、愚弄しましたねっ！　虹犬の天界を貶めるとは、その所業は万死に値するっ！　穢らわしい鮮血使いめ、お前には必ずや罰を与えます」 \"鮮血使いめ\" refers ユディーア? strong? Not explicit.\n  - p374: \"女王暗殺。女王とは、ガロアンディアンの王のことか？\" This is \"女王とは、ガロアンディアンの王\" explicit? Pattern (d) \"とは\" = \"namely\". It is in narrator thought. Could be explicit? It's asking? \"女王とは、ガロアンディアンの王のことか？\" It defines queen as Galoandian king. Type explicit? It includes \"女王とは、...のことか？\" It's interrogative. The prompt says explicit only patterns (d) \"すなわち/つまりA\". \"とは\" not same. Strong.\n  - p375: \"杖の座、同盟者であるアンドロイドの魔女。\" no.\n  - p376: \"確かに祝祭に乗じてトリシューラを暗殺しようとする者\" no.\n  - p391: 「機械女王トリシューラの暗殺。...その名も『王殺し』。...」 explicit? \"その名も『王殺し』\" refers to assassin? Not a=b explicit? It says \"その名も\" = \"his name is\". Pattern (b)? \"AはBと呼ばれる/呼ぶ\" not exactly. It is name declaration for assassin. Could be explicit for a=暗殺者? b=王殺し? Need cautious. Pattern (b) \"呼称宣言「AはBと呼ばれる/呼ぶ」\". Here \"その名も『王殺し』\" is \"whose name is\". It is an explicit identity of the assassin? The subject is \"彼\" (王殺し). It says \"世界有数の動画配信者にして死神シェロンの弟子を自称する凄腕の暗殺者よ。\" It's appositive. Not \"A is called B\". Type strong? The prompt strict. We can use strong.\n  - p398: 「私はレナリア・Ｖ・オルガナ。暗殺者で、いちおう紀人。よろしくね」 Explicit pattern (a) self-name. a=レナリア・V・オルガナ b=暗殺者? It says \"I am Renaria... Assassin\" self-name. Need I line: a=レナリア・V・オルガナ b=暗殺者 type=explicit? It is self identity: \"私はX。暗殺者で\" It declares name and role. The schema expects a|b identity. For self name, a=\"私\" b=\"レナリア・V・オルガナ\" explicit. Also a=レナリア・V・オルガナ b=暗殺者? Need list full? \"私はレナリア・V・オルガナ\" explicit identity self=name. a=私 b=レナリア・V・オルガナ type=explicit. Also \"私は...暗殺者で、いちおう紀人\" self role, not name? Could include a=レナリア・V・オルガナ b=暗殺者 type=explicit? It is self declaration \"I am Renaria... assassin\". It's explicit? Pattern (a) name \"私/俺はX\" where X is name? Here X is name and role. We can include a=私 b=暗殺者? Not necessary. Need only identities. Important: canonical=レナリア alias=レナ? Need identity with レナリア and レナ? Not in text. Need identity between レナリア・V・オルガナ and 銀髪の少女? Strong: p398 after she is silver-haired girl, self-name. Strong (not explicit). We can record: a=銀髪の少女 b=レナリア・V・オルガナ type=strong quote p398? It's not explicit pattern? It is self-name, and previous context identifies speaker as silver-haired girl? The quote alone \"私は...\" no mention silver-haired. Need use p398 with context? quote must verbatim. For I lines, quote verbatim. Need ensure quote supports. For strong, quote can be \"私はレナリア・V・オルガナ\" and context? Need use lines? We can include strong with quote p398. It is self-name. Pattern (a) explicit. For identity of silver-haired girl to Renaria, type=strong due context; quote p357/398? Need quote \"さて、それじゃあ本題に入りましょう。過去視能力者としてのあなたに依頼があるの\" plus name? Not one line. We can quote p398? It doesn't mention silver-haired. The schema only quote, ch. Need acceptable.\n\nNeed explicit identity:\n- 長寿者（メトシェラ） p116.\n- 夢馬（ナイトメア） p124.\n- 朱神（トラス） p167, p188? p109. Need include explicit? It is parenthetical. \"朱神（トラス）\" appears p109, p167, p188. Need quote p109: \"朱神（トラス）を活性化させていたために起こっていた現象だったのだ。\" This is parenthetical. type=explicit.\n- 古代文字（ジャッフハリマータ） p177.\n- 機械女王トリシューラ? p391: \"機械女王トリシューラ\" not parenthetical. It's title+name. Not explicit.\n- 王殺し? p391: \"その名も『王殺し』\" not pattern.\n- 亜竜王アルト p40: \"ダーカンシェルの子、亜竜王アルト\". It says alt? Not explicit.\n- 未来回想? p84: \"さすがは未来回想。聖女日誌の記述とお絵かきそのままの状況ね。\" It says \"未来回想\" as ability? Not identity.\n- 聖女日誌? not.\n- 過去視能力者としてのあなた p357: \"過去視能力者としてのあなた\" identifies ユディーア as 過去視能力者? Explicit? Pattern (b)? \"as\" not. Strong.\n- ちびニア? p140: \"ちびニアの言葉がユディーアに本来の目的を思い出させる.\" It names speaker. Not explicit.\n- ニアホン? p119: \"ユディーアはニアホンを操作し\" Not identity.\n- セリアック＝ニア p120: \"セリアック＝ニアはこの機能をニアホンに持たせていた.\" Not identity.\n\nNeed separation evidence:\n- Same name? \"アルト\" appears p40 亜竜王アルト and ledger canonical=アルト alias=お父様. In text p34 \"お父様はこの優れた種族を素材に...\" p273 \"お父様への信仰\". Need separation: 亜竜王アルト (p40) vs お父様 (p34,273) likely not same? Need S line: a=アルト b=お父様 reason: text mentions \"亜竜王アルト\" as power source, and \"お父様\" as faith object ofライラ; no explicit identity, likely separate entities. Use ch current? Need use current chapter number.\n- \"ライラ\" vs \"貴婦人\" vs \"傘の魔女\"? Same? Need not separation.\n- \"ユディーア\" vs \"エレクトラ/キニス/ユディ\"? In text p194 \"キニス、可愛い俺のキニス\" in nightmare. This likely refers toユディーア? In ledger canonical=エレクトラ alias=キニス,ユディ,ユディーア. Need identity? p197: \"遠く懐かしい声。泥人形が...男性に...女性がのし掛かっている。女性は自分のものとそっくりな鉤爪で...\" p194 calls \"キニス\". Need strong identity: a=ユディーア b=キニス type=strong? The nightmare figure calls her キニス, and she has claws identical toユディーア. Need I line type=strong. Quote p194: 「キニス、可愛い俺のキニス」 p198: \"女性は自分のものとそっくりな鉤爪で男性の肉体を引き裂き\". Need quote single line? We can quote p194 and p198? Schema fields are strings only; quote is one string. Could include multiple lines with newline? Need \"逐語引用\" from original. We can include p194 line and p198 line separated by \" / \" not verbatim? It says quote from original verbatim. Could quote p194 only, plus context? Need identity a=ユディーア b=キニス. Quote p194 \"「キニス、可愛い俺のキニス」\" doesn't mention ユディーア. Need quote p198 \"女性は自分のものとそっくりな鉤爪で男性の肉体を引き裂き\" suggests. Need combine? It says 逐語引用, not necessarily single line? Use lines with \\n? JSON string can have \\n. Need preserve verbatim? We can use \"p194 「キニス、可愛い俺のキニス」\\np198 女性は自分のものとそっくりな鉤爪で男性の肉体を引き裂き\" includes line labels not original. Better quote original lines: \"「キニス、可愛い俺のキニス」\\n遠く懐かしい声。泥人形がどろどろに溶けた口を開くと泡が漏れて浮上していく。\\nどこかで見たような男性に、これもどこかで見たような女性がのし掛かっている。女性は自分のものとそっくりな鉤爪で男性の肉体を引き裂き、飛び散る泥にも構わずに淡々と殺戮を実行していく。\" This is verbatim lines. Fine.\n\nNeed \"ユディーア\" vs \"亜竜\"? p133: \"自分の命数を確認する。およそ千足らず...亜竜は種族寿命を超えた千年竜になってようやく...\" This is general species, not identity. Need separation: ユディーア is 亜竜? In ledger canonical=亜竜. Text: \"ユディーアがユディーアとして生を受けた\" p207. Need identity? \"ユディーア\" is 亜竜? Strong? It says \"亜竜は...\" not explicit. Need not list.\n\nNeed \"ユディーア\" vs \"エレクトラ\"? In ledger. Text doesn't mention エレクトラ. No.\n\nNeed \"ユディーア\" vs \"鮮血使い\" p273 \"穢らわしい鮮血使いめ\" likely refers toユディーア. Strong. Need I line: a=ユディーア b=鮮血使い type=strong quote p273. It's insult. Use strong.\n\nNeed \"ユディーア\" vs \"過去視能力者\" p357 \"過去視能力者としてのあなたに依頼があるの\" refers toユディーア. Strong.\n\nNeed \"ユディーア\" vs \"聖女\"? p137 \"聖女見つける\" byちびニア. Not identity.\n\nNeed \"ライラ\" vs \"傘の魔女\" p164 \"傘の魔女の守りを奪う\" and p312 \"名高い傘の魔女\". Strong identity: a=ライラ b=傘の魔女 type=strong. Quote p312 \"たとえ相手が名高い傘の魔女であろうとも\" refers toライラ. Strong.\n\nNeed \"ライラ\" vs \"虹犬\"? p14 \"女だ。耳の広がったパピヨン虹犬は毛並みの良い血統書付きの犬を侍らせながらソファに深く背を預けている。\" This identifiesライラ as 虹犬? It says woman is \"パピヨン虹犬\"? In text p87 \"ライラの膝の上にいた犬の胴が.",
+ "rescued_from_thinking": true,
+ "analysis": {
+  "mentions": [
+   {
+    "name": "ライラ・ラプス",
+    "role": "人物"
+   },
+   {
+    "name": "ライラ",
+    "role": "人物"
+   },
+   {
+    "name": "貴婦人",
+    "role": "人物"
+   },
+   {
+    "name": "女",
+    "role": "人物"
+   },
+   {
+    "name": "傘の魔女",
+    "role": "人物"
+   },
+   {
+    "name": "虹犬",
+    "role": "比喩"
+   },
+   {
+    "name": "ユディーア",
+    "role": "人物"
+   },
+   {
+    "name": "亜竜",
+    "role": "一般語"
+   },
+   {
+    "name": "長寿者",
+    "role": "一般語"
+   },
+   {
+    "name": "メトシェラ",
+    "role": "一般語"
+   },
+   {
+    "name": "鮮血使い",
+    "role": "人物"
+   },
+   {
+    "name": "過去視能力者",
+    "role": "人物"
+   },
+   {
+    "name": "ゴーリー",
+    "role": "人物"
+   },
+   {
+    "name": "ダヴン・ゴーリー",
+    "role": "人物"
+   },
+   {
+    "name": "大男",
+    "role": "人物"
+   },
+   {
+    "name": "半裸の大男",
+    "role": "人物"
+   },
+   {
+    "name": "迷宮刑罰者",
+    "role": "人物"
+   },
+   {
+    "name": "レンディ赤爵",
+    "role": "人物"
+   },
+   {
+    "name": "赤い肌のラープ人",
+    "role": "人物"
+   },
+   {
+    "name": "ケーヴ三世",
+    "role": "人物"
+   },
+   {
+    "name": "夢馬",
+    "role": "一般語"
+   },
+   {
+    "name": "ナイトメア",
+    "role": "一般語"
+   },
+   {
+    "name": "ロティン",
+    "role": "人物"
+   },
+   {
+    "name": "石喰いヴィーガンのトロル",
+    "role": "人物"
+   },
+   {
+    "name": "ボーキン将軍",
+    "role": "人物"
+   },
+   {
+    "name": "レナリア・V・オルガナ",
+    "role": "人物"
+   },
+   {
+    "name": "銀髪の少女",
+    "role": "人物"
+   },
+   {
+    "name": "暗殺者",
+    "role": "人物"
+   },
+   {
+    "name": "紀人",
+    "role": "人物"
+   },
+   {
+    "name": "王殺し",
+    "role": "人物"
+   },
+   {
+    "name": "オルガンローデ",
+    "role": "一般語"
+   },
+   {
+    "name": "滅びの呪文",
+    "role": "一般語"
+   },
+   {
+    "name": "ちびニア",
+    "role": "人物"
+   },
+   {
+    "name": "ニアホン",
+    "role": "人物"
+   },
+   {
+    "name": "セリアック＝ニア",
+    "role": "人物"
+   },
+   {
+    "name": "アルト",
+    "role": "人物"
+   },
+   {
+    "name": "お父様",
+    "role": "人物"
+   }
+  ],
+  "identity": [
+   {
+    "a": "長寿者",
+    "b": "メトシェラ",
+    "type": "explicit",
+    "quote": "これは紛れもなくジャッフハリムが生み出した最大の罪、『長寿者（メトシェラ）』の特性に由来するものだ。",
+    "lines": [
+     "5539"
+    ],
+    "reason": "括弧同格による明示的な定義。"
+   },
+   {
+    "a": "夢馬",
+    "b": "ナイトメア",
+    "type": "explicit",
+    "quote": "固有変種『夢馬（ナイトメア）』",
+    "lines": [
+     "5539"
+    ],
+    "reason": "括弧同格による明示的な定義。"
+   },
+   {
+    "a": "朱神",
+    "b": "トラス",
+    "type": "explicit",
+    "quote": "朱神（トラス）を活性化させていたために起こっていた現象だったのだ。",
+    "lines": [
+     "5539"
+    ],
+    "reason": "括弧同格による明示的な定義。"
+   },
+   {
+    "a": "古代文字",
+    "b": "ジャッフハリマータ",
+    "type": "explicit",
+    "quote": "古代文字（ジャッフハリマータ）の呪文",
+    "lines": [
+     "5539"
+    ],
+    "reason": "括弧同格による明示的な定義。"
+   },
+   {
+    "a": "私",
+    "b": "レナリア・V・オルガナ",
+    "type": "explicit",
+    "quote": "私はレナリア・Ｖ・オルガナ。暗殺者で、いちおう紀人。よろしくね",
+    "lines": [
+     "5539"
+    ],
+    "reason": "自己紹介による明示的な名乗り。"
+   },
+   {
+    "a": "銀髪の少女",
+    "b": "レナリア・V・オルガナ",
+    "type": "strong",
+    "quote": "私はレナリア・Ｖ・オルガナ。暗殺者で、いちおう紀人。よろしくね",
+    "lines": [
+     "5539"
+    ],
+    "reason": "直前の描写（銀髪の少女）と自己紹介の文脈的同一性。"
+   },
+   {
+    "a": "ライラ",
+    "b": "傘の魔女",
+    "type": "strong",
+    "quote": "たとえ相手が名高い傘の魔女であろうとも",
+    "lines": [
+     "5539"
+    ],
+    "reason": "敵対者としての言及がライラを指す文脈。"
+   },
+   {
+    "a": "ユディーア",
+    "b": "キニス",
+    "type": "strong",
+    "quote": "「キニス、可愛い俺のキニス」\n遠く懐かしい声。泥人形がどろどろに溶けた口を開くと泡が漏れて浮上していく。\nどこかで見たような男性に、これもどこかで見たような女性がのし掛かっている。女性は自分のものとそっくりな鉤爪で男性の肉体を引き裂き、飛び散る泥にも構わずに淡々と殺戮を実行していく。",
+    "lines": [
+     "5539"
+    ],
+    "reason": "夢の中の呼びかけと鉤爪の特徴からユディーアを指すと推定。"
+   },
+   {
+    "a": "ユディーア",
+    "b": "鮮血使い",
+    "type": "strong",
+    "quote": "穢らわしい鮮血使いめ、お前には必ずや罰を与えます",
+    "lines": [
+     "5539"
+    ],
+    "reason": "ライラがユディーアに対して放った罵倒。"
+   },
+   {
+    "a": "ユディーア",
+    "b": "過去視能力者",
+    "type": "strong",
+    "quote": "過去視能力者としてのあなたに依頼があるの",
+    "lines": [
+     "5539"
+    ],
+    "reason": "レナリアがユディーアを指してその能力名で呼称。"
+   }
+  ],
+  "separations": [
+   {
+    "a": "アルト",
+    "b": "お父様",
+    "reason": "「亜竜王アルト」と「お父様」は文脈上別個の存在（権能の源と信仰対象）として描かれているため分離。",
+    "lines": [
+     "5539"
+    ]
+   }
+  ],
+  "narrator": {
+   "refers_to": "レナリア・V・オルガナ",
+   "quote": "私はレナリア・Ｖ・オルガナ。暗殺者で、いちおう紀人。よろしくね",
+   "lines": [
+    "p398"
+   ]
+  },
+  "recall_used": [
+   5004,
+   5005,
+   5011,
+   5012,
+   5017,
+   5018,
+   5019,
+   5021
+  ]
+ }
+}

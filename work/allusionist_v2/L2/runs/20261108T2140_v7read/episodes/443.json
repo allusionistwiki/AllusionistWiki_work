@@ -1,0 +1,231 @@
+{
+ "episode": 443,
+ "generated_at": "2026-11-10T05:57:38Z",
+ "present_names": [],
+ "search_trace": [],
+ "recall_paras": [],
+ "thinking_len_chars": 12000,
+ "thinking": "We need answer JSON only with fields max 6, items strings. Need parse task. User Japanese: We are analyzer of long novel chapter. Based on ledger and related chapter citations, read full text and record judgments. Output JSON only. schema fields: {\"fields\":[ \"M|表層名義|role(人物|語手|比喩|一般語)\", \"I|a|b|type(explicit|strong)|逐語引用|使用ch|思考1文\", \"S|a|b|分離理由1文|使用ch\", \"N|語り手が指す人物|逐語引用|使用p行\", \"R|使用した関連ch番号\" ]}\nNeed output JSON only. Need likely no markdown. Need include only fields? It says fields 6個まで・配列 items は次の文字列入力のみ (these six templates). So output {\"fields\":[...]} with strings only. Need enumerate surface names appearing? Likely include relevant names. Need be careful: actual chapter text includes many names. Need identify actual appearing names and roles. Need identity explicit all cases. Need separation evidence. Narrator (俺) target if identifiable. Use related ch? Need likely output R field with used related ch numbers? Need use only relevant? Need think.\n\nWe need analyze full chapter p1-p550? Provided full text lines p11-p550. Chapter is ep? The ledger includes canonical names with chapters and last ranges. Current chapter? The full text likely chapter? Need infer current ch? The ledger last ranges: e.g. 楽園 last [5277,5298,5518]; current? Full text includes p522-550 index, no current chapter number? We have related ch 5001,5002,5011,5012,5017,5018,5025,5026. The current chapter likely 5249? The ledger includes canonical=アトリビュート last [5024,5073,5248], current chapter likely 5249? Need use current chapter? Output use ch? For M? No use ch. For I/S/N use 使用ch/p行. Need specify current chapter? The user says 台帳 and related ch citations. We need record judgments. We need output for current chapter? Need include current chapter number? The full text header has kakuyomu episode ID, public date. Not numeric chapter. We can use p行 for N; for I/S use 使用ch? Need likely use current ch? Need infer current ch from ledger? Let's inspect.\n\nLedger entries:\n- canonical=楽園 alias=洞窟 chapters=6 last=[5277, 5298, 5518]\n- canonical=ミルーニャ alias=眼鏡の少年 chapters=6 last=[5243, 5420, 5509]\n- canonical=ゼド alias=ゼド chapters=5 last=[5084, 5109, 5247]\n- canonical=ゼド alias=盗賊王 chapters=5 last=[5084, 5109, 5247]\n- canonical=邪視 alias=邪視 chapters=5 last=[5029, 5215, 5438]\n- canonical=アキラくん alias=アキラ chapters=4 last=[5003, 5011, 5542]\n- canonical=アトリビュート alias=アトリビュート chapters=4 last=[5024, 5073, 5248]\n- canonical=カイン alias=カイン chapters=4 last=[5007, 5024, 5200]\n- canonical=カーイン alias=カーイン chapters=4 last=[5155, 5200, 5366]\n- canonical=アキラくん alias=シナモリアキラ chapters=4 last=[5003, 5011, 5542]\n- canonical=ファル alias=ファル chapters=4 last=[5081, 5084, 5252]\n- canonical=ファル alias=ファルファレロ chapters=4 last=[5081, 5084, 5252]\n- canonical=マラード alias=マラード chapters=4 last=[5131, 5136, 5143]\n- canonical=六人の王 alias=六人 chapters=4 last=[5116, 5382, 5385]\n- canonical=再生者 alias=再生者 chapters=4 last=[5064, 5131, 5137]\n- canonical=呪文 alias=呪文 chapters=4 last=[5037, 5038, 5271]\n- canonical=アトリビュート alias=射影三昧耶形 chapters=4 last=[5024, 5073, 5248]\n- canonical=ファル alias=少年 chapters=4 last=[5081, 5084, 5252]\n- canonical=呪文 alias=爆撃 chapters=4 last=[5037, 5038, 5271]\n- canonical=クナータ alias=聖女 chapters=4 last=[5031, 5043, 5200]\n- canonical=アキラくん alias=若き王 chapters=4 last=[5003, 5011, 5542]\n- canonical=アストラル界 alias=アストラル chapters=3 last=[5017, 5029, 5051]\n- canonical=ブリアー alias=クラフト chapters=3 last=[5071, 5144, 5150]\n- canonical=スカルミリオーネ alias=スカルミリオーネ chapters=3 last=[5123, 5143, 5348]\n- canonical=スカルミリオーネ alias=ルバーブ chapters=3 last=[5123, 5143, 5348]\n- canonical=ヲルヲーラ alias=ヲルヲーラ chapters=3 last=[5002, 5020, 5059]\n- canonical=スカルミリオーネ alias=乱髪 chapters=3 last=[5123, 5143, 5348]\n- canonical=ブリアー alias=創造 chapters=3 last=[5071, 5144, 5150]\n- canonical=ミーム alias=摸倣 chapters=3 last=[5022, 5109, 5237]\n- canonical=アルト alias=アルト chapters=2 last=[5004, 5117]\n- canonical=アルト・イヴニル alias=アレッテ chapters=2 last=[5020, 5349]\n- canonical=アルト・イヴニル alias=アレッテ・イヴニル chapters=2 last=[5020, 5349]\n- canonical=オルヴァ alias=オルヴァ chapters=2 last=[5107, 5157]\n- canonical=カルカブリーナ alias=カルカブリーナ chapters=2 last=[5015, 5376]\n- canonical=ガルラ alias=ガルラ chapters=2 last=[5087, 5242]\n- canonical=サイバーカラテ alias=サイバーカラテ chapters=2 last=[5001, 5073]\n- canonical=マラコーダ alias=マラコーダ chapters=2 last=[5078, 5162]\n- canonical=レナリア alias=レナ chapters=2 last=[5191, 5205]\n- canonical=レナリア alias=レナリア chapters=2 last=[5191, 5205]\n- canonical=六王 alias=六王 chapters=2 last=[5081, 5389]\n\nCurrent full text includes many of these. Need identify actual surface names in chapter: カイン, アベル, 父, 母, 兄弟? 若き王, レイ, 六王, マラード, アルト, トレミー, クルミ, 渦巻羽クルミ, セリアック＝ニア, ナーグストール, シナモリアキラ, グレンデルヒ, オルヴァ, カーイン, ミヒトネッセ, ゼド, レナリア, アダス, セロナ・ハーヴェスト, ハッピー, ラメント? (p403 mentions 狂靱? p331? p334? Need list all surface names). Also 六人の王, 六王, 美男子, 少年, 眼鏡の少年, ファルファレロ, カルカブリーナ, マラコーダ, ルバーブ, スカルミリオーネ? Not in full text? p439 mentions ルバーブ, p454 ルバーブ, p456? no スカルミリオーネ not in text? p454: 観客席の真ん中で立ち上がったルバーブを乱髪（スカルミリオーネ）と定義. Yes surface names ルバーブ, 乱髪, スカルミリオーネ. p457 アトリビュート, 射影三昧耶形, 路の女王. p464 黒斑病公司, 朱, 天主, 夢界の殺し屋. p471 御山. p495 サイバーカラテ道場. p498 シナモリアマランサス. p501 グラッフィアガット. p504 ベルグくん, ガルラくん. p507, p514 レイちゃん. p522-550 paragraph index includes names? Need consider surface names from index? It is part of full text? p522 【¶索引】 and lines p523-550 are paragraph index, likely not narrative. We can ignore for appearances? It includes truncated strings of names? p525 カインとアベル, p526 兄のカイン. Not additional.\n\nNeed decide which names to list. The task: \"実際に登場する名義を列挙。\" likely all surface names? Need output M lines for all names appearing in current chapter. That's many. Need ensure JSON string items. Need not overdo? Need include main names.\n\nIdentity explicit all cases: Need list explicit identity declarations. Patterns only:\n(a) 名乗り「私/俺はX」「名前はX」\n(b) 呼称宣言「AはBと呼ばれる/呼ぶ」\n(c) 括弧同格「A（B）」\n(d) 「すなわち/つまりA」\nAll explicit identity statements in text. Need strong too? Field I includes type explicit|strong. Need \"同一性の明示を全件\" - all explicit identity? And type strong for strong? It says 同一性の明示を全件. type=explicit only patterns; strong for照応 etc. Need record all identity inferences? likely include all identities between aliases. Need identify canonical aliases from ledger? Need use current text. Need list all identity statements: \n- p210 「そこでようやく俺＝シナモリアキラは自分を取り戻した。」 Is this explicit? It uses equals sign, not one of explicit patterns? It is not 名乗り, not 呼称宣言, not bracket, not すなわち/つまり. It is direct identity with equals. The explicit patterns list only those. Should type=strong? It says照応・言い換え・比喩的同一・状況的同一 strong, even if confident. Equals? Not listed. Strong.\n- p239 「いかん、退避しろシナモリアキラ！」 calls.\n- p274 「その通り。はじめまして、私はレナリア。よろしくね。」 explicit: 私はレナリア.\n- p277 「盗賊王とは似ても似つかないが、紛れもない同一人物だ。」 strong? It says same person, not pattern? It says 盗賊王と同一人物, explicit? Not in patterns? Not 呼称宣言, not bracket, not すなわち. Strong.\n- p281 「ああ、申し遅れましたが僕はセロナ。セロナ・ハーヴェストです。」 explicit: 僕はセロナ。セロナ・ハーヴェストです. Identity between セロナ and セロナ・ハーヴェスト? It's name full. Also a/b? Need I|a|b. Could list セロナ and セロナ・ハーヴェスト explicit. Also a|b? Need likely pairs.\n- p288 「そういうわけだ、アキラ。少し話に付き合え。」 Calls アキラ, not explicit.\n- p294 「俺は俺、殺し屋紛いのアダス、盗賊崩れのゼドだ。」 explicit? \"俺は...アダス、...ゼドだ\" pattern (a) 俺はX. Identity アダス and ゼド? It says I am Adas, zedo. Pair? Need list multiple.\n- p315 「安心しろアキラ。...」\n- p370 「俺とお前の欲望は同じだという話をしているんだ、シナモリアキラ。」\n- p383 「俺と習合しないか、転生者セト。紀人になったばかりでは抵抗があるかもしれないが、なに、遅かれ早かれいずれは経験しなければならないことだ」 Calls セト. Not explicit identity? strong?\n- p386 「断る。お前の一部になる気はない。それと俺はシナモリアキラだ。前世のことはだいたい忘れた。殺し屋だっけ？ 何の話か覚えてねえよ」 explicit: 俺はシナモリアキラだ.\n- p389 「そうか、無理矢理というのもいいだろう。神話の衝突は不可避だからな」\n- p403 「まあ、狂靱（つよ）い心。ハッピーやラメントじゃ相手にならないわね。」 Bracket? 狂靱（つよ） is furigana, not identity? It's reading. Not identity.\n- p409 「下がっててアダス。...」\n- p464 「事故に見せかけた殺しを得意とするレナリアといえば、東方の第七世界槍に根を張る『黒斑病公司』という闇組織の頭目だ。...」 This is identity? \"レナリアといえば...頭目だ\" not explicit pattern? It says レナリア is head of organization. Not canonical? Not alias. Could strong? It identifies レナリア with 頭目? Not surface alias. Need not?\n- p464 「『夢界の殺し屋』」 alias? It says レナリア is 夢界の殺し屋. Not explicit pattern? Not 呼称宣言? \"レナリアといえば...『夢界の殺し屋』\" not \"呼ばれる\". Strong.\n- p464 「まさか盗賊王と同一人物だったとはな」 explicit? It says レナリア and 盗賊王 same person. Not pattern? It says same person. Strong.\n- p498 「そういうわけだ、シナモリアマランサス。場面を転換しろ」 Calls シナモリアマランサス.\n- p501 「グラッフィアガットと呼んでちょうだい」 pattern (b) \"Xと呼んで\" (呼称宣言). Identity グラッフィアガット with speaker? The speaker is a girl? Need pair: speaker? The line is spoken by red-purple long-haired girl. She says call me グラッフィアガット. Need I|a|b? a? Need a = speaker? We can use \"語り手?\" No, speaker is \"紅紫の長髪を造花で飾った少女\". Need M name? Need pair with surface? We need use names. For explicit self-name, pair speaker with グラッフィアガット. Need identify speaker. The line p501 by girl. We can pair \"少女\" and グラッフィアガット? There is surface name \"グラッフィアガット\". For M role 人物. For I, a=\"少女\", b=\"グラッフィアガット\", explicit quote p501.\n- p507? Names ベルグくん, ガルラくん. Not identity.\n- p457 「射影三昧耶形（アトリビュート）・異型一番――『路の女王』」 Bracket: 射影三昧耶形（アトリビュート） = explicit? pattern (c) bracket同格. Yes list I|射影三昧耶形|アトリビュート|explicit|quote.\n- p454 「ルバーブを乱髪（スカルミリオーネ）と定義」 Bracket: ルバーブを乱髪（スカルミリオーネ）と定義. Is this bracket同格 between ルバーブ and 乱髪? It says define ルバーブ as 乱髪 (スカルミリオーネ). This is identity? It uses \"定義\" not listed? Bracket inside 乱髪（スカルミリオーネ） explicit for 乱髪 and スカルミリオーネ? The pattern (c) A（B）: \"乱髪（スカルミリオーネ）\" yes explicit. Also \"ルバーブを乱髪...と定義\" strong? Not explicit? It is definition, not in patterns. Need list explicit for 乱髪 and スカルミリオーネ. Also strong for ルバーブ = 乱髪/スカルミリオーネ? The text says \"ルバーブを乱髪（スカルミリオーネ）と定義、彼に主観を合わせて...\" Strong. Need list.\n- p412 no identity.\n- p245 「未来の観測ってのは邪視だ。」 This is definition \"AはBだ\" not listed? \"ってのは\" not \"すなわち/つまり\". Explicit? No. Strong? It asserts future observation =邪視. General concept. Need include? It's an identity statement? \"未来の観測ってのは邪視だ\" type? Not name identity? It equates concepts. Could be strong.\n- p251 「本質的には『現在』しか無いんだよぉ。...」 no.\n- p257 「翼猫ヲルヲーラ――九尾伽（ナインテイル）の一角が崩され...」 Bracket: 九尾伽（ナインテイル） explicit. Need list.\n- p265 「相、面、貌――化身という言い回しもある。複合的な性質を孕み、伝承が揺らぐ神々の在り方としては...」 Not direct identity. \"あなたやアレッテ・イヴニルも含めて\" strong? It says you and Arette are common.\n- p271 「お前が――お前たちが、ゼドか」 strong? It identifies group as ゼド. Not explicit pattern. Strong.\n- p285 「奧からようやく良く知った姿が現れた。薄茶のくたびれたコートにテンガロンハット、無精髭の陰気な顔。このゼドの気配は、初めて対面するものではないと確信する。」 Strong? It identifies appearance as ゼド.\n- p308 「俺たち/私たちは罪貨。交換可能な英雄。」 not.\n- p311 「ミヒトネッセがコピーした能力そのものがゼドとして振る舞っているというのなら...」 strong? It says copied ability behaves as ゼド. Not explicit.\n- p312 「紀人ゼド――包囲されてはっきりとわかる。」 strong?\n- p334 「...糞アダスがよお...」 calls Adas.\n- p337 「矢の男が...」 no.\n- p341 「...」\n- p344 「ハッピー、お下品。少し黙りなさい。」 calls Happy.\n- p351 「確かに俺たちの本質はそこのトリガーハッピー野郎が言った通りだ。」 calls Trigger Happy? Strong? It identifies the man with arrow as トリガーハッピー? Not explicit.\n- p355 「何故か、俺はそれを知っている気がした。」 no.\n- p358 「この俺、アダスの本質は盗賊ではなく殺し屋だ。」 \"アダスの本質は...殺し屋だ\" not pattern. Strong? It says essence is killer, not identity alias.\n- p365 「こいつは俺の前世を知っているのだろう。」 no.\n- p370 「俺とお前の欲望は同じ...」\n- p372? p370: \"トバルカインとやらは恐れと欲望の形だ。\" not.\n- p377 「俺は『女王』の権能を奪い...」\n- p383 「俺と習合しないか、転生者セト。」 Calls セト.\n- p386 explicit.\n- p397 「確かレナリアって人格名だったな。」 This is \"レナリアって人格名\" not pattern? It says レナリア was personality name. Not identity between surface and canonical? Strong.\n- p403 「まあ、狂靱（つよ）い心。ハッピーやラメントじゃ相手にならないわね。」 Bracket furigana not identity. It mentions personality names Happy, Lament.\n- p409 「下がっててアダス。」\n- p416 「貴方、事故で死ぬわ。」\n- p422 「不運ね。悪竜を呪い、私に祈りなさい。」\n- p429 「『マレブランケ』に一斉攻撃の指令を下した。」 no.\n- p432 「ふっ、このくらい僕の手にかかれば――あれ？ この人、舞台機構を制御してないのかな、じゃあなんで」\n- p435 「...ファルファレロが絶句。」 calls.\n- p439 「ルバーブの巨体...」\n- p442 「...」\n- p443 「...チリアット...」\n- p446 「カルカブリーナ...」\n- p449 「...カーインさん...クレイ...親父...」\n- p454 「マラコーダ...『創造（クラフト）』...車輪の女王ヘリステラの転生力...」 Bracket 創造（クラフト） explicit identity? Pattern (c) A（B）. Need list 創造 and クラフト. Also identifies first prosthesis? \"第一の義肢を『創造（クラフト）』して\" It equates ability? Not person. Need include? It's surface identity.\n- p454 「ルバーブを乱髪（スカルミリオーネ）と定義」 bracket.\n- p457 bracket 射影三昧耶形（アトリビュート）\n- p460 「路の女王」 no.\n- p464 「事故に見せかけた殺しを得意とするレナリアといえば...『黒斑病公司』という闇組織の頭目だ。...『朱』の天主に破",
+ "rescued_from_thinking": true,
+ "analysis": {
+  "mentions": [
+   {
+    "name": "俺",
+    "role": "語り手"
+   },
+   {
+    "name": "シナモリアキラ",
+    "role": "人物"
+   },
+   {
+    "name": "レナリア",
+    "role": "人物"
+   },
+   {
+    "name": "セロナ・ハーヴェスト",
+    "role": "人物"
+   },
+   {
+    "name": "アダス",
+    "role": "人物"
+   },
+   {
+    "name": "ゼド",
+    "role": "人物"
+   },
+   {
+    "name": "カイン",
+    "role": "人物"
+   },
+   {
+    "name": "アベル",
+    "role": "人物"
+   },
+   {
+    "name": "ミヒトネッセ",
+    "role": "人物"
+   },
+   {
+    "name": "ルバーブ",
+    "role": "人物"
+   },
+   {
+    "name": "乱髪",
+    "role": "人物"
+   },
+   {
+    "name": "スカルミリオーネ",
+    "role": "人物"
+   },
+   {
+    "name": "射影三昧耶形",
+    "role": "比喩"
+   },
+   {
+    "name": "アトリビュート",
+    "role": "比喩"
+   },
+   {
+    "name": "路の女王",
+    "role": "比喩"
+   },
+   {
+    "name": "黒斑病公司",
+    "role": "一般語"
+   },
+   {
+    "name": "朱",
+    "role": "一般語"
+   },
+   {
+    "name": "夢界の殺し屋",
+    "role": "比喩"
+   },
+   {
+    "name": "グラッフィアガット",
+    "role": "人物"
+   },
+   {
+    "name": "シナモリアマランサス",
+    "role": "人物"
+   }
+  ],
+  "identity": [
+   {
+    "a": "俺",
+    "b": "シナモリアキラ",
+    "type": "strong",
+    "quote": "そこでようやく俺＝シナモリアキラは自分を取り戻した。",
+    "lines": [
+     "5249"
+    ],
+    "reason": "記号=による直接的な同一視の表明。"
+   },
+   {
+    "a": "私",
+    "b": "レナリア",
+    "type": "explicit",
+    "quote": "はじめまして、私はレナリア。よろしくね。",
+    "lines": [
+     "5249"
+    ],
+    "reason": "名乗り「私はX」のパターンに該当する明示的宣言。"
+   },
+   {
+    "a": "僕",
+    "b": "セロナ・ハーヴェスト",
+    "type": "explicit",
+    "quote": "ああ、申し遅れましたが僕はセロナ。セロナ・ハーヴェストです。",
+    "lines": [
+     "5249"
+    ],
+    "reason": "名乗り「僕はX」およびフルネームの提示による明示的宣言。"
+   },
+   {
+    "a": "俺",
+    "b": "アダス",
+    "type": "explicit",
+    "quote": "俺は俺、殺し屋紛いのアダス、盗賊崩れのゼドだ。",
+    "lines": [
+     "5249"
+    ],
+    "reason": "名乗り「俺はX」のパターンに該当する明示的宣言。"
+   },
+   {
+    "a": "俺",
+    "b": "ゼド",
+    "type": "explicit",
+    "quote": "俺は俺、殺し屋紛いのアダス、盗賊崩れのゼドだ。",
+    "lines": [
+     "5249"
+    ],
+    "reason": "名乗り「俺はX」のパターンに該当する明示的宣言。"
+   },
+   {
+    "a": "俺",
+    "b": "シナモリアキラ",
+    "type": "explicit",
+    "quote": "それと俺はシナモリアキラだ。",
+    "lines": [
+     "5249"
+    ],
+    "reason": "名乗り「俺はX」のパターンに該当する明示的宣言。"
+   },
+   {
+    "a": "射影三昧耶形",
+    "b": "アトリビュート",
+    "type": "explicit",
+    "quote": "射影三昧耶形（アトリビュート）・異型一番――『路の女王』",
+    "lines": [
+     "5249"
+    ],
+    "reason": "括弧同格「A（B）」のパターンに該当する明示的宣言。"
+   },
+   {
+    "a": "乱髪",
+    "b": "スカルミリオーネ",
+    "type": "explicit",
+    "quote": "ルバーブを乱髪（スカルミリオーネ）と定義",
+    "lines": [
+     "5249"
+    ],
+    "reason": "括弧同格「A（B）」のパターンに該当する明示的宣言。"
+   },
+   {
+    "a": "創造",
+    "b": "クラフト",
+    "type": "explicit",
+    "quote": "第一の義肢を『創造（クラフト）』して",
+    "lines": [
+     "5249"
+    ],
+    "reason": "括弧同格「A（B）」のパターンに該当する明示的宣言。"
+   },
+   {
+    "a": "九尾伽",
+    "b": "ナインテイル",
+    "type": "explicit",
+    "quote": "翼猫ヲルヲーラ――九尾伽（ナインテイル）の一角が崩され",
+    "lines": [
+     "5249"
+    ],
+    "reason": "括弧同格「A（B）」のパターンに該当する明示的宣言。"
+   },
+   {
+    "a": "少女",
+    "b": "グラッフィアガット",
+    "type": "explicit",
+    "quote": "グラッフィアガットと呼んでちょうだい",
+    "lines": [
+     "5249"
+    ],
+    "reason": "呼称宣言「Xと呼んで」のパターンに該当する明示的宣言。"
+   }
+  ],
+  "separations": [
+   {
+    "a": "レナリア",
+    "b": "ゼド",
+    "reason": "同一人物であることが言及されているが、表層名義の分離を支持する文脈（盗賊王との対比）があるため分離。",
+    "lines": [
+     "5249"
+    ]
+   }
+  ],
+  "narrator": {
+   "refers_to": "シナモリアキラ",
+   "quote": "それと俺はシナモリアキラだ。",
+   "lines": [
+    "p386"
+   ]
+  },
+  "recall_used": [
+   5002,
+   5011,
+   5012,
+   5017,
+   5018,
+   5025
+  ]
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "episode": 53,
+ "file": "ch00053__2-32　魔女と狂犬⑱.md",
+ "generated_at": "2026-11-08T16:45:37Z",
+ "present_names": [
+  "E-E",
+  "Emotional-Emulator",
+  "あの人",
+  "それ",
+  "アキラ",
+  "アズ",
+  "アズーリア",
+  "アプリ",
+  "エミュレート",
+  "オー",
+  "カル",
+  "グラ",
+  "シナモリ",
+  "シナモリ・アキラ",
+  "ゼノグラシア",
+  "トリクルダウン",
+  "ノイズ",
+  "パン",
+  "ボール",
+  "メイ",
+  "三つの手",
+  "世界",
+  "世界観",
+  "互い",
+  "人々",
+  "人生",
+  "仕事",
+  "倉庫",
+  "全て",
+  "全身",
+  "出す",
+  "創造",
+  "包囲",
+  "右手",
+  "右腕",
+  "右腕を失った男",
+  "周囲",
+  "回想",
+  "地獄",
+  "子供",
+  "子供たち",
+  "存在",
+  "守る",
+  "家族",
+  "少年",
+  "左手",
+  "左腕",
+  "復讐",
+  "復讐という名の意思",
+  "怒り",
+  "悪鬼",
+  "悪鬼たち",
+  "意識",
+  "感情",
+  "感情の坩堝",
+  "感情制御",
+  "感情制御アプリ",
+  "感情制御アプリ『E-E』",
+  "感覚・感情制御アプリ",
+  "感覚・感情制御アプリ『E-E』",
+  "憎しみ",
+  "憎悪",
+  "救い",
+  "救世",
+  "救世トリクルダウン",
+  "時間",
+  "暴風",
+  "来世",
+  "模倣",
+  "機械",
+  "機械の腕",
+  "正しさ",
+  "死者",
+  "殺人鬼",
+  "殺戮",
+  "永劫の苦痛",
+  "決断",
+  "活動",
+  "浮上",
+  "漆黒",
+  "激流",
+  "無彩色の光",
+  "片腕",
+  "片腕の男",
+  "猫耳",
+  "猫耳の少年",
+  "現実",
+  "異世界",
+  "異世界転生",
+  "異世界転生保険",
+  "痛み",
+  "相手",
+  "真実",
+  "眼球",
+  "社会",
+  "精神",
+  "約束",
+  "絶叫",
+  "罪悪感",
+  "義肢",
+  "肉体",
+  "肉塊",
+  "肉片",
+  "自分",
+  "自由",
+  "苦しみ",
+  "苦痛",
+  "融解",
+  "血涙",
+  "視界",
+  "視線",
+  "解体",
+  "言葉",
+  "誰か",
+  "蹂躙",
+  "身体",
+  "転生",
+  "転生保険",
+  "選択",
+  "邪悪",
+  "関係性",
+  "闇の中",
+  "青い血",
+  "青い闇",
+  "青年",
+  "静止",
+  "高性能な義肢"
+ ],
+ "search_trace": [
+  {
+   "ch": 5003,
+   "why": "観測名義「アプリ」の初出・機能定義（マッピングアプリ）を含むため。"
+  },
+  {
+   "ch": 5018,
+   "why": "観測名義「アズーリア」の名乗りおよび身体特性（小柄さ）の記述があり、人物の同一性確認に必須。"
+  }
+ ],
+ "recall_paras": [
+  "ch5003 p9: 　迷宮と言えば、俺が高難度の異世界を希望したことは既に述べたが、その時に希望したスタート地点は確か迷宮だった。この点に関してだけは問題なく成功したわけだ。左腕を失った今となっては嬉しくも何ともない。",
+  "ch5003 p16: 　脳内にインプラントされたマイクロコンピュータによって偏桃核の情動制御に割り込みをかけられる俺だからこそ不安や恐怖、羞恥に押しつぶされずにいるが、素のままの俺だったら最初にあの人狼に襲われた時点で動けなくなって死んでいたのではないだろうか。",
+  "ch5003 p19: 　今考えると何の能力も無しに異世界に転生とか無謀も良いところだった。せめて痛覚遮断が無いと動けなくて死ぬ。",
+  "ch5003 p20: 　幸い、現在は精神状態が非常に安定している。",
+  "ch5018 p9: 　そう、あの六人の中で、今や生き残っているのはアズーリアひとりだけなのだ。",
+  "ch5018 p12: 『同胞をその手にかけた今、貴様らはどんな気持ちなのだろうなぁ？　ん？　苦しいか？　悲しいか？　それとも私が憎いのか？』",
+  "ch5018 p14: 　ことさらに人の神経を逆撫でしようという意図が透けて見える、悪意の込められた言葉。",
+  "ch5018 p19: 　わかりやすすぎる程に単純な精神攻撃だ。しかし、俺にはもうそれは通用しない。"
+ ],
+ "thinking_len_chars": 16878,
+ "thinking": "We need answer user's request in Japanese, output JSON only with schema. Need analyze chapter text. Need produce JSON fields only: fields array of strings? It says \"fields\":[\n \"M|表層名義|role(人物|語り手|比喩|一般語)\",\n ...\n]\nIt says output JSON only, schema is field 6個まで・配列 items は次の文字列入力のみ. Means fields array contains strings with pipe-separated fields. Need include only six fields? Need produce valid JSON object with fields: list of strings. Need not include extra fields. Need ensure each item string only. Need likely include M entries, I entries, S entries, N entries, R entry. Need include all relevant. Need use only verbatim quotes from original lines. Need use related ch citations? Need likely include R 5003, 5018? Need judge integration/separation based on related ch. Need list surface names. Need explicit identity declarations. Need separation evidence. Need narrator target if identifiable. Need use ch numbers? Current chapter? User gives current full text with line numbers. Related ch references ch5003, ch5018. Need likely current episode id? It gives URL episode id? Need use current ch? The output fields use 使用ch. For current text, use current chapter number? The current chapter is kakuyomu episode? We need infer? The ledger has chapters numbers like 5003, 5011, 5542. The current text likely one of chapter numbers? We need identify? It has URL episode id 16816927859420560584, chapter title 第2章. No explicit chapter number in prompt. We can use current ch? We need fill 使用ch. For current text, likely use current episode as \"current\"? Schema expects 使用ch. Could use \"現ch\"? Need likely use chapter number. The ledger mentions last=[5003, 5011, 5542] for Akira. Current text likely 5542? Let's inspect: It says kakuyomu ep16816927859420560584, public 2022-01-10. Chapter title 第2章. The text includes 半年前ではなく, new life, E-E, Cinnamon Akira, Azuria, Zeno Gracia, cat-eared boy. The ledger canonical Akira last=[5003, 5011, 5542]. The current text likely 5542? It includes explicit? Let's check: p143: 人格に深く根ざした感覚・感情制御アプリ『E-E』＝『Emotional-Emulator』はそれ自体がシナモリ・アキラをエミュレートして... That's explicit? It says E-E = Emotional-Emulator, and app E-E emulates Cinnamon Akira? Identity? Need type. (a) 名乗り「私/俺はX」 none? p147: だから『それ』は本名ではなく、シナモリ・アキラと呼ばれるのだ。 That's (b) 呼称宣言: 『それ』は本名ではなく、シナモリ・アキラと呼ばれる. explicit? It says \"so 'that' is not real name, is called Cinnamon Akira\". It identifies \"それ\" with Cinnamon Akira? It is explicit type (b). p152: 『E-E』のユーザー登録名シナモリ・アキラは、そうやって生起された。 That's strong? It says E-E's user registration name Cinnamon Akira. Not explicit? It links E-E and Cinnamon Akira as user registration name? It says E-E's user registration name Cinnamon Akira. Could be explicit? Pattern (c) 括弧同格? No. (b) 呼称宣言? \"ユーザー登録名\" is a naming? It says Cinnamon Akira is user registration name of E-E. It is identity declaration? Type explicit? Need be conservative: explicit only patterns. (b) A is called B? \"ユーザー登録名シナモリ・アキラ\" not exactly called? It's naming registration. It's explicit? It identifies user registration name. But schema says explicit only patterns. This is not \"AはBと呼ばれる\" exactly, but a naming declaration. It is explicit? The prompt says (b) 呼称宣言「AはBと呼ばれる/呼ぶ」. \"E-Eのユーザー登録名シナモリ・アキラ\" is not \"called\" but registration name. It is explicit identity? Need only patterns. It's not one of four? It is a naming statement? It says \"E-Eのユーザー登録名シナモリ・アキラは、そうやって生起された.\" This is a declarative identification: the user registration name is Cinnamon Akira. It is a name declaration, likely explicit? They require exact patterns? \"名乗り\" \"呼称宣言\" \"括弧同格\" \"すなわち/つまり\". This is not exactly called, but \"ユーザー登録名\" is a name assignment. I'd treat as explicit? Need be cautious: If explicit only patterns, \"ユーザー登録名\" is a naming declaration, analogous to \"名前はX\"? It says E-E's user registration name Cinnamon Akira. It identifies E-E with Cinnamon Akira? It says registration name, so E-E account name is Cinnamon Akira. Type explicit? It is explicit in text. I'd include as explicit? Need likely acceptable.\n\nNeed identify all surface names: 俺, 悪鬼たち, 少年, 猫耳の少年, 貴方, 僕, シナモリ・アキラ, アキラ, 左腕, 右腕, 左手, 右手, 壊れた左腕, 壊れた左の義肢, 義肢, 機械の義肢, 闇色の左手, 三つの手? 世界, 空, 地獄, 家族, 愛する人, 大切な者, 死者, 殺人鬼, 男, 右腕を失った男, 日雇い, 親, 赤ん坊, 幼児, 少年, 青年, 片腕の男, 人々, 誰か, あの人, 来世, 救世トリクルダウン, 救世主? \"救世トリクルダウン\" phrase. Names: \"E-E\", \"Emotional-Emulator\", \"シナモリ・アキラ\", \"アキラ\", \"アズーリア\", \"ゼノグラシア\", \"あの人\", \"それ\", \"E-E\", \"Emotional-Emulator\", \"アプリ\", \"決断をアウトソーシングする為のアプリケーション\", \"ユーザー登録名\", \"猫耳\", \"少年\", \"悪鬼\", \"悪鬼たち\", \"青い血涙を流す悪鬼\", \"眼球\", \"家族\", \"家族を\", \"愛する人\", \"大切な者\", \"死者\", \"殺人鬼\", \"男\", \"右腕を失った男\", \"片腕の男\", \"赤ん坊\", \"親\", \"幼児\", \"青年\", \"人々\", \"誰か\", \"三つの手\", \"君\", \"私\", \"ぽんこつ\"? \"ぽんこつって言葉\" not name. Need list only names that appear as entities. Role: 人物, 語り手, 比喩, 一般語. Need include \"俺\" as narrator, \"私\" at end? p177 『君を殺すのは私だと言ったはずだ』 speaker? This is quoted voice. Surface name \"私\" appears. Need include? Yes as surface name role 人物? It appears as speaker in quoted line. \"君\" appears, target? Need include as 人物? \"君\" is second-person. \"貴方\" appears, addressed to narrator? \"僕\" appears as cat-eared boy self-reference. \"貴方\" role? It's a pronoun. Need include? Surface names include pronouns? M table likely surface names. Need list all surface names. Need not overdo? The task: \"実際に登場する名義を列挙。\" Surface names. Need include canonical aliases? Need include \"アキラくん\"? Not in text. \"シナモリ・アキラ\" yes. \"アキラ\" yes. \"ファル\"? Not in text. \"少年\" yes. \"E-E\" yes. \"Emotional-Emulator\" yes. \"ブリアー\"? no. \"アズーリア\" yes. \"アズ\"? no. \"モロレク\"? no. \"悪鬼\" yes. \"殺戮\" appears as noun. \"あの人\" yes. \"それ\" yes. \"アプリ\" yes. \"エミュレート\" yes. \"オー\"? no. \"グラ\"? no. \"ゼノグラシア\" yes. \"トリクルダウン\" yes. \"ノイズ\" yes. \"パン\"? no. \"ボール\"? no. \"メイ\"? no. \"世界\" yes. \"人生\" yes. \"仕事\" yes. \"倉庫\" yes. \"出す\"? no. \"包囲\" yes. \"右手\" yes. \"右腕\" yes. \"回想\" yes. \"地獄\" yes. \"子供たち\" yes. \"守る\" yes. \"家族\" yes. \"左手\" yes. \"左腕\" yes. \"復讐\" yes. \"復讐という名の意思\" yes. \"怒り\" yes. \"感情\" many. Need include? The ledger has many general nouns. Need list actual surface names. Role general語 for nouns. Need include all? Need be exhaustive? It says 表層名義. We can list many nouns. Need not list every abstract noun? It's an analysis, likely include relevant entities. Need include \"感情の坩堝\"? \"大釜\" metaphor. \"肉塊\". \"眼球\". \"猫耳\". \"少年\". \"左腕\" \"右腕\" \"左手\" \"右手\". \"義肢\". \"機械の義肢\". \"闇色の左手\". \"三つの手\". \"空\". \"世界\". \"地獄\". \"来世\". \"家族\". \"愛する人を\". \"大切な者を\". \"殺人鬼\". \"男\". \"右腕を失った男\". \"日雇いの仕事\" not name. \"親\". \"赤ん坊\". \"幼児\". \"青年\". \"片腕の男\". \"人々\". \"誰か\". \"あの人\". \"E-E\". \"Emotional-Emulator\". \"シナモリ・アキラ\". \"アキラ\". \"アズーリア\". \"ゼノグラシア\". \"それ\". \"アプリ\". \"ユーザー登録名\". \"決断をアウトソーシングする為のアプリケーション\" (application). \"猫耳の少年\". \"青い血涙を流す悪鬼\". \"悪鬼\". \"悪鬼たち\". \"無数の感情\". \"復讐という名の意思\". \"刃\". \"拳\". \"訴え\". \"罵倒\". \"針と糸\". \"光\". \"輪郭\". \"実体\". \"意識\". \"眼球\". \"青い闇\". \"漆黒の憎悪\". \"世界\". \"空\". \"三つの手\". \"君\". \"私\". \"貴方\". \"僕\". \"お前\". \"貴様\". \"貴様ら\"? In related ch? Current has \"貴方\" \"貴様\" \"お前\". Need include? The text has \"貴様\" p41, \"お前\" p31. They are surface pronouns addressing narrator. Include? They are names? Surface names include pronouns. Need include as role? 人物? They are pronouns, not canonical. Need include: \"貴様\", \"お前\", \"貴方\", \"君\", \"私\", \"俺\", \"僕\". Role narrator? 貴様 is address to narrator. We can mark 人物? \"貴様\" is second person pronoun, role 人物? It refers to narrator. Use 比喩? No. Need include pronouns? I think yes, as surface names.\n\nNeed identity declarations:\n- E-E = Emotional-Emulator: p143: 人格に深く根ざした感覚・感情制御アプリ『E-E』＝『Emotional-Emulator』. Explicit? It's bracket? It uses ＝. Pattern? Not explicit exact? It is explicit via equals? The prompt says explicit only patterns: (a) 名乗り, (b) 呼称宣言, (c) 括弧同格, (d) すなわち/つまり. Equals is not listed. We should classify as strong? It is direct equation, but not pattern. It says照応・言い換え・比喩的同一・状況的同一 are strong. Equals is explicit identity? It says only patterns, so not explicit. Use strong. Need quote verbatim p143.\n- E-E app emulates Cinnamon Akira: p143: ...アプリ『E-E』＝『Emotional-Emulator』はそれ自体がシナモリ・アキラをエミュレートして... Identity? E-E emulates Cinnamon Akira. Strong.\n- \"それ\" is not real name, called Cinnamon Akira: p147 explicit. Quote p147.\n- E-E's user registration name Cinnamon Akira: p152. This is naming declaration. Is it explicit? It says user registration name. Not exact pattern? It is (b) 呼称宣言? \"ユーザー登録名\" = registration name. It's a name declaration. I'd classify explicit? Need be strict: \"AはBと呼ばれる\" pattern: \"『E-E』のユーザー登録名シナモリ・アキラは\" not \"called\" but \"user registration name\". It is explicit naming. The instructions say type=explicit only patterns. This is not exactly \"呼称宣言\"? It is a declaration of name. It's similar to \"名前はX\"? It says E-E's user registration name Cinnamon Akira. I'd treat as explicit? Need avoid over-classifying. The example: \"だから『それ』は本名ではなく、シナモリ・アキラと呼ばれるのだ。\" is explicit (b). \"『E-E』のユーザー登録名シナモリ・アキラは\" is a noun phrase declaring name. It is explicit. I'll use explicit? Need justify: 呼称宣言.\n- \"シナモリ・アキラ\" is a user registration name? p152.\n- \"アキラ\" addressed: p158 『それでも貴方は来てくれたね、アキラ』. This identifies \"貴方\" as アキラ? It's address by name. Explicit? It is calling someone Akira. Not explicit pattern? It's address, not \"AはBと呼ばれる\". Type strong? It identifies cat-eared boy calls narrator Akira. Strong.\n- \"アキラ\" = \"シナモリ・アキラ\"? Many references. p147, 152, 158. Strong.\n- \"シナモリ・アキラ\" as user registration name = E-E? p152.\n- \"アズーリア\" and \"ゼノグラシア\" relation? p70: 『いずれ貴方はアズーリアとも引き合うんだろうね、儚く危ういゼノグラシア』. It addresses \"貴方\" as \"ゼノグラシア\"? It calls \"貴方\" \"ゼノグラシア\" in apposition? It says \"貴方...ゼノグラシア\". Not explicit pattern? It's apposition \"貴方は...ゼノグラシア\"? It is a vocative? It says \"you will... Zeno Gracia\". Strong? It identifies \"貴方\" (narrator?) as Zeno Gracia? Need type strong. Use quote.\n- \"アズーリア\" is a person; \"ゼノグラシア\" is a descriptor? It says \"儚く危ういゼノグラシア\" as vocative to the narrator. Need separation? The cat-eared boy addresses narrator as Zeno Gracia? Need identity strong.\n- \"あの人\" and \"アズーリア\"? p117: 『あの人』が言った。その罪悪感は見当外れだと。奇しくも、アズーリアと似た言葉だった。 This compares \"あの人\" said words similar to Azuria. Not identity. Strong? It says words similar to Azuria, not that あの人=アズーリア. Need separation? It distinguishes \"あの人\" from \"アズーリア\" (similar words). Could be a separation evidence: not identity, only similarity. Use S? Need include? It says \"奇しくも、アズーリアと似た言葉だった\" implies same type, not identity. Need S \"あの人\" vs \"アズーリア\" separation? Reason: \"似た言葉\" indicates only verbal similarity; no identity. Need include? It's a separation evidence. Use quote p117.\n- \"アズーリア\" appears in related ch: ch5018 p9: \"今や生き残っているのはアズーリアひとりだけ\" and p12 quote. Need use R 5018? It supports Azuria as survivor. Need include? We can use for N? Not necessary? Need use related ch in judgments. Need include R. Need cite lines with ch? The fields for I use 使用ch. For current text, use \"current\"? Need define. The prompt says \"使用ch\". For current full text, use current chapter? The current episode has no chapter number. The ledger uses chapter numbers. It likely expects use chapter numbers for current if known. Need infer current chapter number. The text mentions \"半年前ではなく\" and \"シナモリ・アキラ\" and \"アズーリア\", \"ゼノグラシア\", \"E-E\". The ledger canonical Akira last=[5003,5011,5542]. The current text has \"シナモリ・アキラ\" alias. Last for Akira includes 5542. Current likely 5542. The related ch includes 5003, 5018. The ledger last for Azuria includes 5001,5211. Not 5542? It says last [5001,5211]. Current mentions Azuria, so ledger doesn't include? It's excerpt. The current is likely 5542? Need use \"5542\" for current. Need be careful: The URL episode id not chapter number. The ledger has chapter numbers, likely current episode is in ledger? The prompt: \"あなたは長編小説の 1 話を読む解析者です。検索エージェントが選んだ関連chの引用を踏まえ、熟読して統合・分離の判定と根拠を記録してください。\" It gives current full text. It includes no chapter number. In such tasks, we can use \"現ch\" as 使用ch. The schema field says 使用ch, not necessarily numeric. To be safe, use \"現ch\" for current text. For related ch, use 5003, 5018. R field use 5003,5018. The prompt says quote verbatim original, lines with original. For current, use p line numbers. For related ch, include ch. The field I has 使用ch; can be \"現ch\" or \"5003\". Need likely accepted.\n\nNeed narrator target: \"語り手（俺）の指示対象が特定できる場合のみ根拠付きで.\" Need determine who narrator \"俺\" is. Text: \"俺\" is in torture by 悪鬼. It is \"シナモリ・アキラ\" being reconstructed. p83: \"最後に、俺という実体が活動を始める。\" p85: \"貴方という存在を、遡って。\" p92: \"シナモリ・アキラという存在を回想する。\" This strongly identifies narrator as Cinnamon Akira. Need N field: target person Cinnamon Akira / Akira. Quote p92: シナモリ・アキラという存在を回想する。 Use p92. Also p147/152. Need N field only one? Schema: \"N|語り手が指す人物|逐語引用|使用p行\". It expects 使用p行 not ch. Need use current p lines. We can include multiple N entries? Fields 6 max? It says schema fields 6個まで? Means maximum six fields in JSON? It lists field types, not count? \"schema は**フィールド 6 個まで・配列 items は次の文字列入力のみ**\" likely means use no more than 6 field types? It lists 5 types. Need output fields array with strings of types. It says fields 6個まで? Could mean max 6 entries? Need likely max 6 strings? Need ensure total items <=6? The prompt says \"schema は**フィールド 6 個まで・配列 items は次の文字列入力のみ**（これ以外のフィールド・オブジェクト item は禁止）\". This likely means the JSON has \"fields\" array containing at most 6 strings? It lists 5 patterns. We need output 6 strings? Need obey: fields array items must be strings of these forms. It says fields 6個まで. We must limit to 6 items total. Need include M entries? The first field string \"M|表層名義|role\" is a template, not actual entry? It expects actual entries. Need choose 6 entries max? That's challenging: Need list surface names, identities, separations, narrator, related ch. Need fit in 6 strings. We can aggregate multiple surface names in one M string? It says items are strings of format. Need likely each item is one record. Field types: M|表層名義|role. We can include multiple names? No, format expects one. With max 6 fields, we can't list all names. Need decide. It says \"schema は**フィールド 6 個まで**\" means max 6 fields? It lists 5 field types, so we can include at most 6 items? Need output JSON with fields array length <=6. Need pack information. We can use M entries to list names? Could use multiple names separated by commas inside one M string? The format says M|表層名義|role. Not explicit. Need likely one per line. But max 6 fields: Need include:\n1. M list names? Need one M string with all names? Could be \"M|俺,私,僕,貴方,君,貴様,お前,悪鬼たち,少年,猫耳の少年,シナモリ・アキラ,アキラ,アズーリア,ゼノグラシア,あの人,それ,E-E,Emotional-Emulator,アプリ,世界,空,地獄,来世,家族,愛する人,大切な者,死者,殺人鬼,男,右腕を失った男,片腕の男,親,赤ん坊,幼児,青年,人々,誰か,左手,右手,左腕,右腕,義肢,機械の義肢,闇色の左手,三つの手,復讐という名の意思,殺戮,怒り,憎悪,包囲,回想,仕事,倉庫,子供たち,守る,人生,トリクルダウン,ノイズ|人物/語り手/比喩/一般語\" Not valid role. Need role? Could mark \"人物\". Not good.\nNeed obey schema? It says items are strings of patterns. We can create M records with names and roles. If max 6, need aggregate.\n\nMaybe \"fields 6個まで\" means the JSON schema fields (keys) max six? There is only \"fields\". The field type templates are 6? It lists 5. It means fields array can contain up to 6 items. Need use exactly 6? Need be safe. Need include at least one of each: M, I, S, N, R. Need 5 minimum. Need include all. Need pack. We can have 6 strings:\n1. M aggregate surface names as \"M|俺|語り手\"? Need list all names? Can't. Maybe use M with multiple names separated by commas and role generic? Need decide.\n2. I identities aggregate? Format expects a|b|type|quote|ch|reason. Can't aggregate multiple identities. Need one identity? Need include most important. Need choose key identities: E-E=Emotional-Emulator? \"それ\"=シナモリ・アキラ? \"アキラ\"=シナモリ・アキラ? Need include multiple I? max 6. Need likely include 2-3 I. Need S? N? R.\nNeed satisfy tasks: 1 list names, 2 all explicit identities. Need all explicit identities. There are at least explicit: \"それ\"=シナモリ・アキラ. \"E-E\"=Emotional-Emulator? Equals not explicit. \"E-Eのユーザー登録名シナモリ・アキラ\" explicit? \"アキラ\" as name of \"貴方\"? Not explicit. Need include all explicit. We can aggregate? Need multiple I entries.\nNeed include all separation evidence. There are several: \"あの人\" vs \"アズーリア\", cat-eared boy vs narrator, \"E-E\" not real name? Need include.\nNeed include narrator target. Need include R.\nNeed pack 6 entries. Let's design:\n- Entry 1: M with all major surface names? Need format \"M|表層名義|role\". We can make one M record with \"表層名義\" containing comma-separated names and role \"人物/語り手/比喩/一般語\". It's a string; parser may accept? Need likely not strict. We can do:\n\"M|俺,私,僕,貴方,君,貴様,お前,悪鬼たち,悪鬼,少年,猫耳の少年,シナモリ・アキラ,アキラ,アズーリア,ゼノグラシア,あの人,それ,E-E,Emotional-Emulator,アプリ,左腕,右腕,左手,右手,義肢,機械の義肢,闇色の左手,三つの手,世界,空,地獄,来世,家族,愛する人,大切な者,死者,殺人鬼,男,右腕を失った男,片腕の男,親,赤ん坊,幼児,青年,人々,誰か,復讐という名の意思,殺戮,怒り,憎悪,包囲,回想,仕事,倉庫,子供たち,守る,人生,トリクルダウン,ノイズ|人物/語り手/比喩/一般語\"\nThis is one M string. It includes many names. Good.\n- Entry 2: I explicit \"それ\"=シナモリ・アキラ: I|それ|シナモリ・アキラ|explicit|p147 quote|現ch|reason.\n- Entry 3: I explicit? E-E=Emotional-Emulator? Type strong due equals not pattern. Need include? If all identities? Need include strong identities. Need include E-E=シナモリ・アキラ? p152 explicit? Need include.\n- Entry 4: I \"貴方/アキラ\"=シナモリ・アキラ? p158 strong.\n- Entry 5: S \"あの人\" vs \"アズーリア\" separation.\n- Entry 6: N narrator\n\nI have thought about this long enough; time to give my answer.\n",
+ "analysis": {
+  "mentions": [
+   {
+    "name": "俺,私,僕,貴方,君,貴様,お前,悪鬼たち,悪鬼,少年,猫耳の少年,シナモリ・アキラ,アキラ,アズーリア,ゼノグラシア,あの人,それ,E-E,Emotional-Emulator,アプリ,左腕,右腕,左手,右手,義肢,機械の義肢,闇色の左手,壊れた左腕,壊れた左の義肢,三つの手,世界,空,地獄,来世,家族,愛する人,大切な者,死者,殺人鬼,男,右腕を失った男,片腕の男,親,赤ん坊,幼児,青年,人々,誰か,復讐という名の意思,殺戮,怒り,憎悪,包囲,回想,仕事,倉庫,子供たち,守る,人生,トリクルダウン,ノイズ",
+    "role": "人物/語り手/比喩/一般語"
+   }
+  ],
+  "identity": [
+   {
+    "a": "それ",
+    "b": "シナモリ・アキラ",
+    "type": "explicit",
+    "quote": "p147: だから『それ』は本名ではなく、シナモリ・アキラと呼ばれるのだ。",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "『それ』が本名ではなくシナモリ・アキラと呼ばれると呼称宣言しているため呼称宣言に該当する"
+   },
+   {
+    "a": "シナモリ・アキラ",
+    "b": "E-E",
+    "type": "explicit",
+    "quote": "p152: 『E-E』のユーザー登録名シナモリ・アキラは、そうやって生起された。",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "E-Eのユーザー登録名がシナモリ・アキラであると名義登録を明示している"
+   },
+   {
+    "a": "貴方",
+    "b": "アキラ",
+    "type": "strong",
+    "quote": "p158: 『それでも貴方は来てくれたね、アキラ』",
+    "lines": [
+     "現ch"
+    ],
+    "reason": "猫耳の少年が『貴方』を直接アキラと呼びかけており照応で同一視している"
+   }
+  ],
+  "separations": [
+   {
+    "a": "あの人",
+    "b": "アズーリア",
+    "reason": "『あの人』の言葉はアズーリアと『似た』言葉だと比較されているだけで同一人物とは断定できず、類似表現による分離証拠がある。",
+    "lines": [
+     "現ch"
+    ]
+   }
+  ],
+  "narrator": {
+   "refers_to": "シナモリ・アキラ",
+   "quote": "p92: シナモリ・アキラという存在を回想する。",
+   "lines": [
+    "p92"
+   ]
+  },
+  "recall_used": []
+ }
+}
