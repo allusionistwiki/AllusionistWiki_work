@@ -1,8 +1,8 @@
 {
   "L0": {
     "20261111T0252_l0c": {
-      "path": "work/yuragi/L0/runs/20261111T0252_l0c",
-      "status": "complete",
+      "path": "work/yuragi/L0/archive/20261111T0252_l0c",
+      "status": "retired",
       "wiki": "yuragi",
       "layer": "L0",
       "kind": "bbs-chunking",
@@ -23,6 +23,35 @@
         "chars": 5945629,
         "chunks": 618,
         "count_mismatches": 0
+      },
+      "retired_reason": "chunk semantics superseded (v1=budget chunks -> v2=post-unit + same-author adjacent chains, entities in YuragiWiki raw posts/)"
+    },
+    "20261111T0311_l0c": {
+      "path": "work/yuragi/L0/runs/20261111T0311_l0c",
+      "status": "complete",
+      "wiki": "yuragi",
+      "layer": "L0",
+      "kind": "bbs-chunking",
+      "created": "2026-11-10T18:11:47.829783+00:00",
+      "derived_from": {
+        "source_repo": "YuragiWiki (local Downloads/Code/YuragiWiki)",
+        "raw_commit": "f0362d6040898cb6d20cdb5acfc9d8caca6ead08",
+        "raw_retrieved": "2026-10-12",
+        "inputs": [
+          "raw/bbs/jbbs/movie-7039/",
+          "raw/bbs/mixi/373088/",
+          "raw/bbs/hatena_flicker/md/ (bbs_1_* pages only)"
+        ]
+      },
+      "stats": {
+        "units": 185,
+        "posts": 48891,
+        "chars": 5945629,
+        "chunks": 12508,
+        "groups": 12399,
+        "chain_groups": 3940,
+        "count_mismatches": 0,
+        "missing_group_files": 0
       }
     }
   }

@@ -18,11 +18,12 @@
 ## L0 runs
 
 - 産出は `work/yuragi/L0/runs/<run_id>/` 追加専用。`run.json`（`derived_from.raw_commit` = YuragiWiki HEAD）同梱。
-- 初 run `20261111T0252_l0c`（bbs-chunking・生成スクリプト `scripts/build_yuragi_l0_chunks.py`）:
+- **チャンク意味論 = 1 投稿 = 1 チャンク・同一投稿者の隣接連投は 1 群**。実体ファイルは raw 層（YuragiWiki repo `raw/bbs/**/posts/`・`tools/split_posts.py`）。work 側台帳は群ファイル参照。
+- 現行 run `20261111T0311_l0c`（生成器 `scripts/build_yuragi_l0_chunks.py`）:
   - `units.jsonl` 185 篇（jbbs 179 / mixi 5 / portal BBS 1）
   - `units/<unit>.jsonl` 48,891 レス（post_no・投稿者・日時・char オフセット）
-  - `chunks/<unit>.jsonl` 618 チャンク（連続レス群 ≤12,000 字・LLM 入力単位）
-  - `stats.json`（件数一致 0 崩れ・チャンク分割検証済み）
+  - `chunks/<unit>.jsonl` 12,508 チャンク（12,399 群 = 12,389 raw 群ファイル + portal 10・連投群 3,940）
+  - `stats.json`（件数一致 0 崩れ・群ファイル参照 0 欠損・連結検証済み）
 - 索引: `work/yuragi/index/runs-index.json` + `work/yuragi/L0/latest.txt`。
 
 ## 未处理（次の検討）
