@@ -23,6 +23,18 @@ allusionist_v2 の L0（版対応・¶N 台帳）に相当する**原文テキ�
 | `chunks/<unit_id>.jsonl` | チャンク台帳 1 チャンク 1 行（group_id・kind=post/chain/deleted・author・post_range・chars・**raw_group_path/sha1**（実体は raw 層 posts/）・parts 情報） |
 | `stats.json` | 件数照合（declared vs parsed）・最大レス長・篇別集計 |
 
+### 検索索引（kind=search-index run・2026-11-11〜）
+
+| ファイル | 内容 |
+|---|---|
+| `search/posts.jsonl` | 全文投稿マスタ 1 投稿 1 行（ref=unit:post_no・篇タイトル・著者・**ISO 日時（索引側で正規化）**・60字スニペット・group_id/raw_group_path） |
+| `search/by-author.jsonl` | 著者 → 投稿参照一覧（件数順） |
+| `search/by-date.jsonl` | 時系列全量（JST epoch ソート・削除投稿の無日付は除外） |
+| `search/terms.jsonl` | `【…】` 表記索引（ゆらぎ文化の用語記法）→ 出現数・篇分布・参照 |
+| `stats.json` | 総数・上位投稿者/用語ランキング |
+
+生成: `scripts/build_yuragi_l0_search_index.py`（現行 latest の chunk run を input し、派生 run として登録・`derived_from.l0_run` 記録）。
+
 ## 検証ゲート（run 完結時に必須）
 
 1. 全篇 `declared_posts == n_posts`（篇マニフェスト自己照合）。
@@ -36,7 +48,8 @@ run は追加専用・退役は `archive/` へ物理移動。latest.txt / index/
 
 ## 現況
 
-- 現行 = `20261111T0311_l0c`（post-unit+連投群セマンティクス・185 篇 / 48,891 レス / 12,399 群 / 12,508 チャンク・全ゲート通過）。
+- chunk 現行 = `20261111T0311_l0c`（post-unit+連投群セマンティクス・185 篇 / 48,891 レス / 12,399 群 / 12,508 チャンク・全ゲート通過）。
+- 検索索引 = `20261111T0928_l0si`（48,891 投稿マスタ / 2,332 著者 / 6,225 用語・10,159 出 / 日時正規化 48,629・無日付 262＝削除投稿、群参照 100% 解決）。
 - 退役 = `20261111T0252_l0c`（v1・chars-budget チャンク方式。`archive/` に物理移動・runs-index に retired 記録）。
 - 群ファイル実体 = YuragiWiki repo commit `f0362d6`（12,389 ファイル + 篇 `_manifest.json`・連結無損失検証）。
 - 未处理: はてなふりかー**日記ページ**（`raw/bbs/hatena_flicker/md` の bbs 以外）は本層の unit ではない。unit 化（アンカー = ユーザ名 + 日付 + pN）を決めるか対象外を宣言するのは L0 の次版の決定事項。
