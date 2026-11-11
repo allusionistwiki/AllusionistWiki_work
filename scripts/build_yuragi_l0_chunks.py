@@ -233,7 +233,7 @@ def main():
             continue
         n = int(m.group(1))
         thread_md = d / "Thread.md"
-        text = thread_md.read_text(encoding="utf-8", errors="replace")
+        text = thread_md.read_bytes().decode("utf-8", errors="replace")  # raw 基準（CRLF 保存）で座標を一貫させる
         posts = parse_posts(text)
         decl = DECLARED_RE.search(text)
         tid = THREAD_ID_RE.search(text)
@@ -262,7 +262,7 @@ def main():
         if not comment_files:
             continue
         cf = comment_files[0]
-        text = cf.read_text(encoding="utf-8", errors="replace")
+        text = cf.read_bytes().decode("utf-8", errors="replace")  # raw 基準
         posts = parse_posts(text)
         tid = TOPIC_ID_RE.search(topic_md)
         url = TOPIC_URL_RE.search(topic_md)
@@ -296,7 +296,7 @@ def main():
     hposts = []
     for pno in sorted(pages):
         f = pages[pno][0]
-        lines = f.read_text(encoding="utf-8", errors="replace").splitlines(keepends=True)
+        lines = f.read_bytes().decode("utf-8", errors="replace").splitlines(keepends=True)  # raw 基準
         offs, acc = [], 0
         for ln in lines:
             offs.append(acc)

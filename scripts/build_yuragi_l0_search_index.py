@@ -71,7 +71,7 @@ def main():
         for p in unit_posts:
             rp = p.get("raw_path") if per_post_raw else u["raw_path"]
             if rp not in text_cache:
-                text_cache[rp] = (RAW_ROOT / rp).read_text(encoding="utf-8", errors="replace")
+                text_cache[rp] = (RAW_ROOT / rp).read_bytes().decode("utf-8", errors="replace")  # raw 基準
             text = text_cache[rp]
             body = text[p["body_start"]:p["body_end"]].strip()
             iso, ep = iso_date(p["date"])

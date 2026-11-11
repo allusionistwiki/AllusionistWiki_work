@@ -1,0 +1,28 @@
+{
+ "audit_run": "20261111T0056_l0aud",
+ "audited_chunk_run": "20261111T0955_l0c",
+ "audited_search_index_run": "20261111T0955_l0si",
+ "generated": "2026-11-11T00:56:48.127064+00:00",
+ "tool": "scripts/audit_yuragi_l0.py",
+ "counters": {
+  "A3_manifests": 184,
+  "A5_posts": 48891,
+  "A5_CHRONO": 5,
+  "A5_terms_recount": 6225
+ },
+ "issue_count": 1,
+ "issues_by_code": {
+  "A5_CHRONO": 5
+ },
+ "issues": [
+  {
+   "code": "A5_CHRONO",
+   "detail": "5 posts older than preceding post in same thread",
+   "n": 5
+  }
+ ],
+ "adjudication": {
+  "A5_CHRONO(5)": "Accepted — site-side assignment jitter: all 5 are real-time (実況/ラジオ) threads, same-day deltas of 2–19 s between adjacent post numbers. Server assigns numbers when messages arrive nearly simultaneously; not a parse/anchor defect. Documented, no fix.",
+  "final": "PASS (all structural gates clean: A1 anchors, A2 groups, A3 disk round-trip 184/184, A4 partition+refs, A5 index/snippets/terms/dates; 5 chronology deltas adjudicated as source-faithful)"
+ }
+}
