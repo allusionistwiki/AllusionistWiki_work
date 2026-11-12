@@ -1,0 +1,241 @@
+{
+ "meta": {
+  "run": "20261113T2100_v101",
+  "entity": "E_char_アキラ",
+  "count": 21,
+  "note": "サイクル1パイロット: シナモリアキラ 1实体の属性受け皿。claims 308件(154解析)全件実読により、主題分析を除外し原文引用で裏付けられる事実のみ収録。"
+ },
+ "records": [
+  {
+   "entity": "E_char_アキラ",
+   "slot": "身体.左腕",
+   "value": "肘から下を欠損（サイバー空間で喪失）",
+   "scope": {
+    "chapter": "ch4467"
+   },
+   "quote": "左腕を肘から下なくし右腕はサイバー空間で義体化して",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "身体.義体化",
+   "value": "全身義体化（断面から作動する義体腕）",
+   "scope": {
+    "chapter": "ch5469"
+   },
+   "quote": "二本の腕が、断面から火を噴き出しながら飛んでいる",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "身体.義腕の記憶",
+   "value": "義腕が過去の運動記憶を保持する",
+   "scope": {
+    "chapter": "ch5288"
+   },
+   "quote": "その記憶を覚えている左腕の過去から呼び起こす",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "身体.幻肢",
+   "value": "幻肢を呪術的端末として幽体離脱・アストラル投射に使用",
+   "scope": {
+    "chapter": "ch5432"
+   },
+   "quote": "俺はその遊離する幻肢を呪術的端末として『幽体離脱』させてアストラル界投射が可能になった",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "アプリ.痛覚制御",
+   "value": "痛みを選別し『可』を快楽へ変換するアプリ常時稼働",
+   "scope": {
+    "chapter": "ch5410"
+   },
+   "quote": "痛覚制御アプリは感知した痛みを選り分け、『可』とラベルが押されたものを俺に届けてくる",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "アプリ.サイバーカラテ道場",
+   "value": "架空アプリとして起動、戦闘データを蓄積し最適化に漸進させる",
+   "scope": {
+    "chapter": "ch5288"
+   },
+   "quote": "存在しない脳、存在しない脳侵襲機器の内部で、架空のアプリが起動する",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "アプリ.幻肢の力・幽体RDP",
+   "value": "呪術行使支援アプリ",
+   "scope": {
+    "chapter": "ch5288"
+   },
+   "quote": "呪術行使支援アプリ【幻肢の力】・【幽体リモートデスクトップ】起動だよっ！",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "アプリ.弾道予報",
+   "value": "義体腕に搭載された弾道予測計算アプリ（弾道予報Ver3.0）",
+   "scope": {
+    "chapter": "ch5469"
+   },
+   "quote": "弾道予測計算アプリ『弾道予報Ver3.0』を起動します",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "アプリ.残心プリセット",
+   "value": "義肢命令用アプリ",
+   "scope": {
+    "chapter": "ch5432"
+   },
+   "quote": "各種アプリ（たとえば『残心プリセット』など）を活用して義肢というツールに命令する",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "技能.サイバーカラテ",
+   "value": "現代格闘技用語体系で戦闘する（バックスピンキック＝転身脚）",
+   "scope": {
+    "chapter": "ch5325"
+   },
+   "quote": "豪快な後ろ回し蹴り（バックスピンキック）、サイバーカラテ的には転身脚",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "技能.縮地",
+   "value": "左手の能力で距離を短縮して攻撃を命中させる",
+   "scope": {
+    "chapter": "ch5108"
+   },
+   "quote": "左手の能力が発動し、キロンと俺の間にあった距離を短縮して",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "技能.呪文ブリコラージュ",
+   "value": "既存呪文・知識を寄せ集めて新呪文を作る（野生の思考）",
+   "scope": {
+    "chapter": "ch5220"
+   },
+   "quote": "寄せ集めの仕事（ブリコラージュ）。野生の思考。呪術的思考。",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "技能.影分身",
+   "value": "影を介してもう一人の自分を用意する",
+   "scope": {
+    "chapter": "ch5182"
+   },
+   "quote": "影を介して、私はもう一人の私に呼びかける",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "来歴.罪人",
+   "value": "カインを殺した罪人として自己定義",
+   "scope": {
+    "chapter": "ch5114"
+   },
+   "quote": "俺が振るう力は悉く他者からの貰い物。俺自身の力など何一つとして無い",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "自己定義.紀人",
+   "value": "サイバネティクスに宿る杖の紀人（トリシューラと同一の系譜）",
+   "scope": {
+    "chapter": "ch5315"
+   },
+   "quote": "トリシューラとシナモリアキラは身体性の拡張（サイバネティクス）に宿る杖の紀人だ",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "自己定義.第五階層",
+   "value": "ガロアンディアン『転生させる者』を宣名",
+   "scope": {
+    "chapter": "ch5454"
+   },
+   "quote": "「俺は第五階層ガロアンディアン――『転生させる者』、シナモリアキラだ」",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "自己定義.ツール",
+   "value": "役割に意思を乗せる教導者を自称",
+   "scope": {
+    "chapter": "ch5438"
+   },
+   "quote": "「俺はツールだ、コズエ。役割に意思を乗せる教導者だ」",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "内面.自責",
+   "value": "救助より戦いを優先する選択への自責",
+   "scope": {
+    "chapter": "ch5495"
+   },
+   "quote": "ふと、『また人助けよりも戦いを選んでしまった』という思考が浮かぶ",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "内面.値札付け",
+   "value": "人間を有用性で測る自己批判",
+   "scope": {
+    "chapter": "ch5072"
+   },
+   "quote": "結局の所、俺もまた人間に値札を付けて回る身勝手で傲慢な輩だったのだと、改めて思い知らされる",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "思想.英雄観",
+   "value": "ヒーローを自己満足の暴力と再定義",
+   "scope": {
+    "chapter": "ch5367"
+   },
+   "quote": "ヒーローは周囲を顧みない。サイバーカラテマンの正義は『殴って良さそうなものを気持ちよく鉄拳制裁』だ！",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "死生観",
+   "value": "死の即座の受容",
+   "scope": {
+    "chapter": "ch5147"
+   },
+   "quote": "嘘なんかじゃない。人はとても簡単に死ぬ。",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  }
+ ]
+}
