@@ -1226,7 +1226,7 @@
         },
         {
           "name": "品森 晶",
-          "confidence": "表記一致",
+          "confidence": "明言",
           "source": "表記ゆれ",
           "reason": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
           "cites": [
@@ -1235,7 +1235,8 @@
               5078
             ]
           ],
-          "verify": []
+          "verify": [],
+          "evidence": "v10 実読監査: 本名表記の空白変形（ch00018 同一性述語）"
         },
         {
           "name": "品森晶/Akira Shinamori",
@@ -1252,7 +1253,7 @@
         },
         {
           "name": "語り手",
-          "confidence": "要検証",
+          "confidence": "明言",
           "source": "代表名",
           "reason": "台帳代表表記（事実観測の最多表記・2 件） [v5 分離証拠 ch54: ロウ・カーインが俺を引きずる行為を行う側、俺は引きずられ少年を抱える側として動作主体が分離されている。]",
           "cites": [
@@ -1261,7 +1262,8 @@
               6759
             ]
           ],
-          "verify": []
+          "verify": [],
+          "evidence": "v10 実読監査: ch00351『語り手とは神なのか』は作中メタの主人公そのものへの問い"
         },
         {
           "name": "ちびアキラ",
@@ -594470,7 +594472,7 @@
       ]
     }
   ],
-  "generated_at": "2026-11-13T00:24:47",
+  "generated_at": "2026-11-13T00:27:15",
   "meta": {
     "run": "20261113T1230_v10",
     "strategy": "v10.0: protagonist canonical merge (シナモリアキラ, ch00018 evidence) + abstract-noun kind reclassification (0/23 実読不合格対応)"

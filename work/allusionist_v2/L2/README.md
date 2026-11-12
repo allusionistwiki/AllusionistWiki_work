@@ -36,6 +36,8 @@ L1（機械抽出）の産出物から、**同一実体の名前のゆらぎを�
 
 - **kind 語彙（schema v3.1・2026-11-12）**: 正準 10 語彙（character/organization/location/creature/item/terminology/motif/phrase/relationship/event）のみを許容する。v9 以前の 49 種の細分語彙（spell/magic/race/building/deity 等）と空 kind は、`scripts/build_l2_ledger_v9_kind.py` の決定論フォールディングで正準化する（来歴は notes に記録。deity→character、place/building/celestial_body→location、group→organization、spell/magic/skill/rule/emotion 等→terminology、空 kind は語彙規則→prefix の順で復元）。
 - **prefix と kind**: id の prefix（`E_char_`…）は歴史的標識で**不変**（id 不変則）。kind が正準、表示・索引・階層生成は kind に従う。新規 run の生成は prefix=kind 対応（char/term/org/item/motif/phrase/rel/loc/event/creature）を守る。
+- **本体統合 merged_into（schema v3.2・2026-11-13）**: 本体（canonical）同士の統合は `merged_into: <統合先 id>` / `merged_confidence` / `merged_evidence` で記録する。統合先（代表名）の選定は表層 alias 数ではなく、(a) 全話使用状況（出現行数・章数）、(b) 原文の同一性述語（『品森晶（シナモリアキラ）』『X＝Y』型）、(c) 呼称主体と対象の原文実読、による。統合の判定には全話使用状況確認が必須（ユーザー基準）。代表名は作中の正式名義（例: 主人公=シナモリアキラ、代表 id `E_char_アキラ` は不変）。生成側（名義変換表・L2REF）は merged_into を追跡して統合先を表示する。
+- **kind 意味監査（schema v3.2）**: kind は語彙整合だけでなく意味的妥当性を監査する。character は原文で発言・行動・意志を持つ主体のみ。抽象名詞・感情・概念（破壊/混沌/意識/真実 等）は character 不可 — 現象・出来事は event、概念・感情・一般範疇（神/悪魔 等）は terminology へ再分類する（`scripts/build_l2_ledger_v10.py`、2026-11-13 実読監査 23 件 0/23 → 再分類）。側面名義（X（注記））は親に追随する。
 - **統合は追加専用**: 一度発行した `id` は不変。名前の再分割・再統合・kind の変更は新 run の差分として記録（旧 run は書き換えない）。
 - 確度ラベルなしの統合・kind 確定は禁止（vault の「推測はラベル付き」鉄則と同一）。
 - 一人多名称（別名・あだ名・prefix 付き表記）は 1 entity + aliases。別人同名は別 id + `notes` に区別根拠。同一実体の多面（人物＋その名を冠する組織・語）は本体 1 entity 1 kind + 派生用法は別 entity（関連エッジで結ぶ）か notes の側面記述。

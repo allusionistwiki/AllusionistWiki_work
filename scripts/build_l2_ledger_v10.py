@@ -90,7 +90,12 @@ def main():
         "語り手": "v10 実読監査: ch00351『語り手とは神なのか』は作中メタの主人公そのものへの問い",
     }
     for s, why in REQUIRED.items():
-        if s not in seen_alias:
+        existing = next((a for a in primary_aliases if (a.get("name") or a.get("string")) == s), None)
+        if existing is not None:
+            if not existing.get("evidence"):
+                existing["evidence"] = why
+                existing["confidence"] = "明言"
+        else:
             primary_aliases.append({"name": s, "string": s, "confidence": "明言", "evidence": why})
             seen_alias.add(s)
 
