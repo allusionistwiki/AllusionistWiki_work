@@ -175,6 +175,28 @@
     "merges_applied": 354,
     "ledger_demotions": 522
    }
+  },
+  "20261111T2100_v87": {
+   "path": "L2/runs/20261111T2100_v87",
+   "status": "published",
+   "kind": "normalization",
+   "derived_from": "20261110T0603_v5agg",
+   "stats": {
+    "entities": 17337,
+    "g7_accuracy": "85%"
+   }
+  },
+  "20261112T1500_v97kind": {
+   "path": "L2/runs/20261112T1500_v97kind",
+   "status": "published",
+   "kind": "kind_normalization",
+   "derived_from": "20261111T2100_v87",
+   "stats": {
+    "kind_changes": 343,
+    "empty_restored": 240,
+    "review_queue": 39,
+    "g4_kind_accuracy": "97.5%"
+   }
   }
  },
  "L3": {},
