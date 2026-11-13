@@ -1,0 +1,25 @@
+{
+  "run": "20261114T1500_v105",
+  "task": "L2 NameLineage 層 v0.1: 呼称系譜ノード 17 件・エッジ付き（同一性/演者=役/descriptor/真名/役行）",
+  "files": [
+    "entities.json",
+    "attributes.json",
+    "usages.json",
+    "anonymous.json",
+    "names.json",
+    "run.json"
+  ],
+  "derived_from": "20261114T1400_v104",
+  "name_nodes": 17,
+  "audited_groups": {
+    "アルト": "独立人物(亜竜王)+役エッジ",
+    "牙猪": "チリアット descriptor",
+    "殺人鬼": "自己定義+鎌鼬別人物",
+    "奴隷": "一般概念+件役",
+    "樵": "ハタラドゥール職業名",
+    "雪女": "5-44克隆役",
+    "犬頭": "変身形態",
+    "グレンデルヒ": "同一性エッジ"
+  },
+  "audit": "疑わしき名義 865 件全件実読（82KB→4分割）"
+}
