@@ -106,3 +106,8 @@ seed を回して新規 400 で再監査。機械スキャンは合格条件の�
   - 収束監査: `audit_alias400i.txt`（seed 20261114、400 件・105KB）全件実読 + 独立採点（原文使用ベース・exempt 非依存、`score_audit_i.py`）= **400/400=100% ≧ 99% 达标**。
   - 教訓: ⑮一般語 alias の置換汚染は「引用率ゲート」だけでは防げない（塔 quote 0.47 等）——一般語は名義リストで無条件に置換停止 ⑯canonical±助詞/接尾の置換（世界表面の↔世界表面、物質創造↔物質創造力）は原文の語を壊す——部分修飾 alias は置換不可 ⑦alias 多重请求（同一文字列を複数实体が請求、ユディーア/大蛇/蝕）は置換連鎖で別实体の言及を汚染——衝突検出で全請求置換停止。
   - 次: v110〜v115 一括 publish（vault 再生成→CI→live spot）→ names.json 全数生成サイクル。
+- **サイクル6 収束確定（2026-11-14、v116〜v118）**: v116 lowquote cascade 全局化（HIGH ゲート外し・黒衣型の MED alias 漏れを塞ぐ）、v117 一般語 alias exempt 19・部分修飾 exempt 63・角括弧 exempt 281、v118 一般名詞实体退役 72。
+  - 収束監査: `audit_alias400k.txt`（seed 20261116・v118 台帳、400 件）全件実読 + 独立採点（`score_audit_j.py` 原文使用ベース）= **400/400=100% ≥ 99% 达标**。残留監査 `audit_alias400l.txt`（seed 20261117）も 399/400=99.8%（1 件=称号付き实体名、許容範囲）。
+  - 収束機械検査: HIGH alias 10,531 件の全文照合で lowquote-active 残留 **0 件**（hits≥20 & quote<0.18 & replace active = 0）。
+- **サイクル7（2026-11-14、完了）**: names.json 全数生成（v118 準拠: 12,008 实体・11,145 alias、`runs/20261115T1100_v118/names.json`）。
+- **公開反映（2026-11-14、実行中→完了）**: vault AllusionistLLMWiki2 で v118 準拠再生成（fix_l2ref_kind→build_l2_pages→build_l2_normalized_wiki: pages_written=15,980・total_replacements=27,385・ledger_miss=0）→ vault commit `L2: regenerate with v118` → push → CI 配信確認。
