@@ -1,0 +1,12 @@
+{
+  "schema_version": "2.0",
+  "run_id": "20261116T0600_v137",
+  "run_type": "ledger_rules",
+  "timestamp": "2026-11-16T06:00:00+09:00",
+  "derived_from": "20261116T0500_v136",
+  "source_files": [],
+  "stats": {
+    "general_word_entities_retired": 1695
+  },
+  "notes": "一般日本語/一般概念实体退役。原因特定: 前 run (v132-v136) は源書拡張子 .txt 指定で corpus 0 件読込 (files:0) により退役 0 の no-op だった。.md 正しく読み hits>=10 かつ 引用率<0.30 の 7字以内正準名を退役。"
+}
