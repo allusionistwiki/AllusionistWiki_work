@@ -111,3 +111,4 @@ seed を回して新規 400 で再監査。機械スキャンは合格条件の�
   - 収束機械検査: HIGH alias 10,531 件の全文照合で lowquote-active 残留 **0 件**（hits≥20 & quote<0.18 & replace active = 0）。
 - **サイクル7（2026-11-14、完了）**: names.json 全数生成（v118 準拠: 12,008 实体・11,145 alias、`runs/20261115T1100_v118/names.json`）。
 - **公開反映（2026-11-14、実行中→完了）**: vault AllusionistLLMWiki2 で v118 準拠再生成（fix_l2ref_kind→build_l2_pages→build_l2_normalized_wiki: pages_written=15,980・total_replacements=27,385・ledger_miss=0）→ vault commit `L2: regenerate with v118` → push → CI 配信確認。
+- **サイクル6 最終収束確認（2026-11-14、v118 準拠・seed 20261118）**: `audit_alias400m.txt`（400 件・1240 行）全件実読 + 独立採点。機械採点 400/400=100%。実読上の一般名詞实体残存 3 件（みんな/兎/皆）を含めても 397/400=99.25% ≥ 99% 达标（判定は alias 置換の原文汚染基準、3 件は no-op 置換で公開面汚染なし・台帳衛生課題として次回一般名詞退役スコープへ）。
