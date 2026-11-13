@@ -1,0 +1,5500 @@
+{
+ "schema_version": "names/1.1",
+ "run": "20261116T0200_v133",
+ "derived_from": "20261116T0100_v132",
+ "entities": 16342,
+ "aliases": 549,
+ "contract": "公開置換=正準名のみ",
+ "names": [
+  {
+   "alias": "呪文竜",
+   "entity_id": "E_char_オルガンローデ",
+   "canonical": "オルガンローデ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 61,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "覇竜王滅呪",
+   "entity_id": "E_char_オルガンローデ",
+   "canonical": "オルガンローデ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "銀竜草滅呪",
+   "entity_id": "E_char_オルガンローデ",
+   "canonical": "オルガンローデ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "洞窟浄界",
+   "entity_id": "E_char_楽園",
+   "canonical": "楽園",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "浄界の神",
+   "entity_id": "E_char_楽園",
+   "canonical": "楽園",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "メートリアン",
+   "entity_id": "E_char_ミルーニャ",
+   "canonical": "ミルーニャ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 375,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "完全祝福者",
+   "entity_id": "E_char_ミルーニャ",
+   "canonical": "ミルーニャ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ユディーア",
+   "entity_id": "E_char_エレクトラ",
+   "canonical": "エレクトラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1425,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "キニス",
+   "entity_id": "E_char_エレクトラ",
+   "canonical": "エレクトラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 86,
+   "quote_rate": 0.17
+  },
+  {
+   "alias": "キニスちゃん",
+   "entity_id": "E_char_エレクトラ",
+   "canonical": "エレクトラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "疫病型吸血鬼",
+   "entity_id": "E_char_呪文",
+   "canonical": "呪文",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "じんぶんかがく",
+   "entity_id": "E_char_呪文",
+   "canonical": "呪文",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "青い鳥",
+   "entity_id": "E_char_ペリュトン",
+   "canonical": "ペリュトン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "青い鳥（ペリュトン）。鹿と鳥の特徴を併せ持つ、影の世界の住人。 異獣ならざる青い鳥（ペリュトン）であるはずだ。",
+   "corpus_hits": 24,
+   "quote_rate": 0.62
+  },
+  {
+   "alias": "ラハブ",
+   "entity_id": "E_char_ペリュトン",
+   "canonical": "ペリュトン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "ch0231で「ペリュトン系の淫魔ラハブ」として同一視される",
+   "corpus_hits": 3,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "枝角有翼の青鹿",
+   "entity_id": "E_char_ペリュトン",
+   "canonical": "ペリュトン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "アキラ",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 2645,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "アキラくん",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 633,
+   "quote_rate": 0.3
+  },
+  {
+   "alias": "アキラ殿",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "犬頭のアキラ",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "アルト",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 525,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "グレンデルヒ",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 855,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "グレンデルヒ(アキラとして)",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "同一人物暗示",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "奴隷",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 129,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "樵",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 7,
+   "quote_rate": 0.29
+  },
+  {
+   "alias": "牙猪",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 116,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "牙猪(シナモリアキラ)",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "キャラクターの別名・変身表記の疑い",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "spear",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "括弧内注記により同一キャラの別名 [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "「雪女」",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "括弧内注記により同一キャラの別名 [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "店員アキラ",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "最強のシナモリアキラ",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "殺人鬼",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 75,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "アキラ",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 2645,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "品森晶",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 22,
+   "quote_rate": 0.27
+  },
+  {
+   "alias": "品森晶/Akira Shinamori",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "高",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "語り手",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 18,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "ちびアキラ",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 14,
+   "quote_rate": 0.29
+  },
+  {
+   "alias": "シナモリ・アキラ",
+   "entity_id": "E_char_アキラ",
+   "canonical": "シナモリアキラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 117,
+   "quote_rate": 0.23
+  },
+  {
+   "alias": "歌姫Spear",
+   "entity_id": "E_char_ハル",
+   "canonical": "ハルベルト",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 49,
+   "quote_rate": 0.28
+  },
+  {
+   "alias": "歌姫Ｓｐｅａｒ",
+   "entity_id": "E_char_ハル",
+   "canonical": "ハルベルト",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "ch0047 para p1938 において「世紀の歌姫とは、このハルベルトのもう一つの姿」と定義されており、ch0063 para p2363 でも「歌姫Ｓｐｅａｒ――またの名をハルベルト」と明記されている。これは同一人物（ハルベルト）の別名（alias）であるため統合が正しい。",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ハル",
+   "entity_id": "E_char_ハル",
+   "canonical": "ハルベルト",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "「隊長はあなた。何か不測の事態が起こったら師であるハルがなんとかする」",
+   "corpus_hits": 1458,
+   "quote_rate": 0.23
+  },
+  {
+   "alias": "歌姫",
+   "entity_id": "E_char_ハル",
+   "canonical": "ハルベルト",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "ハルベルトの別称（役割記述付き） [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 258,
+   "quote_rate": 0.23
+  },
+  {
+   "alias": "ハル",
+   "entity_id": "E_char_ハル",
+   "canonical": "ハルベルト",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "「隊長はあなた。何か不測の事態が起こったら師であるハルがなんとかする」",
+   "corpus_hits": 1458,
+   "quote_rate": 0.23
+  },
+  {
+   "alias": "斧槍",
+   "entity_id": "E_char_ハル",
+   "canonical": "ハルベルト",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 56,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "隔離",
+   "entity_id": "E_char_カーティス",
+   "canonical": "カーティス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 76,
+   "quote_rate": 0.33
+  },
+  {
+   "alias": "聖騎士",
+   "entity_id": "E_char_キロン",
+   "canonical": "キロン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 92,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "転生者殺し",
+   "entity_id": "E_char_キロン",
+   "canonical": "キロン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 10,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "聖騎士キロン",
+   "entity_id": "E_char_キロン",
+   "canonical": "キロン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 9,
+   "quote_rate": 0.11
+  },
+  {
+   "alias": "色付き視線",
+   "entity_id": "E_char_邪視",
+   "canonical": "邪視",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "まなざし",
+   "entity_id": "E_char_邪視",
+   "canonical": "邪視",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 90,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "盗賊王ゼド",
+   "entity_id": "E_char_ゼド",
+   "canonical": "ゼド",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 22,
+   "quote_rate": 0.09
+  },
+  {
+   "alias": "【盗賊王】",
+   "entity_id": "E_char_ゼド",
+   "canonical": "ゼド",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "bracket_alias (原文記号衝突)",
+   "corpus_hits": 5,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "聖女クナータ",
+   "entity_id": "E_char_クナータ",
+   "canonical": "クナータ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 39,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "聖女",
+   "entity_id": "E_char_クナータ",
+   "canonical": "クナータ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 165,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "聖女様",
+   "entity_id": "E_char_クナータ",
+   "canonical": "クナータ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 23,
+   "quote_rate": 0.13
+  },
+  {
+   "alias": "ルバーブ様",
+   "entity_id": "E_char_スカルミリオーネ",
+   "canonical": "スカルミリオーネ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "乱髪",
+   "entity_id": "E_char_スカルミリオーネ",
+   "canonical": "スカルミリオーネ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 12,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "第一衛星",
+   "entity_id": "E_char_影の世界",
+   "canonical": "影の世界",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 3,
+   "quote_rate": 0.67
+  },
+  {
+   "alias": "イルディアンサ",
+   "entity_id": "E_char_太陰",
+   "canonical": "太陰",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 56,
+   "quote_rate": 0.68
+  },
+  {
+   "alias": "第四衛星",
+   "entity_id": "E_char_太陰",
+   "canonical": "太陰",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 12,
+   "quote_rate": 0.58
+  },
+  {
+   "alias": "第四衛星イルディアンサ",
+   "entity_id": "E_char_太陰",
+   "canonical": "太陰",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 2,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "虫態",
+   "entity_id": "E_char_アヴロノ",
+   "canonical": "アヴロノ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 22,
+   "quote_rate": 0.09
+  },
+  {
+   "alias": "虫態アヴロノ",
+   "entity_id": "E_char_アヴロノ",
+   "canonical": "アヴロノ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 12,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "記号属性",
+   "entity_id": "E_term_アトリビュート",
+   "canonical": "アトリビュート",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "六人の王さまたち",
+   "entity_id": "E_char_六人の王",
+   "canonical": "六人の王",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "六人の男たち",
+   "entity_id": "E_char_六人の王",
+   "canonical": "六人の王",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 3,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "六王",
+   "entity_id": "E_char_六人の王",
+   "canonical": "六人の王",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 377,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "アズ",
+   "entity_id": "E_char_アズ",
+   "canonical": "アズーリア",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1201,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "全裸の変態",
+   "entity_id": "E_char_アズ",
+   "canonical": "アズーリア",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 3,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "アズーリアヘレゼクシュ",
+   "entity_id": "E_char_アズ",
+   "canonical": "アズーリア",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "同一キャラクターの一人称表記を含む別名 [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "アズーリアヘレゼクシュ(私)",
+   "entity_id": "E_char_アズ",
+   "canonical": "アズーリア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "同一キャラクターの一人称表記を含む別名",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "アズ",
+   "entity_id": "E_char_アズ",
+   "canonical": "アズーリア",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1201,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "街路樹の民",
+   "entity_id": "E_char_ティリビナの民",
+   "canonical": "ティリビナの民",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 16,
+   "quote_rate": 0.56
+  },
+  {
+   "alias": "攻撃者",
+   "entity_id": "E_char_パーン",
+   "canonical": "パーン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "言理の妖精",
+   "entity_id": "E_char_エル・ア・フィリス",
+   "canonical": "エル・ア・フィリス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 145,
+   "quote_rate": 0.55
+  },
+  {
+   "alias": "エルアフィリスさん",
+   "entity_id": "E_char_エル・ア・フィリス",
+   "canonical": "エル・ア・フィリス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "言理の妖精フィリス",
+   "entity_id": "E_char_エル・ア・フィリス",
+   "canonical": "エル・ア・フィリス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "アルトイヴニル",
+   "entity_id": "E_char_マラード",
+   "canonical": "マラード",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "同一キャラクターの別名・偽名表記 [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "牙猪",
+   "entity_id": "E_char_カイン",
+   "canonical": "カイン",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 116,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "牙猪(カイン役)",
+   "entity_id": "E_char_カイン",
+   "canonical": "カイン",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "役名を含む別名表記の疑い",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "オルクス",
+   "entity_id": "E_char_再生者",
+   "canonical": "再生者",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 32,
+   "quote_rate": 0.94
+  },
+  {
+   "alias": "オルクス＝ハイ",
+   "entity_id": "E_char_再生者",
+   "canonical": "再生者",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "高位再生者",
+   "entity_id": "E_char_再生者",
+   "canonical": "再生者",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 6,
+   "quote_rate": 0.67
+  },
+  {
+   "alias": "摸倣子",
+   "entity_id": "E_char_ミーム",
+   "canonical": "ミーム",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 62,
+   "quote_rate": 0.17
+  },
+  {
+   "alias": "黙読文化の摸倣子",
+   "entity_id": "E_char_ミーム",
+   "canonical": "ミーム",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "儀式呪術",
+   "entity_id": "E_char_ライブ",
+   "canonical": "ライブ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 22,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "呪術儀式",
+   "entity_id": "E_char_ライブ",
+   "canonical": "ライブ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 74,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "思い出話",
+   "entity_id": "E_char_ライブ",
+   "canonical": "ライブ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 15,
+   "quote_rate": 0.13
+  },
+  {
+   "alias": "タマ",
+   "entity_id": "E_char_エミリニェロギッポロネーシャ",
+   "canonical": "エミリニェロギッポロネーシャ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 66,
+   "quote_rate": 0.4
+  },
+  {
+   "alias": "タマちゃん先生",
+   "entity_id": "E_char_エミリニェロギッポロネーシャ",
+   "canonical": "エミリニェロギッポロネーシャ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 10,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "白黒兎",
+   "entity_id": "E_char_エミリニェロギッポロネーシャ",
+   "canonical": "エミリニェロギッポロネーシャ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 10,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "朱の翼",
+   "entity_id": "E_char_植物神レルプレア",
+   "canonical": "植物神レルプレア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "マンモス",
+   "entity_id": "E_char_植物神レルプレア",
+   "canonical": "植物神レルプレア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "毛長曲牙象",
+   "entity_id": "E_char_植物神レルプレア",
+   "canonical": "植物神レルプレア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "姫君",
+   "entity_id": "E_char_アルト・イヴニル",
+   "canonical": "アルト・イヴニル",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 86,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "イェツィラー",
+   "entity_id": "E_char_融血呪",
+   "canonical": "融血呪",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 15,
+   "quote_rate": 0.8
+  },
+  {
+   "alias": "プリエステラ",
+   "entity_id": "E_char_エスト",
+   "canonical": "エスト",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 455,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "ティリビナの巫女",
+   "entity_id": "E_char_エスト",
+   "canonical": "エスト",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 59,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "サリアちゃん",
+   "entity_id": "E_char_サリア",
+   "canonical": "サリア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 14,
+   "quote_rate": 0.64
+  },
+  {
+   "alias": "しゃかいかがく",
+   "entity_id": "E_char_使い魔",
+   "canonical": "使い魔",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "天の御殿",
+   "entity_id": "E_char_エクリーオベレッカ",
+   "canonical": "エクリーオベレッカ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 104,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "銃士",
+   "entity_id": "E_char_カルカブリーナ",
+   "canonical": "カルカブリーナ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 55,
+   "quote_rate": 0.62
+  },
+  {
+   "alias": "混沌派",
+   "entity_id": "E_char_クロウサー",
+   "canonical": "クロウサー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 9,
+   "quote_rate": 0.44
+  },
+  {
+   "alias": "グラマー界",
+   "entity_id": "E_term_アストラル界",
+   "canonical": "アストラル界",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 11,
+   "quote_rate": 0.18
+  },
+  {
+   "alias": "アストラル",
+   "entity_id": "E_term_アストラル界",
+   "canonical": "アストラル界",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 486,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "ベアトリーチェ",
+   "entity_id": "E_char_セレクティフィレクティ",
+   "canonical": "セレクティフィレクティ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 21,
+   "quote_rate": 0.19
+  },
+  {
+   "alias": "七十一番目",
+   "entity_id": "E_char_キュトスの姉妹",
+   "canonical": "キュトスの姉妹",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 5,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "球神",
+   "entity_id": "E_char_ドルネスタンルフ",
+   "canonical": "ドルネスタンルフ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 86,
+   "quote_rate": 0.17
+  },
+  {
+   "alias": "トリシル二号",
+   "entity_id": "E_char_ピュクシス",
+   "canonical": "ピュクシス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 0.33
+  },
+  {
+   "alias": "フィレクティ",
+   "entity_id": "E_char_ちびラズリ",
+   "canonical": "ちびラズリ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 66,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "ラズリ",
+   "entity_id": "E_char_ちびラズリ",
+   "canonical": "ちびラズリ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 142,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "ライラさん",
+   "entity_id": "E_char_ライラ",
+   "canonical": "ライラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 2,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "ヴァルレメス",
+   "entity_id": "E_char_虹犬",
+   "canonical": "虹犬",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 14,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "犬精",
+   "entity_id": "E_char_虹犬",
+   "canonical": "虹犬",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "虹犬、あるいは犬精と呼ばれる下方勢力の種族。",
+   "corpus_hits": 3,
+   "quote_rate": 0.67
+  },
+  {
+   "alias": "ヒエロス",
+   "entity_id": "E_term_聖婚",
+   "canonical": "聖婚",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 5,
+   "quote_rate": 0.8
+  },
+  {
+   "alias": "ドーラーヴィーラ",
+   "entity_id": "E_org_きぐるみ妖精",
+   "canonical": "きぐるみ妖精",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 16,
+   "quote_rate": 0.62
+  },
+  {
+   "alias": "ドーラーヴィ",
+   "entity_id": "E_org_きぐるみ妖精",
+   "canonical": "きぐるみ妖精",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 16,
+   "quote_rate": 0.62
+  },
+  {
+   "alias": "黒衣",
+   "entity_id": "E_char_クリーナー",
+   "canonical": "クリーナー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 302,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "アイアゲート",
+   "entity_id": "E_item_天眼石",
+   "canonical": "天眼石",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "弾道予報Ｖｅｒ２．０",
+   "entity_id": "E_item_弾道予報Ver2_0",
+   "canonical": "弾道予報Ver2.0",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "弾道予報ver2.0",
+   "entity_id": "E_item_弾道予報Ver2_0",
+   "canonical": "弾道予報Ver2.0",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "スーサイダルブラッ",
+   "entity_id": "E_item_自殺の黒槍",
+   "canonical": "自殺の黒槍",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "スーサイダルブラック",
+   "entity_id": "E_item_自殺の黒槍",
+   "canonical": "自殺の黒槍",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "チェンジリング",
+   "entity_id": "E_char_猫の取り替え子",
+   "canonical": "猫の取り替え子",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 9,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "猫の取り換え子",
+   "entity_id": "E_char_猫の取り替え子",
+   "canonical": "猫の取り替え子",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "狂怖",
+   "entity_id": "E_term_ホラー",
+   "canonical": "ホラー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 45,
+   "quote_rate": 0.62
+  },
+  {
+   "alias": "狂怖種",
+   "entity_id": "E_term_ホラー",
+   "canonical": "ホラー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 5,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "遊戯盤",
+   "entity_id": "E_char_ゲーム",
+   "canonical": "ゲーム",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "ch0249 para p8059において「双六の最新形態」と定義されており、遊戯盤がゲーム（玩具/ボードゲーム）の一種であることが明示されている。またch0020/ch0269での機能描写（視覚化ツールとしての盤）と整合性があり、同一実体として扱って問題ない。",
+   "corpus_hits": 18,
+   "quote_rate": 0.11
+  },
+  {
+   "alias": "戦争",
+   "entity_id": "E_char_ゲーム",
+   "canonical": "ゲーム",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word",
+   "corpus_hits": 107,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "アゥルメイアお嬢様",
+   "entity_id": "E_char_アゥルメイア",
+   "canonical": "アゥルメイア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 2,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "アゥルメイア様",
+   "entity_id": "E_char_アゥルメイア",
+   "canonical": "アゥルメイア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 2,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "ＮＯＫＯＴＴＡ",
+   "entity_id": "E_term_NOKOTTA",
+   "canonical": "NOKOTTA",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "NO KOTTA",
+   "entity_id": "E_term_NOKOTTA",
+   "canonical": "NOKOTTA",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "黒曜騎士",
+   "entity_id": "E_char_ハイマン",
+   "canonical": "ハイマン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 6,
+   "quote_rate": 0.17
+  },
+  {
+   "alias": "黒曜騎士ハイマン",
+   "entity_id": "E_char_ハイマン",
+   "canonical": "ハイマン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 2,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "ブレス",
+   "entity_id": "E_char_吐息",
+   "canonical": "吐息",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 32,
+   "quote_rate": 0.41
+  },
+  {
+   "alias": "カットスロート",
+   "entity_id": "E_char_殺戮",
+   "canonical": "殺戮",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 0.75
+  },
+  {
+   "alias": "死神の腕",
+   "entity_id": "E_char_殺戮",
+   "canonical": "殺戮",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 6,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ドミナント",
+   "entity_id": "E_char_支配",
+   "canonical": "支配",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "チフス",
+   "entity_id": "E_char_チフス・アキラ",
+   "canonical": "チフス・アキラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 3,
+   "quote_rate": 0.67
+  },
+  {
+   "alias": "紅戦熱",
+   "entity_id": "E_char_チフス・アキラ",
+   "canonical": "チフス・アキラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "蠍尾",
+   "entity_id": "E_char_マラコーダ",
+   "canonical": "マラコーダ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 52,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "使い魔の座",
+   "entity_id": "E_char_トライデント",
+   "canonical": "トライデント",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 40,
+   "quote_rate": 0.53
+  },
+  {
+   "alias": "グレンデルヒたち",
+   "entity_id": "E_char_ウォゾマ・メロロキン",
+   "canonical": "ウォゾマ・メロロキン",
+   "replace": false,
+   "confidence": "高",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 12,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "カシュラム王",
+   "entity_id": "E_char_オルヴァ",
+   "canonical": "オルヴァ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 16,
+   "quote_rate": 0.06
+  },
+  {
+   "alias": "カシュラム王(オルヴァ)",
+   "entity_id": "E_char_オルヴァ",
+   "canonical": "オルヴァ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "オルヴァの役職・別名",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "臣下たち",
+   "entity_id": "E_char_オルヴァ",
+   "canonical": "オルヴァ",
+   "replace": false,
+   "confidence": "高",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 13,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "髭太夫",
+   "entity_id": "E_char_オルヴァ",
+   "canonical": "オルヴァ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "「いや、髭太夫（オルヴァ）の知識を借りるからいい」",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "黒い装丁の書物",
+   "entity_id": "E_char_死人の森の断章",
+   "canonical": "死人の森の断章",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "カーネリアン",
+   "entity_id": "E_char_アルト",
+   "canonical": "アルト",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "お父様",
+   "entity_id": "E_char_アルト",
+   "canonical": "アルト",
+   "replace": false,
+   "confidence": "高",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 11,
+   "quote_rate": 0.55
+  },
+  {
+   "alias": "輝血",
+   "entity_id": "E_char_アルマ",
+   "canonical": "アルマ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "テキストベースサーキット",
+   "entity_id": "E_char_テキストベース・サーキット",
+   "canonical": "テキストベース・サーキット",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 6,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "六王たち",
+   "entity_id": "E_char_六王",
+   "canonical": "六王",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 71,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "異言の民",
+   "entity_id": "E_char_異獣",
+   "canonical": "異獣",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "species_descriptor (眷族種記述・置換不可)",
+   "corpus_hits": 2,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "虹犬",
+   "entity_id": "E_char_異獣",
+   "canonical": "異獣",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "species_descriptor",
+   "corpus_hits": 245,
+   "quote_rate": 0.23
+  },
+  {
+   "alias": "黒百合",
+   "entity_id": "E_org_チョコレートリリー",
+   "canonical": "チョコレートリリー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 180,
+   "quote_rate": 0.17
+  },
+  {
+   "alias": "黒百合の子供たち",
+   "entity_id": "E_org_チョコレートリリー",
+   "canonical": "チョコレートリリー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 50,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "修道騎士ペイル",
+   "entity_id": "E_char_ペイル",
+   "canonical": "ペイル",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 7,
+   "quote_rate": 0.29
+  },
+  {
+   "alias": "オクルトゥム",
+   "entity_id": "E_char_呪力",
+   "canonical": "呪力",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "転生者",
+   "entity_id": "E_term_ゼノグラシア",
+   "canonical": "ゼノグラシア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 232,
+   "quote_rate": 0.28
+  },
+  {
+   "alias": "アキラくん",
+   "entity_id": "E_term_ゼノグラシア",
+   "canonical": "ゼノグラシア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 633,
+   "quote_rate": 0.3
+  },
+  {
+   "alias": "クレアノーズお姉様",
+   "entity_id": "E_char_クレアノーズ",
+   "canonical": "クレアノーズ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 32,
+   "quote_rate": 0.19
+  },
+  {
+   "alias": "わだつみ",
+   "entity_id": "E_char_ハザーリャ",
+   "canonical": "ハザーリャ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ディスペータお姉様",
+   "entity_id": "E_char_ディスペータ",
+   "canonical": "ディスペータ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 44,
+   "quote_rate": 0.35
+  },
+  {
+   "alias": "元槍神",
+   "entity_id": "E_char_ハグレス",
+   "canonical": "ハグレス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "無謬",
+   "entity_id": "E_char_神働装甲",
+   "canonical": "神働装甲",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "species_descriptor_phrase (audit 400p 実読: 眷族種記述・置換不可)",
+   "corpus_hits": 4,
+   "quote_rate": 0.25
+  },
+  {
+   "alias": "隠者ウォレス",
+   "entity_id": "E_char_グレンデルヒ＝ライニンサル",
+   "canonical": "グレンデルヒ＝ライニンサル",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 11,
+   "quote_rate": 0.18
+  },
+  {
+   "alias": "ライブラリー",
+   "entity_id": "E_org_神々の図書館",
+   "canonical": "神々の図書館",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "灰神干渉",
+   "entity_id": "E_char_過去視",
+   "canonical": "過去視",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "花のアヴロノ",
+   "entity_id": "E_char_アルラウネ",
+   "canonical": "アルラウネ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 21,
+   "quote_rate": 0.71
+  },
+  {
+   "alias": "樹妖精",
+   "entity_id": "E_char_アルラウネ",
+   "canonical": "アルラウネ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 37,
+   "quote_rate": 0.43
+  },
+  {
+   "alias": "ズタークスターク殿",
+   "entity_id": "E_char_ズタークスターク",
+   "canonical": "ズタークスターク",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "マイコニド",
+   "entity_id": "E_char_キノコ人",
+   "canonical": "キノコ人",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 20,
+   "quote_rate": 0.35
+  },
+  {
+   "alias": "ヴァージリ",
+   "entity_id": "E_char_ヴァージリア",
+   "canonical": "ヴァージリア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 221,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "真黒",
+   "entity_id": "E_char_ヴァージリア",
+   "canonical": "ヴァージリア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "頂点を争っていたのは澄明（わたし）、真黒（ヴァージリア）、鮮朱（ヴァーミリオン）、本紫（パープル）、そして陽色（フルブライト）と陰色（ノーレイ）。",
+   "corpus_hits": 5,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "幻獣",
+   "entity_id": "E_char_仮想使い魔",
+   "canonical": "仮想使い魔",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "species_descriptor",
+   "corpus_hits": 55,
+   "quote_rate": 0.23
+  },
+  {
+   "alias": "探索者たち",
+   "entity_id": "E_char_探索者",
+   "canonical": "探索者",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 148,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "ワードクェイク",
+   "entity_id": "E_motif_言震",
+   "canonical": "言震",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 15,
+   "quote_rate": 0.87
+  },
+  {
+   "alias": "世界獣",
+   "entity_id": "E_term_パンゲオン",
+   "canonical": "パンゲオン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "ch0218 p7283の引用「紀竜は世界獣パンゲオンの無数の首から生じた」により、「世界獣」という称号が固有名詞「パンゲオン」を指す别名であることが文脈内で明示されている。mech_splitがあるが、同一事実内での共起は「定義・説明」であり反例ではない。",
+   "corpus_hits": 5,
+   "quote_rate": 0.4
+  },
+  {
+   "alias": "品森 晶",
+   "entity_id": "E_char_品森晶",
+   "canonical": "品森晶",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "コンプレックス",
+   "entity_id": "E_char_複合種",
+   "canonical": "複合種",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 6,
+   "quote_rate": 0.67
+  },
+  {
+   "alias": "エンスネア",
+   "entity_id": "E_char_陥穽",
+   "canonical": "陥穽",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 8,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "エスニックポリフォニー",
+   "entity_id": "E_char_エスニック・ポリフォニー",
+   "canonical": "エスニック・ポリフォニー",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "呪文喰らい",
+   "entity_id": "E_item_マクロファージ",
+   "canonical": "マクロファージ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 20,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "ミレノプリズム",
+   "entity_id": "E_term_万色彩星",
+   "canonical": "万色彩星",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 7,
+   "quote_rate": 0.86
+  },
+  {
+   "alias": "仏眼仏母",
+   "entity_id": "E_char_アーザノエル",
+   "canonical": "アーザノエル",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "澄明",
+   "entity_id": "E_char_アズール",
+   "canonical": "アズール",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 16,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "青い有翼の牡鹿",
+   "entity_id": "E_char_アズール",
+   "canonical": "アズール",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "イナータルゴ様",
+   "entity_id": "E_char_イナータルゴ",
+   "canonical": "イナータルゴ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "イナータルゴ様(百目の男)",
+   "entity_id": "E_char_イナータルゴ",
+   "canonical": "イナータルゴ",
+   "replace": false,
+   "confidence": "高",
+   "exempt": "",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "コアちゃん",
+   "entity_id": "E_char_コア",
+   "canonical": "コア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 16,
+   "quote_rate": 0.38
+  },
+  {
+   "alias": "岩肌種",
+   "entity_id": "E_char_トロル",
+   "canonical": "トロル",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 62,
+   "quote_rate": 0.57
+  },
+  {
+   "alias": "恋のおまじない",
+   "entity_id": "E_item_呪宝石",
+   "canonical": "呪宝石",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ウィッチドクター",
+   "entity_id": "E_org_呪術医",
+   "canonical": "呪術医",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 7,
+   "quote_rate": 0.43
+  },
+  {
+   "alias": "緑の君",
+   "entity_id": "E_char_エクリエッテ",
+   "canonical": "エクリエッテ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 6,
+   "quote_rate": 0.83
+  },
+  {
+   "alias": "ジュティアさん",
+   "entity_id": "E_char_ジュティア",
+   "canonical": "ジュティア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "エントランス",
+   "entity_id": "E_item_鏡",
+   "canonical": "鏡",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_lowquote",
+   "corpus_hits": 23,
+   "quote_rate": 0.09
+  },
+  {
+   "alias": "明藍",
+   "entity_id": "E_char_シアン",
+   "canonical": "シアン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 19,
+   "quote_rate": 0.47
+  },
+  {
+   "alias": "木霊",
+   "entity_id": "E_char_ヘリオトロープ",
+   "canonical": "ヘリオトロープ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 8,
+   "quote_rate": 0.88
+  },
+  {
+   "alias": "ミナさん",
+   "entity_id": "E_char_ミナ",
+   "canonical": "ミナ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "ディパーシュ",
+   "entity_id": "E_org_ディパーシュ家",
+   "canonical": "ディパーシュ家",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 24,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "インナーベイト",
+   "entity_id": "E_term_神経支配",
+   "canonical": "神経支配",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 6,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "スクロール",
+   "entity_id": "E_item_巻物",
+   "canonical": "巻物",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 7,
+   "quote_rate": 0.43
+  },
+  {
+   "alias": "弾道予報Ｖｅｒ３．０",
+   "entity_id": "E_item_弾道予報Ver3_0",
+   "canonical": "弾道予報Ver3.0",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "弾道予報Ver2.1",
+   "entity_id": "E_item_弾道予報Ｖｅｒ２．１",
+   "canonical": "弾道予報Ｖｅｒ２．１",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "アウターゴッド",
+   "entity_id": "E_term_アウターゴッズ",
+   "canonical": "アウターゴッズ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 5,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "闇の静謐",
+   "entity_id": "E_term_闇の静謐_ダーク_トランキュリティ_",
+   "canonical": "闇の静謐（ダーク・トランキュリティ）",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 10,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "闇の静謐（ダークトランキュリティ）",
+   "entity_id": "E_term_闇の静謐_ダーク_トランキュリティ_",
+   "canonical": "闇の静謐（ダーク・トランキュリティ）",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "アキラ",
+   "entity_id": "E_char_アキラ_シナモリ_アキラ_",
+   "canonical": "アキラ（シナモリ・アキラ）",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 2645,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "アキラ（シナモリアキラ）",
+   "entity_id": "E_char_アキラ_シナモリ_アキラ_",
+   "canonical": "アキラ（シナモリ・アキラ）",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ネクロマンシー",
+   "entity_id": "E_char_死霊術",
+   "canonical": "死霊術",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 3,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "オーブ",
+   "entity_id": "E_char_氷の球体",
+   "canonical": "氷の球体",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 21,
+   "quote_rate": 0.62
+  },
+  {
+   "alias": "アルケミスト",
+   "entity_id": "E_char_錬金術師",
+   "canonical": "錬金術師",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "その職種",
+   "entity_id": "E_char_錬金術師",
+   "canonical": "錬金術師",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "modifier_alias (修飾連は置換不可)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "涙想吟竜",
+   "entity_id": "E_motif_コルセーク",
+   "canonical": "コルセーク",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ライブラリ",
+   "entity_id": "E_org_図書館",
+   "canonical": "図書館",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 6,
+   "quote_rate": 0.83
+  },
+  {
+   "alias": "クリマ",
+   "entity_id": "E_term_藍神",
+   "canonical": "藍神",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 13,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "アヌビス740",
+   "entity_id": "E_char_アヌビス７４０",
+   "canonical": "アヌビス７４０",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "マリキアン",
+   "entity_id": "E_char_マリキアン・リト",
+   "canonical": "マリキアン・リト",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 10,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "蜥蜴人の上位種",
+   "entity_id": "E_char_亜竜",
+   "canonical": "亜竜",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 3,
+   "quote_rate": 0.67
+  },
+  {
+   "alias": "ドラゴニュート",
+   "entity_id": "E_char_亜竜人",
+   "canonical": "亜竜人",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "長老様",
+   "entity_id": "E_char_長老",
+   "canonical": "長老",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "ch5123で「長老様みたいな…呪術師」と敬称として同一人物を指す",
+   "corpus_hits": 5,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "プレイ動画",
+   "entity_id": "E_item_共有記憶",
+   "canonical": "共有記憶",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 7,
+   "quote_rate": 0.14
+  },
+  {
+   "alias": "アダマス",
+   "entity_id": "E_item_原初の土",
+   "canonical": "原初の土",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "感情制御アプリ『Ｅ－Ｅ』",
+   "entity_id": "E_item_感情制御アプリ_E-E_",
+   "canonical": "感情制御アプリ『E-E』",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ダークトランキュリティ",
+   "entity_id": "E_term_ダーク_トランキュリティ",
+   "canonical": "ダーク・トランキュリティ",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "神話揺動者",
+   "entity_id": "E_term_ミュトスフリッカー",
+   "canonical": "ミュトスフリッカー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "予選",
+   "entity_id": "E_term_予選レース",
+   "canonical": "予選レース",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 45,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "ペイルガンド",
+   "entity_id": "E_char_ペイルガンド・ボゾック",
+   "canonical": "ペイルガンド・ボゾック",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "レイちゃん",
+   "entity_id": "E_char_レイ",
+   "canonical": "レイ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 14,
+   "quote_rate": 0.29
+  },
+  {
+   "alias": "槍薄荷",
+   "entity_id": "E_item_スペアミント",
+   "canonical": "スペアミント",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "ワープゲート",
+   "entity_id": "E_item_ワープ_ゲート",
+   "canonical": "ワープ・ゲート",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "Truth",
+   "entity_id": "E_item_Ｔｒｕｔｈ",
+   "canonical": "Ｔｒｕｔｈ",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ShAdE",
+   "entity_id": "E_org_ＳｈＡｄＥ",
+   "canonical": "ＳｈＡｄＥ",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "【E-E】",
+   "entity_id": "E_term_【Ｅ－Ｅ】",
+   "canonical": "【Ｅ－Ｅ】",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "bracket_alias (原文記号衝突)",
+   "corpus_hits": 11,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "幽世",
+   "entity_id": "E_term_かくりよ",
+   "canonical": "かくりよ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 6,
+   "quote_rate": 0.33
+  },
+  {
+   "alias": "魔女術異端審問官",
+   "entity_id": "E_term_ウィッチクラフト_インクィジター",
+   "canonical": "ウィッチクラフト・インクィジター",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ステルスマーケティング",
+   "entity_id": "E_term_ステルスマーケティング認定",
+   "canonical": "ステルスマーケティング認定",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 13,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "リビュエー01",
+   "entity_id": "E_term_リビュエー０１",
+   "canonical": "リビュエー０１",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "幻聴",
+   "entity_id": "E_term_幻聴_コルセスカの声_",
+   "canonical": "幻聴（コルセスカの声）",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word",
+   "corpus_hits": 21,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "第五階層の物質創造",
+   "entity_id": "E_term_第五階層の物質創造力",
+   "canonical": "第五階層の物質創造力",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "phrase_type (記述文・数量は实体名義ではない)",
+   "corpus_hits": 7,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "王子様",
+   "entity_id": "E_char_クレイ",
+   "canonical": "クレイ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 43,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "ヴァージル",
+   "entity_id": "E_char_レオ",
+   "canonical": "レオ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 529,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "妾",
+   "entity_id": "E_char_ラクルラール",
+   "canonical": "ラクルラール",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 10,
+   "quote_rate": 0.3
+  },
+  {
+   "alias": "ちびシューラ",
+   "entity_id": "E_char_シューラ",
+   "canonical": "シューラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 763,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "レーヴェヤーナ",
+   "entity_id": "E_org_智神の盾",
+   "canonical": "智神の盾",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "花のアヴロノ",
+   "entity_id": "E_char_スーリウム",
+   "canonical": "スーリウム",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 21,
+   "quote_rate": 0.71
+  },
+  {
+   "alias": "牙猪",
+   "entity_id": "E_char_チリアット",
+   "canonical": "チリアット",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 116,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "聖妃",
+   "entity_id": "E_char_レストロオセ",
+   "canonical": "レストロオセ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 32,
+   "quote_rate": 0.19
+  },
+  {
+   "alias": "大蛇",
+   "entity_id": "E_char_イツノ",
+   "canonical": "イツノ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 60,
+   "quote_rate": 0.4
+  },
+  {
+   "alias": "迷宮都市",
+   "entity_id": "E_char_エルネトモラン",
+   "canonical": "エルネトモラン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 16,
+   "quote_rate": 0.06
+  },
+  {
+   "alias": "虹犬の貴婦人",
+   "entity_id": "E_char_ライラ・ラプス",
+   "canonical": "ライラ・ラプス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 24,
+   "quote_rate": 0.08
+  },
+  {
+   "alias": "レスラー",
+   "entity_id": "E_char_カニャッツォ",
+   "canonical": "カニャッツォ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 32,
+   "quote_rate": 0.25
+  },
+  {
+   "alias": "狆くしゃ",
+   "entity_id": "E_char_カニャッツォ",
+   "canonical": "カニャッツォ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 15,
+   "quote_rate": 0.93
+  },
+  {
+   "alias": "ファシネイター",
+   "entity_id": "E_term_邪視者",
+   "canonical": "邪視者",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 7,
+   "quote_rate": 0.86
+  },
+  {
+   "alias": "魅力を持つ者",
+   "entity_id": "E_term_邪視者",
+   "canonical": "邪視者",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "俺の義肢",
+   "entity_id": "E_char_鎧の腕",
+   "canonical": "鎧の腕",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 8,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "スス",
+   "entity_id": "E_char_サジェリミーナ",
+   "canonical": "サジェリミーナ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 36,
+   "quote_rate": 0.14
+  },
+  {
+   "alias": "グレンデルヒ",
+   "entity_id": "E_char_ハタラドゥール",
+   "canonical": "ハタラドゥール",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 855,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "十四番",
+   "entity_id": "E_char_ヴァレリアンヌ",
+   "canonical": "ヴァレリアンヌ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 17,
+   "quote_rate": 0.41
+  },
+  {
+   "alias": "息子",
+   "entity_id": "E_char_英雄",
+   "canonical": "英雄",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 40,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "オルヴァスマダルツォン",
+   "entity_id": "E_char_オルヴァ・スマダルツォン",
+   "canonical": "オルヴァ・スマダルツォン",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "引用で同一人物と明言されている [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "その子供たち",
+   "entity_id": "E_term_再生者_オルクス_",
+   "canonical": "再生者（オルクス）",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "modifier_alias (修飾連は置換不可)",
+   "corpus_hits": 5,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "女神",
+   "entity_id": "E_char_シャーネス",
+   "canonical": "シャーネス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 435,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "冥道の幼姫",
+   "entity_id": "E_char_フェロニア",
+   "canonical": "フェロニア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 35,
+   "quote_rate": 0.4
+  },
+  {
+   "alias": "自由",
+   "entity_id": "E_char_フェロニア",
+   "canonical": "フェロニア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 397,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "狆くしゃ",
+   "entity_id": "E_char_プーハニア・トストンス",
+   "canonical": "プーハニア・トストンス",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 15,
+   "quote_rate": 0.93
+  },
+  {
+   "alias": "狆くしゃ（カニャッツォ）",
+   "entity_id": "E_char_プーハニア・トストンス",
+   "canonical": "プーハニア・トストンス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 14,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "呪物崇拝",
+   "entity_id": "E_char_三本足",
+   "canonical": "三本足",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "呪物崇拝（フェティシズム）",
+   "entity_id": "E_char_三本足",
+   "canonical": "三本足",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ヒロイン",
+   "entity_id": "E_char_白のメートリアン",
+   "canonical": "白のメートリアン",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 27,
+   "quote_rate": 0.19
+  },
+  {
+   "alias": "ティティ",
+   "entity_id": "E_term_彩域",
+   "canonical": "彩域",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 12,
+   "quote_rate": 0.08
+  },
+  {
+   "alias": "アウターゴッド",
+   "entity_id": "E_term_猫",
+   "canonical": "猫",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 5,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "アーカーシャ",
+   "entity_id": "E_term_紀",
+   "canonical": "紀",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "トライスリー",
+   "entity_id": "E_char_SNA333",
+   "canonical": "SNA333",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "新王",
+   "entity_id": "E_char_無花果レイ",
+   "canonical": "無花果レイ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 10,
+   "quote_rate": 0.2
+  },
+  {
+   "alias": "小さな動物",
+   "entity_id": "E_char_ディルトーワ",
+   "canonical": "ディルトーワ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 3,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "団長",
+   "entity_id": "E_char_シダリス",
+   "canonical": "シダリス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_role",
+   "corpus_hits": 51,
+   "quote_rate": 0.2
+  },
+  {
+   "alias": "原初の妖精",
+   "entity_id": "E_char_テテリビナ",
+   "canonical": "テテリビナ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "霊詞の歌姫",
+   "entity_id": "E_char_ハチェット",
+   "canonical": "ハチェット",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 2,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "あおねるり",
+   "entity_id": "E_char_青嶺瑠璃",
+   "canonical": "青嶺瑠璃",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "巨大企業群",
+   "entity_id": "E_org_メガコーポ",
+   "canonical": "メガコーポ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 12,
+   "quote_rate": 0.42
+  },
+  {
+   "alias": "針もぐら",
+   "entity_id": "E_org_ラフディの棘の民",
+   "canonical": "ラフディの棘の民",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "幽鬼",
+   "entity_id": "E_term_レイス",
+   "canonical": "レイス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 16,
+   "quote_rate": 0.69
+  },
+  {
+   "alias": "スクリーンショット",
+   "entity_id": "E_term_念写",
+   "canonical": "念写",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 0.33
+  },
+  {
+   "alias": "エントリー",
+   "entity_id": "E_char_ニケ",
+   "canonical": "ニケ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 7,
+   "quote_rate": 0.14
+  },
+  {
+   "alias": "空穂蔓",
+   "entity_id": "E_char_ネペンテス",
+   "canonical": "ネペンテス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "四十五番",
+   "entity_id": "E_item_カルルアルルア",
+   "canonical": "カルルアルルア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "旋棍",
+   "entity_id": "E_item_トンファー",
+   "canonical": "トンファー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 17,
+   "quote_rate": 0.29
+  },
+  {
+   "alias": "樹木の妖精種",
+   "entity_id": "E_term_アールヴ",
+   "canonical": "アールヴ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "霊通術",
+   "entity_id": "E_term_影占い",
+   "canonical": "影占い",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "機械天使クレーグレン",
+   "entity_id": "E_char_クレーグレン",
+   "canonical": "クレーグレン",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "クレーグレンの別称・状態記述 [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "引喩",
+   "entity_id": "E_term_アリュージョン",
+   "canonical": "アリュージョン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word",
+   "corpus_hits": 23,
+   "quote_rate": 0.48
+  },
+  {
+   "alias": "クチナシ",
+   "entity_id": "E_term_ガーデニア",
+   "canonical": "ガーデニア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "上演後に行う丁寧なお辞儀",
+   "entity_id": "E_term_レヴェランス",
+   "canonical": "レヴェランス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "ゼールコゼーヌ",
+   "entity_id": "E_char_ゼール・コゼーヌ",
+   "canonical": "ゼール・コゼーヌ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "括弧注記（魔獣）付きの同一表記 [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ゼールコゼーヌ(魔獣)",
+   "entity_id": "E_char_ゼール・コゼーヌ",
+   "canonical": "ゼール・コゼーヌ",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "括弧注記（魔獣）付きの同一表記",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "リアンさん",
+   "entity_id": "E_char_リアン",
+   "canonical": "リアン",
+   "replace": false,
+   "confidence": "高",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 4,
+   "quote_rate": 0.25
+  },
+  {
+   "alias": "大人狼",
+   "entity_id": "E_char_リュカオン",
+   "canonical": "リュカオン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 3,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "無知",
+   "entity_id": "E_char_小鬼",
+   "canonical": "小鬼",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 26,
+   "quote_rate": 0.42
+  },
+  {
+   "alias": "フェーリム",
+   "entity_id": "E_char_御使い",
+   "canonical": "御使い",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 5,
+   "quote_rate": 0.6
+  },
+  {
+   "alias": "歴史の編纂呪術",
+   "entity_id": "E_char_接ぎ木",
+   "canonical": "接ぎ木",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "忘却",
+   "entity_id": "E_term_オブリヴィオン",
+   "canonical": "オブリヴィオン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 47,
+   "quote_rate": 0.23
+  },
+  {
+   "alias": "銀霊",
+   "entity_id": "E_term_クイックシルバー",
+   "canonical": "クイックシルバー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 20,
+   "quote_rate": 0.35
+  },
+  {
+   "alias": "死霊術師",
+   "entity_id": "E_term_ネクロマンサー",
+   "canonical": "ネクロマンサー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 13,
+   "quote_rate": 0.31
+  },
+  {
+   "alias": "人類",
+   "entity_id": "E_term_ロマンカインド",
+   "canonical": "ロマンカインド",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 235,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "悪鬼",
+   "entity_id": "E_term_家族",
+   "canonical": "家族",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 126,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "リコグニション",
+   "entity_id": "E_term_知識",
+   "canonical": "知識",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 5,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "不死狩りの鳥人",
+   "entity_id": "E_char_バードマン",
+   "canonical": "バードマン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "鳥人",
+   "entity_id": "E_char_バードマン",
+   "canonical": "バードマン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "species_descriptor",
+   "corpus_hits": 11,
+   "quote_rate": 0.36
+  },
+  {
+   "alias": "コールドスリーパー",
+   "entity_id": "E_char_冷凍睡眠者",
+   "canonical": "冷凍睡眠者",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 0.67
+  },
+  {
+   "alias": "コロニュービア",
+   "entity_id": "E_char_創生の闇",
+   "canonical": "創生の闇",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "未来を前世とする存在",
+   "entity_id": "E_char_未来転生者",
+   "canonical": "未来転生者",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "composite_names",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "リールエルバ",
+   "entity_id": "E_char_狂イ姫",
+   "canonical": "狂イ姫",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 655,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "アキラ",
+   "entity_id": "E_char_語り手",
+   "canonical": "語り手",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 2645,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "ちびアキラ",
+   "entity_id": "E_char_語り手",
+   "canonical": "語り手",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 14,
+   "quote_rate": 0.29
+  },
+  {
+   "alias": "黒化",
+   "entity_id": "E_term_キメラ",
+   "canonical": "キメラ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "砂男",
+   "entity_id": "E_term_ザントマン",
+   "canonical": "ザントマン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "選択的重力の猫",
+   "entity_id": "E_term_バタードキャット",
+   "canonical": "バタードキャット",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "反則",
+   "entity_id": "E_term_ファウル",
+   "canonical": "ファウル",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 25,
+   "quote_rate": 0.2
+  },
+  {
+   "alias": "地上の教皇",
+   "entity_id": "E_term_ファザーシステム",
+   "canonical": "ファザーシステム",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "虹国",
+   "entity_id": "E_term_ヴァルニア",
+   "canonical": "ヴァルニア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 13,
+   "quote_rate": 0.69
+  },
+  {
+   "alias": "吸血公",
+   "entity_id": "E_term_ヴァンパイアロード",
+   "canonical": "ヴァンパイアロード",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ヒューマン",
+   "entity_id": "E_term_人",
+   "canonical": "人",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 7,
+   "quote_rate": 0.29
+  },
+  {
+   "alias": "星辰配置",
+   "entity_id": "E_term_辰",
+   "canonical": "辰",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 5,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "モラリティ",
+   "entity_id": "E_term_道徳",
+   "canonical": "道徳",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "言理の魔女",
+   "entity_id": "E_char_アメル・ア・フィリス",
+   "canonical": "アメル・ア・フィリス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ウネムリビュエー",
+   "entity_id": "E_char_ウネム・リビュエー",
+   "canonical": "ウネム・リビュエー",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "括弧内は属性・異名 [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "クエスドレム",
+   "entity_id": "E_char_ガドカレク",
+   "canonical": "ガドカレク",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 104,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "クエスドレム(館の主人/ガドカレク)",
+   "entity_id": "E_char_ガドカレク",
+   "canonical": "ガドカレク",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "同一人物の別名（館主と同一視）",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "黒衣の中の闇",
+   "entity_id": "E_char_ガドカレク",
+   "canonical": "ガドカレク",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "竜帝",
+   "entity_id": "E_char_ガドカレク",
+   "canonical": "ガドカレク",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 17,
+   "quote_rate": 0.35
+  },
+  {
+   "alias": "剣歯虎",
+   "entity_id": "E_char_サーベルタイガー",
+   "canonical": "サーベルタイガー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "極天主",
+   "entity_id": "E_char_テララ",
+   "canonical": "テララ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "蜻蛉",
+   "entity_id": "E_char_ドラゴンフライ",
+   "canonical": "ドラゴンフライ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_lowquote",
+   "corpus_hits": 15,
+   "quote_rate": 0.13
+  },
+  {
+   "alias": "ノシュトリお姉様",
+   "entity_id": "E_char_ノシュトリ",
+   "canonical": "ノシュトリ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "塔",
+   "entity_id": "E_char_ファルス",
+   "canonical": "ファルス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 658,
+   "quote_rate": 0.62
+  },
+  {
+   "alias": "シナモリアキラ",
+   "entity_id": "E_char_俺",
+   "canonical": "俺",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1111,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "フェミン",
+   "entity_id": "E_char_凶作",
+   "canonical": "凶作",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ねずみ",
+   "entity_id": "E_char_地鼠",
+   "canonical": "地鼠",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 13,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "こうもり",
+   "entity_id": "E_char_天鼠",
+   "canonical": "天鼠",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 4,
+   "quote_rate": 0.25
+  },
+  {
+   "alias": "ラズリ",
+   "entity_id": "E_char_店員",
+   "canonical": "店員",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 142,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "ルアー",
+   "entity_id": "E_char_疑似餌",
+   "canonical": "疑似餌",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 7,
+   "quote_rate": 0.29
+  },
+  {
+   "alias": "さる",
+   "entity_id": "E_char_霊長",
+   "canonical": "霊長",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 56,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "第八の断章",
+   "entity_id": "E_item_【知識_リコグニション_】",
+   "canonical": "【知識（リコグニション）】",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "エンスネア",
+   "entity_id": "E_item_【陥穽】",
+   "canonical": "【陥穽】",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 8,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "遠吠え",
+   "entity_id": "E_item_アーロウン",
+   "canonical": "アーロウン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 10,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "自鳴琴",
+   "entity_id": "E_item_オルゴール",
+   "canonical": "オルゴール",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "凝視水牛",
+   "entity_id": "E_item_カトブレパス",
+   "canonical": "カトブレパス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 6,
+   "quote_rate": 0.67
+  },
+  {
+   "alias": "打鍵記録プログラム",
+   "entity_id": "E_item_キーロガー",
+   "canonical": "キーロガー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "王権守護者",
+   "entity_id": "E_item_サテライトオーブ",
+   "canonical": "サテライトオーブ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "禁忌林檎",
+   "entity_id": "E_item_サテライトオーブ",
+   "canonical": "サテライトオーブ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "心付け",
+   "entity_id": "E_item_プロフィトロール",
+   "canonical": "プロフィトロール",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias",
+   "corpus_hits": 3,
+   "quote_rate": 0.33
+  },
+  {
+   "alias": "パイリアス",
+   "entity_id": "E_item_傘頭巾",
+   "canonical": "傘頭巾",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "特異な装備",
+   "entity_id": "E_item_水着網タイツ",
+   "canonical": "水着網タイツ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "しゃくなげ",
+   "entity_id": "E_item_石楠花",
+   "canonical": "石楠花",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "オービタ",
+   "entity_id": "E_item_軌道船",
+   "canonical": "軌道船",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "竜血樹",
+   "entity_id": "E_org_ドラセナ",
+   "canonical": "ドラセナ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "虫態アヴロノ",
+   "entity_id": "E_org_第六階層勢力",
+   "canonical": "第六階層勢力",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 12,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "世界観の拡張",
+   "entity_id": "E_term__邪視_",
+   "canonical": "『邪視』",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 0.25
+  },
+  {
+   "alias": "空",
+   "entity_id": "E_term_アカシャ",
+   "canonical": "アカシャ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 3959,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "蝕",
+   "entity_id": "E_term_アタリア",
+   "canonical": "アタリア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 56,
+   "quote_rate": 0.2
+  },
+  {
+   "alias": "呪われてあるべし",
+   "entity_id": "E_term_アナテマ",
+   "canonical": "アナテマ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "内宇宙",
+   "entity_id": "E_term_インナースペース",
+   "canonical": "インナースペース",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 6,
+   "quote_rate": 0.33
+  },
+  {
+   "alias": "超上位自我",
+   "entity_id": "E_term_エウダイモーン",
+   "canonical": "エウダイモーン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 0.33
+  },
+  {
+   "alias": "盾の紋章",
+   "entity_id": "E_term_エスカッシャン",
+   "canonical": "エスカッシャン",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "性玩具",
+   "entity_id": "E_term_ガイノイド",
+   "canonical": "ガイノイド",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 6,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "氷血",
+   "entity_id": "E_term_クォーツウォッチ",
+   "canonical": "クォーツウォッチ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 81,
+   "quote_rate": 0.33
+  },
+  {
+   "alias": "聖絶の神火",
+   "entity_id": "E_term_サクリファイヤー",
+   "canonical": "サクリファイヤー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "占地術",
+   "entity_id": "E_term_ジオマンシー",
+   "canonical": "ジオマンシー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "基礎",
+   "entity_id": "E_term_スタンプ",
+   "canonical": "スタンプ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 48,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "セルフリファレンスエンジン",
+   "entity_id": "E_term_セルフ・リファレンス・エンジン",
+   "canonical": "セルフ・リファレンス・エンジン",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "二重存在",
+   "entity_id": "E_term_ドッペルゲンガー",
+   "canonical": "ドッペルゲンガー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias",
+   "corpus_hits": 2,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "夢馬",
+   "entity_id": "E_term_ナイトメア",
+   "canonical": "ナイトメア",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 17,
+   "quote_rate": 0.47
+  },
+  {
+   "alias": "兄弟",
+   "entity_id": "E_term_ナックス",
+   "canonical": "ナックス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 88,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "神働術師",
+   "entity_id": "E_term_ビショップ",
+   "canonical": "ビショップ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 7,
+   "quote_rate": 0.14
+  },
+  {
+   "alias": "貴族",
+   "entity_id": "E_term_ブルーブラッド",
+   "canonical": "ブルーブラッド",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 45,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "占影術師",
+   "entity_id": "E_term_プシュコマンサー",
+   "canonical": "プシュコマンサー",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "汎用模倣性人造人間",
+   "entity_id": "E_term_ホムンクルス",
+   "canonical": "ホムンクルス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "悪疫",
+   "entity_id": "E_term_ポックス",
+   "canonical": "ポックス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 8,
+   "quote_rate": 0.62
+  },
+  {
+   "alias": "緑神",
+   "entity_id": "E_term_ミュークリマ",
+   "canonical": "ミュークリマ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "title_species_descriptor (称号/種族記述は置換しない)",
+   "corpus_hits": 6,
+   "quote_rate": 0.83
+  },
+  {
+   "alias": "呪術培養",
+   "entity_id": "E_term_ミームクローニング",
+   "canonical": "ミームクローニング",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "戦車",
+   "entity_id": "E_term_メルカバ",
+   "canonical": "メルカバ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 11,
+   "quote_rate": 0.09
+  },
+  {
+   "alias": "ルバーブ",
+   "entity_id": "E_term_乱髪_スカルミリョーネ_",
+   "canonical": "乱髪（スカルミリョーネ）",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 421,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "技能",
+   "entity_id": "E_term_叡智の独占",
+   "canonical": "叡智の独占",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 37,
+   "quote_rate": 0.51
+  },
+  {
+   "alias": "生きた兵器",
+   "entity_id": "E_term_大関クラス",
+   "canonical": "大関クラス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "スクライング",
+   "entity_id": "E_term_水晶玉観照",
+   "canonical": "水晶玉観照",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "カリエス",
+   "entity_id": "E_term_白死息",
+   "canonical": "白死息",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 4,
+   "quote_rate": 0.5
+  },
+  {
+   "alias": "おへや",
+   "entity_id": "E_term_防火壁",
+   "canonical": "防火壁",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "ジェット",
+   "entity_id": "E_term_黒玉飛翔",
+   "canonical": "黒玉飛翔",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word_alias (一般日本語の置換源になる)",
+   "corpus_hits": 13,
+   "quote_rate": 0.46
+  },
+  {
+   "alias": "ルウテト＝ディスペータ",
+   "entity_id": "E_char_ルウテト=ディスペータ",
+   "canonical": "ルウテト=ディスペータ",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "塗壁",
+   "entity_id": "E_char_塗壁(ドガマル)",
+   "canonical": "塗壁(ドガマル)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 98,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "アキラ",
+   "entity_id": "E_creature_アキラ(分身群)",
+   "canonical": "アキラ(分身群)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 2645,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "アキラ（分身群）",
+   "entity_id": "E_creature_アキラ(分身群)",
+   "canonical": "アキラ(分身群)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "イキューの舌",
+   "entity_id": "E_term_イキューの舌(本体)",
+   "canonical": "イキューの舌(本体)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 2,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "イキューの舌（本体）",
+   "entity_id": "E_term_イキューの舌(本体)",
+   "canonical": "イキューの舌(本体)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ベアトリーチェ",
+   "entity_id": "E_char_ベアトリーチェ(の声)",
+   "canonical": "ベアトリーチェ(の声)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 21,
+   "quote_rate": 0.19
+  },
+  {
+   "alias": "ベアトリーチェ（の声）",
+   "entity_id": "E_char_ベアトリーチェ(の声)",
+   "canonical": "ベアトリーチェ(の声)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ユディーア＝エレクトラ",
+   "entity_id": "E_char_ユディーア=エレクトラ",
+   "canonical": "ユディーア=エレクトラ",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 2,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "未知の声",
+   "entity_id": "E_char_未知の声(リーナ)",
+   "canonical": "未知の声(リーナ)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "括弧内の別名と既存候補の表記ゆれ [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "アキラ",
+   "entity_id": "E_char_アキラ(本体)",
+   "canonical": "アキラ(本体)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 2645,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "アキラ（本体）",
+   "entity_id": "E_char_アキラ(本体)",
+   "canonical": "アキラ(本体)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "アルマ",
+   "entity_id": "E_char_アルマ(炎天使)",
+   "canonical": "アルマ(炎天使)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 262,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "アルマ（炎天使）",
+   "entity_id": "E_char_アルマ(炎天使)",
+   "canonical": "アルマ(炎天使)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ガドカレク＝クエスドレム",
+   "entity_id": "E_char_ガドカレク=クエスドレム",
+   "canonical": "ガドカレク=クエスドレム",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 3,
+   "quote_rate": 0.33
+  },
+  {
+   "alias": "シナモリアキラ",
+   "entity_id": "E_char_シナモリアキラ(内的声)",
+   "canonical": "シナモリアキラ(内的声)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1111,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "シナモリアキラ（内的声）",
+   "entity_id": "E_char_シナモリアキラ(内的声)",
+   "canonical": "シナモリアキラ(内的声)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ゾーイデルヒ",
+   "entity_id": "E_char_ゾーイデルヒ(グレンデルヒ)",
+   "canonical": "ゾーイデルヒ(グレンデルヒ)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 39,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "ゾーイデルヒ（グレンデルヒ）",
+   "entity_id": "E_char_ゾーイデルヒ(グレンデルヒ)",
+   "canonical": "ゾーイデルヒ(グレンデルヒ)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ルバーブ",
+   "entity_id": "E_term_ルバーブ(回想)",
+   "canonical": "ルバーブ(回想)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 421,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "ルバーブ（回想）",
+   "entity_id": "E_term_ルバーブ(回想)",
+   "canonical": "ルバーブ(回想)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ルバーブ",
+   "entity_id": "E_term_ルバーブ(記憶/魂)",
+   "canonical": "ルバーブ(記憶/魂)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 421,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "ルバーブ（記憶/魂）",
+   "entity_id": "E_term_ルバーブ(記憶/魂)",
+   "canonical": "ルバーブ(記憶/魂)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "【螺旋（ヒリックス）】",
+   "entity_id": "E_term_【螺旋(ヒリックス)】",
+   "canonical": "【螺旋(ヒリックス)】",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "bracket_alias (原文記号衝突)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "アキラの影分身",
+   "entity_id": "E_term_アキラの影分身(自動鎧)",
+   "canonical": "アキラの影分身(自動鎧)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "アキラの影分身（自動鎧）",
+   "entity_id": "E_term_アキラの影分身(自動鎧)",
+   "canonical": "アキラの影分身(自動鎧)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "アズーリア",
+   "entity_id": "E_term_アズーリア(報告書)",
+   "canonical": "アズーリア(報告書)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1040,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "アズーリア（報告書）",
+   "entity_id": "E_term_アズーリア(報告書)",
+   "canonical": "アズーリア(報告書)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "アズーリア",
+   "entity_id": "E_term_アズーリア(幼少)",
+   "canonical": "アズーリア(幼少)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1040,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "アズーリア（幼少）",
+   "entity_id": "E_term_アズーリア(幼少)",
+   "canonical": "アズーリア(幼少)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "アズーリア",
+   "entity_id": "E_term_アズーリア(悪夢内)",
+   "canonical": "アズーリア(悪夢内)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1040,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "アズーリア（悪夢内）",
+   "entity_id": "E_term_アズーリア(悪夢内)",
+   "canonical": "アズーリア(悪夢内)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "アルテミシア",
+   "entity_id": "E_term_アルテミシア(推定)",
+   "canonical": "アルテミシア(推定)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 52,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "アルテミシア（推定）",
+   "entity_id": "E_term_アルテミシア(推定)",
+   "canonical": "アルテミシア(推定)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "エクリエッテ",
+   "entity_id": "E_char_エクリエッテ(師)",
+   "canonical": "エクリエッテ(師)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 26,
+   "quote_rate": 0.27
+  },
+  {
+   "alias": "エクリエッテ（師）",
+   "entity_id": "E_char_エクリエッテ(師)",
+   "canonical": "エクリエッテ(師)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "エリカ",
+   "entity_id": "E_char_エリカ(推定)",
+   "canonical": "エリカ(推定)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 181,
+   "quote_rate": 0.2
+  },
+  {
+   "alias": "エリカ（推定）",
+   "entity_id": "E_char_エリカ(推定)",
+   "canonical": "エリカ(推定)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "オルガンローデ",
+   "entity_id": "E_creature_オルガンローデ(呪文竜)",
+   "canonical": "オルガンローデ(呪文竜)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 172,
+   "quote_rate": 0.45
+  },
+  {
+   "alias": "オルガンローデ（呪文竜）",
+   "entity_id": "E_creature_オルガンローデ(呪文竜)",
+   "canonical": "オルガンローデ(呪文竜)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "オルヴァ",
+   "entity_id": "E_char_オルヴァ(解放直後)",
+   "canonical": "オルヴァ(解放直後)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 609,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "オルヴァ（解放直後）",
+   "entity_id": "E_char_オルヴァ(解放直後)",
+   "canonical": "オルヴァ(解放直後)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "カタルマリーナ",
+   "entity_id": "E_char_カタルマリーナ(亡霊/残響)",
+   "canonical": "カタルマリーナ(亡霊/残響)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 73,
+   "quote_rate": 0.17
+  },
+  {
+   "alias": "カタルマリーナ（亡霊/残響）",
+   "entity_id": "E_char_カタルマリーナ(亡霊/残響)",
+   "canonical": "カタルマリーナ(亡霊/残響)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "カーズガン",
+   "entity_id": "E_char_カーズガン(第四位)",
+   "canonical": "カーズガン(第四位)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 30,
+   "quote_rate": 0.13
+  },
+  {
+   "alias": "カーズガン（第四位）",
+   "entity_id": "E_char_カーズガン(第四位)",
+   "canonical": "カーズガン(第四位)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "キニス",
+   "entity_id": "E_term_キニス(幼少期)",
+   "canonical": "キニス(幼少期)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 86,
+   "quote_rate": 0.17
+  },
+  {
+   "alias": "キニス（幼少期）",
+   "entity_id": "E_term_キニス(幼少期)",
+   "canonical": "キニス(幼少期)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "クエスドレム",
+   "entity_id": "E_term_クエスドレム(内側の存在)",
+   "canonical": "クエスドレム(内側の存在)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 104,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "クエスドレム（内側の存在）",
+   "entity_id": "E_term_クエスドレム(内側の存在)",
+   "canonical": "クエスドレム(内側の存在)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "グロソラリア",
+   "entity_id": "E_creature_グロソラリア(異形の諸部族)",
+   "canonical": "グロソラリア(異形の諸部族)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 42,
+   "quote_rate": 0.4
+  },
+  {
+   "alias": "グロソラリア（異形の諸部族）",
+   "entity_id": "E_creature_グロソラリア(異形の諸部族)",
+   "canonical": "グロソラリア(異形の諸部族)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "コルセスカ",
+   "entity_id": "E_term_コルセスカ(アキラ経由)",
+   "canonical": "コルセスカ(アキラ経由)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 2047,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "コルセスカ（アキラ経由）",
+   "entity_id": "E_term_コルセスカ(アキラ経由)",
+   "canonical": "コルセスカ(アキラ経由)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "民衆",
+   "entity_id": "E_char_コーラス",
+   "canonical": "コーラス",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "general_word",
+   "corpus_hits": 16,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "シナモリアキラ",
+   "entity_id": "E_char_シナモリアキラ(チェーンソー男)",
+   "canonical": "シナモリアキラ(チェーンソー男)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1111,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "シナモリアキラ（チェーンソー男）",
+   "entity_id": "E_char_シナモリアキラ(チェーンソー男)",
+   "canonical": "シナモリアキラ(チェーンソー男)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "シナモリアキラ",
+   "entity_id": "E_char_シナモリアキラ(仮面)",
+   "canonical": "シナモリアキラ(仮面)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1111,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "シナモリアキラ（仮面）",
+   "entity_id": "E_char_シナモリアキラ(仮面)",
+   "canonical": "シナモリアキラ(仮面)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "シナモリアキラ",
+   "entity_id": "E_char_シナモリアキラ(探偵気取り)",
+   "canonical": "シナモリアキラ(探偵気取り)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1111,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "シナモリアキラ（探偵気取り）",
+   "entity_id": "E_char_シナモリアキラ(探偵気取り)",
+   "canonical": "シナモリアキラ(探偵気取り)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "シナモリアキラ",
+   "entity_id": "E_term_シナモリアキラ(虹閉彩)",
+   "canonical": "シナモリアキラ(虹閉彩)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1111,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "シナモリアキラ（虹閉彩）",
+   "entity_id": "E_term_シナモリアキラ(虹閉彩)",
+   "canonical": "シナモリアキラ(虹閉彩)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "シナモリアキラ",
+   "entity_id": "E_term_シナモリアキラ(頭部)",
+   "canonical": "シナモリアキラ(頭部)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1111,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "シナモリアキラ（頭部）",
+   "entity_id": "E_term_シナモリアキラ(頭部)",
+   "canonical": "シナモリアキラ(頭部)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "セリアック＝ニア",
+   "entity_id": "E_char_セリアック=ニア(分裂体)",
+   "canonical": "セリアック=ニア(分裂体)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_lowquote (v114 cascade)",
+   "corpus_hits": 481,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "ティエポロス",
+   "entity_id": "E_char_ティエポロス(の使い魔/射手)",
+   "canonical": "ティエポロス(の使い魔/射手)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 35,
+   "quote_rate": 0.34
+  },
+  {
+   "alias": "ティエポロス（の使い魔/射手）",
+   "entity_id": "E_char_ティエポロス(の使い魔/射手)",
+   "canonical": "ティエポロス(の使い魔/射手)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ティリビナ人",
+   "entity_id": "E_org_ティリビナ人(下層)",
+   "canonical": "ティリビナ人(下層)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 733,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "ティリビナ人（下層）",
+   "entity_id": "E_org_ティリビナ人(下層)",
+   "canonical": "ティリビナ人(下層)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ディスケイム",
+   "entity_id": "E_org_ディスケイム(メイファーラ経由)",
+   "canonical": "ディスケイム(メイファーラ経由)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 223,
+   "quote_rate": 0.17
+  },
+  {
+   "alias": "ディスケイム（メイファーラ経由）",
+   "entity_id": "E_org_ディスケイム(メイファーラ経由)",
+   "canonical": "ディスケイム(メイファーラ経由)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "トリシューラ",
+   "entity_id": "E_char_トリシューラ(別個体)",
+   "canonical": "トリシューラ(別個体)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 3422,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "トリシューラ（別個体）",
+   "entity_id": "E_char_トリシューラ(別個体)",
+   "canonical": "トリシューラ(別個体)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "トリシューラ",
+   "entity_id": "E_char_トリシューラ(過去の体)",
+   "canonical": "トリシューラ(過去の体)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 3422,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "トリシューラ（過去の体）",
+   "entity_id": "E_char_トリシューラ(過去の体)",
+   "canonical": "トリシューラ(過去の体)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ノゴルオゴルオ",
+   "entity_id": "E_char_ノゴルオゴルオ(岩肌種)",
+   "canonical": "ノゴルオゴルオ(岩肌種)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 158,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "ノゴルオゴルオ（岩肌種）",
+   "entity_id": "E_char_ノゴルオゴルオ(岩肌種)",
+   "canonical": "ノゴルオゴルオ(岩肌種)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ハルベルト",
+   "entity_id": "E_term_ハルベルト(幼少期)",
+   "canonical": "ハルベルト(幼少期)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1138,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "ハルベルト",
+   "entity_id": "E_term_ハルベルト(観測者)",
+   "canonical": "ハルベルト(観測者)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 1138,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "ハルベルト（観測者）",
+   "entity_id": "E_term_ハルベルト(観測者)",
+   "canonical": "ハルベルト(観測者)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ビークレット",
+   "entity_id": "E_char_ビークレット(白焔の貴婦人)",
+   "canonical": "ビークレット(白焔の貴婦人)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 16,
+   "quote_rate": 0.19
+  },
+  {
+   "alias": "ビークレット（白焔の貴婦人）",
+   "entity_id": "E_char_ビークレット(白焔の貴婦人)",
+   "canonical": "ビークレット(白焔の貴婦人)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ヘレネ",
+   "entity_id": "E_char_ヘレネ(推定)",
+   "canonical": "ヘレネ(推定)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 23,
+   "quote_rate": 0.17
+  },
+  {
+   "alias": "ヘレネ（推定）",
+   "entity_id": "E_char_ヘレネ(推定)",
+   "canonical": "ヘレネ(推定)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "マリー",
+   "entity_id": "E_char_マリー(アズーリア内)",
+   "canonical": "マリー(アズーリア内)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 451,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "マリー（アズーリア内）",
+   "entity_id": "E_char_マリー(アズーリア内)",
+   "canonical": "マリー(アズーリア内)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ミナの化身",
+   "entity_id": "E_creature_ミナの化身(炎天使)",
+   "canonical": "ミナの化身(炎天使)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 3,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "ミナの化身（炎天使）",
+   "entity_id": "E_creature_ミナの化身(炎天使)",
+   "canonical": "ミナの化身(炎天使)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ユディーア",
+   "entity_id": "E_char_ユディーア(幼馴染)",
+   "canonical": "ユディーア(幼馴染)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1425,
+   "quote_rate": 0.15
+  },
+  {
+   "alias": "ユディーア（幼馴染）",
+   "entity_id": "E_char_ユディーア(幼馴染)",
+   "canonical": "ユディーア(幼馴染)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "リールエルバ",
+   "entity_id": "E_char_リールエルバ(ミヒトネッセ)",
+   "canonical": "リールエルバ(ミヒトネッセ)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 655,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "ルビカンテのシンボル",
+   "entity_id": "E_term_ルビカンテのシンボル(赤い手)",
+   "canonical": "ルビカンテのシンボル(赤い手)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ルビカンテのシンボル（赤い手）",
+   "entity_id": "E_term_ルビカンテのシンボル(赤い手)",
+   "canonical": "ルビカンテのシンボル(赤い手)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "レオ",
+   "entity_id": "E_char_レオ(猫耳の少年)",
+   "canonical": "レオ(猫耳の少年)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 562,
+   "quote_rate": 0.12
+  },
+  {
+   "alias": "ロワスカーグ",
+   "entity_id": "E_item_ロワスカーグ(初期形態)",
+   "canonical": "ロワスカーグ(初期形態)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 10,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "ロワスカーグ（初期形態）",
+   "entity_id": "E_item_ロワスカーグ(初期形態)",
+   "canonical": "ロワスカーグ(初期形態)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ローザの使い魔",
+   "entity_id": "E_term_ローザの使い魔(蜂)",
+   "canonical": "ローザの使い魔(蜂)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ローザの使い魔（蜂）",
+   "entity_id": "E_term_ローザの使い魔(蜂)",
+   "canonical": "ローザの使い魔(蜂)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "ヴァージル",
+   "entity_id": "E_char_ヴァージル(少年の生首)",
+   "canonical": "ヴァージル(少年の生首)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 529,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "ヴァージル（少年の生首）",
+   "entity_id": "E_char_ヴァージル(少年の生首)",
+   "canonical": "ヴァージル(少年の生首)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "下",
+   "entity_id": "E_loc_下(階層)",
+   "canonical": "下(階層)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 4666,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "下（階層）",
+   "entity_id": "E_loc_下(階層)",
+   "canonical": "下(階層)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "九姉",
+   "entity_id": "E_org_九姉(魔女たち)",
+   "canonical": "九姉(魔女たち)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 62,
+   "quote_rate": 0.1
+  },
+  {
+   "alias": "共感（シンクロ）率",
+   "entity_id": "E_term_共感(シンクロ)率",
+   "canonical": "共感(シンクロ)率",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "再生者",
+   "entity_id": "E_term_再生者(アンデッド)",
+   "canonical": "再生者(アンデッド)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 344,
+   "quote_rate": 0.47
+  },
+  {
+   "alias": "再生者（アンデッド）",
+   "entity_id": "E_term_再生者(アンデッド)",
+   "canonical": "再生者(アンデッド)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "初期メンバー",
+   "entity_id": "E_org_初期メンバー(マレブランケ)",
+   "canonical": "初期メンバー(マレブランケ)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 2,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "初期メンバー（マレブランケ）",
+   "entity_id": "E_org_初期メンバー(マレブランケ)",
+   "canonical": "初期メンバー(マレブランケ)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "名無し",
+   "entity_id": "E_term_名無し(亜竜)",
+   "canonical": "名無し(亜竜)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 71,
+   "quote_rate": 0.42
+  },
+  {
+   "alias": "名無し（亜竜）",
+   "entity_id": "E_term_名無し(亜竜)",
+   "canonical": "名無し(亜竜)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "呪術",
+   "entity_id": "E_term_呪術(アナロジー)",
+   "canonical": "呪術(アナロジー)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 3218,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "呪術（アナロジー）",
+   "entity_id": "E_term_呪術(アナロジー)",
+   "canonical": "呪術(アナロジー)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "四脚",
+   "entity_id": "E_item_四脚(自動機銃)",
+   "canonical": "四脚(自動機銃)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 3,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "四脚（自動機銃）",
+   "entity_id": "E_item_四脚(自動機銃)",
+   "canonical": "四脚(自動機銃)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "夜の民",
+   "entity_id": "E_char_夜の民(スマルトのマネージャー)",
+   "canonical": "夜の民(スマルトのマネージャー)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_lowquote (v116 全局 cascade)",
+   "corpus_hits": 352,
+   "quote_rate": 0.62
+  },
+  {
+   "alias": "夜の民（スマルトのマネージャー）",
+   "entity_id": "E_char_夜の民(スマルトのマネージャー)",
+   "canonical": "夜の民(スマルトのマネージャー)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "大蛇",
+   "entity_id": "E_char_大蛇(晶)",
+   "canonical": "大蛇(晶)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 60,
+   "quote_rate": 0.4
+  },
+  {
+   "alias": "姫君",
+   "entity_id": "E_char_姫君(アレッテ)",
+   "canonical": "姫君(アレッテ)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 86,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "小さな影",
+   "entity_id": "E_item_小さな影(炎天使)",
+   "canonical": "小さな影(炎天使)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 9,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "小さな影（炎天使）",
+   "entity_id": "E_item_小さな影(炎天使)",
+   "canonical": "小さな影(炎天使)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "小鬼（ゴブリン）化",
+   "entity_id": "E_term_小鬼(ゴブリン)化",
+   "canonical": "小鬼(ゴブリン)化",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "小鬼",
+   "entity_id": "E_term_小鬼(縮小した絡新婦)",
+   "canonical": "小鬼(縮小した絡新婦)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 74,
+   "quote_rate": 0.42
+  },
+  {
+   "alias": "小鬼（縮小した絡新婦）",
+   "entity_id": "E_term_小鬼(縮小した絡新婦)",
+   "canonical": "小鬼(縮小した絡新婦)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "巨大なキノコ",
+   "entity_id": "E_creature_巨大なキノコ(ボス?)",
+   "canonical": "巨大なキノコ(ボス?)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 4,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "巨大なキノコ（ボス？）",
+   "entity_id": "E_creature_巨大なキノコ(ボス?)",
+   "canonical": "巨大なキノコ(ボス?)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "巨大な構造物",
+   "entity_id": "E_item_巨大な構造物(塔)",
+   "canonical": "巨大な構造物(塔)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 6,
+   "quote_rate": 0.17
+  },
+  {
+   "alias": "巨大な構造物（塔）",
+   "entity_id": "E_item_巨大な構造物(塔)",
+   "canonical": "巨大な構造物(塔)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "幾断",
+   "entity_id": "E_item_幾断(刀)",
+   "canonical": "幾断(刀)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "幾断（刀）",
+   "entity_id": "E_item_幾断(刀)",
+   "canonical": "幾断(刀)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "影に潜む魔女",
+   "entity_id": "E_char_影に潜む魔女(火車?)",
+   "canonical": "影に潜む魔女(火車?)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "影に潜む魔女（火車？）",
+   "entity_id": "E_char_影に潜む魔女(火車?)",
+   "canonical": "影に潜む魔女(火車?)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "扉",
+   "entity_id": "E_term_扉(ハイパーリンク)",
+   "canonical": "扉(ハイパーリンク)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 209,
+   "quote_rate": 0.2
+  },
+  {
+   "alias": "投影",
+   "entity_id": "E_term_投影(呪術)",
+   "canonical": "投影(呪術)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 79,
+   "quote_rate": 0.05
+  },
+  {
+   "alias": "死人の女主人",
+   "entity_id": "E_char_死人の女主人(キシャル)",
+   "canonical": "死人の女主人(キシャル)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "死人の女主人（キシャル）",
+   "entity_id": "E_char_死人の女主人(キシャル)",
+   "canonical": "死人の女主人(キシャル)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "象牙の僧正",
+   "entity_id": "E_char_象牙の僧正(人工人形)",
+   "canonical": "象牙の僧正(人工人形)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 2,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "象牙の僧正（人工人形）",
+   "entity_id": "E_char_象牙の僧正(人工人形)",
+   "canonical": "象牙の僧正(人工人形)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "豹",
+   "entity_id": "E_creature_豹(モルズ型)",
+   "canonical": "豹(モルズ型)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 16,
+   "quote_rate": 0.25
+  },
+  {
+   "alias": "豹（モルズ型）",
+   "entity_id": "E_creature_豹(モルズ型)",
+   "canonical": "豹(モルズ型)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "転生者",
+   "entity_id": "E_term_転生者(女神)",
+   "canonical": "転生者(女神)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 232,
+   "quote_rate": 0.28
+  },
+  {
+   "alias": "転生者（女神）",
+   "entity_id": "E_term_転生者(女神)",
+   "canonical": "転生者(女神)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "金槌",
+   "entity_id": "E_item_金槌(炎)",
+   "canonical": "金槌(炎)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 12,
+   "quote_rate": 0.0
+  },
+  {
+   "alias": "虫態",
+   "entity_id": "E_creature_難民アヴロノ",
+   "canonical": "難民アヴロノ",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "alias_collision (複数实体請求・置換連鎖不可)",
+   "corpus_hits": 22,
+   "quote_rate": 0.09
+  },
+  {
+   "alias": "青海",
+   "entity_id": "E_char_青海(アース)",
+   "canonical": "青海(アース)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 4,
+   "quote_rate": 0.25
+  },
+  {
+   "alias": "青海（アース）",
+   "entity_id": "E_char_青海(アース)",
+   "canonical": "青海(アース)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "顔A",
+   "entity_id": "E_char_顔a",
+   "canonical": "顔a",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "顔B",
+   "entity_id": "E_char_顔b",
+   "canonical": "顔b",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "正規化同一（NFKC・中点/空白除去）による表記ゆれ",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "黄火疫",
+   "entity_id": "E_creature_黄火疫(コレラ)",
+   "canonical": "黄火疫(コレラ)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "partial_modifier (語変形置換禁止)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "黄火疫（コレラ）",
+   "entity_id": "E_creature_黄火疫(コレラ)",
+   "canonical": "黄火疫(コレラ)",
+   "replace": false,
+   "confidence": "表記一致",
+   "exempt": "explicit_alias_registered (置換対象は正準名のみ)",
+   "corpus_hits": 1,
+   "quote_rate": 1.0
+  },
+  {
+   "alias": "冥道の幼姫",
+   "entity_id": "E_char_冥道の幼姫(再生者女王)",
+   "canonical": "冥道の幼姫(再生者女王)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_alias (v117 全局)",
+   "corpus_hits": 35,
+   "quote_rate": 0.4
+  },
+  {
+   "alias": "夜の民",
+   "entity_id": "E_creature_夜の民(アズーリア等)",
+   "canonical": "夜の民(アズーリア等)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_lowquote (v116 全局 cascade)",
+   "corpus_hits": 352,
+   "quote_rate": 0.62
+  },
+  {
+   "alias": "家ルキー妖精",
+   "entity_id": "E_creature_家妖精(シルキー",
+   "canonical": "家妖精(シルキー",
+   "replace": false,
+   "confidence": "高",
+   "exempt": "",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "紀人",
+   "entity_id": "E_char_紀人シナモリアキラ",
+   "canonical": "紀人シナモリアキラ",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 305,
+   "quote_rate": 0.07
+  },
+  {
+   "alias": "マロゾロンド",
+   "entity_id": "E_term_マロゾロンド(または邪視者の象徴)",
+   "canonical": "マロゾロンド(または邪視者の象徴)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 157,
+   "quote_rate": 0.03
+  },
+  {
+   "alias": "火车",
+   "entity_id": "E_char_火車(セト)",
+   "canonical": "火車(セト)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "表記ゆれ（火車/火车） [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "火车(セト)",
+   "entity_id": "E_char_火車(セト)",
+   "canonical": "火車(セト)",
+   "replace": false,
+   "confidence": "明言",
+   "exempt": "表記ゆれ（火車/火车）",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "リーナゾラクロウサー",
+   "entity_id": "E_char_リーナ(クロウサー",
+   "canonical": "リーナ(クロウサー",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "フルネーム＋状況説明による同一人物表記 [v8: 括弧注記を分解し本体名へ正規化]",
+   "corpus_hits": 0,
+   "quote_rate": 0
+  },
+  {
+   "alias": "リールエルバ",
+   "entity_id": "E_char_リールエルバ(女王)",
+   "canonical": "リールエルバ(女王)",
+   "replace": false,
+   "confidence": "要検証",
+   "exempt": "general_word_lowquote",
+   "corpus_hits": 655,
+   "quote_rate": 0.03
+  }
+ ]
+}
