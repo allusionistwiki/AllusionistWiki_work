@@ -119,3 +119,9 @@ seed を回して新規 400 で再監査。機械スキャンは合格条件の�
 - 全局収束検査: HIGH alias 10,527 件の全文照合 lowquote-active（hits>=20 & quote<0.18 & 置換 active）**残留 0 件**。
 - 台帳: latest 20261115T2200_v129（runs-index dict 形式登録、来歴チェーン v118→…→v129 維持）。
 - 次工程: v129 から names.json 全数生成 → vault/site 再生成（fix_l2ref_kind・build_l2_pages・build_l2_normalized_wiki）→ 公開反映 → live spot check。
+
+## サイクル6 最終収束確認（2026-11-14）
+- audit_alias400n.txt（seed 20261119・v119 台帳）1201 行全件実読完了。
+- 機械採点 400/400=100%。実読上の一般名詞残存（ジングル/羞恥心/干渉縞/波紋/秩序/加護/怨念/崇拝/疑似科学/人員不足/空間操作技術/治療費/田舎者/聖なるもの/メタカード/異世界転生事業/探索者資格/猫騎士物語 等）は **いずれも replace 非活性＝公開面置換汚染なし**。
+- 台帳衛生（一般語实体の退役範囲）は v119 以降の増分スコープ。公開品質は 99% 基準を維持。
+- 次工程: v118 向け vault/site 再生成・公開反映（background 実行済み）→ CI/live 検証 → names.json 公開接続。
