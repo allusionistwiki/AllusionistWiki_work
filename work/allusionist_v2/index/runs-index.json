@@ -327,6 +327,52 @@
         "phrase_entities_retired": 189,
         "general_entities_retired": 12
       }
+    },
+    "20261115T0300_v113": {
+      "dir": "runs/20261115T0300_v113",
+      "created": "2026-11-15T03:00:00+09:00",
+      "derived_from": "20261114T2100_v111",
+      "task": "L2: v113 幻影实体/alias 退役 + 数値实体退役",
+      "stats": {
+        "phantom_aliases_retired": 49,
+        "phantom_entities_retired": 4072
+      }
+    },
+    "20261115T0400_v114": {
+      "dir": "runs/20261115T0400_v114",
+      "created": "2026-11-15T04:00:00+09:00",
+      "derived_from": "20261115T0300_v113",
+      "task": "L2: v114 一般語/修飾/数値 alias cascade",
+      "stats": {
+        "lowquote_cascade": 22
+      }
+    },
+    "20261115T0500_v115": {
+      "dir": "runs/20261115T0500_v115",
+      "created": "2026-11-15T05:00:00+09:00",
+      "derived_from": "20261115T0400_v114",
+      "task": "L2: v115 exempt alias replace 完全強制",
+      "stats": {}
+    },
+    "20261115T0600_v116": {
+      "dir": "runs/20261115T0600_v116",
+      "created": "2026-11-15T06:00:00+09:00",
+      "derived_from": "20261115T0500_v115",
+      "task": "L2: v116 一般語 alias 全局 cascade",
+      "stats": {
+        "lowquote_cascade": 8
+      }
+    },
+    "20261115T1000_v117": {
+      "dir": "runs/20261115T1000_v117",
+      "created": "2026-11-15T10:00:00+09:00",
+      "derived_from": "20261115T0600_v116",
+      "task": "L2: v117 一般語全局/角括号/部分修飾規則",
+      "stats": {
+        "general_alias_exempt": 19,
+        "partial_modifier_exempt": 63,
+        "bracket_alias_exempt": 281
+      }
     }
   },
   "L3": {},
