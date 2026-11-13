@@ -112,3 +112,10 @@ seed を回して新規 400 で再監査。機械スキャンは合格条件の�
 - **サイクル7（2026-11-14、完了）**: names.json 全数生成（v118 準拠: 12,008 实体・11,145 alias、`runs/20261115T1100_v118/names.json`）。
 - **公開反映（2026-11-14、実行中→完了）**: vault AllusionistLLMWiki2 で v118 準拠再生成（fix_l2ref_kind→build_l2_pages→build_l2_normalized_wiki: pages_written=15,980・total_replacements=27,385・ledger_miss=0）→ vault commit `L2: regenerate with v118` → push → CI 配信確認。
 - **サイクル6 最終収束確認（2026-11-14、v118 準拠・seed 20261118）**: `audit_alias400m.txt`（400 件・1240 行）全件実読 + 独立採点。機械採点 400/400=100%。実読上の一般名詞实体残存 3 件（みんな/兎/皆）を含めても 397/400=99.25% ≥ 99% 达标（判定は alias 置換の原文汚染基準、3 件は no-op 置換で公開面汚染なし・台帳衛生課題として次回一般名詞退役スコープへ）。
+
+## サイクル6 収束確定（2026-11-14・v119〜v129）
+- 監査主導サイクル: 400 件サンプル→独立採点→FAIL 個別収束（眷族種記述 cascade・括弧注記・修飾叙称・民流系・記述句・一般語 alias exempt）を 11 反復。
+- 監査系列: 400o 99.5% → 400p〜400x（FAIL 1〜3 件/回）→ **400y（seed 20261130・v129 台帳）400/400 = 100% 达标**。
+- 全局収束検査: HIGH alias 10,527 件の全文照合 lowquote-active（hits>=20 & quote<0.18 & 置換 active）**残留 0 件**。
+- 台帳: latest 20261115T2200_v129（runs-index dict 形式登録、来歴チェーン v118→…→v129 維持）。
+- 次工程: v129 から names.json 全数生成 → vault/site 再生成（fix_l2ref_kind・build_l2_pages・build_l2_normalized_wiki）→ 公開反映 → live spot check。
