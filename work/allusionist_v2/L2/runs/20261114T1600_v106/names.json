@@ -1,0 +1,173 @@
+{
+  "schema_version": "0.1",
+  "run": "20261114T1500_v105",
+  "derived_from": "20261114T1400_v104",
+  "policy": "names = nodes (canonical/本名/通称/短縮/自己定義/役/メタ呼称/変異) with typed edges (同一性/演者=役/真名/descriptor/役行). 統合(置換)は表記ゆれ縁のみ。kind へのalias潰しは退役。",
+  "records": [
+    {
+      "name": "シナモリアキラ",
+      "entity": "E_char_アキラ",
+      "kind": "canonical",
+      "replace": false,
+      "note": "代表名。ネット上主名称（README v3.2 基準）",
+      "evidence": "ch00018 同一性述語 品森晶（シナモリアキラ）"
+    },
+    {
+      "name": "シナモリ・アキラ",
+      "entity": "E_char_アキラ",
+      "kind": "変異",
+      "replace": true,
+      "note": "表記ゆれ（中点）。置換縁はこれのみ",
+      "evidence": "表記ゆれ"
+    },
+    {
+      "name": "品森晶",
+      "entity": "E_char_アキラ",
+      "kind": "本名",
+      "replace": false,
+      "note": "本名ノード。置換しない",
+      "evidence": "ch00018 品森晶（シナモリアキラ）/ ch000459 品森晶＝イッツノ"
+    },
+    {
+      "name": "アキラくん",
+      "entity": "E_char_アキラ",
+      "kind": "通称",
+      "replace": false,
+      "note": "通称ノード（トリシューラ等の呼称行）",
+      "evidence": "全話724行/22章 使用実測"
+    },
+    {
+      "name": "アキラ",
+      "entity": "E_char_アキラ",
+      "kind": "短縮",
+      "replace": false,
+      "note": "短縮形",
+      "evidence": "全話使用"
+    },
+    {
+      "name": "語り手",
+      "entity": "E_char_アキラ",
+      "kind": "メタ呼称",
+      "replace": false,
+      "note": "narrator 参照。語り手≠人物（役割層）。主人公への問いとしてのメタ呼称",
+      "evidence": "ch00351「語り手とは神なのか」"
+    },
+    {
+      "name": "殺人鬼",
+      "entity": "E_char_アキラ",
+      "kind": "自己定義",
+      "replace": false,
+      "note": "自己定義ノード（公開面置換しない）。鎌鼬（独立人物）と一般用法の混在に注意",
+      "evidence": "ch00013 俺は殺人鬼になりたい/ ch00409 これで俺も殺人鬼。つまりはシナモリアキラとなったわけだ / ch00367 カジュアル殺人鬼やってまーす"
+    },
+    {
+      "name": "殺人鬼",
+      "entity": "E_char_鎌鼬要調査",
+      "kind": "別人物同名",
+      "replace": false,
+      "note": "4-98〜の殺人鬼の多くは愉快犯『鎌鼬』（独立人物）。同一实体に統合しない",
+      "evidence": "ch00383 愉快犯の殺人鬼『鎌鼬』"
+    },
+    {
+      "name": "グレンデルヒ",
+      "entity": "E_char_アキラ",
+      "kind": "同一性(真名系)",
+      "replace": false,
+      "edge": {
+        "type": "同一性",
+        "to_entity": "E_char_グレンデルヒ",
+        "evidence": "ch00257 グレンデルヒは実はアキラ/ ch00256 グレンデルヒ＝アキラ＝シナモ＝イツノ"
+      },
+      "note": "アキラ（台帳）とグレンデルヒ（台帳）は同一性述語で結ばれた名義ノード。id は両方保持し置換しない。真名=緑竜騎士団長の真名（ハタラドゥール真名グレンデルヒ 4-74 ¶234 系）と交差"
+    },
+    {
+      "name": "アルト（役）",
+      "entity": "E_char_アキラ",
+      "kind": "役",
+      "replace": false,
+      "edge": {
+        "type": "演者=役",
+        "to_entity": "亜竜王アルト",
+        "evidence": "ch00301 現在アキラが演じているアルト/ ch00419 アキラ。アルト・イヴニルとして/ ch00420 素体となっているアルト・イヴニル"
+      },
+      "note": "演者=役エッジ。人物アルト（独立实体・六王）とは統合しない。台帳の alias アルト は退役（role edge へ）"
+    },
+    {
+      "name": "亜竜王アルト",
+      "entity": "E_char_アルト系",
+      "kind": "canonical(独立)",
+      "replace": false,
+      "note": "ガロアンディアン建国王・六王の一人（501件実読）。マラードと融合しアルト・イヴニル（アレッテ・イヴニル）。アキラと別人",
+      "evidence": "ch00553 ガロアンディアンの建国者アルト / ch00536 アレッテ・イヴニルはアルト王の名前と地位を簒奪"
+    },
+    {
+      "name": "牙猪",
+      "entity": "牙猪（チリアット）",
+      "kind": "descriptor",
+      "replace": false,
+      "edge": {
+        "type": "descriptor_of",
+        "to_entity": "E_char_チリアット系",
+        "evidence": "牙猪（チリアット）表記 113件 / ch00541 牙猪（バビルサ）氏族の猪人（ブルータ）"
+      },
+      "note": "チリアットの種族 descriptor。アキラの alias ではない。牙猪（シナモリアキラ）=ch00263 牙猪の男の子（ティリアウド）転生行"
+    },
+    {
+      "name": "雪女",
+      "entity": "E_char_アキラ",
+      "kind": "役",
+      "replace": false,
+      "note": "5-44 百鬼夜行行のシナモリアキラ克隆キャラ役（杖の魔女）。代表名義にしない",
+      "evidence": "ch5014 ¶103 シナモリアキラの『雪女』、いったい何者なんだ"
+    },
+    {
+      "name": "件（くだん）",
+      "entity": "E_char_アキラ",
+      "kind": "役",
+      "replace": false,
+      "note": "4-97 行の奴隷の役（未来に従属する奴隷・鎖と鉄球）。奴隷=一般概念で alias 不採用",
+      "evidence": "ch00370 ¶65 鎖と鉄球を引きずりながら、幻視に導かれて新たなシナモリアキラがやってくる"
+    },
+    {
+      "name": "犬頭",
+      "entity": "E_char_アキラ",
+      "kind": "変身形態",
+      "replace": false,
+      "note": "4-149 真力解放の犬頭変身（始祖吸血鬼系）+ 犬頭種族 descriptor（ダーム/ディー等）と混在。name として独立化しない",
+      "evidence": "ch00427 ¶191 真の力を解放した犬頭のアキラ"
+    },
+    {
+      "name": "樵",
+      "entity": "ハタラドゥール",
+      "kind": "職業名(別人)",
+      "replace": false,
+      "note": "緑竜騎士団長ハタラドゥールの職業名。アキラではない",
+      "evidence": "ch00367 ¶276 あの『樵（きこり）』なのか――？　ハタラドゥール殿をお呼びしろ / ¶288 その名、その職業名の通りに己が役割を全うする"
+    },
+    {
+      "name": "磔の女王",
+      "entity": "P5264-002",
+      "kind": "役",
+      "replace": false,
+      "note": "ch5264 劇中行。死人の森の女王系譜（リーエルバ候補）と交差する劇中役。統合先は保留継続",
+      "evidence": "ch5264 ¶26 磔の女王 / ch00419 死人の森の女王もリールエルバに奪われた"
+    }
+  ],
+  "p_updates": [
+    {
+      "pid": "P5264-004",
+      "resolution_candidate": "牙猪（チリアット）の劇中役（descriptor 帰属確定）",
+      "status": "descriptor 裁定（牙猪=チリアット系）"
+    },
+    {
+      "pid": "P5264-001",
+      "resolution": "E_char_コルセスカ（劇中役）",
+      "status": "維持"
+    }
+  ],
+  "counts": {
+    "name_nodes": 17,
+    "audited_occurrences": 865,
+    "groups": 9
+  }
+}

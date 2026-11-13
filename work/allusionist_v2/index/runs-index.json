@@ -249,6 +249,84 @@
         "グレンデルヒ": "同一性エッジ"
       },
       "audit": "疑わしき名義 865 件全件実読（82KB→4分割）"
+    },
+    "20261114T1600_v106": {
+      "run": "20261114T1600_v106",
+      "task": "alias 台帳規則適用（原文照合必須+一般語/文型/descriptor/注釈 対策）",
+      "files": [
+        "entities.json",
+        "attributes.json",
+        "usages.json",
+        "anonymous.json",
+        "names.json",
+        "run.json"
+      ],
+      "derived_from": "20261114T1500_v105",
+      "stats": {
+        "verified": 12003,
+        "unverified": 3077,
+        "species_descriptor": 14,
+        "general_word": 60,
+        "composite": 182,
+        "sentence_type": 65,
+        "annotation_leak": 1
+      }
+    },
+    "20261114T1700_v107": {
+      "run": "20261114T1700_v107",
+      "task": "alias 規則第2版（引用率機械検出+文型/場面/称号/composite 退役）",
+      "files": [
+        "entities.json",
+        "attributes.json",
+        "usages.json",
+        "anonymous.json",
+        "names.json",
+        "run.json"
+      ],
+      "derived_from": "20261114T1600_v106",
+      "stats": {
+        "general_lowquote": 936,
+        "species2": 4,
+        "title": 5,
+        "sentence2": 35,
+        "composite_retired": 176,
+        "annotation2": 1
+      }
+    },
+    "20261114T1800_v108": {
+      "dir": "runs/20261114T1800_v108",
+      "created": "2026-11-14T18:00:00+09:00",
+      "derived_from": "20261114T1700_v107",
+      "task": "L2: v108 entity 内 alias 規則適用",
+      "stats": {
+        "phantom_alias_retired": 48,
+        "num_alias_retired": 0,
+        "general_alias_exempt": 2,
+        "title_alias_exempt": 0,
+        "general_entity_retired": 50,
+        "lowquote_alias_exempt": 30
+      }
+    },
+    "20261114T1900_v109": {
+      "dir": "runs/20261114T1900_v109",
+      "created": "2026-11-14T19:00:00+09:00",
+      "derived_from": "20261114T1800_v108",
+      "task": "L2: v109 数字实体/记述文型 alias 退役",
+      "stats": {
+        "number_entities_retired": 0,
+        "phrase_alias_retired": 0
+      }
+    },
+    "20261114T2100_v111": {
+      "dir": "runs/20261114T2100_v111",
+      "created": "2026-11-14T21:00:00+09:00",
+      "derived_from": "20261114T2000_v110",
+      "task": "L2: v111 数値/文型/一般語实体退役 + 数値alias退役 + 修飾連 alias 停止",
+      "stats": {
+        "modifier_alias_exempt": 2,
+        "phrase_entities_retired": 189,
+        "general_entities_retired": 12
+      }
     }
   },
   "L3": {},

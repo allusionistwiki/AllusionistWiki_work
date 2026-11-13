@@ -1,0 +1,22 @@
+{
+  "run": "20261114T1600_v106",
+  "task": "alias 台帳規則適用（原文照合必須+一般語/文型/descriptor/注釈 対策）",
+  "files": [
+    "entities.json",
+    "attributes.json",
+    "usages.json",
+    "anonymous.json",
+    "names.json",
+    "run.json"
+  ],
+  "derived_from": "20261114T1500_v105",
+  "stats": {
+    "verified": 12003,
+    "unverified": 3077,
+    "species_descriptor": 14,
+    "general_word": 60,
+    "composite": 182,
+    "sentence_type": 65,
+    "annotation_leak": 1
+  }
+}

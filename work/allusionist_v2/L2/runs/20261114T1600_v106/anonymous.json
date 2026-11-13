@@ -1,0 +1,69 @@
+{
+ "meta": {
+  "schema_version": "0.1",
+  "run": "20261114T1400_v104",
+  "derived_from": "20261114T1300_v103",
+  "policy": "anonymous entities get name-independent P-IDs (P<chapter>-<seq>); descriptor + mention ¶; merged later when identity is established",
+  "source": "ch5264 (=kakuyomu 4-33 死人の森の断章8 過去から過去へ、劇から劇へ) 全無名記述文 22 件を全件実読"
+ },
+ "records": [
+  {
+   "pid": "P5264-001",
+   "chapter": "ch5264",
+   "descriptor": "劇中の幼い少女（無邪気・理路整然と代案を出す・老犬に質問する）",
+   "mentions": [
+    12,
+    20,
+    22,
+    104,
+    134,
+    137,
+    140,
+    145,
+    147,
+    149,
+    154
+   ],
+   "candidate_identity": "劇中での役=コルセスカが演じた『名も知らぬ少女』（¶20 明言）",
+   "status": "同一性述語あり・役として解決",
+   "confidence": "明言(¶20)"
+  },
+  {
+   "pid": "P5264-002",
+   "chapter": "ch5264",
+   "descriptor": "生贄として柱に括り付けられた元貴人の少女 → 磔の女王（劇中進行）",
+   "mentions": [
+    53,
+    56,
+    59
+   ],
+   "candidate_identity": "死人の森の女王の過去劇=リールエルバ（未確認）",
+   "status": "統合先未確定（全章実読で裁定）",
+   "confidence": "未裁定"
+  },
+  {
+   "pid": "P5264-003",
+   "chapter": "ch5264",
+   "descriptor": "老犬（しわがれた声で笑い少女に答える語りの存在）",
+   "mentions": [
+    22,
+    137,
+    145
+   ],
+   "candidate_identity": null,
+   "status": "無名实体・名前非依存 ID 採番",
+   "confidence": "_descriptor のみ"
+  },
+  {
+   "pid": "P5264-004",
+   "chapter": "ch5264",
+   "descriptor": "牙猪（老犬とともに少女を見つめる）",
+   "mentions": [
+    137
+   ],
+   "candidate_identity": null,
+   "status": "無名实体・名前非依存 ID 採番",
+   "confidence": "descriptor のみ"
+  }
+ ]
+}

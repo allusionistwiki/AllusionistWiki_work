@@ -1,0 +1,967 @@
+{
+ "meta": {
+  "schema_version": "1.0",
+  "run": "20261114T1200_v102",
+  "derived_from": "20261113T2100_v101",
+  "policy": "attributes = quote-backed facts only; analytical claims stay in analysis layer"
+ },
+ "records": [
+  {
+   "entity": "E_char_アキラ",
+   "slot": "身体.左腕",
+   "value": "肘から下を欠損（サイバー空間で喪失）",
+   "scope": {
+    "chapter": "ch4467"
+   },
+   "quote": "左腕を肘から下なくし右腕はサイバー空間で義体化して",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "身体.義体化",
+   "value": "全身義体化（断面から作動する義体腕）",
+   "scope": {
+    "chapter": "ch5469"
+   },
+   "quote": "二本の腕が、断面から火を噴き出しながら飛んでいる",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "身体.義腕の記憶",
+   "value": "義腕が過去の運動記憶を保持する",
+   "scope": {
+    "chapter": "ch5288"
+   },
+   "quote": "その記憶を覚えている左腕の過去から呼び起こす",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "身体.幻肢",
+   "value": "幻肢を呪術的端末として幽体離脱・アストラル投射に使用",
+   "scope": {
+    "chapter": "ch5432"
+   },
+   "quote": "俺はその遊離する幻肢を呪術的端末として『幽体離脱』させてアストラル界投射が可能になった",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "アプリ.痛覚制御",
+   "value": "痛みを選別し『可』を快楽へ変換するアプリ常時稼働",
+   "scope": {
+    "chapter": "ch5410"
+   },
+   "quote": "痛覚制御アプリは感知した痛みを選り分け、『可』とラベルが押されたものを俺に届けてくる",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "アプリ.サイバーカラテ道場",
+   "value": "架空アプリとして起動、戦闘データを蓄積し最適化に漸進させる",
+   "scope": {
+    "chapter": "ch5288"
+   },
+   "quote": "存在しない脳、存在しない脳侵襲機器の内部で、架空のアプリが起動する",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "アプリ.幻肢の力・幽体RDP",
+   "value": "呪術行使支援アプリ",
+   "scope": {
+    "chapter": "ch5288"
+   },
+   "quote": "呪術行使支援アプリ【幻肢の力】・【幽体リモートデスクトップ】起動だよっ！",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "アプリ.弾道予報",
+   "value": "義体腕に搭載された弾道予測計算アプリ（弾道予報Ver3.0）",
+   "scope": {
+    "chapter": "ch5469"
+   },
+   "quote": "弾道予測計算アプリ『弾道予報Ver3.0』を起動します",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "アプリ.残心プリセット",
+   "value": "義肢命令用アプリ",
+   "scope": {
+    "chapter": "ch5432"
+   },
+   "quote": "各種アプリ（たとえば『残心プリセット』など）を活用して義肢というツールに命令する",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "技能.サイバーカラテ",
+   "value": "現代格闘技用語体系で戦闘する（バックスピンキック＝転身脚）",
+   "scope": {
+    "chapter": "ch5325"
+   },
+   "quote": "豪快な後ろ回し蹴り（バックスピンキック）、サイバーカラテ的には転身脚",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "技能.縮地",
+   "value": "左手の能力で距離を短縮して攻撃を命中させる",
+   "scope": {
+    "chapter": "ch5108"
+   },
+   "quote": "左手の能力が発動し、キロンと俺の間にあった距離を短縮して",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "技能.呪文ブリコラージュ",
+   "value": "既存呪文・知識を寄せ集めて新呪文を作る（野生の思考）",
+   "scope": {
+    "chapter": "ch5220"
+   },
+   "quote": "寄せ集めの仕事（ブリコラージュ）。野生の思考。呪術的思考。",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "技能.影分身",
+   "value": "影を介してもう一人の自分を用意する",
+   "scope": {
+    "chapter": "ch5182"
+   },
+   "quote": "影を介して、私はもう一人の私に呼びかける",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "来歴.罪人",
+   "value": "カインを殺した罪人として自己定義",
+   "scope": {
+    "chapter": "ch5114"
+   },
+   "quote": "俺が振るう力は悉く他者からの貰い物。俺自身の力など何一つとして無い",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "自己定義.紀人",
+   "value": "サイバネティクスに宿る杖の紀人（トリシューラと同一の系譜）",
+   "scope": {
+    "chapter": "ch5315"
+   },
+   "quote": "トリシューラとシナモリアキラは身体性の拡張（サイバネティクス）に宿る杖の紀人だ",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "自己定義.第五階層",
+   "value": "ガロアンディアン『転生させる者』を宣名",
+   "scope": {
+    "chapter": "ch5454"
+   },
+   "quote": "「俺は第五階層ガロアンディアン――『転生させる者』、シナモリアキラだ」",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "自己定義.ツール",
+   "value": "役割に意思を乗せる教導者を自称",
+   "scope": {
+    "chapter": "ch5438"
+   },
+   "quote": "「俺はツールだ、コズエ。役割に意思を乗せる教導者だ」",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "内面.自責",
+   "value": "救助より戦いを優先する選択への自責",
+   "scope": {
+    "chapter": "ch5495"
+   },
+   "quote": "ふと、『また人助けよりも戦いを選んでしまった』という思考が浮かぶ",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "内面.値札付け",
+   "value": "人間を有用性で測る自己批判",
+   "scope": {
+    "chapter": "ch5072"
+   },
+   "quote": "結局の所、俺もまた人間に値札を付けて回る身勝手で傲慢な輩だったのだと、改めて思い知らされる",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "思想.英雄観",
+   "value": "ヒーローを自己満足の暴力と再定義",
+   "scope": {
+    "chapter": "ch5367"
+   },
+   "quote": "ヒーローは周囲を顧みない。サイバーカラテマンの正義は『殴って良さそうなものを気持ちよく鉄拳制裁』だ！",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_アキラ",
+   "slot": "死生観",
+   "value": "死の即座の受容",
+   "scope": {
+    "chapter": "ch5147"
+   },
+   "quote": "嘘なんかじゃない。人はとても簡単に死ぬ。",
+   "confidence": "明言",
+   "source": "cycle1_read_all_claims_20261113"
+  },
+  {
+   "entity": "E_char_トリシューラ",
+   "slot": "身体",
+   "value": "アンドロイド（呼吸しない人造身体・人工音声・読めない表情＝不気味の谷）",
+   "scope": {
+    "chapter": "ch5036"
+   },
+   "quote": "目の前にある女性の顔には整った形の鼻も口もあるのだが、それらが呼吸しているように見えないのだ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_トリシューラ",
+   "slot": "来歴",
+   "value": "『星見の塔』所属の呪術医・医師は無資格の孤高のウィッチドクター",
+   "scope": {
+    "chapter": "ch5036"
+   },
+   "quote": "私は呪術医のトリシューラ。社会的に独立した孤高のウィッチドクター。ちなみに呪術師としては『星見の塔』の所属だけど、医師としては無資格だよ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_トリシューラ",
+   "slot": "身体",
+   "value": "不死は「再現性」——スペア身体を取り替え、材料と環境が整えば死なない",
+   "scope": {
+    "chapter": "ch5056"
+   },
+   "quote": "そういうこと。私の『不死』は『再現性』だからね。材料と環境さえ整ってればそうそう死なないよ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_トリシューラ",
+   "slot": "身体",
+   "value": "左腕はバックアップ装置（内部に呪術的精密機器、本体の危機時に復旧）",
+   "scope": {
+    "chapter": "ch5280"
+   },
+   "quote": "腕の内部には無数の呪術的な精密機器が詰め込まれており、本体に致命的な危機が訪れた際に復旧できるようになっているのだとか。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_トリシューラ",
+   "slot": "能力",
+   "value": "スタンドアロンシューラ——肉体を介さないバックアップ起動",
+   "scope": {
+    "chapter": "ch5279"
+   },
+   "quote": "いざというときの為のバックアップ、スタンドアロンシューラ、ただ今起動したよ！",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_トリシューラ",
+   "slot": "能力",
+   "value": "融血呪のリース契約——他者の呪術を購入・借用する",
+   "scope": {
+    "chapter": "ch5314"
+   },
+   "quote": "禁呪の神秘を零落させて、融血呪を購入した。リース契約みたいな？ 要するに貴方の所のグレンデルヒと一緒だよ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_トリシューラ",
+   "slot": "定義",
+   "value": "「心」の定義：脳を含む肉体の全てとその認識が及ぶ連関全て",
+   "scope": {
+    "chapter": "ch5239"
+   },
+   "quote": "心とは、脳を含む肉体の全てでありその認識が及ぶ連関全てだ。少なくともトリシューラはそう定義している。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_トリシューラ",
+   "slot": "理念",
+   "value": "「あらゆる呪術はオープンソースであるべき」",
+   "scope": {
+    "chapter": "ch5061"
+   },
+   "quote": "言語魔術師たちはこの【世界槍】を作るときに一つの理念を示した。それは『あらゆる呪術はオープンソースであるべき』ということ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_トリシューラ",
+   "slot": "夢",
+   "value": "ファッションリーダー——流行を創り、ミームで神話を織る",
+   "scope": {
+    "chapter": "ch5314"
+   },
+   "quote": "その夢は、ファッションリーダーになること。 流行を作り出し、ミームに乗せて発信し、形式としてのブランドを立ち上げてスタイルを表現し、その連鎖によって一つの神話を織りなしていく。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_トリシューラ",
+   "slot": "信条",
+   "value": "「ガラクタ」「ポンコツ」呼称の絶対忌避（人造存在の信条）",
+   "scope": {
+    "chapter": "ch5049"
+   },
+   "quote": "私のことを、ガラクタとかポンコツとか呼んだ奴は、絶対に許さないって昔から決めてるの！",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_コルセスカ",
+   "slot": "能力",
+   "value": "シャルマキヒュの凍視——受動型呪術、見られたら逃げられない（巨大な右眼）",
+   "scope": {
+    "chapter": "ch5051"
+   },
+   "quote": "無駄です。【シャルマキヒュの凍視】は受動型呪術。行動を終えた貴方たちに、回避の権利はありません。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_コルセスカ",
+   "slot": "来歴",
+   "value": "氷血——まず【氷属性】が先にあり、ロアは事後付与",
+   "scope": {
+    "chapter": "ch5089"
+   },
+   "quote": "全部逆で、後付の解釈なんです。氷血のコルセスカって、まず一番最初に【氷属性】があるんです。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_コルセスカ",
+   "slot": "信条",
+   "value": "フルコンプ主義——アイテムも仲間も全て回収する譲れないプレイスタイル",
+   "scope": {
+    "chapter": "ch5090"
+   },
+   "quote": "可能な限りやり込んで、アイテムも仲間も全て回収。トレードオフの関係にあるものは一回性の体験として潔く諦めますが、これは私の譲れないプレイスタイルです。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_コルセスカ",
+   "slot": "目的",
+   "value": "迷宮を最速で踏破し火竜メルトバーズを殺す",
+   "scope": {
+    "chapter": "ch5090"
+   },
+   "quote": "――私はこの迷宮（ゲーム）を最速で踏破（クリア）して、火竜メルトバーズを今度こそ殺してみせる。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_コルセスカ",
+   "slot": "来歴",
+   "value": "男性との結婚（エンディング）を十や二十ではきかず、九人同時攻略した歴史",
+   "scope": {
+    "chapter": "ch5090"
+   },
+   "quote": "男性と結婚（エンディング）を迎えたことも十や二十ではきかず、果ては九人同時に攻略して全員を囲ったことまであります。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_コルセスカ",
+   "slot": "来歴",
+   "value": "イマジナリーフレンドとして「妄想の妹」クランテルトハランスを生み出した孤独な幼年",
+   "scope": {
+    "chapter": "ch5100"
+   },
+   "quote": "妄想の妹――クランテルトハランスを自力で生み出してしまうほどに、彼女は一人だった。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_コルセスカ",
+   "slot": "能力",
+   "value": "吸血は情報転送——体液交換で意思を共有する",
+   "scope": {
+    "chapter": "ch5086"
+   },
+   "quote": "血を啜り、自らの唾液を流し込み、体液を交換して互いの意思を共有したい。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_クレイ",
+   "slot": "技能",
+   "value": "剣詩舞——剣を持たず身体のみで剣を体現する身体芸術",
+   "scope": {
+    "chapter": "ch5240"
+   },
+   "quote": "剣を持たずして剣そのものを体現する身体芸術（パフォーマンスアート）。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_クレイ",
+   "slot": "身体",
+   "value": "自ら両目を切り裂き、視覚と引き換えに第六感（霊感）を得た",
+   "scope": {
+    "chapter": "ch5515"
+   },
+   "quote": "彼は視覚と引き換えに新たな第六感を獲得していた。霊感。それは信仰に関わる啓示であり、思考のひらめきであり、芸術的インスピレーションであり、超自然的な存在に対する知覚であり、冥府の住人を観るための手段である。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_クレイ",
+   "slot": "来歴",
+   "value": "大量生産された泥人形——使い捨てられるクレイの最もありふれた個性",
+   "scope": {
+    "chapter": "ch5451"
+   },
+   "quote": "大量生産された泥人形、使い捨てられるクレイの最もありふれた個性。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_クレイ",
+   "slot": "身体",
+   "value": "性別・衣装の変幻（女装の舞い型、燕尾服、戦衣）——ファウナの肋骨を体内に持つ",
+   "scope": {
+    "chapter": "ch5412"
+   },
+   "quote": "舞いの型は女の型。装いも女。ならば彼は女である。しかし彼女は男だった。光の粒子が黄金に煌めくと、ドレスは次の瞬間には燕尾服ふうのステージ衣装に、あるいは勇ましい戦衣装に、布の多い舞い手の衣装にと変幻自在に切り替わっていく。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_クレイ",
+   "slot": "内面",
+   "value": "全てが嘘でも受け取った関係の価値を惜しむ",
+   "scope": {
+    "chapter": "ch5448"
+   },
+   "quote": "俺の全てが嘘だったことで、俺が周囲から受け取ってきたもの、関わってきた人々の価値まで損なわれてしまう――それが、とても惜しまれるんだ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ハル",
+   "slot": "来歴",
+   "value": "【神々の図書館】のデータベースを管理し世界の言語秩序を維持する兎の王族",
+   "scope": {
+    "chapter": "ch5160"
+   },
+   "quote": "兎は【神々の図書館】のデータベースを管理し、世界の言語秩序を維持する種族。その王族であるハルが果たさなければならない使命は一つ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ハル",
+   "slot": "役割",
+   "value": "松明の騎士団の異端審問官——容赦なき掃除屋、目的は「世界平和」",
+   "scope": {
+    "chapter": "ch5160"
+   },
+   "quote": "松明の騎士団の内側に巣くう病根を駆逐する最も容赦なき掃除屋。我々のような異質な外敵を理解できるがゆえに、誰よりも効率的に異端を狩ることができる恐怖の体現者。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ハル",
+   "slot": "性格",
+   "value": "口数少ないが専門分野で流暢（知的過集中）",
+   "scope": {
+    "chapter": "ch5135"
+   },
+   "quote": "ハルベルトは普段は口数少ないのに自分の専門分野になると流暢にしゃべりだす人のようだった。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ハル",
+   "slot": "能力",
+   "value": "【静謐】——呪力を遮断しあらゆる呪術を無効化する結界",
+   "scope": {
+    "chapter": "ch5156"
+   },
+   "quote": "呪力を遮断することで、呪文だけでなくありとあらゆる呪術を無効化するこれは、紛れもなく【静謐】の呪文だ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ハル",
+   "slot": "能力",
+   "value": "鮮血呪の価値操作——軽傷を致命傷に反転させ死を押しつける",
+   "scope": {
+    "chapter": "ch5152"
+   },
+   "quote": "あの価値操作の原始呪術さえあれば、軽傷を致命傷に反転させて強制的に死という結果だけを押しつけることができる。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ハル",
+   "slot": "計画",
+   "value": "【絶対言語】の再生——引き裂かれた言葉と意思を再び繋ぐ",
+   "scope": {
+    "chapter": "ch5160"
+   },
+   "quote": "【絶対言語】の再生。引き裂かれた言葉と意思を、再び繋いで語り直す。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_リーナ",
+   "slot": "来歴",
+   "value": "クロウサー家最年長かつ最劣等生（居場所の不在）",
+   "scope": {
+    "chapter": "ch5192"
+   },
+   "quote": "余り意識はしないようにしてきたが――最年長で最劣等生というのは、中々居心地が悪い。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_リーナ",
+   "slot": "身体",
+   "value": "カラスとの合いの子（翼耳を持たない混血）",
+   "scope": {
+    "chapter": "ch5216"
+   },
+   "quote": "所詮はカラスとの『合いの子』か。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_リーナ",
+   "slot": "内面",
+   "value": "明るく脳天気なムードメーカーは仮面（ペルソナ）",
+   "scope": {
+    "chapter": "ch5499"
+   },
+   "quote": "明るく脳天気なムードメーカー、そんな顔だって仮面に過ぎない。自分にとっても他人にとっても都合が良くて、なんとなく惰性で続けてしまっているだけ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_リーナ",
+   "slot": "来歴",
+   "value": "地下アイドル活動の経歴（メートリアンやトリシューラから設定を聞いていた）",
+   "scope": {
+    "chapter": "ch5580"
+   },
+   "quote": "前に友達と一緒に地下アイドルをやっていた時にそんな感じの話をメートリアンとかトリシューラあたりから聞いた気がしないでもない。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_リーナ",
+   "slot": "能力",
+   "value": "幻覚呪術による「手触り」再現（情報存在に質感を付与）",
+   "scope": {
+    "chapter": "ch5178"
+   },
+   "quote": "実体の存在しない純粋に情報的な書籍でも、幻覚呪術によって『手触り』を再現して重さや項をめくる際の紙の質感などを再現することができる。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_リーナ",
+   "slot": "性質",
+   "value": "高みからテキスト世界を『読む』メタ読者視座",
+   "scope": {
+    "chapter": "ch5587"
+   },
+   "quote": "彼女はずっと高みからテキスト世界を『読んで』いた。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_リーナ",
+   "slot": "肩書",
+   "value": "『未知なる末妹』の予備候補・クロウサー家当主・ちゃらんぽらんな大学生",
+   "scope": {
+    "chapter": "ch5499"
+   },
+   "quote": "『未知なる末妹』の予備候補。クロウサー家当主。ちゃらんぽらんな大学生。そんなあれこれがどうでもよくなるくらいに大切な約束。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ユディーア_ディスケイム",
+   "slot": "能力",
+   "value": "天眼の俯瞰知覚（街全体を観察）",
+   "scope": {
+    "chapter": "ch5507"
+   },
+   "quote": "活気に満ちた第五階層の主街区を天眼による俯瞰知覚で眺めながら、ユディーアはぼんやりとオープンテラスの席に座ってストローでジュースを啜っていた。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ユディーア_ディスケイム",
+   "slot": "能力",
+   "value": "使い魔を「手足」として支配——端末への同時通知を処理する",
+   "scope": {
+    "chapter": "ch5507"
+   },
+   "quote": "複数使いしている端末が同時に振動。端末を流れて行く使い魔たちからの連絡だ。テーブルに並べて同時に目を通す。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ユディーア_ディスケイム",
+   "slot": "身体",
+   "value": "サイドテールの髪房は呪物（サムソンの髪秤——髪を切り落として軍勢を召喚）",
+   "scope": {
+    "chapter": "ch5552"
+   },
+   "quote": "ユディーアという個を特徴づけるサイドテールの髪房を、伸ばした指を一閃させて切り落とす。髪は呪物で、角は誇りだ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ユディーア_ディスケイム",
+   "slot": "能力",
+   "value": "彩域の窓——対象の過去を動画のように眺め戦術材料を探す",
+   "scope": {
+    "chapter": "ch5469"
+   },
+   "quote": "打撃と接触。それと前後して彩域の窓が開く。語られる過去は現在よりも前であるがゆえにこの瞬間から先に時間が進む事は無い。彼女は長い物語を端から端まで眺めて使えそうな材料を探していく。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ユディーア_ディスケイム",
+   "slot": "能力",
+   "value": "氷血呪——『自分の世界』を強固に確信することで時空に介入",
+   "scope": {
+    "chapter": "ch5486"
+   },
+   "quote": "早い話が『自分の世界』をより強固に確信するだけで氷血呪の第一歩と言える。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ユディーア_ディスケイム",
+   "slot": "内面",
+   "value": "インポスター症候群——意思の才能がない、結果は運でしかない",
+   "scope": {
+    "chapter": "ch5505"
+   },
+   "quote": "意思の才能がどこにもない。選べない可能性は存在しないのと同じだ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ユディーア_ディスケイム",
+   "slot": "発明",
+   "value": "魔槍の多機能仕様設計（照準自動補正・帰還・短剣/短槍モード・呪石スキル切替）",
+   "scope": {
+    "chapter": "ch5485"
+   },
+   "quote": "投げると照準を自動補正、念じるか命じるかすると戻ってくる…空間操作で見た目よりも長く重くなる、取り回しの良い短剣モードから重い一撃の短槍モード…石突きに呪石嵌められるようにして、状況に応じてスキル切り替えで戦う感じでいこうか。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ルウテト",
+   "slot": "来歴",
+   "value": "エトラメトラトンの呪い——血を書物のインクに変質させ、九つの断章として埋没した",
+   "scope": {
+    "chapter": "ch5440"
+   },
+   "quote": "エトラメトラトンの呪いによって赤い血を書物のインクに変質させていたルウテトは、己に纏わる伝承を滴らせる。女の裂けた腹からは書物がこぼれ落ち、九つの断章となって地中に埋没していった。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ルウテト",
+   "slot": "性質",
+   "value": "繭衣——さなぎ／繭を経て羽化する転生神",
+   "scope": {
+    "chapter": "ch5448"
+   },
+   "quote": "『さなぎ』――あるいは『繭』。冬という死にも等しき眠りを経て、最も脆弱な肉体を脱ぎ捨てて羽化する転生神。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ルウテト",
+   "slot": "能力",
+   "value": "セレスティアル・オーブ『責め苦の全天』——周回軌道の地獄",
+   "scope": {
+    "chapter": "ch5451"
+   },
+   "quote": "見るがいい、これこそ周回軌道の地獄、森羅万象あまねく煌めきを統べる女王のセレスティアル・オーブ、『責め苦の全天』！",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ルウテト",
+   "slot": "性質",
+   "value": "使い魔ユニットのスキン・性格・合成を管理する女神的視座",
+   "scope": {
+    "chapter": "ch5451"
+   },
+   "quote": "自分の『使い魔ユニット』がどういう『見た目（スキン）』になるか、どういう『性格』を獲得するか、どういう『名前』で『合成』されるか。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ルウテト",
+   "slot": "性格",
+   "value": "「女の勘」で真実を見抜く",
+   "scope": {
+    "chapter": "ch5314"
+   },
+   "quote": "「女の勘です♪」。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ルウテト",
+   "slot": "視点",
+   "value": "生首を「共通規格の交換部品」と見る工業的生産モデル",
+   "scope": {
+    "chapter": "ch5315"
+   },
+   "quote": "幻の輪郭が設計図なら、鮮血の軌跡を宙に描きながら放り投げられた生首は共通規格の交換部品。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミヒトネッセ",
+   "slot": "自己定義",
+   "value": "『てつのかかと』——蛇に踵を噛み砕かれない、悪魔の頭を踏み砕く",
+   "scope": {
+    "chapter": "ch5325"
+   },
+   "quote": "私はこのゼオーティアにおける『てつのかかと』。私は蛇に踵を噛み砕かれない。ゆえに私は悪魔の頭を一方的に踏み砕く。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミヒトネッセ",
+   "slot": "能力",
+   "value": "摂取（イントロジェクション）——他者から投影された欲望を内面に取り込み自我を作る",
+   "scope": {
+    "chapter": "ch5326"
+   },
+   "quote": "「摂取（イントロジェクション）」。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミヒトネッセ",
+   "slot": "自己定義",
+   "value": "くるみ割り人形（ナットクラッカー）——ねじの壊れた性玩具",
+   "scope": {
+    "chapter": "ch5412"
+   },
+   "quote": "私はくるみ割り人形（ナットクラッカー）。ねじの壊れた性玩具。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミヒトネッセ",
+   "slot": "性質",
+   "value": "ファン承認による実在化——なりすましでも舞台の上では本物",
+   "scope": {
+    "chapter": "ch5412"
+   },
+   "quote": "私はこんなふうに崇められている。承認を得ている。リールエルバとして認められている。たとえなりすましだって、それは今この瞬間には真実なのよ？ なら私は、本物でもあるの。少なくとも舞台の上ではね。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミヒトネッセ",
+   "slot": "能力",
+   "value": "マルチロール——侍女人形が女から男へ王から女王へ変化し一人多役",
+   "scope": {
+    "chapter": "ch5414"
+   },
+   "quote": "侍女人形は変化し続けている。女から男に、王から女王に。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミヒトネッセ",
+   "slot": "来歴",
+   "value": "ルウテトの花粉を運びシナモリアキラへの受粉として氷球を携える",
+   "scope": {
+    "chapter": "ch5455"
+   },
+   "quote": "言うなれば私はルウテトの雄しべから花粉を運んできたミヒトネッセ蜂によってシナモリアキラの雌しべで受粉した――いやこの喩え分かりづらい！",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミルーニャ",
+   "slot": "来歴",
+   "value": "巡節換算で52歳（人間換算26歳）の杖使い",
+   "scope": {
+    "chapter": "ch5134"
+   },
+   "quote": "いえ、巡節数えだと五十二歳ですぅ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミルーニャ",
+   "slot": "信条",
+   "value": "他者への関心は自己保身の手段——不死のための自己愛",
+   "scope": {
+    "chapter": "ch5158"
+   },
+   "quote": "他人への関心は自分を保つ為の手段でしかない。私の行動に何か優しさや利他的なものを感じたのなら、それは全て私が私を保つ為です。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミルーニャ",
+   "slot": "代償",
+   "value": "爪を剥ぎ取って『自殺の黒槍』を取得",
+   "scope": {
+    "chapter": "ch5188"
+   },
+   "quote": "左手の中指、生爪を一気に引き剥がす。常人よりも高い治癒力を持つ彼女であっても、その痛みは耐え難かった。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミルーニャ",
+   "slot": "献身",
+   "value": "全人類を生贄に捧げてでもアズーリアを復活させる宣言",
+   "scope": {
+    "chapter": "ch5188"
+   },
+   "quote": "受け入れろと言われたなら世界中の全人類を生贄に捧げてでもアズーリア様を復活させます。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミルーニャ",
+   "slot": "能力",
+   "value": "指の解錠（アンロック）による呪文発動——命脈の呪石",
+   "scope": {
+    "chapter": "ch5219"
+   },
+   "quote": "右手薬指、解錠（アンロック）！ 【命脈の呪石（アライヴ・アゲイン）】！",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミルーニャ",
+   "slot": "来歴",
+   "value": "炎冠から玉璽を捧げられ『殿下』として王権の証を受ける",
+   "scope": {
+    "chapter": "ch5398"
+   },
+   "quote": "我こそは王権のあかし。どうか玉璽（レガリア）たるこの身をお受け取り下さい、覇道を歩むべき我らが『殿下』よ。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_ミルーニャ",
+   "slot": "思想",
+   "value": "マキャヴェリスム的権力基盤論（金・力・名声）",
+   "scope": {
+    "chapter": "ch5143"
+   },
+   "quote": "お金と力、そして名声。それが全てではないにせよ、それが無いと理想を口にすることすらできない。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_レオ",
+   "slot": "性格",
+   "value": "フィランソロピー——見返りを求めない圧倒的善性",
+   "scope": {
+    "chapter": "ch5072"
+   },
+   "quote": "レオが作り出すその表情の、行動の、なんと尊いことだろうか。圧倒的な善性。溢れんばかりのフィランソロピー。人は、見知らぬ誰かに優しくすることができる。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_レオ",
+   "slot": "知覚",
+   "value": "異世界の言語を解析できないが声のトーンで真実を察知",
+   "scope": {
+    "chapter": "ch5065"
+   },
+   "quote": "言ってることは分からなかったんですけど、二人ともにこやかなのに全然声が柔らかく無かったです。もの凄く寒くて、冷たい感じの響きがしました。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_レオ",
+   "slot": "関係",
+   "value": "「失望させたら捨てる」という所有関係の脅し",
+   "scope": {
+    "chapter": "ch5250"
+   },
+   "quote": "あまり僕を失望させないでね――でないと、そのうち捨てちゃうから。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_レオ",
+   "slot": "解決",
+   "value": "非暴力の接触（頬に手を添える）と「仲良くしましょう」で敵を浄化",
+   "scope": {
+    "chapter": "ch5377"
+   },
+   "quote": "レオは危険など感じていないかのように『絡新婦』に歩み寄り、目の前で立ち止まる。そっと手を差し伸べて、ぼろぼろに朽ちた頬に手を添えた。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  },
+  {
+   "entity": "E_char_レオ",
+   "slot": "性質",
+   "value": "音の直感で閉鎖空間からの脱出路を開く介入者",
+   "scope": {
+    "chapter": "ch5275"
+   },
+   "quote": "アキラさんの音が、なんとなく聞こえたから。あとは僕が方向を扉職人さんに教えて、どうにかここまで来ることができました。",
+   "confidence": "明言",
+   "source": "cycle2_read_all_claims_20261114"
+  }
+ ]
+}
