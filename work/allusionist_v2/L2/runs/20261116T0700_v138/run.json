@@ -1,0 +1,12 @@
+{
+  "schema_version": "2.0",
+  "run_id": "20261116T0700_v138",
+  "run_type": "ledger_rules",
+  "timestamp": "2026-11-16T07:00:00+09:00",
+  "derived_from": "20261116T0500_v136",
+  "source_files": [],
+  "stats": {
+    "general_word_entities_retired": 277
+  },
+  "notes": "v137 (引用率ベース退役) は固有名詞過退役 (カーイン/キロン/ゼド/ゾーイ 等) を招いたので退役。v138 は v136 由来・リスト式: 監査実読で確定した一般日本語/一般概念/役割語の明示リストのみ退役。片仮名固有名詞は対象外。"
+}
