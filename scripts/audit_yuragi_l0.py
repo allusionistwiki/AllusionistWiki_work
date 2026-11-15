@@ -111,6 +111,9 @@ def main():
                 if not toks <= gset and gset:
                     add("A2_TOPIC", f"{c['chain_id']}:{n}")
                 gset |= toks
+            chain_text = "\n\n".join(sb[n] for n in sorted(nos, key=lambda x: seq[x]))
+            if c.get("excerpt") != re.sub(r"\s+", " ", chain_text).strip()[:120]:
+                add("A2_EXCERPT", c["chain_id"])
         if sorted(covered) != sorted(order) or len(covered) != len(order):
             add("A2_PARTITION", uid)
 

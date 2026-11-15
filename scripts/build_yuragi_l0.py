@@ -187,6 +187,7 @@ def build_unit(job, rid):
             chunks.append({
                 "chunk_id": f"{unit_id}#c{seq:03d}", "group_id": c["chain_id"],
                 "kind": c["kind"], "author": c["author"], "topics": c["topics"],
+                "excerpt": c.get("excerpt", ""),
                 "post_range": [a, b], "n_posts": len(nos), "chars": chars,
                 "part": part, "parts_total": total,
                 "raw_group_path": fset[0] if len(fset) == 1 else fset,
