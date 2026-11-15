@@ -72,3 +72,15 @@ run ID 相互参照で記録する。小説原文は work repo に持ち込ま�
 - 独立採点 324/400 = 81.0%（99% 閾値未達）。引用捏造 0 件（v0.4 の 9→0、逐語照合ゲート有効確認）。無名 ID・role/attribute/metaphor 分離・parent 付与は機能。
 - fail 76 件分類: 記述句・複合名实体化 23（左に立つ巨漢/氷でできた靴/コルセスカ（セスカ））、mc 誤 link 19（サイバーカラテ道場↔サイバーカラテ/生命吸収→命/悪鬼→悪鬼女王/カイン→カイン_狼融合体_）、一般語残存 9、型 drift 6、schema 違反 7（mc list・attribute への mc・合成 parent）、その他 12。
 - v0.6 改修: R15 複合名禁止（括弧別名は本体名+merge_candidate へ）、R16 mc はコア名完全一致のみ（部分名一致・状態/種族 slug への link 禁止の否例注入）、R17 mc は entity のみ、R18 合成 parent 禁止、R19 裸の一般名詞禁止。schema 機械ゲート（mc=entity のみ/mc list 単一化/合成 parent 分割）を適用側・監査側（audit_cycleb400c）へ追加。
+
+## 100話 v0.6 監査（2026-11-16、audit_cycleb400d 400件全件実読 seed 20261120・normalize_v7 適用後）
+- 独立採点 349/400 = 87.25%（v0.5 81.0%→+6.25pt・閾値99%未達）。mc 注入ノイズ消滅で mc 起因 fail が激減。
+- fail 51 件分類: mc 前置/部分一致誤 link 10（第五階層→貧民街/針→血液の針/血統→ゾラの血統）、
+  括弧合成名 8、証拠欠落（QUOTE・CTX 空）9、代名詞 mc 欠落 3、一般語残存 9、記述句 entity 4、
+  parent 帰属 drift 2、その他 6。
+- 機械正規化 normalize_v8（builder 側契約）: ①schema DROP ②コア名化（括弧・スラッシュ除去）③
+  mc はコア完全一致 or 後置一致（前置が「Xの」所有格のものを除去）④代名詞→主人公 slug 自動 link
+  ⑤証拠ゼロ record 除去（quote 逐語照合+ch_hits>=2）。v6 実測: 2045→1907（drop 138/core 変換 277/
+  mc 収束/no_ev 84）。
+- 残 fail の主因はモデル挙動（一般語・記述句・parent 引用主格）→ プロンプト v0.7:
+  一般名詞否例リスト注入/記述句→unnamed 明示/parent=引用文中主格/mc 前置一致否例/代名詞 mc 必須。
