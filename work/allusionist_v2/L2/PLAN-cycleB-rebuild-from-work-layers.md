@@ -36,3 +36,10 @@ run ID 相互参照で記録する。小説原文は work repo に持ち込ま�
   (1) max_tokens 切り詰め (2) UNK 話番号の誤継承 (3) 比喩道具・能力顕現の实体化。
 - v0.2 改修: R8 metaphor 層・R9 能力顕現=attribute・話番号明示・max_tokens 4000・JSON 復元ロジック。
 - 次: v0.2 再検証 → 20 話バッチ → 構造適用台帳生成 → 400 監査 99%。
+
+## v0.2 再検証（2026-11-15、58 レコード全件実読）
+- 实体層汚染ゼロ: 層分離 7 層（entity/unnamed/role/attribute/external_ref/scene_note/metaphor）58/58 妥当。
+- R8/R9 改善確認: 黒い棘→狼 attribute、点棒・二輪の華・木馬→metaphor、月→external_ref。
+- 残り軽微欠陥: record_type drift（organization/terminology が record_type 直入れ）、
+  kind drift（サイバーカラテ道場=terminology/organization 章間差）、UNK 採番形式（UNK-1 vs UNK-00100）。
+- 次: 20 話バッチ（ch00001-15 + ch00100 系）Stage1 生成中 → Stage3 v0.2 適用 → 全件実読 → 話間 UNK 統合候補検証。
