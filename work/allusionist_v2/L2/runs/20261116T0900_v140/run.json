@@ -1,0 +1,19 @@
+{
+ "schema_version": "2.0",
+ "run_id": "20261116T0900_v140",
+ "run_type": "cycleB_seed_ledger_20ch",
+ "timestamp": "2026-11-16T09:00:00+09:00",
+ "derived_from": "20261116T0800_v139",
+ "source_files": [],
+ "stats": {
+  "entities": 176,
+  "merged_to_base_candidates": 29,
+  "unnamed": 13,
+  "roles_subjects": 11,
+  "attr_parents": 24,
+  "metaphors": 6,
+  "external_refs": 2,
+  "scenes": 14
+ },
+ "notes": "cycleB ページ先行生成の 20 話バッチ（v0.4 適用・全件実読検証済み）から层分離台帳を新設。旧 L2 台帳(v139)は対照として保持、統合は候補提示のみ（merge_link）で実行しない。"
+}
