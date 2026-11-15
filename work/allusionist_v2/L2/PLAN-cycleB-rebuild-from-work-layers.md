@@ -43,3 +43,13 @@ run ID 相互参照で記録する。小説原文は work repo に持ち込ま�
 - 残り軽微欠陥: record_type drift（organization/terminology が record_type 直入れ）、
   kind drift（サイバーカラテ道場=terminology/organization 章間差）、UNK 採番形式（UNK-1 vs UNK-00100）。
 - 次: 20 話バッチ（ch00001-15 + ch00100 系）Stage1 生成中 → Stage3 v0.2 適用 → 全件実読 → 話間 UNK 統合候補検証。
+
+## 20話バッチ v0.3 検証（2026-11-15、413 レコード+258 merge 候補 全件実読）
+- 層分離 ~97% 良（role 17件=役割层完全機能/attribute 移管大量・实体化回避/metaphor・external_ref・scene 分離維持）。
+  軽微: record_type=terminology drift 3件(ch00101)、捨て石・説教=metaphor 化が望ましい 2件。
+- merge_candidate 258件: 約85%が正当（俺→シナモリアキラ系/テール→テール/カイン→魔将カイン/青年→アキラ本名）。
+  偽候補 ~15%: キール→ミルーニャ、マフス→フィリス、トッド→ペイルガンド、アズーリア→アズール 等。
+  原因: 台帳候補生成の chars 重複>=0.6 がノイズ + LLM が棄却なく全候補提案。
+- v0.4 改修: (1) プロンプトに「候補は同一性の根拠ではない。原文に同一性言及（XはY・同格・括弧同定）がある場合のみ
+  merge_candidate、無ければ null」(2) 候補生成を 完全一致/括弧内一致/長一致性 中心へ強化し chars ノイズ除去。
+- UNK 話間チェーン機能確認: 三人組(004-007-008-009)/青年・魔法使い・巨漢(007-009-010)/小さな妖精→クランテルトハランス。
