@@ -92,3 +92,11 @@ run ID 相互参照で記録する。小説原文は work repo に持ち込ま�
   parent 書式/帰属 7、証拠欠落 6、型 drift 5、合成名 2、他 11。
 - 機械修正 v8.1（3 件追加）: ①台帳 REG（canonical core→slug）で name==slug core 自動 link ②mc 除去後代名詞再 link
   ③parent 括弧コア名化。→ 約 23 件機械消去見込。残はモデル挙動（一般語 26/記述句/親帰属）→ v0.7 プロンプト（否例実例注入済み・稼働中）。
+
+## 100話 v0.7 監査中間（2026-11-16、audit_cycleb400g 199件実読 seed 20261123）
+- v0.7 解析 prompt（一般語否例・記述句→unnamed・parent 主格・代名詞 mc）効果: 一般語 2146 中 28 件へ激減（v6 比 1/5）、unnamed 分流作動。
+- g シート 199 件読了 fail 64 分類: 自己親 23（parent==name、機械除去）、汚染スラッグ link（アズ→アズーリア/日本語 char 化）7、
+  mc 偽特異化 4（ちびシューラ→でかちびシューラ 等）、prefix slug 欠落 2（哲学的ゾンビ→…（魂なき存在））、
+  記述親 2（首領→褐色の肌の男）、一般語 drop 不発（REG 自動 link が判定前に発火し sc 未更新）、quote 空 record 残存（下勢力 等）。
+- normalize v8.2 修正: drop 判定を mc 再計算式へ / quote 空+qued ノート drop 必須 / parent==name→None / parent スラッグ漏れ→正準名化。
+- 次: v8.2 再正規化（obs_apply_v7n3）→ audit_cycleb400h（seed 20261124）→ 400 件全件実読。
