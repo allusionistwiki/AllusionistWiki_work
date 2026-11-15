@@ -67,3 +67,8 @@ run ID 相互参照で記録する。小説原文は work repo に持ち込ま�
   R12 QUOTE は原文逐語15字以上必須、注釈文は note フィールドへ。
   R13 unnamed は人物/集団のみ。R14 role=職務/立場、評判/状態/イベントは attribute。
   機械検証: apply 後に quote の原文逐語照合(NFC)、不一致は record 廃棄。
+
+## 100話 v0.5 監査（2026-11-16、audit_cycleb400b 400件全件実読 seed 20261118）
+- 独立採点 324/400 = 81.0%（99% 閾値未達）。引用捏造 0 件（v0.4 の 9→0、逐語照合ゲート有効確認）。無名 ID・role/attribute/metaphor 分離・parent 付与は機能。
+- fail 76 件分類: 記述句・複合名实体化 23（左に立つ巨漢/氷でできた靴/コルセスカ（セスカ））、mc 誤 link 19（サイバーカラテ道場↔サイバーカラテ/生命吸収→命/悪鬼→悪鬼女王/カイン→カイン_狼融合体_）、一般語残存 9、型 drift 6、schema 違反 7（mc list・attribute への mc・合成 parent）、その他 12。
+- v0.6 改修: R15 複合名禁止（括弧別名は本体名+merge_candidate へ）、R16 mc はコア名完全一致のみ（部分名一致・状態/種族 slug への link 禁止の否例注入）、R17 mc は entity のみ、R18 合成 parent 禁止、R19 裸の一般名詞禁止。schema 機械ゲート（mc=entity のみ/mc list 単一化/合成 parent 分割）を適用側・監査側（audit_cycleb400c）へ追加。
