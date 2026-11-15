@@ -100,3 +100,9 @@ run ID 相互参照で記録する。小説原文は work repo に持ち込ま�
   記述親 2（首領→褐色の肌の男）、一般語 drop 不発（REG 自動 link が判定前に発火し sc 未更新）、quote 空 record 残存（下勢力 等）。
 - normalize v8.2 修正: drop 判定を mc 再計算式へ / quote 空+qued ノート drop 必須 / parent==name→None / parent スラッグ漏れ→正準名化。
 - 次: v8.2 再正規化（obs_apply_v7n3）→ audit_cycleb400h（seed 20261124）→ 400 件全件実読。
+
+## 100話 v0.7+v8.2 全件監査確定（2026-11-15、audit_cycleb400h 400件実読 seed 20261124）
+- **369/400 = 92.25%**（v0.6 74.25% → v0.7n 87.25% → v8.2 92.25%）。監査 display 補正: ① parent 表示 subject fallback による自己親表示=アーティファクト ② core() 括弧分割 link（哲学的ゾンビ→…(基盤存在)、アブロニクス(使い魔)）は正準 link ③ 台帳 canonical slug link（アズ→アズーリア canonical、松明→松明の騎士団）は正しい。
+- fail 31 分類: mc 特定スラッグ 8（Big-ちびシューラ/新生三報会/キロンの左手/宣名のコイン/使い魔→蝙蝠群/ゼノグラシア→アキラ系/でか…/三階層語）/ 一般語スラッグ漏れ 7（世界/遮光幕/執務室/広場/大画面/翼持つ猫/クロスボウ/労働/槍）/ 章題 entity 2 / 記述句 entity 3（屋台の店主/青い血の涙/地獄への道）/ parent 記述・帰属 3（首領→茶色の肌/ミースリヴァ→キロン/呪術→アキザ）/ 証拠ミスマッチ 2（右腕 quote 腹部/古代王メクスト mc=-）/ その他 6。
+- v8.3 機械規則: mc slug の台帳 canonical≠nm かつ prefix が度数語（でか/新生/旧/小/真/偽）→ mc strip。REG 一般名詞 slug（大画面/翼持つ猫/クロスボウ）は canonical 一致のみ link 厳密化。遮光幕/執務室/広場/世界/労働 等を GENERAL_NOUNS 追加。
+- v0.8 プロンプト規則: 章題行解析禁止（ch 冒頭行は引用不問）、比喩/格言→metaphor、一般名詞実例+住環境語（遮光幕/執務室/広場）、quote と record 名ミスマッチ禁止（右腕の quote に右腕必須）、parent は quote 内文脈人物のみ（使い魔→使い魔魔女名）。
