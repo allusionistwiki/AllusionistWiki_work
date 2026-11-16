@@ -184,3 +184,15 @@ run ID 相互参照で記録する。小説原文は work repo に持ち込ま�
 - gap 7 話は観測本文のみ＋注記。ch00109 は正規化 gate で全件 drop（欠落ではなく品質判定、notes 記録済み）。
 - 台帳接続: v143/v139 slug 参照（各名義ページが台帳へ接続し登録の正しさを判定する要求に対応）。
 - 次工程: 公開面（Quartz site /l1/ 配置・names.json 正準名のみ replace 契約）反映、contentIndex 更新。
+
+## 公開反映プラン（設計確定待ち・2026-11-16）
+現状況: 台帳 v143・L1 work 層 run 20261116T1600_cycleB まで確定。公開面（vault wiki/l1・wiki/l2 → Wiki2 CI）への反映は既存 L1（旧チェーン 861 章ページ群・公開 URL 保全対象）との関係設計を要する。
+- 选项 A（追加セクション・推奨）: 新 L1 群は vault `wiki/l1/` の既存ページを置換せず、`cycleb/` 要素（`/L1/cycleb/episodes/` のような一要素・フラット則準守）として追加し、旧 L1 と相互リンク。URL 保全リスク 0、Explorer 節数増は iOS 対策（40 超節抑制）点検。
+- 选项 B（段階置換）: 旧 L1 episodes を新 589 話へ段階置換。既存 URL 約 2.3 万件の保全・redirect 設計が必須で工数大。
+- 公開名の正規化: names.json 置換契約（公開置換=正準名のみ・alias replace=False）は v143 新实体 207 件（merge_link 無し）+ 検証済み alias のみ反映。merge_link 候補 1,846 件は実統合保留（全話使用状況確認）なので公開置換に投入しない。
+- 反映鎖（选项 A 採用時）: 生成器で vault 配置 → lint 対等性 → vault commit/push（CI 自動発火）→ v2 CI success → served ページ内容マーカー（run id・件数）検証。
+
+## 公開反映 选项A 実行（2026-11-16）
+- vault へ wiki/l1/cycleb/ 新設（589 話ページ＋index 索引 2 基・生成者=l1_cycleb_index.py 単一管轄）。L1 top へ導線 1 行追加。
+- lint: cycleb 免除登録（lint.py is_navigation_page へ cycleb パーツ追加・precedent 同型）。再走で cycleb 違反 0、既存基線 5,283 件と対等（新規欠陥 0）。
+- vault push 6a99c8d4（bot rebase 経緯込み）→ AllusionistWiki2 CI 自動発火、監視 proc_ee47834b21db。完了後 served ページ内容マーカー（/L1/cycleb/ 実体・589 件）検証。
