@@ -196,3 +196,9 @@ run ID 相互参照で記録する。小説原文は work repo に持ち込ま�
 - vault へ wiki/l1/cycleb/ 新設（589 話ページ＋index 索引 2 基・生成者=l1_cycleb_index.py 単一管轄）。L1 top へ導線 1 行追加。
 - lint: cycleb 免除登録（lint.py is_navigation_page へ cycleb パーツ追加・precedent 同型）。再走で cycleb 違反 0、既存基線 5,283 件と対等（新規欠陥 0）。
 - vault push 6a99c8d4（bot rebase 経緯込み）→ AllusionistWiki2 CI 自動発火、監視 proc_ee47834b21db。完了後 served ページ内容マーカー（/L1/cycleb/ 実体・589 件）検証。
+
+## 公開反映 確定（2026-11-16）
+- L1: cycleb セクション 589 話 served 確認（/L1/cycleb/ 200・589 導線・観測レコード表＋台帳 slug 表示）。CI 43798602871 success（fetch_recent_commits 403 恒久修正 GH_TOKEN 投入込み）。
+- L2: 台帳 v144（v139 基線＋v143 union 17,469・dup 0）で正規化ミラー 16,571 ページ再生成（置換 46,509）。normalized.md 監査索引＋層 top へ v144 run id・421 applied/103 annotate・43,660 索引値を反映。served 検証: /L2/normalized.html・/L2/ top ともに 20261116T1700_v144・421・43660・16552 マーカー確認。CI 43800941895/43802298970 success。
+- lint: 全スコープ 5,283 件で基線対等（L1/L2 code 一致・L2 top STR005/008/009 各 1 は既存基線パターン）。
+- 留保（次段階）: v144 新規 132 实体（cycleB candidate）はページ未生成 — 生成器のページ集合は L1 entities ミラー基盤由来で新实体ページを自動生成しない設計。現状は注釈帯（103 対）＋監査索引でのみ公開、entity_status 確認済み（全話使用状況確認）後に L1 ページ生成→ミラー再走で公開する。merge_link 候補 1,921 件は非公開（実統合禁止基準）。
