@@ -1,0 +1,19 @@
+{
+ "schema_version": "2.0",
+ "run_id": "20261116T1500_v143",
+ "run_type": "cycleB_ledger_full",
+ "timestamp": "2026-11-16T15:00:00+09:00",
+ "derived_from": "20261116T1100_v141",
+ "source_files": [],
+ "stats": {
+  "entities": 2053,
+  "merged_to_base_candidates": 1846,
+  "unnamed": 188,
+  "roles_subjects": 158,
+  "attr_parents": 62,
+  "metaphors": 98,
+  "external_refs": 11,
+  "scenes": 170
+ },
+ "notes": "全 corpus 582 話（v0.9 適用・normalize v8.15・全 corpus 監査 99.0% 確定、gap 7 話隔離）から层分離台帳を生成。canonical キー単一化で同一表記の重複实体を解消（v142 欠陥修正、v142 は archive へ退役）。旧 L2 台帳(v139)は対照として保持、統合は候補提示のみ（merge_link）で実行しない。 共起残存機械検査 4 件検出→verify 注記添付（実統合は全話使用状況確認まで保留）。"
+}

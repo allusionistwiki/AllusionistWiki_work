@@ -1,0 +1,19 @@
+{
+ "schema_version": "2.0",
+ "run_id": "20261116T1400_v142",
+ "run_type": "cycleB_ledger_full",
+ "timestamp": "2026-11-16T11:00:00+09:00",
+ "derived_from": "20261116T1100_v141",
+ "source_files": [],
+ "stats": {
+  "entities": 2131,
+  "merged_to_base_candidates": 1852,
+  "unnamed": 188,
+  "roles_subjects": 158,
+  "attr_parents": 62,
+  "metaphors": 98,
+  "external_refs": 11,
+  "scenes": 170
+ },
+ "notes": "cycleB ページ先行生成の 582 話（v0.9 適用・normalize v8.15・全 corpus 監査 99% 確定・全件実読検証済み）から层分離台帳を新設。旧 L2 台帳(v139)は対照として保持、統合は候補提示のみ（merge_link）で実行しない。"
+}
