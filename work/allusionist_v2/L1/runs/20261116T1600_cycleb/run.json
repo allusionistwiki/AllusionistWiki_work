@@ -1,0 +1,28 @@
+{
+ "schema_version": "2.0",
+ "run_id": "20261116T1600_cycleb",
+ "layer": "L1",
+ "run_type": "cycleB-l1-regen-from-work",
+ "timestamp": "2026-11-16T16:00:00+09:00",
+ "derived_from": [
+  "obs_pages 589話（Stage1 観察ページ全話）",
+  "obs_apply_v9n 582話（v0.9 適用・normalize v8.15・全 corpus 監査 99.0%）",
+  "L2 run 20261116T1500_v143（台帳接続）"
+ ],
+ "episodes": 589,
+ "gap_episodes": [
+  "ch00179",
+  "ch00200",
+  "ch00323",
+  "ch00366",
+  "ch00501",
+  "ch00510",
+  "ch00581"
+ ],
+ "stats": {
+  "pages": 589,
+  "gap": 7,
+  "no_apply_non_gap": 1
+ },
+ "notes": "cycleB 方式（ページ先行生成→構造推定→台帳適用→監査）の L1 再生成。各話ページは観測本文＋正規化済み観測レコード表（台帳 slug 接続）。frontmatter title 規定準拠。"
+}

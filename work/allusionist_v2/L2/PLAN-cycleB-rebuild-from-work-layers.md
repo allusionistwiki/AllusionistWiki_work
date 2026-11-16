@@ -178,3 +178,9 @@ run ID 相互参照で記録する。小説原文は work repo に持ち込ま�
 - v143 再ビルド（canonical キー単一化）: entities 2053（id/canonical 重複 0）、merge_link 候補 1846（v139 台帳照合・候補提示のみで実統合なし）、unnamed 188、roles 158 subjects、attributes 62 受け皿、metaphors 98、external_refs 11、scenes 170。
 - alias 分布・共起残存機械検査: 高頻度 alias 群なし（最大 3 alias）、同一 entities 内 alias 共起 4 件のみ → verify 注記添付（シナモリアキラ/アキラ系 103 件・再生者（オルクス） split 候補・球体関節人形）。実統合は全話使用状況確認まで保留。
 - latest.txt は v139 のまま（権威台帳）。v143 は観測台帳（cycleB/0.2）。次工程: 検証済み alias 更新の v139 反映判定、L1 ページ再生成、公開面 names.json（正準名のみ replace、alias replace=False）。
+
+## L1 再生成 run 20261116T1600_cycleB（2026-11-16）
+- L1 latest を cycleB 再生成へ更新: 589 話ページ = 観測本文 + 正規化済み観測レコード表（台帳 slug 接続・frontmatter title 規定準拠）。レコード 7,323 件。
+- gap 7 話は観測本文のみ＋注記。ch00109 は正規化 gate で全件 drop（欠落ではなく品質判定、notes 記録済み）。
+- 台帳接続: v143/v139 slug 参照（各名義ページが台帳へ接続し登録の正しさを判定する要求に対応）。
+- 次工程: 公開面（Quartz site /l1/ 配置・names.json 正準名のみ replace 契約）反映、contentIndex 更新。
