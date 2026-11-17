@@ -34,13 +34,16 @@ def unit_dir(u):
         return RAW / "mixi/373088" / u["title"]
     return RAW / "hatena_flicker"
 
+import unicodedata
+QUOTE_RE = re.compile(r"「((?:[^「」]|「[^」]*」)+)」")
+
 def norm(s):
-    return re.sub(r"[\s\u3000,、,]+", "", s)
+    return re.sub(r"[\s\u3000,、,]+", "", unicodedata.normalize("NFKC", s))
 
 def trim_quote(q):
     if len(q) <= 100:
         return q
-    cut = q[:101]
+    cut = q[:100]
     i = max(cut.rfind("。"), cut.rfind("！"), cut.rfind("？"), cut.rfind("…"))
     return cut[:i+1] if i >= 30 else cut[:100]
 
@@ -62,45 +65,71 @@ def lcs_sub(a: str, b: str):
     return a[end_i - best: end_i]
 
 def main():
-    only = set(sys.argv[1:])
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--scope", default="units", choices=["units", "topics", "authors"])
+    ap.add_argument("--run-dir", default=None)
+    ap.add_argument("only", nargs="*")
+    a = ap.parse_args()
+    sc_dir = {"units": "units", "topics": "topics", "authors": "authors"}[a.scope]
+    suffix = {"units": "_l1u", "topics": "_l1tp", "authors": "_l1au"}[a.scope]
+    run = max(p for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith(suffix))
+    run = L1 / "runs" / (a.run_dir or run.name)
+    only = set(a.only)
     latest = (L0 / "latest.txt").read_text(encoding="utf-8").strip()
     import json
     units = {}
     for u in jl(L0 / "runs" / latest / "units.jsonl"):
         units.setdefault(u["unit_id"], u)
-    run = L1 / "runs" / "20261117T2115_l1u" / "units"
+    # 全文コーパス（topics/authors 用・1 回構築）
+    global_body = ""
+    if a.scope != "units":
+        parts = []
+        for uid, u in units.items():
+            d = unit_dir(u)
+            parts.append("\n".join(x["body"] for x in jl(d / "structured.jsonl")))
+        global_body = norm("\n".join(parts))
     fixed = 0
-    for p in sorted(run.glob("*.md")):
+    units_norm = {}
+    if a.scope != "units":
+        for uid, u in units.items():
+            d = unit_dir(u)
+            units_norm[uid] = norm("\n".join(x["body"] for x in jl(d / "structured.jsonl")))
+    for p in sorted((run / sc_dir).glob("*.md")):
         uid = p.stem
         if only and uid not in only:
             continue
-        art = p.read_text(encoding="utf-8")
+        art = p.read_bytes().decode("utf-8", "replace")
         m = re.search(r"(##\s*注目投稿.*?)(?=\n##|\Z)", art, re.S)
         if not m:
             continue
         sec = m.group(1)
-        body = norm("\n".join(x["body"] for x in jl(unit_dir(units[uid]) / "structured.jsonl")))
-        lines = sec.split("\n")
-        out_lines = []
-        for line in lines:
-            mm = re.search(r"「([^」]+)」", line)
-            if not mm:
-                out_lines.append(line)
-                continue
-            q = mm.group(1)
-            q = trim_quote(q)
-            if norm(q) in body:
-                out_lines.append(line[:mm.start(1)] + q + line[mm.end(1):])
-                continue
-            sub = lcs_sub(norm(q), body)
-            if sub and len(sub) >= 0.6 * len(norm(q)):
-                out_lines.append(line[:mm.start(1)] + sub + line[mm.end(1):])
-            # LCS 60% 未満 → 引用付き行を削除
-        new = "\n".join(out_lines)
+        if a.scope == "units":
+            body = norm("\n".join(x["body"] for x in jl(unit_dir(units[uid]) / "structured.jsonl")))
+            targets = [body]
+        else:
+            body = global_body
+            targets = None  # unit 単位 probe
+        # 引用が複数行にまたがるため sec 全体で QUOTE_RE 一括処理する
+        def fix_q(mm):
+            q = trim_quote(mm.group(1))
+            qn = norm(q)
+            if qn in body:
+                return q
+            probe = qn[:20]
+            tset = [b for b in units_norm.values() if probe and probe in b] if targets is None else targets
+            if not tset:
+                tset = list(units_norm.values()) if targets is None else targets
+            for tb in tset:
+                sub = lcs_sub(qn, tb)
+                if sub and len(sub) >= 0.6 * len(qn):
+                    return sub
+            return "（引用不採用）"
+        new = QUOTE_RE.sub(fix_q, sec)
         if new != sec:
-            p.write_text(art[:m.start(1)] + new + art[m.end(1):], encoding="utf-8")
+            p.write_bytes((art[:m.start(1)] + new + art[m.end(1):]).encode("utf-8"))
             fixed += 1
-    print(json.dumps({"fixed_articles": fixed}, ensure_ascii=False))
+    print(json.dumps({"fixed_articles": fixed, "run": run.name}, ensure_ascii=False))
     return 0
 
 if __name__ == "__main__":

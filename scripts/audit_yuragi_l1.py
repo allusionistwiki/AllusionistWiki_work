@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Yuragi L1 篇記事 品質監査（二層）— 機械ゲート＋LLM 全量監査（生成独立パス）。
+"""Yuragi L1 記事品質監査（二層・scope 対応）— 機械ゲート＋LLM 全量監査（生成独立パス）。
 
-機械ゲート: 記事内の引用「…」が実在するか（コーパス本文との部分文字列照合・改行/空白正規化）、
-            引用 100 字超なし、規定見出し 4 個presence。
-LLM 監査: 記事全文＋群索引＋本文（1 群あたり --max 字に正規化）を読みさせ
-          「概要・流れ・設定・引用がコーパスに忠実か」を 一致/一部一致/不一致 で判定。
-出力: work/yuragi/L1/runs/<rid>_l1aud/ {verdicts.jsonl, flagged.jsonl, audit.json}
-不合格は記事 md を削除して build_yuragi_l1.py resume で再生成 → 再監査。
-使い方: python scripts/audit_yuragi_l1.py [--workers K] [--max N] [--run-dir rid]
+python scripts/audit_yuragi_l1.py --scope units   [--workers K] [--max N] [--run-dir rid]
+python scripts/audit_yuragi_l1.py --scope topics
+python scripts/audit_yuragi_l1.py --scope authors
+
+機械ゲート: 注目投稿欄の引用「…」が照合コーパスの連続部分文字列（省略記号は分節・読点/空白正規化）、
+            100 字超なし、規定見出し presence。照合コーパス = units: 篇本文∪群要約 / topics,authors: 全文∪全群要約。
+LLM 監査: 記事＋出典コンテキストを読みさせ 一致/一部一致/不一致 判定（判定は生成と独立な別実行）。
+出力: work/yuragi/L1/runs/<audit_rid>/ {judged.jsonl, flagged.jsonl, audit.json}
+不合格は該当 md 削除 → 生成スクリプト resume → 再監査（機械ゲートは集計時に決定論再適用）。
 """
 import argparse
 import datetime as dt
@@ -77,18 +79,20 @@ def unit_dir(u):
         return RAW / "mixi/373088" / u["title"]
     return RAW / "hatena_flicker"
 
+import unicodedata
+
 def norm(s: str) -> str:
-    return re.sub(r"[\s\u3000,、,]+", "", s)
+    return re.sub(r"[\s\u3000,、,]+", "", unicodedata.normalize("NFKC", s))
+
+QUOTE_RE = re.compile(r"「((?:[^「」]|「[^」]*」)+)」")
 
 ELLIPSIS = re.compile(r"…+|\.\.\.+|⋯+")
 
 def quote_in(q: str, *corpora: str) -> bool:
-    """引用がコーパスの連続部分文字列か。省略記号（…/...）を含む場合は
-    分節し、各分節が順にコーパスに存在すれば許容（原文の省略引用）。"""
     if any(q in c for c in corpora):
         return True
     segs = [s for s in ELLIPSIS.split(q) if s]
-    if len(segs) >= 2:
+    if len(segs) >= 1:
         for c in corpora:
             pos = 0
             ok = True
@@ -102,138 +106,227 @@ def quote_in(q: str, *corpora: str) -> bool:
                 return True
     return False
 
-HEADS = ["## 概要", "## 流れ", "## 主要な話題・設定", "## 注目投稿"]
+SCOPES = {
+    "units":   {"suffix": "_l1u",   "dir": "units",
+                "heads": ["## 概要", "## 流れ", "## 主要な話題・設定", "## 注目投稿"]},
+    "topics":  {"suffix": "_l1tp",  "dir": "topics",
+                "heads": ["## 概要", "## 記述の流れ", "## 主要な設定", "## 注目投稿"]},
+    "authors": {"suffix": "_l1au",  "dir": "authors",
+                "heads": ["## 概要", "## 活動の流れ", "## 主な作品・設定", "## 注目投稿"]},
+}
 
-def mech_gate(uid, art, body_all, chain_summaries=""):
+def mech_gate(key, art, corpora, heads):
     issues = []
-    body_n = norm(body_all)
-    summ_n = norm(chain_summaries)
-    # 引用照合は「注目投稿」欄のみ。照合対象 = 原文全文 ∪ 群索引の要約（記事生成時に提示済みの正準文）。
+    corpora_n = [norm(c) for c in corpora if c]
     m = re.search(r"##\s*注目投稿(.*?)(?=\n##|\Z)", art, re.S)
     sec = m.group(1) if m else ""
-    for q in re.findall(r"「([^」]+)」", sec):
+    for q in QUOTE_RE.findall(sec):
         if len(q) > 100:
-            issues.append(f"{uid}:QUOTE_LONG:{len(q)}")
-        elif not quote_in(norm(q), body_n, summ_n):
-            issues.append(f"{uid}:QUOTE_NOTFOUND:{q[:30]}")
-    for h in HEADS:
+            issues.append(f"{key}:QUOTE_LONG:{len(q)}")
+        elif not quote_in(norm(q), *corpora_n):
+            issues.append(f"{key}:QUOTE_NOTFOUND:{q[:30]}")
+    for h in heads:
         if h not in art:
-            issues.append(f"{uid}:HEAD_MISSING:{h}")
+            issues.append(f"{key}:HEAD_MISSING:{h}")
     return issues
 
-def judge(uid, title, art, chains, posts, mx):
-    by_no = {p["post_no"]: p for p in posts}
-    lines = [f"=== 記事（{title}） ===", art, "", "=== 群索引 ==="]
-    for c in chains:
-        t = ",".join(c.get("topics", [])) or "—"
-        lines.append(f"{c['chain_id'].split('#')[1]} [{c['post_range'][0]}-{c['post_range'][1]}] "
-                     f"{c['author']} 話題:{t} 要約: {c.get('summary','')}")
-    lines.append("")
-    lines.append("=== コーパス本文（抜粋） ===")
-    for c in chains:
-        txt = "\n".join(by_no[n]["body"] for n in c["post_nos"] if n in by_no)
-        lines.append(f"[g{c['chain_id'].split('#')[1]}] {txt[:mx]}")
-    lines += ["", "判定任务: この L1 記事はコーパスに忠実か。",
-              "- 概要/流れ/設定が本文事実と一致しているか（文中に無い創作がないか）",
-              "- 引用が実在し文脈を曲げていないか",
-              "- 群番号参照が群索引と矛盾しないか",
-              '出力: 「判定: 一致」/「判定: 一部一致」/「判定: 不一致」の 1 行目＋2 行目に理由 1 文']
-    out = call_llm("\n".join(lines))
+def judge(key, title, art, ctx, mx=300):
+    out = call_llm(f"=== 記事（{title}） ===\n{art}\n\n=== 出典コーパス側コンテキスト ===\n{ctx}\n\n"
+                   "判定任务: この L1 記事は出典コーパスに忠実か。\n"
+                   "- 概要/流れ/設定が本文事実と一致しているか（文中に無い創作がないか）\n"
+                   "- 引用が実在し文脈を曲げていないか\n"
+                   "- 参照（群番号・unit:post_no）が索引と矛盾しないか\n"
+                   '出力: 「判定: 一致」/「判定: 一部一致」/「判定: 不一致」の 1 行目＋2 行目に理由 1 文')
     m = re.search(r"判定[:：]\s*(一致|一部一致|不一致)", out)
     verdict = m.group(1) if m else "未判定"
     reason = out.splitlines()[1].strip() if len(out.splitlines()) > 1 else out[:80]
     return verdict, reason
 
+_GLOBAL = {}
+
+def global_corpus(l0_latest):
+    if "corpora" not in _GLOBAL:
+        bodies, sums = [], []
+        seen = set()
+        for u in jl(L0 / "runs" / l0_latest / "units.jsonl"):
+            if u["unit_id"] in seen:
+                continue
+            seen.add(u["unit_id"])
+            d = unit_dir(u)
+            bodies.append("\n".join(p["body"] for p in jl(d / "structured.jsonl")))
+            sums.append("\n".join(c.get("summary", "") for c in jl(d / "chains.jsonl")))
+        _GLOBAL["corpora"] = ["\n".join(bodies), "\n".join(sums)]
+    return _GLOBAL["corpora"]
+
+def frontmatter(art):
+    m = re.match(r"^---\n(.*?)\n---", art, re.S)
+    fm = {}
+    if m:
+        for line in m.group(1).splitlines():
+            if ":" in line:
+                k, v = line.split(":", 1)
+                fm[k.strip()] = v.strip().strip('"')
+    return fm
+
+def term_context(term, l0_latest):
+    lines, n = [], 0
+    seen = set()
+    for u in jl(L0 / "runs" / l0_latest / "units.jsonl"):
+        if u["unit_id"] in seen:
+            continue
+        seen.add(u["unit_id"])
+        d = unit_dir(u)
+        for p in jl(d / "structured.jsonl"):
+            i = p["body"].find(term)
+            if i < 0:
+                continue
+            s = max(0, i - 80)
+            lines.append(f"[{u['unit_id']}:{p['post_no']}] {p['author']}: …{p['body'][s:i+120]}…".replace("\n", " "))
+            n += 1
+            if n >= 18:
+                return "\n".join(lines)
+    return "\n".join(lines)
+
+def author_context(author, l0_latest, sp):
+    refs = []
+    for r in jl(sp / "by-author.jsonl"):
+        if r["author"] == author:
+            refs = r["refs"]
+            break
+    lines, n = [], 0
+    cache = {}
+    for ref in refs:
+        uid, no = ref.split(":")
+        if uid not in cache:
+            u = [x for x in jl(L0 / "runs" / l0_latest / "units.jsonl") if x["unit_id"] == uid]
+            cache[uid] = {p["post_no"]: (p["body"], u[0]["title"]) for p in jl(unit_dir(u[0]) / "structured.jsonl")} if u else {}
+        got = cache[uid].get(int(no))
+        if not got:
+            continue
+        lines.append(f"[{ref}] {got[1]}: {got[0][:150]}…".replace("\n", " "))
+        n += 1
+        if n >= 25:
+            break
+    return "\n".join(lines)
+
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--scope", default="units", choices=list(SCOPES))
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--max", type=int, default=300)
     ap.add_argument("--run-dir", default=None)
     a = ap.parse_args()
+    sc = SCOPES[a.scope]
 
-    l1_rid = (L1 / "latest.txt").read_text(encoding="utf-8").strip()
-    arts = {}
-    for p in sorted((L1 / "runs" / l1_rid / "units").glob("*.md")):
-        arts[p.stem] = p.read_text(encoding="utf-8")
+    run = max(p for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith(sc["suffix"]))
+    arts = {p.stem: rd(p) for p in sorted((run / sc["dir"]).glob("*.md"))}
     l0_latest = (L0 / "latest.txt").read_text(encoding="utf-8").strip()
-    urows, seen = [], set()
-    for u in jl(L0 / "runs" / l0_latest / "units.jsonl"):
-        if u["unit_id"] not in seen:
-            seen.add(u["unit_id"])
-            urows.append(u)
+    sp = max(p for p in (L0 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l0si")) / "search"
 
-    rid = a.run_dir or (dt.datetime.now().strftime("%Y%m%dT%H%M") + "_l1aud")
+    # 監査対象行の構築
+    if a.scope == "units":
+        rows_in, seen = [], set()
+        for u in jl(L0 / "runs" / l0_latest / "units.jsonl"):
+            if u["unit_id"] in seen:
+                continue
+            seen.add(u["unit_id"])
+            rows_in.append((u["unit_id"], u["title"]))
+        def corpora_for(key):
+            d = unit_dir([u for u in jl(L0 / "runs" / l0_latest / "units.jsonl") if u["unit_id"] == key][0])
+            return ["\n".join(p["body"] for p in jl(d / "structured.jsonl")),
+                    "\n".join(c.get("summary", "") for c in jl(d / "chains.jsonl"))]
+        def ctx_for(key):
+            u = [x for x in jl(L0 / "runs" / l0_latest / "units.jsonl") if x["unit_id"] == key][0]
+            d = unit_dir(u)
+            chains = jl(d / "chains.jsonl")
+            by_no = {p["post_no"]: p for p in jl(d / "structured.jsonl")}
+            lines = ["=== 群索引 ==="]
+            for c in chains:
+                t = ",".join(c.get("topics", [])) or "—"
+                lines.append(f"{c['chain_id'].split('#')[1]} [{c['post_range'][0]}-{c['post_range'][1]}] "
+                             f"{c['author']} 話題:{t} 要約: {c.get('summary','')}")
+            lines.append("=== コーパス本文（抜粋） ===")
+            for c in chains:
+                txt = "\n".join(by_no[n]["body"] for n in c["post_nos"] if n in by_no)
+                lines.append(f"[g{c['chain_id'].split('#')[1]}] {txt[:a.max]}")
+            return "\n".join(lines)
+    elif a.scope == "topics":
+        rows_in = [(s, frontmatter(arts[s]).get("term", s)) for s in sorted(arts)]
+        corpora_for = lambda key: global_corpus(l0_latest)
+        def ctx_for(key):
+            term = frontmatter(arts[key]).get("term", key)
+            return term_context(term, l0_latest)
+    else:  # authors
+        rows_in = [(s, frontmatter(arts[s]).get("author", s)) for s in sorted(arts)]
+        corpora_for = lambda key: global_corpus(l0_latest)
+        def ctx_for(key):
+            author = frontmatter(arts[key]).get("author", key)
+            return author_context(author, l0_latest, sp)
+
+    rid = a.run_dir or (dt.datetime.now().strftime("%Y%m%dT%H%M") + "_l1" + sc["suffix"][2:] + "aud")
     out = L1 / "runs" / rid
     out.mkdir(parents=True, exist_ok=True)
     done = {}
     jf = out / "judged.jsonl"
     if jf.exists():
         for r in jl(jf):
-            done[r["unit_id"]] = r
+            done[r["key"]] = r
 
-    def work(u):
-        uid = u["unit_id"]
-        if uid in done:
+    def work(row):
+        key, title = row
+        if key in done:
             return
-        art = arts.get(uid)
+        art = arts.get(key)
         if not art:
             with jf.open("a", encoding="utf-8") as f:
-                f.write(json.dumps({"unit_id": uid, "verdict": "未判定",
-                                    "reason": "記事なし"}, ensure_ascii=False) + "\n")
+                f.write(json.dumps({"key": key, "verdict": "未判定", "reason": "記事なし"},
+                                   ensure_ascii=False) + "\n")
             return
         body_md = re.sub(r"^---.*?---\s*", "", art, count=1, flags=re.S)
-        d = unit_dir(u)
-        chains = jl(d / "chains.jsonl")
-        posts = jl(d / "structured.jsonl")
-        body_all = "\n".join(p["body"] for p in posts)
-        sums = "\n".join(c.get("summary", "") for c in chains)
-        mech = mech_gate(uid, body_md, body_all, sums)
-        verdict, reason = judge(uid, u["title"], body_md, chains, posts, a.max)
+        mech = mech_gate(key, body_md, corpora_for(key), sc["heads"])
+        verdict, reason = judge(key, title, body_md, ctx_for(key), a.max)
         if mech:
             verdict = "不一致"
             reason = "機械ゲート: " + "; ".join(mech[:3])
         with jf.open("a", encoding="utf-8") as f:
-            f.write(json.dumps({"unit_id": uid, "verdict": verdict, "reason": reason,
+            f.write(json.dumps({"key": key, "verdict": verdict, "reason": reason,
                                 "model": CFG["model"], "ts": dt.datetime.now().isoformat()},
                                ensure_ascii=False) + "\n")
 
     with ThreadPoolExecutor(max_workers=a.workers) as ex:
-        list(ex.map(work, urows))
+        list(ex.map(work, rows_in))
 
-    rows = {r["unit_id"]: r for r in jl(jf)}
-    # 機械ゲートは決定論なので、LLM 判定済み行にも常に再適用する（judged 再利用の高速再監査）
-    for u in urows:
-        r = rows.get(u["unit_id"])
+    rows = {r["key"]: r for r in jl(jf)}
+    for key, title in rows_in:
+        r = rows.get(key)
         if not r or r["reason"].startswith("機械ゲート") or r["verdict"] == "未判定":
             continue
-        art = arts.get(u["unit_id"])
+        art = arts.get(key)
         if not art:
             continue
         body_md = re.sub(r"^---.*?---\s*", "", art, count=1, flags=re.S)
-        d = unit_dir(u)
-        body_all = "\n".join(p["body"] for p in jl(d / "structured.jsonl"))
-        sums = "\n".join(c.get("summary", "") for c in jl(d / "chains.jsonl"))
-        mech = mech_gate(u["unit_id"], body_md, body_all, sums)
+        mech = mech_gate(key, body_md, corpora_for(key), sc["heads"])
         if mech:
+            r = dict(r)
             r["verdict"] = "不一致"
             r["reason"] = "機械ゲート: " + "; ".join(mech[:3])
             with jf.open("a", encoding="utf-8") as f:
                 f.write(json.dumps(r, ensure_ascii=False) + "\n")
-            rows[u["unit_id"]] = r
+            rows[key] = r
     counts = {}
     for r in rows.values():
         counts[r["verdict"]] = counts.get(r["verdict"], 0) + 1
     n = len(rows)
     ok = counts.get("一致", 0) + counts.get("一部一致", 0)
     rate = ok / n if n else 0.0
-    flagged = [r["unit_id"] for r in rows.values() if r["verdict"] not in ("一致", "一部一致")]
+    flagged = [r["key"] for r in rows.values() if r["verdict"] not in ("一致", "一部一致")]
     (out / "flagged.jsonl").write_text("".join(u + "\n" for u in flagged), encoding="utf-8")
     passed = rate >= THRESHOLD and len(flagged) == 0
     (out / "audit.json").write_text(json.dumps({
-        "run_id": rid, "l1_run": l1_rid, "articles": n, "counts": counts,
+        "run_id": rid, "scope": a.scope, "l1_run": run.name, "articles": n, "counts": counts,
         "pass_rate": round(rate, 4), "flagged": len(flagged), "model": CFG["model"]},
         ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"L1-AUDIT {rid} {'PASS' if passed else 'ISSUES'} flagged={len(flagged)} "
+    print(f"L1-AUDIT[{a.scope}] {rid} {'PASS' if passed else 'ISSUES'} flagged={len(flagged)} "
           f"rate={rate:.4f} {json.dumps(counts, ensure_ascii=False)}")
     return 0 if passed else 1
 

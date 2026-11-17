@@ -125,6 +125,48 @@
       "status": "retired",
       "path": "work/yuragi/L1/archive_l1aud_2216",
       "reason": "機械ゲートが設定名引用を全件誤検出"
+    },
+    "20261118T0158_l1tp": {
+      "kind": "l1-articles-topics",
+      "status": "current",
+      "path": "work/yuragi/L1/runs/20261118T0158_l1tp",
+      "result": "220 篇"
+    },
+    "20261118T0354_l11tpaud": {
+      "kind": "l1-audit-topics",
+      "status": "current",
+      "path": "work/yuragi/L1/runs/20261118T0354_l11tpaud",
+      "result": "PASS 一致 220/220 100%"
+    },
+    "20261118T0148_l1au": {
+      "kind": "l1-articles-authors",
+      "status": "current",
+      "path": "work/yuragi/L1/runs/20261118T0148_l1au",
+      "result": "20 名・casefold 連番 slug"
+    },
+    "20261118T0319_l11auaud": {
+      "kind": "l1-audit-authors",
+      "status": "current",
+      "path": "work/yuragi/L1/runs/20261118T0319_l11auaud",
+      "result": "PASS 一致 20/20 100%"
+    },
+    "20261118T0149_l1ch": {
+      "kind": "l1-articles-chronology",
+      "status": "current",
+      "path": "work/yuragi/L1/runs/20261118T0149_l1ch",
+      "result": "年表 1 篇・year カウント決定論照合一致"
+    },
+    "20261118T0222_l1full": {
+      "kind": "l1-pages-full",
+      "status": "current",
+      "path": "work/yuragi/L1/runs/20261118T0222_l1full",
+      "result": "制約なし版 185 ページ・verify バイト一致 PASS"
+    },
+    "20261118T0151_l1full": {
+      "kind": "l1-pages-full",
+      "status": "retired",
+      "path": "work/yuragi/L1/archive/0151_l1full_newlinebug",
+      "reason": "改行変換バグ（\\r\\r\\n）→ archive/0151_l1full_newlinebug"
     }
   }
 }

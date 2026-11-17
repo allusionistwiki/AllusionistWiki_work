@@ -31,7 +31,11 @@
 ## 現況（2026-11-18）
 
 - 篇記事 `runs/20261117T2115_l1u`（units 185 篇・Strata swift-1.5-iq3_xxs 生成）— LLM 全量監査＋機械ゲート `runs/20261117T2300_l1aud` **PASS・一致 185/185（100%）**。
-- 監査の機械ゲート: 注目投稿欄の引用=原文∪chain 要約の連続部分文字列（省略記号は分節照合・読点正規化）・100 字以内・規定見出し 4 個。引用修復は `scripts/fix_yuragi_l1_quotes.py`（文境界トリム＋LCS 置換）。
+- 話題記事 `runs/20261118T0158_l1tp`（topics 220 篇・語句出現 4 以上）— 監査 `runs/20261118T0354_l11tpaud` **PASS・一致 220/220（100%）**。
+- 作者記事 `runs/20261118T0148_l1au`（authors 20 名・投稿 100 以上、slug は casefold 連番）— 監査 `runs/20261118T0319_l11auaud` **PASS・一致 20/20（100%）**。
+- 年表 `runs/20261118T0149_l1ch/chrono/chronology.md` — 決定論照合（記事内全年カウント=③投稿 date_iso 集計と一致・乖離 0）。
+- 制約なし版 `runs/20261118T0222_l1full`（185 ページ・原文 48,891 投稿全文を決定論埋め込み）— `scripts/verify_yuragi_l1_full.py` **PASS・決定論再構成バイト一致 185/185**（改行変換バグの旧 run `0151_l1full` は `archive/0151_l1full_newlinebug` へ退役）。
+- 監査の機械ゲート: 注目投稿欄の引用=原文∪chain 要約の連続部分文字列（省略記号は分節照合・読点正規化・入れ子「」対応）・100 字以内・規定見出し 4 個。引用修復は `scripts/fix_yuragi_l1_quotes.py`（sec 全体一括・文境界トリム＋unit 限定 LCS）。
 - 検索: `scripts/search_yuragi.py`（term/author/date/grep/chain/unit）＋ `scripts/read_yuragi.py`（LLM ペイロード）。
-- 未着手: topics/authors/chronology 記事、制約なし版記事、Quartz 公開配線（portal 配下 `YuragiWiki/` L1 版＋`full/` 版を予定、ユーザー承認後）。
+- 残作業: Quartz 公開配線（portal 配下 `YuragiWiki/` L1 版＋`full/` 版を予定、制約なし版の公開はユーザー承認必須）。
 - 退役: 監査 `2216_l1aud`（ゲート誤検出）は run 外へ移動。旧 1 層設計（v1/v2・2026-11-11 系）はリセット（`838f412`）で撤去済み・来歴は git 履歴。
