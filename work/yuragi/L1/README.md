@@ -37,5 +37,6 @@
 - 制約なし版 `runs/20261118T0222_l1full`（185 ページ・原文 48,891 投稿全文を決定論埋め込み）— `scripts/verify_yuragi_l1_full.py` **PASS・決定論再構成バイト一致 185/185**（改行変換バグの旧 run `0151_l1full` は `archive/0151_l1full_newlinebug` へ退役）。
 - 監査の機械ゲート: 注目投稿欄の引用=原文∪chain 要約の連続部分文字列（省略記号は分節照合・読点正規化・入れ子「」対応）・100 字以内・規定見出し 4 個。引用修復は `scripts/fix_yuragi_l1_quotes.py`（sec 全体一括・文境界トリム＋unit 限定 LCS）。
 - 検索: `scripts/search_yuragi.py`（term/author/date/grep/chain/unit）＋ `scripts/read_yuragi.py`（LLM ペイロード）。
-- 残作業: Quartz 公開配線（portal 配下 `YuragiWiki/` L1 版＋`full/` 版を予定、制約なし版の公開はユーザー承認必須）。
+- 公開: **https://allusionistwiki.github.io/YuragiWiki/**（L1 版=site 直下・制約なし版=`/full/`・portal カード直リンク・CI=Pages workflow／YuragiWiki repo content/ git 管理）。
+- 残作業: 特になし（公開完了）。将来の更新は `scripts/publish_yuragi_site.py`（run ID 定数更新→再実行→YuragiWiki commit/push→CI 自動デプロイ）。
 - 退役: 監査 `2216_l1aud`（ゲート誤検出）は run 外へ移動。旧 1 層設計（v1/v2・2026-11-11 系）はリセット（`838f412`）で撤去済み・来歴は git 履歴。
