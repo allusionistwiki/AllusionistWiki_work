@@ -34,7 +34,15 @@ def norm_term(s: str) -> str:
     return s[:40]
 
 def jl(p: Path):
-    return [json.loads(l) for l in rd(p).splitlines() if l.strip()]
+    out = []
+    for l in rd(p).splitlines():
+        if not l.strip():
+            continue
+        r = json.loads(l)
+        if isinstance(r, dict) and r.get("_meta"):
+            continue  # ③ 篇メタ行は投稿行ではない
+        out.append(r)
+    return out
 
 def main():
     rid = datetime.now(JST).strftime("%Y%m%dT%H%M") + "_l0aud"

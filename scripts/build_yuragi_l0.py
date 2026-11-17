@@ -59,7 +59,15 @@ def iso_date(raw: str):
     return dt.isoformat(), dt.timestamp()
 
 def jl(p: Path):
-    return [json.loads(l) for l in rd(p).splitlines() if l.strip()]
+    out = []
+    for l in rd(p).splitlines():
+        if not l.strip():
+            continue
+        r = json.loads(l)
+        if isinstance(r, dict) and r.get("_meta"):
+            continue  # ③ 篇メタ行は投稿行ではない
+        out.append(r)
+    return out
 
 def make_windows(chain):
     """④ 群 → LLM 窓（budget 超のみ post 境界分割）。"""

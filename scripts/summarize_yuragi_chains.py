@@ -49,7 +49,15 @@ def rd(p: Path) -> str:
     return p.read_bytes().decode("utf-8", errors="replace")
 
 def jl(p: Path):
-    return [json.loads(l) for l in rd(p).splitlines() if l.strip()]
+    out = []
+    for l in rd(p).splitlines():
+        if not l.strip():
+            continue
+        r = json.loads(l)
+        if isinstance(r, dict) and r.get("_meta"):
+            continue  # ③ 篇メタ行は投稿行ではない
+        out.append(r)
+    return out
 
 def all_chains():
     """Yuragi ④ chains.jsonl 全 185 篇ぶん＋③ 本文から chain 本文を作る。"""

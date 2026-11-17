@@ -64,27 +64,47 @@
       "path": "work/yuragi/L0/runs/20261117T1300_l0saud"
     },
     "20261117T1136_l0c": {
-      "status": "current",
+      "status": "retired",
       "kind": "l0-ledger-v3",
-      "path": "work/yuragi/L0/runs/20261117T1136_l0c"
+      "path": "work/yuragi/L0/runs/20261117T1136_l0c",
+      "reason": "③④ 構造改修（篇メタ行分離・unit_id 重複排除）による再生成（2021/2022/2023 系へ）"
     },
     "20261117T1137_l0si": {
-      "status": "current",
+      "status": "retired",
       "kind": "l0-search-index",
       "path": "work/yuragi/L0/runs/20261117T1137_l0si",
-      "derived_from": "20261117T1136_l0c"
+      "derived_from": "20261117T1136_l0c",
+      "reason": "③④ 構造改修（篇メタ行分離・unit_id 重複排除）による再生成（2021/2022/2023 系へ）"
     },
     "20261117T1137_l0aud": {
-      "status": "current",
+      "status": "retired",
       "kind": "audit",
       "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261117T1137_l0aud"
+      "path": "work/yuragi/L0/runs/20261117T1137_l0aud",
+      "reason": "③④ 構造改修（篇メタ行分離・unit_id 重複排除）による再生成（2021/2022/2023 系へ）"
     },
     "20261114T0419_l0aud": {
       "kind": "l0",
       "path": "work/yuragi/L0/archive/20261114T0419_l0aud",
       "status": "retired",
       "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
+    },
+    "20261117T2021_l0c": {
+      "status": "current",
+      "kind": "l0-ledger-v3",
+      "path": "work/yuragi/L0/runs/20261117T2021_l0c"
+    },
+    "20261117T2022_l0si": {
+      "status": "current",
+      "kind": "l0-search-index",
+      "path": "work/yuragi/L0/runs/20261117T2022_l0si",
+      "derived_from": "20261117T2021_l0c"
+    },
+    "20261117T2023_l0aud": {
+      "status": "current",
+      "kind": "audit",
+      "result": "PASS",
+      "path": "work/yuragi/L0/runs/20261117T2023_l0aud"
     }
   }
 }
