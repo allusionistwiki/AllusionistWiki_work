@@ -106,5 +106,25 @@
       "result": "PASS",
       "path": "work/yuragi/L0/runs/20261117T2023_l0aud"
     }
+  },
+  "L1": {
+    "20261117T2115_l1u": {
+      "kind": "l1-units",
+      "status": "latest",
+      "path": "work/yuragi/L1/runs/20261117T2115_l1u",
+      "note": "篇記事 185 篇・Strata swift-1.5-iq3_xxs 生成"
+    },
+    "20261117T2300_l1aud": {
+      "kind": "l1-audit",
+      "status": "latest",
+      "path": "work/yuragi/L1/runs/20261117T2300_l1aud",
+      "note": "LLM 全量監査＋機械ゲート PASS 一致 185/185 (100%)；2216 ゲート誤検出のため差し替え"
+    },
+    "20261117T2216_l1aud": {
+      "kind": "l1-audit",
+      "status": "retired",
+      "path": "work/yuragi/L1/archive_l1aud_2216",
+      "reason": "機械ゲートが設定名引用を全件誤検出"
+    }
   }
 }
