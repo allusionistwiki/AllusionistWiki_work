@@ -1,33 +1,37 @@
 {
   "L0": {
     "20261114T0417_l0c": {
-      "status": "current",
+      "status": "retired",
       "kind": "l0-ledger-v3",
-      "path": "work/yuragi/L0/runs/20261114T0417_l0c"
+      "path": "work/yuragi/L0/runs/20261114T0417_l0c",
+      "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
     },
     "20261114T0417_l0si": {
-      "status": "current",
+      "status": "retired",
       "kind": "l0-search-index",
       "path": "work/yuragi/L0/runs/20261114T0417_l0si",
-      "derived_from": "20261114T0417_l0c"
+      "derived_from": "20261114T0417_l0c",
+      "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
     },
     "20261114T0421_l0aud": {
-      "status": "current",
+      "status": "retired",
       "kind": "audit",
       "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261114T0421_l0aud"
+      "path": "work/yuragi/L0/runs/20261114T0421_l0aud",
+      "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
     },
     "20261114T0432_l0aud": {
-      "status": "current",
+      "status": "retired",
       "kind": "audit",
       "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261114T0432_l0aud"
+      "path": "work/yuragi/L0/runs/20261114T0432_l0aud",
+      "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
     },
     "20261114T1727_l0saud": {
-      "status": "current",
       "kind": "l0-summary-audit",
-      "result": "ISSUES",
-      "path": "work/yuragi/L0/runs/20261114T1727_l0saud"
+      "status": "retired",
+      "reason": "counter バグ（prefill 合算なし）判明のため 20261117T1300_l0saud（100%）に置換",
+      "path": "work/yuragi/L0/archive/20261114T1727_l0saud"
     },
     "20261116T2019_l0saud": {
       "status": "current",
@@ -75,6 +79,12 @@
       "kind": "audit",
       "result": "PASS",
       "path": "work/yuragi/L0/runs/20261117T1137_l0aud"
+    },
+    "20261114T0419_l0aud": {
+      "kind": "l0",
+      "path": "work/yuragi/L0/archive/20261114T0419_l0aud",
+      "status": "retired",
+      "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
     }
   }
 }
