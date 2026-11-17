@@ -69,8 +69,12 @@ def main():
     if "--limit" in sys.argv:
         limit = int(sys.argv[sys.argv.index("--limit") + 1])
     rid = datetime.now(JST).strftime("%Y%m%dT%H%M") + "_l0saud"
+    if "--run-dir" in sys.argv:
+        rid = Path(sys.argv[sys.argv.index("--run-dir") + 1]).name
     run = L0 / "runs" / rid
     run.mkdir(parents=True, exist_ok=True)
+    judged_p = run / "judged.jsonl"
+    done_ids = {v["chain_id"] for v in jl(judged_p)} if judged_p.exists() else set()
     pairs, sdir_name, l0_run = load_pairs()
 
     from openai import OpenAI
@@ -137,29 +141,40 @@ def main():
         return res
 
     n = len(todo)
-    for i in range(0, n, BATCH):
+    todo = [x for x in todo if x[0]["chain_id"] not in done_ids]
+    def emit_judged(rows):
+        with judged_p.open("a", encoding="utf-8", newline="\n") as f:
+            for r in rows:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    for i in range(0, len(todo), BATCH):
         batch = todo[i:i + BATCH]
         res = judge_batch(batch)
+        rows = []
         for j, (c, text, s) in enumerate(batch):
             v = res.get(j)
             if v is None:
-                unresolved.append(c["chain_id"])
-                flagged.append(c["chain_id"])
-                verdicts.append({"chain_id": c["chain_id"], "verdict": "未判定"})
-                continue
-            verdicts.append({"chain_id": c["chain_id"], "verdict": v, "model": model})
-            if v == "不一致":
-                flagged.append(c["chain_id"])
+                row = {"chain_id": c["chain_id"], "verdict": "未判定"}
+            else:
+                row = {"chain_id": c["chain_id"], "verdict": v, "model": model}
+            rows.append(row)
+        emit_judged(rows)
+        verdicts.extend(rows)
         if (i // BATCH) % 20 == 0:
-            print(f"judge {min(i + BATCH, n)}/{n}", file=sys.stderr)
+            print(f"judge {min(i + BATCH, len(todo))}/{len(todo)}", file=sys.stderr)
 
+    allrows = {v["chain_id"]: v for v in jl(judged_p)}
+    for v in verdicts:
+        allrows[v["chain_id"]] = v
+    verdicts = list(allrows.values())
     n_ok = sum(1 for v in verdicts if v["verdict"] == "一致")
     n_part = sum(1 for v in verdicts if v["verdict"] == "一部一致")
     n_no = sum(1 for v in verdicts if v["verdict"] == "不一致")
+    n_un = sum(1 for v in verdicts if v["verdict"] == "未判定")
     judged = n_ok + n_part + n_no
     rate = (n_ok + n_part) / judged if judged else 0.0
+    flagged = sorted({v["chain_id"] for v in verdicts if v["verdict"] in ("不一致", "未判定")})
     counters = {"chains": len(pairs), "judged": judged, "一致": n_ok, "一部一致": n_part,
-                "不一致": n_no, "未判定": len(unresolved), "sha_bad": len(sha_bad),
+                "不一致": n_no, "未判定": n_un, "sha_bad": len(sha_bad),
                 "pass_rate": round(rate, 4)}
     (run / "verdicts.jsonl").write_text(
         "".join(json.dumps(v, ensure_ascii=False) + "\n" for v in verdicts),
@@ -167,7 +182,7 @@ def main():
     (run / "flagged.jsonl").write_text(
         "".join(json.dumps({"chain_id": cid}, ensure_ascii=False) + "\n" for cid in flagged),
         encoding="utf-8", newline="\n")
-    passed = rate >= THRESHOLD and len(unresolved) == 0
+    passed = rate >= THRESHOLD and n_un == 0
     report = {
         "audit_of": {"sum_run": sdir_name, "l0_run": l0_run},
         "method": f"LLM 全量判定（生成と独立パス・batch {BATCH}・本文 {TRUNC} 字まで）",

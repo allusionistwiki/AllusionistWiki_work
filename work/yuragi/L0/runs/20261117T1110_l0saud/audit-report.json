@@ -1,0 +1,19 @@
+{
+ "audit_of": {
+  "sum_run": "20261114T1719_l0sum+20261117T1054_l0sum+20261117T1102_l0sum",
+  "l0_run": "20261114T0417_l0c"
+ },
+ "method": "LLM 全量判定（生成と独立パス・batch 10・本文 3000 字まで）",
+ "threshold": 0.99,
+ "counters": {
+  "chains": 16271,
+  "judged": 16271,
+  "一致": 13463,
+  "一部一致": 2791,
+  "不一致": 17,
+  "未判定": 0,
+  "sha_bad": 0,
+  "pass_rate": 0.999
+ },
+ "passed": true
+}
