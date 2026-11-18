@@ -15,6 +15,7 @@ import sys
 from pathlib import Path
 
 W = Path(r"C:/Users/d5dx/Downloads/Code/AllusionistWiki_work")
+PAGE_POSTS = 100  # 分页: 1 ページあたり投稿数
 RAW = Path(r"C:/Users/d5dx/Downloads/Code/YuragiWiki") / "raw" / "bbs"
 L0 = W / "work" / "yuragi" / "L0"
 L1 = W / "work" / "yuragi" / "L1"
@@ -66,18 +67,54 @@ def main():
             print(f"skip (篇記事なし): {uid}")
             continue
         art_body = art.read_text(encoding="utf-8").split("---\n", 2)[2]
-        sec = ["\n\n## スレッド原文（全文・制約なし版）\n",
-               "\n> 原文の著作権は各投稿者に帰属します。出典: YuragiWiki raw（" + u["url"] + "）\n"]
-        for p in posts:
-            sec.append(f"\n**{p['post_no']}** {p['author']} {p.get('date_iso') or '（日付なし）'}\n\n"
-                       + p["body"] + "\n")
-        full = "".join(sec)
-        head = (f"---\ntitle: \"{u['title']}\"\nunit: {uid}\nsource: {u['source']}\nurl: {u['url']}\n"
-                f"version: full（制約なし・原文全文同梱）\narticle_run: {unit_run}\nrun: {rid}\n---\n\n"
-                + art_body + full)
-        # newline 変換なしでバイトどおり書く（raw 規約: \n は \n・原文 \r\n は \r\n）
-        (out / "units" / f"{uid}.md").write_bytes(head.encode("utf-8"))
-        per_unit[uid] = {"posts": len(posts),
+        n = len(posts)
+        pages = max(1, (n + PAGE_POSTS - 1) // PAGE_POSTS)
+        def page_file(k):  # 1-indexed page number -> out-relative path
+            return f"units/{uid}.md" if k == 1 else f"pages/{uid}/p{k}.md"
+        def page_url(k):   # site URL path segment for page k
+            return "" if k == 1 else f"p{k}"
+        fm = (f"---\ntitle: \"{u['title']}\"\nunit: {uid}\nsource: {u['source']}\nurl: {u['url']}\n"
+              f"version: full（制約なし・原文全文同梱）\narticle_run: {unit_run}\nrun: {rid}\n---\n\n")
+        per_pages = []
+        for k in range(1, pages + 1):
+            lo, hi = (k - 1) * PAGE_POSTS, min(k * PAGE_POSTS, n)
+            sec = []
+            head = fm if k == 1 else fm.replace('version: full（制約なし・原文全文同梱）\n',
+                                                f'version: full p{k}/{pages}\n')
+            if k == 1:
+                sec.append(art_body)
+                sec.append("\n\n## スレッド原文（全文・制約なし版）\n")
+                sec.append("\n> 原文の著作権は各投稿者に帰属します。出典: YuragiWiki raw（" + u["url"] + "）\n")
+            nav = []
+            if pages > 1:
+                def purl(kk):
+                    return ".." if kk == 1 else f"p{kk}"
+                nav.append(f"\n\n— 原文 {lo+1}〜{hi} / 全 {n} 投稿（{k}/{pages} ページ）—")
+                if k > 1:
+                    nav.append(f" [前のページ]({purl(k-1)})")
+                if k < pages:
+                    nav.append(f" [次のページ]({purl(k+1)})")
+                nav.append(" [篇記事へ](../../units/" + uid + ")")
+            sec.append("".join(nav))
+            ppb = []
+            for p in posts[lo:hi]:
+                blk = (f"\n<a id=\"post-{p['post_no']}\"></a>\n\n"
+                       f"**{p['post_no']}** {p['author']} {p.get('date_iso') or '（日付なし）'} "
+                       f"[#{p['post_no']}](#post-{p['post_no']})"
+                       f"\n\n{p['body']}\n")
+                sec.append(blk)
+                ppb.append(p["body"])
+            outpage = "".join(sec)
+            if k == 1:
+                dest = out / "units" / f"{uid}.md"
+                dest.parent.mkdir(parents=True, exist_ok=True)
+            else:
+                dest = out / "pages" / uid / f"p{k}.md"
+                dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(head.encode("utf-8") + outpage.encode("utf-8"))
+            per_pages.append({"page": k, "posts": [lo + 1, hi],
+                              "body_sha1": sha1("\n\n".join(ppb))})
+        per_unit[uid] = {"posts": n, "pages": pages, "page_sha1": per_pages,
                          "body_sha1": sha1("\n\n".join(p["body"] for p in posts))}
         n_ok += 1
 

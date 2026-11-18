@@ -26,7 +26,7 @@ TOPICS_AUDIT = "20261118T0354_l11tpaud"
 AUTHORS_RUN = "20261118T0148_l1au"
 AUTHORS_AUDIT = "20261118T0319_l11auaud"
 CHRONO_RUN = "20261118T0149_l1ch"
-FULL_RUN = "20261118T0222_l1full"
+FULL_RUN = "20261118T1948_l1full"
 ENTITIES_RUN = None  # entities 生成後に設定（runs 内の最新 _l1en を自動検出）
 
 
@@ -73,15 +73,46 @@ def main() -> int:
                 ref_url[r["ref"]] = BLOB + rel + "/" + f
 
     LINK_RE = re.compile(r"YJ-[A-Za-z]+[0-9]+:[0-9]+")
+    FULLSITE = "https://allusionistwiki.github.io/YuragiWiki/full/"
 
-    def linkify(body: str) -> str:
+    # 投稿 permalink 地図: uid -> {post_no: ページ URL}
+    post_page = {}
+    for uid, u in units.items():
+        rel = unit_dir_rel.get(uid)
+        if not rel:
+            continue
+        nums = [r["post_no"] for r in jl(RAW_BBS / rel / "structured.jsonl")]
+        post_page[uid] = {pno: ("" if (k := i // 100 + 1) == 1 else f"p{k}")
+                          for i, pno in enumerate(nums)}
+
+    def permalink(uid: str, n: int) -> str | None:
+        seg = post_page.get(uid, {}).get(n)
+        if seg is None:
+            return None
+        return f"{FULLSITE}{uid}/{seg}#post-{n}"
+
+    def linkify(body: str, uid: str | None = None) -> str:
         def rep(mo):
             ref = mo.group(0)
             u = ref_url.get(ref)
             if not u:
                 return ref
             return f"[{ref}]({u})"
-        return LINK_RE.sub(rep, body)
+        body = LINK_RE.sub(rep, body)
+        # YJ-uid:N → full 版投稿 permalink（原文アンカー）
+        def rep2(mo):
+            uid_, n = mo.group(1), int(mo.group(2))
+            pl = permalink(uid_, n)
+            return f"[{uid_}:{n}]({pl})" if pl else mo.group(0)
+        body = re.sub(r"(?<![\[/A-Za-z0-9-])(YJ-[A-Za-z0-9]+):(\d+)(?!/[A-Za-z])", rep2, body)
+        # units 記事の「投稿N」→ 自篇 full permalink
+        if uid:
+            def rep3(mo):
+                n = int(mo.group(1))
+                pl = permalink(uid, n)
+                return f"[投稿{n}]({pl})" if pl else mo.group(0)
+            body = re.sub(r"投稿(\d+)", rep3, body)
+        return body
 
     def emit(md: Path, dest: Path, title: str, extra_fm: dict, uid: str | None = None):
         txt = md.read_bytes().decode("utf-8", "replace")
@@ -93,16 +124,13 @@ def main() -> int:
         fm2 = fm + "\n" + "".join(f'{k}: "{v}"\n' for k, v in extra_fm.items() if k not in fm)
         if "title:" not in fm:
             fm2 = f'title: "{t}"\n' + fm2
-        body = linkify(body)
-        if uid:
-            # 篇記事の「投稿N」→ 制約なし版（同一篇）へのリンク
-            body = re.sub(r"投稿(\d+)", rf"[投稿\1](../full/{uid})", body)
+        body = linkify(body, uid if uid and dest.parent.name == "units" else None)
         # 原文の $ ペアは LaTeX math と誤認されるためエスケープ（Katex unicode 化防止）
-        body = re.sub(r"(?<!\\)\$", r"\\$", body)
+        body = re.sub(r"(?<!\\)\$", r"\\\$", body)
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_bytes(f"---\n{fm2}---\n{body}".encode("utf-8"))
 
-    # full（制約なし版）
+    # full（原文全文版・篇索引＋投稿 permalink 分页）
     for p in sorted((L1 / "runs" / FULL_RUN / "units").glob("*.md")):
         uid = p.stem
         t = units.get(uid, {}).get("title", uid)
@@ -111,6 +139,13 @@ def main() -> int:
         cur = fp.read_bytes().decode("utf-8", "replace")
         if "[[units/" not in cur:
             fp.write_bytes((cur.rstrip("\r\n") + f"\n\n---\n関連: [[units/{uid}|L1 版記事]]\n").encode("utf-8"))
+    pages_dir = L1 / "runs" / FULL_RUN / "pages"
+    if pages_dir.exists():
+        for pp in sorted(pages_dir.glob("*/*.md")):
+            uid = pp.parent.name
+            t = units.get(uid, {}).get("title", uid)
+            emit(pp, CONTENT / "full" / uid / pp.name, f"{t}（原文 {pp.stem}）",
+                 {"link_audit": FULL_RUN, "unit": uid})
 
     # units（L1 版）
     for p in sorted((L1 / "runs" / UNITS_RUN / "units").glob("*.md")):

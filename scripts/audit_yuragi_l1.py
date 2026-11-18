@@ -115,6 +115,7 @@ SCOPES = {
                 "heads": ["## 概要", "## 活動の流れ", "## 主な作品・設定", "## 注目投稿"]},
     "entities": {"suffix": "_l1en", "dir": "entities",
                  "heads": ["## 概要", "## 記述の流れ", "## 関連する实体", "## 注目投稿"]},
+    "free":    {"suffix": "_l1free", "dir": "units", "heads": []},
 }
 
 def mech_gate(key, art, corpora, heads):
@@ -226,7 +227,7 @@ def main():
     sp = max(p for p in (L0 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l0si")) / "search"
 
     # 監査対象行の構築
-    if a.scope == "units":
+    if a.scope in ("units", "free"):
         rows_in, seen = [], set()
         for u in jl(L0 / "runs" / l0_latest / "units.jsonl"):
             if u["unit_id"] in seen:
