@@ -27,6 +27,7 @@ AUTHORS_RUN = "20261118T0148_l1au"
 AUTHORS_AUDIT = "20261118T0319_l11auaud"
 CHRONO_RUN = "20261118T0149_l1ch"
 FULL_RUN = "20261118T0222_l1full"
+ENTITIES_RUN = None  # entities 生成後に設定（runs 内の最新 _l1en を自動検出）
 
 
 def jl(p: Path):
@@ -135,6 +136,63 @@ def main() -> int:
     cp = L1 / "runs" / CHRONO_RUN / "chrono" / "chronology.md"
     emit(cp, CONTENT / "chronology.md", "年表", {"link_audit": CHRONO_RUN})
 
+    # entities（实体ページ・wiki 中核）
+    import re as _re
+    ent_run = ENTITIES_RUN
+    if not ent_run:
+        cands = sorted(p.name for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l1en"))
+        ent_run = cands[-1] if cands else None
+    ent_slugs = {}
+    if ent_run:
+        import unicodedata
+        def _slugify_norm(s):
+            return unicodedata.normalize("NFKC", s).strip()
+        src_dir = L1 / "runs" / ent_run / "entities"
+        for p in sorted(src_dir.glob("*.md")):
+            fm = p.read_bytes().decode("utf-8", "replace")
+            tm = _re.search(r'term:\s*"([^"]+)"', fm)
+            if tm:
+                ent_slugs[_slugify_norm(tm.group(1))] = p.stem
+        for p in sorted(src_dir.glob("*.md")):
+            fm = p.read_bytes().decode("utf-8", "replace")
+            tm = _re.search(r'term:\s*"([^"]+)"', fm)
+            ty = _re.search(r'type:\s*"([^"]+)"', fm)
+            term = tm.group(1) if tm else p.stem
+            emit(p, CONTENT / "entities" / p.name, term, {"link_audit": ent_run})
+        # 関連する实体欄 → entity 相互リンク（長い語優先で置換）
+        terms_sorted = sorted(ent_slugs, key=len, reverse=True)
+        for p in sorted((CONTENT / "entities").glob("*.md")):
+            art = p.read_bytes().decode("utf-8", "replace")
+            m = _re.search(r"(##\s*関連する实体.*?)(?=\n##|\Z)", art, re.S)
+            if not m:
+                continue
+            sec = m.group(1)
+            self_slug = p.stem
+            for t in terms_sorted:
+                sl = ent_slugs[t]
+                if sl == self_slug:
+                    continue
+                link = f"[[entities/{sl}|{t}]]"
+                # 既存リンク化済み（|語]] 形）は置換しない
+                sec = _re.sub(r"(?<!\|)" + _re.escape(t) + r"(?!\]\])", link, sec)
+            new = art[:m.start(1)] + sec + art[m.end(1):]
+            p.write_bytes(new.encode("utf-8"))
+        # 类型別索引
+        idx = ["---", 'title: "实体索引"', "run: publish", "---", "", "# 实体索引", ""]
+        by_type = {}
+        for p in sorted((CONTENT / "entities").glob("*.md")):
+            a = p.read_bytes().decode("utf-8", "replace")
+            tm = _re.search(r'term:\s*"([^"]+)"', a)
+            ty = _re.search(r'type:\s*"([^"]+)"', a)
+            by_type.setdefault(ty.group(1) if ty else "其他", []).append((tm.group(1) if tm else p.stem, p.stem))
+        for tname in sorted(by_type):
+            idx.append(f"## {tname}")
+            idx.append("")
+            for term, sl in sorted(by_type[tname]):
+                idx.append(f"- [[entities/{sl}|{term}]]")
+            idx.append("")
+        (CONTENT / "entities_index.md").write_bytes("\n".join(idx).encode("utf-8"))
+
     # nav（185 篇索引）
     nav = ["---", 'title: "篇索引"', "run: publish", "---", "", "# 篇索引（185 篇）", ""]
     for uid in sorted(units):
@@ -163,6 +221,7 @@ run: publish
 
 ## 節
 
+- [[entities_index|实体索引]] — 人物・物品・国などの作中实体（wiki 中核）
 - [[nav|篇索引]] — 185 篇
 - [[topics/index|topics 索引]] — 話題・語句 220
 - [[authors/index|authors 索引]] — 主要投稿者 20

@@ -113,6 +113,8 @@ SCOPES = {
                 "heads": ["## 概要", "## 記述の流れ", "## 主要な設定", "## 注目投稿"]},
     "authors": {"suffix": "_l1au",  "dir": "authors",
                 "heads": ["## 概要", "## 活動の流れ", "## 主な作品・設定", "## 注目投稿"]},
+    "entities": {"suffix": "_l1en", "dir": "entities",
+                 "heads": ["## 概要", "## 記述の流れ", "## 関連する实体", "## 注目投稿"]},
 }
 
 def mech_gate(key, art, corpora, heads):
@@ -250,7 +252,7 @@ def main():
                 txt = "\n".join(by_no[n]["body"] for n in c["post_nos"] if n in by_no)
                 lines.append(f"[g{c['chain_id'].split('#')[1]}] {txt[:a.max]}")
             return "\n".join(lines)
-    elif a.scope == "topics":
+    elif a.scope in ("topics", "entities"):
         rows_in = [(s, frontmatter(arts[s]).get("term", s)) for s in sorted(arts)]
         corpora_for = lambda key: global_corpus(l0_latest)
         def ctx_for(key):

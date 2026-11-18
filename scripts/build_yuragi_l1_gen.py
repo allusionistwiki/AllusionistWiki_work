@@ -124,12 +124,12 @@ def term_context(term, unit_dirs_):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--scope", required=True, choices=["topics", "authors", "chrono"])
+    ap.add_argument("--scope", required=True, choices=["topics", "authors", "chrono", "entities"])
     ap.add_argument("--min", type=int, default=None)
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--run-dir", default=None)
     a = ap.parse_args()
-    code = {"topics": "tp", "authors": "au", "chrono": "ch"}[a.scope]
+    code = {"topics": "tp", "authors": "au", "chrono": "ch", "entities": "en"}[a.scope]
     rid = a.run_dir or (dt.datetime.now().strftime("%Y%m%dT%H%M") + f"_l1{code}")
     out = L1 / "runs" / rid
     (out / a.scope).mkdir(parents=True, exist_ok=True)
@@ -157,6 +157,41 @@ def main():
                       f"4. `## 注目投稿`（2〜5 件、`unit_id:post_no (作者): 「引用」` 形式。{QUOTE_RULE}）\n"
                       "5. 文中に無い事実を作らない。見出しは上記 4 個だけ。日本語。")
             jobs.append((unique_slug(slug(r["term"]), used), f'term: "{r["term"]}"\ncount: {r["count"]}', prompt))
+    elif a.scope == "entities":
+        mn = a.min or 5
+        ent_rows = [r for r in jl(L1 / "entities.jsonl") if r.get("is_entity") and r["count"] >= mn]
+        chain_cache = {}
+        def chains_of(uid):
+            if uid not in chain_cache:
+                p = udirs[uid][1] / "chains.jsonl"
+                chain_cache[uid] = jl(p) if p.exists() else []
+            return chain_cache[uid]
+        for r in ent_rows:
+            term = r["term"]
+            ctx = term_context(term, udirs)
+            units_t = sorted({ln.split(":")[0].strip("[") for ln in ctx})
+            summ = []
+            for uid in units_t[:12]:
+                for c in chains_of(uid):
+                    tops = c.get("topics") or []
+                    summ_txt = c.get("summary") or ""
+                    if (term in tops) or (summ_txt and term in summ_txt):
+                        summ.append(f"[{c['chain_id']}] {summ_txt}")
+                    if len(summ) >= 18:
+                        break
+                if len(summ) >= 18:
+                    break
+            prompt = (f"『ゆらぎの神話』(BBS 実況コーパス) の作中实体「{term}」（类型: {r['type']}）の wiki 記事を書いてください。\n"
+                      f"登場 {r['count']} 件（スレッド: {', '.join(units_t[:40])}）\n"
+                      "=== 出現文脈（unit:post_no 付き抜粋） ===\n" + "\n".join(ctx[:24]) +
+                      "\n=== 語られている内容（投稿群の LLM 要約） ===\n" + "\n".join(summ) +
+                      "\n\n出力規定:\n1. `## 概要`（この实体が何か。类型: " + r["type"] + " の観点で簡潔に）\n"
+                      "2. `## 記述の流れ`（どのスレッドでどのように語られたか、unit_id を参照）\n"
+                      "3. `## 関連する实体`（一緒に語られる人物・物品・場所など、コーパス内の名を挙げる）\n"
+                      f"4. `## 注目投稿`（2〜5 件、`unit_id:post_no (作者): 「引用」` 形式。{QUOTE_RULE}）\n"
+                      "5. 文中に無い事実を作らない。見出しは上記 4 個だけ。日本語。")
+            jobs.append((unique_slug(slug(term), used),
+                         f'term: "{term}"\ntype: "{r["type"]}"\ncount: {r["count"]}', prompt))
     elif a.scope == "authors":
         mn = a.min or 100
         by_unit = {uid: (u, d) for uid, (u, d) in udirs.items()}

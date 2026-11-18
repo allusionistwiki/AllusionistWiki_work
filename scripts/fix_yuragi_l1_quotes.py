@@ -67,12 +67,12 @@ def lcs_sub(a: str, b: str):
 def main():
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("--scope", default="units", choices=["units", "topics", "authors"])
+    ap.add_argument("--scope", default="units", choices=["units", "topics", "authors", "entities"])
     ap.add_argument("--run-dir", default=None)
     ap.add_argument("only", nargs="*")
     a = ap.parse_args()
-    sc_dir = {"units": "units", "topics": "topics", "authors": "authors"}[a.scope]
-    suffix = {"units": "_l1u", "topics": "_l1tp", "authors": "_l1au"}[a.scope]
+    sc_dir = {"units": "units", "topics": "topics", "authors": "authors", "entities": "entities"}[a.scope]
+    suffix = {"units": "_l1u", "topics": "_l1tp", "authors": "_l1au", "entities": "_l1en"}[a.scope]
     run = max(p for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith(suffix))
     run = L1 / "runs" / (a.run_dir or run.name)
     only = set(a.only)
