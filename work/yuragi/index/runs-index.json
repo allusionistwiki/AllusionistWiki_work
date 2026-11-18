@@ -167,6 +167,18 @@
       "status": "retired",
       "path": "work/yuragi/L1/archive/0151_l1full_newlinebug",
       "reason": "改行変換バグ（\\r\\r\\n）→ archive/0151_l1full_newlinebug"
+    },
+    "20261118T0948_l1en": {
+      "kind": "l1-articles-entities",
+      "status": "current",
+      "path": "work/yuragi/L1/runs/20261118T0948_l1en",
+      "result": "entities 108 篇（分類台帳 entities.jsonl 準拠）"
+    },
+    "20261118T1023_l11enaud": {
+      "kind": "l1-audit-entities",
+      "status": "current",
+      "path": "work/yuragi/L1/runs/20261118T1023_l11enaud",
+      "result": "LLM全量+機械ゲート PASS 一致 108/108 100%"
     }
   }
 }

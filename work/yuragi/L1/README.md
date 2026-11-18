@@ -31,6 +31,7 @@
 ## 現況（2026-11-18）
 
 - 篇記事 `runs/20261117T2115_l1u`（units 185 篇・Strata swift-1.5-iq3_xxs 生成）— LLM 全量監査＋機械ゲート `runs/20261117T2300_l1aud` **PASS・一致 185/185（100%）**。
+- 实体記事 `runs/20261118T0948_l1en`（entities 108 篇・語句出現 5 以上を LLM 分類: 实体 108/非实体 34、`work/yuragi/L1/entities.jsonl`）— 監査 `runs/20261118T1023_l11enaud` **PASS・一致 108/108（100%）**。見出し: 概要/記述の流れ/関連する实体/注目投稿。関連する实体は公開面で entity 相互リンク（wikilink 397 本）。
 - 話題記事 `runs/20261118T0158_l1tp`（topics 220 篇・語句出現 4 以上）— 監査 `runs/20261118T0354_l11tpaud` **PASS・一致 220/220（100%）**。
 - 作者記事 `runs/20261118T0148_l1au`（authors 20 名・投稿 100 以上、slug は casefold 連番）— 監査 `runs/20261118T0319_l11auaud` **PASS・一致 20/20（100%）**。
 - 年表 `runs/20261118T0149_l1ch/chrono/chronology.md` — 決定論照合（記事内全年カウント=③投稿 date_iso 集計と一致・乖離 0）。
