@@ -171,6 +171,41 @@ def main() -> int:
     cp = L1 / "runs" / CHRONO_RUN / "chrono" / "chronology.md"
     emit(cp, CONTENT / "chronology.md", "年表", {"link_audit": CHRONO_RUN})
 
+    # works（創作記述ページ・決定論組立・投稿 permalink 付き）
+    wrun = None
+    cands = sorted(p.name for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l1works"))
+    if cands:
+        wrun = cands[-1]
+        wentries = []
+        for p in sorted((L1 / "runs" / wrun / "works").glob("*.md")):
+            txt = p.read_bytes().decode("utf-8", "replace")
+            tm = re.search(r'title:\s*"([^"]+)"', txt)
+            am = re.search(r'author:\s*"([^"]+)"', txt)
+            ym = re.search(r'type:\s*"([^"]+)"', txt)
+            emit(p, CONTENT / "works" / p.name, (tm.group(1) if tm else p.stem),
+                 {"link_audit": wrun})
+            wentries.append((tm.group(1) if tm else p.stem,
+                             am.group(1) if am else "",
+                             ym.group(1) if ym else ""))
+        for p in sorted((L1 / "runs" / wrun / "index").glob("*.md")):
+            tm = re.search(r'title:\s*"([^"]+)"', p.read_bytes().decode("utf-8", "replace"))
+            emit(p, CONTENT / "works_index" / p.name, tm.group(1) if tm else p.stem,
+                 {"link_audit": wrun})
+        top = CONTENT / "works_top.md"
+        idx_lines = ["---", 'title: "創作索引（トップ）"', "run: publish", "---", "",
+                     "# 創作記述索引", "",
+                     "BBS 各スレッドに散在する創作的記述（詩・短編・設定文・劇中作品文等）の横断索引。",
+                     "各作品ページには収録投稿の原文全文と投稿単位 permalink が付いています。", ""]
+        seen_t = []
+        for p in sorted((CONTENT / "works_index").glob("*.md")):
+            tm = re.search(r'title:\s*"([^"]+)"', p.read_bytes().decode("utf-8", "replace"))
+            if tm and tm.group(1) not in seen_t:
+                seen_t.append(tm.group(1))
+                idx_lines.append(f"- [[works_index/{p.stem}|{tm.group(1)}]]")
+        idx_lines.append("")
+        idx_lines.append(f"（作品ページ {len(wentries)}・収録創作群 7,621）")
+        top.write_bytes("\n".join(idx_lines).encode("utf-8"))
+
     # entities（实体ページ・wiki 中核）
     import re as _re
     ent_run = ENTITIES_RUN
@@ -257,6 +292,7 @@ run: publish
 ## 節
 
 - [[entities_index|实体索引]] — 人物・物品・国などの作中实体（wiki 中核）
+- [[works_top|創作索引]] — 散在する創作的記述（詩・短編・設定文等）の横断索引
 - [[nav|篇索引]] — 185 篇
 - [[topics/index|topics 索引]] — 話題・語句 220
 - [[authors/index|authors 索引]] — 主要投稿者 20
