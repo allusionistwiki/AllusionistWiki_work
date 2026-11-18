@@ -133,6 +133,26 @@ def mech_gate(key, art, corpora, heads):
             issues.append(f"{key}:HEAD_MISSING:{h}")
     return issues
 
+def mech_gate_free(key, art, corpora, min_len=8, min_refs=3, names=None):
+    """free 層: 全文の「」引用をコーパス（原文∪群要約）で逐語検証。
+    - 8 字未満は名称・用語の引用符使用とみなし対象外
+    - names（投稿者名・話題語・篇名）と完全一致する引用はラベル使用として除外
+    - 引用長は無制限（制約なし版）
+    - 投稿参照 uid:N が min_refs 件以上あること"""
+    issues = []
+    corpora_n = [norm(c) for c in corpora if c]
+    names_n = set(norm(n) for n in (names or set()) if n)
+    for q in QUOTE_RE.findall(art):
+        qn = norm(q)
+        if len(qn) < min_len or qn in names_n:
+            continue
+        if not quote_in(qn, *corpora_n):
+            issues.append(f"{key}:QUOTE_NOTFOUND:{q[:30]}")
+    n_refs = len(re.findall(r"YJ-[A-Za-z0-9]+:\d+", art))
+    if n_refs < min_refs:
+        issues.append(f"{key}:REFS_MISSING:{n_refs}")
+    return issues
+
 def judge(key, title, art, ctx, mx=300):
     out = call_llm(f"=== 記事（{title}） ===\n{art}\n\n=== 出典コーパス側コンテキスト ===\n{ctx}\n\n"
                    "判定任务: この L1 記事は出典コーパスに忠実か。\n"
@@ -220,6 +240,7 @@ def main():
     ap.add_argument("--run-dir", default=None)
     a = ap.parse_args()
     sc = SCOPES[a.scope]
+    names_for = lambda key: set()
 
     run = max(p for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith(sc["suffix"]))
     arts = {p.stem: rd(p) for p in sorted((run / sc["dir"]).glob("*.md"))}
@@ -234,10 +255,23 @@ def main():
                 continue
             seen.add(u["unit_id"])
             rows_in.append((u["unit_id"], u["title"]))
+        rows_in = [(k, t) for (k, t) in rows_in if k in arts] if a.scope == "free" else rows_in
         def corpora_for(key):
             d = unit_dir([u for u in jl(L0 / "runs" / l0_latest / "units.jsonl") if u["unit_id"] == key][0])
             return ["\n".join(p["body"] for p in jl(d / "structured.jsonl")),
                     "\n".join(c.get("summary", "") for c in jl(d / "chains.jsonl"))]
+        def names_for(key):
+            u = [x for x in jl(L0 / "runs" / l0_latest / "units.jsonl") if x["unit_id"] == key][0]
+            d = unit_dir(u)
+            names = {u.get("title", ""), u.get("thread_title", "")}
+            for c in jl(d / "chains.jsonl"):
+                if c.get("author"):
+                    names.add(c["author"])
+                names.update(c.get("topics", []))
+            for p in jl(d / "structured.jsonl"):
+                if p.get("author"):
+                    names.add(p["author"])
+            return names
         def ctx_for(key):
             u = [x for x in jl(L0 / "runs" / l0_latest / "units.jsonl") if x["unit_id"] == key][0]
             d = unit_dir(u)
@@ -286,7 +320,9 @@ def main():
                                    ensure_ascii=False) + "\n")
             return
         body_md = re.sub(r"^---.*?---\s*", "", art, count=1, flags=re.S)
-        mech = mech_gate(key, body_md, corpora_for(key), sc["heads"])
+        mech = (mech_gate_free(key, body_md, corpora_for(key),
+                               names=names_for(key)) if a.scope == "free"
+                else mech_gate(key, body_md, corpora_for(key), sc["heads"]))
         verdict, reason = judge(key, title, body_md, ctx_for(key), a.max)
         if mech:
             verdict = "不一致"
@@ -308,7 +344,9 @@ def main():
         if not art:
             continue
         body_md = re.sub(r"^---.*?---\s*", "", art, count=1, flags=re.S)
-        mech = mech_gate(key, body_md, corpora_for(key), sc["heads"])
+        mech = (mech_gate_free(key, body_md, corpora_for(key),
+                               names=names_for(key)) if a.scope == "free"
+                else mech_gate(key, body_md, corpora_for(key), sc["heads"]))
         if mech:
             r = dict(r)
             r["verdict"] = "不一致"

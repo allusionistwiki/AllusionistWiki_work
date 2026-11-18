@@ -67,12 +67,12 @@ def lcs_sub(a: str, b: str):
 def main():
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("--scope", default="units", choices=["units", "topics", "authors", "entities"])
+    ap.add_argument("--scope", default="units", choices=["units", "topics", "authors", "entities", "free"])
     ap.add_argument("--run-dir", default=None)
     ap.add_argument("only", nargs="*")
     a = ap.parse_args()
-    sc_dir = {"units": "units", "topics": "topics", "authors": "authors", "entities": "entities"}[a.scope]
-    suffix = {"units": "_l1u", "topics": "_l1tp", "authors": "_l1au", "entities": "_l1en"}[a.scope]
+    sc_dir = {"units": "units", "topics": "topics", "authors": "authors", "entities": "entities", "free": "units"}[a.scope]
+    suffix = {"units": "_l1u", "topics": "_l1tp", "authors": "_l1au", "entities": "_l1en", "free": "_l1free"}[a.scope]
     run = max(p for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith(suffix))
     run = L1 / "runs" / (a.run_dir or run.name)
     only = set(a.only)
@@ -95,6 +95,43 @@ def main():
         for uid, u in units.items():
             d = unit_dir(u)
             units_norm[uid] = norm("\n".join(x["body"] for x in jl(d / "structured.jsonl")))
+    if a.scope == "free":
+        import unicodedata as _u
+        fixed = 0
+        for p in sorted((run / sc_dir).glob("*.md")):
+            uid = p.stem
+            if only and uid not in only:
+                continue
+            d = unit_dir(units[uid])
+            body = norm("\n".join(x["body"] for x in jl(d / "structured.jsonl")))
+            sums = norm("\n".join(c.get("summary", "") for c in jl(d / "chains.jsonl")))
+            names = {units[uid].get("title", ""), units[uid].get("thread_title", "")}
+            for c in jl(d / "chains.jsonl"):
+                if c.get("author"):
+                    names.add(c["author"])
+                names.update(c.get("topics", []))
+            for x in jl(d / "structured.jsonl"):
+                if x.get("author"):
+                    names.add(x["author"])
+            names_n = {norm(x) for x in names if x}
+            art = p.read_bytes().decode("utf-8", "replace")
+            def fix_q(mm):
+                raw, q = mm.group(0), mm.group(1)
+                qn = norm(q)
+                if len(qn) < 8 or qn in names_n:
+                    return raw
+                if qn in body or qn in sums:
+                    return raw
+                sub = lcs_sub(qn, body)
+                if sub and len(sub) >= 0.6 * len(qn):
+                    return "「" + sub + "」"
+                return q  # 引用符解除・内容は plain テキストとして維持（要約として正しい）
+            new = QUOTE_RE.sub(fix_q, art)
+            if new != art:
+                p.write_bytes(new.encode("utf-8"))
+                fixed += 1
+        print(json.dumps({"fixed_articles": fixed, "run": run.name}, ensure_ascii=False))
+        return 0
     for p in sorted((run / sc_dir).glob("*.md")):
         uid = p.stem
         if only and uid not in only:
