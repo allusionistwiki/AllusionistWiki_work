@@ -42,16 +42,20 @@ def slugify(s: str) -> str:
     t = re.sub(r"[^\w]+", "_", normalize("NFKC", s), flags=re.U).strip("_")
     return (t or "a")[:50]
 
+def yq(s: str) -> str:
+    """YAML ダブルクォート文字列として安全な形へ正規化（" と改行をエスケープ）。"""
+    return '"' + str(s).replace("\\", "\\\\").replace('"', "'").replace("\r", " ").replace("\n", " ") + '"'
+
 def unique_slug(base: str, used: set) -> str:
-    sl, i = base, 2
-    while sl.casefold() in used:
-        sl = f"{base}_{i}"
+    sl, i = base.casefold(), 2
+    while sl in used:
+        sl = f"{base.casefold()}_{i}"
         i += 1
     used.add(sl.casefold())
     return sl
 
-def permalink(uid: str, post_no: int, post_index: dict) -> str:
-    k = post_index.get(uid, {}).get(post_no)
+def permalink(uid: str, post_no: int, page_of: dict) -> str:
+    k = page_of.get(post_no)
     if k is None:
         return ""
     seg = "" if k == 1 else f"p{k}"
@@ -103,8 +107,8 @@ def main():
         for r in rows:
             types[r.get("type", "その他創作")] += 1
         wtype = max(types.items(), key=lambda x: x[1])[0]
-        lines = ["---", f'title: "{work}"', f"work: \"{work}\"", f"author: \"{author}\"",
-                 f"type: \"{wtype}\"", f"chains: {len(rows)}", f"run: {rid}", "---", "",
+        lines = ["---", f"title: {yq(work)}", f"work: {yq(work)}", f"author: {yq(author)}",
+                 f"type: {yq(wtype)}", f"chains: {len(rows)}", f"run: {rid}", "---", "",
                  f"# {work}", ""]
         lines.append(f"（作者: {author} ／ 类型: {wtype} ／ 収録群: {len(rows)}）")
         lines.append("")
@@ -133,7 +137,17 @@ def main():
                 lines.append(p["body"])
                 lines.append("")
         content = "\n".join(lines)
-        (out / "works" / f"{slug}.md").write_bytes(content.encode("utf-8"))
+        wpath = out / "works" / f"{slug}.md"
+        wpath.write_bytes(content.encode("utf-8"))
+        # Windows 大小文字無視 FS での slug 上書き衝突を機械検出（frontmatter title 不一致で検出）
+        m = re.search(r'title: "((?:[^"\\]|\\.)*)"', content)
+        title = (m.group(1) if m else "").replace('\\"', '"')
+        ft = re.search(r'title: "((?:[^"\\]|\\.)*)"', wpath.read_bytes().decode("utf-8"))
+        if ft and ft.group(1).replace('\\"', '"') != title:
+            n = 2
+            while (out / "works" / f"{slug}_{n}.md").exists():
+                n += 1
+            wpath.write_bytes(content.encode("utf-8"))
         entries.append({"slug": slug, "work": work, "author": author, "type": wtype,
                         "chains": len(rows), "units": sorted({r["uid"] for r in rows})})
         n_pages += 1
