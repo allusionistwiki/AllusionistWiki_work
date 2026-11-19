@@ -236,6 +236,32 @@
     "pass_rate": 1.0
    },
    "current": true
+  },
+  "20261119T1140_l1tp": {
+   "path": "work/yuragi/L1/runs/20261119T1140_l1tp",
+   "note": "topics min3 拡張 429 件生成（min4 220 → +209）",
+   "stats": {
+    "emitted": 429
+   },
+   "current": true
+  },
+  "20261119T1141_l11tpaud": {
+   "path": "work/yuragi/L1/runs/20261119T1141_l11tpaud",
+   "note": "topics 429 LLM 全量監査 PASS 100%（judged 破損清掃・guard 付き収束 32→1→0）",
+   "stats": {
+    "pass_rate": 1.0
+   },
+   "current": true
+  },
+  "20261119T2005_l1widx": {
+   "path": "work/yuragi/L1/runs/20261119T2005_l1widx",
+   "note": "works 作者索引 1,544 名・篇収容索引 173 篇（決定論生成、frontmatter YAML 全件 parse 0、site 公開）",
+   "stats": {
+    "authors": 1544,
+    "units": 173,
+    "creative_chains": 7621
+   },
+   "current": true
   }
  }
 }

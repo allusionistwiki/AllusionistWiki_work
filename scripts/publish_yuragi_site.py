@@ -21,8 +21,8 @@ BLOB = "https://github.com/allusionistwiki/YuragiWiki/blob/main/raw/bbs/"
 
 UNITS_RUN = "20261117T2115_l1u"
 UNITS_AUDIT = "20261117T2300_l1aud"
-TOPICS_RUN = "20261118T0158_l1tp"
-TOPICS_AUDIT = "20261118T0354_l11tpaud"
+TOPICS_RUN = "20261119T1140_l1tp"
+TOPICS_AUDIT = "20261119T1141_l11tpaud"
 AUTHORS_RUN = "20261119T1125_l1au"
 AUTHORS_AUDIT = "20261119T1126_l11auaud"
 CHRONO_RUN = "20261118T0149_l1ch"
@@ -222,9 +222,38 @@ def main() -> int:
             if tm and tm.group(1) not in seen_t:
                 seen_t.append(tm.group(1))
                 idx_lines.append(f"- [[works_index/{p.stem}|{tm.group(1)}]]")
+        idx_lines.append(
+            "- [[widx_authors|作者索引]] — 掲載作品数順の作者別創作索引\n"
+            "- [[widx_units|篇収容索引]] — 篇別の掲載創作一覧")
         idx_lines.append("")
         idx_lines.append(f"（作品ページ {len(wentries)}・収録創作群 7,621）")
         top.write_bytes("\n".join(idx_lines).encode("utf-8"))
+
+        # works 作者索引・篇収容索引（run *_l1widx）
+        icands = sorted(p.name for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l1widx"))
+        if icands:
+            irun = icands[-1]
+            for p in sorted((L1 / "runs" / irun / "author_index").glob("*.md")):
+                if p.stem == "index":
+                    continue
+                tm = re.search(r'title:\s*"([^"]+)"', p.read_bytes().decode("utf-8", "replace"))
+                emit(p, CONTENT / "widx_authors" / p.name, tm.group(1) if tm else p.stem,
+                     {"link_audit": irun})
+            aidx = CONTENT / "widx_authors.md"
+            al = ["---", 'title: "創作作者索引"', "run: publish", "---", "",
+                  "# 創作作者索引（作品掲載数順）", ""]
+            al += [f"- [[widx_authors/{p.stem}|{p.stem}]]"
+                   for p in sorted((L1 / "runs" / irun / "author_index").glob("*.md"))
+                   if p.stem != "index"]
+            aidx.write_bytes("\n".join(al).encode("utf-8"))
+            for p in sorted((L1 / "runs" / irun / "unit_index").glob("*.md")):
+                emit(p, CONTENT / "widx_units" / p.name, p.stem, {"link_audit": irun})
+            uidx = CONTENT / "widx_units.md"
+            ul = ["---", 'title: "創作篇収容索引"', "run: publish", "---", "",
+                  "# 創作篇収容索引", ""]
+            ul += [f"- [[widx_units/{p.stem}|{p.stem}]]"
+                   for p in sorted((L1 / "runs" / irun / "unit_index").glob("*.md"))]
+            uidx.write_bytes("\n".join(ul).encode("utf-8"))
 
     # entities（实体ページ・wiki 中核）
     import re as _re
@@ -316,7 +345,7 @@ run: publish
 - [[works_top|創作索引]] — 散在する創作的記述（詩・短編・設定文等）の横断索引
 - [[free_index|自由記述索引]] — 制約なし自由記述記事（L1＋原文に基づく）
 - [[nav|篇索引]] — 185 篇
-- [[topics/index|topics 索引]] — 話題・語句 220
+- [[topics/index|topics 索引]] — 話題・語句 429（出現 3 以上）
 - [[authors/index|authors 索引]] — 主要投稿者 31（投稿 50 以上）
 - [[chronology|年表]]
 - [[full/index|制約なし版 篇索引]]
