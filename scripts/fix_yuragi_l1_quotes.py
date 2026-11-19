@@ -6,6 +6,7 @@
    LCS 60% 未満は引用付き項目行を削除。
 用法: python scripts/fix_yuragi_l1_quotes.py [unit_id ...]  (省略時は全記事)
 """
+import json
 import re
 import sys
 from pathlib import Path
@@ -65,12 +66,17 @@ def lcs_sub(a: str, b: str):
     return a[end_i - best: end_i]
 
 def main():
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).resolve().parent))
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--scope", default="units", choices=["units", "topics", "authors", "entities", "free"])
     ap.add_argument("--run-dir", default=None)
     ap.add_argument("only", nargs="*")
     a = ap.parse_args()
+    if not a.only:
+        print('{"error": "NO_TARGETS: refusing full-scope quote fix (empty flagged list is a bug signal)"}')
+        return 2
     sc_dir = {"units": "units", "topics": "topics", "authors": "authors", "entities": "entities", "free": "units"}[a.scope]
     suffix = {"units": "_l1u", "topics": "_l1tp", "authors": "_l1au", "entities": "_l1en", "free": "_l1free"}[a.scope]
     run = max(p for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith(suffix))

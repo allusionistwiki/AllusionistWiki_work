@@ -21,7 +21,7 @@ def yq(v):
     return f'"{v}"'
 
 def slugify(s):
-    s = re.sub(r'[\\/:*?"<>|]', "_", s)
+    s = re.sub(r'[\\/:*?"<>|&%#]', "＆", s)
     s = re.sub(r"\s+", "_", s).strip("_")
     return s[:80] or "x"
 
