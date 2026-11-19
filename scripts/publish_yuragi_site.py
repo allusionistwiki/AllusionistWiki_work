@@ -239,21 +239,23 @@ def main() -> int:
                 tm = re.search(r'title:\s*"([^"]+)"', p.read_bytes().decode("utf-8", "replace"))
                 emit(p, CONTENT / "widx_authors" / p.name, tm.group(1) if tm else p.stem,
                      {"link_audit": irun})
-            aidx = CONTENT / "widx_authors.md"
+            aidx = CONTENT / "widx_authors" / "index.md"
             al = ["---", 'title: "創作作者索引"', "run: publish", "---", "",
                   "# 創作作者索引（作品掲載数順）", ""]
-            al += [f"- [[widx_authors/{p.stem}|{p.stem}]]"
+            al += [f"- [[{p.stem}|{p.stem}]]"
                    for p in sorted((L1 / "runs" / irun / "author_index").glob("*.md"))
                    if p.stem != "index"]
             aidx.write_bytes("\n".join(al).encode("utf-8"))
             for p in sorted((L1 / "runs" / irun / "unit_index").glob("*.md")):
                 emit(p, CONTENT / "widx_units" / p.name, p.stem, {"link_audit": irun})
-            uidx = CONTENT / "widx_units.md"
+            uidx = CONTENT / "widx_units" / "index.md"
             ul = ["---", 'title: "創作篇収容索引"', "run: publish", "---", "",
                   "# 創作篇収容索引", ""]
-            ul += [f"- [[widx_units/{p.stem}|{p.stem}]]"
+            ul += [f"- [[{p.stem}|{p.stem}]]"
                    for p in sorted((L1 / "runs" / irun / "unit_index").glob("*.md"))]
             uidx.write_bytes("\n".join(ul).encode("utf-8"))
+            for stale in (CONTENT / "widx_authors.md", CONTENT / "widx_units.md"):
+                stale.unlink(missing_ok=True)
 
     # entities（实体ページ・wiki 中核）
     import re as _re

@@ -278,10 +278,44 @@
     "pass_rate": 1.0
    },
    "current": true
+  },
+  "20261119T2130_l11en2aud": {
+   "kind": "l1-entities-audit-judged",
+   "status": "superseded",
+   "note": "entities 台帳 min2 増分監査の judged のみ（judged.jsonl のみ・収束は en 系後続 run 側）",
+   "path": "work/yuragi/L1/runs/20261119T2130_l11en2aud"
+  },
+  "20261119T2210_l11uaud": {
+   "kind": "audit",
+   "status": "superseded",
+   "result": "ISSUES",
+   "scope": "units",
+   "pass_rate": 0.0703,
+   "flagged": 172,
+   "note": "units refine 前の全量監査（flagged 172→refine 後の 20261120T1200_l11uaud2 で PASS）",
+   "path": "work/yuragi/L1/runs/20261119T2210_l11uaud",
+   "derived_from": "20261117T2115_l1u"
+  },
+  "20261120T0156_l11enaud": {
+   "kind": "l1-entities-audit-judged",
+   "status": "superseded",
+   "note": "entities 監査チェーンの judged のみ（audit_chain 20261120 01:56 起動分・収束判定は台帳側）",
+   "path": "work/yuragi/L1/runs/20261120T0156_l11enaud"
+  },
+  "20261120T0400_l1widx": {
+   "kind": "l1-works-index",
+   "status": "current",
+   "note": "works 作者索引 1,543・篇収容索引 173 再生成（＆ slugify 対応・作者名ページ全件）。site 側で索引を folder index 化（widx_authors/index.md・widx_units/index.md・相対リンク二重化 404 修正）",
+   "path": "work/yuragi/L1/runs/20261120T0400_l1widx",
+   "derived_from": "20261119T2005_l1widx"
   }
  },
  "current": {
-  "units_audit": "20261120T1200_l11uaud2"
+  "units_audit": "20261120T1200_l11uaud2",
+  "widx": {
+   "authors_index": "20261120T0400_l1widx",
+   "units_index": "20261120T0400_l1widx"
+  }
  },
  "runs": {
   "20261120T1200_l11uaud2": {
