@@ -318,7 +318,8 @@
   },
   "authors_audit": "20261120T1700_l11auaud2",
   "topics_audit": "20261120T1630_l11tpaud2",
-  "free_audit": "20261120T1830_l11faud2"
+  "free_audit": "20261120T1830_l11faud2",
+  "entities_audit": "20261120T1730_l11en3aud"
  },
  "runs": {
   "20261120T1200_l11uaud2": {
@@ -356,6 +357,15 @@
    "pass_rate": 1.0,
    "note": "free 質感仕上げ後（CN 字体变体正規化込み）の全量監査 PASS",
    "derived_from": "20261119T0014_l1free"
+  },
+  "20261120T1730_l11en3aud": {
+   "run": "20261120T1730_l11en3aud",
+   "layer": "L1-audit",
+   "scope": "entities",
+   "articles": 477,
+   "pass_rate": 1.0,
+   "note": "entities 増分 479 質感仕上げ後の全量監査 PASS（judged 477・flagged 0）",
+   "derived_from": "20261119T2042_l1en"
   }
  }
 }
