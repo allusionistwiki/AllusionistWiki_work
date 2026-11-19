@@ -159,7 +159,7 @@ def main() -> int:
 
     # free（制約なし自由記述記事・LLM 全量監査 100% 収束）
     FREE_RUN = "20261119T0014_l1free"
-    FREE_AUDIT = "20261119T0009_l11freeaud"
+    FREE_AUDIT = "20261120T1830_l11faud2"
     for p in sorted((L1 / "runs" / FREE_RUN / "units").glob("*.md")):
         uid = p.stem
         t = units.get(uid, {}).get("title", uid)

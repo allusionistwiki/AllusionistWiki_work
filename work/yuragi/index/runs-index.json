@@ -317,7 +317,8 @@
    "units_index": "20261120T0400_l1widx"
   },
   "authors_audit": "20261120T1700_l11auaud2",
-  "topics_audit": "20261120T1630_l11tpaud2"
+  "topics_audit": "20261120T1630_l11tpaud2",
+  "free_audit": "20261120T1830_l11faud2"
  },
  "runs": {
   "20261120T1200_l11uaud2": {
@@ -346,6 +347,15 @@
    "pass_rate": 1.0,
    "note": "topics 質感仕上げ後の全量監査 PASS（一発）",
    "derived_from": "20261119T1140_l1tp"
+  },
+  "20261120T1830_l11faud2": {
+   "run": "20261120T1830_l11faud2",
+   "layer": "L1-audit",
+   "scope": "free",
+   "articles": 185,
+   "pass_rate": 1.0,
+   "note": "free 質感仕上げ後（CN 字体变体正規化込み）の全量監査 PASS",
+   "derived_from": "20261119T0014_l1free"
   }
  }
 }
