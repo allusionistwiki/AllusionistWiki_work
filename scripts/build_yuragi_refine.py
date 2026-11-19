@@ -23,11 +23,11 @@ L1 = W / "work" / "yuragi" / "L1"
 TRUE_CN = set("实气时长门关开语说话请谢过义习乡乐齐头图圆园员资货邮译议军队丰艺节丛兰标网吗呢吧们这她它您哥币儿什呀呗哒咯")
 QU = re.compile(r"「[^「」]*」", re.S)
 
-def call_llm(prompt, max_tokens=4000):
+def call_llm(prompt, max_tokens=4000, temperature=0.4):
     body = json.dumps({
         "model": CFG["model"],
         "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.4, "max_tokens": max_tokens,
+        "temperature": temperature, "max_tokens": max_tokens,
         "chat_template_kwargs": {"enable_thinking": False},
     }).encode()
     for attempt in range(5):
@@ -126,8 +126,8 @@ def main():
             + "\n\n=== 記事 ===\n" + body
         )
         last = ""
-        for attempt in range(3):
-            new_body = call_llm(prompt)
+        for attempt in range(5):
+            new_body = call_llm(prompt, temperature=0.15 if attempt >= 2 else 0.4)
             if not new_body:
                 continue
             cand = fm + "\n" + new_body + "\n"

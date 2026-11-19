@@ -20,7 +20,7 @@ RAW_BBS = SITE / "raw" / "bbs"
 BLOB = "https://github.com/allusionistwiki/YuragiWiki/blob/main/raw/bbs/"
 
 UNITS_RUN = "20261117T2115_l1u"
-UNITS_AUDIT = "20261117T2300_l1aud"
+UNITS_AUDIT = "20261120T1200_l11uaud2"
 TOPICS_RUN = "20261119T1140_l1tp"
 TOPICS_AUDIT = "20261119T1141_l11tpaud"
 AUTHORS_RUN = "20261119T2003_l1au"
@@ -260,24 +260,42 @@ def main() -> int:
     ent_run = ENTITIES_RUN
     if not ent_run:
         cands = sorted(p.name for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l1en"))
+        # 増分 run 運用: 最新 run に無い slug は親 run 群から継承（新しい slug Directory が同名に優先）
         ent_run = cands[-1] if cands else None
+    ent_inherit = [c for c in reversed(cands[:-1])] if ent_run else []
     ent_slugs = {}
     if ent_run:
         import unicodedata
         def _slugify_norm(s):
             return unicodedata.normalize("NFKC", s).strip()
         src_dir = L1 / "runs" / ent_run / "entities"
+        inherited = {}
+        for irun in ent_inherit:
+            for p in sorted((L1 / "runs" / irun / "entities").glob("*.md")):
+                inherited.setdefault(p.stem, p)
         for p in sorted(src_dir.glob("*.md")):
             fm = p.read_bytes().decode("utf-8", "replace")
             tm = _re.search(r'term:\s*"([^"]+)"', fm)
             if tm:
                 ent_slugs[_slugify_norm(tm.group(1))] = p.stem
+        emit_slugs = {}
         for p in sorted(src_dir.glob("*.md")):
             fm = p.read_bytes().decode("utf-8", "replace")
             tm = _re.search(r'term:\s*"([^"]+)"', fm)
-            ty = _re.search(r'type:\s*"([^"]+)"', fm)
             term = tm.group(1) if tm else p.stem
             emit(p, CONTENT / "entities" / p.name, term, {"link_audit": ent_run})
+            emit_slugs[p.stem] = term
+        for stem, p in sorted(inherited.items()):
+            if stem in emit_slugs:
+                continue
+            fm = p.read_bytes().decode("utf-8", "replace")
+            tm = _re.search(r'term:\s*"([^"]+)"', fm)
+            term = tm.group(1) if tm else stem
+            emit(p, CONTENT / "entities" / p.name, term, {"link_audit": ent_run})
+            emit_slugs[stem] = term
+            tnorm = _slugify_norm(term)
+            if tnorm not in ent_slugs:
+                ent_slugs[tnorm] = stem
         # 関連する实体欄 → entity 相互リンク（長い語優先で置換）
         terms_sorted = sorted(ent_slugs, key=len, reverse=True)
         for p in sorted((CONTENT / "entities").glob("*.md")):
@@ -354,7 +372,7 @@ run: publish
 
 - 篇 185 / 投稿 48,891 / 投稿群 16,271（LLM 要約付き）/ 語句 6,224
 - 創作記述 7,621 群 → 作品ページ 6,453・収録投稿 26,710 件（permalink 付き原文逐語）
-- 实体 321・自由記述記事 185・全記事 LLM 全量監査 100% 収束
+- 实体 800（登場 2 以上）・自由記述記事 185・全記事 LLM 全量監査 100% 収束
 - 来歴: 解析・生成・監査は AllusionistWiki_work repo（非公開運用層）で実施。各記事 frontmatter に run ID 記録。
 """
     (CONTENT / "index.md").write_bytes(top.encode("utf-8"))

@@ -117,7 +117,7 @@ SCOPES = {
     "authors": {"suffix": "_l1au",  "dir": "authors",
                 "heads": ["## 概要", "## 活動の流れ", "## 主な作品・設定", "## 注目投稿"]},
     "entities": {"suffix": "_l1en", "dir": "entities",
-                 "heads": ["## 概要", "## 記述の流れ", "## 関連する实体", "## 注目投稿"]},
+                 "heads": ["## 概要", "## 記述の流れ", "## 関連する実体", "## 注目投稿"]},
     "free":    {"suffix": "_l1free", "dir": "units", "heads": []},
 }
 
