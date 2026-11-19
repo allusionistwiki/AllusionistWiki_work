@@ -134,7 +134,23 @@ def mech_gate(key, art, corpora, heads):
     for h in heads:
         if h not in art:
             issues.append(f"{key}:HEAD_MISSING:{h}")
+    issues += cn_prose_issues(key, art)
     return issues
+
+CN_ONLY = set("实气时长门关开语说话请谢过义习乡乐齐头图圆园员资货邮译议军队丰艺节丛兰标网吗呢吧们这她它您哥币儿什呀呗哒咯咱么")
+# 的(U+7684)・了・叶・马(U+9A6C 旧字体)・乌(U+4E4C 烏)・风(U+98A0 風)・飞(U+98DB)・书(U+66F8)・东(U+6771)・车(U+8ECA) は
+# 日本語標準漢字と同一コードポイント → 混入判定しない（実務上 实 がほぼ全事例、次いで 话/气/时）。
+# 「了」は日本漢字（両/了）のため除外。実務上 的/实 がほぼ全事例。
+
+def cn_prose_issues(key, art):
+    """中国語専用/簡体字（JIS 圏外文字）のプロース混入検査。
+    引用「」内は原文コーパス側の実在文字を許容（原文逐語ゲートが担保）。"""
+    body = re.sub(r"^---.*?---\s*", "", art, count=1, flags=re.S)
+    prose = re.sub(r"「[^「」]*」", " ", body, flags=re.S)
+    bad = sorted({c for c in prose if c in CN_ONLY})
+    if bad:
+        return [f"{key}:CN_CHAR:{''.join(bad)[:12]}"]
+    return []
 
 def mech_gate_free(key, art, corpora, min_len=8, min_refs=3, names=None):
     """free 層: 全文の「」引用をコーパス（原文∪群要約）で逐語検証。
@@ -154,6 +170,7 @@ def mech_gate_free(key, art, corpora, min_len=8, min_refs=3, names=None):
     n_refs = len(re.findall(r"YJ-[A-Za-z0-9]+:\d+", art))
     if n_refs < min_refs:
         issues.append(f"{key}:REFS_MISSING:{n_refs}")
+    issues += cn_prose_issues(key, art)
     return issues
 
 def judge(key, title, art, ctx, mx=300):
