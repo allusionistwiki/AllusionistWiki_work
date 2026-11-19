@@ -23,8 +23,8 @@ UNITS_RUN = "20261117T2115_l1u"
 UNITS_AUDIT = "20261117T2300_l1aud"
 TOPICS_RUN = "20261119T1140_l1tp"
 TOPICS_AUDIT = "20261119T1141_l11tpaud"
-AUTHORS_RUN = "20261119T1125_l1au"
-AUTHORS_AUDIT = "20261119T1126_l11auaud"
+AUTHORS_RUN = "20261119T2003_l1au"
+AUTHORS_AUDIT = "20261119T2025_l11auaud"
 CHRONO_RUN = "20261118T0149_l1ch"
 FULL_RUN = "20261118T1948_l1full"
 ENTITIES_RUN = None  # entities 生成後に設定（runs 内の最新 _l1en を自動検出）
@@ -346,7 +346,7 @@ run: publish
 - [[free_index|自由記述索引]] — 制約なし自由記述記事（L1＋原文に基づく）
 - [[nav|篇索引]] — 185 篇
 - [[topics/index|topics 索引]] — 話題・語句 429（出現 3 以上）
-- [[authors/index|authors 索引]] — 主要投稿者 31（投稿 50 以上）
+- [[authors/index|authors 索引]] — 主要投稿者 95（投稿 10 以上）
 - [[chronology|年表]]
 - [[full/index|制約なし版 篇索引]]
 

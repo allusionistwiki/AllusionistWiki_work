@@ -128,6 +128,8 @@ def main():
     ap.add_argument("--min", type=int, default=None)
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--run-dir", default=None)
+    ap.add_argument("--only", nargs="*", default=None,
+                    help="entities 等: 生成対象 term をファイル（空白区切り）で指定。done.txt 既存分は自動スキップ")
     a = ap.parse_args()
     code = {"topics": "tp", "authors": "au", "chrono": "ch", "entities": "en"}[a.scope]
     rid = a.run_dir or (dt.datetime.now().strftime("%Y%m%dT%H%M") + f"_l1{code}")
@@ -160,6 +162,10 @@ def main():
     elif a.scope == "entities":
         mn = a.min or 5
         ent_rows = [r for r in jl(L1 / "entities.jsonl") if r.get("is_entity") and r["count"] >= mn]
+        if a.only:
+            only = set(Path(a.only[0]).read_bytes().decode("utf-8", "replace").split()) if len(a.only) == 1 and a.only[0].endswith(".txt") else set(a.only)
+            prev = {p.stem for rid2 in [p2.name for p2 in (L1/"runs").iterdir() if p2.is_dir() and p2.name.endswith("_l1en")] for p in (L1/"runs"/rid2/"entities").glob("*.md")}
+            ent_rows = [r for r in ent_rows if r["term"] in only and slug(r["term"]) not in prev]
         chain_cache = {}
         def chains_of(uid):
             if uid not in chain_cache:
