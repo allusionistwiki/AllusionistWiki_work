@@ -315,7 +315,8 @@
   "widx": {
    "authors_index": "20261120T0400_l1widx",
    "units_index": "20261120T0400_l1widx"
-  }
+  },
+  "authors_audit": "20261120T1700_l11auaud2"
  },
  "runs": {
   "20261120T1200_l11uaud2": {
@@ -326,6 +327,15 @@
    "pass_rate": 1.0,
    "note": "units refine 後の全量監査 PASS（CN/引用/見出し）",
    "derived_from": "20261117T2115_l1u"
+  },
+  "20261120T1700_l11auaud2": {
+   "run": "20261120T1700_l11auaud2",
+   "layer": "L1-audit",
+   "scope": "authors",
+   "articles": 95,
+   "pass_rate": 1.0,
+   "note": "authors 質感仕上げ後の全量監査 PASS",
+   "derived_from": "20261119T2003_l1au"
   }
  }
 }
