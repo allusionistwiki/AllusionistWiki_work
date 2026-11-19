@@ -1,184 +1,241 @@
 {
-  "L0": {
-    "20261114T0417_l0c": {
-      "status": "retired",
-      "kind": "l0-ledger-v3",
-      "path": "work/yuragi/L0/runs/20261114T0417_l0c",
-      "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
-    },
-    "20261114T0417_l0si": {
-      "status": "retired",
-      "kind": "l0-search-index",
-      "path": "work/yuragi/L0/runs/20261114T0417_l0si",
-      "derived_from": "20261114T0417_l0c",
-      "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
-    },
-    "20261114T0421_l0aud": {
-      "status": "retired",
-      "kind": "audit",
-      "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261114T0421_l0aud",
-      "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
-    },
-    "20261114T0432_l0aud": {
-      "status": "retired",
-      "kind": "audit",
-      "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261114T0432_l0aud",
-      "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
-    },
-    "20261114T1727_l0saud": {
-      "kind": "l0-summary-audit",
-      "status": "retired",
-      "reason": "counter バグ（prefill 合算なし）判明のため 20261117T1300_l0saud（100%）に置換",
-      "path": "work/yuragi/L0/archive/20261114T1727_l0saud"
-    },
-    "20261116T2019_l0saud": {
-      "status": "current",
-      "kind": "l0-summary-audit",
-      "result": "ISSUES",
-      "path": "work/yuragi/L0/runs/20261116T2019_l0saud"
-    },
-    "20261117T1110_l0saud": {
-      "status": "current",
-      "kind": "l0-summary-audit",
-      "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261117T1110_l0saud"
-    },
-    "20261117T1200_l0saud": {
-      "status": "current",
-      "kind": "l0-summary-audit",
-      "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261117T1200_l0saud"
-    },
-    "20261117T1230_l0saud": {
-      "status": "current",
-      "kind": "l0-summary-audit",
-      "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261117T1230_l0saud"
-    },
-    "20261117T1300_l0saud": {
-      "status": "current",
-      "kind": "l0-summary-audit",
-      "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261117T1300_l0saud"
-    },
-    "20261117T1136_l0c": {
-      "status": "retired",
-      "kind": "l0-ledger-v3",
-      "path": "work/yuragi/L0/runs/20261117T1136_l0c",
-      "reason": "③④ 構造改修（篇メタ行分離・unit_id 重複排除）による再生成（2021/2022/2023 系へ）"
-    },
-    "20261117T1137_l0si": {
-      "status": "retired",
-      "kind": "l0-search-index",
-      "path": "work/yuragi/L0/runs/20261117T1137_l0si",
-      "derived_from": "20261117T1136_l0c",
-      "reason": "③④ 構造改修（篇メタ行分離・unit_id 重複排除）による再生成（2021/2022/2023 系へ）"
-    },
-    "20261117T1137_l0aud": {
-      "status": "retired",
-      "kind": "audit",
-      "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261117T1137_l0aud",
-      "reason": "③④ 構造改修（篇メタ行分離・unit_id 重複排除）による再生成（2021/2022/2023 系へ）"
-    },
-    "20261114T0419_l0aud": {
-      "kind": "l0",
-      "path": "work/yuragi/L0/archive/20261114T0419_l0aud",
-      "status": "retired",
-      "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
-    },
-    "20261117T2021_l0c": {
-      "status": "current",
-      "kind": "l0-ledger-v3",
-      "path": "work/yuragi/L0/runs/20261117T2021_l0c"
-    },
-    "20261117T2022_l0si": {
-      "status": "current",
-      "kind": "l0-search-index",
-      "path": "work/yuragi/L0/runs/20261117T2022_l0si",
-      "derived_from": "20261117T2021_l0c"
-    },
-    "20261117T2023_l0aud": {
-      "status": "current",
-      "kind": "audit",
-      "result": "PASS",
-      "path": "work/yuragi/L0/runs/20261117T2023_l0aud"
-    }
+ "L0": {
+  "20261114T0417_l0c": {
+   "status": "retired",
+   "kind": "l0-ledger-v3",
+   "path": "work/yuragi/L0/runs/20261114T0417_l0c",
+   "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
   },
-  "L1": {
-    "20261117T2115_l1u": {
-      "kind": "l1-units",
-      "status": "latest",
-      "path": "work/yuragi/L1/runs/20261117T2115_l1u",
-      "note": "篇記事 185 篇・Strata swift-1.5-iq3_xxs 生成"
-    },
-    "20261117T2300_l1aud": {
-      "kind": "l1-audit",
-      "status": "latest",
-      "path": "work/yuragi/L1/runs/20261117T2300_l1aud",
-      "note": "LLM 全量監査＋機械ゲート PASS 一致 185/185 (100%)；2216 ゲート誤検出のため差し替え"
-    },
-    "20261117T2216_l1aud": {
-      "kind": "l1-audit",
-      "status": "retired",
-      "path": "work/yuragi/L1/archive_l1aud_2216",
-      "reason": "機械ゲートが設定名引用を全件誤検出"
-    },
-    "20261118T0158_l1tp": {
-      "kind": "l1-articles-topics",
-      "status": "current",
-      "path": "work/yuragi/L1/runs/20261118T0158_l1tp",
-      "result": "220 篇"
-    },
-    "20261118T0354_l11tpaud": {
-      "kind": "l1-audit-topics",
-      "status": "current",
-      "path": "work/yuragi/L1/runs/20261118T0354_l11tpaud",
-      "result": "PASS 一致 220/220 100%"
-    },
-    "20261118T0148_l1au": {
-      "kind": "l1-articles-authors",
-      "status": "current",
-      "path": "work/yuragi/L1/runs/20261118T0148_l1au",
-      "result": "20 名・casefold 連番 slug"
-    },
-    "20261118T0319_l11auaud": {
-      "kind": "l1-audit-authors",
-      "status": "current",
-      "path": "work/yuragi/L1/runs/20261118T0319_l11auaud",
-      "result": "PASS 一致 20/20 100%"
-    },
-    "20261118T0149_l1ch": {
-      "kind": "l1-articles-chronology",
-      "status": "current",
-      "path": "work/yuragi/L1/runs/20261118T0149_l1ch",
-      "result": "年表 1 篇・year カウント決定論照合一致"
-    },
-    "20261118T0222_l1full": {
-      "kind": "l1-pages-full",
-      "status": "current",
-      "path": "work/yuragi/L1/runs/20261118T0222_l1full",
-      "result": "制約なし版 185 ページ・verify バイト一致 PASS"
-    },
-    "20261118T0151_l1full": {
-      "kind": "l1-pages-full",
-      "status": "retired",
-      "path": "work/yuragi/L1/archive/0151_l1full_newlinebug",
-      "reason": "改行変換バグ（\\r\\r\\n）→ archive/0151_l1full_newlinebug"
-    },
-    "20261118T0948_l1en": {
-      "kind": "l1-articles-entities",
-      "status": "current",
-      "path": "work/yuragi/L1/runs/20261118T0948_l1en",
-      "result": "entities 108 篇（分類台帳 entities.jsonl 準拠）"
-    },
-    "20261118T1023_l11enaud": {
-      "kind": "l1-audit-entities",
-      "status": "current",
-      "path": "work/yuragi/L1/runs/20261118T1023_l11enaud",
-      "result": "LLM全量+機械ゲート PASS 一致 108/108 100%"
-    }
+  "20261114T0417_l0si": {
+   "status": "retired",
+   "kind": "l0-search-index",
+   "path": "work/yuragi/L0/runs/20261114T0417_l0si",
+   "derived_from": "20261114T0417_l0c",
+   "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
+  },
+  "20261114T0421_l0aud": {
+   "status": "retired",
+   "kind": "audit",
+   "result": "PASS",
+   "path": "work/yuragi/L0/runs/20261114T0421_l0aud",
+   "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
+  },
+  "20261114T0432_l0aud": {
+   "status": "retired",
+   "kind": "audit",
+   "result": "PASS",
+   "path": "work/yuragi/L0/runs/20261114T0432_l0aud",
+   "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
+  },
+  "20261114T1727_l0saud": {
+   "kind": "l0-summary-audit",
+   "status": "retired",
+   "reason": "counter バグ（prefill 合算なし）判明のため 20261117T1300_l0saud（100%）に置換",
+   "path": "work/yuragi/L0/archive/20261114T1727_l0saud"
+  },
+  "20261116T2019_l0saud": {
+   "status": "current",
+   "kind": "l0-summary-audit",
+   "result": "ISSUES",
+   "path": "work/yuragi/L0/runs/20261116T2019_l0saud"
+  },
+  "20261117T1110_l0saud": {
+   "status": "current",
+   "kind": "l0-summary-audit",
+   "result": "PASS",
+   "path": "work/yuragi/L0/runs/20261117T1110_l0saud"
+  },
+  "20261117T1200_l0saud": {
+   "status": "current",
+   "kind": "l0-summary-audit",
+   "result": "PASS",
+   "path": "work/yuragi/L0/runs/20261117T1200_l0saud"
+  },
+  "20261117T1230_l0saud": {
+   "status": "current",
+   "kind": "l0-summary-audit",
+   "result": "PASS",
+   "path": "work/yuragi/L0/runs/20261117T1230_l0saud"
+  },
+  "20261117T1300_l0saud": {
+   "status": "current",
+   "kind": "l0-summary-audit",
+   "result": "PASS",
+   "path": "work/yuragi/L0/runs/20261117T1300_l0saud"
+  },
+  "20261117T1136_l0c": {
+   "status": "retired",
+   "kind": "l0-ledger-v3",
+   "path": "work/yuragi/L0/runs/20261117T1136_l0c",
+   "reason": "③④ 構造改修（篇メタ行分離・unit_id 重複排除）による再生成（2021/2022/2023 系へ）"
+  },
+  "20261117T1137_l0si": {
+   "status": "retired",
+   "kind": "l0-search-index",
+   "path": "work/yuragi/L0/runs/20261117T1137_l0si",
+   "derived_from": "20261117T1136_l0c",
+   "reason": "③④ 構造改修（篇メタ行分離・unit_id 重複排除）による再生成（2021/2022/2023 系へ）"
+  },
+  "20261117T1137_l0aud": {
+   "status": "retired",
+   "kind": "audit",
+   "result": "PASS",
+   "path": "work/yuragi/L0/runs/20261117T1137_l0aud",
+   "reason": "③④ 構造改修（篇メタ行分離・unit_id 重複排除）による再生成（2021/2022/2023 系へ）"
+  },
+  "20261114T0419_l0aud": {
+   "kind": "l0",
+   "path": "work/yuragi/L0/archive/20261114T0419_l0aud",
+   "status": "retired",
+   "reason": "summary 導入による再生成（20261117T1136 系へ差し替え）"
+  },
+  "20261117T2021_l0c": {
+   "status": "current",
+   "kind": "l0-ledger-v3",
+   "path": "work/yuragi/L0/runs/20261117T2021_l0c"
+  },
+  "20261117T2022_l0si": {
+   "status": "current",
+   "kind": "l0-search-index",
+   "path": "work/yuragi/L0/runs/20261117T2022_l0si",
+   "derived_from": "20261117T2021_l0c"
+  },
+  "20261117T2023_l0aud": {
+   "status": "current",
+   "kind": "audit",
+   "result": "PASS",
+   "path": "work/yuragi/L0/runs/20261117T2023_l0aud"
   }
+ },
+ "L1": {
+  "20261117T2115_l1u": {
+   "kind": "l1-units",
+   "status": "latest",
+   "path": "work/yuragi/L1/runs/20261117T2115_l1u",
+   "note": "篇記事 185 篇・Strata swift-1.5-iq3_xxs 生成"
+  },
+  "20261117T2300_l1aud": {
+   "kind": "l1-audit",
+   "status": "latest",
+   "path": "work/yuragi/L1/runs/20261117T2300_l1aud",
+   "note": "LLM 全量監査＋機械ゲート PASS 一致 185/185 (100%)；2216 ゲート誤検出のため差し替え"
+  },
+  "20261117T2216_l1aud": {
+   "kind": "l1-audit",
+   "status": "retired",
+   "path": "work/yuragi/L1/archive_l1aud_2216",
+   "reason": "機械ゲートが設定名引用を全件誤検出"
+  },
+  "20261118T0158_l1tp": {
+   "kind": "l1-articles-topics",
+   "status": "current",
+   "path": "work/yuragi/L1/runs/20261118T0158_l1tp",
+   "result": "220 篇"
+  },
+  "20261118T0354_l11tpaud": {
+   "kind": "l1-audit-topics",
+   "status": "current",
+   "path": "work/yuragi/L1/runs/20261118T0354_l11tpaud",
+   "result": "PASS 一致 220/220 100%"
+  },
+  "20261118T0148_l1au": {
+   "kind": "l1-articles-authors",
+   "status": "current",
+   "path": "work/yuragi/L1/runs/20261118T0148_l1au",
+   "result": "20 名・casefold 連番 slug"
+  },
+  "20261118T0319_l11auaud": {
+   "kind": "l1-audit-authors",
+   "status": "current",
+   "path": "work/yuragi/L1/runs/20261118T0319_l11auaud",
+   "result": "PASS 一致 20/20 100%"
+  },
+  "20261118T0149_l1ch": {
+   "kind": "l1-articles-chronology",
+   "status": "current",
+   "path": "work/yuragi/L1/runs/20261118T0149_l1ch",
+   "result": "年表 1 篇・year カウント決定論照合一致"
+  },
+  "20261118T0222_l1full": {
+   "kind": "l1-pages-full",
+   "status": "current",
+   "path": "work/yuragi/L1/runs/20261118T0222_l1full",
+   "result": "制約なし版 185 ページ・verify バイト一致 PASS"
+  },
+  "20261118T0151_l1full": {
+   "kind": "l1-pages-full",
+   "status": "retired",
+   "path": "work/yuragi/L1/archive/0151_l1full_newlinebug",
+   "reason": "改行変換バグ（\\r\\r\\n）→ archive/0151_l1full_newlinebug"
+  },
+  "20261118T0948_l1en": {
+   "kind": "l1-articles-entities",
+   "status": "current",
+   "path": "work/yuragi/L1/runs/20261118T0948_l1en",
+   "result": "entities 108 篇（分類台帳 entities.jsonl 準拠）"
+  },
+  "20261118T1023_l11enaud": {
+   "kind": "l1-audit-entities",
+   "status": "current",
+   "path": "work/yuragi/L1/runs/20261118T1023_l11enaud",
+   "result": "LLM全量+機械ゲート PASS 一致 108/108 100%"
+  },
+  "20261119T0014_l1free": {
+   "path": "work/yuragi/L1/runs/20261119T0014_l1free",
+   "note": "free 制約なし自由記述 185 篇（小対象品質サイクル経由・公開済み site 7ba8c78c）",
+   "stats": {
+    "units": 185
+   },
+   "current": true
+  },
+  "20261119T0009_l11freeaud": {
+   "path": "work/yuragi/L1/runs/20261119T0009_l11freeaud",
+   "note": "free LLM 全量監査 PASS 185/185 100%（収束 89→5→2→1→0）",
+   "stats": {
+    "pass_rate": 1.0
+   },
+   "current": true
+  },
+  "20261119T0453_l1works": {
+   "path": "work/yuragi/L1/runs/20261119T0453_l1works",
+   "note": "works 6453 ページ決定論生成・permalink 26710 本 live・verify 7621/7621 PASS（公開済み CI run12）",
+   "stats": {
+    "works_pages": 6453,
+    "index_pages": 23
+   },
+   "current": true
+  },
+  "20261119T0932_l1en": {
+   "path": "work/yuragi/L1/runs/20261119T0932_l1en",
+   "note": "entities min3 拡張 321 件生成（台帳 429 語・監査 0933 収束中）",
+   "stats": {
+    "emitted": 321
+   },
+   "current": true
+  },
+  "20261119T0933_l11enaud": {
+   "path": "work/yuragi/L1/runs/20261119T0933_l11enaud",
+   "note": "entities 321 LLM 全量監査 PASS 100%（320 一致＋一部一致 1・judged 破損行清掃込み）",
+   "stats": {
+    "pass_rate": 1.0
+   },
+   "current": true
+  },
+  "20261119T1125_l1au": {
+   "path": "work/yuragi/L1/runs/20261119T1125_l1au",
+   "note": "authors min50 拡張 31 名生成（公開 675e006f）",
+   "stats": {
+    "emitted": 31
+   },
+   "current": true
+  },
+  "20261119T1126_l11auaud": {
+   "path": "work/yuragi/L1/runs/20261119T1126_l11auaud",
+   "note": "authors 31 LLM 全量監査 PASS 100%（1 周収束 fixed3）",
+   "stats": {
+    "pass_rate": 1.0
+   },
+   "current": true
+  }
+ }
 }

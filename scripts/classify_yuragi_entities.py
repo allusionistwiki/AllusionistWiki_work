@@ -52,6 +52,8 @@ def classify_batch(terms, udirs):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--min", type=int, default=5)
+    ap.add_argument("--out", default=None)
+    ap.add_argument("--append-existing", default=None)
     ap.add_argument("--workers", type=int, default=3)
     a = ap.parse_args()
     latest, sp = l0_paths()
@@ -67,13 +69,25 @@ def main():
             for k, v in f.result().items():
                 results[k] = v
     rows = []
+    if a.append_existing and Path(a.append_existing).exists():
+        for l in Path(a.append_existing).read_bytes().decode("utf-8").splitlines():
+            if l.strip():
+                rows.append(json.loads(l))
+    done_pre = {r["term"] for r in rows}
     for t in terms:
+        if t["term"] in done_pre:
+            continue
         r = results.get(t["term"])
         if r is None:
             r = {"type": "概念", "is_entity": True, "note": "", "unclassified": True}
         rows.append({"term": t["term"], "count": t["count"], **r,
                      "classified_by": CFG["model"], "ts": dt.datetime.now().isoformat()})
-    out = L1 / "entities.jsonl"
+    out = Path(a.out) if a.out else L1 / "entities.jsonl"
+    done_pre = set()
+    if a.append_existing and Path(a.append_existing).exists():
+        for l in Path(a.append_existing).read_bytes().decode("utf-8").splitlines():
+            if l.strip():
+                done_pre.add(json.loads(l)["term"])
     out.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows), encoding="utf-8")
     ent = sum(1 for r in rows if r["is_entity"])
     print(json.dumps({"total": len(rows), "entities": ent, "non_entities": len(rows) - ent,

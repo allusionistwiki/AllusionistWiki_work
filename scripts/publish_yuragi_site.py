@@ -23,8 +23,8 @@ UNITS_RUN = "20261117T2115_l1u"
 UNITS_AUDIT = "20261117T2300_l1aud"
 TOPICS_RUN = "20261118T0158_l1tp"
 TOPICS_AUDIT = "20261118T0354_l11tpaud"
-AUTHORS_RUN = "20261118T0148_l1au"
-AUTHORS_AUDIT = "20261118T0319_l11auaud"
+AUTHORS_RUN = "20261119T1125_l1au"
+AUTHORS_AUDIT = "20261119T1126_l11auaud"
 CHRONO_RUN = "20261118T0149_l1ch"
 FULL_RUN = "20261118T1948_l1full"
 ENTITIES_RUN = None  # entities 生成後に設定（runs 内の最新 _l1en を自動検出）
@@ -155,7 +155,27 @@ def main() -> int:
         up = CONTENT / "units" / p.name
         cur = up.read_bytes().decode("utf-8", "replace")
         if "[[full/" not in cur:
-            up.write_bytes((cur.rstrip("\r\n") + f"\n\n---\n関連: [[full/{uid}|原文全文（制約なし版）]]\n").encode("utf-8"))
+            up.write_bytes((cur.rstrip("\r\n") + f"\n\n---\n関連: [[full/{uid}|原文全文（制約なし版）]] ／ [[free/{uid}|自由記述記事]]\n").encode("utf-8"))
+
+    # free（制約なし自由記述記事・LLM 全量監査 100% 収束）
+    FREE_RUN = "20261119T0014_l1free"
+    FREE_AUDIT = "20261119T0009_l11freeaud"
+    for p in sorted((L1 / "runs" / FREE_RUN / "units").glob("*.md")):
+        uid = p.stem
+        t = units.get(uid, {}).get("title", uid)
+        emit(p, CONTENT / "free" / p.name, t, {"link_audit": FREE_AUDIT}, uid=uid)
+        fp = CONTENT / "free" / p.name
+        cur = fp.read_bytes().decode("utf-8", "replace")
+        if "[[units/" not in cur:
+            fp.write_bytes((cur.rstrip("\r\n") + f"\n\n---\n関連: [[units/{uid}|L1 版記事]] ／ [[full/{uid}|原文全文]]\n").encode("utf-8"))
+    fidx = CONTENT / "free_index.md"
+    fl = ["---", 'title: "自由記述索引"', "run: publish", "---", "", "# 自由記述記事（制約なし版）", "",
+          "L1 版記事と原文をもとに、L1 の構造制約なしで自由記述した記事群（LLM 全量監査 100% 収束）。", ""]
+    for p in sorted((CONTENT / "free").glob("*.md")):
+        uid = p.stem
+        t = units.get(uid, {}).get("title", uid)
+        fl.append(f"- [[free/{uid}|{t}]]")
+    fidx.write_bytes("\n".join(fl).encode("utf-8"))
 
     # topics / authors
     for p in sorted((L1 / "runs" / TOPICS_RUN / "topics").glob("*.md")):
@@ -287,21 +307,25 @@ run: publish
 ## 版
 
 - **L1 版（当サイト主要面）**: 要約・整理記事。引用は 100 字以内＋ ref アンカー（原文ファイルへのリンク付き）。
-- **制約なし版**: [[full/index|full（原文全文同梱）]] — 各篇の投稿全文をそのまま掲載。投稿の著作権は各投稿者に帰属します（[[license|ライセンス]]）。
+- **自由記述版（制約なし）**: [[free_index|free（自由記述記事）]] — L1 と原文をもとに構造制約なしで記述。引用は原文からの逐語のみ・全記事 ref 付き。
+- **原文全文版**: [[full/index|full（原文全文同梱）]] — 各篇の投稿全文をそのまま掲載（投稿単位アンカー付き）。投稿の著作権は各投稿者に帰属します（[[license|ライセンス]]）。
 
 ## 節
 
 - [[entities_index|实体索引]] — 人物・物品・国などの作中实体（wiki 中核）
 - [[works_top|創作索引]] — 散在する創作的記述（詩・短編・設定文等）の横断索引
+- [[free_index|自由記述索引]] — 制約なし自由記述記事（L1＋原文に基づく）
 - [[nav|篇索引]] — 185 篇
 - [[topics/index|topics 索引]] — 話題・語句 220
-- [[authors/index|authors 索引]] — 主要投稿者 20
+- [[authors/index|authors 索引]] — 主要投稿者 31（投稿 50 以上）
 - [[chronology|年表]]
 - [[full/index|制約なし版 篇索引]]
 
 ## 統計（L0 台帳 {led.name}）
 
 - 篇 185 / 投稿 48,891 / 投稿群 16,271（LLM 要約付き）/ 語句 6,224
+- 創作記述 7,621 群 → 作品ページ 6,453・収録投稿 26,710 件（permalink 付き原文逐語）
+- 实体 321・自由記述記事 185・全記事 LLM 全量監査 100% 収束
 - 来歴: 解析・生成・監査は AllusionistWiki_work repo（非公開運用層）で実施。各記事 frontmatter に run ID 記録。
 """
     (CONTENT / "index.md").write_bytes(top.encode("utf-8"))

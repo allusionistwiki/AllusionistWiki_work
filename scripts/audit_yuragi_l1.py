@@ -35,7 +35,10 @@ def jl(p: Path):
     for l in rd(p).splitlines():
         if not l.strip():
             continue
-        r = json.loads(l)
+        try:
+            r = json.loads(l)
+        except json.JSONDecodeError:
+            continue  # 並列追記による破損行は復旧不能なので無視（該当キーは再判定される）
         if isinstance(r, dict) and r.get("_meta"):
             continue
         out.append(r)
