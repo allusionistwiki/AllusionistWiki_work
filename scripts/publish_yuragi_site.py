@@ -257,7 +257,7 @@ def main() -> int:
             for stale in (CONTENT / "widx_authors.md", CONTENT / "widx_units.md"):
                 stale.unlink(missing_ok=True)
 
-    # entities（实体ページ・wiki 中核）
+    # entities（実体ページ・wiki 中核）
     import re as _re
     ent_run = ENTITIES_RUN
     if not ent_run:
@@ -298,11 +298,11 @@ def main() -> int:
             tnorm = _slugify_norm(term)
             if tnorm not in ent_slugs:
                 ent_slugs[tnorm] = stem
-        # 関連する实体欄 → entity 相互リンク（長い語優先で置換）
+        # 関連する実体欄 → entity 相互リンク（長い語優先で置換）
         terms_sorted = sorted(ent_slugs, key=len, reverse=True)
         for p in sorted((CONTENT / "entities").glob("*.md")):
             art = p.read_bytes().decode("utf-8", "replace")
-            m = _re.search(r"(##\s*関連する实体.*?)(?=\n##|\Z)", art, re.S)
+            m = _re.search(r"(##\s*関連する実体.*?)(?=\n##|\Z)", art, re.S)
             if not m:
                 continue
             sec = m.group(1)
@@ -317,7 +317,7 @@ def main() -> int:
             new = art[:m.start(1)] + sec + art[m.end(1):]
             p.write_bytes(new.encode("utf-8"))
         # 类型別索引
-        idx = ["---", 'title: "实体索引"', "run: publish", "---", "", "# 实体索引", ""]
+        idx = ["---", 'title: "実体索引"', "run: publish", "---", "", "# 実体索引", ""]
         by_type = {}
         for p in sorted((CONTENT / "entities").glob("*.md")):
             a = p.read_bytes().decode("utf-8", "replace")
@@ -361,7 +361,7 @@ run: publish
 
 ## 節
 
-- [[entities_index|实体索引]] — 人物・物品・国などの作中实体（wiki 中核）
+- [[entities_index|実体索引]] — 人物・物品・国などの作中実体（wiki 中核）
 - [[works_top|創作索引]] — 散在する創作的記述（詩・短編・設定文等）の横断索引
 - [[free_index|自由記述索引]] — 制約なし自由記述記事（L1＋原文に基づく）
 - [[nav|篇索引]] — 185 篇
@@ -374,7 +374,7 @@ run: publish
 
 - 篇 185 / 投稿 48,891 / 投稿群 16,271（LLM 要約付き）/ 語句 6,224
 - 創作記述 7,621 群 → 作品ページ 6,453・収録投稿 26,710 件（permalink 付き原文逐語）
-- 实体 800（登場 2 以上）・自由記述記事 185・全記事 LLM 全量監査 100% 収束
+- 実体 800（登場 2 以上）・自由記述記事 185・全記事 LLM 全量監査 100% 収束
 - 来歴: 解析・生成・監査は AllusionistWiki_work repo（非公開運用層）で実施。各記事 frontmatter に run ID 記録。
 """
     (CONTENT / "index.md").write_bytes(top.encode("utf-8"))
