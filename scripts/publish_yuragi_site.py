@@ -60,6 +60,42 @@ def main() -> int:
     led = latest("_l0c")
     units = {json.loads(l)["unit_id"]: json.loads(l) for l in (led / "units.jsonl").read_bytes().decode("utf-8").splitlines() if l.strip()}
 
+    # L0 検索索引 → 実体 backlink・月別年表（決定論追記用）
+    import unicodedata as _ud
+    si = latest("_l0si")
+    terms_rows = jl(si / "search" / "terms.jsonl")
+    bydate = {r["ref"]: r["date_iso"] for r in jl(si / "search" / "by-date.jsonl") if r.get("date_iso")}
+    _ecands = sorted(p.name for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l1en"))
+    ent_map = {}  # NFKC term -> slug
+    for cn in _ecands:
+        for p in sorted((L1 / "runs" / cn / "entities").glob("*.md")):
+            tm = re.search(r'term:\s*"([^"]+)"', p.read_bytes().decode("utf-8", "replace"))
+            term = tm.group(1) if tm else p.stem
+            ent_map.setdefault(_ud.normalize("NFKC", term).strip(), p.stem)
+    ent_units = {}  # slug -> (term, [(uid, count) 件数降順])
+    term_refs = {}  # NFKC term -> refs
+    for r in terms_rows:
+        key = _ud.normalize("NFKC", r["term"]).strip()
+        term_refs.setdefault(key, []).extend(r.get("refs", []))
+        slug = ent_map.get(key)
+        if not slug:
+            continue
+        cnt: dict[str, int] = {}
+        for ref in r.get("refs", []):
+            uid = ref.split(":")[0]
+            cnt[uid] = cnt.get(uid, 0) + 1
+        prev = ent_units.get(slug)
+        if prev:
+            merged = dict(prev[1])
+            for uid_, c in cnt.items():
+                merged[uid_] = max(merged.get(uid_, 0), c)
+            cnt = merged
+        ent_units[slug] = (key, sorted(cnt.items(), key=lambda x: (-x[1], x[0])))
+    unit_ents: dict[str, list] = {}
+    for slug, (term, pairs) in ent_units.items():
+        for uid_, c in pairs:
+            unit_ents.setdefault(uid_, []).append((c, term, slug))
+
     # ref → raw ファイル URL（③ 行から）
     ref_url = {}
     unit_dir_rel = {}
@@ -156,7 +192,13 @@ def main() -> int:
         up = CONTENT / "units" / p.name
         cur = up.read_bytes().decode("utf-8", "replace")
         if "[[full/" not in cur:
-            up.write_bytes((cur.rstrip("\r\n") + f"\n\n---\n関連: [[full/{uid}|原文全文（制約なし版）]] ／ [[free/{uid}|自由記述記事]]\n").encode("utf-8"))
+            cur = cur.rstrip() + f"\n\n---\n関連: [[full/{uid}|原文全文（制約なし版）]] ／ [[free/{uid}|自由記述記事]]\n"
+        # 本篇で言及される実体（決定論 backlink）
+        ents = sorted(unit_ents.get(uid, []), key=lambda x: (-x[0], x[1]))[:30]
+        if ents:
+            cur = cur.rstrip() + "\n\n## 本篇で言及される実体\n\n"
+            cur += "".join(f"- [[entities/{sl}|{term}]]（{n} 件）\n" for n, term, sl in ents)
+        up.write_bytes(cur.encode("utf-8"))
 
     # free（制約なし自由記述記事・LLM 全量監査 100% 収束）
     FREE_RUN = "20261119T0014_l1free"
@@ -191,6 +233,32 @@ def main() -> int:
     # chronology
     cp = L1 / "runs" / CHRONO_RUN / "chrono" / "chronology.md"
     emit(cp, CONTENT / "chronology.md", "年表", {"link_audit": CHRONO_RUN})
+
+    # 年表に決定論追記: 月別投稿数・主要語句の初出/最終言及（by-date 台帳照合）
+    from collections import Counter
+    ym = Counter(d[:7] for d in bydate.values())
+    cl = ["## 月別投稿数", ""]
+    for y in sorted({m[:4] for m in ym}):
+        months = [f"{int(m[5:7])}月 {ym[m]}" for m in sorted(ym) if m.startswith(y)]
+        cl.append(f"**{y} 年**　" + " ／ ".join(months) + "")
+        cl.append("")
+    tops = sorted(terms_rows, key=lambda r: -r["count"])[:40]
+    cl += ["## 主要語句の初出・最終言及", "", "| 語句 | 初出 | 最終 |", "|---|---|---|"]
+    for r in tops:
+        refs = [x for x in r.get("refs", []) if x in bydate]
+        if not refs:
+            continue
+        refs.sort(key=lambda x: bydate[x])
+        def cell(ref):
+            uid_, n = ref.split(":")
+            pl = permalink(uid_, int(n))
+            lab = f"{uid_} 投稿{n}（{bydate[ref][:10]}）"
+            return f"[{lab}]({pl})" if pl else lab
+        cl.append(f"| {r['term']} | {cell(refs[0])} | {cell(refs[-1])} |")
+    cl.append("")
+    cp_out = CONTENT / "chronology.md"
+    cur = cp_out.read_bytes().decode("utf-8", "replace")
+    cp_out.write_bytes((cur.rstrip() + "\n\n" + "\n".join(cl)).encode("utf-8"))
 
     # works（創作記述ページ・決定論組立・投稿 permalink 付き）
     wrun = None
@@ -317,6 +385,19 @@ def main() -> int:
                 sec = _re.sub(r"(?<!\|)" + _re.escape(t) + r"(?!\]\])", link, sec)
             new = art[:m.start(1)] + sec + art[m.end(1):]
             p.write_bytes(new.encode("utf-8"))
+        # 言及篇一覧（決定論 backlink: 実体ページ → 篇）
+        for p in sorted((CONTENT / "entities").glob("*.md")):
+            info = ent_units.get(p.stem)
+            if not info:
+                continue
+            art = p.read_bytes().decode("utf-8", "replace")
+            if "## 言及篇" in art:
+                continue
+            pairs = info[1][:30]
+            sec = "\n\n## 言及篇\n\n" + "".join(
+                f"- [[units/{u}|{units.get(u, {}).get('title', u)}]]（{c} 件）\n"
+                for u, c in pairs)
+            p.write_bytes((art.rstrip() + sec).encode("utf-8"))
         # 类型別索引
         idx = ["---", 'title: "実体索引"', "run: publish", "---", "", "# 実体索引", ""]
         by_type = {}
