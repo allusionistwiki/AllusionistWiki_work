@@ -28,6 +28,7 @@ AUTHORS_AUDIT = "20261120T1700_l11auaud2"
 CHRONO_RUN = "20261118T0149_l1ch"
 FULL_RUN = "20261118T1948_l1full"
 ENTITIES_RUN = None  # entities 生成後に設定（runs 内の最新 _l1en を自動検出）
+ENTITIES_AUDIT = "20261120T1730_l11en3aud"  # entities 全量監査 PASS run
 
 
 def jl(p: Path):
@@ -285,7 +286,7 @@ def main() -> int:
             fm = p.read_bytes().decode("utf-8", "replace")
             tm = _re.search(r'term:\s*"([^"]+)"', fm)
             term = tm.group(1) if tm else p.stem
-            emit(p, CONTENT / "entities" / p.name, term, {"link_audit": ent_run})
+            emit(p, CONTENT / "entities" / p.name, term, {"link_audit": ENTITIES_AUDIT})
             emit_slugs[p.stem] = term
         for stem, p in sorted(inherited.items()):
             if stem in emit_slugs:
@@ -293,7 +294,7 @@ def main() -> int:
             fm = p.read_bytes().decode("utf-8", "replace")
             tm = _re.search(r'term:\s*"([^"]+)"', fm)
             term = tm.group(1) if tm else stem
-            emit(p, CONTENT / "entities" / p.name, term, {"link_audit": ent_run})
+            emit(p, CONTENT / "entities" / p.name, term, {"link_audit": ENTITIES_AUDIT})
             emit_slugs[stem] = term
             tnorm = _slugify_norm(term)
             if tnorm not in ent_slugs:
