@@ -95,6 +95,17 @@ def main() -> int:
     for slug, (term, pairs) in ent_units.items():
         for uid_, c in pairs:
             unit_ents.setdefault(uid_, []).append((c, term, slug))
+    # 共起实体: 同一篇に共出現する実体ペアの篇数
+    cooccur: dict[str, dict[str, int]] = {}
+    for uid_, ents in unit_ents.items():
+        slugs = [sl for _, _, sl in ents]
+        for a in range(len(slugs)):
+            for b in range(a + 1, len(slugs)):
+                x, y = slugs[a], slugs[b]
+                cooccur.setdefault(x, {}).setdefault(y, 0)
+                cooccur[x][y] += 1
+                cooccur.setdefault(y, {}).setdefault(x, 0)
+                cooccur[y][x] += 1
 
     # ref → raw ファイル URL（③ 行から）
     ref_url = {}
@@ -174,6 +185,8 @@ def main() -> int:
         emit(p, CONTENT / "full" / p.name, t, {"link_audit": FULL_RUN})
         fp = CONTENT / "full" / p.name
         cur = fp.read_bytes().decode("utf-8", "replace")
+        # 直下 pages の相対 depth 修正（../../units は full/<uid>/pK 用・直下では 1 過剰）
+        cur = cur.replace("](../../units/", "](../units/")
         if "[[units/" not in cur:
             fp.write_bytes((cur.rstrip("\r\n") + f"\n\n---\n関連: [[units/{uid}|L1 版記事]]\n").encode("utf-8"))
     pages_dir = L1 / "runs" / FULL_RUN / "pages"
@@ -234,6 +247,29 @@ def main() -> int:
         fm = p.read_bytes().decode("utf-8", "replace")
         am = re.search(r'author:\s*"([^"]+)"', fm)
         emit(p, CONTENT / "authors" / p.name, am.group(1) if am else p.stem, {"link_audit": AUTHORS_AUDIT})
+
+    # ディレクトリ索引ページ（full/topics/authors — トップ導線の受け皿）
+    idx_specs = [
+        ("full", "full 篇索引（原文全文）",
+         "各篇の投稿全文をそのまま掲載（投稿単位アンカー付き）。",
+         lambda p: units.get(p.stem, {}).get("title", p.stem)),
+        ("topics", "topics 索引",
+         "話題・語句の横断記事（出現 3 以上）。",
+         lambda p: re.search(r'title:\s*"([^"]+)"', (CONTENT / "topics" / p.name).read_bytes().decode("utf-8", "replace")).group(1)
+         if re.search(r'title:\s*"([^"]+)"', (CONTENT / "topics" / p.name).read_bytes().decode("utf-8", "replace")) else p.stem),
+        ("authors", "authors 索引",
+         "主要投稿者記事（投稿 10 以上）。",
+         lambda p: re.search(r'title:\s*"([^"]+)"', (CONTENT / "authors" / p.name).read_bytes().decode("utf-8", "replace")).group(1)
+         if re.search(r'title:\s*"([^"]+)"', (CONTENT / "authors" / p.name).read_bytes().decode("utf-8", "replace")) else p.stem),
+    ]
+    for d, title, desc, lab in idx_specs:
+        lines = ["---", f'title: "{title}"', "run: publish", "---", "", f"# {title}", "", desc, ""]
+        for p in sorted((CONTENT / d).glob("*.md")):
+            if p.stem == "index":
+                continue
+            lines.append(f"- [[{d}/{p.stem}|{lab(p)}]]")
+        lines.append("")
+        (CONTENT / d / "index.md").write_bytes("\n".join(lines).encode("utf-8"))
 
     # chronology
     cp = L1 / "runs" / CHRONO_RUN / "chrono" / "chronology.md"
@@ -381,13 +417,26 @@ def main() -> int:
                 continue
             sec = m.group(1)
             self_slug = p.stem
-            for t in terms_sorted:
-                sl = ent_slugs[t]
-                if sl == self_slug:
-                    continue
-                link = f"[[entities/{sl}|{t}]]"
-                # 既存リンク化済み（|語]] 形）は置換しない
-                sec = _re.sub(r"(?<!\|)" + _re.escape(t) + r"(?!\]\])", link, sec)
+            # 既存 wikilink をセンチネル保護
+            _links: list[str] = []
+            def _prot(mo):
+                _links.append(mo.group(0))
+                return "\u0000L%d\u0000" % (len(_links) - 1)
+            sec = _re.sub(r"\[\[[^\]]*\]\]", _prot, sec)
+            # 単一スキャン最長一致（語の入れ子再帰置換を構造的に起こさない）
+            terms_here = [t for t in terms_sorted if ent_slugs[t] != self_slug]
+            terms_len = sorted(terms_here, key=len, reverse=True)
+            pat = "(" + "|".join(_re.escape(t) for t in terms_len) + ")"
+            found: dict[str, tuple[str, str]] = {}
+            def _mk(mo):
+                t = mo.group(1)
+                key = "\u0000K%d\u0000" % len(found)
+                found[key] = (ent_slugs[t], t)
+                return key
+            sec = _re.sub(pat, _mk, sec)
+            for key, (sl, t) in found.items():
+                sec = sec.replace(key, f"[[entities/{sl}|{t}]]")
+            sec = _re.sub(r"\u0000L(\d+)\u0000", lambda mo: _links[int(mo.group(1))], sec)
             new = art[:m.start(1)] + sec + art[m.end(1):]
             p.write_bytes(new.encode("utf-8"))
         # 言及篇一覧（決定論 backlink: 実体ページ → 篇）＋ 初出/最終言及日
@@ -405,6 +454,13 @@ def main() -> int:
             ds = sorted(bydate[r][:10] for r in term_refs.get(info[0], []) if r in bydate)
             if ds:
                 sec += f"\n初出 {ds[0]} ／ 最終言及 {ds[-1]}（{len(ds)} 件）\n"
+            co = sorted(cooccur.get(p.stem, {}).items(), key=lambda kv: (-kv[1], kv[0]))[:15]
+            if co:
+                co_lines = "".join(
+                    f"- [[entities/{s}|{ent_units[s][0]}]]（共起 {n} 篇）\n"
+                    for s, n in co if s in ent_units)
+                if co_lines:
+                    sec += "\n## 共起実体\n\n" + co_lines
             p.write_bytes((art.rstrip() + sec).encode("utf-8"))
         # 类型別索引
         idx = ["---", 'title: "実体索引"', "run: publish", "---", "", "# 実体索引", ""]
