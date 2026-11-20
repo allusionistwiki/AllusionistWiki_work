@@ -28,7 +28,7 @@ AUTHORS_AUDIT = "20261120T1700_l11auaud2"
 CHRONO_RUN = "20261118T0149_l1ch"
 FULL_RUN = "20261118T1948_l1full"
 ENTITIES_RUN = None  # entities 生成後に設定（runs 内の最新 _l1en を自動検出）
-ENTITIES_AUDIT = "20261120T1730_l11en3aud"  # entities 全量監査 PASS run
+ENTITIES_AUDIT = "20261121T1430_l11en4aud"  # entities 全量監査 PASS run
 
 
 def jl(p: Path):
