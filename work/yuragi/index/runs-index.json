@@ -320,7 +320,7 @@
   "topics_audit": "20261120T1630_l11tpaud2",
   "free_audit": "20261120T1830_l11faud2",
   "entities_audit": "20261120T1730_l11en3aud",
-  "works": "20261120T0902_l1works"
+  "works": "20261121T0743_l1works"
  },
  "runs": {
   "20261120T1200_l11uaud2": {
@@ -376,6 +376,14 @@
    "posts_ok": 26710,
    "note": "chains 群要約 CN 字体变体正規化後の再生成（掲載文脈 CN 駆逐）",
    "derived_from": "20261119T0453_l1works"
+  },
+  "20261121T0743_l1works": {
+   "layer": "L1/works",
+   "derived_from": [
+    "20261120T0902_l1works",
+    "L0 summaries CN-variant normalized 2026-11-21"
+   ],
+   "note": "works regen after chains summary CN normalization (长记载婴儿气→長記載嬰児気); 6453 pages, 23 index pages"
   }
  }
 }
