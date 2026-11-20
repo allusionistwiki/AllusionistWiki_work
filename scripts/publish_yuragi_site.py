@@ -390,7 +390,7 @@ def main() -> int:
                 sec = _re.sub(r"(?<!\|)" + _re.escape(t) + r"(?!\]\])", link, sec)
             new = art[:m.start(1)] + sec + art[m.end(1):]
             p.write_bytes(new.encode("utf-8"))
-        # 言及篇一覧（決定論 backlink: 実体ページ → 篇）
+        # 言及篇一覧（決定論 backlink: 実体ページ → 篇）＋ 初出/最終言及日
         for p in sorted((CONTENT / "entities").glob("*.md")):
             info = ent_units.get(p.stem)
             if not info:
@@ -402,6 +402,9 @@ def main() -> int:
             sec = "\n\n## 言及篇\n\n" + "".join(
                 f"- [[units/{u}|{units.get(u, {}).get('title', u)}]]（{c} 件）\n"
                 for u, c in pairs)
+            ds = sorted(bydate[r][:10] for r in term_refs.get(info[0], []) if r in bydate)
+            if ds:
+                sec += f"\n初出 {ds[0]} ／ 最終言及 {ds[-1]}（{len(ds)} 件）\n"
             p.write_bytes((art.rstrip() + sec).encode("utf-8"))
         # 类型別索引
         idx = ["---", 'title: "実体索引"', "run: publish", "---", "", "# 実体索引", ""]
