@@ -210,7 +210,12 @@ def main() -> int:
         fp = CONTENT / "free" / p.name
         cur = fp.read_bytes().decode("utf-8", "replace")
         if "[[units/" not in cur:
-            fp.write_bytes((cur.rstrip("\r\n") + f"\n\n---\n関連: [[units/{uid}|L1 版記事]] ／ [[full/{uid}|原文全文]]\n").encode("utf-8"))
+            cur = cur.rstrip() + f"\n\n---\n関連: [[units/{uid}|L1 版記事]] ／ [[full/{uid}|原文全文]]\n"
+        ents = sorted(unit_ents.get(uid, []), key=lambda x: (-x[0], x[1]))[:30]
+        if ents:
+            cur = cur.rstrip() + "\n\n## 本篇で言及される実体\n\n"
+            cur += "".join(f"- [[entities/{sl}|{term}]]（{n} 件）\n" for n, term, sl in ents)
+        fp.write_bytes(cur.encode("utf-8"))
     fidx = CONTENT / "free_index.md"
     fl = ["---", 'title: "自由記述索引"', "run: publish", "---", "", "# 自由記述記事（制約なし版）", "",
           "L1 版記事と原文をもとに、L1 の構造制約なしで自由記述した記事群（LLM 全量監査 100% 収束）。", ""]
