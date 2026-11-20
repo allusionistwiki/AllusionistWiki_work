@@ -319,7 +319,8 @@
   "authors_audit": "20261120T1700_l11auaud2",
   "topics_audit": "20261120T1630_l11tpaud2",
   "free_audit": "20261120T1830_l11faud2",
-  "entities_audit": "20261120T1730_l11en3aud"
+  "entities_audit": "20261120T1730_l11en3aud",
+  "works": "20261120T0902_l1works"
  },
  "runs": {
   "20261120T1200_l11uaud2": {
@@ -366,6 +367,15 @@
    "pass_rate": 1.0,
    "note": "entities 増分 479 質感仕上げ後の全量監査 PASS（judged 477・flagged 0）",
    "derived_from": "20261119T2042_l1en"
+  },
+  "20261120T0902_l1works": {
+   "run": "20261120T0902_l1works",
+   "layer": "L1",
+   "scope": "works",
+   "works_pages": 6453,
+   "posts_ok": 26710,
+   "note": "chains 群要約 CN 字体变体正規化後の再生成（掲載文脈 CN 駆逐）",
+   "derived_from": "20261119T0453_l1works"
   }
  }
 }
