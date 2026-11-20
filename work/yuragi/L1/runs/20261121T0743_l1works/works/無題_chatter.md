@@ -1,0 +1,21 @@
+---
+title: "無題"
+work: "無題"
+author: "chatter"
+type: "その他創作"
+chains: 1
+run: 20261121T0743_l1works
+---
+
+# 無題
+
+（作者: chatter ／ 类型: その他創作 ／ 収録群: 1）
+
+## チャット実況スレ（YJ-T161） 群 g007
+
+- 話題: —
+- 掲載文脈: 実況投稿：chatterがモニター前で入れ替わり立ち替わりしていると叫ぶ
+
+**58** chatter 2007-12-02T23:10:26+09:00 [#58](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T161/#post-58)
+
+へっ、こっちだってモニターの前で入れ替わり立ち替わっているんだぜ！

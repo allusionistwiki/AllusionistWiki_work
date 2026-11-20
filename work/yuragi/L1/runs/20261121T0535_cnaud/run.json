@@ -1,0 +1,37 @@
+{
+ "run_id": "20261121T0535_cnaud",
+ "layer": "L1",
+ "scope": "cn-simplified-char-audit",
+ "site_repo": "YuragiWiki",
+ "site_head": "afd82f74976584e68210d02d65a18e61c4ecaf9c",
+ "generated_by": "cron yuragi-longjob-check (audit)",
+ "derived_from": {
+  "site_content_commit": "afd82f749",
+  "prior_audit": "scratch/cn_audit_20261121.json (01:55, same finding, unfixed)",
+  "runs_in_flight": [
+   "20261119T2042_l1en(refine, in place)",
+   "20261121T1900_l11faud5"
+  ]
+ },
+ "method": "walk content/**/*.md; split 「」 quoted (verbatim, excluded); chars not encodable in cp932 (JIS X 0208) and not in shared list 的了叶马乌风飞书东车",
+ "verdict": "FAIL - CN simplified contamination present in published site content",
+ "counts": {
+  "A_label_类型": {
+   "occurrences": 6459,
+   "files": 6459
+  },
+  "B_label_种族": {
+   "occurrences": 225,
+   "files": 214
+  },
+  "C_cn_mixed_ctx_lines_files": 42,
+  "D_other_generated": {
+   "occurrences": 280,
+   "files": 70
+  },
+  "E_verbatim_full_dir_excluded": {
+   "occurrences": 23,
+   "files": 8
+  }
+ }
+}

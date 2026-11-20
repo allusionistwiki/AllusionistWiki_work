@@ -1,0 +1,533 @@
+---
+title: "Fragments of Penguin"
+work: "Fragments of Penguin"
+author: "言理の妖精語りて曰く、"
+type: "韻文・格言・謎かけ"
+chains: 1
+run: 20261121T0743_l1works
+---
+
+# Fragments of Penguin
+
+（作者: 言理の妖精語りて曰く、 ／ 类型: 韻文・格言・謎かけ ／ 収録群: 1）
+
+## ポニーにならいて（YJ-T051） 群 g056
+
+- 話題: —
+- 掲載文脈: ペンギンプロジェクトやパンドラのポニーを記述し実況する投稿。
+
+**315** 言理の妖精語りて曰く、 2007-02-28T10:24:20+09:00 [#315](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-315)
+
+赤ぽに　紀ぽに　群青ぽにー
+
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Fragments of Penguin
+
+**316** 言理の妖精語りて曰く、 2007-02-28T18:59:26+09:00 [#316](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-316)
+
+ポニー、美しき思いつき、日々の慰め手、無駄な知恵の源。
+
+どうか今日もゆらぎに新しい振り向きを与えてください
+
+**317** 言理の妖精語りて曰く、 2007-02-28T19:03:25+09:00 [#317](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-317)
+
+何がポニーだ！お前らがありがたがっているのは結局がんじがらめにした触手じゃないか。
+
+触手をまとめて縛られるのがどれほど苦しいのか想像したこともないんだろ。
+
+この加虐趣味の変態どもめ！
+
+**318** 言理の妖精語りて曰く、 2007-02-28T19:06:18+09:00 [#318](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-318)
+
+今夜は触手がなんだか騒いでるポニー…
+
+メガネを吹いておこう
+
+**319** 言理の妖精語りて曰く、 2007-02-28T19:20:37+09:00 [#319](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-319)
+
+>>318
+
+うまい
+
+**320** 言理の妖精語りて曰く、 2007-02-28T19:29:54+09:00 [#320](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-320)
+
+いまこそ失われたペンギンの知恵を取り戻さねばなるまい。
+
+**321** 言理の妖精語りて曰く、 2007-02-28T19:35:29+09:00 [#321](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-321)
+
+ペンギンさんちの�徯侶辰舛磴�
+
+**322** 言理の妖精語りて曰く、 2007-02-28T19:41:31+09:00 [#322](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-322)
+
+Σ知恵ちゃん、今日もよくぶれてるね…
+
+**323** 言理の妖精語りて曰く、 2007-03-01T17:42:54+09:00 [#323](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-323)
+
+ペンギンプロジェクト。
+
+ゆらぎ各所から発見されるペンギン紀術の断章を集め、
+
+ペンギンの挿絵の入った可愛いノートにまとめようと言う
+
+ゆらぎ市立八つ裂き小学校５年・雨森みずきちゃんの夏休み自由研究。
+
+**324** 言理の妖精語りて曰く、 2007-03-01T18:19:23+09:00 [#324](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-324)
+
+八割方はペンギンの挿絵で埋まったが断章が集まらない。
+
+**325** 言理の妖精語りて曰く、 2007-03-01T18:52:54+09:00 [#325](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-325)
+
+そこでみずきちゃんは自分の妄想で補うことにした。
+
+**326** 言理の妖精語りて曰く、 2007-03-01T18:56:56+09:00 [#326](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-326)
+
+「…ポニーのピンチに颯爽と駆けつける白馬の王子様。しかし彼はマラリアで死ぬ。」
+
+**327** 言理の妖精語りて曰く、 2007-03-01T19:05:43+09:00 [#327](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-327)
+
+「間呂論造は結局変態出来ずに尻にディルドゥ日本をぶちこまれ始末された」
+
+**328** 言理の妖精語りて曰く、 2007-03-01T19:09:27+09:00 [#328](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-328)
+
+ゆらぎショッピングが送る今日の商品はディルドゥ「日本」
+
+相手は死ぬ。
+
+ゆらぎ製菓
+
+ゆらぎ物産
+
+ゆらぎ通信
+
+ゆらぎ広告機構
+
+の提供でお送りします。
+
+**329** 言理の妖精語りて曰く、 2007-03-01T19:13:44+09:00 [#329](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-329)
+
+死ぬほどワロタポニー
+
+**330** 言理の妖精語りて曰く、 2007-03-01T19:19:06+09:00 [#330](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-330)
+
+ジャポネスクマグナム……装填完了！
+
+**331** 言理の妖精語りて曰く、 2007-03-01T19:23:45+09:00 [#331](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-331)
+
+まさか発射機能まであるのかポニー
+
+**332** 言理の妖精語りて曰く、 2007-03-01T19:29:29+09:00 [#332](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-332)
+
+タマは込めても、撃ちはしねェ。……お前が撃たせない限りはな。
+
+**333** 言理の妖精語りて曰く、 2007-03-01T19:31:30+09:00 [#333](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-333)
+
+か、格好いい。　ポニー度が１アップした！
+
+**334** 言理の妖精語りて曰く、 2007-03-01T20:44:40+09:00 [#334](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-334)
+
+ポニー度を200ポイント貯めるとポニーの缶詰が貰えるポニー
+
+**335** 言理の妖精語りて曰く、 2007-03-01T23:39:16+09:00 [#335](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-335)
+
+10000ポイント貯めると紀なるポニーが降臨するポニー
+
+**336** 言理の妖精語りて曰く、 2007-03-01T23:51:16+09:00 [#336](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-336)
+
+缶詰50個でこつこつとしみじみに味わうか。
+
+紀ポニー降臨で一撃必殺か、悩みどころである。
+
+**337** 言理の妖精語りて曰く、 2007-03-01T23:58:52+09:00 [#337](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-337)
+
+もう我慢できないポニー
+
+**338** 言理の妖精語りて曰く、 2007-03-02T19:38:13+09:00 [#338](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-338)
+
+そうして聖十字ポニー騎士団百人長アボ・ギドゥン・ポニーは禁断の「パンドラのポニー」の蓋を開け放ってしまった。
+
+**339** 言理の妖精語りて曰く、 2007-03-02T20:00:42+09:00 [#339](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-339)
+
+そしてそのパンドラからはかつて全にして一、一にして全たるポニーが持っていた紀性が流出してしまった。
+
+**340** 言理の妖精語りて曰く、 2007-03-02T20:00:58+09:00 [#340](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-340)
+
+そして新たな世界が構築された。
+
+**341** 言理の妖精語りて曰く、 2007-03-02T22:50:59+09:00 [#341](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-341)
+
+も、元の世界はどうなったポニ？
+
+**342** 言理の妖精語りて曰く、 2007-03-02T23:08:43+09:00 [#342](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-342)
+
+そ、そりゃ・・・俺だって知りたいポニー
+
+**343** 言理の妖精語りて曰く、 2007-03-02T23:37:45+09:00 [#343](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-343)
+
+む、ずむずする…ポニー
+
+**344** 言理の妖精語りて曰く、 2007-03-02T23:40:04+09:00 [#344](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-344)
+
+お、おまえのポニーについてるちっちゃい顔、な、なんだポニ！？
+
+**345** 言理の妖精語りて曰く、 2007-03-02T23:41:48+09:00 [#345](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-345)
+
+こ、これは…伝説のポニー瘡ポニー！？
+
+**346** 言理の妖精語りて曰く、 2007-03-02T23:48:42+09:00 [#346](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-346)
+
+髪型じゃねぇのかよ！
+
+**347** 言理の妖精語りて曰く、 2007-03-02T23:50:27+09:00 [#347](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-347)
+
+極めたポニーは体の一部も同然ポニ。
+
+**348** 言理の妖精語りて曰く、 2007-03-02T23:51:12+09:00 [#348](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-348)
+
+有り難きポニーはあらゆるところのうちに見出されるんだポニー・・・
+
+**349** 言理の妖精語りて曰く、 2007-03-03T12:47:30+09:00 [#349](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-349)
+
+は、こんなところにもポニーがっ
+
+**350** 言理の妖精語りて曰く、 2007-03-03T13:49:01+09:00 [#350](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-350)
+
+今朝眼が覚めたら、おれの母ちゃん、ポニーになってた。
+
+**351** 言理の妖精語りて曰く、 2007-03-03T16:55:44+09:00 [#351](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-351)
+
+それ、あんましありがたくない気がするポニー。
+
+**352** 言理の妖精語りて曰く、 2007-03-03T17:07:50+09:00 [#352](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-352)
+
+>>351
+
+なんという罰当たり。信仰に迷いが生じている。間違いなく自己批判ポニー。
+
+**353** 言理の妖精語りて曰く、 2007-03-03T17:22:18+09:00 [#353](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-353)
+
+でも憧れのあの子がポニーになるのと比べると……
+
+そんな気がしないかポニー？無理しなくてもいいポニー。
+
+**354** 言理の妖精語りて曰く、 2007-03-03T17:26:11+09:00 [#354](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-354)
+
+ぼく、男の子だよ？それでも・・・いいの？
+
+**355** 言理の妖精語りて曰く、 2007-03-03T17:26:41+09:00 [#355](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-355)
+
+うう・・・たしかに自分の心に嘘をつくことは、ポニーに反するっていうポニー
+
+でも・・・でもポニーは・・・ポニーは・・・
+
+**356** 言理の妖精語りて曰く、 2007-03-03T20:01:19+09:00 [#356](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-356)
+
+ポニーさま、バター犬の正体がアルセスでした…
+
+こんな展開さえも、あなたはご存じだったのですか
+
+**357** 言理の妖精語りて曰く、 2007-03-03T20:18:25+09:00 [#357](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-357)
+
+ポニーもまたバター犬なのでは・・・
+
+**358** 言理の妖精語りて曰く、 2007-03-03T20:20:09+09:00 [#358](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-358)
+
+きょ、今日は罰当たりものが多い日ポニー！
+
+**359** 言理の妖精語りて曰く、 2007-03-03T20:24:06+09:00 [#359](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-359)
+
+バターまみれのただれたポニーもまたポニー
+
+**360** 言理の妖精語りて曰く、 2007-03-03T20:26:01+09:00 [#360](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-360)
+
+すべてはポニー
+
+**361** 言理の妖精語りて曰く、 2007-03-03T20:30:29+09:00 [#361](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-361)
+
+ポニーはこの世の全てであった。
+
+そしてポニーの全てが世界に流れ出し、今のポニーが残った。
+
+**362** 言理の妖精語りて曰く、 2007-03-03T23:34:35+09:00 [#362](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-362)
+
+ポニー始原説提唱！
+
+**363** 言理の妖精語りて曰く、 2007-03-04T00:22:01+09:00 [#363](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-363)
+
+ポニーはポニー。ただ、それだけなの。
+
+**364** 言理の妖精語りて曰く、 2007-03-04T00:24:08+09:00 [#364](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-364)
+
+ただそこにあるがままのポニーを全身で感じればよいのです。
+
+いやほんとほんと。
+
+**365** 言理の妖精語りて曰く、 2007-03-04T00:24:23+09:00 [#365](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-365)
+
+ちがう！ポニーはすべてポニー・・・ポニー的遺伝子で世界を席巻する
+
+それこそがポニーの宿命、ポニーの望む未来。ああ私には見える。
+
+世界にみちみちるポニーが・・・ポニーのふり向きが・・・
+
+**366** 言理の妖精語りて曰く、 2007-03-04T00:31:26+09:00 [#366](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-366)
+
+まず手始めに雨降らし商店街を制圧する。次にゆらぎ学園高校。
+
+禁幾弐腐四圏を席巻し、そして一気に全世界を手に入れるのだ。
+
+フハハハ・・・ポニー・・・あなたのしっぽのゆらぎがもうすぐ・・・
+
+**367** 言理の妖精語りて曰く、 2007-03-04T18:18:16+09:00 [#367](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-367)
+
+禁幾弐腐四圏ってなに？
+
+**368** 言理の妖精語りて曰く、 2007-03-04T19:36:34+09:00 [#368](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-368)
+
+きんきにふしけん
+
+**369** 言理の妖精語りて曰く、 2007-03-04T21:56:30+09:00 [#369](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-369)
+
+なんですかその新手の結界。
+
+**370** 言理の妖精語りて曰く、 2007-03-04T22:43:18+09:00 [#370](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-370)
+
+いろいろやばい結界。
+
+**371** 言理の妖精語りて曰く、 2007-03-05T00:22:56+09:00 [#371](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-371)
+
+一都一道二府五十六剣みたいなものよ
+
+**372** 言理の妖精語りて曰く、 2007-03-05T03:59:23+09:00 [#372](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-372)
+
+あー、ダメダメあのお爺ちゃん誇大ポニー想に取り憑かれちゃってるから。
+
+**373** 言理の妖精語りて曰く、 2007-03-05T06:43:05+09:00 [#373](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-373)
+
+ポニー花。春に咲く。夏にも咲く。秋と冬にも咲く。
+
+**374** 言理の妖精語りて曰く、 2007-03-05T21:24:38+09:00 [#374](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-374)
+
+海中でも空中でも地中でも宇宙でも咲く。
+
+**375** 言理の妖精語りて曰く、 2007-03-05T22:08:23+09:00 [#375](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-375)
+
+みんなのあたまの中にも花盛りポニー
+
+**376** 言理の妖精語りて曰く、 2007-03-05T22:15:41+09:00 [#376](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-376)
+
+ドレッドヘアーのフレッド「ポニー四天王になれなかった鬱憤も
+
+将来の定まらない不安も、世のしがらみも、どうでもよくなってくる……」
+
+アフロヘアーのフローレンス「早く来た春は早く終わるもんだ。今の内に楽しんどくか。」
+
+**377** 言理の妖精語りて曰く、 2007-03-05T22:22:27+09:00 [#377](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-377)
+
+ポニー病。あたまがポニーでいっぱいになる。別名、ポニー症候群。
+
+**378** 言理の妖精語りて曰く、 2007-03-05T22:31:56+09:00 [#378](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-378)
+
+で、たまに鬱になる
+
+**379** 言理の妖精語りて曰く、 2007-03-05T22:32:53+09:00 [#379](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-379)
+
+((((　´Д｀))))そ、そうなのかポニー？
+
+**380** 言理の妖精語りて曰く、 2007-03-06T08:59:49+09:00 [#380](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-380)
+
+ポニーポニ　ポニポニポニポ　ニーポニポ
+
+ぽにいぽに　ぽにぽにぽにぽ　にいぽにぽ
+
+帆に良い浦に　穂匂う仁保に蒲　新穂に緒
+
+**381** 言理の妖精語りて曰く、 2007-03-16T20:18:18+09:00 [#381](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-381)
+
+ポニーあげ。くくり直し。
+
+**382** 言理の妖精語りて曰く、 2007-03-21T22:13:03+09:00 [#382](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-382)
+
+だが一度結ったポニーは髪に癖をつけるポニ。
+
+**383** 言理の妖精語りて曰く、 2007-04-13T01:22:43+09:00 [#383](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-383)
+
+どうか世界にポニーのめぐみを。
+
+**384** 言理の妖精語りて曰く、 2007-04-15T00:10:15+09:00 [#384](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-384)
+
+ポニー
+
+**385** 言理の妖精語りて曰く、 2007-04-17T00:25:48+09:00 [#385](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-385)
+
+ポニーは愛か悲しみか
+
+**386** 言理の妖精語りて曰く、 2007-04-18T00:52:00+09:00 [#386](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-386)
+
+ポニーの
+
+**387** 言理の妖精語りて曰く、 2007-04-20T20:30:06+09:00 [#387](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-387)
+
+ポニーがストレートやショート、あるいはツインとの対比の内にのみ見出されるのだとしたら
+
+ポニーはそのポニー性を喪失し、遍く現象の内に解かれるだろう
+
+**388** 言理の妖精語りて曰く、 2007-04-21T20:01:15+09:00 [#388](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-388)
+
+そしてポニーはポニーのうちにポニーを知る
+
+**389** 言理の妖精語りて曰く、 2007-04-22T17:53:28+09:00 [#389](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-389)
+
+ポニーのポニーこそがポニー
+
+**390** 言理の妖精語りて曰く、 2007-04-23T23:51:51+09:00 [#390](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-390)
+
+ポニーのポニーがポニーと言いますが、ポニーはポニーでなくてもポニーですか？
+
+**391** 言理の妖精語りて曰く、 2007-04-23T23:54:06+09:00 [#391](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-391)
+
+はい。ぽにーです。
+
+いいえ。ポニーでした。
+
+**392** 言理の妖精語りて曰く、 2007-04-24T16:49:52+09:00 [#392](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-392)
+
+あなたの思っているポニーは。
+
+ほんとうにポニーですか？
+
+**393** 言理の妖精語りて曰く、 2007-04-24T17:18:33+09:00 [#393](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-393)
+
+はい、ぽにーです。
+
+いいえ、ポニーでした。
+
+**394** 言理の妖精語りて曰く、 2007-04-25T08:52:16+09:00 [#394](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-394)
+
+今は分からなくても、いつかきっと分かるときが来ますポニー
+
+**395** 言理の妖精語りて曰く、 2007-04-25T21:43:51+09:00 [#395](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-395)
+
+お兄ちゃんはああ言っていたけれど、僕はきっと分かることができないよ･･･。
+
+だって、僕はもうじきに死んでしまうだろうから。
+
+おなかの血が止まらない。破片は抜いたのに再生がかからない。
+
+でも、最後に女の子をかばって死ぬ、なんてちょっとかっこいいかも･･･。
+
+ちゃんと、にげられたかな、あの子。
+
+涙でくしゃくしゃの顔だった。
+
+なんどもふり返りながら走っていったけど、ころばなかったかな。
+
+ぼくがかいぞう人間だからこわがってたのかな。
+
+ああ、そういえばあのおんなのこもぽにー･･･てーる･･･
+
+system error
+
+**396** 言理の妖精語りて曰く、 2007-04-26T01:02:51+09:00 [#396](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-396)
+
+リセットしますか？　
+
+yes/no
+
+**397** 言理の妖精語りて曰く、 2007-04-26T01:10:52+09:00 [#397](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-397)
+
+リセットYes→何もかもやり直し
+
+リセットNo→糸冬了
+
+どっちにしろ終わりじゃん
+
+**398** 言理の妖精語りて曰く、 2007-04-26T12:45:04+09:00 [#398](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-398)
+
+「聞いたか」
+
+「ああ、山の魔女のことか。爺っ様の代でも出たらしいな。性懲りのない」
+
+「隣村からも人を出してくれるそうだ」
+
+「そりゃそうだろう。一枚かんどけば報奨金のおこぼれに預かれるだろうからな」
+
+「ふもと村の俺たちにとっちゃ死活問題だってのに、むかつきのするやつらだ」
+
+「いいさ。魔女を狩ってもらえるんなら隣町のものだろうが流れの対魔騎士さまだろうと変わりはねぇ」
+
+「まぁそりゃそうだ。騎士さまより安くついてありがてぇともいえるぜ」
+
+「ふむ、じゃあまぁ人手は十分なわけか。・・・火攻めかな」
+
+「そうだな。この時期なら風向きも下生えの草の具合もちょうどいいだろう。よく燃える」
+
+「じゃあ、今度の祭りの前に済ませちまおう。司祭様のお耳に魔女のことが入っちゃあまずい」
+
+「うむ」
+
+「わかった」
+
+「おう、じゃあおれ、隣町までひとっ走り伝えてくるわ」
+
+「すまんな。ああ、あと山焼きなら山向かいの村にも知らせておかんと。早馬がいるな」
+
+「ああ、それなら俺の知り合いに・・・
+
+**399** 言理の妖精語りて曰く、 2007-04-26T21:51:56+09:00 [#399](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-399)
+
+ポニー魔女の丸焼きだぜﾋｬｯﾊｧ！
+
+**400** 言理の妖精語りて曰く、 2007-04-26T21:52:50+09:00 [#400](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p4#post-400)
+
+異端とされた魔女ポニー。死後に徳高い聖女と呼ばれる
+
+**401** 言理の妖精語りて曰く、 2007-04-26T21:54:34+09:00 [#401](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p5#post-401)
+
+しかし死んだことは誰にも知られろことはなかった。
+
+すべては灰として溶けた。
+
+**402** 言理の妖精語りて曰く、 2007-04-26T21:54:59+09:00 [#402](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p5#post-402)
+
+悲しいけど、これが戦争なのよね
+
+**403** 言理の妖精語りて曰く、 2007-04-26T21:56:36+09:00 [#403](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p5#post-403)
+
+戦争というには、それはあまりにも一方的だった。
+
+しかし虐殺と呼ぶものはいない。
+
+当然だ。
+
+駆逐されつくした害虫はなにも言えない。
+
+**404** 言理の妖精語りて曰く、 2007-04-26T23:27:04+09:00 [#404](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p5#post-404)
+
+ポニーがなんの役に立つものか。
+
+ポニーは･･･無力だ。
+
+**405** 言理の妖精語りて曰く、 2007-04-27T00:11:35+09:00 [#405](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p5#post-405)
+
+ポニーを信じない少年は、いつかポニーに真理を見出すだろう。
+
+**406** 言理の妖精語りて曰く、 2007-04-27T15:28:04+09:00 [#406](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p5#post-406)
+
+そうともポニー
+
+**407** 言理の妖精語りて曰く、 2007-04-27T19:02:12+09:00 [#407](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p5#post-407)
+
+狂信者どもめ！
+
+その少年から離れろっ！
+
+**408** 言理の妖精語りて曰く、 2007-04-27T19:18:24+09:00 [#408](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p5#post-408)
+
+貴様こそ純粋な少年を引き擦り込む背徳者め！
+
+**409** 言理の妖精語りて曰く、 2007-04-27T19:45:38+09:00 [#409](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T051/p5#post-409)
+
+>>408
+
+いやいや、引きずり込んでるのは事実だから。
+
+すべてをポニーの元に！。
