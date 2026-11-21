@@ -44,13 +44,18 @@ def strip_fm(t: str) -> str:
     m = re.match(r"^---\r?\n.*?\r?\n---\r?\n", t, re.S)
     return t[m.end():] if m else t
 
-def norm(s: str) -> str:
+def strip_deco(s: str) -> str:
     s = unicodedata.normalize("NFKC", s)
-    s = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", s)   # 画像装飾
-    s = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", s)  # markdown リンク → ラベルのみ
+    s = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", s)
+    s = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", s)
+    s = re.sub(r"\[([^\]]{1,60})\]\S*", r"\1", s)  # 装飾角括弧（リンク URL 欠落含む）
     s = re.sub(r"<[^>]+>", "", s)
     s = re.sub(r"[#*_`>|]+", "", s)
+    s = re.sub(r"[（）()\[\]【】]", "", s)
     return re.sub(r"\s+", "", s)
+
+def norm(s: str) -> str:
+    return strip_deco(s)
 
 def cn_outside(body: str) -> str:
     return "".join(sorted(set(c for c in QU.sub("", body) if c in CN)))

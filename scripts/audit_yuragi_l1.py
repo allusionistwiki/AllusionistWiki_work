@@ -119,6 +119,7 @@ SCOPES = {
     "entities": {"suffix": "_l1en", "dir": "entities",
                  "heads": ["## 概要", "## 記述の流れ", "## 関連する実体", "## 注目投稿"]},
     "free":    {"suffix": "_l1free", "dir": "units", "heads": []},
+    "flgen":   {"suffix": "_l1flgen", "dir": "flicker", "heads": []},
 }
 
 def mech_gate(key, art, corpora, heads):
@@ -313,6 +314,27 @@ def main():
         def ctx_for(key):
             term = frontmatter(arts[key]).get("term", key)
             return term_context(term, l0_latest)
+    elif a.scope == "flgen":
+        FLDIR = Path(r"C:/Users/d5dx/Downloads/Code/YuragiWiki/raw/bbs/hatena_flicker")
+        fl_units = {u["unit_id"]: u for u in jl(FLDIR / "units.jsonl")}
+        rows_in = [(u, fl_units[u]["title"]) for u in sorted(arts) if u in fl_units]
+        def fl_posts(key):
+            u = fl_units[key]
+            d = FLDIR / u["path"]
+            out = []
+            for r in jl(d / "structured.jsonl"):
+                body = (d / "posts" / f"p{r['post_no']:04d}.md").read_bytes().decode("utf-8")
+                out.append({"n": r["post_no"], "date": r["date_iso"], "url": r["url"], "body": body})
+            return out
+        def corpora_for(key):
+            return ["\n".join(p["body"] for p in fl_posts(key))]
+        def names_for(key):
+            return {fl_units[key]["author"], fl_units[key]["title"]}
+        def ctx_for(key):
+            lines = ["=== 日記全文（投稿番号付き・原文逐語） ==="]
+            for p in fl_posts(key):
+                lines.append(f"[投稿{p['n']}｜{p['date']}｜{p['url']}]\n{p['body'][:a.max]}")
+            return "\n".join(lines)
     else:  # authors
         rows_in = [(s, frontmatter(arts[s]).get("author", s)) for s in sorted(arts)]
         corpora_for = lambda key: global_corpus(l0_latest)
@@ -341,7 +363,7 @@ def main():
             return
         body_md = re.sub(r"^---.*?---\s*", "", art, count=1, flags=re.S)
         mech = (mech_gate_free(key, body_md, corpora_for(key),
-                               names=names_for(key)) if a.scope == "free"
+                               min_refs=2, names=names_for(key)) if a.scope in ("free", "flgen")
                 else mech_gate(key, body_md, corpora_for(key), sc["heads"]))
         verdict, reason = judge(key, title, body_md, ctx_for(key), a.max)
         if mech:
@@ -365,7 +387,7 @@ def main():
             continue
         body_md = re.sub(r"^---.*?---\s*", "", art, count=1, flags=re.S)
         mech = (mech_gate_free(key, body_md, corpora_for(key),
-                               names=names_for(key)) if a.scope == "free"
+                               min_refs=2, names=names_for(key)) if a.scope in ("free", "flgen")
                 else mech_gate(key, body_md, corpora_for(key), sc["heads"]))
         if mech:
             r = dict(r)
