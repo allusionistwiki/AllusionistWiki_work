@@ -1,13 +1,68 @@
 [
- {"unit":"YJ-T050","term":"TRPG","action":"drop","reason":"usage 自白「原文に明示はない」＝推測（可能性が高い）"},
- {"unit":"YJ-T072","term":"TRPG","action":"drop","reason":"usage 自白「原文にTRPGという語の明示はない」＝推測"},
- {"unit":"YJ-T092","term":"TRPG","action":"drop","reason":"usage 自白「原文に用語の明示はない」＝推測"},
- {"unit":"YJ-T034","term":"ノア","action":"drop","reason":"「命名源・比喩として参照していると考えられる」＝解釈推測、原文明示なし"},
- {"unit":"YJ-T105","term":"Iカップ","action":"drop","reason":"作中人物の身体属性描写（使用描写）。命名用途でなく実世界参照の主張なし"},
- {"unit":"YJ-T106","term":"韓国人俳優","action":"drop","reason":"一般職業・国籍分類（固有名でなく使用描写）"},
- {"unit":"YJ-T151","term":"ライオン","action":"drop","reason":"動物一般名詞（BAD_TERMS 級）。幻獣対比の場面描写"},
- {"unit":"YJ-T151","term":"イスラム語","action":"drop","reason":"外部知識捏造:「イスラム語」は実在の言語体系ではない（アラビア語と別物）。作中造語への実在帰属"},
- {"unit":"YJ-T040","term":"中南亜","action":"drop","reason":"作中地域名（神獣伝承の起源地）への実在帰属の根拠なし"},
- {"unit":"YJ-T036","term":"海底文明","action":"drop","reason":"「SF・ファンタジーで頻出する概念名」＝ジャンル常套概念で特定の実世界参照でない（v0.5 基準）"},
- {"unit":"YJ-T036","term":"砂漠文明","action":"drop","reason":"同上。ジャンル常套概念"}
+ {
+  "unit": "YJ-T050",
+  "term": "TRPG",
+  "action": "drop",
+  "reason": "usage 自白「原文に明示はない」＝推測（可能性が高い）"
+ },
+ {
+  "unit": "YJ-T072",
+  "term": "TRPG",
+  "action": "drop",
+  "reason": "usage 自白「原文にTRPGという語の明示はない」＝推測"
+ },
+ {
+  "unit": "YJ-T092",
+  "term": "TRPG",
+  "action": "drop",
+  "reason": "usage 自白「原文に用語の明示はない」＝推測"
+ },
+ {
+  "unit": "YJ-T034",
+  "term": "ノア",
+  "action": "drop",
+  "reason": "「命名源・比喩として参照していると考えられる」＝解釈推測、原文明示なし"
+ },
+ {
+  "unit": "YJ-T105",
+  "term": "Iカップ",
+  "action": "drop",
+  "reason": "作中人物の身体属性描写（使用描写）。命名用途でなく実世界参照の主張なし"
+ },
+ {
+  "unit": "YJ-T106",
+  "term": "韓国人俳優",
+  "action": "drop",
+  "reason": "一般職業・国籍分類（固有名でなく使用描写）"
+ },
+ {
+  "unit": "YJ-T151",
+  "term": "ライオン",
+  "action": "keep",
+  "reason": "再監査回収（2026-11-24・原文実読）: 同一スレで『ライオン、百獣の王』『パンゲオンにライオンはいない』『ハイダルマリクの象徴がライオン』『うちらのよく知ってるライオン』と実世界のライオンとの対応を明示的に論じており、作中世界の動物設定の実世界基準参照として機能"
+ },
+ {
+  "unit": "YJ-T151",
+  "term": "イスラム語",
+  "action": "drop",
+  "reason": "外部知識捏造:「イスラム語」は実在の言語体系ではない（アラビア語と別物）。作中造語への実在帰属"
+ },
+ {
+  "unit": "YJ-T040",
+  "term": "中南亜",
+  "action": "drop",
+  "reason": "作中地域名（神獣伝承の起源地）への実在帰属の根拠なし"
+ },
+ {
+  "unit": "YJ-T036",
+  "term": "海底文明",
+  "action": "drop",
+  "reason": "「SF・ファンタジーで頻出する概念名」＝ジャンル常套概念で特定の実世界参照でない（v0.5 基準）"
+ },
+ {
+  "unit": "YJ-T036",
+  "term": "砂漠文明",
+  "action": "drop",
+  "reason": "同上。ジャンル常套概念"
+ }
 ]
