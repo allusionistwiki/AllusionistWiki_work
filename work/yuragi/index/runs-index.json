@@ -426,5 +426,42 @@
    "kind": "audit",
    "note": "PASS flagged=0 一致 19/19（flgen スコープ・mech_gate_flgen）"
   }
+ },
+ "L1-allusion": {
+  "20261122T0810_l1allud": {
+   "status": "superseded",
+   "kind": "allusion-extract-v1",
+   "path": "work/yuragi/L1/runs/20261122T0810_l1allud",
+   "derived_from": "20261119T1430_l0c",
+   "reason": "pilot 6篇336件。全件実読で一般名詞過剰抽出・外部知識捏造と判明"
+  },
+  "20261122T1000_l1allud2": {
+   "status": "superseded",
+   "kind": "allusion-extract-v2",
+   "path": "work/yuragi/L1/runs/20261122T1000_l1allud2",
+   "derived_from": "20261122T0810_l1allud",
+   "reason": "BAD_TERMS/usage 規則で344件。作中創作混入と判明"
+  },
+  "20261122T1100_l1allud3": {
+   "status": "superseded",
+   "kind": "allusion-extract-v3",
+   "path": "work/yuragi/L1/runs/20261122T1100_l1allud3",
+   "derived_from": "20261122T1000_l1allud2",
+   "reason": "台帳799注入・293件。全件実読で裁定15（作中事象・捏造）"
+  },
+  "20261122T1130_l1allud4": {
+   "status": "superseded",
+   "kind": "allusion-extract-ref",
+   "path": "work/yuragi/L1/runs/20261122T1130_l1allud4",
+   "derived_from": "20261122T1100_l1allud3",
+   "reason": "v0.3 window45 参照走（292件）。v0.4/0.5 との比較用"
+  },
+  "20261122T1210_l1allud5": {
+   "status": "current",
+   "kind": "allusion-extract-v0.5",
+   "path": "work/yuragi/L1/runs/20261122T1210_l1allud5",
+   "derived_from": "20261122T1130_l1allud4",
+   "reason": "原文明示基準（ユーザー是正2件）。採用204件・suppressions 裁定32・双方向全件実読済"
+  }
  }
 }
