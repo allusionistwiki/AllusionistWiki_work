@@ -69,3 +69,5 @@ python scripts/extract_yuragi_allusions.py --uids <uids...> --run-dir <run_dir> 
 - 教訓: バッチ実行中は agent 側 chat 呼出が slot を占有するため 404 多発。再走は低頻度ターン＋max-calls 増で対応。
 - b9 収束（2026-11-24）: 6 篇 220 件（T011 再走込）→ 裁定 11 drop（野菜/兵器/種族一般名、类别語）。gate 21 件全件妥当（桃太郎 4 件・命名想起系自白 regex 正常）。台帳 b9 done（124/179 篇）。
 - 注意: b9 で run 二重起動による jsonl 追記（T012/T109/T143 重複 47 行）→ publish norm で統合され出力は正常。以後 run_dir は起動前に proc 状態を確認し単一起動。
+- b10 収束（2026-11-24）: 5 篇 197 件全件実読 → 裁定 25 drop（英語音写スキル名 11、兵器/素材/設備类别一般名、作中創作 SeeStars、usage 自白 2、沙羅双樹スキル名）。gate 15 件妥当（桃太郎系・TRPG 想起・沙羅双樹が gate 側で自動 drop され裁定と整合）。台帳 b10 done（129/179）。site bc89f9fdd 123 篇。
+- 教訓（gate 整合）: 沙羅双樹は b9(b10 run) の gate で EXTERNAL_KNOWLEDGE 自動 drop → 同一基準で裁定 drop を記録。gate 側の自白と裁定の二重チェックが機能。
