@@ -116,6 +116,8 @@ def main() -> int:
         if m:
             unit_dir_rel[m["unit_id"]] = rel
         for r in jl(sf):
+            if "ref" not in r:
+                continue
             f = r.get("file")
             if f:
                 ref_url[r["ref"]] = BLOB + rel + "/" + f
@@ -510,6 +512,7 @@ run: publish
 - [[entities_index|実体索引]] — 人物・物品・国などの作中実体（wiki 中核）
 - [[works_top|創作索引]] — 散在する創作的記述（詩・短編・設定文等）の横断索引
 - [[free_index|自由記述索引]] — 制約なし自由記述記事（L1＋原文に基づく）
+- [[flicker_index|日記索引（Hatena Flicker）]] — 関連日記 19 作者・387 投稿（原文逐語・permalink 付き）
 - [[nav|篇索引]] — 185 篇
 - [[topics/index|topics 索引]] — 話題・語句 429（出現 3 以上）
 - [[authors/index|authors 索引]] — 主要投稿者 95（投稿 10 以上）
@@ -546,6 +549,47 @@ run: publish
         "authors": len(list((CONTENT / "authors").glob("*.md"))),
         "linked_refs": len(ref_url),
     }
+
+    # ---- flicker 層（Hatena Flicker 日記・原文逐語・permalink 付き・決定論生成） ----
+    FL = RAW_BBS / "hatena_flicker"
+    if (FL / "units.jsonl").exists():
+        fl_units = jl(FL / "units.jsonl")
+        fldir = CONTENT / "flicker"
+        fldir.mkdir(exist_ok=True)
+        for u in fl_units:
+            uid = u["unit_id"]
+            d = FL / u["path"]
+            recs = jl(d / "structured.jsonl")
+            parts = [f'---\ntitle: "{u["title"]}"\nrun: flicker\n'
+                     f'permaLink: "flicker/{uid}.html"\n---',
+                     "",
+                     f'# {u["title"]}',
+                     "",
+                     f'出典: <{u["url"]}>（Hatena Flicker）／収録 {u["n_posts"]} 件'
+                     f'（{u.get("first")}〜{u.get("last")}）・原文逐語・各投稿に permalink 付き。',
+                     f'元データ: [raw units]({BLOB}hatena_flicker/{u["path"]}/posts/)',
+                     ""]
+            for rec in recs:
+                body = (d / "posts" / f"p{rec['post_no']:04d}.md").read_bytes().decode("utf-8")
+                parts.append(f'<a id="post-{rec["post_no"]}"></a>')
+                parts.append(f'**{rec["date_iso"]} {rec["time"]}** '
+                             f'[permalink]({rec["url"]})')
+                parts.append("")
+                parts.append(body)
+                parts.append("")
+            (fldir / f"{uid}.md").write_bytes("\n".join(parts).encode("utf-8"))
+        idx = ["---", 'title: "日記索引（Hatena Flicker）"', "run: flicker",
+               'permaLink: "flicker/index.html"', "---", "",
+               "# 日記索引（Hatena Flicker）", "",
+               "『ゆらぎの神話』関連 Hatena Flicker 日記（作者別・原文逐語・投稿 permalink 付き）。", ""]
+        for u in sorted(fl_units, key=lambda x: -x["n_posts"]):
+            idx.append(f"- [[flicker/{u['unit_id']}|{u['author']}]] — {u['n_posts']} 件"
+                       f"（{u.get('first')}〜{u.get('last')}）")
+        idx.append("")
+        (CONTENT / "flicker_index.md").write_bytes("\n".join(idx).encode("utf-8"))
+        counts["flicker"] = len(fl_units)
+        counts["flicker_posts"] = sum(u["n_posts"] for u in fl_units)
+
     print(json.dumps(counts, ensure_ascii=False))
     return 0
 
