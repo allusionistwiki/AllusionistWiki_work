@@ -619,7 +619,7 @@ def main() -> int:
             ix += ["", "## 篇別", ""]
             for uid2 in sorted(per_unit):
                 ix.append(f"- [[allusions/{uid2}|{uid2}]]（{per_unit[uid2]} 件）")
-            ix += ["", "※ 対象名（term）の篇横断名寄せは監査収束後の次段階。", ""]
+            ix += ["", "- 対象名の篇横断名寄せ: [[allusions_terms|実世界参照 対象名索引]]", ""]
             (CONTENT / "allusions_index.md").write_text("\n".join(ix), encoding="utf-8")
         # Lane B4: units 記事から allusion 面への相互リンク（allusion 生成後に決定論で付与）
         for uid3 in sorted(per_unit):
@@ -628,6 +628,42 @@ def main() -> int:
                 c3 = up3.read_text(encoding="utf-8", errors="replace")
                 if f"allusions/{uid3}" not in c3:
                     up3.write_text(c3.rstrip() + f"\n\n→ 実世界参照（allusion）: [[allusions/{uid3}|この篇の実世界参照一覧]]\n", encoding="utf-8")
+        # Lane B1: 対象名（term）の篇横断索引（決定論・正規化キー統合・2 篇以上を収録）
+        term_ix: dict = {}
+        for adir2 in adirs:
+            for fp2 in sorted(adir2.glob("*.jsonl")):
+                if fp2.stem == "gate_drops":
+                    continue
+                sp2 = adir2.parent / "suppressions.json"
+                supp2: dict = {}
+                if sp2.is_file():
+                    for s2 in json.loads(sp2.read_text(encoding="utf-8")):
+                        kk2 = str(s2.get("term", "")).strip().lower().replace("・", "").replace(" ", "")
+                        supp2[(str(s2.get("unit", "")), kk2)] = s2
+                for l2 in fp2.read_text(encoding="utf-8").splitlines():
+                    if not l2.strip():
+                        continue
+                    it2 = json.loads(l2)
+                    t2 = str(it2.get("term", "")).strip()
+                    k2 = t2.strip().lower().replace("・", "").replace(" ", "")
+                    if supp2.get((fp2.stem, k2), {}).get("action") == "drop":
+                        continue
+                    e2 = term_ix.setdefault(k2, {"disp": t2, "units": set(), "kinds": {}})
+                    e2["units"].add(fp2.stem)
+                    kd = str(it2.get("kind", "その他"))
+                    e2["kinds"][kd] = e2["kinds"].get(kd, 0) + 1
+        multi = [(v["disp"], k, v) for k, v in term_ix.items() if len(v["units"]) >= 2]
+        multi.sort(key=lambda x: (-len(x[2]["units"]), x[0]))
+        tx = [f'---\ntitle: "実世界参照 対象名索引"\nrun: publish\n---', "", "# 実世界参照 対象名索引（篇横断）", "",
+              "同一の実世界対象が複数篇で参照されている名寄せ索引。正規化名（・・空白除去・小文字化）で機械統合し、suppressions 裁定を反映。", "",
+              f"対象名: {len(multi)}（全対象名 {len(term_ix)}・2 篇以上）", ""]
+        for disp0, k0, v0 in multi:
+            us = "・".join(f"[[allusions/{u}|{u}]]" for u in sorted(v0["units"]))
+            kd = "・".join(f"{a}{b}" for a, b in sorted(v0["kinds"].items(), key=lambda x: -x[1])[:3])
+            tx.append(f"- **{disp0}**（{len(v0['units'])} 篇・{kd}）: {us}")
+        tx.append("")
+        tx.append("- 索引トップ: [[allusions_index|実世界参照 索引]]")
+        (CONTENT / "allusions_terms.md").write_text("\n".join(tx), encoding="utf-8")
 
     # nav（185 篇索引）
     nav = ["---", 'title: "篇索引"', "run: publish", "---", "", "# 篇索引（185 篇）", ""]
