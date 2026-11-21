@@ -228,7 +228,7 @@ def mech_gate(uid: str, item: dict, posts: dict) -> tuple[dict, str]:
         return item, "DROP:EXTERNAL_KNOWLEDGE"
     if re.search(r"原文に.{0,18}明示.{0,10}ない", usage):
         return item, "DROP:EXTERNAL_KNOWLEDGE"
-    if re.search(r"実在の?(素材|食品|食料|道具|武器|乗り物|乗物|衣類|衣服|装飾品|建材|貴金属|宝石|木材|化学物質|成分|工具)", usage) and len(term) <= 4 and term not in ENT_NAMES:
+    if re.search(r"実在の?(素材|食品|食料|道具|武器|乗り物|乗物|衣類|衣服|装飾品|建材|貴金属|宝石|木材|化学物質|成分|工具)", usage) and len(term) <= 4 and term not in ENT_NAMES and not any(w in usage for w in EXPLICIT):
         return item, "DROP:OBJ"
     if len(usage) < 12:
         return item, "DROP:USAGE_SHORT"
