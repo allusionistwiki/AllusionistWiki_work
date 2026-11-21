@@ -104,7 +104,7 @@ def mech_gate_flgen(key, art, corpora):
     issues = []
     verbs = [strip_deco(c) for c in corpora if c]
     joined = "".join(verbs)
-    for q in QUOTE_RE.findall(art):
+    for q in QUOTE_RE2.findall(art):
         if len(q) > 100:
             issues.append(f"{key}:QUOTE_LONG:{len(q)}")
         elif strip_deco(q) not in joined:
@@ -114,6 +114,8 @@ def mech_gate_flgen(key, art, corpora):
         issues.append(f"{key}:LINKS_MISSING:{n_links}")
     issues += cn_prose_issues(key, art)
     return issues
+
+QUOTE_RE2 = re.compile(r"「((?:[^「」]|「[^」]*」)+)」", re.S)
 
 ELLIPSIS = re.compile(r"…+|\.\.\.+|⋯+")
 
