@@ -711,6 +711,44 @@ def main() -> int:
             mx.append("")
         mx.append("- 索引トップ: [[allusions_index|実世界参照 索引]]")
         (CONTENT / "allusions_map.md").write_text("\n".join(mx), encoding="utf-8")
+        # Lane B6: 各 allusion 篇へ「篇横断対象名」セクションを決定論付与（全対象名の 2 篇以上）
+        multi_keys = {k0 for k0, v0 in term_ix.items() if len(v0["units"]) >= 2}
+        for uid6 in sorted(per_unit):
+            up6 = CONTENT / "allusions" / f"{uid6}.md"
+            if not up6.is_file():
+                continue
+            c6 = up6.read_text(encoding="utf-8", errors="replace")
+            if "篇横断対象名" in c6:
+                continue
+            myterms = []
+            for adir6 in adirs:
+                f6 = adir6 / f"{uid6}.jsonl"
+                if not f6.is_file():
+                    continue
+                s6 = adir6.parent / "suppressions.json"
+                sup6: dict = {}
+                if s6.is_file():
+                    for s in json.loads(s6.read_text(encoding="utf-8")):
+                        kk = str(s.get("term", "")).strip().lower().replace("・", "").replace(" ", "")
+                        sup6[(str(s.get("unit", "")), kk)] = s
+                for l6 in f6.read_text(encoding="utf-8").splitlines():
+                    if not l6.strip():
+                        continue
+                    it6 = json.loads(l6)
+                    t6 = str(it6.get("term", "")).strip()
+                    k6 = t6.strip().lower().replace("・", "").replace(" ", "")
+                    if k6 not in multi_keys:
+                        continue
+                    if sup6.get((uid6, k6), {}).get("action") == "drop":
+                        continue
+                    nu6 = len(term_ix[k6]["units"])
+                    if t6 not in [x[0] for x in myterms]:
+                        myterms.append((t6, nu6))
+            myterms.sort(key=lambda x: (-x[1], x[0]))
+            if not myterms:
+                continue
+            top6 = "・".join(f"{d}（{n}）" for d, n in myterms[:15])
+            up6.write_text(c6.rstrip() + f"\n\n### 篇横断対象名（2 篇以上）\n\n- {top6}\n\n→ 名寄せ: [[allusions_terms|対象名索引]] ／ 主題: [[allusions_map|主題分類索引]]\n", encoding="utf-8")
 
     # nav（185 篇索引）
     nav = ["---", 'title: "篇索引"', "run: publish", "---", "", "# 篇索引（185 篇）", ""]
