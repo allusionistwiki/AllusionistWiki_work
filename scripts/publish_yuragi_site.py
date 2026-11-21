@@ -213,6 +213,7 @@ def main() -> int:
         if ents:
             cur = cur.rstrip() + "\n\n## 本篇で言及される実体\n\n"
             cur += "".join(f"- [[entities/{sl}|{term}]]（{n} 件）\n" for n, term, sl in ents)
+        # 実世界参照（allusion）page への相互リンクは allusion 生成後（Lane B4）
         up.write_bytes(cur.encode("utf-8"))
 
     # free（制約なし自由記述記事・LLM 全量監査 100% 収束）
@@ -620,6 +621,13 @@ def main() -> int:
                 ix.append(f"- [[allusions/{uid2}|{uid2}]]（{per_unit[uid2]} 件）")
             ix += ["", "※ 対象名（term）の篇横断名寄せは監査収束後の次段階。", ""]
             (CONTENT / "allusions_index.md").write_text("\n".join(ix), encoding="utf-8")
+        # Lane B4: units 記事から allusion 面への相互リンク（allusion 生成後に決定論で付与）
+        for uid3 in sorted(per_unit):
+            up3 = CONTENT / "units" / f"{uid3}.md"
+            if up3.is_file():
+                c3 = up3.read_text(encoding="utf-8", errors="replace")
+                if f"allusions/{uid3}" not in c3:
+                    up3.write_text(c3.rstrip() + f"\n\n→ 実世界参照（allusion）: [[allusions/{uid3}|この篇の実世界参照一覧]]\n", encoding="utf-8")
 
     # nav（185 篇索引）
     nav = ["---", 'title: "篇索引"', "run: publish", "---", "", "# 篇索引（185 篇）", ""]
