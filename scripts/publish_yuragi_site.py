@@ -619,7 +619,8 @@ def main() -> int:
             ix += ["", "## 篇別", ""]
             for uid2 in sorted(per_unit):
                 ix.append(f"- [[allusions/{uid2}|{uid2}]]（{per_unit[uid2]} 件）")
-            ix += ["", "- 対象名の篇横断名寄せ: [[allusions_terms|実世界参照 対象名索引]]", ""]
+            ix += ["", "- 対象名の篇横断名寄せ: [[allusions_terms|実世界参照 対象名索引]]",
+                   "- 主題別分類: [[allusions_map|実世界参照 主題分類索引]]", ""]
             (CONTENT / "allusions_index.md").write_text("\n".join(ix), encoding="utf-8")
         # Lane B4: units 記事から allusion 面への相互リンク（allusion 生成後に決定論で付与）
         for uid3 in sorted(per_unit):
@@ -664,6 +665,52 @@ def main() -> int:
         tx.append("")
         tx.append("- 索引トップ: [[allusions_index|実世界参照 索引]]")
         (CONTENT / "allusions_terms.md").write_text("\n".join(tx), encoding="utf-8")
+        # Lane B5: 主題分類索引（kind 最頻＋語彙キーで決定論桶分け）
+        def _bucket(disp: str, kinds: dict) -> str:
+            t = disp.lower()
+            kw = [
+                ("神話・宗教・悪魔", ("神話", "神々", "神", "悪魔", "天使", "仏", "シャイタン", "ゴエティア", "カバラ", "ヴェーダ", "神群")),
+                ("文学作品", ("小説", "詩", "文学", "全集", "文庫")),
+                ("映像・漫画・アニメ", ("映画", "アニメ", "漫画", "特撮", "ライダー", "戦隊", "ドラマ")),
+                ("ゲーム・TRPG", ("ゲーム", "RPG", "ドラクエ", "ファイナルファンタジー", "モンスタ", "ギャザリング", "TRPG")),
+                ("音楽・芸能", ("バンド", "歌手", "作曲家", "曲", "歌", "声優", "芸人", "落語")),
+                ("学術・科学概念", ("理論", "仮説", "法則", "数", "素粒子", "心理学", "物理学", "化学", "生物学", "医学", "解釈")),
+                ("ネットサービス・ソフトウェア", ("サイト", "掲示板", "ブラウザ", "ソフト", "SNS", "動画", "ウィキ", "Wikipedia", "mixi", "はてな")),
+                ("歴史・実在人物", ("武将", "作家", "画家", "王", "皇帝", "戦争", "革命", "時代")),
+                ("地名・地理", ("市", "県", "島", "大陸", "国立公園", "海峡", "タワー", "寺", "都市", "国")),
+                ("ブランド・商品", ("株式会社", "ブランド", "製品", "商品", "ソフト株式会社")),
+            ]
+            best = max(kinds.items(), key=lambda x: x[1])[0] if kinds else "その他"
+            kmap = {"神話": "神話・宗教・悪魔", "宗教": "神話・宗教・悪魔", "科学": "学術・科学概念",
+                    "文学": "文学作品", "人物": "歴史・実在人物", "歴史": "歴史・実在人物",
+                    "ゲーム": "ゲーム・TRPG", "地理": "地名・地理", "映像": "映像・漫画・アニメ",
+                    "ブランド": "ブランド・商品", "音楽": "音楽・芸能"}
+            if best in kmap:
+                return kmap[best]
+            for name, keys in kw:
+                if any(k.lower() in t for k in keys):
+                    return name
+            return best
+        buckets: dict = {}
+        for k2, v2 in term_ix.items():
+            b = _bucket(v2["disp"], v2["kinds"])
+            buckets.setdefault(b, []).append((v2["disp"], len(v2["units"]), sorted(v2["units"])))
+        mx = [f'---\ntitle: "実世界参照 主題分類"\nrun: publish\n---', "",
+              "# 実世界参照 主題分類索引", "",
+              "対象名を kind 最頻値と語彙キーで決定論分類（機械分類・裁定 drop 反映済）。", ""]
+        for b in sorted(buckets, key=lambda x: -len(buckets[x])):
+            names = sorted(buckets[b], key=lambda x: -x[1])
+            mx.append(f"## {b}（{len(names)} 名）")
+            mx.append("")
+            for disp2, nu, us2 in names[:60]:
+                show = "・".join(f"[[allusions/{u}|{u}]]" for u in us2[:4])
+                more = f" 外{len(us2)}篇" if len(us2) > 4 else ""
+                mx.append(f"- **{disp2}**（{nu} 篇）: {show}{more}")
+            if len(names) > 60:
+                mx.append(f"- …他 {len(names)-60} 名")
+            mx.append("")
+        mx.append("- 索引トップ: [[allusions_index|実世界参照 索引]]")
+        (CONTENT / "allusions_map.md").write_text("\n".join(mx), encoding="utf-8")
 
     # nav（185 篇索引）
     nav = ["---", 'title: "篇索引"', "run: publish", "---", "", "# 篇索引（185 篇）", ""]
