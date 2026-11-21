@@ -235,10 +235,21 @@ def main() -> int:
     fl = ["---", 'title: "自由記述索引"', "run: publish", "---", "", "# 自由記述記事（制約なし版）", "",
           "L1 版記事と原文をもとに、L1 の構造制約なしで自由記述した記事群（LLM 全量監査 100% 収束）。", ""]
     for p in sorted((CONTENT / "free").glob("*.md")):
+        if p.stem == "index":
+            continue
         uid = p.stem
         t = units.get(uid, {}).get("title", uid)
         fl.append(f"- [[free/{uid}|{t}]]")
     fidx.write_bytes("\n".join(fl).encode("utf-8"))
+    # free/ フォルダノート（folderClickBehavior=link 時の受け皿）
+    (CONTENT / "free" / "index.md").write_bytes(("\n".join(
+        ["---", 'title: "自由記述版（トップ）"', "run: publish", "---", "",
+         "# 自由記述版", "",
+         "L1 版記事と原文をもとに、L1 の構造制約なしで記述した記事群（LLM 全量監査 100% 収束）。",
+         "引用は原文からの逐語のみ・全記事 ref 付き。各記事から L1 版・原文全文版へ相互リンク付き。", "",
+         "- 索引: [[free_index|自由記述索引]]",
+         "- 見方: [[guide|読み方ガイド]]", ""])
+    ).encode("utf-8"))
 
     # topics / authors
     for p in sorted((L1 / "runs" / TOPICS_RUN / "topics").glob("*.md")):
@@ -265,7 +276,8 @@ def main() -> int:
          if re.search(r'title:\s*"([^"]+)"', (CONTENT / "authors" / p.name).read_bytes().decode("utf-8", "replace")) else p.stem),
     ]
     for d, title, desc, lab in idx_specs:
-        lines = ["---", f'title: "{title}"', "run: publish", "---", "", f"# {title}", "", desc, ""]
+        lines = ["---", f'title: "{title}"', "run: publish", "---", "", f"# {title}", "", desc, "",
+                "見方: [[guide|読み方ガイド]]（版の関係・引用アンカー・来歴）", ""]
         for p in sorted((CONTENT / d).glob("*.md")):
             if p.stem == "index":
                 continue
@@ -340,6 +352,15 @@ def main() -> int:
         idx_lines.append("")
         idx_lines.append(f"（作品ページ {len(wentries)}・収録創作群 7,621）")
         top.write_bytes("\n".join(idx_lines).encode("utf-8"))
+        # works/ フォルダノート
+        (CONTENT / "works" / "index.md").write_bytes(("\n".join(
+            ["---", 'title: "作品ページ（トップ）"', "run: publish", "---", "",
+             "# 作品ページ", "",
+             "BBS 各スレッドに散在する創作的記述（詩・短編・設定文・劇中作品文等）の作品単位ページ。",
+             "各ページに収録投稿の原文全文（逐語）と投稿単位 permalink 付き。", "",
+             "- 横断索引: [[works_top|創作索引（トップ）]] ／ 类型別: works_index ／ 作者別: [[widx_authors/|創作作者索引]]",
+             "- 見方: [[guide|読み方ガイド]]", ""])
+        ).encode("utf-8"))
 
         # works 作者索引・篇収容索引（run *_l1widx）
         icands = sorted(p.name for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l1widx"))
@@ -468,6 +489,8 @@ def main() -> int:
         idx = ["---", 'title: "実体索引"', "run: publish", "---", "", "# 実体索引", ""]
         by_type = {}
         for p in sorted((CONTENT / "entities").glob("*.md")):
+            if p.stem == "index":
+                continue
             a = p.read_bytes().decode("utf-8", "replace")
             tm = _re.search(r'term:\s*"([^"]+)"', a)
             ty = _re.search(r'type:\s*"([^"]+)"', a)
@@ -479,6 +502,15 @@ def main() -> int:
                 idx.append(f"- [[entities/{sl}|{term}]]")
             idx.append("")
         (CONTENT / "entities_index.md").write_bytes("\n".join(idx).encode("utf-8"))
+        # entities/ フォルダノート
+        (CONTENT / "entities" / "index.md").write_bytes(("\n".join(
+            ["---", 'title: "実体索引（トップ）"', "run: publish", "---", "",
+             "# 実体索引", "",
+             "人物・物品・国・事件・概念など、作中実体のページ群（wiki 中核）。登場 2 以上を収録。",
+             "各ページは概要・記述の流れ・関連実体・注目投稿（原文逐語リンク）・言及篇・共起実体を持ちます。", "",
+             "- 类型別索引: [[entities_index|実体索引（类型別）]]",
+             "- 見方: [[guide|読み方ガイド]]", ""])
+        ).encode("utf-8"))
 
     # nav（185 篇索引）
     nav = ["---", 'title: "篇索引"', "run: publish", "---", "", "# 篇索引（185 篇）", ""]
@@ -489,45 +521,7 @@ def main() -> int:
     nav.append("各篇の制約なし版: [[full/|full 索引]]")
     (CONTENT / "nav.md").write_bytes("\n".join(nav).encode("utf-8"))
 
-    # top
-    stats = json.loads((led / "stats.json").read_text(encoding="utf-8"))
-    top = f"""---
-title: "ゆらぎの神話 BBS 実況 Wiki トップ"
-run: publish
----
-
-# ゆらぎの神話 BBS 実況 Wiki
-
-『ゆらぎの神話』関連 BBS（japan board / はてな / mixi）の実況・議論スレッド 185 篇・48,891 投稿を、
-解析パイプライン（L0 台帳 → 検索 → LLM 生成 → LLM 全量品質監査 100%）で構築した Wiki です。
-
-## 版
-
-- **L1 版（当サイト主要面）**: 要約・整理記事。引用は 100 字以内＋ ref アンカー（原文ファイルへのリンク付き）。
-- **自由記述版（制約なし）**: [[free_index|free（自由記述記事）]] — L1 と原文をもとに構造制約なしで記述。引用は原文からの逐語のみ・全記事 ref 付き。
-- **原文全文版**: [[full/index|full（原文全文同梱）]] — 各篇の投稿全文をそのまま掲載（投稿単位アンカー付き）。投稿の著作権は各投稿者に帰属します（[[license|ライセンス]]）。
-
-## 節
-
-- [[entities_index|実体索引]] — 人物・物品・国などの作中実体（wiki 中核）
-- [[works_top|創作索引]] — 散在する創作的記述（詩・短編・設定文等）の横断索引
-- [[free_index|自由記述索引]] — 制約なし自由記述記事（L1＋原文に基づく）
-- [[flicker_index|日記索引（Hatena Flicker）]] — 関連日記 19 作者・387 投稿（原文逐語・permalink 付き）
-- [[nav|篇索引]] — 185 篇
-- [[topics/index|topics 索引]] — 話題・語句 429（出現 3 以上）
-- [[authors/index|authors 索引]] — 主要投稿者 95（投稿 10 以上）
-- [[chronology|年表]]
-- [[full/index|制約なし版 篇索引]]
-
-## 統計（L0 台帳 {led.name}）
-
-- 篇 185 / 投稿 48,891 / 投稿群 16,271（LLM 要約付き）/ 語句 6,224
-- 創作記述 7,621 群 → 作品ページ 6,453・収録投稿 26,710 件（permalink 付き原文逐語）
-- 実体 800（登場 2 以上）・自由記述記事 185・全記事 LLM 全量監査 100% 収束
-- 来歴: 解析・生成・監査は AllusionistWiki_work repo（非公開運用層）で実施。各記事 frontmatter に run ID 記録。
-"""
-    (CONTENT / "index.md").write_bytes(top.encode("utf-8"))
-
+    # license（top は全層生成後の最後に書く）
     lic = """---
 title: "ライセンス"
 run: publish
@@ -552,8 +546,9 @@ run: publish
 
     # ---- flicker 層（Hatena Flicker 日記・LLM 解析記事＋原文逐語・permalink 付き） ----
     FL = RAW_BBS / "hatena_flicker"
+    fl_units: list = []
     FL_ART_RUN = "20261121T2350_l1flgen"
-    FL_AUDIT = "20261122T0500_l1flaud10"
+    FL_AUDIT = "20261122T0700_l1flaud12"
     if (FL / "units.jsonl").exists():
         fl_units = jl(FL / "units.jsonl")
         fldir = CONTENT / "flicker"
@@ -598,8 +593,286 @@ run: publish
                        f"（{u.get('first')}〜{u.get('last')}）")
         idx.append("")
         (CONTENT / "flicker_index.md").write_bytes("\n".join(idx).encode("utf-8"))
+        # flicker/ フォルダノート
+        (CONTENT / "flicker" / "index.md").write_bytes(("\n".join(
+            ["---", 'title: "日記（Hatena Flicker）（トップ）"', "run: publish", "---", "",
+             "# 日記（Hatena Flicker）", "",
+             "『ゆらぎの神話』関連の Hatena Flicker 日記を作者別に収録（原文逐語・投稿 permalink 付き）。",
+             "各作者ページは LLM 解析記事（全量監査 100% 収束）＋日記原文の全文を持ちます。", "",
+             "- 索引: [[flicker_index|日記索引]]",
+             "- 見方: [[guide|読み方ガイド]]", ""])
+        ).encode("utf-8"))
         counts["flicker"] = len(fl_units)
         counts["flicker_posts"] = sum(u["n_posts"] for u in fl_units)
+
+    # ---- top / guide / stats / about（全層生成後の最終書き込み・決定論） ----
+    from collections import Counter as _Counter
+    stats = json.loads((led / "stats.json").read_text(encoding="utf-8"))
+    n_units = len(list((CONTENT / "units").glob("*.md")))
+    n_full = len(list((CONTENT / "full").glob("*.md")))
+    n_free = len([p for p in (CONTENT / "free").glob("*.md") if p.stem != "index"])
+    n_topics = len([p for p in (CONTENT / "topics").glob("*.md") if p.stem != "index"])
+    n_auth = len([p for p in (CONTENT / "authors").glob("*.md") if p.stem != "index"])
+    n_ent = len([p for p in (CONTENT / "entities").glob("*.md") if p.stem != "index"])
+    n_works = len([p for p in (CONTENT / "works").glob("*.md") if p.stem != "index"])
+    n_fl = len(fl_units)
+    n_fl_posts = sum(u.get("n_posts", 0) for u in fl_units)
+
+    def _fm_get(path, key):
+        a = path.read_bytes().decode("utf-8", "replace")
+        m = re.search(rf'^{key}:\s*"?([^"\n]+)"?', a, re.M)
+        return m.group(1) if m else ""
+
+    def _lab(s):  # wikilink 表示名サニタイズ
+        return s.replace("|", "｜").replace("[", "〔").replace("]", "〕")
+
+    srcc, srcposts = _Counter(), _Counter()
+    for u in units.values():
+        s = u.get("source", "?")
+        srcc[s] += 1
+        srcposts[s] += u.get("n_posts", 0)
+    ent_types = _Counter(_fm_get(p, "type") for p in (CONTENT / "entities").glob("*.md") if p.stem != "index")
+    work_types = _Counter(_fm_get(p, "type") for p in (CONTENT / "works").glob("*.md"))
+    auth_list = []
+    for p in (CONTENT / "authors").glob("*.md"):
+        if p.stem == "index":
+            continue
+        nm = _fm_get(p, "author")
+        n = int(_fm_get(p, "n") or 0)
+        auth_list.append((n, nm, p.stem))
+    auth_list.sort(key=lambda x: (-x[0], x[2]))
+    monthly = _Counter(d[:7] for d in bydate.values())
+    date_lo = min(bydate.values())[:10]
+    date_hi = max(bydate.values())[:10]
+
+    def top_cell(d):
+        return f"{d[:4]}年{int(d[5:7])}月"
+
+    top = f"""---
+title: "ゆらぎの神話 BBS 実況 Wiki"
+description: "多人数で神話を創る試みの BBS 実況記録（{n_units} 篇・{stats['posts']:,} 投稿）を解析し、原文引用と出典リンク付きで公開する Wiki"
+run: publish
+---
+
+# ゆらぎの神話 BBS 実況 Wiki
+
+> [!info]
+> 『ゆらぎの神話』— 複数 BBS の参加者が力を借りて神話を創った試みの記録。
+> 本 Wiki は、したらば映画板 7039・mixi コミュ「架空の神話を作ろう」・はてなふりかーポータル の
+> 実況・議論スレッド {n_units} 篇・{stats['posts']:,} 投稿を、解析パイプライン
+> （L0 台帳 → 検索 → LLM 生成 → **LLM 全量品質監査 100%**）で整理し、
+> 原文からの逐語引用＋ ref 出典リンク付きで公開しています。読み方は [[guide|読み方ガイド]]。
+
+## はじめに
+
+- [[guide|読み方ガイド]] — 版の関係・引用アンカー・来歴の読み方
+- [[stats|統計]] — コーパスの全体像（出典別・月別・上位投稿者）
+- [[about|この Wiki について]] — 出典・パイプライン・ライセンス帰属
+- [[entities_index|実体索引]] — 人物・物品・国・事件・概念（世界の核・{n_ent} 件）
+- [[works_top|創作索引]] — スレに散在する詩・短編・設定文（{n_works:,} 作品）
+- [[nav|篇索引]] — 全 {n_units} 篇
+- [[chronology|年表]] — 月別投稿数・主要語句の初出/最終言及（{date_lo} 〜 {date_hi}）
+
+## 節
+
+| 節 | 内容 | 規模 | 入口 |
+|---|---|---|---|
+| 篇記事（units） | L1 版の要約・整理記事 | {n_units} 篇 | [[nav|篇索引]] |
+| 原文全文（full） | 投稿全文そのまま・投稿単位 permalink | {n_full} 篇 | [[full/index|full 索引]] |
+| 自由記述（free） | 制約なし自由記述記事 | {n_free} 篇 | [[free_index|自由記述索引]] |
+| 実体（entities） | 人物・物品・国・事件・概念 | {n_ent} 件 | [[entities_index|类型別索引]] |
+| 創作（works） | 散在する詩・短編・設定文 | {n_works:,} 作品 | [[works_top|創作索引]] |
+| 話題（topics） | 話題・語句（出現 3 以上） | {n_topics} 件 | [[topics/index|topics 索引]] |
+| 投稿者（authors） | 主要投稿者（投稿 10 以上） | {n_auth} 名 | [[authors/index|authors 索引]] |
+| 日記（flicker） | Hatena Flicker 関連日記 | {n_fl} 作者・{n_fl_posts} 投稿 | [[flicker_index|日記索引]] |
+| 年表 | 月別集計・語句初出 | {date_lo} 〜 {date_hi} | [[chronology|年表]] |
+
+## 版（三つの面）
+
+- **L1 版（当サイト主要面）**: 要約・整理記事。引用は 100 字以内＋ ref アンカー（原文ファイルへのリンク付き）。
+- **自由記述版（制約なし）**: [[free_index|free]] — L1 と原文をもとに構造制約なしで記述。引用は原文からの逐語のみ・全記事 ref 付き。
+- **原文全文版**: [[full/index|full]] — 各篇の投稿全文をそのまま掲載（投稿単位アンカー付き）。
+
+三版は相互リンクで結ばれています。投稿の著作権は各投稿者に帰属します（[[license|ライセンス]]・削除対応方針）。
+
+## 統計（L0 台帳 {led.name}）
+
+- 篇 {stats['units']} ／ 投稿 {stats['posts']:,} ／ 投稿群 {stats['chains']:,}（LLM 要約付き）／ 投稿者 {stats['authors']:,} 名 ／ 本文 {stats['chars_body']:,} 字
+- 創作記述 → 作品ページ {n_works:,}・収録投稿は permalink 付き原文逐語
+- 実体 {n_ent}（登場 2 以上）・自由記述記事 {n_free}・全記事 LLM 全量監査 100% 収束
+- 来歴: 解析・生成・監査は AllusionistWiki_work repo（作業データ公開）で実施。各記事 frontmatter に run ID 記録。
+"""
+    (CONTENT / "index.md").write_bytes(top.encode("utf-8"))
+
+    guide = """---
+title: "読み方ガイド"
+description: "版の関係・引用アンカー・ref 出典リンク・来歴の読み方"
+run: publish
+---
+
+# 読み方ガイド
+
+## 三つの版
+
+各篇（スレッド）は三つの面で読めます。ページ間で相互リンクされています。
+
+| 面 | 場所 | 内容 |
+|---|---|---|
+| L1 版 | `units/` | 概要・流れ・主要話題・注目投稿（引用 100 字以内）に整理した記事 |
+| 自由記述版 | `free/` | L1 の構造制約なしに記述した記事（引用は原文逐語のみ・全記事 ref 付き） |
+| 原文全文版 | `full/` | 投稿全文をそのまま掲載。`#post-N` アンカー付き（多数投稿の篇は p2・p3… に分页） |
+
+## 引用と出典リンク
+
+- **ref 形式 `YJ-T001:123`**: 「篇 YJ-T001 の投稿 123」を指す原文参照。リンク先は原文データ
+  （GitHub の raw/ ③ 投稿チャンクファイル）です。
+- **投稿 permalink**: 原文全文版の各投稿は `.../full/YJ-T001/p3#post-257` 形式の固定 URL を持ちます
+  （`p3` は分页、`#post-257` は投稿アンカー）。L1 版・創作ページからの引用リンクもここを指します。
+- **実体ページ**: 概要・記述の流れ・関連する実体・注目投稿・言及篇（その実体を語っているスレッド）・
+  共起実体（同一篇に共出現する実体）を持ちます。
+
+## 来歴（provenance）
+
+- 全記事の frontmatter に生成 run ID（`run:`）と全量品質監査 run ID（`link_audit:`）を記録しています。
+- 解析・生成・監査の工程は [AllusionistWiki_work](https://github.com/allusionistwiki/AllusionistWiki_work)
+  の `work/yuragi/`（L0 台帳 → L1 生成 → 監査）に run 単位で保存され、来歴をたどれます。
+- 生成はローカル LLM、品質監査は全記事 100% を LLM 監査して収束させています
+  （引用の逐語性・ref の実在・日本語の質を検定）。
+
+## 原文と著作権
+
+- 原文データ（BBS 投稿文）の著作権は**各投稿者**に帰属します。本 Wiki はファン活動としての
+  解析・紹介です（[[license|ライセンス]]）。
+- 掲載を望まない投稿者はリポジトリ管理者までご連絡ください。削除要請には速やかに対応します。
+- 生データ・編集方針は [YuragiWiki repo](https://github.com/allusionistwiki/YuragiWiki)（README・EDITING.md）。
+"""
+    (CONTENT / "guide.md").write_bytes(guide.encode("utf-8"))
+
+    # 統計ダッシュボード（決定論）
+    rows_src = ""
+    src_meta = {
+        "jbbs": ("したらば映画板 7039「ゆらぎの神話BBS」", "https://jbbs.shitaraba.net/movie/7039/"),
+        "mixi": ("mixi コミュ「架空の神話を作ろう」", "https://mixi.jp/view_community.pl?id=373088"),
+        "hatena": ("はてなふりかー（portal BBS）", "http://flicker.g.hatena.ne.jp/"),
+    }
+    for s in sorted(srcc, key=lambda x: -srcposts[x]):
+        name, url = src_meta.get(s, (s, ""))
+        rows_src += f"| [{name}]({url}) | {srcc[s]} | {srcposts[s]:,} |\n" if url else f"| {name} | {srcc[s]} | {srcposts[s]:,} |\n"
+    year_rows = ""
+    for y in sorted({m[:4] for m in monthly}):
+        tot = sum(v for m, v in monthly.items() if m.startswith(y))
+        peak = max((v, m) for m, v in monthly.items() if m.startswith(y))
+        year_rows += f"| {y} | {tot:,} | {top_cell(peak[1])}（{peak[0]:,} 件） |\n"
+    ent_type_rows = "".join(f"| {t} | {c:,} |\n" for t, c in ent_types.most_common())
+    work_type_rows = "".join(f"| {t} | {c:,} |\n" for t, c in work_types.most_common(15))
+    auth_rows = "".join(f"| [[authors/{sl}|{_lab(nm)}]] | {n:,} |\n" for n, nm, sl in auth_list[:20])
+    top_terms = "".join(
+        f"| {_lab(r['term'])} | {r['count']:,} |\n"
+        for r in sorted(terms_rows, key=lambda r: -r["count"])[:15])
+    fl_rows = "".join(
+        f"| [[flicker/{u['unit_id']}|{_lab(u['author'])}]] | {u['n_posts']} |（{u.get('first')}〜{u.get('last')}）|\n"
+        for u in sorted(fl_units, key=lambda x: -x["n_posts"])[:10])
+    fl_note = ("| 作者 | 投稿 | 期間 |\n|---|---|---|\n" + fl_rows) if fl_rows else ""
+    stats_md = f"""---
+title: "統計"
+description: "コーパス統計ダッシュボード（出典別・年別・上位投稿者・类型分布）"
+run: publish
+---
+
+# 統計
+
+L0 台帳 {led.name} 由来の決定論集計。詳細は [[chronology|年表]]・[[nav|篇索引]]。
+
+## 出典別
+
+| 出典 | 篇 | 投稿 |
+|---|---|---|
+{rows_src.rstrip()}
+
+## 年別投稿数
+
+| 年 | 投稿数 | 峰值月 |
+|---|---|---|
+{year_rows.rstrip()}
+
+## 上位投稿者（top 20）
+
+| 投稿者 | 投稿数 |
+|---|---|
+{auth_rows.rstrip()}
+
+## 実体の类型分布
+
+| 类型 | 件数 |
+|---|---|
+{ent_type_rows.rstrip()}
+
+## 創作の类型分布（top 15）
+
+| 类型 | 作品数 |
+|---|---|
+{work_type_rows.rstrip()}
+
+## 主要語句（出現数 top 15）
+
+| 語句 | 出現 |
+|---|---|
+{top_terms.rstrip()}
+{("\n## 日記（Flicker）上位作者" + chr(10) + chr(10) + fl_note) if fl_note else ""}"""
+    (CONTENT / "stats.md").write_bytes(stats_md.encode("utf-8"))
+
+    about = f"""---
+title: "この Wiki について"
+description: "出典・解析パイプライン・ライセンス帰属・編集方針"
+run: publish
+---
+
+# この Wiki について
+
+## 何の Wiki か
+
+『ゆらぎの神話』— 2005 年頃から複数 BBS で行われた「多人数で神話を創る試み」の実況・議論の記録を、
+機械台帳と LLM 解析（全量品質監査付き）で整理したファン解析 Wiki です。
+掲載記事は二次著作（紹介・解析）で、引用を通じて原文（一次資料）へ直接接続します。
+
+## 出典（取得 2026-10-12）
+
+- [したらば映画板 7039「ゆらぎの神話BBS」](https://jbbs.shitaraba.net/movie/7039/) — {srcc.get('jbbs', 0)} 篇
+- [mixi コミュ「架空の神話を作ろう」](https://mixi.jp/view_community.pl?id=373088)（2005-10-22 開設）— {srcc.get('mixi', 0)} 篇
+- [はてなふりかー（portal）](http://flicker.g.hatena.ne.jp/) — {srcc.get('hatena', 0)} 篇
+- 関連 Hatena Flicker 日記 {n_fl} 作者（{n_fl_posts} 投稿）
+
+mixi コミュ規約は記述の再利用・分散を明示的に許容しています（「元の設定を考えた人の許可を得る必要は全く
+ありません」「誰でも引用可能な神話」）。原文データの出典・取得日は repo README に記録しています。
+
+## 解析パイプライン
+
+1. **L0 台帳**: 生 BBS データを SHA1 検証付きで取り込み、投稿単位チャンク（②）と
+   structured.jsonl（③）へ正規化（{stats['posts']:,} 投稿・sha1 ラウンドトリップ検証）。
+2. **検索索引**: 語句・日付・篇の転引索引（L0 検索台帳）。
+3. **LLM 生成**: ローカル LLM で篇記事・実体・投稿者・創作・日記記事を生成。
+4. **全量品質監査**: 全記事を LLM 監査（引用の逐語性・ref 実在・日本語品質）し、
+   flagged 件を修復して 100% 収束。
+5. **公開同期**: 監査済み run から決定論 publish（本文の機械的変換なし）で本サイトへ反映。
+
+- 作業データ: [AllusionistWiki_work](https://github.com/allusionistwiki/AllusionistWiki_work) の `work/yuragi/`
+  （run 単位・追加専用・来歴連鎖）。
+- 原文データ: [YuragiWiki repo](https://github.com/allusionistwiki/YuragiWiki) の `raw/bbs/`。
+- 全記事の frontmatter に生成 run ID・監査 run ID を記録（来歴）。
+
+## ライセンス帰属
+
+- wiki テキスト（解析・記述ページ）: CC0
+- `raw/`（BBS 投稿文）・原文全文版の引用: **著作権は各投稿者に帰属**。
+  出典を明記して公開し、削除要請に対応します（[[license|ライセンス]]）。
+
+## 編集方針
+
+今後の編集・拡張の規約は repo ルートの
+[EDITING.md](https://github.com/allusionistwiki/YuragiWiki/blob/main/EDITING.md)（追加専用 run・
+全量監査収束の原則・公開ゲート・拡張路線）。
+"""
+    (CONTENT / "about.md").write_bytes(about.encode("utf-8"))
 
     print(json.dumps(counts, ensure_ascii=False))
     return 0

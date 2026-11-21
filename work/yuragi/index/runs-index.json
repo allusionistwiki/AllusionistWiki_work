@@ -308,6 +308,19 @@
    "note": "works 作者索引 1,543・篇収容索引 173 再生成（＆ slugify 対応・作者名ページ全件）。site 側で索引を folder index 化（widx_authors/index.md・widx_units/index.md・相対リンク二重化 404 修正）",
    "path": "work/yuragi/L1/runs/20261120T0400_l1widx",
    "derived_from": "20261119T2005_l1widx"
+  },
+  "20261122T0600_l1flaud11": {
+   "kind": "l1-flicker-audit",
+   "status": "superseded",
+   "note": "flgen 改訂版（audit10 後の質感整序）全量監査 19 件・flagged 1（YJ-Ferlkonig 不一致）→ 再生成投入",
+   "path": "work/yuragi/L1/runs/20261122T0600_l1flaud11"
+  },
+  "20261122T0700_l1flaud12": {
+   "kind": "l1-flicker-audit",
+   "status": "current",
+   "derived_from": "20261122T0600_l1flaud11",
+   "note": "flgen 全量監査 19/19 一致・flagged 0（収束）。公開面 flicker の link_audit 現行値",
+   "path": "work/yuragi/L1/runs/20261122T0700_l1flaud12"
   }
  },
  "current": {
