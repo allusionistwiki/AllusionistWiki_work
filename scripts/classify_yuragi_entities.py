@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""ゆらぎコーパス实体分類 — terms(count>=min) を LLM で类型分類し entities.jsonl を生成。
+"""ゆらぎコーパス实体分類 — terms(count>=min) を LLM で類型分類し entities.jsonl を生成。
 
 python scripts/classify_yuragi_entities.py [--min 5] [--workers 3]
 出力: work/yuragi/L1/entities.jsonl
   {term, count, type, is_entity, note}
-类型: 人物 / 种族・生物 / 組織・勢力 / 国・地域・場所 / 物品・武具 / 技・能力・方法
+類型: 人物 / 種族・生物 / 組織・勢力 / 国・地域・場所 / 物品・武具 / 技・能力・方法
       / 現象・出来事 / 概念 / 作品・メタ / 非实体
 ※ 台帳方針: 名義統合は行わない（別名義ページ＋ link）。統合候補は note に記録のみ。
 """
@@ -18,7 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_yuragi_l1_gen import call_llm, jl, l0_paths, unit_dirs, term_context, L1, CFG
 
-TYPES = "人物/种族・生物/組織・勢力/国・地域・場所/物品・武具/技・能力・方法/現象・出来事/概念/作品・メタ/非实体"
+TYPES = "人物/種族・生物/組織・勢力/国・地域・場所/物品・武具/技・能力・方法/現象・出来事/概念/作品・メタ/非实体"
 
 
 def classify_batch(terms, udirs):
@@ -29,8 +29,8 @@ def classify_batch(terms, udirs):
     prompt = (
         "『ゆらぎの神話』BBS 実況コーパスの語句を、作中实体として分類してください。\n"
         "=== 語句と出現文脈 ===\n" + "\n\n".join(parts) +
-        "\n\n出力規定: 各語句について 1 行、`語: 类型|实体判定|統合候補があれば相手の語` 形式。\n"
-        f"- 类型は次から 1 つ: {TYPES}\n"
+        "\n\n出力規定: 各語句について 1 行、`語: 類型|实体判定|統合候補があれば相手の語` 形式。\n"
+        f"- 類型は次から 1 つ: {TYPES}\n"
         "- 实体判定 は 实体 または 非实体（実在の物・メタ用語・一般名詞だけの語は非实体）\n"
         "- 統合候補: 同一实体を指す別名義（略称・全称など）があれば相手の語を記録するだけ（統合はしない）\n"
         "- 判断は提示文脈と語の形から。行頭に番号を付けない。余文なし。")

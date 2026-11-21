@@ -102,7 +102,7 @@ def main():
     for (work, author), rows in sorted(groups.items()):
         base = slugify(work) if work != "無題" else f"無題_{slugify(author) or 'anon'}"
         slug = unique_slug(base, used)
-        # 类型は最頻
+        # 類型は最頻
         types = defaultdict(int)
         for r in rows:
             types[r.get("type", "その他創作")] += 1
@@ -110,7 +110,7 @@ def main():
         lines = ["---", f"title: {yq(work)}", f"work: {yq(work)}", f"author: {yq(author)}",
                  f"type: {yq(wtype)}", f"chains: {len(rows)}", f"run: {rid}", "---", "",
                  f"# {work}", ""]
-        lines.append(f"（作者: {author} ／ 类型: {wtype} ／ 収録群: {len(rows)}）")
+        lines.append(f"（作者: {author} ／ 類型: {wtype} ／ 収録群: {len(rows)}）")
         lines.append("")
         for r in sorted(rows, key=lambda x: (x["uid"], x["post_range"][0])):
             uid = r["uid"]
@@ -152,7 +152,7 @@ def main():
                         "chains": len(rows), "units": sorted({r["uid"] for r in rows})})
         n_pages += 1
 
-    # 类型別索引（1 索引ページ 400 件上限で分页）
+    # 類型別索引（1 索引ページ 400 件上限で分頁）
     by_type = defaultdict(list)
     for e in entries:
         by_type[e["type"]].append(e)

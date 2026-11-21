@@ -1,0 +1,27 @@
+{
+ "audit_date": "2026-11-22T06:30+09:00",
+ "auditor": "cron yuragi-longjob-check (awiki2)",
+ "scan_def": "CN-only codepoints = U+4E00-U+9FFF not encodable in cp932(JIS X0208), excluding quote-internal text and shared glyphs (的了叶马乌风飞书东车)",
+ "before": {"issue_lines": 6869, "label_lines": 6460, "kiy_lines": 58, "other_lines": 351},
+ "root_causes": {
+  "labels": "publish/build/classify scripts contained simplified literals 类型/种族/分页/峰值月 (6460 lines)",
+  "entities_ledger": "entities.jsonl + entity page frontmatter carried 种族/非实体 values (225)",
+  "allusions_usage": "allusions/*.jsonl usage prose carried 出处 etc. (3 records)",
+  "kiy": "raw chains.jsonl summary field = CN-grammar prose (58 published lines, 115 raw files scanned, 35 heavy)",
+  "free_prose": "free/YJ-T059 等 LLM prose contained 扭转時空/消灭 vocabulary (handled by glyph map partially)"
+ },
+ "laneA_applied": {
+  "run": "20261122T0630_l1cnglyph",
+  "actions": [
+   "scripts sed: 类型→類型, 种族→種族, 分页→分頁, 峰值月→最多月, 类别→類別, 场面→場面",
+   "entities.jsonl: 种→種, 实体→実体",
+   "new run 20261122T0630_l1cnglyph: units/free/full/entities(merged 800)/allusions/topics glyph-normalized outside 「」",
+   "allusions jsonl usage fields glyph-normalized (32 batch runs scanned)",
+   "topics run 20261119T1140_l1tp normalized in place (2 pages)",
+   "works rebuilt: run 20261122T0533_l1works (6453 pages, 類型 labels)"
+  ],
+  "after": {"issue_lines": 155, "rare_kanji_verbatim_ok": 97, "kiy_lines": 58}
+ },
+ "by_design": "novel-original rare kanji (螕嶰睪孁捥谑駃騠祅瀆鱓俱搔剝蹰輭鄴鄱蠊徯唫唎哪吒) in verbatim excerpt/quote context are Japanese-legal rare kanji, NOT CN contamination; 悤炵 in flicker/YJ-Fruna_way.md:695 is Shift-JIS mojibake in a fc2 link title (separate defect, low priority)",
+ "laneB": "58 掲載文脈 summary lines → LLM 整序 via Strata serial (workers=1, CN_CHAR gate, backoff 5*2^i), chain script chain_kiy_cn.sh, background+notify"
+}

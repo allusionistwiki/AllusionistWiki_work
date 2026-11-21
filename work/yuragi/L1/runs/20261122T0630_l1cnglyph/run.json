@@ -1,0 +1,15 @@
+{
+ "run_id": "20261122T0630_l1cnglyph",
+ "layer": "L1",
+ "kind": "glyph-normalization (CN簡体字→JIS 字体変換, 引用「」逐語保持)",
+ "derived_from": {
+  "units": "20261117T2115_l1u (audit 20261120T1200_l11uaud2)",
+  "free": "20261119T0014_l1free (audit 20261121T1900_l11faud5)",
+  "full": "20261121T2230_l1fullcn",
+  "entities": "20261119T2042_l1en (audit 20261121T1430_l11en4aud)",
+  "allusions": "20261122T1310_l1allud6",
+  "topics": "20261118T0158_l1tp"
+ },
+ "audit": "cron yuragi-longjob-check 2026-11-22 CN scan: 6869 issue lines (labels 6460 / 掲載文脈 58 / other 351)",
+ "note": "prose 24 字Normalized (残語彙混入は LLM 整序レーンで処理)。原文逐語 rare kanji（螕嶰睪孁捥谑駃騠 等）は対象外。"
+}

@@ -19,15 +19,15 @@ CONTENT = SITE / "content"
 RAW_BBS = SITE / "raw" / "bbs"
 BLOB = "https://github.com/allusionistwiki/YuragiWiki/blob/main/raw/bbs/"
 
-UNITS_RUN = "20261117T2115_l1u"
+UNITS_RUN = "20261122T0630_l1cnglyph"
 UNITS_AUDIT = "20261120T1200_l11uaud2"
 TOPICS_RUN = "20261119T1140_l1tp"
 TOPICS_AUDIT = "20261120T1630_l11tpaud2"
 AUTHORS_RUN = "20261119T2003_l1au"
 AUTHORS_AUDIT = "20261120T1700_l11auaud2"
 CHRONO_RUN = "20261118T0149_l1ch"
-FULL_RUN = "20261121T2230_l1fullcn"
-ENTITIES_RUN = None  # entities 生成後に設定（runs 内の最新 _l1en を自動検出）
+FULL_RUN = "20261122T0630_l1cnglyph"
+ENTITIES_RUN = "20261122T0630_l1cnglyph"
 ENTITIES_AUDIT = "20261121T1430_l11en4aud"  # entities 全量監査 PASS run
 
 
@@ -180,7 +180,7 @@ def main() -> int:
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_bytes(f"---\n{fm2}---\n{body}".encode("utf-8"))
 
-    # full（原文全文版・篇索引＋投稿 permalink 分页）
+    # full（原文全文版・篇索引＋投稿 permalink 分頁）
     for p in sorted((L1 / "runs" / FULL_RUN / "units").glob("*.md")):
         uid = p.stem
         t = units.get(uid, {}).get("title", uid)
@@ -217,7 +217,7 @@ def main() -> int:
         up.write_bytes(cur.encode("utf-8"))
 
     # free（制約なし自由記述記事・LLM 全量監査 100% 収束）
-    FREE_RUN = "20261119T0014_l1free"
+    FREE_RUN = "20261122T0630_l1cnglyph"
     FREE_AUDIT = "20261121T1900_l11faud5"
     for p in sorted((L1 / "runs" / FREE_RUN / "units").glob("*.md")):
         uid = p.stem
@@ -359,7 +359,7 @@ def main() -> int:
              "# 作品ページ", "",
              "BBS 各スレッドに散在する創作的記述（詩・短編・設定文・劇中作品文等）の作品単位ページ。",
              "各ページに収録投稿の原文全文（逐語）と投稿単位 permalink 付き。", "",
-             "- 横断索引: [[works_top|創作索引（トップ）]] ／ 类型別: works_index ／ 作者別: [[widx_authors/|創作作者索引]]",
+             "- 横断索引: [[works_top|創作索引（トップ）]] ／ 類型別: works_index ／ 作者別: [[widx_authors/|創作作者索引]]",
              "- 見方: [[guide|読み方ガイド]]", ""])
         ).encode("utf-8"))
 
@@ -486,7 +486,7 @@ def main() -> int:
                 if co_lines:
                     sec += "\n## 共起実体\n\n" + co_lines
             p.write_bytes((art.rstrip() + sec).encode("utf-8"))
-        # 类型別索引
+        # 類型別索引
         idx = ["---", 'title: "実体索引"', "run: publish", "---", "", "# 実体索引", ""]
         by_type = {}
         for p in sorted((CONTENT / "entities").glob("*.md")):
@@ -509,11 +509,11 @@ def main() -> int:
              "# 実体索引", "",
              "人物・物品・国・事件・概念など、作中実体のページ群（wiki 中核）。登場 2 以上を収録。",
              "各ページは概要・記述の流れ・関連実体・注目投稿（原文逐語リンク）・言及篇・共起実体を持ちます。", "",
-             "- 类型別索引: [[entities_index|実体索引（类型別）]]",
+             "- 類型別索引: [[entities_index|実体索引（類型別）]]",
              "- 見方: [[guide|読み方ガイド]]", ""])
         ).encode("utf-8"))
 
-    AL_RUNS = ["20261122T1310_l1allud6"]
+    AL_RUNS = ["20261122T0630_l1cnglyph"]
     try:
         _led0 = json.loads((WORK / "data/yuragi_allud_batches.json").read_text(encoding="utf-8"))
         for b0 in _led0.get("batches", []):
@@ -521,7 +521,7 @@ def main() -> int:
                 AL_RUNS.append(b0["run_dir"])
     except Exception:
         pass
-    AL_RUN = "20261122T1310_l1allud6"
+    AL_RUN = "20261122T0630_l1cnglyph"
     n_allud_pages = 0
     KIND_ORDER = ["神話", "宗教", "文学", "音楽", "映像", "ゲーム", "歴史", "地理", "科学", "人物", "ブランド", "その他"]
     adirs = [d for d in (L1 / "runs" / r / "allusions" for r in AL_RUNS) if d.is_dir()]
@@ -920,7 +920,7 @@ run: publish
 | 篇記事（units） | L1 版の要約・整理記事 | {n_units} 篇 | [[nav|篇索引]] |
 | 原文全文（full） | 投稿全文そのまま・投稿単位 permalink | {n_full} 篇 | [[full/index|full 索引]] |
 | 自由記述（free） | 制約なし自由記述記事 | {n_free} 篇 | [[free_index|自由記述索引]] |
-| 実体（entities） | 人物・物品・国・事件・概念 | {n_ent} 件 | [[entities_index|类型別索引]] |
+| 実体（entities） | 人物・物品・国・事件・概念 | {n_ent} 件 | [[entities_index|類型別索引]] |
 | 創作（works） | 散在する詩・短編・設定文 | {n_works:,} 作品 | [[works_top|創作索引]] |
 | 話題（topics） | 話題・語句（出現 3 以上） | {n_topics} 件 | [[topics/index|topics 索引]] |
 | 投稿者（authors） | 主要投稿者（投稿 10 以上） | {n_auth} 名 | [[authors/index|authors 索引]] |
@@ -961,11 +961,11 @@ run: publish
 |---|---|---|
 | L1 版 | `units/` | 概要・流れ・主要話題・注目投稿（引用 100 字以内）に整理した記事 |
 | 自由記述版 | `free/` | L1 の構造制約なしに記述した記事（引用は原文逐語のみ・全記事 ref 付き） |
-| 原文全文版 | `full/` | 投稿全文をそのまま掲載。`#post-N` アンカー付き（多数投稿の篇は p2・p3… に分页） |
+| 原文全文版 | `full/` | 投稿全文をそのまま掲載。`#post-N` アンカー付き（多数投稿の篇は p2・p3… に分頁） |
 
 ## 実世界参照層（allusions）
 
-作中に参加者が持ち込んだ**実世界の対象**（神話・宗教・文学・映像・ゲーム・ブランド・地名・学術概念 他）への参照を、`allusions/` 面に対象名単位で横断索引化しています。各項目は原文逐語引用＋ ref 出典リンク付きで、機械抽出後に**全件実読監査**（実在参照の明示があるか／作中命名・类别語・场面小道具の区別）を通ったものだけを公開しています。
+作中に参加者が持ち込んだ**実世界の対象**（神話・宗教・文学・映像・ゲーム・ブランド・地名・学術概念 他）への参照を、`allusions/` 面に対象名単位で横断索引化しています。各項目は原文逐語引用＋ ref 出典リンク付きで、機械抽出後に**全件実読監査**（実在参照の明示があるか／作中命名・類別語・場面小道具の区別）を通ったものだけを公開しています。
 
 - 篇横断の名寄せ: [[allusions_terms|対象名索引]]（2 篇以上の対象名）
 - 主題分類: [[allusions_map|主題分類索引]]（神話・文学・学術・ゲーム 等の機械分類）
@@ -976,7 +976,7 @@ run: publish
 - **ref 形式 `YJ-T001:123`**: 「篇 YJ-T001 の投稿 123」を指す原文参照。リンク先は原文データ
   （GitHub の raw/ ③ 投稿チャンクファイル）です。
 - **投稿 permalink**: 原文全文版の各投稿は `.../full/YJ-T001/p3#post-257` 形式の固定 URL を持ちます
-  （`p3` は分页、`#post-257` は投稿アンカー）。L1 版・創作ページからの引用リンクもここを指します。
+  （`p3` は分頁、`#post-257` は投稿アンカー）。L1 版・創作ページからの引用リンクもここを指します。
 - **実体ページ**: 概要・記述の流れ・関連する実体・注目投稿・言及篇（その実体を語っているスレッド）・
   共起実体（同一篇に共出現する実体）を持ちます。
 
@@ -1024,7 +1024,7 @@ run: publish
     fl_note = ("| 作者 | 投稿 | 期間 |\n|---|---|---|\n" + fl_rows) if fl_rows else ""
     stats_md = f"""---
 title: "統計"
-description: "コーパス統計ダッシュボード（出典別・年別・上位投稿者・类型分布）"
+description: "コーパス統計ダッシュボード（出典別・年別・上位投稿者・類型分布）"
 run: publish
 ---
 
@@ -1040,7 +1040,7 @@ L0 台帳 {led.name} 由来の決定論集計。詳細は [[chronology|年表]]�
 
 ## 年別投稿数
 
-| 年 | 投稿数 | 峰值月 |
+| 年 | 投稿数 | 最多月 |
 |---|---|---|
 {year_rows.rstrip()}
 
@@ -1050,15 +1050,15 @@ L0 台帳 {led.name} 由来の決定論集計。詳細は [[chronology|年表]]�
 |---|---|
 {auth_rows.rstrip()}
 
-## 実体の类型分布
+## 実体の類型分布
 
-| 类型 | 件数 |
+| 類型 | 件数 |
 |---|---|
 {ent_type_rows.rstrip()}
 
-## 創作の类型分布（top 15）
+## 創作の類型分布（top 15）
 
-| 类型 | 作品数 |
+| 類型 | 作品数 |
 |---|---|
 {work_type_rows.rstrip()}
 
