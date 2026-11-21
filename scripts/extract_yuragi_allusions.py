@@ -215,7 +215,7 @@ def mech_gate(uid: str, item: dict, posts: dict) -> tuple[dict, str]:
     usage = (item.get("usage") or "").strip()
     if not term or not usage:
         return item, "DROP:EMPTY"
-    EXPLICIT = ("実在", "命名", "喩", "比喩", "俗称", "名称", "制度", "現象", "概念", "技法", "髪型", "料理", "菓子", "術語", "用語", "昔話", "神話体系", "文化現象", "ジャンル")
+    EXPLICIT = ("実在", "命名", "喩", "比喩", "俗称", "名称", "制度", "現象", "概念", "技法", "髪型", "料理", "菓子", "術語", "用語", "昔話", "神話体系", "文化現象", "ジャンル", "呼称", "定義", "論争")
     if term in BAD_TERMS and not any(w in usage for w in EXPLICIT):
         return item, "DROP:GENERIC"
     if term in TERM_KIND and not any(w in usage for w in EXPLICIT):
