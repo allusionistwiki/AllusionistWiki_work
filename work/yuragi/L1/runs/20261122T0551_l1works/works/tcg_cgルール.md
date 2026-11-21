@@ -1,0 +1,47 @@
+---
+title: "TCG-CGルール"
+work: "TCG-CGルール"
+author: "Co"
+type: "設定文"
+chains: 1
+run: 20261122T0551_l1works
+---
+
+# TCG-CGルール
+
+（作者: Co ／ 類型: 設定文 ／ 収録群: 1）
+
+## ニヴの怪発明（YJ-T098） 群 g308
+
+- 話題: —
+- 掲載文脈: TCG-CGルールを紹介しおもひでプランシステムに感想を述べる投稿
+
+**550** Co 2007-11-27T00:27:10+09:00 [#550](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T098/p6#post-550)
+
+ＴＣＧ−ＣＧのルール考えてみましたー
+
+http://flicker.g.hatena.ne.jp/Corundum/20071126#p2
+
+単純化したのでプラン機能は未実装です。
+
+**551** Co 2007-11-27T00:37:58+09:00 [#551](https://allusionistwiki.github.io/YuragiWiki/full/YJ-T098/p6#post-551)
+
+>>548
+
+おもいでプランシステムかなりおもしろそうですね。
+
+とりあえず「女性」をはめ込んで……
+
+テュプのナイフ（武
+
+・「女性」使用可能。
+
+（http://flicker.g.hatena.ne.jp/keyword/%e5%a5%b3%e3%81%ae%e5%ad%90%e3%81%a0%e3%81%91%e3%81%8c%e4%bd%bf%e3%81%88%e3%82%8b%e7%a7%98%e5%af%86%e3%81%ae%e9%ad%94%e6%b3%95　が使える）
+
+対して防具が
+
+マルトース（防
+
+・「女性」による状態異常を無効化。
+
+・「女性」に超強い。
