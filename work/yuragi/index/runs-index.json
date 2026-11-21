@@ -457,11 +457,18 @@
    "reason": "v0.3 window45 参照走（292件）。v0.4/0.5 との比較用"
   },
   "20261122T1210_l1allud5": {
-   "status": "current",
+   "status": "superseded",
    "kind": "allusion-extract-v0.5",
    "path": "work/yuragi/L1/runs/20261122T1210_l1allud5",
    "derived_from": "20261122T1130_l1allud4",
-   "reason": "原文明示基準（ユーザー是正2件）。採用204件・suppressions 裁定32・双方向全件実読済"
+   "reason": "原文明示基準（ユーザー是正2件）。採用204件・suppressions 裁定32・双方向全件実読済。v0.6 過剰抑制回収により 1310 へ差し替え"
+  },
+  "20261122T1310_l1allud6": {
+   "status": "current",
+   "kind": "allusion-extract-v0.6",
+   "path": "work/yuragi/L1/runs/20261122T1310_l1allud6",
+   "derived_from": "20261122T1210_l1allud5",
+   "reason": "v0.6 ゲート（EXPLICIT 例外）・223 抽出→採用 216 公開・全件実読・裁定42（双方向監査込）"
   }
  }
 }

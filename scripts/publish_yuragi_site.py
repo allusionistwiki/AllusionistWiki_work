@@ -512,7 +512,7 @@ def main() -> int:
              "- 見方: [[guide|読み方ガイド]]", ""])
         ).encode("utf-8"))
 
-    AL_RUN = "20261122T1210_l1allud5"
+    AL_RUN = "20261122T1310_l1allud6"
     n_allud_pages = 0
     KIND_ORDER = ["神話", "宗教", "文学", "音楽", "映像", "ゲーム", "歴史", "地理", "科学", "人物", "ブランド", "その他"]
     adir = L1 / "runs" / AL_RUN / "allusions"
