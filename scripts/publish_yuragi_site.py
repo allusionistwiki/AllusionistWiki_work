@@ -550,8 +550,10 @@ run: publish
         "linked_refs": len(ref_url),
     }
 
-    # ---- flicker 層（Hatena Flicker 日記・原文逐語・permalink 付き・決定論生成） ----
+    # ---- flicker 層（Hatena Flicker 日記・LLM 解析記事＋原文逐語・permalink 付き） ----
     FL = RAW_BBS / "hatena_flicker"
+    FL_ART_RUN = "20261121T2350_l1flgen"
+    FL_AUDIT = "20261122T0500_l1flaud10"
     if (FL / "units.jsonl").exists():
         fl_units = jl(FL / "units.jsonl")
         fldir = CONTENT / "flicker"
@@ -560,15 +562,24 @@ run: publish
             uid = u["unit_id"]
             d = FL / u["path"]
             recs = jl(d / "structured.jsonl")
-            parts = [f'---\ntitle: "{u["title"]}"\nrun: flicker\n'
+            art = L1 / "runs" / FL_ART_RUN / "flicker" / f"{uid}.md"
+            parts = [f'---\ntitle: "{u["title"]}"\nrun: {FL_ART_RUN}\n'
+                     f'link_audit: "{FL_AUDIT}"\n'
                      f'permaLink: "flicker/{uid}.html"\n---',
                      "",
                      f'# {u["title"]}',
                      "",
                      f'出典: <{u["url"]}>（Hatena Flicker）／収録 {u["n_posts"]} 件'
-                     f'（{u.get("first")}〜{u.get("last")}）・原文逐語・各投稿に permalink 付き。',
+                     f'（{u.get("first")}〜{u.get("last")}）・各投稿に permalink 付き。',
                      f'元データ: [raw units]({BLOB}hatena_flicker/{u["path"]}/posts/)',
                      ""]
+            if art.exists():
+                atxt = art.read_bytes().decode("utf-8")
+                m = re.match(r"^---\r?\n.*?\r?\n---\r?\n", atxt, re.S)
+                parts.append(atxt[m.end():].strip())
+                parts.append("")
+            parts.append("## 日記原文（全文・逐語）")
+            parts.append("")
             for rec in recs:
                 body = (d / "posts" / f"p{rec['post_no']:04d}.md").read_bytes().decode("utf-8")
                 parts.append(f'<a id="post-{rec["post_no"]}"></a>')

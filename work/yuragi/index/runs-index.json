@@ -321,7 +321,9 @@
   "free_audit": "20261120T1830_l11faud2",
   "entities_audit": "20261120T1730_l11en3aud",
   "works": "20261121T0743_l1works",
-  "full": "20261121T2230_l1fullcn"
+  "full": "20261121T2230_l1fullcn",
+  "flicker_gen": "20261121T2350_l1flgen",
+  "flicker_audit": "20261122T0500_l1flaud10"
  },
  "runs": {
   "20261120T1200_l11uaud2": {
@@ -400,6 +402,16 @@
     "20261119T0014_l1free refine chain"
    ],
    "note": "full 散文 LLM 整序（引用逐語マーカー復元・原文節逐語無傷）185/185、引用外 CN 0"
+  },
+  "20261121T2350_l1flgen": {
+   "layer": "L1/flicker-gen",
+   "kind": "article-gen",
+   "note": "flicker 解析記事 19 作者（引用逐語＝装飾正規化・CN_CHAR 0）"
+  },
+  "20261122T0500_l1flaud10": {
+   "layer": "L1/flicker-audit",
+   "kind": "audit",
+   "note": "PASS flagged=0 一致 19/19（flgen スコープ・mech_gate_flgen）"
   }
  }
 }

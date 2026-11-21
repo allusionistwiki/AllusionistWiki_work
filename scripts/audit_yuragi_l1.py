@@ -89,6 +89,32 @@ def norm(s: str) -> str:
 
 QUOTE_RE = re.compile(r"「((?:[^「」]|「[^」]*」)+)」")
 
+def strip_deco(s: str) -> str:
+    """日記原文の markdown/HTML 装飾を落として比較用平文化（flicker 逐語照合用）。"""
+    s = unicodedata.normalize("NFKC", s)
+    s = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", s)
+    s = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", s)
+    s = re.sub(r"\[([^\]]{1,60})\]\S*", r"\1", s)
+    s = re.sub(r"<[^>]+>", "", s)
+    s = re.sub(r"[#*_`>|]+", "", s)
+    s = re.sub(r"[（）()\[\]【】]", "", s)
+    return re.sub(r"\s+", "", s)
+
+def mech_gate_flgen(key, art, corpora):
+    issues = []
+    verbs = [strip_deco(c) for c in corpora if c]
+    joined = "".join(verbs)
+    for q in QUOTE_RE.findall(art):
+        if len(q) > 100:
+            issues.append(f"{key}:QUOTE_LONG:{len(q)}")
+        elif strip_deco(q) not in joined:
+            issues.append(f"{key}:QUOTE_NOTFOUND:{q[:30]}")
+    n_links = len(re.findall(r"http://flicker\.g\.hatena\.ne\.jp/", art))
+    if n_links < 2:
+        issues.append(f"{key}:LINKS_MISSING:{n_links}")
+    issues += cn_prose_issues(key, art)
+    return issues
+
 ELLIPSIS = re.compile(r"…+|\.\.\.+|⋯+")
 
 def quote_in(q: str, *corpora: str) -> bool:
@@ -362,9 +388,12 @@ def main():
                                    ensure_ascii=False) + "\n")
             return
         body_md = re.sub(r"^---.*?---\s*", "", art, count=1, flags=re.S)
-        mech = (mech_gate_free(key, body_md, corpora_for(key),
-                               min_refs=2, names=names_for(key)) if a.scope in ("free", "flgen")
-                else mech_gate(key, body_md, corpora_for(key), sc["heads"]))
+        if a.scope == "flgen":
+            mech = mech_gate_flgen(key, body_md, corpora_for(key))
+        elif a.scope == "free":
+            mech = mech_gate_free(key, body_md, corpora_for(key), names=names_for(key))
+        else:
+            mech = mech_gate(key, body_md, corpora_for(key), sc["heads"])
         verdict, reason = judge(key, title, body_md, ctx_for(key), a.max)
         if mech:
             verdict = "不一致"
@@ -386,9 +415,12 @@ def main():
         if not art:
             continue
         body_md = re.sub(r"^---.*?---\s*", "", art, count=1, flags=re.S)
-        mech = (mech_gate_free(key, body_md, corpora_for(key),
-                               min_refs=2, names=names_for(key)) if a.scope in ("free", "flgen")
-                else mech_gate(key, body_md, corpora_for(key), sc["heads"]))
+        if a.scope == "flgen":
+            mech = mech_gate_flgen(key, body_md, corpora_for(key))
+        elif a.scope == "free":
+            mech = mech_gate_free(key, body_md, corpora_for(key), names=names_for(key))
+        else:
+            mech = mech_gate(key, body_md, corpora_for(key), sc["heads"])
         if mech:
             r = dict(r)
             r["verdict"] = "不一致"
