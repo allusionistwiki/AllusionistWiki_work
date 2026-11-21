@@ -222,7 +222,7 @@ def mech_gate(uid: str, item: dict, posts: dict) -> tuple[dict, str]:
         return item, "DROP:TERM_IS_KIND"
     if len(term) > 40:
         return item, "DROP:TERM_LONG"
-    if "架空" in usage and "実在" not in usage:
+    if "架空" in usage and "実在" not in usage and not any(w in usage for w in EXPLICIT):
         return item, "DROP:FICTION"
     if ("原文に対応の明示はない" in usage and "明示的" not in usage) or ("想起させる" in usage and "明示" not in usage):
         return item, "DROP:EXTERNAL_KNOWLEDGE"
@@ -292,7 +292,10 @@ def extract_unit(uid: str, rid: str, workers: int, window: int, max_calls: int) 
             if st != "ok":
                 with outp.parent.joinpath("gate_drops.jsonl").open("a", encoding="utf-8") as fd:
                     fd.write(json.dumps({"uid": uid, "win": wi + 1, "gate": st, "term": it2.get("term", ""),
-                                         "usage_head": str(it2.get("usage", ""))[:80]}, ensure_ascii=False) + "\n")
+                                         "usage_head": str(it2.get("usage", ""))[:80],
+                                         "usage": str(it2.get("usage", ""))[:240],
+                                         "quote": str(it2.get("quote", ""))[:90],
+                                         "ref": str(it2.get("ref", ""))}, ensure_ascii=False) + "\n")
                 continue
             key = norm(it2["term"]).replace("・", "").replace("・", "").replace("・", "")
             if key in seen_terms:
