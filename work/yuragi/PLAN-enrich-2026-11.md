@@ -67,3 +67,5 @@ python scripts/extract_yuragi_allusions.py --uids <uids...> --run-dir <run_dir> 
 - b8 全件実読 233 件 → 裁定 17 drop（捏造単位 MCU 解釈帰属 場面物体 食品/素材/生物/施設一般名 作中創作書名）。gate 29 件は全件妥当（食品 listing・作中創作・自白 regex 正常動作）。ゲート改修不要。
 - b9 1 回目 Strata 404（chat 同一サーバーの slot 競合で 8/8 呼出 404）→ T011 部分欠損、rm -f jsonl 後 max-calls 10 で再走（proc_c935d17fd6ee）。
 - 教訓: バッチ実行中は agent 側 chat 呼出が slot を占有するため 404 多発。再走は低頻度ターン＋max-calls 増で対応。
+- b9 収束（2026-11-24）: 6 篇 220 件（T011 再走込）→ 裁定 11 drop（野菜/兵器/種族一般名、类别語）。gate 21 件全件妥当（桃太郎 4 件・命名想起系自白 regex 正常）。台帳 b9 done（124/179 篇）。
+- 注意: b9 で run 二重起動による jsonl 追記（T012/T109/T143 重複 47 行）→ publish norm で統合され出力は正常。以後 run_dir は起動前に proc 状態を確認し単一起動。
