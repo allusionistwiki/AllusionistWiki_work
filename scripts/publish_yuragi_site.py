@@ -512,11 +512,19 @@ def main() -> int:
              "- 見方: [[guide|読み方ガイド]]", ""])
         ).encode("utf-8"))
 
+    AL_RUNS = ["20261122T1310_l1allud6"]
+    try:
+        _led0 = json.loads((WORK / "data/yuragi_allud_batches.json").read_text(encoding="utf-8"))
+        for b0 in _led0.get("batches", []):
+            if b0.get("status") == "done" and b0.get("run_dir") and b0["run_dir"] not in AL_RUNS:
+                AL_RUNS.append(b0["run_dir"])
+    except Exception:
+        pass
     AL_RUN = "20261122T1310_l1allud6"
     n_allud_pages = 0
     KIND_ORDER = ["神話", "宗教", "文学", "音楽", "映像", "ゲーム", "歴史", "地理", "科学", "人物", "ブランド", "その他"]
-    adir = L1 / "runs" / AL_RUN / "allusions"
-    if adir.is_dir():
+    adirs = [d for d in (L1 / "runs" / r / "allusions" for r in AL_RUNS) if d.is_dir()]
+    if adirs:
         units_meta = {}
         latest0 = (L0 / "latest.txt").read_text(encoding="utf-8").strip()
         for l in (L0 / "runs" / latest0 / "units.jsonl").read_text(encoding="utf-8").splitlines():
@@ -527,91 +535,90 @@ def main() -> int:
         n_allud = 0
         n_supp_total = 0
         kind_total: dict = {}
+        per_unit: dict = {}
         (CONTENT / "allusions").mkdir(parents=True, exist_ok=True)
-        supp: dict = {}
-        sp_path = adir.parent / "suppressions.json"
-        if sp_path.is_file():
-            for s0 in json.loads(sp_path.read_text(encoding="utf-8")):
-                kk = str(s0.get("term", "")).strip().lower().replace("・", "").replace(" ", "")
-                supp[(str(s0.get("unit", "")), kk)] = s0
-        for fp in sorted(adir.glob("*.jsonl")):
-            uid = fp.stem
-            if uid == "gate_drops":
-                continue
-            items = [json.loads(l) for l in fp.read_text(encoding="utf-8").splitlines() if l.strip()]
-            seen0: dict = {}
-            for it0 in items:
-                k0 = str(it0.get("term", "")).strip().lower().replace("・", "").replace(" ", "")
-                if k0 in seen0:
-                    refs0 = {q.get("ref") for q in seen0[k0].get("quotes", [])}
-                    seen0[k0]["quotes"] = (seen0[k0].get("quotes", []) +
-                                           [q for q in it0.get("quotes", []) if q.get("ref") not in refs0][:8])
+        for adir in adirs:
+            run_id = adir.parent.name
+            supp: dict = {}
+            sp_path = adir.parent / "suppressions.json"
+            if sp_path.is_file():
+                for s0 in json.loads(sp_path.read_text(encoding="utf-8")):
+                    kk = str(s0.get("term", "")).strip().lower().replace("・", "").replace(" ", "")
+                    supp[(str(s0.get("unit", "")), kk)] = s0
+            for fp in sorted(adir.glob("*.jsonl")):
+                uid = fp.stem
+                if uid == "gate_drops":
                     continue
-                seen0[k0] = dict(it0)
-            items = []
-            n_supp_unit = 0
-            for k0, it0 in seen0.items():
-                s0 = supp.get((uid, k0))
-                if s0 and s0.get("action") == "drop":
-                    n_supp_total += 1
-                    n_supp_unit += 1
+                items = [json.loads(l) for l in fp.read_text(encoding="utf-8").splitlines() if l.strip()]
+                seen0: dict = {}
+                for it0 in items:
+                    k0 = str(it0.get("term", "")).strip().lower().replace("・", "").replace(" ", "")
+                    if k0 in seen0:
+                        refs0 = {q.get("ref") for q in seen0[k0].get("quotes", [])}
+                        seen0[k0]["quotes"] = (seen0[k0].get("quotes", []) +
+                                               [q for q in it0.get("quotes", []) if q.get("ref") not in refs0][:8])
+                        continue
+                    seen0[k0] = dict(it0)
+                items = []
+                n_supp_unit = 0
+                for k0, it0 in seen0.items():
+                    s0 = supp.get((uid, k0))
+                    if s0 and s0.get("action") == "drop":
+                        n_supp_total += 1
+                        n_supp_unit += 1
+                        continue
+                    if s0 and s0.get("action") == "fix_usage" and s0.get("new_usage"):
+                        it0["usage"] = str(s0["new_usage"])
+                    items.append(it0)
+                if not items:
                     continue
-                if s0 and s0.get("action") == "fix_usage" and s0.get("new_usage"):
-                    it0["usage"] = str(s0["new_usage"])
-                items.append(it0)
-            if not items:
-                continue
-            um = units_meta.get(uid, {})
-            title = str(um.get("thread_title") or um.get("title") or uid)
-            items.sort(key=lambda x: (KIND_ORDER.index(x.get("kind", "その他")) if x.get("kind") in KIND_ORDER else 99, x.get("term", "")))
-            body = [f'---\ntitle: "実世界参照 — {uid}"\nrun: {AL_RUN}\nlink_audit: "{AL_RUN}"\nunit: "{uid}"\n---', "",
-                    f"# 実世界参照 — {uid}", "",
-                    f"{title} の記述中に見出された**実世界（作品世界の外）の参照**の抽出一覧。出典: 解析層 pilot run `{AL_RUN}`（LLM 抽出＋機械引用ゲート）。",
-                    "",
-                    f"→ 元: [[units/{uid}|{uid} 版記事]] ・ [[full/{uid}|原文全文]]",
-                    "",
-                    f"## 参照対象 {len(items)} 件" + (f"（全件実読監査で {n_supp_unit} 件を選外）" if n_supp_unit else ""), ""]
-            unit_kinds: dict = {}
-            for it in items:
-                term = str(it.get("term", ""))
-                kind = str(it.get("kind", "その他"))
-                conf = str(it.get("confidence", ""))
-                usage = str(it.get("usage", ""))
-                body.append(f"### {term}（{kind}・{conf}）")
-                body.append("")
-                body.append(usage)
-                body.append("")
-                for q in it.get("quotes", []):
-                    ref = str(q.get("ref", ""))
-                    qq = str(q.get("q", ""))
-                    pno = ref.split(":")[-1] if ":" in ref else ""
-                    body.append(f"> 「{qq}」 [[full/{uid}#post-{pno}|{ref}]]")
-                body.append("")
-                unit_kinds[kind] = unit_kinds.get(kind, 0) + 1
-                kind_total[kind] = kind_total.get(kind, 0) + 1
-            body += ["---", "", "## 節内内訳", "",
-                     " ・ ".join(f"{k}: {v}" for k, v in sorted(unit_kinds.items(), key=lambda x: -x[1])),
-                     "", "### 関連", "", "- [[allusions_index|実世界参照 索引]]", "- [[guide|読み方ガイド]]", ""]
-            (CONTENT / "allusions" / f"{uid}.md").write_text("\n".join(body), encoding="utf-8")
-            n_allud += 1
-            n_allud_pages = n_allud
+                um = units_meta.get(uid, {})
+                title = str(um.get("thread_title") or um.get("title") or uid)
+                items.sort(key=lambda x: (KIND_ORDER.index(x.get("kind", "その他")) if x.get("kind") in KIND_ORDER else 99, x.get("term", "")))
+                body = [f'---\ntitle: "実世界参照 — {uid}"\nrun: {run_id}\nlink_audit: "{run_id}"\nunit: "{uid}"\n---', "",
+                        f"# 実世界参照 — {uid}", "",
+                        f"{title} の記述中に見出された**実世界（作品世界の外）の参照**の抽出一覧。出典: 解析層 run `{run_id}`（LLM 抽出＋機械引用ゲート＋全件実読監査）。",
+                        "",
+                        f"→ 元: [[units/{uid}|{uid} 版記事]] ・ [[full/{uid}|原文全文]]",
+                        "",
+                        f"## 参照対象 {len(items)} 件" + (f"（全件実読監査で {n_supp_unit} 件を選外）" if n_supp_unit else ""), ""]
+                unit_kinds: dict = {}
+                for it in items:
+                    term = str(it.get("term", ""))
+                    kind = str(it.get("kind", "その他"))
+                    conf = str(it.get("confidence", ""))
+                    usage = str(it.get("usage", ""))
+                    body.append(f"### {term}（{kind}・{conf}）")
+                    body.append("")
+                    body.append(usage)
+                    body.append("")
+                    for q in it.get("quotes", []):
+                        ref = str(q.get("ref", ""))
+                        qq = str(q.get("q", ""))
+                        pno = ref.split(":")[-1] if ":" in ref else ""
+                        body.append(f"> 「{qq}」 [[full/{uid}#post-{pno}|{ref}]]")
+                    body.append("")
+                    unit_kinds[kind] = unit_kinds.get(kind, 0) + 1
+                    kind_total[kind] = kind_total.get(kind, 0) + 1
+                body += ["---", "", "## 節内内訳", "",
+                         " ・ ".join(f"{k}: {v}" for k, v in sorted(unit_kinds.items(), key=lambda x: -x[1])),
+                         "", "### 関連", "", "- [[allusions_index|実世界参照 索引]]", "- [[guide|読み方ガイド]]", ""]
+                (CONTENT / "allusions" / f"{uid}.md").write_text("\n".join(body), encoding="utf-8")
+                n_allud += 1
+                per_unit[uid] = len(items)
+        n_allud_pages = n_allud
         if n_allud:
             ix = [f'---\ntitle: "実世界参照 索引"\nrun: {AL_RUN}\n---', "",
-                  "# 実世界参照 索引（解析層 pilot）", "",
+                  "# 実世界参照 索引", "",
                   "参加者が実世界の神話・宗教・文学・音楽・歴史・科学などを持ち込んで組んだ参照関係の横断索引。各項目は逐語引用＋ref アンカーで原文に接続（機械保証）。信頼度（明言/蓋然性高/推測）を各項目に付す。", "",
-                  f"対象篇: {n_allud}（pilot: 参考文献紹介・ラナ信仰・名前スレ・ミアスカと128人の魔法使い・オカルト宗教・mixi 神話記述）", "",
+                  f"対象篇: {n_allud}（抽出 run {len(AL_RUNS)} 本・全件実読監査込）", "",
                   "| 類型 | 件数 |", "|---|---:|"]
             for k, v in sorted(kind_total.items(), key=lambda x: -x[1]):
                 ix.append(f"| {k} | {v} |")
             ix += ["", "## 篇別", ""]
-            for fp in sorted(adir.glob("*.jsonl")):
-                uid2 = fp.stem
-                if uid2 == "gate_drops":
-                    continue
-                cnt2 = sum(1 for l in fp.read_text(encoding="utf-8").splitlines() if l.strip())
-                if cnt2:
-                    ix.append(f"- [[allusions/{uid2}|{uid2}]]（{cnt2} 件）")
-            ix += ["", "※ pilot 段階: 対象は 6 篇。全篇への拡大・対象名（term）の篇横断名寄せは監査収束後の次段階。", ""]
+            for uid2 in sorted(per_unit):
+                ix.append(f"- [[allusions/{uid2}|{uid2}]]（{per_unit[uid2]} 件）")
+            ix += ["", "※ 対象名（term）の篇横断名寄せは監査収束後の次段階。", ""]
             (CONTENT / "allusions_index.md").write_text("\n".join(ix), encoding="utf-8")
 
     # nav（185 篇索引）
