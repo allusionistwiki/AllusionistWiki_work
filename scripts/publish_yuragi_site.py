@@ -512,7 +512,7 @@ def main() -> int:
              "- 見方: [[guide|読み方ガイド]]", ""])
         ).encode("utf-8"))
 
-    AL_RUN = "20261122T1100_l1allud3"
+    AL_RUN = "20261122T1210_l1allud5"
     n_allud_pages = 0
     KIND_ORDER = ["神話", "宗教", "文学", "音楽", "映像", "ゲーム", "歴史", "地理", "科学", "人物", "ブランド", "その他"]
     adir = L1 / "runs" / AL_RUN / "allusions"
@@ -536,6 +536,8 @@ def main() -> int:
                 supp[(str(s0.get("unit", "")), kk)] = s0
         for fp in sorted(adir.glob("*.jsonl")):
             uid = fp.stem
+            if uid == "gate_drops":
+                continue
             items = [json.loads(l) for l in fp.read_text(encoding="utf-8").splitlines() if l.strip()]
             seen0: dict = {}
             for it0 in items:
@@ -604,6 +606,8 @@ def main() -> int:
             ix += ["", "## 篇別", ""]
             for fp in sorted(adir.glob("*.jsonl")):
                 uid2 = fp.stem
+                if uid2 == "gate_drops":
+                    continue
                 cnt2 = sum(1 for l in fp.read_text(encoding="utf-8").splitlines() if l.strip())
                 if cnt2:
                     ix.append(f"- [[allusions/{uid2}|{uid2}]]（{cnt2} 件）")

@@ -215,15 +215,16 @@ def mech_gate(uid: str, item: dict, posts: dict) -> tuple[dict, str]:
     usage = (item.get("usage") or "").strip()
     if not term or not usage:
         return item, "DROP:EMPTY"
-    if term in BAD_TERMS:
+    EXPLICIT = ("実在", "命名", "喩", "比喩", "俗称", "名称", "制度", "現象", "概念", "技法", "髪型", "料理", "菓子", "術語", "用語", "昔話", "神話体系", "文化現象")
+    if term in BAD_TERMS and not any(w in usage for w in EXPLICIT):
         return item, "DROP:GENERIC"
-    if term in TERM_KIND:
+    if term in TERM_KIND and not any(w in usage for w in EXPLICIT):
         return item, "DROP:TERM_IS_KIND"
     if len(term) > 40:
         return item, "DROP:TERM_LONG"
-    if "架空" in usage:
+    if "架空" in usage and "実在" not in usage:
         return item, "DROP:FICTION"
-    if "原文に対応の明示はない" in usage or "想起させる" in usage:
+    if ("原文に対応の明示はない" in usage and "明示的" not in usage) or ("想起させる" in usage and "明示" not in usage):
         return item, "DROP:EXTERNAL_KNOWLEDGE"
     if re.search(r"実在の?(素材|食品|食料|道具|武器|乗り物|乗物|衣類|衣服|装飾品|建材|貴金属|宝石|木材|化学物質|成分|工具)", usage) and len(term) <= 4 and term not in ENT_NAMES:
         return item, "DROP:OBJ"
