@@ -56,3 +56,4 @@ python scripts/extract_yuragi_allusions.py --uids <uids...> --run-dir <run_dir> 
 
 ## 状態更新ログ（追記式）
 - 2026-11-22 22:00 台帳生成・b1 起動・ウォッチ cron 登録。
+- 2026-11-22 b1 完了（20 篇 44 件・fails 0）・全件実読監査: keep 42・drop 2（T117 バッファロー/桃太郎＝usage 自白穴）。gate 過剰抑制 1（T044 魔法少女＝ジャンル名）→ EXPLICIT に「ジャンル」追加＋自白検出 `原文に明示…ない` 正则追加（v0.7）。b2 起動（20261123T0100・510 投稿）。
