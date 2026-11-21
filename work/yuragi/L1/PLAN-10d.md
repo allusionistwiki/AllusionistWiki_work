@@ -1,5 +1,5 @@
 # YuragiWiki 充実 10 日計画（2026-11-18〜、ユーザー裁量委任）
-> 進捗（2026-11-21 時点）: D1〜D9 完了・公開済み（units/topics/authors/entities/free/works/full 全層 LLM 全量監査 PASS、CN 駆逐、D5-D7 相互リンク・年表・初出/最終言及、D8 検索索引・CSS・索引ページ、D9 リンク整合ゲート＆全 10,589 ページ live 200）。D10 仕上げ進行中。詳細は runs-index と skill allusionistwiki-pipeline-ops。
+> 進捗（2026-11-21 時点）: D1〜D9 完了・公開済み（units/topics/authors/entities/free/works/full 全層 LLM 全量監査 PASS、CN 駆逐＝散文整序＋引用逐語保護正規化・引用内 CN 混入 0、D5-D7 相互リンク・年表・初出/最終言及、D8 検索索引・CSS・索引ページ、D9 リンク整合ゲート）。仕上げ版公開: free `20261121T1900_l11faud5`・entities `20261121T1430_l11en4aud`（一致469）・works `20261121T0743_l1works`（verify 7621/26710）・full `20261121T2230_l1fullcn`（185/185）。D10 仕上げ進行中（最終 live gate 再走・README/portal 反映）。詳細は runs-index と skill allusionistwiki-pipeline-ops。
 
 
 目的: 「原文確認可能」を最上位に、wiki を充実にする。各日: 生成→監査→公開→検証を完了させる。

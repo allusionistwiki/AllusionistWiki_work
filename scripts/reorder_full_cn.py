@@ -85,6 +85,12 @@ def main():
             if not new_body.strip():
                 continue
             new_head = fm + "\n" + norm_quotes(R.restore(new_body.strip(), quotes, refs, keys), verbatim) + "\n"
+            # LLM が追加した引用符は括弧のみ除去（内容は保持・原文引用集合に無いもの限定）
+            orig_q = { _re.sub(r"\s+", "", q[1:-1]) for q in quotes }
+            def unwrap(m):
+                inner = m.group(0)[1:-1]
+                return inner if _re.sub(r"\s+", "", inner) not in orig_q else m.group(0)
+            new_head = QUR.sub(unwrap, new_head)
             issues = B.gate(name, norm_quotes(head, verbatim), new_head)
             if issues:
                 return name, "GATE:" + ",".join(issues)

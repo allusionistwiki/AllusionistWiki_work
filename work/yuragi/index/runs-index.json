@@ -320,7 +320,8 @@
   "topics_audit": "20261120T1630_l11tpaud2",
   "free_audit": "20261120T1830_l11faud2",
   "entities_audit": "20261120T1730_l11en3aud",
-  "works": "20261121T0743_l1works"
+  "works": "20261121T0743_l1works",
+  "full": "20261121T2230_l1fullcn"
  },
  "runs": {
   "20261120T1200_l11uaud2": {
@@ -391,6 +392,14 @@
     "20261119T2042_l1en (refined)"
    ],
    "note": "post-refine 全量監査 PASS flagged=0 一致469"
+  },
+  "20261121T2230_l1fullcn": {
+   "layer": "L1/full-cn",
+   "derived_from": [
+    "20261118T1948_l1full",
+    "20261119T0014_l1free refine chain"
+   ],
+   "note": "full 散文 LLM 整序（引用逐語マーカー復元・原文節逐語無傷）185/185、引用外 CN 0"
   }
  }
 }
