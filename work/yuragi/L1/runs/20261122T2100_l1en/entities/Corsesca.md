@@ -14,8 +14,8 @@ link_audit: "20261122T2100_l1en_deterministic"
 ### [[units/YJ-T168|YJ-T168]]
 
 少年が持つ錆に覆われた空ろな槍銘、および少女が持つ虚ろな葬名。
-> 「彼の元には、錆に覆われた空ろな槍銘(Corsesca)」 [[full/YJ-T168|YJ-011]]
-> 「彼女の元には、錆に蔽われた虚ろな葬名(Corsesca)」 [[full/YJ-T168|YJ-011]]
+> 「彼の元には、錆に覆われた空ろな槍銘(Corsesca)」 [[full/YJ-T168|YJ-T168]]
+> 「彼女の元には、錆に蔽われた虚ろな葬名(Corsesca)」 [[full/YJ-T168|YJ-T168]]
 
 ---
 

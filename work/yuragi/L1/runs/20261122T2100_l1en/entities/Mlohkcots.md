@@ -14,8 +14,8 @@ link_audit: "20261122T2100_l1en_deterministic"
 ### [[units/YJ-T125|YJ-T125]]
 
 作中参加者（ユーザー）が使用するハンドルネーム。猫の国の地名に由来する固有名詞として機能している。
-> 「Mlohkcotsとはつまり、Stockholmストックホルムの逆さ綴り。」 [[full/YJ-T125|YJ-33]]
-> 「そもそも貴方のMlohkcotsという名と人がいなくなるって証言だけじゃなにもわからないよ。」 [[full/YJ-T125|YJ-38]]
+> 「Mlohkcotsとはつまり、Stockholmストックホルムの逆さ綴り。」 [[full/YJ-T125|YJ-T125]]
+> 「そもそも貴方のMlohkcotsという名と人がいなくなるって証言だけじゃなにもわからないよ。」 [[full/YJ-T125|YJ-T125]]
 
 ---
 

@@ -14,10 +14,10 @@ link_audit: "20261122T2100_l1en_deterministic"
 ### [[units/YJ-T160|YJ-T160]]
 
 NScripter版として公開された作品名。黄金週間の暇つぶしとして推奨されている。
-> 「『PTA信徒に捧ぐ。』NScripter版公開」 [[full/YJ-T160|YJ-003]]
+> 「『PTA信徒に捧ぐ。』NScripter版公開」 [[full/YJ-T160|YJ-T160]]
 
 NScripter版として公開された作品名。黄金週間の暇つぶしとして推奨されている。
-> 「『PTA信徒に捧ぐ。』NScripter版公開」 [[full/YJ-T160|YJ-003]]
+> 「『PTA信徒に捧ぐ。』NScripter版公開」 [[full/YJ-T160|YJ-T160]]
 
 ---
 

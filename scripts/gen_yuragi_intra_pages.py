@@ -125,10 +125,13 @@ def main():
                     pno = ref.split(":")[-1] if ":" in ref else ""
                     # 常に台帳の unit（uid）をリンク対象にする（ref の base 表記は信用しない）
                     post_ids = {str(r.get("post_no")) for r in jl(SD_CACHE.get(uid, Path(".")) / "structured.jsonl")} if uid in SD_CACHE else set()
+                    disp = f"{ref}"
+                    if not pno.isdigit():
+                        disp = uid  # 偽 ref 表記（「投稿番号」等）は表示から出さない
                     if pno.isdigit() and pno in post_ids:
-                        lines.append(f"> 「{q}」 [[full/{uid}#post-{pno}|{ref}]]")
+                        lines.append(f"> 「{q}」 [[full/{uid}#post-{pno}|{disp}]]")
                     else:
-                        lines.append(f"> 「{q}」 [[full/{uid}|{ref}]]")
+                        lines.append(f"> 「{q}」 [[full/{uid}|{disp}]]")
                 lines.append("")
         lines += ["---", "",
                   "※ 本記事は作中側抽出（Lane M）台帳からの決定論組立（v0.14 創作活動基準）。",

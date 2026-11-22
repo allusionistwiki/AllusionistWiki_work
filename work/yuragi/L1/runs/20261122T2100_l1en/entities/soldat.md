@@ -14,7 +14,7 @@ link_audit: "20261122T2100_l1en_deterministic"
 ### [[units/YJ-T168|YJ-T168]]
 
 再会される神威の双槍。
-> 「再会するのは(Corsesca)神威の双槍(soldat)」 [[full/YJ-T168|YJ-012]]
+> 「再会するのは(Corsesca)神威の双槍(soldat)」 [[full/YJ-T168|YJ-T168]]
 
 ---
 

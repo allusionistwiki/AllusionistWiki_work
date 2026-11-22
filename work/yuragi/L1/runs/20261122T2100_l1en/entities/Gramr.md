@@ -14,8 +14,8 @@ link_audit: "20261122T2100_l1en_deterministic"
 ### [[units/YJ-T168|YJ-T168]]
 
 神の家に三振りの剣のうち第一の「英雄の刃」。再会される名剣。
-> 「第一は剣は、英雄の刃(Gramr)」 [[full/YJ-T168|YJ-012]]
-> 「再会するのは(armee)英雄の名剣(Gramr)」 [[full/YJ-T168|YJ-012]]
+> 「第一は剣は、英雄の刃(Gramr)」 [[full/YJ-T168|YJ-T168]]
+> 「再会するのは(armee)英雄の名剣(Gramr)」 [[full/YJ-T168|YJ-T168]]
 
 ---
 

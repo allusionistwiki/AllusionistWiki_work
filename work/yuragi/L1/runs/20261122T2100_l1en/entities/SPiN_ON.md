@@ -14,10 +14,10 @@ link_audit: "20261122T2100_l1en_deterministic"
 ### [[units/YJ-T153|YJ-T153]]
 
 参加者による創作活動の結果として出版された同人誌のタイトル。
-> 「誌名：「SPiN/ON」 24ページ300円予定。」 [[full/YJ-T153|YJ-41]]
+> 「誌名：「SPiN/ON」 24ページ300円予定。」 [[full/YJ-T153|YJ-T153]]
 
 コミケで頒布された同人誌の正式なタイトル（誌名）。
-> 「誌名：「SPiN/ON」」 [[full/YJ-T153|YJ-41]]
+> 「誌名：「SPiN/ON」」 [[full/YJ-T153|YJ-T153]]
 
 ---
 

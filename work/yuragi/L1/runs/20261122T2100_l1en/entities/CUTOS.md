@@ -14,10 +14,10 @@ link_audit: "20261122T2100_l1en_deterministic"
 ### [[units/YJ-T002|YJ-T002]]
 
 Contemporal Unificative Thinking Over Synapses（シナプス横断即時思考同調装置）。後継機CUTOS ssでは億単位の人間が同時に情報をやりとりできる。
-> 「Contemporal Unificative Thinking Over Synapses。シナプス横断即時思考同調装置。当初は三者以上の同時接続は不可能だったが、後継機のCUTOS ss（Contemporal Unificative Thinking Over Synapses synchronized sphere）では、SSSへのアクセスが標準装備され、億単位の人間が同時に情報をやりとりできるようになった。」 [[full/YJ-T002|YJ-014]]
+> 「Contemporal Unificative Thinking Over Synapses。シナプス横断即時思考同調装置。当初は三者以上の同時接続は不可能だったが、後継機のCUTOS ss（Contemporal Unificative Thinking Over Synapses synchronized sphere）では、SSSへのアクセスが標準装備され、億単位の人間が同時に情報をやりとりできるようになった。」 [[full/YJ-T002|YJ-T002]]
 
 シナプス横断即時思考同調装置。後継機では億単位の人間が同時に情報をやりとりできるようになった。
-> 「Contemporal Unificative Thinking Over Synapses。シナプス横断即時思考同調装置。当初は三者以上の同時接続は不可能だったが、後継機のCUTOS ss（Contemporal Unificative Thinking Over Synapses synchronized sphere）では、SSSへのアクセスが標準装備され、億単位の人間が同時に情報をやりとりできるようになった。」 [[full/YJ-T002|YJ-014]]
+> 「Contemporal Unificative Thinking Over Synapses。シナプス横断即時思考同調装置。当初は三者以上の同時接続は不可能だったが、後継機のCUTOS ss（Contemporal Unificative Thinking Over Synapses synchronized sphere）では、SSSへのアクセスが標準装備され、億単位の人間が同時に情報をやりとりできるようになった。」 [[full/YJ-T002|YJ-T002]]
 
 ---
 

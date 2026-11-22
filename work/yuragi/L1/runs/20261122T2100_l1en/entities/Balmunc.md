@@ -14,7 +14,7 @@ link_audit: "20261122T2100_l1en_deterministic"
 ### [[units/YJ-T168|YJ-T168]]
 
 神の家に三振りの剣のうち第三の「破壊の刃」。
-> 「第三の剣は、破壊の刃(Balmunc)」 [[full/YJ-T168|YJ-012]]
+> 「第三の剣は、破壊の刃(Balmunc)」 [[full/YJ-T168|YJ-T168]]
 
 ---
 

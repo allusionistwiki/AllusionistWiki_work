@@ -14,7 +14,7 @@ link_audit: "20261122T2100_l1en_deterministic"
 ### [[units/YJ-T024|YJ-T024]]
 
 エイベル・ハモンドらを含む組織の名称。
-> 「七十二人委員会（Committee of 72）」 [[full/YJ-T024|YJ-155]]
+> 「七十二人委員会（Committee of 72）」 [[full/YJ-T024|YJ-T024]]
 
 ---
 

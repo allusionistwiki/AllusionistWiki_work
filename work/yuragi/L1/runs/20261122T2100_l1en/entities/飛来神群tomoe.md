@@ -14,7 +14,7 @@ link_audit: "20261122T2100_l1en_deterministic"
 ### [[units/YJ-T169|YJ-T169]]
 
 図書館のジェラート屋のアルバイトの子（飛来神群）。
-> 「それ飛来神群tomoe。」 [[full/YJ-T169|YJ-137]]
+> 「それ飛来神群tomoe。」 [[full/YJ-T169|YJ-T169]]
 
 ---
 

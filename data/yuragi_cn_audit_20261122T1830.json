@@ -1,0 +1,32 @@
+{
+ "ts": "2026-11-22T17:26:16",
+ "lane": "CN-SCAN-ALWAYS-ON (cron audit)",
+ "site": {
+  "head": "f0e903359",
+  "sync": "HEAD==origin/main",
+  "status_clean": true
+ },
+ "scan": {
+  "files": 17108,
+  "cn_total": 0,
+  "quotes_excluded": true,
+  "jis_shared_excluded": true,
+  "explicit_shared_excluded": "的了叶马乌风飞书东车",
+  "evidence": "YuragiWiki/cn_scan_latest.json"
+ },
+ "strata": {
+  "health_8080": 200,
+  "process": "strata.exe pid16252 running",
+  "llm_jobs_running": 0
+ },
+ "processes": {
+  "awiki2": "[]",
+  "allusionist-wiki": "proc_04dd0d6db1c5 (l2_adjudicate_monitor.sh, pid 18672) STALE: pid not in tasklist, started 10-24, age 697h"
+ },
+ "work_repo": {
+  "head": "890f420d3",
+  "uncommitted": 1921,
+  "detail": "scripts/gen_yuragi_intra_pages.py の link 表示修正（偽 ref「投稿番号」等を disp=uid に）を、旧 run 20261122T2100_l1en の entities 1,920 面へ直接適用した差分が未コミット（4606+/4603-）。old-run 直接書換は運用則『旧 run 書換禁止（退役は archive/ へ mv）』と衝突。判断要: (a) 表示ラベルのみの整形なので例外コミットを許可するかどうか、(b) 許可しないなら git restore して新 run（整形 run）として再生成。"
+ },
+ "verdict": "CN 混入 0・site クリーン・Strata 正常。異常 2 件: work repo 未コミット 1921 件（old-run 直接書換）・stale プロセス台帳エントリ 1 件"
+}
