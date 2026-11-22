@@ -1,0 +1,137 @@
+{
+ "audit": "yuragi-site-constituent-audit",
+ "ts": "20261123T0712",
+ "audited_at": "2026-11-23 07:12 JST (cron yuragi 常時監査)",
+ "processes": {
+  "hermes_processes_json": {
+   "default": 0,
+   "awiki2": 0,
+   "garubase": 0
+  },
+  "allusionist_wiki_ghost_entry": "profiles/allusionist-wiki/processes.json に 1 件（l2_adjudicate_monitor 系・started 2026-10-24・status=None）、対応プロセス実行中なし＝幽霊は継続",
+  "lane_processes": "extract/publish/quartz build ノードプロセス 0（監査起動時は publish/linkfix/build を自前で実行）",
+  "strata": {
+   "port": 8080,
+   "health": 200,
+   "pids": [
+    28300,
+    10320
+   ],
+   "engine_proc": "strata.exe pid 16252",
+   "serving": "strata-swift-iq3_xxs"
+  }
+ },
+ "cn_scan": {
+  "root": "YuragiWiki/content",
+  "files": 18190,
+  "cn_strict_total": 0,
+  "cn_strict_files": 0,
+  "nonjis_rare_total_body_raw": 3,
+  "nonjis_rare_chars": {
+   "睪": 2,
+   "輭": 1
+  },
+  "warn_de_total": 14681,
+  "method": "content/**/*.md; 引用「」内除去（原文逐語）＋『』【】除去＋[[wiki]]/](...)/URL 除去; 判定=cn_gate._CN_STRICT と cp932 非round-trip; JP_SHARED（的了叶马乌风飞书东车〜々 等）除外",
+  "verdict": "CN 専用混入 0（睪/輭 は標題の Rare 漢字で簡体字専用ならず）"
+ },
+ "git": {
+  "site": {
+   "repo": "allusionistwiki/YuragiWiki",
+   "HEAD": "4f3a5e700",
+   "origin_main": "4f3a5e700",
+   "porcelain": 0,
+   "works_in_head": 8172,
+   "content_md": 18190,
+   "commit": "4f3a5e700 publish: Lane P4 供給分の公開同期＋恒久安全網（改行正規化 CRLF→LF・引用逐語 HTML コメント除去）"
+  },
+  "work": {
+   "HEAD": "7e7f49c35",
+   "origin_main": "7e7f49c35",
+   "porcelain": 0,
+   "commits": [
+    "69b90e694 publish linkfix regex 安全網",
+    "2d846b3ae publish/linkfix 改行正規化＋HTML コメント除去の恒久安全網",
+    "7e7f49c35 chain 実行ログ"
+   ]
+  }
+ },
+ "ci": {
+  "deploy_runs": [
+   {
+    "id": 45070737369,
+    "sha": "5bd6c4857",
+    "result": "failure",
+    "step": "Full build"
+   },
+   {
+    "id": 45074936592,
+    "sha": "4f3a5e700",
+    "result": "success"
+   }
+  ],
+  "root_cause": "content の block HTML comment（引用逐語の非表示マーカー）が多重 CR と結合すると Quartz html プロセッサが null.data 参照で full build を落とす（parse.ts:137）。ローカル再現: npx quartz build --directory content → Failed to process html content/works/ビビに関する引用集.md",
+  "fix": "publish/linkfix 末尾に恒久安全網（CRLF・単独 CR→LF 正規化 17,330 件、HTML コメント除去 2 ファイル）。content 全体 CR 0・コメント 0 を実測",
+  "local_build": {
+   "rc": 0,
+   "emitted": 18309,
+   "processed": 18189
+  }
+ },
+ "live_probe": {
+  "base": "https://allusionistwiki.github.io/YuragiWiki/",
+  "asset_stamp": "index.css?v=4f3a5e70（live==HEAD ビルド）",
+  "new_pages_200": [
+   "ASCIIアート(キャラクター図)",
+   "12人の消息不明者に関する状況説明(ウミガメのスープ形式)",
+   "16ptキャラクターのステータスとプラン",
+   "72の王侯貴族についての記述と写本の性質",
+   "ビビに関する引用集",
+   "龍牢会",
+   "No.4の起動"
+  ],
+  "hidden_quote_render": "ビビ page でコメント内逐語（ビビのみぎくるぶし）は描画 0 件＝非表示維持"
+ },
+ "lanes": {
+  "laneA_batches": {
+   "total": 32,
+   "done": 32,
+   "running": 0
+  },
+  "plan_unstarted": [
+   "B1",
+   "B2",
+   "B3",
+   "B4",
+   "B5"
+  ],
+  "latest_L1_run_mtime": "2026-11-22 21:56 (20261122T2400_l1works)"
+ },
+ "watchdog_crons": [
+  {
+   "id": "2de2865ff014",
+   "name": "yuragi-longjob-check",
+   "every": "30m",
+   "last_run": "2026-11-23T06:52 ok"
+  },
+  {
+   "id": "ab40e55c056f",
+   "name": "YuragiWiki 9日enrichment 现状确认",
+   "every": "30m",
+   "last_run": "2026-11-23T06:33 ok"
+  }
+ ],
+ "audit_ledger_correction": "前監査までの works 新頁 1,304 / head_only 202 は git 名前の collation 計算アーティファクト。実測は 新 1,104（untracked）＋ 削除 3（works 2・topics 1）。今監査で 0 に収束",
+ "anomalies_resolved": [
+  "site 未コミット 2,428 → 0（publish ゲート通過→commit/push→CI success→新頁 live 200）",
+  "work publish script 未コミット → 0（linkfix regex 安全網をコミット）",
+  "CI full build 落ち → 恒久安全網で解消（ローカル full build pass 実測）"
+ ],
+ "anomalies_open": [
+  "PLAN-enrich B1-B5 未着手（レーン空闲・起動者待ち）",
+  "profiles/allusionist-wiki/processes.json の幽霊レコード 1 件"
+ ],
+ "re_submitted_to_chain": [
+  "B1-B5（対象名寄せ・索引閾値・見た目・相互リンク・CI diff ビルド実測）のレーン起動"
+ ]
+}
