@@ -1127,6 +1127,46 @@ run: publish
     n_topics = len([p for p in (CONTENT / "topics").glob("*.md") if p.stem != "index"])
     n_auth = len([p for p in (CONTENT / "authors").glob("*.md") if p.stem != "index"])
     n_ent = len([p for p in (CONTENT / "entities").glob("*.md") if p.stem != "index"])
+    # Lane T: entities ⇄ allusion_entities 同一名クロスリンク（決定論・frontmatter term 完全一致）
+    try:
+        import re as _re2
+        _ent_ix = {}
+        for _p in (CONTENT / "entities").glob("*.md"):
+            if _p.stem == "index":
+                continue
+            _tm = _re2.search(r'term:\s*"([^"]+)"', _p.read_text(encoding="utf-8", errors="replace"))
+            if _tm:
+                _ent_ix.setdefault(_tm.group(1).strip(), _p.stem)
+        _ae_ix = {}
+        for _p in (CONTENT / "allusion_entities").glob("*.md"):
+            if _p.stem == "index":
+                continue
+            _txt_ae = _p.read_text(encoding="utf-8", errors="replace")
+            _tm = _re2.search(r'term:\s*"([^"]+)"', _txt_ae)
+            if not _tm:
+                _tm = _re2.search(r'title:\s*"([^"]+)"', _txt_ae)
+            if _tm:
+                _ae_ix.setdefault(_tm.group(1).strip(), _p.stem)
+        _n_cross = 0
+        _sep = chr(10)
+        for _term in _ent_ix.keys() & _ae_ix.keys():
+            _es, _as = _ent_ix[_term], _ae_ix[_term]
+            _pe = CONTENT / "entities" / (_es + ".md")
+            _pa = CONTENT / "allusion_entities" / (_as + ".md")
+            _te = _pe.read_text(encoding="utf-8", errors="replace")
+            if "同一名（別面）" not in _te:
+                _tail = _sep * 2 + "## 同一名（別面）" + _sep * 2 + "実世界参照面に同一名の独立記事: [[allusion_entities/" + _as + "|" + _term + "]]（作中创作面と実世界参照面の住み分け）" + _sep
+                _pe.write_text(_te.rstrip() + _tail, encoding="utf-8")
+                _n_cross += 1
+            _ta = _pa.read_text(encoding="utf-8", errors="replace")
+            if "同一名（別面）" not in _ta:
+                _tail2 = _sep * 2 + "## 同一名（別面）" + _sep * 2 + "作中实体面に同一名の独立記事: [[entities/" + _es + "|" + _term + "]]" + _sep
+                _pa.write_text(_ta.rstrip() + _tail2, encoding="utf-8")
+                _n_cross += 1
+        print("laneT cross-links:", _n_cross)
+    except Exception as _e:
+        print("laneT skip:", type(_e).__name__, _e)
+
     n_works = len([p for p in (CONTENT / "works").glob("*.md") if p.stem != "index"])
     n_fl = len(fl_units)
     n_fl_posts = sum(u.get("n_posts", 0) for u in fl_units)
