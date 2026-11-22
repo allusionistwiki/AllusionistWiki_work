@@ -1,0 +1,29 @@
+{
+ "audit_at": "2026-11-23 00:07 JST (cron yuragi 常時監査)",
+ "strata": "up (127.0.0.1:8080 /health=200, swift-1.5-iq3_xxs serving, pid 10320/28300)",
+ "processes_json": "0 running",
+ "cn_rescan": {
+  "root": "YuragiWiki/content",
+  "scanned_files": 18190,
+  "cn_total": 0,
+  "method": "「」引用除去＋[[wiki]]/[md]()/URL 除去後、cp932 round-trip 失敗＝CN 専用。共有 的了叶马乌风飞书东车〜 除外",
+  "note": "初回スキャンのフラグ 1,861 件は全件 U+303D 〜（日本語共用・JIS 圏外だが簡体字でない）で除外後 0"
+ },
+ "site_git": {
+  "repo": "YuragiWiki", "head": "7a4d61d87", "head_time": "2026-11-22 21:19",
+  "ahead_of_origin": 0,
+  "uncommitted": 2428, "detail": "M 1321 / ?? 1104 (works 新頁) / D 3",
+  "latest_content_mtime": "2026-11-22 22:33",
+  "status": "異常継続: Lane P4 供給分の site commit 未実行（前監査 23:30 と同状態、変化なし）"
+ },
+ "work_git": {
+  "repo": "AllusionistWiki_work", "head": "e960ab008", "head_time": "2026-11-22 22:08",
+  "ahead_of_origin": 0,
+  "uncommitted": 1, "detail": "scripts/publish_yuragi_site.py (linkfix regex 改修 +4/-2) 未コミット継続"
+ },
+ "lanes": "enrichment monitor 23:53 時点で b1–b31 完走報告・strata=up。node プロセスなし＝publish/build 稼働なし。停滞レーンなし、残タスクは site commit＋publish script commit のみ",
+ "re_submitted_to_chain": [
+  "site 2,428 件の publish ゲート通過確認→コミット（ゲート未通過なら収束チェーン起動）",
+  "work: scripts/publish_yuragi_site.py のコミット"
+ ]
+}
