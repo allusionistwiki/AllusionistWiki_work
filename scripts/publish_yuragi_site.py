@@ -536,6 +536,7 @@ def main() -> int:
         n_allud = 0
         n_supp_total = 0
         kind_total: dict = {}
+        allud_month: dict = {}
         per_unit: dict = {}
         (CONTENT / "allusions").mkdir(parents=True, exist_ok=True)
         for adir in adirs:
@@ -598,6 +599,8 @@ def main() -> int:
                         qq = str(q.get("q", ""))
                         pno = ref.split(":")[-1] if ":" in ref else ""
                         body.append(f"> 「{qq}」 [[full/{uid}#post-{pno}|{ref}]]")
+                        if ref in bydate:
+                            allud_month[bydate[ref][:7]] = allud_month.get(bydate[ref][:7], 0) + 1
                     body.append("")
                     unit_kinds[kind] = unit_kinds.get(kind, 0) + 1
                     kind_total[kind] = kind_total.get(kind, 0) + 1
@@ -612,10 +615,14 @@ def main() -> int:
             ix = [f'---\ntitle: "実世界参照 索引"\nrun: {AL_RUN}\n---', "",
                   "# 実世界参照 索引", "",
                   "参加者が実世界の神話・宗教・文学・音楽・歴史・科学などを持ち込んで組んだ参照関係の横断索引。各項目は逐語引用＋ref アンカーで原文に接続（機械保証）。信頼度（明言/蓋然性高/推測）を各項目に付す。", "",
-                  f"対象篇: {n_allud}（抽出 run {len(AL_RUNS)} 本・全件実読監査込）", "",
+                  f"対象篇: {n_allud}（抽出 run {len(AL_RUNS)} 本・全件実読監査込）",
+                  f"参照項目累計: {sum(per_unit.values())} 件", "",
                   "| 類型 | 件数 |", "|---|---:|"]
             for k, v in sorted(kind_total.items(), key=lambda x: -x[1]):
                 ix.append(f"| {k} | {v} |")
+            ix += ["", "## 参照密度ランキング（上位 20 篇）", ""]
+            for uidr, nr in sorted(per_unit.items(), key=lambda x: -x[1])[:20]:
+                ix.append(f"- [[allusions/{uidr}|{uidr}]] — {nr} 件")
             ix += ["", "## 篇別", ""]
             for uid2 in sorted(per_unit):
                 ix.append(f"- [[allusions/{uid2}|{uid2}]]（{per_unit[uid2]} 件）")
@@ -749,6 +756,127 @@ def main() -> int:
                 continue
             top6 = "・".join(f"{d}（{n}）" for d, n in myterms[:15])
             up6.write_text(c6.rstrip() + f"\n\n### 篇横断対象名（2 篇以上）\n\n- {top6}\n\n→ 名寄せ: [[allusions_terms|対象名索引]] ／ 主題: [[allusions_map|主題分類索引]]\n", encoding="utf-8")
+
+        # Lane C1: topics 記事 ⇄ allusion 対象名の相互参照（決定論・監査 drop 反映済索引照合）
+        for tp in sorted((CONTENT / "topics").glob("*.md")):
+            if tp.stem == "index":
+                continue
+            tc = tp.read_text(encoding="utf-8", errors="replace")
+            if "実世界参照（allusion）" in tc:
+                continue
+            ttm = re.search(r'term:\s*"([^"]+)"', tc)
+            tk = (ttm.group(1) if ttm else tp.stem).strip().lower().replace("・", "").replace(" ", "")
+            ent = term_ix.get(tk)
+            if not ent:
+                continue
+            us = sorted(ent["units"])
+            links = "・".join(f"[[allusions/{u6}|{u6}]]" for u6 in us[:12])
+            more = f" 他 {len(us) - 12} 篇" if len(us) > 12 else ""
+            tp.write_text(tc.rstrip() + f"\n\n### 実世界参照（allusion）\n\n- 「{ent['disp']}」は実世界対象として {len(us)} 篇に抽出: {links}{more}\n\n→ 索引: [[allusions_index|実世界参照 索引]] ／ 名寄せ: [[allusions_terms|対象名索引]]\n", encoding="utf-8")
+
+        # Lane C3: 年表へ実世界参照の月別密度を追記（監査項目引用ポストの実日付から決定論集計）
+        if allud_month:
+            cp4 = CONTENT / "chronology.md"
+            if cp4.is_file():
+                c4 = cp4.read_text(encoding="utf-8", errors="replace")
+                if "実世界参照の密度" not in c4:
+                    ml = ["", "## 実世界参照の密度（月別）", "",
+                          "監査収束済 allusion 項目の引用ポスト（ref の実日付）を全件集計。参加者が持ち込む実世界参照の総量変化が読み取れる。", ""]
+                    for y4 in sorted({m4[:4] for m4 in allud_month}):
+                        months4 = [f"{int(m4[5:7])}月 {allud_month[m4]}" for m4 in sorted(allud_month) if m4.startswith(y4)]
+                        ml.append(f"**{y4} 年**　" + " ／ ".join(months4))
+                        ml.append("")
+                    cp4.write_text(c4.rstrip() + "\n" + "\n".join(ml) + "\n", encoding="utf-8")
+
+        # Lane D: 実世界参照 対象名の実体化（2 篇以上・決定論・drop 反映・引用付き）
+        ents_q: dict = {}
+        for adir7 in adirs:
+            s7 = adir7.parent / "suppressions.json"
+            sup7: dict = {}
+            if s7.is_file():
+                for s in json.loads(s7.read_text(encoding="utf-8")):
+                    kk7 = str(s.get("term", "")).strip().lower().replace("・", "").replace(" ", "")
+                    sup7[(str(s.get("unit", "")), kk7)] = s
+            for fp7 in sorted(adir7.glob("*.jsonl")):
+                if fp7.stem == "gate_drops":
+                    continue
+                for l7 in fp7.read_text(encoding="utf-8").splitlines():
+                    if not l7.strip():
+                        continue
+                    it7 = json.loads(l7)
+                    t7 = str(it7.get("term", "")).strip()
+                    k7 = t7.strip().lower().replace("・", "").replace(" ", "")
+                    if sup7.get((str(it7.get("unit", "")), k7), {}).get("action") == "drop":
+                        continue
+                    e7 = ents_q.setdefault(k7, {"disp": t7, "units": {}, "usage": "", "kinds": {}})
+                    u7 = str(it7.get("unit", ""))
+                    e7["units"].setdefault(u7, [])
+                    for q7 in it7.get("quotes", []):
+                        if len(e7["units"][u7]) < 2:
+                            e7["units"][u7].append((str(q7.get("ref", "")), str(q7.get("q", ""))))
+                    if not e7["usage"]:
+                        e7["usage"] = str(it7.get("usage", "")).strip()
+                    kd7 = str(it7.get("kind", "その他"))
+                    e7["kinds"][kd7] = e7["kinds"].get(kd7, 0) + 1
+
+        def _slug7(s: str) -> str:
+            s = str(s).strip()
+            for a, b in [("/", "_"), ("\\", "_"), ("&", "＆"), ("#", "＃"), ("%", "％"),
+                         ("・", "_"), ("：", "_"), (":", "_"), ("?", "_"), ("!", "_"), ("　", "_")]:
+                s = s.replace(a, b)
+            return s
+
+        ae = CONTENT / "allusion_entities"
+        ae.mkdir(exist_ok=True)
+        d_multi = {k7: v7 for k7, v7 in ents_q.items() if len(v7["units"]) >= 2}
+        used_slugs: dict = {}
+        for k7, v7 in sorted(d_multi.items()):
+            kinds7 = v7["kinds"]
+            best7 = max(kinds7.items(), key=lambda x: x[1])[0] if kinds7 else "その他"
+            us7 = sorted(v7["units"].items())
+            disp7 = v7["disp"]
+            slug7 = _slug7(disp7)
+            used_slugs[slug7] = used_slugs.get(slug7, 0) + 1
+            if used_slugs[slug7] > 1:
+                slug7 = f"{slug7}_{used_slugs[slug7]}"
+            body7 = [f'---\ntitle: "{disp7}"\nrun: publish\n---', "",
+                     f"# {disp7}（実世界参照 実体）", "",
+                     f"分類: {best7} ／ 篇横断: {len(us7)} 篇", ""]
+            if v7["usage"]:
+                body7 += [v7["usage"], ""]
+            body7 += ["## 使用状況（引用逐語・ref 付き）", ""]
+            for u7, ql7 in us7:
+                body7.append(f"### [[allusions/{u7}|{u7}]]")
+                body7.append("")
+                for r7, q7 in ql7[:2]:
+                    pno7 = r7.split(":")[-1] if ":" in r7 else ""
+                    body7.append(f"> 「{q7[:200]}」 [[full/{u7}#post-{pno7}|{r7}]]")
+                body7.append("")
+            body7 += ["---", "",
+                      "→ [[allusion_entities/|実世界参照 実体索引]] ／ [[allusions_index|実世界参照 索引]] ／ [[allusions_terms|対象名索引]]", ""]
+            (ae / f"{slug7}.md").write_text("\n".join(body7), encoding="utf-8")
+        byk: dict = {}
+        for k7, v7 in d_multi.items():
+            kinds7 = v7["kinds"]
+            best7 = max(kinds7.items(), key=lambda x: x[1])[0] if kinds7 else "その他"
+            byk.setdefault(best7, []).append((v7["disp"], len(v7["units"])))
+        ix7 = [f'---\ntitle: "実世界参照 実体索引"\nrun: publish\n---', "",
+               "# 実世界参照 実体索引（2 篇以上）", "",
+               f"作中に持ち込まれた**実世界の対象名**の実体化: {len(d_multi)} 名（全対象名 {len(ents_q)}・単篇のみの名は対象名索引/主題分類に収録）。各ページは使用状況の逐語引用＋ref 出典付き。", "",
+               "収録基準: 2 篇以上に出現する実世界対象名。監査収束済（drop 反映）。"]
+        for b7 in sorted(byk, key=lambda x: -len(byk[x])):
+            ix7.append("")
+            ix7.append(f"## {b7}（{len(byk[b7])} 名）")
+            ix7.append("")
+            for d7, n7 in sorted(byk[b7], key=lambda x: (-x[1], x[0])):
+                ix7.append(f"- [[allusion_entities/{_slug7(d7)}|{d7}]]（{n7} 篇）")
+        ix7 += ["", "- 篇側索引: [[allusions_index|実世界参照 索引]]", "- 名寄せ: [[allusions_terms|対象名索引]]", "- 主題分類: [[allusions_map|主題分類索引]]", ""]
+        (ae / "index.md").write_text("\n".join(ix7), encoding="utf-8")
+        ep = CONTENT / "entities_index.md"
+        if ep.is_file():
+            ec = ep.read_text(encoding="utf-8", errors="replace")
+            if "実世界参照 実体" not in ec:
+                ep.write_text(ec.rstrip() + f"\n\n## 実世界参照 実体（{len(d_multi)} 名）\n\n上記は作中实体群。実世界参照の対象名（神話・文学作品・実在人物・ゲーム 他）は [[allusion_entities/|実世界参照 実体索引]] に実体化しています。\n\n→ カバレッジ: 実世界参照 対象名 {len(ents_q)} — 2 篇以上 {len(d_multi)} 名を実体化／単篇のみは [[allusions_terms|対象名索引]]・[[allusions_map|主題分類索引]] に収録。創作記述は works 面（作品ページ）で実体化済。\n", encoding="utf-8")
 
     # nav（185 篇索引）
     nav = ["---", 'title: "篇索引"', "run: publish", "---", "", "# 篇索引（185 篇）", ""]
