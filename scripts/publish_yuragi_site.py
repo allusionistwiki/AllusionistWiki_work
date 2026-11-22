@@ -876,7 +876,7 @@ def main() -> int:
         if ep.is_file():
             ec = ep.read_text(encoding="utf-8", errors="replace")
             if "実世界参照 実体" not in ec:
-                ep.write_text(ec.rstrip() + f"\n\n## 実世界参照 実体（{len(d_multi)} 名）\n\n上記は作中实体群。実世界参照の対象名（神話・文学作品・実在人物・ゲーム 他）は [[allusion_entities/|実世界参照 実体索引]] に実体化しています。\n\n→ カバレッジ: 実世界参照 対象名 {len(ents_q)} — 2 篇以上 {len(d_multi)} 名を実体化／単篇のみは [[allusions_terms|対象名索引]]・[[allusions_map|主題分類索引]] に収録。創作記述は works 面（作品ページ）で実体化済。\n", encoding="utf-8")
+                ep.write_text(ec.rstrip() + f"\n\n## 実世界参照 実体（{len(d_multi)} 名）\n\n上記は作中実体群。実世界参照の対象名（神話・文学作品・実在人物・ゲーム 他）は [[allusion_entities/|実世界参照 実体索引]] に実体化しています。\n\n→ カバレッジ: 実世界参照 対象名 {len(ents_q)} — 2 篇以上 {len(d_multi)} 名を実体化／単篇のみは [[allusions_terms|対象名索引]]・[[allusions_map|主題分類索引]] に収録。創作記述は works 面（作品ページ）で実体化済。\n", encoding="utf-8")
 
     # nav（185 篇索引）
     nav = ["---", 'title: "篇索引"', "run: publish", "---", "", "# 篇索引（185 篇）", ""]

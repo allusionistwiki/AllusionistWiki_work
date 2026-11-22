@@ -40,7 +40,10 @@ def jl(p: Path):
     out = []
     for l in p.read_text(encoding="utf-8").splitlines():
         if l.strip():
-            out.append(json.loads(l))
+            r = json.loads(l)
+            if isinstance(r, dict) and "_meta" in r:
+                continue
+            out.append(r)
     return out
 
 
