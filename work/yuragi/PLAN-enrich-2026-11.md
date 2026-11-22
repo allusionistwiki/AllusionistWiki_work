@@ -118,3 +118,5 @@ python scripts/extract_yuragi_allusions.py --uids <uids...> --run-dir <run_dir> 
   - 一般名詞**単体**（精霊・魔力 等）= drop だが、**複合語・固有化語**（精霊魔術・精霊鉄・因縁呪術・言語魔術・順正化処理 型）は記事化。
   - 作中人物/国（リクシャマー・アエルガ 型）は創作物=当然記事化（アエルガ は alias 統合で落としていた→独立記事化へ是正。精度不足を認める）。
   - 教訓: 抽出プロンプトが allusion 専用だったため作中創作語が candidate 化されていなかった（構造欠陥）。→ Lane M 作中侧抽出（extract_yuragi_intra_entities.py・185 篇全走）で恒久解消。K4 監査記録收集で 17 件実読→11 件 seed 注入（第一次大陸戦争/第二次地獄解放/万民友和思想/南アジェカ/ゼウテ神パンテオン教/ノートン1世/ソルキレウリップクリーム/ギボン貿易/マグドール貿易/スィア・グーラ紀/Iカップ作中属性）。seed 計 60 語。
+- 2026-11-22 Lane N（publish 恒久化）: ① entities 増分 run 統合の潜在バグ修正（ENTITIES_RUN 直固定で最新 *_l1en run（作中实体 51 記事）が entities 面に出ていなかった）→ 最新 *_l1en を本体・後方群＋基底 run を継承に。② 創作(works 6453)⇄実体 漏れなき相互リンク: 全 entity ページへ「関連創作」欄決定論付与＋体系版索引 entities_map/（類型別 60 件ページ分割・被リンク数併記・創作 cross-ref 全作品列挙）。
+- 2026-11-22 Lane O（起動）: 創作索引カバレッジ検証 — 全文コーパス投稿から無作為 30 件→works 未収録投稿を LLM 創作判定→欠落率測定（audit_yuragi_works_coverage.py・台帳 data/yuragi_ocover_20261122.json）。欠落率が出たら work 抽出 run 再生成バッチを設計。

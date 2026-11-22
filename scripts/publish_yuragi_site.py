@@ -394,11 +394,13 @@ def main() -> int:
     # entities（実体ページ・wiki 中核）
     import re as _re
     ent_run = ENTITIES_RUN
-    if not ent_run:
-        cands = sorted(p.name for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l1en"))
-        # 増分 run 運用: 最新 run に無い slug は親 run 群から継承（新しい slug Directory が同名に優先）
-        ent_run = cands[-1] if cands else None
-    ent_inherit = [c for c in reversed(cands[:-1])] if ent_run else []
+    cands = sorted(p.name for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l1en"))
+    # 増分 run 運用: 最新 *_l1en run が本体、無い run の slug は後方 *_l1en 群＋基底 ENTITIES_RUN から継承
+    if cands:
+        ent_run = cands[-1]
+    ent_inherit = list(reversed(cands[:-1]))
+    if ent_run and ENTITIES_RUN and ENTITIES_RUN not in cands:
+        ent_inherit.append(ENTITIES_RUN)
     ent_slugs = {}
     if ent_run:
         import unicodedata
@@ -503,6 +505,95 @@ def main() -> int:
                 idx.append(f"- [[entities/{sl}|{term}]]")
             idx.append("")
         (CONTENT / "entities_index.md").write_bytes("\n".join(idx).encode("utf-8"))
+
+        # Lane N: 創作(works)⇄実体 漏れなき相互リンク＋実体索引の体系化（決定論）
+        def _slugN(s0: str) -> str:
+            s0 = str(s0)
+            for a0, b0 in [("/", "_"), ("・", "_"), ("：", "_"), (":", "_"), ("?", "_"), ("!", "_"), ("　", "_")]:
+                s0 = s0.replace(a0, b0)
+            return s0
+        works_pages = [p for p in (CONTENT / "works").glob("*.md") if p.stem != "index"]
+        w_titles: dict = {}
+        w_texts: dict = {}
+        for wp in works_pages:
+            wt = wp.read_bytes().decode("utf-8", "replace")
+            tm = _re.search(r'title:\s*"([^"]+)"', wt)
+            w_titles[wp.stem] = tm.group(1) if tm else wp.stem
+            w_texts[wp.stem] = wt
+        w_cats: dict = {}
+        for cp in sorted((CONTENT / "works_index").glob("*.md")):
+            ct = cp.read_bytes().decode("utf-8", "replace")
+            for mo in _re.finditer(r"\[\[works/([^\]|]+)", ct):
+                w_cats.setdefault(mo.group(1), cp.stem)
+        wlinks: dict = {}
+        for wslug, wt in w_texts.items():
+            hits = [sl for sl, term in ent_slugs.items()
+                    if term and (term in w_titles.get(wslug, "") or term in wt)]
+            wlinks[wslug] = hits
+        # 実体ページへ 関連創作 欄を決定論付与
+        by_ent_works: dict = {}
+        for wslug, hits in wlinks.items():
+            for sl in hits:
+                by_ent_works.setdefault(sl, []).append(wslug)
+        for sl in list(ent_slugs.values()):
+            p = CONTENT / "entities" / f"{sl}.md"
+            if not p.is_file():
+                continue
+            a = p.read_bytes().decode("utf-8", "replace")
+            if "## 関連創作" in a:
+                continue
+            ws = sorted(by_ent_works.get(sl, []))
+            if ws:
+                sec = "\n\n## 関連創作（作品ページ）\n\n" + "".join(
+                    f"- [[works/{k}|{w_titles.get(k, k)}]]\n" for k in ws[:30])
+                if len(ws) > 30:
+                    sec += f"\n（全 {len(ws)} 作品・全一覧は[[entities_map/index|実体索引 体系版]]参照）\n"
+                p.write_bytes((a.rstrip() + sec).encode("utf-8"))
+        # 体系版索引: entities_map/（類型別・ページ分割 60 件・創作 cross-ref 付き）
+        emap = CONTENT / "entities_map"
+        emap.mkdir(exist_ok=True)
+        for old in emap.glob("*.md"):
+            old.unlink()
+        emap_idx = ["---", 'title: "実体索引 体系版"', "run: publish", "---", "",
+                    "# 実体索引 体系版（類型別細分）", "",
+                    "実体を類型別に細分し、各実体の関連創作（作品ページ）への被リンク数を併記。", ""]
+        for tname in sorted(by_type):
+            slugs0 = [(t, s) for t, s in by_type[tname]]
+            pages = [slugs0[i:i + 60] for i in range(0, len(slugs0), 60)]
+            for pi, grp in enumerate(pages, 1):
+                fn = f"{_slugN(tname)}_{pi}.md" if len(pages) > 1 else f"{_slugN(tname)}.md"
+                body = ["---", f'title: "実体索引 体系版 {tname}"', "run: publish", "---", "",
+                        f"# 類型: {tname}（{len(slugs0)} 件・{pi}/{len(pages)} ページ）", ""]
+                for term, sl0 in grp:
+                    nw = len(by_ent_works.get(sl0, []))
+                    body.append(f"- [[entities/{sl0}|{term}]]" + (f" — 創作 {nw} 本" if nw else ""))
+                nav = ["", "---", ""]
+                for q in range(1, len(pages) + 1):
+                    f2 = f"{_slugN(tname)}_{q}.md" if len(pages) > 1 else f"{_slugN(tname)}.md"
+                    nav.append(f"[[entities_map/{f2}|{q}]]" if q != pi else f"**{q}**")
+                body += [" ".join(nav), "", "[[entities_map/index|体系版 トップ]] ／ [[entities_index|実体索引]]", ""]
+                (emap / fn).write_text("\n".join(body), encoding="utf-8")
+            emap_idx.append(f"- [[entities_map/{_slugN(tname)}|{tname}]]（{len(by_type[tname])} 件）")
+        # 創作 cross-ref（全 6453 作品を被リンク有無に関わらず全列挙・類型群）
+        emap_idx += ["", "## 創作 全作品 cross-ref（漏れなき収録保証）", ""]
+        unlinked = sorted(k for k, v in wlinks.items() if not v)
+        groups: dict = {}
+        for wslug in sorted(w_titles):
+            g = w_cats.get(wslug, "その他創作")
+            groups.setdefault(g, []).append(wslug)
+        for g, ws0 in sorted(groups.items(), key=lambda x: -len(x[1])):
+            emap_idx.append(f"### {g}（{len(ws0)} 作品）")
+            emap_idx.append("")
+            for i0 in range(0, len(ws0), 60):
+                emap_idx.append("　" + " ／ ".join(
+                    f"[[works/{k}|{w_titles[k]}]]" for k in ws0[i0:i0 + 60]))
+                emap_idx.append("")
+        emap_idx += ["", f"（実体から直接リンクされない作品 {len(unlinked)} 本も本書記に漏れなく収録。各作品は [[works_index/{w_cats.get(unlinked[0], 'その他創作')}|類型索引]]・[[works_top|創作索引]]・[[widx_authors|作者索引]]・[[widx_units|篇索引]] からも到達可能です）", ""] if unlinked else ["", "（全作品が実体ページから被リンクされています）", ""]
+        (emap / "index.md").write_text("\n".join(emap_idx), encoding="utf-8")
+        ei = CONTENT / "entities_index.md"
+        ec0 = ei.read_text(encoding="utf-8")
+        if "体系版" not in ec0:
+            ei.write_text(ec0.rstrip() + "\n\n→ 体系版（類型別細分・創作 cross-ref 全作品収録）: [[entities_map/index|実体索引 体系版]]\n", encoding="utf-8")
         # entities/ フォルダノート
         (CONTENT / "entities" / "index.md").write_bytes(("\n".join(
             ["---", 'title: "実体索引（トップ）"', "run: publish", "---", "",
