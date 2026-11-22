@@ -322,16 +322,21 @@ def main() -> int:
     if cands:
         wrun = cands[-1]
         wentries = []
-        for p in sorted((L1 / "runs" / wrun / "works").glob("*.md")):
-            txt = p.read_bytes().decode("utf-8", "replace")
-            tm = re.search(r'title:\s*"([^"]+)"', txt)
-            am = re.search(r'author:\s*"([^"]+)"', txt)
-            ym = re.search(r'type:\s*"([^"]+)"', txt)
-            emit(p, CONTENT / "works" / p.name, (tm.group(1) if tm else p.stem),
-                 {"link_audit": wrun})
-            wentries.append((tm.group(1) if tm else p.stem,
-                             am.group(1) if am else "",
-                             ym.group(1) if ym else ""))
+        _seen_wslug: set = set()
+        for _wr in cands:
+            for p in sorted((L1 / "runs" / _wr / "works").glob("*.md")):
+                if p.stem in _seen_wslug:
+                    continue
+                _seen_wslug.add(p.stem)
+                txt = p.read_bytes().decode("utf-8", "replace")
+                tm = re.search(r'title:\s*"([^"]+)"', txt)
+                am = re.search(r'author:\s*"([^"]+)"', txt)
+                ym = re.search(r'type:\s*"([^"]+)"', txt)
+                emit(p, CONTENT / "works" / p.name, (tm.group(1) if tm else p.stem),
+                     {"link_audit": _wr})
+                wentries.append((tm.group(1) if tm else p.stem,
+                                  am.group(1) if am else "",
+                                  ym.group(1) if ym else ""))
         for p in sorted((L1 / "runs" / wrun / "index").glob("*.md")):
             tm = re.search(r'title:\s*"([^"]+)"', p.read_bytes().decode("utf-8", "replace"))
             emit(p, CONTENT / "works_index" / p.name, tm.group(1) if tm else p.stem,
