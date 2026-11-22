@@ -6,6 +6,7 @@
 progress: data/yuragi_worksjudge_progress.txt（ref 済行）
 """
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -14,8 +15,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import extract_yuragi_allusions as ex
 
 W = Path(ex.__file__).resolve().parent.parent
-PROG = W / "data" / "yuragi_worksjudge_progress.txt"
-OUTJ = W / "data" / "yuragi_works_judged.jsonl"
+CANDS = Path(os.environ.get("YJ_CANDS", W / "data/yuragi_works_candidates.json"))
+PROG = Path(os.environ.get("YJ_PROG", W / "data/yuragi_worksjudge_progress.txt"))
+OUTJ = Path(os.environ.get("YJ_OUTJ", W / "data/yuragi_works_judged.jsonl"))
 
 PROMPT = """あなたは創作索引監査人です。以下は同一スレの全文コーパスから抽出した未収録投稿 {N} 件です。各投稿に「作品として数えうる創作的記述」（詩・歌詞・短編・小説断片・設定資料・劇中作品文・伝承文・格言集 等）があるか判定してください。
 BBS の会話・雑談・連絡・実在作品の紹介・一字書き込み・返信のみの投稿は creative=false。
@@ -43,7 +45,7 @@ def jl(p: Path):
 
 
 def main():
-    cands = json.loads((W / "data/yuragi_works_candidates.json").read_text(encoding="utf-8"))
+    cands = json.loads(CANDS.read_text(encoding="utf-8"))
     # 全文を structured.jsonl から復元（head は先頭 220 字のみ）
     posts: dict = {}
     for uid in sorted({c["uid"] for c in cands}):

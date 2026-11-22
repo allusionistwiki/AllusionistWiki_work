@@ -136,3 +136,5 @@ python scripts/extract_yuragi_allusions.py --uids <uids...> --run-dir <run_dir> 
 - 2026-11-22 works 単一化・linkfix 恒久網: works 面全面掃除→供給一元化＋normkey(記号・長音符・括弧除去・グリフ変異)重複は品質優先（unit ref 500×+link 120×+byte 数）で単一統合（7,087→7,070、重複 14→0）。`scripts/linkfix_yuragi.py`（standalone 壊リンク収束：remap→クロス検索→テキスト化、原文不変）を chain_Q に恒久組み込み。解析面 壊リンク 0。site 8333e79b5。
 - 2026-11-22 Lane W: 篇横断対象名（2 篇以上）セクションを AE 実体ページへのリンク付きへ刷新（AE stem 照合・全篇再構築方式、162/180 篇に反映）。壊リンク監査を allusions 面へ拡大し 0 確認。
 - 2026-11-22 AE 面 100 件無作為全件実読監査: 逐語引用・ref 出典・構造（同一名クロ・作中創作リンク・篇横断）すべて 100/100 正常。精度監査累計 = entities 400 件＋AE 100 件 = **500 件 100% 一致**（ユーザー基準 400 件・99% 超過充足）。
+- 2026-11-22 Lane P4 起動: 未収録残 30,239 件から緩和スクリーニング（score>=2）で第 2 候補 2,330 件抽出 → Strata 直列 LLM 判定（chain_P4_judge.sh、progress yuragi_worksjudge_p4_progress.txt）。judged 台帳パラメータ化（YJ_CANDS/YJ_PROG/YJ_OUTJ）で第 2 波対応恒久化。
+- 2026-11-22 統計ページに解析面ダッシュボード恒久追加（面別ページ数・生成方式・精度監査 500 件 100% 実績・CN 0・壊リンク 0）。site 7a4d61d87。

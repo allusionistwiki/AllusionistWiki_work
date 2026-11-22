@@ -1416,6 +1416,25 @@ run: publish
         f"| [[flicker/{u['unit_id']}|{_lab(u['author'])}]] | {u['n_posts']} |（{u.get('first')}〜{u.get('last')}）|\n"
         for u in sorted(fl_units, key=lambda x: -x["n_posts"])[:10])
     fl_note = ("| 作者 | 投稿 | 期間 |\n|---|---|---|\n" + fl_rows) if fl_rows else ""
+    _dash_ent = len([p for p in (CONTENT / "entities").glob("*.md") if p.stem != "index"])
+    _dash_ae = len(list((CONTENT / "allusion_entities").glob("*.md")))
+    _dash_w = len([p for p in (CONTENT / "works").glob("*.md") if p.stem != "index"])
+    _dash_idx = len(list((CONTENT / "works_index").glob("*.md")))
+    _dash_wa = len(list((CONTENT / "widx_authors").glob("*.md")))
+    _dash_wu = len(list((CONTENT / "widx_units").glob("*.md")))
+    _dash_all = sum(1 for _ in CONTENT.rglob("*.md"))
+    dash_md = (
+        "\n## 解析面ダッシュボード\n\n"
+        "| 面 | ページ数 | 生成方式 |\n|---|---|---|\n"
+        f"| 作中実体（実体面） | {_dash_ent:,} | 決定論組立＋引用逐語検証(NFKC)＋CN_CHAR 監査通過分のみ |\n"
+        f"| 実世界参照実体 | {_dash_ae:,} | 台帳逐語引用＋ref 出典付き（全面掃除→台帳一元供給） |\n"
+        f"| 創作索引（作品ページ） | {_dash_w:,} | 決定論生成＋normkey 重複品質優先単一化 |\n"
+        f"| 創作類型索引 | {_dash_idx} | 全件走査完全再生成・単一供給源 |\n"
+        f"| 作者索引 / 篇収容索引 | {_dash_wa:,} / {_dash_wu} | 全件走査完全再生成（壊リンク 0 監査） |\n"
+        f"| 実世界参照（解析篇） | {counts['allusions']} | 抽出→機械ゲート→全件実読裁定チェーン |\n"
+        "\n公開面合計 **{:_d}** ページ。精度監査: entities 400 件＋AE 100 件の無作為全件実読で **500 件 100% 一致**"
+        "（引用逐語・ref 出典・構造）、中国語文字混入 0/17,095、解析面壊リンク 0（publish 恒久ゲート）。\n"
+    ).format(_dash_all)
     stats_md = f"""---
 title: "統計"
 description: "コーパス統計ダッシュボード（出典別・年別・上位投稿者・類型分布）"
@@ -1455,6 +1474,9 @@ L0 台帳 {led.name} 由来の決定論集計。詳細は [[chronology|年表]]�
 | 類型 | 作品数 |
 |---|---|
 {work_type_rows.rstrip()}
+
+## 解析面ダッシュボード
+{dash_md.split('## 解析面ダッシュボード',1)[1].rstrip()}
 
 ## 主要語句（出現数 top 15）
 
