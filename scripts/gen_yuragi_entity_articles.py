@@ -53,6 +53,10 @@ def jl(p: Path):
 
 def collect_candidates() -> dict:
     cands: dict = {}
+    seed2 = W / "data" / "yuragi_k2_seed.json"
+    if seed2.is_file():
+        for s0 in json.loads(seed2.read_text(encoding="utf-8")):
+            cands[s0["term"]] = s0.get("why", "K2裁定")
     seed = ["ペレテケンヌル", "マジケット", "ラルビット条約", "新東京", "オクトパス・ブレイバーズ",
             "アルカェ・レダーナ", "PTS", "シャーネスの風", "ダミー・メサイア", "猫の国",
             "レーヴェン・ケーニッヒ", "サカームトーアー・クラウド", "アレノサカームト"]
