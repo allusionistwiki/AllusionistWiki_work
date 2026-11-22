@@ -1738,6 +1738,31 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
             _p.write_text(_t2, encoding="utf-8")
     print(f"[linkfix] remapped={_fixed} dropped={_dropped}")
 
+    # 2026-11-23 恒久安全網: 改行正規化（CRLF・単独 CR → LF）＋ HTML コメント除去
+    # 引用逐語の非表示マーカー block HTML comment と多重 CR が結合すると
+    # Quartz html プロセッサが null.data で full build を落とす（CI run 45070737369 実測）。
+    # コメント除去は描画上同一（コメント本文は元々非表示）の決定論変換。
+    _nlfix = 0
+    for _pn in CONTENT.rglob("*.md"):
+        _b = _pn.read_bytes()
+        _nb = _b.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+        if b"<!--" in _nb:
+            _t = re.sub(r"<!--.*?-->", "", _nb.decode("utf-8"), flags=re.S)
+            _ls = []
+            for _l in _t.split("\n"):
+                _s = _l.strip()
+                if _s in (">", ""):
+                    if _ls and _ls[-1] == "":
+                        continue
+                    _ls.append("")
+                else:
+                    _ls.append(_l)
+            _nb = re.sub(r"\n{3,}", "\n\n", "\n".join(_ls)).encode("utf-8")
+        if _nb != _b:
+            _pn.write_bytes(_nb)
+            _nlfix += 1
+    print(f"[nlfix] crlf_comment_normalized={_nlfix}")
+
     print(json.dumps(counts, ensure_ascii=False))
     return 0
 

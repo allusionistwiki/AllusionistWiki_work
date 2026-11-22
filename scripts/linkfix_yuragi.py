@@ -110,8 +110,20 @@ def main():
             return mo.group(0)
         t2 = re.sub(r"(\[\[)([^\]|]+)(\|[^\]]*)?\]\]", rep, t)
         if t2 != t:
-            p.write_text(t2, encoding="utf-8")
+            p.write_text(t2, encoding="utf-8", newline="\n")
     print(f"[linkfix-standalone] remapped={fixed} textified={textified}")
+
+
+    # 2026-11-23 恒久安全網: 書き出し後の改行正規化（CRLF・単独 CR → LF）
+    # Quartz の block HTML comment 内で \r\r\n が入ると html プロセッサが null.data で落ちる
+    nlfix = 0
+    for pn in CONTENT.rglob("*.md"):
+        b = pn.read_bytes()
+        if b"\r" in b:
+            pn.write_bytes(b.replace(b"\r\n", b"\n").replace(b"\r", b"\n"))
+            nlfix += 1
+    print(f"[nlfix-standalone] crlf_normalized={nlfix}")
+
 
 if __name__ == "__main__":
     main()
