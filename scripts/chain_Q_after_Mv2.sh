@@ -12,4 +12,5 @@ sleep 60
 echo "[chain] Q 決定論組立"; python scripts/gen_yuragi_intra_pages.py >> data/log_chainQ.txt 2>&1
 echo "[chain] 索引再生成 R/S"; python scripts/gen_yuragi_works_index_r.py >> data/log_chainQ.txt 2>&1; python scripts/gen_yuragi_widx_s.py >> data/log_chainQ.txt 2>&1
 echo "[chain] publish"; python scripts/publish_yuragi_site.py >> data/log_chainQ.txt 2>&1
+echo "[chain] linkfix"; python scripts/linkfix_yuragi.py >> data/log_chainQ.txt 2>&1
 cd /c/Users/d5dx/Downloads/Code/YuragiWiki && git add -A && git commit -q -m "M v2 完走統合: 作中实体 厳格台帳（引用逐語検証+NFKC+CN_CHAR 通過分）索引込み" && git push -q origin HEAD && echo "[chain] site pushed $(git log --oneline -1)"

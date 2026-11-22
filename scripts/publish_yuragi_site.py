@@ -326,21 +326,33 @@ def main() -> int:
     if cands:
         wrun = cands[-1]
         wentries = []
-        _seen_wslug: set = set()
+        # 恒久: works 面全面掃除→供給一元化＋normkey 重複は品質優先（unit ref・リンク数）で単一化
+        import unicodedata as _uw
+        def _nkW(s):
+            s = _uw.normalize("NFKC", str(s)).lower()
+            for ch in ("・", "：", ":", "/", "?", "!", "　", "\\", "＆", "＃", "％", "_", "[", "]", "ー"):
+                s = s.replace(ch, "")
+            return s
+        for _ow in (CONTENT / "works").glob("*.md"):
+            _ow.unlink()
+        _wpick: dict = {}
         for _wr in cands:
             for p in sorted((L1 / "runs" / _wr / "works").glob("*.md")):
-                if p.stem in _seen_wslug:
-                    continue
-                _seen_wslug.add(p.stem)
                 txt = p.read_bytes().decode("utf-8", "replace")
-                tm = re.search(r'title:\s*"([^"]+)"', txt)
-                am = re.search(r'author:\s*"([^"]+)"', txt)
-                ym = re.search(r'type:\s*"([^"]+)"', txt)
-                emit(p, CONTENT / "works" / p.name, (tm.group(1) if tm else p.stem),
-                     {"link_audit": _wr})
-                wentries.append((tm.group(1) if tm else p.stem,
-                                  am.group(1) if am else "",
-                                  ym.group(1) if ym else ""))
+                _score = len(txt) + 500 * txt.count("[[full/") + 120 * txt.count("[[")
+                _nk = _nkW(p.stem)
+                cur0 = _wpick.get(_nk)
+                if cur0 is None or _score > cur0[0]:
+                    _wpick[_nk] = (_score, p, _wr, txt)
+        for _nk, (_score, p, _wr, txt) in sorted(_wpick.items()):
+            tm = re.search(r'title:\s*"([^"]+)"', txt)
+            am = re.search(r'author:\s*"([^"]+)"', txt)
+            ym = re.search(r'type:\s*"([^"]+)"', txt)
+            emit(p, CONTENT / "works" / p.name, (tm.group(1) if tm else p.stem),
+                 {"link_audit": _wr})
+            wentries.append((tm.group(1) if tm else p.stem,
+                              am.group(1) if am else "",
+                              ym.group(1) if ym else ""))
         # 索引は完全再生成: site 全件走査の最新 index 供給 run のみ採用（旧ページ全掃除）
         for _oldix in (CONTENT / "works_index").glob("*.md"):
             _oldix.unlink()
@@ -1567,7 +1579,7 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
         for _vc, _vt in _variant.items():
             if _vc in s:
                 s = s.replace(_vc, _vt)
-        for ch in ("・", "：", ":", "/", "?", "!", "　", "\\", "＆", "＃", "％", "_"):
+        for ch in ("・", "：", ":", "/", "?", "!", "　", "\\", "＆", "＃", "％", "_", "ー"):
             s = s.replace(ch, "")
         return s.lower()
 
