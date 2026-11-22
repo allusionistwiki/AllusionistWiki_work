@@ -1,0 +1,22 @@
+---
+title: "魔法少女隊GOYURA"
+run: 20261122T2100_l1en
+term: "魔法少女隊GOYURA"
+type: "作中实体"
+count: 1
+link_audit: "20261122T2100_l1en_deterministic"
+---
+
+# 魔法少女隊GOYURA（ゆらぎの神話）
+
+## 使用状況（篇横断・逐語引用＋ref 付き）
+
+### [[units/YJ-T059|YJ-T059]]
+
+長老ム・ムーをはじめとする元魔法少女9人による組織。きゆらの最大の敵として宣戦布告した。
+> 「これが魔法少女きゆらの最大の敵、(自称)魔法少女隊GOYURAである。」 [[full/YJ-050#post-50|YJ-050:50]]
+
+---
+
+※ 本記事は作中侧抽出（Lane M）台帳からの決定論組立（v0.14 創作活動基準）。
+→ [[entities_index|実体索引]] ／ [[entities_map/index|体系版索引]]
