@@ -384,6 +384,10 @@ def main() -> int:
         icands = sorted(p.name for p in (L1 / "runs").iterdir() if p.is_dir() and p.name.endswith("_l1widx"))
         if icands:
             irun = icands[-1]
+            # 作者・篇収容索引は完全再生成（旧ページ全掃除後に最新供給源のみ）
+            for _d in ("widx_authors", "widx_units"):
+                for _old in (CONTENT / _d).glob("*.md"):
+                    _old.unlink()
             for p in sorted((L1 / "runs" / irun / "author_index").glob("*.md")):
                 if p.stem == "index":
                     continue
