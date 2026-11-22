@@ -523,6 +523,7 @@ def main() -> int:
         pass
     AL_RUN = "20261122T0630_l1cnglyph"
     n_allud_pages = 0
+    AE_N = len(list((CONTENT / "allusion_entities").glob("*.md")))
     KIND_ORDER = ["神話", "宗教", "文学", "音楽", "映像", "ゲーム", "歴史", "地理", "科学", "人物", "ブランド", "その他"]
     adirs = [d for d in (L1 / "runs" / r / "allusions" for r in AL_RUNS) if d.is_dir()]
     if adirs:
@@ -828,9 +829,10 @@ def main() -> int:
 
         ae = CONTENT / "allusion_entities"
         ae.mkdir(exist_ok=True)
-        d_multi = {k7: v7 for k7, v7 in ents_q.items() if len(v7["units"]) >= 2}
         used_slugs: dict = {}
-        for k7, v7 in sorted(d_multi.items()):
+        d_multi = {k7: v7 for k7, v7 in ents_q.items() if len(v7["units"]) >= 2}
+        d_single = {k7: v7 for k7, v7 in ents_q.items() if len(v7["units"]) == 1}
+        for k7, v7 in sorted(d_multi.items(), key=lambda x: (-len(x[1]["units"]), x[0])):
             kinds7 = v7["kinds"]
             best7 = max(kinds7.items(), key=lambda x: x[1])[0] if kinds7 else "その他"
             us7 = sorted(v7["units"].items())
@@ -855,15 +857,38 @@ def main() -> int:
             body7 += ["---", "",
                       "→ [[allusion_entities/|実世界参照 実体索引]] ／ [[allusions_index|実世界参照 索引]] ／ [[allusions_terms|対象名索引]]", ""]
             (ae / f"{slug7}.md").write_text("\n".join(body7), encoding="utf-8")
+        # 単篇のみの対象名も実体記事化（決定論・逐語引用＋ref・LLM 生成なし）
+        for k7, v7 in sorted(d_single.items()):
+            kinds7 = v7["kinds"]
+            best7 = max(kinds7.items(), key=lambda x: x[1])[0] if kinds7 else "その他"
+            us7 = sorted(v7["units"].items())
+            disp7 = v7["disp"]
+            slug7 = _slug7(disp7)
+            used_slugs[slug7] = used_slugs.get(slug7, 0) + 1
+            if used_slugs[slug7] > 1:
+                slug7 = f"{slug7}_{used_slugs[slug7]}"
+            u7, ql7 = us7[0]
+            body7 = [f'---\ntitle: "{disp7}"\nrun: publish\n---', "",
+                     f"# {disp7}（実世界参照 実体）", "",
+                     f"分類: {best7} ／ 出現: 1 篇（{u7}）", ""]
+            if v7["usage"]:
+                body7 += [v7["usage"], ""]
+            body7 += ["## 使用状況（引用逐語・ref 付き）", ""]
+            for r7, q7 in ql7[:3]:
+                pno7 = r7.split(":")[-1] if ":" in r7 else ""
+                body7.append(f"> 「{q7[:200]}」 [[full/{u7}#post-{pno7}|{r7}]]")
+            body7 += ["", "---", "",
+                      "→ [[allusion_entities/|実世界参照 実体索引]] ／ [[allusions_index|実世界参照 索引]]", ""]
+            (ae / f"{slug7}.md").write_text("\n".join(body7), encoding="utf-8")
         byk: dict = {}
-        for k7, v7 in d_multi.items():
+        for k7, v7 in ents_q.items():
             kinds7 = v7["kinds"]
             best7 = max(kinds7.items(), key=lambda x: x[1])[0] if kinds7 else "その他"
             byk.setdefault(best7, []).append((v7["disp"], len(v7["units"])))
         ix7 = [f'---\ntitle: "実世界参照 実体索引"\nrun: publish\n---', "",
-               "# 実世界参照 実体索引（2 篇以上）", "",
-               f"作中に持ち込まれた**実世界の対象名**の実体化: {len(d_multi)} 名（全対象名 {len(ents_q)}・単篇のみの名は対象名索引/主題分類に収録）。各ページは使用状況の逐語引用＋ref 出典付き。", "",
-               "収録基準: 2 篇以上に出現する実世界対象名。監査収束済（drop 反映）。"]
+               "# 実世界参照 実体索引（全対象名 実体化）", "",
+               f"作中に持ち込まれた**実世界の対象名**の実体化: **{len(ents_q)} 名（全対象名を記事化）** — 2 篇以上 {len(d_multi)} 名／単篇のみ {len(d_single)} 名。各ページは使用状況の逐語引用＋ref 出典付き（決定論生成・drop 反映済）。", "",
+               "収録基準: 監査収束済の全実世界対象名。2 篇以上は篇横断一覧、単篇は該当篇の使用状況と引用を収録。"]
         for b7 in sorted(byk, key=lambda x: -len(byk[x])):
             ix7.append("")
             ix7.append(f"## {b7}（{len(byk[b7])} 名）")
@@ -876,7 +901,7 @@ def main() -> int:
         if ep.is_file():
             ec = ep.read_text(encoding="utf-8", errors="replace")
             if "実世界参照 実体" not in ec:
-                ep.write_text(ec.rstrip() + f"\n\n## 実世界参照 実体（{len(d_multi)} 名）\n\n上記は作中実体群。実世界参照の対象名（神話・文学作品・実在人物・ゲーム 他）は [[allusion_entities/|実世界参照 実体索引]] に実体化しています。\n\n→ カバレッジ: 実世界参照 対象名 {len(ents_q)} — 2 篇以上 {len(d_multi)} 名を実体化／単篇のみは [[allusions_terms|対象名索引]]・[[allusions_map|主題分類索引]] に収録。創作記述は works 面（作品ページ）で実体化済。\n", encoding="utf-8")
+                ep.write_text(ec.rstrip() + f"\n\n## 実世界参照 実体（{len(ents_q)} 名・全対象名）\n\n上記は作中実体群。実世界参照の対象名（神話・文学作品・実在人物・ゲーム 他）は [[allusion_entities/|実世界参照 実体索引]] に**全件実体化**しています（2 篇以上 {len(d_multi)} 名＋単篇 {len(d_single)} 名・逐語引用＋ref 付き）。創作記述は works 面（作品ページ）で実体化済。\n", encoding="utf-8")
 
     # nav（185 篇索引）
     nav = ["---", 'title: "篇索引"', "run: publish", "---", "", "# 篇索引（185 篇）", ""]
@@ -1055,7 +1080,7 @@ run: publish
 | 日記（flicker） | Hatena Flicker 関連日記 | {n_fl} 作者・{n_fl_posts} 投稿 | [[flicker_index|日記索引]] |
 | 年表 | 月別集計・語句初出 | {date_lo} 〜 {date_hi} | [[chronology|年表]] |
 | 実世界参照（allusions） | 作中の実世界対象（神話・宗教・文学・映像・ゲーム・ブランド 他）への横断参照。逐語引用＋ ref 出典 | {n_allud_pages} 篇 | [[allusions_index|実世界参照索引]] |
-| 実世界参照 実体 | 対象名を記事化（2 篇以上・使用状況引用付き） | 444 名 | [[allusion_entities/|実世界参照 実体索引]] |
+| 実世界参照 実体 | 対象名を全件記事化（使用状況引用付き） | {AE_N} 名 | [[allusion_entities/|実世界参照 実体索引]] |
 
 ## 版（三つの面）
 
@@ -1098,7 +1123,7 @@ run: publish
 
 - 篇横断の名寄せ: [[allusions_terms|対象名索引]]（2 篇以上の対象名）
 - 主題分類: [[allusions_map|主題分類索引]]（神話・文学・学術・ゲーム 等の機械分類）
-- 対象名の記事化: [[allusion_entities/|実世界参照 実体索引]]（2 篇以上の 444 名・使用状況の逐語引用＋ref 付き）
+- 対象名の記事化: [[allusion_entities/|実世界参照 実体索引]]（全対象名 {AE_N} 名・使用状況の逐語引用＋ref 付き）
 - 各篇記事末尾から「この篇の実世界参照一覧」へ相互リンク済み
 
 ## 引用と出典リンク

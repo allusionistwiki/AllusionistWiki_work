@@ -110,3 +110,5 @@ python scripts/extract_yuragi_allusions.py --uids <uids...> --run-dir <run_dir> 
 - 2026-11-22 基準の完全形（ユーザー明示・坂本確認）: wiki 記事化原則=**創作活動があれば記事化**。実在参照は allusion 面、作中創作（坂本型・マジケット・ラルビット条約・新東京・ペレテケンヌル・PTS 等）は entities 面。allusion 側の「作中命名除外」は面側の住み分けであり wiki からの drop ではない。
   - 実態: 坂本=entities 記事化済（14 件）。ギャップ=マジケット/ラルビット条約/新東京/オクトパス・ブレイバーズ/アルカェ・レダーナ/PTS/ペレテケンヌル 等の作中实体が未記事化。
   - 対策: Lane K 起動（gen_yuragi_entity_articles.py）: 監査記録の作中創作候補＋ユーザー明示名 → 原文収集→LLM 生成→LLM 監査（引用逐語/内容一致）→ run 20261122T1200_enK_l1en へ書込み（追加専用）。Lane J 完了検知チェーン（chain_laneK_after_J.sh）で Strata 直列維持。
+- 2026-11-22 Lane L（決定論・実体検索全面化）: 棚卸しで単篇のみの allusion 対象名 2991 名が索引ページにのみ存在し実体記事なしと判明（ユーザー指摘の「実体検索側にすべて記事化」ギャップ）。publish の allusion_entities を**全対象名実体化**に拡張（2 篇以上=篇横断一覧／単篇=該当篇の使用状況＋逐語引用＋ref、LLM 生成なし・drop 反映）。実体索引・entities_index・top/guide のカバレッジ文言を全件実体化へ更新。
+- 2026-11-22 Lane J 完走: 旧 drop 520 件の創作活動基準再裁定 → **368 件 allusion 復帰 / 124 件 drop 維持**。公開 180 篇・site 6e3b4ba53（CI run 監視済）。
