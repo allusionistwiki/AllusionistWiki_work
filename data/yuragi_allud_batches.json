@@ -1,5 +1,5 @@
 {
- "plan": "2026-11-22 LaneA1 抽出 32/32 done（b11 のみ done_pending_audit 維持・T005/T085/T076/T089 185 件=全件実読監査レーン稼働中 2026-11-22 10:00 起動）。公開 174 篇（site de4c31441 CI run78）。Lane A 本体 179 篇収束済。次: b11 監査収束→publish 178 篇→トピック 2 件 drop 監査。Strata は b11 監査レーンが使用中。",
+ "plan": "2026-11-22 LaneA1 全 32/32 done（監査収束込）。公開 178 篇目標。裁定累計 suppressions 143+17 篇一括分。次: 非 LLM レーン。Strata アイドル可。",
  "batches": [
   {
    "id": "b1",
@@ -220,8 +220,8 @@
     "YJ-T089"
    ],
    "posts": 1274,
-   "status": "done_pending_audit",
-   "note": "2026-11-22 06:32 regen (T005/T085/T076/T089 185件) 未全件実読 -> publish 除外"
+   "status": "done",
+   "note": "2026-11-22 全件実読監査 185件→62 drop/123 keep 裁定済・suppressions 143"
   },
   {
    "id": "b12",
