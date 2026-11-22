@@ -1,0 +1,33 @@
+{
+ "audit_date": "2026-11-22T09:20:48+09:00",
+ "auditor": "cron yuragi 常時監査 (awiki2)",
+ "scan_def": "CN-only = U+4E00-U+9FFF not cp932-encodable; quote-internal (「」) exempt; JP-shared 的了叶马乌风飞书东车 excluded",
+ "site_content_files_scanned": 10788,
+ "issue_lines_total": 101,
+ "by_design_rare_kanji_verbatim": 96,
+ "contamination_fixed_now": [
+  {
+   "chain_id": "YJ-T004#g003",
+   "file": "hsyが猛暑の台所で黴びた味噌汁を口にし、第一次地獄開放を連想した記述投稿。"
+  },
+  {
+   "chain_id": "YJ-T027#g008",
+   "file": "作者が戯れる口調で、言語が世界を定義しようとし、世界は変化するのを拒むという対立を記した投稿。"
+  },
+  {
+   "chain_id": "YJ-T027#g013",
+   "file": "作者が戯れの問答で、人類の登場時期を問う声が掛かり、後続のレスまで待つよう求められる様を記した投稿。"
+  },
+  {
+   "chain_id": "YJ-T027#g023",
+   "file": "第一人称の実況で、黄昏が食われ星海の中で蝕まれた腕を見、世界の呑食者の襲来に驚く様子を描く投稿。"
+  },
+  {
+   "chain_id": "YJ-T027#g036",
+   "file": "惰性のある触手が海で氷を売りに出し、海辺が平穏な流転に入っていく様子を諧謔で記した投稿。"
+  }
+ ],
+ "laneB_skip_residual": "5 lines (T004#g003, T027#g008/#g013/#g023/#g036) fixed deterministically with CN_CHAR gate",
+ "b11_regen": "4 篇 185 件 (T005/T085/T076/T089) uncommitted at audit time; ledger -> done_pending_audit, publish excluded pending 全件実読監査",
+ "gate": "CN_CHAR gate passed for all 5 rewrites (quote-internal exempt rule applied)"
+}
