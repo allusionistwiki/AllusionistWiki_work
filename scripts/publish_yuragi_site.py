@@ -870,44 +870,8 @@ def main() -> int:
             mx.append("")
         mx.append("- 索引トップ: [[allusions_index|実世界参照 索引]]")
         (CONTENT / "allusions_map.md").write_text("\n".join(mx), encoding="utf-8")
-        # Lane B6: 各 allusion 篇へ「篇横断対象名」セクションを決定論付与（全対象名の 2 篇以上）
+        # Lane B6: 篇横断対象名セクションは Lane W（AE stem 確定後）でリンク付き生成（下記 AE 生成後ブロック参照）
         multi_keys = {k0 for k0, v0 in term_ix.items() if len(v0["units"]) >= 2}
-        for uid6 in sorted(per_unit):
-            up6 = CONTENT / "allusions" / f"{uid6}.md"
-            if not up6.is_file():
-                continue
-            c6 = up6.read_text(encoding="utf-8", errors="replace")
-            if "篇横断対象名" in c6:
-                continue
-            myterms = []
-            for adir6 in adirs:
-                f6 = adir6 / f"{uid6}.jsonl"
-                if not f6.is_file():
-                    continue
-                s6 = adir6.parent / "suppressions.json"
-                sup6: dict = {}
-                if s6.is_file():
-                    for s in json.loads(s6.read_text(encoding="utf-8")):
-                        kk = str(s.get("term", "")).strip().lower().replace("・", "").replace(" ", "")
-                        sup6[(str(s.get("unit", "")), kk)] = s
-                for l6 in f6.read_text(encoding="utf-8").splitlines():
-                    if not l6.strip():
-                        continue
-                    it6 = json.loads(l6)
-                    t6 = str(it6.get("term", "")).strip()
-                    k6 = t6.strip().lower().replace("・", "").replace(" ", "")
-                    if k6 not in multi_keys:
-                        continue
-                    if sup6.get((uid6, k6), {}).get("action") == "drop":
-                        continue
-                    nu6 = len(term_ix[k6]["units"])
-                    if t6 not in [x[0] for x in myterms]:
-                        myterms.append((t6, nu6))
-            myterms.sort(key=lambda x: (-x[1], x[0]))
-            if not myterms:
-                continue
-            top6 = "・".join(f"{d}（{n}）" for d, n in myterms[:15])
-            up6.write_text(c6.rstrip() + f"\n\n### 篇横断対象名（2 篇以上）\n\n- {top6}\n\n→ 名寄せ: [[allusions_terms|対象名索引]] ／ 主題: [[allusions_map|主題分類索引]]\n", encoding="utf-8")
 
         # Lane C1: topics 記事 ⇄ allusion 対象名の相互参照（決定論・監査 drop 反映済索引照合）
         for tp in sorted((CONTENT / "topics").glob("*.md")):
@@ -1035,6 +999,59 @@ def main() -> int:
             body7 += ["", "---", "",
                       "→ [[allusion_entities/|実世界参照 実体索引]] ／ [[allusions_index|実世界参照 索引]]", ""]
             (ae / f"{slug7}.md").write_text("\n".join(body7), encoding="utf-8")
+        # Lane W（旧 B6）: 篇横断対象名セクションを AE 実体ページへのリンク付きで全篇へ決定論付与
+        import unicodedata as _ww
+        ae_by_title = {}
+        for _apx in sorted(ae.glob("*.md")):
+            if _apx.stem == "index":
+                continue
+            _tmx = _re.search(r'title:\s*"([^"]+)"', _apx.read_text(encoding="utf-8", errors="replace"))
+            if _tmx:
+                ae_by_title.setdefault(_ww.normalize("NFKC", _tmx.group(1)).strip(), _apx.stem)
+        _n_w = 0
+        for uid6 in sorted(per_unit):
+            up6 = CONTENT / "allusions" / f"{uid6}.md"
+            if not up6.is_file():
+                continue
+            c6 = up6.read_text(encoding="utf-8", errors="replace")
+            c6 = _re.sub(r"\n+### 篇横断対象名.*?(?=\n#|\Z)", "", c6, flags=_re.S)
+            myterms = []
+            for adir6 in adirs:
+                f6 = adir6 / f"{uid6}.jsonl"
+                if not f6.is_file():
+                    continue
+                s6 = adir6.parent / "suppressions.json"
+                sup6: dict = {}
+                if s6.is_file():
+                    for s in json.loads(s6.read_text(encoding="utf-8")):
+                        kk = str(s.get("term", "")).strip().lower().replace("・", "").replace(" ", "")
+                        sup6[(str(s.get("unit", "")), kk)] = s
+                for l6 in f6.read_text(encoding="utf-8").splitlines():
+                    if not l6.strip():
+                        continue
+                    it6 = json.loads(l6)
+                    t6 = str(it6.get("term", "")).strip()
+                    k6 = t6.strip().lower().replace("・", "").replace(" ", "")
+                    if k6 not in multi_keys:
+                        continue
+                    if sup6.get((uid6, k6), {}).get("action") == "drop":
+                        continue
+                    nu6 = len(term_ix[k6]["units"])
+                    if t6 not in [x[0] for x in myterms]:
+                        myterms.append((t6, nu6))
+            myterms.sort(key=lambda x: (-x[1], x[0]))
+            if not myterms:
+                continue
+            parts6 = []
+            for d6, n6 in myterms[:15]:
+                stem6 = ae_by_title.get(_ww.normalize("NFKC", d6).strip())
+                if stem6:
+                    parts6.append(f"[[allusion_entities/{stem6}|{d6}（{n6}）]]")
+                else:
+                    parts6.append(f"{d6}（{n6}）")
+            top6 = "・".join(parts6)
+            up6.write_text(c6.rstrip() + f"\n\n### 篇横断対象名（2 篇以上・実体ページ付き）\n\n- {top6}\n\n→ 名寄せ: [[allusions_terms|対象名索引]] ／ 主題: [[allusions_map|主題分類索引]]\n", encoding="utf-8")
+            _n_w += 1
         byk: dict = {}
         for k7, v7 in ents_q.items():
             kinds7 = v7["kinds"]
@@ -1088,6 +1105,7 @@ run: publish
         "topics": len(list((CONTENT / "topics").glob("*.md"))),
         "authors": len(list((CONTENT / "authors").glob("*.md"))),
         "linked_refs": len(ref_url),
+        "laneW_terms_linked": _n_w,
     }
 
     # ---- flicker 層（Hatena Flicker 日記・LLM 解析記事＋原文逐語・permalink 付き） ----
