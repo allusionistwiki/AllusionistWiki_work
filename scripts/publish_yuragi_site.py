@@ -423,6 +423,10 @@ def main() -> int:
     if ent_run and ENTITIES_RUN and ENTITIES_RUN not in cands:
         ent_inherit.append(ENTITIES_RUN)
     ent_slugs = {}
+    # 恒久: entities 面は全面掃除→供給 run 一元再生成（残留ファイルによる幽霊公開を根絶）
+    for _p in (CONTENT / "entities").glob("*.md"):
+        if _p.stem != "index":
+            _p.unlink()
     if ent_run:
         import unicodedata
         def _slugify_norm(s):
@@ -438,16 +442,27 @@ def main() -> int:
             if tm:
                 ent_slugs[_slugify_norm(tm.group(1))] = p.stem
         emit_slugs = {}
+        _meta_re = _re.compile(r"抽出対象外|抽出対象とはしない")
         for p in sorted(src_dir.glob("*.md")):
             fm = p.read_bytes().decode("utf-8", "replace")
             tm = _re.search(r'term:\s*"([^"]+)"', fm)
             term = tm.group(1) if tm else p.stem
+            if _meta_re.search(fm):
+                _out = CONTENT / "entities" / p.name
+                if _out.exists():
+                    _out.unlink()  # メタ自己除外記述記事は公開面から除去
+                continue
             emit(p, CONTENT / "entities" / p.name, term, {"link_audit": ENTITIES_AUDIT})
             emit_slugs[p.stem] = term
         for stem, p in sorted(inherited.items()):
             if stem in emit_slugs:
                 continue
             fm = p.read_bytes().decode("utf-8", "replace")
+            if _meta_re.search(fm):
+                _out = CONTENT / "entities" / stem + ".md"
+                if _out.exists():
+                    _out.unlink()
+                continue
             tm = _re.search(r'term:\s*"([^"]+)"', fm)
             term = tm.group(1) if tm else stem
             emit(p, CONTENT / "entities" / p.name, term, {"link_audit": ENTITIES_AUDIT})
@@ -950,6 +965,9 @@ def main() -> int:
 
         ae = CONTENT / "allusion_entities"
         ae.mkdir(exist_ok=True)
+        # 恒久: AE 面も全面掃除→台帳一元再生成（残留幽霊ページを根絶）
+        for _ap in ae.glob("*.md"):
+            _ap.unlink()
         used_slugs: dict = {}
         d_multi = {k7: v7 for k7, v7 in ents_q.items() if len(v7["units"]) >= 2}
         d_single = {k7: v7 for k7, v7 in ents_q.items() if len(v7["units"]) == 1}
@@ -1473,6 +1491,57 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
         _t1 = _jp(_t0)
         if _t1 != _t0:
             _p.write_text(_t1, encoding="utf-8")
+
+    # 恒久 リンク修復網: 全 wiki リンクを現実ファイルへ検証・remap（slug 旧来流残留を根絶）
+    import unicodedata as _udx
+    _folders = {}
+    for _d in CONTENT.iterdir():
+        if _d.is_dir():
+            _folders[_d.name] = {q.stem: q for q in _d.glob("*.md")}
+    _folders["."] = {q.stem: q for q in CONTENT.glob("*.md")}
+
+    def _normkey(s):
+        s = _udx.normalize("NFKC", s)
+        for ch in ("・", "：", ":", "/", "?", "!", "　", "\\", "＆", "＃", "％", "_"):
+            s = s.replace(ch, "")
+        return s.lower()
+
+    _idx = {f: {_normkey(k): k for k in d} for f, d in _folders.items()}
+    import re as _rx
+    _fixed = _dropped = 0
+    for _p in CONTENT.rglob("*.md"):
+        _t = _p.read_text(encoding="utf-8", errors="replace")
+        if "[[" not in _t:
+            continue
+        def _rep(mo):
+            nonlocal _fixed, _dropped
+            if mo.group(2).startswith("#"):
+                return mo.group(0)  # ページ内アンカーは対象外
+            tgt = mo.group(2).split("#")[0].strip()
+            pipe = mo.group(3) or ""
+            parts = tgt.split("/", 1)
+            fld = "." if len(parts) == 1 else parts[0]
+            base = parts[-1]
+            dmap = _folders.get(fld)
+            if dmap is None:
+                return mo.group(1)  # 対象フォルダ自体が無ければ原文維持（表示のみ）
+            if base in dmap:
+                return mo.group(0)
+            lk = _normkey(base)
+            ik = _idx.get(fld, {}).get(lk)
+            if ik is None and lk:
+                cand = [k for k in _idx.get(fld, {}) if lk in k]
+                if len(cand) == 1:
+                    ik = cand[0]
+            if ik:
+                _fixed += 1
+                return f"{mo.group(1)}{fld if fld != '.' else ''}{'' if fld=='.' else '/'}{ik}{pipe}]]"
+            _dropped += 1
+            return ik or mo.group(1)  # 置換不能ならリンク記号を剥がす
+        _t2 = _rx.sub(r"(\[\[)([^\]|]+)(\|[^\]]*)?\]\]", _rep, _t)
+        if _t2 != _t:
+            _p.write_text(_t2, encoding="utf-8")
+    print(f"[linkfix] remapped={_fixed} dropped={_dropped}")
 
     print(json.dumps(counts, ensure_ascii=False))
     return 0
