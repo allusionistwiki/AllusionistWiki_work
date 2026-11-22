@@ -1160,10 +1160,10 @@ run: publish
                 _n_cross += 1
             _ta = _pa.read_text(encoding="utf-8", errors="replace")
             if "同一名（別面）" not in _ta:
-                _tail2 = _sep * 2 + "## 同一名（別面）" + _sep * 2 + "作中实体面に同一名の独立記事: [[entities/" + _es + "|" + _term + "]]" + _sep
+                _tail2 = _sep * 2 + "## 同一名（別面）" + _sep * 2 + "作中実体面に同一名の独立記事: [[entities/" + _es + "|" + _term + "]]" + _sep
                 _pa.write_text(_ta.rstrip() + _tail2, encoding="utf-8")
                 _n_cross += 1
-        # topics ⇄ 实体面（entities/allusion_entities）同一名セクション
+        # topics ⇄ 実体面（entities/allusion_entities）同一名セクション
         _n_top = 0
         for _tp in (CONTENT / "topics").glob("*.md"):
             if _tp.stem == "index":
@@ -1179,15 +1179,15 @@ run: publish
             _ax = _ae_ix.get(_w)
             if not (_ex or _ax):
                 continue
-            if "实体面（同一名）" in _tt:
+            if "実体面（同一名）" in _tt:
                 continue
             _sep2 = chr(10)
             _link = []
             if _ex:
-                _link.append("[[entities/" + _ex + "|作中实体面]]")
+                _link.append("[[entities/" + _ex + "|作中実体面]]")
             if _ax:
                 _link.append("[[allusion_entities/" + _ax + "|実世界参照面]]")
-            _tp.write_text(_tt.rstrip() + _sep2 * 2 + "## 实体面（同一名）" + _sep2 * 2 + "／ ".join(_link) + _sep2, encoding="utf-8")
+            _tp.write_text(_tt.rstrip() + _sep2 * 2 + "## 実体面（同一名）" + _sep2 * 2 + "／ ".join(_link) + _sep2, encoding="utf-8")
             _n_top += 1
         print("laneT topics-cross:", _n_top)
         print("laneT cross-links:", _n_cross)
@@ -1464,6 +1464,15 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
 全量監査収束の原則・公開ゲート・拡張路線）。
 """
     (CONTENT / "about.md").write_bytes(about.encode("utf-8"))
+
+    # 恒久 CN 安全網: 生成された全コンテンツページを日本語標準字体へ正規化（簡体字混入 0 を保証）。
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from cn_gate import jp_fix as _jp
+    for _p in CONTENT.rglob("*.md"):
+        _t0 = _p.read_text(encoding="utf-8", errors="replace")
+        _t1 = _jp(_t0)
+        if _t1 != _t0:
+            _p.write_text(_t1, encoding="utf-8")
 
     print(json.dumps(counts, ensure_ascii=False))
     return 0
