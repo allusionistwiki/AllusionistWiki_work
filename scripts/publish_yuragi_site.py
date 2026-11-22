@@ -1163,6 +1163,33 @@ run: publish
                 _tail2 = _sep * 2 + "## 同一名（別面）" + _sep * 2 + "作中实体面に同一名の独立記事: [[entities/" + _es + "|" + _term + "]]" + _sep
                 _pa.write_text(_ta.rstrip() + _tail2, encoding="utf-8")
                 _n_cross += 1
+        # topics ⇄ 实体面（entities/allusion_entities）同一名セクション
+        _n_top = 0
+        for _tp in (CONTENT / "topics").glob("*.md"):
+            if _tp.stem == "index":
+                continue
+            _tt = _tp.read_text(encoding="utf-8", errors="replace")
+            _tm2 = _re2.search(r'term:\s*"([^"]+)"', _tt)
+            if not _tm2:
+                _tm2 = _re2.search(r'title:\s*"([^"]+)"', _tt)
+            if not _tm2:
+                continue
+            _w = _tm2.group(1).strip()
+            _ex = _ent_ix.get(_w)
+            _ax = _ae_ix.get(_w)
+            if not (_ex or _ax):
+                continue
+            if "实体面（同一名）" in _tt:
+                continue
+            _sep2 = chr(10)
+            _link = []
+            if _ex:
+                _link.append("[[entities/" + _ex + "|作中实体面]]")
+            if _ax:
+                _link.append("[[allusion_entities/" + _ax + "|実世界参照面]]")
+            _tp.write_text(_tt.rstrip() + _sep2 * 2 + "## 实体面（同一名）" + _sep2 * 2 + "／ ".join(_link) + _sep2, encoding="utf-8")
+            _n_top += 1
+        print("laneT topics-cross:", _n_top)
         print("laneT cross-links:", _n_cross)
     except Exception as _e:
         print("laneT skip:", type(_e).__name__, _e)
