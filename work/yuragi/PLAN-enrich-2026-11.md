@@ -107,3 +107,6 @@ python scripts/extract_yuragi_allusions.py --uids <uids...> --run-dir <run_dir> 
   - 実施: ①恒久 memory 更新 ②Lane E 実読で drop した 9 件（塩漬け/納豆×2/納豆糸/シャーネスの風/スマホ/遺伝子改造/SMG/フクロウ）取消 ③抽出プロンプト v0.12（物体・動物・食品=対象、OBJ 除外ゲート撤廃）④Lane J 起動: suppressions drop 520 件の全文再裁定（audit_yuragi_reaudit_drops.py・Strata 直列・progress 台帳）。完了後 publish 全量反映。
   - 教訓: gate_drops 全件実読（Lane E）で 86 件回収済み。再裁定は来歴 reaudit.jsonl に積む。
 - 2026-11-22 v0.13 基準最終: 記事化判定＝**創作活動判定**（分類判定は使わない）。drop 確定前にその対象への創作活動（描写/物語/設定構築/語遊び/命名源考案/比喩・概念体系組込み/詩歌/作品内素材仕込み/考察主題）を実読確認。あり=記事化。drop=創作活動ゼロ・命名素材借用（坂本型）・明示なき知識想起のみ。→ Lane J 再開（旧基準 drop 裁定 10 件を progress 解除し再走、keep 28 件は有効維持、todo 約 500 件）。抽出プロンプト drop 節も創作活動判定に書換。
+- 2026-11-22 基準の完全形（ユーザー明示・坂本確認）: wiki 記事化原則=**創作活動があれば記事化**。実在参照は allusion 面、作中創作（坂本型・マジケット・ラルビット条約・新東京・ペレテケンヌル・PTS 等）は entities 面。allusion 側の「作中命名除外」は面側の住み分けであり wiki からの drop ではない。
+  - 実態: 坂本=entities 記事化済（14 件）。ギャップ=マジケット/ラルビット条約/新東京/オクトパス・ブレイバーズ/アルカェ・レダーナ/PTS/ペレテケンヌル 等の作中实体が未記事化。
+  - 対策: Lane K 起動（gen_yuragi_entity_articles.py）: 監査記録の作中創作候補＋ユーザー明示名 → 原文収集→LLM 生成→LLM 監査（引用逐語/内容一致）→ run 20261122T1200_enK_l1en へ書込み（追加専用）。Lane J 完了検知チェーン（chain_laneK_after_J.sh）で Strata 直列維持。
