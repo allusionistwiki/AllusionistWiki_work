@@ -1055,6 +1055,7 @@ run: publish
 | 日記（flicker） | Hatena Flicker 関連日記 | {n_fl} 作者・{n_fl_posts} 投稿 | [[flicker_index|日記索引]] |
 | 年表 | 月別集計・語句初出 | {date_lo} 〜 {date_hi} | [[chronology|年表]] |
 | 実世界参照（allusions） | 作中の実世界対象（神話・宗教・文学・映像・ゲーム・ブランド 他）への横断参照。逐語引用＋ ref 出典 | {n_allud_pages} 篇 | [[allusions_index|実世界参照索引]] |
+| 実世界参照 実体 | 対象名を記事化（2 篇以上・使用状況引用付き） | 444 名 | [[allusion_entities/|実世界参照 実体索引]] |
 
 ## 版（三つの面）
 
@@ -1097,6 +1098,7 @@ run: publish
 
 - 篇横断の名寄せ: [[allusions_terms|対象名索引]]（2 篇以上の対象名）
 - 主題分類: [[allusions_map|主題分類索引]]（神話・文学・学術・ゲーム 等の機械分類）
+- 対象名の記事化: [[allusion_entities/|実世界参照 実体索引]]（2 篇以上の 444 名・使用状況の逐語引用＋ref 付き）
 - 各篇記事末尾から「この篇の実世界参照一覧」へ相互リンク済み
 
 ## 引用と出典リンク
