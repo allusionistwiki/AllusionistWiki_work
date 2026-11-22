@@ -103,3 +103,6 @@ python scripts/extract_yuragi_allusions.py --uids <uids...> --run-dir <run_dir> 
   - site: 7a13e3153（CI run83 success）→ 2f7acd0da（top/guide 導線・CI 監視）。
 - 2026-11-22 Lane E 起動: gate_drops 323 行（重複含・一意 298）の回収監査 LLM レーン（Strata 直列 workers=1・resume 台帳 data/yuragi_gatedrops_progress.txt・来歴 各 run gate_audit.jsonl）。window 原文再読→keep なら逐語引用採集→mech_gate 通過分のみ unit jsonl 復元。完了後 publish 再生成→公開反映→gate_drops 残は「機械 drop 台帳」として来歴保持。
   - 次レーン（順次）: F=実体索引 444 名⇄entities 30 重複名の相互リンク強化、G=works⇄allusion 94 名の導線、H=見た目の微調整（custom.scss）、I=flicker 層カバレッジ監査。
+- 2026-11-22 基準最終確定（ユーザー是正）: 「場面の物体・素材・食品の過剰抽出→注意」は**記事化側の過少抽出への注意**の意。物体・素材・食品（納豆・味噌・きしめん等）は記事化する。小道具類 drop 基準は撤回。drop は作中創作・命名素材借用（坂本型）・明示なき知識想起のみ。
+  - 実施: ①恒久 memory 更新 ②Lane E 実読で drop した 9 件（塩漬け/納豆×2/納豆糸/シャーネスの風/スマホ/遺伝子改造/SMG/フクロウ）取消 ③抽出プロンプト v0.12（物体・動物・食品=対象、OBJ 除外ゲート撤廃）④Lane J 起動: suppressions drop 520 件の全文再裁定（audit_yuragi_reaudit_drops.py・Strata 直列・progress 台帳）。完了後 publish 全量反映。
+  - 教訓: gate_drops 全件実読（Lane E）で 86 件回収済み。再裁定は来歴 reaudit.jsonl に積む。
