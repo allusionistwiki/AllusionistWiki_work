@@ -1,0 +1,109 @@
+{
+ "audit": "yuragi-site-constituent-audit",
+ "ts": "20261123T0310",
+ "audited_at": "2026-11-23 03:10 JST",
+ "processes": {
+  "awiki2_processes_json": 0,
+  "chain_processes_running": 0,
+  "chain_process_probe": "extract_yuragi/publish_yuragi/chain_*.sh/quartz build = 0（wmic 389 proc 走査）",
+  "strata": {
+   "port": 8080,
+   "health": 200,
+   "pid": 28300,
+   "cmd": "serve/server.py --engine strata --config strata-swift-iq3_xxs.json"
+  },
+  "strata_extra_server_pid": 10320,
+  "stale_ledger_entry": "profiles/allusionist-wiki/processes.json に l2_adjudicate_monitor.sh (proc_04dd0d6db1c5, started 2026-10-24, status=None) が残存、対応プロセスは実行中なし"
+ },
+ "cn_scan": {
+  "files": 18190,
+  "cn_strict_hits": 0,
+  "nonjis_rare_hits": 3,
+  "nonjis_chars": {
+   "輭": 1,
+   "睪": 2
+  },
+  "warn_de": 15089,
+  "raw_wikiurl_stripped_cn": 0,
+  "verdict": "CN 混入 0（睪×2/輭×1 は標題の Rare 漢字で簡体字専用ならず。的 15,089 は日本語共用字 warn）",
+  "method": "content/**/*.md; 引用「」内は原文逐語なので除外; 除外文字=的了叶马乌风飞书东车+JIS(cp932) round-trip 共用字; 判定=cn_gate._CN_STRICT(簡体字/ ext-A/ 互換/ ext-B) と cp932 非round-trip の二系; raw_no_excl_* は wiki link/URL も落とした二次値",
+  "scanned_at": "2026-11-23 03:10:18"
+ },
+ "git": {
+  "site": {
+   "repo": "allusionistwiki/YuragiWiki",
+   "HEAD": "7a4d61d87",
+   "origin_main": "7a4d61d87",
+   "clean": false,
+   "porcelain_total": 2428,
+   "M": 1321,
+   "untracked": 1104,
+   "D": 3,
+   "works_content_files": 8172,
+   "works_head_files": 7070,
+   "works_new_uncommitted": 1304,
+   "works_in_head_missing_in_worktree": 202,
+   "live_probe": {
+    "base": "https://allusionistwiki.github.io/YuragiWiki/",
+    "asset_stamp": "index.css?v=7a4d61d8（live==HEAD ビルド）",
+    "new_works_sample_404": [
+     "12人の消息不明者に関する状況説明(ウミガメのスープ形式)",
+     "16ptキャラクターのステータスとプラン",
+     "72の王侯貴族についての記述と写本の性質",
+     "ASCIIアート(キャラクター図)",
+     "Angband系用データ_路の女王『ヘリステラ』"
+    ],
+    "committed_works_sample_200": [
+     "-ファザ-_-バン-",
+     "0と1のニシン",
+     "1024英雄全部_オ_レ",
+     "1032"
+    ],
+    "path_form_note": "公開 URL は /YuragiWiki/works/<slug>（末尾スラッシュ・.html 無し）。末尾スラッシュ形は 404 になる（監査側スキャンで混同注意）"
+   }
+  },
+  "work": {
+   "HEAD": "e2e9258ce",
+   "uncommitted": 1,
+   "file": "scripts/publish_yuragi_site.py（+4/−2 publish 末尾 linkfix 安全網）"
+  }
+ },
+ "lane_state": {
+  "laneA_batches": {
+   "total": 32,
+   "done": 32,
+   "running": 0,
+   "queued": 0
+  },
+  "latest_L1_run_mtime": "2026-11-22 21:56 (20261122T2400_l1works)",
+  "plan_lanes_unstarted": [
+   "B1",
+   "B2",
+   "B3",
+   "B4",
+   "B5"
+  ],
+  "watchdog_crons": [
+   {
+    "id": "2de2865ff014",
+    "every": "30m",
+    "last_run": "2026-11-23T02:32:51+09:00",
+    "delivery_error": false
+   },
+   {
+    "id": "ab40e55c056f",
+    "every": "30m",
+    "last_run": "2026-11-23T02:37:15+09:00",
+    "delivery_error": false
+   }
+  ]
+ },
+ "anomalies": [
+  "site 未コミット 2,428 が 23:30/00:07/02:30/03:10 の 4 監査にわたり不変（content 最終更新 11/22 22:33）。works 新頁 1,304 が site commit/push/CI 未実行 → live 404 実測（新 5/5 404・HEAD 済 4/4 200）。稼働プロセス 0 で自動収束の見込みなし",
+  "work: scripts/publish_yuragi_site.py の改修が未コミット継続",
+  "チェーン（background+notify レーン）停止中: laneA 32/32 完走後レーン空闲、PLAN-enrich B1-B5 未着手、publish ゲート→commit→push→CI success→新 1,304 頁 live 200 化が未処置",
+  "profiles/allusionist-wiki/processes.json の l2_adjudicate_monitor.sh レコードが幽霊（プロセス実行中なし）"
+ ],
+ "re_submitted_to_chain": true,
+ "cn_gate_ref": "scripts/cn_gate.py（cp932 round-trip 基準＋JP_SHARED ホワイトリスト、引用「」内は原文逐語除外、的了叶马乌风飞书东车除外）"
+}
