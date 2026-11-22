@@ -101,3 +101,5 @@ python scripts/extract_yuragi_allusions.py --uids <uids...> --run-dir <run_dir> 
   - 監査: allusion 対象名 3162 名 → entities 記事化 30 名のみ＝ギャップ。創作 works 6453 面（527 名 entities 二重）で実体化済・十分。
   - 実施: allusion_entities 新設 444 名（2 篇以上・逐語引用+ref・drop 反映）／topics⇄allusion 相互参照 27 語／参照密度ランキング（T031 144 件首位）／年表に実世界参照月別密度／entities_index カバレッジ節／top・guide 導線。
   - site: 7a13e3153（CI run83 success）→ 2f7acd0da（top/guide 導線・CI 監視）。
+- 2026-11-22 Lane E 起動: gate_drops 323 行（重複含・一意 298）の回収監査 LLM レーン（Strata 直列 workers=1・resume 台帳 data/yuragi_gatedrops_progress.txt・来歴 各 run gate_audit.jsonl）。window 原文再読→keep なら逐語引用採集→mech_gate 通過分のみ unit jsonl 復元。完了後 publish 再生成→公開反映→gate_drops 残は「機械 drop 台帳」として来歴保持。
+  - 次レーン（順次）: F=実体索引 444 名⇄entities 30 重複名の相互リンク強化、G=works⇄allusion 94 名の導線、H=見た目の微調整（custom.scss）、I=flicker 層カバレッジ監査。
