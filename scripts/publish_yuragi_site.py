@@ -490,6 +490,15 @@ def main() -> int:
             p.write_bytes((art.rstrip() + sec).encode("utf-8"))
         # 類型別索引
         idx = ["---", 'title: "実体索引"', "run: publish", "---", "", "# 実体索引", ""]
+        _ae_n = len(list((CONTENT / "allusion_entities").glob("*.md")))
+        n_ent = len([p for p in (CONTENT / "entities").glob("*.md") if p.stem != "index"])
+        idx += [
+            f"実体ページ **{n_ent}** 件（作中实体＝引用逐語検証・CN_CHAR 監査通過分のみ）＋実世界参照実体 [[allusion_entities/|{_ae_n} 名]]。",
+            "",
+            "生成方式: ①LLM 精密版（高密度上位实体・監査済）②決定論組立（台帳逐語引用＋ref・原文実在検証通過分）。",
+            "抽出は二系統（allusion 侧＝実世界参照／作中侧＝創作物）で漏れを防ぐ。統合は候補提示まで、実統合は全話使用状況確認を要する。",
+            "",
+        ]
         by_type = {}
         for p in sorted((CONTENT / "entities").glob("*.md")):
             if p.stem == "index":

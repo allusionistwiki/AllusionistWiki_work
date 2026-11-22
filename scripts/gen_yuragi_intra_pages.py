@@ -46,10 +46,12 @@ def main():
         old.unlink()
     # 原文 body 全集（引用逐語検証ゲート）
     bodies: dict = {}
+    SD_CACHE: dict = {}
     uids = [jf.stem for _sd in SRC if _sd.is_dir() for jf in sorted(_sd.glob("*.jsonl"))]
     for uid in uids:
         try:
             sd, meta = ex.unit_dir(uid)
+            SD_CACHE[uid] = sd
         except Exception:
             continue
         for r in jl(sd / "structured.jsonl"):
@@ -121,11 +123,12 @@ def main():
                     lines.append(usage)
                 for ref, q in qs[:2]:
                     pno = ref.split(":")[-1] if ":" in ref else ""
-                    base = ref.split(":")[0] if ":" in ref else uid
-                    if pno.isdigit():
-                        lines.append(f"> 「{q}」 [[full/{base}#post-{pno}|{ref}]]")
+                    # 常に台帳の unit（uid）をリンク対象にする（ref の base 表記は信用しない）
+                    post_ids = {str(r.get("post_no")) for r in jl(SD_CACHE.get(uid, Path(".")) / "structured.jsonl")} if uid in SD_CACHE else set()
+                    if pno.isdigit() and pno in post_ids:
+                        lines.append(f"> 「{q}」 [[full/{uid}#post-{pno}|{ref}]]")
                     else:
-                        lines.append(f"> 「{q}」 [[full/{base}|{ref}]]")
+                        lines.append(f"> 「{q}」 [[full/{uid}|{ref}]]")
                 lines.append("")
         lines += ["---", "",
                   "※ 本記事は作中侧抽出（Lane M）台帳からの決定論組立（v0.14 創作活動基準）。",
