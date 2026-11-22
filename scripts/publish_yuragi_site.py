@@ -10,6 +10,7 @@ import json
 import re
 import sys
 from pathlib import Path
+import unicodedata as _udx
 
 WORK = Path(__file__).resolve().parents[1]
 L1 = WORK / "work" / "yuragi" / "L1"
@@ -134,6 +135,12 @@ def main() -> int:
         nums = [r["post_no"] for r in jl(RAW_BBS / rel / "structured.jsonl")]
         post_page[uid] = {pno: ("" if (k := i // 100 + 1) == 1 else f"p{k}")
                           for i, pno in enumerate(nums)}
+    # 恒久: raw 由来 ref_url が空の ref を permalink 地図から補完（観測 3,640 件の markdown 壊れ防止）
+    for _uid0, _m0 in post_page.items():
+        for _pno0, _seg0 in _m0.items():
+            _k = f"{_uid0}:{_pno0}"
+            if _k not in ref_url:
+                ref_url[_k] = f"{FULLSITE}{_uid0}/{_seg0}#post-{_pno0}"
 
     def permalink(uid: str, n: int) -> str | None:
         seg = post_page.get(uid, {}).get(n)
@@ -179,6 +186,12 @@ def main() -> int:
         if "title:" not in fm:
             fm2 = f'title: "{t}"\n' + fm2
         body = linkify(body, uid if uid and dest.parent.name == "units" else None)
+        # 恒久: L1 供給記事の self-kill ref 形式 `[[ref](url)` → markdown 連結へ正規化
+        # （Quartz が [[ を解決できず表示破壊・Katex 事故を招く。linkify 補完漏れの安全網）
+        body = re.sub(r"\[\[(YJ-[A-Za-z0-9]+:[0-9]+)\]\]", r"[\1]", body)
+        body = re.sub(r"\[\[([^\]\n|]+?)\|([^\]\n|]*?)\]\(\(([^)\n]+)\)\)", r"[\2](\3)", body)
+        body = re.sub(r"\[\[([^\]\n|]+?)\]\(([^)(\n]+)\)\]", r"[\1](\2)", body)
+        body = re.sub(r"\[\[([^\]\n|]+?)\]\(\(([^)(\n]+)\)\)\]", r"[\1](\2)", body)
         # 原文の $ ペアは LaTeX math と誤認されるためエスケープ（Katex unicode 化防止）
         body = re.sub(r"(?<!\\)\$", r"\\\$", body)
         dest.parent.mkdir(parents=True, exist_ok=True)
@@ -257,10 +270,19 @@ def main() -> int:
     ).encode("utf-8"))
 
     # topics / authors
+    _tp_dir = CONTENT / "topics"
+    _tp_dir.mkdir(exist_ok=True)
+    for _old in _tp_dir.glob("*.md"):
+        if _old.stem != "index":
+            _old.unlink()
     for p in sorted((L1 / "runs" / TOPICS_RUN / "topics").glob("*.md")):
         fm = p.read_bytes().decode("utf-8", "replace")
         tm = re.search(r'term:\s*"([^"]+)"', fm)
-        emit(p, CONTENT / "topics" / p.name, tm.group(1) if tm else p.stem, {"link_audit": TOPICS_AUDIT})
+        _term = tm.group(1) if tm else ""
+        # 恒久ゲート: 語が空・記号のみの語（「」等）トピックは記事化しない
+        if (not _term) or re.fullmatch(r"[「」『』()\[\]〈〉《》〈〉〜~〜\-—ー・。、,.!?！？:：;；\s]+", _term):
+            continue
+        emit(p, CONTENT / "topics" / p.name, _term, {"link_audit": TOPICS_AUDIT})
     for p in sorted((L1 / "runs" / AUTHORS_RUN / "authors").glob("*.md")):
         fm = p.read_bytes().decode("utf-8", "replace")
         am = re.search(r'author:\s*"([^"]+)"', fm)
@@ -1570,6 +1592,23 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
             _wp.write_text(_wt.rstrip() + f"\n\n## 実世界参照 実体\n\n- 本作名と同一の対象名が実世界参照として解析されています: [[allusion_entities/{_ap.stem}|{_tm2.group(1)}]]\n", encoding="utf-8")
     counts["laneV_crosslink"] = _v_linked
 
+    # 恒久: L1 由来自殺 ref の markdown 破壊修復（[[ref](url) → [ref](url)）。
+    # topics/authors/entities/free/units/full/flicker は供給台帳由来、full は run 直 emit で
+    # linkify 補完前の L1 自殺形式を含む。Quartz/Katex 事故防止のため公開直前に正規化する。
+    _mdfix = 0
+    for _fp in CONTENT.rglob("*.md"):
+        _ft = _fp.read_text(encoding="utf-8", errors="replace")
+        _f1 = re.sub(r"\[\[(YJ-[A-Za-z0-9]+:[0-9]+)\]\]", r"[\1]", _ft)
+        _f1 = re.sub(r"\[\[((?:https?|/)[^\]\n]*?)\]\(\(([^)\n]+)\)\)", r"[\1](\2)", _f1)
+        _f1 = re.sub(r"\[\[([^\]\n|]+?)\|([^\]\n|]*?)\]\(\(([^)\n]+)\)\)", r"[\2](\3)", _f1)
+        _f1 = re.sub(r"\[\[([^\]\n|]+?)\|([^\]\n|]*?)\]\](?:\])?\(([^)(\n]+)\)", r"[\2](\3)", _f1)
+        _f1 = re.sub(r"\[\[([^\]\n|]+?)\]\(\(([^)(\n]+)\)\)\]", r"[\1](\2)", _f1)
+        _f1 = re.sub(r"\[\[([^\]\n|]+?)\]\(([^)(\n]+)\)\]", r"[\1](\2)", _f1)
+        if _f1 != _ft:
+            _fp.write_text(_f1, encoding="utf-8")
+            _mdfix += 1
+    counts["md_linkfix"] = _mdfix
+
     # 恒久 CN 安全網: 生成された全コンテンツページを日本語標準字体へ正規化（簡体字混入 0 を保証）。
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from cn_gate import jp_fix as _jp
@@ -1631,6 +1670,8 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
     for _fd in ("entities", "entities_map", "allusion_entities"):
         _scan_targets.extend((CONTENT / _fd).glob("*.md"))
     _scan_targets.extend(CONTENT.glob("*.md"))
+    # full 面: URL 付き [[X|Y](url) は wikilink として解けないため markdown 連結へ正規化
+    _scan_targets.extend((CONTENT / "full").rglob("*.md"))
     for _p in _scan_targets:
         _t = _p.read_text(encoding="utf-8", errors="replace")
         if "[[" not in _t:
@@ -1647,6 +1688,14 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
             dmap = _folders.get(fld)
             if dmap is None:
                 return mo.group(1)  # 対象フォルダ自体が無ければ原文維持（表示のみ）
+            if fld == "full":
+                # URL を含む [[full/uid|label]] は wikilink として解けないため
+                # ラベル末尾の ](...) を保持したまま label-only に正規化（表示破壊 0）
+                _tail = mo.group(3) or ""
+                if _tail.startswith("]"):
+                    _lbl = _tail[1:].rstrip("]")
+                    _fixed += 1
+                    return _lbl if _lbl.strip() else mo.group(0)
             if base in dmap:
                 return mo.group(0)
             lk = _normkey(base)

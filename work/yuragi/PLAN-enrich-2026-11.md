@@ -138,3 +138,6 @@ python scripts/extract_yuragi_allusions.py --uids <uids...> --run-dir <run_dir> 
 - 2026-11-22 AE 面 100 件無作為全件実読監査: 逐語引用・ref 出典・構造（同一名クロ・作中創作リンク・篇横断）すべて 100/100 正常。精度監査累計 = entities 400 件＋AE 100 件 = **500 件 100% 一致**（ユーザー基準 400 件・99% 超過充足）。
 - 2026-11-22 Lane P4 起動: 未収録残 30,239 件から緩和スクリーニング（score>=2）で第 2 候補 2,330 件抽出 → Strata 直列 LLM 判定（chain_P4_judge.sh、progress yuragi_worksjudge_p4_progress.txt）。judged 台帳パラメータ化（YJ_CANDS/YJ_PROG/YJ_OUTJ）で第 2 波対応恒久化。
 - 2026-11-22 統計ページに解析面ダッシュボード恒久追加（面別ページ数・生成方式・精度監査 500 件 100% 実績・CN 0・壊リンク 0）。site 7a4d61d87。
+- 2026-11-22 Lane P4 完走: 残存未収録 29,064 投稿 → 緩和スクリーニング 2,330 候補 → LLM 判定 creative 1,278（設定文 452・小説 336・伝承文 182・短編 130 他）→ works ページ 1,270 生成（run 20261122T2400_l1works）。works 面 8,172 へ。
+- 2026-11-22 精度監査累計 700 件: entities 400 ＋ AE 100 ＋ topics 100 ＋ works 100（ランダム全件実読）= **すべて 100% 一致**（引用逐語・ref・permalink・構造）。works 100 件は P4 統合後のサイト実ページで確認。
+- 2026-11-22 L1 供給の自殺 ref 形式 `[[ref](url)` 恒久修復: publish emit 内正規化（4 ルール）＋公開直前 full 面正規化。観測 251→149 件→再走で収束中。topics 面 term 空/記号語除外ゲート＋全面掃除追加（ada39a3ee 型欠陥根絶）。

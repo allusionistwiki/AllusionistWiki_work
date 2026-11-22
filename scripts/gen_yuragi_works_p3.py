@@ -20,9 +20,10 @@ def esc(t: str) -> str:
     return str(t).replace("\\", "\\\\").replace('"', "'").replace("\n", " ")
 
 W = Path(ex.__file__).resolve().parent.parent
-J = W / "data" / "yuragi_works_judged.jsonl"
-OUT = W / "work/yuragi/L1/runs/20261122T2200_l1works/works"
-PROG = W / "data" / "yuragi_p3_progress.txt"
+import os
+J = Path(os.environ.get("YJ_J", W / "data/yuragi_works_judged.jsonl"))
+OUT = Path(os.environ.get("YJ_OUT", W / "work/yuragi/L1/runs/20261122T2200_l1works/works"))
+PROG = Path(os.environ.get("YJ_PROG", W / "data/yuragi_p3_progress.txt"))
 
 
 def jl(p: Path):
