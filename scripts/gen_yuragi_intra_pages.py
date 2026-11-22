@@ -110,7 +110,9 @@ def main():
             continue
         m2 = {"disp": m["disp"], "units": units_ok}
         slug = ex.norm(term).replace("・", "_").replace("＝", "=")
-        slug = re.sub(r'[\\/:*?"<>|]', "_", slug)[:120]
+        slug = re.sub(r'[\\/:*?"<>|]', "_", slug)
+        slug = slug.replace("[", "【").replace("]", "】")  # wikilink 構文制約: 括弧を全角へ
+        slug = slug[:120]
         if not slug:
             continue
         us = sorted(m2["units"].items())

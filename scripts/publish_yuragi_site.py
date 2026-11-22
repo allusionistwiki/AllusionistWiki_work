@@ -554,7 +554,8 @@ def main() -> int:
         # Lane N: 創作(works)⇄実体 漏れなき相互リンク＋実体索引の体系化（決定論）
         def _slugN(s0: str) -> str:
             s0 = str(s0)
-            for a0, b0 in [("/", "_"), ("・", "_"), ("：", "_"), (":", "_"), ("?", "_"), ("!", "_"), ("　", "_")]:
+            for a0, b0 in [("/", "_"), ("・", "_"), ("：", "_"), (":", "_"), ("?", "_"), ("!", "_"), ("　", "_"),
+                           ("[", "【"), ("]", "】")]:
                 s0 = s0.replace(a0, b0)
             return s0
         works_pages = [p for p in (CONTENT / "works").glob("*.md") if p.stem != "index"]
@@ -586,7 +587,9 @@ def main() -> int:
                 continue
             a = p.read_bytes().decode("utf-8", "replace")
             if "## 関連創作" in a:
-                continue
+                # 既存欄は常に除去して再構築（供給 slug 变更による坏 link を恒久防止）
+                a = _re.sub(r"\n+## 関連創作.*?(?=\n## |\Z)", "", a, flags=_re.S)
+                a = _re.sub(r"\n+## 関連創作.*$", "", a, flags=_re.S)
             ws = sorted(by_ent_works.get(sl, []))
             if ws:
                 sec = "\n\n## 関連創作（作品ページ）\n\n" + "".join(
@@ -959,7 +962,8 @@ def main() -> int:
         def _slug7(s: str) -> str:
             s = str(s).strip()
             for a, b in [("/", "_"), ("\\", "_"), ("&", "＆"), ("#", "＃"), ("%", "％"),
-                         ("・", "_"), ("：", "_"), (":", "_"), ("?", "_"), ("!", "_"), ("　", "_")]:
+                         ("・", "_"), ("：", "_"), (":", "_"), ("?", "_"), ("!", "_"), ("　", "_"),
+                         ("[", "【"), ("]", "】")]:
                 s = s.replace(a, b)
             return s
 
@@ -1483,6 +1487,37 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
 """
     (CONTENT / "about.md").write_bytes(about.encode("utf-8"))
 
+    # Lane V: AE 対象名 ⇄ works 作品名 被引用クロリンク（同Title 完全一致・決定論）
+    import unicodedata as _uv
+    def _vkey(s):
+        return _uv.normalize("NFKC", str(s)).strip()
+    wk_by_title = {}
+    for _wp in (CONTENT / "works").glob("*.md"):
+        if _wp.stem == "index":
+            continue
+        _tm = _re.search(r'title:\s*"([^"]+)"', _wp.read_text(encoding="utf-8", errors="replace"))
+        if _tm:
+            wk_by_title.setdefault(_vkey(_tm.group(1)), _wp.stem)
+    _v_linked = 0
+    for _ap in sorted((CONTENT / "allusion_entities").glob("*.md")):
+        if _ap.stem == "index":
+            continue
+        _at = _ap.read_text(encoding="utf-8", errors="replace")
+        _tm2 = _re.search(r'title:\s*"([^"]+)"', _at)
+        if not _tm2:
+            continue
+        _k = _vkey(_tm2.group(1))
+        _wslug = wk_by_title.get(_k)
+        if not _wslug or "## 作中で参照される創作" in _at:
+            continue
+        _ap.write_text(_at.rstrip() + f"\n\n## 作中で参照される創作\n\n- 同名の創作ページ: [[works/{_wslug}|{_tm2.group(1)}]]（作中の創作作品としての言及。実世界参照としての解析は本ページ参照）\n", encoding="utf-8")
+        _v_linked += 1
+        _wp = CONTENT / "works" / f"{_wslug}.md"
+        _wt = _wp.read_text(encoding="utf-8", errors="replace")
+        if "## 実世界参照 実体" not in _wt:
+            _wp.write_text(_wt.rstrip() + f"\n\n## 実世界参照 実体\n\n- 本作名と同一の対象名が実世界参照として解析されています: [[allusion_entities/{_ap.stem}|{_tm2.group(1)}]]\n", encoding="utf-8")
+    counts["laneV_crosslink"] = _v_linked
+
     # 恒久 CN 安全網: 生成された全コンテンツページを日本語標準字体へ正規化（簡体字混入 0 を保証）。
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from cn_gate import jp_fix as _jp
@@ -1498,10 +1533,40 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
     for _d in CONTENT.iterdir():
         if _d.is_dir():
             _folders[_d.name] = {q.stem: q for q in _d.glob("*.md")}
-    _folders["."] = {q.stem: q for q in CONTENT.glob("*.md")}
+    _folders["."] = {q.stem for q in CONTENT.glob("*.md")} if False else {q.stem: q for q in CONTENT.glob("*.md")}
+
+    # グリフ変異ペア自動検出: 同一 stem で CJK 異字体が 1 字だけ異なるファイル組を相互正規化
+    from collections import Counter as _C2
+    _all_stems = []
+    for _d, _mp in _folders.items():
+        _all_stems.extend(_mp.keys())
+    _variant = {}
+    _by_len = {}
+    for _s in _all_stems:
+        _k0 = _udx.normalize("NFKC", _s).lower()
+        _by_len.setdefault((len(_k0), _k0.replace("_", "")[:2] + _k0.replace("_", "")[-2:]), []).append(_s)
+    for _grp in _by_len.values():
+        for _i in range(len(_grp)):
+            for _j in range(_i + 1, len(_grp)):
+                _a, _b = _grp[_i], _grp[_j]
+                _na, _nb = _udx.normalize("NFKC", _a).lower(), _udx.normalize("NFKC", _b).lower()
+                if len(_na) != len(_nb):
+                    continue
+                _diff = [(x, y) for x, y in zip(_na, _nb) if x != y]
+                if len(_diff) == 1 and all(ord(x) > 0x2000 for x, y in _diff):
+                    (x, y) = _diff[0]
+                    # canonical: 出現数の多いグリフへ統一
+                    _cx = sum(1 for s2 in _all_stems if x in _udx.normalize("NFKC", s2).lower())
+                    _cy = sum(1 for s2 in _all_stems if y in _udx.normalize("NFKC", s2).lower())
+                    _tgt = x if _cx >= _cy else y
+                    _src = y if _cx >= _cy else x
+                    _variant[_src] = _tgt
 
     def _normkey(s):
         s = _udx.normalize("NFKC", s)
+        for _vc, _vt in _variant.items():
+            if _vc in s:
+                s = s.replace(_vc, _vt)
         for ch in ("・", "：", ":", "/", "?", "!", "　", "\\", "＆", "＃", "％", "_"):
             s = s.replace(ch, "")
         return s.lower()
@@ -1509,7 +1574,12 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
     _idx = {f: {_normkey(k): k for k in d} for f, d in _folders.items()}
     import re as _rx
     _fixed = _dropped = 0
-    for _p in CONTENT.rglob("*.md"):
+    # 対象は解析面のみ（full/works/allusions の原文マークアップ [[語]] は編集しない）
+    _scan_targets = []
+    for _fd in ("entities", "entities_map", "allusion_entities"):
+        _scan_targets.extend((CONTENT / _fd).glob("*.md"))
+    _scan_targets.extend(CONTENT.glob("*.md"))
+    for _p in _scan_targets:
         _t = _p.read_text(encoding="utf-8", errors="replace")
         if "[[" not in _t:
             continue
@@ -1533,11 +1603,33 @@ mixi コミュ規約は記述の再利用・分散を明示的に許容してい
                 cand = [k for k in _idx.get(fld, {}) if lk in k]
                 if len(cand) == 1:
                     ik = cand[0]
+                elif not cand and len(lk) >= 4:
+                    pref = lk[: len(lk) - 1]
+                    cand = [k for k in _idx.get(fld, {}) if k.startswith(pref)]
+                    if len(cand) == 1:
+                        ik = cand[0]
             if ik:
                 _fixed += 1
                 return f"{mo.group(1)}{fld if fld != '.' else ''}{'' if fld=='.' else '/'}{ik}{pipe}]]"
-            _dropped += 1
-            return ik or mo.group(1)  # 置換不能ならリンク記号を剥がす
+            # クロス検索: 他フォルダに正体があれば remap、無ければ表示テキスト化（壊リンク 0 保証）
+            if fld != ".":
+                lk2 = _normkey(base)
+                for f2, d2 in _idx.items():
+                    if f2 == fld:
+                        continue
+                    ik2 = d2.get(lk2)
+                    if ik2 is None and lk2:
+                        cd2 = [k for k in d2 if lk2 in k]
+                        if len(cd2) == 1:
+                            ik2 = cd2[0]
+                    if ik2:
+                        _fixed += 1
+                        pfx2 = "" if f2 == "." else f2 + "/"
+                        return f"{mo.group(1)}{pfx2}{ik2}{pipe}]]"
+                _dropped += 1
+                disp2 = (pipe[1:] if pipe else base)
+                return disp2
+            return mo.group(0)  # 原文マークアップ（引用中の [[語]]）は表示テキストとして保持
         _t2 = _rx.sub(r"(\[\[)([^\]|]+)(\|[^\]]*)?\]\]", _rep, _t)
         if _t2 != _t:
             _p.write_text(_t2, encoding="utf-8")
