@@ -1,0 +1,46 @@
+{
+ "audit_at": "2026-11-23 02:30 JST (cron yuragi 常時監査)",
+ "strata": "up (127.0.0.1:8080 /health=200, listener pid 28300 python, API-key guarded /props 認証 OK)",
+ "processes_json": "[] → jobs_running=0（background job 0・chain 非稼働）",
+ "cn_rescan": {
+  "root": "YuragiWiki/content",
+  "scanned_files": 18190,
+  "method": "frontmatter 除去＋嵌套引用「(?:[^「」]|「[^「」]*」)*」」除去後、簡体字専用集合（实气时门…婴）で照合。共有 的了叶马乌风飞书东车号术西写应 は除外",
+  "cn_only_total": 0,
+  "raw_flags": 3,
+  "raw_flags_detail": [
+   "entities/カーズガン.md: 气人",
+   "works/カーズガンの種類と基人のカーズガン.md: 气人",
+   "works/紀神設定_2.md: 气人"
+  ],
+  "flag_judgement": "3 件すべて `气`。cp932 round-trip 成功（0x9f83＝JIS 圏内グリフ）＝簡体字専用でなく、かつ原出典 YJ-T036:6（2012 投稿『气人のカーズガン』）の逐語語彙。恒久ゲート（cp932 基準・原文逐語は削除対象外）で混入 0。",
+  "note": "簡体字専用 CP（cp932 round-trip 失敗）は 0 件。"
+ },
+ "site_git": {
+  "repo": "YuragiWiki",
+  "head": "7a4d61d87",
+  "head_time": "2026-11-22 21:19",
+  "ahead_of_origin": 0,
+  "uncommitted": 2428,
+  "detail": "M 1321 / ?? 1104 (works 新頁) / D 3",
+  "latest_content_mtime": "2026-11-22 22:33",
+  "works_local_vs_head": "content/works 8,172 実体 / HEAD 7,070（P4 供給 1,104 頁が site commit 未実行）",
+  "live_impact_verified": "新 works 頁 3 件を実 GET → すべて 404（Pages 未デプロイ＝commit/push 未実行のため）",
+  "status": "異常継続（4 時間目）: 23:30・00:07 監査と同一状態のまま変化なし。稼働プロセス 0 で自動収束見込みなし"
+ },
+ "work_git": {
+  "repo": "AllusionistWiki_work",
+  "head": "508444b0a",
+  "head_time": "2026-11-23 00:09",
+  "ahead_of_origin": 0,
+  "uncommitted": 1,
+  "detail": "scripts/publish_yuragi_site.py（linkfix regex 改修 +4/-2・publish 末尾安全網）未コミット継続"
+ },
+ "lanes": "Lane P4 完走（judged 2330→creative 1,278・works 1,270 生成 21:56 完了）以降、全レーン停止。publish/commit/CI を行う chain が起動されていない",
+ "verdict": "異常 2 件（site 未コミット 2,428＝P4 供給 1,104 頁が 4 時間未 publish・live 404 実測 / work publish script 未コミット）。CN 混入 0、Strata 正常。",
+ "re_submitted_to_chain": [
+  "site: content 2,428 件の publish ゲート（壊リンク 0・CN 0・YAML 全件）確認 → commit + push → CI success 確認（新 works 1,104 頁の live 200 化）",
+  "work: scripts/publish_yuragi_site.py の改修コミット",
+  "収束後: live 監査（works 8,172 全数 GET）で 404 0 確認"
+ ]
+}
