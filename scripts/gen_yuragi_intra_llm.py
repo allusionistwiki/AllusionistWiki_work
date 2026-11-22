@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Lane Qv2: 作中实体ページ LLM 量産（5 語/呼び・CN_CHAR ゲート・逐語引用は台帳由来のみ）。
+"""Lane Qv2: 作中実体ページ LLM 量産（5 語/呼び・CN_CHAR ゲート・逐語引用は台帳由来のみ）。
 
 入力: Lane M 抽出台帳（term+usage+quotes per unit）
 各呼び出しで 5 語ぶんの「概要」を LLM 生成（日本語のみ）。生成文は cn_gate で検査し
@@ -24,7 +24,7 @@ SRC = W / "work/yuragi/L1/runs/20261122T1600_l1intra/extract"
 OUT = W / "work/yuragi/L1/runs/20261122T2100_l1enQ"
 PROG = W / "data" / "yuragi_qgen_progress.txt"
 
-PROMPT = """あなたは『ゆらぎの神話』の作中实体記事の概要生成者です。以下の抽出台帳データ（原文逐語引用と使用状況に基づく）から、各語の「概要」を 2〜3 文で生成してください。台帳にない事実を作らない。**日本語のみ使用**（中国語の簡体字・外国文字は不可）。
+PROMPT = """あなたは『ゆらぎの神話』の作中実体記事の概要生成者です。以下の抽出台帳データ（原文逐語引用と使用状況に基づく）から、各語の「概要」を 2〜3 文で生成してください。台帳にない事実を作らない。**日本語のみ使用**（中国語の簡体字・外国文字は不可）。
 出力 JSON のみ:
 {"summaries":[{"term":"語","summary":"概要 2〜3 文（日本語）"}]}
 --- 台帳データ ---
@@ -72,7 +72,7 @@ def write_page(term: str, m: dict, summary: str):
         return None
     us = sorted(m["units"].items())
     lines = ["---", f'title: "{term}"', "run: 20261122T2100_l1enQ",
-             "model: swift-1.5-iq3_xxs+ledger", f'term: "{term}"', 'type: "作中实体"',
+             "model: swift-1.5-iq3_xxs+ledger", f'term: "{term}"', 'type: "作中実体"',
              f"count: {len(us)}", f'generated: "{datetime.now().isoformat()}"',
              f'link_audit: "20261122T2100_l1enQ_{"llm" if summary else "deterministic"}"', "---", "",
              f"# {term}（ゆらぎの神話）", ""]
@@ -91,7 +91,7 @@ def write_page(term: str, m: dict, summary: str):
                 lines.append(f"> 「{q}」 [[full/{base}#post-{pno}|{ref}]]")
             lines.append("")
     lines += ["---", "",
-              "※ 本記事は作中侧抽出（Lane M）台帳＋概要生成による組立（v0.14 創作活動基準・CN_CHAR 監査ゲート通過済）。",
+              "※ 本記事は作中側抽出（Lane M）台帳＋概要生成による組立（v0.14 創作活動基準・CN_CHAR 監査ゲート通過済）。",
               "→ [[entities_index|実体索引]] ／ [[entities_map/index|体系版索引]]", ""]
     (OUT / "entities" / f"{slug}.md").write_text("\n".join(lines), encoding="utf-8")
     return slug

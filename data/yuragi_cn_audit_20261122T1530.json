@@ -1,0 +1,59 @@
+{
+ "audit_date": "2026-11-22T15:30+09:00",
+ "auditor": "cron yuragi 常時監査 (awiki2)",
+ "scan_def": "CN 専用 = cp932(JIS X0208) round-trip しない CJK 文字／引用「」内は除外／日本共用字(的了叶马乌风飞书东车〜)除外",
+ "site_head_before_fix": "0ba57770d (origin 一致・dirty 0)",
+ "work_head_before_fix": "db1875779 (origin 一致・M4/??37 = Lane M 稼働中)",
+ "contamination_found": {
+  "generated_template_literals": {
+   "实体→実体": 1336,
+   "作中侧→作中側": 973,
+   "种族→種族": 184,
+   "类型:→類型:": 7090
+  },
+  "files_affected": 8299,
+  "replacements": 9593,
+  "chinese_grammar_context_lines": {
+   "count": 57,
+   "field": "works/ 掲載文脈 (P3 生成)",
+   "samples": [
+    "記述投稿：言理の妖精介绍都市传説…",
+    "作者以谐谑记述惰性触手于海贩卖冰…"
+   ]
+  },
+  "residual_rare_kanji_verbatim": {
+   "螕": 34,
+   "嶰": 24,
+   "睪": 17,
+   "孁": 13,
+   "哪吒": 8,
+   "ㇲ": 9,
+   "鄴": 1,
+   "𠀋": 1,
+   "verdict": "by-design 原文逐語"
+  },
+  "mojibake_U+FFFD": {
+   "content_md": 167,
+   "public_html": 156,
+   "example": "free_index.md: ＜うたぽんの�ｅいる直装明け＞"
+  }
+ },
+ "gate_root_cause": "cn_gate.CN_CHARS に 种/类/侧/现 が不在 → 旧来リストは 体/旧/与/乱/争/党/当/尽/属 を誤検出する形で両機能せず",
+ "gate_fix": "find_cn を cp932 round-trip 基準＋常用簡体字候補の自動フィルタ(_CN_STRICT, 72922 点)に置換。引用「」除外は維持。rare(螕等)=warn 扱い",
+ "script_literals_fixed": [
+  "gen_yuragi_works_p3.py",
+  "gen_yuragi_intra_pages.py",
+  "gen_yuragi_intra_llm.py",
+  "publish_yuragi_site.py",
+  "classify_yuragi_entities.py",
+  "build_l2_ledger_v82.py",
+  "build_yuragi_l1_gen.py"
+ ],
+ "site_commit": "a42fc1d4c (pushed 926a5c1a6..a42fc1d4c)",
+ "action_required_chain_side": [
+  "Lane M 稼働中プロセス(pid 36416, 12:54 起動)は旧 cn_gate/旧テンプレート文字列をメモリに持つ → 次ページ生成分は 作中侧/实体 が再混入するため lane 再起動が必要",
+  "chain_Mv2_after_P2.sh (pid 34792) は存在しない data/yuragi_p2_progress.txt を 30h 監視し続ける停止済み監視 → kill 推奨（P3 に置換済み, 1034/1034 完走）",
+  "U+FFFD 167 件は raw 由来の文字化け（cn_gate 対象外）: L0 再取得か hand-fix レーンを要する",
+  "works/ 掲載文脈は P3 台帳由来 → 台帳側 summary を CN_CHAR ゲート付きで再生成すれば.site 修正が元に戻るリスクなし"
+ ]
+}

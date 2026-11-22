@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Lane Q: 作中实体ページ決定論組立（ベンチマーク 4000+ 超え目標・LLM 消費なし）。
+"""Lane Q: 作中実体ページ決定論組立（ベンチマーク 4000+ 超え目標・LLM 消費なし）。
 
 入力:
  - Lane M 抽出台帳 work/yuragi/L1/runs/20261122T1600_l1intra/extract/*.jsonl
@@ -112,7 +112,7 @@ def main():
             continue
         us = sorted(m2["units"].items())
         lines = ["---", f'title: "{term}"', "run: 20261122T2100_l1en",
-                 f'term: "{term}"', 'type: "作中实体"', f"count: {len(us)}",
+                 f'term: "{term}"', 'type: "作中実体"', f"count: {len(us)}",
                  f'link_audit: "20261122T2100_l1en_deterministic"', "---", "",
                  f"# {term}（ゆらぎの神話）", "", "## 使用状況（篇横断・逐語引用＋ref 付き）", ""]
         for uid, entries in us:
@@ -131,7 +131,7 @@ def main():
                         lines.append(f"> 「{q}」 [[full/{uid}|{ref}]]")
                 lines.append("")
         lines += ["---", "",
-                  "※ 本記事は作中侧抽出（Lane M）台帳からの決定論組立（v0.14 創作活動基準）。",
+                  "※ 本記事は作中側抽出（Lane M）台帳からの決定論組立（v0.14 創作活動基準）。",
                   "→ [[entities_index|実体索引]] ／ [[entities_map/index|体系版索引]]", ""]
         (OUT / "entities" / f"{slug}.md").write_text("\n".join(lines), encoding="utf-8")
         n += 1

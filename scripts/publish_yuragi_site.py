@@ -95,7 +95,7 @@ def main() -> int:
     for slug, (term, pairs) in ent_units.items():
         for uid_, c in pairs:
             unit_ents.setdefault(uid_, []).append((c, term, slug))
-    # 共起实体: 同一篇に共出現する実体ペアの篇数
+    # 共起実体: 同一篇に共出現する実体ペアの篇数
     cooccur: dict[str, dict[str, int]] = {}
     for uid_, ents in unit_ents.items():
         slugs = [sl for _, _, sl in ents]
@@ -502,10 +502,10 @@ def main() -> int:
         _ae_n = len(list((CONTENT / "allusion_entities").glob("*.md")))
         n_ent = len([p for p in (CONTENT / "entities").glob("*.md") if p.stem != "index"])
         idx += [
-            f"実体ページ **{n_ent}** 件（作中实体＝引用逐語検証・CN_CHAR 監査通過分のみ）＋実世界参照実体 [[allusion_entities/|{_ae_n} 名]]。",
+            f"実体ページ **{n_ent}** 件（作中実体＝引用逐語検証・CN_CHAR 監査通過分のみ）＋実世界参照実体 [[allusion_entities/|{_ae_n} 名]]。",
             "",
-            "生成方式: ①LLM 精密版（高密度上位实体・監査済）②決定論組立（台帳逐語引用＋ref・原文実在検証通過分）。",
-            "抽出は二系統（allusion 侧＝実世界参照／作中侧＝創作物）で漏れを防ぐ。統合は候補提示まで、実統合は全話使用状況確認を要する。",
+            "生成方式: ①LLM 精密版（高密度上位実体・監査済）②決定論組立（台帳逐語引用＋ref・原文実在検証通過分）。",
+            "抽出は二系統（allusion 側＝実世界参照／作中側＝創作物）で漏れを防ぐ。統合は候補提示まで、実統合は全話使用状況確認を要する。",
             "",
         ]
         by_type = {}

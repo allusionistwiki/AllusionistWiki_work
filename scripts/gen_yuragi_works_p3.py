@@ -3,7 +3,7 @@
 
 入力: data/yuragi_works_judged.jsonl（ref/creative/kind/title）＋ 原文 structured.jsonl
 出力: work/yuragi/L1/runs/20261122T2200_l1works/works/<slug>.md
-各ページ: 題名・类型・作者・投稿 permalink・冒頭引用（原文逐語・機械抽出）。LLM 消費なし。
+各ページ: 題名・類型・作者・投稿 permalink・冒頭引用（原文逐語・機械抽出）。LLM 消費なし。
 """
 import json
 import re
@@ -98,7 +98,7 @@ def main():
         lines = ["---", f'title: "{esc(title)}"', f'work: "{esc(title)}"', f'author: "{esc(author)}"',
                  f'type: "{esc(kind)}"', "run: 20261122T2200_l1works", 'link_audit: "P2全件実読判定→機械照合"',
                  "---", "", f"# {title}", "",
-                 f"（作者: {author} ／ 类型: {kind} ／ 出典: {ref}）", "",
+                 f"（作者: {author} ／ 類型: {kind} ／ 出典: {ref}）", "",
                  "## 冒頭（原文逐語・機械抽出）", "", "> " + head.replace("\n", "\n> "), "",
                  f"→ 投稿元: [[full/{uid}#post-{pn}|{ref}]]" + (f"（{dt}・[原文]({plink})）" if plink else ""), "",
                  "※ 本頁は Lane P（無作為カバレッジ監査→機械候補 1,189→LLM 全件実読判定 creative 1,034）による創作索引の増分。", ""]

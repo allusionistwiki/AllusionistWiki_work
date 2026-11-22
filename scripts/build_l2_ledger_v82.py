@@ -82,7 +82,7 @@ def strip_title(nm: str) -> str:
 def is_descriptive(nm: str) -> bool:
     return len(nm) >= 14 or (len(nm) >= 12 and DESC_RE.search(nm))
 
-# 既知の正式名集合（別实体括弧注記の検出用）
+# 既知の正式名集合（別実体括弧注記の検出用）
 NAMES = set()
 for e in elist:
     if e.get("canonical"):
@@ -125,7 +125,7 @@ for e in elist:
             cross = (outer in NAMES and inner_clean in NAMES
                      and inner_clean != e.get("canonical") and outer != e.get("canonical"))
             if cross:
-                drop = "label:別实体括弧注記"
+                drop = "label:別実体括弧注記"
             elif outer and outer != e.get("canonical") and len(inner_clean) <= 14 \
                     and not is_generic(outer) and not is_descriptive(outer) \
                     and not SLASH_RE.search(outer) and not BARE_RE.match(outer):
@@ -163,7 +163,7 @@ for e in elist:
         elif (not PAREN_RE.match(nm)) and len(nm) >= 3:
             bare_nm = nm.rstrip("".join(HONORIFIC) + "様")
             if bare_nm and bare_nm in NAMES and bare_nm != e.get("canonical"):
-                drop = "label:别实体名alias"
+                drop = "label:別実体名alias"
         elif any(nm.endswith(suf) and len(nm) > len(suf)
                  and nm[: -len(suf)] not in NAMES
                  and (suf not in ("長", "王", "女王", "王妃", "皇子", "司祭",
@@ -187,7 +187,7 @@ for e in elist:
             keep.append(a)
     e["aliases"] = keep
 
-# primary 是正（v8 手順）+ v8.2 追加: primary が一般語なら实体ごと審査キュー
+# primary 是正（v8 手順）+ v8.2 追加: primary が一般語なら実体ごと審査キュー
 for e in elist:
     canon = e.get("canonical", "")
     names = [a.get("name") for a in e["aliases"] if a.get("name")]
