@@ -1,0 +1,88 @@
+{
+ "audit_date": "2026-11-22T16:50+09:00",
+ "auditor": "cron yuragi 常時監査 (awiki2)",
+ "scan_def": "cn_gate.find_cn（cp932=JIS X0208 round-trip しない CJK 文字＝CN 専用）／引用「」『』内は逐語原文なので除外／日本共用字 的了叶马乌风飞书东车〜 除外",
+ "site_head": "8f2dde731 (origin 一致・dirty 0) Lane T 16:40",
+ "work_head": "496054fda → Lane S 16:22 / dirty 16 = Lane M・intra レーン稼働中",
+ "content_scan": {
+  "files_md": 15700,
+  "cn_total": 9716,
+  "top_chars": {
+   "类": 7093,
+   "实": 1334,
+   "侧": 982,
+   "种": 184,
+   "记": 40
+  },
+  "template_literals": {
+   "类型:": 7090,
+   "实体": 1134,
+   "作中实体": 1383,
+   "作中侧": 982,
+   "种族": 188
+  },
+  "cn_grammar_prose_lines": 59,
+  "cn_grammar_prose_files": 54,
+  "cn_prose_examples": [
+   "works/観測庁.md: 掲載文脈: 记述投稿：观測庁记录A类きゆらさん，説明其与虚人替换传闻。",
+   "works/無題_言理の妖精語りて曰く_2.md: 作者以戏谑问答写人类询问登场時机，被要求等到后楼。"
+  ],
+  "mojibake_U+FFFD": {
+   "content_md": 396,
+   "public_local_build": 1047,
+   "verdict": "raw 由来・cn_gate 対象外（L0 再取得レーン未着手）"
+  },
+  "rare_kanji_verbatim": "螕/嶰/睪/孁/哪吒/ㇲ 等 = by-design 原文逐語（warn）"
+ },
+ "live_site_verified": {
+  "works/観測庁": "类型: x5 (HTTP 200)",
+  "entities_map/作中实体_1": "实体 x79 (HTTP 200)",
+  "note": "site HEAD=origin/main なので CI が現行 content をビルド済み＝公開面に混入が乗っている"
+ },
+ "regression_trace": {
+  "clean_at": {
+   "a42fc1d4c": "15:30 CN 除去 (0/0/0)",
+   "421eb0dd2": "15:37 2nd pass (0/0/0)"
+  },
+  "reintroduced_by": {
+   "9394db8c2 (Lane R 創作索引再生成)": {
+    "类型:": 7090,
+    "作中侧": 982,
+    "实体": 1043,
+    "种族": 170
+   },
+   "8f2dde731 (Lane T クロスリンク)": {
+    "实体": 1134
+   }
+  },
+  "cause": "publish が CN ゲートなしで pre-fix L1 run 産出を再公開した。生成テンプレリテラルの混入は run 側に残存"
+ },
+ "root_cause_run_side": {
+  "runs_with_类型:": {
+   "20261121T0743_l1works": 6453,
+   "20261120T0902_l1works": 6453,
+   "20261122T2200_l1works": 985
+  },
+  "runs_with_实体/作中侧": {
+   "20261122T2100_l1en": 982,
+   "20261122T1200_enK_l1en": 51
+  },
+  "publish_gate": "publish_yuragi_site.py に cn_gate import / emit 時 CN 正規化ゲート無し（grep 確認）→ 再生成のたびに混入が復活する構造"
+ },
+ "job_status": {
+  "strata": "llama/Strata server pid 10320/28300 (port 8080) health 200",
+  "active_lanes": [
+   "pid 12804 extract_yuragi_intra_entities.py (15:16 起動) — yuragi_intra2_progress.txt 149/179・16:47 更新で進行中",
+   "Lane M log_yuragi_Mv2.txt 16:43 更新 140/185"
+  ],
+  "hermes_processes_json": "[] (chain 側に追跡中の子プロセスなし)",
+  "stalled_monitors": "chain_Mv2_after_P2.sh (pid 34792) は本監査時点で消滅（15:30 指摘の停止監視は解消済み）"
+ },
+ "action_required_chain_side": [
+  "publish_yuragi_site.py の emit 経路に CN 正規化＋cn_gate 検査を恒久ゲートとして追加（类型:→類型: / 实体→実体 / 作中侧→作中側 / 种族→種族 のラベル写像と、散文の find_cn hits==0 検査）。これなしだと Lane 再生成ごとに混入が復活する",
+  "掲載文脈 59 行（works/ P3 台帳由来）を CN_CHAR ゲート付きで再生成し site 反映",
+  "site 側は 9394db8c2 以降のラベル混入を一括除去してコミット（a42fc1d4c/421eb0dd2 の除去は 1 コミットで消し飛んだ実績＝恒久ゲートなしの content 手当ては無意味）",
+  "U+FFFD 396 件（raw 由来）は L0 再取得レーンで別途処理",
+  "旧テンプレをメモリに持つ Lane 进程（15:16 起動の intra/works 系）は修正スクリプト反映後に再起動"
+ ]
+}
