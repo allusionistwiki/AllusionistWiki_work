@@ -168,6 +168,10 @@ def main() -> int:
         txt = md.read_bytes().decode("utf-8", "replace")
         m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n", txt, re.S)
         fm = m.group(1) if m else ""
+        # 恒久 YAML ゲート: frontmatter 二重引用内の " を ' へ（Quartz 解析崩壊防止）
+        fm = re.sub(r'^([\w-]+):[ \t]*"(.*)"[ \t]*$',
+                    lambda mm: (f'{mm.group(1)}: "{mm.group(2).replace(chr(34), chr(39))}"'
+                                if '"' in mm.group(2) else mm.group(0)), fm, flags=re.M)
         body = txt[m.end():] if m else txt
         title_m = re.search(r'^title:\s*"?([^"\n]+)"?', fm, re.M)
         t = title_m.group(1) if title_m else title

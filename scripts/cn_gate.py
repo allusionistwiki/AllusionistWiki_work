@@ -20,13 +20,69 @@ CN_CHARS = set(
 WARN_CHARS = set("的")
 
 
+
+
+# 2026-11-22 常時監査で追加: 監査定義（cp932=JIS X0208 で round-trip しない CJK 文字）を
+# ゲート本体にも適用する。簡体字 种/类/侧/现/记述投稿系の語が CN_CHARS 漏れで通過していたため、
+# レガシー CN_CHARS は下位集合として保持し、判定は cp932 round-trip 基準＋日本共用字ホワイトリストにする。
+JP_SHARED = set("的了叶马乌风飞书东车" + "〜々〇㈱№℃°§±×÷∮∴∽≒≡≠≤≥←↑→↓⇒⇔∀∃∠⊥⌒∂∇≦≧≪≫"
+                "㈤㈥㈦㈧㈩①②③④⑤⑥⑦⑧⑨⑩ⅰⅱⅲⅳⅴ"
+                "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψω"
+                "ＡＢＣＤ" + "─│┌┐└┘├┤┬┼┴┬" + "▓★☆◎○●◆◇□■▲△▽"
+                "ー‐–―‐―〜" + "㍿㎡" + "＿" + "〔〕［］｛｝" + "！？＂＃＄％＆（）＊＋，－．／：；＜＝＞￥"
+                "°℃ÅΩµ" + "♪☞☟✕✖" + "™™")
+
+def _non_jis(ch: str) -> bool:
+    o = ord(ch)
+    if o < 0x2E80:
+        return False
+    if ch in JP_SHARED or ch in "「」『』・、。":
+        return False
+    try:
+        return ch.encode("cp932").decode("cp932") != ch
+    except Exception:
+        return True
+
+
+
+# 簡体字候補（常用）→ cp932(JIS X0208) でround-trip しないものだけを CN_STRICT にする。
+# JIS に在る日本共用字（体・旧・与・乱・争・党・当・圈・属・厂・尽 等）は自動で除外される。
+_CANDIDATES = """
+万与丽义乐习书买乱争于亚产亲亵斋稳卖艺术杀赵陕触尘层击码吨砖巫亩盖盗众长门闭闻问阶阵险损
+铸铁银针钟钢钩顾贱视览觉顶敌断隐显苏药护报抬杯杰构板机栋栏标槽枪样梦检楼概欢歼毁氢氧族炼
+亲巩币冈册廉壤晓么仪们优会伞伟传伤佣伦价坏块坚坛坟坠垄娃宁宝实宠审宪宫寻导属岛币帅师帘帐
+帮并广庄庆庐应庙废厅历严疗员侣脑肿脚脸许论设访证评识诉译词试话询语请读课谁谈谢让训议讯记
+讲运远过还边热灭独狮猪猎献环现珠宝蚕饰绝继纪纯纳纱纲纷纸纹线练组细终绍经结给络统绣续综绿缓
+缩网罗职联聪肃肠肤肾肿脑脚脸艺艾节芯坠垄庙废护报抬杯杰构板机栋栏标槽枪样梦检楼概欢歼毁氢氧
+类种变观规视亲近违运远过还连进运违迁逊迹园圆电击钉针钟钢钩银铁顾贱视览觉触词诉译试话询语
+请读课谁谈谢宾费贺贾资赏赐赠赢赵赶趋跃跄践蹲车轨转轮轻载较辅辆辈辉辞农连迟远违遗运这进
+远违运麦产苏码砖砚硕确碍礼秃私秋种积稳秽穷窍立竖竞笔简补装侧顶锐偿倾椭楼标栏桩槽梁榜脑
+临举渐浊测济浏洁洪涝洞津活派流浅浆浊济洋浏涤涨渐滚滤澜灭灯灵灾烂炉烦烧烨烂烀炼热爱牵牺
+特狮猎猪猫献玛珑玲珠玻瓶瓷甘甚生用电界监灭盆盈盗睁眯灭省真实瞩类纷纸线练组细终绍经结给
+络统绣续综绿缓缩网罗羊议讯记讲让训议质赚赛赢赶起超越跃跄践蹲车轨转轮轻载较辅辆辈辉
+"""
+def _mk_strict():
+    s = set()
+    for ch in "".join(_CANDIDATES.split()):
+        if _non_jis(ch):
+            s.add(ch)
+    for o in range(0x3400, 0x4DC0):   # CJK ext-A は日本語表記に通常使わない
+        s.add(chr(o))
+    for o in range(0xF900, 0xFB00):   # 互換表意文字
+        s.add(chr(o))
+    for o in range(0x20000, 0x30000): # CJK ext-B 以降
+        s.add(chr(o))
+    return s
+_CN_STRICT = _mk_strict()
+
 def find_cn(text: str, allow_in_quotes: bool = True):
     """(cn_hits, warn_hits) を返す。allow_in_quotes=True なら「…」内の命中は除外。"""
     scan = text
     if allow_in_quotes:
         scan = re.sub(r"「[^」]*」", lambda m: "".join(ch if ch.isascii() else " " for ch in m.group(0)), scan)
         scan = re.sub(r"『[^』]*』", lambda m: "".join(ch if ch.isascii() else " " for ch in m.group(0)), scan)
-    hits = [ch for ch in scan if ch in CN_CHARS]
+    hits = [ch for ch in scan if ch in _CN_STRICT]
+    rare = [ch for ch in scan if _non_jis(ch) and ch not in _CN_STRICT]
     warn = [ch for ch in scan if ch in WARN_CHARS]
     return hits, warn
 

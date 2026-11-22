@@ -14,6 +14,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import extract_yuragi_allusions as ex
 from cn_gate import find_cn
 
+
+def esc(t: str) -> str:
+    """frontmatter YAML 二重引用用エスケープ。"""
+    return str(t).replace("\\", "\\\\").replace('"', "'").replace("\n", " ")
+
 W = Path(ex.__file__).resolve().parent.parent
 J = W / "data" / "yuragi_works_judged.jsonl"
 OUT = W / "work/yuragi/L1/runs/20261122T2200_l1works/works"
@@ -90,8 +95,8 @@ def main():
                 fd.write(ref + "\n")
             continue
         plink = ""
-        lines = ["---", f'title: "{title}"', f'work: "{title}"', f'author: "{author}"',
-                 f'type: "{kind}"', "run: 20261122T2200_l1works", 'link_audit: "P2全件実読判定→機械照合"',
+        lines = ["---", f'title: "{esc(title)}"', f'work: "{esc(title)}"', f'author: "{esc(author)}"',
+                 f'type: "{esc(kind)}"', "run: 20261122T2200_l1works", 'link_audit: "P2全件実読判定→機械照合"',
                  "---", "", f"# {title}", "",
                  f"（作者: {author} ／ 类型: {kind} ／ 出典: {ref}）", "",
                  "## 冒頭（原文逐語・機械抽出）", "", "> " + head.replace("\n", "\n> "), "",
