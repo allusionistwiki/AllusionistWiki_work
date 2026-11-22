@@ -85,6 +85,9 @@ def main():
             for usage, qs in entries:
                 hits, _ = find_cn(usage)
                 qhits = sum(len(find_cn(q)[0]) for _, q in qs)
+                # メタ自己除外記述ゲート: usage に抽出対象外の自己判断が書かれた項目は記事化しない
+                if re.search(r"抽出対象外|対象外（一般名詞|抽出対象とはしない", usage):
+                    continue
                 # 引用逐語検証: 引用元 ref の原文（投稿 body or 篇全文）に逐語で存在すること
                 qs_ok = []
                 import unicodedata as _ud0
