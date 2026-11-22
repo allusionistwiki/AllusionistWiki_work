@@ -341,10 +341,18 @@ def main() -> int:
                 wentries.append((tm.group(1) if tm else p.stem,
                                   am.group(1) if am else "",
                                   ym.group(1) if ym else ""))
-        for p in sorted((L1 / "runs" / wrun / "index").glob("*.md")):
-            tm = re.search(r'title:\s*"([^"]+)"', p.read_bytes().decode("utf-8", "replace"))
-            emit(p, CONTENT / "works_index" / p.name, tm.group(1) if tm else p.stem,
-                 {"link_audit": wrun})
+        # 索引は完全再生成: site 全件走査の最新 index 供給 run のみ採用（旧ページ全掃除）
+        for _oldix in (CONTENT / "works_index").glob("*.md"):
+            _oldix.unlink()
+        for _ix_run in reversed(cands):
+            _id = L1 / "runs" / _ix_run / "index"
+            if not _id.is_dir():
+                continue
+            for p in sorted(_id.glob("*.md")):
+                tm = re.search(r'title:\s*"([^"]+)"', p.read_bytes().decode("utf-8", "replace"))
+                emit(p, CONTENT / "works_index" / p.name, tm.group(1) if tm else p.stem,
+                     {"link_audit": _ix_run})
+            break
         top = CONTENT / "works_top.md"
         idx_lines = ["---", 'title: "創作索引（トップ）"', "run: publish", "---", "",
                      "# 創作記述索引", "",
