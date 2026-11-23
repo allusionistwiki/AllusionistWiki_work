@@ -1,0 +1,76 @@
+{
+ "audit": "yuragi-site-constituent-audit",
+ "ts": "20261123T1247",
+ "audited_at": "2026-11-23 12:47 JST (cron yuragi 常時監査)",
+ "processes": {
+  "hermes_processes_json": {
+   "awiki2": 0,
+   "note": "空 []（稼働 background job なし＝チェーン完走・enrichment 32/32 done で起動要求なし）"
+  },
+  "strata": {
+   "port": 8080,
+   "health": "ok (GET /health 200)",
+   "service": "strata.exe pid 16252",
+   "model": "swift-1.5-iq3_xxs",
+   "n_ctx": 262144,
+   "note": "/props 認証付きで応答（api_key 保持）、/health 無認証 200 = サーバー生存"
+  }
+ },
+ "cn_scan": {
+  "root": "YuragiWiki/content",
+  "files": 18190,
+  "cn_total_body_stripped": 0,
+  "cn_strict_total": 0,
+  "nonjis_raw_total": 3,
+  "nonjis_raw_chars": {
+   "睪": 2,
+   "輭": 1
+  },
+  "nonjis_raw_locations": [
+   "allusion_entities/index.md:1423 [[allusion_entities/内田百輭|内田百]]",
+   "entities/絶対言語.md:98 [[works/角_羊_釆_睪|角-羊/釆-]]",
+   "entities_map/index.md:139 [[works/角_羊_釆_睪|角-羊/釆-]]"
+  ],
+  "verdict": "CN 簡体字専用混入 0（raw 3 件は 20261123T1136 監査と同一の [[wiki]] リンク先 Rare 漢字で簡体字専用字ならず、生成本文混入 0）",
+  "method": "frontmatter + 「」『』(嵌套対応) + fenced + inline code + HTML comment + [[wiki]] + md link 先 + URL を除外、cp932(JIS X0208) round-trip 可能＝共用字除外、的了叶马乌风飞书东车 明示除外、CJK ext-A/互換/ext-B は strict 扱い"
+ },
+ "git": {
+  "site": {
+   "repo": "allusionistwiki/YuragiWiki",
+   "HEAD_before": "efabb2f2e",
+   "origin_main_before": "efabb2f2e",
+   "porcelain": 0,
+   "content_md": 18190
+  },
+  "work": {
+   "repo": "allusionistwiki/AllusionistWiki_work",
+   "HEAD_before": "57cd1bbdc",
+   "origin_main_before": "57cd1bbdc",
+   "porcelain": 0
+  }
+ },
+ "ci": {
+  "latest_deploy_run_on_HEAD": {
+   "id": 45101275249,
+   "sha": "efabb2f2e",
+   "status": "completed",
+   "result": "success"
+  },
+  "recent_success_streak": 5
+ },
+ "cron": {
+  "jobs": 5,
+  "all_last_status_ok": true,
+  "delivery_errors": 0
+ },
+ "ledger": {
+  "yuragi_allud_batches": {
+   "total": 32,
+   "done": 32,
+   "running": 0
+  },
+  "entities_audit_run": "20261120T1730_l11en3aud judged 477/479（2 件未裁定は 20261123T1136 時と同一・増減なし）",
+  "L1_latest_run": "20261122T2400_l1works"
+ },
+ "verdict": "NORMAL: 異常なし（未コミット 0・CN 本文混入 0・稼働 job なしで停滞なし・CI success・cron 5/5 ok）"
+}
