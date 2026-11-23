@@ -1,0 +1,21 @@
+{
+ "run_id": "yuragi_site_audit_20261123T2206",
+ "scanned_at": "2026-11-23 22:06:14",
+ "cn_scan": {
+  "scanned_files": 18190,
+  "cn_total": 0,
+  "char_counts": {},
+  "top_files": {},
+  "files_with_hits": 0,
+  "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+quoted(nested)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets stripped; JP_SHARED(的了叶马乌风飞书东车〜々...) excluded",
+  "scanned_at": "2026-11-23 22:05:31"
+ },
+ "processes_running": 0,
+ "strata": "UP (127.0.0.1:8080 /health 200 status=ok)",
+ "entities_audit": "477/479 judged, pass_rate 1.0 (run 20261120T1730_l11en3aud, judged.jsonl unchanged since 2026-11-20 08:20 — audit complete at scope 477, no running jobs = steady state)",
+ "site_head": "9a7d887d2",
+ "site_dirty": 0,
+ "work_head": "79a411aba",
+ "work_dirty": 0,
+ "verdict": "OK: CN 0 hits (18190 files), site clean@9a7d887d2 (=origin/main), work clean@79a411aba (=origin/main), jobs_running=0, strata UP"
+}
