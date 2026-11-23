@@ -1,0 +1,115 @@
+{
+ "audit": "yuragi-site-constituent-audit",
+ "ts": "20261123T1136",
+ "audited_at": "2026-11-23 11:36 JST (cron yuragi 常時監査)",
+ "processes": {
+  "hermes_processes_json": {
+   "awiki2": 0,
+   "note": "空 []（稼働 background job なし＝チェーン完走状態）"
+  },
+  "strata": {
+   "port": 8080,
+   "health": "ok",
+   "service": "strata",
+   "model": "swift-1.5-iq3_xxs",
+   "loaded": true,
+   "max_context": 262144,
+   "engine_proc": "strata.exe pid 16252"
+  },
+  "tasklist": "strata.exe 稼働中"
+ },
+ "cn_scan": {
+  "root": "YuragiWiki/content",
+  "files": 18190,
+  "cn_total_body_stripped": 0,
+  "nonjis_raw_total": 3,
+  "nonjis_raw_chars": {
+   "睪": 2,
+   "輭": 1
+  },
+  "nonjis_raw_locations": [
+   "allusion_entities/index.md:1423 [[allusion_entities/内田百輭|内田百]]",
+   "entities/絶対言語.md:98 [[works/角_羊_釆_睪|角-羊/釆-]]",
+   "entities_map/index.md:139 [[works/角_羊_釆_睪|角-羊/釆-]]"
+  ],
+  "verdict": "CN 専用混入 0（raw 3 件はすべて [[wiki]] リンク先の Rare 漢字で簡体字専用字ならず、生成本文は 0）",
+  "method": "「」quote + fenced + html comment + [[wiki]] + md link + inline code 除外、cp932 変換可能（JIS 共用）除外、的了叶马乌风飞书东车 明示除外"
+ },
+ "git": {
+  "site": {
+   "repo": "allusionistwiki/YuragiWiki",
+   "HEAD": "f12626c83",
+   "origin_main": "f12626c83",
+   "porcelain": 0,
+   "content_md": 18190
+  },
+  "work": {
+   "repo": "allusionistwiki/AllusionistWiki_work",
+   "HEAD": "12f9ea9e0",
+   "origin_main": "12f9ea9e0",
+   "porcelain": 0
+  }
+ },
+ "ci": {
+  "latest_deploy_run": {
+   "id": 45095999510,
+   "sha": "f12626c83",
+   "result": "success"
+  },
+  "recent_success_streak": 5
+ },
+ "jobs": {
+  "cron": [
+   {
+    "id": "445137cbb9da",
+    "name": "lab-report-collector",
+    "last_run": "11:11",
+    "delivery_error": null
+   },
+   {
+    "id": "a1acba176947",
+    "name": "lab-tally-collector-10m",
+    "last_run": "11:15",
+    "delivery_error": null
+   },
+   {
+    "id": "70819f30c382",
+    "name": "wiki1-tally-collector-10m",
+    "last_run": "11:14",
+    "delivery_error": null
+   },
+   {
+    "id": "2de2865ff014",
+    "name": "yuragi-longjob-check",
+    "last_run": "10:41",
+    "delivery_error": null
+   },
+   {
+    "id": "ab40e55c056f",
+    "name": "YuragiWiki 9日enrichment 現状確認(30m)",
+    "last_run": "11:34",
+    "delivery_error": null
+   }
+  ],
+  "lane_A1_batches": {
+   "done": 32,
+   "running": 0,
+   "queued": 0
+  },
+  "last_l1_run_mtime": "2026-11-22 21:56 (20261122T2400_l1works)＝チェーン完走、停滞なし",
+  "last_chain_log": "log_chainSiteConverge3_20261123.txt 06:43 publish_rc=0 / linkfix_rc=0 完走"
+ },
+ "site_face": {
+  "works": 8172,
+  "entities": 3061,
+  "entities_map": 64,
+  "allusion_entities": 3534,
+  "topics": 429,
+  "authors": 96,
+  "units": 185,
+  "allusions": 175,
+  "flicker": 20,
+  "full": 596
+ },
+ "verdict": "正常（CN 混入 0・未コミット 0・job 停滞なし・CI success・Strata ok）"
+}
