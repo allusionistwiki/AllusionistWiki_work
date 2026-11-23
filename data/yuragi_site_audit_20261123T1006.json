@@ -1,0 +1,117 @@
+{
+ "audit": "yuragi-site-constituent-audit",
+ "ts": "20261123T1006",
+ "audited_at": "2026-11-23 10:06 JST (cron yuragi 常時監査)",
+ "processes": {
+  "hermes_processes_json": {
+   "default": 0,
+   "awiki2": 0,
+   "garubase": 0
+  },
+  "allusionist_wiki_ghost_entry": "profiles/allusionist-wiki/processes.json に 1 件（status 非 running）＝幽霊継続、対応プロセス実行中なし",
+  "lane_processes": "extract/publish/quartz build ノード 0（全チェーン完走後）、tasklist python.exe 7 件は Strata/システム系",
+  "strata": {
+   "port": 8080,
+   "health": 200,
+   "service": "strata",
+   "model": "swift-1.5-iq3_xxs",
+   "loaded": true,
+   "engine_proc": "strata.exe pid 16252",
+   "max_context": 262144
+  }
+ },
+ "cn_scan": {
+  "root": "YuragiWiki/content",
+  "files": 18190,
+  "cn_total_body_stripped": 0,
+  "nonjis_raw_total": 3,
+  "nonjis_raw_chars": {
+   "睪": 2,
+   "輭": 1
+  },
+  "nonjis_raw_locations": [
+   "entities/絶対言語.md:98 [[works/角_羊_釆_睪|…]]",
+   "allusion_entities/index.md:1423 [[allusion_entities/内田百輭|…]]",
+   "entities_map/index.md:139 [[works/角_羊_釆_睪|…]]"
+  ],
+  "warn_de_stripped_body": 14841,
+  "gate_selftest": "cn_gate._non_jis: 实/种/侧=True, 的/马/东=False（pass）",
+  "method": "quotes(「」『』【】)+fenced code+html comments+[[wiki]]+md links stripped; cp932-encodable (JIS shared) excluded; explicit shared 的了叶马乌风飞书东车 excluded",
+  "scanned_at": "2026-11-23 10:03:09",
+  "verdict": "CN 専用混入 0（raw 3 件はすべて [[wiki]] リンク内の Rare 漢字で簡体字専用字ならず、本文生成文は 0）"
+ },
+ "git": {
+  "site": {
+   "repo": "allusionistwiki/YuragiWiki",
+   "HEAD": "e25fe5463",
+   "origin_main": "e25fe5463",
+   "porcelain": 0,
+   "content_md_tracked": 18176,
+   "commit": "e25fe5463 audit: yuragi site 常時監査 20261123T0929"
+  },
+  "work": {
+   "repo": "allusionistwiki/AllusionistWiki_work",
+   "HEAD": "29cd2f8b8",
+   "origin_main": "29cd2f8b8",
+   "porcelain": 0,
+   "commit": "29cd2f8b8 audit: yuragi site 常時監査 20261123T0712"
+  }
+ },
+ "ci": {
+  "latest_deploy_run": {
+   "id": 45089121514,
+   "sha": "e25fe5463",
+   "result": "success"
+  },
+  "recent_failures": [
+   {
+    "id": 45070737369,
+    "sha": "5bd6c4857",
+    "result": "failure",
+    "note": "2026-11-22 の html comment + 多重 CR 事由、恒久安全網で解消済み（4f3a5e700 以降 success 3 連発）"
+   }
+  ]
+ },
+ "jobs": {
+  "cron": [
+   {
+    "id": "445137cbb9da",
+    "name": "lab-report-collector",
+    "last_run": "09:09",
+    "status": "ok",
+    "delivery_error": null
+   },
+   {
+    "id": "a1acba176947",
+    "name": "lab-tally-collector-10m",
+    "last_run": "09:58",
+    "status": "ok",
+    "delivery_error": null
+   },
+   {
+    "id": "70819f30c382",
+    "name": "wiki1-tally-collector-10m",
+    "last_run": "09:57",
+    "status": "ok",
+    "delivery_error": null
+   },
+   {
+    "id": "2de2865ff014",
+    "name": "yuragi-longjob-check",
+    "last_run": "09:30",
+    "status": "ok",
+    "delivery_error": null
+   },
+   {
+    "id": "ab40e55c056f",
+    "name": "YuragiWiki 9日enrichment 現状確認(30m)",
+    "last_run": "09:48",
+    "status": "ok",
+    "delivery_error": null
+   }
+  ],
+  "entities_audit": "run 20261120T1730_l11en3aud: judged 477 件／audit.json pass_rate 1.0・flagged 0（yuragi_status.sh の 479 分母は定数表記、run 完走済み）",
+  "last_l1_run_mtime": "2026-11-22 21:56 (20261122T2400_l1works)、稼働 job なし＝チェーン完走状態"
+ },
+ "verdict": "正常（CN 混入 0・未コミット 0・job 停滞なし・CI success）"
+}
