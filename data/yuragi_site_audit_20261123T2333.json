@@ -1,0 +1,24 @@
+{
+ "audit_at": "2026-11-23 23:33 JST (cron yuragi 常時監査)",
+ "strata": "up (127.0.0.1:8080 /health=ok, swift-1.5-iq3_xxs loaded, listener pid 35084 python.exe)",
+ "processes_json": "awiki2=0 running。allusionist-wiki に l2_adjudicate_monitor(10月 run 20261024T1608) の台帳エントリ 1 件残存するが pid 18672 は既に消滅＝監視対象完走済みの stale 台帳、実稼働 job なし",
+ "cn_rescan": {
+  "root": "YuragiWiki/content",
+  "scanned_files": 18190,
+  "cn_total": 0,
+  "files_with_hits": 0,
+  "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+引用(nested「」『』)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets 除去; 共有 的了叶马乌风飞书东车〜々 除外",
+  "result_committed": "YuragiWiki fcd89528d (cn_scan_latest.json 23:31 スキャン)"
+ },
+ "site_git": {
+  "repo": "YuragiWiki", "head": "fcd89528d", "head_time": "2026-11-23 23:33",
+  "ahead_of_origin": 0, "uncommitted": 0,
+  "status": "正常化: 前監査の 2,428 件未コミットは 21:31 の 9a7d887d2 で解消済み（Lane P4 供給分コミット完了）。残った cn_scan_latest.json のみ当監査でコミット"
+ },
+ "work_git": {
+  "repo": "AllusionistWiki_work", "head": "2fcaae41b", "head_time": "2026-11-23 22:06",
+  "ahead_of_origin": 0, "uncommitted": 0,
+  "status": "正常化: 前監査の publish_yuragi_site.py 未コミットは解消済み"
+ },
+ "prev_resubmitted_items": "20261123T0007 監査でチェーン側へ再提出した 2 件（site publish コミット／publish script コミット）は本日完了を確認。追加の再提出なし"
+}
