@@ -1,1 +1,2 @@
 - 2026-11-23 20:58 常時監査: CN 再スキャン 18,190 件 混入 0（cn_scan 20261123T2058 基準Method）/ processes 空・Strata health 200・site porcelain 0 HEAD=eebeab481=origin・work porcelain 0 HEAD=origin・cron 5/5 last_status ok
+- 2026-11-24 02:14 常時監査: CN 再スキャン 18,190 件 混入 0（cn_scan_latest 20261124T0214 更新・site 065b2fdc4 push 済）/ processes 空（稼働 job なし＝停滞なし）・Strata health 200 loaded・site porcelain 0 HEAD=origin・work porcelain 0 HEAD=origin
