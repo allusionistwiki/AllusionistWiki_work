@@ -1,0 +1,20 @@
+{
+ "audit_at": "20261123T1625",
+ "jobs_running": 0,
+ "processes_json": "empty (no running jobs, no stall)",
+ "strata": "alive: strata.exe pid 16252; 127.0.0.1:8080 (listener python.exe pid 28300) responds 401 auth = server up",
+ "cn_scan": {
+  "scanned_files": 18190,
+  "cn_total": 0,
+  "char_counts": {},
+  "top_files": {},
+  "chars_hit": [],
+  "method": "CJK ideographs >=U+2E80; frontmatter+quoted(nested 「」『』)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets stripped; cp932 round-trip (JIS shared) excluded; shared 的了叶马乌风飞书东车 + U+301C excluded",
+  "scanned_at": "2026-11-23 16:25:03"
+ },
+ "site_head": "4eaf33e2f == origin/main, porcelain 0 (audit commit incl.)",
+ "work_head": "15be6eb46 == origin/main, porcelain 0 (audit commit incl.)",
+ "cron": "5/5 ok, no delivery errors, all next_run_at future",
+ "enrichment_ledger": "yuragi_allud_batches: 32/32 done",
+ "anomalies": []
+}
