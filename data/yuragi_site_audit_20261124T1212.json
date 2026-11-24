@@ -1,0 +1,23 @@
+{
+ "audit_at": "2026-11-24 12:12 JST (cron yuragi 常時監査)",
+ "strata": "up (127.0.0.1:8080 /health=200, /v1/models=auth-gate 応答)",
+ "processes_json": "awiki2=0 running・default=0（実稼働 job なし・停滞検出なし）",
+ "cn_rescan": {
+  "root": "YuragiWiki/content",
+  "scanned_files": 18190,
+  "cn_total": 0,
+  "files_with_hits": 0,
+  "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+引用(nested「」『』)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets 除去; 共有 的了叶马乌风飞书东车〜々 除外",
+  "result_committed": "YuragiWiki 67ebf1d43 (cn_scan_latest.json 12:12 スキャン) pushed"
+ },
+ "site_git": {
+  "repo": "YuragiWiki", "head_before": "782bda07f", "head_after": "67ebf1d43",
+  "ahead_of_origin": 0, "uncommitted": 0,
+  "status": "正常。cn_scan_latest.json のみ差分（当監査スキャン分）→ コミット・push 済み"
+ },
+ "work_git": {
+  "repo": "AllusionistWiki_work", "head": "8338da5ae→(当監査コミット)", "ahead_of_origin": 0, "uncommitted": 0,
+  "status": "正常。最新台帳 latest.txt=20261114T1400_v104（変更なし）＝生成チェーン稼働区間なし（意図どおり）"
+ },
+ "prev_resubmitted_items": "追加の再提出なし（前監査 09:12 以降 site/work ともに異常検出ゼロ）"
+}
