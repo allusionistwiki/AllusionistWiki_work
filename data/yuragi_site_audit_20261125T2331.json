@@ -1,0 +1,8 @@
+{
+  "audit": "yuragi 常時監査 20261125T2331",
+  "cn_scan": {"files": 18190, "cn_total": 0, "cn_strict": 0, "non_jis_rare": 0, "gate": "scan_yuragi_site_cn.py 正規ゲート", "site_commit_recorded": true, "note": "Temp 側 ad-hoc list の 气 3 hit（カーズガン系 3 ページ）は引用「」内原文逐語（jbbs/movie-7039/036 thread.json に同字実在）＝混入に非ず、正規ゲート 0 確認（22:51 判定踏襲）"},
+  "processes": {"awiki2": "空（稼働 job なし＝停滞なし）", "chains": "background+notify チェーン未稼働＝チャット側起動が恒久方針"},
+  "strata": {"health": 200, "loaded": true, "model": "swift-1.5-iq3_xxs", "endpoint": "127.0.0.1:8080"},
+  "git": {"site": "porcelain 0, HEAD=origin(5b5219041), ahead 0 behind 0", "work": "porcelain 0, HEAD=origin(12b6fc35d), ahead 0 behind 0"},
+  "anomalies": []
+}
