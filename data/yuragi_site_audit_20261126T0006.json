@@ -1,0 +1,27 @@
+{
+  "audit": "yuragi 常時監査 20261126T0006",
+  "cn_scan": {
+    "files": 18190,
+    "cn_total": 0,
+    "cn_strict": 0,
+    "non_jis_rare": 0,
+    "gate": "scan_yuragi_site_cn.py 正規ゲート",
+    "site_commit_recorded": true,
+    "note": "cn_scan_latest.json 更新し site へコミット e02cb1e13（20261126T0006）"
+  },
+  "processes": {
+    "awiki2": "空（稼働 job なし＝停滞なし）",
+    "chains": "background+notify チェーン未稼働＝チャット側起動が恒久方針"
+  },
+  "strata": {
+    "health": 200,
+    "loaded": true,
+    "model": "swift-1.5-iq3_xxs",
+    "endpoint": "127.0.0.1:8080"
+  },
+  "git": {
+    "site": "porcelain 0, 監査コミット e02cb1e13 push 後 origin 一致",
+    "work": "porcelain 0（本監査コミット後 push 後 origin 一致）"
+  },
+  "anomalies": []
+}
