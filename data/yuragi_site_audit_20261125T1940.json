@@ -1,0 +1,17 @@
+{
+ "scanned_files": 18190,
+ "cn_total": 0,
+ "cn_strict_total": 0,
+ "non_jis_rare_total": 0,
+ "char_counts": {},
+ "top_files": [],
+ "files_with_hits": 0,
+ "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+quoted(nested)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets stripped; JP_SHARED excluded",
+ "scanned_at": "2026-11-25 19:40:02",
+ "site_commit": "pre-rescan 495179515 (origin一致); rescan 後 commit+push",
+ "work_commit": "9f7320e0d clean origin一致",
+ "processes_awiki2": 0,
+ "ledger": "yuragi_allud_batches 32/32 done（LaneA1 収束のまま・活性 job なし＝停滞なし）",
+ "strata_health": "127.0.0.1:8080 応答あり（/v1/models は auth error＝サーバ稼働、本セッション同一 backend 起動）",
+ "note": "19:02 の CN rescan は site 495179515 にコミット済だが AUDIT_TRAIL 行の追記なし（台帳 JSON も欠）。本記録で系列継続。"
+}
