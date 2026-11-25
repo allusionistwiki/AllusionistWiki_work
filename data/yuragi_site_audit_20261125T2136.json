@@ -1,0 +1,17 @@
+{
+ "scanned_files": 18190,
+ "cn_total": 0,
+ "cn_strict_total": 0,
+ "non_jis_rare_total": 0,
+ "char_counts": {},
+ "top_files": [],
+ "files_with_hits": 0,
+ "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+quoted(nested)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets stripped; JP_SHARED excluded",
+ "scanned_at": "2026-11-25 21:35:33",
+ "site_commit": "site 0909fa937 (origin一致) → rescan commit 0165df2d5 push 済 origin 一致確認",
+ "work_commit": "e3a3bc87a clean origin一致（監査コミットは本記録で作成）",
+ "processes_awiki2": 0,
+ "ledger": "yuragi_allud_batches 32/32 done（LaneA1 収束のまま・活性 job なし＝停滞なし）",
+ "strata_health": "health 200（127.0.0.1:8080 起動確認、/v1/models は auth 応答＝サーバ起動中、strata.exe pid 34028）",
+ "note": "全項目正常（CN 0/18190・porcelain 0・awiki2 processes 空・Strata health 200）。allusionist-wiki profiles/processes.json に 10/24 起動の l2_adjudicate_monitor レジストリ残存（PID 18672 消滅済・台帳 32/32 done＝追跡対象は収束済み、実稼働なし＝停滞ではない）。異常なし＝チャット側配信なし。"
+}
