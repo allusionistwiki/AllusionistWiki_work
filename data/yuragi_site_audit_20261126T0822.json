@@ -1,0 +1,25 @@
+{
+  "audit": "yuragi 常時監査 20261126T0822",
+  "cn_scan": {
+    "files": 18190,
+    "cn_total": 0,
+    "cn_strict": 0,
+    "non_jis_rare": 0,
+    "gate": "scan_yuragi_site_cn.py 正規ゲート（frontmatter+引用「」『』逐語+code+html+URL+wiki-link 除去、JP_SHARED 除外）",
+    "site_commit_recorded": true,
+    "note": "cn_scan_latest.json 更新し site へコミット c42b535ed（20261126T0822）push 済み"
+  },
+  "processes": {
+    "awiki2": "空（稼働 job なし＝停滞なし）",
+    "chains": "background+notify チェーン未稼働",
+    "note": "allusionist-wiki プロファイルの proc_04dd0d6db1c5（l2_adjudicate_monitor, 20261024）は PID 18672 消滅を確認＝プロセスは死亡済み、台帳の退役漏れのみ（実行中停滞ではない）"
+  },
+  "strata": { "health": 200, "endpoint": "127.0.0.1:8080", "model": "swift-1.5-iq3_xxs", "loaded": true },
+  "git": {
+    "site": "porcelain 0；修復前 origin/main..HEAD=2（0434/0518 系監査コミットの push 滞留）→ 本監査で push、HEAD c42b535ed = origin/main",
+    "work": "porcelain 0；修復前 origin/main..HEAD=4（0434〜0716 監査コミットの push 滞留）→ 本監査コミットととも push"
+  },
+  "anomalies": [
+    "push 滞留: site 2 / work 4 コミット（04:34 台の監査以来 push 未実施、commit 自体と内容は正常）→ 20261126T0822 監査で両 repo push 完了、origin/main..HEAD=0 を確認"
+  ]
+}
