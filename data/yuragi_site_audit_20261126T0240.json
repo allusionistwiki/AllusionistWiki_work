@@ -1,0 +1,23 @@
+{
+  "audit": "yuragi 常時監査 20261126T0240",
+  "cn_scan": {
+    "files": 18190,
+    "cn_total": 0,
+    "cn_strict": 0,
+    "non_jis_rare": 0,
+    "gate": "scan_yuragi_site_cn.py 正規ゲート",
+    "site_commit_recorded": true,
+    "note": "cn_scan_latest.json 更新し site へコミット 1647c27b6（20261126T0240）push 済み"
+  },
+  "processes": {
+    "awiki2": "空（稼働 job なし＝停滞なし）",
+    "chains": "background+notify チェーン未稼働",
+    "note": "allusionist-wiki プロファイルに proc_04dd0d6db1c5（l2_adjudicate_monitor, 20261024）の台帳残存あり。ログ側は全 shard finished done 記録済みで監視は完了条件を満たす＝実行中停滞ではない（台帳の退役漏れ）"
+  },
+  "strata": { "health": 200, "endpoint": "127.0.0.1:8080", "recent_connections_active": true },
+  "git": {
+    "site": "porcelain 0, HEAD 1647c27b6 = origin/main",
+    "work": "porcelain 0, HEAD 2c7c00f4a = origin/main（本監査コミット後 push）"
+  },
+  "anomalies": []
+}
