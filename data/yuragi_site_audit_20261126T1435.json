@@ -1,0 +1,17 @@
+{
+ "scanned_files": 18190,
+ "cn_total": 0,
+ "cn_strict_total": 0,
+ "non_jis_rare_total": 0,
+ "char_counts": {},
+ "top_files": [],
+ "files_with_hits": 0,
+ "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+quoted(nested)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets stripped; JP_SHARED excluded",
+ "scanned_at": "2026-11-26 14:35:32",
+ "audit": "yuragi-constant-audit",
+ "head_site": "bd65e1e843821daf74a983747d04f1aa3c54d420",
+ "head_work": "dae950ac9853d2070e4840b43d12e67d5bb0ef84",
+ "processes": "awiki2 empty; allusionist-wiki 1 stale registry entry pid 18672 confirmed dead via tasklist (l2_adjudicate monitor, finished)",
+ "strata": "health 200, 127.0.0.1:8080; /v1/models 401 auth = serving",
+ "git": "site porcelain 1 (cn_scan_latest.json, committed this audit); work porcelain 0; both HEAD=origin after push"
+}
