@@ -1,0 +1,23 @@
+{
+ "audit": "yuragi 常時監査",
+ "ts": "2026-11-26 11:51 JST",
+ "cn_scan": {
+  "scanned_files": 18190,
+  "cn_total": 0,
+  "cn_strict_total": 0,
+  "non_jis_rare_total": 0,
+  "char_counts": {},
+  "top_files": [],
+  "files_with_hits": 0,
+  "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+quoted(nested)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets stripped; JP_SHARED excluded",
+  "scanned_at": "2026-11-26 11:51:05"
+ },
+ "processes": "awiki2 processes.json 空（稼働 job なし＝停滞なし）",
+ "strata": "health 200 (127.0.0.1:8080 稼働)",
+ "git": {
+  "site": "porcelain 0 HEAD=655721b39 origin 一致 0/0",
+  "work": "porcelain 0 HEAD=60a84e7c5 origin 一致"
+ },
+ "cron": "awiki2 全 job active・last run ok（yuragi-longjob-check 01:20 失敗は recovery 済・実行中 run は当監査系列）",
+ "verdict": "異常なし"
+}
