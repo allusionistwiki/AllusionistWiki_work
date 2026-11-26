@@ -1,0 +1,9 @@
+{
+  "audit": "yuragi 常時監査",
+  "ts": "2026-11-26 12:24",
+  "cn_scan": {"tool": "scripts/scan_yuragi_site_cn.py", "scanned_files": 18190, "cn_total": 0, "cn_strict_total": 0, "non_jis_rare_total": 0, "site_commit": "942419295"},
+  "processes": "awiki2 processes.json 空（稼働 job なし＝停滞なし）",
+  "strata": "health 200, /v1/models 401 auth（起動中, 127.0.0.1:8080）",
+  "git": {"site": "porcelain 0, HEAD=origin 0/0", "work": "commit+push 後 0/0"},
+  "anomalies": []
+}
