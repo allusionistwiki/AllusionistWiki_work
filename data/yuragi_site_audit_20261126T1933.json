@@ -1,0 +1,26 @@
+{
+ "scanned_files": 18190,
+ "cn_strict_hits": 0,
+ "method": "independent cp932 round-trip on content/*.md, quoted「」stripped, JP_SHARED(的了叶马乌风飞车书东车) excluded",
+ "non_cjk_symbols_observed": {
+  "U+2014": 6964,
+  "U+2588": 112,
+  "U+2022": 2,
+  "U+26AB": 4,
+  "U+263B": 4,
+  "U+2194": 3,
+  "U+2284": 1,
+  "U+25E6": 1
+ },
+ "rare_non_simplified_cjk": {
+  "U+776A 睪": 2,
+  "U+8F2D 輭": 1,
+  "note": "both in [[wiki]] link targets only (角-羊/釆-睪 title, 内田百輭); gate-stripped class, not 簡体字"
+ },
+ "strata_health": "ok (swift-1.5-iq3_xxs loaded, max_context 262144)",
+ "processes_json": "awiki2 profile list empty — no running/stalled jobs",
+ "site_head": "YuragiWiki a141050fa clean, main==origin/main (2026-11-26 18:59)",
+ "work_head": "AllusionistWiki_work 7c207a88c clean, main==origin/main (2026-11-26 15:11)",
+ "verdict": "clean",
+ "scanned_at": "2026-11-26 19:33:01"
+}
