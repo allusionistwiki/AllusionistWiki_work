@@ -1,0 +1,28 @@
+{
+  "audit": "yuragi 常時監査 20261126T1117",
+  "cn_scan": {
+    "files": 18190,
+    "cn_total": 0,
+    "cn_strict": 0,
+    "non_jis_rare": 0,
+    "gate": "scan_yuragi_site_cn.py 正規ゲート（frontmatter+引用「」『』逐語+code+html+URL+wiki-link 除去、JP_SHARED 除外）",
+    "site_commit_recorded": true,
+    "note": "cn_scan_latest.json 更新し site へコミット（20261126T1117）"
+  },
+  "processes": {
+    "awiki2": "空（稼働 job なし＝停滞なし）",
+    "global": "空",
+    "chains": "background+notify チェーン未稼働"
+  },
+  "strata": {
+    "health": "ok",
+    "endpoint": "127.0.0.1:8080",
+    "model": "swift-1.5-iq3_xxs",
+    "loaded": true
+  },
+  "git": {
+    "site": "porcelain 0；HEAD 94426fe09 = origin/main（push 滞留 0）",
+    "work": "porcelain 0；HEAD 9b6d18d27 = origin/main（push 滞留 0）"
+  },
+  "anomalies": []
+}
