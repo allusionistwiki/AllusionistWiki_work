@@ -1,0 +1,28 @@
+{
+ "scanned_files": 18190,
+ "cn_total": 0,
+ "cn_strict_total": 0,
+ "non_jis_rare_total": 0,
+ "char_counts": {},
+ "top_files": [],
+ "files_with_hits": 0,
+ "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+quoted(nested)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets stripped; JP_SHARED excluded",
+ "scanned_at": "2026-11-27 20:40:42",
+ "ad_hoc_cn_list": {
+  "set": "_CN_STRICT + 气",
+  "chars": {
+   "气": 4
+  },
+  "files": [
+   "entities/カーズガン.md (4 箇所 L27/L36/L41/L50, prose 非引用 = 実違反、1043→1118→1154 と同一のまま未施 → chain 側再提出継続)"
+  ]
+ },
+ "audit": {
+  "processes_json": "awiki2 processes.json: [] running 0（停滞なし・background+notify チェーン未稼働＝チャット側起動が恒久方針）",
+  "strata_health": "GET /health 200（127.0.0.1:8080, /props 401 auth＝起動中）",
+  "site_head_before": "3ebad6050 clean → 本監査で 38e8200fc (cn_scan_latest.json) commit+push, origin 一致 0/0",
+  "work_head_before": "14e8842ba clean",
+  "series_note": "18:31/19:35/20:08 の site 側 rescan コミット（35d80240a/82a17ee3e/3ebad6050）は台帳 JSON・AUDIT_TRAIL 行欠記（実監査は実行済・clean）。本行で系列補完。",
+  "classification": "正規ゲート CN 0 正常。既知の実残存違反は entities/カーズガン.md の 气人 4 箇所のみ（chain 側修正未施・継続再提出）。"
+ }
+}
