@@ -1,0 +1,28 @@
+{
+ "scanned_files": 18190,
+ "cn_total": 0,
+ "cn_strict_total": 0,
+ "non_jis_rare_total": 0,
+ "char_counts": {},
+ "top_files": [],
+ "files_with_hits": 0,
+ "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+quoted(nested)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets stripped; JP_SHARED excluded",
+ "scanned_at": "2026-11-27 11:18:49",
+ "ad_hoc_cn_list": {
+  "set": "_CN_STRICT + 气 (气 passes cp932 round-trip so formal gate excludes it)",
+  "chars": { "气": 6 },
+  "files": [
+   "entities/カーズガン.md (4 occurrences: L27/L36/L41/L50, prose, unquoted)",
+   "works/カーズガンの種類と基人のカーズガン.md (L32 blockquote verbatim YJ-T036#6)",
+   "works/紀神設定_2.md (L60 verbatim reproduction of YJ-T036#6 post body)"
+  ]
+ },
+ "audit": {
+  "processes_json": "empty (awiki2; no active/stalled jobs)",
+  "strata_health": 200,
+  "site_head": "6b2ad246c (this audit; d30658cdf before, clean, sync origin)",
+  "work_head": "c77c59fba (clean before this audit)",
+  "classification": "works 2 files = 原文逐語引用 (blockquote/post-body verbatim) -> exempt. entities/カーズガン.md = 气人 4箇所 prose 非引用 -> 実違反、chain 側修正未施（20261127T1043 audit の指摘そのまま残存、箇所数は 1→4 として確認: L27/L41 の5種類列挙 + L36/L50 見出し文）。気→「气人」括弧化 or 気 への正規化が必要。",
+  "note": "cn_scan_latest.json updated on site repo + pushed (formal gate 0 confirmed)."
+ }
+}
