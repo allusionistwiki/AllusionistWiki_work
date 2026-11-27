@@ -1,0 +1,29 @@
+{
+ "scanned_files": 18190,
+ "cn_total": 0,
+ "cn_strict_total": 0,
+ "non_jis_rare_total": 0,
+ "char_counts": {},
+ "files_with_hits": 0,
+ "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+quoted(nested)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets stripped; JP_SHARED excluded",
+ "scanned_at": "2026-11-27 11:54:34",
+ "ad_hoc_cn_list": {
+  "set": "_CN_STRICT + 气",
+  "chars": {
+   "气": 6
+  },
+  "files": [
+   "entities/カーズガン.md (4 箇所 L27/L36/L41/L50, prose 非引用 = 実違反、1043→1118 と同一のまま未施 → chain 側再提出継続)",
+   "works/カーズガンの種類と基人のカーズガン.md (L32 原文逐語引用 → exempt)",
+   "works/紀神設定_2.md (L60 YJ-T036#6 post 本文逐語再現 → exempt)"
+  ]
+ },
+ "link_target_glyph_note": "正規ゲート対象外（[[wiki]] link target 内）の CJK 異字体残存: works/角_羊_釆_睪.md の stem U+776A ×2（entities/絶対言語.md L98・entities_map/index.md L139 の link target）、allusion_entities/内田百輭.md の stem U+8F2D（allusion_entities/index.md L1423）。link 実在一致で解決済（linkfix 異字体ペア canonical 面）。body 本文・原文 corpus には該当ゼロ。",
+ "audit": {
+  "processes_json": "awiki2 processes.json: running 0（停滞なし）",
+  "strata_health": "GET /health 200 {status ok, model swift-1.5-iq3_xxs, loaded true, service strata}",
+  "site_head_before": "6b2ad246c clean → 本監査で 37802cb54 (cn_scan_latest.json) commit+push",
+  "work_head_before": "833c80bb7 clean",
+  "classification": "正規ゲート CN 0 正常。実残存違反は entities/カーズガン.md の 气人 4 箇所のみ（chain 側修正未施・継続再提出）。"
+ }
+}
