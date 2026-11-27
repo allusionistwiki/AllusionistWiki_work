@@ -1,0 +1,18 @@
+{
+ "scanned_files": 18190,
+ "cn_total": 0,
+ "cn_strict_total": 0,
+ "non_jis_rare_total": 0,
+ "char_counts": {},
+ "top_files": [],
+ "files_with_hits": 0,
+ "method": "cn_gate._CN_STRICT + cp932 round-trip; frontmatter+quoted(nested)+fenced/inline code+html comments/tags+URL+[[wiki]]+md link targets stripped; JP_SHARED excluded",
+ "scanned_at": "2026-11-27 10:09:02",
+ "audit": {
+  "processes_json": "empty (awiki2; no active jobs, no stalled jobs)",
+  "strata_health": 200,
+  "site_head": "5fb66846b1b38b3d882330104f6f53de1223661c clean (this scan's cn_scan_latest.json committed+pushed by this audit)",
+  "work_head": "752ceb32d3faa8e8ea1c8c2564f413cb09dacbcf clean before this audit",
+  "note": "ad-hoc cn_scan.py 3 hits (气人 in verbatim original quotes in HTML comments/[[wiki]] link targets of カーズガン pages) -> excluded by formal gate, same as 09:04 audit"
+ }
+}
